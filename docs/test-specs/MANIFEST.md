@@ -13,6 +13,7 @@ implementation work driven by the corresponding plan.
 | TS-004 | [TS-004-voice-card-protocol.md](TS-004-voice-card-protocol.md) | Sonnet composition step — voice card protocol conformance | LLM-as-judge rubric scenarios |
 | TS-005 | [TS-005-end-to-end-pipeline-smoke.md](TS-005-end-to-end-pipeline-smoke.md) | Full Phase 1-4 pipeline | Integration / smoke against the six build-kit sanity questions |
 | TS-006 | [TS-006-smoke-test-questions.md](TS-006-smoke-test-questions.md) | Full pipeline against 25 in-corpus + 5 adversarial questions | Integration / smoke (with [JSON sidecar](TS-006-smoke-test-questions.json) for the runner) |
+| TS-007 | [TS-007-premise-gate-questions.json](TS-007-premise-gate-questions.json) | `app/premise_gate.py` — 35 questions whose premise the corpus cannot answer, and 30 it must still answer | Executable question set (`tests/test_premise_gate.py`, `scripts/gate_audit.py`); no prose spec |
 
 ## How to use these specs
 

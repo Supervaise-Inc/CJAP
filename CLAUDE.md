@@ -44,10 +44,10 @@ appear later, they take precedence over implementation docs for
 
 | Path | Purpose | MANIFEST |
 |---|---|---|
-| [`app/`](app/) | The runtime. **`main_voice_robot.py` is what `supervaise.service` actually runs** (mic, wake word, turn loop, gestures, floor-lease client, playback). `answer_pipeline.py` is the router/context/composer; `speech_engines.py` STT+TTS; `speech_streaming.py` per-sentence synthesis and captions; `answer_gate.py` the deterministic output gates; `personas.py` the cjap/host split; `voice_vad.py` and `voice_identity.py` the post-capture gates. Reads corpus from `../corpus/`. | [app/MANIFEST.md](app/MANIFEST.md) |
+| [`app/`](app/) | The runtime. **`main_voice_robot.py` is what `supervaise.service` actually runs** (mic, wake word, turn loop, gestures, floor-lease client, playback). `answer_pipeline.py` is the router/context/composer; `speech_engines.py` STT+TTS; `speech_streaming.py` per-sentence synthesis and captions; `answer_gate.py` the deterministic output gates and `premise_gate.py` the input one (an unanswerable premise is declined before the composer runs); `personas.py` the cjap/host split; `voice_vad.py` and `voice_identity.py` the post-capture gates. Reads corpus from `../corpus/`. | [app/MANIFEST.md](app/MANIFEST.md) |
 | [`dashboard/`](dashboard/) | The port-8080 maintenance dashboard (stdlib, system python3; `pi-dashboard.service`). `/maintain`, `/audience`, `/event`, `/face-avatar` and, since 2026-09-10, the **operator console** `/console` — `console.py` holds the one-mic floor lease, mode/profile config resolution and the journal; `ui_page_console.py` is the page. `assets/` (LiveAvatar key) and `certs/` are git-ignored. `~/pi_dashboard` is a symlink here. | — |
 | [`config/modes/`](config/modes/) | Mode profiles `duet.json` / `direct.json` with `kiosk` / `event` threshold sets — the base of the listening-settings resolution (profile → systemd drop-in → `app/.env` → console override). | — |
-| [`tests/`](tests/) | pytest suite, **156 tests**: `test_floor_lease.py` (one-mic invariant, duet sequencing, authored pauses), `test_answer_gate.py`, `test_canned.py`, `test_dashboard_ui.py`, `test_context_grounding.py`, `test_breath_motion.py` (continuous motion + envelope emphasis), `test_intro_rotation.py`, `test_name_pin.py`, `test_duet_script.py`, `test_wifi_control.py`. | — |
+| [`tests/`](tests/) | pytest suite, **240 tests**: `test_floor_lease.py` (one-mic invariant, duet sequencing, authored pauses), `test_answer_gate.py`, `test_canned.py`, `test_dashboard_ui.py`, `test_context_grounding.py`, `test_breath_motion.py` (continuous motion + envelope emphasis), `test_intro_rotation.py`, `test_name_pin.py`, `test_duet_script.py`, `test_wifi_control.py`, `test_premise_gate.py` (the premise gate + its decline pools). | — |
 | [`app/wake/`](app/wake/) | Wake-word stack (PLAN-0008). `engine.py` is the openWakeWord runtime wrapper; `wake_test.py` is the dev dashboard. `models/hey_cj.onnx` is the committed v2 classifier (locked threshold **0.40**); `models/hey_cj.v1.onnx` is the rollback. Training pipeline lives under `training/` (gN gates + Phase 1/2 retrain scripts); `data/` and `training/oww_*` trees are git-ignored — regenerated locally. | — |
 | [`corpus/`](corpus/) | The runtime corpus: `voice/` (topic map, voice card, router prompt, `host_card.md`, **`duet_script.json`** — 33 pre-rendered lines, **`intro_variants.json`** — 6 Host intros), `columns/` (64 paired `.md` + `.json`), `speeches/` (15 paired `.md` + `.json`). | [corpus/MANIFEST.md](corpus/MANIFEST.md) |
 | [`scripts/`](scripts/) | Corpus pipeline (`generate_corpus_files.py`, `build_topic_map.py`, `apply_topic_paths.py`, `run_smoke_test.py`, `check_paths.py`) **plus the installation scripts: `render_duet.py` and `render_intro.py` (pre-render spoken audio, offline), `deploy_second_robot.sh`, `provision_kit_wifi.sh`, `wake_model_eval.py`.** Idempotent. | — |
@@ -101,16 +101,32 @@ Operator procedure for a venue is [docs/EVENT_RUNBOOK.md](docs/EVENT_RUNBOOK.md)
 Measured 2026-09-13, not estimated. These are the things most likely to
 mislead someone reading the code and assuming it is handled.
 
-- **The output gates do not catch the failure that actually happens.** Across
-  50 adversarial questions and 277 composed sentences they blocked **zero**,
-  while 37 invented particulars reached speech. The year gate and the
-  forbidden-pattern gate do block, but the real failure is the composer
-  recombining **real** corpus entities into pairings that were never true — a
-  real person given the wrong office. Every component is individually
-  grounded, so nothing sees it. Unverified case titles and the whole-answer
-  fidelity audit **log only**. The opening sentence can begin playing before
-  its audit returns. Do not describe these gates to a stakeholder as a safety
-  net until this is fixed.
+- **The truthfulness story changed on 2026-09-13 — read this before repeating
+  the old one.** The 09-12 audit measured the output gates blocking **0 of 277**
+  adversarial sentences with 37 invented particulars reaching speech, and its
+  worst case was recorded here as the composer recombining real corpus entities
+  into untrue pairings. Reading that case back against its source shows
+  otherwise: *"SolGen Lelen Berberabe ... headed the new Super Committee"* is in
+  `corpus/speeches/D_flp_mission_foundation/SD002.md` word for word, dated
+  **2025-08-29**. Nothing was recombined. The only false word was **current**,
+  in the question. No output gate can see that — staleness lives in the gap
+  between the question's tense and the document's date, not in the text.
+  The response was a gate on the **question**: `app/premise_gate.py` declines
+  five unanswerable premises (who holds an office now, a time deixis on a
+  factual ask, a pending matter, a year past the corpus horizon, an election
+  result) from a curated pool, before the router or composer runs — zero tokens,
+  zero latency. Measured 35/35 refused, 0/30 false refusals
+  (`scripts/gate_audit.py`, question set `docs/test-specs/TS-007-*.json`).
+  Alongside it: full dates are now checked as (year, month, day) triples rather
+  than by year (`December 7, 2006` was passing), office attributions now reach
+  the Haiku audit (four of five documented failing sentences carried no year or
+  number, so nothing audited them), and the authored duet/intro lines are gated
+  at render time. See [LL-012](docs/lessons/LL-012-grounded-but-stale-not-recombination.md).
+  **Still true:** the whole-answer fidelity check is off in `app/.env`
+  (`CJ_SKIP_FIDELITY=1`, for latency), unverified case titles log only, and the
+  opening sentence can begin playing before its Haiku audit returns — the
+  deterministic gates run before it is queued, the audit does not. The runbook's
+  answer to a false statement in the room is still "switch to DUET immediately".
 - **Only the top 2 routed documents contribute full prose**; the other 3-6
   contribute a JSON sidecar, and some sidecar summary fields are empty.
   `CJ_CONTEXT_BODY_DOCS` controls it, and raising it trades against latency.
@@ -145,5 +161,5 @@ When documents disagree:
 - **Not RAG / no embeddings.** Routing is a Haiku call against a hand-curated taxonomy (35 topics post-Phase-2; previously 37); there is no vector store and no similarity search.
 - **(SUPERSEDED 2026-09-13) ~~Not a robot embodiment for May 30.~~** [ADR-0005](docs/decisions/0005-defer-robot-embodiment-for-may-30.md) deferred Reachy Mini integration for the laptop demo. That deferral is over. The app runs on **two Reachy Mini units** as `supervaise.service`, with continuous head motion, a cloned voice, and a two-robot floor lease. Read this bullet as history, not as current scope.
 - **Not a multi-trigger wake word.** One trigger only. **The live model is `app/wake/models/hi_see_jap.onnx` ("Hi Cee-Jap" / "Cee-Jap"), swapped in 2026-08-25** — not the `hey_cj.onnx` the older text describes, and not at threshold 0.40. The threshold is set per mode by the console (`config/modes/*.json`): 0.003 in direct-kiosk. In **direct-event the wake word is OFF entirely** and a loudness threshold sustained over 240 ms is the only gate on starting a turn. See [PLAN-0008 progress](docs/implementation-plans/PLAN-0008-progress.md) for the training history.
-- **Tests exist and are the first thing to run.** `app/.venv/bin/python -m pytest tests/` — **156 passing as of 2026-09-13**. The earlier statement below is kept for history.
+- **Tests exist and are the first thing to run.** `app/.venv/bin/python -m pytest tests/` — **240 passing as of 2026-09-13**. The earlier statement below is kept for history.
 - **(historical) No automated tests yet.** Verification is currently manual via the six build-kit sanity questions plus interactive dashboard runs. Test *specifications* exist in [docs/test-specs/](docs/test-specs/); converting them into a runnable suite is part of the runtime work in [PLAN-0001](docs/implementation-plans/PLAN-0001-runtime-app-haiku-router-sonnet-composer.md).

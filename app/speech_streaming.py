@@ -243,11 +243,22 @@ def classify_emotion(sentence: str) -> str:
 
 
 # sentences worth a pre-TTS fact audit: years, 3+ digit numbers, counts of
-# things, quoted / italic titles (2026-08-29)
+# things, quoted / italic titles (2026-08-29), and — since the 09-12 audit —
+# any sentence that gives a named person an office. That last clause is the
+# one that matters: "SolGen Berberabe has carried that work forward" carries
+# no number at all, so it never reached the audit, and sentences of exactly
+# that shape were where the false claims about living officials lived. The
+# negative lookahead keeps his own title out of it, or every second sentence
+# ("the twenty-first Chief Justice of the Philippines") would be audited.
 _FACT_TRIGGER = re.compile(
     r"\b(1[89]\d\d|20\d\d)\b|\b\d{3,}\b|\b\d+\s+(cases?|years?|decisions?|books?|ponencias?|"
     r"columns?|scholars?|students?|million|billion|percent|pesos?|dollars?)\b|"
-    r"[*_\u201c\"][A-Z][^*_\u201d\"]{6,80}?[*_\u201d\"]")
+    r"[*_\u201c\"][A-Z][^*_\u201d\"]{6,80}?[*_\u201d\"]|"
+    r"\b(?:Chief Justice|Associate Justice|Justice|Solicitor General|SolGen|"
+    r"Ombudsman|Senate President|Secretary of Justice|Justice Secretary|"
+    r"Executive Secretary|Senator|Congressman|Congresswoman|Speaker|"
+    r"Commissioner|Ambassador|Governor|Mayor|Dean|Chairman|Chairperson)\s+"
+    r"(?!Panganiban)(?:of\s+)?[A-Z][a-z\u00f1]{2,}")
 
 
 def split_ready(buf: str):
@@ -825,9 +836,11 @@ def stream_turn(client, artifacts, question, history, *, play_fn,
         if fc.get("unverified_titles"):
             print(f"[fact-gate] unverified title(s) {fc['unverified_titles']} in: '{s[:70]}'")
         if not fc.get("ok", True):
+            kind = "year" if fc.get("bad_years") else "date"
+            detail = fc.get("bad_years") or fc.get("bad_dates")
             gate_blocked.append({"sentence": s, "tripped": [
-                {"rule": "fact-gate", "kind": "year", "detail": fc["bad_years"]}]})
-            print(f"[fact-gate] sentence BLOCKED pre-TTS — year(s) {fc['bad_years']} "
+                {"rule": "fact-gate", "kind": kind, "detail": detail}]})
+            print(f"[fact-gate] sentence BLOCKED pre-TTS — {kind}(s) {detail} "
                   f"not in context/corpus: '{s[:70]}'")
             return
         # Fact-bearing sentence (year / number / quoted title / count)?

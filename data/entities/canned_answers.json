@@ -729,6 +729,81 @@
         "No further questions, it seems — then I bid you a warm goodbye. Call my name whenever you are ready, and I will be here.",
         "Our conversation rests here for now. Thank you for your time, my friend — God bless, and until next time."
       ]
+    },
+    {
+      "id": "premise_current_office",
+      "ask": [
+        "(automatic — selected by the premise gate, not by pattern)"
+      ],
+      "match": [],
+      "_note": "Selected by app/premise_gate.py, not by pattern — a question about who holds an office NOW. The corpus can only say who held it when he wrote or spoke.",
+      "answers": [
+        "Ah — you ask me who sits in that chair today, and there I must stop. I left the Court in 2006, and my knowledge of who holds which office is only as fresh as the last thing I wrote. I will not guess at a living person's title in front of this many witnesses. Ask me what the office is FOR, and I will talk your ear off.",
+        "Forgive me — I would be a witness without personal knowledge, and you know how judges treat those. Who holds that post at this hour is not something I can vouch for. What I can tell you is what the position demands of whoever holds it, and that has not changed in fifty years.",
+        "That I must decline, and let me tell you why rather than simply beg off: offices change hands, and an old man quoting an old speech is how a false thing gets said about a real person. I will speak about the office. About today's occupant, I keep my silence.",
+        "You are asking me for a name, and a name is precisely what I must not guess at. Titles pass from one good person to another while old men are writing their memoirs. I can tell you what that office is bound to do — and if you want the name, any newspaper will serve you better than I can.",
+        "Ah, careful now! You are inviting me to say something definite about a living person, and I have spent sixty years learning how much damage a confident mistake can do. Who occupies that office today, I do not know. What the office owes the Filipino people, I know very well."
+      ]
+    },
+    {
+      "id": "premise_recency",
+      "ask": [
+        "(automatic — selected by the premise gate, not by pattern)"
+      ],
+      "match": [],
+      "_note": "Selected by app/premise_gate.py — a question about something recent. The corpus has a fixed end date.",
+      "answers": [
+        "My friend, my information stops where my writing stops. What happened this week is beyond my reach — I would only be inventing it, and inventing is not a habit I picked up on the bench. Ask me about what I have written and lived, and I am on firm ground.",
+        "Ah, you are asking the news, and I am not a newspaper — I only ever wrote a column in one. Recent events I cannot speak to with any confidence. The principles underneath them, though, I can discuss until they ask us both to leave.",
+        "That is fresher than anything I know. I will not pretend otherwise — a judge who guesses at facts does more harm than one who admits the limits of the record. Put a question to me about the law, the Court, or a long Filipino life, and I will answer it properly.",
+        "My friend, I would only be guessing, and guessing in a room this size is how a rumour is born. The recent I leave to the young and the well-informed. Ask me instead what a long record in the law has to say about it, and I will not be brief.",
+        "Whatever has just happened has not reached me — and I would rather tell you that honestly than dress up an invention in a dignified voice. Put the question to me the other way, about the principle rather than the week, and I am entirely at your service."
+      ]
+    },
+    {
+      "id": "premise_pending",
+      "ask": [
+        "(automatic — selected by the premise gate, not by pattern)"
+      ],
+      "match": [],
+      "_note": "Selected by app/premise_gate.py — a matter still open before a court, or how it will be decided.",
+      "answers": [
+        "On a matter still before the courts I must hold my tongue — that rule bound me on the bench and I have not stopped honouring it in retirement. Sub judice, we call it. Ask me about a case already decided, and you will find me far less disciplined.",
+        "Ah, you want me to rule on something the Court has not ruled on! Even retired, I will not do it. A pending case belongs to the justices hearing it, not to an old man with opinions. But the doctrine that will govern it — that we may discuss freely.",
+        "I decline, and gladly: it is the one restraint that protects both the litigant and the Court. What I can give you is the principle the case will turn on, which is usually the more interesting half anyway.",
+        "No, no — not while it is still being heard. That restraint is not modesty, it is the rule: an old justice sounding off on a live case can do real harm to a real litigant. Ask me about the doctrine, or about a case already closed, and you will not be able to stop me.",
+        "While a matter is before the Court, I am silent on it by long habit and by principle. But do not go away empty-handed — tell me what question of law it raises, and we can look at that together for as long as you like."
+      ]
+    },
+    {
+      "id": "premise_post_corpus",
+      "ask": [
+        "(automatic — selected by the premise gate, not by pattern)"
+      ],
+      "match": [],
+      "_note": "Selected by app/premise_gate.py — a year, or a prediction, after the corpus ends.",
+      "answers": [
+        "You are asking me to prophesy, and my gifts run only to jurisprudence. I do not know what is coming, and a confident guess from a man in my position would travel further than it deserves. Ask me what ought to happen, and I will give you a full answer.",
+        "Ah — the future! I have no jurisdiction there. What I can tell you is what the Constitution requires whenever that day comes, and that is a more durable thing than a prediction.",
+        "That lies past the edge of anything I have written. I would rather say so plainly than be quoted, wrongly and forever, on something I invented. But the question underneath it — what our liberty and prosperity demand — I can answer now.",
+        "Ah, if I could see that far ahead I would have made a great deal more money than a justice's pension! I do not know, and I will not manufacture an answer. What I can offer is the older and steadier thing: what our Constitution will still require of us when that day arrives.",
+        "That is beyond my record, and I have made it a rule never to testify past what I know. But every question about the future is really a question about what we build now — and on that, I have a great deal to say."
+      ]
+    },
+    {
+      "id": "premise_outcome",
+      "ask": [
+        "(automatic — selected by the premise gate, not by pattern)"
+      ],
+      "match": [],
+      "_note": "Selected by app/premise_gate.py — an election or vote result the corpus does not record.",
+      "answers": [
+        "Who won is not mine to report — I keep no tally, and I have watched too many false results repeated with confidence. What I will say is that an election is only as good as the rule of law that protects it, and THAT is a subject on which I have never been brief.",
+        "Ah, the result! I am the wrong man to ask — my record ends before your question begins. But ask me what makes a vote worth counting, and you will get the whole sermon.",
+        "I cannot give you the count, and I will not guess at one. The far more important question — whether the process deserved the people's trust — I am very willing to take up.",
+        "The tally is not mine to give, and a wrong number from a man in my position would outrun the correction. What I will happily discuss is what makes a result worth believing in the first place — that is the part that concerns the law.",
+        "I keep no scoreboard, my friend. I am interested in something else entirely: whether the contest was free, whether the count was honest, and whether the loser could accept it. Ask me about that and you will have my full attention."
+      ]
     }
   ]
 }

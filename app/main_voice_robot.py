@@ -3301,6 +3301,43 @@ def _answer_question(client, artifacts, gestures, history, question, stt_s,
         return _speak_curated(gestures, history, question, response, hit["id"], stop,
                               path="canned", confidence="canned", raw_asr=raw_asr,
                               stt_s=stt_s, voice_settings=vs)
+    # Premise gate (2026-09-13): a question whose premise the corpus cannot
+    # answer — who holds an office NOW, what happened last week, a pending
+    # case, a year past the corpus — is declined in voice instead of composed.
+    # The 09-12 audit found the composer answers these with REAL corpus
+    # material recombined into a claim that was never true ("SolGen Berberabe",
+    # grounded word for word in a 2025 speech, offered as who holds the office
+    # today). No output gate can catch that: the sentence is faithful to its
+    # context. Refusing the premise removes the failure instead of chasing it.
+    try:
+        import premise_gate
+        pv = premise_gate.check(question)
+    except Exception as e:
+        print(f"[premise] gate unavailable, failing open ({type(e).__name__}: {e})")
+        pv = {"refuse": False, "category": None}
+    if pv.get("category"):
+        print(f"[premise] {pv['category']}: {pv['reason']} "
+              f"({'refusing' if pv['refuse'] else 'log only'}) — {pv['matched']}")
+    if pv.get("refuse"):
+        decline = None
+        try:
+            import answer_canned
+            decline = answer_canned.get(pv["pool"])
+        except Exception as e:
+            print(f"[canned] decline pool unavailable ({e})")
+        if decline:
+            _publish_transcript("note", f"(premise declined: {pv['category']})")
+            _stage("route", "done", "declined — outside the record",
+                   extra={"scope": "unanswerable_premise", "topic": pv["category"],
+                          "confidence": "curated", "scope_reason": pv["reason"]})
+            _stage("compose", "done", "curated decline — no composer")
+            _stage("fidelity", "done", "curated — pre-verified")
+            return _speak_curated(gestures, history, question, decline,
+                                  pv["category"], stop, path="premise",
+                                  confidence="declined", raw_asr=raw_asr, stt_s=stt_s)
+        # No curated decline available: answering is better than silence, but
+        # say so in the log — this is the one path where the gate cannot help.
+        print("[premise] no decline text — falling through to the composer")
     # Streaming is the only answer path (2026-08-29: the classic whole-answer
     # composer path was removed; CJ_STREAM_SPEECH no longer needs to be set).
     return _handle_turn_streaming(client, artifacts, gestures, history, stop,

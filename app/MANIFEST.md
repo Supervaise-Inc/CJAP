@@ -12,7 +12,8 @@ Sequence + line refs: [../docs/SYSTEM_TRACE.md](../docs/SYSTEM_TRACE.md). Old→
 | `speech_tempo.py` | tempo normaliser (WSOLA toward session average) |
 | `answer_pipeline.py` | corpus artifacts, input gate, router, composer stream, fidelity check |
 | `answer_canned.py` | curated + event answers (`../data/entities/canned_answers.json`) |
-| `answer_gate.py` | per-sentence / full-answer forbid rules |
+| `answer_gate.py` | per-sentence / full-answer forbid rules, the year + full-date fact gate, and `check_curated()` for authored duet/intro lines |
+| `premise_gate.py` | the gate on the QUESTION (2026-09-13): refuses a premise the corpus cannot answer — who holds an office now, a recency ask, a pending matter, a year past the corpus horizon, an election result — and hands it to a curated decline pool instead of the composer |
 | `answer_filler.py` | question-relevant filler line while composing |
 | `text_entities.py` | entity dictionary NER correction |
 | `text_language_gate.py` | Filipino/English transcript gate |

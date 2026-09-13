@@ -39,12 +39,47 @@ SCRIPT = ROOT / "corpus" / "voice" / "duet_script.json"
 OUT = ROOT / "data" / "prerendered" / "duet"
 
 
+def _gate(items, skip: bool) -> int:
+    """Hold every authored line to the same factual bar as a composed one.
+
+    Pre-rendered is not pre-verified: these clips play with no network and
+    never touch a live gate, so the check happens here, once, offline
+    (2026-09-12 audit, section on the duet lines). Returns 1 if any line
+    fails — nothing is rendered, because a bad line on disk outlives the
+    mistake that made it."""
+    if skip:
+        print("gate SKIPPED (--skip-gate)")
+        return 0
+    try:
+        import answer_gate
+    except Exception as e:
+        print(f"gate unavailable ({type(e).__name__}: {e}) — rendering anyway",
+              file=sys.stderr)
+        return 0
+    bad = 0
+    for ident, text in items:
+        res = answer_gate.check_curated(text)
+        if not res["ok"]:
+            bad += 1
+            for t in res["tripped"]:
+                print(f"  GATE FAIL  {ident}  {t['kind']}: {t['detail']}", file=sys.stderr)
+            print(f"             {text[:90]}", file=sys.stderr)
+    if bad:
+        print(f"\n{bad} line(s) failed the gate — nothing rendered. Fix the text, "
+              f"or re-run with --skip-gate if you are certain.", file=sys.stderr)
+        return 1
+    print(f"gate ok — {len(items)} line(s) check out against the corpus")
+    return 0
+
+
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__,
                                  formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--force", action="store_true", help="re-render every line")
     ap.add_argument("--dry-run", action="store_true", help="say what would be rendered")
     ap.add_argument("--play", action="store_true", help="play the whole duet when done")
+    ap.add_argument("--skip-gate", action="store_true",
+                    help="render without the factual gate (you had better be sure)")
     args = ap.parse_args()
 
     sys.path.insert(0, str(ROOT)); sys.path.insert(0, str(ROOT / "app"))
@@ -80,6 +115,10 @@ def main() -> int:
             old = {e["id"]: e for e in json.loads(mf.read_text(encoding="utf-8"))["lines"]}
         except (OSError, ValueError, KeyError):
             old = {}
+
+    rc = _gate([(ln["id"], ln["text"]) for ln in lines], args.skip_gate)
+    if rc:
+        return rc
 
     if args.dry_run:
         for ln in lines:

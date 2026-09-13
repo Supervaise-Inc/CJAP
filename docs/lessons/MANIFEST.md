@@ -17,3 +17,4 @@ is worth carrying into the next project. Append-only IDs.
 | 0009 | [LL-009-substring-matching-overbroad.md](LL-009-substring-matching-overbroad.md) | Substring topic matching let `supreme_court_history` claim 60 of 79 documents. |
 | 0010 | [LL-010-article-code-typos-and-padding.md](LL-010-article-code-typos-and-padding.md) | Article codes inconsistent across CSVs — `CA01` vs `CA001`, `GCO01` for `GC001`. |
 | 0011 | [LL-011-smoke-test-routing-miss-jmsu.md](LL-011-smoke-test-routing-miss-jmsu.md) | TS-006 question A4 (JMSU) routed to `supreme_court_history` instead of `eez_resource_sovereignty` — over-broad matcher beats specific topic. |
+| 0012 | [LL-012-grounded-but-stale-not-recombination.md](LL-012-grounded-but-stale-not-recombination.md) | The audit's worst hallucination was corpus-grounded but a year stale — no output gate could catch it; the fix is a gate on the question's premise. |
