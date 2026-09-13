@@ -61,6 +61,7 @@ def live(qs: dict, limit: int | None) -> dict:
     import answer_gate as ag
     import answer_pipeline as ap
     import premise_gate as pg
+    from answer_pipeline import _strip_stage_directions
     from speech_streaming import _FACT_TRIGGER, split_ready
 
     client = ap.make_client()
@@ -70,7 +71,7 @@ def live(qs: dict, limit: int | None) -> dict:
         asked = asked[:limit]
 
     out = {"mode": "live", "questions": [], "n_sentences": 0, "n_blocked": 0,
-           "n_declined": 0, "n_audited": 0}
+           "n_declined": 0, "n_audited": 0, "n_errors": 0}
     for q in asked:
         rec = {"q": q, "declined": None, "sentences": [], "blocked": []}
         v = pg.check(q)
@@ -81,18 +82,29 @@ def live(qs: dict, limit: int | None) -> dict:
             print(f"  DECLINED [{v['category']}] {q}")
             continue
         t0 = time.monotonic()
-        routing = ap.route_question(client, q, artifacts)
-        topics = [t for t in [routing.get("primary_topic")]
-                  + list(routing.get("secondary_topics") or []) if t]
-        buf, parts = "", []
-        for piece in ap.generate_response_stream(client, q, routing, artifacts, []):
-            buf += piece
-            ready, buf = split_ready(buf)
-            parts += ready
-        if buf.strip():
-            parts.append(buf.strip())
+        # An API failure mid-run must not throw away the questions already
+        # measured — a 400 "credit balance too low" on question 36 lost a run
+        # on 2026-09-13. Record it against the question and carry on; the robot
+        # itself does the same thing (main_voice_robot._say_apology).
+        try:
+            routing = ap.route_question(client, q, artifacts)
+            topics = [t for t in [routing.get("primary_topic")]
+                      + list(routing.get("secondary_topics") or []) if t]
+            buf, parts = "", []
+            for piece in ap.generate_response_stream(client, q, routing, artifacts, []):
+                buf += piece
+                ready, buf = split_ready(buf)
+                parts += [_strip_stage_directions(x) for x in ready]
+            if buf.strip():
+                parts.append(_strip_stage_directions(buf.strip()))
+        except Exception as e:
+            rec["error"] = f"{type(e).__name__}: {str(e)[:160]}"
+            out["n_errors"] = out.get("n_errors", 0) + 1
+            print(f"  ERROR    {rec['error']}  | {q[:50]}")
+            out["questions"].append(rec)
+            continue
         ctx = ap.LAST_CONTEXT_TEXT[0]
-        for s in parts:
+        for s in [x for x in parts if x.strip()]:
             out["n_sentences"] += 1
             rec["sentences"].append(s)
             g = ag.check_answer(q, s, topic_ids=topics, forbid_only=True, audit=False)
@@ -151,6 +163,8 @@ def main() -> int:
         print(f"\n  questions declined before composing: {res['n_declined']}")
         print(f"  sentences composed                 : {n}")
         print(f"  sentences audited by Haiku         : {res['n_audited']}")
+        if res["n_errors"]:
+            print(f"  questions that FAILED (API error)  : {res['n_errors']}")
         print(f"  sentences blocked by a gate        : {res['n_blocked']}"
               + (f" ({100 * res['n_blocked'] / n:.1f}%)" if n else ""))
 
