@@ -12,6 +12,7 @@
     "silence_timeout_s": 1.2,
     "post_answer_window_s": 25,
     "host_intro": true,
+    "premise_gate": true,
     "dry_run": false
   },
   "profiles": {

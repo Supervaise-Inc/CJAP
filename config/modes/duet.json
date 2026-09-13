@@ -12,7 +12,9 @@
     "silence_timeout_s": 1.2,
     "post_answer_window_s": 0,
     "host_intro": true,
-    "dry_run": false
+    "premise_gate": true,
+    "dry_run": false,
+    "_premise_gate_note": "duet never composes — the value is carried so the switch reads the same in both modes"
   },
   "profiles": {
     "kiosk": {

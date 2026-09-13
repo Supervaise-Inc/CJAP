@@ -526,7 +526,7 @@ def test_config_resolution_order(tmp_path):
         "defaults": {"wake_word": True, "wake_threshold": 0.01, "speech_threshold": 100,
                      "speech_threshold_mult": 2.0, "speech_threshold_cap": 1000,
                      "silence_timeout_s": 1.0, "post_answer_window_s": 20, "host_intro": True,
-                     "dry_run": False},
+                     "premise_gate": True, "dry_run": False},
         "profiles": {"kiosk": {}, "event": {"wake_word": False, "speech_threshold": 700,
                                              "post_answer_window_s": 0}}}))
     (modes / "duet.json").write_text(json.dumps({"mode": "duet", "defaults": {}, "profiles": {}}))
