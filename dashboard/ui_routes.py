@@ -318,7 +318,7 @@ def handle_post(h, path, body):
             elif body.get("reset"):
                 ok, out = motion_reset()
             else:
-                ok, out = motion_set(body)
+                ok, out = motion_set(body, persist=bool(body.get("persist")))
             h._send(200, json.dumps({"ok": ok, "output": out, "motion": motion_get()}))
     elif path == "/api/voices":
         # Guest voice card: store the ElevenLabs key / pick a voice for a role.

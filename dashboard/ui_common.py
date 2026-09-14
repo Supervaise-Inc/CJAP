@@ -717,7 +717,14 @@ def motion_get():
             for k, (lo, hi, d, lbl) in MOTION_KNOBS.items()}
 
 
-def motion_set(body):
+def motion_set(body, persist=False):
+    """Apply slider values live. persist=True also writes them into the ACTIVE
+    preset in config/avatar_motion.json.
+
+    Before 2026-09-14 a drag wrote /dev/shm only, so the value was lost on the
+    next reboot and silently replaced by the active preset's — which is exactly
+    how a sync offset tuned by ear gets thrown away without anyone noticing.
+    /tune now persists on release."""
     cur = motion_get()
     changed = []
     for k, (lo, hi, d, lbl) in MOTION_KNOBS.items():
@@ -731,10 +738,15 @@ def motion_set(body):
                 changed.append(f"{k}={cur[k]:g}")
     if not changed:
         return True, "no change"
-    ok, err = _motion_write(cur)
+    active = None
+    if persist:
+        doc = _motion_repo()
+        active = doc.get("active")
+    ok, err = _motion_write(cur, save_preset=active)
     if not ok:
         return False, err
-    return True, "applied: " + ", ".join(changed)
+    return True, ("saved to preset '%s': " % active if active else "applied (unsaved): ") \
+        + ", ".join(changed)
 
 
 def _motion_write(cur, save_preset=None):

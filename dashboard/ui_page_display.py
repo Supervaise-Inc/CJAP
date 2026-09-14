@@ -837,6 +837,14 @@ TUNE_PAGE = r"""<!DOCTYPE html><html><head><meta charset="utf-8">
   const $=(id)=>document.getElementById(id);
   const KEY=new URLSearchParams(location.search).get('key')||localStorage.getItem('cjkey')||'';
   let KNOBS={}, VAL={}, follow=true, forced=null;
+  const dirty=new Set();
+  function mark(){
+    for(const k of Object.keys(KNOBS)){
+      const v=$('v-'+k); if(!v) continue;
+      v.style.color = dirty.has(k) ? 'var(--warn)' : 'var(--ok)';
+      v.title = dirty.has(k) ? 'unsaved — release the slider to save' : 'saved';
+    }
+  }
 
   const layer=StateLayer($('layer'),{scale:0.32});
   const env=Envelope(()=>((VAL.avatar_offset||0)*1000));
@@ -869,6 +877,7 @@ TUNE_PAGE = r"""<!DOCTYPE html><html><head><meta charset="utf-8">
              '<div class="h">default '+def+'</div></div>';
     }).join('');
     for(const k of Object.keys(KNOBS)) bind(k);
+    mark();
   }
   function show(k){
     const v=VAL[k];
@@ -879,15 +888,26 @@ TUNE_PAGE = r"""<!DOCTYPE html><html><head><meta charset="utf-8">
   function bind(k){
     const el=$('s-'+k); el.value=VAL[k]; show(k);
     let t=null;
+    // Drag = live but UNSAVED (and the value says so). Release = persisted to
+    // the active preset, so a number tuned by ear survives a reboot.
     el.addEventListener('input',()=>{
-      VAL[k]=parseFloat(el.value); show(k);
+      VAL[k]=parseFloat(el.value); show(k); dirty.add(k); mark();
       clearTimeout(t);
       t=setTimeout(async()=>{                      // coalesce a drag into one write
         const o={}; o[k]=VAL[k];
         const d=await post(o);
-        msg(d.ok?(d.output||'applied'):('FAILED — '+(d.output||'')), d.ok?'':'warn');
+        msg(d.ok?'live — release to save':('FAILED — '+(d.output||'')), d.ok?'warn':'warn');
       },120);
     });
+    const commit=async()=>{
+      if(!dirty.has(k)) return;
+      const o={}; o[k]=VAL[k]; o.persist=true;
+      const d=await post(o);
+      if(d.ok){ dirty.delete(k); mark(); }
+      msg(d.ok?(d.output||'saved'):('FAILED — '+(d.output||'')), d.ok?'':'warn');
+    };
+    el.addEventListener('change', commit);
+    el.addEventListener('pointerup', commit);
   }
   $('reset').onclick=async()=>{ const d=await post({reset:true}); msg(d.output||''); load(); };
   $('load').onclick=async()=>{ const d=await post({preset_load:$('presets').value});

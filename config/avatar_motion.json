@@ -44,9 +44,19 @@
     }
   },
   "_sync_offsets": {
-    "_note": "avatar_offset in seconds, per audio route. They differ because the path from the app to the air differs. Measure with /tune while the robot speaks: drag until the mouth stops leading or trailing. UNMEASURED entries are honest placeholders, not values to trust. avatar_lag above is the browser-side lag; avatar_offset is the mouth-vs-audio trim. Both differ per route and both are measured the same way.",
-    "internal": "UNMEASURED",
-    "dac": "UNMEASURED — the USB DAC is not attached yet",
-    "bluetooth": "UNMEASURED"
+    "_note": "avatar_offset in seconds, per audio route: how long after play_ts the sound actually reaches a listener, which is how far the browser animation must be DELAYED to match (+later, -earlier). They differ because the path from the app to the air differs. Measure by playing a 40 ms 1 kHz burst through the live route and recording it on a microphone the robot does not hold, anchoring to the END of a fixed-length capture (arecord's start time is not knowable; its duration is sample-exact). Then trim by ear on /tune while the robot speaks. UNMEASURED entries are honest placeholders — do not extrapolate one route from another.",
+    "internal": {
+      "seconds": 0.35,
+      "measured": "2026-09-14",
+      "method": "40 ms 1 kHz burst through the internal speaker (XMOS), captured on the BOYA mini 2 (card 2, a mic the robot does not hold), matched-filter onset, anchored to the end of a 3 s arecord capture",
+      "n": 9,
+      "median_ms": 348,
+      "sd_ms": 22.4,
+      "range_ms": "310-385",
+      "caveat": "UPPER BOUND. Both error sources are positive — arecord teardown and the BOYA's own capture latency — so true play-to-air is <= 348 ms. Use 0.35 s as a starting point and trim by ear; the slider exists for the remainder.",
+      "cross_check": "CJ_AEC_REF_DELAY_MS=444 in the systemd drop-in is the separately calibrated delay for the same route through the XVF's own mic path, which is longer. The two are consistent."
+    },
+    "dac": "UNMEASURED — no USB DAC is attached. Do not extrapolate from internal.",
+    "bluetooth": "UNMEASURED — do not extrapolate from internal."
   }
 }

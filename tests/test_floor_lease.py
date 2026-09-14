@@ -1063,3 +1063,53 @@ def test_internet_field_is_unknown_not_offline_for_an_older_build(tmp_path):
     doc = cs.api(c, "GET", "/api/state", now=clock())[1]
     assert doc["observed"]["alpha"]["online"] is None
     assert not any(w.get("kind") == "internet" for w in doc["warnings"])
+
+
+# ── the mic floor cannot be moved by a GET (2026-09-14) ──────────────────────
+
+def test_get_lease_is_refused_and_reports_nothing(tmp_path):
+    """Until 2026-09-14 GET /api/lease called console.report() — the same
+    mutating path as POST — and was the only console endpoint with no auth
+    check. A prefetch or a link preview could forge a robot's observation."""
+    clock = Clock()
+    c = make_console(tmp_path, clock)
+    st, d = cs.api(c, "GET", "/api/lease", params={"robot": "alpha"}, now=clock())
+    assert st == 405 and not d["ok"]
+    assert c.observed["alpha"] is None, "a GET must not create an observation"
+    # and with a key, still refused — the method is wrong, not the credential
+    st, d = cs.api(c, "GET", "/api/lease", params={"robot": "alpha"},
+                   authed=True, now=clock())
+    assert st == 405 and c.observed["alpha"] is None
+
+
+def test_get_cannot_complete_a_floor_handover(tmp_path):
+    """The interlock: a handover completes only when BOTH robots report their
+    mic closed. A forged GET claiming 'mic closed' must not be able to hand the
+    floor over while the other robot still has its microphone open."""
+    clock = Clock()
+    c = make_console(tmp_path, clock)
+    lease(c, "alpha", clock(), mic_open=True)
+    lease(c, "beta", clock(), mic_open=True)
+    cs.api(c, "POST", "/api/floor", body={"floor": "beta"}, authed=True, now=clock())
+    assert c.floor == "none" and c.transition, "the transition closes both mics first"
+
+    for _ in range(5):                       # forged, unauthenticated, mic closed
+        clock.advance(0.2)
+        st, _d = cs.api(c, "GET", "/api/lease", params={"robot": "alpha"}, now=clock())
+        assert st == 405
+    assert c.floor == "none", "a GET moved the floor"
+    assert c.transition, "a GET completed the handover"
+
+    # the real robots reporting closed is what completes it
+    lease(c, "alpha", clock(), mic_open=False)
+    lease(c, "beta", clock(), mic_open=False)
+    c.tick(clock())
+    assert c.floor == "beta"
+
+
+def test_post_lease_without_the_key_is_refused(tmp_path):
+    clock = Clock()
+    c = make_console(tmp_path, clock)
+    st, d = cs.api(c, "POST", "/api/lease", body={"robot": "alpha"}, authed=False, now=clock())
+    assert st == 403 and not d["ok"]
+    assert c.observed["alpha"] is None

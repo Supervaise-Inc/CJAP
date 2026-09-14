@@ -1218,9 +1218,19 @@ def api(console: Console, method, path, params=None, body=None, authed=False, no
     if method == "GET" and path == "/api/journal":
         return 200, {"ok": True, "rows": console.journal(params.get("n", 50))}
     if method == "GET" and path == "/api/lease":
-        r = params.get("robot")
-        ok, out, st = console.report(r, {"robot": r}, now) if r in ROBOTS else (False, "robot=alpha|beta", 400)
-        return st, ({"ok": True, **out} if ok else {"ok": False, "output": out})
+        # 405, and it never reaches console.report(). Until 2026-09-14 this
+        # branch called report() — the same MUTATING path as the POST below —
+        # and it was the only console endpoint with no need_auth() check. An
+        # unauthenticated GET could therefore overwrite a robot's observed
+        # record: its mic_open, has_floor, rms and boot_id. That record is what
+        # _both_closed_since() reads to decide a floor handover is complete, so
+        # a forged "mic closed" could hand the floor over before the other
+        # robot had actually closed its microphone — defeating the one
+        # interlock that stops both robots talking at once. A GET is reachable
+        # by a link preview, a prefetch or a browser refresh, none of which
+        # intend to change anything.
+        return 405, {"ok": False, "output": "POST /api/lease with the dashboard key; "
+                                            "GET cannot report or move the floor"}
     if method == "POST" and path == "/api/lease":
         d = need_auth()
         if d:

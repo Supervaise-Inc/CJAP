@@ -1,8 +1,20 @@
 """voice_vad — Silero VAD (via sherpa-onnx, no torch) for the voice-isolation
-gates (Phase 1, 2026-08-30). LOG-ONLY: analyze() measures how much real speech
-a captured utterance contains; nothing is rejected on its result yet. The
-numbers land on the per-turn `[gate]` journal line so the thresholds can be
-chosen from real turns before any gate is armed.
+gates (Phase 1, 2026-08-30). analyze() measures how much real speech a captured
+utterance contains, and the numbers land on the per-turn `[gate]` journal line.
+
+THIS GATE BLOCKS. It was log-only when written, and the docstring said so until
+2026-09-14, long after the behaviour changed: the gate was armed by commit
+88d97dd (2026-08-30, "Arm the Phase-1 VAD gate (CJ_VAD_MIN_SPEECH_S, default
+0.4s)"). A capture with less than CJ_VAD_MIN_SPEECH_S of speech is DISCARDED at
+app/main_voice_robot.py:3503-3521 — the turn ends, nothing is answered, and a
+transcript note says "(ignored — no real speech in the capture)". Observed live
+on 2026-09-14: "[gate] vad speech 0.0s/7.7s (0.00, 0 seg) · REJECTED by VAD
+gate (0.0s < 0.4s)".
+
+It still fails OPEN: analyze() returning None (missing model, any error) lets
+the turn through, and the gate is off entirely when CJ_VAD_MIN_SPEECH_S <= 0.
+Note the ordering — STT runs BEFORE this gate, so a rejected capture has
+already been transcribed and paid for.
 
 analyze(path_or_samples, sr) -> {"speech_s", "total_s", "fraction", "segments"}
 Fails open (returns None) if the model is missing or anything errors.
