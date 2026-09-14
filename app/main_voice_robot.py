@@ -109,6 +109,22 @@ def internet_up(timeout=3.0):
         return False
 
 
+_ONLINE = {"ts": 0.0, "up": None}
+
+
+def _online_cached(max_age_s=20.0):
+    """internet_up(), rate-limited, for the 1 Hz floor report.
+
+    The console showed a healthy floor lease, healthy mic reports and a normal
+    journal while every visitor turn fell into the apology line, because
+    nothing the robot sent said whether it could reach the API. This is that
+    missing field; it is cheap because the answer barely changes (2026-09-14)."""
+    now = time.monotonic()
+    if _ONLINE["up"] is None or now - _ONLINE["ts"] > max_age_s:
+        _ONLINE.update(ts=now, up=internet_up(timeout=2.0))
+    return bool(_ONLINE["up"])
+
+
 def say_offline():
     if os.path.exists(NO_NET_WAV):
         subprocess.run(_aplay_cmd(NO_NET_WAV), stderr=subprocess.DEVNULL)
@@ -3951,6 +3967,7 @@ def _floor_observe():
             "intro_done": int(_INTRO["done"]),
             "ask_done": int(_ASK["done"]),
             "duet_done": int(_DUET["done"]),
+            "online": _online_cached(),
             "muted": _muted()}
 
 

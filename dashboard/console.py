@@ -893,6 +893,9 @@ class Console:
                "intro_done": int(obs["intro_done"]) if isinstance(obs.get("intro_done"), int) else 0,
                "ask_done": int(obs["ask_done"]) if isinstance(obs.get("ask_done"), int) else 0,
                "duet_done": int(obs["duet_done"]) if isinstance(obs.get("duet_done"), int) else 0,
+               # None = this robot's build predates the field (2026-09-14), which
+               # must read as "unknown", never as "offline"
+               "online": obs.get("online") if isinstance(obs.get("online"), bool) else None,
                "role_ok": obs.get("robot") == robot}
         with self._lock:
             prev = self.observed.get(robot)
@@ -1101,6 +1104,7 @@ class Console:
                         "rms_1s": (o or {}).get("rms_1s") if fresh else None,
                         "boot_id": (o or {}).get("boot_id"),
                         "has_floor": bool(o and o["has_floor"]) if fresh else None,
+                        "online": (o or {}).get("online") if fresh else None,
                         "diverges": False}
                 if not fresh:
                     view["diverges"] = intended
@@ -1123,6 +1127,14 @@ class Console:
                         view["diverges"] = True
                         warnings.append({"level": "warn", "robot": r,
                                          "msg": f"{r} holds the floor but reports its mic closed (still opening?)"})
+                    # The robot that plays Panganiban needs the internet for
+                    # every composed answer. Without this the console looked
+                    # entirely healthy while each turn fell into the apology.
+                    if o.get("online") is False and self.role_of(r) == "cjap":
+                        warnings.append({"level": "bad", "robot": r, "kind": "internet",
+                                         "msg": f"{self.name(r)} cannot reach the internet — every "
+                                                "question will get the apology line. Check WiFi on "
+                                                "/maintain, or switch to DUET, which needs no network"})
                     # live speech-threshold warning against the room floor
                     room = o["rms"]
                     if room is not None:

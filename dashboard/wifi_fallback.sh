@@ -29,10 +29,31 @@ MISSES_BEFORE_AP="${CJ_SETUP_MISSES:-3}"
 RECOVER_EVERY="${CJ_SETUP_RECOVER_EVERY:-15}"   # every 15 AP loops (~5 min) probe for known WiFi
 RECOVER_WAIT="${CJ_SETUP_RECOVER_WAIT:-45}"
 
+# Association only. A router with a dead uplink, a captive portal, or simply
+# the wrong network all satisfy this — which is why the hotspot never rescued
+# the one failure that actually strands the machine (2026-09-14 audit).
 active_wifi() {
     nmcli -t -f NAME,TYPE connection show --active 2>/dev/null |
         awk -F: '$2 ~ /wireless/ {print $1; exit}'
 }
+
+# full | portal | limited | none | unknown — NetworkManager's own verdict.
+wifi_connectivity() {
+    nmcli -t -f CONNECTIVITY general 2>/dev/null | tail -1
+}
+
+# Associated WITHOUT internet, for REQUIRE_INTERNET_POLLS consecutive polls, is
+# treated as no-wifi and raises the setup hotspot.
+#
+# OFF by default, deliberately. The venue kit is a travel router whose WAN may
+# legitimately be down while the LAN it provides is exactly what the two robots
+# need: the floor lease, the console and duet mode all work with no internet at
+# all, and raising an AP there would break a working installation to fix
+# nothing. Turn it on (CJ_SETUP_REQUIRE_INTERNET=1) for a kiosk that is useless
+# without the composer, where being unreachable is worse than being offline.
+REQUIRE_INTERNET="${CJ_SETUP_REQUIRE_INTERNET:-0}"
+REQUIRE_INTERNET_POLLS="${CJ_SETUP_REQUIRE_INTERNET_POLLS:-30}"   # 30 x 20 s = 10 min
+no_net_polls=0
 
 ensure_profile() {
     nmcli -t -f NAME connection show | grep -qx "$CON" && return
@@ -61,8 +82,27 @@ while true; do
             fi
         fi
     elif [ -n "$aw" ]; then
-        misses=0
         ap_loops=0
+        if [ "$REQUIRE_INTERNET" = "1" ]; then
+            conn="$(wifi_connectivity)"
+            if [ "$conn" = "full" ]; then
+                no_net_polls=0
+                misses=0
+            else
+                no_net_polls=$((no_net_polls + 1))
+                if [ "$no_net_polls" -ge "$REQUIRE_INTERNET_POLLS" ]; then
+                    no_net_polls=0
+                    misses=0
+                    echo "on '$aw' but connectivity=$conn for $((CHECK_S * REQUIRE_INTERNET_POLLS))s - starting setup hotspot $SSID"
+                    ensure_profile
+                    nmcli connection up "$CON"      # takes wlan0 from '$aw'
+                else
+                    misses=0
+                fi
+            fi
+        else
+            misses=0
+        fi
     else
         misses=$((misses + 1))
         if [ "$misses" -ge "$MISSES_BEFORE_AP" ]; then

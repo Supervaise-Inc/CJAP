@@ -277,6 +277,10 @@ function renderRobots(s){for(const r of['alpha','beta']){const o=s.observed[r]||
     ['role',(o.role==='cjap'?'Panganiban':'Host')+(o.reported_persona&&o.reported_persona!==o.role?' (robot still says '+(o.reported_persona==='cjap'?'Panganiban':'Host')+')':'')],
     ['should be',o.intended],['mic is',o.mic==null?'unknown':(o.mic?'open':'closed')],['holds lease',o.has_floor==null?'?':(o.has_floor?'yes':'no')],
     ['answering',o.turn_active==null?'?':(o.turn_active?'yes':'no')],['speaking',o.speaking==null?'?':(o.speaking?'yes':'no')],
+    // Only the Panganiban robot needs the internet, but show it for both: the
+    // role is swappable, and a visitor should never be the one who discovers
+    // that the API calls are failing (2026-09-14).
+    ['internet',o.online==null?'unknown (older build)':(o.online?'reachable':'NOT REACHABLE — answers will be the apology line')],
     ['room level',s.rms&&s.rms[r]!=null?Math.round(s.rms[r])+(o.rms_1s?' · last second peak '+o.rms_1s.max:''):'—'],
     ['talking counts from',o.speech_threshold!=null?o.speech_threshold+' ('+(o.threshold_binding||'?')+' binding)':'—'],['boot',(o.boot_id||'').slice(-14)||'—']];
   box.innerHTML='<b>'+esc(rname(s,r))+' <small style="color:var(--dim)">slot '+r+'</small></b><div class="kv">'+rows.map(([k,v])=>'<span>'+k+'</span><span>'+esc(v)+'</span>').join('')+'</div>';}}

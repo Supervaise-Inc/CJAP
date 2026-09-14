@@ -1029,3 +1029,37 @@ def test_repeated_duet_reports_do_not_extend_the_hold(tmp_path):
     clock.advance(cs.DUET_LOOP_GAP_S + 3.0)
     con.tick(clock())
     assert con.duet["idx"] == idx0 + 1, "it must still advance once the pause elapses"
+
+
+def test_console_warns_when_the_panganiban_robot_has_no_internet(tmp_path):
+    """Before 2026-09-14 the console showed a healthy lease, healthy mic reports
+    and a normal journal while every visitor turn fell into the apology line —
+    the robot never told it whether the API was reachable."""
+    clock = Clock()
+    c = make_console(tmp_path, clock)
+    assert c.cjap_is == "alpha"
+
+    lease(c, "alpha", clock(), mic_open=True, online=True)
+    lease(c, "beta", clock(), mic_open=False, online=False)
+    doc = cs.api(c, "GET", "/api/state", now=clock())[1]
+    assert doc["observed"]["alpha"]["online"] is True
+    assert doc["observed"]["beta"]["online"] is False
+    # beta plays the Host: it speaks pre-rendered audio and needs no API
+    assert not any(w.get("kind") == "internet" for w in doc["warnings"])
+
+    lease(c, "alpha", clock(), mic_open=True, online=False)
+    doc = cs.api(c, "GET", "/api/state", now=clock())[1]
+    warn = [w for w in doc["warnings"] if w.get("kind") == "internet"]
+    assert len(warn) == 1 and warn[0]["robot"] == "alpha" and warn[0]["level"] == "bad"
+    assert "apology" in warn[0]["msg"] and "DUET" in warn[0]["msg"]
+
+
+def test_internet_field_is_unknown_not_offline_for_an_older_build(tmp_path):
+    """A robot that has not been updated sends no `online` key. That must read
+    as unknown — reporting it as offline would cry wolf on every deploy."""
+    clock = Clock()
+    c = make_console(tmp_path, clock)
+    lease(c, "alpha", clock(), mic_open=True)          # no online key at all
+    doc = cs.api(c, "GET", "/api/state", now=clock())[1]
+    assert doc["observed"]["alpha"]["online"] is None
+    assert not any(w.get("kind") == "internet" for w in doc["warnings"])

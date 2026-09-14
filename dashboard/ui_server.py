@@ -220,6 +220,12 @@ def wifi_scan(rescan=False):
 
 
 SETUP_CON = "ReachySetup"   # wifi_fallback.sh setup-hotspot profile name
+WIFI_IFACE = os.environ.get("CJ_WIFI_IFACE", "wlan0")
+
+# Outcome of the most recent join attempt. The hotspot path has to answer the
+# HTTP request before the access point drops, so the reply cannot carry the
+# result; the phone reads it here after it reconnects (2026-09-14).
+_last_join = {"ssid": None, "state": None, "plain": "", "stages": []}
 
 
 def hotspot_active():
@@ -227,32 +233,76 @@ def hotspot_active():
 
 
 def _profile_for(ssid):
-    """Saved profile name for an SSID (never the setup hotspot)."""
+    """Saved profile name for an SSID (never an access-point profile).
+
+    Two SSIDs on alpha are saved under two profile names each (GlobeAtHome /
+    GlobeAtHome_F98D0 at priorities 0 and 5), and taking the first match in
+    nmcli listing order picked the stale copy. Prefer the highest
+    autoconnect-priority, then the one nmcli lists first, so a join and the
+    next boot agree on which profile they mean."""
+    candidates = []
     for name, s in wifi_profiles(refresh=True).items():
-        if s == ssid and name != SETUP_CON:
-            return name
-    return None
+        if s != ssid or name == SETUP_CON:
+            continue
+        _, mode = _nm(["-g", "802-11-wireless.mode", "connection", "show", name], timeout=5)
+        if mode.strip() == "ap":
+            continue          # our own hotspot under another name — never join it
+        _, prio = _nm(["-g", "connection.autoconnect-priority", "connection", "show", name],
+                      timeout=5)
+        try:
+            prio = int((prio or "0").strip())
+        except ValueError:
+            prio = 0
+        candidates.append((-prio, len(candidates), name))
+    candidates.sort()
+    return candidates[0][2] if candidates else None
+
+
+def _psk_of(name):
+    """The password currently stored in a profile, or None if unreadable."""
+    code, out = _nm(["-s", "-g", "802-11-wireless-security.psk", "connection", "show", name],
+                    timeout=5)
+    return out.strip() if code == 0 and out.strip() else None
 
 
 def _wifi_join(ssid, password=None, hidden=False):
     name = _profile_for(ssid)
     had_profile = name is not None
+    old_psk = None
     if name and password:
         # `nmcli dev wifi connect` reuses an existing profile and would keep
         # its OLD password — write the new one into the profile first, then
         # activate that profile (this is how a changed router password is fixed).
-        code, out = _nm(["connection", "modify", name, "wifi-sec.psk", password], timeout=15)
+        #
+        # Keep the old secret first. Without this, one typo while re-entering
+        # the password for the network you are ON destroyed the working
+        # credential: the modify succeeded, activation failed, and the
+        # restore-previous path then re-activated this same profile with the
+        # bad password. The robot ended up off the network with no way back
+        # that did not need a keyboard.
+        old_psk = _psk_of(name)
+        code, out = _nm(["connection", "modify", name,
+                         "wifi-sec.key-mgmt", "wpa-psk", "wifi-sec.psk", password], timeout=15)
         if code != 0:
             return False, f"could not store the password in profile {name!r}: {out[-200:]}"
     if name:
-        code, out = _nm(["connection", "up", "id", name], timeout=60)
+        # --wait keeps nmcli inside our subprocess budget: its own default is
+        # 90 s, ours was 60, so a slow venue AP looked like a timeout while
+        # NetworkManager was still activating — and the cleanup below then
+        # deleted a profile that was about to come up.
+        code, out = _nm(["--wait", "45", "connection", "up", "id", name], timeout=60)
     else:
-        cmd = ["dev", "wifi", "connect", ssid]
+        cmd = ["--wait", "45", "dev", "wifi", "connect", ssid]
         if password:
             cmd += ["password", password]
         if hidden:
             cmd += ["hidden", "yes"]
         code, out = _nm(cmd, timeout=60)
+    if code != 0 and name and password and old_psk:
+        # put the working secret back before anyone tries to restore this profile
+        _nm(["connection", "modify", name, "wifi-sec.psk", old_psk], timeout=15)
+        print(f"[wifi] join {ssid!r} failed — restored the previous password in {name!r}",
+              flush=True)
     _wifi_profiles_cache["ts"] = 0.0
     if code != 0 and not had_profile and _profile_for(ssid):
         # a failed first join leaves a half-made profile behind (it would even
@@ -260,6 +310,95 @@ def _wifi_join(ssid, password=None, hidden=False):
         _nm(["connection", "delete", "id", _profile_for(ssid)], timeout=10)
         _wifi_profiles_cache["ts"] = 0.0
     return code == 0, out[-300:]
+
+
+def _explain(code, out):
+    """nmcli's output turned into words an operator can act on."""
+    o = (out or "").lower()
+    if code == -2 or "timed out" in o or "timeoutexpired" in o:
+        return "timed out — the network did not answer in time"
+    if "secrets were required" in o or "no secrets provided" in o or "802-1x" in o:
+        return "wrong password"
+    if "no network with ssid" in o or "not found" in o:
+        return "network not found — check the name, or tick “hidden network”"
+    if "not authorized" in o or "sudo:" in o or "password is required" in o:
+        return "the dashboard is not allowed to change the network (sudo)"
+    if "property is invalid" in o or "invalid" in o:
+        return "the network settings were rejected"
+    return (out or "the network did not connect").strip()[-200:]
+
+
+# Stage names in the order they are checked. The operator sees the first one
+# that fails, so the order is the diagnosis.
+WIFI_STAGES = ("interface", "associated", "ip", "dns", "internet")
+
+
+def wifi_verify(probe_host="api.anthropic.com", timeout_s=8):
+    """Is the robot ACTUALLY on the internet? Staged, so a failure says which
+    part broke rather than just 'not connected'.
+
+    Returns {ok, stages: [{stage, ok, detail}], plain, ssid, ip, connectivity}.
+    'connected' means every stage passed. A captive portal reads as
+    connected-with-no-internet, not as connected — that distinction is the
+    whole point of this function (2026-09-14)."""
+    stages, info = [], {"ssid": None, "ip": None, "connectivity": None}
+
+    def add(stage, ok, detail=""):
+        stages.append({"stage": stage, "ok": bool(ok), "detail": detail})
+        return ok
+
+    def done(ok, plain):
+        return {"ok": ok, "stages": stages, "plain": plain, **info}
+
+    code, out = _nm(["-t", "-f", "DEVICE,STATE,CONNECTION", "device", "status"], timeout=6)
+    if code != 0:
+        add("interface", False, "cannot read the network state")
+        return done(False, "cannot read the network state (permissions?)")
+    dev = None
+    for line in out.splitlines():
+        parts = _nm_split(line)
+        if parts and parts[0] == WIFI_IFACE:
+            dev = parts
+    if not dev:
+        add("interface", False, f"{WIFI_IFACE} is not present")
+        return done(False, f"the {WIFI_IFACE} interface is missing")
+    state = dev[1] if len(dev) > 1 else "?"
+    add("interface", state not in ("unavailable", "unmanaged"), f"{WIFI_IFACE} is {state}")
+
+    profile = dev[2] if len(dev) > 2 and dev[2] and dev[2] != "--" else None
+    info["ssid"] = profile
+    if not add("associated", bool(profile) and state == "connected",
+               profile or "not joined to any network"):
+        return done(False, "not connected to any network")
+
+    _, addr = _nm(["-g", "IP4.ADDRESS", "device", "show", WIFI_IFACE], timeout=6)
+    ip = addr.splitlines()[0].split("/")[0] if addr.strip() else ""
+    info["ip"] = ip or None
+    if not add("ip", bool(ip), ip or "no address from DHCP"):
+        return done(False, f'joined "{profile}" but it never gave us an IP address')
+
+    try:
+        socket.setdefaulttimeout(timeout_s)
+        socket.getaddrinfo(probe_host, 443)
+        add("dns", True, f"{probe_host} resolves")
+    except Exception as e:
+        add("dns", False, type(e).__name__)
+        return done(False, f'joined "{profile}" with address {ip}, but name lookup fails')
+
+    # NetworkManager's own check, forced fresh rather than read from cache:
+    # full | portal | limited | none | unknown
+    code, conn = _nm(["networking", "connectivity", "check"], timeout=timeout_s + 6)
+    conn = (conn or "unknown").strip().splitlines()[-1] if conn else "unknown"
+    info["connectivity"] = conn
+    add("internet", conn == "full", conn)
+    if conn == "full":
+        return done(True, f'connected to "{profile}" ({ip}) — internet reachable')
+    if conn == "portal":
+        return done(False, f'connected to "{profile}" ({ip}) but a sign-in page is in the '
+                           "way (captive portal) — no internet yet")
+    if conn in ("limited", "none"):
+        return done(False, f'connected to "{profile}" ({ip}) but there is no internet')
+    return done(False, f'connected to "{profile}" ({ip}) — internet state unknown ({conn})')
 
 
 def wifi_connect(ssid, password=None, hidden=False):
@@ -283,21 +422,48 @@ def wifi_connect(ssid, password=None, hidden=False):
         def _switch():
             _nm(["connection", "down", SETUP_CON], timeout=15)
             ok, out = _wifi_join(ssid, password, hidden)
-            if not ok:
-                print(f"[wifi-fallback] join {ssid!r} failed ({out}) — hotspot back up", flush=True)
-                _nm(["connection", "up", SETUP_CON], timeout=20)
+            if ok:
+                v = wifi_verify()
+                _last_join.update(ssid=ssid, state="ok" if v["ok"] else "no-internet",
+                                  plain=v["plain"], stages=v["stages"])
+                print(f"[wifi] join {ssid!r}: {v['plain']}", flush=True)
+                if v["ok"]:
+                    return
+                # joined, but nothing is reachable — leave it up so the operator
+                # can sign in to a portal, and say so when they come back
+                return
+            reason = _explain(-1, out)
+            _last_join.update(ssid=ssid, state="failed", plain=reason, stages=[])
+            print(f"[wifi] join {ssid!r} failed ({reason}) — hotspot back up", flush=True)
+            _nm(["connection", "up", SETUP_CON], timeout=20)
+        _last_join.update(ssid=ssid, state="attempting", plain="", stages=[])
         threading.Thread(target=_switch, daemon=True).start()
-        return True, (f'trying to join "{ssid}" — reconnect your phone to that '
-                      "network and reopen the dashboard; if joining fails, the "
-                      "CJAP Reachy hotspot returns within a minute")
+        # The reply has to go out before the AP drops, so it cannot carry the
+        # outcome. Say that plainly instead of claiming success: the result
+        # lands in _last_join and the reconnected phone reads it from /api/wifi
+        # (before 2026-09-14 this returned ok:true and a wrong password was
+        # indistinguishable from a working join).
+        return True, (f'trying to join "{ssid}" — this page is about to drop. Reconnect '
+                      f'your phone to "{ssid}" and reopen the dashboard: it will tell you '
+                      "whether the join worked. If it failed, the CJAP Reachy hotspot "
+                      "comes back within a minute.")
     prev = wifi_active()
     ok, out = _wifi_join(ssid, password, hidden)
     if ok:
-        return True, f'now on "{ssid}"'
+        # nmcli exiting 0 only means the radio associated. Ask whether the
+        # robot can actually reach anything before telling the operator it is
+        # connected — a venue AP that associates and does not route used to
+        # read here as success (2026-09-14).
+        v = wifi_verify()
+        if v["ok"]:
+            return True, f'now on "{ssid}" — {v["plain"]}'
+        return False, v["plain"] + "  (still joined — sign in or pick another network)"
+    reason = _explain(-1, out)
     if prev and wifi_active() is None:
-        back_code, _ = _nm(["connection", "up", "id", prev], timeout=45)
-        out += f" — back on {prev!r}" if back_code == 0 else f" — and {prev!r} did not come back"
-    return False, out
+        back_code, _ = _nm(["--wait", "45", "connection", "up", "id", prev], timeout=60)
+        reason += (f" — back on {prev!r}" if back_code == 0
+                   else f" — and {prev!r} did not come back")
+    return False, reason
 
 
 MAC_RE = re.compile(r"^[0-9A-Fa-f]{2}(:[0-9A-Fa-f]{2}){5}$")
@@ -593,18 +759,40 @@ def internet_up(timeout=2.5):
 
 
 def wifi_info():
-    info = {"essid": None, "signal_dbm": None, "quality": None, "ip": None}
-    _, out = run(["iwconfig", "wlan0"], timeout=5)
+    """Live state for the status tick: SSID, signal, IP and whether the
+    internet is actually reachable.
+
+    The SSID and IP come from nmcli scoped to the wireless interface, not from
+    `hostname -I` (which returns the first address of ANY interface) and not
+    from an iwconfig ESSID string, which is present whenever the radio is
+    associated to something — including a router with a dead uplink. The
+    connectivity field is NetworkManager's maintained verdict, read from cache
+    here because this runs on every status poll; wifi_verify() forces a fresh
+    check after a join, where the cost is worth paying (2026-09-14)."""
+    info = {"essid": None, "signal_dbm": None, "quality": None, "ip": None,
+            "connectivity": None, "online": False}
+    _, out = run(["iwconfig", WIFI_IFACE], timeout=5)
     for tok in out.replace("  ", "\n").splitlines():
         tok = tok.strip()
-        if tok.startswith("ESSID:"):
-            info["essid"] = tok.split(":", 1)[1].strip().strip('"')
-        elif "Signal level=" in tok:
+        if "Signal level=" in tok:
             info["signal_dbm"] = tok.split("Signal level=")[1].split()[0]
         elif "Link Quality=" in tok:
             info["quality"] = tok.split("Link Quality=")[1].split()[0]
-    _, ip = run(["hostname", "-I"], timeout=5)
-    info["ip"] = ip.split()[0] if ip.split() else None
+    code, out = _nm(["-t", "-f", "GENERAL.CONNECTION,IP4.ADDRESS", "device", "show", WIFI_IFACE],
+                    timeout=6)
+    if code == 0:
+        for line in out.splitlines():
+            parts = _nm_split(line)
+            if len(parts) < 2 or not parts[1]:
+                continue
+            if parts[0] == "GENERAL.CONNECTION" and parts[1] != "--":
+                info["essid"] = parts[1]
+            elif parts[0].startswith("IP4.ADDRESS") and not info["ip"]:
+                info["ip"] = parts[1].split("/")[0]
+    code, conn = _nm(["-t", "-f", "CONNECTIVITY", "general"], timeout=6)
+    if code == 0 and conn.strip():
+        info["connectivity"] = conn.strip().splitlines()[-1]
+        info["online"] = info["connectivity"] == "full"
     return info
 
 
@@ -1199,6 +1387,12 @@ async function wifiScan() {
   } catch (e) { $("wifi-list").textContent = "scan failed: " + e.message; }
 }
 
+// Same key the /maintain page uses. On a normal LAN the connect endpoint
+// requires it; in setup-hotspot mode it does not, so the venue recovery path
+// still works from a bare http://10.42.0.1:8080/ with no query string.
+const WIFI_KEY = new URLSearchParams(location.search).get("key")
+  || localStorage.getItem("cjkey") || "";
+
 async function wifiSend(ssid, password) {
   if (!confirm("Switch the robot to \\"" + ssid + "\\"?\\n\\nThe dashboard will drop " +
       "until your phone is on the same network.")) return;
@@ -1206,7 +1400,7 @@ async function wifiSend(ssid, password) {
   try {
     const r = await fetch("/api/wifi/connect", { method: "POST",
       headers: {"Content-Type": "application/json"},
-      body: JSON.stringify({ssid, password}) });
+      body: JSON.stringify({ssid, password, key: WIFI_KEY}) });
     const out = await r.json();
     toast(out.ok ? out.output || ("now on " + ssid) : "FAILED — " + out.output);
   } catch (e) {
@@ -1529,7 +1723,8 @@ class Handler(BaseHTTPRequestHandler):
                 n["saved"] = n["ssid"] in saved
             self._send(200, json.dumps(
                 {"current": current, "saved": saved, "networks": nets,
-                 "hotspot": current == SETUP_CON}))
+                 "hotspot": current == SETUP_CON,
+                 "info": wifi_info(), "last_join": _last_join}))
         elif path == "/api/bt":
             devs = bt_scan() if params.get("scan") == "1" else bt_devices()
             self._send(200, json.dumps({"devices": devs}))
@@ -1575,6 +1770,16 @@ class Handler(BaseHTTPRequestHandler):
             try:
                 n = int(self.headers.get("Content-Length", 0))
                 body = json.loads(self.rfile.read(n) or b"{}")
+                # Key-gated like every other POST that changes the machine —
+                # this one can move both robots onto a network of the caller's
+                # choosing, on a host whose sudo grant is NOPASSWD: ALL.
+                # EXCEPT in setup-hotspot mode: that is the venue recovery path,
+                # the only people in radio range are whoever has the AP password,
+                # and demanding a key there is how someone ends up needing a
+                # keyboard (2026-09-14).
+                if not hotspot_active() and not ui._authed({}, body):
+                    self._send(403, json.dumps({"ok": False, "output": "bad key"}))
+                    return
                 ok, out = wifi_connect(body.get("ssid", ""),
                                        body.get("password") or None,
                                        hidden=bool(body.get("hidden")))

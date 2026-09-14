@@ -77,6 +77,35 @@ Console → change who plays Panganiban → apply. Both robots switch within a s
 | **Says something untrue** | The gates do NOT reliably catch this | Switch to DUET immediately; write down exactly what it said |
 | **One robot stops mid-sentence** | Network dropped mid-answer | Is that robot still reporting? If stale, power-cycle it |
 
+## If you lose the network and cannot reach the console
+
+The robot raises its own WiFi network when it has no connection for about a
+minute. This is how you get back in with no keyboard and no monitor.
+
+| | |
+|---|---|
+| Network name | **CJAP Reachy** (on beta: **reachy-2**) |
+| Password | **reachymini** |
+| Dashboard | **http://10.42.0.1:8080** |
+
+1. On your phone, join **CJAP Reachy**. It can take a minute to appear.
+2. Open **http://10.42.0.1:8080** — the WiFi card is on the System tab.
+3. **Type the network name by hand.** Scanning does not work while the robot is
+   running its own network, so the list will be empty. Tick *hidden network*
+   only if the venue network really does not broadcast its name.
+4. Submit. The page will drop — that is expected, the robot is switching.
+   Rejoin the venue network on your phone and reopen the dashboard: it will
+   tell you whether the join worked, in words.
+5. If it failed, **CJAP Reachy** comes back within a minute and you can retry.
+
+The robot's own network disappears for about 45 seconds every five minutes
+while it checks whether a known network has come back. If it vanishes, wait a
+minute and look again.
+
+**It will not appear if the robot is joined to the wrong network** — from the
+robot's point of view it has WiFi. Move it out of range of that network, or
+power-cycle it somewhere the wrong network cannot be heard.
+
 ## Not problems
 
 - Heads drifting and swaying constantly — deliberate, a still robot looks broken.

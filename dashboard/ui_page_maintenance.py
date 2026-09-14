@@ -1172,6 +1172,7 @@ function renderStatus(st){try{
     ' &nbsp;<b>disk</b> '+(sy.disk_used_pct!=null?sy.disk_used_pct+'%':'?')+
     ' &nbsp;<b>throttle</b> '+esc(sy.throttled||'?')+
     '<br><b>WiFi</b> '+esc(wf.essid||'none')+' '+esc(wf.signal_dbm||'')+'dBm &nbsp;<b>IP</b> '+esc(wf.ip||'?')+
+    ' &nbsp;<b>Internet</b> '+esc(wf.connectivity||'?')+
     '<br><b>Audio</b> '+esc((st.audio||{}).route||'?');
   try{netFromStatus(st)}catch(e){}
   const env=((st.wake||{}).env)||{};
@@ -1238,7 +1239,15 @@ window.__booted=true;
 // ── Connectivity (WiFi / Bluetooth) — same endpoints as the ops page ──
 let _nets=[],_bts=[],_watchdog=false;
 function netFromStatus(st){const wf=st.wifi||{};
-  $('wifinow').innerHTML=wf.essid?chip(esc(wf.essid),true,esc(wf.signal_dbm||'?')+' dBm · '+esc(wf.ip||'?')):chip('no wifi',false,'');
+  // The chip is green only when the internet is actually reachable (2026-09-14).
+  // It used to be green whenever an ESSID string existed, which is true of a
+  // router with a dead uplink and of a captive portal — the two cases an
+  // operator most needs to see before the doors open.
+  $('wifinow').innerHTML=wf.essid
+    ?chip(esc(wf.essid),!!wf.online,esc(wf.signal_dbm||'?')+' dBm · '+esc(wf.ip||'?')
+          +' · '+(wf.online?'internet ok':(wf.connectivity==='portal'?'sign-in needed'
+                 :wf.connectivity==='unknown'||!wf.connectivity?'internet unknown':'NO INTERNET')))
+    :chip('no wifi',false,'');
   _watchdog=((st.services||{})['speaker-watchdog']||{}).active==='active';
   const sp=(st.audio||{}).speakers||{},route=(st.audio||{}).route||'?';
   $('btnow').innerHTML=chip('route',true,esc(route))+Object.entries(sp).map(([n,c])=>chip(n,c,c?'connected':'off')).join('');}
@@ -1246,6 +1255,11 @@ function netRow(left,right,onclick){return '<div style="display:flex;justify-con
 async function wifiScan(){$('wifi-list').textContent='scanning (a few seconds)…';
   try{const w=await(await fetch('/api/wifi?rescan=1')).json();_nets=w.networks||[];
     $('wifinow').textContent=w.hotspot?'setup hotspot':(w.current?'on '+w.current:'not connected');
+    // Outcome of the last join, for the phone that just reconnected: the
+    // hotspot path answers before the AP drops, so this is where the result is.
+    const lj=w.last_join||{};
+    if(lj.state&&lj.state!=='attempting')
+      $('netmsg').textContent=(lj.state==='ok'?'✅ ':'⚠️ ')+'last attempt on "'+lj.ssid+'": '+(lj.plain||lj.state);
     if(w.hotspot&&!_nets.length){$('wifi-list').textContent='setup hotspot active — scanning unavailable; type the network below';return}
     if(!_nets.length){$('wifi-list').textContent='no networks found';return}
     $('wifi-list').innerHTML=_nets.map((n,i)=>{const bars=n.signal>66?'▂▄▆':n.signal>33?'▂▄':'▂';
@@ -1256,7 +1270,7 @@ async function wifiSend(ssid,password,hidden){
   if(!confirm('Switch the robot to "'+ssid+'"? This page will drop until your phone is on the same network.'))return;
   $('netmsg').textContent='switching to '+ssid+'… (up to a minute)';
   try{const r=await(await fetch('/api/wifi/connect',{method:'POST',headers:{'Content-Type':'application/json'},
-      body:JSON.stringify({ssid,password,hidden:!!hidden})})).json();
+      body:JSON.stringify({ssid,password,hidden:!!hidden,key:KEY})})).json();
     $('netmsg').textContent=r.ok?(r.output||('now on '+ssid)):'FAILED — '+(r.output||'');
   }catch(e){$('netmsg').textContent='dashboard dropped — rejoin '+ssid+' on your phone and reload'}}
 function wifiJoinIdx(i){const n=_nets[i];if(!n)return;let pw=null;
