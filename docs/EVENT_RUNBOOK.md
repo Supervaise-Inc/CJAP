@@ -76,6 +76,7 @@ Console → change who plays Panganiban → apply. Both robots switch within a s
 | **Answers when nobody is talking** | Room louder than the threshold | Re-run calibration with the crowd in; raise the loudness setting; else switch to DUET |
 | **Says something untrue** | The gates do NOT reliably catch this | Switch to DUET immediately; write down exactly what it said |
 | **One robot stops mid-sentence** | Network dropped mid-answer | Is that robot still reporting? If stale, power-cycle it |
+| **The robot looks frozen / dead** | **The microphone is muted.** Muting deliberately stops the breathing — the robot has no lights, so going still is how it shows it is muted | **Check the mute button on /maintain FIRST.** Unmute and the breathing returns within a second |
 
 ## If you lose the network and cannot reach the console
 
@@ -105,6 +106,25 @@ minute and look again.
 **It will not appear if the robot is joined to the wrong network** — from the
 robot's point of view it has WiFi. Move it out of range of that network, or
 power-cycle it somewhere the wrong network cannot be heard.
+
+## If the robot looks frozen
+
+Check this in order. The first one is not a fault and costs ten seconds to rule
+out; people have gone looking for a crash when the answer was a muted mic.
+
+1. **Is the microphone muted?** Open `/maintain` and look at the mute button.
+   Muting stops the breathing on purpose — the robot has no lights, so a still
+   body is the only way it can show it is muted. A muted robot and a crashed
+   robot look **identical** from across a room. Unmute, and the head starts
+   breathing again within a second.
+2. **Is the app running?** `/console` shows the robot as reporting or stale. A
+   stale row means the app is down, not muted.
+3. **Are the motors off?** `/maintain` has an idle-motion switch. Off means the
+   head holds still while everything else works normally.
+4. **Is it holding the floor?** A robot without the floor closes its mic and
+   goes quiet — that is the one-microphone rule working, not a fault.
+
+Only after all four should anyone power-cycle anything.
 
 ## Not problems
 

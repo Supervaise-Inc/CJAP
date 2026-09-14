@@ -1896,7 +1896,31 @@ def serve_https():
     srv.serve_forever()
 
 
+def _mirror_motion_config():
+    """Put the versioned motion config into /dev/shm at boot.
+
+    The robot reads ONLY /dev/shm/cj_motion.json (main_voice_robot._motion);
+    when that file is absent it falls back to the hardcoded CJ_* defaults, not
+    to config/avatar_motion.json. /dev/shm is a tmpfs, so without this a cold
+    start comes up on the untuned defaults — sway 4.0 deg rather than the
+    tuned 1.6 — and nothing says so. Written once, at startup, before the
+    first request (2026-09-14)."""
+    try:
+        if os.path.exists(ui.MOTION_FILE):
+            return                      # a previous run this boot already set it
+        vals = ui.motion_get()          # falls back to the repo's active preset
+        ok, err = ui._motion_write(vals)
+        act, _ = ui.motion_presets()
+        print(f"[dashboard] motion config mirrored to /dev/shm "
+              f"(preset {act!r})" if ok else f"[dashboard] motion mirror failed: {err}",
+              flush=True)
+    except Exception as e:
+        print(f"[dashboard] motion mirror skipped: {type(e).__name__}: {e}", flush=True)
+
+
 if __name__ == "__main__":
+    if ui is not None:
+        _mirror_motion_config()
     threading.Thread(target=serve_https, daemon=True).start()
     print(f"[dashboard] serving on {BIND}:{PORT}", flush=True)
     _QuietServer((BIND, PORT), Handler).serve_forever()

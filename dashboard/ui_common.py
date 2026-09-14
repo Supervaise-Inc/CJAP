@@ -649,23 +649,61 @@ APP_ENV = os.path.join(MAIN, "app", ".env")   # the app's secrets + voice ids (l
 
 
 MOTION_FILE = "/dev/shm/cj_motion.json"   # live head-motion + avatar-sync knobs (2026-09-12)
+# The versioned copy, and the source of truth since 2026-09-14. /dev/shm is a
+# tmpfs: before this file existed, every motion setting was silently lost on
+# reboot, so "the sliders persist" was not true of any of them.
+MOTION_CONFIG = os.path.join(MAIN, "config", "avatar_motion.json")
 MOTION_KNOBS = {  # key: (min, max, default, label)
-    "sway_deg":      (0.0, 20.0, 4.0,  "head sway (deg side to side)"),
-    "sway_hz":       (0.02, 0.3, 0.07, "sway speed (Hz)"),
-    "breath_gain":   (0.3, 3.0,  1.3,  "breathing size"),
-    "breath_pitch":  (0.0, 1.0,  0.75, "breathing nod amount"),
-    "env_deg":       (0.0, 12.0, 2.2,  "voice emphasis (deg nod at full volume; 0 = off)"),
-    "avatar_offset": (-1.0, 2.0, 0.0,  "avatar sync offset (s; +later, -earlier)"),
+    # master, multiplies every amplitude below (not the rates)
+    "motion_scale":  (0.0, 1.5,  1.0,  "overall motion scale"),
+    "sway_deg":      (0.0, 20.0, 1.6,  "head movement amount (deg side to side)"),
+    "sway_hz":       (0.02, 0.3, 0.045, "head movement speed (Hz)"),
+    "breath_gain":   (0.3, 3.0,  1.0,  "breathing depth"),
+    "breath_pitch":  (0.0, 1.0,  0.8,  "breathing nod share (vertical vs sway)"),
+    # 2026-09-14: the old breathing was a 30 s drift — about 2 cycles a minute.
+    # A real breath is 12-16. This sets the rate of the breath layer that sits
+    # UNDER the postural drift, and it is the knob that makes stillness read as
+    # alive instead of frozen.
+    "breath_rate_cpm": (6.0, 24.0, 14.0, "breathing rate (cycles per minute)"),
+    "env_deg":       (0.0, 12.0, 1.2,  "voice emphasis (deg nod at full volume; 0 = off)"),
+    # browser-side: how hard the measured audio envelope opens the mouth on
+    # /stage and /monitor. The robot has no mouth, so this binds to the state
+    # layer only.
+    "lipsync_gain":  (0.0, 2.0,  1.0,  "lip-sync intensity (state layer)"),
+    "avatar_offset": (-1.0, 2.0, 0.0,  "response delay (s; +later, -earlier)"),
 }
 
 
+def _motion_repo():
+    """The versioned config, or {} when it is missing or unreadable."""
+    try:
+        with open(MOTION_CONFIG, encoding="utf-8") as f:
+            d = json.load(f)
+        return d if isinstance(d, dict) else {}
+    except (OSError, ValueError):
+        return {}
+
+
+def motion_presets():
+    """-> (active_name, {name: {knob: value}}) with the _note keys kept."""
+    doc = _motion_repo()
+    pres = doc.get("presets") if isinstance(doc.get("presets"), dict) else {}
+    return doc.get("active"), pres
+
+
 def motion_get():
+    """Effective values: /dev/shm if the dashboard has written it this boot,
+    else the active preset from the repo, else the built-in defaults."""
     cur = {}
     try:
         with open(MOTION_FILE) as f:
             cur = json.load(f)
     except (OSError, ValueError):
         cur = {}
+    if not cur:                       # first read after a reboot
+        _, pres = motion_presets()
+        doc = _motion_repo()
+        cur = dict(pres.get(doc.get("active")) or {})
     return {k: (cur.get(k) if isinstance(cur.get(k), (int, float)) else d)
             for k, (lo, hi, d, lbl) in MOTION_KNOBS.items()}
 
@@ -684,6 +722,15 @@ def motion_set(body):
                 changed.append(f"{k}={cur[k]:g}")
     if not changed:
         return True, "no change"
+    ok, err = _motion_write(cur)
+    if not ok:
+        return False, err
+    return True, "applied: " + ", ".join(changed)
+
+
+def _motion_write(cur, save_preset=None):
+    """Mirror to /dev/shm (what the robot reads, live) and, when asked, into
+    the versioned repo config so the setting survives a reboot."""
     try:
         tmp = MOTION_FILE + ".tmp"
         with open(tmp, "w") as f:
@@ -691,7 +738,60 @@ def motion_set(body):
         os.replace(tmp, MOTION_FILE)   # the robot reads it live (mtime-cached), no restart
     except OSError as e:
         return False, f"cannot write motion config: {e}"
-    return True, "applied: " + ", ".join(changed)
+    if save_preset:
+        doc = _motion_repo() or {"presets": {}}
+        doc.setdefault("presets", {})
+        keep = doc["presets"].get(save_preset) or {}
+        entry = {k: v for k, v in keep.items() if k.startswith("_")}
+        entry.update({k: cur[k] for k in MOTION_KNOBS if k in cur})
+        doc["presets"][save_preset] = entry
+        doc["active"] = save_preset
+        try:
+            tmp = MOTION_CONFIG + ".tmp"
+            with open(tmp, "w", encoding="utf-8") as f:
+                json.dump(doc, f, ensure_ascii=False, indent=2)
+            os.replace(tmp, MOTION_CONFIG)
+        except OSError as e:
+            return False, f"saved live, but cannot write {MOTION_CONFIG}: {e}"
+    return True, "ok"
+
+
+def motion_save(name):
+    """Write the CURRENT live values into a named preset in the repo."""
+    name = (name or "").strip()[:40]
+    if not name or not all(c.isalnum() or c in "-_ " for c in name):
+        return False, "preset name: letters, digits, spaces, - and _ only"
+    ok, err = _motion_write(motion_get(), save_preset=name)
+    return (True, f'saved preset "{name}" to config/avatar_motion.json') if ok else (False, err)
+
+
+def motion_load(name):
+    """Apply a named preset from the repo, live."""
+    _, pres = motion_presets()
+    p = pres.get(name)
+    if not isinstance(p, dict):
+        return False, f'no preset "{name}"'
+    cur = motion_get()
+    for k, (lo, hi, d, lbl) in MOTION_KNOBS.items():
+        if isinstance(p.get(k), (int, float)):
+            cur[k] = max(lo, min(hi, float(p[k])))
+    ok, err = _motion_write(cur)
+    if ok:                       # remember which one is active, for the next boot
+        doc = _motion_repo()
+        if doc:
+            doc["active"] = name
+            try:
+                with open(MOTION_CONFIG, "w", encoding="utf-8") as f:
+                    json.dump(doc, f, ensure_ascii=False, indent=2)
+            except OSError:
+                pass
+    return (True, f'preset "{name}" applied') if ok else (False, err)
+
+
+def motion_reset():
+    """Back to the built-in defaults (not to a preset)."""
+    ok, err = _motion_write({k: d for k, (lo, hi, d, lbl) in MOTION_KNOBS.items()})
+    return (True, "reset to defaults") if ok else (False, err)
 
 
 def _env_value(name):

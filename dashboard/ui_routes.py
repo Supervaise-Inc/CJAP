@@ -6,8 +6,10 @@ ui_page_* modules so ui_server.py, tests and tools can keep using one namespace
 """
 import json, os, re, time  # noqa: F401
 import ui_common, ui_page_audience, ui_page_maintenance, ui_page_event, ui_page_face, ui_page_console
+import ui_page_display   # /stage + /monitor, read-only display views — 2026-09-14
 import console as _console   # operator console model (floor lease, mode/profile, journal) — 2026-09-10
-_MODULES = (ui_common, ui_page_audience, ui_page_maintenance, ui_page_event, ui_page_face, ui_page_console)
+_MODULES = (ui_common, ui_page_audience, ui_page_maintenance, ui_page_event, ui_page_face, ui_page_console,
+            ui_page_display)
 for _m in _MODULES:
     globals().update({k: v for k, v in vars(_m).items()
                       if not k.startswith("__") and k not in ("_c", "_a", "_m")})
@@ -148,8 +150,14 @@ def handle_get(h, path, params):
         if not _authed(params):
             h._send(403, json.dumps({"ok": False, "output": "bad key"}))
         else:
-            h._send(200, json.dumps({"motion": motion_get(),
-                                     "knobs": {k: list(v[:3]) for k, v in MOTION_KNOBS.items()}}))
+            act, pres = motion_presets()
+            h._send(200, json.dumps({
+                "motion": motion_get(),
+                "knobs": {k: list(v) for k, v in MOTION_KNOBS.items()},
+                "presets": {n: {k: v for k, v in p.items() if not k.startswith("_")}
+                            for n, p in pres.items()},
+                "preset_notes": {n: p.get("_note", "") for n, p in pres.items()},
+                "active": act}))
     elif path == "/api/voices":     # Guest voice card (2026-09-12): key hint + voice list, never the key
         if not _authed(params):
             h._send(403, json.dumps({"ok": False, "output": "bad key"}))
@@ -175,6 +183,35 @@ def handle_get(h, path, params):
         h.end_headers()
     elif path == "/face-avatar":
         h._send(200, FACE_AVATAR_PAGE, "text/html; charset=utf-8")
+    # ── the two display views (2026-09-14) ────────────────────────────────
+    # Read-only. They start no avatar session, send no command and write no
+    # file, so any number of them can be open without touching a turn.
+    elif path == "/stage":
+        h._send(200, STAGE_PAGE, "text/html; charset=utf-8")
+    elif path == "/monitor":
+        h._send(200, MONITOR_PAGE, "text/html; charset=utf-8")
+    elif path == "/tune":
+        h._send(200, TUNE_PAGE, "text/html; charset=utf-8")
+    elif path == "/api/display":
+        # public_display=true strips the raw transcript, the gate flags, the
+        # latency and every error state — for a screen a visitor can see.
+        pub = params.get("public_display", "").strip().lower() in ("1", "true", "yes")
+        h._send(200, json.dumps(ui_page_display.display_doc(public=pub,
+                                                            console=_console)))
+    elif path == "/assets/portrait":
+        pt = ui_page_display.portrait()
+        if not pt:
+            h._send(404, json.dumps({"error": "no portrait asset"}))
+        else:
+            ctype = ("video/webm" if pt["file"].endswith(".webm") else
+                     "video/mp4" if pt["file"].endswith(".mp4") else
+                     "image/webp" if pt["file"].endswith(".webp") else
+                     "image/png" if pt["file"].endswith(".png") else "image/jpeg")
+            try:
+                with open(os.path.join(ASSETS, pt["file"]), "rb") as f:
+                    h._send(200, f.read(), ctype)
+            except OSError:
+                h._send(404, json.dumps({"error": "no portrait asset"}))
     elif path == "/api/sentence.wav":
         name = params.get("name", "")
         if not re.fullmatch(r"cj_sent_[0-9]+\.wav", name):
@@ -272,7 +309,16 @@ def handle_post(h, path, body):
         if not _authed({}, body):
             h._send(403, json.dumps({"ok": False, "output": "bad key"}))
         else:
-            ok, out = motion_set(body)
+            # preset actions share this endpoint so a slider drag and a
+            # preset switch cannot race each other on two routes
+            if body.get("preset_save"):
+                ok, out = motion_save(body["preset_save"])
+            elif body.get("preset_load"):
+                ok, out = motion_load(body["preset_load"])
+            elif body.get("reset"):
+                ok, out = motion_reset()
+            else:
+                ok, out = motion_set(body)
             h._send(200, json.dumps({"ok": ok, "output": out, "motion": motion_get()}))
     elif path == "/api/voices":
         # Guest voice card: store the ElevenLabs key / pick a voice for a role.

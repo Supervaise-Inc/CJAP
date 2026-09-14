@@ -160,6 +160,30 @@ details.help[open] summary{margin-bottom:4px}
 </style></head><body>
 <div class="hdr">
 <h1><b>CJAP</b> Maintenance<small>audience: <a href="/audience" target="_blank">/audience</a> &middot; console: <a href="/console" id="consolelink" target="_blank">/console</a> &middot; ops: <a href="/" target="_blank">/</a></small></h1>
+<!-- the two display views (2026-09-14). Labelled for what they are FOR, because
+     putting the operator one on a visitor-facing monitor is the mistake to avoid. -->
+<div class="card c6" data-tab="system"><h2>Display screens</h2>
+  <p class="hint">Two read-only views. Neither starts an avatar session, sends a command or
+  writes anything, so opening them cannot disturb a turn or another screen.</p>
+  <div class="btns" style="flex-wrap:wrap;gap:8px">
+    <a class="btn" href="/stage" target="_blank">&#127917; /stage &mdash; for the visitor</a>
+    <a class="btn" href="/monitor" target="_blank">&#128065; /monitor &mdash; for you</a>
+    <a class="btn" href="/monitor?public_display=1" target="_blank">/monitor &mdash; public screen</a>
+    <a class="btn" href="/tune" id="tunelink" target="_blank">&#127899; /tune &mdash; motion sliders</a>
+  </div>
+  <details class="hint"><summary>which one goes where</summary>
+    <b>/stage</b> is the face alone, full bleed, no text and no controls &mdash; for a monitor
+    beside the robot or a tablet a visitor can see. It shows nothing a visitor should not read,
+    and never shows an error.<br>
+    <b>/monitor</b> adds the camera, the question and the answer, the latency and a mark whenever
+    a guardrail fired &mdash; for your laptop. It shows the raw transcript, which is exactly what
+    must not appear on a screen the public can photograph.<br>
+    <b>/monitor?public_display=1</b> is the same page with the raw transcript, the debug and the
+    error states removed, and a question shown only after the gates have passed.<br>
+    Mouth timing: open /monitor, set <i>mouth offset</i> while the robot speaks, then put the
+    <code>/stage?offset=&hellip;</code> it prints into the display&rsquo;s URL. The internal
+    speaker and an external one need different values.
+  </details></div>
 <div class="statuslinks" title="Provider status pages (open in new tab)">
   <a href="https://status.claude.com" target="_blank" rel="noopener"><i></i>Claude status</a>
   <a href="https://status.elevenlabs.io" target="_blank" rel="noopener"><i></i>ElevenLabs status</a>
@@ -550,6 +574,7 @@ details.help[open] summary{margin-bottom:4px}
 </div></div></div><script>
 const KEY=new URLSearchParams(location.search).get('key')||localStorage.getItem('cjkey')||'';
 if(KEY)localStorage.setItem('cjkey',KEY);
+try{const tl=document.getElementById('tunelink');if(tl&&KEY)tl.href='/tune?key='+encodeURIComponent(KEY);}catch(e){}
 const esc=s=>{const d=document.createElement('div');d.innerText=s==null?'':s;return d.innerHTML};
 const $=id=>document.getElementById(id);
 // 2026-09-12 speed: the 500 ms poll rewrote every table and chip row even when nothing changed

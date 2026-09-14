@@ -865,6 +865,12 @@ try:   # set_target sustained 38 Hz on this robot; _env_num is defined further d
     BREATH_HZ = max(5.0, min(60.0, float(os.environ.get("CJ_BREATH_HZ", "30"))))
 except ValueError:
     BREATH_HZ = 30.0
+# 2026-09-14: breaths per minute for the breath layer (a human at rest is
+# 12-16). Overridden live by the breath_rate_cpm slider.
+try:
+    BREATH_RATE_CPM = max(6.0, min(24.0, float(os.environ.get("CJ_BREATH_RATE_CPM", "14"))))
+except ValueError:
+    BREATH_RATE_CPM = 14.0
 try:   # 2026-09-12 (user: "exaggerate the breathing a bit"): amplitude multiplier
     BREATH_GAIN = max(0.3, min(3.0, float(os.environ.get("CJ_BREATH_GAIN", "1.3"))))
 except ValueError:
@@ -1043,9 +1049,23 @@ class Gestures:
         if k <= 0 and sway_deg <= 0:
             return (0.0, 0.0, 0.0)
         s = math.sin
+        scale = _motion_val("motion_scale", 1.0)     # master, amplitudes only
+        # POSTURAL DRIFT — the original sines. Their dominant term is
+        # sin(0.21*t): 0.21 rad/s is a 30 s period, about 2 cycles a minute.
+        # That is a slow settle of the head, not a breath, which is why a
+        # still head still read as frozen (2026-09-14).
         yaw = 1.9 * s(0.21 * t) + 0.8 * s(0.53 * t + 1.3) + 0.35 * s(1.27 * t + 0.4)
         pitch = pitch_k * (1.5 * s(0.17 * t + 0.9) + 0.9 * s(0.61 * t + 2.1) + 0.55 * s(0.97 * t))
         roll = 1.1 * s(0.13 * t + 2.7) + 0.5 * s(0.47 * t + 0.8)
+        # BREATH — a real one, 12-16 cycles a minute, layered UNDER the drift
+        # rather than replacing it. The rate wanders slowly (a 3-minute wander,
+        # +/-7%) so it never lands in a metronome, and the second harmonic
+        # makes the out-breath fall a little faster than the in-breath rises,
+        # which is what stops it reading as a sine wave on a machine.
+        rate = _motion_val("breath_rate_cpm", BREATH_RATE_CPM)
+        wb = 2 * math.pi * (rate / 60.0)
+        phb = wb * (1.0 + 0.07 * s(0.033 * t + 0.5)) * t
+        pitch += pitch_k * 1.25 * (s(phb) + 0.16 * s(2 * phb + 0.7))
         # a slow side-to-side look, scaled by the mode (calmer while speaking)
         # but NOT by the breath gain, so the two are tuned independently. Two
         # incommensurable sines so the swing itself never lands in a metronome.
@@ -1061,8 +1081,10 @@ class Gestures:
             emph_y = 0.45 * env_deg * e * s(2 * math.pi * 1.7 * t + 0.7)
         else:
             emph_p = emph_y = 0.0
-        return (k * yaw + self.breath_scale * sway + emph_y,
-                k * pitch + emph_p, k * roll)
+        # motion_scale multiplies AMPLITUDES only — never the rates, or the
+        # breath would speed up as it got smaller
+        return (scale * (k * yaw + self.breath_scale * sway + emph_y),
+                scale * (k * pitch + emph_p), scale * (k * roll))
 
     def _breath_run(self):
         """Hold the head alive around whatever pose the last gesture chose.

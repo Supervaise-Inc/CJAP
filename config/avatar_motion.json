@@ -1,0 +1,52 @@
+{
+  "_readme": "Head motion and avatar sync, versioned. Edited from /tune (live sliders) or by hand. The dashboard writes this file and mirrors it to /dev/shm/cj_motion.json, which is what the robot's breath loop reads every cycle (app/main_voice_robot.py _motion). Before 2026-09-14 the ONLY copy was the /dev/shm one, so every setting was lost on reboot; this file is why they now survive. Values are clamped to the ranges in ui_common.MOTION_KNOBS on write, so a hand-edited out-of-range number is corrected rather than obeyed.",
+  "_target": "A composed man in his late eighties who spent a career being still in a courtroom. Small deliberate shifts, nothing that snaps, and a breath that is visible at two metres without anyone consciously noticing it. If it reads as motion, it is too much.",
+
+  "active": "composed",
+
+  "presets": {
+    "composed": {
+      "_note": "The default since 2026-09-14. Sway cut from 4.0 deg to 1.6 and slowed; voice emphasis nearly halved; breathing given a real rate so stillness reads as alive rather than frozen.",
+      "motion_scale": 1.0,
+      "sway_deg": 1.6,
+      "sway_hz": 0.045,
+      "breath_gain": 1.0,
+      "breath_pitch": 0.8,
+      "breath_rate_cpm": 14.0,
+      "env_deg": 1.2,
+      "lipsync_gain": 1.0,
+      "avatar_offset": 0.0
+    },
+    "livelier": {
+      "_note": "Closer to the pre-2026-09-14 behaviour. For a big room where small movement disappears, or for a camera that flattens motion.",
+      "motion_scale": 1.0,
+      "sway_deg": 4.0,
+      "sway_hz": 0.07,
+      "breath_gain": 1.3,
+      "breath_pitch": 0.75,
+      "breath_rate_cpm": 15.0,
+      "env_deg": 2.2,
+      "lipsync_gain": 1.2,
+      "avatar_offset": 0.0
+    },
+    "still": {
+      "_note": "Lowest motion that is still alive. Breathing only, no sway, no voice emphasis. Use this to check that the head never reads as a frozen frame.",
+      "motion_scale": 1.0,
+      "sway_deg": 0.0,
+      "sway_hz": 0.045,
+      "breath_gain": 1.0,
+      "breath_pitch": 0.9,
+      "breath_rate_cpm": 13.0,
+      "env_deg": 0.0,
+      "lipsync_gain": 0.8,
+      "avatar_offset": 0.0
+    }
+  },
+
+  "_sync_offsets": {
+    "_note": "avatar_offset in seconds, per audio route. They differ because the path from the app to the air differs. Measure with /tune while the robot speaks: drag until the mouth stops leading or trailing. UNMEASURED entries are honest placeholders, not values to trust.",
+    "internal": "UNMEASURED",
+    "dac": "UNMEASURED — the USB DAC is not attached yet",
+    "bluetooth": "UNMEASURED"
+  }
+}

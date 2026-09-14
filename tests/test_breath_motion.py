@@ -17,6 +17,23 @@ os.environ.setdefault("ANTHROPIC_API_KEY", "test-key")
 import main_voice_robot as mvr  # noqa: E402
 
 
+import pytest
+
+
+@pytest.fixture(autouse=True)
+def _no_live_motion(monkeypatch):
+    """Isolate every test in this file from the RUNNING robot's motion config.
+
+    _motion_val falls back to the CJ_* module defaults only when
+    /dev/shm/cj_motion.json is absent. That file is written by the dashboard at
+    boot (2026-09-14), so from then on these tests were reading whatever the
+    machine happened to be tuned to and a monkeypatched default was silently
+    ignored — test_envelope_is_disabled_at_zero_degrees failed the moment the
+    file appeared. Tests assert on the code, never on the machine's state.
+    """
+    monkeypatch.setattr(mvr, "_motion", lambda: {})
+
+
 def _g(scale=1.0):
     g = mvr.Gestures.__new__(mvr.Gestures)
     g.breath_scale = scale
