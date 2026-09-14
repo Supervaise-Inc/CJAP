@@ -45,7 +45,10 @@ MECH_ACTIONS = ("center", "nod", "shake", "look-left", "look-right", "look-up",
                 "look-down", "tilt-left", "tilt-right", "bow", "antennas-up",
                 "antennas-down", "antennas-wiggle", "perk", "scan",
                 "idle-off", "idle-on", "motors-off", "motors-on")
-MUTED_FLAG = "/dev/shm/cj_muted"      # persistent MIC mute (2026-08-29: wake/stop word ignored; robot still speaks)
+MUTED_FLAG = "/dev/shm/cj_muted"      # MIC mute (2026-08-29: wake/stop word ignored; robot still
+                                      # speaks). NOT persistent — /dev/shm is a tmpfs, so a reboot
+                                      # silently un-mutes. Absence = unmuted, which is the safe
+                                      # default, but do not read "persistent" into it (2026-09-14).
 WAKE_TRIGGER = "/dev/shm/cj_wake_trigger"
 ENTITY_OVERLAY = os.path.join(MAIN, "data", "entities", "entity_overrides.json")
 CANNED_PATH = os.path.join(MAIN, "data", "entities", "canned_answers.json")
@@ -671,7 +674,13 @@ MOTION_KNOBS = {  # key: (min, max, default, label)
     # layer only.
     "lipsync_gain":  (0.0, 2.0,  1.0,  "lip-sync intensity (state layer)"),
     "avatar_offset": (-1.0, 2.0, 0.0,  "response delay (s; +later, -earlier)"),
+    # the avatar page's own audio-vs-animation lag. Lived ONLY in
+    # /dev/shm/cj_avatar_lag until 2026-09-14 and reverted to a hardcoded 0.8
+    # on every cold boot (ui_server._avatar_lag), which is the same trap
+    # cj_motion.json had.
+    "avatar_lag":    (0.0, 4.0,  0.8,  "avatar audio lag (s)"),
 }
+AVATAR_LAG_FILE = "/dev/shm/cj_avatar_lag"
 
 
 def _motion_repo():
@@ -738,6 +747,12 @@ def _motion_write(cur, save_preset=None):
         os.replace(tmp, MOTION_FILE)   # the robot reads it live (mtime-cached), no restart
     except OSError as e:
         return False, f"cannot write motion config: {e}"
+    try:   # ui_server._avatar_lag reads this path, not the motion doc
+        if isinstance(cur.get("avatar_lag"), (int, float)):
+            with open(AVATAR_LAG_FILE, "w") as f:
+                f.write(f"{float(cur['avatar_lag']):.2f}")
+    except OSError:
+        pass
     if save_preset:
         doc = _motion_repo() or {"presets": {}}
         doc.setdefault("presets", {})

@@ -18,3 +18,4 @@ is worth carrying into the next project. Append-only IDs.
 | 0010 | [LL-010-article-code-typos-and-padding.md](LL-010-article-code-typos-and-padding.md) | Article codes inconsistent across CSVs — `CA01` vs `CA001`, `GCO01` for `GC001`. |
 | 0011 | [LL-011-smoke-test-routing-miss-jmsu.md](LL-011-smoke-test-routing-miss-jmsu.md) | TS-006 question A4 (JMSU) routed to `supreme_court_history` instead of `eez_resource_sovereignty` — over-broad matcher beats specific topic. |
 | 0012 | [LL-012-grounded-but-stale-not-recombination.md](LL-012-grounded-but-stale-not-recombination.md) | The audit's worst hallucination was corpus-grounded but a year stale — no output gate could catch it; the fix is a gate on the question's premise. |
+| 0013 | [LL-013-tests-that-read-the-machine.md](LL-013-tests-that-read-the-machine.md) | A test was green because the config file it depended on was missing — the suite swept for everything reading live state instead of a fixture. |

@@ -8,6 +8,7 @@ from __future__ import annotations
 
 import json
 import os
+import pathlib
 import sys
 import tempfile
 import threading
@@ -15,7 +16,12 @@ from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
 from urllib.request import urlopen, Request
 
-sys.path.insert(0, os.path.join(os.path.expanduser("~"), "pi_dashboard"))
+# Import the dashboard from the REPO, not through ~/pi_dashboard. That symlink
+# happens to point here on alpha, but on beta it was a stale DIRECTORY holding
+# an older copy until 2026-09-14 — so these tests were validating code that was
+# not the code being deployed, and passing. Same shape as the breath-motion
+# fixture: a test must not depend on the state of the machine it runs on.
+sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent.parent / "dashboard"))
 import ui_routes as ui  # noqa: E402
 
 TMP = Path(tempfile.mkdtemp(prefix="cj_ui_test_"))

@@ -3,7 +3,7 @@
 Split out of supervaise_ui.py on 2026-08-29 (shared names star-copied from
 ui_common so page code reads exactly as before; ui_routes is the facade).
 """
-import json, os, re, subprocess, time  # noqa: F401
+import json, os, re, subprocess, threading, time  # noqa: F401
 import ui_common as _c
 import ui_page_audience as _e
 for _m in (_c, _e):
@@ -852,10 +852,48 @@ def avatar_conf_set(body):
                   f"{'' if new['sandbox'] else ', production'}{warn}")
 
 
+# One live session at a time (2026-09-14). avatar_session() used to call
+# /v1/sessions/token unconditionally on every POST /api/avatar/session, with no
+# registry and no reference count, so opening the avatar page in two tabs — or
+# opening /face-avatar while another screen already had it — silently started a
+# SECOND billed session, and a third for a third page. Nothing anywhere said so.
+#
+# This refuses instead of refcounting. Sharing one session between pages is the
+# harder problem: the page drives the avatar's pose over its own WebSocket
+# (agent.start_listening / agent.stop_listening, ui_page_face.py:396-401), so two
+# pages on one session would fight over it. Refusing removes the billing risk
+# without inheriting that. A real refcount stays open, and depends on whether
+# LITE permits two subscribers on one session at all — UNKNOWN, not in the docs
+# quoted at ui_page_face.py:390-395.
+_LIVE_SESSION = {"token": None, "at": 0.0}
+_SESSION_LOCK = threading.Lock()
+SESSION_STALE_S = float(os.environ.get("CJ_AVATAR_SESSION_STALE_S", "900"))
+
+
+def avatar_session_release(token=None):
+    """Forget the live session so the next page may open one."""
+    with _SESSION_LOCK:
+        if token is None or _LIVE_SESSION["token"] == token:
+            _LIVE_SESSION.update(token=None, at=0.0)
+
+
 def avatar_session():
     """Create a LiveAvatar LITE session (sandbox by default) and return
     the connection material for the /face-avatar page. The API key stays
-    server-side (assets/liveavatar.json — never sent to the browser)."""
+    server-side (assets/liveavatar.json — never sent to the browser).
+
+    Refuses if one is already live — see the note above."""
+    with _SESSION_LOCK:
+        live, at = _LIVE_SESSION["token"], _LIVE_SESSION["at"]
+        if live and (time.time() - at) < SESSION_STALE_S:
+            age = int(time.time() - at)
+            return False, (f"a LiveAvatar session is already live on another page "
+                           f"(started {age} s ago). Each session is billed, so this one "
+                           f"was not opened. Close the other avatar page, or press Stop "
+                           f"there, and try again.")
+        if live:
+            # older than the stale window: assume the page that opened it is gone
+            _LIVE_SESSION.update(token=None, at=0.0)
     conf = _read_json(LIVEAVATAR_CONF)
     if not conf or not conf.get("api_key"):
         return False, ("no assets/liveavatar.json — create it with "
@@ -879,12 +917,15 @@ def avatar_session():
         if not sd.get("livekit_url"):
             return False, f"start refused: {start.get('message')}"
         sd["session_token"] = session_token   # page needs it for stop
+        with _SESSION_LOCK:
+            _LIVE_SESSION.update(token=session_token, at=time.time())
         return True, sd
     except Exception as e:
         return False, f"{type(e).__name__}: {e}"
 
 
 def avatar_stop(session_token):
+    avatar_session_release(session_token)      # let the next page open one
     try:
         _liveavatar_request("/v1/sessions/stop", {"reason": "USER_CLOSED"},
                             {"Authorization": "Bearer " + (session_token or "")})
