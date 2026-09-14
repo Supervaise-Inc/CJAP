@@ -1,0 +1,305 @@
+{
+ "mode": "offline",
+ "horizon": 2026,
+ "refused": [
+  {
+   "q": "Who is the current Solicitor General and what did you tell them?",
+   "expected": "current_office",
+   "got": "current_office"
+  },
+  {
+   "q": "Who is the Chief Justice?",
+   "expected": "current_office",
+   "got": "current_office"
+  },
+  {
+   "q": "Who is the sitting Chief Justice of the Philippines?",
+   "expected": "current_office",
+   "got": "current_office"
+  },
+  {
+   "q": "Who is the present Ombudsman?",
+   "expected": "current_office",
+   "got": "current_office"
+  },
+  {
+   "q": "Is Berberabe still the Solicitor General?",
+   "expected": "current_office",
+   "got": "current_office"
+  },
+  {
+   "q": "Are you still the Chief Justice?",
+   "expected": "current_office",
+   "got": "current_office"
+  },
+  {
+   "q": "Who heads the Supreme Court now?",
+   "expected": "current_office",
+   "got": "current_office"
+  },
+  {
+   "q": "Who is the Chief Justice today?",
+   "expected": "current_office",
+   "got": "current_office"
+  },
+  {
+   "q": "Who is the new Senate President?",
+   "expected": "current_office",
+   "got": "current_office"
+  },
+  {
+   "q": "Who leads the Foundation these days?",
+   "expected": "current_office",
+   "got": "current_office"
+  },
+  {
+   "q": "What did you say to Chief Justice Gesmundo last week?",
+   "expected": "recency",
+   "got": "recency"
+  },
+  {
+   "q": "What happened in the Senate yesterday?",
+   "expected": "recency",
+   "got": "recency"
+  },
+  {
+   "q": "What is the latest news from the Supreme Court?",
+   "expected": "recency",
+   "got": "recency"
+  },
+  {
+   "q": "What did the President say recently?",
+   "expected": "recency",
+   "got": "recency"
+  },
+  {
+   "q": "Did you meet the Chief Justice this morning?",
+   "expected": "recency",
+   "got": "recency"
+  },
+  {
+   "q": "What has the Court decided lately?",
+   "expected": "recency",
+   "got": "recency"
+  },
+  {
+   "q": "Any news about the impeachment?",
+   "expected": "recency",
+   "got": "recency"
+  },
+  {
+   "q": "What happened at the Supreme Court today?",
+   "expected": "recency",
+   "got": "recency"
+  },
+  {
+   "q": "What did Congress do this week?",
+   "expected": "recency",
+   "got": "recency"
+  },
+  {
+   "q": "What is the status of the pending quo warranto case?",
+   "expected": "pending",
+   "got": "pending"
+  },
+  {
+   "q": "How will the Court rule on the Maharlika fund?",
+   "expected": "pending",
+   "got": "pending"
+  },
+  {
+   "q": "Will the Supreme Court uphold the new law?",
+   "expected": "pending",
+   "got": "pending"
+  },
+  {
+   "q": "What will happen to the case against the former president?",
+   "expected": "pending",
+   "got": "pending"
+  },
+  {
+   "q": "There is a case pending before the Court about press freedom — what do you think of it?",
+   "expected": "pending",
+   "got": "pending"
+  },
+  {
+   "q": "When is the Court expected to rule on that petition?",
+   "expected": "pending",
+   "got": "pending"
+  },
+  {
+   "q": "What do you think of the case against Senator Villanueva?",
+   "expected": "pending",
+   "got": "pending"
+  },
+  {
+   "q": "Who will win the 2028 elections?",
+   "expected": "post_corpus",
+   "got": "post_corpus"
+  },
+  {
+   "q": "What will happen in 2030?",
+   "expected": "post_corpus",
+   "got": "post_corpus"
+  },
+  {
+   "q": "Who will be the next Chief Justice?",
+   "expected": "post_corpus",
+   "got": "post_corpus"
+  },
+  {
+   "q": "Do you predict a constitutional convention?",
+   "expected": "post_corpus",
+   "got": "post_corpus"
+  },
+  {
+   "q": "What did the Court decide in 2027?",
+   "expected": "post_corpus",
+   "got": "post_corpus"
+  },
+  {
+   "q": "Who won the 2025 elections?",
+   "expected": "outcome",
+   "got": "outcome"
+  },
+  {
+   "q": "Who won the presidential race?",
+   "expected": "outcome",
+   "got": "outcome"
+  },
+  {
+   "q": "What was the result of the midterm election?",
+   "expected": "outcome",
+   "got": "outcome"
+  },
+  {
+   "q": "How did the justices vote on that?",
+   "expected": "outcome",
+   "got": "outcome"
+  }
+ ],
+ "missed": [],
+ "false_positives": [],
+ "passed": [
+  {
+   "q": "What is the rule of law?",
+   "got": null
+  },
+  {
+   "q": "What did you mean by liberty and prosperity?",
+   "got": null
+  },
+  {
+   "q": "Tell me about Tanada versus Angara.",
+   "got": null
+  },
+  {
+   "q": "What is your advice to young lawyers today?",
+   "got": null
+  },
+  {
+   "q": "What is the role of the Supreme Court today?",
+   "got": null
+  },
+  {
+   "q": "Who is the Chief Justice you admired most?",
+   "got": null
+  },
+  {
+   "q": "How old are you?",
+   "got": null
+  },
+  {
+   "q": "Why did you become a lawyer?",
+   "got": null
+  },
+  {
+   "q": "What are the twin beacons?",
+   "got": null
+  },
+  {
+   "q": "What did you write in your column about corruption?",
+   "got": null
+  },
+  {
+   "q": "Tell me about your wife Leni.",
+   "got": null
+  },
+  {
+   "q": "What was the hardest case you decided?",
+   "got": null
+  },
+  {
+   "q": "What are the four Ins of a good judge?",
+   "got": null
+  },
+  {
+   "q": "What is ACID?",
+   "got": null
+  },
+  {
+   "q": "Tell me about the Foundation for Liberty and Prosperity.",
+   "got": null
+  },
+  {
+   "q": "What did you say in your valedictory address?",
+   "got": null
+  },
+  {
+   "q": "How did you rule in the Echegaray case?",
+   "got": null
+  },
+  {
+   "q": "What does judicial independence mean to you?",
+   "got": null
+  },
+  {
+   "q": "Do you think the death penalty should be restored?",
+   "got": null
+  },
+  {
+   "q": "What is your message to the Filipino people?",
+   "got": null
+  },
+  {
+   "q": "How did growing up poor in Sampaloc shape you?",
+   "got": null
+  },
+  {
+   "q": "What is the Writ of Amparo?",
+   "got": null
+  },
+  {
+   "q": "Why do you say the law must serve prosperity?",
+   "got": null
+  },
+  {
+   "q": "What did you learn from your years on the Court?",
+   "got": null
+  },
+  {
+   "q": "Tell me about your faith.",
+   "got": null
+  },
+  {
+   "q": "What should a young judge study first?",
+   "got": null
+  },
+  {
+   "q": "Were you ever afraid as a justice?",
+   "got": null
+  },
+  {
+   "q": "What is the most important decision you wrote?",
+   "got": null
+  },
+  {
+   "q": "How do you want to be remembered?",
+   "got": null
+  },
+  {
+   "q": "What is the Foundation doing about legal scholarships?",
+   "got": null
+  }
+ ]
+}

@@ -243,11 +243,22 @@ def classify_emotion(sentence: str) -> str:
 
 
 # sentences worth a pre-TTS fact audit: years, 3+ digit numbers, counts of
-# things, quoted / italic titles (2026-08-29)
+# things, quoted / italic titles (2026-08-29), and — since the 09-12 audit —
+# any sentence that gives a named person an office. That last clause is the
+# one that matters: "SolGen Berberabe has carried that work forward" carries
+# no number at all, so it never reached the audit, and sentences of exactly
+# that shape were where the false claims about living officials lived. The
+# negative lookahead keeps his own title out of it, or every second sentence
+# ("the twenty-first Chief Justice of the Philippines") would be audited.
 _FACT_TRIGGER = re.compile(
     r"\b(1[89]\d\d|20\d\d)\b|\b\d{3,}\b|\b\d+\s+(cases?|years?|decisions?|books?|ponencias?|"
     r"columns?|scholars?|students?|million|billion|percent|pesos?|dollars?)\b|"
-    r"[*_\u201c\"][A-Z][^*_\u201d\"]{6,80}?[*_\u201d\"]")
+    r"[*_\u201c\"][A-Z][^*_\u201d\"]{6,80}?[*_\u201d\"]|"
+    r"\b(?:Chief Justice|Associate Justice|Justice|Solicitor General|SolGen|"
+    r"Ombudsman|Senate President|Secretary of Justice|Justice Secretary|"
+    r"Executive Secretary|Senator|Congressman|Congresswoman|Speaker|"
+    r"Commissioner|Ambassador|Governor|Mayor|Dean|Chairman|Chairperson)\s+"
+    r"(?!Panganiban)(?:of\s+)?[A-Z][a-z\u00f1]{2,}")
 
 
 def split_ready(buf: str):
@@ -288,6 +299,7 @@ class SentenceSpeaker:
         self._params = {}            # idx -> (speed, voice_settings, emotion) as synthesized
         self.curated = False         # True for canned prose (out-of-topic): base speed/delivery, so the clip cache hits
         self._skip = set()           # idx replaced by a merged re-synthesis (tail merge)
+        self._pinned = set()         # idx rendered at the fixed name-pin settings (no tempo stretch)
         try:
             from speech_tempo import TempoSmoother
             self._tempo = TempoSmoother()   # per-answer tempo normaliser
@@ -366,11 +378,12 @@ class SentenceSpeaker:
                 wav = speech_engines.tts_elevenlabs_wav(text, speed=speed,
                                                   previous_text=previous_text,
                                                   previous_request_ids=rids or None,
-                                                  meta_out=meta, voice_settings=vs)
+                                                  meta_out=meta, voice_settings=vs,
+                                                  seed=speech_engines.name_pin_seed() if idx in self._pinned else None)
                 if meta.get("request_id"):
                     with self._lock:
                         self._rids.append(meta["request_id"])
-                if self._tempo is not None:   # smooth the tempo across sentences
+                if self._tempo is not None and idx not in self._pinned:   # smooth the tempo across sentences
                     try:
                         res = self._tempo.process(wav, idx=idx, speed=speed)
                         if res and abs(res[0] - 1.0) >= 0.01:
@@ -443,6 +456,17 @@ class SentenceSpeaker:
                         vs = base
             except Exception:
                 vs = None
+            try:   # name pin: one fixed speed + delivery whenever the name is spoken
+                import speech_engines
+                if (not self.curated and getattr(speech_engines, "TTS_BACKEND", "openai") == "elevenlabs"
+                        and speech_engines.pinned_name_in(sentence)):
+                    spd, pair = speech_engines.name_pin_settings()
+                    vs = speech_engines.name_pin_voice_settings()
+                    self._speed_cur, self._deliv_cur = spd, pair   # neighbours slew from here
+                    self._pinned.add(idx)
+                    print(f"[namepin] sentence {idx}: speed {spd:.2f} stability {pair[0]:.2f} style {pair[1]:.2f}")
+            except Exception:
+                pass
             fut = self._submit_locked(sentence, prev, spd, idx, emo, vs)
         # outside the lock: a done future runs the callback inline
         fut.add_done_callback(lambda f, i=idx: self._prefeed(i))
@@ -812,9 +836,11 @@ def stream_turn(client, artifacts, question, history, *, play_fn,
         if fc.get("unverified_titles"):
             print(f"[fact-gate] unverified title(s) {fc['unverified_titles']} in: '{s[:70]}'")
         if not fc.get("ok", True):
+            kind = "year" if fc.get("bad_years") else "date"
+            detail = fc.get("bad_years") or fc.get("bad_dates")
             gate_blocked.append({"sentence": s, "tripped": [
-                {"rule": "fact-gate", "kind": "year", "detail": fc["bad_years"]}]})
-            print(f"[fact-gate] sentence BLOCKED pre-TTS — year(s) {fc['bad_years']} "
+                {"rule": "fact-gate", "kind": kind, "detail": detail}]})
+            print(f"[fact-gate] sentence BLOCKED pre-TTS — {kind}(s) {detail} "
                   f"not in context/corpus: '{s[:70]}'")
             return
         # Fact-bearing sentence (year / number / quoted title / count)?

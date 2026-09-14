@@ -8,6 +8,7 @@ data/entities/answer_gate_rules.json for integration checks.
 from __future__ import annotations
 
 import json
+import os
 import sys
 import tempfile
 import time
@@ -235,6 +236,99 @@ def test_real_rules_load_and_core_facts():
         "Are you a robot?",
         "I am a robot rendering of the Chief Justice.", audit=False)
     assert not persona_break["ok"]
+
+
+# ---------------------------------------------------------------------------
+# full dates (2026-09-13) — the year gate's blind spot
+# ---------------------------------------------------------------------------
+
+def test_full_date_with_a_corpus_year_is_still_checked():
+    """"December 7, 2006" passes the year gate — 2006 is all over the corpus —
+    while conflating his birthday with his retirement. The audit's second
+    outright false claim. The triple has to be checked, not the year."""
+    ctx = "He was born on 1936-12-07 and retired from the Court in December 2006."
+    bad = ag.fact_check("I retired on December 7, 2006.", ctx, "")
+    assert not bad["ok"]
+    assert bad["bad_dates"] == ["2006-12-07"]
+    assert not bad["bad_years"], "the year itself is grounded — that is the point"
+
+
+def test_supported_date_passes_in_any_format():
+    ctx = "Artemio Panganiban was born on 1936-12-07 in Sampaloc, Manila."
+    for said in ("I was born on December 7, 1936.",
+                 "I was born on Dec. 7, 1936.",
+                 "On 7 December 1936 I came into the world."):
+        assert ag.fact_check(said, ctx, "")["ok"], said
+
+
+def test_date_gate_can_be_downgraded_to_logging():
+    # plain os.environ, not monkeypatch: this file also runs standalone
+    # (python tests/test_answer_gate.py), where fixtures do not exist
+    prev = os.environ.get("CJ_FACT_GATE_DATES")
+    os.environ["CJ_FACT_GATE_DATES"] = "log"
+    try:
+        res = ag.fact_check("I retired on December 7, 2006.", "retired in 2006", "")
+        assert res["bad_dates"] == ["2006-12-07"]
+        assert res["ok"], "log mode must not block"
+    finally:
+        os.environ.pop("CJ_FACT_GATE_DATES", None)
+        if prev is not None:
+            os.environ["CJ_FACT_GATE_DATES"] = prev
+
+
+def test_a_date_in_the_question_is_support_enough():
+    res = ag.fact_check("Yes, on March 3, 1997 the Court so held.",
+                        "", "What happened on March 3, 1997?")
+    assert res["ok"]
+
+
+# ---------------------------------------------------------------------------
+# authored lines (duet / intro) are held to the same bar
+# ---------------------------------------------------------------------------
+
+def test_curated_gate_passes_the_shipped_duet_and_intro():
+    """Pre-rendered is not pre-verified: these clips never touch a live gate,
+    so the render scripts gate them offline. Everything on disk must pass."""
+    duet = json.loads((ROOT / "corpus" / "voice" / "duet_script.json")
+                      .read_text(encoding="utf-8"))
+    for ln in duet["lines"]:
+        res = ag.check_curated(ln["text"])
+        assert res["ok"], f"duet line {ln['id']}: {res['tripped']}"
+    intro = json.loads((ROOT / "corpus" / "voice" / "intro_variants.json")
+                       .read_text(encoding="utf-8"))
+    for v in intro["variants"]:
+        for tail in intro["how_to_start"].values():
+            text = v["text"].replace("{how_to_start}", tail)
+            res = ag.check_curated(text)
+            assert res["ok"], f"intro variant {v['id']}: {res['tripped']}"
+
+
+def test_curated_gate_catches_an_invented_particular():
+    """The case the gate exists for: someone adds a line with a date in it."""
+    res = ag.check_curated("He handed down that ruling on August 14, 2031.")
+    assert not res["ok"]
+    assert any(t["kind"] in {"year", "date"} for t in res["tripped"])
+
+
+# ---------------------------------------------------------------------------
+# which sentences reach the Haiku audit at all
+# ---------------------------------------------------------------------------
+
+def test_an_office_attribution_now_reaches_the_audit():
+    """Before 2026-09-13 none of these matched — no year, no number, no quoted
+    title — so the sentences carrying the false claims about living officials
+    were never audited by anything."""
+    from speech_streaming import _FACT_TRIGGER
+    for said in ("That is the mission I entrusted to SolGen Berberabe.",
+                 "Solicitor General Berberabe has carried that work forward.",
+                 "When I spoke with Chief Justice Gesmundo, I made the point."):
+        assert _FACT_TRIGGER.search(said), said
+    # his own title is in half the answers he gives — auditing those would put
+    # a Haiku call on nearly every sentence and buy nothing
+    for said in ("I am Artemio Panganiban, the twenty-first Chief Justice of the Philippines.",
+                 "Chief Justice Panganiban served the Court for eleven years.",
+                 "The rule of law means that no one stands above the law."):
+        assert not _FACT_TRIGGER.search(said), said
 
 
 if __name__ == "__main__":
