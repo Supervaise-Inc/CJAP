@@ -202,9 +202,16 @@ _THANKS_RE = re.compile(
 
 
 def _gate_start(path):
-    """Phase 1 voice-isolation gates, LOG-ONLY (2026-08-30): capture the
-    direction the speech came from and start a Silero VAD measurement of the
-    utterance in a thread (parallel with STT). Nothing is rejected here."""
+    """Phase 1 voice-isolation gates: capture the direction the speech came
+    from and start a Silero VAD measurement of the utterance in a thread
+    (parallel with STT).
+
+    Nothing is rejected in THIS function — but do not read that as the gates
+    being advisory. The VAD measurement started here is what discards the turn
+    at :3503 when speech_s < CJ_VAD_MIN_SPEECH_S (armed 2026-08-30 by 88d97dd,
+    default 0.4 s). This docstring said "LOG-ONLY" until 2026-09-14, two weeks
+    after the gate was armed, and that claim had propagated into voice_vad.py
+    and into other documentation."""
     g = {"doa": _speaker_doa.last_yaw_raw,
          "doa_age": (time.monotonic() - _speaker_doa.ts) if _speaker_doa.ts else None,
          "vad": None, "thread": None}
@@ -3428,7 +3435,7 @@ def handle_turn(client, artifacts, gestures, history, stop=None, followup=False,
         _publish_transcript("note", "(mic timeout — no speech captured)")
         _stage("transcribe", "pending", "no speech captured")
         return False
-    gate = _gate_start(path)   # Phase 1 isolation gates (log-only)
+    gate = _gate_start(path)   # Phase 1 isolation gates: measures here, REJECTS at :3503
     lock = _voice_lock_obj() if _lock_enabled() else None
     lock_box = {}
     if lock is not None and followup and lock.active():

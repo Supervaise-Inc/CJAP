@@ -6,7 +6,11 @@ case / event / book) against the canonical dictionary built by
 scripts/build_entity_dict.py, corrects ASR misrecognitions to the canonical
 form, and preserves exact Supreme Court citation strings.
 
-Ships DARK: with config.POSTPROC_ENABLED=False the public wrappers return
+Shipped dark, but IS LIVE on both robots: the systemd drop-in sets
+CJ_POSTPROC_ENABLED=1, so this runs on every transcript and every spoken
+sentence (checked 2026-09-14). The dark path below is the code default,
+not the deployed behaviour — with config.POSTPROC_ENABLED=False the
+public wrappers return
 their input byte-identical and never load the dictionary.
 
 Output contract (annotate):

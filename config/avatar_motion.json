@@ -53,7 +53,7 @@
       "median_ms": 348,
       "sd_ms": 22.4,
       "range_ms": "310-385",
-      "caveat": "UPPER BOUND. Both error sources are positive — arecord teardown and the BOYA's own capture latency — so true play-to-air is <= 348 ms. Use 0.35 s as a starting point and trim by ear; the slider exists for the remainder.",
+      "caveat": "STARTING POINT, NOT THE FINAL VALUE. 348 ms is the MEASUREMENT-PATH latency — speaker to a microphone — and it is an upper bound, because both error sources (arecord teardown, the BOYA's own capture latency) are positive. What actually matters perceptually is audio-at-the-ear against mouth-moving-on-screen, which also includes the browser's render path and the viewer's distance. Set the slider here and dial the residual by eye while the robot speaks.",
       "cross_check": "CJ_AEC_REF_DELAY_MS=444 in the systemd drop-in is the separately calibrated delay for the same route through the XVF's own mic path, which is longer. The two are consistent."
     },
     "dac": "UNMEASURED — no USB DAC is attached. Do not extrapolate from internal.",

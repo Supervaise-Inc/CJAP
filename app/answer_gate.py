@@ -1,7 +1,8 @@
 """P0 answer gate — deterministic keyword recheck of composed answers ($0, no LLM).
 
 Verifies the composed answer against hand-curated expected-data rules BEFORE
-the robot speaks (pre-TTS). Complements the LLM fidelity checker: this gate is
+the robot speaks (pre-TTS). Was written to complement the LLM fidelity checker,
+which no longer runs (see below): this gate is
 zero-cost and deterministic, so it catches the concrete slips a sampled judge
 can miss — a wrong year, a missing case name, AI self-description — and can
 never hallucinate a verdict itself.
@@ -21,8 +22,14 @@ answer (kind=forbidden). `global_forbid` patterns are checked against every
 answer regardless of triggers.
 
 Fail-open: an unreadable/invalid rules file disables the gate for that call
-(ok=True with a note) — the composer and fidelity checker remain the primary
-safety surface. This module never raises into the caller.
+(ok=True with a note). This module never raises into the caller.
+
+Do NOT read the older phrasing of this line — "the composer and fidelity
+checker remain the primary safety surface" — as describing the running system.
+The LLM fidelity checker (answer_pipeline.generate_response_with_fidelity) is
+NOT on the streaming path that supervaise.service actually runs, and
+CJ_SKIP_FIDELITY=1 in app/.env disables it besides. Corrected 2026-09-14: when
+this gate fails open, nothing downstream catches what it let through.
 """
 
 from __future__ import annotations
