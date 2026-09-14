@@ -24,7 +24,8 @@ by its hostname alone — the console shows `machine · role` together.
       `config/modes/*.json`, not in the drop-in.
 - [ ] Both machines have the pre-rendered audio: host intro variants and the
       duet exchanges (`data/prerendered/`) — duet must play with the venue
-      WiFi down. `scripts/render_duet.py --check` reports nothing missing.
+      WiFi down. `scripts/render_duet.py --dry-run` and `render_intro.py
+      --dry-run` report every line "up to date", not "would render".
 - [ ] Voice cache warm for the canned answers: `scripts/prerender_canned.py`.
 - [ ] Wireless mic receivers: each robot's receiver on, the handheld
       transmitter heard by whichever robot holds the floor (open `/console`,
