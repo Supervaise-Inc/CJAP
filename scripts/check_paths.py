@@ -1,11 +1,9 @@
 r"""
 Diagnose every file path the dashboard touches at startup.
 
-Run this with whichever Python interpreter your venv uses — same one
-you'd use to launch Streamlit:
+Run it with the venv interpreter the robot uses:
 
-    .\\.venv\\Scripts\\python.exe scripts\\check_paths.py
-    D:\some\where\python.exe scripts\check_paths.py
+    app/.venv/bin/python scripts/check_paths.py
 
 Prints OK/MISSING for each path; exits 1 if any required file is
 missing.
@@ -39,8 +37,12 @@ def main() -> int:
     ok = True
 
     print("== Required files ==")
-    ok &= check("dashboard.py",   APP_DIR / "dashboard.py")
-    ok &= check("answer_pipeline.py",     APP_DIR / "answer_pipeline.py")
+    # app/dashboard.py went with the Streamlit kiosk (955223e, 2026-09-02).
+    # It was still listed as REQUIRED here, so this script has been returning
+    # failure on every machine since — checked and corrected 2026-09-14.
+    ok &= check("main_voice_robot.py", APP_DIR / "main_voice_robot.py")
+    ok &= check("answer_pipeline.py",  APP_DIR / "answer_pipeline.py")
+    ok &= check("ui_server.py",        PROJECT_ROOT / "dashboard" / "ui_server.py")
     ok &= check("topic_map.json", PROJECT_ROOT / "corpus" / "voice" / "topic_map.json")
     ok &= check("voice_card.md",  PROJECT_ROOT / "corpus" / "voice" / "voice_card.md")
     print()
@@ -92,7 +94,24 @@ def main() -> int:
               "(via shell env or app/.env)")
     print()
 
-    print("== Optional: TTS (Piper) ==")
+    print("== Speech (what the robot actually uses) ==")
+    tts_backend = os.environ.get("CJ_TTS_BACKEND", "openai").strip().lower()
+    print(f"  ○ note   CJ_TTS_BACKEND = {tts_backend}")
+    for label, var in (("ElevenLabs key", "ELEVEN_API_KEY"),
+                       ("ElevenLabs voice (Panganiban)", "ELEVEN_VOICE_ID"),
+                       ("ElevenLabs voice (Host)", "ELEVEN_HOST_VOICE_ID"),
+                       ("OpenAI key (STT + TTS fallback)", "OPENAI_API_KEY")):
+        v = os.environ.get(var, "")
+        print(f"  {'✓ OK    ' if v else '✗ MISS  '} {label} ({var})"
+              + (f" length={len(v)}" if v else " — not set"))
+        if not v and var in ("ELEVEN_API_KEY", "OPENAI_API_KEY"):
+            ok = False
+    print()
+
+    # Piper and faster-whisper below are reachable ONLY from answer_pipeline's
+    # own main() CLI, which supervaise.service never runs. A MISS here is not a
+    # problem for the robot (2026-09-14).
+    print("== Legacy CLI only: TTS (Piper) ==")
     piper_bin = os.environ.get("PIPER_BIN", "piper")
     piper_voice = os.environ.get("PIPER_VOICE", "./voices/en_US-ryan-high.onnx")
     # PIPER_BIN may be on PATH; if relative or absolute, check it.
@@ -117,7 +136,7 @@ def main() -> int:
         check(f"PIPER_VOICE = {piper_voice}", pv_path, required=False)
     print()
 
-    print("== Optional: faster-whisper cache ==")
+    print("== Legacy CLI only: faster-whisper cache ==")
     hf = os.environ.get("HF_HOME") or os.environ.get("HUGGINGFACE_HUB_CACHE")
     if hf:
         print(f"  ✓ OK     HF_HOME / HUGGINGFACE_HUB_CACHE = {hf}")
@@ -127,7 +146,10 @@ def main() -> int:
     print()
 
     print("== Python modules ==")
-    for mod in ("anthropic", "streamlit", "faster_whisper", "scipy", "sounddevice"):
+    # streamlit dropped 2026-09-14: the Streamlit kiosk was removed in 955223e
+    # and neither machine had the package installed, so this line had been
+    # reporting a miss for something nothing runs.
+    for mod in ("anthropic", "openai", "faster_whisper", "scipy", "sounddevice"):
         try:
             __import__(mod)
             print(f"  ✓ OK     {mod}")
@@ -137,9 +159,15 @@ def main() -> int:
     print()
 
     if ok:
-        print("All required paths and modules look good. You should be able to run:")
+        print("All required paths and modules look good. The two things that run:")
         print()
-        print(f"  {sys.executable} -m streamlit run {APP_DIR / 'dashboard.py'}")
+        print(f"  {sys.executable} {APP_DIR / 'main_voice_robot.py'} --wake"
+              "        (supervaise.service)")
+        print(f"  /usr/bin/python3 {PROJECT_ROOT / 'dashboard' / 'ui_server.py'}"
+              "   (pi-dashboard.service, :8080)")
+        print()
+        print("  The dashboard runs on the SYSTEM python3, not this venv — it is")
+        print("  stdlib-only so it still works with no internet.")
         return 0
     print("Some required paths or modules are missing. Resolve and re-run.")
     return 1
