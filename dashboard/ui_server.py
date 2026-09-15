@@ -1736,6 +1736,20 @@ class Handler(BaseHTTPRequestHandler):
             self._send(404, json.dumps({"error": "not found"}))
 
     def do_POST(self):
+        if ui and self.path.partition("?")[0] == "/api/avatar-portrait":
+            # raw JPEG of the face /face-avatar captured (2026-09-15), so the
+            # other screens can show it — see ui_page_display.portrait_put
+            _, _, q = self.path.partition("?")
+            params = {k: v for k, v in
+                      (p.split("=", 1) for p in q.split("&") if "=" in p)}
+            if not ui._authed(params):
+                self.close_connection = True
+                self._send(403, json.dumps({"ok": False, "output": "bad key"}))
+                return
+            ok, out = ui.portrait_upload(self, params)
+            print(f"[ctl] {self.client_address[0]} avatar-portrait -> {out}", flush=True)
+            self._send(200, json.dumps({"ok": ok, "output": out}))
+            return
         if ui and self.path.partition("?")[0] == "/api/video-upload":
             # raw video bytes from the /maintain "Video clips" card — never
             # json.loads'd; ui.video_upload streams rfile straight to disk

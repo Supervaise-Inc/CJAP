@@ -183,6 +183,8 @@ def handle_get(h, path, params):
         h.end_headers()
     elif path == "/face-avatar":
         h._send(200, FACE_AVATAR_PAGE, "text/html; charset=utf-8")
+    elif path == "/face-camera":   # the same avatar page with the camera beside it (2026-09-15)
+        h._send(200, ui_page_face.FACE_CAMERA_PAGE, "text/html; charset=utf-8")
     # ── the two display views (2026-09-14) ────────────────────────────────
     # Read-only. They start no avatar session, send no command and write no
     # file, so any number of them can be open without touching a turn.
@@ -190,6 +192,8 @@ def handle_get(h, path, params):
         h._send(200, STAGE_PAGE, "text/html; charset=utf-8")
     elif path == "/monitor":
         h._send(200, MONITOR_PAGE, "text/html; charset=utf-8")
+    elif path == "/display":   # avatar + camera + Q&A, one robot (2026-09-15)
+        h._send(200, ui_page_display.DISPLAY_PAGE, "text/html; charset=utf-8")
     elif path == "/tune":
         h._send(200, TUNE_PAGE, "text/html; charset=utf-8")
     elif path == "/api/display":
@@ -198,6 +202,19 @@ def handle_get(h, path, params):
         pub = params.get("public_display", "").strip().lower() in ("1", "true", "yes")
         h._send(200, json.dumps(ui_page_display.display_doc(public=pub,
                                                             console=_console)))
+    elif path == "/api/monitor":
+        # both robots: this machine's /api/display plus the other machine's
+        pub = params.get("public_display", "").strip().lower() in ("1", "true", "yes")
+        h._send(200, json.dumps(ui_page_display.monitor_doc(public=pub,
+                                                            console=_console)))
+    elif path == "/api/monitor/sentence.wav":
+        data = ui_page_display.peer_sentence_wav(params.get("slot", ""),
+                                                 params.get("name", ""),
+                                                 console=_console)
+        if data is None:
+            h._send(404, json.dumps({"error": "unavailable"}))
+        else:
+            h._send(200, data, "audio/wav")
     elif path == "/assets/portrait":
         pt = ui_page_display.portrait()
         if not pt:

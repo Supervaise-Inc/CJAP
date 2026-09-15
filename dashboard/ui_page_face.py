@@ -6,6 +6,7 @@ ui_common so page code reads exactly as before; ui_routes is the facade).
 import json, os, re, subprocess, threading, time  # noqa: F401
 import ui_common as _c
 import ui_page_audience as _e
+from ui_page_display import FACE_ANIM_JS   # the living still, shared with /display (2026-09-15)
 for _m in (_c, _e):
     globals().update({k: v for k, v in vars(_m).items() if not k.startswith('__')})
 
@@ -25,10 +26,19 @@ FACE_AVATAR_PAGE = """<!DOCTYPE html><html><head><meta charset="utf-8">
 /* picture-frame idle (2026-08-25, user): a frozen frame of the avatar sits
    over the live video whenever it is not speaking — and stays up after the
    sandbox session expires, so the portrait never goes black */
-#cam canvas#still{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:none;z-index:2}
+#cam canvas#still{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block;z-index:2;
+  opacity:0;transition:opacity .35s ease}
 /* idle loop (2026-09-12): a few seconds of the avatar connected-but-silent,
    looped while parked so it blinks and breathes instead of being a photo */
-#cam video#idle{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:none;z-index:2}
+/* 2026-09-15 (user: "improve the movement of the avatar and not glitchy"):
+   every layer change is a dissolve, never a cut — the still, the loop and the
+   live video each hold a slightly different head pose, so a cut is a jump.
+   Two loop copies cross-fade at the seam (idleSwap), the newer one on top. */
+#cam #idlebox{position:absolute;inset:0;z-index:2;opacity:0;transition:opacity .5s ease;pointer-events:none}
+#cam #idlebox video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block;z-index:1;
+  opacity:0;transition:opacity .6s linear}
+#cam #idlebox video.top{z-index:2}
+#cam canvas#still.on,#cam #idlebox.on,#cam #idlebox video.on{opacity:1}
 #cam .idle{z-index:1}
 /* avatar view (2026-09-04, user: "make the avatar full" → "or make a button for
    flexibility"): picked on /maintain, persisted in ~/.cj_avatar_view, applied
@@ -38,10 +48,10 @@ FACE_AVATAR_PAGE = """<!DOCTYPE html><html><head><meta charset="utf-8">
      wide   = 16:9 window, contain — the whole frame, nothing cropped
      full   = edge to edge, cover — the avatar IS the page                    */
 #cam.v-wide{width:min(74vw,calc(58vh * 16 / 9));aspect-ratio:16/9;top:4vh}
-#cam.v-wide video,#cam.v-wide canvas#still,#cam.v-wide video#idle{object-fit:contain;background:#000}
+#cam.v-wide video,#cam.v-wide canvas#still,#cam.v-wide #idlebox video{object-fit:contain;background:#000}
 #cam.v-full{top:0;left:0;transform:none;width:100vw;height:100vh;max-width:none;
   aspect-ratio:auto;border-radius:0}
-#cam.v-full video,#cam.v-full canvas#still,#cam.v-full video#idle{object-fit:cover}
+#cam.v-full video,#cam.v-full canvas#still,#cam.v-full #idlebox video{object-fit:cover}
 /* no on-page operator strip (2026-08-25, user): Stop/Resume, voice mode and
    the status line live on /maintain ("LiveAvatar page" card) and reach this
    page through /api/state (avatar_cmd) — status goes back via /api/avatar-status.
@@ -49,7 +59,7 @@ FACE_AVATAR_PAGE = """<!DOCTYPE html><html><head><meta charset="utf-8">
    audience-facing Idle/Listening/Thinking/Speaking indicator /audience shows,
    so both screens read the same. ?pill=off hides it. */
 </style></head><body>
-<div id="cam"><video id="vid" autoplay playsinline muted></video><canvas id="still"></canvas><video id="idle" loop muted playsinline></video><audio id="aud" autoplay></audio>
+<div id="cam"><video id="vid" autoplay playsinline muted></video><canvas id="still"></canvas><div id="idlebox"><video id="idle" muted playsinline></video><video id="idle2" muted playsinline></video></div><audio id="aud" autoplay></audio>
   <div class="idle" id="camidle"><b>CJAP</b>
     <span>Chief Justice Artemio V. Panganiban</span></div>
 </div>
@@ -57,7 +67,7 @@ FACE_AVATAR_PAGE = """<!DOCTYPE html><html><head><meta charset="utf-8">
   object-fit:contain;background:#000;z-index:50;display:none;opacity:0;
   transition:opacity .9s ease"></video>
 """ + EXHIBIT_PILL + EXHIBIT_PLAQUES + """<script>
-""" + EXHIBIT_JS + """const $ = id => document.getElementById(id);
+""" + EXHIBIT_JS + FACE_ANIM_JS + """const $ = id => document.getElementById(id);
 const KEY = new URLSearchParams(location.search).get("key") || localStorage.getItem("cjkey") || "";
 if (KEY) try { localStorage.setItem("cjkey", KEY); } catch (e) {}
 let room = null, ws = null, ready = false, sessTok = null, startP = null;
@@ -208,7 +218,8 @@ function resume(){ if (!stopped) return; stopped = false; heartbeat(); start(); 
 // open one straight away to capture the new portrait.
 async function newAvatar(){
   try{ localStorage.removeItem("cjap_still"); }catch(e){}
-  $("still").style.display = "none"; frozen = false; snaps = 0;
+  showLayer("still", false); frozen = false; snaps = 0; portraitSent = false; eyesP = null;
+  stillAnim.active(false);
   $("camidle").style.display = "flex";
   await park();
   stopped = false;
@@ -342,8 +353,9 @@ function restoreStill(){
   try{ url = localStorage.getItem("cjap_still"); }catch(e){}
   if (!url) return false;
   const img = new Image();
-  img.onload = () => { const c = $("still"); c.width = img.width; c.height = img.height;
-    c.getContext("2d").drawImage(img, 0, 0); c.style.display = "block"; frozen = true;
+  img.onload = () => { const c = stillSrc; c.width = img.width; c.height = img.height;
+    c.getContext("2d").drawImage(img, 0, 0); stillShown(); showLayer("still", true); frozen = true;
+    sendPortrait(c);
     $("camidle").style.display = "none"; st("portrait — starts on the next question"); };
   img.onerror = () => { frozen = false; start(); };   // corrupt cache: capture a fresh one
   img.src = url;
@@ -364,8 +376,74 @@ function videoLive(){
   const v = $("vid");
   return ready && v.videoWidth > 0 && v.readyState >= 2 && !v.paused;
 }
-function snap(){
-  const v = $("vid"), c = $("still");
+// the visible still is drawn ONCE per freeze; the re-takes for the cache go to
+// an offscreen canvas, so the portrait on screen never changes under a viewer
+const stillCache = document.createElement("canvas");
+// the picture a still is made from; #still is FaceAnim drawing it alive
+const stillSrc = document.createElement("canvas");
+const stillAnim = FaceAnim($("still"));
+// the eyes, for the blink here and on every screen: MediaPipe's face landmarker,
+// loaded from the CDN the first time a still exists (this page already needs
+// the internet). Corners 33/133 and 362/263, mid lids 159/145 and 386/374. Any
+// failure -> null, and the face breathes but does not blink.
+const MP_BASE = "https://cdn.jsdelivr.net/npm/@mediapipe/tasks-vision@1.0.1";
+const MP_MODEL = "https://storage.googleapis.com/mediapipe-models/face_landmarker/face_landmarker/float16/1/face_landmarker.task";
+let landmarkerP = null, eyesP = null;
+function landmarker(){
+  if (!landmarkerP){
+    landmarkerP = (async () => {
+      const m = await import(MP_BASE + "/vision_bundle.mjs");
+      const files = await m.FilesetResolver.forVisionTasks(MP_BASE + "/wasm");
+      return m.FaceLandmarker.createFromOptions(files, {
+        baseOptions: {modelAssetPath: MP_MODEL, delegate: "CPU"}, runningMode: "IMAGE", numFaces: 1});
+    })();
+    landmarkerP.catch(() => { landmarkerP = null; });   // try again next still
+  }
+  return landmarkerP;
+}
+async function findEyes(canvas){
+  try{
+    const lm = await Promise.race([landmarker(), sleep(20000).then(() => null)]);
+    const f = lm && (lm.detect(canvas).faceLandmarks || [])[0];
+    if (!f) return null;
+    const eye = (a, b, u, l) => ({c1: [f[a].x, f[a].y], c2: [f[b].x, f[b].y], up: f[u].y, lo: f[l].y});
+    return validEyes([eye(33, 133, 159, 145), eye(362, 263, 386, 374)]);
+  }catch(e){ return null; }
+}
+function stillShown(){
+  stillAnim.setEyes(null);
+  stillAnim.setSource(stillSrc); stillAnim.active(true);
+  eyesP = findEyes(stillSrc);
+  eyesP.then(e => { stillAnim.setEyes(e); if (e) st("eyes found — the portrait blinks"); });
+}
+const LIVE_SETTLE_MS = 400;   // a (re)connected video's first frames are still settling
+let liveSince = 0;
+function showLayer(id, on){ $(id).classList.toggle("on", !!on); }
+// the face goes to the dashboard as assets/portrait.jpg so /display, /monitor
+// and /stage show it too (2026-09-15). Once per page load (and again for a new
+// avatar): sending every still would swap the picture on those screens after
+// every answer.
+let portraitSent = false;
+async function sendPortrait(canvas){
+  if (portraitSent || !canvas.width) return;
+  portraitSent = true;
+  const eyes = await (eyesP || findEyes(canvas));   // the blink on the other screens needs them
+  try{
+    canvas.toBlob(b => {
+      if (!b){ portraitSent = false; return; }
+      fetch("/api/avatar-portrait?key=" + encodeURIComponent(KEY) +
+            (eyes ? "&eyes=" + encodeURIComponent(JSON.stringify(eyes)) : ""),
+            {method: "POST", headers: {"Content-Type": "image/jpeg"}, body: b})
+        .then(r => r.json())
+        .then(o => { if (o && o.ok) st("portrait shared with /display, /monitor and /stage");
+                     else portraitSent = false; })
+        .catch(() => { portraitSent = false; });
+    }, "image/jpeg", 0.88);
+  }catch(e){ portraitSent = false; }
+}
+function snap(c){
+  const v = $("vid");
+  c = c || stillSrc;
   if (!videoLive()) return false;
   c.width = v.videoWidth; c.height = v.videoHeight;
   try{ c.getContext("2d").drawImage(v, 0, 0); }catch(e){ return false; }
@@ -383,7 +461,7 @@ function snap(){
 // record there. After that the loop is reused and nothing is extended again.
 const IDLE_SETTLE_MS = 1200;   // let the last word's mouth movement finish first
 const IDLE_RECORD_MS = 5000;
-let wantIdleLoop = false, idleUrl = null, idleRec = null, idleBusy = false, idleFails = 0;
+let wantIdleLoop = false, idleUrl = null, idleRec = null, idleBusy = false, idleFails = 0, recT0 = 0;
 
 function idleLoopReady(){ return !!(wantIdleLoop && idleUrl); }
 
@@ -435,53 +513,105 @@ function recordIdle(){
     idleRec.onerror = () => { idleBusy = false; idleFails++; };
     idleRec.onstop = () => {
       idleRec = null; idleBusy = false;
+      // a MediaRecorder webm reports duration Infinity, so the loop is timed
+      // from how long the recorder actually ran
+      const recS = Math.max(0, (performance.now() - recT0) / 1000 - 0.15);
       const blob = new Blob(chunks, {type: mime}); chunks = [];
       if (blob.size < 20000){ idleFails++; st("idle loop: clip too short, keeping the still"); return; }
       try{
-        const url = URL.createObjectURL(blob);
-        const el = $("idle");
-        el.src = url; el.loop = true; el.muted = true;
-        el.play().catch(() => {});
-        if (idleUrl) URL.revokeObjectURL(idleUrl);
+        const url = URL.createObjectURL(blob), old = idleUrl;
         idleUrl = url;
+        idleStartLoop(url, recS);
+        if (old) URL.revokeObjectURL(old);
         st("idle loop captured (" + (blob.size / 1024 | 0) + " kB) — the portrait breathes now");
         // captured while idle and the flag is on: end the session so it stops
         // costing credits; the loop keeps the face alive on its own
         if (wantIdleLoop && !speakingNow && !turnActive()){ liveUntil = 0; park(); }
       }catch(e){ idleFails++; }
     };
-    try{ idleRec.start(); setTimeout(() => { try{ idleRec && idleRec.stop(); }catch(e){} }, IDLE_RECORD_MS); }
+    try{ idleRec.start(); recT0 = performance.now(); setTimeout(() => { try{ idleRec && idleRec.stop(); }catch(e){} }, IDLE_RECORD_MS); }
     catch(e){ idleBusy = false; idleFails++; }
   }, IDLE_SETTLE_MS);
 }
 
 function dropIdleLoop(){
   try{ if (idleRec) idleRec.stop(); }catch(e){}
-  idleRec = null; idleBusy = false;
-  const el = $("idle");
-  try{ el.pause(); el.removeAttribute("src"); el.load(); }catch(e){}
-  el.style.display = "none";
+  idleRec = null; idleBusy = false; idleA = null;
+  for (const el of [$("idle"), $("idle2")]){
+    try{ el.pause(); el.removeAttribute("src"); el.load(); }catch(e){}
+    el.classList.remove("on", "top");
+  }
+  showLayer("idlebox", false);
   if (idleUrl){ URL.revokeObjectURL(idleUrl); idleUrl = null; }
 }
 
+// ---- seamless idle loop (2026-09-15) ---------------------------------------
+// loop=true on a 5 s clip snapped the head back to its first pose every 5 s.
+// Two copies of the clip instead: just before the one on screen ends, the other
+// starts from the top and dissolves in OVER it, so the seam is a 0.6 s blend of
+// two nearby poses rather than a jump. The first 0.25 s of the recording (the
+// recorder's own start-up frames) is never shown.
+const IDLE_XF_S = 0.6, IDLE_HEAD_S = 0.25;
+let idleA = null, idleDur = 0, idleXfT = null;
+function idleStartLoop(url, durS){
+  const a = $("idle"), b = $("idle2");
+  for (const el of [a, b]){ el.loop = false; el.muted = true; el.src = url; el.classList.remove("on", "top"); }
+  idleDur = durS; idleA = a;
+  a.classList.add("on", "top");
+  try{ a.currentTime = IDLE_HEAD_S; }catch(e){}
+  a.play().catch(() => {});
+}
+function idleSwap(){
+  if (!idleA) return;
+  const cur = idleA, nxt = (cur === $("idle")) ? $("idle2") : $("idle");
+  try{ nxt.currentTime = IDLE_HEAD_S; }catch(e){}
+  nxt.play().catch(() => {});
+  cur.classList.remove("top"); nxt.classList.add("top", "on");
+  idleA = nxt;
+  clearTimeout(idleXfT);
+  // the outgoing copy stays fully opaque UNDER the incoming one until the
+  // dissolve is done, so the blend never dips toward the dark frame behind
+  idleXfT = setTimeout(() => { if (cur !== idleA){ cur.classList.remove("on"); cur.pause(); } },
+                       IDLE_XF_S * 1000 + 80);
+}
+for (const el of [$("idle"), $("idle2")])
+  el.addEventListener("ended", () => { if (el === idleA) idleSwap(); });   // duration overestimated
+(function idleLoopTick(){
+  const a = idleA;
+  if (a && idleUrl && !a.paused){
+    const d = (isFinite(a.duration) && a.duration > 0) ? Math.min(a.duration, idleDur || a.duration) : idleDur;
+    if (d > IDLE_HEAD_S + 2 * IDLE_XF_S && a.currentTime >= d - IDLE_XF_S) idleSwap();
+  }
+  requestAnimationFrame(idleLoopTick);
+})();
+
 function frameTick(){
   const live = wantLive || Date.now() < liveUntil || Date.now() < busyUntil;
+  if (videoLive()){ if (!liveSince) liveSince = Date.now(); } else liveSince = 0;
+  const settled = liveSince && Date.now() - liveSince >= LIVE_SETTLE_MS;
   if (live){
-    if (frozen && videoLive()){ $("still").style.display = "none"; frozen = false; }
-    $("idle").style.display = "none";
+    // dissolve to the live face only once its video has run steadily; the
+    // loop stays up with the still until then so nothing flashes between them
+    if (frozen && settled){ showLayer("still", false); frozen = false;
+      setTimeout(() => { if (!frozen) stillAnim.active(false); }, 500); }   // after the dissolve
+    if (!frozen) showLayer("idlebox", false);
   } else if (Date.now() >= freezeAt){
     if (!frozen){
-      if (snap()){ $("still").style.display = "block"; frozen = true; snaps = 1; lastSnap = Date.now();
+      if (settled && snap()){ stillShown(); showLayer("still", true); frozen = true; snaps = 1; lastSnap = Date.now();
+        stillCache.width = stillSrc.width; stillCache.height = stillSrc.height;
+        try{ stillCache.getContext("2d").drawImage(stillSrc, 0, 0); }catch(e){}
         if (!speakingNow) st(ready ? "portrait — still until asked" : "portrait — starts on the next question"); }
-    } else if (snaps < 4 && Date.now() - lastSnap > 1000 && snap()){
+    } else if (snaps < 4 && Date.now() - lastSnap > 1000 && snap(stillCache)){
       snaps++; lastSnap = Date.now();
-      if (snaps === 4) try{ localStorage.setItem("cjap_still",
-        $("still").toDataURL("image/jpeg", 0.85)); }catch(e){}
+      if (snaps === 4){
+        try{ localStorage.setItem("cjap_still", stillCache.toDataURL("image/jpeg", 0.85)); }catch(e){}
+        sendPortrait(stillCache);
+      }
     }
     // the loop sits OVER the still, so a failed capture always falls back to it
     const useLoop = idleLoopReady();
-    $("idle").style.display = useLoop ? "block" : "none";
-    if (useLoop && $("idle").paused) $("idle").play().catch(() => {});
+    showLayer("idlebox", useLoop);
+    if (useLoop && idleA && idleA.paused) idleA.play().catch(() => {});
   }
   setTimeout(frameTick, 150);
 }
@@ -615,7 +745,7 @@ async function poll(){
     wantIdleLoop = !!stt.avatar_idle_loop;           // 2026-09-12: was never wired — the loop was dormant
     // a live session sitting silent looks frozen; hold the attentive listening
     // pose (the only motion lever LITE mode gives) until it speaks
-    if (ready) setListening(!speakingNow);
+    if (ready) setListening(!speakingNow && Date.now() >= busyUntil);
     // Alive whenever the page is open (flag on): with no loop captured yet,
     // open a session and record a few seconds of the avatar silent, then it
     // parks and loops that — blinking, breathing, its own micro-motion — with
@@ -964,3 +1094,63 @@ def _serve_mjpeg(h):
                 time.sleep(0.02)
     except (BrokenPipeError, ConnectionResetError, OSError):
         pass
+
+
+# ===========================================================================
+# /face-camera — the face avatar and the camera, side by side (2026-09-15)
+# ===========================================================================
+# User: "a UI that displays both face avatar and the camera at the same time
+# without the host concept". It IS the /face-avatar page (same LiveAvatar
+# session, heartbeat, /maintain commands, plaques and pill) with this robot's
+# camera in a second frame beside the face. No role is read: whichever part the
+# robot plays, the page shows its avatar and its camera. Because it runs the
+# avatar session, open it INSTEAD of /face-avatar, never next to it — the
+# server refuses a second session.
+def _face_camera_page(page):
+    def one(s, old, new):
+        assert s.count(old) == 1, old[:60]
+        return s.replace(old, new)
+    css = """
+/* two frames in a row, centred under the pill; the plaques keep the bottom */
+#duo{position:fixed;top:8vh;left:2vw;right:2vw;display:flex;justify-content:center;align-items:center;gap:3vw}
+body.duo #cam,body.duo #cam.live,body.duo #cam.v-wide,body.duo #cam.v-full{position:relative;top:auto;left:auto;
+  transform:none;width:min(34vw,calc(54vh * 9 / 10));height:auto;aspect-ratio:9/10;max-width:none;border-radius:.8vh}
+#cam2{position:relative;width:min(56vw,calc(54vh * 16 / 9));aspect-ratio:16/9;background:#000;overflow:hidden;border-radius:.8vh}
+#cam2 img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:none}
+#cam2 .idle{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;
+  color:#cbb98f;font-size:2.4vh;gap:1.2vh;letter-spacing:.06em;background:radial-gradient(ellipse at 50% 40%,#2a241b,#120f0b 75%)}
+#cam2 .idle b{font-family:'Playfair Display',Georgia,serif;color:var(--brass);font-size:4.5vh;letter-spacing:.24em;font-weight:500}
+@media (orientation:portrait){
+  #duo{flex-direction:column;top:7vh;gap:2vh}
+  body.duo #cam,body.duo #cam.live,body.duo #cam.v-wide,body.duo #cam.v-full{width:min(60vw,calc(30vh * 9 / 10))}
+  #cam2{width:min(92vw,calc(24vh * 16 / 9))}
+}
+</style></head><body class="duo">"""
+    js = """
+// the camera frame, as /audience: one long-lived MJPEG, a cheap probe every
+// 2 s restarts it; "Camera off" on /maintain makes the probe fail -> plaque
+let cam2On=false;
+function cam2Tick(){
+  const img=document.getElementById('cam2img'),idle=document.getElementById('cam2idle');
+  const probe=new Image();
+  probe.onload=()=>{idle.style.display='none';img.style.display='block';
+    if(!cam2On){cam2On=true;img.src='/api/camera.mjpg?t='+Date.now();}};
+  probe.onerror=()=>{cam2On=false;img.removeAttribute('src');img.style.display='none';idle.style.display='flex';};
+  probe.src='/api/camera.jpg?t='+Date.now();
+}
+document.getElementById('cam2img').onerror=()=>{cam2On=false;};
+setInterval(cam2Tick,2000);cam2Tick();
+</script></body></html>"""
+    page = one(page, "<title>CJAP LiveAvatar</title>", "<title>CJAP Avatar and Camera</title>")
+    page = one(page, "</style></head><body>", css)
+    page = one(page, '<div id="cam"><video id="vid"', '<div id="duo"><div id="cam"><video id="vid"')
+    page = one(page, '</span></div>\n</div>\n<video id="clip" playsinline',
+               '</span></div>\n</div>\n<div id="cam2"><img id="cam2img" alt="">'
+               '<div class="idle" id="cam2idle"><b>Camera</b><span>no picture right now</span></div></div>\n'
+               '</div>\n<video id="clip" playsinline')
+    head, sep, tail = page.rpartition("</script></body></html>")
+    assert sep and not tail.strip()
+    return head + js
+
+
+FACE_CAMERA_PAGE = _face_camera_page(FACE_AVATAR_PAGE)
