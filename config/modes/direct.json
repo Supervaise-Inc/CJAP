@@ -5,7 +5,7 @@
   "host_intro_text": "Good day. I am your host for today. Chief Justice Panganiban will take your questions — say 'Hi Cee-Jap' to begin.",
   "defaults": {
     "wake_word": true,
-    "wake_threshold": 0.003,
+    "wake_threshold": 0.02,
     "speech_threshold": 200,
     "speech_threshold_mult": 2.5,
     "speech_threshold_cap": 1500,
@@ -17,7 +17,7 @@
   },
   "profiles": {
     "kiosk": {
-      "_note": "direct-kiosk: museum floor, self-service. Wake word on. Same values as the 2026-09-02 drop-in so behaviour is unchanged on first deploy."
+      "_note": "direct-kiosk: museum floor, self-service. Wake word on. Loudness values as the 2026-09-02 drop-in. wake_threshold 0.003 -> 0.02 on 2026-09-15: at 0.003 the model fired on background chatter (scores 0.003-0.007 through the BOYA mic, seven times in an afternoon) and each false fire opened the 25 s follow-up window onto whoever was talking; genuine 'Hi Cee-Jap' fires that day scored 0.066-0.46, so 0.02 sits 3x under the weakest real one and 3x over the loudest noise."
     },
     "event": {
       "_note": "direct-event: emcee-driven hall. Wake word OFF => the open mic (the handheld transmitter) gates the question: sustained speech above the loudness setting starts a capture. Higher loudness so a crowd does not hold the mic open (today's journal: room 923-1087 RMS). Zero post-answer window: back to the armed state right after each answer.",
