@@ -1457,6 +1457,7 @@ class _MicTap:
             if self.stream is not None and self.stream.active:
                 return
             self._drop_stream()
+            _input_route_sync()   # the hub's USB microphone, when one is plugged in
             st = sd.InputStream(samplerate=RATE, channels=1, dtype="int16",
                                 blocksize=self.FRAME, callback=self._cb)
             st.start()
@@ -1711,6 +1712,52 @@ def _dual_route():
     return _route_state()["secondary"] != "none"
 
 
+# ── capture route (2026-09-15) ──────────────────────────────────────────────
+# User: prioritise the microphone and speakers on the USB hub. While a USB
+# microphone is plugged in, scripts/audio_hub.py writes ~/.asoundrc.inroute, and
+# ~/.asoundrc sends this app's capture pcm (reachymini_audio_src_plug ->
+# audio_in_route) through it; otherwise the XMOS beam, as before.
+INROUTE_FILE = os.path.expanduser("~/.asoundrc.inroute")
+_in_route = {"mtime": None, "usb": False, "label": "robot mic", "synced": None}
+
+
+def _input_route():
+    """{"usb": capture is on a USB microphone, "label"}. Cached by mtime."""
+    try:
+        m = os.path.getmtime(INROUTE_FILE)
+    except OSError:
+        m = None
+    if m != _in_route["mtime"]:
+        usb, label = False, "robot mic"
+        if m is not None:
+            try:
+                with open(INROUTE_FILE) as f:
+                    for line in f:
+                        if line.startswith("# Input: usb"):
+                            usb, label = True, "USB mic " + line[len("# Input: usb"):].strip()
+                            break
+            except OSError:
+                pass
+        _in_route.update(mtime=m, usb=usb, label=label)
+    return _in_route
+
+
+def _input_route_usb():
+    return _input_route()["usb"]
+
+
+def _input_route_sync():
+    """Call right before opening a capture stream. When ~/.asoundrc.inroute
+    has changed since the last open, drop libasound's cached config so this
+    open resolves pcm.audio_in_route afresh — the same trap the output route
+    fell into (see _alsa_config_refresh). Fails open."""
+    r = _input_route()
+    if r["mtime"] != _in_route["synced"]:
+        _in_route["synced"] = r["mtime"]
+        _alsa_config_refresh()
+        print(f"[mic] capture route: {r['label']}", flush=True)
+
+
 # ── AEC reference feed for Bluetooth speakers (2026-09-01) ──────────────────
 class _RefFeed:
     """Bluetooth self-hearing fix (user: "so that it will not hear itself when
@@ -1741,6 +1788,10 @@ class _RefFeed:
     def wanted():
         if os.environ.get("CJ_AEC_REF_FEED", "0").strip().lower() not in {
                 "1", "true", "yes", "on"}:
+            return False
+        if _input_route_usb():
+            # 2026-09-15: a USB microphone is recording, not the XMOS, so a
+            # reference fed to the XMOS's AEC cancels nothing this app hears
             return False
         if _bt_route():
             return True      # CJ_AEC_REF_DELAY_MS=444, measured on the Sony
@@ -2395,6 +2446,7 @@ def _play_wav_interruptible(wav_path, stop):
         model = stop.detector._load()
         model.reset()
         frame_len = 1280  # 80 ms at 16 kHz, openWakeWord's expected frame
+        _input_route_sync()
         with sd.InputStream(samplerate=16000, channels=1, dtype="int16",
                             blocksize=frame_len) as stream:
             _OPEN_INPUTS.add("stop")
@@ -2466,6 +2518,7 @@ class StopListener:
             model.reset()
             try:
                 frame_len = 1280  # 80 ms at 16 kHz, openWakeWord's frame
+                _input_route_sync()
                 with sd.InputStream(samplerate=16000, channels=1, dtype="int16",
                                     blocksize=frame_len) as stream:
                     _OPEN_INPUTS.add("stop")

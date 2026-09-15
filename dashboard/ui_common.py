@@ -526,6 +526,18 @@ def _audio_route():
     return "unknown"
 
 
+def _audio_input():
+    """'robot mic', or 'USB mic <name>' while scripts/audio_hub.py has the voice
+    app recording from a USB microphone (~/.asoundrc.inroute header)."""
+    try:
+        for line in open(os.path.expanduser("~/.asoundrc.inroute")):
+            if line.startswith("# Input: usb"):
+                return "USB mic " + line[len("# Input: usb"):].strip()
+    except OSError:
+        pass
+    return "robot mic"
+
+
 def _volume_level():
     """Stored master level (0-100) from ~/.cj_volume, without running anything."""
     try:
@@ -600,6 +612,7 @@ def state():
         "corrections": _tail_jsonl(POSTPROC_LOG, 20),
         "health": _health(),
         "audio_route": _audio_route(),
+        "audio_input": _audio_input(),       # robot mic | USB mic <name> (2026-09-15)
         "volume": _volume_level(),   # 2026-09-01 status-strip item (read from file, no subprocess)
         "camera_backend": cam_backend(),
         "camera_focus": _cam_state["focus"],   # "auto" or dioptres (slider sync)

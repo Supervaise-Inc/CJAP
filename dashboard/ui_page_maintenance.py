@@ -1002,7 +1002,7 @@ function renderMode(s){
   const st=s.stop||{};if(st.ts&&(s.ts-st.ts)<3)t('stop word','scoring '+(+st.score).toFixed(3),'warn');
   const vl=s.voice_lock;if(vl&&vl.locked!=null)t('voice lock',vl.locked?'locked'+(vl.until?' '+fmtAge(vl.until-s.ts)+' left':''):'open',vl.locked?'warn':'');
   t('event mode',s.event_mode?'ON':'off',s.event_mode?'warn':'');
-  t('speaker',esc(s.audio_route||'?'),'');t('internet',h.internet?'ok':'OFFLINE',h.internet?'on':'bad');
+  t('speaker',esc(s.audio_route||'?'),'');t('microphone',esc(s.audio_input||'robot mic'),/^USB/.test(s.audio_input||'')?'warn':'');t('internet',h.internet?'ok':'OFFLINE',h.internet?'on':'bad');
   $('mtags').innerHTML=tags.join('');
 }
 async function poll(){try{render(await(await fetch('/api/state')).json())}catch(e){}}
@@ -1014,6 +1014,7 @@ function render(s){try{LAST_S=s;LAST_AT=Date.now();
     const item=(k,v,cls)=>`<span><span class="k">${k}</span><b class="${cls||''}">${v}</b></span>`;
     $('strip').innerHTML=item('mic',s.muted?'MUTED':'live',s.muted?'bad':'ok')
       +item('speaker',esc(s.audio_route||'?'),/internal|dac/i.test(s.audio_route||'')?'ok':'warn')
+      +item('input',esc(s.audio_input||'robot mic'),/^USB/.test(s.audio_input||'')?'warn':'ok')
       +(s.volume!=null?item('volume',s.volume+'%',s.volume==0?'bad':(s.volume<50?'warn':'ok')):'')
       +(s.camera_backend?item('camera',s.camera_backend,s.camera_backend.startsWith('gst')?'ok':'warn'):'')
       +item('app',h.supervaise?'up':'DOWN',h.supervaise?'ok':'bad')
