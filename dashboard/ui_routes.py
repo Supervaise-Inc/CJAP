@@ -381,6 +381,7 @@ def handle_post(h, path, body):
             h._send(403, json.dumps({"ok": False, "output": "bad key"}))
         else:
             ok, out = avatar_status_put(body)
+            avatar_session_seen(body.get("session"))   # the page holding the session is alive
             h._send(200, json.dumps({"ok": ok, "output": out}))
     elif path == "/api/avatar-lag":
         # measured publish→speak_started delay from the /face-avatar page;

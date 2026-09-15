@@ -83,7 +83,8 @@ let stText = "starting", stSentAt = 0;
 function report(){
   stSentAt = Date.now();
   post("/api/avatar-status", {status: stText, mode: voiceMode, ready: ready,
-    stopped: stopped, parked: !ready && !stopped, frozen: frozen, lag: lagEma}).catch(() => {});
+    stopped: stopped, parked: !ready && !stopped, frozen: frozen, lag: lagEma,
+    session: sessTok ? sessTok.slice(-12) : null}).catch(() => {});   // keeps our session ours
 }
 function st(msg){ stText = msg; if (Date.now() - stSentAt > 700) report(); }
 setInterval(report, 3000);
@@ -642,6 +643,16 @@ addEventListener("beforeunload", () => {
     new Blob([JSON.stringify({key:KEY, action:"avatar-voice-off"})],
              {type:"application/json"}));
 });
+// 2026-09-15: a page that goes away (closed, or reloaded, as a dashboard update
+// does) hands its session back at once, so the next avatar page is not refused
+addEventListener("pagehide", () => {
+  if (!sessTok) return;
+  navigator.sendBeacon("/api/avatar-stop",
+    new Blob([JSON.stringify({key: KEY, session_token: sessTok})], {type: "application/json"}));
+  sessTok = null;
+});
+// restored from the browser's page cache: that session was handed back, start clean
+addEventListener("pageshow", (e) => { if (e.persisted) location.reload(); });
 
 // ---- feed the avatar our ElevenLabs sentence audio -----------------------
 function b64(u8){
@@ -995,16 +1006,47 @@ def avatar_conf_set(body):
 # without inheriting that. A real refcount stays open, and depends on whether
 # LITE permits two subscribers on one session at all — UNKNOWN, not in the docs
 # quoted at ui_page_face.py:390-395.
-_LIVE_SESSION = {"token": None, "at": 0.0}
+_LIVE_SESSION = {"token": None, "at": 0.0, "seen": 0.0}
 _SESSION_LOCK = threading.Lock()
-SESSION_STALE_S = float(os.environ.get("CJ_AVATAR_SESSION_STALE_S", "900"))
+SESSION_STALE_S = float(os.environ.get("CJ_AVATAR_SESSION_STALE_S", "900"))   # no longer consulted (2026-09-15)
+# 2026-09-15 (user: "why is CJAP avatar not there"): the page showing the live
+# session reports every 3 s (/api/avatar-status carries the tail of its token).
+# The session counts as taken only while those reports keep coming. A page that
+# was closed or reloaded used to hold it for SESSION_STALE_S, refusing every
+# other avatar page for up to 15 minutes, and a dashboard update reloads pages.
+SESSION_HEARTBEAT_S = float(os.environ.get("CJ_AVATAR_SESSION_HEARTBEAT_S", "25"))
 
 
 def avatar_session_release(token=None):
     """Forget the live session so the next page may open one."""
     with _SESSION_LOCK:
         if token is None or _LIVE_SESSION["token"] == token:
-            _LIVE_SESSION.update(token=None, at=0.0)
+            _LIVE_SESSION.update(token=None, at=0.0, seen=0.0)
+
+
+def avatar_session_seen(tail):
+    """Heartbeat from the page showing the live session: the last 12 characters
+    of its token ride on every /api/avatar-status post. Any other page's
+    heartbeat keeps nothing alive."""
+    tail = str(tail or "")
+    if len(tail) < 8:
+        return
+    with _SESSION_LOCK:
+        tok = _LIVE_SESSION["token"]
+        if tok and tok.endswith(tail):
+            _LIVE_SESSION["seen"] = time.time()
+
+
+def _stop_later(token):
+    """End a session nobody is showing any more, off the request thread."""
+    def run():
+        try:
+            _liveavatar_request("/v1/sessions/stop", {"reason": "USER_CLOSED"},
+                                {"Authorization": "Bearer " + token})
+            print("[avatar] stopped a session whose page had gone", flush=True)
+        except Exception as e:
+            print(f"[avatar] stopping an abandoned session failed: {type(e).__name__}", flush=True)
+    threading.Thread(target=run, daemon=True, name="avatar-stop").start()
 
 
 def avatar_session():
@@ -1013,17 +1055,24 @@ def avatar_session():
     server-side (assets/liveavatar.json — never sent to the browser).
 
     Refuses if one is already live — see the note above."""
+    abandoned = None
     with _SESSION_LOCK:
-        live, at = _LIVE_SESSION["token"], _LIVE_SESSION["at"]
-        if live and (time.time() - at) < SESSION_STALE_S:
-            age = int(time.time() - at)
+        live, at, seen = _LIVE_SESSION["token"], _LIVE_SESSION["at"], _LIVE_SESSION["seen"]
+        now = time.time()
+        if live and now - max(at, seen) < SESSION_HEARTBEAT_S:
             return False, (f"a LiveAvatar session is already live on another page "
-                           f"(started {age} s ago). Each session is billed, so this one "
-                           f"was not opened. Close the other avatar page, or press Stop "
-                           f"there, and try again.")
+                           f"(started {int(now - at)} s ago, that page is still open). "
+                           f"Each session is billed, so this one was not opened. Close "
+                           f"the other avatar page, or press Stop there, and try again.")
         if live:
-            # older than the stale window: assume the page that opened it is gone
-            _LIVE_SESSION.update(token=None, at=0.0)
+            # its page stopped reporting (closed, reloaded, crashed): gone, not
+            # busy. Stop that session so it is not billed, and open this one.
+            abandoned = live
+            _LIVE_SESSION.update(token=None, at=0.0, seen=0.0)
+    if abandoned:
+        print(f"[avatar] the page holding the session went quiet "
+              f"{int(time.time() - max(at, seen))} s ago — replacing it", flush=True)
+        _stop_later(abandoned)
     conf = _read_json(LIVEAVATAR_CONF)
     if not conf or not conf.get("api_key"):
         return False, ("no assets/liveavatar.json — create it with "
