@@ -581,9 +581,12 @@ FACE_ANIM_JS = r"""
 // ---- a living portrait ---------------------------------------------------
 // 2026-09-15 (user: "make the avatar breathing and randomly closing its eyes",
 // "and moving the head a bit"). A still of the face, kept alive in a canvas:
-//   breath  14 a minute with a slow wander; the head rises a little on the in-breath
+//   breath  14 a minute with a slow wander; the shoulders and chest lift on the
+//           in-breath and the head rides on them (body(), below)
 //   head    a drift of under half a degree, from sines that never line up
-//   blink   every 2.5-7 s at random, now and then twice; 90 ms down, 170 ms up
+//   blink   no two alike (newBlink): mostly full, about a quarter only part
+//           way, a rare slow one; the two lids a few ms and a little depth
+//           apart; 1.8-7 s between them with the odd long gap, sometimes twice
 // The blink moves the real upper lid: per column of the eye, the skin above the
 // lash line stretches down and the lash line rides on the lid edge, over as
 // much of the eye as the lid has reached. It needs the eyes — per eye
@@ -604,32 +607,54 @@ function validEyes(e){
 function FaceAnim(canvas){
   const ctx=canvas.getContext('2d');
   const work=document.createElement('canvas'), wctx=work.getContext('2d');
-  const CLOSE=0.09, HOLD=0.05, OPEN=0.17;
   const t0=performance.now()-Math.random()*60000;   // two screens never breathe in step
   let src=null, eyes=null, on=true, since=0, lastDraw=0, dirty=null, pv=null;
-  let blinkAt=0, blinkT=-1, second=false;
+  let blinkAt=0, blink=null, second=false;
   const ease=(x)=>x*x*(3-2*x);
-  function schedule(now){ blinkAt=now+2500+Math.random()*4500; }
+  // 2026-09-15 (user: "make the eyelids close a bit random"): a fixed blink at
+  // a random interval still reads as a mechanism after the third one
+  function schedule(now){
+    blinkAt=now+(Math.random()<0.08 ? 9000+Math.random()*4000 : 1800+Math.random()*5200);
+  }
+  function newBlink(now){
+    const r=Math.random(), j=()=>0.8+Math.random()*0.45;     // every phase +/- ~20%
+    const slow=r<0.06, part=!slow&&r<0.32;
+    const depth=part ? 0.45+Math.random()*0.35 : 0.9+Math.random()*0.1;
+    const other=depth*(0.9+Math.random()*0.1), lag=Math.random()*18, flip=Math.random()<0.5;
+    return {t0:now, depth:flip?[depth,other]:[other,depth], lag:flip?[0,lag]:[lag,0],
+            close:(slow?0.16:0.09)*j(), hold:(slow?0.2:(part?0.01:0.05))*j(), open:(slow?0.32:0.17)*j()};
+  }
+  // -> [left lid, right lid] closure 0..1, or null between blinks
   function closure(now){
-    if(blinkT<0){ if(!eyes||now<blinkAt) return 0; blinkT=now; }
-    const s=(now-blinkT)/1000;
-    if(s<CLOSE) return ease(s/CLOSE);
-    if(s<CLOSE+HOLD) return 1;
-    if(s<CLOSE+HOLD+OPEN) return 1-ease((s-CLOSE-HOLD)/OPEN);
-    blinkT=-1;
-    if(!second&&Math.random()<0.18){ second=true; blinkAt=now+160; } else { second=false; schedule(now); }
-    return 0;
+    if(!blink){ if(!eyes||now<blinkAt) return null; blink=newBlink(now); }
+    const out=[0,0]; let live=false;
+    for(let i=0;i<2;i++){
+      const s=(now-blink.t0-blink.lag[i])/1000, b=blink;
+      let c=0;
+      if(s<0) live=true;
+      else if(s<b.close){ c=ease(s/b.close); live=true; }
+      else if(s<b.close+b.hold){ c=1; live=true; }
+      else if(s<b.close+b.hold+b.open){ c=1-ease((s-b.close-b.hold)/b.open); live=true; }
+      out[i]=c*b.depth[i];
+    }
+    if(live) return out;
+    blink=null;
+    if(!second&&Math.random()<0.15){ second=true; blinkAt=now+120+Math.random()*120; }
+    else { second=false; schedule(now); }
+    return null;
   }
   function restore(){
     if(dirty&&src) wctx.drawImage(src,dirty[0],dirty[1],dirty[2],dirty[3],dirty[0],dirty[1],dirty[2],dirty[3]);
     dirty=null;
   }
-  function lids(c){
+  function lids(cs){
     restore();
-    if(!eyes||c<=0.001) return;
+    if(!eyes||!cs) return;
     const W=work.width, H=work.height;
     let x0=W, y0=H, x1=0, y1=0;
-    for(const e of eyes){
+    for(let i=0;i<eyes.length;i++){
+      const e=eyes[i], c=cs[i]||0;
+      if(c<=0.001) continue;
       const ax=e.c1[0]*W, ay=e.c1[1]*H, bx=e.c2[0]*W, by=e.c2[1]*H;
       const w=Math.abs(bx-ax); if(w<6) continue;
       const cx=(ax+bx)/2, half=w/2*1.04, slope=(by-ay)/(bx-ax);
@@ -652,12 +677,31 @@ function FaceAnim(canvas){
     x1=Math.min(W,Math.ceil(x1)); y1=Math.min(H,Math.ceil(y1));
     if(x1>x0&&y1>y0) dirty=[x0,y0,x1-x0,y1-y0];
   }
-  // the head turns about the neck: below the eyes by ~2.6 eye-distances
+  // body geometry from the eyes: [centre line x, the neck the head turns about
+  // (~2.6 eye-distances below the eyes), the shoulder line (~2.2)]
   function pivot(W,H){
-    if(!eyes||eyes.length<2) return [W*0.5,H*0.9];
+    if(!eyes||eyes.length<2) return [W*0.5,H*0.9,H*0.72];
     const c=(e)=>[(e.c1[0]+e.c2[0])/2*W,(e.c1[1]+e.c2[1])/2*H];
-    const a=c(eyes[0]), b=c(eyes[1]), d=Math.hypot(a[0]-b[0],a[1]-b[1]);
-    return [(a[0]+b[0])/2, Math.min(H,(a[1]+b[1])/2+2.6*d)];
+    const a=c(eyes[0]), b=c(eyes[1]), d=Math.hypot(a[0]-b[0],a[1]-b[1]), my=(a[1]+b[1])/2;
+    return [(a[0]+b[0])/2, Math.min(H,my+2.6*d), Math.min(H*0.92,Math.max(H*0.3,my+2.2*d))];
+  }
+  // THE BODY BREATHES (2026-09-15, user: "make the avatar body move as it
+  // breathes"). The shoulders and chest lift on the in-breath and everything
+  // above them, head included, rides up with them; the chest widens a touch;
+  // the bottom of the picture (the lap) stays where it sits. Drawn as 4 px
+  // strips, each lifted and widened by a smooth amount, so no seam shows; the
+  // part above the shoulders goes in one piece. ~5 px at 1080p, 0.4% wider.
+  const RISE=0.005, WIDEN=0.004, STRIP=4;
+  function body(W,H,bb){
+    const sh=Math.max(STRIP,Math.min(H-STRIP,Math.round(pv[2])));
+    const rise=RISE*H*bb, cx=pv[0], span=H-sh;
+    const lift=(y)=>y<=sh ? rise : rise*(1-ease(Math.min(1,(y-sh)/span)));
+    ctx.drawImage(work, 0,0,W,sh, 0,-rise,W,sh+0.6);
+    for(let y=sh; y<H; y+=STRIP){
+      const y2=Math.min(H,y+STRIP), d0=y-lift(y), d1=y2-lift(y2);
+      const kx=1+WIDEN*bb*Math.sin(Math.PI*((y+y2)/2-sh)/span);
+      ctx.drawImage(work, 0,y,W,y2-y, cx-cx*kx,d0,W*kx,d1-d0+0.6);
+    }
   }
   function frame(now,force){
     if(!src||(!on&&!force)) return;
@@ -670,20 +714,20 @@ function FaceAnim(canvas){
     const b=s(phb)+0.16*s(2*phb+0.7);                 // out-breath a little faster than in
     const rot=k*(0.30*s(0.21*t)+0.12*s(0.53*t+1.3)+0.05*s(1.27*t+0.4))*Math.PI/180;
     const tx=k*W*(0.0020*s(0.17*t+0.9)+0.0009*s(0.61*t+2.1));
-    const ty=k*H*(-0.0016*b+0.0008*s(0.13*t+2.7));
-    const sy=1+k*0.0035*b, over=1+k*0.03;             // overscan: no edge ever shows
+    const ty=k*H*0.0008*s(0.13*t+2.7);
+    const over=1+k*0.03;                               // overscan: no edge ever shows
     const want=pivot(W,H);
-    if(!pv) pv=want; else { pv[0]+=(want[0]-pv[0])*0.05; pv[1]+=(want[1]-pv[1])*0.05; }
+    if(!pv) pv=want; else for(let i=0;i<3;i++) pv[i]+=(want[i]-pv[i])*0.05;
     ctx.setTransform(1,0,0,1,0,0);
     ctx.clearRect(0,0,W,H);
     ctx.translate(W/2,H/2); ctx.scale(over,over); ctx.translate(-W/2,-H/2);
-    ctx.translate(pv[0]+tx,pv[1]+ty); ctx.rotate(rot); ctx.scale(1+(sy-1)*0.4,sy); ctx.translate(-pv[0],-pv[1]);
-    ctx.drawImage(work,0,0);
+    ctx.translate(pv[0]+tx,pv[1]+ty); ctx.rotate(rot); ctx.translate(-pv[0],-pv[1]);
+    body(W,H,k*b);                                     // the breath is in the body now
     ctx.setTransform(1,0,0,1,0,0);
   }
   function setSource(s){
     const w=s&&(s.naturalWidth||s.videoWidth||s.width), h=s&&(s.naturalHeight||s.videoHeight||s.height);
-    dirty=null; blinkT=-1; pv=null;
+    dirty=null; blink=null; pv=null;
     if(!w||!h){ src=null; return; }
     src=s;
     canvas.width=work.width=w; canvas.height=work.height=h;
@@ -691,7 +735,7 @@ function FaceAnim(canvas){
     since=performance.now(); schedule(since);
     frame(since,true);
   }
-  function setEyes(e){ restore(); eyes=validEyes(e); blinkT=-1; schedule(performance.now()); }
+  function setEyes(e){ restore(); eyes=validEyes(e); blink=null; schedule(performance.now()); }
   (function tick(now){ try{ frame(now); }catch(err){} requestAnimationFrame(tick); })(performance.now());
   return {setSource:setSource, setEyes:setEyes, active:(v)=>{ on=!!v; }};
 }
