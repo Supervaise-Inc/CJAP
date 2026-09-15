@@ -605,7 +605,271 @@ function validEyes(e){
   }
   return e;
 }
+// ---- the living portrait on the GPU (2026-09-15) -------------------------
+// User: "improve avatar just normal breathing and make the eyelids more
+// realistic and the movement of head". FaceAnim2D (below, now only the fallback
+// when WebGL is missing, or with ?face=2d) moved the whole picture, background
+// and chair included, and its blink stretched 1 px columns with a hard edge.
+// Here one fragment shader warps the portrait per pixel instead:
+//   breath  a breath shape: in over ~40% of the cycle, out over ~50%, a short
+//           rest; about 13 a minute. The shoulders and chest lift ~0.3% of the
+//           height, nothing is widened, and the background beside the body
+//           stays where it is.
+//   head    only the head moves, with the neck carrying it down to still
+//           shoulders. It turns, nods and tilts towards a new pose every 3-9 s
+//           and settles there on a damped spring, the way a listener shifts,
+//           with a slow wander on top. The face moves a little more than the
+//           outline of the head, so it reads as a turn and not a slide. People
+//           blink as they shift, so a shift often brings a blink.
+//   lids    the upper lid comes down ~80% of the way and the lower lid rises
+//           to meet it, both following the curve of the eye. The lid is the
+//           real skin above the lash line, softened, a touch darker as it
+//           closes, with an anti-aliased edge and a soft line where the lids
+//           meet. Down fast (ease-in), up slower (ease-out), no two alike, and
+//           a resting lid that is never quite the same height.
+// Any WebGL failure at start (no context, a shader that will not compile)
+// falls back to FaceAnim2D. Same interface: setSource, setEyes, active.
+const FACE_VS='attribute vec2 a;void main(){gl_Position=vec4(a,0.0,1.0);}';
+const FACE_FS=[
+'#ifdef GL_FRAGMENT_PRECISION_HIGH',
+'precision highp float;',
+'#else',
+'precision mediump float;',
+'#endif',
+'uniform sampler2D uTex;',
+'uniform vec2 uSize;',
+'uniform vec3 uHead;',      // yaw shift px, nod shift px, roll rad
+'uniform vec2 uPivot;',     // the neck the head tilts about, px
+'uniform vec4 uHeadBox;',   // head centre x, y and radii x, y, px
+'uniform vec4 uBody;',      // breath lift px, shoulder line y, body centre x, half width
+'uniform vec4 uE0;',        // eye corners ax, ay, bx, by, px
+'uniform vec4 uE0b;',       // mid upper lid y, mid lower lid y, closure 0..1, enabled
+'uniform vec4 uE1;',
+'uniform vec4 uE1b;',
+'vec4 tex(vec2 q){ return texture2D(uTex, clamp(q/uSize, vec2(0.0), vec2(1.0))); }',
+'float headW(vec2 p){',
+'  vec2 k=(p-uHeadBox.xy)/uHeadBox.zw;',
+'  float w=1.0-smoothstep(0.6,1.0,length(k));',
+'  float nx=1.0-smoothstep(0.35,0.6,abs(p.x-uHeadBox.x)/uHeadBox.z);',
+'  float ny=1.0-smoothstep(uHeadBox.y+0.55*uHeadBox.w, uBody.y+0.15*uHeadBox.w, p.y);',
+'  float below=step(uHeadBox.y, p.y);',
+'  return max(w, nx*ny*below);',
+'}',
+'float bodyW(vec2 p){',
+'  float wy=1.0-smoothstep(uBody.y, uSize.y, p.y);',
+'  float wx=1.0-smoothstep(uBody.w, uBody.w*1.45, abs(p.x-uBody.z));',
+'  return wy*wx;',
+'}',
+'vec2 displace(vec2 p){',
+'  float wh=headW(p);',
+'  vec2 f=(p-uHeadBox.xy)/(uHeadBox.zw*0.55);',
+'  float face=exp(-dot(f,f));',
+'  float a=uHead.z*wh;',
+'  vec2 r=p-uPivot;',
+'  vec2 rot=vec2(cos(a)*r.x-sin(a)*r.y, sin(a)*r.x+cos(a)*r.y)+uPivot-p;',
+'  vec2 turn=vec2(uHead.x*wh*(1.0+0.35*face), uHead.y*wh*(1.0+0.2*face));',
+'  return rot+turn+vec2(0.0, -uBody.x*bodyW(p));',
+'}',
+'vec4 lids(vec2 q, vec4 E, vec4 L, vec4 col){',
+'  float c=L.z;',
+'  if(L.w<0.5||c<0.002) return col;',
+'  float w=abs(E.z-E.x);',
+'  if(w<6.0) return col;',
+'  float cx=0.5*(E.x+E.z), hw=0.52*w;',
+'  float u=(q.x-cx)/hw;',
+'  if(abs(u)>=1.0) return col;',
+'  float s=pow(1.0-u*u, 0.7);',
+'  float base=E.y+(q.x-E.x)*(E.w-E.y)/(E.z-E.x);',
+'  float midY=0.5*(E.y+E.w);',
+'  float upOff=L.x-midY, loOff=L.y-midY;',
+'  float h=max(loOff-upOff, w*0.18);',
+'  float U=base+upOff*s, Lo=base+loOff*s, O=Lo-U;',
+'  float Ue=U+0.82*c*O, Le=Lo-0.18*c*O;',
+'  float lash=max(1.2, 0.16*h);',
+'  float top=U-0.5*h, bot=Lo+0.35*h;',
+'  vec4 outc=col;',
+'  if(q.y>=top && q.y<Ue+1.0){',
+'    float sy=q.y<Ue-lash ? top+(q.y-top)*((U-lash)-top)/max(0.5,(Ue-lash)-top) : q.y-(Ue-U);',
+'    vec2 sq=vec2(q.x, sy);',
+'    vec4 skin=0.25*tex(sq-vec2(1.5,0.0))+0.5*tex(sq)+0.25*tex(sq+vec2(1.5,0.0));',
+'    skin.rgb*=1.0-0.10*c*smoothstep(top, Ue, q.y);',
+'    outc=mix(col, skin, 1.0-smoothstep(Ue-0.9, Ue+0.9, q.y));',
+'  }',
+'  if(q.y>Le-1.0 && q.y<=bot){',
+'    float sy=bot-(bot-q.y)*(bot-Lo)/max(0.5, bot-Le);',
+'    outc=mix(outc, tex(vec2(q.x, sy)), smoothstep(Le-0.9, Le+0.9, q.y));',
+'  }',
+'  outc.rgb*=1.0-0.28*c*(1.0-smoothstep(0.0, lash*1.1, abs(q.y-Ue)));',
+'  return outc;',
+'}',
+'void main(){',
+'  vec2 p=vec2(gl_FragCoord.x, uSize.y-gl_FragCoord.y);',
+'  vec2 q=p-displace(p);',
+'  q=p-displace(q);',
+'  vec4 col=tex(q);',
+'  col=lids(q, uE0, uE0b, col);',
+'  col=lids(q, uE1, uE1b, col);',
+'  gl_FragColor=vec4(col.rgb, 1.0);',
+'}'].join('\n');
+function faceProgram(gl){
+  function sh(type,text){
+    const s=gl.createShader(type); gl.shaderSource(s,text); gl.compileShader(s);
+    if(!gl.getShaderParameter(s,gl.COMPILE_STATUS)){ console.warn('FaceAnim shader:',gl.getShaderInfoLog(s)); return null; }
+    return s;
+  }
+  const v=sh(gl.VERTEX_SHADER,FACE_VS), f=sh(gl.FRAGMENT_SHADER,FACE_FS);
+  if(!v||!f) return null;
+  const p=gl.createProgram(); gl.attachShader(p,v); gl.attachShader(p,f); gl.linkProgram(p);
+  if(!gl.getProgramParameter(p,gl.LINK_STATUS)){ console.warn('FaceAnim link:',gl.getProgramInfoLog(p)); return null; }
+  return p;
+}
+// compiled once on a throwaway canvas: a canvas that has handed out a WebGL
+// context can never give a 2D one, so the fallback must be decided first
+let _faceGL=null;
+function faceGLok(){
+  if(_faceGL===null){
+    try{
+      const g=document.createElement('canvas').getContext('webgl');
+      _faceGL=!!(g&&faceProgram(g));
+      const x=g&&g.getExtension('WEBGL_lose_context'); if(x) x.loseContext();
+    }catch(e){ _faceGL=false; }
+  }
+  return _faceGL;
+}
 function FaceAnim(canvas){
+  if(/[?&]face=2d\b/.test(location.search)||!faceGLok()) return FaceAnim2D(canvas);
+  let gl=null;
+  try{ gl=canvas.getContext('webgl',{alpha:false,antialias:false,depth:false,premultipliedAlpha:false}); }catch(e){ gl=null; }
+  if(!gl) return FaceAnim2D(canvas);
+  const t0=performance.now()-Math.random()*60000;   // two screens never breathe in step
+  const ease=(x)=>x*x*(3-2*x);
+  let src=null, eyes=null, on=true, since=0, lastDraw=0, lost=false, prog=null, tex=null, gv=null;
+  const U={};
+  function init(){
+    prog=faceProgram(gl); if(!prog) return false;
+    gl.useProgram(prog);
+    gl.bindBuffer(gl.ARRAY_BUFFER, gl.createBuffer());
+    gl.bufferData(gl.ARRAY_BUFFER, new Float32Array([-1,-1, 1,-1, -1,1, -1,1, 1,-1, 1,1]), gl.STATIC_DRAW);
+    const loc=gl.getAttribLocation(prog,'a');
+    gl.enableVertexAttribArray(loc); gl.vertexAttribPointer(loc,2,gl.FLOAT,false,0,0);
+    for(const n of ['uTex','uSize','uHead','uPivot','uHeadBox','uBody','uE0','uE0b','uE1','uE1b']) U[n]=gl.getUniformLocation(prog,n);
+    tex=gl.createTexture(); gl.bindTexture(gl.TEXTURE_2D,tex);
+    gl.texParameteri(gl.TEXTURE_2D,gl.TEXTURE_MIN_FILTER,gl.LINEAR);
+    gl.texParameteri(gl.TEXTURE_2D,gl.TEXTURE_MAG_FILTER,gl.LINEAR);
+    gl.texParameteri(gl.TEXTURE_2D,gl.TEXTURE_WRAP_S,gl.CLAMP_TO_EDGE);
+    gl.texParameteri(gl.TEXTURE_2D,gl.TEXTURE_WRAP_T,gl.CLAMP_TO_EDGE);
+    gl.uniform1i(U.uTex,0);
+    if(src) upload();
+    return true;
+  }
+  function upload(){
+    gl.bindTexture(gl.TEXTURE_2D,tex);
+    gl.pixelStorei(gl.UNPACK_FLIP_Y_WEBGL,false);
+    gl.texImage2D(gl.TEXTURE_2D,0,gl.RGBA,gl.RGBA,gl.UNSIGNED_BYTE,src);
+  }
+  canvas.addEventListener('webglcontextlost',(e)=>{ e.preventDefault(); lost=true; });
+  canvas.addEventListener('webglcontextrestored',()=>{ lost=!init(); });
+  if(!init()) return FaceAnim2D(canvas);
+
+  // BREATH: in, out, a rest; ~13 a minute with a slow wander in the rate
+  function breathAt(t){
+    const ph=((t/(60/13))*(1+0.05*Math.sin(0.029*t+0.4)))%1;
+    if(ph<0.4) return 0.5-0.5*Math.cos(Math.PI*ph/0.4);
+    if(ph<0.9) return 0.5+0.5*Math.cos(Math.PI*(ph-0.4)/0.5);
+    return 0;
+  }
+  // HEAD: a pose that moves to somewhere new now and then and settles there
+  const pose={yaw:0,nod:0,roll:0}, vel={yaw:0,nod:0,roll:0}, goal={yaw:0,nod:0,roll:0};
+  let nextShift=0;
+  function shift(now){
+    goal.yaw=(Math.random()*2-1); goal.nod=(Math.random()*2-1)*0.7; goal.roll=(Math.random()*2-1)*1.1;
+    nextShift=now+3000+Math.random()*6000;
+    if(eyes&&!blink&&Math.random()<0.45) blinkAt=Math.min(blinkAt, now+60+Math.random()*140);
+  }
+  function spring(dt){
+    const w=2*Math.PI/2.4;                               // settles in ~2 s, no overshoot
+    for(const k in pose){ const acc=w*w*(goal[k]-pose[k])-2*w*vel[k]; vel[k]+=acc*dt; pose[k]+=vel[k]*dt; }
+  }
+  // LIDS: no two blinks alike; down with ease-in, up with ease-out
+  let blinkAt=0, blink=null, again=false;
+  function scheduleBlink(now){ blinkAt=now+(Math.random()<0.1 ? 8000+Math.random()*5000 : 2000+Math.random()*4500); }
+  function makeBlink(now){
+    const r=Math.random(), j=()=>0.85+Math.random()*0.35;
+    const part=r<0.22, slow=!part&&r<0.28;
+    const depth=part ? 0.5+Math.random()*0.3 : 1;
+    const other=Math.min(1,depth*(0.93+Math.random()*0.07)), lag=Math.random()*12, flip=Math.random()<0.5;
+    return {t0:now, depth:flip?[depth,other]:[other,depth], lag:flip?[0,lag]:[lag,0],
+            down:(slow?0.14:0.085)*j(), hold:(part?0:(slow?0.12:0.035))*j(), up:(slow?0.3:0.19)*j()};
+  }
+  function lidsAt(now,t){
+    const rest=0.04+0.03*Math.sin(0.11*t+0.7);           // a resting lid is never quite still
+    if(!blink){ if(!eyes||now<blinkAt) return [rest,rest]; blink=makeBlink(now); }
+    const b=blink, out=[0,0]; let live=false;
+    for(let i=0;i<2;i++){
+      const s=(now-b.t0-b.lag[i])/1000; let c=0;
+      if(s<0) live=true;
+      else if(s<b.down){ const x=s/b.down; c=x*x; live=true; }
+      else if(s<b.down+b.hold){ c=1; live=true; }
+      else if(s<b.down+b.hold+b.up){ const x=(s-b.down-b.hold)/b.up; c=1-ease(x); live=true; }
+      c*=b.depth[i]; out[i]=c+rest*(1-c);
+    }
+    if(!live){
+      blink=null;
+      if(!again&&Math.random()<0.12){ again=true; blinkAt=now+150+Math.random()*120; }
+      else { again=false; scheduleBlink(now); }
+    }
+    return out;
+  }
+  function geom(W,H){
+    if(!eyes||eyes.length<2) return [W*0.5, H*0.38, W*0.09];
+    const c=(e)=>[(e.c1[0]+e.c2[0])/2*W,(e.c1[1]+e.c2[1])/2*H];
+    const a=c(eyes[0]), b=c(eyes[1]);
+    return [(a[0]+b[0])/2, (a[1]+b[1])/2, Math.max(20,Math.hypot(a[0]-b[0],a[1]-b[1]))];
+  }
+  function eyeU(i,W,H,c){
+    const e=eyes&&eyes[i];
+    if(!e){ gl.uniform4f(U['uE'+i],0,0,1,0); gl.uniform4f(U['uE'+i+'b'],0,1,0,0); return; }
+    gl.uniform4f(U['uE'+i], e.c1[0]*W, e.c1[1]*H, e.c2[0]*W, e.c2[1]*H);
+    gl.uniform4f(U['uE'+i+'b'], e.up*H, e.lo*H, c, 1);
+  }
+  function frame(now,force){
+    if(!src||lost||(!on&&!force)) return;
+    if(!force&&now-lastDraw<33) return;                  // ~30 fps is plenty for this
+    const dt=Math.min(0.05,Math.max(0,(now-(lastDraw||now))/1000)); lastDraw=now;
+    const W=canvas.width, H=canvas.height, t=(now-t0)/1000, s=Math.sin;
+    const k=ease(Math.min(1,(now-since)/1500));          // eases in from the exact still
+    if(now>=nextShift) shift(now);
+    spring(dt);
+    const want=geom(W,H);
+    if(!gv) gv=want; else for(let i=0;i<3;i++) gv[i]+=(want[i]-gv[i])*0.05;
+    const [mx,my,d]=gv, br=breathAt(t);
+    const yaw=k*(pose.yaw+0.25*s(0.13*t+1.1))*0.055*d;
+    const nod=k*((pose.nod+0.2*s(0.17*t))*0.04*d - 0.015*d*br);
+    const roll=k*(pose.roll+0.3*s(0.19*t+2.0))*Math.PI/180;
+    const lid=lidsAt(now,t);
+    gl.viewport(0,0,W,H);
+    gl.uniform2f(U.uSize,W,H);
+    gl.uniform3f(U.uHead,yaw,nod,roll);
+    gl.uniform2f(U.uPivot,mx,my+2.4*d);
+    gl.uniform4f(U.uHeadBox,mx,my-0.1*d,1.45*d,2.3*d);
+    gl.uniform4f(U.uBody,k*0.0032*H*br,Math.min(H*0.95,Math.max(H*0.3,my+2.2*d)),mx,2.6*d);
+    eyeU(0,W,H,lid[0]); eyeU(1,W,H,lid[1]);
+    gl.drawArrays(gl.TRIANGLES,0,6);
+  }
+  function setSource(s){
+    const w=s&&(s.naturalWidth||s.videoWidth||s.width), h=s&&(s.naturalHeight||s.videoHeight||s.height);
+    if(!w||!h){ src=null; return; }
+    src=s; canvas.width=w; canvas.height=h; upload();
+    for(const k in pose){ pose[k]=0; vel[k]=0; goal[k]=0; }
+    since=performance.now(); nextShift=since+2000; gv=null; blink=null; scheduleBlink(since);
+    frame(since,true);
+  }
+  function setEyes(e){ eyes=validEyes(e); blink=null; scheduleBlink(performance.now()); }
+  (function tick(now){ try{ frame(now); }catch(err){} requestAnimationFrame(tick); })(performance.now());
+  return {setSource:setSource, setEyes:setEyes, active:(v)=>{ on=!!v; }};
+}
+
+function FaceAnim2D(canvas){
   const ctx=canvas.getContext('2d');
   const work=document.createElement('canvas'), wctx=work.getContext('2d');
   const t0=performance.now()-Math.random()*60000;   // two screens never breathe in step

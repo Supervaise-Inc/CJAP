@@ -330,3 +330,8 @@ def test_every_portrait_breathes_moves_and_blinks():
     assert "0,0,W,sh, sway,-rise" in js                                    # the head sways over the shoulders
     assert "ctx.scale(1+(sy-1)*0.4,sy)" not in js                        # the old whole-frame breath
     assert "function newBlink(now)" in js and "blinkT" not in js and "CLOSE" not in js
+    # 2026-09-15: the portrait runs on WebGL; the 2D version is the fallback
+    assert js.count("function FaceAnim(canvas)") == 1 and js.count("function FaceAnim2D(canvas)") == 1
+    assert "return FaceAnim2D(canvas)" in js and "canvas.getContext('webgl'" in js
+    assert "float headW(vec2 p)" in js and "vec4 lids(vec2 q, vec4 E, vec4 L, vec4 col)" in js
+    assert "function breathAt(t)" in js and "function spring(dt)" in js
