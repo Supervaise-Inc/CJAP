@@ -166,22 +166,38 @@ def test_the_app_follows_the_capture_route_and_drops_the_xmos_reference(monkeypa
     import main_voice_robot as mvr
     f = tmp_path / "inroute"
     monkeypatch.setattr(mvr, "INROUTE_FILE", str(f))
-    monkeypatch.setattr(mvr, "_in_route", {"mtime": None, "usb": False, "label": "robot mic", "synced": None})
+    monkeypatch.setattr(mvr, "_in_route", {"mtime": None, "usb": False, "label": "robot mic",
+                                           "source": None, "synced": None, "device": None})
     refreshed = []
     monkeypatch.setattr(mvr, "_alsa_config_refresh", lambda: refreshed.append(1))
+    monkeypatch.setattr(mvr, "_ROBOT_MIC_DEVICE", "reachymini_audio_src_left")
+    present = {HUB_SRC["name"]}
+    monkeypatch.setattr(mvr, "_pulse_source_present", lambda name: name in present)
+    monkeypatch.delenv("PULSE_SOURCE", raising=False)
+    saved_device = mvr.sd.default.device
     mvr._input_route_sync()
     assert refreshed == [] and not mvr._input_route_usb()
     f.write_text(hub.inroute_text({"name": HUB_SRC["name"], "label": "Hub Mic"}))
     mvr._input_route_sync()
     assert refreshed == [1] and mvr._input_route_usb()
+    # 2026-09-15: the app must RECORD from it, not only log it — through PipeWire
+    assert os.environ.get("PULSE_SOURCE") == HUB_SRC["name"] and mvr.sd.default.device[0] == "pulse"
     mvr._input_route_sync()
     assert refreshed == [1]                                                   # once per change
+    present.clear()                                                           # unplugged, file not yet updated
+    mvr._input_route_sync()
+    assert "PULSE_SOURCE" not in os.environ and mvr.sd.default.device[0] == "reachymini_audio_src_left"
+    present.add(HUB_SRC["name"])
+    mvr._input_route_sync()
+    assert mvr.sd.default.device[0] == "pulse"
     monkeypatch.setenv("CJ_AEC_REF_FEED", "1")
     monkeypatch.setattr(mvr, "_bt_route", lambda: True)
     assert mvr._RefFeed.wanted() is False                                     # XMOS is not the mic
     f.unlink()
     mvr._input_route_sync()
     assert refreshed == [1, 1] and not mvr._input_route_usb() and mvr._RefFeed.wanted() is True
+    assert "PULSE_SOURCE" not in os.environ and mvr.sd.default.device[0] == "reachymini_audio_src_left"
+    mvr.sd.default.device = saved_device
 
 
 def test_the_maintenance_page_names_the_microphone_in_use(monkeypatch, tmp_path):

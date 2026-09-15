@@ -689,12 +689,24 @@ def _publish_stop(score, fired=False):
     """Barge-in meter while the answer plays (cj_stop_live.json / cj_stop_events.jsonl)."""
     _publish_meter(_stop_pub, STOP_LIVE, STOP_EVENTS, score, fired)
 
-try:
-    sd.check_input_settings(device="reachymini_audio_src_plug", samplerate=RATE, channels=1)
-    sd.default.device = ("reachymini_audio_src_plug", None)
-    print("[mic] using ReSpeaker array")
-except Exception as e:
-    print(f"[mic] using system default input ({e})")
+# The robot's own microphone. 2026-09-15: while a USB microphone's route is in
+# ~/.asoundrc.inroute, PortAudio cannot list reachymini_audio_src_plug (a plug
+# over a pulse pcm fails its probe), and the app fell back to a "system default"
+# that was the XMOS hardware — it logged the hub mic and recorded the robot's.
+# The left-channel route over the same dsnoop is the second choice.
+_ROBOT_MIC_DEVICE = None
+for _dev in ("reachymini_audio_src_plug", "reachymini_audio_src_left"):
+    try:
+        sd.check_input_settings(device=_dev, samplerate=RATE, channels=1)
+        _ROBOT_MIC_DEVICE = _dev
+        break
+    except Exception as e:
+        _mic_err = e
+if _ROBOT_MIC_DEVICE:
+    sd.default.device = (_ROBOT_MIC_DEVICE, None)
+    print(f"[mic] using ReSpeaker array ({_ROBOT_MIC_DEVICE})")
+else:
+    print(f"[mic] using system default input ({_mic_err})")
 
 
 # ════════════════════════════════════════════════════════════════════════════
@@ -1718,7 +1730,8 @@ def _dual_route():
 # ~/.asoundrc sends this app's capture pcm (reachymini_audio_src_plug ->
 # audio_in_route) through it; otherwise the XMOS beam, as before.
 INROUTE_FILE = os.path.expanduser("~/.asoundrc.inroute")
-_in_route = {"mtime": None, "usb": False, "label": "robot mic", "synced": None}
+_in_route = {"mtime": None, "usb": False, "label": "robot mic", "source": None, "synced": None,
+             "device": None}
 
 
 def _input_route():
@@ -1728,17 +1741,19 @@ def _input_route():
     except OSError:
         m = None
     if m != _in_route["mtime"]:
-        usb, label = False, "robot mic"
+        usb, label, source = False, "robot mic", None
         if m is not None:
             try:
                 with open(INROUTE_FILE) as f:
                     for line in f:
                         if line.startswith("# Input: usb"):
                             usb, label = True, "USB mic " + line[len("# Input: usb"):].strip()
-                            break
+                        mm = re.match(r'\s*device\s+"([^"]+)"', line)
+                        if mm:
+                            source = mm.group(1)
             except OSError:
                 pass
-        _in_route.update(mtime=m, usb=usb, label=label)
+        _in_route.update(mtime=m, usb=usb, label=label, source=source)
     return _in_route
 
 
@@ -1746,16 +1761,43 @@ def _input_route_usb():
     return _input_route()["usb"]
 
 
+def _pulse_source_present(name):
+    """Is this PipeWire source there right now? A route file can name a USB mic
+    for up to one audio_hub.py pass (2 s) after it has been unplugged."""
+    try:
+        r = subprocess.run(["pactl", "list", "sources", "short"], capture_output=True,
+                           text=True, timeout=3)
+        return any(line.split("\t")[1:2] == [name] for line in r.stdout.splitlines())
+    except Exception:
+        return False
+
+
 def _input_route_sync():
-    """Call right before opening a capture stream. When ~/.asoundrc.inroute
-    has changed since the last open, drop libasound's cached config so this
-    open resolves pcm.audio_in_route afresh — the same trap the output route
-    fell into (see _alsa_config_refresh). Fails open."""
+    """Call right before opening a capture stream: point this process's input
+    at the microphone the route names. A USB microphone is recorded through
+    PipeWire (device "pulse", PULSE_SOURCE = its source), which also converts
+    its 48 kHz stereo to our 16 kHz mono; its raw hw device cannot. Otherwise
+    the robot's own array. Verified 2026-09-15 with pactl: the stream attaches
+    to the BOYA source. When the route file has changed, libasound's cached
+    config is dropped as well (see _alsa_config_refresh). Fails open."""
     r = _input_route()
-    if r["mtime"] != _in_route["synced"]:
+    changed = r["mtime"] != _in_route["synced"]
+    if changed:
         _in_route["synced"] = r["mtime"]
         _alsa_config_refresh()
-        print(f"[mic] capture route: {r['label']}", flush=True)
+    if r["usb"] and r.get("source") and _pulse_source_present(r["source"]):
+        os.environ["PULSE_SOURCE"] = r["source"]
+        dev, what = "pulse", f"{r['label']} (PipeWire {r['source']})"
+    else:
+        os.environ.pop("PULSE_SOURCE", None)
+        dev, what = _ROBOT_MIC_DEVICE, f"robot mic ({_ROBOT_MIC_DEVICE or 'system default'})"
+    try:
+        sd.default.device = (dev, sd.default.device[1])
+    except Exception as e:
+        print(f"[mic] could not select {dev}: {e}", flush=True)
+    if changed or dev != _in_route["device"]:
+        _in_route["device"] = dev
+        print(f"[mic] capture: {what}", flush=True)
 
 
 # ── AEC reference feed for Bluetooth speakers (2026-09-01) ──────────────────
