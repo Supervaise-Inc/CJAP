@@ -2202,9 +2202,7 @@ def record_with_meter(max_s=30, trailing_silence_ms=None, no_speech_timeout_s=12
             if not _floor_ok():
                 print("\n[mic] floor lost — capture abandoned")
                 return None
-            if os.path.exists(MUTE_TRIGGER):   # console "cut short" / Interrupt while listening
-                with contextlib.suppress(FileNotFoundError):
-                    os.unlink(MUTE_TRIGGER)
+            if _interrupt_pending():   # console "cut short" / Interrupt while listening
                 print("\n[mic] interrupted from the console — capture abandoned")
                 return None
             try:
@@ -2454,8 +2452,7 @@ def _play_wav_interruptible(wav_path, stop):
                 if not _floor_ok():
                     print("[stop] floor lost mid-answer — mic released, playback continues")
                     break
-                if os.path.exists(MUTE_TRIGGER):   # Interrupt button (mic mute does NOT cut)
-                    os.unlink(MUTE_TRIGGER)
+                if _interrupt_pending():   # Interrupt button (mic mute does NOT cut)
                     print("[stop] interrupted from the maintenance dashboard — answer cut")
                     proc.terminate()
                     fired = -1.0
@@ -2527,8 +2524,7 @@ class StopListener:
                             print("[stop] floor lost mid-answer — mic released, playback continues")
                             self.failed = True
                             return
-                        if os.path.exists(MUTE_TRIGGER):  # Interrupt button (mic mute does NOT cut)
-                            os.unlink(MUTE_TRIGGER)
+                        if _interrupt_pending():  # Interrupt button (mic mute does NOT cut)
                             print("[stop] interrupted from the maintenance dashboard "
                                   "— answer cut")
                             self.fired = -1.0
@@ -4067,6 +4063,24 @@ def _floor_settings(settings, mode, profile, env):
             pass
     print(f"[floor] effective config from console (mode {mode}, profile {profile}): "
           + ", ".join(f"{k}={v}" for k, v in sorted((env or {}).items())), flush=True)
+
+
+def _interrupt_pending():
+    """True, once, for a fresh Interrupt (MUTE_TRIGGER); the trigger is consumed
+    either way. 2026-09-15: an Interrupt pressed while nothing was playing or
+    listening stayed on disk and, 23 minutes later, abandoned the next visitor's
+    question the moment after the wake word. A press older than
+    CJ_INTERRUPT_MAX_AGE_S (default 10) is dropped instead of obeyed."""
+    try:
+        age = time.time() - os.path.getmtime(MUTE_TRIGGER)
+    except OSError:
+        return False
+    with contextlib.suppress(FileNotFoundError):
+        os.unlink(MUTE_TRIGGER)
+    if age > _env_num("CJ_INTERRUPT_MAX_AGE_S", 10.0):
+        print(f"[interrupt] ignored a stale Interrupt ({age:.0f} s old)", flush=True)
+        return False
+    return True
 
 
 def _floor_interrupt():
