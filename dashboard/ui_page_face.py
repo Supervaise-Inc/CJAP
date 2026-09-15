@@ -1213,3 +1213,82 @@ setInterval(cam2Tick,2000);cam2Tick();
 
 
 FACE_CAMERA_PAGE = _face_camera_page(FACE_AVATAR_PAGE)
+
+
+# ===========================================================================
+# /face-display — the live face and the camera, each in the gilt frame
+# ===========================================================================
+# 2026-09-15 (user: "make another face-avatar but ... add the camera so
+# face-avatar and camera, also make it the same theme"). /face-camera keeps the
+# face page's frameless portrait; this one is the /audience and /display look:
+# two gilt frames side by side above the Question and Answer plaques, the live
+# LiveAvatar video in the left frame and this robot's camera in the right. It
+# IS the /face-avatar page underneath (same session, heartbeat, /maintain
+# commands, plaques and pill), so open it INSTEAD of /face-avatar or
+# /face-camera, never beside them: the server refuses a second session.
+def _face_display_page(page):
+    def one(s, old, new):
+        assert s.count(old) == 1, old[:60]
+        return s.replace(old, new)
+    # the /audience gilt moulding (EXHIBIT_CSS #cam), which the face page had
+    # switched off for its portrait: back on, for both frames, always 16:9
+    frame = """position:relative;top:auto;left:auto;transform:none;max-width:none;height:auto;aspect-ratio:16/9;
+  width:min(43vw,calc(46vh * 16 / 9));background:#000;overflow:hidden;border-radius:0;
+  border:1.1vh solid #b8944f;
+  border-image:linear-gradient(160deg,#f3e4b4 0%,#c8a55c 18%,#8f7332 34%,#e6cf8f 50%,#a5813f 66%,#f0dda6 84%,#8a6d2c 100%) 1;
+  box-shadow:0 0 0 .3vh #2a2115,0 0 0 1.4vh #efe4c8,0 0 0 1.7vh #6b5323,0 0 0 1.9vh #d9c07a,
+    0 3vh 7vh rgba(0,0,0,.75),inset 0 0 0 .45vh #12100c;
+  transition:box-shadow .8s ease"""
+    css = """
+/* /face-display: the /display layout — two gilt frames over the plaques */
+#duo{position:fixed;top:8.5vh;left:0;right:0;display:flex;justify-content:center;align-items:flex-start;gap:4.5vw}
+body.duo #cam,body.duo #cam.live,body.duo #cam.v-wide,body.duo #cam.v-full{""" + frame + """}
+#cam2{""" + frame + """}
+body.duo #cam.live,#cam2.live{box-shadow:0 0 0 .3vh #2a2115,0 0 0 1.4vh #efe4c8,0 0 0 1.7vh #6b5323,0 0 0 1.9vh #d9c07a,
+    0 3vh 7vh rgba(0,0,0,.75),0 0 8vh 1.5vh rgba(230,200,130,.3),inset 0 0 0 .45vh #12100c}
+body.duo #cam video,body.duo #cam canvas#still,body.duo #cam #idlebox video,body.duo #cam.v-wide video,
+body.duo #cam.v-wide canvas#still,body.duo #cam.v-wide #idlebox video{object-fit:cover;background:#000}
+#cam2 img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:none}
+#cam2 .idle{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;
+  color:#cbb98f;font-size:2.4vh;gap:1.2vh;letter-spacing:.06em;background:radial-gradient(ellipse at 50% 40%,#2a241b,#120f0b 75%)}
+#cam2 .idle b{font-family:'Playfair Display',Georgia,serif;color:var(--brass);font-size:4.5vh;letter-spacing:.24em;font-weight:500}
+#title{position:fixed;top:2.3vh;left:0;right:0;text-align:center;pointer-events:none;
+  font-family:'Playfair Display',Georgia,serif;font-weight:500;font-size:2.1vh;letter-spacing:.26em;
+  text-transform:uppercase;color:var(--brass)}
+#rs{top:1.8vh}
+@media (orientation:portrait){
+  #duo{flex-direction:column;align-items:center;top:6vh;gap:3.5vh}
+  body.duo #cam,body.duo #cam.live,body.duo #cam.v-wide,body.duo #cam.v-full,#cam2{width:min(86vw,calc(22vh * 16 / 9))}
+}
+</style></head><body class="duo">
+<div id="title">Chief Justice Artemio V. Panganiban</div>"""
+    js = """
+// the camera frame, as /audience: one long-lived MJPEG, a cheap probe every
+// 2 s restarts it; "Camera off" on /maintain makes the probe fail -> plaque.
+// Both frames glow together while he speaks, as /display does.
+let cam2On=false;
+function cam2Tick(){
+  const img=document.getElementById('cam2img'),idle=document.getElementById('cam2idle');
+  const probe=new Image();
+  probe.onload=()=>{idle.style.display='none';img.style.display='block';
+    if(!cam2On){cam2On=true;img.src='/api/camera.mjpg?t='+Date.now();}};
+  probe.onerror=()=>{cam2On=false;img.removeAttribute('src');img.style.display='none';idle.style.display='flex';};
+  probe.src='/api/camera.jpg?t='+Date.now();
+}
+document.getElementById('cam2img').onerror=()=>{cam2On=false;};
+setInterval(cam2Tick,2000);cam2Tick();
+setInterval(()=>{document.getElementById('cam2').classList.toggle('live',document.getElementById('cam').classList.contains('live'));},300);
+</script></body></html>"""
+    page = one(page, "<title>CJAP LiveAvatar</title>", "<title>CJAP Avatar Display</title>")
+    page = one(page, "</style></head><body>", css)
+    page = one(page, '<div id="cam"><video id="vid"', '<div id="duo"><div id="cam"><video id="vid"')
+    page = one(page, '</span></div>\n</div>\n<video id="clip" playsinline',
+               '</span></div>\n</div>\n<div id="cam2"><img id="cam2img" alt="">'
+               '<div class="idle" id="cam2idle"><b>Camera</b><span>no picture right now</span></div></div>\n'
+               '</div>\n<video id="clip" playsinline')
+    head, sep, tail = page.rpartition("</script></body></html>")
+    assert sep and not tail.strip()
+    return head + js
+
+
+FACE_DISPLAY_PAGE = _face_display_page(FACE_AVATAR_PAGE)

@@ -185,6 +185,8 @@ def handle_get(h, path, params):
         h._send(200, FACE_AVATAR_PAGE, "text/html; charset=utf-8")
     elif path == "/face-camera":   # the same avatar page with the camera beside it (2026-09-15)
         h._send(200, ui_page_face.FACE_CAMERA_PAGE, "text/html; charset=utf-8")
+    elif path == "/face-display":  # live face + camera in the gilt frames, /display look (2026-09-15)
+        h._send(200, ui_page_face.FACE_DISPLAY_PAGE, "text/html; charset=utf-8")
     # ── the two display views (2026-09-14) ────────────────────────────────
     # Read-only. They start no avatar session, send no command and write no
     # file, so any number of them can be open without touching a turn.

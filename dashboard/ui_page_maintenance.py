@@ -454,8 +454,9 @@ details.help[open] summary{margin-bottom:4px}
   <span id="motion-msg" class="dim"></span></div>
 <div class="card c6" data-tab="avatar"><h2>LiveAvatar page <span class="dim" id="avstate"></span></h2>
   <p class="hint">The face shown on the laptop&rsquo;s /face-avatar page &mdash; or on
-    <a href="/face-camera" target="_blank">/face-camera</a>, the same face with the camera beside it.
-    Open one of the two, not both: each starts the avatar session.</p>
+    <a href="/face-camera" target="_blank">/face-camera</a>, the same face with the camera beside it, or
+    <a href="/face-display" target="_blank">/face-display</a>, face and camera in the gilt frames with the plaques (the /display look).
+    Open only one of the three: each starts the avatar session.</p>
   <div id="avstatus" class="dim" style="margin-bottom:10px">no /face-avatar page open</div>
   <div class="btns"><span class="lbl">Page</span>
     <button id="av-stop" onclick="ctl('avatar-page-stop')">&#9209; Stop</button>

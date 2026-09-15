@@ -343,3 +343,17 @@ def test_thinking_ends_when_a_turn_produced_no_answer():
     now_soon, now_late = 1000.0 + 20, 1000.0 + disp.THINKING_MAX_S + 1
     assert disp._robot_state(None, {"steps": {}}, turns, {"supervaise": True}, False, now_soon)["st"] == "thinking"
     assert disp._robot_state(None, {"steps": {}}, turns, {"supervaise": True}, False, now_late)["st"] == "idle"
+
+
+def test_face_display_page_is_the_avatar_page_in_the_gallery_frames():
+    import ui_page_face as face
+    h = _H()
+    assert ui.handle_get(h, "/face-display", {}) and h.code == 200
+    body = h.body
+    assert body == face.FACE_DISPLAY_PAGE
+    assert 'id="vid"' in body and "/api/avatar-session" in body          # the live face
+    assert 'id="cam2img"' in body and "/api/camera.mjpg" in body         # and the camera
+    assert body.count("border-image:linear-gradient(160deg,#f3e4b4") >= 3  # both frames gilt (EXHIBIT #cam + the two)
+    assert 'id="qbox"' in body and 'id="abox"' in body                   # the plaques
+    assert body.rstrip().endswith("</script></body></html>")
+    assert body.count('addEventListener("pagehide"') == 1               # hands the session back like the others
