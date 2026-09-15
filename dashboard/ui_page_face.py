@@ -84,7 +84,8 @@ function report(){
   stSentAt = Date.now();
   post("/api/avatar-status", {status: stText, mode: voiceMode, ready: ready,
     stopped: stopped, parked: !ready && !stopped, frozen: frozen, lag: lagEma,
-    session: sessTok ? sessTok.slice(-12) : null}).catch(() => {});   // keeps our session ours
+    session: sessTok ? sessTok.slice(-12) : null,   // keeps our session ours
+    starting: !!startP}).catch(() => {});           // the robot holds its first sentence only for a page that is getting ready
 }
 function st(msg){ stText = msg; if (Date.now() - stSentAt > 700) report(); }
 setInterval(report, 3000);
@@ -188,8 +189,12 @@ async function _start(){
       try{ if (ws) ws.close(); }catch(e){}
     }
   }, 8000);
-  await connected;
-  if (stopped){ await park(); await post("/api/ctl", {action: "avatar-voice-off"}); }
+  const up = await connected;
+  if (stopped){ await park(); await post("/api/ctl", {action: "avatar-voice-off"}); return; }
+  // 2026-09-15: a session whose control socket never said "connected" used to
+  // be kept alive for ever — keep_alive kept going, the idle park needs
+  // `ready`, and every other avatar page was refused. Hand it back instead.
+  if (!up){ st("session did not connect in 15 s — released; retrying on the next question"); await park(); }
 }
 function stopKeep(){ if (keepTimer){ clearInterval(keepTimer);
   keepTimer = null; } }
@@ -336,7 +341,7 @@ function touch(){ lastActivity = Date.now(); }
 function turnActive(){ return Date.now() < turnUntil; }
 setTimeout(() => { if (!restoreStill()) start(); }, 0);   // deferred past the lets below
 setInterval(() => {
-  if (!ready) return;
+  if (!ready && !sessTok) return;                  // a session we hold but never got ready parks too
   if (stopped){ park(); return; }                  // a session that outlived Stop
   if (speakingNow || turnActive() || sentOrder.length || Date.now() < busyUntil) return;
   if (Date.now() - lastActivity > IDLE_PARK_MS) park();
@@ -424,9 +429,13 @@ function showLayer(id, on){ $(id).classList.toggle("on", !!on); }
 // and /stage show it too (2026-09-15). Once per page load (and again for a new
 // avatar): sending every still would swap the picture on those screens after
 // every answer.
-let portraitSent = false;
+let portraitSent = false, confSandbox = null;   // null until /api/state has been polled once
 async function sendPortrait(canvas){
   if (portraitSent || !canvas.width) return;
+  if (confSandbox === null){ setTimeout(() => sendPortrait(canvas), 1000); return; }
+  // 2026-09-15: a page on the stock sandbox avatar (beta's config) must not
+  // replace CJAP's face on every screen of both robots
+  if (confSandbox){ portraitSent = true; st("portrait not shared — this is the sandbox avatar, not CJAP"); return; }
   portraitSent = true;
   const eyes = await (eyesP || findEyes(canvas));   // the blink on the other screens needs them
   try{
@@ -753,6 +762,7 @@ async function poll(){
     renderExhibit(stt);                              // same plaques as /audience
     updateIndicator(stt);                            // same state pill as /audience
     applyView(stt.avatar_view);                      // /maintain View buttons
+    confSandbox = !!(stt.avatar_conf && stt.avatar_conf.sandbox);
     wantIdleLoop = !!stt.avatar_idle_loop;           // 2026-09-12: was never wired — the loop was dormant
     // a live session sitting silent looks frozen; hold the attentive listening
     // pose (the only motion lever LITE mode gives) until it speaks

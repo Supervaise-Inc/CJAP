@@ -1468,14 +1468,17 @@ class _MicTap:
         with self._olock:
             if self.stream is not None and self.stream.active:
                 return
-            self._drop_stream()
-            _input_route_sync()   # the hub's USB microphone, when one is plugged in
-            st = sd.InputStream(samplerate=RATE, channels=1, dtype="int16",
-                                blocksize=self.FRAME, callback=self._cb)
-            st.start()
-            self.stream = st
-            _OPEN_INPUTS.add("tap")
-            print("[mic] OPEN — this robot holds the floor", flush=True)
+            self._open_locked()
+
+    def _open_locked(self):
+        self._drop_stream()
+        _input_route_sync()   # the hub's USB microphone, when one is plugged in
+        st = sd.InputStream(samplerate=RATE, channels=1, dtype="int16",
+                            blocksize=self.FRAME, callback=self._cb)
+        st.start()
+        self.stream = st
+        _OPEN_INPUTS.add("tap")
+        print("[mic] OPEN — this robot holds the floor", flush=True)
 
     def close(self):
         with self._olock:
@@ -1512,6 +1515,7 @@ class _MicTap:
         if self._rem is not None and len(self._rem):
             parts.append(self._rem); have = len(self._rem)
         self._rem = None
+        empties = 0
         while have < n:
             st = self.stream
             if st is None:
@@ -1526,11 +1530,29 @@ class _MicTap:
                     raise sd.PortAudioError("mic closed — this robot does not hold the floor")
                 if not st.active:
                     raise sd.PortAudioError("mic stream stopped")
+                # 2026-09-15: a pulse stream whose USB source was unplugged can
+                # stay "active" and deliver nothing; without this the wake loop
+                # would wait here for ever. Callers reopen on this message.
+                empties += 1
+                if empties >= self.STALL_EMPTIES:
+                    raise sd.PortAudioError("mic stalled — no audio for 2 s")
                 continue
+            empties = 0
             parts.append(a); have += len(a)
         buf = np.concatenate(parts)
         self._rem = buf[n:]
         return buf[:n].reshape(-1, 1), False
+
+    STALL_EMPTIES = 8      # 8 x 0.25 s
+
+    def reopen(self):
+        """Follow a capture-route change (USB mic plugged or unplugged while
+        this robot holds the floor, 2026-09-15): reopen on the new device. A
+        closed tap stays closed — the lease thread owns that."""
+        with self._olock:      # held throughout: the lease thread cannot close it in between
+            if self.stream is None:
+                return
+            self._open_locked()
 
     def note_rms(self, frame):
         self.rms_hist.append(float(np.sqrt(np.mean(frame.astype(np.float64) ** 2)) or 0.0))
@@ -1761,15 +1783,42 @@ def _input_route_usb():
     return _input_route()["usb"]
 
 
+_pulse_sources = {"at": 0.0, "names": set()}
+
+
 def _pulse_source_present(name):
     """Is this PipeWire source there right now? A route file can name a USB mic
-    for up to one audio_hub.py pass (2 s) after it has been unplugged."""
+    for up to one audio_hub.py pass (2 s) after it has been unplugged. Cached
+    for 2 s and capped at 0.8 s: this runs on the lease thread (on_mic ->
+    _MicTap.open), and a pactl that hangs would cost the 3 s lease."""
+    now = time.monotonic()
+    if now - _pulse_sources["at"] > 2.0:
+        try:
+            r = subprocess.run(["pactl", "list", "sources", "short"], capture_output=True,
+                               text=True, timeout=0.8)
+            _pulse_sources["names"] = {line.split("\t")[1] for line in r.stdout.splitlines()
+                                       if "\t" in line}
+        except Exception:
+            _pulse_sources["names"] = set()
+        _pulse_sources["at"] = now
+    return name in _pulse_sources["names"]
+
+
+def _follow_input_route(tap):
+    """~1 Hz from the idle loops: when ~/.asoundrc.inroute has changed since the
+    tap was opened (a USB mic plugged in or pulled while this robot holds the
+    floor), reopen the tap on the new microphone. Until 2026-09-15 the change
+    only took effect at the next lease flip or restart. A conversation lock
+    made on the old microphone is released: its embedding is not comparable."""
     try:
-        r = subprocess.run(["pactl", "list", "sources", "short"], capture_output=True,
-                           text=True, timeout=3)
-        return any(line.split("\t")[1:2] == [name] for line in r.stdout.splitlines())
-    except Exception:
-        return False
+        if _input_route()["mtime"] == _in_route["synced"] or tap.stream is None:
+            return
+        print("[mic] capture route changed — reopening the microphone", flush=True)
+        tap.reopen()
+        if _voice_lock["lock"] is not None:
+            _voice_lock["lock"].release()
+    except Exception as e:
+        print(f"[mic] route follow failed open: {type(e).__name__}: {e}", flush=True)
 
 
 def _input_route_sync():
@@ -2226,7 +2275,7 @@ def record_with_meter(max_s=30, trailing_silence_ms=None, no_speech_timeout_s=12
         # set the speech threshold too high for the first words (2026-08-26).
         # No echo cancellation on BT either, so let it ring out. CJ_BT_SETTLE_S.
         settle = _env_num("CJ_BT_SETTLE_S", 0.4)
-        if settle > 0 and _bt_route():
+        if settle > 0 and (_bt_route() or _input_route_usb()):   # a USB mic hears the speaker uncancelled too
             time.sleep(settle)
             stream.flush()
     # The pre-roll holds the wake phrase's tail (and the perk motor) followed
@@ -2667,6 +2716,18 @@ def _avatar_page_state():
         return None
 
 
+def _avatar_page_getting_ready(st):
+    """Is the reporting page on its way to a live session? 2026-09-15: a page
+    whose session start was REFUSED (another page holds one) reported
+    ready=False like a page still connecting, and every answer was held the full
+    4 s for an avatar that was never coming. The page now says whether it holds
+    a session token or has a start in flight; a report from before that
+    (neither key) is trusted as before."""
+    if "session" not in st and "starting" not in st:
+        return True
+    return bool(st.get("session") or st.get("starting"))
+
+
 def _avatar_wait_ready(listener=None, stop_evt=None):
     """Hold (bounded by CJ_AVATAR_READY_WAIT_S, default 4 s) until the avatar
     page reports its HeyGen session as ready, so the first sentence does not
@@ -2679,7 +2740,7 @@ def _avatar_wait_ready(listener=None, stop_evt=None):
     if not _avatar_mode():
         return 0.0
     st = _avatar_page_state()
-    if st is None or st.get("ready") or st.get("stopped"):
+    if st is None or st.get("ready") or st.get("stopped") or not _avatar_page_getting_ready(st):
         return 0.0
     limit = max(0.0, _env_num("CJ_AVATAR_READY_WAIT_S", 4.0))
     t0 = time.monotonic()
@@ -2690,7 +2751,7 @@ def _avatar_wait_ready(listener=None, stop_evt=None):
             break
         time.sleep(0.1)
         st = _avatar_page_state()
-        if st is None or st.get("ready") or st.get("stopped"):
+        if st is None or st.get("ready") or st.get("stopped") or not _avatar_page_getting_ready(st):
             break
     waited = time.monotonic() - t0
     if waited > 0.2:
@@ -3704,6 +3765,7 @@ def _wake_stream(det):
                     muted_seen = m
                     if _gestures_inst is not None:
                         _gestures_inst.start("sleep")   # drooped when muted, sway when live
+                _follow_input_route(tap)
             if os.path.exists(ASK_TRIGGER):
                 ask = None
                 try:
@@ -3765,7 +3827,10 @@ def _wake_stream(det):
                 continue
             try:
                 frame, _ = stream.read(frame_len)
-            except sd.PortAudioError:
+            except sd.PortAudioError as e:
+                if "stalled" in str(e):
+                    print("[mic] the open microphone went silent — reopening", flush=True)
+                    tap.reopen()
                 continue          # closed under us — loop back to the floor check
             tap.note_rms(frame[:, 0])
             if not _wake_listen():
@@ -4309,6 +4374,7 @@ def _host_step(gestures):
             os.unlink(ASK_TRIGGER)
         print("[ask] question button ignored — this robot is the Host, not Panganiban")
     tap = _mic_tap()
+    _follow_input_route(tap)
     # idle motion follows the mode: direct = the Host visibly "listens" beside
     # the conversation; duet = resting sway between its lines
     want = "listen" if _mode() == "direct" else "sleep"

@@ -1450,7 +1450,7 @@ def _avatar_page_cmd(cmd, mode=None):
 def avatar_status_put(body):
     """The /face-avatar page reports its state here every few seconds."""
     doc = {"ts": time.time()}
-    for k in ("status", "mode", "ready", "stopped", "frozen", "lag", "parked"):
+    for k in ("status", "mode", "ready", "stopped", "frozen", "lag", "parked", "session", "starting"):
         if k in body:
             v = body[k]
             # keep null a null: lag is null until the page has measured one,

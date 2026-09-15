@@ -50,6 +50,10 @@ INROUTE_FILE = os.path.join(HOME, ".asoundrc.inroute")
 STATE = os.path.join(HOME, ".cache", "cj_audio_hub.json")
 POLL_S = 2.0
 OWN_CARD = "Reachy_Mini_Audio"
+# USB sound devices whose playback side is never the hall speaker: a wireless
+# microphone receiver's headphone-monitor jack would otherwise take every
+# answer, inaudibly. Substrings of the PipeWire node name, comma-separated.
+SPEAKER_DENY = [s for s in os.environ.get("CJ_HUB_SPEAKER_DENY", "BOYA").split(",") if s.strip()]
 
 
 def external(nodes, kind):
@@ -62,6 +66,8 @@ def external(nodes, kind):
         name = str(n.get("name") or "")
         props = n.get("properties") or {}
         if not name.startswith(prefix) or OWN_CARD in name:
+            continue
+        if kind == "sink" and any(d.strip().lower() in name.lower() for d in SPEAKER_DENY):
             continue
         if kind == "source" and (name.endswith(".monitor") or props.get("device.class") == "monitor"):
             continue
@@ -161,9 +167,12 @@ def _pactl(kind):
     return json.loads(r.stdout or "[]")
 
 
-def _run(argv):
+def _run(argv, sink=None):
+    env = dict(os.environ)
+    if sink:
+        env["CJ_DAC_SINK"] = sink        # audio-out routes to THIS sink, not its own first pick
     try:
-        r = subprocess.run([AUDIO_OUT] + argv, capture_output=True, text=True, timeout=45)
+        r = subprocess.run([AUDIO_OUT] + argv, capture_output=True, text=True, timeout=45, env=env)
     except Exception as e:
         print(f"[audio-hub] audio-out {' '.join(argv)}: {type(e).__name__}: {e}", flush=True)
         return False
@@ -183,7 +192,8 @@ def step(state, pactl=_pactl, run=_run, log=print):
         why = (f"USB speaker {sinks[0]['label']} plugged in" if sinks
                else "USB speaker gone")
         log(f"[audio-hub] {why}: audio-out {' '.join(argv)}", flush=True)
-        if not run(argv) and argv != ["internal"]:
+        ok = run(argv, sinks[0]["name"]) if argv == ["dac"] and run is _run else run(argv)
+        if not ok and argv != ["internal"]:
             log("[audio-hub] that failed: audio-out internal", flush=True)
             run(["internal"])
     mic = sources[0] if sources else None

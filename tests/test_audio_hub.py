@@ -209,3 +209,41 @@ def test_the_maintenance_page_names_the_microphone_in_use(monkeypatch, tmp_path)
     (tmp_path / ".asoundrc.inroute").write_text(hub.inroute_text({"name": HUB_SRC["name"], "label": "Hub Mic"}))
     assert ui_common._audio_input() == "USB mic Hub Mic"
     assert "s.audio_input" in ui_page_maintenance.MAINTAIN_PAGE
+
+
+def test_a_wireless_mic_receivers_headphone_jack_is_not_the_hall_speaker(monkeypatch):
+    boya_sink = {"name": "alsa_output.usb-Shenzhen_jiayz_photo_industrial_ltd_BOYA_mini_2-02.analog-stereo",
+                 "properties": {"device.class": "sound"}}
+    assert hub.external([OWN_SINK, boya_sink], "sink") == []
+    assert hub.external([OWN_SINK, boya_sink, HUB_SINK], "sink") == SINK
+    monkeypatch.setattr(hub, "SPEAKER_DENY", [])
+    assert len(hub.external([OWN_SINK, boya_sink], "sink")) == 1
+
+
+def test_the_mic_tap_reopens_on_a_route_change_and_raises_on_a_stall(monkeypatch, tmp_path):
+    import queue
+    import types
+    sys.path.insert(0, os.path.join(ROOT, "app"))
+    import main_voice_robot as mvr
+    tap = mvr._MicTap.__new__(mvr._MicTap)
+    tap.q, tap._rem, tap.stream = queue.Queue(), None, types.SimpleNamespace(active=True)
+    monkeypatch.setattr(mvr._MicTap, "STALL_EMPTIES", 2)
+    with pytest.raises(mvr.sd.PortAudioError, match="stalled"):
+        tap.read(16)
+    f = tmp_path / "inroute"
+    monkeypatch.setattr(mvr, "INROUTE_FILE", str(f))
+    monkeypatch.setattr(mvr, "_in_route", {"mtime": None, "usb": False, "label": "robot mic",
+                                           "source": None, "synced": None, "device": None})
+    calls = []
+    tap.reopen = lambda: calls.append("reopen")
+    released = []
+    monkeypatch.setitem(mvr._voice_lock, "lock", types.SimpleNamespace(release=lambda: released.append(1)))
+    mvr._follow_input_route(tap)                    # nothing changed: nothing happens
+    assert calls == []
+    f.write_text(hub.inroute_text({"name": HUB_SRC["name"], "label": "Hub Mic"}))
+    mvr._follow_input_route(tap)
+    assert calls == ["reopen"] and released == [1]
+    tap.stream = None
+    f.unlink()
+    mvr._follow_input_route(tap)                    # a closed tap is the lease thread's business
+    assert calls == ["reopen"]

@@ -335,3 +335,11 @@ def test_every_portrait_breathes_moves_and_blinks():
     assert "return FaceAnim2D(canvas)" in js and "canvas.getContext('webgl'" in js
     assert "float headW(vec2 p)" in js and "vec4 lids(vec2 q, vec4 E, vec4 L, vec4 col)" in js
     assert "function breathAt(t)" in js and "function spring(dt)" in js
+
+
+def test_thinking_ends_when_a_turn_produced_no_answer():
+    # 2026-09-15: beta read "The Chief Justice is considering" for 30 min after a cut turn
+    turns = [{"role": "user", "ts": 1000.0, "text": "q"}]
+    now_soon, now_late = 1000.0 + 20, 1000.0 + disp.THINKING_MAX_S + 1
+    assert disp._robot_state(None, {"steps": {}}, turns, {"supervaise": True}, False, now_soon)["st"] == "thinking"
+    assert disp._robot_state(None, {"steps": {}}, turns, {"supervaise": True}, False, now_late)["st"] == "idle"

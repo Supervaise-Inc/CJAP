@@ -222,6 +222,9 @@ _STEP_ORDER = ("transcribe", "route", "compose", "fidelity")
 _STEP_FIELDS = ("state", "detail", "t", "topic", "confidence", "scope", "reason")
 
 
+THINKING_MAX_S = 90      # compose plus fillers never legitimately runs this long
+
+
 def _robot_state(sp, stg, turns, health, muted, now):
     """-> {"st", "since", "detail"} where st is one of
     down | speaking | listening | thinking | muted | idle."""
@@ -247,8 +250,12 @@ def _robot_state(sp, stg, turns, health, muted, now):
         return {"st": "listening", "since": stg.get("ts"),
                 "detail": tr.get("detail") or "mic open"}
 
+    # 2026-09-15: bounded. A turn that ends with no spoken answer (cut during
+    # compose, timeout, offline notice, a Host-ask on the Host machine) never
+    # publishes a "cj" line, and beta read "thinking" for half an hour.
     if last_u and (not sp or last_u.get("ts", 0) > (sp.get("ts") or 0)) \
-            and (not last_c or last_u.get("ts", 0) > last_c.get("ts", 0)):
+            and (not last_c or last_u.get("ts", 0) > last_c.get("ts", 0)) \
+            and (now - last_u.get("ts", 0)) < THINKING_MAX_S:
         active = [k for k in _STEP_ORDER
                   if (steps.get(k) or {}).get("state") == "active"]
         return {"st": "thinking", "since": last_u.get("ts"),
