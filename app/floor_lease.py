@@ -342,9 +342,10 @@ class LeaseClient:
         if isinstance(qseq, int):
             fire = qseq and self.question_seq is not None and qseq != self.question_seq and not persona_changed
             qtext = str(reply.get("question_text") or "")
+            qby = str(reply.get("question_by") or "host")    # host | audience (typed for them)
             self.question_seq = qseq
             if fire:
-                self._call(self.on_question, qtext)
+                self._call(self.on_question, qtext, qby)
         dseq = reply.get("duet_seq")
         if isinstance(dseq, int):
             fire = dseq and self.duet_seq is not None and dseq != self.duet_seq and not persona_changed

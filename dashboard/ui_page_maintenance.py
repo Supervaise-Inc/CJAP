@@ -331,7 +331,8 @@ details.help[open] summary{margin-bottom:4px}
   <div class="btns"><span class="lbl">Question</span>
     <input id="ha-text" maxlength="400" placeholder="What should the Host ask him? (or tap a preset above)" autocomplete="off"
       style="flex:1;min-width:260px" onkeydown="if(event.key==='Enter')hostAsk()">
-    <button id="ha-go" class="primary" onclick="hostAsk()">&#127908; Ask</button></div>
+    <button id="ha-go" class="primary" onclick="hostAsk()">&#127908; Ask</button>
+    <button id="ha-direct" onclick="hostAsk(true)" title="The audience's own question, typed because the microphone missed it: Panganiban answers it now, the Host stays quiet">&#9998; Audience asked this &rarr; answer now</button></div>
   <div class="btns"><span class="lbl">Recording</span>
     <input id="ha-clip" list="ha-clips" placeholder="optional &mdash; a file the Host plays instead of speaking" autocomplete="off" style="flex:1;min-width:240px">
     <datalist id="ha-clips"></datalist>
@@ -804,12 +805,12 @@ async function haClips(force){try{const r=await(await fetch('/api/host-clips?key
     const cl=r.clips||[];$('ha-clips').innerHTML=cl.map(c=>'<option value="'+esc(c.name)+'">').join('');
     $('ha-clipinfo').textContent=cl.length?cl.length+' recording'+(cl.length>1?'s':'')+' on disk':'no recordings yet in data/host_questions/';
   }catch(e){$('ha-clipinfo').textContent='clip list: '+e;}}
-async function hostAsk(){const t=$('ha-text').value.trim();if(!t){note('type a question first');return;}
-  $('ha-go').disabled=true;note('handing it to the Host\u2026');
+async function hostAsk(direct){const t=$('ha-text').value.trim();if(!t){note('type a question first');return;}
+  $('ha-go').disabled=true;$('ha-direct').disabled=true;note(direct?'handing it to Panganiban\u2026':'handing it to the Host\u2026');
   try{const r=await(await fetch('/api/host-ask',{method:'POST',headers:{'Content-Type':'application/json'},
-      body:JSON.stringify({key:KEY,text:t,clip:$('ha-clip').value.trim(),who:'maintain'})})).json();
+      body:JSON.stringify({key:KEY,text:t,clip:direct?'':$('ha-clip').value.trim(),who:'maintain',direct:!!direct})})).json();
     note(r.output||(r.ok?'asked':'refused'));if(r.ok)$('ha-text').value='';poll();}
-  catch(e){note('ask failed: '+e);}finally{$('ha-go').disabled=false;}}
+  catch(e){note('ask failed: '+e);}finally{$('ha-go').disabled=false;$('ha-direct').disabled=false;}}
 function renderAsk(s){const a=s.ask,el=$('ha-state');if(!el)return;
   if(!a||!a.seq){el.textContent='nothing asked yet this session';return;}
   const age=a.age_s!=null?' \u00b7 '+fmtAge(a.age_s)+' ago':'';

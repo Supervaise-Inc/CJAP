@@ -3554,8 +3554,12 @@ def _typed_turn(client, artifacts, gestures, history, question, stop=None, asked
         return False
     print(f"[ask] live question from {asked_by}: {question!r}", flush=True)
     _stage(reset=True)
-    _stage("transcribe", "done", f"typed question ({asked_by})")
-    _publish_transcript("note", f"(question typed by the {asked_by})")
+    if asked_by == "audience":   # the visitor's own question, typed because the mic missed it
+        _stage("transcribe", "done", "the audience's question, typed by the operator")
+        _publish_transcript("note", "(the audience's question, typed by the operator)")
+    else:
+        _stage("transcribe", "done", f"typed question ({asked_by})")
+        _publish_transcript("note", f"(question typed by the {asked_by})")
     gestures.start("listen")
     return _answer_question(client, artifacts, gestures, history, question, 0.0, stop=stop)
 
@@ -4339,18 +4343,20 @@ def _floor_duet(line_id):
     threading.Thread(target=_play, daemon=True).start()
 
 
-def _floor_question(text):
-    """on_question (Panganiban role only): the Host has finished asking; answer
+def _floor_question(text, by="host"):
+    """on_question (Panganiban role only): the Host has finished asking, or the
+    operator typed the audience's question (by="audience", 2026-09-15); answer
     it live. Reuses the dashboard's queue file, so the wake loop picks it up on
     its next frame exactly like an /event button — no microphone, no STT."""
     if not personas.is_cjap() or not (text or "").strip():
         return
+    by = "audience" if str(by).lower() == "audience" else "Host"
     try:
         tmp = ASK_TRIGGER + ".tmp"
         with open(tmp, "w") as f:
-            json.dump({"q": text, "live": True, "by": "Host"}, f)
+            json.dump({"q": text, "live": True, "by": by}, f)
         os.replace(tmp, ASK_TRIGGER)
-        print(f"[ask] question from the Host queued: {text[:100]!r}", flush=True)
+        print(f"[ask] question from the {by} queued: {text[:100]!r}", flush=True)
     except OSError as e:
         print(f"[ask] could not queue the Host's question: {e}")
 

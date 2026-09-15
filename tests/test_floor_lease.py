@@ -842,7 +842,7 @@ def test_client_fires_the_first_question_and_not_a_role_swap():
     box = {"reply": {}}
     c = fl.LeaseClient("alpha", "http://x", transport=lambda payload: box["reply"],
                        on_ask=lambda t, clip: seen["ask"].append((t, clip)),
-                       on_question=lambda t: seen["q"].append(t),
+                       on_question=lambda t, by="host": seen["q"].append(t),
                        log=lambda *a, **k: None)
     base = {"granted": True, "floor": "alpha", "cjap_is": "alpha", "slot": "alpha",
             "ask_seq": 0, "ask_text": "", "ask_clip": "",
@@ -1113,3 +1113,41 @@ def test_post_lease_without_the_key_is_refused(tmp_path):
     st, d = cs.api(c, "POST", "/api/lease", body={"robot": "alpha"}, authed=False, now=clock())
     assert st == 403 and not d["ok"]
     assert c.observed["alpha"] is None
+
+
+def test_a_typed_audience_question_skips_the_host_even_when_it_reports(tmp_path):
+    # 2026-09-15, user: "a fallback so we can type the question that the audience is asking"
+    clock = Clock()
+    con = make_console(tmp_path, clock)
+    con.set_config(mode="direct", profile="kiosk")
+    host, cjap = con.slot_of("host"), con.slot_of("cjap")
+    _reporting(con, host, clock)
+    _reporting(con, cjap, clock)
+    ok, out, st = con.host_ask("What did the death penalty case cost you?", now=clock(), direct=True)
+    assert ok and st == 200 and "directly" in out and "Host stays quiet" in out
+    assert con.ask["stage"] == "cjap"
+    lc = con.lease_for(cjap, clock())
+    assert lc["question_text"] == "What did the death penalty case cost you?" and lc["question_by"] == "audience"
+    assert con.lease_for(host, clock())["ask_seq"] == 0            # the Host is never told to say it
+    ok, _, _ = con.host_ask("And the Host route?", now=clock())     # the normal path still goes via the Host
+    assert ok and con.ask["stage"] == "host"
+
+
+def test_the_lease_hands_the_robot_who_asked():
+    import floor_lease as fl
+    got = []
+    c = fl.LeaseClient.__new__(fl.LeaseClient)
+    c.on_question = lambda text, by: got.append((text, by))
+    c.on_ask = c.on_duet = c.on_intro = c.on_interrupt = None
+    c.ask_seq = c.question_seq = c.duet_seq = 0
+    c._call = lambda fn, *a: fn(*a)
+    for reply in ({"question_seq": 1, "question_text": "typed", "question_by": "audience"},
+                  {"question_seq": 2, "question_text": "via host"}):
+        aseq, qseq = reply.get("ask_seq"), reply.get("question_seq")
+        # the same lines the client runs on every lease reply (kept in step with floor_lease.py)
+        if isinstance(qseq, int):
+            fire = qseq and c.question_seq is not None and qseq != c.question_seq
+            c.question_seq = qseq
+            if fire:
+                c._call(c.on_question, str(reply.get("question_text") or ""), str(reply.get("question_by") or "host"))
+    assert got == [("typed", "audience"), ("via host", "host")]

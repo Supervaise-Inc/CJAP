@@ -47,6 +47,12 @@ button.q b{color:#c9a227;margin-right:6px}
  border-radius:13px;background:#8b949e;transition:left .15s,background .15s}
 #modeBtn.on{background:#1f3524;border-color:#3fb950}
 #modeBtn.on span{left:32px;background:#3fb950}
+#typed{margin:14px 0;padding:12px 14px;border-radius:12px;background:#161b22;border:1px solid #30363d}
+#typed b{display:block;font-size:15px;margin-bottom:8px}
+#typed .row{display:flex;gap:8px}
+#typed input{flex:1;min-width:0;padding:12px;border-radius:10px;border:1px solid #30363d;background:#0d1117;color:#e6edf3;font-size:16px}
+#typed button.go{width:auto;margin:0;padding:12px 16px;border-color:#c9a227;color:#c9a227}
+#typed small{display:block;margin-top:8px;color:#8b949e;font-size:12px}
 </style></head><body>
 <h1>CJAP &mdash; Event Questions</h1>
 <p class="sub">Backup buttons: if the robot mishears the emcee, tap the question
@@ -54,6 +60,10 @@ and it speaks the exact scripted answer.</p>
 <div id="mode"><div id="modeTxt"><b>Event mode: &hellip;</b>&hellip;</div>
 <div id="modeBtn" onclick="toggleMode()"><span></span></div></div>
 %BUTTONS%
+<div id="typed"><b>Audience question the mic missed?</b>
+  <div class="row"><input id="qtext" maxlength="400" placeholder="Type what they asked, then tap Answer" autocomplete="off"
+    onkeydown="if(event.key==='Enter')askTyped()"><button class="q go" id="qgo" onclick="askTyped()">Answer</button></div>
+  <small>Panganiban answers it live from his writings. The Host stays quiet.</small></div>
 <div id="status">&hellip;</div>
 <script>
 const KEY=new URLSearchParams(location.search).get('key')||'';
@@ -88,6 +98,24 @@ async function ask(id,btn){
       st.innerHTML='<span class="ok">Queued.</span> The robot answers as soon as it is idle (a tap expires after 30s).';}
     else st.innerHTML='<span class="warn">Failed:</span> '+String(j.output||'error').replace(/</g,'&lt;');
   }catch(e){st.innerHTML='<span class="warn">Network error &mdash; try again.</span>';}
+}
+// 2026-09-15 (user: "a fallback so we can type the question that the audience is
+// asking"): the audience's own question, typed; Panganiban answers it directly
+async function askTyped(){
+  const inp=document.getElementById('qtext'),t=inp.value.trim();
+  if(!t){st.innerHTML='<span class="warn">Type the question first.</span>';return;}
+  const b=document.getElementById('qgo');b.disabled=true;
+  try{
+    const r=await fetch('/api/host-ask',{method:'POST',headers:{'Content-Type':'application/json'},
+      body:JSON.stringify({key:KEY,text:t,direct:true,who:'event page'})});
+    const j=await r.json();
+    if(j.ok){queuedAt=Date.now();inp.value='';
+      st.innerHTML='<span class="ok">Queued.</span> Panganiban answers it as soon as he is idle.';}
+    else if(r.status===409&&j.authority)
+      st.innerHTML='<span class="warn">Use the console robot for this:</span> <a href="'+String(j.authority).replace(/"/g,'')+'/event?key='+encodeURIComponent(KEY)+'">'+String(j.authority).replace(/</g,'&lt;')+'/event</a>';
+    else st.innerHTML='<span class="warn">Failed:</span> '+String(j.output||'error').replace(/</g,'&lt;');
+  }catch(e){st.innerHTML='<span class="warn">Network error &mdash; try again.</span>';}
+  finally{b.disabled=false;}
 }
 async function poll(){
   try{

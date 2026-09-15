@@ -465,13 +465,18 @@ class Console:
         """'machine · Role' — never identify a robot by its hostname alone."""
         return f"{self.sources.machine_of(slot)} · {self.sources.label_of(self.role_of(slot))}"
 
-    def host_ask(self, text, clip="", who="console", now=None):
+    def host_ask(self, text, clip="", who="console", now=None, direct=False):
         """Operator typed a question for the Host to ask. Returns (ok, msg, status).
 
         The Host speaks it first and Panganiban answers only once the Host has
         finished, so the two robots never talk over each other. With no Host
         reporting — one machine on the network, or the other one down — the
-        question goes straight to Panganiban rather than stalling."""
+        question goes straight to Panganiban rather than stalling.
+
+        direct=True (2026-09-15, user: "a fallback so we can type the question
+        that the audience is asking"): the question is the audience's own, typed
+        because the microphone did not catch it. Panganiban answers it at once
+        and the Host stays quiet, whether or not it is reporting."""
         text = " ".join(str(text or "").split())
         clip = str(clip or "").strip()
         now = self._now(now)
@@ -487,7 +492,12 @@ class Console:
                 return False, "duet mode composes nothing — switch to direct first", 409
             host, cjap = self.slot_of("host"), self.slot_of("cjap")
             self.ask.update(seq=self.ask["seq"] + 1, text=text, clip=clip, at=now)
-            if self._obs_fresh(host, now):
+            if direct:
+                self.ask["stage"] = ""
+                self._release_question(now, who=who, by="audience",
+                                       note=f"audience question typed — asked {self.name(cjap)} directly")
+                out = f"asked {self.name(cjap)} directly — the Host stays quiet"
+            elif self._obs_fresh(host, now):
                 self.ask["stage"] = "host"
                 self._journal("ask", f"{self.name(host)} asks: \u201c{text}\u201d"
                                      + (f" [{clip}]" if clip else " [its own voice]"), who=who,
@@ -501,9 +511,12 @@ class Console:
             self._persist()
             return True, out, 200
 
-    def _release_question(self, now, who="console", note=""):
+    def _host_turn(self, robot):
+        return self.role_of(robot) == "host" and self.ask.get("stage") == "host"
+
+    def _release_question(self, now, who="console", note="", by="host"):
         """Hand the pending question to Panganiban (caller holds the lock)."""
-        self.question.update(seq=self.ask["seq"], text=self.ask["text"], by="host")
+        self.question.update(seq=self.ask["seq"], text=self.ask["text"], by=by)
         self.ask["stage"] = "cjap"
         cjap = self.slot_of("cjap")
         self._journal("ask", note or f"question released to {self.name(cjap)}",
@@ -946,11 +959,15 @@ class Console:
                     "host_intro_text": self.sources.host_intro_text(self.mode),
                     # exactly one of these is ever non-zero for a given robot,
                     # so a role swap mid-flight cannot make both of them speak
-                    "ask_seq": self.ask["seq"] if self.role_of(robot) == "host" else 0,
-                    "ask_text": self.ask["text"] if self.role_of(robot) == "host" else "",
-                    "ask_clip": self.ask["clip"] if self.role_of(robot) == "host" else "",
+                    # the Host is handed an ask only while the ask is ITS stage: a
+                    # question typed as the audience's own (direct) or released
+                    # straight to Panganiban must never be read out by the Host
+                    "ask_seq": self.ask["seq"] if self._host_turn(robot) else 0,
+                    "ask_text": self.ask["text"] if self._host_turn(robot) else "",
+                    "ask_clip": self.ask["clip"] if self._host_turn(robot) else "",
                     "question_seq": self.question["seq"] if self.role_of(robot) == "cjap" else 0,
                     "question_text": self.question["text"] if self.role_of(robot) == "cjap" else "",
+                    "question_by": (self.question.get("by") or "host") if self.role_of(robot) == "cjap" else "",
                     # duet: only the robot whose ROLE owns the current line is told to play it
                     "duet_seq": self.duet["seq"] if (self.mode == "duet" and self.duet["on"]
                                                      and self.role_of(robot) == self.duet["who"]) else 0,
@@ -1253,7 +1270,8 @@ def api(console: Console, method, path, params=None, body=None, authed=False, no
         d = need_auth()
         if d:
             return d
-        ok, out, st = console.host_ask(body.get("text"), body.get("clip"), who=who, now=now)
+        ok, out, st = console.host_ask(body.get("text"), body.get("clip"), who=who, now=now,
+                                       direct=bool(body.get("direct")))
         return st, {"ok": ok, "output": out, "ask": dict(console.ask)}
     if method == "POST" and path == "/api/config":
         d = need_auth()
