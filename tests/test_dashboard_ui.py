@@ -399,3 +399,27 @@ def test_push_publisher_emits_and_stops(monkeypatch):
     q2 = push.subscribe()                            # a late subscriber gets the snapshot at once
     assert q2.get(timeout=1).startswith(b"event: ")
     push.unsubscribe(q2)
+
+
+def test_maintain_wake_knob_applies_as_a_console_override(monkeypatch, tmp_path):
+    # 2026-09-15, user: "i adjusted the wake word threshold but it did not follow"
+    import ui_common
+    conf = tmp_path / "wakeword.conf"
+    conf.write_text("Environment=CJ_STOP_OWW_THRESHOLD=0.02\n")
+    monkeypatch.setattr(ui_common, "TUNING_CONF", str(conf))
+    applied = []
+
+    class _Con:
+        def set_config(self, settings=None, who=None, **kw):
+            applied.append(settings)
+            return True, "ok", 200
+    import types, sys
+    fake = types.SimpleNamespace(is_authority=lambda: True, get_console=lambda: _Con(),
+                                 authority_url=lambda: "http://reachy-cjap.local:8080")
+    monkeypatch.setitem(sys.modules, "console", fake)
+    ok, msg = ui_common.tuning_set({"wake": "0.05"})
+    assert ok and applied == [{"wake_threshold": 0.05}] and "live" in msg and "restarting" not in msg
+    assert conf.read_text() == "Environment=CJ_STOP_OWW_THRESHOLD=0.02\n"      # the drop-in is untouched
+    fake.is_authority = lambda: False
+    ok, msg = ui_common.tuning_set({"wake": "0.05"})
+    assert not ok and "console robot" in msg

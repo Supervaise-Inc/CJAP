@@ -676,7 +676,8 @@ async function loadTuning(){try{const r=await(await fetch('/api/tuning?key='+KEY
 async function applyTuning(){const b={key:KEY},ch=[];for(const k of ['wake','stop','listen','pace','length']){const v=$('tn-'+k).value;
     if(v!==''&&(TUNING_LOADED[k]==null||Number(v)!==Number(TUNING_LOADED[k]))){b[k]=v;ch.push(k+' '+TUNING_LOADED[k]+' \\u2192 '+v);}}
   if(!ch.length){note('no change');return;}
-  if(!confirm('Apply '+ch.join(', ')+' and restart the voice app? CJ goes quiet for about 25 s.'))return;
+  const restart=Object.keys(b).some(k=>['stop','pace','length'].includes(k));   // wake/listen apply live via the console
+  if(!confirm('Apply '+ch.join(', ')+(restart?' and restart the voice app? CJ goes quiet for about 25 s.':'? (applies live, no restart)')))return;
   note('applying\\u2026');const r=await(await fetch('/api/tuning',{method:'POST',body:JSON.stringify(b)})).json();
   note((r.ok?'':'FAILED: ')+(r.output||''));setTimeout(loadTuning,3000);}
 loadTuning();setInterval(loadTuning,10000);

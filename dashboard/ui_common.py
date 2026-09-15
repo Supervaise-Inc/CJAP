@@ -1485,7 +1485,33 @@ def tuning_get():
     for field, (var, _lo, _hi, _lbl) in TUNING_KNOBS.items():
         m = re.search(rf"^Environment={var}=([0-9.]+)\s*$", text, re.M)
         out[field] = float(m.group(1)) if m else None
+    # console-owned knobs (2026-09-15): show what the robot is actually using
+    try:
+        import console as _console
+        if _console.is_authority():
+            eff = _console.get_console().effective().get("values") or {}
+            for field, key in CONSOLE_KNOBS.items():
+                if out.get(field) is None and eff.get(key) is not None:
+                    out[field] = float(eff[key])
+    except Exception:
+        pass
     return out
+
+
+# knobs the operator console owns since 2026-09-10: card field -> console setting
+CONSOLE_KNOBS = {"wake": "wake_threshold", "listen": "silence_timeout_s"}
+
+
+def _console_override(key, val, lbl):
+    """Apply a console-managed knob as a console override (authority only)."""
+    import console as _console
+    if not _console.is_authority():
+        return False, f"{lbl}: set it on the console robot — {_console.authority_url()}/console"
+    ok, out, _st = _console.get_console().set_config(settings={key: val}, who="maintain")
+    if not ok:
+        return False, f"{lbl}: {out}"
+    return True, (f"{lbl} -> {val:g} (console override, live; \"Reset overrides\" on /console "
+                  f"returns to the profile)")
 
 
 def tuning_set(body):
@@ -1496,7 +1522,7 @@ def tuning_set(body):
         text = open(TUNING_CONF).read()
     except OSError as e:
         return False, f"cannot read {TUNING_CONF}: {e}"
-    changes = []
+    changes, live = [], []       # drop-in rewrites (need a restart) / console overrides (live)
     for field, (var, lo, hi, lbl) in TUNING_KNOBS.items():
         if body.get(field) in (None, ""):
             continue
@@ -1511,14 +1537,24 @@ def tuning_set(body):
         if not m:
             # 2026-09-10: the listening knobs moved to config/modes/*.json and
             # the operator console; a value written back here would override
-            # the profile for every mode, so the card refuses instead.
-            return False, f"{lbl}: now set on /console (mode profile) — not in wakeword.conf"
+            # the profile for every mode. 2026-09-15 (user: "i adjusted the
+            # wake word threshold but it did not follow"): instead of refusing,
+            # apply it as a console override — the same thing /console does —
+            # so the knob on this card works again, live, with no restart.
+            key = CONSOLE_KNOBS.get(field)
+            if not key:
+                return False, f"{lbl}: now set on /console (mode profile) — not in wakeword.conf"
+            ok, msg = _console_override(key, val, lbl)
+            if not ok:
+                return False, msg
+            live.append(msg)
+            continue
         if abs(float(m.group(1)) - val) < 1e-9:
             continue
         text = pat.sub(f"Environment={var}={val:g}", text, count=1)
         changes.append(f"{lbl} {m.group(1)} -> {val:g}")
     if not changes:
-        return True, "no change"
+        return True, ("applied: " + "; ".join(live)) if live else "no change"
     stamp = time.strftime("%Y%m%d-%H%M%S")
     tmp = f"/dev/shm/wakeword.conf.{stamp}"
     with open(tmp, "w") as f:
@@ -1536,7 +1572,7 @@ def tuning_set(body):
     threading.Thread(target=lambda: subprocess.run(
         ["sudo", "-n", "systemctl", "restart", "supervaise.service"], timeout=60),
         daemon=True).start()
-    return True, "applied: " + "; ".join(changes) + " — voice app restarting (~25 s)"
+    return True, "applied: " + "; ".join(live + changes) + " — voice app restarting (~25 s)"
 
 
 VOLUME_BIN = os.path.join(HOME, "bin", "audio-volume")   # 2026-09-01 master level
