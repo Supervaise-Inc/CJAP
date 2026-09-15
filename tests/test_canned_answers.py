@@ -96,6 +96,11 @@ for q, want in [
     ("Any message for our donors?", "event_donor"),
     ("We are about to end our program. What can you say to our guests today?", "event_closing"),
     ("What can you say to our guests today?", "event_closing"),
+    # 2026-09-15 event script: the First Lady question, one verbatim answer
+    ("How close is First Lady Louise Araneta-Marcos to your heart?", "event_first_lady"),
+    ("Hi CJAP, how close is the First Lady to your heart?", "event_first_lady"),
+    ("How close is First Lady Liza Araneta Marcos to your heart po?", "event_first_lady"),
+    ("Is the First Lady close to your heart?", "event_first_lady"),
     # the generic entries must survive the event entries sitting above them
     ("How are you today?", "how_are_you"),
     ("Kumusta po?", "how_are_you"),
@@ -121,6 +126,9 @@ for q in [
     "What can you say about the rule of law?",
     "What can you say to the Supreme Court about corruption?",
     "Are you ready to rule on the ICC case?",
+    "What do you think about the First Lady?",
+    "How close is President Marcos to the Supreme Court?",
+    "Who is closest to your heart?",
 ]:
     check(f"miss: {q!r}", hits(q) is None)
 
@@ -131,6 +139,12 @@ check("event off: scripted question falls through",
 check("event off: donor question falls through",
       hits("What can you say to our donor, the State Properties Corporation?")
       is None)
+check("event off: First Lady question falls through",
+      hits("How close is First Lady Louise Araneta-Marcos to your heart?") is None)
+check("First Lady answer is verbatim",
+      (answer_canned.get("event_first_lady") or "").startswith("Hmm. I am not sure if I want to answer")
+      and "busilak na puso" in answer_canned.get("event_first_lady")
+      and answer_canned.get("event_first_lady").endswith("Cheers!"))
 check("event off: generic how_are_you unaffected",
       hits("How are you today?") == "how_are_you")
 check("event off: get-by-id still works (button path)",

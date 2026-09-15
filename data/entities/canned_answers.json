@@ -121,6 +121,29 @@
       ]
     },
     {
+      "id": "event_first_lady",
+      "ask": [
+        "How close is First Lady Louise Araneta-Marcos to your heart?"
+      ],
+      "match": [
+        "((hi|hello|hey) )?(cee ?jap |cjap |cj ?ap |see ?jap |chief justice |sir )?(so |and |now )?how close is (the |our )?(first lady (louise |liza |lisa |luis )?(araneta )?(marcos )?|(louise |liza |lisa )?araneta (marcos )?)to (your|you) heart( po)?",
+        "((hi|hello|hey) )?(cee ?jap |cjap |cj ?ap |see ?jap |chief justice |sir )?(so |and |now )?is (the |our )?(first lady (louise |liza |lisa |luis )?(araneta )?(marcos )?|(louise |liza |lisa )?araneta (marcos )?)close to (your|you) heart( po)?"
+      ],
+      "answers": [
+        "Hmm. I am not sure if I want to answer that question. Whatever I say might be in the headlines of the news tomorrow. But kidding aside, siya po ay malapit sa aking puso. She is, in my humble opinion, a “Ninang” of the Foundation for Liberty and Prosperity. She has been very supportive of us, and her kind heart extends to all our scholars, especially during award ceremonies like this, when she gives a special gift to each of them. My heart is grateful. She is not just a distinguished lawyer of integrity and competence; mayroon din siyang busilak na puso. Sino bang hindi lalapit ang puso sa kanya? Cheers!"
+      ],
+      "gist": [
+        [
+          "first lady",
+          "araneta"
+        ],
+        [
+          "heart",
+          "malapit"
+        ]
+      ]
+    },
+    {
       "id": "event_closing",
       "ask": [
         "We are about to end our program. What can you say to our guests today?"
