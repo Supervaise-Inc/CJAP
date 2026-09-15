@@ -583,7 +583,8 @@ FACE_ANIM_JS = r"""
 // "and moving the head a bit"). A still of the face, kept alive in a canvas:
 //   breath  14 a minute with a slow wander; the shoulders and chest lift on the
 //           in-breath and the head rides on them (body(), below)
-//   head    a drift of under half a degree, from sines that never line up
+//   head    a drift of under half a degree, from sines that never line up, and
+//           a slow side-to-side sway over the shoulders (body(), below)
 //   blink   no two alike (newBlink): mostly full, about a quarter only part
 //           way, a rare slow one; the two lids a few ms and a little depth
 //           apart; 1.8-7 s between them with the odd long gap, sometimes twice
@@ -691,16 +692,21 @@ function FaceAnim(canvas){
   // the bottom of the picture (the lap) stays where it sits. Drawn as 4 px
   // strips, each lifted and widened by a smooth amount, so no seam shows; the
   // part above the shoulders goes in one piece. ~5 px at 1080p, 0.4% wider.
+  // The same strips carry the head's SIDE-TO-SIDE sway (2026-09-15, user: "add
+  // the side to side movement of the head by a bit"): `sway` px for everything
+  // above the shoulders, fading out over the upper chest, so the head moves
+  // over still shoulders instead of the whole picture sliding.
   const RISE=0.005, WIDEN=0.004, STRIP=4;
-  function body(W,H,bb){
+  function body(W,H,bb,sway){
     const sh=Math.max(STRIP,Math.min(H-STRIP,Math.round(pv[2])));
     const rise=RISE*H*bb, cx=pv[0], span=H-sh;
     const lift=(y)=>y<=sh ? rise : rise*(1-ease(Math.min(1,(y-sh)/span)));
-    ctx.drawImage(work, 0,0,W,sh, 0,-rise,W,sh+0.6);
+    const shift=(y)=>y<=sh ? sway : sway*(1-ease(Math.min(1,(y-sh)/(span*0.6))));
+    ctx.drawImage(work, 0,0,W,sh, sway,-rise,W,sh+0.6);
     for(let y=sh; y<H; y+=STRIP){
       const y2=Math.min(H,y+STRIP), d0=y-lift(y), d1=y2-lift(y2);
       const kx=1+WIDEN*bb*Math.sin(Math.PI*((y+y2)/2-sh)/span);
-      ctx.drawImage(work, 0,y,W,y2-y, cx-cx*kx,d0,W*kx,d1-d0+0.6);
+      ctx.drawImage(work, 0,y,W,y2-y, cx-cx*kx+shift((y+y2)/2),d0,W*kx,d1-d0+0.6);
     }
   }
   function frame(now,force){
@@ -713,7 +719,9 @@ function FaceAnim(canvas){
     const wb=2*Math.PI*14/60, phb=wb*(1+0.07*s(0.033*t+0.5))*t;
     const b=s(phb)+0.16*s(2*phb+0.7);                 // out-breath a little faster than in
     const rot=k*(0.30*s(0.21*t)+0.12*s(0.53*t+1.3)+0.05*s(1.27*t+0.4))*Math.PI/180;
-    const tx=k*W*(0.0020*s(0.17*t+0.9)+0.0009*s(0.61*t+2.1));
+    const tx=k*W*(0.0012*s(0.17*t+0.9)+0.0006*s(0.61*t+2.1));   // trimmed: the sway below moves the head
+    // side to side: ~14 s and ~38 s swings that never line up, up to 0.6% of the width
+    const sway=k*W*(0.0045*s(2*Math.PI*0.07*t+0.3)+0.0015*s(2*Math.PI*0.026*t+1.9));
     const ty=k*H*0.0008*s(0.13*t+2.7);
     const over=1+k*0.03;                               // overscan: no edge ever shows
     const want=pivot(W,H);
@@ -722,7 +730,7 @@ function FaceAnim(canvas){
     ctx.clearRect(0,0,W,H);
     ctx.translate(W/2,H/2); ctx.scale(over,over); ctx.translate(-W/2,-H/2);
     ctx.translate(pv[0]+tx,pv[1]+ty); ctx.rotate(rot); ctx.translate(-pv[0],-pv[1]);
-    body(W,H,k*b);                                     // the breath is in the body now
+    body(W,H,k*b,sway);                                // the breath and the sway live in the body
     ctx.setTransform(1,0,0,1,0,0);
   }
   function setSource(s){

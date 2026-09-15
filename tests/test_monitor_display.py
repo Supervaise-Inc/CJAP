@@ -326,6 +326,7 @@ def test_every_portrait_breathes_moves_and_blinks():
     assert "canvas.orb" in disp.MONITOR_PAGE and "q('canvas')" not in disp.MONITOR_PAGE
     # 2026-09-15: the body breathes (strips lifted under the head), and no two blinks match
     js = disp.FACE_ANIM_JS
-    assert "function body(W,H,bb)" in js and "body(W,H,k*b)" in js
+    assert "function body(W,H,bb,sway)" in js and "body(W,H,k*b,sway)" in js
+    assert "0,0,W,sh, sway,-rise" in js                                    # the head sways over the shoulders
     assert "ctx.scale(1+(sy-1)*0.4,sy)" not in js                        # the old whole-frame breath
     assert "function newBlink(now)" in js and "blinkT" not in js and "CLOSE" not in js
