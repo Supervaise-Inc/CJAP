@@ -9,12 +9,19 @@ USB sound device that is not the robot's own Reachy Mini Audio counts. That is
 what a hub's audio jack or a USB microphone shows up as. A hub with no sound
 chip (the one plugged in on 2026-09-15 carries only Ethernet) changes nothing.
 
-speaker     It appears -> `~/bin/audio-out dac`, remembering the route it
-            replaced. It goes -> that route back, or the internal speaker when
-            it cannot be restored. Appearing is edge-triggered and remembered
-            across restarts (STATE), so an operator who picks another output
-            while it is still plugged in is not overridden until it is plugged
-            in again.
+speaker     While one is present the playback route IS it: `~/bin/audio-out
+            dac`, remembering the route it replaced. 2026-09-16, user: "ensure
+            the speaker output from hub to be prioritized" - so this is
+            level-triggered, not just on plug-in: after a reboot, after the
+            app's playback-failure fallback (`audio-out ensure` -> internal) or
+            after someone runs `audio-out internal`, the next pass (2 s) puts
+            the hub speaker back and says so in the journal. When it is
+            unplugged the remembered route comes back, or the internal speaker
+            when that cannot be restored.
+            To keep another output while the hub speaker is plugged in, turn
+            the priority off: /maintain -> Sound -> "Hub speaker first: off"
+            (HOLD_FILE exists). The microphone side is not affected by it, and
+            an unplugged hub speaker still falls back so the robot is never mute.
 microphone  While one is present, ~/.asoundrc.inroute points pcm.audio_in_route
             (what the voice app records from, see patch_asoundrc) at its
             PipeWire source. Otherwise the file is removed and ~/.asoundrc's
@@ -48,6 +55,11 @@ AUDIO_OUT = os.path.join(HOME, "bin", "audio-out")
 ROUTE_FILE = os.path.join(HOME, ".asoundrc.route")
 INROUTE_FILE = os.path.join(HOME, ".asoundrc.inroute")
 STATE = os.path.join(HOME, ".cache", "cj_audio_hub.json")
+# Operator switch (2026-09-16): while this file exists the hub speaker is NOT
+# forced (the microphone still is). /maintain's Sound card creates/removes it.
+HOLD_FILE = os.path.join(HOME, ".cj_hub_speaker_off")
+# What the last pass saw, for the dashboards (read-only; /dev/shm is a tmpfs).
+STATUS_FILE = "/dev/shm/cj_audio_hub.json"
 POLL_S = 2.0
 OWN_CARD = "Reachy_Mini_Audio"
 # USB sound devices whose playback side is never the hall speaker: a wireless
@@ -111,24 +123,31 @@ def restore_args(saved):
     return ["dual", p, s] if s not in (None, "", "none") else [p]
 
 
-def plan_output(seen, sinks, route, saved):
+def plan_output(seen, sinks, route, saved, hold=False):
     """-> (audio-out argv or None, sink names now, route to restore later or None).
 
-    seen   names of the USB speakers present at the last pass
+    seen   names of the USB speakers present at the last pass (log wording only)
     sinks  external() speakers present now
     route  (primary, secondary) of the output right now
     saved  the route a switch to the DAC replaced, or None
+    hold   the operator turned the hub-speaker priority off (HOLD_FILE)
+
+    While a hub speaker is present and the primary output is anything else,
+    the answer is `dac` (2026-09-16: prioritised, not merely preferred once).
+    The route that gets replaced is remembered so unplugging restores it; a
+    later manual choice replaces that memory, except the internal speaker,
+    which is also where the app's failure fallback lands.
     """
     names = [x["name"] for x in sinks]
     primary = route[0]
     if names:
-        new = [n for n in names if n not in (seen or [])]
-        if new and primary != "dac":
-            return ["dac"], names, (saved or list(route))
-        return None, names, saved
+        if hold or primary == "dac":
+            return None, names, saved
+        keep = list(route) if primary != "internal" else (saved or list(route))
+        return ["dac"], names, keep
     if primary == "dac":
         return restore_args(saved or ["internal", "none"]), names, None
-    if saved and primary == "internal" and saved[0] != "internal":
+    if not hold and saved and primary == "internal" and saved[0] != "internal":
         # the app's playback-failure path (`audio-out ensure`) already fell
         # back to the internal speaker: still put the remembered one back
         return restore_args(saved), names, None
@@ -181,32 +200,68 @@ def _run(argv, sink=None):
     return r.returncode == 0
 
 
-def step(state, pactl=_pactl, run=_run, log=print):
+def _write_status(sinks, mic, route, hold):
+    """/dev/shm/cj_audio_hub.json for the dashboards; only rewritten on change."""
+    doc = {"speaker": sinks[0]["label"] if sinks else None,
+           "sink": sinks[0]["name"] if sinks else None,
+           "mic": mic["label"] if mic else None,
+           "primary": route[0], "forced": not hold, "at": int(time.time())}
+    try:
+        cur = json.loads(_read(STATUS_FILE) or "{}")
+    except ValueError:
+        cur = {}
+    if {k: v for k, v in cur.items() if k != "at"} == {k: v for k, v in doc.items() if k != "at"}:
+        return
+    try:
+        with open(STATUS_FILE + ".part", "w") as f:
+            json.dump(doc, f)
+        os.replace(STATUS_FILE + ".part", STATUS_FILE)
+    except OSError:
+        pass
+
+
+def step(state, pactl=_pactl, run=_run, log=print, hold=None):
     """One pass. Raises when PipeWire cannot be asked, and then nothing changes,
     so a PipeWire restart never drops the hub's microphone by mistake."""
     sinks = external(pactl("sink"), "sink")
     sources = external(pactl("source"), "source")
     route = route_of(_read(ROUTE_FILE))
-    argv, seen, saved = plan_output(state.get("seen") or [], sinks, route, state.get("saved"))
+    if hold is None:
+        hold = os.path.exists(HOLD_FILE)
+    prev = state.get("seen") or []
+    argv, seen, saved = plan_output(prev, sinks, route, state.get("saved"), hold)
+    new = [x for x in sinks if x["name"] not in prev]
     if argv:
-        why = (f"USB speaker {sinks[0]['label']} plugged in" if sinks
-               else "USB speaker gone")
+        if not sinks:
+            why = "USB speaker gone"
+        elif new:
+            why = f"USB speaker {sinks[0]['label']} plugged in"
+        else:
+            why = (f"output was moved to {route[0]} while the USB speaker {sinks[0]['label']} is "
+                   "plugged in - putting it back (hub speaker first; /maintain -> Sound turns that off)")
         log(f"[audio-hub] {why}: audio-out {' '.join(argv)}", flush=True)
         ok = run(argv, sinks[0]["name"]) if argv == ["dac"] and run is _run else run(argv)
         if not ok and argv != ["internal"]:
             log("[audio-hub] that failed: audio-out internal", flush=True)
             run(["internal"])
+    elif new and hold and route[0] != "dac":
+        log(f"[audio-hub] USB speaker {new[0]['label']} plugged in, but hub speaker first is OFF "
+            f"(~/.cj_hub_speaker_off): output stays on {route[0]}", flush=True)
     mic = sources[0] if sources else None
     if _write_inroute(inroute_text(mic)):
         log(f"[audio-hub] microphone: {'USB ' + mic['label'] if mic else 'the robot (XMOS beam)'}",
             flush=True)
+    _write_status(sinks, mic, route_of(_read(ROUTE_FILE)) if argv else route, hold)
     return {"seen": seen, "saved": saved}
 
 
 def _load_state():
+    """Only the remembered route survives a restart: at start-up every present
+    hub speaker counts as newly plugged in (log wording; the routing itself is
+    level-triggered since 2026-09-16)."""
     try:
         d = json.loads(_read(STATE) or "{}")
-        return d if isinstance(d, dict) else {}
+        return {"saved": d.get("saved")} if isinstance(d, dict) else {}
     except ValueError:
         return {}
 
@@ -268,7 +323,9 @@ def main(argv):
         _patch_file()
         return 0
     state = _load_state()
-    print(f"[audio-hub] preferring USB-hub audio; checking every {POLL_S:.0f} s", flush=True)
+    print(f"[audio-hub] USB-hub speaker and microphone first; checking every {POLL_S:.0f} s"
+          + (" (speaker priority OFF: ~/.cj_hub_speaker_off exists)" if os.path.exists(HOLD_FILE) else ""),
+          flush=True)
     while True:
         try:
             state = step(state)

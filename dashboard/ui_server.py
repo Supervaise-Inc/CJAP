@@ -60,6 +60,7 @@ TEST_WAV = os.path.join(HOME, "fillers", "01.wav")
 UNITS = {
     "supervaise": "supervaise.service",
     "speaker-watchdog": "speaker-watchdog.service",
+    "audio-hub": "audio-hub.service",          # 2026-09-16: USB-hub speaker/mic first (scripts/audio_hub.py)
     "bt-keepalive": "bt-keepalive.service",
     "bluealsa": "bluealsa.service",
     "pi-dashboard": "pi-dashboard.service",
@@ -76,6 +77,10 @@ SPEAKERS = {
 # checks per turn (main_voice_robot._stt_isolate) + its last-result record.
 ISOLATE_FLAG = os.path.join(HOME, ".cj_stt_isolate_on")
 ISOLATE_LAST = "/dev/shm/cj_isolate_last.json"
+# 2026-09-16 hub speaker priority (scripts/audio_hub.py): while this flag exists
+# the service stops forcing the playback route onto a USB speaker on the hub.
+HUB_HOLD = os.path.join(HOME, ".cj_hub_speaker_off")
+HUB_STATUS = "/dev/shm/cj_audio_hub.json"
 
 # relay-file paths live in ui_common (single source since 2026-08-29)
 try:
@@ -100,6 +105,8 @@ ACTIONS = {
     "audio-laptop":     [AUDIO_OUT, "laptop"],      # 2026-09-02: laptop as a BT sink
     "audio-both":       [AUDIO_OUT, "both"],        # 2026-09-02: BT speaker + laptop at once
     "audio-dac":        [AUDIO_OUT, "dac"],         # 2026-09-05: USB DAC on the robot's hub
+    "hub-speaker-on":   ["rm", "-f", HUB_HOLD],     # 2026-09-16: audio-hub forces the hub speaker (default)
+    "hub-speaker-off":  ["touch", HUB_HOLD],        #             ... or leaves the speaker choice alone
     "isolate-on":       ["touch", ISOLATE_FLAG],
     "isolate-off":      ["rm", "-f", ISOLATE_FLAG],
     "test-sound":       ["aplay", "-q", TEST_WAV],
@@ -839,7 +846,13 @@ def audio_info():
         _, out = run(["bluetoothctl", "info", mac], timeout=5)
         speakers[name] = "Connected: yes" in out
     rc, dac = run([AUDIO_OUT, "dac-present"], timeout=5)   # 2026-09-05: USB DAC sink, or ""
-    return {"route": route, "speakers": speakers, "dac": dac.strip() if rc == 0 else ""}
+    hub = {}
+    try:
+        hub = json.load(open(HUB_STATUS))   # written by scripts/audio_hub.py each pass
+    except Exception:
+        pass
+    return {"route": route, "speakers": speakers, "dac": dac.strip() if rc == 0 else "",
+            "hub_speaker": hub.get("speaker") or "", "hub_forced": not os.path.exists(HUB_HOLD)}
 
 
 def wake_info():
@@ -1105,6 +1118,7 @@ PAGE = """<!DOCTYPE html>
   <div class="row"><span class="lbl">Sony ULT FIELD 1</span><span class="val" id="spk-sony"></span></div>
   <div class="row"><span class="lbl">Marshall EMBERTON</span><span class="val" id="spk-marshall"></span></div>
   <div class="row"><span class="lbl">USB DAC</span><span class="val" id="spk-dac"></span></div>
+  <div class="row"><span class="lbl">Hub speaker first</span><span class="val" id="hub-first"></span></div>
   <div class="row"><span class="lbl">Laptop (Bluetooth)</span><span class="val" id="spk-laptop"></span></div>
   <div class="row"><span class="lbl">Speaker watchdog</span><span class="val" id="svc-watchdog"></span></div>
   <div class="btns">
@@ -1118,8 +1132,11 @@ PAGE = """<!DOCTYPE html>
     <button onclick="act('test-sound')">Play test sound</button>
     <button onclick="act('tagalog-sample')">Play Tagalog sample</button>
     <button id="wd-btn" onclick="toggleWatchdog()">…</button>
+    <button id="hub-btn" onclick="act(hubForced ? 'hub-speaker-off' : 'hub-speaker-on')">…</button>
   </div>
   <div class="row" style="border:0;margin-top:6px"><span class="lbl" style="font-size:12px">
+    While a USB speaker is plugged into the robot's hub, audio-hub keeps every answer on it
+    (within 2 s, also after a reboot) — "Hub speaker first: off" lets a Route button stick instead.
     Watchdog keeps audio on a Bluetooth speaker (Sony first) whenever one works,
     but leaves a working manual choice alone (laptop, speaker + laptop). Internal
     speaker is required for echo-cancel. "Speaker + laptop" plays every answer on
@@ -1153,6 +1170,7 @@ PAGE = """<!DOCTYPE html>
   <select id="log-unit" onchange="loadLogs()">
     <option value="supervaise">supervaise</option>
     <option value="speaker-watchdog">speaker-watchdog</option>
+    <option value="audio-hub">audio-hub</option>
     <option value="bt-keepalive">bt-keepalive</option>
     <option value="bluealsa">bluealsa</option>
     <option value="pi-dashboard">pi-dashboard</option>
@@ -1174,6 +1192,7 @@ function fmtUp(s) {
 }
 
 let watchdogActive = false;
+let hubForced = true;   // 2026-09-16: audio-hub forces the hub speaker
 
 async function refresh() {
   try {
@@ -1199,6 +1218,10 @@ async function refresh() {
     $("spk-marshall").innerHTML = dot(s.audio.speakers["Marshall EMBERTON"],
       s.audio.speakers["Marshall EMBERTON"] ? "connected" : "not connected");
     $("spk-dac").innerHTML = dot(!!s.audio.dac, s.audio.dac ? "plugged in" : "not plugged in");
+    hubForced = s.audio.hub_forced !== false;
+    $("hub-first").innerHTML = dot(hubForced, (hubForced ? "on" : "OFF") +
+      (s.audio.hub_speaker ? " — " + s.audio.hub_speaker + (hubForced ? " takes every answer" : " plugged in, not forced") : ""));
+    $("hub-btn").textContent = hubForced ? "Hub speaker first: off" : "Hub speaker first: on";
     $("spk-laptop").innerHTML = dot(s.audio.speakers["Laptop"],
       s.audio.speakers["Laptop"] ? "connected" : "not connected");
     const wd = s.services["speaker-watchdog"];

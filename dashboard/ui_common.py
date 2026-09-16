@@ -526,6 +526,15 @@ def _audio_route():
     return "unknown"
 
 
+def _hub_audio():
+    """What scripts/audio_hub.py last saw (2026-09-16): {speaker, mic, primary,
+    forced, at} - the USB speaker/mic on the hub and whether the speaker is
+    being forced (~/.cj_hub_speaker_off absent). File-only, no subprocess."""
+    d = _read_json("/dev/shm/cj_audio_hub.json") or {}
+    return {"speaker": d.get("speaker"), "mic": d.get("mic"), "primary": d.get("primary"),
+            "at": d.get("at"), "forced": not os.path.exists(os.path.expanduser("~/.cj_hub_speaker_off"))}
+
+
 def _audio_input():
     """'robot mic', or 'USB mic <name>' while scripts/audio_hub.py has the voice
     app recording from a USB microphone (~/.asoundrc.inroute header)."""
@@ -613,6 +622,7 @@ def state():
         "health": _health(),
         "audio_route": _audio_route(),
         "audio_input": _audio_input(),       # robot mic | USB mic <name> (2026-09-15)
+        "hub_audio": _hub_audio(),           # hub speaker/mic + "forced" (2026-09-16, Sound card)
         "volume": _volume_level(),   # 2026-09-01 status-strip item (read from file, no subprocess)
         "camera_backend": cam_backend(),
         "camera_focus": _cam_state["focus"],   # "auto" or dioptres (slider sync)
@@ -1666,6 +1676,7 @@ def _manual_action(action):
             return "Successful" in r.stdout, f"{name} disconnect: " + r.stdout.strip()[-80:]
     units = {"restart-keepalive": "bt-keepalive.service",
              "restart-watchdog": "speaker-watchdog.service",
+             "restart-audio-hub": "audio-hub.service",     # 2026-09-16
              "restart-dashboard": "pi-dashboard.service"}
     if action in units:
         unit = units[action]

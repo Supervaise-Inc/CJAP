@@ -45,12 +45,36 @@ def test_route_header_and_legacy_route_files():
     assert hub.route_of("") == ("internal", "none")
 
 
-def test_plugging_in_switches_once_and_unplugging_puts_the_old_route_back():
+def test_plugging_in_switches_and_unplugging_puts_the_old_route_back():
     argv, seen, saved = hub.plan_output([], SINK, ("internal", "none"), None)
     assert argv == ["dac"] and seen == [HUB_SINK["name"]] and saved == ["internal", "none"]
     assert hub.plan_output(seen, SINK, ("dac", "none"), saved) == (None, seen, saved)      # still in: nothing
-    assert hub.plan_output(seen, SINK, ("internal", "none"), saved)[0] is None             # operator's choice stands
     assert hub.plan_output(seen, [], ("dac", "none"), saved) == (["internal"], [], None)
+
+
+def test_the_hub_speaker_is_prioritised_while_plugged_in_not_only_on_plug_in():
+    """2026-09-16, user: "ensure the speaker output from hub to be prioritized"."""
+    seen = [HUB_SINK["name"]]
+    # the app's failure fallback / `audio-out internal` moved it: straight back, memory kept
+    assert hub.plan_output(seen, SINK, ("internal", "none"), [BT, "none"]) == (["dac"], seen, [BT, "none"])
+    assert hub.plan_output(seen, SINK, ("internal", "none"), None) == (["dac"], seen, ["internal", "none"])
+    # an operator picked a Bluetooth speaker meanwhile: back to the hub, and THAT is what unplugging restores
+    assert hub.plan_output(seen, SINK, (BT, "none"), ["internal", "none"]) == (["dac"], seen, [BT, "none"])
+    assert hub.plan_output(seen, SINK, (BT, LAPTOP), None) == (["dac"], seen, [BT, LAPTOP])
+    # a dual route with the hub speaker as primary is left alone
+    assert hub.plan_output(seen, SINK, ("dac", LAPTOP), None)[0] is None
+    # after a restart nothing was seen yet, still the same answer
+    assert hub.plan_output([], SINK, (BT, "none"), None)[0] == ["dac"]
+
+
+def test_the_operator_can_turn_the_hub_speaker_priority_off():
+    seen = [HUB_SINK["name"]]
+    assert hub.plan_output([], SINK, ("internal", "none"), None, hold=True) == (None, seen, None)
+    assert hub.plan_output(seen, SINK, (BT, "none"), [BT, "none"], hold=True) == (None, seen, [BT, "none"])
+    # unplugging while off: a dead dac route still falls back (never mute) ...
+    assert hub.plan_output(seen, [], ("dac", "none"), [BT, "none"], hold=True) == ([BT], [], None)
+    # ... but an operator's internal-speaker choice is not "restored" away, and the memory is dropped
+    assert hub.plan_output(seen, [], ("internal", "none"), [BT, "none"], hold=True) == (None, [], None)
 
 
 def test_a_bluetooth_or_dual_route_comes_back_even_after_audio_out_ensure_moved_it():
@@ -63,7 +87,7 @@ def test_a_bluetooth_or_dual_route_comes_back_even_after_audio_out_ensure_moved_
     assert hub.restore_args(["dac", "none"]) == ["internal"]
 
 
-def test_replugging_after_an_operator_override_switches_again():
+def test_replugging_switches_again():
     argv, seen, saved = hub.plan_output([HUB_SINK["name"]], [], ("internal", "none"), None)
     assert argv is None and seen == []
     assert hub.plan_output(seen, SINK, ("internal", "none"), saved)[0] == ["dac"]
@@ -75,6 +99,8 @@ def files(monkeypatch, tmp_path):
     route.write_text("# Primary: internal\n# Secondary: none\n")
     monkeypatch.setattr(hub, "ROUTE_FILE", str(route))
     monkeypatch.setattr(hub, "INROUTE_FILE", str(inroute))
+    monkeypatch.setattr(hub, "STATUS_FILE", str(tmp_path / "status.json"))
+    monkeypatch.setattr(hub, "HOLD_FILE", str(tmp_path / "hold"))
     return route, inroute
 
 
@@ -98,9 +124,25 @@ def test_the_hub_mic_and_speaker_are_used_while_plugged_in_and_dropped_after(fil
     assert f'device "{HUB_SRC["name"]}"' in text and "# Input: usb USB Audio Device Mono" in text
     state = hub.step(state, pactl=lambda k: nodes[k], run=run, log=_quiet)
     assert ran == [["dac"]]                                                   # no flapping
+    import json
+    status = json.loads(open(hub.STATUS_FILE).read())
+    assert status["speaker"] == "USB Audio Device Analog Stereo" and status["primary"] == "dac"
+    assert status["mic"] == "USB Audio Device Mono" and status["forced"] is True
+    route.write_text("# Primary: internal\n# Secondary: none\n")           # someone moved it off
+    logged = []
+    state = hub.step(state, pactl=lambda k: nodes[k], run=run, log=lambda m, **k: logged.append(m))
+    assert ran == [["dac"], ["dac"]] and "putting it back" in logged[0]
+    open(hub.HOLD_FILE, "w").close()                                          # /maintain: hub speaker first OFF
+    route.write_text("# Primary: internal\n# Secondary: none\n")
+    state = hub.step(state, pactl=lambda k: nodes[k], run=run, log=_quiet)
+    assert ran == [["dac"], ["dac"]] and json.loads(open(hub.STATUS_FILE).read())["forced"] is False
+    os.unlink(hub.HOLD_FILE)
+    state = hub.step(state, pactl=lambda k: nodes[k], run=run, log=_quiet)
+    assert ran == [["dac"], ["dac"], ["dac"]]
     nodes = {"sink": [OWN_SINK], "source": [OWN_SRC, OWN_MON]}
     hub.step(state, pactl=lambda k: nodes[k], run=run, log=_quiet)
-    assert ran == [["dac"], ["internal"]] and not inroute.exists()
+    assert ran[-1] == ["internal"] and not inroute.exists()
+    assert json.loads(open(hub.STATUS_FILE).read())["speaker"] is None
 
 
 def test_nothing_changes_while_pipewire_cannot_be_asked(files):

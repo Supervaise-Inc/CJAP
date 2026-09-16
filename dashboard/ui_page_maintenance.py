@@ -232,6 +232,10 @@ details.help[open] summary{margin-bottom:4px}
     <button onclick="act('audio-dac')" title="USB DAC plugged into the robot (any USB audio device that is not the Reachy Mini card; today a Synaptics JM6PRO_2). The XMOS gets an AEC reference copy so the robot still cancels its own voice.">&#127911; USB DAC</button>
     <button onclick="act('audio-laptop')" title="the laptop as a Bluetooth speaker (LAPTOP-BANC5VFE; its Bluetooth must be on)">&#128187; Laptop</button>
     <button onclick="act('audio-both')" title="every answer on the Bluetooth speaker AND the laptop at once">&#128266;+&#128187; Speaker + laptop</button></div>
+  <div class="btns" id="hub-row"><span class="lbl">USB hub</span>
+    <span id="hub-spk" class="dim">&hellip;</span>
+    <button class="sm" id="hub-on" onclick="act('hub-speaker-on')" title="audio-hub.service keeps every answer on a USB speaker plugged into the robot's hub - within 2 s, also after a reboot or after the app fell back to the internal speaker">&#127911; Hub speaker first: on</button>
+    <button class="sm" id="hub-off" onclick="act('hub-speaker-off')" title="stop forcing the hub speaker so a Speaker button above sticks; the hub microphone is still used">Hub speaker first: off</button></div>
   <div class="btns" id="vol-row"><span class="lbl">Volume</span>
     <button class="sm" onclick="setVol(0)" title="silence (mute the output, keep listening)">&#128263; 0</button>
     <button class="sm" onclick="setVol(Math.max(0,+$('vol').value-10))">&minus;</button>
@@ -250,6 +254,7 @@ details.help[open] summary{margin-bottom:4px}
     <button class="sm" onclick="act('stop-watchdog')">Watchdog off</button>
     <button class="sm" onclick="act('start-watchdog')">Watchdog on</button></div>
   <details class="help"><summary>How the speaker choice sticks</summary>
+    <b>USB hub first</b> (2026-09-16): while a USB speaker sits on the robot&rsquo;s hub, audio-hub routes every answer to it and puts it back within 2 s if anything moves it (reboot, a Speaker button, the app&rsquo;s fallback). Press &ldquo;Hub speaker first: off&rdquo; before choosing another speaker; unplugging the hub speaker restores the previous choice either way.
     The watchdog puts audio back on a connected Bluetooth speaker within 15 s &mdash; switch it off first to stay on Internal; a working Laptop / Speaker + laptop / USB DAC choice is left alone.
     Volume applies to the internal speaker and to any connected Bluetooth speaker (it scales the stream below the speaker&rsquo;s own button level, so 100 = the speaker&rsquo;s setting) and is remembered per route.</details>
   <span id="msg4" class="dim"></span>
@@ -536,6 +541,7 @@ details.help[open] summary{margin-bottom:4px}
   <div class="btns" style="margin-top:10px"><span class="lbl">Restart</span>
     <button class="sm" onclick="ctl('restart-keepalive')">&#8635; bt-keepalive</button>
     <button class="sm" onclick="ctl('restart-watchdog')">&#8635; speaker-watchdog</button>
+    <button class="sm" onclick="ctl('restart-audio-hub')">&#8635; audio-hub</button>
     <button class="sm" onclick="ctl('restart-dashboard')">&#8635; dashboard</button></div></div>
 <div class="card c6" data-tab="system"><h2>WiFi <span class="dim" id="wifinow"></span></h2>
   <div id="wifi-list" class="dim" style="margin-bottom:10px">tap Scan to list networks (tap a network to switch)</div>
@@ -572,6 +578,7 @@ details.help[open] summary{margin-bottom:4px}
     <option value="supervaise">supervaise</option>
     <option value="wifi-fallback">wifi-fallback</option>
     <option value="speaker-watchdog">speaker-watchdog</option>
+    <option value="audio-hub">audio-hub</option>
   </select>
   <button class="sm" onclick="loadLogs()">refresh</button></h2>
   <pre id="logs" class="mono"></pre></div>
@@ -1026,6 +1033,13 @@ function render(s){try{LAST_S=s;LAST_AT=Date.now();
       +item('event mode',s.event_mode?'ON':'off',s.event_mode?'warn':'')
       +(cp?item('last turn',esc((cp.topic||'').replace('canned:','')+'  stt '+f(cp.stt_s)+' · compose '+f(cp.compose_s)+' · first audio '+f(cp.first_audio_s!=null?cp.first_audio_s:(sp||{}).synth_s)+(sp&&sp.wpm?' · '+sp.wpm+' wpm':'')),''):'')
       +(s.tempo_avg?item('tempo',(+s.tempo_avg).toFixed(1)+' ch/s',''):'');
+  }catch(e){}
+  try{  // Sound card, USB hub row (2026-09-16): what audio-hub sees + whether the hub speaker is forced
+    const hb=s.hub_audio||{},forced=hb.forced!==false,onIt=/dac/i.test(s.audio_route||'');
+    $('hub-spk').innerHTML=(hb.speaker?'<b>'+esc(hb.speaker)+'</b> plugged in'+(onIt?' \u2014 answers play on it':(forced?' \u2014 switching to it\u2026':' \u2014 not forced'))
+      :'no USB speaker on the hub')+(hb.mic?' \u00b7 mic: '+esc(hb.mic):'')
+      +' \u00b7 hub speaker first <b class="'+(forced?'ok':'warn')+'">'+(forced?'ON':'OFF')+'</b>';
+    $('hub-on').disabled=forced;$('hub-off').disabled=!forced;
   }catch(e){}
   if(window.__uiRev==null)window.__uiRev=s.ui_rev||null;else if(s.ui_rev&&s.ui_rev!==window.__uiRev){location.reload();return;}
   $('health').innerHTML=Object.entries(s.health||{}).map(([k,v])=>chip(k,v)).join('')
