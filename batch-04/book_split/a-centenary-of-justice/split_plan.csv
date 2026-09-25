@@ -1,0 +1,36 @@
+order,book_title,part_label_as_printed,classification,skip_reason,chapter_no,chapter_title,start_page,end_page,word_count,file,collected_piece,original_date,original_outlet,flags
+1,A Centenary of Justice,Front cover (image),SKIP,cover,,,,,0,,no,,,
+2,A Centenary of Justice,Title page (A Centenary of Justice; Katarungan at Bayan Magpakailanman),SKIP,title page,,,,,16,,no,,,
+3,A Centenary of Justice,"The Cover: the Supreme Court Centenary Logo, with remarks of Justice Leonardo A. Quisumbing",SKIP,publisher's notes (written by someone else),,,,,229,,no,,,
+4,A Centenary of Justice,A Centennial Prayer for the Courts,SKIP,epigraph,,,,,89,,no,,,
+5,A Centenary of Justice,Contents,SKIP,table of contents,,,,,280,,no,,,
+6,A Centenary of Justice,Foreword — Chief Justice Hilario G. Davide Jr.,SKIP,foreword (written by someone else),,,xix,xx,523,,no,,,
+7,A Centenary of Justice,Preface — Justice Artemio V. Panganiban,SKIP,preface,,,xxi,,1526,,no,,,candidate
+8,A Centenary of Justice,PART I — Centenary Celebrations (part title),SKIP,title page (part divider),,,,,4,,no,,,
+9,A Centenary of Justice,Chapter 1. A Renaissance in the Judiciary,CHAPTER,,1,A Renaissance in the Judiciary,1,8,1304,ch01_a-renaissance-in-the-judiciary.md,no,,,
+10,A Centenary of Justice,Chapter 2. Old Doctrines and New Paradigms,CHAPTER,,2,Old Doctrines and New Paradigms,9,66,12137,ch02_old-doctrines-and-new-paradigms.md,yes,2001-02-13,"Centenary Lecture Series, Supreme Court Session Hall, February 13, 2001",long
+11,A Centenary of Justice,Chapter 3. Obra Maestra,CHAPTER,,3,Obra Maestra,67,74,1651,ch03_obra-maestra.md,no,,,
+12,A Centenary of Justice,Chapter 4. The Centenary and the Academe,CHAPTER,,4,The Centenary and the Academe,75,80,1584,ch04_the-centenary-and-the-academe.md,yes,2001-02-09,"speech at the Centennial Debate, Ateneo de Manila v. Silliman University, Dumaguete City, February 9, 2001",
+13,A Centenary of Justice,"Chapter 5. Mediation, an Old Method with a New Twist",CHAPTER,,5,"Mediation, an Old Method with a New Twist",81,86,1205,ch05_mediation-an-old-method-with-a-new.md,no,,,
+14,A Centenary of Justice,Chapter 6. A Meaningful Centenary,CHAPTER,,6,A Meaningful Centenary,87,95,2280,ch06_a-meaningful-centenary.md,yes,2001-04-04,"address at the Baguio City Convention Center, April 4, 2001, joint centenary celebration of Judicial Regions 1 and 2",
+15,A Centenary of Justice,Chapter 7. Employee Participation During the Centenary,CHAPTER,,7,Employee Participation During the Centenary,96,99,805,ch07_employee-participation-during-the-centenary.md,yes,2001-02-14,"speech at the Court of Appeals Auditorium, February 14, 2001",
+16,A Centenary of Justice,Chapter 8. The Inspiration of the Judiciary,CHAPTER,,8,The Inspiration of the Judiciary,100,106,1659,ch08_the-inspiration-of-the-judiciary.md,yes,2001-01-27,"“Inspirational Message”, Waterfront Hotel, Cebu City, January 27, 2001 (Region 7 centennial program)",
+17,A Centenary of Justice,Chapter 9. A Benchbook for Judicial Excellence,CHAPTER,,9,A Benchbook for Judicial Excellence,107,110,565,ch09_a-benchbook-for-judicial-excellence.md,yes,2001-01-20,"Closing Remarks at the Benchbook launch, SC Centenary Building, January 20, 2001",
+18,A Centenary of Justice,Chapter 10. Ready for the Bio-Age,CHAPTER,,10,Ready for the Bio-Age,111,117,1478,ch10_ready-for-the-bio-age.md,yes,2001-06-30,"remarks at the Einshac “Working Conversation” on biosciences, Kona, Hawaii, June 30 – July 4, 2001",
+19,A Centenary of Justice,"Chapter 11. E-Values for Lawyers (the chapter heading in the book misprints Chapter 1's title, “A Renaissance in the Judiciary”)",CHAPTER,,11,E-Values for Lawyers,118,129,2981,ch11_e-values-for-lawyers.md,yes,2001-08-24,"speech before the Calamba City Lawyers League, Monte Vista Social Hall, Calamba City, August 24, 2001",printed-heading-wrong
+20,A Centenary of Justice,Chapter 12. Even the Supreme Court Needs Public Relations,CHAPTER,,12,Even the Supreme Court Needs Public Relations,130,140,2033,ch12_even-the-supreme-court-needs-public-relations.md,yes,2001-02-23,"keynote address, Anvil Awards of the Public Relations Society of the Philippines, Hotel Intercontinental, Makati City, February 23, 2001",
+21,A Centenary of Justice,PART II — Judicial Jousts (part title),SKIP,title page (part divider),,,,,4,,no,,,
+22,A Centenary of Justice,Chapter 13. Estrada v. Desierto and Estrada v. Arroyo: Constitutional Succession to the Presidency,CHAPTER,,13,Estrada v. Desierto and Estrada v. Arroyo: Constitutional Succession to the Presidency,141,176,9454,ch13_estrada-v-desierto-and-estrada-v-arroyo.md,no,,,long
+23,A Centenary of Justice,Chapter 14. The Death Penalty Cases: More of the Same,CHAPTER,,14,The Death Penalty Cases: More of the Same,177,218,8676,ch14_the-death-penalty-cases.md,no,,,long
+24,A Centenary of Justice,Chapter 15. Cruz v. Secretary of Environment: IPRA - Social Justice or Reverse Discrimination?,CHAPTER,,15,Cruz v. Secretary of Environment: IPRA - Social Justice or Reverse Discrimination?,219,282,13470,ch15_cruz-v-secretary-of-environment.md,no,,,long
+25,A Centenary of Justice,Chapter 16. Ang Bagong Bayani-OFW Labor Party v. Comelec: The Party List - a Social Justice Tool,CHAPTER,,16,Ang Bagong Bayani-OFW Labor Party v. Comelec: The Party List - a Social Justice Tool,283,309,5309,ch16_ang-bagong-bayani-ofw-labor-party-v.md,no,,,
+26,A Centenary of Justice,Chapter 17. Perez v. Estrada: Live Radio-TV Coverage - Bane or Boon?,CHAPTER,,17,Perez v. Estrada: Live Radio-TV Coverage - Bane or Boon?,310,334,5139,ch17_perez-v-estrada.md,no,,,
+27,A Centenary of Justice,Chapter 18. Firestone Ceramics v. Court of Appeals: Sauce for the Poor Goose - a Postscript,CHAPTER,,18,Firestone Ceramics v. Court of Appeals: Sauce for the Poor Goose - a Postscript,335,338,777,ch18_firestone-ceramics-v-court-of-appeals.md,no,,,
+28,A Centenary of Justice,Chapter 19. Bengson v. House of Representatives Electoral Tribunal: Repatriation Restores Original Citizenship,CHAPTER,,19,Bengson v. House of Representatives Electoral Tribunal: Repatriation Restores Original Citizenship,339,357,3395,ch19_bengson-v-house-of-representatives-electoral-tribunal.md,no,,,
+29,A Centenary of Justice,Chapter 20. Social Weather Stations v. Comelec: May Election Surveys Be Banned?,CHAPTER,,20,Social Weather Stations v. Comelec: May Election Surveys Be Banned?,358,374,2867,ch20_social-weather-stations-v-comelec.md,no,,,
+30,A Centenary of Justice,APPENDICES (divider),SKIP,appendices,,,,,1,,no,,,
+31,A Centenary of Justice,Appendix A. A Salute to My Mentor,SKIP,appendices,,,375,379,1229,,no,,,candidate
+32,A Centenary of Justice,Appendix B. Justice Is God's Work,SKIP,appendices,,,380,386,1699,,no,,,candidate
+33,A Centenary of Justice,Appendix C. A Prelude to Paperless Courts,SKIP,appendices,,,387,390,735,,no,,,candidate
+34,A Centenary of Justice,Appendix D. MPGR (tribute to Justice Minerva P. Gonzaga-Reyes),SKIP,appendices,,,391,394,895,,no,,,candidate
+35,A Centenary of Justice,Index,SKIP,index (not in the .docx),,,395,,0,,no,,,

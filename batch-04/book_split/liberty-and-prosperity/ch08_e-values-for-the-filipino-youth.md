@@ -1,0 +1,97 @@
+# Chapter 8: E-Values for the Filipino Youth
+
+Since my appointment as Chief Justice on December 21, 2005, I have been invited to speak before several diverse audiences here and abroad. By the sheer number and enormity of my administrative and judicial tasks,' I could accept only a few of those invitations. Many times, I have had to decline for other valid reasons like conflicts of schedule; heavy workload; or matters of judicial propriety, as when the topic was sub judice.
+
+Despite the harsh demands of my schedule, however, I eagerly accepted three separate invitations to address the youth. On April 1, 2006, I delivered the commencement speech for the graduates of the University of Cebu. A few weeks later on April 23, 2006, I addressed the graduating class of the Ateneo de Manila University School of Law. Then, on May 9, 2006, I had the honor of speaking before our country's new lawyers during their oath-taking ceremonies at the Philippine International Convention Center.
+
+The speeches I delivered during those three separate occasions have been put together in this compendium. The overarching themes may be summed up as the "Three E's of A Life Worth Living: Excellence, Ethics and Eternity" - - my own formula for success,* which I want to share with the Filipino youth. What follows are glimpses of my life, my thoughts, my legacy, as compiled from those three speeches.
+
+## Fun Memories at Graduation and Oath-Taking Rites
+
+Commencement and oath-taking ceremonies like these are joyful days of thanksgiving and fulfilled dreams. Thus, I have made it a point to accept such invitations to speak before the youth, because they take me back to my own carefree days 50 to 60 years ago. You see, at my age, it is wonderful to recall even just 50 percent of my youth!
+
+Almost always, these ceremonies tug at my heart. The sight of young, vibrant faces - full of life, expectations, hopes and dreams - fuels my dreams for our country.
+
+And as I near my retirement, I sense a duty as an elder to impart timeless wisdom and values that may help carry the next generation of leaders through the shifting tides of life.
+
+## Looking Back and Moving Forward
+
+When I graduated from the Far Eastern University (FEU) Institute of Law, I was, like you, ecstatic over the fact that the four years of grueling and backbreaking work in law school were finally over. At the same time, though, I was filled with great apprehension over what lay ahead - so many opportunities for success and also for failure. It was a time for careful and deliberate choices.
+
+Luckily, I was mentored by my dean at the time, Dr. Jovito R. Salonga. It was Dr. Salonga who constantly inspired and guided me to excel in all things, but to prioritize my academic studies. Much like a father, he would tell me often enough: "I don't care if you are the president of the central student council of FEU and head of the National Union of Students of the Philippines (NUSP); your priority as a law student should be your academics." He emphasized that extracurricular activities were merely secondary to formal education. Gently, he would remind me: "To whom much is given, much is also required."
+
+## Three Es of a Life Worth Living
+
+I have kept that advice to heart. Hence, I have always looked at life not just as a personal triumph, but also as a constant and conscious striving to give back to our society and country. To do so, I have adhered to and eternity: the 3 Es.
+
+I wish to share with you now these three E values. I do not profess to have the secret to an ideal life, but I do know that what I am about to share with you are essential to a life of fulfillment and happiness.
+
+## Excellence: Giving Your Best
+
+The first E stands for excellence. Excellence demands that you give your best in whatever it is you decide to do. Since you cannot have everything all the time, choose what you want the most, and then use your time and effort to get there.
+
+As students, you endeavored to excel in your academics and prepared rigorously for examinations. I remember when, as a bar examinee, my well-laid plans were jeopardized by an unexpected setback. In the first week of the bar examinations, I succumbed to severe flu and gastroenteritis and had to be confined in the hospital. Disheartened and discouraged, I thought of giving up and not continuing with the examinations.
+
+Dean Salonga, however, was adamant and emphatic in advising me to continue. So I persevered and prayed hard. True enough, when the bar results came out, there was sweet success after the long arduous journey. Thus, my advice to you is never to despair. Just go on and study the best way you can, and learn in
+
+On your graduation, a new journey for excellence begins. You will embark on careers with distinctive standards that should not only be met, but surpassed. Master your chosen field, then, and develop a passion for excellence. Devote yourselves to your calling, even if it means giving up less important things to be able to focus on m or ev a lu able ones.
+
+Indeed, the effort, patience and determination you have exerted to reach graduation cannot approximate much less, equal - the lifetime quest for excellence that follows after passing your tests and receiving your diplomas.
+
+Personally, I worked with a determination to master my chosen craft right atter graduation. Luckily, just a few years after, I was able to form my. own law firm in partnership with three other FEU bar topnotchers; namely, Agustin O. Benitez, Custodio O. Parlade, and Leopoldo L. Africa. Later, my law office was joined by other FEU bar placers like Dean Antonio H. Abad Jr. and Dean Sylvia Katherine Luczon-Barinaga; as well as former Education Undersecretary whom I had met when we were both associates at the Salonga Law Office. Like many other lawyers, I augmented my income by teaching in the evenings and dabbling in a little business.
+
+I was quite happy with my private life until President Fidel V. Ramos titillated me - first, with a cabinet appointment (which I refused, as I had no inclination for politics); and, second, with a more enticing offer of a seat in the Supreme Court. After joining the high court in 1995, I completely disengaged myself from my private practice and business. Our law firm was eventually dissolved, consistent with the example set by Senator Salonga. As you may know, upon his appointment as chairperson of the Presidential Commission on Good Government in 1986, the good senator dissolved his prestigious law partnership with Pedro L. Yap, who later became Chief Justice; and Sedfrey A. Ordoñez, who later became justice secretary, solicitor general and UN ambassador.
+
+When I joined the Supreme Court, I had thought that being a member of the Court was to be my end career. Indeed, I was more than content to be an associate justice. That I have been elevated to the position of Chief Justice is a bonus. It is in fact both a blessing from the Lord and a heavy responsibility I bear for our people and country. As I always say, excellence requires not just competence, but also dedication to duty and hard work. For excellence is not the goal, but the tool that will open windows of opportunity at your every turn!
+
+On this point, let me refer you to the favorite word of St. Ignatius of Loyola -- magis. Magis means "more." St. Ignatius urged others to give more effort, more attention, more perseverance, more prayer, more forgiveness and more service. Thus, he encouraged others to be the best that they could be or to excel in whatever it was they did.
+
+You, dear youth, will do well to embrace magis as your motto in performing your duties to self, family, career, and country. Pushing yourself to give a bit more in everything you do will set you blazing through the path of excellence. And excellence will set you apart from the rest.
+
+But excellence is only the first stage of winnowing that separates the grain from the chaff.
+
+## Ethics: A Moral Compass
+
+The second value is ethics. Every profession has its own code of ethics. That code spells out the guidelines for ethical and honorable conduct based on old-fashioned principles like integrity, courage, prudence and hard work. These are some of the basic norms that must be internalized as the primary sources of true success and enduring happiness. Deep within themselves, all great persons, heroes and saints have integrated such principles, on which they have depended in times of stress and crisis.
+
+In a society in constant flux such as ours, there is an ever growing temptation to cut corners for easy solutions. Sadly, many of our once-promising youths have succumbed to these temptations and used their excellence in espousing skewed principles. Now we find our society in a state of irony, in which the vile deride the upright.
+
+Some people are intrigued when they see others who are rich and famous and regarded as role models; or who simply have happy homes, happy marriages, and successful children. So they ask, "How did you do it? Give me some quick advice, so I can solve my own predicaments and succeed like you.
+
+Is there a motivating seminar or yoga class you can recommend?" Is this the kind of success we envision for ourselves and our country? I daresay not.
+
+Motivational speeches, like Band Aid and aspirin, have their limited use in easing pain or its symptoms. Contrary to the quick-fix solutions being peddled by consumerism, money still cannot buy peace of mind, dignity, or respect.
+
+I exhort you, therefore, not to repeat the mistakes of the past. Do not sacrifice your souls for money. Do wealth for success.
+
+Remember that at the end of life's long journey, it is the knowledge of having championed what was right that will be the source of your self-worth and fulfillment. Someday your physical bodies must eventually give in to your transient time on earth. But there is something in you that you may leave here forever. Hence, you should never lose sight of the fact that your thoughts and actions may continue to live on in the hearts and minds of those whom you leave behind. Leave them something to be proud of.
+
+## Eternity: The Hereafter and Forever
+
+Finally, set your sights beyond the here and now to the hereafter and forever. Prepare for the third E, which is eternity.
+
+Allow me to relate my own personal experience. I was born and reared poor. While other kids my age were being acquainted with God and taught sacraments in their religion classes, I was attending public elementary and secondary schools, where religion was not in the curriculum. From there I enrolled in a nonsectarian university. My education was purely secular; hence, I had no catechetical background.
+
+My real close, personal introduction to God thus came rather late in my life, only around twenty years ago. But after finding the Lord, I have realized the need to set my vision for eternity and discovered the reality violations of human and physical laws, there are penalties for transgressions of God's commands. Thus, teachings of our Lord Jesus, our spirits suffer the consequence of being damned for eternity.
+
+The Lord, however, gives us opportunities for reparation. We receive salvation from our sins through 3 Rs: repentance, restitution and reformation. Just and principled actions, though, should be done in the here and now. Before we can even hope for everlasting happiness, we need to cleanse ourselves first of deliberate defiance of spiritual laws or belated compliance with them.
+
+When I became an associate justice of the Supreme Court, I composed a prayer, which I published in my second book, Justice and Faith. The prayer reads:
+
+"The Lord is my Shepherd. There is nothing I shall want. He has given me more than I deserve - a happy home, a healthy body, accomplished children over whom I no longer worry, a stable career, a chance to serve our people, an opportunity to be remembered longer than my own life. Other than fulfilling my role in the Court, I have no more earth-bound ambition. I live my life with only one consuming passion: on that inevitable day when I will knock at the pearly gates, my Lord and Master will open the door, spread his arms and say, 'Well done on your earthly sojourn. You have passed the test. Welcome home to my everlasting Kingdom!"
+
+I share this prayer with you, dear youth, in the hope that wherever the Lord takes you on your life's journey, you will be able to say, at the end of the road, that you have done all that you were gifted to carry out in accordance with God's will.
+
+I will not fool you into believing that living the 3 Es will be easy. As you grow older, you will realize that this cycle of sacrifice and success is really what life is all about. Sometimes, despite your best efforts and your devotion to what is right, failure comes knocking at your door. It is not the time to put your hands up and declare defeat; it is the time to fall on your knees and keep praying.
+
+Do not take failure as a dead end; treat it as a detour. Remember that life often takes you where you did not intend to go. But always, what you do with what is dealt to you will make the difference between success and defeat.
+
+Take comfort also in the knowledge that when God seems to have closed a door, somewhere He opens a window. When guided by faith, your heart will see the opportunity, even if in the guise of a catastrophe. Be assured that, as you reach the crossroads of life, there is a God who will guide you and never lead you astray.
+
+And when you do reach the top, do not be intoxicated by your own success. Remember that what you do here on earth is but part of your journey towards everlasting peace and happiness. Offer your success to God and to the persons who have nurtured you and will continue to love you. The people who walked with you played a part in your success. Acknowledge them
+
+As I retire, whatever I have said here may just be a the three Es of excellence, ethics and eternity will reverberate throughout your lives. Hold on to these timeless values. When you do, rest assured that at each turn in every phase of your lives, success will inevitably follow.
+
+Let me close by sharing with you a wonderful verse from the American poet and preacher Phillips Brooks:
+
+"Do not pray for easy lives. Pray to be stronger men. Do not pray for tasks equal to your power. Pray for powers equal to your tasks. Then the doing of your work shall be no miracle. But you shall be the miracle."

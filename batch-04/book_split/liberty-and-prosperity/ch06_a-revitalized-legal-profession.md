@@ -1,0 +1,81 @@
+# Chapter 6: A Revitalized Legal Profession
+
+Magandang, magandang gabi po sa inyong lahat. I am deeply honored by your joint invitation for this testimonial dinner. Your coming together is especially heartwarming, considering that only on very rare Philippines brought under one roof. Tonight is one such rare moment.
+
+For this singular honor, let me therefore thank the Integrated Bar of the Philippines (IBP), the Alumni Association of the Academy of American and International Law (AAAAIL), the Harvard Law Association of the Philippines, the Intellectual Property Association of the Philippines (IPAP), Law Asia Philippines, the Legal Management Council of the Philippines (LMCP), the Maritime Law Association of the Philippines (MARLAW), the Philippine Bar Association (PBA), the Philippine Dispute Resolution Center, Inc. (PDRCI), the Philippine Institute of Construction Arbitrators (PICA), the Union Internationale des Avocats (UIA), and the UP Women Lawyers' Circle (WILOCI).
+
+## Courage and Ethics for the Legal Profession
+
+IBP President Jose Anselmo Cadiz and other IBP officers and governors are among the petitioners asking the Supreme Court to declare Proclamation No. 1017 unconstitutional. On March 7, 2006, they endured a nine-hour Oral Argument lasting up to 10:00 p.m. in the jam-packed session hall of the High Court.
+
+Atty. Cadiz and the other petitioners, as well as their respective Memoranda, after which the Court will deem the case ripe for resolution.
+
+I cannot say much about the internals of the case because of our confidentiality rule. I have recounted this recent event merely to underscore the important role lawyers perform in the life of our nation. I daresay the nation's destiny depends on how well and how rightly they advocate or defend public-interest cases, and whether and to what extent they commit themselves to championing truth and justice. Let me quickly add that the IBP was also active in several other high-profile cases, including those questioning the issuance of Executive Order No. 464 and the "state of rebellion" declared in connection with the so-called Oakwood mutiny.
+
+## Twin Visions for the Judiciary and the Legal Profession
+
+At the start of my chief justiceship on December the judiciary and the legal profession. Let me repeat them now: I vow to lead a judiciary characterized by four Ins: integrity, independence, industry and intelligence; one that is morally courageous to stand its ground against the onslaughts of influence, interference, indifference and insolence. Verily, I envision a judiciary that is impervious to the plague of "ships" - kinship, relationship, friendship and fellowship.
+
+I will continue the judicial reform program initiated by my esteemed predecessor, Chief Justice Hilario G. Davide Jr. However, due to my time-limited incumbency, I will focus on what I call the four ACID problems of (1) limited access to justice by the poor, (2) corruption, (3) incompetence and (4) delay in the delivery of quality judgments.
+
+On the other hand, I look forward to a revitalized legal profession that is responsible, dependable and morally upright; that courageously upholds truth and justice above everything else; and from whose ranks shall emerge competent and ethical lawyers. These are attorneys who shall be willing and able to stand for their convictions against all odds, to carry on in spite of seemingly insurmountable opposition, and to be beacons for the weak, the oppressed and the marginalized.
+
+These twin visions of a reformed judiciary and a revitalized legal profession are directed towards two loftier goals of safeguarding the liberty and nurturing the prosperity of our people, while upholding the rule of law and the independence of the judiciary.
+
+During the 10th IBP National Convention held in Baguio City on April 20, 2005, I had the occasion to discuss initially, before both the bench and the bar,' my philosophy of Liberty and Prosperity. Today, in the midst of the present crisis of confidence and credibility facing our country and people, I reiterate my call for a revitalized legal profession. It shall be a profession guided by the same twin beacons of democracy and development, ethics and economics, integrity and investments - all restatements of Liberty and Prosperity.
+
+## Lawyering for Truth and Justice
+
+To be sure, lawyers have a great role in shaping public opinion. Not only do they raise the people's consciousness of burning issues, but also reflect the nation's pulse. Members of the bar are almost always consulted and their views obtained on almost any conceivable topic of importance -- on presidential issuances, legislative proposals and enactments, elections, and sometimes even fashion.
+
+Sadly, however, some lawyers have forgotten the responsibility and authority. Some have become so adept at being technicians of the law that they have come to regard it as the end, rather than as a means to something much more important. Indeed, many lawyers have had so much success in defending their client's causes - right or wrong - that they have lost sight of their first and foremost duty, which is to serve up their hierarchy of responsibilities to put their interests first, those of their clients second, and justice a far third.
+
+Thus, I remind you that the practice of the profession is built and founded on much loftier objectives. To the ends of truth and justice, I add a call to defend liberty and to nurture prosperity.
+
+This legal philosophy of Liberty and Prosperity, or democracy and development, finds basis in the 1987 Constitution. The defense of our people's liberty is largely enshrined in our Bill of Rights; and the nurturing of economic prosperity, in various provisions of the Declaration of Principles and State Policies and of National Economy and Patrimony. In particular, Section 1 of Article XII of the Constitution mandates a "more equitable distribution of opportunities, income and wealth x xx" and thereby presages prosperity as a veritable economic right of the people.
+
+## Ethical Lawyers
+
+But competence in the law is not enough. It should be coupled with ethics. Stressing the lawyer's public responsibility, the Court in one case stated:
+
+"With their ubiquitous presence in the social milieu, lawyers have to be responsible. The problems they create in lawyering become public difficulties. To keep lawyers responsible underlies the worth of the ethics of lawyering. Indeed, legal ethics is simply the aesthetic term for professional responsibility."
+
+Attempts to define ethical conduct for lawyers have been made through the enactment of laws and rules of professional conduct that establish standards of propriety. But these laws and rules do little to define the criteria of ethical conduct, precisely because of the myriad of possible scenarios that can be drawn from lawyers' professional practice and related experiences.
+
+In my books and addresses, I have always stressed that an ethical compass is required of lawyers. Ethics in our profession cannot be overemphasized; attorneys are always expected to uphold fidelity to truth and justice. Quality justice always begins with a high standard of ethics.
+
+So much of a lawyer's professional life depends on ethical values and moral behavior, not just within the inner circles of professional associations, but also "I know outside and beyond them.
+
+When I was still practising law a decade ago, a wealthy businessman visited me. He told me, that your law office is composed of competent bar topnotchers, who are experienced in the labyrinths of the law.
+
+But my question is, do you also know the judge in whose sala my case is pending? It is good to know the law, but it is even better to know the judge." Upon hearing those remarks, my partners and I respectfully declined the case, even if it meant losing a sizeable retainer.
+
+Legal practitioners with a strong and firm sense of right and wrong behave in accordance with what is true and honest, regardless of personal consequences. Those with personal integrity possess the moral courage to denounce wrong and to promote truth.
+
+## Helping Win the Fight Against ACID
+
+May I also take this opportunity to enlist your assistance in eliminating the ACID problems that corrode justice. Much as we in the judiciary would want to take on these problems ourselves, we do realize that the battle would only be half won if the legal profession is not included in the fight against limited access to justice, against corruption, against incompetence, and against delay in the delivery of quality justice.
+
+One of my very first official acts as Chief Justice was to convene a one-day strategic planning workshop on January 12, 2006. In that workshop, justices of the Supreme Court and the appellate courts, the court administrators, as well as other high-ranking officials, sat down together to hammer out a one-year plan for the judiciary along the ACID areas I mentioned.
+
+It may interest you to know that many of the reform projects identified during the planning workshop pertained to the legal profession, especially in the areas of access to justice by the poor and delay in the delivery of justice. I do not have the time to enumerate all the proposals concerning the profession. Let me just cite five key areas in which your involvement and cooperation are most urgently required:
+
+1. In the area of access to justice by the poor, the strengthening of the legal aid system, through the provision of incentives to lawyers or firms handling pro bono cases
+
+2. To combat corruption, the use of the new e-age electronic payment system, which will be launched next month, on April 21
+
+Under this system, docket and other fees will no longer be paid to the clerks of court, but will be remitted directly to our appointed bank - the Land Bank of the Philippines.
+
+3. A proactive and more rigid nomination process of searching, screening and selecting applicants to judicial posts, as well as stricter disciplinary mechanisms for erring judges in order to lessen -- if not to completely wipe out - incompetence in the judiciary
+
+4. Construction of more halls of justice; and computerization and networking of court systems and processes, to be complemented by skills-based training programs for judges and court personnel, with the end in view of reducing delay in the delivery of justice
+
+Last Tuesday, March 14, 2006, I launched the complete computerization of the Sandiganbayan. Believe it or not, all pleadings, including motions for postponement, and all orders relating to the 2,700 pending Sandiganbayan cases are already digitized andaccessible. This automation project, along with the Supreme Court e-library, presages the paperless makes our courts more transparent and lessens delays in the delivery of quality justice.
+
+## Closing
+
+Ladies and gentlemen, during the last 15 minutes, I have presented to you my vision for the legal profession, the goals towards which this profession should be directed, and some proposals on how lawyers can help eliminate the ACID problems of our justice system. I ask for your support and cooperation in making this vision a reality, in elevating the objectives that we strive for, and in concretizing the proposals l have so far outlined.
+
+In closing, let me thank you again for the privilege wisdom inside this room, I am more than confident that truth and justice would be served on a higher moral ground.
+
+Maraming salamat po.

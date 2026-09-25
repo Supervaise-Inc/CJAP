@@ -1,0 +1,55 @@
+# Chapter 11: Digitizing Law Schools
+
+I am glad to be with you today to launch the e-library simultaneously in eight law schools and universities nationwide. Aside from the Arellano University School of Law, this launching is simulcast live at the Aquinas University in Legazpi City, Saint Louis University in Baguio, Siliman University in Dumaguete, University of San Carlos in Cebu City, Xavier University in Cagayan de Oro City, Ateneo de Davao University, and Mindanao State University in Marawi City.
+
+The Supreme Court is particularly proud of the e-library. It is the first of its kind in our region of Asia and one of the few in the world. Moreover, it was conceived and developed in record time of less than a year and at a very minimal cost of US$10,000, which was granted by the World Bank.
+
+Today we are sharing this innovation with law schools. By opening the Supreme Court's electronic library for the use of law professors and law students, we hope to make the study of the law easier, more convenient and more systematic.
+
+## The Study of Law in the Past
+
+A law student of my time can only marvel today at the speed and accuracy with which cases can now be accessed, read, searched and downloaded. Indeed, things that were unimaginable years ago have been made possible by the digital age.
+
+Many of us who belong to the past generation would tell you - the professors and students of the 21st century - that during our era, the only way to secure our own copy of a decision was to wait for a mimeographed duplicate, which not only took time to make, but was oftentimes not too readable. And the best way to digest cases was to write them ourselves.
+
+Now, all the students have to do is press a few keys and, presto, the case pops out of the screen for them to peruse, save and print. Not only that. After they electronically "cut and paste" the pertinent portions together, their digests are done and they are ready for recitations!
+
+## Battling the ACID judiciary
+
+Upon assuming office as Chief Justice of the Philippines on December 21, 2005, I announced that I would continue the "Action Program for Judicial Reform" (APJR) started by my esteemed predecessor, Chief Justice Hilario G. Davide Jr. Pledging to lead a judiciary characterized by four Ins -- integrity, independence, industry and intelligence - I emphasized that my watch would focus on what I had code-named the judiciary's ACID problems: limited access to justice by the poor, corruption, incompetence and delay in the delivery of quality judgments.
+
+Unbelievable as it may seem, the Supreme Court over the years and of late has disciplined a number of lawyers and judges for various infractions, including incompetence and gross ignorance of the law. During the first month of this year alone, the Court had already sanctioned six lawyers and six judges. Of the six judges, one was found grossly ignorant of the law. He had failed to conduct immediately the preliminary investigation of two criminal cases for the rape of a child victim; worse, in utter disregard of Section 3 of Rule 112 of the Rules of Court, he had allowed the child to be cross-examined and be subjected to humiliation during the investigation.
+
+On the other hand, three of the six lawyers who were disciplined by the Court were suspended from the practice of law, for periods ranging from three months to one year. In one case, two government lawyers were reprimanded by the Court for not properly implementing the final and executory judgment issued by the high court.
+
+In this day and age of advanced technology, the Court regards these offenses of incompetence and gross ignorance of the law as alarming developments that must be abated at once. Thus, it has conscientiously searched for a solution to address these problems, which, like the other components of ACID, corrode justice.
+
+## Legal Research Made Easy
+
+Indeed, the electronic library is one undertaking that addresses incompetence. This e-age project, which took wing under the able tutelage of Justice Antonio T Carpio, was launched on November 19, 2004. Initially, it was developed for the use of the justices, officials and employees of the Supreme Court (SCJ. Since then, the e-library has metamorphosed. It is continually being updated and improved to respond to the needs and demands of users. Pending the full computerization of the judiciary, the e-library is now available to lower court judges via compact discs (CDs).
+
+By bringing research up to the speed of light, the e-library provides our magistrates a useful and easy-to-use tool for deciding cases and preparing more scholarly disquisitions on a wide array of legal issues. Designed to be a judge's database, the e-library is a repository not only of the decisions and resolutions of the Supreme Court; it is also a data bank of circulars and administrative issuances, the Rules of Court, manuals and bench books, laws, the National Administrative Register, journals and law lists. The e-library is a formidable arsenal of legal knowledge, I should say.
+
+To summarize, the e-library is unique because (1) It is cheap, since there is no more need to buy expensive Books; (2) it is always up-to-date, because decisions of the C are uploaded within 48 hours from the time they promulgated; (3) it is accessible anytime seven days a week, because it never closes; (4) it does not need space, but it is available anywhere and everywhere; (5) it is fully searchable - by word, phrase, case title, case number, subject matter, date of promulgation, name of parties, name of the justice who wrote the decision, and So on.
+
+## Training Judges in Technology
+
+Of course, we do realize that it may take some time for our magistrates to adapt to the new ways of doing e-research, but we are moving to solve that concern.
+
+Already, basic orientation courses in computer use have been introduced, starting with the Supreme Court and the appellate courts. The 2,000 judges nationwide will follow soon, as will the 26,000 employees of the judiciary. To complement the computer literacy program, the Court has also approved a computer acquisition program, which should enable judges, court attorneys, and even ordinary rank-and-file court employees to purchase -- through easy payment terms - laptop computers for their personal use. Soon also, affordable DSL subscriptions will be made available to them even in their homes. With these projects in place, our magistrates have no more excuse for failing to keep abreast with current laws and jurisprudence. Likewise, there would be less reason for failing to act on motions or to decide cases submitted for resolution.
+
+## Other Projects to Curb Incompetence
+
+Aside from the e-library, other projects designed to curb incompetence and inefficiency are also being implemented under the APJR. I do not have the time to discuss all of them today, but I do want to point out two important developments.
+
+First, the Supreme Court is now about to start with the construction and equipment of the Philippine Judicial Academy (PhilJA) Development Center in Tagaytay City. The building of the Center has been made possible through a P300 million grant from the Japanese government. The PhiljA Center is envisioned to be not only an institution for upgrading the intellectual and ethical standards of our judges, but also an ASEAN center of judicial excellence.
+
+Second, the Sandiganbayan will be fully computerized by next month, March 2006. With the complete automation of court processes, it will be possible for anyone -- judges, lawyers, litigants, the media -- to determine, upon pressing a few computer keys, the exact status of any case in that court. Apart from solving incompetence, computerization will also minimize delay in the delivery of justice - another major component of ACID. Once perfected, this Sandiganbayan system will be the model for the complete computerization of the entire judiciary.
+
+Your Supreme Court has undertaken considerable effort to infuse capital, modernize facilities, and computerize day-to-day processes and systems. We do realize, however, that new technologies like the e-library are not enough; they can only be as good as the people who use them.
+
+With conscious thought, the Court is launching the e-library in law schools and universities nationwide. It recognized that schools of law, not the courts, constitute the first line of defense against injustice. Indeed, the study of law and justice is an undertaking whose value rises when spread to others; thus, it must be disseminated to the fullest extent possible.
+
+As your Chief Justice, I exhort you - law professors and students -- to draw upon the e-library as a cost-effective and highly efficient research tool in legal education. l ask you to digitize your law schools to help the country and the judiciary in rendering speedy, accurate and quality justice.
+
+Maraming salamat po.

@@ -1,0 +1,12 @@
+order,book_title,part_label_as_printed,classification,skip_reason,chapter_no,chapter_title,start_page,end_page,word_count,file,collected_piece,original_date,original_outlet,flags
+1,With Due Respect (Vol. 2),BOOK 2: On the Supreme Court,SKIP,part divider,,,,,6,,no,,,
+2,With Due Respect (Vol. 2),CHAPTER 1 An Extraordinary Court,CHAPTER,,1,An Extraordinary Court,,,837,ch01_an-extraordinary-court.md,yes,2008-12-28,Philippine Daily Inquirer (column “With Due Respect”),
+3,With Due Respect (Vol. 2),CHAPTER 2 Bequeathing an Independent Court,CHAPTER,,2,Bequeathing an Independent Court,,,864,ch02_bequeathing-an-independent-court.md,yes,2009-01-11,Philippine Daily Inquirer (column “With Due Respect”),
+4,With Due Respect (Vol. 2),CHAPTER 3 How the SC Decides Cases,CHAPTER,,3,How the SC Decides Cases,,,877,ch03_how-the-sc-decides-cases.md,yes,2009-06-21,Philippine Daily Inquirer (column “With Due Respect”),
+5,With Due Respect (Vol. 2),CHAPTER 4 Uphold the Constitution,CHAPTER,,4,Uphold the Constitution,,,778,ch04_uphold-the-constitution.md,yes,2009-12-20,Philippine Daily Inquirer (column “With Due Respect”),
+6,With Due Respect (Vol. 2),CHAPTER 5 Chief Justice of the Philippines,CHAPTER,,5,Chief Justice of the Philippines,,,887,ch05_chief-justice-of-the-philippines.md,yes,2009-12-27,Philippine Daily Inquirer (column “With Due Respect”),
+7,With Due Respect (Vol. 2),CHAPTER 6 Midnight Chief Justice,CHAPTER,,6,Midnight Chief Justice,,,918,ch06_midnight-chief-justice.md,yes,2010-03-28,Philippine Daily Inquirer (column “With Due Respect”),
+8,With Due Respect (Vol. 2),CHAPTER 7 Demystifying the Court,CHAPTER,,7,Demystifying the Court,,,912,ch07_demystifying-the-court.md,yes,2010-07-04,Philippine Daily Inquirer (column “With Due Respect”),
+9,With Due Respect (Vol. 2),CHAPTER 8 Who Will Discipline Supreme Court Justices?,CHAPTER,,8,Who Will Discipline Supreme Court Justices?,,,886,ch08_who-will-discipline-supreme-court-justices.md,yes,2010-08-22,Philippine Daily Inquirer (column “With Due Respect”),
+10,With Due Respect (Vol. 2),CHAPTER 9 Regaining Public Trust,CHAPTER,,9,Regaining Public Trust,,,650,ch09_regaining-public-trust.md,yes,2010-09-05,Philippine Daily Inquirer (column “With Due Respect”),
+11,With Due Respect (Vol. 2),CHAPTER 10 Contempt and Disciplinary Actions,CHAPTER,,10,Contempt and Disciplinary Actions,,,904,ch10_contempt-and-disciplinary-actions.md,yes,2010-11-07,Philippine Daily Inquirer (column “With Due Respect”),

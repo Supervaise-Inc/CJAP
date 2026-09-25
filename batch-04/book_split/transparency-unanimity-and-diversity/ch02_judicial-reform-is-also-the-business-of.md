@@ -1,0 +1,169 @@
+# Chapter 2: Judicial Reform Is Also the Business of Business
+
+I thank Ric Pascua, vice president of MAP (Management Association of the Philippines) as well as chairman of its Program and Attendance Committee, for inviting me to a reunion with the leaders of business and management in this country. I met Ric and his loving wife Rizza in Hongkong more than ten years ago; no, not in his capacity as a top executive of the First Pacific Group, although indeed he was one, but as a leader of the Catholic charismatic community Bukas Loob sa Diyos, which at the time was growing its roots in the former British Crown Colony. Since then, he has moved to even loftier corporate heights. But what I admire in him are not really the many possessions that money has brought him, like his houses in exclusive enclaves, his German-engineered cars or his memberships in elite golf clubs. Rather, what I truly esteem in him are the many more things he enjoys which money could not have bought, like a happy marriage, a happy family, a happy reliance on his capacity to succeed, and most importantly, a happy faith in God as the ultimate source of his success.
+
+I also greet Johnny Santos (a top executive of Nestle in Asia), president of MAP who was proclaimed its “Management Man of the Year 1994” during my term as MAP governor and chair of the committee in charge of the award. I remember how Johnny was chosen over several other equally deserving nominees, two of whom were well-known tycoons. But what swung the vote to him was the fact that he had made management the career center of his life, not just a means to accumulate entrepreneurial gains.
+
+## A Happy Reunion and an Apology
+
+Indeed, I am honored to have a reunion with all you dear MAPers, many of whom I had not seen or talked with since I resigned from our association and from all my business and professional involvements upon my appointment to the Supreme Court five years ago. You see, members of the Court, by tradition and practice, are entombed in judicial cloisters to shield them from the importunings of litigants and their lawyers.
+
+Some of you, my friends, must be disappointed with me — a burden I must bear — because I refuse to receive visitors and telephone calls and shun any conversation regarding my work especially pending cases. I now take this occasion to apologize to all those who may have been offended by this practice. But please take comfort in the thought that, to deserve public trust and confidence, jurists must not only be impartial, but must also appear to be so in the public view. Hence, the better rule is to avoid unnecessary occasions for public suspicion about their integrity and objectivity.
+
+Ladies and gentlemen, today I will discuss three related topics:
+
+1. What are the main complaints against the judiciary?
+
+2. What solutions or reforms would address them?
+
+3. What can the business community, particularly MAP members, do to help reform our judicial system?
+
+## Main Complaints Against the Judiciary
+
+First, what are the main complaints against the judiciary? Let me answer this question by relating three incidents in the life of Hukom Juan Suplado.
+
+One early morning while our hukom was having breakfast at home, a lawyer with a multi-billion case visited him. “Why are you here? Don’t you know it is unethical to talk with a judge about a pending case outside the courtroom and in the absence of the opposing lawyers?” the judge intoned.
+
+“No, Your Honor, I did not come to speak with you about my case. But if you will look outside your window, you will see a sparkling new Mercedes Benz parked on your driveway,” the lawyer explained. “That is worse; you have come to bribe me!” the magistrate exclaimed. “No again, Your Honor. I am not giving you the car. I am selling it to you,” was the firm reply.
+
+“And how much is the car?” His Honor asked. “One thousand pesos,” the smart attorney matter-offactly answered.
+
+“In that case,” Hukom Suplado said, “I will buy two!”
+
+Later that morning, the judge conducted a hearing. Being examined was a witness who did not speak English; hence, the questions and the answers had to be translated by the court interpreter. The witness was asked by his counsel: “When you reached the place where the killing took place, what did you saw?” The question was translated by the interpreter: “Ang tanong ng abogado ay: noong dumating kayo sa pinangyarihan ng patayan, ano ang nilagari ninyo?”
+
+The judge was irritated at the wrong translation, so he corrected it by saying, “Ang tanong ay ganito: nang dumating kayo sa pinangyarihan ng patayan, ano ang tinahi ninyo?”
+
+After hearing the murder case, Hukom Suplado moved on to a civil matter involving two women who claimed to be the mother of the same infant boy. When the father of a child cannot be determined, that is normal. But when two women claim to be the mother of the same infant, that is unusual. It is reminiscent of the problem brought to the great, wise King Solomon.
+
+When the case was called for hearing, the judge asked the two claimants to stand up. However, nobody responded. In his irritation, the judge banged his gavel and boomed: “I am ordering the parties in this case to stand up and approach the bench.”
+
+Slowly, an old man of about 75 years with white hair and a frail body limped towards His Honor. The judge was more irritated. “Hindi po kayo, Lolo. Ang tinatawag ko ay iyong dalawang babae na partido dito sa kaso.” (“Not you, Grandpa. I am calling the two women who are the parties to this case.”)
+
+But the old man did not mind the judge and continued walking towards the bench. When he was near enough, he said, “Kagalanggalang na hukom, patay na po ang dalawang babae. Ngunit partido din po ako rito. Ako po iyong sanggol na pinag-aawayan nila!” (“Your Honor, the two women are now dead. But I am also a party to this case. I was the baby they were fighting over!”)
+
+Ladies and gentlemen, these three apocryphal incidents in the life of Hukom Juan Suplado may be funny, but they illustrate the three most common complaints against the judiciary: corruption, incompetence and delay — or CID — in the delivery of justice.
+
+Corruption takes many forms — not just direct bribery but the many varieties of witchcraft, indecent proposals, and bedeviling temptations brought about by three “ships” that plague public service; namely, friendship, relationship and kinship. In a recent Report entitled “Combating Corruption in the Philippines,” the World Bank said, “Corruption is also perceived to be a problem in the judiciary. In a Social Weather Stations survey released in February 2000, 62 percent of respondents believed that there were significant levels of corruption within the judiciary; 65 percent of the respondents believed that ‘many’ or ‘most’ lawyers could be bribed, while 57 percent thought the same about judges.”
+
+Incompetence ranges from poor command of language to utter lack of knowledge of elementary law. Delay, on the other hand, is the result not only of antiquated legal procedures, but even of the bestcrafted rules that are misused and abused by litigants and lawyers who hope to win their cases by confusing, outwitting or bankrupting their opponents.
+
+The problems of the judiciary have alarmed not only the Supreme Court, but all people who have a stake in good governance, and that means everyone including MAP. In fact, even developmental and international organizations like the World Bank,' the United Nations Development Program (UNDP), USAID, Australian AID, Canadian AID, ADB, the Asia Foundation, JICA and others have offered to help reform the judiciary.
+
+## Judicial Reforms
+
+Let me now take up our second topic, the solutions initiated by the Supreme Court to address these problems. They revolve around the judges themselves, their judicial tools and their working environments. The High Court will be celebrating its 100" year on June 11, 2001. The Centenary Executive Committee, which I have been asked to chair, has planned a year-long program to focus on these reforms, both ongoing and planned.
+
+## 1. Upgrading Law Schools
+
+Judicial reforms should start with the judges themselves, their education, their aptitude for the minutiae of decision-making, and their ethical character. Thus, changes must begin with the upgrading of law schools, both intellectually and ethically. To improve their curricula and standards, the Court created a Committee on Legal Education, and Congress passed a new law transferring their supervision from the Commission on Higher Education or CHED to the more focused Board of Legal Education.
+
+But government supervision alone would not be able to address the problem of lack of funds to recruit and properly pay competent professors or to grant scholarships to poor but deserving law students. Hence, the SC Centenary Executive Committee asked the help of outstanding legal practitioners led by Atty. Ricardo J. Romulo, a MAP member; and Atty. Arthur), Lim, president of the Integrated Bar of the Philippines. They responded by organizing the Foundation for the Enhancement of Legal Education, which will offer amply endowed faculty chairs and scholarships. To address problems in bar examinations, the Court created a Study Group on Bar Reforms made up of retired justices who shall recommend changes in the criteria for the admission of new lawyers.
+
+## 2. Reforming the System of Recruitment of Magistrates
+
+Under the Constitution, the President of the Philippines may appoint new magistrates only from a list of recommendees of the Judicial and Bar Council (JBC), a constitutional agency chaired by the Chief Justice and with the following as members: the secretary of justice (vice chair), a senator and a congressman’ and four others appointed by the President.* The selection process for new judges has been restricted further by a new law, RA 8557. Under this law, applicants for appointment to or promotion in the judiciary must, prior to screening by the JBC, pass a pre-judicature course given by the Philippine Judicial Academy. This requirement will assure that only the competent, and we hope ethical, will land judicial jobs.
+
+But education should not be limited to aspiring magistrates. Those already in the service need continuing education too; they must be updated on new laws and judicial doctrines and, equally important, reminded of ethical standards. Thus, the Supreme Court organized the Philippine Judicial Academy or Philja a few years ago to answer the need for continuing judicial education.’ Philja requires at least P500 million to build in Tagaytay its physical plant and facilities on a three-hectare property, which was granted to the Court during the term of President Fidel V. Ramos through the spade work of then Presidential Legal Counsel Antonio T. Carpio.
+
+## 3. Rationalizing Judicial Compensation
+
+Uplifting legal and judicial education is not enough; the judiciary must be able to attract and retain in its ranks the best and brightest lawyers by amply compensating them. At present, about one third of all positions in trial courts are vacant. Many qualified lawyers refuse to vie for appointments, mainly because of inadequate judicial compensation. Regional trial court judges are currently paid P24,127 monthly salaries; Court of Appeals and Sandiganbayan magistrates, P27,500; and Supreme Court justices, P38,500. New associates in big Makati law firms get more than these. Indeed, judicial compensation must be rationalized. For this to happen, the judiciary needs two things from the legislature: first, real fiscal independence; second, exemption from the Salary Standardization Law.
+
+Although the Constitution accords fiscal independence to the judiciary, in actual practice the latter still depends on the political branches of government for its budget. For the year 2000, it has been given a budget of only P6.28 billion, which translates to less than one percent of the total national budget totaling over P665 billion. And worse, the Supreme Court has to lobby yearly in Congress to be able to keep up with inflation. Ideally, Congress should just automatically appropriate a lump sum constituting a fixed percentage — say, two percent of the national budget — and then let the High Tribunal allocate the amount to various services. In this manner, fiscal independence would be assured and judicial officials paid properly.
+
+## 4. Improving the Judicial Disciplinary Process
+
+Then there is the need to look into the judicial disciplinary process. During the last two years, the Supreme Court has dismissed more than forty judges on grounds of corruption, gross misconduct, dishonesty and other serious offenses. It has also suspended or fined judges twice that number for lesser infractions. On the other hand, as debilitating to good judges as low compensation is an unduly long and strict disciplinary process, wherein both frivolous and meritorious complaints are treated alike; while a complaint pends, the respondent magistrate is ineligible for promotion or retirement benefits.
+
+## Judicial Tools and Facilities
+
+Let me now discuss judicial tools and facilities. As top executives, members of the MAP know that the selection of efficient, ethical and properly compensated managers is just one of the components of a good organization. The men must be provided with another “m” — machines or tools to enable them to perform their work effectively. And so it is with the judiciary. Those of you who have attended trials must have chuckled at our squalid, unsanitary and sometimes subhuman courtrooms. Trials are held in small, packed, humid and undignified salas. Hence, the construction of decent and reasonably dignified Halls of Justice is being hastened.
+
+Conscious of the advent of new information technology, the Supreme Court has started to introduce e-age research and administrative systems. It hopes to purchase and distribute to all regional trial courts nationwide 1,500 new computers, complete with research software wherein Supreme Court Decisions from 1901 to the present are encoded. It is hoped that these facilities will enable lower court judges to buttress their judgments with legal scholarship. The High Court has also opened an Internet homepage — www.supremecourt.gov.ph — through which its latest decisions and actions may be accessed.
+
+By themselves, e-age judicial tools and facilities, however modern, cannot assure effective and speedy delivery of justice. We need to manage properly the men and the women who use or operate them.
+
+With 25,000 judicial personnel spread all over the country, the task of management is a formidable one. To the Office of the Court Administrator belongs the responsibility of seeing to it that judicial officials perform their work efficiently, honestly, and within the allowable period. Many times, however, this Office is headed by jurists who are recruited from the active service and then tasked to perform management or administrative jobs.
+
+There is a wall of difference, however, between judicial decision-making and the management of people and resources. With some notable exceptions, eminent jurists do not necessarily make excellent administrators. Neither does excellence in management necessarily equate with eminence in juristic work. Usually, jurists are loners who reflect, contemplate and decide by themselves, while managers or administrators are team builders who work with and through other people.
+
+As you very well know, management is a distinct discipline with its own science and art. And yet, court administrators and their deputies or assistants have traditionally been plucked from the ranks of career jurists, not from those of professional lawyers who are also managers. In this e-age of fast changing management tools and techniques, I believe it is time to review this policy of appointing career jurists to managerial posts and to make judicial administration a career in itself.
+
+## Reforms in the Judicial Environment
+
+Let me now address the judicial environment. By this I refer to the easing of the unnecessary burdens of judges. Dockets of almost all courts in our country are clogged, because there are just too many cases filed by our litigious people who are not satisfied until their problems are resolved all the way up to and by the Highest Court. How can the caseloads of judges be eased? Here are a few reforms the Supreme Court is looking into.
+
+1. Litigants will be encouraged to use alternative modes of dispute resolution or ADRs like conciliation, mediation and arbitration. While judicial action is not always ruled out, parties, especially those involved in commercial disputes, will be asked to submit to arbitration. This mode of settling disputes is popular in the construction industry, and our Supreme Court has recognized the binding authority of arbitration clauses in contracts.
+
+2. Instead of immediately conducting trials, courts should be required to explore “discovery” mechanisms, especially the availment of fact-finding procedures like depositions, interrogatories and pretrial admissions. In the US, a majority of cases do not mature to time-consuming trials, because judges are trained to get litigants to settle their differences amicably. 3. It is not uncommon to find trial courts saddled with 6,000 or more cases, most of which are criminal prosecutions for violations of BP 22, the Bouncing Checks Law. In other words, our court system is being used, sometimes abused, as a collection agency. We in the Supreme Court are wondering whether there can be alternative solutions to the proliferation of bouncing checks, like requiring banks to refuse to open or maintain checking accounts for habitual bad check writers,
+
+4. Appeals of capital offenses should be filtered through the Court of Appeals. This measure will enable the Supreme Court to devote more time to the search for doctrines and principles, which in turn could be used by lower courts in resolving specific disputes.
+
+## How Business and MAP Can Help
+
+I now come to the third topic of my address today. flow ean the business community, particularly MAP 7 a members, assist in eliminating CID — corruption, incompetence and delay — the plagues of the judiciary. I think you will agree with me that good governance and stability in our economy require the delivery of predictable, speedy and objective justice. In this sense, judicial reform becomes also the business of business. I propose at least four ways in which you can help.
+
+First, do not agree to any corrupt, unethical or less than honest methods for solving your legal problems, especially court cases. Just as there are some dishonest judges, there are also some unscrupulous lawyers and devious litigants who want to win at all costs. Sometimes, in an effort to earn more, lawyers ask money from their clients, allegedly to line the pockets of magistrates. Do not believe them and never agree to bribe a judge. While there are indeed a few rotten judges, the vast majority, I assure you, are men and women of integrity. Corruption will take place only if litigants abet or consent to it.'°
+
+Second, please support, financially or otherwise, private-sector-led efforts at judicial reforms, some of which are:
+
+a. The Foundation for the Enhancement of Legal Education I mentioned earlier." The Supreme Court is giving P10 million, and at least another P10 million is being contributed by lawyers. After that, lawyers will tap their clients — meaning you — to raise at least another P30 million which will be used to elevate the standards of legal education.
+
+b. The Bantay Katarungan or “Sentinel of Justice” organized by former Senate President Jovito R. Salonga and former Justice Secretary Sedfrey A. Ordoñez. As its name implies, this organization aims to help cleanse the judiciary of misfits by monitoring through student volunteers the actual hearings in various courts. It also intends to scrutinize judicial appointments as well as proceedings against abusive judges.
+
+c. The Foundation for Judicial Excellence headed by retired Justice Jose Y. Feria, which annually awards outstanding judges, prosecutors and public attorneys.
+
+Third, encourage competent and ethical lawyers to join the judiciary. Unless good attorneys join the judiciary, all these reforms I have been discussing will be useless. Indeed, an office, whether in the judiciary or elsewhere, is as good only as the person manning it. Perhaps, I should take this occasion to bring to your attention that the appellate courts are slowly being filled up only by career jurists. I have nothing against dedicated, honest and hardworking career judges being promoted. But I believe a proper balance should be made, so that outstanding members of the bar or the academe are appointed directly to the Supreme Court and the Court of Appeals. In this way, novel ideas, new vistas and fresh blood could be infused into judicial circulation.
+
+When I joined the Supreme Court in 1995, six'? of the fifteen members were appointed directly from the private sector. But today only Justice Jose C. Vitug and I are left, and no new private-sector justices have been chosen since then. The rest of the present thirteen magistrates have been either promoted from the appellate courts or transferred from other branches of government.
+
+Finally, I urge all of you to pray for us in the judiciary, so that we will always remain true to your trust and faithful to our oath.
+
+For those who are convinced of the sincerity and the nobility of our mission to reform the judiciary ana thus believe that nothing else need be done, or those who may have been satisfied with the judiciary’s performance thus far, I still ask you to pray for us, so that we may not rest on our laurels and little achievements. Pray that we do not become complacent with our minuscule success or satisfied with the adulation or esteem accorded us. Reforming society and its imperfections is never complete. Its ideals and standards must constantly be elevated. Along this line, let me end this address with one of my favorite prayers, composed by the late Bishop Benny Tudtud, entitled “Disturb Us O Lord.”
+
+Disturb us O Lord,
+
+When we are too well-pleased with ourselves,
+
+When our dreams have come true because
+
+we dreamed too little,
+
+When we have arrived in safety because
+
+we sailed too close to the shore.
+
+Disturb us O Lord,
+
+When with the abundance of things we possess,
+
+We have lost our thirst for the water of life,
+
+When having fallen in love with time,
+
+We have ceased to dream of eternity,
+
+And when in our efforts to build the new earth,
+
+We have allowed our vision of the new heaven
+
+to grow dim.
+
+Stir us O Lord,
+
+To dare more boldly to venture on wider seas,
+
+Where storms shall show Your Majesty,
+
+Where losing sight of land we shall find the
+
+Stars,
+
+In the name of Him who pushed back the
+
+horizons of our hopes
+
+And invited the brave to follow Him. Amen.
+
+Maraming salamat po.

@@ -1,0 +1,32 @@
+doc_id,correction,rule,before,after,precision
+GC002,C-3 biography,from the full period string,"Childhood, circa late 1940s",1947-01-01,approximate (late decade)
+GC003,C-3 biography,from the full period string,1955-1959,1955-01-01,period start
+GC004,C-3 biography,from the full period string,1960,1960-01-01,year
+GC005,C-3 biography,from the full period string,1961-1963,1961-01-01,period start
+GC006,C-3 biography,from the full period string,1963-1990,1963-01-01,period start
+GC007,C-3 biography,from the full period string,mid-1980s onward,1985-01-01,approximate (mid-decade)
+GC008,C-3 biography,from the full period string,1990,1990-01-01,year
+GC011,C-3 biography,from the full period string,early 1990s,1990-01-01,approximate (early decade)
+GC012,C-3 biography,from the full period string,1992,1992-01-01,year
+GC013,C-3 biography,from the full period string,1992-1995,1992-01-01,period start
+GC014,C-3 biography,from the full period string,July-August 1995,1995-07-01,month
+GC015,C-3 biography,from the full period string,October 1995 - 2005,1995-10-01,month
+GC017,C-3 biography,from the full period string,"December 20, 2005 - December 2006",2005-12-20,day
+GC018,C-3 biography,from the full period string,December 2006 onward,2006-12-01,month
+GC019,C-3 biography,from the full period string,2007-present (post-retirement),2007-01-01,year
+GC021,C-3 biography,from the full period string,1936-1945,1936-01-01,period start
+GC022,C-3 biography,from the full period string,1945-1954,1945-01-01,period start
+GC023,C-3 biography,from the full period string,1955-1958,1955-01-01,period start
+GC024,C-3 biography,from the full period string,1956-1960,1956-01-01,period start
+GC025,C-3 biography,from the full period string,1958-1961,1958-01-01,period start
+GC026,C-3 biography,from the full period string,1961-1963,1961-01-01,period start
+GC027,C-3 biography,from the full period string,1963-1986,1963-01-01,period start
+GC028,C-3 biography,from the full period string,1986,1986-01-01,year
+GC029,C-3 biography,from the full period string,1989-2002,1989-01-01,period start
+GC030,C-3 biography,from the full period string,1987-1995,1987-01-01,period start
+GC031,C-3 biography,from the full period string,1995-2005,1995-01-01,period start
+GC032,C-3 biography,from the full period string,January 2001 (with Bilibid visit during tenure),2001-01-01,month
+GC033,C-3 biography,from the full period string,"December 7, 2005 - December 7, 2006 (term as Chief Justice)",2005-12-07,day
+GC034,C-3 biography,from the full period string,"December 7, 2006 - present (post-retirement)",2006-12-07,day
+GC035,C-3 biography,from the full period string,"circa 2024-2025 (papal investiture, age 89)",2024-01-01,period start
+GC020,C-3 biography,epilogue dated to the latest chapter (GC019),Retrospective (closing),2007-01-01,retrospective

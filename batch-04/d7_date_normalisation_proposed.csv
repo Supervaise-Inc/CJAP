@@ -1,0 +1,132 @@
+doc_id,type,title,current_date,proposed_date,proposed_precision,rule
+GC002,biography,The Boy Who Slept on Pavement,"Childhood,",,unknown,Not a date (biography chapter label) - needs a decision
+GC003,biography,FEU and the Construction of Ambition,1955-1959,1955-01-01,period,"Period label ""1955-1959"": start year proposed; keep the label in a period field"
+GC004,biography,The Bar Exam and the Discipline of Pain,1960,1960-01-01,year,Year only
+GC005,biography,The Mentor and the Moral Spine,1961-1963,1961-01-01,period,"Period label ""1961-1963"": start year proposed; keep the label in a period field"
+GC006,biography,Independence by Design,1963-1990,1963-01-01,period,"Period label ""1963-1990"": start year proposed; keep the label in a period field"
+GC007,biography,Faith Finds Its Voice,mid-1980s,1985-01-01,year,"""mid-1980s"" -> approximate year; confirm"
+GC008,biography,"Rotary, Earthquake, and the Test of Leadership",1990,1990-01-01,year,Year only
+GC011,biography,From Civic Leadership to National Visibility,early 1990,,unknown,Not a date (biography chapter label) - needs a decision
+GC012,biography,The Call from Malacañang -- and the First Refusal,1992,1992-01-01,year,Year only
+GC013,biography,Seven Rejections,1992-1995,1992-01-01,period,"Period label ""1992-1995"": start year proposed; keep the label in a period field"
+GC014,biography,Ask. Seek. Knock.,July-Augus,,unknown,Not a date (biography chapter label) - needs a decision
+GC015,biography,The Bench,October 19,,unknown,Not a date (biography chapter label) - needs a decision
+GC017,biography,Chief Justice,December 2,,unknown,Not a date (biography chapter label) - needs a decision
+GC018,biography,Retirement Without Retreat,December 2,,unknown,Not a date (biography chapter label) - needs a decision
+GC019,biography,The Elder Statesman,2007-prese,,unknown,Not a date (biography chapter label) - needs a decision
+GC020,biography,EPILOGUE: The Judgment That Endures,Retrospect,,unknown,Not a date (biography chapter label) - needs a decision
+GC021,biography,Chapter 1: Early Years,1936-1945,1936-01-01,period,"Period label ""1936-1945"": start year proposed; keep the label in a period field"
+GC022,biography,Chapter 2: Return to the City - Boyhood Years,1945-1954,1945-01-01,period,"Period label ""1945-1954"": start year proposed; keep the label in a period field"
+GC023,biography,Chapter 3: The Rise of the Student Leader,1955-1958,1955-01-01,period,"Period label ""1955-1958"": start year proposed; keep the label in a period field"
+GC024,biography,Chapter 4: The Law Student,1956-1960,1956-01-01,period,"Period label ""1956-1960"": start year proposed; keep the label in a period field"
+GC025,biography,Chapter 5: Keeper of Dreams,1958-1961,1958-01-01,period,"Period label ""1958-1961"": start year proposed; keep the label in a period field"
+GC026,biography,Chapter 6: The Lawyer,1961-1963,1961-01-01,period,"Period label ""1961-1963"": start year proposed; keep the label in a period field"
+GC027,biography,Chapter 7: Lawyer in the Marketplace,1963-1986,1963-01-01,period,"Period label ""1963-1986"": start year proposed; keep the label in a period field"
+GC028,biography,Chapter 8: Turning Point,1986,1986-01-01,year,Year only
+GC029,biography,"Chapter 9: Among Bishops, Cardinals and a Pope",1989-2002,1989-01-01,period,"Period label ""1989-2002"": start year proposed; keep the label in a period field"
+GC030,biography,Chapter 10: Appointment to the Supreme Court,1987-1995,1987-01-01,period,"Period label ""1987-1995"": start year proposed; keep the label in a period field"
+GC031,biography,Chapter 11: Associate Justice,1995-2005,1995-01-01,period,"Period label ""1995-2005"": start year proposed; keep the label in a period field"
+GC032,biography,Chapter 12: Guided by the Word,January 20,,unknown,Not a date (biography chapter label) - needs a decision
+GC033,biography,Chapter 13: 21st Chief Justice of the Philippines,December 7,,unknown,Not a date (biography chapter label) - needs a decision
+GC034,biography,Chapter 14: Liberty and Prosperity (Life after the Supreme Court),December 7,,unknown,Not a date (biography chapter label) - needs a decision
+GC035,biography,Chapter 15: Papal Award,circa 2024,,unknown,Not a date (biography chapter label) - needs a decision
+BA001,book,With Due Respect (Vol. 1) -- Ch. 6: Can GMA Reign Beyond 2010?,7/20/2008,2008-07-20,day,US M/D/YYYY -> ISO
+BA002,book,With Due Respect (Vol. 1) -- Ch. 8: Limits of Presidential Power,8/23/2009,2009-08-23,day,US M/D/YYYY -> ISO
+BA003,book,With Due Respect (Vol. 1) -- Ch. 9: Dress Her Down Anyway,12/13/2009,2009-12-13,day,US M/D/YYYY -> ISO
+BA004,book,With Due Respect (Vol. 2) -- Ch. 1: An Extraordinary Court,12/28/2008,2008-12-28,day,US M/D/YYYY -> ISO
+BA006,book,With Due Respect (Vol. 2) -- Ch. 4: Uphold the Constitution,12/20/2009,2009-12-20,day,US M/D/YYYY -> ISO
+BA007,book,With Due Respect (Vol. 2) -- Ch. 6: Midnight Chief Justice,3/28/2010,2010-03-28,day,US M/D/YYYY -> ISO
+BA008,book,With Due Respect (Vol. 2) -- Ch. 8: Who Will Discipline Supreme Court Justices?,8/22/2010,2010-08-22,day,US M/D/YYYY -> ISO
+BA010,book,With Due Respect (Vol. 3) -- Ch. 2: Legal Empowerment of the Poor,7/29/2007,2007-07-29,day,US M/D/YYYY -> ISO
+BA012,book,With Due Respect (Vol. 4) -- Ch. 3: Hail to the Court; A Toast to Truth,2/17/2008,2008-02-17,day,US M/D/YYYY -> ISO
+BA013,book,With Due Respect (Vol. 4) -- Ch. 4: Should Libel be Decriminalized?,4/27/2008,2008-04-27,day,US M/D/YYYY -> ISO
+BA014,book,With Due Respect (Vol. 4) -- Ch. 6: Questions on the MOA-AD Decision,10/26/2008,2008-10-26,day,US M/D/YYYY -> ISO
+BA015,book,"With Due Respect (Vol. 4) -- Ch. 7: Divorce, Pinoy Style",2/21/2010,2010-02-21,day,US M/D/YYYY -> ISO
+BA017,book,With Due Respect (Vol. 4) -- Ch. 9: Invalid Plea Bargain,1/30/2011,2011-01-30,day,US M/D/YYYY -> ISO
+BA018,book,With Due Respect (Vol. 4) -- Ch. 10: Tread Cautiously and Prudently,2/27/2011,2011-02-27,day,US M/D/YYYY -> ISO
+BA020,book,With Due Respect (Vol. 5) -- Ch. 2: Incomplete Victory,5/13/2007,2007-05-13,day,US M/D/YYYY -> ISO
+BA021,book,"With Due Respect (Vol. 5) -- Ch. 3: Law, Mathematics, and the Party-list System",7/15/2007,2007-07-15,day,US M/D/YYYY -> ISO
+BA022,book,With Due Respect (Vol. 5) -- Ch. 4: Criticisms of the Panganiban Formula,7/22/2007,2007-07-22,day,US M/D/YYYY -> ISO
+BA023,book,With Due Respect (Vol. 5) -- Ch. 5: Q&A on the Comelec Leadership,10/14/2007,2007-10-14,day,US M/D/YYYY -> ISO
+BA024,book,With Due Respect (Vol. 5) -- Ch. 6: Party-list Imponderables,4/26/2009,2009-04-26,day,US M/D/YYYY -> ISO
+BA025,book,With Due Respect (Vol. 5) -- Ch. 7: Lessons in Automating Elections,5/24/2009,2009-05-24,day,US M/D/YYYY -> ISO
+BA026,book,With Due Respect (Vol. 6) -- Ch. 4: My Choices for May 10,4/25/2010,2010-04-25,day,US M/D/YYYY -> ISO
+BA028,book,With Due Respect (Vol. 7) -- Ch. 2: Not Easy to be a Cabinet Member,6/20/2010,2010-06-20,day,US M/D/YYYY -> ISO
+BA029,book,With Due Respect (Vol. 7) -- Ch. 13: Why the CBCP Does Not Choose Candidates,3/18/2007,2007-03-18,day,US M/D/YYYY -> ISO
+BA032,book,A Centenary of Justice -- Ch. 2: Old Doctrines and New Paradigms,2026-01-12,2001-12-01,month,D-2: A Centenary of Justice was printed December 2001; current value is wrong
+BA033,book,A Centenary of Justice -- Ch. 3: Obra Maestra,2026-01-12,2001-12-01,month,D-2: A Centenary of Justice was printed December 2001; current value is wrong
+BA034,book,A Centenary of Justice -- Ch. 10: Ready for the Bio-Age,2026-01-12,2001-12-01,month,D-2: A Centenary of Justice was printed December 2001; current value is wrong
+BA035,book,A Centenary of Justice -- Ch. 11: E-Values for Lawyers,2026-01-12,2001-12-01,month,D-2: A Centenary of Justice was printed December 2001; current value is wrong
+BA036,book,A Centenary of Justice -- Ch. 13: Estrada v. Desierto / Estrada v. Arroyo -- Constitutiona,2026-01-12,2001-12-01,month,D-2: A Centenary of Justice was printed December 2001; current value is wrong
+BA037,book,A Centenary of Justice -- Ch. 14: The Death Penalty Cases -- More of the Same,2026-01-12,2001-12-01,month,D-2: A Centenary of Justice was printed December 2001; current value is wrong
+BA038,book,A Centenary of Justice -- Ch. 17: Perez v. Estrada -- Live Radio-TV Coverage: Bane or Boon,2026-01-12,2001-12-01,month,D-2: A Centenary of Justice was printed December 2001; current value is wrong
+BA039,book,A Centenary of Justice -- Ch. 19: Bengson v. House of Representatives Electoral Tribunal -,2026-01-12,2001-12-01,month,D-2: A Centenary of Justice was printed December 2001; current value is wrong
+BA042,book,The Bio-Age Dawns on the Judiciary -- Ch. 7: Socrates v. Comelec — The Three-Term Limit,2003.0,2003-01-01,year,"Year stored as a float (Bio-Age, 2003)"
+BA043,book,The Bio-Age Dawns on the Judiciary -- Ch. 8: Republic v. Meralco — Oral Argument,2003.0,2003-01-01,year,"Year stored as a float (Bio-Age, 2003)"
+BA044,book,The Bio-Age Dawns on the Judiciary -- Ch. 9: PCGG v. Desierto — Ombudsman Powers,2003.0,2003-01-01,year,"Year stored as a float (Bio-Age, 2003)"
+BA045,book,The Bio-Age Dawns on the Judiciary -- Ch. 10: Agan v. Piatco — Validity of a BOT Contract,2003.0,2003-01-01,year,"Year stored as a float (Bio-Age, 2003)"
+BA046,book,The Bio-Age Dawns on the Judiciary -- Ch. 11: Ang Bagong Bayani v. Comelec — Party-List,2003.0,2003-01-01,year,"Year stored as a float (Bio-Age, 2003)"
+BA047,book,The Bio-Age Dawns on the Judiciary -- Ch. 12: Macalintal v. Comelec — Absentee Voting,2003.0,2003-01-01,year,"Year stored as a float (Bio-Age, 2003)"
+BA048,book,The Bio-Age Dawns on the Judiciary -- Ch. 13: New Rules on Psychological Incapacity,2003.0,2003-01-01,year,"Year stored as a float (Bio-Age, 2003)"
+BA049,book,The Bio-Age Dawns on the Judiciary -- Ch. 14: Update on Death Penalty Cases,2003.0,2003-01-01,year,"Year stored as a float (Bio-Age, 2003)"
+BA050,book,The Bio-Age Dawns on the Judiciary -- Appendix C: DNA as Evidence,2003.0,2003-01-01,year,"Year stored as a float (Bio-Age, 2003)"
+BB001,book,With Due Respect (Vol. 7) -- Ch. 5: Tycoon and Philanthropist,5/17/2009,2009-05-17,day,US M/D/YYYY -> ISO
+BB002,book,With Due Respect (Vol. 7) -- Ch. 7: Understanding China,12/21/2008,2008-12-21,day,US M/D/YYYY -> ISO
+BB003,book,With Due Respect (Vol. 7) -- Ch. 9: GMA's Legacy in Education,6/22/2008,2008-06-22,day,US M/D/YYYY -> ISO
+BB004,book,With Due Respect (Vol. 7) -- Ch. 10: Intangible Wealth of Nations,12/23/2007,2007-12-23,day,US M/D/YYYY -> ISO
+BB005,book,With Due Respect (Vol. 7) -- Ch. 11: Soul of the Ramos Presidency,8/26/2007,2007-08-26,day,US M/D/YYYY -> ISO
+BB006,book,A Centenary of Justice -- Ch. 15: Cruz v. Secretary of Environment -- IPRA: Social Justice,2026-01-12,2001-12-01,month,D-2: A Centenary of Justice was printed December 2001; current value is wrong
+BB007,book,A Centenary of Justice -- Ch. 16: Ang Bagong Bayani-OFW Labor Party v. Comelec -- The Part,2026-01-12,2001-12-01,month,D-2: A Centenary of Justice was printed December 2001; current value is wrong
+BC001,book,With Due Respect (Vol. 7) -- Ch. 3: Justice and Love on Valentine's Day,2/14/2010,2010-02-14,day,US M/D/YYYY -> ISO
+BC004,book,With Due Respect (Vol. 7) -- Ch. 8: Meek and Humble of Heart,8/24/2008,2008-08-24,day,US M/D/YYYY -> ISO
+BC005,book,"With Due Respect (Vol. 7) -- Ch. 12: Japan, the New and the Old",6/24/2007,2007-06-24,day,US M/D/YYYY -> ISO
+BC006,book,A Centenary of Justice -- Ch. 8: The Inspiration of the Judiciary,2026-01-12,2001-12-01,month,D-2: A Centenary of Justice was printed December 2001; current value is wrong
+BC007,book,A Centenary of Justice -- Appendix A: A Salute to My Mentor (Jovito R. Salonga),2026-01-12,2001-12-01,month,D-2: A Centenary of Justice was printed December 2001; current value is wrong
+BC008,book,A Centenary of Justice -- Appendix B: Justice Is God's Work,2026-01-12,2001-12-01,month,D-2: A Centenary of Justice was printed December 2001; current value is wrong
+BC012,book,Justice and Faith -- Ch. 5: Profiles of Supreme Court Justices,10/22/1997,1997-10-22,day,US M/D/YYYY -> ISO
+BC013,book,Justice and Faith -- Ch. 6: Faith Brought Me to the Supreme Court,10/17/1995,1995-10-17,day,US M/D/YYYY -> ISO
+BC014,book,Justice and Faith -- Ch. 7: Faith in God and in Ourselves,3/21/1997,1997-03-21,day,US M/D/YYYY -> ISO
+BC016,book,"Justice and Faith -- Ch. 9: Jesus, Shepherd and Leader of All Time",5/14/1995,1995-05-14,day,US M/D/YYYY -> ISO
+BC017,book,Justice and Faith -- Ch. 10: Offering to the Father,3/28/1997,1997-03-28,day,US M/D/YYYY -> ISO
+BC018,book,Justice and Faith -- Ch. 11: Invocation,9/21/1997,1997-09-21,day,US M/D/YYYY -> ISO
+BC019,book,Justice and Faith -- Appendix A: A Man of God and of the Law,10/29/1997,1997-10-29,day,US M/D/YYYY -> ISO
+BC021,book,The Bio-Age Dawns on the Judiciary -- Foreword (by CJ Hilario G. Davide Jr.),2003.0,2003-01-01,year,"Year stored as a float (Bio-Age, 2003)"
+BC022,book,The Bio-Age Dawns on the Judiciary -- Preface,2003.0,2003-01-01,year,"Year stored as a float (Bio-Age, 2003)"
+BD001,book,With Due Respect (Vol. 2) -- Ch. 3: How the SC Decides Cases,6/21/2009,2009-06-21,day,US M/D/YYYY -> ISO
+BD002,book,With Due Respect (Vol. 2) -- Ch. 5: Chief Justice of the Philippines,12/27/2009,2009-12-27,day,US M/D/YYYY -> ISO
+BD004,book,With Due Respect (Vol. 3) -- Ch. 1: Mediation: A Useful Tool to Unclog Dockets,5/27/2007,2007-05-27,day,US M/D/YYYY -> ISO
+BD006,book,With Due Respect (Vol. 3) -- Ch. 4: Reforming the Judicial and Bar Council,9/16/2007,2007-09-16,day,US M/D/YYYY -> ISO
+BD007,book,"With Due Respect (Vol. 3) -- Ch. 5: How to Pass, Nay, Top the Bar Exams",4/20/2008,2008-04-20,day,US M/D/YYYY -> ISO
+BD010,book,A Centenary of Justice -- Ch. 1: A Renaissance in the Judiciary,2026-01-12,2001-12-01,month,D-2: A Centenary of Justice was printed December 2001; current value is wrong
+BD011,book,A Centenary of Justice -- Ch. 4: The Centenary and the Academe,2026-01-12,2001-12-01,month,D-2: A Centenary of Justice was printed December 2001; current value is wrong
+BD012,book,"A Centenary of Justice -- Ch. 5: Mediation, an Old Method with a New Twist",2026-01-12,2001-12-01,month,D-2: A Centenary of Justice was printed December 2001; current value is wrong
+BD013,book,A Centenary of Justice -- Ch. 6: A Meaningful Centenary,2026-01-12,2001-12-01,month,D-2: A Centenary of Justice was printed December 2001; current value is wrong
+BD014,book,A Centenary of Justice -- Ch. 7: Employee Participation During the Centenary,2026-01-12,2001-12-01,month,D-2: A Centenary of Justice was printed December 2001; current value is wrong
+BD015,book,A Centenary of Justice -- Ch. 9: A Benchbook for Judicial Excellence,2026-01-12,2001-12-01,month,D-2: A Centenary of Justice was printed December 2001; current value is wrong
+BD016,book,A Centenary of Justice -- Ch. 12: Even the Supreme Court Needs Public Relations,2026-01-12,2001-12-01,month,D-2: A Centenary of Justice was printed December 2001; current value is wrong
+BD017,book,A Centenary of Justice -- Ch. 18: Firestone Ceramics v. Court of Appeals -- Sauce for the ,2026-01-12,2001-12-01,month,D-2: A Centenary of Justice was printed December 2001; current value is wrong
+BD019,book,A Centenary of Justice -- Appendix C: A Prelude to Paperless Courts,2026-01-12,2001-12-01,month,D-2: A Centenary of Justice was printed December 2001; current value is wrong
+BD021,book,Justice and Faith -- Ch. 4: Advice for Aspiring Attorneys,3/29/1995,1995-03-29,day,US M/D/YYYY -> ISO
+BD022,book,The Bio-Age Dawns on the Judiciary -- Ch. 2: Judicial Globalization,2003.0,2003-01-01,year,"Year stored as a float (Bio-Age, 2003)"
+BD023,book,The Bio-Age Dawns on the Judiciary -- Ch. 3: A Primer on the APJR,2003.0,2003-01-01,year,"Year stored as a float (Bio-Age, 2003)"
+BD024,book,The Bio-Age Dawns on the Judiciary -- Ch. 4: The Essentials of Legal Education,2003.0,2003-01-01,year,"Year stored as a float (Bio-Age, 2003)"
+BD025,book,The Bio-Age Dawns on the Judiciary -- Ch. 5: Excellence and Ethics in Appellate Practice,2003.0,2003-01-01,year,"Year stored as a float (Bio-Age, 2003)"
+BD026,book,The Bio-Age Dawns on the Judiciary -- Ch. 6: Veracious and Venerable Magistrate,2003.0,2003-01-01,year,"Year stored as a float (Bio-Age, 2003)"
+BE002,book,With Due Respect (Vol. 1) -- Ch. 2: For or Against GMA,9/30/2007,2007-09-30,day,US M/D/YYYY -> ISO
+BE004,book,With Due Respect (Vol. 1) -- Ch. 4: Untrammeled Search for Truth,3/16/2008,2008-03-16,day,US M/D/YYYY -> ISO
+BE005,book,"With Due Respect (Vol. 1) -- Ch. 5: Country, Democracy, and Economy",3/23/2008,2008-03-23,day,US M/D/YYYY -> ISO
+BE006,book,With Due Respect (Vol. 1) -- Ch. 7: Will GMA Win the Cha-cha War?,7/27/2008,2008-07-27,day,US M/D/YYYY -> ISO
+BE007,book,With Due Respect (Vol. 1) -- Ch. 10: How GMA Can Prolong Her Stay,1/31/2010,2010-01-31,day,US M/D/YYYY -> ISO
+BE009,book,With Due Respect (Vol. 3) -- Ch. 7: CJ Puno and Ombudsman Gutierrez,1/25/2009,2009-01-25,day,US M/D/YYYY -> ISO
+BE012,book,With Due Respect (Vol. 4) -- Ch. 2: Suppressing Neri's Testimony,11/25/2007,2007-11-25,day,US M/D/YYYY -> ISO
+BE015,book,With Due Respect (Vol. 5) -- Ch. 9: 'Hindi Puede ang Puede na',4/18/2010,2010-04-18,day,US M/D/YYYY -> ISO
+BE018,book,With Due Respect (Vol. 6) -- Ch. 2: How Do You Solve a Problem Like Estrada?,10/25/2009,2009-10-25,day,US M/D/YYYY -> ISO
+BE021,book,With Due Respect (Vol. 6) -- Ch. 6: Thunderous Triumph of People Power,5/16/2010,2010-05-16,day,US M/D/YYYY -> ISO
+BE022,book,With Due Respect (Vol. 6) -- Ch. 7: Noynoy's Most Vexing Problem,5/23/2010,2010-05-23,day,US M/D/YYYY -> ISO
+BE023,book,"With Due Respect (Vol. 6) -- Ch. 8: Destiny and Legacy, Not Dynasty",5/30/2010,2010-05-30,day,US M/D/YYYY -> ISO
+BE024,book,With Due Respect (Vol. 6) -- Ch. 9: Exercise in Courage,7/18/2010,2010-07-18,day,US M/D/YYYY -> ISO
+BE025,book,With Due Respect (Vol. 6) -- Ch. 10: How P-Noy Can Win the Supreme Court,10/24/2010,2010-10-24,day,US M/D/YYYY -> ISO
+BE026,book,The Bio-Age Dawns on the Judiciary -- Ch. 1: Enter the Bio-Age,2003.0,2003-01-01,year,"Year stored as a float (Bio-Age, 2003)"
+BE027,book,The Bio-Age Dawns on the Judiciary -- Appendix A: Life Technologies and the Rule of Law,2003.0,2003-01-01,year,"Year stored as a float (Bio-Age, 2003)"
+BE028,book,The Bio-Age Dawns on the Judiciary -- Appendix B: GMO & Food Products,2003.0,2003-01-01,year,"Year stored as a float (Bio-Age, 2003)"
+BE029,book,The Bio-Age Dawns on the Judiciary -- Appendix D: Being Moral in the Brave New World,2003.0,2003-01-01,year,"Year stored as a float (Bio-Age, 2003)"

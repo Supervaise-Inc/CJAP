@@ -1,0 +1,11 @@
+{
+  "add": [],
+  "merge": {
+    "x": {
+      "add_variants": [
+        "y"
+      ]
+    }
+  },
+  "remove": []
+}

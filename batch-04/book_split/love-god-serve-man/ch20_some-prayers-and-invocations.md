@@ -1,0 +1,41 @@
+# Chapter 20: Some Prayers and Invocations
+
+(Editor's note: Atty. Artemio V. Panganiban has been invited to pray publicly during retreats and prayer meetings of various lay and clergy groups and to deliver invocations during meetings of civic and professional organizations. Here are a few samples of his prayers: (1) during the National Day of Prayer and Renewal held at the Rizal Park [Luneta Grandstand], Manila on December 14, 1991; (2) invocation delivered before the regular weekly meeting of the Rotary Club of Manila on June 9, 1994 at the Manila Hotel; (3)
+
+invocation during the book launching of "Church in Politics" authored by Bishop Teodoro C. Bacani Jr. on January 16, 1992 at Villa San Miguel [Jaime Cardinal Sin's residence], Mandaluyong City; and (4) invocation during the meeting of the Rotary Club of Manila on July 29, 1993 at Manila Hotel Fiesta Pavilion.)
+
+1. Prayer during the National Day of Prayer and renewal held a t the Rizal Park (Luneta Grandstand), Manila on December 14, 1991 God and Father of all families on earth, we come to You as households united by the bond of faith in Your providence for us. We come in worship and adoration for we know that it is solely Your immeasurable love for us that continues to save and preserve us from the many trials, agonies and sinfulness that plague our country. Dear Lord, help us to know the urgent need of families to pray to You in unity as one people and one nation. Help us to see the pivotal role of strong families in shaping a strong society. Help us to realize the importance of families in guiding our nation toward the path of peace and harmony. And help us to see the value of peace and harmony in our homes as the lasting basis of genuine peace and harmony in the world.
+
+O Lord, You are our strength and our hope. In You we live and move and have our being. During this first national day of prayer and renewal, we fervently join our voices in spirit, in truth, in faith and with full confidence that when families pray together, they stay together and become living stones in building a society.
+
+Here we are, O Lord, families from different sections of our land, from different professions and vocations with different roles and work but ever of one mind and one spirit in our singular prayer for the mighty outpouring of Your blessings for the healing and prosperity of our people. May the love and peace that You bring in our homes be the love and peace that will fill our land.
+
+O heavenly Father, we devoutly ask all these in the powerful name of Your son Jesus, who lives and rules with You in the unity of the Holy Spirit, one God, forever and ever. Amen.
+
+2. Invocation delivered before the regular weekly meeting of the Rotary Club of Manila on June 9, 1994 at the Manila Hotel Lord, we acknowledge Your presence in our meeting today. Lord, forgive us for the times we neglected or doubted Your real presence in our lives and careers because we were focused on our weaknesses, afflictions and failures rather than on Your dominion, healing power and love for us. We thank You Lord for our guest speaker, the Honorable Salvador H. Laurel. Please anoint him as he articulates to us his vision of a country transformed and a people renewed in Your Spirit. We praise You Lord for providing us, at long last, with enough electric power to move our industries, light our homes and air-condition our offices, but we ask You even more ardently to
+
+provide us Your divine power to free our minds from the darkness of ignorance, sophistry and self-righteousness.
+
+We thank You Lord for granting us the freedoms of assembly and speech to work for the human and political rights of the people of East Timor and elsewhere, but we pray even more fervently to grant us greater zeal in working for our own people's liberation from hunger, injustice, poverty and disease.
+
+We glorify you Lord for giving Rotarians the many desirable things that money can buy, like comfortable homes, fine clothing and well-engineered cars but we ask You even more intensely for the wisdom to seek the things that money cannot buy, like integrity, discipline, honor, hard work and faith in God.
+
+Finally, we thank You Lord for helping us attain personal prosperity, success and good health to enjoy Your gift of temporal life "here and now" on this earth, but we fall on our knees and pray most humbly and most longingly for the eternal peace, joy and love that Your reserve for Your faithful children in the life hereafter in heaven. Amen.
+
+"Church in Politics" authored by Bishop
+
+Teodoro C. Bacani Jr. on January 16, 1992 at
+
+Villa San Miguel (Jaime Cardinal Sin's residence), Mandaluyong City Heavenly Father, creator of all things visible and invisible, we thank You for gathering us today in this launching of the book "Church in Politics." We thank You most especially for anointing our beloved Bishop Teodoro C. Bacani Jr. and for giving him the inspiration, wisdom and vision to write this volume which is so necessary to enable the Parish Pastoral Council for Responsible Voting to implement its assigned task of transforming the political
+
+life of our people as an indispensable part of their integral or total development as Christians.
+
+Lord, please enable us to proclaim, to propagate, to implement and to give life to the teachings of this book. Lord, You are our fortress and our strength. We are completely depending on You as we go into battle in Your political vineyard. We fervently ask for courage and endurance to be able to combat the evils of guns, goons and gold and to uphold in their stead the blessings of grace, gospel and God. Empower us to be victorious over the politics of patronage, payoff and personalities and to promote in their stead, the politics of principles, platform and prayers. Grant us, O Lord, the wisdom and the power to elect into office committed men and women who are Maka-Diyos, Maka-Bayan, Maka-Tao at Maka- Mahirap.
+
+Together with the Blessed Mother, we ask all these through Your son Jesus, our Savior and King, who lives and rules with You. in the unity of the Holy Spirit, one God forever and ever. Amen.
+
+4. Invocation during the meeting of the Rotary Club of Manila on July 29, 1993 at Manila Hotel Fiesta Pavilion Heavenly Father, we know You are here in our gathering this noon. Yes Lord, we proclaim and celebrate Your presence amongst us.. around us. within us.. in our hearts and in our spirits. molding us.. teaching us... inspiring us.. empowering us... healing us. and leading us into Your everlasting Kingdom. Lord, we ask for peace and prosperity for our land, sagacity and integrity for our leaders, dignity and solidarity for our people. We pray for a community of believers where the weak shall be strong and the strong shall be just and the just shall be compassionate. We ask for a nation sublimated in prayer, united in mind and mission, tirelessly toiling, that Your will be done in our country as it is in heaven.
+
+Loving Father, we plead for a special outpouring of Your graces for our guest speaker this afternoon, Executive Secretary Teofisto Guingona Jr. Anoint him with Your Holy Spirit and use him as Your instrument so that the words that will pour forth from his mouth will be the prophetic message that You would want us to hear and to heed.
+
+All these we pray in the mighty name of Your Son Jesus, who lives and rules with You in the unity of the Holy Spirit, one God forever and ever. Amen.

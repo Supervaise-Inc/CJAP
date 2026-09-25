@@ -1,0 +1,45 @@
+# Chapter 12: The Challenge of ADR
+
+I am pleased to meet all of you during this two-day "Conference on Arbitration for the Judiciary." Despite my hectic schedule, I cannot pass up the chance to attend this closing ceremony because of my special affinity with the cause of arbitration.
+
+As you may know, among the things I want to focus on during my term as Chief Justice are four acute problems of the judiciary: (a) limited access to justice by the poor, (b) corruption, (c) incompetence, and (d) delay in the delivery of quality judgments. I refer to these four as the ACID problems that corrode justice.
+
+One of the ways of avoiding delay is to resort to alternative dispute resolution methods, particularly arbitration. I happen to believe that an out-of-court settlement of a controversy usually works well for the parties and the courts. It is fast and efficient; it also decongests court dockets, thereby allowing judges to concentrate on the bigger issues of national interest.
+
+Of course, I am also always happy to accept an invitation from Justice Ameurfina A. Melencio Herrera, whom I must commend for her tireless efforts to advance alternative modes of settling disputes through the Philippine Judicial Academy (PhilJA). I know she has put in a considerable amount of work and organization in bringing some of you to Manila and liaising with the other sponsors of this conference; namely, the Chartered Institute of Arbitrators (CIArb), Kuala Lumpur Regional Centre for Arbitration (KLRCA), Philippine Dispute Resolution Center, Inc. (PDRCI), United States Agency for International Development (USAID) and The Asia Foundation (TAF).
+
+## Institutionalizing ADR Mechanisms
+
+As I have already mentioned, the Philippine Supreme Court is actively behind efforts to institutionalize alternative dispute resolution (ADR) mechanisms. Upon the recommendation of the PhilJA, the Court resolved to integrate court-annexed mediation as a mandatory component of pretrial at the trial court level. It also recently approved recourse to mediation even at the appellate court level.
+
+Moreover, the Supreme Court supports arbitration by encouraging its use in most commercial and civil controversies. Thus, the Court always defers to contractual provisions, by which the parties voluntarily agree to refer to arbitral bodies disputes that may arise in the course of their relations. Indeed, it encourages ADR especially in business transactions. This concept has also been integrated into the many judge-to-judge dialogues that have been held, in order to stress the importance of arbitration in de-clogging court dockets and in speeding up the delivery of justice.
+
+I am sure the arbitration papers and lectures that have been delivered during the past two days have generated fruitful discussions and exchanges of country experiences and best practices. These exchanges make for a much wider and fuller appreciation of the needs and problems of arbitration. I am certain that the participants from the Philippines have learned from Kuala Lumpur and Hong Kong, as well as those by our own.
+
+The presenters from our two neighbor cities have expounded extensively on (1) their own and other countries' laws on and experiences in arbitration; (2) the United Nations Commission on International Trade Law (Uncitral) Model Law, which sets a simple yet effective model arbitration clause, and which has been found useful in interpreting various aspects of national arbitration; (3) salient features of the ration process, particularly the need for an arbitration agreement and party autonomy; (4) the issue arbitrability, mainly the jurisdiction of arbitral mals and the enforceability of their awards; and (5) recourse and enforceability of arbitral awards.
+
+## Problems on Diversity of Arbitration Laws
+
+There is a diversity of arbitration laws in various countries, like those concerning the seat of arbitration, the parties and their arbitration agreements, and the laws of the place of enforcement. Given this diversity, it is but natural that conflicts arise between and among related to the following: (1) existing legislations in our respective countries; (2) the mechanics of providing for an arbitration clause; (3) the choice of arbitrator, changing people's litigious attitudes; (5) the desirability arbitration proceedings; and (6) effective means to enforce or prevent the execution of an arbitral award. The extent and depth of your discussions of these topics indicate how strongly and deeply committed you are to the cause of arbitration.
+
+Indeed, arbitration has metamorphosed into one big endeavor in the past decade or so. This fact is evident, especially in cases involving many complex issues transcending national boundaries - those arising from global trade and investments.
+
+For courts struggling with clogged dockets and case settled out of court free these tribunals from the added of PhilJA's ADR Department, ADR helps "restore the role of the judiciary as the forum of last recourse of disputes that have failed earlier efforts of private accommodation and allow it to focus on issues of public interest."
+
+## How Courts Support Arbitration
+
+ADR - together with efforts to forge and strengthen it - should therefore sit well with the judiciaries of many countries, as it does with the Philippine Supreme Court. I am keenly delighted that you have decided to explore and talk about how courts may support the may do so are (1) settling issues of jurisdiction; (2) providing an interim relief or measure of protection; (3) taking evidence; (4) enforcing or repudiating arbitral a war ds; and 5) en sur in g that the part i es have a full rein on the arbitration process by finding means of keeping courts out of it, such as through anti-suit injunctions or through stays of parallel court proceedings.
+
+Professor Mario B. Valderrama presented quite an interesting discussion on the different approaches to court involvement in arbitration. His discussion was complemented by that of PDRCI President Eduardo Ceniza, who talked about the need for courts to provide interim measures in certain cases. These are cases in which the arbitral tribunal possesses no authority to order provisional or interim measures of protection. This scenario is recognized in Sections 28 and 29 of the Philippine ADR Law.
+
+Of course, we all recognize the difficulty of striking the right balance between the role of courts and that of arbitrators. Issues like those brought forth during the conference may linger for a time, while we look for ways of ironing out wrinkles and providing solutions to problems. New concerns are also most likely to surface in practice, as we grapple with the complexities and nuances of arbitration.
+
+## Cooperating with Foreign Jurisdictions
+
+Facing such problems has always been the way with all great endeavors. Thus, forums like this are enormously important. They help us in (1) finding out how other jurisdictions have successfully dealt with their own problems; (2) sharing what have and have not worked in practice; (3) seeking ways to solve common concerns and issues; and (4) continuously hammering out new approaches to challenges as they come along. Individually, the challenge may seem daunting, but I am confident that collectively we shall all be victorious.
+
+As I close, let me again thank you for inviting me to this conference. I commend every one of you for contributing your thoughts and ideas on how best to push for and optimize the use of arbitration. My hope is for you to continue these productive exchanges, so that all may benefit from your combined wisdom and experience. I shall be very happy to receive a copy of your conference report and shall make every effort to respond both to the issues that are within my competence to address, as well as to changes that the Chief Justice or the Supreme Court has the authority to institute.
+
+To our foreign speakers and participants, I hope you have enjoyed your visit. I bid you adieu. Have a pleasant trip home.
+
+Maraming salamat po.

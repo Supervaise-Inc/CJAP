@@ -1,0 +1,39 @@
+order,book_title,part_label_as_printed,classification,skip_reason,chapter_no,chapter_title,start_page,end_page,word_count,file,collected_piece,original_date,original_outlet,flags
+1,"Transparency, Unanimity & Diversity",Cover title,SKIP,cover,,,,,8,,no,,,
+2,"Transparency, Unanimity & Diversity",About the Author (Supreme Court Public Information Office),SKIP,about the author,,,,,557,,no,,,
+3,"Transparency, Unanimity & Diversity",Epigraph: Matthew 5:14-16,SKIP,epigraph,,,,,67,,no,,,
+4,"Transparency, Unanimity & Diversity",Title page,SKIP,title page,,,,,17,,no,,,
+5,"Transparency, Unanimity & Diversity",Copyright page,SKIP,copyright page,,,,,48,,no,,,
+6,"Transparency, Unanimity & Diversity",Foreword — Chief Justice Hilario G. Davide Jr.,SKIP,foreword (written by someone else),,,,,475,,no,,,
+7,"Transparency, Unanimity & Diversity",Preface — Artemio V. Panganiban,SKIP,preface,,,,,1456,,no,,,candidate
+8,"Transparency, Unanimity & Diversity",Part I — TRANSPARENCY: part title and Prologue,SKIP,part divider + short part prologue that is mainly a guide to the part's chapters,,,,,171,,no,,,
+9,"Transparency, Unanimity & Diversity",Chapter 1. Problems and Solutions,CHAPTER,,1,Problems and Solutions,,,4929,ch01_problems-and-solutions.md,no,,,
+10,"Transparency, Unanimity & Diversity",Chapter 2. Judicial Reform Is Also the Business of Business,CHAPTER,,2,Judicial Reform Is Also the Business of Business,,,3758,ch02_judicial-reform-is-also-the-business-of.md,yes,,Management Association of the Philippines (MAP) meeting,
+11,"Transparency, Unanimity & Diversity","Chapter 3. Microchips, Modems and Media Invade Mount Olympus",CHAPTER,,3,"Microchips, Modems and Media Invade Mount Olympus",,,4192,ch03_microchips-modems-and-media-invade-mount-olympus.md,yes,,Evening address on cyber technology and the Court (occasion not named in the opening),
+12,"Transparency, Unanimity & Diversity",Chapter 4. Paradigms Change But Values Endure,CHAPTER,,4,Paradigms Change But Values Endure,,,2621,ch04_paradigms-change-but-values-endure.md,yes,,University of the East commencement address,
+13,"Transparency, Unanimity & Diversity",Chapter 5. Excellence Is Not Enough,CHAPTER,,5,Excellence Is Not Enough,,,3931,ch05_excellence-is-not-enough.md,yes,,Phi Kappa Phi Honor Society Round Table Conference,
+14,"Transparency, Unanimity & Diversity",Chapter 6. e-Values for the e-Age and Beyond,CHAPTER,,6,e-Values for the e-Age and Beyond,,,3853,ch06_e-values-for-the-e-age-and.md,yes,,CAP event honoring President Sergio Osmeña,
+15,"Transparency, Unanimity & Diversity",Part II — UNANIMITY: part title and Prologue,SKIP,part divider + short part prologue that is mainly a guide to the part's chapters,,,,,195,,no,,,
+16,"Transparency, Unanimity & Diversity",Chapter 7. Ty v. Trampe: Validity of Increases in Real Estate Taxes,CHAPTER,,7,Ty v. Trampe: Validity of Increases in Real Estate Taxes,,,1428,ch07_ty-v-trampe.md,no,,,
+17,"Transparency, Unanimity & Diversity",Chapter 8. First Philippine International Bank v. Court of Appeals: Honoring a Perfected Contract,CHAPTER,,8,First Philippine International Bank v. Court of Appeals: Honoring a Perfected Contract,,,3448,ch08_first-philippine-international-bank-v-court-of.md,no,,,
+18,"Transparency, Unanimity & Diversity",Chapter 9. The PCGG Cases: Recovery of Ill-Gotten Wealth,CHAPTER,,9,The PCGG Cases: Recovery of Ill-Gotten Wealth,,,4625,ch09_the-pcgg-cases.md,no,,,
+19,"Transparency, Unanimity & Diversity",Chapter 10. Tañada v. Angara: The Advent of Globalization in the Philippines,CHAPTER,,10,Tañada v. Angara: The Advent of Globalization in the Philippines,,,2836,ch10_tanada-v-angara.md,no,,,
+20,"Transparency, Unanimity & Diversity",Chapter 11. The NLRC Cases: Finding the Right Balance Between Labor and Management,CHAPTER,,11,The NLRC Cases: Finding the Right Balance Between Labor and Management,,,4294,ch11_the-nlrc-cases.md,no,,,
+21,"Transparency, Unanimity & Diversity",Chapter 12. Republic v. Molina: Setting the Procedure for Nullifying a Marriage,CHAPTER,,12,Republic v. Molina: Setting the Procedure for Nullifying a Marriage,,,1940,ch12_republic-v-molina.md,no,,,
+22,"Transparency, Unanimity & Diversity",Chapter 13. Obosa v. Court of Appeals: Authority to Approve Bail Bonds in Appealed Cases,CHAPTER,,13,Obosa v. Court of Appeals: Authority to Approve Bail Bonds in Appealed Cases,,,1201,ch13_obosa-v-court-of-appeals.md,no,,,
+23,"Transparency, Unanimity & Diversity",Chapter 14. Cabaero v. Cantos: May an Answer With Counterclaim Be Filed in a Criminal Case?,CHAPTER,,14,Cabaero v. Cantos: May an Answer With Counterclaim Be Filed in a Criminal Case?,,,2170,ch14_cabaero-v-cantos.md,no,,,
+24,"Transparency, Unanimity & Diversity",Chapter 15. Ho v. People: Basis for Arrest Warrant,CHAPTER,,15,Ho v. People: Basis for Arrest Warrant,,,2428,ch15_ho-v-people.md,no,,,
+25,"Transparency, Unanimity & Diversity",Part III — DIVERSITY: part title and Prologue,SKIP,part divider + short part prologue that is mainly a guide to the part's chapters,,,,,165,,no,,,
+26,"Transparency, Unanimity & Diversity",Chapter 16. Death Penalty Cases: A Moratorium on Death,CHAPTER,,16,Death Penalty Cases: A Moratorium on Death,,,8794,ch16_death-penalty-cases.md,no,,,long
+27,"Transparency, Unanimity & Diversity",Chapter 17. Serrano v. NLRC: Are Workers Entitled to Due Process Prior to Dismissal?,CHAPTER,,17,Serrano v. NLRC: Are Workers Entitled to Due Process Prior to Dismissal?,,,10638,ch17_serrano-v-nlrc.md,no,,,long
+28,"Transparency, Unanimity & Diversity",Chapter 18. Secretary of Justice v. Lantion and Jimenez: Due Process in Extradition Cases,CHAPTER,,18,Secretary of Justice v. Lantion and Jimenez: Due Process in Extradition Cases,,,3161,ch18_secretary-of-justice-v-lantion-and-jimenez.md,no,,,
+29,"Transparency, Unanimity & Diversity",Chapter 19. Veterans Federation Party v. Comelec The Party-List System — a Disagreement on Mathematics,CHAPTER,,19,Veterans Federation Party v. Comelec The Party-List System — a Disagreement on Mathematics,,,7173,ch19_veterans-federation-party-v-comelec.md,no,,,long
+30,"Transparency, Unanimity & Diversity",Chapter 20. ABS-CBN v. Comelec: Exit Polls — a New Paradigm of Free Expression,CHAPTER,,20,ABS-CBN v. Comelec: Exit Polls — a New Paradigm of Free Expression,,,3701,ch20_abs-cbn-v-comelec.md,no,,,
+31,"Transparency, Unanimity & Diversity",Chapter 21. Pimentel v. Aguirre: Upholding the Fiscal Autonomy of Local Government Units,CHAPTER,,21,Pimentel v. Aguirre: Upholding the Fiscal Autonomy of Local Government Units,,,3704,ch21_pimentel-v-aguirre.md,no,,,
+32,"Transparency, Unanimity & Diversity",Chapter 22. Firestone Ceramics v. Court of Appeals: Sauce for the Poor Goose and the Rich Gander,CHAPTER,,22,Firestone Ceramics v. Court of Appeals: Sauce for the Poor Goose and the Rich Gander,,,2369,ch22_firestone-ceramics-v-court-of-appeals.md,no,,,
+33,"Transparency, Unanimity & Diversity",Chapter 23. Basher v. Comelec: Resolving “Insignificant Cases”,CHAPTER,,23,Basher v. Comelec: Resolving “Insignificant Cases”,,,2605,ch23_basher-v-comelec.md,no,,,
+34,"Transparency, Unanimity & Diversity",Chapter 24. Mercado v. Tan: Is a Judicial Declaration of Nullity of a Prior Marriage Needed to Abate Bigamy?,CHAPTER,,24,Mercado v. Tan: Is a Judicial Declaration of Nullity of a Prior Marriage Needed to Abate Bigamy?,,,3461,ch24_mercado-v-tan.md,no,,,
+35,"Transparency, Unanimity & Diversity","Appendix A. Chief Justice Davide: A Man of Integrity, Simplicity And Dedication",SKIP,appendices,,,,,985,,no,,,candidate
+36,"Transparency, Unanimity & Diversity",Appendix B. An Overview of the Centenary Celebrations,SKIP,appendices,,,,,1477,,no,,,candidate
+37,"Transparency, Unanimity & Diversity","Appendix C. Service, Excellence and Truth",SKIP,appendices,,,,,2667,,no,,,candidate
+38,"Transparency, Unanimity & Diversity",Index,SKIP,index,,,,,2373,,no,,,

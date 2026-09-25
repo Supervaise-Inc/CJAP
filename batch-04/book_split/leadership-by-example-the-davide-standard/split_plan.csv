@@ -1,0 +1,21 @@
+order,book_title,part_label_as_printed,classification,skip_reason,chapter_no,chapter_title,start_page,end_page,word_count,file,collected_piece,original_date,original_outlet,flags
+1,Leadership by Example: The Davide Standard,Title (cover title and author line),SKIP,title page,,,,,10,,no,,,
+2,Leadership by Example: The Davide Standard,Epigraph: Isaiah 55:10-11,SKIP,epigraph,,,,,73,,no,,,
+3,Leadership by Example: The Davide Standard,Foreword — Chief Justice Hilario G. Davide Jr.,SKIP,foreword (written by someone else),,,,,213,,no,,,
+4,Leadership by Example: The Davide Standard,Preface — Artemio V. Panganiban,SKIP,preface,,,,,971,,no,,,candidate
+5,Leadership by Example: The Davide Standard,Part I: TOWARDS AN IDEAL JUDICIARY (part title),SKIP,title page (part divider),,,,,4,,no,,,
+6,Leadership by Example: The Davide Standard,Chapter One. Conscience of Society,CHAPTER,,1,Conscience of Society,,,1090,ch01_conscience-of-society.md,yes,,"Speech at the retirement ceremonies for Justice Antonio M. Martinez (the book dates it February 1, 1999)",
+7,Leadership by Example: The Davide Standard,Chapter Two. A Friendly Court,CHAPTER,,2,A Friendly Court,,,522,ch02_a-friendly-court.md,no,,,
+8,Leadership by Example: The Davide Standard,Chapter Three. Attributes of a Good Judge,CHAPTER,,3,Attributes of a Good Judge,,,1677,ch03_attributes-of-a-good-judge.md,no,,,
+9,Leadership by Example: The Davide Standard,Chapter Four. Chief Justice Davide: An Introduction,CHAPTER,,4,Chief Justice Davide: An Introduction,,,918,ch04_chief-justice-davide-an-introduction.md,yes,,Speech introducing Chief Justice Davide as guest speaker (occasion not named in the text),
+10,Leadership by Example: The Davide Standard,Chapter Five. Setting the Standards,CHAPTER,,5,Setting the Standards,,,10744,ch05_setting-the-standards.md,no,,,long
+11,Leadership by Example: The Davide Standard,Part II: THE RAGING COURT BATTLES (part title),SKIP,title page (part divider),,,,,4,,no,,,
+12,Leadership by Example: The Davide Standard,Chapter Six. The Death Penalty Law: The Debate Continues,CHAPTER,,6,The Death Penalty Law: The Debate Continues,,,9706,ch06_the-death-penalty-law-the-debate-continues.md,no,,,long
+13,Leadership by Example: The Davide Standard,Chapter Seven. Warrantless Arrests and Seizures Revisited,CHAPTER,,7,Warrantless Arrests and Seizures Revisited,,,4457,ch07_warrantless-arrests-and-seizures-revisited.md,no,,,
+14,Leadership by Example: The Davide Standard,Chapter Eight. Effect of a Void Warrant of Arrest on Jurisdiction Over the Accused,CHAPTER,,8,Effect of a Void Warrant of Arrest on Jurisdiction Over the Accused,,,1839,ch08_effect-of-a-void-warrant-of-arrest.md,no,,,
+15,Leadership by Example: The Davide Standard,Chapter Nine. Invoking the National Interest in a Labor Dispute,CHAPTER,,9,Invoking the National Interest in a Labor Dispute,,,3715,ch09_invoking-the-national-interest-in-a-labor-dispute.md,no,,,
+16,Leadership by Example: The Davide Standard,Chapter Ten. Civil Servants’ Right to Compensation During Preventive Suspension,CHAPTER,,10,Civil Servants’ Right to Compensation During Preventive Suspension,,,2187,ch10_civil-servants-right-to-compensation.md,no,,,
+17,Leadership by Example: The Davide Standard,Chapter Eleven. Common Meaning of Common Words in the Constitution,CHAPTER,,11,Common Meaning of Common Words in the Constitution,,,1599,ch11_common-meaning-of-common-words.md,no,,,
+18,Leadership by Example: The Davide Standard,Chapter Twelve. Counting Automated Ballots: Which Rules Apply?,CHAPTER,,12,Counting Automated Ballots: Which Rules Apply?,,,9948,ch12_counting-automated-ballots.md,no,,,long
+19,Leadership by Example: The Davide Standard,Chapter Thirteen. Upholding Popular Sovereignty in Election Cases,CHAPTER,,13,Upholding Popular Sovereignty in Election Cases,,,1870,ch13_upholding-popular-sovereignty-in-election-cases.md,no,,,
+20,Leadership by Example: The Davide Standard,Chapter Fourteen. The Power of the Supreme Court to Review Internal Acts of Congress,CHAPTER,,14,The Power of the Supreme Court to Review Internal Acts of Congress,,,2133,ch14_power-to-review-internal-acts-of-congress.md,no,,,

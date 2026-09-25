@@ -1,0 +1,38 @@
+order,book_title,part_label_as_printed,classification,skip_reason,chapter_no,chapter_title,start_page,end_page,word_count,file,collected_piece,original_date,original_outlet,flags
+1,Judicial Renaissance,Front cover (image) and cover title,SKIP,cover,,,,,6,,no,,,
+2,Judicial Renaissance,Other Books by the Author,SKIP,publisher's notes (list of other books),,,,,50,,no,,,
+3,Judicial Renaissance,About the Author,SKIP,about the author,,,,,232,,no,,,
+4,Judicial Renaissance,Title page,SKIP,title page,,,,,16,,no,,,
+5,Judicial Renaissance,Copyright page,SKIP,copyright page,,,,,111,,no,,,
+6,Judicial Renaissance,Contents,SKIP,table of contents,,,,,303,,no,,,
+7,Judicial Renaissance,Foreword — Chief Justice Hilario G. Davide Jr.,SKIP,foreword (written by someone else),,,xi,xii,671,,no,,,
+8,Judicial Renaissance,Preface — Justice Artemio V. Panganiban,SKIP,preface,,,xiii,,1757,,no,,,candidate
+9,Judicial Renaissance,PART I — THE PHILIPPINE JUDICIARY REINVENTED (part title page),SKIP,title page (part divider),,,1,2,2,,no,,,
+10,Judicial Renaissance,Chapter 1. A Transformed Judiciary,CHAPTER,,1,A Transformed Judiciary,3,46,6668,ch01_a-transformed-judiciary.md,yes,,"Tenth lecture, Chief Justice Hilario G. Davide Jr. Distinguished Lecture Series, Far Eastern University",long
+11,Judicial Renaissance,Chapter 2. The APJR: An Executive Summary,CHAPTER,,2,The APJR: An Executive Summary,47,60,2640,ch02_the-apjr-an-executive-summary.md,yes,,Speech at a club meeting (president Jesus F. Tambunting),
+12,Judicial Renaissance,Chapter 3. Global Support for Judicial Reforms,CHAPTER,,3,Global Support for Judicial Reforms,61,75,2450,ch03_global-support-for-judicial-reforms.md,yes,,Luncheon meeting of the Consular Corps of the Philippines,
+13,Judicial Renaissance,"Chapter 4. Judicial Reform — Issues to Consider: The Philippines and Indonesia, by Anthony Gerald Toft",SKIP,"chapter written by someone else (Anthony Gerald Toft, World Bank; lecture of August 24, 2005)",,,76,110,8803,,no,,,
+14,Judicial Renaissance,Chapter 5. A Celebration of Thanksgiving,CHAPTER,,5,A Celebration of Thanksgiving,111,122,2006,ch05_a-celebration-of-thanksgiving.md,yes,,"Ninth lecture, Chief Justice Hilario G. Davide Jr. Distinguished Lecture Series",
+15,Judicial Renaissance,"Chapter 6. Holmes, Money and Trust",CHAPTER,,6,"Holmes, Money and Trust",123,137,3371,ch06_holmes-money-and-trust.md,yes,,Speech (occasion not named in the text),
+16,Judicial Renaissance,Chapter 7. Independence and Integrity of the Philippine Judiciary,CHAPTER,,7,Independence and Integrity of the Philippine Judiciary,138,144,1244,ch07_independence-and-integrity-of-the-philippine-judiciary.md,yes,,"XIX Biennial LAWASIA Conference, Gold Coast, Queensland, Australia",
+17,Judicial Renaissance,Chapter 8. Access to Justice: A Prerequisite to Economic Development,CHAPTER,,8,Access to Justice: A Prerequisite to Economic Development,145,166,2379,ch08_access-to-justice.md,yes,,"Keynote, Asian Development Bank symposium on judicial reforms",
+18,Judicial Renaissance,Chapter 9. Judging the Judges,CHAPTER,,9,Judging the Judges,167,184,3273,ch09_judging-the-judges.md,yes,,Fifth anniversary of Bantay Katarungan (invited by Jovito R. Salonga),
+19,Judicial Renaissance,Chapter 10. Beyond Excellence,CHAPTER,,10,Beyond Excellence,185,194,1761,ch10_beyond-excellence.md,yes,,Conference keynote (conference not named in the text; source note marked * is missing),
+20,Judicial Renaissance,Chapter 11. Liberty and Prosperity,CHAPTER,,11,Liberty and Prosperity,195,213,2380,ch11_liberty-and-prosperity.md,yes,,"10th National Convention of Lawyers, Integrated Bar of the Philippines",
+21,Judicial Renaissance,Chapter 12. An Ethical Compass for the Legal Profession,CHAPTER,,12,An Ethical Compass for the Legal Profession,214,227,2933,ch12_an-ethical-compass-for-the-legal-profession.md,yes,,"Induction of officers, IBP Pampanga Chapter",
+22,Judicial Renaissance,Chapter 13. The Power of Example,CHAPTER,,13,The Power of Example,228,240,2458,ch13_the-power-of-example.md,yes,,Launch of Jovito R. Salonga's The Task of Building a Better Nation,
+23,Judicial Renaissance,"Chapter 14. Invest in the Whole Country, Not Just in the Mining Industry",CHAPTER,,14,"Invest in the Whole Country, Not Just in the Mining Industry",243,260,2963,ch14_invest-in-the-whole-country.md,yes,,"International Mining Summit, Makati City, February 2-4, 2005",
+24,Judicial Renaissance,Chapter 15. La Bugal B’laan v. Ramos: The Constitutionality of the Mining Law,CHAPTER,,15,La Bugal B’laan v. Ramos: The Constitutionality of the Mining Law,261,320,11280,ch15_la-bugal-blaan-v-ramos.md,no,,,long
+25,Judicial Renaissance,Chapter 16. Abakada Guro Partylist v. Ermita: The Constitutionality of the E-Vat Law,CHAPTER,,16,Abakada Guro Partylist v. Ermita: The Constitutionality of the E-Vat Law,321,357,6577,ch16_abakada-guro-v-ermita.md,no,,,long
+26,Judicial Renaissance,Chapter 17. Southern Cross Cement Corporation v. Philippine Cement Manufacturers Corporation: Executive Power to Protect Local Industries,CHAPTER,,17,Southern Cross Cement Corporation v. Philippine Cement Manufacturers Corporation: Executive Power to Protect Local Industries,358,387,6193,ch17_southern-cross-cement-v-philcemcor.md,no,,,long
+27,Judicial Renaissance,Chapter 18. Central Bank Employees Association v. Monetary Board: Constitutionality of Increases in CB Employees’ Compensation,CHAPTER,,18,Central Bank Employees Association v. Monetary Board: Constitutionality of Increases in CB Employees’ Compensation,388,406,3439,ch18_central-bank-employees-v-monetary-board.md,no,,,
+28,Judicial Renaissance,Chapter 19. Agabon v. NLRC: Sanctions for Violation of Due Process in Labor Cases,CHAPTER,,19,Agabon v. NLRC: Sanctions for Violation of Due Process in Labor Cases,407,425,3464,ch19_agabon-v-nlrc.md,no,,,
+29,Judicial Renaissance,Chapter 20. Presidential Commission on Good Government v. Sandiganbayan: Ethical Conduct of a Lawyer,CHAPTER,,20,Presidential Commission on Good Government v. Sandiganbayan: Ethical Conduct of a Lawyer,426,442,3698,ch20_pcgg-v-sandiganbayan.md,no,,,
+30,Judicial Renaissance,Chapter 21. Information Technology Foundation of the Philippines v. Comelec: The Use of ACMs in the ARMM Elections: A Reprise,CHAPTER,,21,Information Technology Foundation of the Philippines v. Comelec: The Use of ACMs in the ARMM Elections: A Reprise,443,452,2077,ch21_itf-v-comelec-acms-reprise.md,no,,,
+31,Judicial Renaissance,Chapter 22. The HRET at Work,CHAPTER,,22,The HRET at Work,453,488,6765,ch22_the-hret-at-work.md,no,,,long
+32,Judicial Renaissance,"PART II — THE CONTROVERSIAL CASES (part title page, pp. 241-242)",SKIP,title page (part divider; not in the .docx),,,241,242,0,,no,,,
+33,Judicial Renaissance,APPENDICES (divider),SKIP,appendices,,,,,1,,no,,,
+34,Judicial Renaissance,Appendix A. VVM: Vital Volume from a Magistrate,SKIP,appendices,,,489,496,1775,,no,,,candidate
+35,Judicial Renaissance,"Appendix B. Brilliant, Versatile and Venerable",SKIP,appendices,,,497,499,545,,no,,,
+36,Judicial Renaissance,Appendix C. A Century of Service Above Self,SKIP,appendices,,,500,510,2115,,no,,,candidate
+37,Judicial Renaissance,Index,SKIP,index (not in the .docx),,,511,,0,,no,,,

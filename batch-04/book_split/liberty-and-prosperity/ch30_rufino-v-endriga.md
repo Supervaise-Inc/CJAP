@@ -1,0 +1,65 @@
+# Chapter 30: Rufino v. Endriga: Does the President Have the Power to Appoint CCP Trustees?
+
+## The Facts
+
+Petitioners in GR No. 139565, led by Baltazar N. Endriga (the Endriga group), were appointed members of the board of trustees of the Cultural Center of the Philippines (CCP) by President Fidel V. Ramos in 1995, with the qualification that their appointments would extend only until December 31, 1998. On December 22, 1998, then President Joseph Estrada advised petitioners that they were being replaced by seven new appointees to the CCP board, led by Armita B. Rufino (the Rufino group). Having been dislodged from the CCP, Endriga filed quo warranto proceedings questioning the President’s authority to appoint new members in the CCP board.
+
+It was alleged that under Section 6(b) of Presidential Decree No. 15, vacancies in the board “shall be filled by election by a vote of a majority of the trustees held at the next regular meeting x x x.” The Endriga group claimed that it was only when the board was entirely vacant that the President of the Philippines may fill the vacancies, in consultation with the ranking officers of the CCP. The members of the group believed that since only one seat was vacant, President Estrada could not appoint a new board. They averred that presidential appointment was unjustified, since the CCP board still had 10 incumbent trustees who had the statutory power to fill any vacancy in the board by election.
+
+On May 14, 1999, the Court of Appeals (CA) granted the quo warranto Petition. It declared the Endriga group lawfully entitled to hold office and ousted respondents from the CCP board. The CA held that Section 6(b) of Presidential Decree (PD) 15 had clearly vested in the remaining members of the board the power to elect new trustees. It ruled that the President could exercise the power to appoint only when the board was entirely vacant.
+
+In its appeal before this Court, the Rufino group asserted that Section 6(b) of PD 15, which authorized the CCP trustees to elect their fellow trustees, should be declared unconstitutional. The provision was allegedly repugnant to Section 16 of Article VII of the Constitution, which allowed the appointment only of “officers lower in rank” than the appointing power.
+
+## The Issue
+
+The lone issue was whether Section 6 (b and c) of PD 15 was unconstitutional in the light of Section 16 of Article VII of the Constitution.
+
+## The Court’s Ruling
+
+At the outset, the Court recognized the occurrence of a supervening event that could have rendered the case moot - the resignation of the Rufino group and the appointment of new CCP trustees by President Gloria Macapagal-Arroyo. The Court, however, deemed it best to pass upon the merits of the case, in order to prevent a repeat of this regrettable controversy and to protect the CCP from being periodically wracked by internecine politics. Moreover, the Court brushed aside procedural barriers, in view of the paramount importance of the constitutional issues involved.
+
+By a vote of 10-3, the Court held that Section 6 (b and c) of PD 15 was irreconcilable with Section 16 of Article VII of the Constitution.
+
+The clear and categorical language of Section 6 (b) of PD 15 states that vacancies in the CCP board shall be filled by a majority vote of the remaining trustees. It is only when the board becomes entirely vacant that the vacancies shall be filled by the President of the Philippines, acting in consultation with the same ranking officers of the CCP. Thus, Section 6 (b) empowers the remaining trustees of the board to fill the vacancies by electing their fellow trustees. Simply put, this provision authorizes the appointing officer to appoint an officer who will be equal in rank to the former.
+
+In its Decision, the Court held that the power of appointment granted in Section 6 (b) of PD 15 transgressed Section 16 of Article VII of the Constitution. It explained that the power to appoint - vested by Section 16 in the President; or the heads of departments, agencies, commissions or boards - was restricted only to officers lower in rank. This constitutional provision clearly excluded a situation in which the appointing officers appointed an officer who would be equal to them in rank.
+
+This latter situation, however, was present in the CCP, whose trustees were appointing new co-trustees who would be equal in rank to the former. Thus, Section 6 (b and c) of PD 15 was found to be unconstitutional, insofar as it violated the constitutional mandate that the head of the board may be authorized to appoint lower-ranking officers only.
+
+Further, Section 16 of Article VII of the Constitution authorized Congress to vest specifically in the heads of departments, agencies, commissions, or boards - and in no other person - the power to appoint lower-ranked officers. The word “heads” referred to the chairpersons of the commissions or boards, not to their members, for several reasons. First, the 1935, the 1973, and the 1987 Constitutions made a clear distinction whenever the power to appoint lower-ranked officers was granted to the members of or the head of a collegial body. When conferring the power of appointment to the members of that collegial body, our past and present Constitutions used the phrases “in the courts,” “courts,” “the Supreme Court,” “members of the Cabinet,” and “the Constitutional Commissions.”
+
+Thus, if the intention was to grant to members of a commission or board the power to appoint lower-ranked officials, Section 16 of Article VII of the Constitution should have used the phrase “in the commissions or boards.” But in sharp contrast, this provision vested the power “in the heads of the departments, agencies, commissions or boards.”
+
+Second, the deliberations of the present Constitution revealed that the framers had intended the phrase “in the heads of departments, agencies, commissions, or boards” to be an enumeration of offices whose heads may be vested by law with the power to appoint lower-ranked officers. Thus, in the enumeration, what applied to the first office applied also to the succeeding offices mentioned.
+
+Third, all commissions or boards had chief executives who were their heads. Since the Constitution spoke of “heads” of office, and all commissions or boards had chief executives or heads, that word could have referred only to the chief executives or heads of the commissions or boards.
+
+Given that the word “heads” referred to the commission or board chairpersons, not members, the Court ruled that the head of the CCP was the chairperson of the CCP board of trustees. This conclusion was further supported by the fact that Section 8 of PD 15 and Section 3 of the Revised Rules and Regulations of the CCP recognized that its board chairperson - as the head of the CCP - had the power to appoint, remove, and discipline all officers, staff and personnel of the CCP.
+
+Pursuant to Section 16 of Article VII of the Constitution, the chairperson of the CCP board, as the head of the CCP, was the only officer who could be vested by law with the power to appoint lower-ranked officers of the CCP. Section 6 (b) of PD 15 could not validly grant this power of appointment to the members of the CCP board, as they were not the head of the CCP.
+
+Moreover, Section 6 (b and c) of PD 15 was found to be unconstitutional, because it ran afoul of the President’s power of control under Section 17 of Article VII of the Constitution. It was noted that the CCP was an agency that fell under the Executive Branch.
+
+Under the Revised Administrative Code of 1987, any agency “not placed by law or order creating them under any specific department” fell “under the Office of the President.” Since the CCP did not fall under the Legislative or the Judicial Branch of government and was not an independent constitutional or quasi-judicial body or local government unit, then the CCP necessarily fell under the Executive Branch and should be subject to the President’s control.
+
+However, Section 6 (b and c) of PD 15, by authorizing the trustees of the CCP board to fill its vacancies, insulated the CCP from political influence and pressure, specifically from the President. This authority made the CCP a self-perpetuating entity, virtually outside the control of the Chief Executive. Such public office or board could not legally exist under the present Constitution.
+
+The legislature could not have validly enacted a law that would put a government office in the Executive Branch outside the control of the President. While the charter of the CCP vested it with autonomy of policy and operation, this charter did not free it from the President’s control. As part of the Executive Branch, the CCP could not be cut off from that control in the guise of insulating the latter from presidential influence.
+
+## The Dissenting Opinion of Justice Tinga
+
+In his Dissenting Opinion, Justice Tinga opined that the majority Decision had expanded the principle of executive control in a manner that would empower the President to make all appointments of officers and officials in the Executive Branch. This expansion of executive control allegedly resulted in the diminution of the congressional power embodied in the “Appointments” clause, which was thus rendered inutile.
+
+In the opinion of Justice Tinga, the Appointments clause allowed Congress to grant the power of appointment to the CCP board of trustees, which was the head of the CCP and thus superior to the individual trustees. Contrary to the majority opinion, he believed that the appointment of fellow trustees by the board would not constitute the latter’s appointment of an officer of equal rank. For this reason, the board of trustees as a body was superior in rank to any of its individual members.
+
+Justice Tinga cited GMCR v. Bell Telecommunications, which recognized that collective or collegiate bodies outweighed or outranked any individual member, even if the latter was the presiding officer of the body. Thus, Section 6 (b) of PD 15, which authorized the board of trustees to elect its own members, was in accord with the mandate of Section 16 of Article VII of the Constitution, according to which the heads of agencies may be authorized by Congress to appoint officers of lower rank. The Dissent also pointed out that the statutory four-year term of respondents had not yet expired when President Estrada advised them of their replacements. By ruling against them, the majority allegedly sanctioned the President’s removal of officials whose terms had been fixed by law. Allegedly, this arbitrary removal could not be justified by the “executive control” clause; otherwise, the President, in the guise of executive control, would be free to violate the laws passed by Congress. And this result was clearly not intended by the said clause, according to which the President “shall ensure that the laws be faithfully executed.”
+
+The notion that executive control authorized the removal of the members of the CCP board at the pleasure of the President contravened not only the CCP charter, but the Constitution itself, not to mention our Civil Service laws that guaranteed security of tenure.
+
+The Court, in fact, explained in Ang-Angco v. Castillo that the power of executive control did not extend to the power to remove an officer who was in the Executive Department. That earlier ruling had stated that “the power [of executive control] applie[d] to the exercise of control over the acts of the subordinate and not over the actor or agent himself of the act.”
+
+Hence, before the expiration of their terms, officials whose terms had been fixed by law could not be removed from office without cause, even by the President. The fixity of their terms destroyed the power of removal at pleasure. Since there was no showing that respondents had validly been removed for legal cause, their removal was consequently unconstitutional.
+
+Further, the Dissenting Opinion discerned in the majority Decision a clash between the President’s executive control and the prerogative of Congress to dictate through legislation the eligibility requirements and the nature and length of public officers’ terms of office.
+
+The majority was criticized for inferring that the Legislative Branch had no power to legislate any form of control on executive action. Allegedly impaired was the right of the legislature to impart public offices it had created with safeguards that would ensure their independence from executive interference, should Congress deem that their independence served a necessary public purpose. In effect, said Justice Tinga, the Decision allowed the President to ignore or countermand statutory limitations contained in the charters of GOCCs like the CCP.

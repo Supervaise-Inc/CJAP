@@ -1,0 +1,65 @@
+# Chapter 21: Information Technology Foundation of the Philippines v. Comelec: The Use of ACMs in the ARMM Elections: A Reprise
+
+On January 13, 2004, the Supreme Court nullified the Contract entered into by the Commission on Elections (Comelec) with the Mega Pacific eSolutions, Inc., for the supply of automated counting machines (ACMs). The Contract was voided due to “clear violation of law and jurisprudence” and “reckless disregard of [the Comelec’s] own bidding rules and procedure.” Consequently, the illegally procured ACMs, which were improvidently paid for by Comelec, were not used during the 2004 national elections.
+
+That Decision became final[2] and was recorded in the Book of Entries of Judgment on March 30, 2004.
+
+## Permission to Use the Discarded ACMs
+
+Despite such finality, the Comelec filed in December of the same year (2005) a “Most Respectful Motion for Leave to Use the Automated Counting Machines in [the] Custody of the Commission on Elections for use [sic] in the August 8, 2005 Elections in the Autonomous Region for Muslim Mindanao (ARMM).” The Motion claimed, inter alia, that Republic Act (RA) No. 9333 had mandated the automation of the ARMM elections slated to be held on August 8, 2005; the government had no available funds to finance the automation; considering its then fiscal difficulties, obtaining a special appropriation for the purpose was unlikely; on the other hand, there were in the Comelec’s custody 1,991 ACMs, which had previously been delivered by private respondents; these machines would deteriorate and become obsolete if they remained idle and unused; and they were then being stored in a warehouse at “expenses of P329,355.26 a month, or P3,979,460.24 annually.”
+
+The Motion further alleged that “information technology experts,” who had purportedly supervised all stages of the software development for the creation of the final version to be used in the ACMs, had unanimously confirmed that the undertaking was in line with the internationally accepted standards (ISO/IEC 12207) for software life cycle processes, “with its quality assurance that it would be fit for use in the elections x x x.”
+
+The Motion further asserted that it was (a) without prejudice to the ongoing Civil Case No. 04-346 pending before the Regional Trial Court of Makati City, Branch 59, for the collection of a purported P200 million balance due from the Comelec under the voided Contract; and (b) with a continuing respectful recognition of the finality and legal effects of the Court’s Decision.
+
+## The Use of ACMs Barred by the Decision
+
+The Court’s unanimous Resolution promulgated on June 16, 2005, which I had the honor of writing, held that the finality of the January 13, 2004 Decision had barred the grant of the Motion. First, basic and primordial was the rule that a final judgment that had become executory could no longer undergo any modification, much less any reversal. The inexorable result of granting the Motion would have been precisely a subversion of the Decision, or at least a modification that would render the latter totally ineffective and nugatory.
+
+Apparently, the Motion was asking permission to do what the Comelec had precisely been prohibited from doing under the Court’s final and executory Decision. To support its Motion, the Comelec appended as Annex 1 a letter dated January 22, 2004, signed by four self-proclaimed “information technology experts.” A quick check of the case records, however, revealed that the very same letter had previously been appended as Annex 2 to private respondents’ January 26, 2004 “Omnibus Motion for reconsideration of the Decision x x x.” The only difference was that the Comelec had overlooked or failed to photocopy the last page (page 17) of the letter, bearing the signatures of the four other purported “information technology experts.” In other words, to support its present Motion, it merely recycled an earlier exhibit that had already been used in seeking reconsideration of the Court’s Decision.
+
+Thus, the June 16, 2005 SC Resolution reiterated the hornbook doctrine that courts were presumed to have passed upon all points that had been raised by the parties in their various pleadings and formed part of the records of the case. Hence, it said, courts would refuse to reopen what had been decided; they would not allow the same parties or their privies to litigate anew a question that had been considered and decided with finality.
+
+Besides, the letter of January 22, 2004, laden as it was with technical jargon and impressive concepts, did not serve to alter by even the minutest degree our finding of grave abuse of discretion by the Comelec. Its violations of law and jurisprudence were clear; and its reckless disregard of its own bidding rules and procedures, unjustifiable. The letter contained nothing that would persuade us that the situation obtaining in January 2004 had so changed in the interim as to justify the use of the ACMs in August 2005.
+
+The Commission seemed to have thought that it could resurrect the dead case by waving at the Court a letter replete with technical jargon, much like a witch doctor muttering unintelligible incantations to revive a corpse.
+
+## Recovery of Government Funds Jeopardized by a Grant of the Motion
+
+Second, granting the Motion would have barred or jeopardized the recovery of government funds (estimated by the PCGG to be over one billion pesos) that had improvidently been paid to the private respondents. At the very least, granting the Motion was antagonistic to the directive in our Decision for the OSG to recover the “illegal disbursements of public funds made by reason of the void Resolution and Contract.”
+
+Consequently, all those who stood to benefit (or have already benefited) financially from the deal would have no longer been liable for the refund. They could then argue that there was nothing wrong with the voided Contract, the public bidding, the machines or the software, because the government had decided to keep and utilize them. This argument could have even been stretched to abate the criminal prosecutions pending before the Ombudsman (OMB) and the impeachment proceedings it was considering.
+
+## Same Electoral Ills
+
+Third, the use of the unreliable ACMs and the nonexistent software that was supposed to run them would have exposed the ARMM elections to the same electoral ills pointed out in our final and executory Decision. The Court recalled that it had expressly ruled that the proffered hardware and software had undeniably failed to pass eight critical requirements designed to safeguard the integrity of elections. Yet, the Motion did not at all demonstrate that those technical requirements had already been satisfactorily met since the issuance of our Decision.
+
+The Comelec vaguely claimed that its four so-called “experts” had “unanimously confirmed that the software development which [it] undertook [was] in line with the internationally accepted standards (ISO/IEC 12207) [for] software life cycle processes.” The Motion, however, did not show that the alleged “software development” was indeed extant and capable of addressing the “programming defects and deficiencies” pointed out by the Court.
+
+## Vague Motion
+
+Fourth, the Motion was vague. It did not contain enough details to enable the Court to act appropriately. While the Comelec asserted a pressing need for the ACMs to be used in the ARMM elections, it did not bother to determine the number of units required for the purpose, much less try to justify such quantification. It contracted for a total of 1,991 ACMs, intended for use throughout the entire country during the 2004 elections, but did not bother to say how many would be used to count and canvass the votes cast in the ARMM elections.
+
+Furthermore, once the ACMs were deployed and utilized, they would no longer be in the same condition as when they were first delivered to the Comelec. The poll body did not mention any step it had taken to minimize mishandling and damage, so as to ensure the eventual return of the ACMs and the full recovery of the payments made for them. The failure or inability of the Comelec to return the machines sans damage would most assuredly be cited as a ground to refuse a refund of the moneys paid.
+
+## ARMM Elections Possible Without the Use of ACMs
+
+Fifth, there was no basis for the claim that unless the subject ACMs were used, the ARMM elections would not be held.
+
+Had the poll body been honestly and genuinely intent on implementing automated counting and canvassing for the ARMM elections, it ought to have informed Congress of the nonavailability of the machines as a result of our Decision, as well as of the need for special appropriations, instead of wasting the Court’s time on its unmeritorious Motion. Undoubtedly, it had sufficient time -- about ten months at the very least (between the end of September 2004, when RA 9333 came into force and effect, and August 8, 2005) -- to lobby Congress, properly conduct a public bidding, award the appropriate contracts, deliver and test the new machines, and make final preparations for the elections.
+
+Even assuming that a new public bidding for ACMs was not a viable option, the Comelec had more than sufficient lead time to prepare for manual counting and canvassing in the ARMM elections. It had publicly declared, sometime in late January 2004, that notwithstanding our Decision nullifying the Mega Pacific Contract, it would still be able to implement manualization of the May 10, 2004 national elections. It made this declaration even if it had merely three months or so to set up the mechanics. In the case of the ARMM, which involved elections on a much smaller scale, it would definitely be -- as indeed it was – able to implement manual processes.
+
+There was therefore absolutely no basis for the apprehension that the ARMM elections would not push through, simply because the Motion could not pass muster. More to the point, the Court found it ridiculous to regard the grant of permission to use the subject ACMs as the conditio sine qua non for the holding of the ARMM elections.
+
+Most odious was the resort to a Motion seeking the use of the subject ACMs despite the availability of viable alternative courses of action[9] that did not tend to disturb or render the Court’s final Decision ineffectual. Thus, the Motion was wholly unnecessary and unwarranted. Upon it, though, did the Comelec pin all its hopes, instead of focusing on what it could and ought to do under the circumstances.
+
+Equally reprehensible was the attempt of the Commission to pass the onus of its mismanagement problems on to the Court. For instance, the Motion quoted the cost of storage of the ACMs at P329,355.26 per month or P3,979,460.24 per annum. Assuming that the machines had to be held in storage pending the decision in the civil case (as it would simply not be sensible to throw the machines out into the streets), why must the Comelec bear the cost of storage? Our Decision had ordered the return of the machines to Mega Pacific. If Mega Pacific refused to accept them back, it did not follow that the Comelec should pick up the tab. Instead of further wasting the taxpayers’ money, it could have simply sent the bill to Mega Pacific for collection.
+
+## No Justiciable Controversy
+
+Finally, the Motion presented no actual justiciable case or controversy over which the Court could exercise its judicial authority. It is well-established in this jurisdiction that “x x x for a court to exercise its power of adjudication, there must be an actual case or controversy – one which involves a conflict of legal rights, an assertion of opposite legal claims susceptible of judicial resolution; x x x. [C]ourts do not sit to adjudicate mere academic questions to satisfy scholarly interest, however intellectually challenging.”
+
+A perusal of the Motion readily revealed the utter absence of a live case before the Court, involving a clash of legal rights or opposing legal claims. At best, it was merely a request for an advisory opinion, which the Court had no jurisdiction to grant.
+
+In conclusion, the Court stressed that “Comelec must follow and not skirt our Decision. Neither may it short-circuit our laws and jurisprudence. It should return the ACMs to MPC- MPEI and recover the improvidently disbursed funds. Instead of blaming this Court for its illegal actions and grave abuse of discretion, the Commission should, for a change, devise a legally and technically sound plan to computerize our elections and show our people that it is capable of managing the transition from an archaic to a modern electoral system.”

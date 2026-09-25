@@ -1,0 +1,237 @@
+# Chapter 19: Veterans Federation Party v. Comelec The Party-List System — a Disagreement on Mathematics
+
+The Supreme Court is the repository of judicial wisdom and the final arbiter of legal controversies. Hence, its decisions form an essential part of the legal system of the Philippines.’ In fact, a Supreme Court decision on a specific controversy constitutes the final word, which must be respected and obeyed by all — the parties, the lawyers, the police, the military, the President, Congress and everyone else.
+
+Almost all the time, the Supreme Court is confronted with legal problems — the application of pertinent laws to a specific set of circumstances. In fact, most of the cases I have written about in this book, as well as those in my previous ones, involve the application of the Constitution, the laws and judicial doctrines to a given set of facts.
+
+Once in a while, however, the Court is faced not only with dilemmas that are constitutional and legal in nature, but also with those involving other human disciplines, without which the case cannot be completely and finally resolved. One such case is Veterans Federation Party v. Comelec,, in which the Court was divided, not on the constitutional and legal issues, but on how to reduce legal principles into mathematical formulas and equations.
+
+Indeed, in these consolidated cases, the Court was of one mind in upholding the validity of the statute implementing the party-list system in the Philippines (RA 7941), but was divided on the issue of how to convert the principle of proportional representation into a mathematical formula.
+
+Furthermore, the parties in this case merely argued on the legal issues without proposing or discussing at length any such mathematical equation suitable to the facts and the peculiar party-list law in the Philippines.
+
+Justice Vicente V. Mendoza, to whom the case had initially been raffled for study, researched long and wide for solutions used by parliamentary democracies in Europe. After extensive studies, he proposed the adoption of the Niemeyer formula, a tested and accepted method of determining the winners in the party-list elections of Germany.
+
+But when he presented this formula during the deliberations of the Court in September 2000, I noticed that in the German Bundestag, all the seats reserved for party-list representatives had to be filled up. Even more important, there was no limit to the number of representatives a German party could elect. In other words, proportional representation was computed in its absolute sense. In our setup, however, the number of seats allocated to party-list representatives was deemed merely as a ceiling, not an absolute number to be filled up. Moreover, RA 7941 imposed a three-seat limit per party. Hence, I argued that the Niemeyer formula, while suitable for Germany, could not find any application in our country because of fundamental differences between the two models. And the Court, by a vote of 12-3, sustained me. Hence, I was tasked to write the Decision.
+
+For a better understanding of the case, let me give the background in some detail.
+
+Section 5, Article VI of the 1987 Constitution, introduced the party-list system of representation in our country, as follows:
+
+“Sec. 5. (1) The House of Representatives shall be composed of not more than two hundred and fifty members, unless otherwise fixed by law, who shall be elected from legislative districts apportioned among the provinces, cities, and the Metropolitan Manila area in accordance with the number of their respective inhabitants, and on the basis of a uniform and progressive ratio, and those who, as provided by law, shall be elected by a party-list system of registered national, regional, and sectoral parties or organizations.
+
+“(2)The party-list representatives shall constitute twenty per centum of the total number of representatives including those under the party-list. For three consecutive terms after the ratification of this Constitution, one half of the seats allocated to party-list representatives shall be filled, as provided by law, by selection or election from the labor, peasant, urban poor, indigenous cultural communities, women, youth, and such other sectors as may be provided by law, except the religious sector.”
+
+Under the above provision, a voter is, in effect, given two (2) votes for the House — one to elect a district congressman; the other, a party-list representative. However, other than stating that “[t]he party list representatives shall constitute twenty per centum of the total number of representatives including those under the party-list,” the Constitution left to Congress the details of how to implement this new method of representation.
+
+Acting on its mandate to “provide by law” the “selection or election” of party-list solons, Congress enacted Republic Act (RA) No. 7941 which prescribed, among others, the entitlement to a party-list seat, in this wise:
+
+“Sec. 11. Number of Party-List Repre-sentatives. — The party-list representatives shall constitute twenty per centum (20%) of the total number of the members of the House of Representatives including those under the party-list.
+
+“For purposes of the May 1998 elections, the first five (5) major political parties on the basis of party representation in the House of Representatives at the start of the Tenth Congress of the Philippines shall not be entitled to participate in the party-list system.
+
+“In determining the allocation of seats for the second vote, the following procedure shall be observed:
+
+“(a) The parties, organizations, and coalitions shall be ranked from the highest to the lowest based on the number of votes they garnered during the elections.
+
+“(b) The parties, organizations, and coalitions receiving at least two percent (2%) of the total votes cast for the party-list system shall be entitled to one seat each; Provided, That those garnering more than two percent (2%) of the votes shall be entitled to additional seats in proportion to their total number of votes; Provided, finally, That each party, organization, or coalition shall be entitled to not more than three (3) seats.”
+
+Note that under the foregoing provision, parties receiving at least two percent of the total votes cast for the party-list system shall be entitled to one seat each. But those garnering more than two percent shall be entitled to additional seats “in proportion to their total number of votes.”
+
+For its part, the Commission on Elections (Comelec), as the main enforcer of election laws, promulgated Resolution No. 2847 on June 25, 1996, prescribing the rules and regulations governing the election of party-list representatives.
+
+On May 11, 1998, the first election for the party-list scheme was held simultaneously with the national elections. One hundred and twenty-three (123) parties, organizations and coalitions participated.
+
+On June 26, 1998, the Comelec en banc proclaimed thirteen (13) party-list representatives from twelve (12) parties and organizations, which had obtained at least two percent of the total number of votes cast for the party-list system.
+
+After passing upon the results of the special elections on July 4, 8 and 25, 1998, the Comelec further determined that Cocofed (Philippine Coconut Planters Federation, Inc.) was entitled to one party-list seat for having garnered 186,388 votes, which were equivalent
+
+‘
+
+to 2.04 percent of the total votes cast. Thus, its first nominee, Emerito S$. Calderon, was proclaimed on September 8, 1998 as the 14" party-list representative.
+
+Thirty-eight “defeated” parties and organizations promptly filed suit in the Comelec, pleading for their own proclamations. After due hearing, the Commission's Second Division, by a two to one vote,’ ordered the proclamation of the 38 parties (“Group of 38”), even if they had failed to obtain the two percent vote requirement mandated by Section 11 (b) of RA 7941.
+
+Acting on a Motion for Reconsideration, the Comelec en banc, by a razor-thin majority — with three commissioners? concurring and two members?” dissenting — affirmed the Second Division ruling. Thus, the following 38 parties were each adjudged to be entitled to a party-list seat in the House of Representatives
+
+Added to the previously proclaimed 14 nominees of the 13 parties (“Lucky Thirteen”) which had obtained the two percent bench mark, this Group of 38 thus filled up the “full complement of 52 seats in the House of Representatives.”
+
+The poll body ignored the two percent threshold. and ruled that such requirement “does not serve the essence and object of the Constitution” and “will also prevent this Commission from complying with the constitutional and statutory decrees for party-list representatives to compose 20% of the House of Representatives.”
+
+Aggrieved, the Lucky Thirteen asked the Supreme Court to annul the Comelec action and instead to proclaim additional seats, so that each of them would have three — or all of them a total of 39 (3x13=39) — party-list lawmakers. To resolve the main issue of who were the winners of the 1998 party-list elections, the Court addressed the following issues:
+
+“1. Is the twenty percent allocation for party-list representatives mentioned in Article VI, Section 5 (2) of the Constitution, mandatory or is it merely a ceiling? In other words, should the twenty percent allocation for party-list solons be filled up completely ~ and all the time?
+
+“2. Are the two percent threshold requirement and the three-seat limit provided in Section 11 (b) of RA 7941 constitutional?
+
+“3. If the answer to Issue 2 is in the affirmative, how should the additional seats of a qualified party be determined?”
+
+On the first two issues, the Court was unanimous in its ruling that (1) the twenty percent constitutional allocation was only a ceiling and was not mandatory, and (2) the statutory two percent threshold and the three-seat limit were constitutional. Citing both the proceedings of the Constitutional Commission and of Congress, the High Tribunal ruled “that a simple reading of Section 5, Article VI of the Constitution, easily conveys the equally simple message that Congress was vested with the broad power to define and prescribe the mechanics of the party-list system.”
+
+It held that Congress could not be deemed to have exceeded its authority in prescribing the two percent threshold and the three-seat limit. Hence, Comelec abused its discretion by ignoring or circumventing RA 7941. Reasoned the Court:
+
+“x x x. The poll body is mandated to enforce and administer election-related laws. It has no power to contravene or amend them. Neither does it have authority to decide the wisdom, propriety or rationality of the acts of Congress.
+
+“Indeed, the function of the Supreme Court, as well as of all judicial and quasi-judicial agencies, is to apply the law as we find it, not to reinvent or second-guess it. Unless declared unconstitutional, ineffective, insufficient or otherwise void by the proper tribunal, a statute remains a valid command of sovereignty that must be respected and obeyed at all times. This is the essence of the rule of law.”
+
+On the third issue — how to determine the winners of the elections — the Court was divided. Twelve justices supported my ponencia while three dissented.’
+
+I would now like to quote the pertinent portions of the Decision I penned, including the mathematical formulas and equations crafted to choose such winners.
+
+## “Method of Allocating Additional Seats
+
+“Having determined that the twenty percent seat allocation is merely a ceiling, and having upheld the constitutionality of the two percent vote threshold and the three-seat limit imposed under RA 7941, we now proceed to the method of determining how many party-list seats the qualified parties, organizations and coalitions are entitled to. The very first step — there is no dispute on this — is to rank all the participating parties, organizations and coalitions (hereafter collectively referred to as ‘parties’) according to the votes they each obtained. The percentage of their respective votes as against the total number of votes cast for the party-list system is then determined. All those that ~ garnered at least two percent of the total votes cast have an assured or guaranteed seat in the House of Representatives. Thereafter, ‘those garnering more than two percent of the votes shall be entitled to additional seats in proportion to their total number of votes.’ The problem is how to distribute additional seats ‘proportionally, bearing in mind the three-seat limit further imposed by the law.’
+
+## “One Additional Seat Per Two Percent Increment
+
+“One proposed formula is to allocate one additional seat for every additional proportion of the votes obtained equivalent to the two percent vote requirement for the first seat.2 Translated in figures, a party that wins at least six percent of the total votes cast will be entitled to three seats; another party that gets four percent will be entitled to two seats; and one that gets two percent will be entitled to one seat only. This proposal has the advantage of simplicity and ease of comprehension. Problems arise, however, when the parties get very lop-sided votes — for example, when Party A receives 20 percent of the total votes cast; Party B, 10 percent; and Party C, 6 percent. Under the method just described, Party A would be entitled to 10 seats; Party B, to 5 seats and Party C, to 3 seats. Considering the three-seat limit imposed by law, all the parties will each uniformly have three seats only. We would then have the spectacle of a party garnering two or more times the number of votes obtained by another, yet getting the same number of seats as the other one with the much lesser votes. In effect, proportional representation will be contravened and the law rendered nugatory by this suggested solution. Hence, the Court discarded it.
+
+## “The Niemeyer Formula
+
+“Another suggestion that the Court considered was the Niemeyer formula, which was developed by a German mathematician and adopted by Germany as its method of distributing party-list seats in the Bundestag. Under this formula, the number of additional seats to which a qualified party would be entitled is determined by multiplying the remaining number of seats to be allocated by the total number of votes obtained by that party and dividing the product by the total number of votes garnered by all the qualified parties. The integer portion of the resulting product will be the number of additional seats that the party concerned is entitled to. Thus:
+
+“The next step is to distribute the extra seats left among the qualified parties in the descending order of the decimal portions of _ the resulting products. Based on the 1998 election results, the distribution of party-list seats under the Niemeyer method would be
+
+as follows:
+
+“However, since Section 11 of RA 7941 sets a limit of three (3) seats for each party, those obtaining more than the limit will have to give up their excess seats. Under our present set of facts, the thirteen qualified parties will each be entitled to three seats, resulting in an overall total of 39. Note that like the previous proposal, the Niemeyer formula would violate the principle of ‘proportional representation,’ a basic tenet of our party-list system.
+
+“The Niemeyer formula, while no doubt suitable for Germany, finds no application in the Philippine setting, because of our three-seat limit and the non-mandatory character of the twenty percent allocation. True, both our Congress and the Bundestag have threshold requirements — two percent for us and five for them. There are marked differences between the two models, however. As ably pointed out by private respondents,’ one half of the German Parliament is filled up by party-list members. More important, there are no seat limitations, because German law discourages the proliferation of small parties. In contrast, RA 7941, as already mentioned, imposes a three-seat limit to encourage the promotion of the multiparty system. This major statutory difference makes the Niemeyer formula inapplicable to the Philippines.
+
+“Just as one cannot grow Washington apples in the Philippines or Guimaras mangoes in the Arctic because of fundamental environmental differences, neither can the Niemeyer formula be transplanted in toto here because of essential variances between the two party-list models.
+
+## “The Legal and Logical Formula for the Philippines
+
+“It is now obvious that the Philippine style party-list system is a unique paradigm which. demands an equally unique formula. In crafting a legally defensible and logical solution to determine the number of additional seats that a qualified party is entitled to, we need to review the parameters of the Filipino party-list system.
+
+“As earlier mentioned in the Prologue, they are as follows:
+
+“First, the twenty percent allocation — the combined number of all party-list congressmen shall not exceed twenty percent of the total membership of the House of Representatives, including those elected under the party list.
+
+“Second, the two percent threshold — only those parties garnering a minimum of two percent of the total valid votes cast for the party-list system are ‘qualified’ to have a seat in the House of Representatives.
+
+“Third, the three-seat limit — each qualified party, regardless of the number of votes it actually obtained, is entitled to a maximum of three seats; that is, one ‘qualifying’ and two additional seats.
+
+“Fourth, proportional representation — the additional seats which a qualified party is entitled to shall be computed ‘in proportion to their total number of votes.’
+
+“The problem, as already stated, is to find a way to translate ‘proportional representation’ into a mathematical formula that will not contravene, circumvent or amend the above-mentioned parameters.
+
+“After careful deliberation, we now explain such formula, step by step.
+
+“Step One. ‘There is no dispute among the petitioners, the public and the private respondents, as well as the members of this Court, that the initial step is to rank all the participating parties, organizations and coalitions from the highest to the lowest based on the number of votes they each received. Then the ratio for each party is computed by dividing its votes by the total votes cast for all the parties participating in the system. All parties with at least two percent of the total votes are guaranteed one seat each. Only these parties shall be considered in the computation of additional seats. The party receiving the highest number of votes shall thenceforth be referred to as the ‘first’ party.
+
+“Step Two. The next step is to determine the number of seats the first party is entitled to, in order to be able to compute that for the other parties. Since the distribution is based on proportional representation, the number of seats to be allotted to the other parties cannot possibly exceed that to which the first party is entitled by virtue of its obtaining the most number of votes.
+
+“For example, the first party received 1,000,000 votes and is determined to be entitled to two additional seats. Another qualified party which received 500,000 votes cannot be entitled to the same number of - seats, since it garnered only fifty percent of the votes won by the first party. Depending on the proportion of its votes relative to that of the first party whose number of seats has already been predetermined, the second party should be given less than that to which the first one is entitled.
+
+“The other qualified parties will always be allotted less additional seats than the first party for two reasons: (1) the ratio between said parties and the first party will always be less than 1:1, and (2) the formula does not admit of mathematical rounding off, because there is no such thing as a fraction of a seat. Verily, an arbitrary rounding off could result in a violation of the twenty percent allocation. An academic mathematical demonstration of such incipient violation is not necessary because the present set of facts, given the number of qualified parties and the voting percentages obtained, will definitely not end up in such constitutional contravention.
+
+“The Court has previously ruled in Guingona Jr. v. Gonzales’ that a fractional membership cannot be converted into a whole membership of one when it would, in effect, deprive another party’s fractional membership. It would be a violation of the constitutional mandate of proportional representation. We said further that ‘no party can claim more than what it is entitled to ae ae oe
+
+“In any case, the decision on whether to round off the fractions is better left to the legislature. Since Congress did not provide for it in the present law, neither will this Court. The Supreme Court does not make the law; it merely applies it to a given set of facts.
+
+## “Formula for Determining Additional Seats for the First Party
+
+“Now, how do we determine the number of seats the first party is entitled to? The only basis given by the law is that a party receiving at least two percent of the total votes shall be entitled to one seat. Proportionally, if the first party were to receive twice the number of votes of the second party, it should be entitled to twice the latter’s number of seats and so on. The formula, therefore, for computing the number of seats to which the first party is entitled is
+
+as follows:
+
+“If the proportion of votes received by the first party without rounding it off is equal to at least six percent of the total valid votes cast for all the party list groups, then the first party shall be entitled to two additional seats or a total of three seats overall. If the proportion of votes without a rounding off is - equal to or greater than four percent, but less than six percent, then the first party shall have one additional or a total of two seats. And if the proportion is less than four percent, then the first party shall not be entitled to any additional seat.
+
+“We adopted this six percent bench mark, because the first party is not always entitled to the maximum number of additional seats. Likewise, it would prevent the allotment of more than the total number of available seats, such as in an extreme case wherein 18 or more parties tie for the highest rank and are thus entitled to three seats each. In such scenario, the number of seats to which all the parties are entitled may exceed the maximum number of party-list seats reserved in the House of Representatives.
+
+“Applying the above formula, APEC, which received 5.5% of the total votes cast, is entitled to one additional seat or a total of two seats.
+
+“Note that the above formula will be applicable only in determining the number of additional seats the first party is entitled to. It cannot be used to determine the number of additional seats of the other qualified parties. As explained earlier, the use of the same formula for all would contravene the proportional representation parameter. For example, a second party obtains six percent of the total number of votes cast. According to the above formula, the said party would be entitled to two additional seats or a total of three seats overall. However, if the first party received a significantly higher amount of votes — say, twenty percent — to grant it the same number of seats as the second party would violate the statutory mandate of proportional representation, since a party getting only six percent of the votes will have an equal number of representatives as the one obtaining twenty percent. The proper solution, therefore, is to grant the first party a total of three seats; and the party receiving six percent, additional seats in proportion to those of the first party.
+
+## “Formula for Additional Seats of Other Qualified Parties
+
+“Step Three. The next step is to solve for the number of additional seats that the other qualified parties are entitled to, based on proportional representation. The formula is encompassed by the following complex fraction:
+
+“Incidentally, if the first party is not entitled to any additional seat, then the ratio of the number of votes for the other party to that for the first one is multiplied by zero. The end result would be zero additional seat for each of the other qualified parties as well.
+
+“The above formula does not give an exact mathematical representation of the number of additional seats to be awarded since, in order to be entitled to one additional seat, an exact whole number is necessary. In fact, most of the actual mathematical proportions are not whole numbers and are not rounded off for the reasons explained earlier. To repeat, rounding off may result in the awarding of a number of seats in excess of that provided by the law. Furthermore, obtaining absolute proportional representation is restricted by the three-seat-per-party limit to a maximum of two additional slots. An increase in the maximum number of additional repre-sentatives a party may be entitled to would result in a more accurate proportional representation. But the law itself has set the limit: only two additional seats. Hence, we need to work within such extant parameter.
+
+“The net result of the foregoing formula for determining additional seats happily coincides with the present number of incumbents; namely, two for the first party (APEC) and one each for the twelve other qualified parties. Hence, we affirm the legality of the incumbencies of their nominees, albeit through the use of a different formula and methodology.”
+
+Relying on the Niemeyer formula which the Court had voted down, Justice Mendoza, joined by Justices Kapunan and Quisumbing, agreed with petitioners that each of them should be entitled to three representatives. He disputes my ponencia in this wise:
+
+“The majority holds that ‘the Niemeyer formula, while no doubt suitable for Germany, finds no application in the Philippine setting, because of our three-seat limit and the non-mandatory character of the twenty percent allocation.’ Claiming that it is obvious that the Philippine style party-list system is a unique model which demands an equally unique formula, the majority instead allocates seats to the winning groups in a manner which cannot be justified in terms of the rules in §11. While it disavows any intention to ‘reinvent or second-guess [the law], the majority in reality does so and in process engages in a bit of judicial legislation.”
+
+“First. In determining the number of seats to which the first party is entitled, the majority applies the ‘one seat for every 2 percent’ rule." But after once applying the rule to the highest ranking party, the majority does not apply it to the rest of the 2 percenters. Indeed, it cannot consistently do so because it is mathematically impossible to require that the 52 seats for party-list representatives be filled at the rate of 2 percent per seat. That would mean that the votes needed to win the 52 seats is 104 percent of the votes cast in the election. The majority admits this. It says that its ‘formula will be applicable only in determining the number of additional seats the first party is entitled to. It cannot be used to determine the additional seats of the other qualified parties.’
+
+“If the formula applies only to the first party, then it is no formula at all because it is incapable of consistent and general application. It is even iniquitous. If a party got 5.5 percent of the votes and is given two (2) seats, it is hard to see why the next ranking party, which got 5 percent of the votes should get only one (1) seat.
+
+“Indeed, the law does not distinguish between the first ranking party and the rest of the other 2 percenters insofar as obtaining additional seats are concerned. The law provides that “those garnering more than two percent (2%) of the votes shall be entitled to additional seats in proportion to their total number of votes.” The operative word is “their” which refers to none other than the total number of votes cast for the 2 percenters. The plain language of the law is that the basis for the allocation of additional seats is the total number of votes cast for the 2 percenters. This rule applies to all parties obtaining more than 2 percent of the votes cast for the winning parties.
+
+“Second. In determining the additional seats for the 2 percenters after determining the number of seats for the first ranking party, the majority uses the following formula:
+
+“R.A. No. 7941, §11 requires the determination of two types of proportions. The first is the determination of the proportion of the votes obtained by a party in relation to the total number of votes cast for the party-list. The purpose of the rule is to determine whether a party was able to hurdle the 2 percent threshold. The second is the determination of number of votes a party obtained in proportion to the number of votes cast for all the parties obtaining at least 2 percent of the votes. The purpose for determining the second proportion is to allocate the seats left after the initial allocation of one (1) seat each to every 2 percenter. The total number of votes obtained by a party in relation to the total number of votes obtained by all 2 percenters is multiplied by the remaining number of seats.
+
+“If an analogy is needed to explain this formula, the remaining 39 seats may be likened to a pie to be distributed among the 2 percenters. The way to distribute it is to use the weight of their individual votes in relation to their total number of votes. There is no reason for using the number of votes of the first party as a divisor since it is not the votes obtained by the first ranking party which are being distributed.
+
+“In truth, §11 does not say that those garnering more than 2 percent of the votes ‘shall be entitled to additional seats in proportion to the number of additional seats given to the highest ranking party.’ What it says is that such additional seats must be ‘in proportion to their total number of votes,’ the antecedent of ‘their’ being ‘those garnering more than two percent (2%) of the votes.’
+
+“Third. 1 see no legal or logical basis for the majority’s fixation with designating the highest ranking participant as a “first” party. This procedure, as admitted by the majority, assumes that the seats to be allocated to the qualified parties depend on the seats of the so-called first party. One will search in vain the proceedings of both Houses of Congress for a discussion of this procedure or even just a reference to it. There is none.
+
+“Fourth. Still it is argued that there should be a distinction between the number of seats for the first ranking party and those for the rest of the 2 percenters. As an example, the majority cites the case of a first ranking party obtaining 20 percent of the votes and the second ranking party obtaining 6 percent of the votes. According to the majority, to give the two parties the same number of seats would be to violate the ‘proportional representation parameter.’
+
+“As already stated, however, the majority's inordinate concern with the first ranking party is not consistently carried to the other 2 percenters. The result is that if the first ranking party obtains 5.99 percent of the total votes cast, the second ranking party 5.98 percent, and the last ranking party 2.0 percent, under the majority’s formula, the.01 percent difference between the first and the second ranking party will justify the difference of one (1) seat between them. However, the 3.98 percent difference between the second ranking party and the last ranking party is disregarded by the majority. Indeed, even under the majority’s novel formula of proportional representation, its own parameters are violated.
+
+“Fifth. In essence, the majority ‘formula’ amounts simply to the following prescription: (1) follow the “1 seat for every 2%’ rule in allocating seats to the first ranking party only and (2) with respect to the rest of the 2 percenters, give each party one (1) seat, unless the first ranking party gets at least six percent, in which case all 2 percenters with at least one-half of the votes of the first ranking party should get an extra seat. I cannot see how this formula could have been intended by Congress. Only in a Pickwickian sense can the result of the application of such ‘formula’ be considered proportional representation.
+
+“Sixth. The formula adopted by the majority effectively deprives party-list representatives of representation considering that it eliminates the ratio 4 district representatives to 1 party-list representative in the House. This is so because, under the rule formulated by the majority, it becomes very difficult to reach the ceiling of 20 percent of the House. In the case at bar, to fill 52 seats in the House, the first ranking party would have to obtain exactly 6 percent of the votes and 25 other parties must get at least 3 percent. In practical terms, this formula violates the Constitution insofar as it makes it improbable to obtain the ceiling of 20 percent thereby preventing the realization of the framers’ intent of opening up the system to party-list representatives.
+
+“Seventh. The scheme adopted by the majority will prevent all 2 percenters, which are not the first ranking party, from obtaining the maximum number of seats. This is so because, with their votes being proportioned against the votes of the first ranking party, there will never be an instance where the additional seats of these parties will be equivalent to 2. Again, this is contrary to R.A. No. 7941, §11 which contemplates the possibility of more than one (1) party obtaining the maximum number of seats allowed by law.”
+
+Essentially, Justice Mendoza attacked my “home grown” formula for being too strict, because “it makes it improbable to obtain the ceiling of 20 percent thereby preventing the realization of the framers’ intent of opening up the system to party-list representatives.” To answer directly this bottom-line challenge, I included a one-paragraph refutation in the ponencia, as follows:
+
+“In his Dissent, Justice Mendoza criticizes our methodology for being too strict. We say, however, that our formula merely translated the Philippine legal parameters into a mathematical equation, no more no less. If Congress in its wisdom decides to modify RA 7941 to make it ‘less strict,’ then the formula will also be modified to reflect the changes willed by the lawmakers.”
+
+In my ponencia, I found it unnecessary to rebut the Dissent point-by-point, because its arguments had been more than sufficiently discussed in the main points of the Decision itself.
+
+First example. Justice Mendoza complained that I allegedly computed the number of additional seats, to which qualified parties were entitled, only “in proportion to the number of additional seats given to the highest party.” He claimed that this was wrong, because according to Section 11 of RA 7941, these additional seats should be computed “in proportion to their total number of votes.” With due respect, this lament is plainly baseless. As stated in the ponencia, the complete formula took into account Section 11, as can be clearly seen from this original complex fraction:
+
+Justice Mendoza’s Dissent quoted only the simplified form of the foregoing equation, as follows:
+
+In the simplified form, I eliminated the phrase “Total no. of votes for party-list system” (as provided in Section 11), because in mathematics, the common denominators of component fractions may both be cancelled without affecting the result. In other words, the common denominators would just unnecessarily prolong the computation, but the end result would be exactly the same.
+
+Second example. The Dissent berated the ponencia for its failure to round off the decimals. It said, “if the first ranking party obtains 5.99 percent of the total votes cast, the second ranking party 5.98 percent, and the last ranking party 2.0 percent, under the majority’s formula, the.01 percent difference between the first and second ranking part[ies] will justify the difference of one (1) seat between them.”
+
+Indeed, is this approach not unfair, as well as a “violation” of proportional representation? The answer is found in the ponencia, and I quote it:
+
+“The above formula does not give an exact mathematical representation of the number of additional seats to be awarded since, in order to be entitled to one additional seat, an exact whole number is necessary. In fact, most of the actual mathematical proportions are not whole numbers and are not rounded off for the reasons explained earlier. To repeat, rounding off may result in the awarding of a number of seats in excess of that provided by the law. Furthermore, obtaining absolute proportional representation is restricted by the three-seat-per-party limit to a maximum of two additional slots. An increase in the maximum number of additional representatives a party may be entitled to would result in a more accurate proportional representation. But the law itself has set the limit: only two additional seats. Hence, we need to work within such extant parameters.”
+
+In other words, the perceived “unfairness” is sourced from the totality of the parameters. The formula is just a reflection of the limitations imposed by law, especially the three-seat limit in this particular instance. The cure for this perceived unfairness and “violation” does not lie in the Supreme Court, but in Congress.
+
+But we must also grant that, at the risk of occasional “unfairness,” Congress has the prerogative to set up parameters and limits that it deems appropriate to achieve other equally pressing goals, like the “promotion of the multi-party system.” And the Court would rather not be involved in the wisdom and the rationality of the law. Its duty is to apply the law as it finds it.
+
+In any event, let me stress again that the Court was unanimous in upholding the constitutionality of the relevant provisions of RA 7941, particularly those on the (a) fwo percent threshold, (b) the three-seat limit and (c) proportional representation. The “battle” was over how to translate “proportional representation” into a mathematical formula, given the peculiar factual environment of the party-list system, Philippine style. In brief, the Court was united on the constitutional and legal aspects of the case, but was divided on a question of mathematics.
+
+In his Separate Concurring Opinion, Justice Reynato S. Puno explained the dilemmas of the Court in these words: “The case at bar is one of first impression and of immense difficulty. The constitutional issues involved are full of slippery slopes but the most difficult one concerns the apportionment of additional seats to the parties that hurdled the 2% threshold requirement. There is much to be admired in the mathematical formula forwarded by our esteemed colleague, Mr. Justice Vicente V. Mendoza, but with due respect, I find more attractive the majority formula, crafted with equal expertise by another esteemed colleague, Mr. Justice Artemio Panganiban. To be sure, the two formulae may be faulted by mathematicians obsessed with exactitude but the fault lies with the inexactitude of the law itself. However it may be, I join the majority of my brethren for I find its geometry of the phrase ‘proportionately according to the percentage of votes obtained by each party, organization, or coalition as against the total nationwide votes cast for the party-list system’ more expressive of the spirit of the Constitution, albeit, arguable.”
+
+Indeed, I never thought that jurists would be embroiled in a mathematical problem! The consolation, however, is that whether the bar and the general public agree with us or not, the Court has shown that lawyers are not, after all, dumb in math. They, too, can argue over mathematical formulas and equations.
+
+Over and beyond that, this case also shows that the Supreme Court is ready to tackle novel questions brought about by the introduction of new paradigms.
+
+True, while the party-list system is popular in parliamentary democracies, this is the first case in which legal and mathematical problems arising from the Philippine style party-list model have been tackled by the Court.
+
+To summarize the entire case, I shall conclude this chapter by reproducing the Epilogue of my ponencia.
+
+“In sum, we hold that the Comelec gravely abused its discretion in ruling that the thirty-eight (38) herein respondent parties, organizations and coalitions are each entitled to a party-list seat, because it glaringly violated two requirements of RA 7941: the two percent threshold and proportional representation.
+
+“In disregarding, rejecting and circumventing these statutory provisions, the Comelec effectively arrogated unto itself what the Constitution expressly and wholly vested in the legislature: the power and the discretion to define the mechanics for the enforcement of the system. The wisdom and the propriety of these impositions, absent any clear transgression of the Constitution or grave abuse of discretion amounting to lack or excess of jurisdiction, are beyond judicial review.”
+
+“Indeed, the Comelec and the other parties in these cases — both petitioners and respondents — have failed to demonstrate that our lawmakers gravely abused their discretion in prescribing such requirements. By grave abuse of discretion is meant such capricious or whimsical exercise of judgment equivalent to lack or excess of jurisdiction.”
+
+“The Comelec, which is tasked merely to enforce and administer election-related laws," cannot simply disregard an act of Congress exercised within the bounds of its authority. As a mere implementing body, it cannot judge the wisdom, propriety or rationality of such act. Its recourse is to draft an amendment to the law and lobby for its approval and enactment by the legislature.
+
+“Furthermore, a reading of the entire Constitution reveals no violation of any of its provisions by the strict enforcement of RA 7941. It is basic that to strike down a law or any of its provisions as unconstitutional, there must be a clear and unequivocal showing that what the Constitution prohibits, the statute permits."
+
+“Neither can we grant petitioners’ prayer that they each be given additional seats (for a total of three each), because granting such plea would plainly and simply violate the “proportional representation” mandated by Section 11 (b) of RA 7941.
+
+“The low turnout of the party-list votes during the 1998 elections should not be interpreted as a total failure of the law in fulfilling the object of this new system of representation. It should not be deemed a conclusive indication that the requirements imposed by RA 7941 wholly defeated the implementation of the system. Be it remembered that the party-list system, though already popular in parliamentary democracies, is still quite new in our presidential system. We should allow it some time to take root in the consciousness of our people and in the heart of our tripartite form of republicanism. Indeed, the Comelec and the defeated litigants should not despair.
+
+“Quite the contrary, the dismal result of the first election for party-list representatives should serve as a challenge to our sectoral parties and organizations. It should stir them to be more active and vigilant in their campaign for representation in the State’s lawmaking body. It should also serve as a clarion call for innovation and creativity in adopting this novel system of popular democracy.
+
+“With adequate information dissemination to the public and more active sectoral parties, we are confident our people will be more responsive to future party-list elections. Armed with patience, perseverance and perspicacity, our marginalized sectors, in time, will fulfill the Filipino dream of full representation in Congress under the aegis of the party-list system, Philippine style.”

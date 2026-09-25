@@ -1,0 +1,123 @@
+# Chapter 2: Humble Beginnings
+
+May I thank all of you, my dear friends, for your testimonials, plaques and words of praise. In response, let me tell you two stories. The first is fictional, but the second is real and true.
+
+## Good News, Bad News
+
+First, the fiction. Long ago in the Middle Ages, there lived in a small European village a farmer, his wife and their 20-year-old son. Using their horse, the farmer and his son tilled the fields.
+
+One day the horse ran away to the mountains. The villagers went to the farmer and said, "Bad news for you.
+
+Your only means of livelihood is gone. You have no more horse to till your field." The farmer answered, "Good news, bad news, who knows? I will just keep trying my best and God will do the rest."
+
+A few days later, the horse came back with ten other wild horses. The villagers again visited the farmer and exclaimed, "Good news for you; now you have 11 horses, the most number in our village." The farmer responded, "Good news, bad news, who knows? I will just keep on doing my best and God will do the rest."
+
+Three days later, the farmer's son mounted one of the horses to tame it. Unfortunately, he was thrown off and he broke his left leg. Again the villagers went to the farmer saying, "Bad news for you, your only son is now lame; he cannot help you in your farm." Again, the farmer replied, "Good news, bad news, who knows? I will just keep on doing my best and God will do the rest."
+
+Then the kingdom went to war. The King conscripted all the able-bodied men in the village, except of course the son of our farmer. Unfortunately, the Kingdom lost the war and all the young men in the village were killed. The villagers went again to our hero. "Good news for you; you're the only one in the village with a son to succeed you. Bad news for all of us; we do not have any successors for our farms." The farmer responded, "Good news, bad news, who knows? I will just keep on trying my best and God will do the rest."
+
+## Do Your Best, and God Will Do the Rest
+
+As I told you, this first story is fictional, one that was spun by a fertile imagination that sought to explain the mysteries of life and the vagaries of the future. Like the poor farmer, I too have had my share of bad news and good news. Like him, I have also done my best and let God do the rest. But unlike the farmer's story,
+
+I was born poor. My father was a mere high school primary school. I was the youngest of four children. My father had to support, aside from us, his seven other siblings; my grandfather (his own father) had died when they were very young. In order to support all of us --his seven siblings and his four children -- my father did not finish his schooling. He ended up working as a rank-and-file government employee.
+
+In those days, right after World War II, times were tough. I had to hawk newspapers, sell cigarettes, and shine shoes on the streets of Sampaloc, Manila. In the evening, I would sleep on the sidewalks, where I waited for the early morning hour when the newspapers would come in for delivery. At the time, we sold newspapers by running and shouting in the streets: "Manila Times, Manila Chronice, Manila Bulletin, Philippines Herald." (Now the newsboys have bicycles, even motorbikes, to ease their selling woes.)
+
+Many times, as I lay awake on the cold pavement, and feelings of self-pity. I would think of my and letting the hours pass until it was time to wake up for school. But I had to work at an early age to be able to go to school.
+
+## Purely Secular Education for Me
+
+During those times, there was no faith to comfort me. Although born a Catholic, I did not know my religion. My parents themselves were not steeped in their faith, so they could not teach me much. I did not have the opportunity to attend catechism classes, either, as I had enrolled at Candaba Elementary School during the war years, later at the Juan Luna Elementary School, and Mapa High School -- all public schools. In short, I had a purely secular education.
+
+After high school, I wanted to take up chemical engineering. In fact, my high school yearbook stated that my ambition was "to be a chemical engineer." But my father insisted that I become a lawyer. "Pilosopo ka kasi, matigas ang ulo," he was wont to say. "At saka, kinokopya mo lang ang mga kapatid mo.' Magsimula ka nang pansarili." During our time, our father's word was law and could not be broken. So, to a law career I reluctantly veered my sight.
+
+My high school classmates and I used to go to the University of the Philippines campus in Diliman, Quezon City. Before the UP Oblation, we promised one another that we would study hard so we would be accepted in UP. As an honor student in a class of over 1,000 graduates of Mapa High, I was given a scholarship for my pre-law at UP. My father, however, could not afford the then 15-centavo bus fare to Diliman, Quezon City. I was compelled to follow his choice and enroll at Far Eastern University (FEU), which was walking Street, Sampaloc, Manila.
+
+Even in college, I continued to support my pre-law and law studies by peddling textbooks to my classmates and selling bibles to my professors.
+
+After passing the bar examinations and upon the recommendation of my dean, Dr. Jovito R. Salonga, I was given a scholarship for a master's degree in law at Yale University. But I could not afford the plane fare to the United States. I applied for a Smith Mundt travel grant at the U.S. Embassy, but was turned down. Without any money to finance my trip, I had to forego graduate education at Yale. At the time, I felt the world closing in on me. I felt frustrated and defeated.
+
+## Poverty and Hard Work
+
+My initial frustrations and difficulties in life turned out, though, to be blessings in disguise. Now I realize that my series of bad news eventually turned out to be good news, after all.
+
+First, having been poor made me realize the value of hard work and the importance of a good college education. By persevering in my studies in high school, I was able to get scholarships for college. And in college, I continued to prioritize my studies despite my numerous extracurricular activities. Thus, I finished my Bachelor of Laws cum laude. My strict regimen of study and training also prepared me for the painstaking bar examinations in 1960, in which I placed No. 6 despite getting sick and hospitalized during the first week of the tests
+
+Second, I learned to dream big and then work hard to attain those dreams. Right through the times when I was selling newspapers, I told myself that one day I would become the president of the Manila Times. As president of the Philippine Daily Inquirer -- the most widely circulated broadsheet in the country today.
+
+Third, my inability to travel to Yale inspired me to put up my very own travel agency. Since organizing Baron Travel Corporation in 1967, traveling has never been a problem again for me, my wife, or my children.
+
+My dream of obtaining a master's degree in an Ivy League university has also been realized through and by my five children. Permit me to say that all of them have finished graduate studies in pedigreed U.S. universities -- their schools of choice.?
+
+## FEU: A Turning Point in My Life
+
+Fourth, going to FEU proved to be one of the best turns of my entire life. There I learned the value of academic excellence, earned a well-rounded education, acquired leadership skills, and had my first encounters with my God.
+
+During my preparatory law course, I was blessed with committed and conscientious professors who were very strict and demanding. Up to now, I still remember the stirring words impressed upon my young mind by my professor in argumentation and debate -- Arts and Sciences Dean Francisco M. Africa, whose teachings on the elementary rules of logic I still use today; Dr. Benito F. Reyes, who expounded on philosophy; Professor Angelica Mendoza, who explained botany; and English Professor Rosario P. Melchor, who emphasized rules of grammar and style that I still apply when writing my decisions in the Supreme Court.
+
+In the Institute of Law, I was amply armed with a chosen career and, more important, in my LIFE as a whole. Through my esteemed guru, I had the privilege to receive not only UP-style education, but Harvard and Yale techniques as well. He shared with us what he learned in those three schools where he had finished his bachelor's, master's and doctoral degrees. Indeed, I am grateful to him for his legal expertise; but more than that, for his moral courage, high-mindedness and love of country -- values that I have aspired to internalize and emulate.
+
+Constituting the law faculty then were the best and brightest lawyers like Neptali A. Gonzales, who like L. Paras and Salvador Esguerra, both of whom later became Supreme Court justices; Arsenio Solidum, Antonio Lucero, Luis B. Reyes, Angel Mojica and Jose young Ivy League graduates like Juan Ponce Enrile, Manuel Montecillo, Reynaldo Alejandro and Augusto Caesar Espiritu.
+
+All of them demanded excellence, diligence and hard work from their students. Small wonder that during my college days, FEU law graduates always landed among the topnotchers in the annual bar examinations. Indeed, the academic excellence I learned from FEU has made me self-confident and self-assured.
+
+I also owe a great deal from the school administrators. I fondly remember Don Angel Palanca, the chairperson of the board of trustees. To me, he personified decency, good breeding and right manners. Though he was wealthy, Don Angel had a genuine concern for the poor students in his school. I also remember Mr. Hector del Rosario - "Mang Etoy," as we affectionately called him - the FEU treasurer, who would always lend me an ear whenever I asked him to assist the central student council (which I headed) with its financial concerns.
+
+FEU also taught me that it was not enough to be an expert in one's profession; one should also have more than an adequate knowledge of the arts, history, literature, ethics and the humanities in general. In this regard, Dr. Alejandro R. Roces, who was appointed dean of the Institute of Arts and Sciences when I was a student of law, was highly instrumental. From Dr. Roces, 1 learned the art of knowing everything about something and something about everything. It was he who impressed upon me the ideals of a truly educated person-- one bred in the humanities, anchored on values, and moved by principles.
+
+His words and example influenced my youthful aspirations for a place in society. In fact, when I established the National Union of Students of the Philippines (NUSP) -- one of a number of organizations I was involved in - - I invited him to be one of its advisers. As a team, we collaborated to reform student movements in the country. He was also my benefactor and coach in several battles for campus leadership. Eventually, when Leni and I got married, he became our ninong.
+
+The untiring passion of Dean Roces and the aplomb with which he went about his work and his mission caught the admiration of then President Diosdado Macapagal. Thus, the dean was recruited to be a member of the Macapagal cabinet, the youngest to be appointed secretary of education.
+
+The then president of FEU, Dr. Teodoro Evangelista, was himself outstanding and single-minded in his educational policies. He believed that "education in the end in itself but as a means to the enjoyment of a life of the mind and spirit."
+
+Because of the influence of these great men, I learned early on that excellence in liberal education and specialization in a career must go hand in hand. Indeed, excellence in law is not enough; lawyers must also have a good grasp of the arts and sciences in order to perform their work fully.
+
+As I moved forward in my career, I continued to search for knowledge and wisdom in all fields of human endeavor. The effort gave me, as a member of the Supreme Court, the confidence to discuss and decide litigations of all types, even those involving avant-garde sciences, new economic paradigms and ultramodern technology.
+
+## Search for God
+
+Above the core values of truth, integrity, excellence and courage that I imbibed, the final and most important matter I learned was my Catholic faith. While FEU prides itself in being nonsectarian, it was during my FEU days when I met persons who, little by little, initially fed my soul that was in search of faith and of my God.
+
+Fr. Michael Nolan, the FEU chaplain then, under whose watch the FEU chapel was built, took a personal interest in me and in what I did. So he recruited me into the FEU Student Catholic Action and taught me the rudiments of Catholicism.
+
+Fr. James Sheehy, another Columban priest, insisted that a good Catholic must not only be personally pure, but also lead others to purity; in short, be a Christ to others. Those teachings were enough for me to make further efforts to learn and experience my faith. My for God more deeply and passionately all my life.
+
+Later on, particularly in the mid-1980's, I became a renewed Catholic when Leni and I joined Bukas Loob sa Diyos (BLD). Some of our most memorable days as husband and wife were spent with this charismatic movement -- particularly when we shared our married life during our marriage encounters, and when we made attempts at spirituality as speakers during Life in the Spirit Seminars. We ceased, however, to be active in the BLD when I joined the Supreme Court.
+
+Even if I was educated in public and nonsectarian schools, and I do not profess to know my Catholic faith completely, God has been kind to me. He has enabled me to meet great Catholic lay leaders like Ambassador Tita de Villa, as well as Sonny and Bai de los Reyes; and outstanding men of the cloth like Jaime Cardinal Sin, Ricardo Cardinal Vidal, Bishop Socrates Villegas, and Msgr. Gerardo Santos. All of them led me to Catholic lay leadership. I was invited to be a delegate to the Second Plenary Council of the Philippines in 1991. Though unworthy, I was later appointed by Pope John Paul Il as the only Filipino member of the Pontifical Council for the Laity for the 1996-2001 term.
+
+## Finding My Partner in Life
+
+The environment in FEU also inculcated in me a hunger for leadership. Its owners and administrators encouraged and supported student leadership. Hence, it came as a surprise to my high school classmates that I would metamorphose from an introverted, shy and timid lad, to president of the FEU Central Student Organization (FEUCSO) during my sophomore year -the youngest then to be so elected; and later to become co-founder and president of the National Union of Students of the Philippines (NUSP), the largest student movement in our country.
+
+Through the NUSP, I was able to interact with convent-bred students of elitist schools. St. Scholastica's College was represented in the NUSP by a lovely, sweet, thoughtful and intelligent lady, Ms Elenita A. Carpio. Leni became my wife and lifelong partner.
+
+## Supreme Court Dream
+
+I had offers to join the government early in my career.3 On different occasions, Executive Secretary Rafael Salas and Justice Leo A. Quisumbing, who was then working in the Palace, invited me either to be a technical assistant in Malacañang or to be a judge. I declined those invitations because the compensation was not enough to see me through. I wanted my children to finish their studies without any financial woes.
+
+When all of my children received their graduate degrees in the early 1990s, I became available for public service. And just as soon, Providence opened an opportunity for me.
+
+President Fidel V. Ramos and I had known each other since 1983, the year when we both entered the Rotary Club of Manila. He was then the chief of the Philippine Constabulary; I, a practicing lawyer. We became good friends.
+
+In 1992, after President Ramos had been declared the winner and before he took his oath of office, he called me to a meeting. I went to his private office in Pasay Road, Makati City. We privately discussed, one-on-one for over an hour, several topics, including the rule of law in our society, the role of the courts, and the expectations of the people from their newly elected as justice secretary.
+
+I immediately declined his invitation, saying that I had not campaigned for him or supported his candidacy. I said that I had voted for my mentor, Senator Jovito R. Salonga, during the presidential elections of 1992. But he was insistent. According to him, he wanted a Cabinet that was a composite of the various sectors, not just those who voted for him. He said that he was confident I would serve well, because he had witnessed my leadership and capability as president of our Rotary Club and as national vice-chairperson of the Parish Pastoral Council for Responsible Voting (PPCRV).
+
+Because I had reservations about accepting a political position, President Ramos instead made me an offer to join the Supreme Court. That alternative I readily accepted because it was not political. But it took another three years before the Judicial and Bar Council nominated me. The moment President Ramos received my nomination, he did not hesitate to fulfill his promise. I became a member of our highest court in 1995.
+
+God's blessing, however, did not end there. As one of the senior members of the Court, I was on the JBC short list of three nominees to succeed Chief Justice Hilario G. Davide Jr.. President Gloria Macapagal-Arroyo chose me to be the new Chief Justice. Unlike in my experience with President Ramos, I had no occasion to speak with President Arroyo prior to my appointment.
+
+During the retirement party of Chief Justice Davide on December 19, 2006, the Supreme Court justices staged a rigodon. Although President Arroyo was in attendance, we managed to exchange only "hellos" and "goodbyes."
+
+The following night, on December 20, I hosted a dinner at the Pan Pacific Hotel to honor the Supreme Court officials and employees - including secretaries, clerks and security personnel -- who had helped in ensuring the success of the International Conference and Showcase on Judicial Reforms (which I chaired) on November 28-30, 2005. Around 7:15 p.m., while I was addressing the audience, Ms Evelyn Toledo-Dumdum, our judicial reforms program administrator who was the emcee, interrupted my talk. According to her, Channel 7 announced that I had been named Chief Justice by President Arroyo. For the first time in my life, I froze before the microphone. I was tongue-tied. After the program, Leni and I went to church and thanked the Lord.
+
+To have been appointed Chief Justice of the Philippines is a bonus and a great blessing from the Almighty, though it entails a greater degree of responsibility. But the joys that all these blessings bring me are mere spotlights pointing towards the eternal happiness that I aspire for. My ultimate dream - - to which I now dedicate my time, effort and resources -- is this: that when I finally knock on the pearly gates, our Lord and Master will open the door and say, "Welcome. You have done well in your earthly sojourn. Enter the gates of heaven and enjoy the blessings of eternal life.”
+
+## Sacrifice and Success
+
+Indeed, I have passed through several cycles of sacrifice and success. I have endured nothingness and experienced fullness. As I journeyed through life, I learned of God's presence in all those moments. And as I quietly contemplated on the Lord and reviewed my experiences of pain and gain, I began to accept that much, much greater than myself was a Power who was watching over and guiding me.
+
+As I contemplate my life and move towards its sunset, I know that God has woven incidents of my life into a tapestry showing His mystical presence. But through all these, I can like the farmer exclaim, "Good news, bad news, who knows? I will just keep doing my best and God will do the rest."

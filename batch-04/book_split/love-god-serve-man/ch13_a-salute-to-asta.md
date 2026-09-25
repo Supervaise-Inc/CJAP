@@ -1,0 +1,19 @@
+# Chapter 13: A Salute to ASTA
+
+(Editor's note: Aside from being a successful law practitioner and professor of law, Atty. Artemio V. Panganiban is also a business entrepreneur, particularly a pioneer in the tourism industry. In 1985 he was elected chairman of the International Council of Governors of the American Society of Travel Agents [ASTA], the first and only Filipino to gain such honor. Though American in name, ASTA had at that time 20,000 members from 128 countries, including the Philippines. His election was a recognition of his battle for equal rights for all members, regardless of nationality. In this acceptance speech delivered during the closing session of the 55th ASTA World Travel Congress held in the old Coliseum in Rome, Italy, on November 15, 1985, Panganiban used his legal background to plead for "equality, freedom and fairness." This speech was printed in full in the November 23, 1985 issue of the Manila Bulletin, then known as the Bulletin Today.)
+
+At the outset, permit me to thank the international members of ASTA, especially my colleagues in the International Council of Governors, for giving me the highest position within their authority. Truthfully, I feel inadequate even as I feel overwhelmed by the great responsibilities attached to the position. I should like to believe, however, that this honor you have given is not only for me personally but is, in fact, a tribute to my country and to my people.
+
+I should like to believe also that my election is really a triumph of the American dream where everyone, even the lowliest in society, can aspire for and be given the opportunity to lead, to serve and to succeed. It is this American dream that must have occupied the mind of Thomas Jefferson when he wrote in the American constitution that "(A)ll men are equal." It must have been the same American dream that Abraham Lincoln fulfilled when he said to the lowliest Negro in your society then, "Chin up, for you are free forever." It must have been the same American dream that Lee
+
+Iacocca preached in his keynote address before us last Monday when he referred to the "American religion of fairness."
+
+To be sure, ASTA as a national association of American travel agents, is a most successful one. It has been able to respond to its members' needs and its members have enjoyed the full blessings and benefits of its activities, be they political actions in the US Congress or educational seminars in the World Travel Congress.
+
+Ibelieve my mission, as it is that of all my fellow members of the International Council of Governors, is to plead for this same American religion of fairness in order to bring these blessings and benefits of membership to all international members, but tailored according to their specific needs and requirements.
+
+It is my duty to see to it that international members receive the same amount of benefits that their American counterparts get from this membership, but modified to meet their specific objectives in joining ASTA. Thus, during the 14th International Conference of ASTA to be held next February 22-26 in Athens, Greece, our seminars will be modified to meet these specific needs and objectives. I invite all of you to register and join us in this conference.
+
+May I close with a pledge that under my incumbency, the international members will cooperate and support all activities of ASTA. I firmly believe that it is this mixture, this formula of combining the American dream of equality, of freedom and of fairness, with our international pledge of support and cooperation that will bring about not only the greatest national association of travel agents but also the greatest international society of travel professionals in the world.
+
+Lastly, from the Philippines, my home country, and from Baron Travel Corporation, my company, I salute you: Mabuhay ASTA!

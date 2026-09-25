@@ -1,0 +1,172 @@
+{
+ "changes": [
+  [
+   "BA077",
+   "letter-spacing",
+   "s u b h u m a n",
+   "subhuman"
+  ],
+  [
+   "BA082",
+   "letter-spacing",
+   "u n d e r",
+   "under"
+  ],
+  [
+   "BB024",
+   "letter-spacing",
+   "a n d",
+   "and"
+  ],
+  [
+   "BB024",
+   "letter-spacing",
+   "t h e i r",
+   "their"
+  ],
+  [
+   "BB026",
+   "letter-spacing",
+   "w i t h o u t",
+   "without"
+  ],
+  [
+   "BC041",
+   "letter-spacing",
+   "t h e",
+   "the"
+  ],
+  [
+   "BC041",
+   "letter-spacing",
+   "m o v e d",
+   "moved"
+  ],
+  [
+   "BC041",
+   "letter-spacing",
+   "o u r",
+   "our"
+  ],
+  [
+   "BC042",
+   "letter-spacing",
+   "o u r",
+   "our"
+  ],
+  [
+   "BD041",
+   "letter-spacing",
+   "t h e",
+   "the"
+  ],
+  [
+   "BD043",
+   "letter-spacing",
+   "w t o",
+   "wto"
+  ],
+  [
+   "BD044",
+   "letter-spacing",
+   "o u r",
+   "our"
+  ],
+  [
+   "BD044",
+   "letter-spacing",
+   "h a s",
+   "has"
+  ],
+  [
+   "BD044",
+   "letter-spacing",
+   "w o m e n",
+   "women"
+  ],
+  [
+   "BD045",
+   "letter-spacing",
+   "w h o",
+   "who"
+  ]
+ ],
+ "residual": {
+  "BA077": [
+   [
+    "letter-spacing, no vocabulary match",
+    "x x x a"
+   ]
+  ],
+  "BA081": [
+   [
+    "word split across a space",
+    "Wor ld -> World"
+   ]
+  ],
+  "BA082": [
+   [
+    "stray glyph, no vocabulary match",
+    "It|he"
+   ]
+  ],
+  "BA085": [
+   [
+    "word split across a space",
+    "Commis sion -> Commission"
+   ]
+  ],
+  "BB018": [
+   [
+    "stray glyph, no vocabulary match",
+    "a{cc"
+   ]
+  ],
+  "BB019": [
+   [
+    "stray glyph, no vocabulary match",
+    "Ta}ny"
+   ]
+  ],
+  "BB024": [
+   [
+    "letter-spacing, no vocabulary match",
+    "r e d t h e m"
+   ]
+  ],
+  "BB025": [
+   [
+    "word split across a space",
+    "Carm elo -> Carmelo"
+   ]
+  ],
+  "BB041": [
+   [
+    "word split across a space",
+    "Cor poration -> Corporation"
+   ]
+  ],
+  "BC025": [
+   [
+    "letter-spacing, no vocabulary match",
+    "o f P"
+   ]
+  ],
+  "BD040": [
+   [
+    "letter-spacing, no vocabulary match",
+    "w e c o u l d"
+   ]
+  ],
+  "CA538": [
+   [
+    "letter-spacing, no vocabulary match",
+    "F x L"
+   ],
+   [
+    "letter-spacing, no vocabulary match",
+    "S × P"
+   ]
+  ]
+ }
+}

@@ -1,0 +1,415 @@
+# Chapter 5: Setting the Standards
+
+## AN AUSPICIOUS BEGINNING
+
+The elevation of Hilario G. Davide Jr. as Chief Justice on November 30, 1998 was universally acclaimed as the best appointment made by President Joseph Ejercito Estrada during his first year in office (June 30, 1998 to June 30, 1999). Even the President’s harshest critics praised him for promoting a man of integrity and independence to the highest judicial office in our land. In assessing the first year of the President, former Senate President Jovito R. Salonga, an Estrada critic, conceded that the “appointment of the Chief Justice and a few of the justices of the Supreme Court, whose names need not be mentioned, have been greeted with wide approval, mainly because their NM competence, integrity and dedication cannot be disputed.”
+
+The media, both print and broadcast, were unanimous in their clap for Chief Justice Davide. Even the normally finicky Philippine Daily Inquirer was aglow. It hosted a dinner in his honor at the PDI headquarters on December 14, 1998. Philippine Star Chairman Max V. Soliven had a special private lunch with him at Dr. Preciosa S. Soliven’s very own La Dolce Fontana. For its part, the friendly Manila Bulletin hailed him for his “integrity, competence and outstanding performance.”
+
+That the Davide Court is imbued with an auspicious beginning is best illustrated by the results of two Wl nationwide surveys conducted in June and September 1999 by Pulse Asia, showing that “among government agencies, [the] Supreme Court top[ped] approval ratings x x x.” True, the Court does not thrive in a popularity contest. Neither do its members decide litigations on the basis of momentary sentiment and hysteria, but on reasoned arguments based on law and precedents. Nor are its decisions tested in a referendum.
+
+But it is equally true that, as I emphasized in my speech during the retirement ceremonies in honor of Justice Antonio M. Martinez on February 1, 1999, the Court must enjoy enough residual respect and esteem from the public, such that its decisions would be accepted and obeyed even if the majority disagrees with them. Indeed, the Court endures because of long-term public confidence that its actions and decisions are judicious and correct, although they may at times be unpalatable to the current public sentiment.
+
+President Estrada’s selection of Chief Justice ] Davide was not only wise and publicly supported; it was also decisive and swift. The President swore him into office without the formality of a written appointment during the Bonifacio Day celebrations on November 30, 1998, the day after the position was vacated by Chief Justice Andres R. Narvasa.”
+
+## A Mission for God and Man
+
+Looking back, Chief Justice Davide admits that he was himself pleasantly surprised at the unconventional way he was appointed and sworn into office. While profusely thankful to the President, at the same time he feels his elevation bore the indelible imprint of the l Almighty. Every morning, it has become his habit to pray and to offer his day to the Lord. Then he cuts the Bible and reads at random the page that opens. It 1 is his firm belief that he is simply the Lord’s instrument and that he would get his day-to-day instructions from God's book.
+
+He relates that on November 30, 1998, he woke up as usual at 3:30 a.m. After his morning prayers, he cut ili the New American Bible. It opened on 2 Maccabees (Mc) 10. The title of the chapter, “Purification of Temple and City,” immediately struck him. A little excited, he read and reread the first paragraph:
+
+“Purification of Temple and City. When Maccabeus and his companions, under the Lord's leadership, had recovered the temple and the city, they destroyed the altars erected by the Gentiles in the marketplace and the sacred enclosures. After purifying the temple, they made a new altar. Then, with fire struck from flint, they offered sacrifice for the first time in two years, burned incense, and lighted lamps. They also set out the showbread. When they had done this, they prostrated themselves and begged the Lord that they might never again fall into such misfortunes, and that if they should sin at any time, he might chastise them with moderation and not hand them over to blasphemous and barbarous Gentiles. On the anniversary of the day on which the temple had been profaned by the Gentiles, that is, the twenty-fifth of the same month, Chislev, the purification of the temple took place.”
+
+God's message to “purify the temple” was affirmed in his heart by the Responsorial Psalm in the Holy Mass for the following day, December 1, 1998:
+
+“Justice shall flourish in His time, and the fullness of peace forever.”
+
+The Lord’s purpose in elevating him to the headship of the judiciary was made even clearer in the readings for the Eucharistic Celebration on December 6, 1998, the second Sunday of Advent and the first Sunday after his appointment. The new Chief Justice narrated his reflection and interpretation of these messages in a speech he delivered on January 10, 1999, before the Knights of Columbus, Visayas Jurisdiction, and I quote him:
+
+“John the Baptist and Jesus are agents of change. But even before discussing societal or institutional change, such as the cleansing of the temple, there is first need for metanoia, a change of heart, an authentic conversion, which can only stem from a conviction that one truly needs it, or the Sacrament of Penance. The call to conversion is an indispensable condition to our journey to the Father and involves both a negative aspect, i.e., liberation from sin, and a positive aspect, i.e., that of choosing good or accepting the ethical values expressed in the natural law. Finally, the call to conversion as the indispensable condition of Christian love is particularly important in contemporary society, where the very foundation of an ethically correct vision of human existence often seems to have been lost.”
+
+Expect the Chief Justice, then, to call for a metanoia, a conversion, a cleansing in the hearts of everyone in the judiciary and in the bar. And thereafter, expect him to call everyone to live higher “ethical values expressed in the natural law.”
+
+Beyond any doubt, he is convinced that his stewardship of the judiciary carries the unmistakable responsibility of “cleansing the judicial stables” of the misfit, the corrupt and the unqualified. In this mission, he will be relentless until a new temple of justice befitting God and man is firmly established in this land.
+
+## An Opportunity for Greatness
+
+From a purely secular view, every Chief Justice — for that matter, every Supreme Court member — is accorded an opportunity for greatness. While it is true that, just like any of the 14 associate justices, he has only one vote, the Chief wields moral ascendancy. While he is not a boss who can control, not to say reverse, the votes of his colleagues, nonetheless he is the leader of the Court and the administrator of the entire judiciary, which looks up to him for leadership and example.
+
+Chief Justices previous to him have steered the Court amidst turbulent seas and emerged triumphant,: even if at times wounded. Chief Justice Claudio Teehankee was known as an outspoken firebrand who led the Court from the abyss of martial law. Chief Justice Marcelo B. Fernan, in the words of multiawarded Journalist Teodoro Benigno, had “a legal gaze that spread wide, and a punishing hand that could drive back crime and violence. For long he was justice and Chief Justice, and his court was ramrod straight. No stink of graft, no dirty nepotism, no waywardness.”
+
+Elsewhere, in the United States from which we have imbibed our judicial precedents and traditions, the same opportunity for greatness beckons their Chiefs. Who has not heard of the greatest of them all — John Marshall, whose foresight, courage and wisdom guided the US Supreme Court on to the fundamental concepts of checks and balances and separation of powers. Or, more recently, of Earl Warren who, upon his ascendancy, was sneered at as nothing more 1 than a “bluff, an outgoing politician,” but upon his retirement 16 years later, was credited for having reformulated the very meaning of the Bill of Rights; he was also acclaimed as “second in greatness only to i John Marshall himself in the eyes of the most impartial students of the Court as well as the Court’s critics.”
+
+## THE DAVIDE WATCH
+
+Well-aware of having been thrust into history, Chief Justice Davide announced without much ado what I call his “vision, mission and direction” during a speech he delivered before the Kilosbayan Forum on December 11, 1998, barely eleven days after his appointment. Inspired no doubt by 2 Mc 10, his “Davide Watch” has been repeated in several other fora and twice printed in the Court Systems Journal.” I am herewith reproducing it in toto:
+
+“THE DAVIDE WATCH:
+
+LEADING THE PHILIPPINE JUDICIARY AND
+
+THE LEGAL PROFESSION TOWARDS
+
+THE THIRD MILLENIUM
+
+POLICY STATEMENT
+
+“The Judiciary, as the constitutionally designated arbiter of all legal disputes in our democratic system of government, must, at all times, maintain its independence and remain immune from undue influence, not at the cost, however, of sacrificing comity with the co-equal branches. It is essential that the Judiciary and the members of the legal profession, as officers of the Court, be of utmost competence and unassailable integrity.
+
+“As the Judiciary is meant to serve the people through the dispensation of justice, the Bench must be fully accountable to the public by remaining transparent, yet not betray those aspects of the judiciary process which require utmost confidentiality. Members of the Judiciary and court personnel must unerringly adhere to the constitutional precept that public office is a public trust. Dishonesty, immorality, incompetence, inefficiency and any form of unbecoming conduct are impermissible and will not be tolerated in the Judiciary and the legal profession. To this end, those who fail to meet the standards set for members of the Bench and Bar will be relentlessly weeded out.
+
+“The system of administration of justice must be geared to achieve the goal of delivering fair, impartial and swift justice. Hence, the core values of the rule of law, equal justice, judicial independence and the pursuit of excellence should be preserved and at all times be predominant.
+
+VISION
+
+“A Judiciary that is independent, effective and efficient, and worthy of public trust and confidence; and a legal profession that provides quality, ethical, accessible and cost-effective legal service to our people and is willing and able to answer the call to public service.
+
+MISSION
+
+“Independence
+
+“1, Assert fiscal autonomy of the Judiciary;
+
+a. secure lump-sum budget appropriation; and
+
+b. increase salary and benefits of officials and employees of the Judiciary;
+
+“2, Insulate the selection process and appointments to the Judiciary from political patronage.
+
+“Effectiveness and Efficiency
+
+“A. In General
+
+“1. Dispose of the existing backlog of cases in all courts. “2. Study and address the causes of failure to observe the periods to decide cases mandated by the Constitution.
+
+“3. Vigorously implement the programs of the Philippine Judicial Academy (PHILJA) on continuing judicial education on a broader basis.
+
+“4. Engage in long-range planning, especially as regards allocation of human and other resources, to effectively respond to changes while preserving the core values of the Judiciary.
+
+“5, Promote alternative modes of dispute resolution.
+
+“6. Exact strict observance of working hours.
+
+“7.. Maximize available court technology and adopt new and appropriate forms of technology.
+
+“B. Supreme Court
+
+“Among other goals,
+
+“a. limit the number of substantive pleadings to be filed (e.g., up to Reply only, if necessary) and extensions of time to file pleadings;
+
+“b. immediately inventory cases pending resolution and decision;
+
+“c. expedite the judicial process, giving priority, initially, to death penalty cases, election cases, graft and corruption cases, and administrative cases; and
+
+“d. strictly apply the principle governing the hierarchy of courts and the Court’s discretionary appellate power under Rule 45 of the 1997 Rules of Civil Procedure (thereby limiting the Court's judicial tasks to cases involving constitutional issues or questions of transcendental importance, or those where appeals to the Court are mandated by the Constitution or statute).
+
+“C. Supervision of Lower Courts
+
+“Among other goals,
+
+“a. immediately inventory cases pending resolution and adopt an effective system for the purpose;
+
+“b.implement the objectives of the strengthened and reorganized Office of the Court Administrator (OCA) including, but not limited to, the dynamic pursuit of a continuing program to:
+
+i. upgrade administrative and management skills;
+
+ii. strengthen ethical principles and moral values; and
+
+iii. boost the morale of court personnel;
+
+“c. require the OCA to regularly update the Court on vacant and soon-to-be vacant salas, the dates the vacancies occurred or will occur, and the number of pending cases therein, for the purpose of filling-up the vacancies soonest, especially in critical areas and those with heavy case loads;
+
+“d. require the Judicial and Bar Council to consider nominations for vacancies occasioned by compulsory retirements even prior thereto, to insure continuity of court functions;
+
+“e. review the policy on detail and temporary assignment of judges to likewise: ensure continuity of court functions and the speedy disposition of cases;
+
+“f. refine the PHILJA’s total quality management system to identify and measure key performance areas; and
+
+“g. equip lower courts with sufficient research facilities, such as libraries and computerized research aids.
+
+“Public Trust and Confidence
+
+“1. Insure that only those of proven competence, integrity, probity and independence are appointed to and remain in the Judiciary.
+
+“2. Adopt measures to preserve the confidentiality of the decision-making process in all courts.
+
+“3. Require the OCA to submit an inventory of pending administrative cases and hasten resolution thereof with the goal of punishing the guilty and protecting the innocent.
+
+“4. Dialogue with the different courts and offices involved in the administration of justice
+
+“5, Inform and educate the public about 1 the judicial process.
+
+“6. Provide effective mechanisms for feedback from court personnel and the public.
+
+“The Legal Profession
+
+“1. Review the subjects covered by the Bar examinations and other policies for admission to the Bar.
+
+“2. Approve the continuing legal education program proposed by the Integrated Bar of the Philippines
+
+“3. Commit the IBP to elevate the standards of the profession and inspire its members to join the Judiciary.”
+
+Even a cursory reading of “The Davide Watch” will immediately show its broad and all-encompassing sweep, as the Chief is fully aware that he is both the presiding officer of the Supreme Court and the administrative head of the entire judiciary and the legal profession. Truly, the Chief Justice of the Philippines (not just of the Supreme Court) is comparatively i more powerful than his counterparts in other countries, including the United States. First, the Philippine judiciary is expressly granted the power to nullify acts ] of any branch or agency of the government (including the presidency and the legislature), if such acts are made without or in excess of jurisdiction or with grave abuse of discretion. Second, administrative supervision of the lower courts and the legal profession is vested in the Supreme Court of the Philippines — powers that are not granted to the US Court.
+
+“HEE” and “EP”
+
+The vision of Chief Justice Davide permeates both the bench and the bar. In sum, the core values he wants to promote for the bench are independence, integrity, excellence, and effectiveness (IIEE); and for the bar, education and professionalism (EP).
+
+The “Davide Watch” is complemented by a “development plan,” which the Chief and several justices discussed with non-governmental organizations and consultants during dialogs conducted on June 3-4, 1999 and June 19, 1999. These discussions were made possible through the Technical Assistance to the Philippine Judiciary on Justice and Development, generally referred to as the SC-UNDP (Supreme Court-United Nations Development Program) which funded the project.
+
+Shortly, the SC-UNDP Project, headed by Justice Josue N. Bellosillo, will publish a Blueprint of Action for the Judiciary, “which will identify the technical needs of the Philippine judiciary and the critical paths the courts must tread to achieve the ultimate goal of satisfying the Filipino’s quest for justice.” Its core is “Sustainable Human Development” or SHD, a “development that is human-centered, equitable and socially and environmentally sustainable.” Inasmuch as the Blueprint will be printed soon, I will not dwell on it lengthily. Suffice it to say that its vision — “an independent, impartial, effective and efficient judiciary” — blends with the “IIEE” and “EP” of the more wideranging and all-encompassing Davide Watch.
+
+Let me now summarize how, since his assumption of office on November 30, 1998, Chief Justice Davide has pursued his “IIEE” and “EP” vision and mission for the judiciary and the bar.
+
+## INDEPENDENCE
+
+## Fiscal Independence
+
+Chief Justice Davide's vision of independence refers not only to the ability of individual judges to pen decisions that are free from external influences but also j to the freedom of the judiciary as an institution to determine its own fiscal affairs. While the Constitution prohibits the reduction of the budget of the judiciary and the salary of justices, the judicial branch, however, is not assured of an automatic budgetary increase to cope with inflation. More critically, judicial salaries are still pegged to the Salary Standardization Law, which in sum spells low compensation. The net result is that very few brilliant and ethical lawyers join the judiciary. These desirable elements of the legal profession would certainly earn much more from private practice. Indeed, regional trial judges and even Supreme Court justices receive much less than associates in the major law firms in the country. Unlike their counterparts in the executive and legislative departments, judicial officials do not enjoy development increments, intelligence funds, the perks or the allowances of the former.
+
+The total budget of the judicial department is only 1.12 percent of the national budget. And yet the judiciary is supposed to be the coequal of the executive and the legislative branches. Moreover, it has to submit its requests for funds to the Department of Budget and Management, which in turn includes them in the overall government budget proposal submitted to Congress every year. Moreover, the Supreme Court, through its Committee on Appropriations currently headed by Justice Jose A.R. Melo has to justify annually such financial requests before the appropriate committees of Congress. To preserve judicial independence, the Constitution should have required a fixed percentage of the annual national budget to be allocated to the judiciary and disbursed by the Supreme Court as it sees fit, subject only to the usual review of the Commission on Audit.
+
+But this is the ideal. As the Constitution has not provided for such a situation, Chief Justice Davide has done the next best thing: he has convinced Congress to make lump-sum appropriations for the judiciary and to empower the Court to allot and divide this amount to cover all judicial expenses starting in the year 2000. In this manner, Chief Justice Davide has attained, in one bold stroke, a reasonable measure of financial independence for the judicial branch of the government.
+
+## Independence from Partisan Politics
+
+To assure judicial independence from partisan politics, Chief Justice Davide has vowed to “insulate the selection process of members of the bench from political patronage.” The built-in institution for effecting this insulation is the Judicial and Bar Council (JBC), the constitutional agency tasked with ] screening nominations to every judicial position. The JBC is chaired by the Chief Justice, but he has only one voice in this Council of seven votes, just as he has in the Supreme Court of fifteen members.
+
+There have been many criticisms that the JBC has not been strict and transparent in its selection process. To respond to its critics, the JBC now conducts regular interviews with nominees. Its four full-time members (currently, retired SC Justice Regino C. Hermosisima Jr., retired CA Justice Alfredo M. Marigomen, Dean Amado L. Dimayuga and Atty. Teresita C. Sison) even go to far-flung cities and provinces to meet with applicants. To ensure public information and thereby encourage feedback from the general public, it has also passed Resolution JBC-007 “directing wide publicity of notice of openings of nominations and of list of applicants for judicial positions.”
+
+While the foregoing may still be insufficient to mollify its critics, the JBC, under the leadership of the Chief Justice, is in the process of drawing up a reform program to ensure public confidence in its work and to assure the nomination of competent, honest, hardworking and non-partisan aspirants.
+
+## Financial Benefits to Judicial Personnel
+
+Apart from instituting reforms in the JBC, Chief Justice Davide has been tireless in his effort, within existing limits, to provide financial and material benefits to judicial personnel, as shown by the following Supreme Court Resolutions he has initiated:
+
+2. A Resolution granting expense allowances to executive judges of trial courts”
+
+3. A Resolution approving the establishment in the Court of Appeals and in the Court of Tax Appeals a Health and Welfare Plan similar to that which was approved for the Supreme Court earlier
+
+## INTEGRITY
+
+Chief Justice Davide is a towering persona of integrity. In his eight years as a jurist, and in many more before as a legislator, constitution maker, and elections chairman, no one has ever doubted his honesty and devotion to duty. He lives frugally and simply. No taint of corruption or dishonesty has ever been hurled at him or his family. Thus, he can sincerely exhort “those who don the robes of justice and those who serve under them to adhere to the constitutional precept that a public office is a public trust.” In his speech before the UP Alumni on January 9, 1999, he called for transparency in the judicial system, without “betray[ing] those aspects of the judicial process which  require utmost confidentiality.” Although spoken with veiled conditionality, his call for judicial transparency is a big step in the normally reclusive world of judges.
+
+## Judicial Transparency
+
+In pursuit of transparency, the Court, at the suggestion of the new Chief, has created a Committee on Public Information (CPI) which he has asked me to chair. At first, doubts were expressed by a few: why should the Court need public relations? It is not a political department that requires constant public adulation. It did not need it before; why should it need to announce its work now? Noting that the global trend has been judicial transparency, and that even the US Supreme Court has found a need for public information, the critics eventually succumbed and the Committee was created.
+
+I must hasten to add that the CPI will not “sanitize” news or “angle” stories. Neither will it “proselytize.” As I see it, the Committee’s work is simply “to tell the whole truth about the Court and its work.” To assist the Committee, a Public Information Office has also been created, headed by a public information officer (PIO) who carries the rank of assistant court administrator. The first PIO is Atty, Ismael G. Khan Jr.
+
+To repeat, the CPI and PIO were created to lend more transparency to the Court’s work and thereby increase public understanding of its role and work in society.
+
+## Judicial Cleansing
+
+To implement the call for integrity in the judiciary, the entire Court has agreed to adopt more stringent and timely measures to discipline the judiciary and to rid it of the corrupt, the unethical and the misfit. Specifically, it has hastened the adjudication of administrative cases, among which the noteworthy ones I list below:
+
+1. Alonto-Frayna v. Judge Abdulmajid J. Astih, in which the respondent judge was dismissed from the service and his retirement benefits were forfeited, for continuously ignoring the directives of the Supreme Court to comment on the Complaint against him, acts constituting gross misconduct and insubordination
+
+2. Marcelo Cueva v. Judge Oliver T. Villanueva, in which the respondent judge was also dismissed from the service for multiple infractions of his duties and responsibilities amounting to gross inefficiency, gross ignorance of the law, dereliction of duty and violation of the Code of Judicial Conduct
+
+3. Simbajon v. Judge Rogelio M. Esteban, in which the respondent judge was likewise dismissed from the service, with prejudice to; reemployment in the government, and stripped of all his retirement benefits and leave credits for taking advantage of his position and power in order to carry out his 1 lustful and lascivious desires, in violation of the Code of Judicial Conduct
+
+4. Galang v. Judge Abelardo H. Santos, in which the respondent judge was dismissed for using intemperate language in the newspaper articles he had published, an act constituting conduct unbecoming a member of the bench; and for violation of Rule 2.01 of the Code of Judicial Conduct
+
+5. De Vera v. Judge Sancho A. Dames II, in which the respondent was found guilty of M|, incompetence and ignorance of the law and I thus fined P10,000, for rendering a judgment that lacked factual and legal basis and for not inhibiting himself from a case in which one of the parties was his maljong partner
+
+6. Liwanag v. Judge Paterno H. Lustre, in which the respondent judge was found guilty of gross misconduct and fined P40,000 for having requested sexual favors from a party who had a case pending before him
+
+7. Cruz v. Judge Reynold Q. Yaneza, in which the respondent judge was dismissed with prejudice to reemployment in the government, and stripped of all of his retirement benefits for having approved bail bonds and issued release orders in cases not pending before his sala and in which the accused had not been arrested or detained within the territorial jurisdiction of his court, in gross ignorance of the law
+
+8. Re: Leaves of Absence Without Approval of Judge Eric T. Calderon, in which the respondent court personnel was dismissed from service for having incurred several unapproved leaves of absence purportedly due to malignant hypertension that was later found to be untrue, based on the report of the Supreme Court physician
+
+9. Dionisio v. Hon. Zosino V. Escano, in which the Court suspended the respondent judge for six (6) months, for having posted on the court bulletin board advertisements for job openings in his restaurant and for having used his court address to receive and screen the applicants, acts constituting involvement in private business and improper use of office facilities for the promotion of a private business, in violation of the Code of Judicial Ethics
+
+10. Carmelita L. Lledo v. Atty. Cesar V. Lledo, in which the respondent branch clerk of court was dismissed from the service, with prejudice to reemployment in the government, and stripped of all of his retirement benefits, for having abandoned his conjugal dwelling without providing support for his legitimate children and for maintaining a mistress and falsely introducing her as his lawful wife — acts constituting immorality, abandonment and conduct unbecoming a public official
+
+11. Nicol v. Jose Blanca, Sheriff IV, RTC, Legazpi City, in which the respondent sheriff was dismissed for having asked money from the complainants in order to delay a foreclosure and for having failed to remit the excess of the bid price to the complainants, acts constituting grave misconduct and gross negligence
+
+12. Executive Judge Aida Rangel-Roque v. Gerardo S. Rivota, in which the respondent clerk of court was dismissed from the service, with prejudice to reemployment in the government service, and stripped of all leave credits and retirement benefits, for having deposited in his personal account rentals that had been consigned to the court in connection q| with two civil cases pending before it, acts constituting grave misconduct prejudicial to the best interest of the service.
+
+13. Martinez v. Judge Cesar N. Zoleta, in If which the respondent judge was dismissed from the service, with prejudice to reemployment in the government service, and stripped of retirement benefits and leave credits, for his “obstinate defiance and incessant refusal to submit his Comment [to the administrative Complaint filed against him] despite several [Court] resolutions and stern admonitions” — an act constituting gross misconduct and insubordination
+
+## Motivating the Brilliant and the Ethical
+
+Chief Justice Davide knows that attracting the best to the bench and disciplining or even removing misfits are not sufficient. Motivating the brilliant and the ethical to remain paragons in office is the crucial challenge. On this point, he has been emphatic in both word and deed. Verily, his call for integrity is capped by his motto “Leadership by Example.” More on this later.
+
+## EXCELLENCE
+
+## Continuing Judicial Education
+
+Excellence in the judiciary begins with the appointment of competent judges, who are ready and willing to burn the legendary midnight oil to solve the backlog that has clogged the dockets of courts on all levels. Excellence also requires educated jurists and the facilities for their continuing education. Chief Justice Davide is relentless in his effort to complete the physical plant, equipment and facilities of the Philippine Judicial Academy, now headed by the venerable former SC Justice Ameurfina A. Melencio-Herrera. Knowing that government funds are limited, he has ‘i thought of tapping non-traditional fund sources like the World Bank, JICA, and even private foundations, without compromising judicial independence. His vision transcends the short seminars and conferences that are being currently held; he is eyeing full-blown, year-long curricula, as well as scholarships abroad for deserving judges.
+
+So, too, Chief Justice Davide has initiated various q! agreements and arrangements with other countries for an exchange program involving technology transfer. He has strengthened the computerization program at the Supreme Court to bring it to the trial court level and eventually to interconnect with judicial authorities in other countries. Shortly, video-conferencing i) technology will be introduced in trial courts. The Supreme Court has recently opened a web page, and the most recent court decisions and issuances are now accessible at www.supremecourt.gov.ph
+
+## Speedy Justice
+
+Excellence in the judiciary includes the preparation of decisions that are not only correct, fair and just, but also issued speedily, for indeed, justice delayed is justice denied. In spite of the herculean efforts of his predecessors, Chief Justice Davide realizes that there is still a considerable backlog in the Court. St. Martin Funeral Home v. NLRC, which ruled that petitions for certiorari of decisions of the National Labor Relations Commission (NLRC); and Fabian v. Ombudsman, which held that appeals of administrative rulings of the Ombudsman should now be lodged with the Court of Appeals, will certainly help in limiting the inflow of new cases, thereby giving the Court more time to attend to old ones.
+
+In this connection, the Supreme Court issued a  Resolution in AM No. 99-2-01-SC, mandating that after June 1, 1999, petitions for certiorari involving NLRC decisions “shall no longer be referred to the Court of Appeals but shall forthwith be DISMISSED.” It also promulgated a Resolution in AM No. 99-2-02sc, stating that after March 15, 1999, certiorari petitions or appeals of the Ombudsman’s administrative rulings “shall no longer be referred to the Court of Appeals but must be forthwith DENIED or DISMISSED.” These Resolutions simply mean that the Supreme Court shall no longer entertain such appeals or petitions or refer them to the Court of Appeals; they should be filed directly with the appellate court.
+
+The Chief Justice noted, too, that the Office of the Solicitor General “too often asks for several extensions of time to file Comments or Appellee’s Briefs.” Hence, at his instance, the Court in AM No. 99-2-03-SC* limited such extensions to only 60 days for Comments and 90 days for Briefs, “with a warning that no further extension shall be granted, unless compelling reason warrants a further extension, which shall in no case exceed twenty (20) days.” This took effect March 20, 1999.
+
+Also, in AM No. 99-2-04-SC, the Court has ruled that it shall no longer require “Rejoinders,” thereby further shortening the period of litigation in the highest court. The same Resolution listed the required contents of the memorandum of the parties, stressing that “the Memoranda alone may be considered by the Court in deciding or resolving the petition.”
+
+Recently, the Court also promulgated National Federation of Labor v. Laguesma, which ruled that challenges against rulings of the labor secretary and those acting on his behalf shall now be filed at the Court of Appeals also.
+
+In sum, I believe that in another year, the Court will finally be able to solve its backlog problem.
+
+On the trial court level, the Supreme Court issued a Resolution in AM No. 99-1-13-SC, transferring, (from the first-level courts (MTCs) to the regional trial courts, cases falling within the jurisdiction of the family courts. In another Resolution, the Court authorized the organization of the Shari‘ah Appellate Court. Shortly, the Supreme Court will issue a circular organizing the Family Courts.
+
+## EFFECTIVENESS AND EFFICIENCY
+
+## Reorganization
+
+To achieve effectiveness and efficiency, the Supreme Court has promulgated Resolution No. 98-12-05-SC, reorganizing its existing Divisions and providing Special Divisions to resolve motions for reconsideration. The Chief Justice has also reorganized the standing committees and created new ones.
+
+## Judicial Dialogs
+
+For the first time in the 98-year history of the judiciary, the Chief Justice has initiated judicial dialogs with judges and judicial personnel in all regions of the country. Together with some Supreme Court members and Office of the Court Administrator officers, Chief Justice Davide embarked on a rather tiring and time-consuming program of meeting with trial judges (of the first and second levels) and personnel in every judicial region in the country.
+
+The Chief invited me to attend one such sortie in Cagayan de Oro City on August 20, 1999. Accompanied by Deputy Court Administrators Zenaida N. Elepano and Bernardo P. Ponferrada, as well as Assistant Court Administrators Jose P. Perez and Ismael G. Khan Jr. (who is also the Supreme Court's public information officer), the Chief and I landed about 6:30 a.m. in Cagayan de Oro. After breakfast, we proceeded to meet with about 800 court personnel in a hotel conference hall for approximately four hours. At noon till about 3:30 p.m., another meeting was held in another venue, this time with around 50 trial judges stationed in the region.
+
+Understandably, not all possible questions have been asked and not all concerns could be addressed immediately, but I feel that these dialogues were certainly welcomed by the participants. It gave them an opportunity to get acquainted with their Chief and to be able to air their most pressing concerns, ranging from their low pay to Supreme Court decisions imposing sanctions (dismissals, suspensions, fines and the like) for their breach of judicial discipline.
+
+Equally important, the Chief (and I, and probably the other Court officials present) got a feel of the field — the problems, the aspirations, the doubts and the commitments of his people. While all the problems or concerns they raised could have been written down on paper and sent to Manila, I believe that the dialogs were much more enriching than impersonal memos or petitions. There is no substitute for person-to-person encounters especially in the judiciary where, by long-held tradition, the Supreme Court is a well-guarded nih fortress, a virtual Mt. Olympus that is unreachable to ordinary mortals, not even to its very own constituents.
+
+To show their appreciation, the judges who attended the dialog, led by Executive Judge Noli T. Catli, wrote the Chief Justice an “Article of Faith,” stating “how deeply touched” they were that the highest official of the judiciary had come down “for the first time in history” from his “pedestal of power to see personiM ally the actual condition of courts and to listen to judges of the inferior courts and [their] employees.”
+
+To further promote effectiveness and efficiency, Chief Justice Davide has issued several Administrative Circulars, Memoranda and Orders, viz.:
+
+1. Enhancing the Dignity of Courts as Temples of Justice and Promoting Respect for their Officials and Employees
+
+2. Strict Observance of Working Hours and Disciplinary Action for Absenteeism and Tardiness
+
+3. Strict Observance of Session Hours of Trial Courts and Effective Management of Cases to Ensure Their Speedy Disposition
+
+4. Designation of Judges as Observers or Alteri nates in the IBP Chapter Elections
+
+5. Creation of a Selection and Promotions Board in the Office of the Court Administrator
+
+6. Exercise of Utmost Caution, Prudence and Judiciousness in Issuance of Temporary Restraining Orders and Writs of Preliminary Injunctions
+
+7. Prompt Action on Letters and Requests and Public’s Personal Transactions
+
+8. Banning Smoking and Selling of Goods Within Court Houses and Offices
+
+9. Calendaring Immediately Various Pleadings Received by the Office of the SC Clerk of Court and Promulgating Speedy SC Decisions and Resolutions
+
+10. Notifying Appointees of Their Appointments Within 72 Hours from Receipt
+
+11. Prescribing [and Supplying] Uniforms for All Trial Court Personnel
+
+12. Prescribing Guidelines for Qualifying for Judicial Office.
+
+## A REFORMED BAR
+
+A vision of a reformed bar and of the role of law- 1 yers during his watch was spelled out by Chief Justice Davide in his speech before the IBP House of Delegates on December 4, 1998, a few days after his assumption of office. Reminiscent again of 2 Mc 10, he spoke of a search for “highly informed and exceptionally moral lawyers,” who not only are “of cerebral ] eminence” but, more important, who honor “every word, every phrase, every clause” of the Lawyer’s Oath. He described the ideal lawyer in these words:
+
+“Lawyers are problem solvers; they should not be problem makers. Whether a client approaches a lawyer with a prospective case, a contract that needs drafting, some form of labor unrest, a multi-million transaction which must be effected, or even proposed legislation, plainly, he who bears the title ‘attorney’ or ‘counselor’ has a duty to unsnarl any knots and the corollary obligation not to create more. This trust he must secure, with a view of doing justice not only on the individual level, but, in the long run, of contributing something to the common good, such as the prevention of contention and strife or misunderstanding which affect society or the relationship between its members. What I wish to stress is that we need not look beyond ourselves for where to begin or rely on others for the initiative.”
+
+In a follow-up speech before the IBP Cebu Chapters (both in the Province and the City of Cebu), the Chief Justice reiterated his call for “reforms whether institutional, societal or personal.” Recalling his reflections on metanoia on December 6, 1998, he said:
+
+“As I have specified in my vision and mission for the Bench and Bar, those who have been privileged enough to have earned the right to be called ‘counsel,’ must possess unassailable, unblemished, and unimpeachable integrity. Plainly, without a personal conversion of the individual, any dream to reform institutions or society, shall remain just that: a dream. It is high time that each and every lawyer stop hiding behind the excuses, of ‘the realities of practice,’ or the ‘best interests of the client,’ to justify actions which circumvent the letter and spirit of the Lawyer’s Oath. If we truly desire quality justice for our people, and a quality system of justice in our country, then we must put a halt to deriving benefits from practitioners’ shenanigans, be it in terms of delay in the administration of justice or, more crucially, actual or perceived corruption in the Judiciary. We must stop pointing fingers at each other and causes external to ourselves, and begin with the one factor totally within our control, and I refer to no other than our actions as dictated by our consciences.”
+
+## Continuing Legal Education
+
+Consistent with the need for education and professionalism in the bar, the Chief has pushed the Supreme Court’s approval of the Mandatory Continuing Legal Education Program proposed by the Integrated Bar of the Philippines. This proposal is still undergoing refinements by the SC Committee on Legal Education headed by Justice Jose C. Vitug. However, the proposed program is revolutionary and will require lawyers to attend periodic seminars to enable them to continue their bar memberships. The Vitug Committee is expected to come out with its recommen- I dations very soon.
+
+## Legal Cleansing
+
+Happily, the IBP has positively responded to the Chief's call for the weeding out of misfits. It has speeded up its investigation of Administrative Complaints against attorneys, a power which the Court has delegated to the IBP as a measure of self-regulation. Under this self-policing scheme, the Supreme Court gives the IBP only 90 days to investigate, report and decide on cases referred to it. But in reality, the IBP sometimes takes years before actually completing its work. Citing IBP sources in Battles in the Supreme Court, I wrote that as of June 30, 1998, “1,425 cases against lawyers [were] pending at the IBP Commission on Bar Discipline.” Considering the numerous case dispositions that the Commission has submitted to the Court since then, this backlog must have been greatly reduced.”
+
+Towards the same objective, the Supreme Court, which acts as an appellate body for IBP rulings disciplining lawyers, has handed down Decisions resolving appeals. Noteworthy among these Decisions, which were handed down from October 10, 1998 to October 10, 1999 (my fourth year in the Court), are the following:
+
+1. Ban Hua Flores v. Atty. Enrique S. Chua, in which the respondent was found guilty of grave misconduct for having notarized a forged Deed of Sale and for other acts “which in their totality brought dishonor to the legal profession,” for which the Court ordered his disbarment, after considering that he had previously been found guilty of misconduct and consequently suspended from the practice of law for six months
+
+2. Victoriano P. Resurreccion v. Atty. Ciriaco C. Sayson, in which the respondent was also disbarred for having been found guilty of estafa, a crime involving moral turpitude
+
+3. Victor Nunga v. Atty. Venancio Viray, in which the Court, through Chief Justice Davide, barred the respondent from being commissioned as notary public and from practising law for three (3) years, for having notarized a document without obtaining authority therefor
+
+4. Jaime Curimatmat et al. v. Atty. Felipe i. Gojar, in which the respondent, for having, been remiss in his duty to appeal on time a Decision adverse to his clients, was reprimanded by the Court with a stern warning that any repetition of the same misconduct would be dealt with more severely
+
+5. Atty. Pridencio S. Penticostes v. Prosecutor Diosdado S. Ibanez, in which the respondent was reprimanded and given a stern warning for having failed to remit the Social Security System contributions entrusted to him in connection with a case he was handling, an act constituting professional misconduct.
+
+6. Gatchalian Promotions Talents Pool, Inc. v. Atty. Primo R. Naldoza, in which the Court ordered that respondent be disbarred and his name be struck off the Roll of Attorneys, for misappropriating money entrusted to him by a client, for faking a reason in order to cajole a client to part with his money and, worse, a for falsifying an official receipt of the Court to cover up his misdeeds
+
+## Japanese and Korean Models Limiting Bar Membership
+
+During the Lawasia-sponsored 8th Conference of Chief Justices in Asia and the Pacific held in Seoul, Korea, on September 6-10, 1999, Chief Justice Davide was impressed with the efforts of other Asian countries at limiting entry to the legal profession and elevating legal standards through continuous legal education. In Japan only about 3 percent and in South Korea only about 2 percent pass the bar examinations despite the very rigid and high standards of the law schools. After hurdling the bar examinations, Japanese and Korean lawyers must still undergo a mandatory one-and-a-half-year training program before they could practise or be appointed as judges or prosecutors. These valuable inputs at the Lawasia Conference have strengthened Chief Justice Davide's resolve to cleanse and upgrade the bar.
+
+## JURIDICAL THOUGHT OF CHIEF JUSTICE DAVIDE
+
+As I said earlier, the Chief Justice is not only the chief executive of the judicial department but also the leader, the primus inter pares, of the Supreme Court. The broad sweep of the Davide Watch, which I have just discussed, refers essentially to his role as judicial administrator. I believe, however, that no assessment of the Davide initiatives will be complete without an essay on the juridical thought or legal philosophy of the new Chief. After all, he is first and foremost a jurist. Supreme Court justices are not merely adjudicators of legal controversies. They are also dispensers of justice. And their concept of judicial dispensation is rooted in their legal philosophy.
+
+It is not easy to pinpoint to what school of legal jurisprudence a certain jurist belongs. In fact, as retired SC Justice Camilo D, Quiason said, “[i]t is always difficult, and may not always be possible to categorize a justice of the Supreme Court as belonging to a particular school of jurisprudence or as the votary of a particular legal theory.”
+
+Verily, Chief Justice Davide himself makes such categorization even more perilous. According to him, jurists “have neither need nor reason to side with or favor, much less, advocate, at least publicly, one school of thought at the expense of another. This is the price of the judicial office and functions, ideally divorced from policy formulation to maintain impartiality at all costs.”I do not necessarily agree with this statement. Quite the contrary, I believe that every leader must have a well-defined philosophy; otherwise, he would leave his followers adrift in a sea of uncertainties and moral vacuum. But I quote it anyway to show the perils of trying to catch the jurisprudential philosophy of the Chief.
+
+This caveat may partially explain why the Chief Justice has not written a book touching on or even hinting at his legal philosophy or judicial thoughts. Hence, the only way to read his hidden juridical mind would be to analyze his decisions as a Supreme Court justice.
+
+As the Centennial, even Millennial, Chief Justice, he and the whole Court will be confronted with a new world order that will impact Philippine jurisprudence. The cyber and space age — along with fiber optics, outer space exploration, genetic engineering, e-commerce, in vitro fertilization, paperless communications, and DNA advances — will definitely need new ways of coping. And perhaps, even more direly, the phenomena of trade liberalization, economic globalization and business deregulation will impact on the Bill of Rights. Verily, as liberalization and globalization erase territorial frontiers, states and governments tend to surrender some of their authority and powers to the “market” and to the renewed energy of laissez faire, such that the threats to civil liberties and human rights may in fact shift from government abuses to the more bedeviling market forces that transcend boundaries and sovereignties.
+
+## His Style and Format in Decision Writing
+
+Before dissecting his ponencias, however, let me say a few words about the way he writes them. I was fortunate that from 1996 to 1998, I was assigned to the same Division as he was. Thus, I had the opportunity to observe him at a range closer than that normally available during our en banc sessions.
+
+During one Supreme Court function on October 22, 1997, I had the occasion, as a new member of the Court, to describe my impression of each of my colleagues.” Of Hilario G. Davide Jr., I said:
+
+“The epitome of the Filipino jurist, makabayan, maginoo, marangal, matapang, masipag, mapagkakatiwalaan, may mabuting asal at diwa, may pagpapahalaga sa kapwa at may paniniwala sa Pilipino at sa kanyang kakayahang maging malaya, maunlad at mapayapa.”
+
+Yes, “epitome of the Filipino jurist” — that was the image I had of Justice Davide at the time. Such an image has become sharper now. He is the persona of the “four I's” I spoke about in an earlier section of this chapter — integrity, independence, intelligence and industry.
+
+His ponencias mirror these characteristics. He writes exhaustively, patiently explaining the details of each case, stating all the arguments of each of the parties, and then discussing one by one each question or issue raised. He rules clearly and firmly, leaving no doubt or equivocation or residue. Seldom does he pontificate; instead, he argues his points with a view to convince, sometimes in a way that overwhelms.
+
+Knowing that decisions are read even by lay persons, he writes simply and straight to the point, striking at the root of every issue without unnecessary diversions and side tracks. Indeed, he avoids obiters, flamboyance and braggadocio; rather, he writes unaffectedly, without much literary flourish or pretension at poetry. Nevertheless, his balance and symmetry are identifiable and poised. Most important, his Decisions always contain HH relevant doctrines and points of law that are quotable val in succeeding cases. All in all, his writings, while quite traditional in their style, are consistent in their thoroughness, forthrightness and depth.
+
+## Some Impressions of His Juridical Thoughts
+
+As of this writing, Chief Justice Davide has been a member of the Court for over eight years, has written more than 500 ponencias and opinions and delivered countless speeches. On a number of occasions, he has adverted to the natural law school. Note, for instance, his call for attorneys to live higher “ethical values expressed in the natural law.” At other times, he has stuck to the plain letter of the law and its simple: application to a set of facts. In still some other opinions, he has been creative and innovative, even proactive, in his approach to issues. These observations merely strengthen Justice Quiason’s thesis that no ’ judge “nurses a conscious effort in promoting any theory of law. At times, the facts and the law involved in the case do not leave room for the application of any legal theory.”
+
+Due to deadline constraints and limited space, I do not propose to summarize all his writings. Neither do I intend to categorize him as an advocate or a: follower of any particular school of legal philosophy. As I said earlier, such a task is not only difficult but perilous as well. I will merely describe my impressions of his judicial mind as shown by some of his speeches, ponencias and opinions.
+
+With the foregoing caution, let me now present my reading of his mind.
+
+First. He is definitely pro-environment. In his keynote address before the Asian Inter-Parliamentary: Organization on September 20, 1999, Chief Justice Davide “reserved for last an issue which is dear to my heart: that of the environment.” Continuing, he waxed eloquent, saying, “We have great reason to be united in addressing these issues [confronting the environment]; we come from one mother, Mother Earth. And so we share a common heritage and a common responsibility to preserve the inheritance for our children, our grandchildren, and generations to come.”
+
+During the Southeast Asian Justices Symposium on Sustainable Development held in Manila on March 4 to 6, 1999, Chief Justice Davide implored the participants to “seek the guidance of the Chief Justice of the Supreme Court of Life and [to] always pray that we be guided by the wisdom and spirit of Mother Earth and touched and moved by her cries and anguish.”
+
+Writing for the majority in the landmark Oposa v. Factoran, then Associate Justice Davide brushed aside procedural objections, especially to the locus standi of the minor petitioners, to be able to focus “on one specific fundamental legal right - the right to a balanced and healthful ecology which, for the first time in our nation’s constitutional history, is solemnly incorporated in the fundamental law.” Stressing the importance of this constitutional right, he wrote:
+
+“While the right to a balanced and healthful ecology is to be found under the Declaration of Principles and State Policies and not under the Bill of Rights, it does not follow that it is less important than any of the civil and political rights enumerated in the latter. Such a right belongs to a different category of rights altogether for it concerns nothing less than self-preservation and self-perpetuation — aptly and fittingly stressed by the petitioners — the advancement of which may even be said to predate all governments ‘ and constitutions. As a matter of fact, these basic rights need not even be written in the Constitution for they are assumed to exist from the inception of humankind. If they are now explicitly mentioned in the fundamental charter, it is because of the well-founded fear of its framers that unless the rights to a balanced and healthful ecology and to health are mandated as state policies by the Constitution itself, thereby highlighting their continuing importance and imposing upon the state a solemn obligation to preserve the first and protect and advance the second, the day would not be too far when all else would be lost not only for the present generation, but also for those to come — generations which stand to inherit nothing but parched earth incapable of sustaining life.”
+
+Consistent in his crusade for healthful ecology, he penned another environment-protecting Decision, Tano v. Socrates, in which he likewise set aside “procedural obstacles” to be able “to resolve this case on its; merits. He upheld the right of the City of Puerto Princesa and the Province of Palawan to enact ordinances “to protect the environment and impose appropriate penalties for acts which endanger the environment.” In the process, he dissected the minutiae of marine life in order to point out the evils of cyanide fishing and the imperatives of preserving coral reefs. In his words:
+
+“The destruction of the coral reefs results in serious, if not irreparable, ecological imbalance, for coral reefs are among nature’s life-support systems. They collect, retain, and recycle nutrients for adjacent nearshore areas such as mangroves, seagrass beds, and reef flats; provide food for marine plants and animals; and serve as a protective shelter for aquatic organisms. It is said that ecologically, the reefs are to the oceans what forests are to continents: they are shelters and breeding grounds for fish and plant species that will disappear without them.
+
+“The prohibition against catching live fish stems, in part, from the modern phenom- Hi enon of live-fish trade which entails the catching of so-called exotic tropical species of fish not only for aquarium use in the West, but i also for ‘the market for live banquet fish [which] is virtually insatiable in ever more affluent Asia. These exotic species are coral-dwellers, and fishermen catch them by ‘diving in shallow water with coralline habitats and squirting sodium cyanide poison at passing fish directly or onto coral crevices; once affected the fish are immobilized [merely stunned] and then scooped by hand.’ The diver then surfaces and dumps his catch into a submerged net attached to the skiff. Twenty minutes later, the fish can swim normally. Back on shore, they are placed in holding pens, and within a few weeks, they expel the Hi cyanide from their system and are ready to ] be hauled. Then they are placed in saltwater tanks or packaged in plastic bags filled with seawater for shipment by air freight to major markets for live food fish. While the fish are meant to survive, the opposite holds true for their former home as ‘[a]fter the fisherman. squirts the cyanide, the first thing to perish is the reef algae, on which fish feed. Days later, the living coral starts to expire. Soon the reef loses its function as habitat for the fish, which eat both the algae and invertebrates that cling to the coral. The reef becomes an underwater graveyard, its skeletal remains brittle, bleached of all color and vulnerable to erosion from the pounding of the waves. It has been found that cyanide fishing kills most hard and soft corals within three months of repeated application.”
+
+Second. A stickler for rules, he firmly believes in the rule of law. The judiciary simply applies the law; it has no power to deviate from the legislative intent. In People v. Quijada, he engaged the respected Justice Florenz D. Regalado, a conceded authority in criminal law, in a “bruising debate” on the application of “doctrinal concepts of penal laws” and “even the ordinary notions of common sense” and came out the victor, even if by a close 8-7 vote and even if this victory was later overtaken by Republic Act No. 8294. In crisp, clear language, he opined that the duty of courts “is merely to apply the law in such a way that shall not usurp legislative powers by judicial legislation and that in the course of such application or construction, it should not make or supervise legislation, or under the guise of interpretation modify, revise, amend, distort, remodel or rewrite the law, or give the law a construction which is repugnant to its terms.”
+
+In Regala v. Sandiganbayan, he chided the majority for expanding the coverage of the lawyer-client privilege in order “to prevent the disclosure of a client’s identity where the lawyer and the client are conspirators in the commission of a crime or fraud.” He pointed out that there was no need to resort to interpretation which just tended “to expand the scope of the Philippine rule by copious citations of American jurisprudence x x x.” All that was really needed to resolve the said issue, he said, was a hard look at the i Code of Professional Responsibility. He wrote:
+
+“x x x. Under our jurisdiction, lawyers are mandated not to counsel or abet activities aimed at defiance of the law or at lessening confidence in the legal system (Rule 1.02, Canon 1, Code of Professional Responsibility) and to employ only fair and honest means to attain the lawful objectives of his client (Rule 19.01, Canon 19, Id.). And under the Canons of Professional Ethics, a lawyer must steadfastly bear in mind that his great trust is to be performed within and not without the bounds of the law (Canon 15, Id.), that he advances the honor of his profession and the best interest of his client when he renders service or gives advice tending to impress if upon the client and his undertaking exact compliance with the strictest principles of moral law (Canon 32, Id.). These canons strip a lawyer of the lawyer-client privilege whenever he conspires with the client in the commission of a crime or a fraud.”
+
+Third. While in most of his decisions, Chief Justice Davide steers within conventional doctrines and close to the wordings and intentions of statutes, he can show his creativity or innovativeness when circumstances, as he perceives them, call for it, The best example showing his ability to innovate was demonstrated in the famous PIRMA” cases. In Miriam D. Santiago v. Commission on Elections, he led the Court in stopping a snowballing effort to amend the Constitution through a system of initiative. While agreeing that a people’s initiative was one way of changing provisions of the basic law, he nevertheless succeeded in convincing a majority of the justices (1) that Section 2 of Article XVII of the Constitution providing for such a system was “not self-executory,” and (2) that RA 6735, supposedly the enabling law implementing said constitutional provision, was “incomplete, inadequate or wanting in essential terms and conditions insofar as initiative or amendments to the Constitution are concerned.” Since the enabling law was inadequate, “x x x, the right of the people to directly propose amendments to the Constitution through the system of initiative would remain entombed in the cold niche of the Constitution until Congress provides for its implementation.”
+
+I researched long and hard but could not find credible authorities, not to say court decisions, either here or abroad, backing up this rather novel theory of“insufficient law.” I thought that such a new theory: of constitutional law should not diminish the people’s right to an initiative, which was after all an institutionalization of “people power,” the political process that made the Philippines the talk of the world. But he won and had to be content with writing a Dissent.
+
+In his Separate Opinion on the Court's Resolution denying the Motion for Reconsideration in the said case, then Associate Justice Davide clarified that in declaring RA 6735 to be inadequate, the Court really meant that it was unconstitutional for failing to comply with the “completeness and sufficient standard” test by purporting “to delegate a delegable legislative power.”
+
+Although I disagreed with his ponencia and wrote a Dissent, I do not intend at this point to dispute his i] position any further. All I am trying to show now is that normally he is conventional in his decision-writing, often preferring to cite traditional doctrines; but that when bold action is needed, he is capable of rising to the occasion by innovating, in order to be able to reach a desired conclusion. In the process, he blazes new jurisprudential trails.
+
+Fourth, He is a very spiritual, humanistic person, a firm believer in Jesus Christ and in the presence and redeeming power of God in the life of every person. I need not repeat here the many incidents and speeches I have cited earlier, like his daily Bible reading and his A exhortation to uphold “higher ethical values expressed in the natural law.” Although not expressly written HH in his ponencias, these undertones of his deepest thoughts surface in various forms and statements. At bottom, his writings and speeches indubitably carry his firm faith in one Lord — Jesus Christ.
+
+## Epilogue: LEADERSHIP BY EXAMPLE
+
+The Chief Justice’s program of action for the judiciary and personal juridical philosophy, as I know them, I have tried my best to explain. They may sometimes seem complex and forbidding, but they are really sewn together by a common thread: Leadership by Example. Before the Kilosbayan Forum I mentioned earlier, the very first public appearance of the Chief in which he presented the “Davide Watch,” he announced: “As Chief Justice, I pledge that I shall spare no effort in leading the judiciary by example. For those who know me, you know I do not take this pledge lightly.”
+
+Given his performance during his initial year, Chief Justice Davide can proudly claim an auspicious beginning, having laid down the rock of his incumbency in this short but meaningful credo: “Leadership by Example.” This battle cry was the very same gospel used by our Lord Jesus in leading His disciples.: According to Evangelist Mark,'" our Lord enunciated it to the believers in this manner:
+
+“Jesus summoned them and said to them, ‘You know that those who are recognized as rulers over the Gentiles lord it over them, and their great ones make their authority over them felt. But it shall not be so among you. Rather, whoever wishes to be great among you will be your servant; whoever wishes to be first among you will be the slave of all. For the Son of Man did not come to be served but to serve and to give his life as a ransom for many.”
+
+True indeed, among the Gentiles, the nonbelievers, the leaders lorded it over their followers. In modern times, it is no different. Although the so-called leaders call themselves public servants, the sad fact is that they arrogate unto themselves power and authority over the life, the liberty and the well-being of their people. Hence, they allocate unto themselves huge discretionary funds, so that they could dispense patronage and favors; so that people would feel indebted to them personally for the building of roads, the repair of public markets or the construction of water systems. i Our leaders make themselves the centers of authority such that, most of the time, no business can be opened without their blessings, no employment can be secured without their recommendation, and no wedding or baptism can be complete without them as sponsors. Indeed, our leaders make their importance felt, not by reason of their wisdom or their service, but by the authority and the power they clothe themselves with. They speak loudly and boisterously against immorality, corruption and violence, but their public and private lives demonstrate dishonesty, incompetence, emptiness and callousness.
+
+Unlike this confusing pattern of stewardship, Chief Justice Davide has gallantly set up his own gauntlet: Leadership by Example. By this credo, he shall be judged as leader and jurist. Judging from what he has demonstrated during the past three hundred days, he means to live solemnly and humbly by his own standard: to be the personification of what he demands from his people. His habits, life and career must demonstrate exactly the very values he expects from them. No one can honestly dispute this truism: Chief Justice Hilario G. Davide Jr. is the standard of independence, integrity, excellence and effectivity in the judiciary.

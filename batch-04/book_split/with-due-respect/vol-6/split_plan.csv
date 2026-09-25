@@ -1,0 +1,12 @@
+order,book_title,part_label_as_printed,classification,skip_reason,chapter_no,chapter_title,start_page,end_page,word_count,file,collected_piece,original_date,original_outlet,flags
+1,With Due Respect (Vol. 6),BOOK 6: On the 2010 Vote and the Aquino Presidency,SKIP,part divider,,,,,10,,no,,,
+2,With Due Respect (Vol. 6),CHAPTER 1 Destiny and Aspiration,CHAPTER,,1,Destiny and Aspiration,,,881,ch01_destiny-and-aspiration.md,yes,2009-09-06,Philippine Daily Inquirer (column “With Due Respect”),ocr-garbled-date-line
+3,With Due Respect (Vol. 6),CHAPTER 2 How Do You Solve a Problem Like Estrada?,CHAPTER,,2,How Do You Solve a Problem Like Estrada?,,,898,ch02_how-do-you-solve-a-problem-like-estrada.md,yes,2009-10-25,Philippine Daily Inquirer (column “With Due Respect”),
+4,With Due Respect (Vol. 6),CHAPTER 3 Can the Senate Stop a GMA Holdover?,CHAPTER,,3,Can the Senate Stop a GMA Holdover?,,,900,ch03_can-the-senate-stop-a-gma-holdover.md,yes,2010-02-07,Philippine Daily Inquirer (column “With Due Respect”),
+5,With Due Respect (Vol. 6),CHAPTER 4 My Choices for May 10,CHAPTER,,4,My Choices for May 10,,,906,ch04_my-choices-for-may-10.md,yes,2010-04-25,Philippine Daily Inquirer (column “With Due Respect”),
+6,With Due Respect (Vol. 6),CHAPTER 5 How to Fight No-PROC,CHAPTER,,5,How to Fight No-PROC,,,917,ch05_how-to-fight-no-proc.md,yes,2010-05-02,Philippine Daily Inquirer (column “With Due Respect”),
+7,With Due Respect (Vol. 6),CHAPTER 6 Thunderous Triumph of People Power,CHAPTER,,6,Thunderous Triumph of People Power,,,878,ch06_thunderous-triumph-of-people-power.md,yes,2010-05-16,Philippine Daily Inquirer (column “With Due Respect”),
+8,With Due Respect (Vol. 6),CHAPTER 7 Noynoy's Most Vexing Problem,CHAPTER,,7,Noynoy's Most Vexing Problem,,,880,ch07_noynoy-s-most-vexing-problem.md,yes,2010-05-23,Philippine Daily Inquirer (column “With Due Respect”),
+9,With Due Respect (Vol. 6),"CHAPTER 8 Destiny and Legacy, Not Dynasty",CHAPTER,,8,"Destiny and Legacy, Not Dynasty",,,939,ch08_destiny-and-legacy-not-dynasty.md,yes,2010-05-30,Philippine Daily Inquirer (column “With Due Respect”),
+10,With Due Respect (Vol. 6),CHAPTER 9 Exercise in Courage,CHAPTER,,9,Exercise in Courage,,,853,ch09_exercise-in-courage.md,yes,2010-07-18,Philippine Daily Inquirer (column “With Due Respect”),
+11,With Due Respect (Vol. 6),CHAPTER 10 How P-Noy Can Win the Supreme Court,CHAPTER,,10,How P-Noy Can Win the Supreme Court,,,872,ch10_how-p-noy-can-win-the-supreme-court.md,yes,2010-10-24,Philippine Daily Inquirer (column “With Due Respect”),

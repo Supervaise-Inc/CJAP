@@ -1,0 +1,1110 @@
+doc_id,type,title,stored_as,current_value,target_text,precision,source,change
+CA003,columns,Pivotal issue in Duterte's ICC case,datetime,2025-03-24 00:00:00,2025-03-24,day,mechanical,type only
+CA004,columns,Due process in impeachment,datetime,2012-01-14 00:00:00,2012-01-14,day,mechanical,type only
+CA005,columns,Due process and judicial compensation,datetime,2011-07-03 00:00:00,2011-07-03,day,mechanical,type only
+CA009,columns,Enforcing the Arbitral Award,datetime,2021-06-13 00:00:00,2021-06-13,day,mechanical,type only
+CA010,columns,Understanding the arbitral award,datetime,2019-08-04 00:00:00,2019-08-04,day,mechanical,type only
+CA011,columns,WPS is ours... no ifs and buts',datetime,2019-07-28 00:00:00,2019-07-28,day,mechanical,type only
+CA013,columns,Winning the war to exploit our EEZ,datetime,2019-08-25 00:00:00,2019-08-25,day,mechanical,type only
+CA014,columns,Extracting WPS resources beyond the arbitral award,datetime,2019-08-18 00:00:00,2019-08-18,day,mechanical,type only
+CA015,columns,AFP's role under the rule of law,datetime,2021-02-21 00:00:00,2021-02-21,day,mechanical,type only
+CA020,columns,"Defeat for Trump, victory for rule of law",datetime,2020-12-27 00:00:00,2020-12-27,day,mechanical,type only
+CA022,columns,"Yes, the Supreme Court can!",datetime,2014-06-01 00:00:00,2014-06-01,day,mechanical,type only
+CA024,columns,"Martial law, authoritarian rule and Cha-cha",datetime,2017-10-01 00:00:00,2017-10-01,day,mechanical,type only
+CA025,columns,SC penalizes unethical conduct,datetime,2026-05-18 00:00:00,2026-05-18,day,mechanical,type only
+CA026,columns,Sink or sail with Potus and Scotus,datetime,2026-05-11 00:00:00,2026-05-11,day,mechanical,type only
+CA027,columns,"SC balances protection of journos, public",datetime,2026-05-04 00:00:00,2026-05-04,day,mechanical,type only
+CA028,columns,Holding the US and Trump accountable,datetime,2026-04-13 00:00:00,2026-04-13,day,mechanical,type only
+CA029,columns,When will Sara's impeachment process end?,datetime,2026-03-16 00:00:00,2026-03-16,day,mechanical,type only
+CA030,columns,"Legality of arrests, searches, seizures",datetime,2026-03-09 00:00:00,2026-03-09,day,mechanical,type only
+CA031,columns,"Partners in rule of law, constitutionalism, AI",datetime,2026-03-02 00:00:00,2026-03-02,day,mechanical,type only
+CA032,columns,Make America Great Alone,datetime,2026-02-23 00:00:00,2026-02-23,day,mechanical,type only
+CA033,columns,Safeguarding gender justice,datetime,2026-01-05 00:00:00,2026-01-05,day,mechanical,type only
+CA034,columns,AI in justice and governance,datetime,2025-11-10 00:00:00,2025-11-10,day,mechanical,type only
+CA035,columns,A plea for the rule of law,datetime,2025-08-11 00:00:00,2025-08-11,day,mechanical,type only
+CA036,columns,"SC disciplines appellate, trial magistrates",datetime,2025-08-04 00:00:00,2025-08-04,day,mechanical,type only
+CA037,columns,"KP: Nobly aimed, constitutionally flawed (2)",datetime,2025-07-28 00:00:00,2025-07-28,day,mechanical,type only
+CA038,columns,"KP: Nobly aimed, constitutionally flawed (1)",datetime,2025-07-21 00:00:00,2025-07-21,day,mechanical,type only
+CA039,columns,The Supreme Court disciplines its members,datetime,2025-07-14 00:00:00,2025-07-14,day,mechanical,type only
+CA040,columns,The Supreme Court defends its members,datetime,2025-07-07 00:00:00,2025-07-07,day,mechanical,type only
+CA041,columns,SC innovation: High-Performance Courts,datetime,2025-06-30 00:00:00,2025-06-30,day,mechanical,type only
+CA042,columns,Prescription in Duterte's case in ICC and in PH,datetime,2025-06-23 00:00:00,2025-06-23,day,mechanical,type only
+CA043,columns,"Senators, do you know where you're going to?",datetime,2025-06-16 00:00:00,2025-06-16,day,mechanical,type only
+CA044,columns,A rare peep inside the Supreme Court,datetime,2025-06-09 00:00:00,2025-06-09,day,mechanical,type only
+CA045,columns,Double jeopardy waived if accused appeals,datetime,2025-06-02 00:00:00,2025-06-02,day,mechanical,type only
+CA046,columns,De Lima's remedies to remain free,datetime,2025-05-26 00:00:00,2025-05-26,day,mechanical,type only
+CA047,columns,Names married women may use,datetime,2025-05-12 00:00:00,2025-05-12,day,mechanical,type only
+CA048,columns,Labor laws and the gig economy,datetime,2025-05-05 00:00:00,2025-05-05,day,mechanical,type only
+CA049,columns,Quixotic chances of anti-dynasty petitions,datetime,2025-04-14 00:00:00,2025-04-14,day,mechanical,type only
+CA050,columns,"Marcos, Cojuangco, JPE, Accra win coco levy",datetime,2025-04-07 00:00:00,2025-04-07,day,mechanical,type only
+CA051,columns,Recourses of Camp John Hay investors,datetime,2025-03-31 00:00:00,2025-03-31,day,mechanical,type only
+CA052,columns,"Buyers beware when purchasing homes, condos",datetime,2025-03-17 00:00:00,2025-03-17,day,mechanical,type only
+CA053,columns,"MIF, other high-profile cases clog SC docket",datetime,2025-03-03 00:00:00,2025-03-03,day,mechanical,type only
+CA054,columns,Only the injured spouse may thrash union,datetime,2025-02-24 00:00:00,2025-02-24,day,mechanical,type only
+CA055,columns,PhilHealth and the people's right to health,datetime,2025-02-17 00:00:00,2025-02-17,day,mechanical,type only
+CA056,columns,The children's interest is paramount,datetime,2025-02-10 00:00:00,2025-02-10,day,mechanical,type only
+CA057,columns,Trump's limits on birthrights bad for PH,datetime,2025-02-03 00:00:00,2025-02-03,day,mechanical,type only
+CA058,columns,Why courts are interested in new sciences,datetime,2025-01-27 00:00:00,2025-01-27,day,mechanical,type only
+CA059,columns,"Comelec must stop acting abusively, whimsically",datetime,2025-01-20 00:00:00,2025-01-20,day,mechanical,type only
+CA060,columns,"Ulas: Legal excellence, aid for indigents",datetime,2024-12-09 00:00:00,2024-12-09,day,mechanical,type only
+CA061,columns,How do you solve a problem like Sara?,datetime,2024-12-02 00:00:00,2024-12-02,day,mechanical,type only
+CA062,columns,"The Maritime Zones Act, Asean, and China",datetime,2024-11-18 00:00:00,2024-11-18,day,mechanical,type only
+CA063,columns,A puzzlement for our Supreme Court,datetime,2024-08-12 00:00:00,2024-08-12,day,mechanical,type only
+CA064,columns,Cradle of the rule of law,datetime,2024-08-05 00:00:00,2024-08-05,day,mechanical,type only
+CA065,columns,Scotus legalizes bribery,datetime,2024-07-29 00:00:00,2024-07-29,day,mechanical,type only
+CA066,columns,"Permanent Court of Arbitration, 125",datetime,2024-07-22 00:00:00,2024-07-22,day,mechanical,type only
+CA067,columns,Little known SC decisions,datetime,2024-07-15 00:00:00,2024-07-15,day,mechanical,type only
+CA068,columns,More on Scotus and on my talented 'apo',datetime,2024-06-24 00:00:00,2024-06-24,day,mechanical,type only
+CA069,columns,From awe to dismay at the Scotus,datetime,2024-06-17 00:00:00,2024-06-17,day,mechanical,type only
+CA070,columns,"Prosecutor, not ICC, seeks arrest of Israeli PM",datetime,2024-05-27 00:00:00,2024-05-27,day,mechanical,type only
+CA071,columns,SC not an enemy of doctors,datetime,2024-05-20 00:00:00,2024-05-20,day,mechanical,type only
+CA072,columns,"An amparo success, though not yet complete",datetime,2024-05-13 00:00:00,2024-05-13,day,mechanical,type only
+CA073,columns,Doctrine of operative fact; the immortal RAVS,datetime,2024-04-29 00:00:00,2024-04-29,day,mechanical,type only
+CA074,columns,60 hours of free legal aid for the poor,datetime,2024-04-22 00:00:00,2024-04-22,day,mechanical,type only
+CA075,columns,Powers of the Ombudsman,datetime,2024-04-08 00:00:00,2024-04-08,day,mechanical,type only
+CA076,columns,SC: Write simply and clearly,datetime,2024-04-01 00:00:00,2024-04-01,day,mechanical,type only
+CA077,columns,Courage and grit of our Supreme Court,datetime,2024-03-25 00:00:00,2024-03-25,day,mechanical,type only
+CA078,columns,Scotus hands Trump a major victory,datetime,2024-03-11 00:00:00,2024-03-11,day,mechanical,type only
+CA079,columns,Cha-cha laws and jurisprudence 101,datetime,2024-02-26 00:00:00,2024-02-26,day,mechanical,type only
+CA080,columns,The rule of law in the besieged China Sea,datetime,2024-02-19 00:00:00,2024-02-19,day,mechanical,type only
+CA081,columns,The rule of law in the besieged world,datetime,2024-02-12 00:00:00,2024-02-12,day,mechanical,type only
+CA082,columns,A changing of guards at Asean Law,datetime,2024-02-05 00:00:00,2024-02-05,day,mechanical,type only
+CA083,columns,"Will Maria Ressa, Jinggoy Estrada be acquitted?",datetime,2024-01-29 00:00:00,2024-01-29,day,mechanical,type only
+CA084,columns,Dancing Cha-cha with Taylor Swift's craze,datetime,2024-01-22 00:00:00,2024-01-22,day,mechanical,type only
+CA085,columns,Judicial activism to suppress terrorism,datetime,2024-01-08 00:00:00,2024-01-08,day,mechanical,type only
+CA086,columns,"Dispenser of justice, not just of rules",datetime,2023-12-18 00:00:00,2023-12-18,day,mechanical,type only
+CA087,columns,President Marcos' ICC options,datetime,2023-12-11 00:00:00,2023-12-11,day,mechanical,type only
+CA088,columns,Duties of lawyers,datetime,2023-12-04 00:00:00,2023-12-04,day,mechanical,type only
+CA089,columns,Lawyers' responsibilities and accountabilities,datetime,2023-11-27 00:00:00,2023-11-27,day,mechanical,type only
+CA090,columns,The sad saga of Dr. Iggy Agbayani,datetime,2023-11-13 00:00:00,2023-11-13,day,mechanical,type only
+CA091,columns,Substantively right but procedurally wrong,datetime,2023-11-06 00:00:00,2023-11-06,day,mechanical,type only
+CA092,columns,Let the rule of law reign in Asean,datetime,2023-10-23 00:00:00,2023-10-23,day,mechanical,type only
+CA093,columns,Please exclude CJs from popularity surveys,datetime,2023-10-16 00:00:00,2023-10-16,day,mechanical,type only
+CA094,columns,"Prime duty of lawyers, prosecutors, judges",datetime,2023-10-09 00:00:00,2023-10-09,day,mechanical,type only
+CA095,columns,"Turn to tech, AI to reform the judiciary",datetime,2023-09-25 00:00:00,2023-09-25,day,mechanical,type only
+CA096,columns,Trial judges on trial by the gallery,datetime,2023-09-18 00:00:00,2023-09-18,day,mechanical,type only
+CA097,columns,Was the Smartmatic election system rigged?,datetime,2023-08-28 00:00:00,2023-08-28,day,mechanical,type only
+CA098,columns,Makati versus Taguig,datetime,2023-08-21 00:00:00,2023-08-21,day,mechanical,type only
+CA099,columns,"Still, gov't must probe fairly and speedily",datetime,2023-08-14 00:00:00,2023-08-14,day,mechanical,type only
+CA100,columns,ICC: The temporal vs the strategic,datetime,2023-08-07 00:00:00,2023-08-07,day,mechanical,type only
+CA101,columns,"How to interpret marks, words, qualifiers",datetime,2023-07-24 00:00:00,2023-07-24,day,mechanical,type only
+CA102,columns,How to read the Constitution and the laws,datetime,2023-07-17 00:00:00,2023-07-17,day,mechanical,type only
+CA103,columns,Helping the 'conscience of society',datetime,2023-07-10 00:00:00,2023-07-10,day,mechanical,type only
+CA104,columns,Writ of habeas corpus,datetime,2023-06-26 00:00:00,2023-06-26,day,mechanical,type only
+CA105,columns,Leila de Lima's continuing quest for freedom,datetime,2023-06-19 00:00:00,2023-06-19,day,mechanical,type only
+CA106,columns,Big blow on De Lima's bid for freedom,datetime,2023-06-12 00:00:00,2023-06-12,day,mechanical,type only
+CA107,columns,DOJ: Reverse acquittal and convict De Lima,datetime,2023-06-05 00:00:00,2023-06-05,day,mechanical,type only
+CA108,columns,Why was Janet Lim-Napoles acquitted?,datetime,2023-05-29 00:00:00,2023-05-29,day,mechanical,type only
+CA109,columns,Bringing Teves to justice,datetime,2023-05-15 00:00:00,2023-05-15,day,mechanical,type only
+CA110,columns,Welcome to the new attorneys With Due Respect,datetime,2023-05-08 00:00:00,2023-05-08,day,mechanical,type only
+CA111,columns,Judicial activism in the Philippines,datetime,2023-04-10 00:00:00,2023-04-10,day,mechanical,type only
+CA112,columns,Origin of judicial activism,datetime,2023-04-03 00:00:00,2023-04-03,day,mechanical,type only
+CA113,columns,Going beyond the normal in Lazada,datetime,2023-03-27 00:00:00,2023-03-27,day,mechanical,type only
+CA114,columns,Don't weaponize the law,datetime,2023-03-20 00:00:00,2023-03-20,day,mechanical,type only
+CA115,columns,Best way to stop ICC,datetime,2023-03-06 00:00:00,2023-03-06,day,mechanical,type only
+CA116,columns,"ICC prosecutor targets DOJ, OSG",datetime,2023-02-27 00:00:00,2023-02-27,day,mechanical,type only
+CA117,columns,Don't charge what you can't prove,datetime,2023-02-20 00:00:00,2023-02-20,day,mechanical,type only
+CA118,columns,On psychological incapacity and Dengvaxia,datetime,2023-02-13 00:00:00,2023-02-13,day,mechanical,type only
+CA119,columns,"Gigi freed, Leila next?",datetime,2023-01-30 00:00:00,2023-01-30,day,mechanical,type only
+CA120,columns,A subtle reminder to EEZ negotiators,datetime,2023-01-16 00:00:00,2023-01-16,day,mechanical,type only
+CA121,columns,SC prioritizes public interest cases,datetime,2023-01-09 00:00:00,2023-01-09,day,mechanical,type only
+CA122,columns,SC ups rights of children outside wedlock,datetime,2022-12-26 00:00:00,2022-12-26,day,mechanical,type only
+CA123,columns,What if the US asks for Quiboloy's extradition?,datetime,2022-12-19 00:00:00,2022-12-19,day,mechanical,type only
+CA124,columns,Foreign divorce of mixed couples valid here,datetime,2022-12-12 00:00:00,2022-12-12,day,mechanical,type only
+CA125,columns,Chinese cooperation to extract our EEZ wealth,datetime,2022-12-05 00:00:00,2022-12-05,day,mechanical,type only
+CA126,columns,Not all lump sums are unconstitutional,datetime,2022-11-28 00:00:00,2022-11-28,day,mechanical,type only
+CA127,columns,The SC's SPJI -- the present and the future,datetime,2022-11-21 00:00:00,2022-11-21,day,mechanical,type only
+CA128,columns,Supreme Court's SPJI: Reminiscing the past,datetime,2022-11-14 00:00:00,2022-11-14,day,mechanical,type only
+CA129,columns,"Murders, autopsies, and death certificates",datetime,2022-11-07 00:00:00,2022-11-07,day,mechanical,type only
+CA130,columns,"Aliens may explore, develop, utilize RE",datetime,2022-10-31 00:00:00,2022-10-31,day,mechanical,type only
+CA131,columns,Window to acquit Maria Ressa,datetime,2022-10-24 00:00:00,2022-10-24,day,mechanical,type only
+CA132,columns,The penumbra of PDAF,datetime,2022-10-17 00:00:00,2022-10-17,day,mechanical,type only
+CA133,columns,Arbitral victory of the Sultan of Sulu,datetime,2022-10-10 00:00:00,2022-10-10,day,mechanical,type only
+CA134,columns,Can the BIR abate the Marcos estate tax?,datetime,2022-10-03 00:00:00,2022-10-03,day,mechanical,type only
+CA135,columns,Reviewing the Marcos estate tax,datetime,2022-09-26 00:00:00,2022-09-26,day,mechanical,type only
+CA136,columns,Dual citizenship from birth of FilAms,datetime,2022-09-19 00:00:00,2022-09-19,day,mechanical,type only
+CA137,columns,Moral turpitude,datetime,2022-09-12 00:00:00,2022-09-12,day,mechanical,type only
+CA138,columns,TRO on NCAP correct and proper,datetime,2022-09-05 00:00:00,2022-09-05,day,mechanical,type only
+CA139,columns,Were PFM and IRM complicit in Ninoy's murder?,datetime,2022-08-29 00:00:00,2022-08-29,day,mechanical,type only
+CA140,columns,Is appointment of Comelec chair constitutional?,datetime,2022-08-15 00:00:00,2022-08-15,day,mechanical,type only
+CA141,columns,Rights to worship and to bear arms,datetime,2022-07-18 00:00:00,2022-07-18,day,mechanical,type only
+CA142,columns,Scotus conservatives flex muscles,datetime,2022-07-11 00:00:00,2022-07-11,day,mechanical,type only
+CA143,columns,Facts and fantasies on Marcos' estate tax,datetime,2022-06-27 00:00:00,2022-06-27,day,mechanical,type only
+CA144,columns,Regulating rallies and demos,datetime,2022-06-20 00:00:00,2022-06-20,day,mechanical,type only
+CA145,columns,Why Soce is important,datetime,2022-06-13 00:00:00,2022-06-13,day,mechanical,type only
+CA146,columns,"What now, Comelec, COA, and CSC bosses?",datetime,2022-06-06 00:00:00,2022-06-06,day,mechanical,type only
+CA147,columns,Solving the party-list fiasco,datetime,2022-05-23 00:00:00,2022-05-23,day,mechanical,type only
+CA148,columns,Bigamy and psychological incapacity,datetime,2022-04-04 00:00:00,2022-04-04,day,mechanical,type only
+CA149,columns,Contractualization as an election issue,datetime,2022-03-27 00:00:00,2022-03-27,day,mechanical,type only
+CA150,columns,"Speedy, independent, and trustworthy",datetime,2022-03-20 00:00:00,2022-03-20,day,mechanical,type only
+CA151,columns,Ad majórem Dei glóriam',datetime,2022-03-13 00:00:00,2022-03-13,day,mechanical,type only
+CA152,columns,The controversial ATA decision (2),datetime,2022-03-06 00:00:00,2022-03-06,day,mechanical,type only
+CA153,columns,"Mail-in, early ballots to decide US polls",datetime,2024-11-04 00:00:00,2024-11-04,day,mechanical,type only
+CA154,columns,"Comelec, GEG knocked but not yet out",datetime,2024-10-28 00:00:00,2024-10-28,day,mechanical,type only
+CA155,columns,Quad comm's 'telenovela' and the ICC,datetime,2024-10-21 00:00:00,2024-10-21,day,mechanical,type only
+CA156,columns,"Quo vadis, George Erwin Garcia?",datetime,2024-10-14 00:00:00,2024-10-14,day,mechanical,type only
+CA157,columns,The controversial ATA decision (1),datetime,2022-02-27 00:00:00,2022-02-27,day,mechanical,type only
+CA158,columns,"Extradition, Quiboloy and BBM",datetime,2022-02-20 00:00:00,2022-02-20,day,mechanical,type only
+CA159,columns,No 'acting' appointments to Comelec,datetime,2022-02-13 00:00:00,2022-02-13,day,mechanical,type only
+CA160,columns,Disqualification and COC cancellation,datetime,2022-02-06 00:00:00,2022-02-06,day,mechanical,type only
+CA161,columns,"Petitioners: BBM lied, COC must be nixed",datetime,2022-01-30 00:00:00,2022-01-30,day,mechanical,type only
+CA162,columns,Comelec: No reason to cancel BBM's COC,datetime,2022-01-23 00:00:00,2022-01-23,day,mechanical,type only
+CA163,columns,Expediting Bongbong's COC cancellation,datetime,2021-12-19 00:00:00,2021-12-19,day,mechanical,type only
+CA164,columns,Two crucial docs on Marcos Jr.'s COC,datetime,2021-12-12 00:00:00,2021-12-12,day,mechanical,type only
+CA165,columns,Falsities and moral turpitude,datetime,2021-12-05 00:00:00,2021-12-05,day,mechanical,type only
+CA166,columns,"Cancel COC of, not disqualify, Bongbong",datetime,2021-11-28 00:00:00,2021-11-28,day,mechanical,type only
+CA167,columns,Disini to pay damages in BNPP suit,datetime,2021-11-07 00:00:00,2021-11-07,day,mechanical,type only
+CA168,columns,Oust nuisance bets speedily,datetime,2021-10-24 00:00:00,2021-10-24,day,mechanical,type only
+CA169,columns,Q&A on substitution of bets,datetime,2021-10-10 00:00:00,2021-10-10,day,mechanical,type only
+CA170,columns,Party substitution extends Oct. 8 deadline,datetime,2021-10-03 00:00:00,2021-10-03,day,mechanical,type only
+CA171,columns,Do the Marcoses have ill-gotten wealth?,datetime,2021-09-26 00:00:00,2021-09-26,day,mechanical,type only
+CA172,columns,The law and PDP-Laban,datetime,2021-09-05 00:00:00,2021-09-05,day,mechanical,type only
+CA173,columns,Who won the ICC withdrawal case?,datetime,2021-08-29 00:00:00,2021-08-29,day,mechanical,type only
+CA174,columns,Devolution without federalization,datetime,2021-08-01 00:00:00,2021-08-01,day,mechanical,type only
+CA175,columns,Deciding not to decide,datetime,2021-07-18 00:00:00,2021-07-18,day,mechanical,type only
+CA176,columns,The game of chicken and Scarborough,datetime,2021-07-04 00:00:00,2021-07-04,day,mechanical,type only
+CA177,columns,Demystifying the ICC prosecutor's bravado,datetime,2021-06-27 00:00:00,2021-06-27,day,mechanical,type only
+CA178,columns,Knowing what drives China in SCS,datetime,2021-06-20 00:00:00,2021-06-20,day,mechanical,type only
+CA179,columns,Pulverize the QW sword on June 15,datetime,2021-06-06 00:00:00,2021-06-06,day,mechanical,type only
+CA180,columns,What's the fuss about Julian Felipe Reef?,datetime,2021-05-23 00:00:00,2021-05-23,day,mechanical,type only
+CA181,columns,Let history be the judge,datetime,2021-05-16 00:00:00,2021-05-16,day,mechanical,type only
+CA182,columns,"Careful, calculated, calibrated'",datetime,2021-05-09 00:00:00,2021-05-09,day,mechanical,type only
+CA183,columns,"Marcos lost in 2016, remains viable in 2022",datetime,2021-05-02 00:00:00,2021-05-02,day,mechanical,type only
+CA184,columns,Might is right' vs 'Right is might',datetime,2021-04-25 00:00:00,2021-04-25,day,mechanical,type only
+CA185,columns,Bewildering early retirements in SC,datetime,2021-04-18 00:00:00,2021-04-18,day,mechanical,type only
+CA186,columns,An auspicious beginning for the new CJ,datetime,2021-04-11 00:00:00,2021-04-11,day,mechanical,type only
+CA187,columns,Q&A on the game-changing SC cases,datetime,2021-04-04 00:00:00,2021-04-04,day,mechanical,type only
+CA188,columns,Five game-changing SC decisions,datetime,2021-03-28 00:00:00,2021-03-28,day,mechanical,type only
+CA189,columns,Libertarian struggle through jurisprudence,datetime,2021-03-21 00:00:00,2021-03-21,day,mechanical,type only
+CA190,columns,Disputes on disputable presumptions,datetime,2021-03-14 00:00:00,2021-03-14,day,mechanical,type only
+CA191,columns,"Con-ass: convene, discuss, and vote separately",datetime,2021-02-14 00:00:00,2021-02-14,day,mechanical,type only
+CA192,columns,"Party-list, 'quo vadis'?",datetime,2021-02-07 00:00:00,2021-02-07,day,mechanical,type only
+CA193,columns,The four 'Ws' of Cha-cha,datetime,2021-01-17 00:00:00,2021-01-17,day,mechanical,type only
+CA194,columns,Can presidents pardon themselves?,datetime,2020-12-20 00:00:00,2020-12-20,day,mechanical,type only
+CA195,columns,Conundrums in attempts to oust Leonen,datetime,2020-12-13 00:00:00,2020-12-13,day,mechanical,type only
+CA196,columns,"ATA, the most assailed law in memory",datetime,2020-11-29 00:00:00,2020-11-29,day,mechanical,type only
+CA197,columns,What's up in Bongbong-Leni VP tiff?,datetime,2020-11-22 00:00:00,2020-11-22,day,mechanical,type only
+CA198,columns,Should Justice Leonen inhibit?,datetime,2020-11-15 00:00:00,2020-11-15,day,mechanical,type only
+CA199,columns,Lessons from River,datetime,2020-11-08 00:00:00,2020-11-08,day,mechanical,type only
+CA200,columns,Why Barrett's hearings are keenly watched,datetime,2020-10-18 00:00:00,2020-10-18,day,mechanical,type only
+CA201,columns,"Encouraging reactions from SC, DOJ, and bar",datetime,2020-10-11 00:00:00,2020-10-11,day,mechanical,type only
+CA202,columns,"Probable cause, De Lima, GMA, and Guevarra",datetime,2020-10-04 00:00:00,2020-10-04,day,mechanical,type only
+CA203,columns,Dismissed on short shrift,datetime,2020-09-27 00:00:00,2020-09-27,day,mechanical,type only
+CA204,columns,Searches at police checkpoints,datetime,2020-09-20 00:00:00,2020-09-20,day,mechanical,type only
+CA205,columns,SC's resolute stand on warrantless arrests,datetime,2020-09-13 00:00:00,2020-09-13,day,mechanical,type only
+CA206,columns,"Yes, elevate ruling to UN but not now",datetime,2020-09-06 00:00:00,2020-09-06,day,mechanical,type only
+CA207,columns,Solving the SC's heavy caseload,datetime,2020-08-23 00:00:00,2020-08-23,day,mechanical,type only
+CA208,columns,Fast-tracking the ATA petitions,datetime,2020-08-16 00:00:00,2020-08-16,day,mechanical,type only
+CA209,columns,Aria: Use US policy to advance our interest,datetime,2020-08-09 00:00:00,2020-08-09,day,mechanical,type only
+CA210,columns,Aria: Deciphering legality from policy,datetime,2020-08-02 00:00:00,2020-08-02,day,mechanical,type only
+CA211,columns,"Substantial justice, not legal gobbledygook",datetime,2020-07-19 00:00:00,2020-07-19,day,mechanical,type only
+CA212,columns,A Supreme Court worthy of public trust,datetime,2020-07-12 00:00:00,2020-07-12,day,mechanical,type only
+CA213,columns,Saving Maria Ressa,datetime,2020-07-05 00:00:00,2020-07-05,day,mechanical,type only
+CA214,columns,Q&A on cyberlibel,datetime,2020-06-28 00:00:00,2020-06-28,day,mechanical,type only
+CA215,columns,"VFA, MDT not enforceable in US, PH",datetime,2020-06-07 00:00:00,2020-06-07,day,mechanical,type only
+CA216,columns,New JBC rule needs clarity,datetime,2020-05-31 00:00:00,2020-05-31,day,mechanical,type only
+CA217,columns,Filing cases not enough,datetime,2020-05-24 00:00:00,2020-05-24,day,mechanical,type only
+CA218,columns,Army Cpl. Ragos v. Police MSgt. Florendo,datetime,2020-05-03 00:00:00,2020-05-03,day,mechanical,type only
+CA219,columns,No martial law yet but 'call out' continues,datetime,2020-04-26 00:00:00,2020-04-26,day,mechanical,type only
+CA220,columns,"PhilID constitutional, implement it ASAP",datetime,2020-04-19 00:00:00,2020-04-19,day,mechanical,type only
+CA221,columns,Closure of graft cases needs IBP's help,datetime,2020-04-12 00:00:00,2020-04-12,day,mechanical,type only
+CA222,columns,Laundering dirty money,datetime,2020-03-15 00:00:00,2020-03-15,day,mechanical,type only
+CA223,columns,First Female and 24th Chief Justice',datetime,2020-03-08 00:00:00,2020-03-08,day,mechanical,type only
+CA224,columns,Quo warranto on ABS-CBN (Part 2: Answers),datetime,2020-03-01 00:00:00,2020-03-01,day,mechanical,type only
+CA225,columns,Quo warranto on ABS-CBN (Part 1: Questions),datetime,2020-02-23 00:00:00,2020-02-23,day,mechanical,type only
+CA226,columns,What to do with Mamasapano dismissals,datetime,2020-02-02 00:00:00,2020-02-02,day,mechanical,type only
+CA227,columns,Eliminating the backlog in all other courts,datetime,2020-01-19 00:00:00,2020-01-19,day,mechanical,type only
+CA228,columns,CJ Peralta to eliminate SC's backlog,datetime,2020-01-12 00:00:00,2020-01-12,day,mechanical,type only
+CA229,columns,P200-B ill-gotten wealth case not lost,datetime,2020-01-05 00:00:00,2020-01-05,day,mechanical,type only
+CA230,columns,"Dismissals, convictions and acquittals",datetime,2019-12-08 00:00:00,2019-12-08,day,mechanical,type only
+CA231,columns,Honest official convicted by honest judge,datetime,2019-12-01 00:00:00,2019-12-01,day,mechanical,type only
+CA232,columns,Fault in dismissal of Marcos wealth cases,datetime,2019-11-24 00:00:00,2019-11-24,day,mechanical,type only
+CA233,columns,Options in Bongbong-Leni VP row,datetime,2019-10-13 00:00:00,2019-10-13,day,mechanical,type only
+CA234,columns,Right to regulate passage in subdivisions,datetime,2019-10-06 00:00:00,2019-10-06,day,mechanical,type only
+CA235,columns,SC disregards Charter in making decisions,datetime,2019-09-29 00:00:00,2019-09-29,day,mechanical,type only
+CA236,columns,Judicial subservience and independence,datetime,2019-09-15 00:00:00,2019-09-15,day,mechanical,type only
+CA237,columns,Q&A on SCS dispute,datetime,2019-09-08 00:00:00,2019-09-08,day,mechanical,type only
+CA238,columns,Ways of harvesting our EEZ resources,datetime,2019-09-01 00:00:00,2019-09-01,day,mechanical,type only
+CA239,columns,Uniting goals and methods in WPS,datetime,2019-08-11 00:00:00,2019-08-11,day,mechanical,type only
+CA241,columns,Bar exams toppers and downers,datetime,2019-07-07 00:00:00,2019-07-07,day,mechanical,type only
+CA242,columns,Right to be forgotten,datetime,2019-06-23 00:00:00,2019-06-23,day,mechanical,type only
+CA243,columns,Who 'bastardized' the party-list?,datetime,2019-06-02 00:00:00,2019-06-02,day,mechanical,type only
+CA244,columns,Why SC's plan to end backlog failed,datetime,2019-05-05 00:00:00,2019-05-05,day,mechanical,type only
+CA245,columns,Hackles on judicial delays,datetime,2019-04-28 00:00:00,2019-04-28,day,mechanical,type only
+CA246,columns,"Human rights, adoption and surrogacy",datetime,2019-04-21 00:00:00,2019-04-21,day,mechanical,type only
+CA247,columns,Will judges-at-large solve huge RTC backlog?,datetime,2019-04-14 00:00:00,2019-04-14,day,mechanical,type only
+CA248,columns,Confronting SC's mounting backlog,datetime,2019-04-07 00:00:00,2019-04-07,day,mechanical,type only
+CA249,columns,"PhilSAT: cooperation, not litigation",datetime,2019-03-24 00:00:00,2019-03-24,day,mechanical,type only
+CA250,columns,Tribute to women jurists,datetime,2019-03-17 00:00:00,2019-03-17,day,mechanical,type only
+CA251,columns,Is Maria Ressa liable for libel?,datetime,2019-02-24 00:00:00,2019-02-24,day,mechanical,type only
+CA252,columns,SBN: Not all Araneta assets freed of sequestration,datetime,2019-02-10 00:00:00,2019-02-10,day,mechanical,type only
+CA253,columns,Why were the Ligots acquitted?,datetime,2019-02-03 00:00:00,2019-02-03,day,mechanical,type only
+CA254,columns,Commenting on high-profile cases,datetime,2019-01-20 00:00:00,2019-01-20,day,mechanical,type only
+CA255,columns,Focus on trial judges,datetime,2019-01-13 00:00:00,2019-01-13,day,mechanical,type only
+CA256,columns,Weighing CJ Lucas P. Bersamin,datetime,2018-12-23 00:00:00,2018-12-23,day,mechanical,type only
+CA257,columns,More questions on Imelda's conviction,datetime,2018-12-09 00:00:00,2018-12-09,day,mechanical,type only
+CA258,columns,"Imelda convicted, but why only now?",datetime,2018-11-25 00:00:00,2018-11-25,day,mechanical,type only
+CA259,columns,Lessons from the party-list fiasco,datetime,2018-11-18 00:00:00,2018-11-18,day,mechanical,type only
+CA260,columns,Abolish or reform party-list,datetime,2018-11-11 00:00:00,2018-11-11,day,mechanical,type only
+CA261,columns,"Party-list, an experiment gone berserk",datetime,2018-11-04 00:00:00,2018-11-04,day,mechanical,type only
+CA262,columns,"Fine, not just disqualify, nuisance bets",datetime,2018-10-28 00:00:00,2018-10-28,day,mechanical,type only
+CA263,columns,Selection system in PH better than in US,datetime,2018-10-14 00:00:00,2018-10-14,day,mechanical,type only
+CA264,columns,Who won the 'shading' controversy?,datetime,2018-10-07 00:00:00,2018-10-07,day,mechanical,type only
+CA265,columns,Why did SC acquit Imelda?,datetime,2018-09-30 00:00:00,2018-09-30,day,mechanical,type only
+CA266,columns,Search for new chief justice,datetime,2018-09-09 00:00:00,2018-09-09,day,mechanical,type only
+CA267,columns,Restoration of seniority and collegiality,datetime,2018-09-02 00:00:00,2018-09-02,day,mechanical,type only
+CA268,columns,Who masterminded Ninoy's murder?,datetime,2018-08-26 00:00:00,2018-08-26,day,mechanical,type only
+CA269,columns,Judicial brinkmanship,datetime,2018-08-19 00:00:00,2018-08-19,day,mechanical,type only
+CA270,columns,"Beyond federalism, ConCom's notable reforms",datetime,2018-07-29 00:00:00,2018-07-29,day,mechanical,type only
+CA271,columns,"SC orders devolution, ignites federalism joust",datetime,2018-07-22 00:00:00,2018-07-22,day,mechanical,type only
+CA272,columns,Most formidable challenge to federalism,datetime,2018-07-15 00:00:00,2018-07-15,day,mechanical,type only
+CA273,columns,VP 'shading' ready for ruling - finally,datetime,2018-07-08 00:00:00,2018-07-08,day,mechanical,type only
+CA274,columns,"Quo vadis, Meilou?",datetime,2018-06-24 00:00:00,2018-06-24,day,mechanical,type only
+CA275,columns,Unintended peril in VP electoral protest,datetime,2018-06-17 00:00:00,2018-06-17,day,mechanical,type only
+CA276,columns,Legal and illegal labor contracting,datetime,2018-05-06 00:00:00,2018-05-06,day,mechanical,type only
+CA277,columns,GMA wins battle for right to travel,datetime,2018-04-22 00:00:00,2018-04-22,day,mechanical,type only
+CA278,columns,Who owns Boracay?,datetime,2018-04-15 00:00:00,2018-04-15,day,mechanical,type only
+CA279,columns,Liabilities of internet intermediaries,datetime,2018-03-25 00:00:00,2018-03-25,day,mechanical,type only
+CA280,columns,Cha-cha stand of the three retired CJs,datetime,2018-03-18 00:00:00,2018-03-18,day,mechanical,type only
+CA281,columns,Constitutionality of joint explorations in WPS,datetime,2018-03-11 00:00:00,2018-03-11,day,mechanical,type only
+CA282,columns,Federal-presidential vs hybrid system,datetime,2018-03-04 00:00:00,2018-03-04,day,mechanical,type only
+CA283,columns,Making sense of the ICC brouhaha,datetime,2018-02-18 00:00:00,2018-02-18,day,mechanical,type only
+CA284,columns,Constitutional balance in the BBL,datetime,2018-02-11 00:00:00,2018-02-11,day,mechanical,type only
+CA285,columns,"Need for clarity, precision in federalism",datetime,2018-02-04 00:00:00,2018-02-04,day,mechanical,type only
+CA286,columns,Speedy Cha-cha at the crossroad,datetime,2018-01-28 00:00:00,2018-01-28,day,mechanical,type only
+CA287,columns,Best way to unclog dockets,datetime,2018-01-21 00:00:00,2018-01-21,day,mechanical,type only
+CA288,columns,"What Alvarez wants, Alvarez gets",datetime,2018-01-14 00:00:00,2018-01-14,day,mechanical,type only
+CA289,columns,"Pimentel, Alvarez merely telling Cha-cha truths",datetime,2018-01-07 00:00:00,2018-01-07,day,mechanical,type only
+CA290,columns,Speeding up quality justice (2),datetime,2017-12-31 00:00:00,2017-12-31,day,mechanical,type only
+CA291,columns,Speeding up quality justice (1),datetime,2017-12-24 00:00:00,2017-12-24,day,mechanical,type only
+CA292,columns,Confidentiality of SC deliberations,datetime,2017-12-17 00:00:00,2017-12-17,day,mechanical,type only
+CA293,columns,Controversial national ID system,datetime,2017-12-10 00:00:00,2017-12-10,day,mechanical,type only
+CA294,columns,"GMA acquitted; why not Jinggoy, too?",datetime,2017-12-03 00:00:00,2017-12-03,day,mechanical,type only
+CA295,columns,Bail for Jinggoy but not for Janet,datetime,2017-11-26 00:00:00,2017-11-26,day,mechanical,type only
+CA296,columns,The what and why of a RevGov,datetime,2017-11-19 00:00:00,2017-11-19,day,mechanical,type only
+CA297,columns,Hastening trials in criminal cases,datetime,2017-11-12 00:00:00,2017-11-12,day,mechanical,type only
+CA298,columns,Checks and balances in public accountability,datetime,2017-11-05 00:00:00,2017-11-05,day,mechanical,type only
+CA299,columns,Bank deposits as evidence of corruption,datetime,2017-10-08 00:00:00,2017-10-08,day,mechanical,type only
+CA300,columns,11 more SC seats to fill,datetime,2017-09-10 00:00:00,2017-09-10,day,mechanical,type only
+CA301,columns,"Impeachment yesterday, today and tomorrow",datetime,2017-09-03 00:00:00,2017-09-03,day,mechanical,type only
+CA302,columns,Ending martial law,datetime,2017-08-27 00:00:00,2017-08-27,day,mechanical,type only
+CA303,columns,Consequences of martial law,datetime,2017-08-13 00:00:00,2017-08-13,day,mechanical,type only
+CA304,columns,Who's still afraid of martial law?,datetime,2017-07-30 00:00:00,2017-07-30,day,mechanical,type only
+CA305,columns,A legal feast on ML,datetime,2017-07-23 00:00:00,2017-07-23,day,mechanical,type only
+CA306,columns,Landmark decision and opinions on ML,datetime,2017-07-09 00:00:00,2017-07-09,day,mechanical,type only
+CA307,columns,Congressional review of ML,datetime,2017-06-25 00:00:00,2017-06-25,day,mechanical,type only
+CA308,columns,Win-win decision on martial law,datetime,2017-06-18 00:00:00,2017-06-18,day,mechanical,type only
+CA309,columns,Unclogging the Court of Appeals,datetime,2017-06-11 00:00:00,2017-06-11,day,mechanical,type only
+CA310,columns,Record-breaking bar exam a giveaway?,datetime,2017-06-04 00:00:00,2017-06-04,day,mechanical,type only
+CA311,columns,Not easy to bring Duterte to ICC,datetime,2017-05-21 00:00:00,2017-05-21,day,mechanical,type only
+CA312,columns,Job contracting vs labor-only contracting,datetime,2017-05-14 00:00:00,2017-05-14,day,mechanical,type only
+CA313,columns,Enforcing the arbitral award,datetime,2017-05-07 00:00:00,2017-05-07,day,mechanical,type only
+CA314,columns,Asean and the SCS conundrum,datetime,2017-04-30 00:00:00,2017-04-30,day,mechanical,type only
+CA315,columns,"Scarborough, Spratlys and Benham",datetime,2017-04-23 00:00:00,2017-04-23,day,mechanical,type only
+CA316,columns,Supreme Court on Marcos,datetime,2017-04-16 00:00:00,2017-04-16,day,mechanical,type only
+CA317,columns,Who owns Benham Rise?,datetime,2017-04-02 00:00:00,2017-04-02,day,mechanical,type only
+CA318,columns,Duterte's second SC appointee,datetime,2017-03-19 00:00:00,2017-03-19,day,mechanical,type only
+CA319,columns,Duterte's first SC appointee,datetime,2017-03-12 00:00:00,2017-03-12,day,mechanical,type only
+CA320,columns,Judicial heroes and villains,datetime,2017-03-05 00:00:00,2017-03-05,day,mechanical,type only
+CA321,columns,Ill-gotten wealth of Marcoses,datetime,2017-02-26 00:00:00,2017-02-26,day,mechanical,type only
+CA322,columns,SC stood tall in crucial cases,datetime,2017-01-29 00:00:00,2017-01-29,day,mechanical,type only
+CA323,columns,Selection of SC justices in PH and US,datetime,2017-01-22 00:00:00,2017-01-22,day,mechanical,type only
+CA324,columns,Will SC oust Leni and other LPs?,datetime,2017-01-15 00:00:00,2017-01-15,day,mechanical,type only
+CA325,columns,Worse than martial law,datetime,2017-01-08 00:00:00,2017-01-08,day,mechanical,type only
+CA326,columns,Will Bongbong replace Leni?,datetime,2016-12-18 00:00:00,2016-12-18,day,mechanical,type only
+CA327,columns,First 2 of 12 SC vacancies: Who will Du30 anoint?,datetime,2016-12-11 00:00:00,2016-12-11,day,mechanical,type only
+CA328,columns,Win the votes yet lose the election,datetime,2016-11-20 00:00:00,2016-11-20,day,mechanical,type only
+CA329,columns,3 Marcos cases to watch,datetime,2016-11-06 00:00:00,2016-11-06,day,mechanical,type only
+CA330,columns,Overdue process?,datetime,2016-10-23 00:00:00,2016-10-23,day,mechanical,type only
+CA331,columns,Dismal record in prosecuting drug cases,datetime,2016-10-09 00:00:00,2016-10-09,day,mechanical,type only
+CA332,columns,Foundlings are natural-born citizens,datetime,2016-10-02 00:00:00,2016-10-02,day,mechanical,type only
+CA333,columns,Other constitutional revisions,datetime,2016-09-25 00:00:00,2016-09-25,day,mechanical,type only
+CA334,columns,Tax exemption for nonprofit schools,datetime,2016-09-18 00:00:00,2016-09-18,day,mechanical,type only
+CA335,columns,Nature of SCS arbitral tribunal,datetime,2016-09-11 00:00:00,2016-09-11,day,mechanical,type only
+CA336,columns,Federalism 104: Cha-cha challenges,datetime,2016-09-04 00:00:00,2016-09-04,day,mechanical,type only
+CA337,columns,PDAF and DAP in new budget?,datetime,2016-08-28 00:00:00,2016-08-28,day,mechanical,type only
+CA338,columns,Defense pacts with US: help or hindrance?,datetime,2016-08-07 00:00:00,2016-08-07,day,mechanical,type only
+CA339,columns,PH-US defense relations,datetime,2016-07-31 00:00:00,2016-07-31,day,mechanical,type only
+CA340,columns,Arbitral victory exceeded expectations,datetime,2016-07-17 00:00:00,2016-07-17,day,mechanical,type only
+CA341,columns,Humility in victory,datetime,2016-07-10 00:00:00,2016-07-10,day,mechanical,type only
+CA342,columns,Federalism 103: need for 'Cha-cha',datetime,2016-07-03 00:00:00,2016-07-03,day,mechanical,type only
+CA343,columns,Soce extension abets impunity,datetime,2016-06-19 00:00:00,2016-06-19,day,mechanical,type only
+CA344,columns,National ID system; Federalism 102,datetime,2016-06-12 00:00:00,2016-06-12,day,mechanical,type only
+CA345,columns,Federalism 101,datetime,2016-06-05 00:00:00,2016-06-05,day,mechanical,type only
+CA346,columns,"Credible, orderly and speedy",datetime,2016-05-15 00:00:00,2016-05-15,day,mechanical,type only
+CA347,columns,Money Laundering 101,datetime,2016-04-24 00:00:00,2016-04-24,day,mechanical,type only
+CA348,columns,Comelec gravely abused discretion in Poe's case,datetime,2016-04-10 00:00:00,2016-04-10,day,mechanical,type only
+CA349,columns,Choosing new prez is also choosing new SC,datetime,2016-04-03 00:00:00,2016-04-03,day,mechanical,type only
+CA350,columns,VVPAT and other electoral reforms,datetime,2016-03-27 00:00:00,2016-03-27,day,mechanical,type only
+CA351,columns,Victory sidelights,datetime,2016-03-13 00:00:00,2016-03-13,day,mechanical,type only
+CA352,columns,How will SC decide Grace Poe's cases?,datetime,2016-03-06 00:00:00,2016-03-06,day,mechanical,type only
+CA353,columns,Comparing the gut issues,datetime,2016-02-28 00:00:00,2016-02-28,day,mechanical,type only
+CA354,columns,Speeding up the Grace Poe cases,datetime,2016-02-21 00:00:00,2016-02-21,day,mechanical,type only
+CA355,columns,Edsa 1 and Edsa 2 compared,datetime,2016-02-07 00:00:00,2016-02-07,day,mechanical,type only
+CA356,columns,Judicial independence,datetime,2016-01-31 00:00:00,2016-01-31,day,mechanical,type only
+CA357,columns,SC: Arroyo takeover constitutional,datetime,2016-01-24 00:00:00,2016-01-24,day,mechanical,type only
+CA358,columns,Constitutionality of Edsa 1 and Edsa 2,datetime,2016-01-17 00:00:00,2016-01-17,day,mechanical,type only
+CA359,columns,Judicial greatness,datetime,2016-01-10 00:00:00,2016-01-10,day,mechanical,type only
+CA360,columns,SC speedily removes electoral roadblocks,datetime,2015-12-20 00:00:00,2015-12-20,day,mechanical,type only
+CA361,columns,"Condonation reversal, praised and pilloried",datetime,2015-12-13 00:00:00,2015-12-13,day,mechanical,type only
+CA362,columns,Contrasting the Comelec and SET decisions,datetime,2015-12-06 00:00:00,2015-12-06,day,mechanical,type only
+CA363,columns,Analyzing the SET decision,datetime,2015-11-29 00:00:00,2015-11-29,day,mechanical,type only
+CA364,columns,Realities of victory,datetime,2015-11-15 00:00:00,2015-11-15,day,mechanical,type only
+CA365,columns,Understanding the Unclos decision,datetime,2015-11-08 00:00:00,2015-11-08,day,mechanical,type only
+CA366,columns,Going for the jugular,datetime,2015-11-01 00:00:00,2015-11-01,day,mechanical,type only
+CA367,columns,Screening nuisance candidates and job applicants,datetime,2015-10-25 00:00:00,2015-10-25,day,mechanical,type only
+CA368,columns,"By the SC, not by the UN",datetime,2015-10-18 00:00:00,2015-10-18,day,mechanical,type only
+CA369,columns,Popular sovereignty and DNA,datetime,2015-10-04 00:00:00,2015-10-04,day,mechanical,type only
+CA370,columns,Q and A on Grace Poe's natural-born citizenship,datetime,2015-09-27 00:00:00,2015-09-27,day,mechanical,type only
+CA371,columns,Death penalty should remain dead,datetime,2015-09-06 00:00:00,2015-09-06,day,mechanical,type only
+CA372,columns,Focus on foundlings and orphans,datetime,2015-08-30 00:00:00,2015-08-30,day,mechanical,type only
+CA373,columns,House arrest for GMA,datetime,2015-08-16 00:00:00,2015-08-16,day,mechanical,type only
+CA374,columns,Update on PDAF cases of 3 senators,datetime,2015-08-09 00:00:00,2015-08-09,day,mechanical,type only
+CA375,columns,Maguindanao massacre: Acid test for justice system,datetime,2015-08-02 00:00:00,2015-08-02,day,mechanical,type only
+CA376,columns,How cases are decided,datetime,2015-07-19 00:00:00,2015-07-19,day,mechanical,type only
+CA377,columns,CBCP and same-sex marriage,datetime,2015-07-12 00:00:00,2015-07-12,day,mechanical,type only
+CA378,columns,Reactions to 'Grace Poe's residency',datetime,2015-07-05 00:00:00,2015-07-05,day,mechanical,type only
+CA379,columns,Grace Poe's residency,datetime,2015-06-28 00:00:00,2015-06-28,day,mechanical,type only
+CA380,columns,Reactions to 'Grace Poe's citizenship',datetime,2015-06-21 00:00:00,2015-06-21,day,mechanical,type only
+CA381,columns,Grace Poe's citizenship,datetime,2015-06-14 00:00:00,2015-06-14,day,mechanical,type only
+CA382,columns,Two BBL strategies,datetime,2015-05-24 00:00:00,2015-05-24,day,mechanical,type only
+CA383,columns,Respect and obey arbitral decisions,datetime,2015-05-17 00:00:00,2015-05-17,day,mechanical,type only
+CA384,columns,Ombudsman vs Makati mayor,datetime,2015-04-12 00:00:00,2015-04-12,day,mechanical,type only
+CA385,columns,Three vital references for BBL,datetime,2015-03-29 00:00:00,2015-03-29,day,mechanical,type only
+CA386,columns,MILF aspiration unchanged,datetime,2015-03-22 00:00:00,2015-03-22,day,mechanical,type only
+CA387,columns,Surviving presidential crises,datetime,2015-03-15 00:00:00,2015-03-15,day,mechanical,type only
+CA388,columns,Who won in new DAP ruling?,datetime,2015-02-15 00:00:00,2015-02-15,day,mechanical,type only
+CA389,columns,Saving the peace,datetime,2015-02-08 00:00:00,2015-02-08,day,mechanical,type only
+CA390,columns,How much do we love peace?,datetime,2015-02-01 00:00:00,2015-02-01,day,mechanical,type only
+CA391,columns,Guilty but not jailed,datetime,2015-01-25 00:00:00,2015-01-25,day,mechanical,type only
+CA392,columns,Revilla's battle for bail,datetime,2014-12-21 00:00:00,2014-12-21,day,mechanical,type only
+CA393,columns,Justices rarely telegraph their punches,datetime,2014-12-07 00:00:00,2014-12-07,day,mechanical,type only
+CA394,columns,Jugular issue on Edca,datetime,2014-11-30 00:00:00,2014-11-30,day,mechanical,type only
+CA395,columns,Why sue if you cannot prove it?,datetime,2014-11-23 00:00:00,2014-11-23,day,mechanical,type only
+CA396,columns,JPE's novel bid for bail,datetime,2014-11-16 00:00:00,2014-11-16,day,mechanical,type only
+CA397,columns,Bong's 3 battles for freedom,datetime,2014-11-09 00:00:00,2014-11-09,day,mechanical,type only
+CA398,columns,Legal philosophy,datetime,2014-10-26 00:00:00,2014-10-26,day,mechanical,type only
+CA399,columns,Will SC free Jinggoy?,datetime,2014-10-12 00:00:00,2014-10-12,day,mechanical,type only
+CA400,columns,Judicial overreach?,datetime,2014-10-05 00:00:00,2014-10-05,day,mechanical,type only
+CA401,columns,Fortified legislature,datetime,2014-08-31 00:00:00,2014-08-31,day,mechanical,type only
+CA402,columns,Transformation of SC justices,datetime,2014-08-24 00:00:00,2014-08-24,day,mechanical,type only
+CA403,columns,Weakened presidency,datetime,2014-08-17 00:00:00,2014-08-17,day,mechanical,type only
+CA404,columns,Q and A on DAP decision (2),datetime,2014-07-27 00:00:00,2014-07-27,day,mechanical,type only
+CA405,columns,Q and A on DAP decision,datetime,2014-07-20 00:00:00,2014-07-20,day,mechanical,type only
+CA406,columns,Only 180 days for plunder trials,datetime,2014-07-13 00:00:00,2014-07-13,day,mechanical,type only
+CA407,columns,The DAP decision,datetime,2014-07-06 00:00:00,2014-07-06,day,mechanical,type only
+CA408,columns,Supreme Court speeds up bail hearings,datetime,2014-06-29 00:00:00,2014-06-29,day,mechanical,type only
+CA409,columns,How to hasten the pork cases,datetime,2014-06-22 00:00:00,2014-06-22,day,mechanical,type only
+CA410,columns,Spotlight on Sandiganbayan,datetime,2014-06-15 00:00:00,2014-06-15,day,mechanical,type only
+CA411,columns,Supreme Court: anchor of the state,datetime,2014-06-08 00:00:00,2014-06-08,day,mechanical,type only
+CA413,columns,Overprotective of the guilty?,datetime,2014-05-25 00:00:00,2014-05-25,day,mechanical,type only
+CA414,columns,Is Arroyo criminally liable for fertilizer scam?,datetime,2014-05-18 00:00:00,2014-05-18,day,mechanical,type only
+CA415,columns,Impatient over pork,datetime,2014-05-11 00:00:00,2014-05-11,day,mechanical,type only
+CA416,columns,The pork barrel cases: What's next?,datetime,2014-05-04 00:00:00,2014-05-04,day,mechanical,type only
+CA417,columns,Why RH decision is cheered by both sides,datetime,2014-04-27 00:00:00,2014-04-27,day,mechanical,type only
+CA418,columns,Unpaid creditor vs distressed debtor,datetime,2014-04-20 00:00:00,2014-04-20,day,mechanical,type only
+CA419,columns,Globalizing the professions,datetime,2014-04-06 00:00:00,2014-04-06,day,mechanical,type only
+CA420,columns,For the legal profession,datetime,2014-03-30 00:00:00,2014-03-30,day,mechanical,type only
+CA421,columns,Ombudsman to decide on PDAF cases shortly,datetime,2014-03-23 00:00:00,2014-03-23,day,mechanical,type only
+CA422,columns,The dissents,datetime,2014-03-16 00:00:00,2014-03-16,day,mechanical,type only
+CA423,columns,Understanding the cybercrime decision,datetime,2014-03-09 00:00:00,2014-03-09,day,mechanical,type only
+CA424,columns,Assessing Ruby Tuason's testimony,datetime,2014-02-23 00:00:00,2014-02-23,day,mechanical,type only
+CA425,columns,Is Ruby Tuason free of criminal liability?,datetime,2014-02-15 00:00:00,2014-02-15,day,mechanical,type only
+CA426,columns,Judging without deciding,datetime,2014-02-08 00:00:00,2014-02-08,day,mechanical,type only
+CA427,columns,"Disagree, but not disobey",datetime,2014-01-25 00:00:00,2014-01-25,day,mechanical,type only
+CA428,columns,Are the PDAF 'realignments' constitutional?,datetime,2014-01-18 00:00:00,2014-01-18,day,mechanical,type only
+CA429,columns,SC hastens Maguindanao massacre cases,datetime,2014-01-11 00:00:00,2014-01-11,day,mechanical,type only
+CA430,columns,Freedom of information,datetime,2013-12-28 00:00:00,2013-12-28,day,mechanical,type only
+CA431,columns,SC: Seniors' discounts constitutional,datetime,2013-12-21 00:00:00,2013-12-21,day,mechanical,type only
+CA432,columns,Power sharing,datetime,2013-12-14 00:00:00,2013-12-14,day,mechanical,type only
+CA433,columns,Political dynasties: bane or boon?,datetime,2013-12-07 00:00:00,2013-12-07,day,mechanical,type only
+CA434,columns,Beyond the PDAF decision,datetime,2013-11-30 00:00:00,2013-11-30,day,mechanical,type only
+CA435,columns,Major milestone,datetime,2013-11-23 00:00:00,2013-11-23,day,mechanical,type only
+CA436,columns,Many faces of DAP,datetime,2013-11-16 00:00:00,2013-11-16,day,mechanical,type only
+CA437,columns,DAP is not PDAF,datetime,2013-11-09 00:00:00,2013-11-09,day,mechanical,type only
+CA438,columns,Using pork barrel to help calamity victims,datetime,2013-11-02 00:00:00,2013-11-02,day,mechanical,type only
+CA439,columns,Pork barrel 101,datetime,2013-10-27 00:00:00,2013-10-27,day,mechanical,type only
+CA440,columns,Filipino justice--from concept to practice,datetime,2013-10-19 00:00:00,2013-10-19,day,mechanical,type only
+CA441,columns,Filipino concept of justice,datetime,2013-10-13 00:00:00,2013-10-13,day,mechanical,type only
+CA442,columns,Pushing for peace in Mindanao,datetime,2013-10-05 00:00:00,2013-10-05,day,mechanical,type only
+CA443,columns,"Cooperation, not collision",datetime,2013-09-28 00:00:00,2013-09-28,day,mechanical,type only
+CA444,columns,Moving the pork mess to justice,datetime,2013-09-21 00:00:00,2013-09-21,day,mechanical,type only
+CA445,columns,Abolishing the pork barrel,datetime,2013-09-14 00:00:00,2013-09-14,day,mechanical,type only
+CA446,columns,Prosecuting the pork scammers,datetime,2013-09-07 00:00:00,2013-09-07,day,mechanical,type only
+CA447,columns,Power of social media,datetime,2013-08-31 00:00:00,2013-08-31,day,mechanical,type only
+CA448,columns,Three contrasting PPPs,datetime,2013-08-24 00:00:00,2013-08-24,day,mechanical,type only
+CA449,columns,"After 20 years, Naia 3 still unfinished",datetime,2013-08-17 00:00:00,2013-08-17,day,mechanical,type only
+CA450,columns,Most vexing security problem,datetime,2013-08-10 00:00:00,2013-08-10,day,mechanical,type only
+CA451,columns,Hustisyeah' to decongest the judiciary,datetime,2013-07-27 00:00:00,2013-07-27,day,mechanical,type only
+CA452,columns,Estrada: Why was I ousted?,datetime,2013-07-13 00:00:00,2013-07-13,day,mechanical,type only
+CA453,columns,Estrada: Why was I convicted?,datetime,2013-07-06 00:00:00,2013-07-06,day,mechanical,type only
+CA454,columns,The Estrada enigma,datetime,2013-06-29 00:00:00,2013-06-29,day,mechanical,type only
+CA455,columns,Automating the judiciary,datetime,2013-06-22 00:00:00,2013-06-22,day,mechanical,type only
+CA456,columns,Manual and electronic count discrepancies,datetime,2013-06-15 00:00:00,2013-06-15,day,mechanical,type only
+CA457,columns,Apply new rules prospectively,datetime,2013-06-08 00:00:00,2013-06-08,day,mechanical,type only
+CA458,columns,"Premature, imprudent and illegal",datetime,2013-05-18 00:00:00,2013-05-18,day,mechanical,type only
+CA459,columns,Garcia PBA: boon or bane?,datetime,2013-04-20 00:00:00,2013-04-20,day,mechanical,type only
+CA460,columns,Sad day for the poor,datetime,2013-04-13 00:00:00,2013-04-13,day,mechanical,type only
+CA461,columns,Most powerful court in the world?,datetime,2013-03-30 00:00:00,2013-03-30,day,mechanical,type only
+CA462,columns,National interest,datetime,2013-03-23 00:00:00,2013-03-23,day,mechanical,type only
+CA463,columns,Peaceful ways to settle Sabah dispute,datetime,2013-03-16 00:00:00,2013-03-16,day,mechanical,type only
+CA464,columns,Re-enfranchising OFWs,datetime,2013-03-09 00:00:00,2013-03-09,day,mechanical,type only
+CA465,columns,Understanding the Sabah dispute,datetime,2013-03-02 00:00:00,2013-03-02,day,mechanical,type only
+CA466,columns,Unconstitutional Comelec restrictions,datetime,2013-02-23 00:00:00,2013-02-23,day,mechanical,type only
+CA467,columns,Legality and technology,datetime,2013-02-09 00:00:00,2013-02-09,day,mechanical,type only
+CA468,columns,80 percent of backlog involve criminal cases',datetime,2013-02-02 00:00:00,2013-02-02,day,mechanical,type only
+CA469,columns,Checking the checkpoints,datetime,2013-01-26 00:00:00,2013-01-26,day,mechanical,type only
+CA470,columns,To abolish or not to abolish the PCGG,datetime,2013-01-20 00:00:00,2013-01-20,day,mechanical,type only
+CA471,columns,Ban! Ban! Ban!,datetime,2013-01-12 00:00:00,2013-01-12,day,mechanical,type only
+CA472,columns,Decision-making 102,datetime,2012-12-29 00:00:00,2012-12-29,day,mechanical,type only
+CA473,columns,Postscript on dollar deposits and SALNs,datetime,2012-12-15 00:00:00,2012-12-15,day,mechanical,type only
+CA474,columns,Overhauling the criminal justice system,datetime,2012-12-01 00:00:00,2012-12-01,day,mechanical,type only
+CA475,columns,Options to stop political dynasties,datetime,2012-11-24 00:00:00,2012-11-24,day,mechanical,type only
+CA476,columns,Live coverage and the rights of the accused,datetime,2012-11-18 00:00:00,2012-11-18,day,mechanical,type only
+CA477,columns,Chaff and grain of the cybercrime law,datetime,2012-11-10 00:00:00,2012-11-10,day,mechanical,type only
+CA478,columns,Party-list: Legislation is the solution (2),datetime,2012-11-03 00:00:00,2012-11-03,day,mechanical,type only
+CA479,columns,Party-list: legislation is the solution (1),datetime,2012-10-27 00:00:00,2012-10-27,day,mechanical,type only
+CA480,columns,A little vague but not unconstitutional,datetime,2012-10-20 00:00:00,2012-10-20,day,mechanical,type only
+CA481,columns,"Maguindanao massacre, still a long wait",datetime,2012-10-13 00:00:00,2012-10-13,day,mechanical,type only
+CA482,columns,Decision-making 101,datetime,2012-10-06 00:00:00,2012-10-06,day,mechanical,type only
+CA483,columns,Seniority and collegiality,datetime,2012-09-29 00:00:00,2012-09-29,day,mechanical,type only
+CA484,columns,Sereno's four reform pillars,datetime,2012-09-22 00:00:00,2012-09-22,day,mechanical,type only
+CA485,columns,Three reforms to speed up justice,datetime,2012-09-15 00:00:00,2012-09-15,day,mechanical,type only
+CA486,columns,How the judiciary can help the economy,datetime,2012-09-08 00:00:00,2012-09-08,day,mechanical,type only
+CA487,columns,Aquino's angels,datetime,2012-09-01 00:00:00,2012-09-01,day,mechanical,type only
+CA488,columns,Moving on to greatness,datetime,2012-08-19 00:00:00,2012-08-19,day,mechanical,type only
+CA489,columns,To disqualify or not to disqualify,datetime,2012-08-11 00:00:00,2012-08-11,day,mechanical,type only
+CA490,columns,Breaking the insider tradition?,datetime,2012-07-28 00:00:00,2012-07-28,day,mechanical,type only
+CA491,columns,"Transparent, accountable and dignified",datetime,2012-07-21 00:00:00,2012-07-21,day,mechanical,type only
+CA492,columns,Two JBC problems,datetime,2012-07-14 00:00:00,2012-07-14,day,mechanical,type only
+CA493,columns,Leader and CEO,datetime,2012-06-30 00:00:00,2012-06-30,day,mechanical,type only
+CA494,columns,First among equals,datetime,2012-06-23 00:00:00,2012-06-23,day,mechanical,type only
+CA495,columns,Wanted: new chief justice,datetime,2012-06-16 00:00:00,2012-06-16,day,mechanical,type only
+CA496,columns,Consequences of conviction,datetime,2012-06-09 00:00:00,2012-06-09,day,mechanical,type only
+CA497,columns,Impeachment heroes,datetime,2012-06-02 00:00:00,2012-06-02,day,mechanical,type only
+CA498,columns,Historic decision,datetime,2012-05-26 00:00:00,2012-05-26,day,mechanical,type only
+CA499,columns,Will Corona testify?,datetime,2012-05-19 00:00:00,2012-05-19,day,mechanical,type only
+CA500,columns,Face-off at the Senate: CJ vs OMB,datetime,2012-05-12 00:00:00,2012-05-12,day,mechanical,type only
+CA501,columns,Prima facie case,datetime,2012-05-05 00:00:00,2012-05-05,day,mechanical,type only
+CA502,columns,Preparing SALNs,datetime,2012-04-28 00:00:00,2012-04-28,day,mechanical,type only
+CA503,columns,Contempt,datetime,2012-04-14 00:00:00,2012-04-14,day,mechanical,type only
+CA504,columns,Bitin',datetime,2012-03-25 00:00:00,2012-03-25,day,mechanical,type only
+CA505,columns,Gut issues,datetime,2012-03-17 00:00:00,2012-03-17,day,mechanical,type only
+CA506,columns,Bank deposits as evidence,datetime,2012-03-10 00:00:00,2012-03-10,day,mechanical,type only
+CA507,columns,Standards of proof,datetime,2012-03-03 00:00:00,2012-03-03,day,mechanical,type only
+CA508,columns,Omissions in SALN,datetime,2012-02-25 00:00:00,2012-02-25,day,mechanical,type only
+CA509,columns,TRO on Senate subpoena,datetime,2012-02-18 00:00:00,2012-02-18,day,mechanical,type only
+CA510,columns,Impeachment and resignation,datetime,2012-02-12 00:00:00,2012-02-12,day,mechanical,type only
+CA511,columns,Speeding up the impeachment trial,datetime,2012-02-05 00:00:00,2012-02-05,day,mechanical,type only
+CA512,columns,Katotohanan lamang ang panalo sa bayan',datetime,2012-01-29 00:00:00,2012-01-29,day,mechanical,type only
+CA513,columns,Should SC stop Corona's impeachment?,datetime,2012-01-22 00:00:00,2012-01-22,day,mechanical,type only
+CA514,columns,More political than legal,datetime,2012-01-07 00:00:00,2012-01-07,day,mechanical,type only
+CA515,columns,Finding win-win solutions in Luisita,datetime,2011-12-10 00:00:00,2011-12-10,day,mechanical,type only
+CA516,columns,"Hacienda Luisita, still a long way to go",datetime,2011-12-04 00:00:00,2011-12-04,day,mechanical,type only
+CA517,columns,On whom will Arroyo's fate rest?,datetime,2011-11-26 00:00:00,2011-11-26,day,mechanical,type only
+CA518,columns,Rights of illegitimate children,datetime,2011-11-19 00:00:00,2011-11-19,day,mechanical,type only
+CA519,columns,Flight and plight,datetime,2011-11-12 00:00:00,2011-11-12,day,mechanical,type only
+CA520,columns,Speeding up justice in Maguindanao massacre,datetime,2011-11-05 00:00:00,2011-11-05,day,mechanical,type only
+CA521,columns,Justices' SALN and other FAQs,datetime,2011-10-30 00:00:00,2011-10-30,day,mechanical,type only
+CA522,columns,Canard of a leak,datetime,2011-09-25 00:00:00,2011-09-25,day,mechanical,type only
+CA523,columns,Enfranchising 'duals' and 'greens',datetime,2011-09-17 00:00:00,2011-09-17,day,mechanical,type only
+CA524,columns,Do not degrade judicial standards,datetime,2011-08-27 00:00:00,2011-08-27,day,mechanical,type only
+CA525,columns,Probing poll frauds,datetime,2011-08-06 00:00:00,2011-08-06,day,mechanical,type only
+CA526,columns,OFW call center; judicial self-restraint,datetime,2011-07-23 00:00:00,2011-07-23,day,mechanical,type only
+CA527,columns,"Live TV-radio coverage, first time ever",datetime,2011-06-26 00:00:00,2011-06-26,day,mechanical,type only
+CA528,columns,Only the President can,datetime,2011-05-15 00:00:00,2011-05-15,day,mechanical,type only
+CB001,columns,"AI fortifies liberty, prosperity, rule of law",datetime,2024-09-09 00:00:00,2024-09-09,day,mechanical,type only
+CB003,columns,Law scholarships with a difference,datetime,2019-02-17 00:00:00,2019-02-17,day,mechanical,type only
+CB004,columns,Negative versus positive,datetime,2021-10-31 00:00:00,2021-10-31,day,mechanical,type only
+CB005,columns,Merging law and economics,datetime,2019-11-03 00:00:00,2019-11-03,day,mechanical,type only
+CB006,columns,Unleashing entrepreneurial ingenuity (1),datetime,2015-03-01 00:00:00,2015-03-01,day,mechanical,type only
+CB007,columns,SC decisions on the economy,datetime,2013-04-27 00:00:00,2013-04-27,day,mechanical,type only
+CB008,columns,CPAs as purveyors of liberty and prosperity,datetime,2021-07-11 00:00:00,2021-07-11,day,mechanical,type only
+CB009,columns,Saving democracy and capitalism,datetime,2021-02-28 00:00:00,2021-02-28,day,mechanical,type only
+CB010,columns,Writ of prosperity,datetime,2018-09-23 00:00:00,2018-09-23,day,mechanical,type only
+CB011,columns,Enforcing rights to prosperity,datetime,2018-09-16 00:00:00,2018-09-16,day,mechanical,type only
+CB012,columns,Equality of rights to liberty and prosperity,datetime,2018-04-01 00:00:00,2018-04-01,day,mechanical,type only
+CB013,columns,Individual will be supreme in new world gov't,datetime,2015-12-27 00:00:00,2015-12-27,day,mechanical,type only
+CB014,columns,Work for peace but brace for war,datetime,2015-06-07 00:00:00,2015-06-07,day,mechanical,type only
+CB015,columns,WW III hot spots,datetime,2015-05-31 00:00:00,2015-05-31,day,mechanical,type only
+CB016,columns,Eradicating poverty,datetime,2015-05-03 00:00:00,2015-05-03,day,mechanical,type only
+CB017,columns,Unleashing entrepreneurial ingenuity (2),datetime,2015-03-08 00:00:00,2015-03-08,day,mechanical,type only
+CB018,columns,"Eradicate poverty, share prosperity",datetime,2014-11-02 00:00:00,2014-11-02,day,mechanical,type only
+CB019,columns,Most important investment incentive,datetime,2013-05-25 00:00:00,2013-05-25,day,mechanical,type only
+CC001,columns,Joy in writing for the Inquirer,datetime,2017-02-12 00:00:00,2017-02-12,day,mechanical,type only
+CC002,columns,"Jovito R. Salonga, my guru and surrogate father",datetime,2016-03-20 00:00:00,2016-03-20,day,mechanical,type only
+CC004,columns,"Diokno, Salonga and Teehankee",datetime,2018-04-29 00:00:00,2018-04-29,day,mechanical,type only
+CC005,columns,Right man for the right job,datetime,2014-02-01 00:00:00,2014-02-01,day,mechanical,type only
+CC006,columns,For the alumni of Mapa High,datetime,2014-03-02 00:00:00,2014-03-02,day,mechanical,type only
+CC007,columns,Bar exams and legal education (1),datetime,2014-09-07 00:00:00,2014-09-07,day,mechanical,type only
+CC008,columns,"Keep doing my best, let God do the rest'",datetime,2015-01-04 00:00:00,2015-01-04,day,mechanical,type only
+CC009,columns,Overwhelmed with honor and joy,datetime,2022-01-02 00:00:00,2022-01-02,day,mechanical,type only
+CC012,columns,The bar exam and the legends of the bar,datetime,2024-09-16 00:00:00,2024-09-16,day,mechanical,type only
+CC013,columns,Why my best friends are my best critics,datetime,2019-11-17 00:00:00,2019-11-17,day,mechanical,type only
+CC015,columns,"Manila Cathedral: sad news, good news",datetime,2012-04-07 00:00:00,2012-04-07,day,mechanical,type only
+CC016,columns,New evangelization of Catholic Church,datetime,2016-07-24 00:00:00,2016-07-24,day,mechanical,type only
+CC017,columns,Cyberlibel and Maria Ressa,datetime,2020-06-21 00:00:00,2020-06-21,day,mechanical,type only
+CC018,columns,"We're not mere relatives, we're soulmates",datetime,2026-04-27 00:00:00,2026-04-27,day,mechanical,type only
+CC019,columns,"Adversity, love, and renewal",datetime,2026-04-06 00:00:00,2026-04-06,day,mechanical,type only
+CC020,columns,Drilon should have been PH President,datetime,2026-02-09 00:00:00,2026-02-09,day,mechanical,type only
+CC021,columns,The pope of the peripheries to visit PH,datetime,2025-05-19 00:00:00,2025-05-19,day,mechanical,type only
+CC022,columns,Power women in private professions,datetime,2025-04-28 00:00:00,2025-04-28,day,mechanical,type only
+CC023,columns,Bert Lina's legacy of love,datetime,2025-03-10 00:00:00,2025-03-10,day,mechanical,type only
+CC024,columns,Mysterious stem cells: Unraveling the mystery (Part 4),datetime,2025-01-06 00:00:00,2025-01-06,day,mechanical,type only
+CC025,columns,Mysterious stem cells: LCT procedure (3),datetime,2024-12-30 00:00:00,2024-12-30,day,mechanical,type only
+CC026,columns,Mysterious stem cells: ASC infusion process (2),datetime,2024-12-23 00:00:00,2024-12-23,day,mechanical,type only
+CC027,columns,Mysterious stem cells: Autologous (1),datetime,2024-12-16 00:00:00,2024-12-16,day,mechanical,type only
+CC028,columns,A brilliant executive but God's servant first,datetime,2024-08-26 00:00:00,2024-08-26,day,mechanical,type only
+CC029,columns,Search for the illusive fountain of youth,datetime,2024-07-08 00:00:00,2024-07-08,day,mechanical,type only
+CC030,columns,"No perspiration, no exaltation",datetime,2024-06-10 00:00:00,2024-06-10,day,mechanical,type only
+CC031,columns,Scholarships to three 'apo' by top US schools,datetime,2024-06-03 00:00:00,2024-06-03,day,mechanical,type only
+CC032,columns,Student activism,datetime,2024-05-06 00:00:00,2024-05-06,day,mechanical,type only
+CC033,columns,Reminiscing FVR,datetime,2024-03-18 00:00:00,2024-03-18,day,mechanical,type only
+CC034,columns,"Jesus Christ, our King and Leader (2)",datetime,2024-01-01 00:00:00,2024-01-01,day,mechanical,type only
+CC035,columns,"Jesus Christ, the reason for the season (1)",datetime,2023-12-25 00:00:00,2023-12-25,day,mechanical,type only
+CC036,columns,The way we were in RCM,datetime,2023-11-20 00:00:00,2023-11-20,day,mechanical,type only
+CC037,columns,Supercalifragilisticexpialidocious,datetime,2023-10-30 00:00:00,2023-10-30,day,mechanical,type only
+CC038,columns,Reminiscences of my text exchanges with Lou,datetime,2023-10-02 00:00:00,2023-10-02,day,mechanical,type only
+CC039,columns,"Toyota PH, celebrating 35 years as #1",datetime,2023-09-11 00:00:00,2023-09-11,day,mechanical,type only
+CC040,columns,ACCRA hits gold,datetime,2023-07-03 00:00:00,2023-07-03,day,mechanical,type only
+CC041,columns,OML and ADR: Quixotic and patriotic,datetime,2023-05-01 00:00:00,2023-05-01,day,mechanical,type only
+CC042,columns,"My Leni as mom, grand mom, and professor",datetime,2023-04-24 00:00:00,2023-04-24,day,mechanical,type only
+CC043,columns,My Leni is gone,datetime,2023-04-17 00:00:00,2023-04-17,day,mechanical,type only
+CC044,columns,World-class Filipino enterprise,datetime,2023-01-02 00:00:00,2023-01-02,day,mechanical,type only
+CC045,columns,FVR respected the Supreme Court,datetime,2022-08-22 00:00:00,2022-08-22,day,mechanical,type only
+CC046,columns,The global Aristotelian jurist,datetime,2022-07-25 00:00:00,2022-07-25,day,mechanical,type only
+CC047,columns,With starkly contrasting results,datetime,2022-05-09 00:00:00,2022-05-09,day,mechanical,type only
+CC048,columns,"Reminiscing, praying, and caring",datetime,2022-04-18 00:00:00,2022-04-18,day,mechanical,type only
+CC049,columns,Pro Ecclesia et Pontifice',datetime,2024-09-23 00:00:00,2024-09-23,day,mechanical,type only
+CC050,columns,Unofficial resident amicus curiae',datetime,2021-12-26 00:00:00,2021-12-26,day,mechanical,type only
+CC051,columns,"Age gracefully, learn endlessly",datetime,2021-08-08 00:00:00,2021-08-08,day,mechanical,type only
+CC052,columns,Welcome to the marry month of June,datetime,2021-05-30 00:00:00,2021-05-30,day,mechanical,type only
+CC053,columns,"Justice Jose A. R. Melo, 88",datetime,2020-10-25 00:00:00,2020-10-25,day,mechanical,type only
+CC054,columns,Reactions to comments and questions,datetime,2020-07-26 00:00:00,2020-07-26,day,mechanical,type only
+CC055,columns,WFH amid COVID-19,datetime,2020-03-29 00:00:00,2020-03-29,day,mechanical,type only
+CC056,columns,Valentine in the Supreme Court,datetime,2020-02-16 00:00:00,2020-02-16,day,mechanical,type only
+CC057,columns,Main duty of independent directors,datetime,2019-12-29 00:00:00,2019-12-29,day,mechanical,type only
+CC058,columns,Make each day count!,datetime,2019-12-22 00:00:00,2019-12-22,day,mechanical,type only
+CC059,columns,Why Tagle called to work 24/7 in Vatican,datetime,2019-12-15 00:00:00,2019-12-15,day,mechanical,type only
+CC060,columns,What if Tony Carpio became chief justice?,datetime,2019-11-10 00:00:00,2019-11-10,day,mechanical,type only
+CC061,columns,Agreeing to disagree with Justice Carpio,datetime,2019-10-27 00:00:00,2019-10-27,day,mechanical,type only
+CC062,columns,Why Tony Carpio never became chief justice,datetime,2019-10-20 00:00:00,2019-10-20,day,mechanical,type only
+CC063,columns,Conversation with ICJ Judge Iwasawa,datetime,2019-09-22 00:00:00,2019-09-22,day,mechanical,type only
+CC064,columns,Duterte appointees to dominate SC,datetime,2019-07-21 00:00:00,2019-07-21,day,mechanical,type only
+CC065,columns,Of legal technicians and social engineers,datetime,2019-07-14 00:00:00,2019-07-14,day,mechanical,type only
+CC066,columns,100 years of 'Service Above Self',datetime,2019-06-30 00:00:00,2019-06-30,day,mechanical,type only
+CC067,columns,Kudos to PPCRV and to new SC Justice Inting,datetime,2019-06-09 00:00:00,2019-06-09,day,mechanical,type only
+CC068,columns,Father of automated elections,datetime,2019-05-26 00:00:00,2019-05-26,day,mechanical,type only
+CC069,columns,The delectable twins of Mar and Korina,datetime,2019-03-10 00:00:00,2019-03-10,day,mechanical,type only
+CC070,columns,Henry Sy Sr.: Vision and passion,datetime,2019-01-27 00:00:00,2019-01-27,day,mechanical,type only
+CC071,columns,Thanksgiving for new careers (2),datetime,2019-01-06 00:00:00,2019-01-06,day,mechanical,type only
+CC072,columns,Thanksgiving for new careers (1),datetime,2018-12-30 00:00:00,2018-12-30,day,mechanical,type only
+CC073,columns,10% of Dr. Ty's wealth to philanthropy,datetime,2018-12-02 00:00:00,2018-12-02,day,mechanical,type only
+CC074,columns,Forums in San Carlos and San Beda,datetime,2018-10-21 00:00:00,2018-10-21,day,mechanical,type only
+CC075,columns,Changing tires for a new journey,datetime,2018-08-12 00:00:00,2018-08-12,day,mechanical,type only
+CC076,columns,"Prayer amid crisis, pain; EJA remembered",datetime,2018-05-20 00:00:00,2018-05-20,day,mechanical,type only
+CC077,columns,"UST, FEU and SBU",datetime,2018-02-25 00:00:00,2018-02-25,day,mechanical,type only
+CC078,columns,Duterte to host and keynote Asean lawyers' meet,datetime,2017-10-22 00:00:00,2017-10-22,day,mechanical,type only
+CC079,columns,Wash Sycip and Chito Tagle,datetime,2017-10-15 00:00:00,2017-10-15,day,mechanical,type only
+CC080,columns,Writing simply and concisely,datetime,2017-09-24 00:00:00,2017-09-24,day,mechanical,type only
+CC081,columns,Supercitizens of Pampanga,datetime,2017-07-16 00:00:00,2017-07-16,day,mechanical,type only
+CC082,columns,Teehankee's heroes,datetime,2017-04-09 00:00:00,2017-04-09,day,mechanical,type only
+CC083,columns,Favorite philanthropy of tycoons,datetime,2017-03-26 00:00:00,2017-03-26,day,mechanical,type only
+CC084,columns,On reaching 80,datetime,2017-01-01 00:00:00,2017-01-01,day,mechanical,type only
+CC085,columns,Thank you to two presidents,datetime,2016-12-25 00:00:00,2016-12-25,day,mechanical,type only
+CC086,columns,"PPCRV at 25, a changing of the guard",datetime,2016-10-16 00:00:00,2016-10-16,day,mechanical,type only
+CC087,columns,How to be a taipan,datetime,2016-08-21 00:00:00,2016-08-21,day,mechanical,type only
+CC088,columns,"Bedans all, pros and contras",datetime,2016-08-14 00:00:00,2016-08-14,day,mechanical,type only
+CC089,columns,Mediating a Church dispute on people power,datetime,2016-02-14 00:00:00,2016-02-14,day,mechanical,type only
+CC090,columns,"Fearless, intuitive and spiritual'",datetime,2016-01-03 00:00:00,2016-01-03,day,mechanical,type only
+CC091,columns,Women power at SC rites,datetime,2015-10-11 00:00:00,2015-10-11,day,mechanical,type only
+CC092,columns,Good enough for the first week,datetime,2015-09-13 00:00:00,2015-09-13,day,mechanical,type only
+CC093,columns,Filipinos in international judicial tribunals,datetime,2015-07-26 00:00:00,2015-07-26,day,mechanical,type only
+CC094,columns,"Manny, Andy, Bing and Bert",datetime,2015-05-10 00:00:00,2015-05-10,day,mechanical,type only
+CC095,columns,What's in a name?,datetime,2015-04-19 00:00:00,2015-04-19,day,mechanical,type only
+CC096,columns,"Science, lifestyle and longevity",datetime,2015-04-05 00:00:00,2015-04-05,day,mechanical,type only
+CC097,columns,Exemplars of Pope Francis,datetime,2015-01-18 00:00:00,2015-01-18,day,mechanical,type only
+CC098,columns,Season's defining events,datetime,2015-01-11 00:00:00,2015-01-11,day,mechanical,type only
+CC099,columns,Memories of family,datetime,2014-12-28 00:00:00,2014-12-28,day,mechanical,type only
+CC100,columns,Encounter with Canadian SC justices,datetime,2014-12-14 00:00:00,2014-12-14,day,mechanical,type only
+CC101,columns,SC tops SWS poll,datetime,2014-10-19 00:00:00,2014-10-19,day,mechanical,type only
+CC102,columns,Bar exam and legal education (3),datetime,2014-09-21 00:00:00,2014-09-21,day,mechanical,type only
+CC103,columns,Bar exam and legal education (2),datetime,2014-09-14 00:00:00,2014-09-14,day,mechanical,type only
+CC104,columns,Mother church of all churches' reopens,datetime,2014-04-13 00:00:00,2014-04-13,day,mechanical,type only
+CC106,columns,What retired SC justices do,datetime,2014-01-04 00:00:00,2014-01-04,day,mechanical,type only
+CC107,columns,Bosom buddies and BFFs,datetime,2013-08-03 00:00:00,2013-08-03,day,mechanical,type only
+CC108,columns,Church of the poor,datetime,2013-07-20 00:00:00,2013-07-20,day,mechanical,type only
+CC109,columns,Pope Chito?,datetime,2013-02-16 00:00:00,2013-02-16,day,mechanical,type only
+CC110,columns,Maria Lourdes P. A. Sereno,datetime,2012-08-25 00:00:00,2012-08-25,day,mechanical,type only
+CC111,columns,Blessings and thanks,datetime,2011-12-31 00:00:00,2011-12-31,day,mechanical,type only
+CC112,columns,The making of 'Ageless Passion',datetime,2011-12-24 00:00:00,2011-12-24,day,mechanical,type only
+CC113,columns,Luis Antonio G. Tagle,datetime,2011-12-17 00:00:00,2011-12-17,day,mechanical,type only
+CC114,columns,Union of hearts and wealth,datetime,2011-06-11 00:00:00,2011-06-11,day,mechanical,type only
+CC115,columns,Amortal',datetime,2011-05-21 00:00:00,2011-05-21,day,mechanical,type only
+CC116,columns,Reminiscing JP II,datetime,2011-05-08 00:00:00,2011-05-08,day,mechanical,type only
+CC117,columns,"The same yesterday, today and tomorrow (1)",datetime,2011-04-17 00:00:00,2011-04-17,day,mechanical,type only
+CD001,columns,11 LibPros scholars,datetime,2016-11-27 00:00:00,2016-11-27,day,mechanical,type only
+CD003,columns,"20 law grants at P250k, 5 MBA at P500k",datetime,2025-08-25 00:00:00,2025-08-25,day,mechanical,type only
+CD005,columns,"For FLP scholars, little things mean a lot",datetime,2020-05-10 00:00:00,2020-05-10,day,mechanical,type only
+CD008,columns,"FLP's 2024 law scholars, fellows, and winners",datetime,2024-09-02 00:00:00,2024-09-02,day,mechanical,type only
+CD009,columns,Hail to the FLP bar topnotchers and passers,datetime,2026-01-12 00:00:00,2026-01-12,day,mechanical,type only
+CD011,columns,Celebrating AIM and AI management,datetime,2026-02-16 00:00:00,2026-02-16,day,mechanical,type only
+CD012,columns,"After the bar, choose a role model",datetime,2026-01-19 00:00:00,2026-01-19,day,mechanical,type only
+CD013,columns,"Power of the talented, patriotic, and Godly",datetime,2025-09-01 00:00:00,2025-09-01,day,mechanical,type only
+CD014,columns,Better to be invited than to gatecrash,datetime,2024-04-15 00:00:00,2024-04-15,day,mechanical,type only
+CD015,columns,AIM honors my Leni,datetime,2024-03-04 00:00:00,2024-03-04,day,mechanical,type only
+CD016,columns,"Never give up, never say never",datetime,2023-07-31 00:00:00,2023-07-31,day,mechanical,type only
+CD017,columns,"FLP's 21 scholars, 10 winners, and 5 fellows",datetime,2022-08-08 00:00:00,2022-08-08,day,mechanical,type only
+CD018,columns,FLP expanding into prosperity,datetime,2022-04-11 00:00:00,2022-04-11,day,mechanical,type only
+CD019,columns,Listen to the leaders of tomorrow,datetime,2021-08-22 00:00:00,2021-08-22,day,mechanical,type only
+CD020,columns,"Liberty, prosperity, rule of law'",datetime,2021-07-25 00:00:00,2021-07-25,day,mechanical,type only
+CD021,columns,Just and humane lawyers in the DiGi Age,datetime,2020-06-14 00:00:00,2020-06-14,day,mechanical,type only
+CD022,columns,Enforcing rights on surveillance capitalism,datetime,2020-05-17 00:00:00,2020-05-17,day,mechanical,type only
+CD023,columns,Bar exam topper: Gay and proud of it,datetime,2019-05-12 00:00:00,2019-05-12,day,mechanical,type only
+CD024,columns,"PCGG, scholarships and dissertations",datetime,2017-08-06 00:00:00,2017-08-06,day,mechanical,type only
+CD025,columns,Resonance,datetime,2016-12-04 00:00:00,2016-12-04,day,mechanical,type only
+CD026,columns,"Scholarships, dissertation contest for law students",datetime,2016-05-22 00:00:00,2016-05-22,day,mechanical,type only
+CD027,columns,"UN/WB Fastrac, Metrobank, Rule of Law Awards",datetime,2013-05-04 00:00:00,2013-05-04,day,mechanical,type only
+CD028,columns,PCCI can fight graft at the grass roots,datetime,2011-10-02 00:00:00,2011-10-02,day,mechanical,type only
+CD029,columns,Passion for education,datetime,2011-09-10 00:00:00,2011-09-10,day,mechanical,type only
+CE001,columns,Rejuvenating Baguio,datetime,2025-01-13 00:00:00,2025-01-13,day,mechanical,type only
+CE003,columns,Relentless defender of PH sovereignty,datetime,2026-03-30 00:00:00,2026-03-30,day,mechanical,type only
+CE004,columns,"RA 6713, the 'Bible' of public officials",datetime,2025-10-27 00:00:00,2025-10-27,day,mechanical,type only
+CE007,columns,Liberalism vs conservatism,datetime,2024-09-30 00:00:00,2024-09-30,day,mechanical,type only
+CE008,columns,"Marital infidelity, abortion, PCP2",datetime,2024-10-07 00:00:00,2024-10-07,day,mechanical,type only
+CE009,columns,"Global Filipino Artists,' not 'National Artists'",datetime,2026-04-20 00:00:00,2026-04-20,day,mechanical,type only
+CE010,columns,"Why not Cecile, Lea, and Lisa",datetime,2026-03-23 00:00:00,2026-03-23,day,mechanical,type only
+CE011,columns,"Robotics, for better or for worse",datetime,2026-02-02 00:00:00,2026-02-02,day,mechanical,type only
+CE012,columns,Seven empowered women,datetime,2026-01-26 00:00:00,2026-01-26,day,mechanical,type only
+CE013,columns,Distinguishing fake news from facts,datetime,2025-12-29 00:00:00,2025-12-29,day,mechanical,type only
+CE014,columns,"Dynasty, not evil per se; merely abused",datetime,2025-12-22 00:00:00,2025-12-22,day,mechanical,type only
+CE015,columns,How to contain dynasties,datetime,2025-12-15 00:00:00,2025-12-15,day,mechanical,type only
+CE016,columns,Why dynasties endure,datetime,2025-12-08 00:00:00,2025-12-08,day,mechanical,type only
+CE017,columns,The experimental party-list mongrel,datetime,2025-12-01 00:00:00,2025-12-01,day,mechanical,type only
+CE018,columns,AI and the freedom to ask,datetime,2025-11-24 00:00:00,2025-11-24,day,mechanical,type only
+CE019,columns,AI can create value and build trust,datetime,2025-11-17 00:00:00,2025-11-17,day,mechanical,type only
+CE020,columns,Democracy is more than having an election,datetime,2025-11-03 00:00:00,2025-11-03,day,mechanical,type only
+CE021,columns,Good start: Remulla opens SALNs,datetime,2025-10-20 00:00:00,2025-10-20,day,mechanical,type only
+CE022,columns,Give Remulla the benefit of the doubt,datetime,2025-10-13 00:00:00,2025-10-13,day,mechanical,type only
+CE023,columns,ICI must be transparent and accountable,datetime,2025-10-06 00:00:00,2025-10-06,day,mechanical,type only
+CE024,columns,Tough to be an ICI commissioner,datetime,2025-09-29 00:00:00,2025-09-29,day,mechanical,type only
+CE025,columns,ICI and OMB: Expectations and questions,datetime,2025-09-22 00:00:00,2025-09-22,day,mechanical,type only
+CE026,columns,Legislative exposés and lifestyle checks,datetime,2025-09-15 00:00:00,2025-09-15,day,mechanical,type only
+CE027,columns,Investigating heinous flood control scams,datetime,2025-09-08 00:00:00,2025-09-08,day,mechanical,type only
+CE028,columns,Would you like to dance the Cha-cha again?,datetime,2025-08-18 00:00:00,2025-08-18,day,mechanical,type only
+CE029,columns,Let us celebrate Woman Suffrage Day,datetime,2025-04-21 00:00:00,2025-04-21,day,mechanical,type only
+CE030,columns,Protecting and projecting national interest,datetime,2024-11-25 00:00:00,2024-11-25,day,mechanical,type only
+CE031,columns,"Trump's stunning landslide, legal effects",datetime,2024-11-11 00:00:00,2024-11-11,day,mechanical,type only
+CE032,columns,"President, Congress, OMB, et al. vs Alice Guo",datetime,2024-08-19 00:00:00,2024-08-19,day,mechanical,type only
+CE033,columns,I won't fly QR again; Nvidia on a blitz,datetime,2024-07-01 00:00:00,2024-07-01,day,mechanical,type only
+CE034,columns,How to trump Donald Trump,datetime,2024-01-15 00:00:00,2024-01-15,day,mechanical,type only
+CE035,columns,Prosecuting and disqualifying Trump,datetime,2023-09-04 00:00:00,2023-09-04,day,mechanical,type only
+CE036,columns,"Maximize wages, minimize contractualizations",datetime,2023-05-22 00:00:00,2023-05-22,day,mechanical,type only
+CE037,columns,Sneaky way to overhaul Charter; more on ICC,datetime,2023-03-13 00:00:00,2023-03-13,day,mechanical,type only
+CE038,columns,Transform dynasty into legacy,datetime,2023-02-06 00:00:00,2023-02-06,day,mechanical,type only
+CE039,columns,Wrong time for Cha-cha,datetime,2023-01-23 00:00:00,2023-01-23,day,mechanical,type only
+CE040,columns,"Dynasties, for good or for evil",datetime,2022-08-01 00:00:00,2022-08-01,day,mechanical,type only
+CE041,columns,Scrutinizing the Cabinet,datetime,2022-07-04 00:00:00,2022-07-04,day,mechanical,type only
+CE042,columns,"BBM's Cabinet, Senator Poe, Justice Singh",datetime,2022-05-30 00:00:00,2022-05-30,day,mechanical,type only
+CE043,columns,An election to remember,datetime,2022-05-16 00:00:00,2022-05-16,day,mechanical,type only
+CE044,columns,Withdraw the Comelec Precinct Finder,datetime,2022-05-02 00:00:00,2022-05-02,day,mechanical,type only
+CE045,columns,A weird race for second place,datetime,2022-04-25 00:00:00,2022-04-25,day,mechanical,type only
+CE046,columns,Senate to elect new leader,datetime,2022-01-16 00:00:00,2022-01-16,day,mechanical,type only
+CE047,columns,Embarrassing knockout,datetime,2022-01-09 00:00:00,2022-01-09,day,mechanical,type only
+CE048,columns,Can Sara still become president?,datetime,2021-11-21 00:00:00,2021-11-21,day,mechanical,type only
+CE049,columns,The Bongbong-Sara juggernaut,datetime,2021-11-14 00:00:00,2021-11-14,day,mechanical,type only
+CE050,columns,"Sara, the game changer",datetime,2021-10-17 00:00:00,2021-10-17,day,mechanical,type only
+CE051,columns,"For PAL's reinvention, not liquidation",datetime,2021-09-19 00:00:00,2021-09-19,day,mechanical,type only
+CE052,columns,The cost of presidential campaigns,datetime,2021-09-12 00:00:00,2021-09-12,day,mechanical,type only
+CE053,columns,"Modify 'no vaccine, no work' ban",datetime,2021-08-15 00:00:00,2021-08-15,day,mechanical,type only
+CE054,columns,Gunfight at the C'monwealth Corral',datetime,2021-03-07 00:00:00,2021-03-07,day,mechanical,type only
+CE055,columns,Readers thinking for themselves,datetime,2021-01-31 00:00:00,2021-01-31,day,mechanical,type only
+CE056,columns,An oxymoron: A divided United States,datetime,2021-01-24 00:00:00,2021-01-24,day,mechanical,type only
+CE057,columns,Triumph of American democracy,datetime,2021-01-10 00:00:00,2021-01-10,day,mechanical,type only
+CE058,columns,Use of aborted fetuses in vaccines,datetime,2021-01-03 00:00:00,2021-01-03,day,mechanical,type only
+CE059,columns,Is the US election democratic?,datetime,2020-12-06 00:00:00,2020-12-06,day,mechanical,type only
+CE060,columns,The raging race to 270,datetime,2020-11-01 00:00:00,2020-11-01,day,mechanical,type only
+CE061,columns,Sorting the good news from the sad,datetime,2020-08-30 00:00:00,2020-08-30,day,mechanical,type only
+CE062,columns,"Enacting, implementing 'Bayanihan to Heal'",datetime,2020-04-05 00:00:00,2020-04-05,day,mechanical,type only
+CE063,columns,Unity in the war on COVID-19,datetime,2020-03-22 00:00:00,2020-03-22,day,mechanical,type only
+CE064,columns,Trump acquitted without trial,datetime,2020-02-09 00:00:00,2020-02-09,day,mechanical,type only
+CE065,columns,Trump's impeachment: judicial or political?,datetime,2020-01-26 00:00:00,2020-01-26,day,mechanical,type only
+CE066,columns,Back to manual elections?,datetime,2019-06-16 00:00:00,2019-06-16,day,mechanical,type only
+CE067,columns,Huwag kang gunggong',datetime,2019-05-19 00:00:00,2019-05-19,day,mechanical,type only
+CE068,columns,Choosing senatorial candidates,datetime,2019-03-31 00:00:00,2019-03-31,day,mechanical,type only
+CE069,columns,Depoliticizing People Power,datetime,2019-03-03 00:00:00,2019-03-03,day,mechanical,type only
+CE070,columns,Passion to eradicate corruption,datetime,2018-08-05 00:00:00,2018-08-05,day,mechanical,type only
+CE071,columns,Church-state separation and cooperation,datetime,2018-07-01 00:00:00,2018-07-01,day,mechanical,type only
+CE072,columns,Acid test of peace: socioeconomic reforms,datetime,2018-06-10 00:00:00,2018-06-10,day,mechanical,type only
+CE073,columns,"Forging peace with MILF, NDFP",datetime,2018-06-03 00:00:00,2018-06-03,day,mechanical,type only
+CE074,columns,Alleviating high fuel prices,datetime,2018-05-27 00:00:00,2018-05-27,day,mechanical,type only
+CE075,columns,Banish red tape with digital tools,datetime,2018-05-13 00:00:00,2018-05-13,day,mechanical,type only
+CE076,columns,"Guevarra, Albayalde can easily chase Espinosa, Lim",datetime,2018-04-08 00:00:00,2018-04-08,day,mechanical,type only
+CE077,columns,Christmas bonanza for 10M taxpayers,datetime,2017-10-29 00:00:00,2017-10-29,day,mechanical,type only
+CE078,columns,The future is now,datetime,2017-09-17 00:00:00,2017-09-17,day,mechanical,type only
+CE079,columns,Andy Bautista's legal conundrums,datetime,2017-08-20 00:00:00,2017-08-20,day,mechanical,type only
+CE080,columns,Unity and solidarity amid crisis,datetime,2017-07-02 00:00:00,2017-07-02,day,mechanical,type only
+CE081,columns,No permanent friends or enemies,datetime,2017-05-28 00:00:00,2017-05-28,day,mechanical,type only
+CE082,columns,Will Scotus trump Trump?,datetime,2017-02-19 00:00:00,2017-02-19,day,mechanical,type only
+CE083,columns,"Populism, elitism and liberal democracy",datetime,2017-02-05 00:00:00,2017-02-05,day,mechanical,type only
+CE084,columns,America first',datetime,2016-11-13 00:00:00,2016-11-13,day,mechanical,type only
+CE085,columns,Will Trump emulate Gore?,datetime,2016-10-30 00:00:00,2016-10-30,day,mechanical,type only
+CE086,columns,Solving traffic mess and eradicating corruption,datetime,2016-06-26 00:00:00,2016-06-26,day,mechanical,type only
+CE087,columns,Cabinet mirrors President,datetime,2016-05-29 00:00:00,2016-05-29,day,mechanical,type only
+CE088,columns,Nonpolitical winners,datetime,2016-05-08 00:00:00,2016-05-08,day,mechanical,type only
+CE089,columns,Macho power vs woman power,datetime,2016-05-01 00:00:00,2016-05-01,day,mechanical,type only
+CE090,columns,The myth of powerful parties,datetime,2016-04-17 00:00:00,2016-04-17,day,mechanical,type only
+CE091,columns,"Internet, the globalization equalizer",datetime,2015-11-22 00:00:00,2015-11-22,day,mechanical,type only
+CE092,columns,"Who killed SAF 44, not who killed Marwan",datetime,2015-09-20 00:00:00,2015-09-20,day,mechanical,type only
+CE093,columns,Quo vadis daang matuwid'?,datetime,2015-08-23 00:00:00,2015-08-23,day,mechanical,type only
+CE094,columns,Show proof or apologize,datetime,2015-04-26 00:00:00,2015-04-26,day,mechanical,type only
+CE095,columns,"Truth, justice and peace",datetime,2015-02-22 00:00:00,2015-02-22,day,mechanical,type only
+CE096,columns,No bribe-taker when no bribe-giver,datetime,2014-09-28 00:00:00,2014-09-28,day,mechanical,type only
+CE097,columns,An afternoon at the New Bilibid Prison,datetime,2014-08-10 00:00:00,2014-08-10,day,mechanical,type only
+CE098,columns,"Decrepit, congested and subhuman",datetime,2014-08-03 00:00:00,2014-08-03,day,mechanical,type only
+CE099,columns,Big election winners,datetime,2013-06-01 00:00:00,2013-06-01,day,mechanical,type only
+CE100,columns,Let's all vote Monday,datetime,2013-05-11 00:00:00,2013-05-11,day,mechanical,type only
+CE101,columns,Japan is back',datetime,2013-04-06 00:00:00,2013-04-06,day,mechanical,type only
+CE102,columns,Controversial consequences of biotechnology,datetime,2013-01-05 00:00:00,2013-01-05,day,mechanical,type only
+CE103,columns,Anticorruption campaign goes global,datetime,2012-12-22 00:00:00,2012-12-22,day,mechanical,type only
+CE104,columns,"Best in Asean, second best in Asia",datetime,2012-12-08 00:00:00,2012-12-08,day,mechanical,type only
+CE105,columns,So far so good,datetime,2012-08-05 00:00:00,2012-08-05,day,mechanical,type only
+CE106,columns,Enhancing Fil-Hispanic ties,datetime,2012-07-07 00:00:00,2012-07-07,day,mechanical,type only
+CE107,columns,"Aquino and Binay, invincible together",datetime,2012-04-21 00:00:00,2012-04-21,day,mechanical,type only
+CE108,columns,It's more fun in the Philippines',datetime,2012-03-31 00:00:00,2012-03-31,day,mechanical,type only
+CE109,columns,An Army of Youth',datetime,2011-10-22 00:00:00,2011-10-22,day,mechanical,type only
+CE110,columns,No global traction yet; shall we dance?,datetime,2011-10-15 00:00:00,2011-10-15,day,mechanical,type only
+CE111,columns,"Titanic debate, titanic delay",datetime,2011-10-08 00:00:00,2011-10-08,day,mechanical,type only
+CE112,columns,How to be a tourism billionaire,datetime,2011-09-03 00:00:00,2011-09-03,day,mechanical,type only
+CE113,columns,New hope for peace,datetime,2011-08-21 00:00:00,2011-08-21,day,mechanical,type only
+CE114,columns,Making sense of the US mess,datetime,2011-08-13 00:00:00,2011-08-13,day,mechanical,type only
+CE115,columns,Not for the faint-hearted,datetime,2011-07-31 00:00:00,2011-07-31,day,mechanical,type only
+CE116,columns,OFWs to the world,datetime,2011-07-16 00:00:00,2011-07-16,day,mechanical,type only
+CE117,columns,"Taipans in China, professionals in America",datetime,2011-07-09 00:00:00,2011-07-09,day,mechanical,type only
+CE118,columns,Testing the mettle of Mar Roxas,datetime,2011-06-19 00:00:00,2011-06-19,day,mechanical,type only
+CE119,columns,Essential generals,datetime,2011-06-05 00:00:00,2011-06-05,day,mechanical,type only
+CE120,columns,President Aquino's polestar,datetime,2011-05-29 00:00:00,2011-05-29,day,mechanical,type only
+BE001,books,With Due Respect (Vol. 1) -- Ch. 1: GMA's Legacy,datetime,2007-12-08 00:00:00,2007-12-08,day,mechanical,type only
+BE002,books,With Due Respect (Vol. 1) -- Ch. 2: For or Against GMA,str,9/30/2007,2007-09-30,day,batch-03 proposal,value + type
+BE003,books,With Due Respect (Vol. 1) -- Ch. 3: Rage for Truth,datetime,2008-02-03 00:00:00,2008-02-03,day,mechanical,type only
+BE004,books,With Due Respect (Vol. 1) -- Ch. 4: Untrammeled Search for Truth,str,3/16/2008,2008-03-16,day,batch-03 proposal,value + type
+BE005,books,"With Due Respect (Vol. 1) -- Ch. 5: Country, Democracy, and Economy",str,3/23/2008,2008-03-23,day,batch-03 proposal,value + type
+BA001,books,With Due Respect (Vol. 1) -- Ch. 6: Can GMA Reign Beyond 2010?,str,7/20/2008,2008-07-20,day,batch-03 proposal,value + type
+BE006,books,With Due Respect (Vol. 1) -- Ch. 7: Will GMA Win the Cha-cha War?,str,7/27/2008,2008-07-27,day,batch-03 proposal,value + type
+BA002,books,With Due Respect (Vol. 1) -- Ch. 8: Limits of Presidential Power,str,8/23/2009,2009-08-23,day,batch-03 proposal,value + type
+BA003,books,With Due Respect (Vol. 1) -- Ch. 9: Dress Her Down Anyway,str,12/13/2009,2009-12-13,day,batch-03 proposal,value + type
+BE007,books,With Due Respect (Vol. 1) -- Ch. 10: How GMA Can Prolong Her Stay,str,1/31/2010,2010-01-31,day,batch-03 proposal,value + type
+BA004,books,With Due Respect (Vol. 2) -- Ch. 1: An Extraordinary Court,str,12/28/2008,2008-12-28,day,batch-03 proposal,value + type
+BA005,books,With Due Respect (Vol. 2) -- Ch. 2: Bequeathing an Independent Court,datetime,2009-11-01 00:00:00,2009-11-01,day,mechanical,type only
+BD001,books,With Due Respect (Vol. 2) -- Ch. 3: How the SC Decides Cases,str,6/21/2009,2009-06-21,day,batch-03 proposal,value + type
+BA006,books,With Due Respect (Vol. 2) -- Ch. 4: Uphold the Constitution,str,12/20/2009,2009-12-20,day,batch-03 proposal,value + type
+BD002,books,With Due Respect (Vol. 2) -- Ch. 5: Chief Justice of the Philippines,str,12/27/2009,2009-12-27,day,batch-03 proposal,value + type
+BA007,books,With Due Respect (Vol. 2) -- Ch. 6: Midnight Chief Justice,str,3/28/2010,2010-03-28,day,batch-03 proposal,value + type
+BD003,books,With Due Respect (Vol. 2) -- Ch. 7: Demystifying the Court,datetime,2010-04-07 00:00:00,2010-04-07,day,mechanical,type only
+BA008,books,With Due Respect (Vol. 2) -- Ch. 8: Who Will Discipline Supreme Court Justices?,str,8/22/2010,2010-08-22,day,batch-03 proposal,value + type
+BE008,books,With Due Respect (Vol. 2) -- Ch. 9: Regaining Public Trust,datetime,2010-05-09 00:00:00,2010-05-09,day,mechanical,type only
+BA009,books,With Due Respect (Vol. 2) -- Ch. 10: Contempt and Disciplinary Actions,datetime,2010-07-11 00:00:00,2010-07-11,day,mechanical,type only
+BD004,books,With Due Respect (Vol. 3) -- Ch. 1: Mediation: A Useful Tool to Unclog Dockets,str,5/27/2007,2007-05-27,day,batch-03 proposal,value + type
+BA010,books,With Due Respect (Vol. 3) -- Ch. 2: Legal Empowerment of the Poor,str,7/29/2007,2007-07-29,day,batch-03 proposal,value + type
+BD005,books,With Due Respect (Vol. 3) -- Ch. 3: Role of the Judicial and Bar Council,datetime,2007-09-09 00:00:00,2007-09-09,day,mechanical,type only
+BD006,books,With Due Respect (Vol. 3) -- Ch. 4: Reforming the Judicial and Bar Council,str,9/16/2007,2007-09-16,day,batch-03 proposal,value + type
+BD007,books,"With Due Respect (Vol. 3) -- Ch. 5: How to Pass, Nay, Top the Bar Exams",str,4/20/2008,2008-04-20,day,batch-03 proposal,value + type
+BD008,books,With Due Respect (Vol. 3) -- Ch. 6: Responsibility for Selecting Justices,datetime,2008-12-10 00:00:00,2008-12-10,day,mechanical,type only
+BE009,books,With Due Respect (Vol. 3) -- Ch. 7: CJ Puno and Ombudsman Gutierrez,str,1/25/2009,2009-01-25,day,batch-03 proposal,value + type
+BE010,books,With Due Respect (Vol. 3) -- Ch. 8: Jolting Assault on JBC,datetime,2009-02-08 00:00:00,2009-02-08,day,mechanical,type only
+BE011,books,With Due Respect (Vol. 3) -- Ch. 9: Like Cory or Like Ferdie (excerpt),datetime,2009-09-08 00:00:00,2009-09-08,day,mechanical,type only
+BD009,books,With Due Respect (Vol. 3) -- Ch. 10: Small Claims Court,datetime,2010-12-12 00:00:00,2010-12-12,day,mechanical,type only
+BA011,books,With Due Respect (Vol. 4) -- Ch. 1: Two Standards of Judicial Review,datetime,2007-08-04 00:00:00,2007-08-04,day,mechanical,type only
+BE012,books,With Due Respect (Vol. 4) -- Ch. 2: Suppressing Neri's Testimony,str,11/25/2007,2007-11-25,day,batch-03 proposal,value + type
+BA012,books,With Due Respect (Vol. 4) -- Ch. 3: Hail to the Court; A Toast to Truth,str,2/17/2008,2008-02-17,day,batch-03 proposal,value + type
+BA013,books,With Due Respect (Vol. 4) -- Ch. 4: Should Libel be Decriminalized?,str,4/27/2008,2008-04-27,day,batch-03 proposal,value + type
+BE013,books,With Due Respect (Vol. 4) -- Ch. 5: Presidential Secrecy,datetime,2008-08-06 00:00:00,2008-08-06,day,mechanical,type only
+BA014,books,With Due Respect (Vol. 4) -- Ch. 6: Questions on the MOA-AD Decision,str,10/26/2008,2008-10-26,day,batch-03 proposal,value + type
+BA015,books,"With Due Respect (Vol. 4) -- Ch. 7: Divorce, Pinoy Style",str,2/21/2010,2010-02-21,day,batch-03 proposal,value + type
+BA016,books,With Due Respect (Vol. 4) -- Ch. 8: Restore Amla's Fangs,datetime,2010-11-07 00:00:00,2010-11-07,day,mechanical,type only
+BA017,books,With Due Respect (Vol. 4) -- Ch. 9: Invalid Plea Bargain,str,1/30/2011,2011-01-30,day,batch-03 proposal,value + type
+BA018,books,With Due Respect (Vol. 4) -- Ch. 10: Tread Cautiously and Prudently,str,2/27/2011,2011-02-27,day,batch-03 proposal,value + type
+BA019,books,With Due Respect (Vol. 5) -- Ch. 1: Subverting the Popular Will,datetime,2007-01-04 00:00:00,2007-01-04,day,mechanical,type only
+BA020,books,With Due Respect (Vol. 5) -- Ch. 2: Incomplete Victory,str,5/13/2007,2007-05-13,day,batch-03 proposal,value + type
+BA021,books,"With Due Respect (Vol. 5) -- Ch. 3: Law, Mathematics, and the Party-list System",str,7/15/2007,2007-07-15,day,batch-03 proposal,value + type
+BA022,books,With Due Respect (Vol. 5) -- Ch. 4: Criticisms of the Panganiban Formula,str,7/22/2007,2007-07-22,day,batch-03 proposal,value + type
+BA023,books,With Due Respect (Vol. 5) -- Ch. 5: Q&A on the Comelec Leadership,str,10/14/2007,2007-10-14,day,batch-03 proposal,value + type
+BA024,books,With Due Respect (Vol. 5) -- Ch. 6: Party-list Imponderables,str,4/26/2009,2009-04-26,day,batch-03 proposal,value + type
+BA025,books,With Due Respect (Vol. 5) -- Ch. 7: Lessons in Automating Elections,str,5/24/2009,2009-05-24,day,batch-03 proposal,value + type
+BE014,books,With Due Respect (Vol. 5) -- Ch. 8: Squandering the People's Trust,datetime,2010-10-01 00:00:00,2010-10-01,day,mechanical,type only
+BE015,books,With Due Respect (Vol. 5) -- Ch. 9: 'Hindi Puede ang Puede na',str,4/18/2010,2010-04-18,day,batch-03 proposal,value + type
+BE016,books,With Due Respect (Vol. 5) -- Ch. 10: Start Electoral Reforms Now,datetime,2011-02-01 00:00:00,2011-02-01,day,mechanical,type only
+BE017,books,With Due Respect (Vol. 6) -- Ch. 1: Destiny and Aspiration,datetime,2009-06-09 00:00:00,2009-06-09,day,mechanical,type only
+BE018,books,With Due Respect (Vol. 6) -- Ch. 2: How Do You Solve a Problem Like Estrada?,str,10/25/2009,2009-10-25,day,batch-03 proposal,value + type
+BE019,books,With Due Respect (Vol. 6) -- Ch. 3: Can the Senate Stop a GMA Holdover?,datetime,2010-07-02 00:00:00,2010-07-02,day,mechanical,type only
+BA026,books,With Due Respect (Vol. 6) -- Ch. 4: My Choices for May 10,str,4/25/2010,2010-04-25,day,batch-03 proposal,value + type
+BE020,books,With Due Respect (Vol. 6) -- Ch. 5: How to Fight No-PROC,datetime,2010-02-05 00:00:00,2010-02-05,day,mechanical,type only
+BE021,books,With Due Respect (Vol. 6) -- Ch. 6: Thunderous Triumph of People Power,str,5/16/2010,2010-05-16,day,batch-03 proposal,value + type
+BE022,books,With Due Respect (Vol. 6) -- Ch. 7: Noynoy's Most Vexing Problem,str,5/23/2010,2010-05-23,day,batch-03 proposal,value + type
+BE023,books,"With Due Respect (Vol. 6) -- Ch. 8: Destiny and Legacy, Not Dynasty",str,5/30/2010,2010-05-30,day,batch-03 proposal,value + type
+BE024,books,With Due Respect (Vol. 6) -- Ch. 9: Exercise in Courage,str,7/18/2010,2010-07-18,day,batch-03 proposal,value + type
+BE025,books,With Due Respect (Vol. 6) -- Ch. 10: How P-Noy Can Win the Supreme Court,str,10/24/2010,2010-10-24,day,batch-03 proposal,value + type
+BA027,books,With Due Respect (Vol. 7) -- Ch. 1: Sanctity of Life and of Marriage,datetime,2010-03-10 00:00:00,2010-03-10,day,mechanical,type only
+BA028,books,With Due Respect (Vol. 7) -- Ch. 2: Not Easy to be a Cabinet Member,str,6/20/2010,2010-06-20,day,batch-03 proposal,value + type
+BC001,books,With Due Respect (Vol. 7) -- Ch. 3: Justice and Love on Valentine's Day,str,2/14/2010,2010-02-14,day,batch-03 proposal,value + type
+BC002,books,With Due Respect (Vol. 7) -- Ch. 4: Awesome Gathering Power,datetime,2009-05-07 00:00:00,2009-05-07,day,mechanical,type only
+BB001,books,With Due Respect (Vol. 7) -- Ch. 5: Tycoon and Philanthropist,str,5/17/2009,2009-05-17,day,batch-03 proposal,value + type
+BC003,books,With Due Respect (Vol. 7) -- Ch. 6: Healing of the Heart,datetime,2009-12-04 00:00:00,2009-12-04,day,mechanical,type only
+BB002,books,With Due Respect (Vol. 7) -- Ch. 7: Understanding China,str,12/21/2008,2008-12-21,day,batch-03 proposal,value + type
+BC004,books,With Due Respect (Vol. 7) -- Ch. 8: Meek and Humble of Heart,str,8/24/2008,2008-08-24,day,batch-03 proposal,value + type
+BB003,books,With Due Respect (Vol. 7) -- Ch. 9: GMA's Legacy in Education,str,6/22/2008,2008-06-22,day,batch-03 proposal,value + type
+BB004,books,With Due Respect (Vol. 7) -- Ch. 10: Intangible Wealth of Nations,str,12/23/2007,2007-12-23,day,batch-03 proposal,value + type
+BB005,books,With Due Respect (Vol. 7) -- Ch. 11: Soul of the Ramos Presidency,str,8/26/2007,2007-08-26,day,batch-03 proposal,value + type
+BC005,books,"With Due Respect (Vol. 7) -- Ch. 12: Japan, the New and the Old",str,6/24/2007,2007-06-24,day,batch-03 proposal,value + type
+BA029,books,With Due Respect (Vol. 7) -- Ch. 13: Why the CBCP Does Not Choose Candidates,str,3/18/2007,2007-03-18,day,batch-03 proposal,value + type
+BA030,books,With Due Respect (Vol. 7) -- Ch. 14: Jose Wright Diokno,datetime,2007-04-03 00:00:00,2007-04-03,day,mechanical,type only
+BA031,books,With Due Respect (Vol. 7) -- Ch. 15: Visionary Leadership by Example,datetime,2007-11-02 00:00:00,2007-11-02,day,mechanical,type only
+BD010,books,A Centenary of Justice -- Ch. 1: A Renaissance in the Judiciary,datetime,2026-01-12 00:00:00,2001-12-01,month,batch-03 proposal,value + type
+BA032,books,A Centenary of Justice -- Ch. 2: Old Doctrines and New Paradigms,datetime,2026-01-12 00:00:00,2001-12-01,month,batch-03 proposal,value + type
+BA033,books,A Centenary of Justice -- Ch. 3: Obra Maestra,datetime,2026-01-12 00:00:00,2001-12-01,month,batch-03 proposal,value + type
+BD011,books,A Centenary of Justice -- Ch. 4: The Centenary and the Academe,datetime,2026-01-12 00:00:00,2001-12-01,month,batch-03 proposal,value + type
+BD012,books,"A Centenary of Justice -- Ch. 5: Mediation, an Old Method with a New Twist",datetime,2026-01-12 00:00:00,2001-12-01,month,batch-03 proposal,value + type
+BD013,books,A Centenary of Justice -- Ch. 6: A Meaningful Centenary,datetime,2026-01-12 00:00:00,2001-12-01,month,batch-03 proposal,value + type
+BD014,books,A Centenary of Justice -- Ch. 7: Employee Participation During the Centenary,datetime,2026-01-12 00:00:00,2001-12-01,month,batch-03 proposal,value + type
+BC006,books,A Centenary of Justice -- Ch. 8: The Inspiration of the Judiciary,datetime,2026-01-12 00:00:00,2001-12-01,month,batch-03 proposal,value + type
+BD015,books,A Centenary of Justice -- Ch. 9: A Benchbook for Judicial Excellence,datetime,2026-01-12 00:00:00,2001-12-01,month,batch-03 proposal,value + type
+BA034,books,A Centenary of Justice -- Ch. 10: Ready for the Bio-Age,datetime,2026-01-12 00:00:00,2001-12-01,month,batch-03 proposal,value + type
+BA035,books,A Centenary of Justice -- Ch. 11: E-Values for Lawyers,datetime,2026-01-12 00:00:00,2001-12-01,month,batch-03 proposal,value + type
+BD016,books,A Centenary of Justice -- Ch. 12: Even the Supreme Court Needs Public Relations,datetime,2026-01-12 00:00:00,2001-12-01,month,batch-03 proposal,value + type
+BA036,books,A Centenary of Justice -- Ch. 13: Estrada v. Desierto / Estrada v. Arroyo -- Con,datetime,2026-01-12 00:00:00,2001-12-01,month,batch-03 proposal,value + type
+BA037,books,A Centenary of Justice -- Ch. 14: The Death Penalty Cases -- More of the Same,datetime,2026-01-12 00:00:00,2001-12-01,month,batch-03 proposal,value + type
+BB006,books,A Centenary of Justice -- Ch. 15: Cruz v. Secretary of Environment -- IPRA: Soci,datetime,2026-01-12 00:00:00,2001-12-01,month,batch-03 proposal,value + type
+BB007,books,A Centenary of Justice -- Ch. 16: Ang Bagong Bayani-OFW Labor Party v. Comelec -,datetime,2026-01-12 00:00:00,2001-12-01,month,batch-03 proposal,value + type
+BA038,books,A Centenary of Justice -- Ch. 17: Perez v. Estrada -- Live Radio-TV Coverage: Ba,datetime,2026-01-12 00:00:00,2001-12-01,month,batch-03 proposal,value + type
+BD017,books,A Centenary of Justice -- Ch. 18: Firestone Ceramics v. Court of Appeals -- Sauc,datetime,2026-01-12 00:00:00,2001-12-01,month,batch-03 proposal,value + type
+BA039,books,A Centenary of Justice -- Ch. 19: Bengson v. House of Representatives Electoral ,datetime,2026-01-12 00:00:00,2001-12-01,month,batch-03 proposal,value + type
+BA040,books,A Centenary of Justice -- Ch. 20: Social Weather Stations v. Comelec -- May Elec,datetime,2026-01-12 00:00:00,2026-01-12,day,mechanical,type only
+BD018,books,"A Centenary of Justice -- Front Matter (Cover, Centennial Prayer, Contents, Fore",datetime,2026-01-12 00:00:00,2026-01-12,day,mechanical,type only
+BC007,books,A Centenary of Justice -- Appendix A: A Salute to My Mentor (Jovito R. Salonga),datetime,2026-01-12 00:00:00,2001-12-01,month,batch-03 proposal,value + type
+BC008,books,A Centenary of Justice -- Appendix B: Justice Is God's Work,datetime,2026-01-12 00:00:00,2001-12-01,month,batch-03 proposal,value + type
+BD019,books,A Centenary of Justice -- Appendix C: A Prelude to Paperless Courts,datetime,2026-01-12 00:00:00,2001-12-01,month,batch-03 proposal,value + type
+BC009,books,A Centenary of Justice -- Appendix D: MPGR (a tribute to Justice Minerva P. Gonz,datetime,2026-01-12 00:00:00,2026-01-12,day,mechanical,type only
+BC010,books,"A Centenary of Justice -- Back Matter: Davide Foreword, Accolades & Aquino Book ",datetime,2026-01-12 00:00:00,2026-01-12,day,mechanical,type only
+BA041,books,Justice and Faith -- Ch. 2: Selected Quotations from Ponencias and Opinions,datetime,1997-01-12 00:00:00,1997-01-12,day,mechanical,type only
+BB008,books,Justice and Faith -- Ch. 3: Legal Aspects of Joint Ventures,datetime,1997-01-12 00:00:00,1997-01-12,day,mechanical,type only
+BC011,books,Justice and Faith -- Front Matter: Foreword (by CJ Andres R. Narvasa),datetime,1997-01-12 00:00:00,1997-01-12,day,mechanical,type only
+BC012,books,Justice and Faith -- Ch. 5: Profiles of Supreme Court Justices,str,10/22/1997,1997-10-22,day,batch-03 proposal,value + type
+BC013,books,Justice and Faith -- Ch. 6: Faith Brought Me to the Supreme Court,str,10/17/1995,1995-10-17,day,batch-03 proposal,value + type
+BC014,books,Justice and Faith -- Ch. 7: Faith in God and in Ourselves,str,3/21/1997,1997-03-21,day,batch-03 proposal,value + type
+BC015,books,Justice and Faith -- Ch. 8: Be Not Afraid,datetime,1995-12-02 00:00:00,1995-12-02,day,mechanical,type only
+BC016,books,"Justice and Faith -- Ch. 9: Jesus, Shepherd and Leader of All Time",str,5/14/1995,1995-05-14,day,batch-03 proposal,value + type
+BC017,books,Justice and Faith -- Ch. 10: Offering to the Father,str,3/28/1997,1997-03-28,day,batch-03 proposal,value + type
+BC018,books,Justice and Faith -- Ch. 11: Invocation,str,9/21/1997,1997-09-21,day,batch-03 proposal,value + type
+BC019,books,Justice and Faith -- Appendix A: A Man of God and of the Law,str,10/29/1997,1997-10-29,day,batch-03 proposal,value + type
+BC020,books,Justice and Faith -- Back Matter: From the Men of Justice and Faith (accolades),datetime,1997-01-11 00:00:00,1997-01-11,day,mechanical,type only
+BD020,books,Justice and Faith -- Ch. 1: On Developing My Decision-Writing Style,datetime,1997-10-10 00:00:00,1997-10-10,day,mechanical,type only
+BD021,books,Justice and Faith -- Ch. 4: Advice for Aspiring Attorneys,str,3/29/1995,1995-03-29,day,batch-03 proposal,value + type
+BC021,books,The Bio-Age Dawns on the Judiciary -- Foreword (by CJ Hilario G. Davide Jr.),float,2003.0,2003-01-01,year,batch-03 proposal,value + type
+BC022,books,The Bio-Age Dawns on the Judiciary -- Preface,float,2003.0,2003-01-01,year,batch-03 proposal,value + type
+BE026,books,The Bio-Age Dawns on the Judiciary -- Ch. 1: Enter the Bio-Age,float,2003.0,2003-01-01,year,batch-03 proposal,value + type
+BD022,books,The Bio-Age Dawns on the Judiciary -- Ch. 2: Judicial Globalization,float,2003.0,2003-01-01,year,batch-03 proposal,value + type
+BD023,books,The Bio-Age Dawns on the Judiciary -- Ch. 3: A Primer on the APJR,float,2003.0,2003-01-01,year,batch-03 proposal,value + type
+BD024,books,The Bio-Age Dawns on the Judiciary -- Ch. 4: The Essentials of Legal Education,float,2003.0,2003-01-01,year,batch-03 proposal,value + type
+BD025,books,The Bio-Age Dawns on the Judiciary -- Ch. 5: Excellence and Ethics in Appellate ,float,2003.0,2003-01-01,year,batch-03 proposal,value + type
+BD026,books,The Bio-Age Dawns on the Judiciary -- Ch. 6: Veracious and Venerable Magistrate,float,2003.0,2003-01-01,year,batch-03 proposal,value + type
+BA042,books,The Bio-Age Dawns on the Judiciary -- Ch. 7: Socrates v. Comelec — The Three-Ter,float,2003.0,2003-01-01,year,batch-03 proposal,value + type
+BA043,books,The Bio-Age Dawns on the Judiciary -- Ch. 8: Republic v. Meralco — Oral Argument,float,2003.0,2003-01-01,year,batch-03 proposal,value + type
+BA044,books,The Bio-Age Dawns on the Judiciary -- Ch. 9: PCGG v. Desierto — Ombudsman Powers,float,2003.0,2003-01-01,year,batch-03 proposal,value + type
+BA045,books,The Bio-Age Dawns on the Judiciary -- Ch. 10: Agan v. Piatco — Validity of a BOT,float,2003.0,2003-01-01,year,batch-03 proposal,value + type
+BA046,books,The Bio-Age Dawns on the Judiciary -- Ch. 11: Ang Bagong Bayani v. Comelec — Par,float,2003.0,2003-01-01,year,batch-03 proposal,value + type
+BA047,books,The Bio-Age Dawns on the Judiciary -- Ch. 12: Macalintal v. Comelec — Absentee V,float,2003.0,2003-01-01,year,batch-03 proposal,value + type
+BA048,books,The Bio-Age Dawns on the Judiciary -- Ch. 13: New Rules on Psychological Incapac,float,2003.0,2003-01-01,year,batch-03 proposal,value + type
+BA049,books,The Bio-Age Dawns on the Judiciary -- Ch. 14: Update on Death Penalty Cases,float,2003.0,2003-01-01,year,batch-03 proposal,value + type
+BE027,books,The Bio-Age Dawns on the Judiciary -- Appendix A: Life Technologies and the Rule,float,2003.0,2003-01-01,year,batch-03 proposal,value + type
+BE028,books,The Bio-Age Dawns on the Judiciary -- Appendix B: GMO & Food Products,float,2003.0,2003-01-01,year,batch-03 proposal,value + type
+BA050,books,The Bio-Age Dawns on the Judiciary -- Appendix C: DNA as Evidence,float,2003.0,2003-01-01,year,batch-03 proposal,value + type
+BE029,books,The Bio-Age Dawns on the Judiciary -- Appendix D: Being Moral in the Brave New W,float,2003.0,2003-01-01,year,batch-03 proposal,value + type
+SE001,speeches,Linda Manuel Mañalac is Love and Magnanimity Magnified,datetime,2026-04-27 00:00:00,2026-04-27,day,mechanical,type only
+SD002,speeches,"Soon, a Futuristic Museum for Liberty and Prosperity",datetime,2025-08-29 00:00:00,2025-08-29,day,mechanical,type only
+SB006,speeches,"Freedom for the Spirit, Food for the Body",datetime,2024-09-02 00:00:00,2024-09-02,day,mechanical,type only
+SE012,speeches,"The PH Constitution and the Running Bulls of Technology: (AI, Genetic Engineerin",datetime,2024-01-16 00:00:00,2024-01-16,day,mechanical,type only
+SE013,speeches,Three AI Takeaways,datetime,2023-11-09 00:00:00,2023-11-09,day,mechanical,type only
+SA015,speeches,"Consensus, Rule of Law, Liberty, and Prosperity in ASEAN",datetime,2023-10-17 00:00:00,2023-10-17,day,mechanical,type only
+SD021,speeches,A Fruitful Past Decade and a Hope-filled New Decade,datetime,2022-08-11 00:00:00,2022-08-11,day,mechanical,type only
+SC023,speeches,"So Unworthy and So Humbled, Yet So Honored and So Blessed",datetime,2022-07-07 00:00:00,2022-07-07,day,mechanical,type only
+SD033,speeches,Bequeathing My Legacy,datetime,2021-02-06 00:00:00,2021-02-06,day,mechanical,type only
+SA041,speeches,"The Bad, the Good, the Better and the Best News About Justice Carpio",datetime,2019-10-18 00:00:00,2019-10-18,day,mechanical,type only
+SC059,speeches,The Blessings and Foibles of Being 80,datetime,2016-12-20 00:00:00,2016-12-20,day,mechanical,type only
+SB063,speeches,Icons of Entrepreneurship and Nation Building,datetime,2016-04-19 00:00:00,2016-04-19,day,mechanical,type only
+SB085,speeches,How the Judiciary Can Help the Economy,datetime,2012-11-29 00:00:00,2012-11-29,day,mechanical,type only
+SC130,speeches,Why I Am Who I Am Now,datetime,2007-05-24 00:00:00,2007-05-24,day,mechanical,type only
+SA136,speeches,Maraming Salamat Po,datetime,2006-12-06 00:00:00,2006-12-06,day,mechanical,type only
+SC003,speeches,"ADL's Love for Family, Work and God",datetime,2025-03-05 00:00:00,2025-03-05,day,mechanical,type only
+SD004,speeches,Bulwagang Kalayaan at Kasaganaan,datetime,2024-10-22 00:00:00,2024-10-22,day,mechanical,type only
+SC005,speeches,Unworthy and Undeserving of the Highest Papal Award,datetime,2024-09-18 00:00:00,2024-09-18,day,mechanical,type only
+SC007,speeches,"Soon, a Futuristic Museum for Liberty and Prosperity [Introduction by Dr. Alcala",datetime,2021-07-03 00:00:00,2021-07-03,day,mechanical,type only
+SC008,speeches,From an Imbedded Legal Lore to a Practical Reality [Introduction by Dr. Alcala],datetime,2021-07-03 00:00:00,2021-07-03,day,mechanical,type only
+SD009,speeches,RVR's Twin Beacons Personified,datetime,2024-08-20 00:00:00,2024-08-20,day,mechanical,type only
+SC010,speeches,My Three Outstanding and Adorable 'Apos',datetime,2024-06-05 00:00:00,2024-06-05,day,mechanical,type only
+SA011,speeches,"Human Rights, Libertarianism and Prosperity",datetime,2024-04-06 00:00:00,2024-04-06,day,mechanical,type only
+SC014,speeches,Reminiscing the Way We Were in RCM,datetime,2023-11-16 00:00:00,2023-11-16,day,mechanical,type only
+SD016,speeches,From an Imbedded Legal Lore to a Practical Reality,datetime,2023-07-28 00:00:00,2023-07-28,day,mechanical,type only
+SC017,speeches,"Cheers! ACCRA Hits Gold, More Gold",datetime,2023-06-21 00:00:00,2023-06-21,day,mechanical,type only
+SC018,speeches,My Leni,datetime,2023-04-09 00:00:00,2023-04-09,day,mechanical,type only
+SA019,speeches,Thank You to Our Kind Host,datetime,2022-10-03 00:00:00,2022-10-03,day,mechanical,type only
+SA020,speeches,The Consummate Constitutionalist,datetime,2022-08-18 00:00:00,2022-08-18,day,mechanical,type only
+SD022,speeches,A Truly World-Class Filipino Entrepreneur,datetime,2022-07-25 00:00:00,2022-07-25,day,mechanical,type only
+SC024,speeches,"Reminiscing, Praying and Caring",datetime,2022-01-28 00:00:00,2022-01-28,day,mechanical,type only
+SC025,speeches,Overwhelmed with Honor and Joy,datetime,2021-12-07 00:00:00,2021-12-07,day,mechanical,type only
+SD026,speeches,Dreams versus Realities,datetime,2021-10-13 00:00:00,2021-10-13,day,mechanical,type only
+SD027,speeches,Hail to the Future Leaders of Our Country,datetime,2021-08-13 00:00:00,2021-08-13,day,mechanical,type only
+SB028,speeches,"Liberty, Prosperity and the Rule of Law for CPAs, CFOs and CEOs",datetime,2021-07-03 00:00:00,2021-07-03,day,mechanical,type only
+SC029,speeches,Remarks by Chief Justice Alexander G. Gesmundo at the Book Launch of With Due Re,datetime,2021-12-07 00:00:00,2021-12-07,day,mechanical,type only
+SC030,speeches,Memories of Mirador and Christ the Redeemer,datetime,2020-09-20 00:00:00,2020-09-20,day,mechanical,type only
+SC031,speeches,"Our Humble Tribute to Our Humble Friend, Kiko",datetime,2021-05-16 00:00:00,2021-05-16,day,mechanical,type only
+SC032,speeches,Lessons for Young and Not-so-young Couples,datetime,2021-04-08 00:00:00,2021-04-08,day,mechanical,type only
+SA034,speeches,Promoting Liberty and Prosperity Amid the COVID-19 Pandemic,datetime,2020-08-24 00:00:00,2020-08-24,day,mechanical,type only
+SD035,speeches,Organizing the FLP Scholars Society,datetime,2020-07-11 00:00:00,2020-07-11,day,mechanical,type only
+SE036,speeches,Towards a Just and Humane Society in the DiGi Age,datetime,2020-06-12 00:00:00,2020-06-12,day,mechanical,type only
+SC037,speeches,Christmas 2019: Make Every Day Count,datetime,2019-11-27 00:00:00,2019-11-27,day,mechanical,type only
+SE038,speeches,Our Country's PESTLE: Today and Tomorrow,datetime,2019-11-14 00:00:00,2019-11-14,day,mechanical,type only
+SB039,speeches,"Reminiscing John Gokongwei Jr., Humble Billionaire and Generous Philanthropist",datetime,2019-11-11 00:00:00,2019-11-11,day,mechanical,type only
+SB040,speeches,Equilibrium with Momentum,datetime,2019-10-23 00:00:00,2019-10-23,day,mechanical,type only
+SB042,speeches,Reminiscences of an Independent Director,datetime,2019-10-16 00:00:00,2019-10-16,day,mechanical,type only
+SA043,speeches,Ateneo Law Journal Honors CJ Teehankee,datetime,2019-07-10 00:00:00,2019-07-10,day,mechanical,type only
+SD044,speeches,"Congratulations, Appreciation and Explanation",datetime,2019-05-18 00:00:00,2019-05-18,day,mechanical,type only
+SA045,speeches,Welcome to ALA Philippines,datetime,2019-04-13 00:00:00,2019-04-13,day,mechanical,type only
+SC046,speeches,Welcome to My Household,datetime,2019-04-12 00:00:00,2019-04-12,day,mechanical,type only
+SD047,speeches,A Remarkable and Riveting Lecture,datetime,2019-03-28 00:00:00,2019-03-28,day,mechanical,type only
+SA048,speeches,Testament to Faith and History,datetime,2019-03-09 00:00:00,2019-03-09,day,mechanical,type only
+SA049,speeches,An Ode to Jurisprudential Disruption,datetime,2018-08-01 00:00:00,2018-08-01,day,mechanical,type only
+SB050,speeches,"Dr. George S. K. Ty, Entrepreneur, Philanthropist and Citizen",datetime,2018-11-24 00:00:00,2018-11-24,day,mechanical,type only
+SB051,speeches,"Way to a Happy, Free and Prosperous Society",datetime,2018-10-17 00:00:00,2018-10-17,day,mechanical,type only
+SA052,speeches,Wanted Writ of Prosperity,datetime,2018-05-12 00:00:00,2018-05-12,day,mechanical,type only
+SC053,speeches,Ode to ADL,datetime,2018-04-27 00:00:00,2018-04-27,day,mechanical,type only
+SD054,speeches,Hail to the New FLP Scholars and Winners,datetime,2018-03-23 00:00:00,2018-03-23,day,mechanical,type only
+SA055,speeches,Welcome to the Philippines ALA,datetime,2017-10-27 00:00:00,2017-10-27,day,mechanical,type only
+SA056,speeches,Testimonial to Worthy San Beda Alumni,datetime,2017-07-28 00:00:00,2017-07-28,day,mechanical,type only
+SC057,speeches,The Santos' 60th Wedding Anniversary,datetime,2017-05-07 00:00:00,2017-05-07,day,mechanical,type only
+SC058,speeches,525 Columns and 2 Books,datetime,2017-03-15 00:00:00,2017-03-15,day,mechanical,type only
+SD060,speeches,Thank You to All,datetime,2016-12-01 00:00:00,2016-12-01,day,mechanical,type only
+SC061,speeches,Malasakit sa Bayan in Faith and Reason,datetime,2016-07-16 00:00:00,2016-07-16,day,mechanical,type only
+SC062,speeches,"Nurturing Lives, Fulfilling Dreams",datetime,2016-05-04 00:00:00,2016-05-04,day,mechanical,type only
+SC064,speeches,"Dr. Jovito R. Salonga, My Guru and Surrogate Father",datetime,2016-03-14 00:00:00,2016-03-14,day,mechanical,type only
+SB065,speeches,Attributes of a Good Independent Director,datetime,2015-10-19 00:00:00,2015-10-19,day,mechanical,type only
+SC066,speeches,A Toast to Jun Berba,datetime,2015-08-04 00:00:00,2015-08-04,day,mechanical,type only
+SC067,speeches,Fifty Years of Service Above Self,datetime,2015-07-17 00:00:00,2015-07-17,day,mechanical,type only
+SB068,speeches,Reflections on the SEC Corporate Governance Blueprint Project,datetime,2015-07-07 00:00:00,2015-07-07,day,mechanical,type only
+SC069,speeches,On the 74th Birthday of Archit Bartolome,datetime,2015-06-26 00:00:00,2015-06-26,day,mechanical,type only
+SC070,speeches,Thank You from the Manila Cathedral,datetime,2015-06-04 00:00:00,2015-06-04,day,mechanical,type only
+SC071,speeches,Toast to Ave and Helen Cruz,datetime,2015-05-22 00:00:00,2015-05-22,day,mechanical,type only
+SB072,speeches,A Decade of Helping the Poor Help Themselves,datetime,2015-05-04 00:00:00,2015-05-04,day,mechanical,type only
+SB073,speeches,Unleashing Entrepreneurial Ingenuity,datetime,2015-02-26 00:00:00,2015-02-26,day,mechanical,type only
+SA074,speeches,Chief Justice Teehankee Remembered,datetime,2014-11-27 00:00:00,2014-11-27,day,mechanical,type only
+SB075,speeches,"Safeguard Liberty, Conquer Poverty, Share Prosperity (Part Three -- For the Busi",datetime,2014-09-19 00:00:00,2014-09-19,day,mechanical,type only
+SC076,speeches,Journey with the Lord,datetime,2014-05-13 00:00:00,2014-05-13,day,mechanical,type only
+SC077,speeches,The Manila Cathedral-Basilica Reopens,datetime,2014-04-09 00:00:00,2014-04-09,day,mechanical,type only
+SA078,speeches,"Safeguard Liberty, Conquer Poverty, Share Prosperity (Part Two -- For the Legal ",datetime,2014-03-26 00:00:00,2014-03-26,day,mechanical,type only
+SB079,speeches,"Safeguard Liberty, Conquer Poverty, Share Prosperity (Part One -- For the Alumni",datetime,2014-02-23 00:00:00,2014-02-23,day,mechanical,type only
+SC080,speeches,The Right Man for the Right Job,datetime,2014-01-28 00:00:00,2014-01-28,day,mechanical,type only
+SC081,speeches,"My Jesus, My Life",datetime,2013-06-15 00:00:00,2013-06-15,day,mechanical,type only
+SD082,speeches,Gratitude and Appreciation,datetime,2013-04-18 00:00:00,2013-04-18,day,mechanical,type only
+SB083,speeches,Pursuit of Excellence,datetime,2013-04-04 00:00:00,2013-04-04,day,mechanical,type only
+SC084,speeches,Three Orders of Dr. Morales,datetime,2013-02-13 00:00:00,2013-02-13,day,mechanical,type only
+SA085,speeches,How the Judiciary Can Help the Economy,datetime,2012-11-29 00:00:00,2012-11-29,day,mechanical,type only
+SB086,speeches,Thank You Professor Donaldson,datetime,2012-11-19 00:00:00,2012-11-19,day,mechanical,type only
+SD087,speeches,To a Higher Level,datetime,2012-09-19 00:00:00,2012-09-19,day,mechanical,type only
+SC088,speeches,The 24th Chief Justice of the Republic,datetime,2012-09-18 00:00:00,2012-09-18,day,mechanical,type only
+SA089,speeches,Three Milestones in Baler,datetime,2012-06-30 00:00:00,2012-06-30,day,mechanical,type only
+SC090,speeches,A New Writing Career,datetime,2012-03-29 00:00:00,2012-03-29,day,mechanical,type only
+SC091,speeches,Gratitude Beyond Words,datetime,2011-12-20 00:00:00,2011-12-20,day,mechanical,type only
+SE092,speeches,Respect for the Chinese Judiciary,datetime,2011-12-15 00:00:00,2011-12-15,day,mechanical,type only
+SC093,speeches,SCA Introduced Me to Christ,datetime,2011-10-20 00:00:00,2011-10-20,day,mechanical,type only
+SB094,speeches,"Rights, Duties and Perks of Independent Directors",datetime,2011-09-28 00:00:00,2011-09-28,day,mechanical,type only
+SA095,speeches,A Matter of Legal Philosophy,datetime,2011-08-05 00:00:00,2011-08-05,day,mechanical,type only
+SA096,speeches,A Milestone at PDRCI,datetime,2011-06-16 00:00:00,2011-06-16,day,mechanical,type only
+SC097,speeches,Two Amortal Men of Honor and Substance,datetime,2011-05-03 00:00:00,2011-05-03,day,mechanical,type only
+SA098,speeches,Transforming the Judiciary,datetime,2011-03-30 00:00:00,2011-03-30,day,mechanical,type only
+SA099,speeches,"The Party-list System, Philippine Style: Presenting Better Solutions, or Hatchin",datetime,2010-11-19 00:00:00,2010-11-19,day,mechanical,type only
+SC100,speeches,Bulwark of Filipino Catholicism,datetime,2010-11-12 00:00:00,2010-11-12,day,mechanical,type only
+SC101,speeches,"Privileged by Birth, Populist by Choice",datetime,2010-05-21 00:00:00,2010-05-21,day,mechanical,type only
+SA102,speeches,Mga Magpapakumbaba at Matatalinong Bedans,datetime,2010-05-06 00:00:00,2010-05-06,day,mechanical,type only
+SE103,speeches,Automation or Confusion,datetime,2010-04-20 00:00:00,2010-04-20,day,mechanical,type only
+SC104,speeches,God of Justice and Love,datetime,2010-01-28 00:00:00,2010-01-28,day,mechanical,type only
+SA105,speeches,Tip for Leadership,datetime,2010-01-26 00:00:00,2010-01-26,day,mechanical,type only
+SC106,speeches,A Testament of Love and Faith,datetime,2009-12-14 00:00:00,2009-12-14,day,mechanical,type only
+SA107,speeches,A Toast to Justice Carpio,datetime,2009-10-25 00:00:00,2009-10-25,day,mechanical,type only
+SE108,speeches,"After the Last SONA, GMA's Options",datetime,2009-07-30 00:00:00,2009-07-30,day,mechanical,type only
+SC109,speeches,Equality Before God and His Church,datetime,2009-06-27 00:00:00,2009-06-27,day,mechanical,type only
+SB110,speeches,"Synergy, Symmetry and Symphony",datetime,2009-05-12 00:00:00,2009-05-12,day,mechanical,type only
+SA111,speeches,Leadership During Challenging Times,datetime,2009-03-23 00:00:00,2009-03-23,day,mechanical,type only
+SA112,speeches,Strengthen Democratic Institutions,datetime,2009-01-27 00:00:00,2009-01-27,day,mechanical,type only
+SB113,speeches,Three Es and One T,datetime,2009-01-22 00:00:00,2009-01-22,day,mechanical,type only
+SA114,speeches,New Paradigms of Justice and Education,datetime,2008-12-08 00:00:00,2008-12-08,day,mechanical,type only
+SB115,speeches,A Principled Conglomerate,datetime,2008-10-22 00:00:00,2008-10-22,day,mechanical,type only
+SC116,speeches,A Testimonial to CJ Puno,datetime,2008-07-21 00:00:00,2008-07-21,day,mechanical,type only
+SC117,speeches,Invocation,datetime,2008-06-22 00:00:00,2008-06-22,day,mechanical,type only
+SC118,speeches,A Toast to Charo,datetime,2008-06-14 00:00:00,2008-06-14,day,mechanical,type only
+SA119,speeches,Towards a Just World Society,datetime,2008-05-08 00:00:00,2008-05-08,day,mechanical,type only
+SA120,speeches,The Philippine Supreme Court: Activism and Restraint,datetime,2008-04-29 00:00:00,2008-04-29,day,mechanical,type only
+SC121,speeches,ADL -- A Dynamo of Love,datetime,2008-04-23 00:00:00,2008-04-23,day,mechanical,type only
+SA122,speeches,Local Solutions to National Problems,datetime,2008-04-09 00:00:00,2008-04-09,day,mechanical,type only
+SA123,speeches,Ang Pagiging Hiwalay ng Simbahan at Pamahalaan,datetime,2008-01-29 00:00:00,2008-01-29,day,mechanical,type only
+SA124,speeches,The Role of CPAs in Safeguarding Liberty and Nurturing Prosperity,datetime,2008-01-29 00:00:00,2008-01-29,day,mechanical,type only
+SC125,speeches,Appreciation and Thanks,datetime,2008-01-22 00:00:00,2008-01-22,day,mechanical,type only
+SA126,speeches,Vision and Values,datetime,2007-12-15 00:00:00,2007-12-15,day,mechanical,type only
+SC127,speeches,Home of Achievers and Leaders,datetime,2007-11-08 00:00:00,2007-11-08,day,mechanical,type only
+SC128,speeches,The Soul of the Ramos Presidency,datetime,2007-08-16 00:00:00,2007-08-16,day,mechanical,type only
+SC129,speeches,Not By Power or Wealth Alone,datetime,2007-08-14 00:00:00,2007-08-14,day,mechanical,type only
+SA131,speeches,Entering the Legal Profession,datetime,2007-04-26 00:00:00,2007-04-26,day,mechanical,type only
+SA132,speeches,Urbanity and Integrity,datetime,2007-02-26 00:00:00,2007-02-26,day,mechanical,type only
+SA133,speeches,The Role of the 21st Century Judge in Governance,datetime,2007-02-16 00:00:00,2007-02-16,day,mechanical,type only
+SA134,speeches,Visionary Leadership By Example,datetime,2007-02-07 00:00:00,2007-02-07,day,mechanical,type only
+SC135,speeches,Ageless Passion,datetime,2006-12-12 00:00:00,2006-12-12,day,mechanical,type only
+SD137,speeches,A School Par Excellence for Judges,datetime,2006-11-30 00:00:00,2006-11-30,day,mechanical,type only
+SA138,speeches,Striking the Right Balance,datetime,2006-11-29 00:00:00,2006-11-29,day,mechanical,type only
+SA139,speeches,Honoring the Peacemakers,datetime,2006-11-27 00:00:00,2006-11-27,day,mechanical,type only
+SD140,speeches,An Edifice of Justice,datetime,2006-11-24 00:00:00,2006-11-24,day,mechanical,type only
+SD141,speeches,In the Forefront,datetime,2006-11-24 00:00:00,2006-11-24,day,mechanical,type only
+SA142,speeches,"Magkaisa, Pamilyang San Beda",datetime,2006-11-15 00:00:00,2006-11-15,day,mechanical,type only
+SD143,speeches,Lumaganap Sana ang Ebanghelyo ng Kalayaan at Kasaganaan,datetime,2006-11-14 00:00:00,2006-11-14,day,mechanical,type only
+SC144,speeches,A Salutary Life,datetime,2006-11-06 00:00:00,2006-11-06,day,mechanical,type only
+SA145,speeches,Safeguarding the Liberty and Nurturing the Prosperity of the Peoples of the Worl,datetime,2006-10-18 00:00:00,2006-10-18,day,mechanical,type only
+SD146,speeches,Lighting the Way,datetime,2006-10-12 00:00:00,2006-10-12,day,mechanical,type only
+SA147,speeches,God's Hope for Humanity,datetime,2006-10-08 00:00:00,2006-10-08,day,mechanical,type only
+SD148,speeches,Rising to the Challenge,datetime,2006-10-05 00:00:00,2006-10-05,day,mechanical,type only
+SA149,speeches,Access to Justice,datetime,2006-09-16 00:00:00,2006-09-16,day,mechanical,type only
+SD150,speeches,Spreading the Gospel of Liberty and Prosperity,datetime,2006-08-25 00:00:00,2006-08-25,day,mechanical,type only
+SC151,speeches,"Thank You, Lord Jesus",datetime,1995-10-18 00:00:00,1995-10-18,day,mechanical,type only
+SC152,speeches,Sharing Christ in Civic Work,datetime,1995-08-25 00:00:00,1995-08-25,day,mechanical,type only
+SC153,speeches,The Leader in Jesus,datetime,1994-11-23 00:00:00,1994-11-23,day,mechanical,type only
+GC001,biography,PROLOGUE: The Republic at Dawn,datetime,2001-01-20 00:00:00,2001-01-20,day,mechanical,type only
+GC002,biography,The Boy Who Slept on Pavement,str,"Childhood, circa late 1940s",,unknown,batch-03 proposal,value + type
+GC003,biography,FEU and the Construction of Ambition,str,1955-1959,1955-01-01,period,batch-03 proposal,value + type
+GC004,biography,The Bar Exam and the Discipline of Pain,int,1960,1960-01-01,year,batch-03 proposal,value + type
+GC005,biography,The Mentor and the Moral Spine,str,1961-1963,1961-01-01,period,batch-03 proposal,value + type
+GC006,biography,Independence by Design,str,1963-1990,1963-01-01,period,batch-03 proposal,value + type
+GC007,biography,Faith Finds Its Voice,str,mid-1980s onward,1985-01-01,year,batch-03 proposal,value + type
+GC008,biography,"Rotary, Earthquake, and the Test of Leadership",int,1990,1990-01-01,year,batch-03 proposal,value + type
+GC009,biography,LOVE GOD. SERVE MAN.,datetime,1990-07-01 00:00:00,1990-07-01,day,mechanical,type only
+GC010,biography,The Reckoning of a Year -- and the Quiet Accumulation of Trust,datetime,1991-06-01 00:00:00,1991-06-01,day,mechanical,type only
+GC011,biography,From Civic Leadership to National Visibility,str,early 1990s,,unknown,batch-03 proposal,value + type
+GC012,biography,The Call from Malacañang -- and the First Refusal,int,1992,1992-01-01,year,batch-03 proposal,value + type
+GC013,biography,Seven Rejections,str,1992-1995,1992-01-01,period,batch-03 proposal,value + type
+GC014,biography,Ask. Seek. Knock.,str,July-August 1995,,unknown,batch-03 proposal,value + type
+GC015,biography,The Bench,str,October 1995 - 2005,,unknown,batch-03 proposal,value + type
+GC016,biography,"EDSA, Judgment at Dawn",datetime,2001-01-20 00:00:00,2001-01-20,day,mechanical,type only
+GC017,biography,Chief Justice,str,"December 20, 2005 - December 2",,unknown,batch-03 proposal,value + type
+GC018,biography,Retirement Without Retreat,str,December 2006 onward,,unknown,batch-03 proposal,value + type
+GC019,biography,The Elder Statesman,str,2007-present (post-retirement),,unknown,batch-03 proposal,value + type
+GC020,biography,EPILOGUE: The Judgment That Endures,str,Retrospective (closing),,unknown,batch-03 proposal,value + type
+GC021,biography,Chapter 1: Early Years,str,1936-1945,1936-01-01,period,batch-03 proposal,value + type
+GC022,biography,Chapter 2: Return to the City - Boyhood Years,str,1945-1954,1945-01-01,period,batch-03 proposal,value + type
+GC023,biography,Chapter 3: The Rise of the Student Leader,str,1955-1958,1955-01-01,period,batch-03 proposal,value + type
+GC024,biography,Chapter 4: The Law Student,str,1956-1960,1956-01-01,period,batch-03 proposal,value + type
+GC025,biography,Chapter 5: Keeper of Dreams,str,1958-1961,1958-01-01,period,batch-03 proposal,value + type
+GC026,biography,Chapter 6: The Lawyer,str,1961-1963,1961-01-01,period,batch-03 proposal,value + type
+GC027,biography,Chapter 7: Lawyer in the Marketplace,str,1963-1986,1963-01-01,period,batch-03 proposal,value + type
+GC028,biography,Chapter 8: Turning Point,int,1986,1986-01-01,year,batch-03 proposal,value + type
+GC029,biography,"Chapter 9: Among Bishops, Cardinals and a Pope",str,1989-2002,1989-01-01,period,batch-03 proposal,value + type
+GC030,biography,Chapter 10: Appointment to the Supreme Court,str,1987-1995,1987-01-01,period,batch-03 proposal,value + type
+GC031,biography,Chapter 11: Associate Justice,str,1995-2005,1995-01-01,period,batch-03 proposal,value + type
+GC032,biography,Chapter 12: Guided by the Word,str,January 2001 (with Bilibid vis,,unknown,batch-03 proposal,value + type
+GC033,biography,Chapter 13: 21st Chief Justice of the Philippines,str,"December 7, 2005 - December 7,",,unknown,batch-03 proposal,value + type
+GC034,biography,Chapter 14: Liberty and Prosperity (Life after the Supreme Court),str,"December 7, 2006 - present (po",,unknown,batch-03 proposal,value + type
+GC035,biography,Chapter 15: Papal Award,str,circa 2024-2025 (papal investi,,unknown,batch-03 proposal,value + type

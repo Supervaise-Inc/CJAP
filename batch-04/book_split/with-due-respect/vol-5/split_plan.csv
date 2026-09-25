@@ -1,0 +1,12 @@
+order,book_title,part_label_as_printed,classification,skip_reason,chapter_no,chapter_title,start_page,end_page,word_count,file,collected_piece,original_date,original_outlet,flags
+1,With Due Respect (Vol. 5),BOOK 5: On Election Reform,SKIP,part divider,,,,,5,,no,,,
+2,With Due Respect (Vol. 5),CHAPTER 1 Subverting the Popular Will,CHAPTER,,1,Subverting the Popular Will,,,890,ch01_subverting-the-popular-will.md,yes,2007-04-01,Philippine Daily Inquirer (column “With Due Respect”),
+3,With Due Respect (Vol. 5),CHAPTER 2 Incomplete Victory,CHAPTER,,2,Incomplete Victory,,,838,ch02_incomplete-victory.md,yes,2007-05-13,Philippine Daily Inquirer (column “With Due Respect”),
+4,With Due Respect (Vol. 5),"CHAPTER 3 Law, Mathematics, and the Party-list System",CHAPTER,,3,"Law, Mathematics, and the Party-list System",,,856,ch03_law-mathematics-and-the-party-list-system.md,yes,2007-07-15,Philippine Daily Inquirer (column “With Due Respect”),
+5,With Due Respect (Vol. 5),CHAPTER 4 Criticisms of the Panganiban Formula,CHAPTER,,4,Criticisms of the Panganiban Formula,,,860,ch04_criticisms-of-the-panganiban-formula.md,yes,2007-07-22,Philippine Daily Inquirer (column “With Due Respect”),
+6,With Due Respect (Vol. 5),CHAPTER 5 Q&A on the Comelec Leadership,CHAPTER,,5,Q&A on the Comelec Leadership,,,804,ch05_q-a-on-the-comelec-leadership.md,yes,2007-10-14,Philippine Daily Inquirer (column “With Due Respect”),ocr-garbled-date-line
+7,With Due Respect (Vol. 5),CHAPTER 6 Party-list Imponderables,CHAPTER,,6,Party-list Imponderables,,,863,ch06_party-list-imponderables.md,yes,2009-04-26,Philippine Daily Inquirer (column “With Due Respect”),
+8,With Due Respect (Vol. 5),CHAPTER 7 Lessons in Automating Elections,CHAPTER,,7,Lessons in Automating Elections,,,833,ch07_lessons-in-automating-elections.md,yes,2009-05-24,Philippine Daily Inquirer (column “With Due Respect”),
+9,With Due Respect (Vol. 5),CHAPTER 8 Squandering the People's Trust,CHAPTER,,8,Squandering the People's Trust,,,892,ch08_squandering-the-people-s-trust.md,yes,2010-01-10,Philippine Daily Inquirer (column “With Due Respect”),
+10,With Due Respect (Vol. 5),CHAPTER 9 'Hindi Puede ang Puede na',CHAPTER,,9,'Hindi Puede ang Puede na',,,913,ch09_hindi-puede-ang-puede-na.md,yes,2010-04-18,Philippine Daily Inquirer (column “With Due Respect”),
+11,With Due Respect (Vol. 5),CHAPTER 10 Start Electoral Reforms Now,CHAPTER,,10,Start Electoral Reforms Now,,,850,ch10_start-electoral-reforms-now.md,yes,2011-01-02,Philippine Daily Inquirer (column “With Due Respect”),

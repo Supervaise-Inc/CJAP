@@ -1,0 +1,28 @@
+order,book_title,part_label_as_printed,classification,skip_reason,chapter_no,chapter_title,start_page,end_page,word_count,file,collected_piece,original_date,original_outlet,flags
+1,Battles in the Supreme Court,Front cover (image),SKIP,cover,,,,,0,,no,,,
+2,Battles in the Supreme Court,Jacket flap: More Quotes from the Book (image),SKIP,blurbs,,,,,0,,no,,,
+3,Battles in the Supreme Court,"Epigraph: Sirach 36:12-14, 16-18 (image)",SKIP,epigraph,,,,,0,,no,,,
+4,Battles in the Supreme Court,Frontispiece cartoon: the oval conference table (image),SKIP,photo section,,,,,0,,no,,,
+5,Battles in the Supreme Court,Author portrait (image),SKIP,photo section,,,,,0,,no,,,
+6,Battles in the Supreme Court,Title page (image),SKIP,title page,,,,,0,,no,,,
+7,Battles in the Supreme Court,Copyright page and dedication (image),SKIP,copyright page; dedication,,,,,0,,no,,,
+8,Battles in the Supreme Court,Photo section: six photo pages (images),SKIP,photo section,,,,,0,,no,,,
+9,Battles in the Supreme Court,"Contents (images, pp. xvii-xix)",SKIP,table of contents,,,xvii,xix,0,,no,,,
+10,Battles in the Supreme Court,Foreword by Chief Justice Andres R. Narvasa,SKIP,foreword (written by someone else),,,xxi,xxi,214,,no,,,
+11,Battles in the Supreme Court,Preface,SKIP,preface,,,1,9,2542,,no,,,candidate
+12,Battles in the Supreme Court,Chapter I. A WINDOW TO THE COURT,CHAPTER,,1,A WINDOW TO THE COURT,10,38,7747,ch01_a-window-to-the-court.md,no,,,long
+13,Battles in the Supreme Court,Chapter II. Prologue to THE COURT BATTLES,CHAPTER,,2,Prologue to THE COURT BATTLES,39,44,1259,ch02_prologue-to-the-court-battles.md,no,,,author-introduction
+14,Battles in the Supreme Court,"Chapter III. THE ""CHA-CHA"" BATTLES",CHAPTER,,3,"THE ""CHA-CHA"" BATTLES",45,57,3087,ch03_the-cha-cha-battles.md,no,,,
+15,Battles in the Supreme Court,Chapter IV. BATTLES OVER LIFE AND DEATH,CHAPTER,,4,BATTLES OVER LIFE AND DEATH,58,84,5786,ch04_battles-over-life-and-death.md,no,,,
+16,Battles in the Supreme Court,Chapter V. BATTLES OVER THE PEOPLE'S SOVEREIGNTY,CHAPTER,,5,BATTLES OVER THE PEOPLE’S SOVEREIGNTY,85,110,5205,ch05_battles-over-the-peoples-sovereignty.md,no,,,
+17,Battles in the Supreme Court,Chapter VI. BATTLES ON THE ECONOMIC FRONT,CHAPTER,,6,BATTLES ON THE ECONOMIC FRONT,111,139,6380,ch06_battles-on-the-economic-front.md,no,,,long
+18,Battles in the Supreme Court,Chapter VII. OTHER CONSTITUTIONAL BATTLES,CHAPTER,,7,OTHER CONSTITUTIONAL BATTLES,140,154,3224,ch07_other-constitutional-battles.md,no,,,
+19,Battles in the Supreme Court,Chapter VIII. BATTLES OVER THE RIGHTS OF LABOR,CHAPTER,,8,BATTLES OVER THE RIGHTS OF LABOR,155,166,2270,ch08_battles-over-the-rights-of-labor.md,no,,,
+20,Battles in the Supreme Court,Chapter IX. BATTLES OF THE DAMNED,CHAPTER,,9,BATTLES OF THE DAMNED,167,212,9842,ch09_battles-of-the-damned.md,no,,,long
+21,Battles in the Supreme Court,Chapter X. BATTLES OVER CIVIL RIGHTS,CHAPTER,,10,BATTLES OVER CIVIL RIGHTS,213,225,2999,ch10_battles-over-civil-rights.md,no,,,
+22,Battles in the Supreme Court,Chapter XI. Epilogue: THE REAL VICTORY,CHAPTER,,11,Epilogue: THE REAL VICTORY,226,232,947,ch11_epilogue-the-real-victory.md,no,,,author-introduction
+23,Battles in the Supreme Court,"Appendix: Selected Quotations from Ponencias and Opinions (Oct 11, 1997 to Oct 10, 1998)",SKIP,appendices (not in the .docx),,,233,253,0,,no,,,
+24,Battles in the Supreme Court,"Appendix: Tributes to Teachers, Past and Present - On the 50th Wedding Anniversary of Sen. and Mrs. Jovito R. Salonga",SKIP,appendices (not in the .docx),,,254,257,0,,no,,,candidate
+25,Battles in the Supreme Court,Appendix: Tributes to Teachers - A Message to Outstanding Teachers,SKIP,appendices (not in the .docx),,,258,259,0,,no,,,candidate
+26,Battles in the Supreme Court,Appendix: Invocation during the Journalism Awards of the Rotary Club of Manila,SKIP,appendices (not in the .docx),,,260,260,0,,no,,,
+27,Battles in the Supreme Court,Appendix: Invocation during the Retirement Ceremonies in Honor of Justice Regino C. Hermosisima Jr.,SKIP,appendices (not in the .docx),,,261,,0,,no,,,

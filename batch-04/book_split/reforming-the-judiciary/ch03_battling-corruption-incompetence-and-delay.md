@@ -1,0 +1,133 @@
+# Chapter 3: Battling Corruption, Incompetence and Delay
+
+I thank Rob Sears, my friend of long standing, for inviting me to speak before this elite group representing American business in our country. During the past several weeks, the judiciary in general has been on the news front, not just because of the many crucial decisions it has issued, but also because of several criticisms of how it has allegedly arrived at those judgments.
+
+Without much ado and without going into personalities and specific litigations, let me start by saying that the Supreme Court has long realized the existence of the many problems in the judiciary and, more important, has embarked on a comprehensive reform program to address them.
+
+I, for one, have written three books over the last three years and delivered several speeches recognizing the serious problems we face and explaining the reforms we are undertaking to resolve such problems. At this forum today, let me therefore give you a brief discussion of the Supreme Court's "Action Program for Judicial Reform" (APJR), which was begun in 2001 and is expected to be fully implemented by 2006.
+
+## Three Main Problems
+
+In my opinion, there are three main problems that beset our judiciary; these are corruption, incompetence and delay - the "CID" of our judicial system.
+
+Corruption remains the single most persistent problem that erodes public confidence in the courts. During the political summit of national and regional parties and party-list groups held at the Manila Hotel on May 3-5, 2002, there was a common sad perception that there were two types of law — one for the rich and one for the poor. There were those who believed that, for the right price, some judges would deliberately misinterpret the law and some lawyers would employ every trick in the book to ensure a favorable outcome for litigants who were able and willing to pay.
+
+But corruption does not take the form of direct bribery only. It can be clothed in many guises - the many varieties of witchcraft, indecent proposals and bedeviling temptations brought about by the three “ships” that plague public service: friendship, relationship and kinship.
+
+The second problem, incompetence in the judiciary, can be seen in reports of some lawyers and judges whose poor command of language makes their pleadings and decisions not only ungrammatical but also incomprehensible; and in accounts of some jurists whose knowledge of elementary law, or lack of it, appalls even high school graduates.
+
+Delay in the delivery of justice is many times the result of antiquated legal procedures, the continuous increase in the volume of new cases being filed every year, the large number of vacant judgeships all over the country, and the abuse and misuse of even the best crafted rules by litigants and lawyers who endeavor to win their cases by confusing, outwitting or bankrupting their opponents.
+
+## Discipline in the Ranks
+
+The drive to stamp out corruption, address the issue of incompetence and resolve the problem of delay in the delivery of justice necessitates the strict enforcement of the Canons of Judicial Ethics. Thus, to restore public trust and confidence in the judiciary, the Court has actually taken unprecedented steps to discipline and penalize members of the judiciary who have fallen short of the exacting standards demanded by their oaths of office.
+
+For the first time in its 100-year history, the Supreme Court admonished one of its own members, recently dismissed from the service of a Court of Appeals justice, and suspended the presiding magistrate of the Sandiganbayan from his administrative functions. During the last three years, from January 1, 1999 to April 9, 2002, the High Tribunal has penalized about 350 erring judges of the lower courts with dismissals, suspensions, fines and reprimands or admonitions for various administrative offenses, especially the CID plagues.
+
+These numbers serve not only as lip service to the battle against corruption, incompetence and delay in the delivery of judicial services, but also as testament to the High Court's commitment to dispensing equal justice tó all by enforcing rigid discipline in its own ranks.
+
+## Fiscal Autonomy and Judicial Independence
+
+To reform the judiciary, however, it is necessary that we not only penalize those who have been found guilty of corruption and other administrative infractions but, even more important, that we also entice the best and the brightest to join the judiciary. The Supreme Court realizes that to attract competent and ethical lawyers to the judiciary, it must be able to offer a competitive compensation package. At present, 33 percent of all trial courts are vacant because of the lack of eligible applicants. This lack results in a ratio of one judge for every 34,548 people. Many qualified lawyers refuse to vie for appointments, mainly because of inadequate pay.
+
+Consider these facts. A regional trial court judge in the Philippines receives around P25,333 as basic monthly salary. At the current exchange rate, this amount is equivalent to a measly $500. On the other hand, Court of Appeals and Sandiganbayan justices receive P27,500 or $550 basic monthly salaries; Supreme Court justices, P38,500 or $770. According to a Philippine Salary Survey conducted by an independent consultant who gathered data from 327 companies in 1997, the salary of a trial court judge is less than 50 percent of the compensation received by an equivalent lawyer in a progressive Makati law firm!
+
+The Constitution accords fiscal independence to the judiciary. In actual practice, however, the political branches of the government determine the judiciary's budget. Moreover, the remuneration package of the judicial personnel is subject to the Salary Standardization Law. Some local government units provide physical support facilities and financial assistance to the courts in their areas, but this practice, even if well intentioned, makes courts vulnerable to the wiles of local government officials. Worse, Congress has continually slashed the total judicial budget from around two percent of the national budget in the early 90s to less than one percent in the current year.
+
+To remedy the problem of low compensation, the Supreme Court is asking for the appropriation to the judiciary of a fixed percentage of the national budget, which the Court can allocate to various judicial services. It also asks for exemption from the Salary Standardization Law. The Court can then increase judges' compensation by simply realigning its expenditures without need for additional funding. As it is, the level of the judiciary's budgetary releases and budgetary realignments for its fiscal year is subject to the evaluation and approval of the Department of Budget and Management (DBM).
+
+The limitations on the freedom of the judiciary in financial matters make its judicial autonomy the need to to political interference. While it recognizes the need to operate within the overall resources of the national government, the preservation of its independence is a major factor in the integrity of its decision-making function.
+
+## Continuing Judicial Education
+
+The Supreme Court recognizes that continuing judicial education is a necessary precursor to the effective and efficient administration and delivery of judicial services.
+
+Thus, the Philippine Judicial Academy of Philja was established as a “training school for justices, judges, court personnel, lawyers and aspirants to judicial posts.” It is tasked with the administration of a “systematically planned and rationally structured regimen of courses” for judicial officers and candidates for judicial office. Under its Charter, no nominee to a judicial post may be appointed without having first completed the requisite courses of the academy.
+
+According to the “Year-End Report” of the Philja, a total of 92 training programs were conducted during the year 2001, or an average of 7.6 a month, involving 2,673 judges; 3,901 judicial personnel; 371 officials of quasi-judicial agencies; and 172 lawyers aspiring for judicial positions.
+
+We are currently pursuing a proposal to the Japan International Cooperation Agency (JICA) for the construction of the Philja Development Center on our three-hectare site in Tagaytay. This center will be a state-of-the-art education complex for judges, court personnel and aspirants for judicial positions.
+
+The Court has also taken steps to keep the judiciary abreast with new economic, commercial and scientific trends in the world and their relation to national and international laws. In the last three years, the Supreme Court has updated the Rules of Court, especially the Rules on Civil and Criminal Procedures. Recently, it has promulgated all-new Rules on Electronic Evidence, Corporate Rehabilitation, Intra-Corporate Controversies, Family Disputes, Infringement of Intellectual Property, and Juveniles in Conflict with the Law. At present, it is studying the proposal of the Bankers' Association of the Philippines to restrict the issuance of restraining orders on foreclosures of mortgages.
+
+Moreover, through its well-received Centenary Lecture Series, the Court sponsored lectures delivered by distinguished and scholarly speakers. The lectures covered such topics as Shari'a and Muslim law, paperless courts, electronic evidence, biotechnology and the law, the sociological and legal implications of the People Power phenomenon, novel legal paradigms, judicial dispensation in Hungary and Israel, and terrorism.
+
+The Court has also produced the Benchbook for Judges and the Benchbook on Penalties in both printed and electronic formats through funding from the Australian government and the Asia Foundation. These manuals, now commonly referred to as the bibles of judges, contain all relevant information that a judge may need in order to rule instantly on fine points of the law that may be raised during a trial.
+
+## "Zero Backlog" Project
+
+One of the most important aims of our long-term judicial reform program is the swift delivery of quality justice. By quality justice, I do not mean the rushing of  kangaroo justice, but of justice based on truth; justice that is the product of a logic-driven process anchored on facts, law and reason.
+
+One of the major impediments to the swift delivery of quality justice in this country is the congestion of the dockets of courts all over the country. To address this serious problem of case congestion, the Supreme Court implemented its Zero Backlog project.
+
+Since I joined it in 1995, the Supreme Court - through its Zero Backlog program - has been able to reduce its dormant cases significantly from about 2,000 in that year to less than 50 at the moment.
+
+Following the Supreme Court’s lead, the Court of Appeals has recently adopted its own program to solve its own backlog of cases. It is estimated that in two years the CA will be able to render timely decisions on all its cases.
+
+The situation is much worse in the lower courts. During the five-year period of 1995-1999, cases filed in the regional trial courts outstripped cases decided, by about 6,800 per year. Worse, in the first-level courts, which include municipal and metropolitan trial courts, case inflow exceeded case outflow by almost 65,000 cases every year for the same five-year period (1995-1999). This simply means that in the lower courts, the delay in case adjudication has become alarmingly longer.
+
+## Computerization Program
+
+The backlog in the case dockets of trial courts cannot be completely eradicated without a systematic and computerized system of monitoring and disposing of cases.
+
+To begin the computerization of our lower courts, the Supreme Court recently purchased 1,500 personal computers, which are now being distributed to all courts nationwide. The introduction of these computers will hopefully phase out the outdated and cumbersome method of manual typewriting in our lower courts and usher in e-age encoding.
+
+The computers will be equipped with Lex Libris, the computer software that contains decisions of the Supreme Court from 1901. The judiciary has also set up a homepage — www.supremecourt.gov.ph - through which its latest decisions may be accessed. With the availability of these technologies to access early and recent jurisprudence readily and conveniently, judges should be able to improve the quality of their decisions.
+
+The High Court has already computerized its internal administrative processes, research facilities and case tracking system. The computerization program of the judiciary does not stop here, however. Hopefully, all other courts will soon follow.
+
+Courts are spread out all over the country, and the task of overseeing them without the aid of computerization appears next to impossible. However, with computer terminals in Manila, it would be easy to see the daily calendars of all trial courts and to ensure that cases move speedily.
+
+The judicial reform program envisions the year 2010 when, hopefully, we shall enter the age of paperless courts pioneered by countries like Singapore and Australia.
+
+## Alternative Dispute Resolution
+
+Even with the computerization of the judiciary and the recruitment of competent and ethical judges, the delay in the delivery of judicial services will always persist if the indiscriminate filing of new cases remains to be addressed. A study has shown that cases arising from the Bouncing Checks Law comprise the bulk of cases in the lower courts.
+
+To change this disturbing culture of filing cases left and right at the drop of a hat, the Supreme Court encourages our people to use negotiation, arbitration and mediation as alternative modes of settling disputes. These methods ultimately prove to be less expensive, speedier, and less or non-adversarial than court litigation; thus, they generate results that are more satisfying to disputing parties.
+
+During our centenary celebrations last year, the Supreme Court through the Philja trained around 400 mediators. In March-April 2001, they were made to work on actual court cases pending in regional trial courts in the National Capital Region, Cebu and Davao.
+
+They were able to settle or, more precisely, get parties to settle their disputes peacefully more than to them. Some 80 percent of the 1,000 cases referred to these controversies had dragged on for over 10 years, but in less than two weeks of mediation, the parties agreed to compromise.
+
+After the successful launching of this pilot program, we are now in the process of fully implementing mediation as a tool for decongesting court dockets. To institutionalize this program, the Philippine Mediation Center was established on April 6, 2001.
+
+## Recognition and Support
+
+The Philippine Supreme Court - and by extension, the entire judiciary - has recently received recognition, both national and international, partly as a result of its judicial reform efforts. The Philippine Daily Inquirer recently chose it as its "Filipino of the Year 2001" awardee. Both the Social Weather Stations and Pulse Asia have reported consistent polling surveys affirming it as a trusted public institution in the country.
+
+Furthermore, we are proud that our Chief Justice is the recipient of the 2002 Ramon Magsaysay Award for government service. The citation acknowledges that "as Chief Justice, he reformed the Philippine judiciary." The award also recognizes "his life of principled citizenship in profound service to democracy and the rule of law in the Philippines."
+
+We are overwhelmed by the support we have been getting from international and bilateral development agencies. When the Court was just starting out with its comprehensive reform program, the country director of the World Bank hosted a dinner in its honor on July 5, 2000. To that dinner he invited representatives of various international donor agencies and urged them to assist us in the pursuit of our judicial reforms. Normally, the applicants for aid host these receptions. But in our case, it was the lead donor - the World Bank that took the initiative of promoting our reform program.
+
+During the "9th Conference of Chief Justices in the Asia-Pacific held in Christchurch, New Zealand on October 4-8, 2001, the Philippine judicial reform program was cited by guest speakers from the World Bank and the United Nations. The Philippines became a role model for the formulation and implementation of a judicial reform program.
+
+The Canadian government, through the Canadian International Development Agency (CIDA), has helped us send judicial educators and magistrates to Canada for legal education and training in court management. CIDA had also donated funding for environmental training for our judges, provided a bridge financing facility to support our reform program office, and given generous donations of computer equipment.
+
+And of course, we are grateful to the Canadian government for giving our judiciary a grant of seven million Canadian dollars to finance our judicial reforms and education programs. Our Chief Justice and the Canadian minister for international cooperation, Susan Whelan, signed the memorandum of understanding for the grant in Ottawa last month.
+
+We were able to conduct training for judges in various legal concepts, through the Philja, and the support of the United States Agency for International Development (USAID). USAID also helped us with the formulation of a communication strategy for the judiciary, the piloting of court-referred mediation, the review of the barangay justice system, and the provision of experts in electronic commerce while we were formulating rules on electronic evidence.
+
+We also have several ongoing reform projects in partnership with various international donor agencies. With funds from the Asian Development Bank, we are currently doing a study on the need to strengthen the judiciary’s independence.
+
+The United Nations Development Program (UNDP) is reviewing a proposal to promote public access to judicial services. Furthermore, we are preparing a loan program for the World Bank for the establishment of six pilot "'e-courts" across the country. Finally, the European Commission has expressed interest in supporting initiatives in the area of judicial information sharing.
+
+## Sustained and Widespread Effort
+
+The above goals, gains and ongoing reform projects show that our five-year Action Program for Judicial Reform is not a hodgepodge of uncoordinated and poorly planned projects, but a sustained and widespread effort to institute reforms that will have the most substantial positive impact on the Philippine judicial system.
+
+Our vision is far-reaching. Our reforms are aimed at producing a corps of competent, dedicated, honest and courageous judges; and at speeding up the delivery of quality justice to our people. Our ultimate goal is a judicial system that will enjoy the full faith and confidence of the people because its actions and decisions are judicious and correct, even though they may at times be unpalatable to current public sentiment. We are also directing our reform policies towards creating stability in the rule of law and predictability in the rendition of decisions - conditions that are indispensable to economic development and, ultimately, to good governance in this country.
+
+The Supreme Court once intoned: "When the judgment of history is written, as leaders of our people, we shall be asked to account not only for what we did, not only for what we did not do, but also for what visions we have today of our tomorrow."
+
+Before I close, let me go back to where I started by thanking you once again for giving me this opportunity to explain our judicial reform program. We are aware of the CID problems that beset the judiciary. I hope that during the last twenty minutes, I have explained the major projects we have instituted to address them.
+
+But, as I have always said in previous fora, we cannot solve these problems by ourselves. We need new proposals and vistas. Thus, before I conclude, let me ask you collectively and individually to help us through any or all of the following.
+
+One. Please favor us with your opinions and suggestions on how to further improve our delivery of quality justice and how to recruit the best and the brightest to join the judiciary. At the very least, please support private sector initiatives to assist the judiciary in its effort to achieve world-class status by the year 2006. We are thankful for the assistance and attention being given by international and bilateral development. However, we value your inputs as members of the Philippine community or as entities with a stake in the success of our country.
+
+Two. The Supreme Court has been relentless in its campaign to weed out the plagues of corruption, incompetence and delay. If you have been victimized by these evils, or should you know of others who have fallen prey to them, please write the specifics to the Supreme Court - through the Office of the Chief Justice or the Office of the Court Administrator - so that the matter can be addressed properly.
+
+Three. Please do not agree to any corrupt, unethical or less than honest methods to solve your legal problems, especially court cases. Just as there are some dishonest judges, there are also some unscrupulous lawyers and devious litigants who want to win at all costs. Sometimes, in an effort to earn more, lawyers ask money from their clients, allegedly to line the pockets of magistrates. Please never agree to bribe a judge directly or indirectly. Corruption will take place only if litigants consent to or abet it. While there are a few hoodlums in robes, I assure you that a vast majority are men and women of integrity and competence.
+
+I am now ready for the open forum. Maraming salamat po.

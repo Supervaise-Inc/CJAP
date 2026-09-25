@@ -1,0 +1,138 @@
+{
+  "id": "CC009",
+  "format": "C",
+  "type": "column",
+  "theme": "C",
+  "theme_label": "Biographical and Personal",
+  "number": 9,
+  "title": "Overwhelmed with honor and joy",
+  "date": "2022-01-02",
+  "link": "https://opinion.inquirer.net/148215/overwhelmed-with-honor-and-joy",
+  "keywords": [
+    "'With Due Respect 3' book launch",
+    "Marixi R. Prieto / Sandy Prieto-Romualdez",
+    "15-year Inquirer column tenure",
+    "Sampaloc newsboy biography",
+    "Dr. Jovito R. Salonga mentorship",
+    "CJ Gesmundo tribute"
+  ],
+  "primary_topics": [
+    "Panganiban's response to the 'With Due Respect 3' book launch",
+    "His 15-year tenure as Inquirer columnist (since February 2007)",
+    "Origins of his column-writing -- initial hesitancy and Dr. Jovito R. Salonga's caution",
+    "Tribute to incumbent CJ Alexander G. Gesmundo and to Inquirer leaders Marixi R. Prieto and Sandy Prieto-Romualdez",
+    "Acknowledgment of editorial staff: JV Rufino, Sean James Borja, Jorge Aruta, Rosario Garcellano, Gilbert Cadiz"
+  ],
+  "sub_topics": [
+    "Three-volume Inquirer compilations of CJ's columns: WDR1 (2011), WDR2 (2016), WDR3 (2022)",
+    "Salonga's caution: 'Chief Justices make history; they do not write it' (no retired CJ had written a column before)",
+    "Marixi Prieto's counter: 'I do not know of any retired chief justice who had been offered to write a column'",
+    "Compromise: writing once a week -- has done so without fail every Sunday for 15 years through illness, travel (five trips/year), and over 25 corporate/foundation roles",
+    "Acclaim: WDR1 ranked third on Amazon bestseller list, behind Jeffrey Toobin (CNN) and Antonin Scalia",
+    "Sampaloc newsboy biography -- selling newspapers to help his impoverished family during elementary and high school",
+    "Tribute to CJ Gesmundo: age 65 (could be CJ's son), low public profile, esteemed by colleagues, possesses competence, integrity, probity, and independence, 'a glutton for work,' ready to automate the judiciary",
+    "JV Rufino of the Inquirer Book Company; Sean James Borja (Ateneo law valedictorian 2018, bar topnotcher) who arranged the columns topically",
+    "Inquirer editors who corrected grammar and style: Jorge Aruta, Rosario Garcellano (both retired), Gilbert Cadiz (incumbent opinion editor)"
+  ],
+  "signature_phrases": [
+    "I AM OVERWHELMED WITH HONOR AND JOY",
+    "though I feel unworthy of their kindness",
+    "I have never written one in my life until after I retired from the judiciary",
+    "a historical romance with newspapers",
+    "the plain truth is that I have never written one in my life",
+    "Chief Justices make history; they do not write it",
+    "Marixi could not be dissuaded",
+    "I owe Marixi my opinion-writing career",
+    "competence, integrity, probity, and independence",
+    "a glutton for work",
+    "May they never tire of teaching this aging jurist",
+    "Cheers!"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban (author)",
+      "Marixi R. Prieto (Inquirer leader)",
+      "Sandy Prieto-Romualdez (Inquirer Group President and CEO)",
+      "Dr. Jovito R. Salonga (CJ's deceased guru/mentor)",
+      "CJ Alexander G. Gesmundo (incumbent SC Chief Justice)",
+      "JV Rufino (Inquirer Book Company)",
+      "Sean James Borja (Ateneo Law 2018 valedictorian and bar topnotcher; arranger of WDR3)",
+      "Jorge Aruta (Inquirer editor, retired)",
+      "Rosario Garcellano (Inquirer editor, retired)",
+      "Gilbert Cadiz (Inquirer incumbent opinion editor)",
+      "Jeffrey Toobin (CNN, first on Amazon bestseller list cited)",
+      "Antonin Scalia (US Supreme Court senior justice, second on list)"
+    ],
+    "institutions": [
+      "Philippine Daily Inquirer",
+      "Inquirer Book Company",
+      "Supreme Court of the Philippines",
+      "Ateneo de Manila University (law school)",
+      "25+ companies and foundations where CJ holds officer/director/adviser roles"
+    ],
+    "cases": [],
+    "laws_treaties": [
+      "1987 Constitution -- judicial qualifications (competence, integrity, probity, independence)"
+    ],
+    "events": [
+      "Formal launch of 'With Due Respect 3' (December 2021 / early January 2022)",
+      "15 years of weekly Sunday columns since February 2007",
+      "WDR1 publication (2011); WDR2 (2016); WDR3 (2022)"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "His career as a columnist was not an inevitability -- until retirement he had 'never written one in (his) life,' and Salonga warned 'Chief Justices make history; they do not write it.' Marixi Prieto's insistence overrode the hesitation.",
+      "rhetorical_move": "origin-myth humility narrative",
+      "confidence": "personal recollection"
+    },
+    {
+      "claim": "He 'owes' Marixi Prieto his 15-year column-writing career and the acclaim that followed -- including the WDR1 Amazon bestseller ranking behind only Jeffrey Toobin and Antonin Scalia.",
+      "rhetorical_move": "credit-attribution + acclaim citation",
+      "confidence": "acknowledged debt"
+    },
+    {
+      "claim": "CJ Alexander G. Gesmundo embodies the constitutional virtues of competence, integrity, probity, and independence -- and is also 'a glutton for work' ready to attack the perennial backlog and automate the judiciary.",
+      "rhetorical_move": "constitutional-virtue tribute to the incumbent",
+      "confidence": "endorsed"
+    },
+    {
+      "claim": "Editors Jorge Aruta, Rosario Garcellano, and Gilbert Cadiz deserve thanks for patiently correcting his grammatical lapses and inquiring-style breaches -- modeling the kind of teaching this 'aging jurist' still receives.",
+      "rhetorical_move": "self-deprecating tribute to editors",
+      "confidence": "expressed gratitude"
+    }
+  ],
+  "notable_anecdotes": [
+    "Sampaloc newsboy years -- selling newspapers in elementary and high school to help his impoverished family -- recurring biographical anchor.",
+    "Salonga's warning: 'Chief Justices make history; they do not write it' -- counterposed against Marixi Prieto's 'I do not know of any retired chief justice who had been offered to write a column.'",
+    "WDR1 ranked third on the Amazon bestseller list, behind first-placer Jeffrey Toobin (CNN) and second-placer Antonin Scalia of the US Supreme Court.",
+    "Sean James Borja -- Ateneo law valedictorian 2018 and that year's bar topnotcher -- patiently arranged WDR3 topically rather than chronologically.",
+    "Writing once a week, every Sunday, for 15 years without fail, through occasional illness, ~5 trips/year abroad, and active roles in 25+ companies and foundations.",
+    "Gesmundo as 'could be my son' -- age 65, low public profile, esteemed by colleagues, 'a glutton for work,' ready to automate the judiciary."
+  ],
+  "target_audience": [
+    "Loyal Inquirer readers of the 'With Due Respect' column",
+    "Members of the legal community and judiciary",
+    "Inquirer leadership and editorial staff",
+    "CJ Alexander G. Gesmundo and his court",
+    "Friends, family, and the FLP donor community"
+  ],
+  "register_markers": [
+    "thanksgiving-occasion register (response to a launch speech)",
+    "small-caps emphasis ('I AM OVERWHELMED WITH HONOR AND JOY,' 'PERMIT ME ALSO TO THANK')",
+    "'though unworthy' humility token",
+    "warm naming of editors, mentors, and family by name",
+    "self-deprecating Sampaloc-newsboy autobiographical anchor",
+    "elevated-praise register for CJ Gesmundo using constitutional virtues",
+    "characteristic 'Cheers!' closer (implicit in companion-piece pairing)",
+    "writerly devotion ('every Sunday without fail')"
+  ],
+  "decision_framework_signals": [
+    "constitutional-virtue framework (competence, integrity, probity, independence) applied to evaluating CJ Gesmundo",
+    "credit-attribution norm (publicly naming editors, mentors, and supporters)",
+    "self-deprecation paired with discipline ('aging jurist' + 'every Sunday without fail') as character signaling",
+    "biographical-arc reasoning (Sampaloc newsboy → CJ → columnist) as integrity narrative"
+  ],
+  "one_paragraph_summary": "On the occasion of the formal launch of 'With Due Respect 3' -- the third Inquirer-published compilation of his Sunday columns from 2016 to 2021 -- Panganiban offers an abridged response of gratitude. He confesses he had 'never written (a column) in (his) life until after (he) retired from the judiciary'; his 'historical romance with newspapers' began as a Sampaloc newsboy helping his impoverished family during grade school and high school, but his late mentor Dr. Jovito R. Salonga had cautioned him that 'Chief Justices make history; they do not write it.' Marixi R. Prieto would not be dissuaded -- 'I do not know of any retired chief justice who had been offered to write a column' -- and a compromise of one column per week became 15 years of unbroken Sunday publication, through illness, travel (five trips a year abroad), and active roles in over 25 companies and foundations. He credits Marixi for the writing career and the acclaim that followed, citing the third-place Amazon bestseller ranking of WDR1 behind only Jeffrey Toobin (CNN) and Antonin Scalia of the US Supreme Court. He thanks incumbent CJ Alexander G. Gesmundo -- who at 65 'could be my son' -- for the formal launch and praises him for embodying the constitutional virtues of competence, integrity, probity, and independence, calling him 'a glutton for work' ready to attack the perennial case backlog and to automate the judiciary. He thanks JV Rufino of the Inquirer Book Company, Sean James Borja (Ateneo law valedictorian 2018 and bar topnotcher of the same year) who arranged WDR3 topically rather than chronologically, and editors Jorge Aruta, Rosario Garcellano (both retired), and Gilbert Cadiz (incumbent opinion editor) -- asking that they 'never tire of teaching this aging jurist the rudiments of the English language and of column-writing.'",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

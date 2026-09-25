@@ -1,0 +1,12 @@
+order,book_title,part_label_as_printed,classification,skip_reason,chapter_no,chapter_title,start_page,end_page,word_count,file,collected_piece,original_date,original_outlet,flags
+1,With Due Respect (Vol. 4),BOOK 4: On Matters of Law,SKIP,part divider,,,,,6,,no,,,
+2,With Due Respect (Vol. 4),CHAPTER 1 Two Standards of Judicial Review,CHAPTER,,1,Two Standards of Judicial Review,,,849,ch01_two-standards-of-judicial-review.md,yes,2007-04-08,Philippine Daily Inquirer (column “With Due Respect”),
+3,With Due Respect (Vol. 4),CHAPTER 2 Suppressing Neri's Testimony,CHAPTER,,2,Suppressing Neri's Testimony,,,846,ch02_suppressing-neri-s-testimony.md,yes,2007-11-25,Philippine Daily Inquirer (column “With Due Respect”),
+4,With Due Respect (Vol. 4),CHAPTER 3 Hail to the Court; A Toast to Truth,CHAPTER,,3,Hail to the Court; A Toast to Truth,,,494,ch03_hail-to-the-court-a-toast-to-truth.md,yes,2008-02-17,Philippine Daily Inquirer (column “With Due Respect”),
+5,With Due Respect (Vol. 4),CHAPTER 4 Should Libel be Decriminalized?,CHAPTER,,4,Should Libel be Decriminalized?,,,876,ch04_should-libel-be-decriminalized.md,yes,2008-04-27,Philippine Daily Inquirer (column “With Due Respect”),
+6,With Due Respect (Vol. 4),CHAPTER 5 Presidential Secrecy,CHAPTER,,5,Presidential Secrecy,,,836,ch05_presidential-secrecy.md,yes,2008-06-08,Philippine Daily Inquirer (column “With Due Respect”),
+7,With Due Respect (Vol. 4),CHAPTER 6 Questions on the MOA-AD Decision,CHAPTER,,6,Questions on the MOA-AD Decision,,,845,ch06_questions-on-the-moa-ad-decision.md,yes,2008-10-26,Philippine Daily Inquirer (column “With Due Respect”),
+8,With Due Respect (Vol. 4),"CHAPTER 7 Divorce, Pinoy Style",CHAPTER,,7,"Divorce, Pinoy Style",,,888,ch07_divorce-pinoy-style.md,yes,2010-02-21,Philippine Daily Inquirer (column “With Due Respect”),ocr-garbled-date-line
+9,With Due Respect (Vol. 4),CHAPTER 8 Restore Amla's Fangs,CHAPTER,,8,Restore Amla's Fangs,,,866,ch08_restore-amla-s-fangs.md,yes,2010-07-11,Philippine Daily Inquirer (column “With Due Respect”),
+10,With Due Respect (Vol. 4),CHAPTER 9 Invalid Plea Bargain,CHAPTER,,9,Invalid Plea Bargain,,,911,ch09_invalid-plea-bargain.md,yes,2011-01-30,Philippine Daily Inquirer (column “With Due Respect”),
+11,With Due Respect (Vol. 4),CHAPTER 10 Tread Cautiously and Prudently,CHAPTER,,10,Tread Cautiously and Prudently,,,879,ch10_tread-cautiously-and-prudently.md,yes,2011-02-27,Philippine Daily Inquirer (column “With Due Respect”),

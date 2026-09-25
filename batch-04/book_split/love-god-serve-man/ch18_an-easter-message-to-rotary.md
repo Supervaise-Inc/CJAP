@@ -1,0 +1,17 @@
+# Chapter 18: An Easter Message to Rotary
+
+(Editor's note: Here is Panganiban's Easter message printed in the Rotary Balita issue of April 4, 1991 while he was president of Rotary Club of Manila.)
+
+HAPPY EASTER! Easter, not Christmas, is the most glorious event in Christendom.
+
+Christmas marks the birth of Jesus as a human being. Easter celebrates His divinity. Christmas is the joyful beginning but Easter is the glorious victory. By His resurrection, Jesus Christ triumphed over evil, saved man from sin and erased all doubts that, indeed, He is God. Without Christ's resurrection, Christianity would be meaningless.
+
+The Christian ethic of active non-violence is demonstrated by Christ in His passion, death and resurrection. Though innocent of the mob's charge of "blasphemy," He went through public ridicule, whip-lashings, cross-carrying and even death itself. With His resurrection, He triumphed over mob emotionalism, false charges, human suffering and sin.
+
+Easter is a reminder to us that we, too, must go through our own passion and death to be able to rise and to live a life on high with Jesus Christ. For how can there be resurrection without crucifixion? Our death need not be physical. Passion and death could be our attachment to sin, to worldliness, to lust. By renouncing sin and reforming our lives in accord with the basic Christian doctrine of love (love for God and neighbor), we really go through our own passion, death and resurrection.
+
+We Rotarians carry our cross and die to ourselves every time we choose our spouse and children over our own lust and self-gratification; every time we pay honest taxes particularly where evasion has little risk of discovery; every time we refuse to take advantage of another, even if we could easily do so by reason of our superior talent or abundant material resources; and every time we roll up our sleeves to serve "the least of our brethren" instead of luxuriating in our air-conditioned offices.
+
+As Christ Himself said, "He who will not take up his cross and come after me is not worthy of me." (Matt. 10:38)
+
+We celebrate Easter in our lives daily as we choose honesty over deceit, hard work over easy money, virtue over vice, love over vengeance.

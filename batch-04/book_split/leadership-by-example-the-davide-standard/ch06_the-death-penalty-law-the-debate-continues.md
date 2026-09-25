@@ -1,0 +1,389 @@
+# Chapter 6: The Death Penalty Law: The Debate Continues
+
+In Battles in the Supreme Court, which I wrote last year to commemorate my third anniversary in the Court (October 10, 1998), I predicted that death penalty cases would “occupy the continuing attention of the Court and the general public.” Now I realize I spoke too conservatively. In January 1999, a full-blown confrontation was waged between the pro- and anti-death penalty advocates.
+
+## THE CONTROVERSY PRECEDING THE ECHEGARAY EXECUTION
+
+This conflagration was ignited by the SC Resolution promulgated on January 4, 1999, temporarily postponing the execution of Leo Echegaray who was scheduled to die at 3:00 p.m. on that day. Voting 8-5, the Court issued a Temporary Restraining Order (TRO), good until June 15, 1999, “unless it sooner becomes certain that no repeal or modification of the Mi law is going to be made.” The Court acted upon the Motion of Atty. Theodore O. Te, Echegaray’s counsel, grounded on the allegations that several bills had been filed in Congress to review the Death Penalty Law, and that a treaty abolishing the death penalty was “headed for” ratification in the Senate.
+
+The Court held: “The merest chance that Congress might reconsider the imposition of the death penalty entitles [Echegaray] to a stay of his execution.”
+
+## Reactions to the Court’s Suspension of Echegaray’s Execution
+
+Almost the entire Philippine officialdom — from President Joseph Ejercito Estrada down to senators, congressmen and even municipal councilors — reacted swiftly and furiously. In street rallies and demonstrations, lynch mobs and anti-crime crusaders demanded the “resignation” or the “impeachment” of the eight justices who had voted for the TRO. These justices were attacked as incompetent, power hungry, and insensitive to public opinion. Additionally, individual magistrates, Court employees and even their families were threatened, insulted and booed.
+
+To be sure, I was targeted for the most venal of the criticisms because, in Battles in the Supreme Court, I had publicly opposed the capital penalty. I wrote that while “the death penalty is not per se objectionable, x x x it should be prescribed only in a very limited number of truly heinous crimes and only under exceptional circumstances.” Even my daughters were not spared. Because of hate calls and bodily threats they received, I had to provide them extra security during the one-month period of the controversy.
+
+Not to be forgotten, of course, is the support that the Court also received from many institutions and individuals, particularly Church and media groups as well as individual columnists, broadcasters and friends. We shall never forget these people who comforted us and stood by us in those trying times.
+
+## The Lifting of the Temporary Restraining Order
+
+Within the week of the street demonstrations, screaming headlines and radio-TV spotlights that followed, the President declared that he would veto any bill that would modify or repeal RA 7659. And more tellingly, Resolution No. 629 was passed “expressing the sense of the House of Representatives to reject any move to review Republic Act No. 7659.”
+
+It became evident that RA 7659 would not be modified or repealed before the adjournment of Congress on June 15, 1999. Thus, the Court on January 19, 1999, resolved to lift the Temporary Restraining Order, but not before it had squarely smashed the criticisms hurled against it, especially those which accused it of overstepping its powers. Written by Justice Puno, the Resolution stressed:
+
+1. By issuing the January 4, 1999 TRO, the Court was “not changing even a comma” of the Decision convicting Leo Echegaray and sentencing him to death. The TRO was issued pursuant to the Court's “power to control the execution of its decisions.” “It bears repeating that what the Court restrained temporarily [was] the execution of its own Decision to give it reasonable time to check its fairness in light of supervening events in Congress, as alleged by petitioner. The Court, contrary to popular misimpression, did not restrain the effectivity of a law enacted by Congress.”
+
+2. The power of the President to grant pardons and reprieves “cannot be interpreted as denying the power of courts to control the enforcement of their decisions after their finality. In truth, an accused who has been convicted by final judgment still possesses collateral rights and these rights can be claimed in the appropriate courts.”
+
+3. The issuance of the TRO was the most prudent action that the Court could have taken under the circumstances, considering that Leo Echegaray was to be executed at 3:00 p.m. of the first working day after the Motion was filed. “The extreme caution taken by the Court was compelled, among others, by the fear that any error x x x in not stopping the execution of the petitioner will preclude any further relief, for all rights stop at the graveyard. As life was at stake, the Court refused to constitutionalize haste and the hysteria of some partisans.”
+
+Justice Puno waxed poetic as he concluded, “Man has yet to invent a better hatchery of justice than the courts. It is a hatchery where justice will bloom only when we can prevent the roots of reason to be blown away by the winds of rage. The flame of the rule of law cannot be ignited by rage, especially the rage of the mob, which is the mother of unfairness. The business of courts in rendering justice is to be fair and they can pass their litmus test only when they can be fair to the one who is momentarily the most hated by society.”
+
+The Resolution lifting the TRO was carried by a vote of 11-2 with two newly appointed magistrates taking “no part.” Justice Vitug and I wrote short Separate Opinions maintaining our consistent view that Echegaray should not be executed because the Death Penalty Law was unconstitutional.
+
+In view of some criticisms that my Opinion (and that of Justice Vitug) “did not address the issue of whether the TRO should be lifted,” I am reproducing, without further comment the full text of said Opinion as follows:
+
+“I agree with the Court’s Resolution that, without doubt, this Court has jurisdiction to issue the disputed Temporary Restraining Order (TRO) on January 4, 1999. I will not repeat its well-reasoned disquisition. I write only to explain my vote in the context of the larger issue of the death penalty.
+
+“Since the solicitor general has demonstrated that Congress will not repeal or amend RA 7659 during its current session which ends on June 15, 1999 and that, in any event, the President will veto any such repeal or amendment, the TRO should by its own terms be deemed lifted now. However, my objections to the imposition of the death penalty transcend the TRO and permeate its juridical essence.
+
+“I maintain my view that RA 7659 (the Death Penalty Law) is unconstitutional insofar as some parts thereof prescribing the capital penalty fail to comply with the requirements of ‘heinousness’ and ‘compelling reasons’ prescribed by the Constitution of the Philippines. This I have repeatedly stated in my Dissenting Opinions in various death cases decided by the Court, as well as during the Court's deliberation on this matter on January 4, 1999. For easy reference, I hereby attach a copy of my Dissent promulgated on February 7, 1997.
+
+“Consequently, I cannot now vote to lift the TRO, because to do so would mean the upholding and enforcement of a law (or the relevant portions thereof) which, I submit with all due respect, is unconstitutional and therefore legally nonexistent. I also reiterate that, in my humble opinion, RA 8177 (the Lethal Injection Law) is likewise unconstitutional since it merely prescribes the manner in which RA 7659 (the Death Penalty Law) is to be implemented.
+
+“Having said that, I stress, however, that I defer to the rule of law and will abide by the ruling of the Court that both RA 7659 and RA 8177 are constitutional and that the death penalty should, by majority vote, be implemented by means of lethal injection.
+
+“FOR THE ABOVE REASONS, I vote to deny the solicitor general’s Motion for Reconsideration.”
+
+For his part, Justice Vitug opined: “It was principally out of respect and comity to a co-equal ] branch of the government, i.e. to reasonably allow it that opportunity [to re-examine the death penalty law] if truly minded, that motivated the Court to grant, after deliberation, a limited time for the purpose.”
+
+“I am hopeful x x x that Congress will in time: find its way clear to undertaking a most thorough and dispassionate re-examination of the law not so much for i its questioned wisdom as for the need to have a second look at the conditions sine qua non prescribed by the Constitution in the imposition of the death penalty,” he added.
+
+## STATISTICS ON DEATH PENALTY CASES
+
+## The Affirmation of Only One Third of Death Sentences
+
+In Battles, I reported that from February 7, 1997, to October 6, 1998 (my third anniversary), the Court affirmed the death sentences of the following: Leo Echegaray, Dante Piandiong et al., Pablito Andan, Marlon Parazo, Jurry Andal et al., Teofilo Taneo, Eduardo Agbayani, Romeo Gallo, Cresencio Tabugoca, Roberto Gungon, Joeral Galleno, Oscar Escala, Esteban Victor, Gregorio Pagupat, Josefina Esparas, Senen Prades, Dante Alfeche, Felipe de los Santos, Rodrigo Calma, Alex Bartolome, and Benedicto Ramos.
+
+From October 10, 1995 to October 10, 1999 (my fourth anniversary), the Court has reviewed 164 cases imposing the death penalty. Of these, a total of 53 were AFFIRMED. I should add that some cases (like Piandiong and Andal) involved more than one appellant; hence, the total number of convicts sentenced to death exceeds the total number of cases affirmed.
+
+The penalties in 74 cases were reduced to reclusion perpetua; and in 12 cases, reduced even further. Below is a more graphic presentation of these salient facts.
+
+## DEATH CASES FROM OCT. 10, 1995 TO OCT. 10, 1999
+
+Death cases REVIEWED						164
+
+Death penalty cases AFFIRMED					53
+
+Death convicts whose death sentences were AFFIRMED	59
+
+Death sentences REDUCED to reclusion perpetua		74
+
+Death sentences REDUCED to other lower penalties		12
+
+Death penalty cases REMANDED to lower COUTTS		9
+
+Appellants ACQUITTED						23
+
+In Echegaray, only three members of the Court voted to declare the Death Penalty Law unconstitutional. This number was further reduced to two in succeeding appeals. However, in People v. Escala, which was promulgated on July 8, 1998, the number of dissenters grew to four which is still the number at present. It was in Escala where the repetitive dissent drew the ire of the majority, and where it was finally agreed upon: “[H]enceforth, the following clause, or words to the same effect would be reproduced in all future death case affirmations: ‘Four members of the Court maintain their position that Republic Act No. 7659, insofar as it prescribes the death penalty, is unconstitutional; nevertheless, they submit to the ruling of the majority that the law is constitutional and that the death penalty should be imposed in this case.’”
+
+## The Imposition of the Wrong Penalty on the Guilty
+
+In Battles, I explained that “[i]n spite of the meticulous scrutiny that the Court gives to death cases, it is still possible that an innocent man would be held legally guilty and thereafter judicially executed. x x x. Men are still imperfect. Judges can make wrongful evaluations x x x. A perfectly innocent man could die due to plain human error, not to mention the guile and deceit that could accompany trials. Once carried out, the death sentence can no longer be reversed. x x x
+
+A review of the death cases passed upon by the Supreme Court shows some additional grounds why the death penalty has no place in our legal firmament. While in Battles, I spoke of the innocent being convicted erroneously, now I write about the guilty being sentenced wrongly.
+
+## The Commutation of Death Sentences to Reclusion Perpetua
+
+While the majority of the magistrates have not agreed to declare RA 7659 unconstitutional, nonetheless the Court has been increasingly strict in its application, resulting not only in acquittals but in the reduction of the penalty from death to imprisonment. In fact, less than one third of death sentences imposed by trial courts have been affirmed by the Supreme Court. Some of the more important grounds invoked for reducing penalties were the following:
+
+1. The prosecutors failed to allege in the: Information sufficient facts to show that the crimes charged were “heinous” in nature. This will be discussed in greater detail in the next topic.
+
+2. The crime charged was not the crime proven. Thus, when treachery or any other qualifying circumstance is not proven, the crime is only homicide, not murder, and the applicable penalty is reclusion temporal, not death. Also, in drug cases the penalty range is from prision correccional to death, depending on the quality and the quantity of drugs involved.
+
+3. The prosecution failed to prove that the “heinous” crimes were attended by aggravating circumstances. This is especially true in crimes in which the penalty prescribed by RA 7659 consists of a divisible range, like “reclusion perpetua to death.” Following Article 63 of the Revised Penal Code, the imposable penalty is reclusion perpetua where the prosecution fails to prove the presence of aggravating circumstances, or where there are enough mitigating circumstances to offset the aggravating ones.
+
+4. The crimes were committed prior to the effective date of RA 7659, the Death Penalty Law." Being punitive in character, RA 7659 has no retroactive effect and is applicable only to crimes that were committed after its effectivity on December 31, 1993.
+
+## SIGNIFICANT JURISPRUDENTIAL DEVELOPMENTS INVOLVING DEATH CASES
+
+## Insufficiency of Allegations in Information
+
+The Constitution grants the accused several inviolable rights. Among them is the right “to be informed of the nature and cause of the accusation against him.” Doctrinally and historically, this means that “every element of the offense must be alleged in the complaint or information.” “The main purpose of requiring the various elements of a crime to be set out in an Information is to enable the accused to suitably prepare his defense. He is presumed to have no independent knowledge of the facts that constitute the offense.”
+
+Under Article 335 of the Revised Penal Code, rape is penalized with reclusion perpetua. However, RA 7659 which became effective on December 31, 1993, has increased the penalty to death in the event the rape is attended by any one of the “seven new special circum- 1 stances” enumerated in the said statute.
+
+Hence, in the first of these “special circumstances,” the death penalty may be imposed only if the information alleged and the evidence proves both the age of the victim and her relationship to the offender. In People v. Perez, the Court ruled that because “the circumstance that Maribel was less than eighteen years of age at the time of the rape was never, in any manner, stated in the Information,” the accused could be convicted only of simple rape and sentenced to reclusion perpetua, not death. “It is the concurrence of the minority of the victim and her relationship with the offender” that qualifies the rape as heinous.
+
+[T]he non-allegation of the relationship between appellant and offended party in an information for rape is a bar to the imposition of the death penalty." “With the failure of the Information to state the qualifying circumstance of relationship between appellant and Jonalyn, the death penalty cannot be imposed x x x.” Likewise, “the minority of the victims x x x not [having been] stated in the Information,” the death penalty cannot be imposed.
+
+Furthermore, the allegation “taking advantage of his superior strength over the person of his own daughter who is only thirteen years old” is not enough to qualify the rape, because the wordings merely indicate a generic aggravating circumstance, not “the twin qualifying circumstances of age and relationship.”
+
+In People v. Dimapilis, the Information alleged that the victim was the “step-daughter” of the offender. However, the evidence proved that the offender was not the stepfather of the victim, but only the “common-law spouse” of her mother (who, I stress, was not legally married to the offender.) “A step-daughter is a daughter of one’s spouse by a previous marriage or the daughter of one of the spouses by a former marriage”; hence, the Court reduced the penalty to reclusion perpetua.
+
+Similarly, in People v. Manggasin, the Informations alleged that appellant was the “step-father” of complainant, but the evidence showed that “he and complainant’s mother were not really married but only lived in a common-law relationship.” Again, the Court reduced the penalty to reclusion perpetua. The same penalty was imposed (1) in People v. Ponado, because the Information alleged the victim to be the appellant’s stepdaughter, whereas the evidence showed that she was the “daughter of one with whom the accused merely had a common-law relationship”; (2) in People v. Larena, because the Information failed to allege any filial relationship between the offending and the offended parties; and (3) in People v. Puertollano, because in the Information “all that is stated therein is that Mary Joy is a minor, [with] no mention of her exact age.”
+
+More tellingly, in a Resolution promulgated on September 29, 1999, the Court reduced the penalty of death it had earlier meted out to Romeo Gallo to reclusion perpetua. Although the Decision imposing death had become final, the Court nonetheless reopened the case after the appellant's counsel, the Public Attorney's Office, pointed out that the Information did not allege the appellant’s status as the victim’s father. Happily, the Office of the Solicitor General, in its Comment on the Motion to Reopen Case, joined the accused in his plea for penalty reduction.
+
+## The Legally Erroneous Execution of Echegaray
+
+In the light of these recent strict readings of the criminal informations involving rape, it may be apropos to go back to the first death sentence affirmed by the Court. In People v. Echegaray, the Information alleged that the victim was the daughter of the accused. It was proven during the trial, however, that the accused was “neither a father, stepfather or grandfather” of Rodessa. The Court, nevertheless, sentenced Leo Echegaray to death. “Even if he were not the father, stepfather or grandfather of Rodessa, this disclaimer cannot save him from the abyss where perpetrators of heinous crimes ought to be, as mandated by law. Considering that the accused-appellant is a confirmed lover of Rodessa’s mother, he falls squarely within the afore-quoted portion of the Death Penalty Law under the term ‘common law spouse of the parent of the victim.”
+
+To repeat, the Information in Echegaray alleged; that Leo (the offender) was the father of Rodessa (the victim). However, this qualifying circumstance of (father-daughter) relationship was not proven. What was proven was that Leo was the “confirmed lover of Rodessa’s mother.” While RA 7659 prescribes the capital punishment for rape perpetrated by the “common law spouse of the parent of the victim,” such qualifying circumstance was not alleged in the Information or Complaint.
+
+Following the above doctrine, particularly that in Gallo, Dimapilis and Manggasin, I believe Echegaray’s penalty should have been reduced to reclusion perpetua. But Echegaray is now in the Great Beyond, and no change in jurisprudence can resurrect him. This is one more reason why I believe the death penalty has no place in our statute books. Errors in its imposition become nightmarishly irreversible once the appellant is executed. Verily, human reversals do not affect the graveyard.
+
+## Refusal to Reopen the Case of the First Woman Death Convict
+
+In People v. Parazo, the Supreme Court invalidated the death sentence imposed by the lower court and ordered a new arraignment and trial, because the appellant, upon medical examination by qualified physicians, was reported to be “a deaf-mute, a mental retardate, whose mental age is only seven (7) years and nine (9) months, and with a low IQ of 60 only.” Yet, he had been tried without the benefit of a sign language expert, thereby depriving him of “a full and fair trial and a reasonable opportunity to defend himself.”
+
+However, in another case, People v. Esparas, the Court, by a vote of 11-3, refused to reopen the appeal in an en banc unsigned Resolution dated August 17, 1999. In a new Petition, Appellant Esparas, whose death sentence was affirmed on July 10, 1998, asked the Court to reopen the case, alleging the following inter alia:
+
+1. During the trial, she refused to plead guilty because she believed she-was innocent. Had she agreed to plead guilty, she would have been sentenced only to reclusion perpetua.
+
+2. She was tried in absentia, because she was reported to have escaped from confinement. As a consequence, she was not able to present adequate evidence in her defense.
+
+3. She did not escape from confinement. Rather, duly escorted, she visited her mother in Caloocan City. Thereafter, she patiently awaited her escort-policeman, who had left her at her mother’s house; however, he never returned to bring her back to the detention center.
+
+4. During the trial, her escort, a certain Wilfredo Sanchez, was never presented as a witness to prove her escape.
+
+5. Consequently, her trial in absentia was void, being in violation of her right to due process.
+
+6. She has no track record of any other criminal accusations, not to say convictions.
+
+I voted with the minority of three, because I thought that the Court should have at least required the prosecution to comment on the foregoing serious allegations of Esparas. Remembering that life was at stake, I thought that she should have been given an opportunity to prove these allegations, which had not been taken up during the review of her case by the Supreme Court. However, the Court curtly denied her new Petition on the principal ground, I believe, that the Decision affirming her guilt had become final and executory.
+
+## Effect of Convict’s Escape on Death Sentence
+
+In an earlier Resolution of the Court involving the same appellant, Josefina Esparas, I reported in Battles that the Court had opted to review the appeal and to promulgate a Decision in death penalty cases, even if the appellant had escaped. Normally, where the penalty imposed by the trial court is less than death, the appeal is dismissed by the Supreme Court when the appellant absconds. While I agreed with the holding of the Court that it should not dismiss appeals involving the capital penalty even if the accused jumped bail, I opined that the review and the promulgation of its Decision on the appeal should await the arrest of the accused.
+
+This problem was resurrected in People v. Raquifio, in which the Court reduced the penalty from death to “an indeterminate sentence of eight (8) years and one (1) day of prision mayor, as minimum, to seventeen (17) years and four (4) months of reclusion temporal, as maximum,” because the crime for which appellant had been convicted was modified from murder to homicide. Maintaining my earlier stance, I wrote a Separate Opinion in which I pointed out the undue favor the Court had unwittingly bestowed on death-convict-escapees. I said:
+
+“This policy adopted by the majority unduly favors fugitives who have been sentenced to death by the trial court, as against one who has been sentenced to reclusion perpetua only. It encourages death convicts to escape from imprisonment because, anyway, their escape will not be interpreted as admission of their guilt. Besides, the Court will nevertheless review their conviction, and if it will be to their favor, they may choose to surrender; otherwise, they would remain fugitives.
+
+With due respect, I submit that the course taken by the Court effectively countenances a trifling [with] the law and our judicial processes. Worse, it encourages death convicts to escape and to mock this Court and the judicial system as a whole. The instant case clearly illustrates the folly and impracticality of the majority’s interpretation of the Court's mandatory review of death penalty cases.”
+
+## Differences in Appreciation of Evidence
+
+In the future, it may happen that the accused will be sentenced to reclusion perpetua, even if the facts show that death should be imposed.
+
+Let me give a hypothetical example, Let us assume that all the members of the Court hold that the accused committed murder, However, only 10 further believe that the crime was attended by an aggravating circumstance like dwelling, while the remaining five believe that, on the basis of their appreciation of the evidence, no generic aggravating circumstance was proven. Since the penalty for murder is reclusion perpetua to death, the five vote to impose only reclusion perpetua in accordance with Article 63 of the Revised Penal Code. On the other hand, of the 10 who found the presence of an aggravating circumstance, four believe that RA 7659 is unconstitutional insofar as it prescribes the death penalty. Hence, the appellant could then be sentenced only to reclusion perpetua by the majority of 9 (5+4), since the remaining six are short of the required majority to impose death.
+
+I believe that this situation is not far-fetched. Already, in one case, People v. Dizon, one member of the court was recorded as having voted to impose reclusion perpetua because he “noted that as a result of the sexual contact, the victim was found to have gonorrhea; however, the accused was negative of gonorrhea.” As usual, four members also voted to impose reclusion perpetua on constitutional grounds. Hence, the vote in favor of the capital penalty was 9-5. A 9-4-1 vote to impose death was also registered in People v. Bantilan, because a justice believed that “the prosecution failed to prove the guilt of the accused beyond reasonable doubt,” and four, as usual, voted to impose reclusion perpetua on constitutional grounds.
+
+People v. Tapales is a more graphic example. Here, the Court through Justice Bellosillo' acquitted the appellant by a vote of 8-6, on the principal ground that “the evidence collated by the prosecution clearly falls short of the quantum of proof to convict the accused x x x.” Six justices, led by Justice Puno, contended that “the circumstantial evidence established the guilt of the accused-appellant beyond reasonable doubt.” Justice Vitug and I joined the dissenters, but voted “to impose reclusion perpetua, not death, on constitutional grounds.”
+
+Had two other magistrates voted with the dissenters, this case would have been a textbook example of my thesis. The vote would have been eight for conviction and six for acquittal, but the penalty imposed would have been reclusion perpetua only. Observe that of the eight justices voting for conviction, four would have agreed to impose such a penalty; and the remaining four who would have voted for conviction would have been short of the “majority” required to inflict the capital penalty.
+
+## THE CONSTITUTIONALITY OF THE DEATH PENALTY LAW
+
+Since the constitutionality of RA 7659 insofar as it imposes the death penalty is still very much in controversy, I am reproducing here my Separate Opinion in People v. Echegaray.
+
+“Death Penalty Law Unconstitutional
+
+“In his Supplemental Motion for Reconsideration dated August 22, 1996 filed by his newly-retained counsel, the accused raises for the first time a very crucial ground for his defense: that Republic Act No. 7659, the law reimposing the death penalty, is unconstitutional. In the Brief and (original) Motion for Reconsideration filed by his previous counsel, this transcendental issue was not brought up. Hence, it was not passed upon by this Court in its Decision affirming the trial court’s sentence of death.
+
+“The Constitution Abolished Death Penalty
+
+“Section 19, Article III of the 1987 Constitution provides:
+
+“Sec. 19. (1) Excessive fines shall not be imposed, nor cruel, degrading or inhuman punishment inflicted, Neither shall death penalty be imposed, unless for compelling reasons involving heinous crimes, the Congress hereafter provides for it. Any death penalty already imposed shall be reduced to reclusion perpetua.’ (Italics supplied)
+
+“The second and third sentences of the above provision are new and had not been written in the 1935, 1973 or even in the 1986 ‘Freedom Constitution.’ They proscribed the imposition of the death penalty ‘unless for compelling reasons involving heinous crimes, Congress provides for it,’ and reduced ‘any death penalty already imposed’ to reclusion perpetua. The provision has both a prospective aspect (it bars the future imposition of the penalty) and a retroactive one (it reduces imposed capital sentences to the lesser penalty of imprisonment).
+
+“This two-fold aspect is significant. It stresses that the Constitution did not merely suspend the imposition of the death penalty, but in fact completely abolished it from the statute books. The automatic commutation or reduction to reclusion perpetua of any death penalty extant as of the effectivity of the Constitution clearly recognizes that, while the conviction of an accused for a capital crime remains, death as a penalty ceases to exist in our penal laws and thus may no longer be carried out. This is the clear intent of the framers of our Constitution. As Comm. Bernas exclaimed, (t)he majority voted for the constitutional abolition of the death penalty.’
+
+“Citing this and other similar pronouncements of the distinguished Concom delegate, Mme. Justice Ameurfina Melencio-Herrera emphasized, ‘It is thus clear that when Fr. Bernas sponsored the provision regarding the non-imposition of the death penalty, what he had in mind was the total abolition and removal from the statute: books of the death penalty. This became the intent of the framers of the Constitution when they approved the provision and made it a part of the Bill of Rights.’ With such abolition as a premise, restoration thereof becomes an exception to a constitutional mandate. Being an exception and thus in derogation of the Constitution, it must then be strictly construed against the State and liberally in favor of the people In this light, RA 7659 enjoys no presumption of constitutionality.
+
+“The Constitution Strictly Limits Congressional Prerogative to Prescribe Death
+
+“To me, it is very clear that the Constitution (1) effectively removed the death penalty from the then existing statutes but (2) authorized Congress to restore it at some future time to enable or empower courts to re-impose it on condition that it (Congress) finds ‘compelling reasons, involving heinous crimes.’ The language of the Constitution is emphatic (even if ‘awkward’): the authority of Congress to ‘provide for it’ is not absolute. Rather, it is strictly limited:
+
+(1) by ‘compelling reasons’ that may arise after the Constitution became effective; and
+
+(2) to crimes which Congress should identify or define or characterize as ‘heinous.’
+
+“The Constitution inexorably placed upon Congress the burden of determining the existence of ‘compelling reasons’ and of defining what crimes are ‘heinous’ before it could exercise its law-making prerogative to restore the death penalty. For clarity’s sake, may I emphasize that Congress, by law, prescribes the death penalty on certain crimes; and courts, by their decisions, impose it on individual offenders found guilty beyond reasonable doubt of committing said crimes.
+
+“In the exercise of this fundamental mandate, Congress enacted RA 7659 to ‘provide for it’ (the death penalty) (1) by amending certain provisions of the Revised Penal Code; (2) by incorporating a new article therein; and (3) by amending certain special laws.
+
+“But RA 7659 did not change the nature or the elements of the crimes stated in the Penal Code and in the special laws. It merely made the penalty more severe. Neither did its provisions (other than the preamble, which was cast in general terms) discuss or justify j the reasons for the more severe sanction, either collectively for all the offenses or individually for each of them.
+
+“Generally, it merely reinstated the concept of and the method by which the death penalty had been imposed until February 2, 1987, when the Constitution took effect as follows: (1) a person is convinced of a capital offense; and (2) the commission of which was accompanied by aggravating circumstances not outweighed by mitigating circumstances.
+
+“The basic question then is: In enacting RA 7659, did Congress exceed the limited authority granted it by the Constitution? More legally put: In reviving the death penalty, did Congress act with grave abuse of discretion or in excess of the very limited power or jurisdiction conferred on it by Art. Sec. 19? The answer, I respectfully submit, is YES.
+
+“Heinous Crimes
+
+“To repeat, while the Constitution limited the power of Congress to prescribe the death penalty ONLY to ‘heinous’ crimes, it did not define or characterize the meaning of ‘heinous’. Neither did Congress. As already stated, RA 7659 itself merely selected some existing crimes for which it prescribed death as an applicable penalty. It did not give a standard or a characterization by which courts may be able to appreciate the heinousness of a crime. I concede that Congress was only too well aware of its constitutionally limited power. In deference thereto, it included a paragraph in the preambular or ‘whereas’ clauses of RA 7659, as follows:
+
+‘WHEREAS, the crimes punishable by death under this Act are heinous for being grievous, odious and hateful offenses and which, by reason of their inherent or manifest wickedness, viciousness, atrocity and perversity are repugnant and outrageous to the common standards and norms of decency and morality in a just, civilized and ordered society.’
+
+“In my humble view, however, the foregoing clause is clearly an insufficient definition or characterization of what a heinous crime is. It simply and gratuitously declared certain crimes to be ‘heinous’ without adequately justifying its bases therefore. It supplies no useful, workable, clear and unambiguous standard by which the presence of heinousness can be determined. Calling the crimes ‘grievous, odious and hateful’ is not a substitute for an objective juridical definition. Neither is the description ‘inherent or manifest wickedness, viciousness, atrocity and perversity.’ Describing blood as blue does not detract from its being crimson in fact; and renaming gumamela as rose will not arm it with thorns.
+
+“Besides, a preamble is really not an integral part of a law. It is merely an introduction to show its intent or purposes. It cannot be the origin of rights and obligations. Where the meaning of a statute q is clear and unambiguous, the preamble can neither expand nor restrict its operation, much less prevail over its text. In this case, it cannot be the authoritative source to show compliance with the Constitution.
+
+“As already alluded to, RA 7659 merely amended certain laws to prescribe death as the maximum imposable penalty once the court appreciates the presence or absence of aggravating circumstances. There’s nothing really new that Congress did which it could not have otherwise done had such provision not been included in our fundamental law.
+
+“In other words, it just reinstated capital punishment for crimes which were already punishable with death prior to the effectivity of the 1987 Constitution. With the possible exception of plunder and qualified bribery, no new crimes were introduced by RA 7659. The offenses punished by death under said law were already so punishable by the Revised Penal Code and by special laws. In short, Sec. 19, Article III of the Constitution did not have any impact upon the legislative action. It was effectively ignored by Congress in enacting the capital punishment law.
+
+“During the debate on Senate Bill No. 891 which later became RA 7659, Sen. Jose Lina, in answer to a question of Sen. Ernesto Maceda, wryly said:
+
+‘So we did not go that far from the Revised Penal Code, Mr. President, and from existing special laws which, before abolition of the death penalty, already had death as the maximum penalty.’
+
+“By merely reimposing capital punishment on the very same crimes which were already penalized with death prior to the charter’s effectivity, Congress I submit has not fulfilled its specific and positive constitutional duty. If the Constitutional Commission intended merely to allow Congress to prescribe death for these very same crimes, it would not have written Sec. 19 OF Article III into the fundamental law. But the stubborn fact is it did. Verily, the intention to 1) delete the death penalty from our criminal laws and 2) make its restoration possible only under and subject to stringent conditions is evident not only from the language of the Constitution but also from the charter debates on this matter.
+
+“The critical phrase ‘unless for compelling reasons involving heinous crimes’ was an amendment introduced by Comm. Christian Monsod. In explaining what possible crimes could qualify as heinous, he and Comm. Jose Suarez agreed on ‘organized murder’ or ‘brutal murder of a rape victim.” Note that the honorable commissioners did not just say ‘murder’ but organized murder; not just rape but brutal murder of a rape victim. While the debates were admittedly rather scanty, I believe that the available information shows that, when deliberating on ‘heinousness’, the Constitutional Commission did not have in mind the offenses already existing and already penalized with death. I also believe that the heinousness clause requires that:
+
+1) the crimes should be entirely new offenses, the elements of which have an inherent quality, degree or level of perversity, depravity or viciousness unheard of until then; or
+
+2) even existing crimes, provided some new element or essential ingredient like ‘organized’ or ‘brutal’ is added to show their utter perversity, odiousness or malevolence; or
+
+3) the means or method by which the crime, whether new or old, is carried out evinces a degree or magnitude of extreme violence, evil, cruelty, atrocity, viciousness as to demonstrate its heinousness.
+
+“For this purpose, Congress could enact an entirely new set of circumstances to qualify the crime as ‘heinous’, in the same manner that the presence of treachery in a homicide aggravates the crime to murder for which a heavier penalty is prescribed.
+
+“Compelling Reasons
+
+“Quite apart from requiring the attendant element of heinousness, the Constitution also directs Congress to determine ‘compelling reasons’ for the revival of the capital penalty. It is true that  paragraphs 3 and 4 of the preamble of RA 7659 made some attempt at meeting this requirement. But such effort was at best feeble and inconsequential. It should be remembered that every word or phrase in the Constitution is sacred and should never be ignored, cavalierly-treated or brushed aside. Thus, I believe that the compelling reasons and the characterization of heinousness cannot be done wholesale but must [be] shown for each and every crime, individually and separately.
+
+“The words ‘compelling reasons’ were included in the Charter because, in the words. of Comm. Monsod, ‘in the future, circumstances may arise which we should not preclude today x x x and that the conditions and the situation (during the deliberations of the Constitutional Commission) might change for very specific reasons’ requiring the return of the constitutionally-abhorred penalty.
+
+“In his sponsorship of House Bill No. 62 which later evolved into RA 7659, Congressman Pablo Garcia, in answer to questions raised by Representative Edcel Lagman tried to explain these compelling reasons:
+
+“MR. LAGMAN: So what are the compelling reasons now, Mr. Speaker? x x x
+
+MR. GARCIA (P.). The worsening peace and order condition in the country, Mr. Speaker. That is one.
+
+MR. LAGMAN. So the compelling reason which the distinguished sponsor would like to justify or serve as an anchor for the justification of the reimposition of the death penalty is the alleged worsening peace and order situation. The Gentleman claims that; that is one of the compelling reasons. But before we dissect this particular ‘compelling reason,’ may we know what are the other compelling reasons, Mr. Speaker?
+
+MR. GARCIA (P.) Justice, Mr. Speaker.
+
+MR. LAGMAN. Justice.
+
+MR. GARCIA (P.). Yes, Mr. Speaker.
+
+MR. LAGMAN. Justice is a compelling reason, Mr. Speaker? Could the Gentleman kindly elaborate on that answer? Why is justice a compelling reason as if justice was not obtained at; the time the Constitution abolished the death penalty? Any compelling reason should be a supervening circumstances after 1987.
+
+MR. GARCIA (P.). Mr. Speaker, I have repeatedly said again and again that if one lives in an organized society governed by law, justice demands that crime be punished and that the penalty imposed be commensurate with the offense committed.
+
+MR. LAGMAN. The Gentleman would agree with me that when the Constitution speaks of the compelling reasons to justify the reimposition of the death penalty, it refers to reasons which would supervene or come after the approval of the 1987 Constitution. Is he submitting that justice, in his own concept of a commensurate penalty for the offense committed, was not obtained in 1987 when the Constitution abolished the death penalty and the people ratified it?
+
+MR. GARCIA (P.). That is precisely why we are saying that now, under present conditions, because of the seriousness of the offenses being committed at this time, justice demands that the appropriate penalty must be meted out 1] for those who have committed heinous crimes.
+
+x x x
+
+“In short, Congressman Garcia invoked the preambular justifications of ‘worsening peace and order’ and ‘justice’. With all due respect I submit that these grounds are not ‘compelling’ enough to justify the revival of state-decreed deaths. In fact, I dare say that these ‘reasons’ were even non-existent. Statistics from the Philippine National Police show that the crime volume and crime rate particularly on those legislated capital offenses did not worsen but in fact declined between 1987, the date when the Constitution took effect, and 1993, the year when RA 7659 was enacted. Witness the following debate also between Representatives Garcia and Lagman:
+
+‘MR. LAGMAN. Very good, Mr. Speaker.
+
+Now, can we go to 1987? Could the Gentleman from Cebu inform us of the volume of the crime of murder in 1987?
+
+MR. GARCIA (P.). The volume of the crime of murder in 1987 is 12,305.
+
+MR. LAGMAN. So, the corresponding crime rate was 21 percent.
+
+MR. GARCIA (P.). Yes, Mr. Speaker.
+
+MR. LAGMAN. That was in 1987. Mr. Speaker, could the distinguished chairman inform us of the volume of murder in 1988?
+
+MR. GARCIA (P.). It was 10,521, Mr. Speaker.
+
+MR. LAGMAN. Or it was a reduction from 12,305 in 1987 to 10,521 in 1988. Correspondingly, the crime rate in the very year after the abolition of the death penalty was reduced from 21 percent to 18 percent. Is that correct, Mr. Speaker?
+
+MR. GARCIA (P.). That is correct, Mr. Speaker.
+
+Those are the statistics supplied by the PC.
+
+MR. LAGMAN. Now can we go again to 1987 when the Constitution abolished the death penalty? May we know from the distinguished Gentleman the volume of robbery in 1987?
+
+MR. GARCIA (P.). Will the Gentleman state the figure? I will confirm it.
+
+MR. LAGMAN. No. Mr. Speaker, I am asking the question.
+
+MR. GARCIA (P.). It was 22,942, Mr. Speaker, and the crime rate was 40 percent.
+
+MR. LAGMAN. This was the year immediately after the abolition of the death penalty. Could the Gentleman tell us the volume of robbery cases in 1988?
+
+MR. GARCIA (P.). It was 16,926, Mr. Speaker.
+
+MR. LAGMAN. Obviously, the Gentleman would agree with me, Mr. Speaker that the volume of robbery cases declined from 22,942 in 1987 or a crime rate of 40 percent to 16,926 or a crime rate of 29 percent. Would the Gentleman confirm that, Mr. Speaker?
+
+MR. GARCIA (P.). This is what the statistics say. I understand we are reading now from the same document.
+
+MR. LAGMAN. Now, going to homicide, the volume 1987 was 12,870 or; a crime rate of 22 percent. The volume in 1988 was 11,132 or a crime rate of 19 percent. Would the Gentleman confirm that, Mr. Speaker?
+
+MR. GARCIA (P.). As I said, Mr. Speaker, we are reading from the same document and I would not want to say that the Gentleman is misreading the document that I have here.
+
+MR. LAGMAN. But would the Gentleman confirm that?
+
+MR. GARCIA (P.). The document speaks for it itself.’
+
+“When interpellated by Sen. Arturo Tolentino, Sen. Jose Lina gave some figures on the number of persons arrested in regard to drug-related offenses in the year 1987 as compared to 1991:
+
+‘Let me cite these concrete statistics by the Dangerous Drug Board.
+
+‘In 1987 — this was the year when the death penalty was abolished — the persons arrested in drug-related cases were 3,062, and the figure dropped to 2,686 in 1988.
+
+‘By the way, I will furnish my Colleagues with a photocopy of this report.
+
+‘From 3,062 in 1987, it dropped to 2,686. Again, it increased a bit to 2,862 in 1989. It still decreased to 2,202 in 1990, ] and it increased again to 2,862 in 1991.
+
+‘But in 1987, when the death penalty was abolished, as far as the drug-related cases are concerned, the figure continued a downward trend, and there was no death penalty in this time from 1988 to 1991.’
+
+“In a further attempt to show compelling reasons, the proponents of the death penalty argue that its reimposition would pose an effective deterrent against heinous crimes. However no statistical data, no sufficient proof, empirical or otherwise, have been submitted to show with any conclusiveness i] the relationship between the prescription of the death penalty for certain offenses and the commission or non-commission thereof. This is a theory that can be debated on and on? in the same manner that another proposition — that the real deterrent to crime is the certainty of immediate arrest, prosecution and conviction of the culprit without unnecessary risk, expense and inconvenience to the victim, his heirs or his witnesses — can be argued indefinitely. This debate can last till the academics grow weary of the spoken word, but it would not lessen the constitutionally-imposed burden of Congress to act within the ‘heinousness’ and ‘compelling reasons’ limits of its death-prescribing power.
+
+“Other Constitutional Rights Militate Against RA 7659
+
+“It should be emphasized that the constitutional ban against the death penalty is included in our Bill of Rights. As such, it should — like any other guarantee in favor of the accused — be zealously protected,” i| and any exception thereto meticulously 1 screened. Any doubt should be resolved in favor of the people, particularly where the right pertains to persons accused of crimes.”
+
+“So too, all our previous Constitutions, including the first one ordained at Malolos, guarantee that ‘(n)o person shall be deprived of life, liberty or property without due process of law.” This primary right of the people to enjoy life — life at its fullest, life in iH dignity and honor — is not only reiterated by the 1987 Charter but is in fact fortified by its other pro-life and pro-human rights  provisions. Hence, the Constitution values the dignity of every human person and guarantees full respect for human rights," expressly prohibits any form of torture?” which is arguably a lesser penalty than death, emphasizes the individual right to life by giving protection to the life of the mother and the unborn from the moment of conception?" and establishes the people’s rights to health, a balanced ecology and education.
+
+“This Constitutional explosion of concern for man more than property, for people more than the state, and for life more than mere existence augurs well for the strict application of the constitutional limits against the revival of death penalty as the final and irreversible exaction of society against its perceived enemies.
+
+“Indeed, volumes have been written about individual rights to free speech, assembly and even religion. But the most basic and most important of these rights is the right to life. Without life, the other rights cease in their enjoyment, utility and expression.
+
+“This opinion would not be complete without a word on the wrenching fact that the death penalty militates against the poor, the powerless and the marginalized. The ‘Profile of 165 Death Row Convicts’ submitted by the Free Legal Assistance Group highlights this sad fact:
+
+‘(1) Since the reimposition of the death penalty, 186 persons have been sentenced to death. At the end of 1994, there were 24 death penalty convicts, at the end of 1995, the number rose to 90; an average of seven (7) convicts per month, double the monthly average of capital sentences imposed the prior year. From January to June 1996, the number of death penalty convicts reached 72, an average of 12 convicts per month, almost double the monthly average of capital ) sentences imposed in 1995.
+
+‘(2) Of the 165 convicts polled, approximately twenty one percent (21%) earn between P200 to P2,900 monthly; while approximately twenty seven percent (27%) earn between P3,000 to P3,999 monthly. Those earning above P4,000 monthly are exceedingly few: seven percent (7%) earn between P4,000 to P4,999, four percent (4%) earn between P5,000 to P5,999, seven percent (7%) earn between P6,000 to P6,999, those earning between P7,000 to P15,000 comprise only four percent (4%), those earning P15,000 and above only one percent (1%). Approximately thirteen percent (13%) earn nothing at all, while approximately two percent (2%) earn subsistence wages with another five percent (5%) earning variable income. Approximately nine percent (9%) do not know how much they earn in a month.
+
+“(3) Thus, approximately two-thirds of the convicts, about 112 of them, earn below the government-mandated minimum monthly wage of P4,290; ten (10) of these earn below the official poverty line set by the government. Twenty six (26) earn between P4,500.00 and P11,0000.00 monthly, indicating they belong to the middle class; only one (1) earns P30,000.00 monthly. Nine (9) convicts earn variable income or earn on a percentage or allowance basis; fifteen (15) convicts do not know or are unsure of their monthly income. Twenty two (22) convicts earn nothing at all.
+
+“(4) In terms of occupation, approximately twenty one percent (21%) are agricultural workers or workers in animal husbandry; of these, thirty (30), or almost one-fifth thereof, are farmers. Thirty five percent (35%) are in the transport and construction industry, with thirty one (31) construction workers or workers in allied fields (carpentry, painting, welding) while twenty seven (27) are transport workers (delivery, dispatcher, mechanic, tire man, truck helper) with sixteen (16) of them drivers. Eighteen percent (18%) H) are in clerical, sales and service industries, with fourteen (14) sales workers (engaged in buy and sell or fish, cigarette or rice vendors), twelve (12) service workers (butchers, beauticians, security i, guards, shoemakers, tour guides, computer programmers, radio technicians) and four (4) clerks (janitors, MERALCO employee and clerk). About four percent (4%) are government workers, with six (6) persons belonging to the armed services (AFP, PNP and even CAFGU). Professionals, administrative employees and executives comprise only three percent (3%), nine percent (9%) are unemployed.
+
+‘(5) None of the DRC’s use English as their medium of communication. About forty four percent (44%), or slightly less than half speak and understand Tagalog; twenty six percent (26%), or about one-fourth, speak and understand Cebuano. The rest speak and understand Bicolano, Ilocano, Ilonggo, Kapampangan, Pangasinense and Waray. One (1) convict is a foreign national and speaks and understands Niponggo.
+
+‘(6) Approximately twelve percent (12%) graduated from college, about forty seven percent (47%) finished varying levels of elementary education with twenty seven (27) graduating from elementary. About thirty five percent (35%), fifty eight (58) convicts, finished varying levels of high school, with more than half of them graduating from high school. Two (2) convicts finished vocational education; nine (9) convicts did not study at all.’
+
+“The foregoing profile based on age, language and socio-economic situations sufficiently demonstrates that RA 7659 has militated against the poor and the powerless in society — those who cannot afford the legal services necessary in capital crimes, where extensive preparation, investigation, research and presentation are required. The best example to show the sad plight of the underprivileged is this very case where the crucial issue of constitutionality was woefully omitted in the proceedings in the trial court and even before this Court until the Free Legal Assistance Group belatedly brought it up in the Supplemental Motion for Reconsideration.
+
+“To the poor and unlettered, it is bad enough that the law is complex and written in a strange, incomprehensible language. Worse still, judicial proceedings are themselves complicated, intimidating and damning. The net effect of having a death penalty that is imposed more often than not upon the impecunious is to engender in the minds of the latter, a sense — unfounded, to be sure, but unhealthy nevertheless — of the unequal balance of the scales of justice.
+
+“Most assuredly, it may be contended that the foregoing arguments, and in particular, the statistics above-cited, are in a very real sense prone to be misleading, and that regardless of the socio-economic profile of the DRCs, the law reviving capital punishment does not in any way single out or discriminate against the poor, the unlettered or the underprivileged. To put it in another way, as far as the disadvantaged are concerned, the law would still be complex and written in a strange and ini) comprehensible language, and judicial proceedings complicated and intimidating, whether the ultimate penalty involved be life (sentence) or death. Another aspect of the whole controversy is that, whatever the penalties set by law, it seems to me that there will always be a certain class or classes of people in our society who, by reason of their poverty, lack of educational attainment and employment opportunities, are consequently confined to living, working and subsisting in less-than-ideal environments, amidst less-than-genteel neighbors similarly situated as themselves, and are therefore inherently more prone to be involved (as victims or perpetrators) in vices, violence and crime. So from that perspective, the law reviving the ) death penalty neither improves nor worsens their lot substantially. Or, to be more precise, ) such law may even be said to help improve their situation (at least in theory) by posing a much stronger deterrent to the commission of heinous crimes.
+
+“However, such a viewpoint simply ignores the very basic differences that exist in the situations of the poor and the non-poor. Precisely because the underprivileged are what they are, they require and deserve a greater degree of protection and assistance from our laws and Constitution, and from the courts and the State, so that in spite of themselves, they can be empowered to rise above themselves and their situation. The basic postulates for such a position are, I think, simply that everyone ultimately wants to better himself and that we cannot better ourselves individually to any significant degree if we are unable to advance as an entire people and nation. All the pro-poor provisions of the Constitution point in this direction. Yet we are faced with this law that effectively inflicts the ultimate punishment on none other than the poor and disadvantaged in the greater majority of cases, and which penalty, being so obviously final and so irreversibly permanent, erases all hope of reform, of change for the better. This law, I submit, has no place in our legal, judicial and constitutional firmament.
+
+“Epilogue
+
+“In sum, respectfully submit that:
+
+“(1) The 1987 Constitution abolished the death penalty from our statute books. It did not merely suspend or prohibit its imposition.
+
+“(2) The Charter effectively granted a new right: the constitutional right against the death penalty, which is really a species of the. right to life.
+
+“(3) Any law reviving the capital penalty must be strictly construed against the State and liberally in favor of the accused because such a statute denigrates the Constitution, impinges on a basic right and tends to deny equal justice to the underprivileged.
+
+“(4) Every word or phrase in the Constitution is sacred and should never be ignored, cavalierly-treated or brushed aside.
+
+“(5) Congressional power to prescribe death is severely limited by two concurrent requirements:
+
+(a) First, Congress must provide a set of attendant circumstances which the prosecution must prove beyond reasonable doubt, apart from the elements of the crime and itself. Congress must explain why and how these circumstances define or characterize the crime as ‘heinous’.
+
+(b) Second, Congress has also the duty of laying out clear and specific reasons which arose after the effectivity of the Constitution compelling the enactment of the law. It bears repeating that these requirements are inseparable. They must both be present in view of the specific constitutional mandate - ‘for compelling reasons involving heinous crimes.’ The compelling reason: must flow from the heinous nature of the offense.
+
+“(6) In every law reviving the capital penalty, the heinousness and compelling reasons must be set out for each and every crime, and not just for all crimes generally and collectively.
+
+'Thou shall not kill’ is a fundamental commandment to all Christians, as well as to the rest of the ‘sovereign Filipino people’ who believe in Almighty God. While the Catholic Church, to which the vast majority of our people belong, acknowledges the power of public authorities to prescribe the death penalty, it advisedly limits such prerogative only to ‘cases of extreme gravity.” To quote Pope John Paul II in his encyclical Evangelicum Vitae (A Hymn to Life), ‘punishment must be carefully evaluated and decided upon, and ought not go to the extreme of executing the offender except in cases of absolute necessity: in other words, when it would not be possible otherwise to defend society x x x (which is) very rare, if not i) practically non-existent.’
+
+“Although not absolutely banning it, both the Constitution and the Church indubitably abhor the death penalty. Both are pro-people and pro-life. Both clearly recognize the primacy of human life over and above even the state which man created precisely to protect, cherish and defend him. The Constitution reluctantly allows capital punishment only for ‘compelling reasons involving heinous crimes’ just as the Church grudgingly permits it only for reasons of ‘absolute necessity’ involving crimes of ‘extreme gravity’, which are very rare and practically non-existent.
+
+“In the face of these evident truisms, I ask: Has Congress, in enacting RA 7659, amply discharged its constitutional burden of proving the existence of ‘compelling reasons’ to prescribe death against well-defined ‘heinous’ crimes?
+
+“I respectfully submit it has not.
+
+“WHEREFORE, premises considered, I respectfully vote to grant partially the Supplemental Motion for Reconsideration and to modify the dispositive portion of the decision of the trial court by deleting the words ‘DEATH, as provided for under RA 7659,’ and substitute therefor reclusion perpetua.
+
+“I further vote to declare RA 7659 unconstitutional insofar as it prescribes the penalty of death for the crimes mentioned in its text.”

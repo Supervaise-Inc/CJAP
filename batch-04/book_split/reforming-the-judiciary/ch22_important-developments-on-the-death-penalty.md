@@ -1,0 +1,215 @@
+# Chapter 22: Important Developments on the Death Penalty
+
+In four previous books, I always included a discussion on important developments on the death penalty. The present volume is no exception.
+
+## No New Executions During My Seventh Year
+
+Under the present Death Penalty Law (RA 7659), Leo Echegaray was the first convict lethally injected on February 5, 1999. Since then, the following have also been executed: Eduardo Agbayani for rape on June 25, 1999; Dante Piandiong, Jesus Morallos and Archie Bulan for robbery with homicide on July 8, 1999; Pablito Andan for rape with homicide on October 26, 1999; and Alex Bartolome for rape on January 4, 2000.
+
+It will be recalled that in People v. Echegaray, the Supreme Court in a per curiam Resolution passed by a vote of 12-3 upheld the constitutionality of the death penalty prescribed by RA 7659. Thus, the Court has continued to review death cases. As of August 8, 2002, it has affirmed 143 death impositions, according to statistics submitted by the SC Judicial Records Office.
+
+However, to the relief of those who oppose the death penalty on philosophical or legal grounds, only the seven convicts mentioned earlier have been actually killed by lethal injection. It seems the executive branch of government has shown some reluctance in fully implementing the Death Penalty Law.
+
+Notably, on December 11, 2000, the local dailies bannered former President Joseph Ejercito Estrada's "moratorium on the executions of all convicts whose capital sentences had been affirmed by the Supreme Court." This no-execution policy was continued by President Gloria Macapagal Arroyo and, despite sometimes conflicting announcements on her position on the death penalty, no executions have thus far been carried out as of the writing of this book on October 10, 2002. The scheduled executions of Rolando Pagdayawon on August 30, 2002, Eddie Sernadilla' on September 3, 2000 and Filomeno Serrano on September 20, 2002 were postponed for 90 days each, consistent with the reprieves granted by President Arroyo in her Memorandum dated August 27, 2002? This policy was reiterated in newspaper reports that came out on October 2, 2002.
+
+In the meantime, Congress is again seriously discussing the repeal of the law prescribing death. Media are ablaze with reports that over 130 House members led by Reps. Krisel Lagman-Luistro, Loretta Ann Rosales, Orlando Fua Jr. and Teodoro Locsin Jr. support its abolition.? In the Senate, Senators Aquilino Q. Pimentel Jr., Franklin M. Drilon, Edgardo J. Angara, Sergio R. Osmeña III, Joker P. Arroyo, Manuel B. Villar, Juan M. Flavier, John Henry R. Osmeña, Francis N. Pangilinan, Ralph G. Recto, Vicente C. Sotto III, Teresa Aquino-Oreta, Luisa P. Ejercito-Estrada, Noli L. De Castro and Robert S. Jaworski have filed Senate Bill 2060 "providing for the imposition of the penalty of imprisonment for thirty years instead of the death penalty.”
+
+Pagdayawon v. Secretary of Justice ruled that "the mere pendency of a bill in either or both Houses of Congress should not per se warrant outright issuance of a temporary restraining order to stay the execution of a death sentence that has become final." The remedy lies not in the Supreme Court but in the Office of the President to which any plea for reprieve (or even pardon) ought to be properly addressed."
+
+In the same Decision, the Supreme Court also refused to review again the constitutionality of the death penalty, because this issue "cannot be made to depend on the individual opinions of the members who compose the Court." In short, none of the new justices added a new vote in favor of unconstitutionality.
+
+However, as already mentioned in my earlier books, the international trend is unmistakably towards the abolition of legalized killing. Article 1 of the Optional Protocol to the International Covenant on Civil and Political Rights states that "no one within the jurisdiction of a State party to the present protocol shall be executed." Although this Optional Protocol has been adopted by the United Nations as early as December 15, 1989, the Philippines has not signed, ratified or acceded to it. But the fact is, more and more states are joining this movement towards the preservation of life.
+
+## 143 Death Cases Affirmed by the SC as of August 8, 2002
+
+On August 7, 2002, media bannered that "a total of 107 death convicts, including a Philippine National Police (PNP) officer, were spared from death by lethal injection after the Supreme Court lowered their sentences to reclusion perpetua or 40 years imprisonment."
+
+The source of the news item was a press conference conducted by the Public Attorney's Office (PAO) headed by Persida Rueda-Acosta. PAO reported that during the period January 2001 to July 2002, these sentence reductions were "won" by the PAO in the Supreme Court.
+
+This Report created a stir in public reactions aired by radio and TV stations on the mistaken notion the Supreme Court had "commuted" the penalties. Typical, however, of the more subdued comments on this piece of news was the editorial of the Philippine Star on the following day, August 8, 2002, saying that "the unusually high number [of sentence reductions and acquittals] has disturbing implications. One is that judges in the lower courts are doing sloppy work to do the homework and pass the right judgment on criminal cases. It also indicates sloppy work on the part of law enforcers - the arresting officers and those tasked to gather evidence that will guarantee an airtight case."
+
+At bottom, the Star concluded that the PAO report "makes it more urgent to overhaul the criminal justice system." The editorial could have added that there was also a need to review the wisdom and the necessity of the death penalty. For indeed, if trial courts could be wrong more than they could be correct in imposing the capital sentence, then there is always a probability of an erroneous death being inflicted.
+
+In any event, disturbing to the public as these figures may have been, they do not really tell the complete story. Our Judicial Records Office in the Supreme Court reports that since the Echegaray affirmance in 1997 till August 8, 2002, the following are the more complete statistics on death penalty cases decided by the Supreme Court:
+
+1. Total number of death cases reviewed - 483
+
+2. Total number of cases in which the death penalty was affirmed - 143
+
+3. Total number of cases in which the accused were acquitted - 46
+
+4. Total number of cases in which the penalties were modified or reduced, and of those that were remanded for further proceedings in the trial court due to improvident pleas of guilt - 294
+
+The foregoing statistics show that, as reported in my previous four books,14 the Supreme Court has affirmed only about one third of all death penalties imposed by the lower courts. In the other two thirds, the penalties were lowered, or the accused acquitted, or the cases remanded to the trial courts for further proceedings due to grave errors in legal procedures.
+
+Why does the Supreme Court lower (not "commute") the penalties? It does so, largely because the trial courts and the prosecution have overlooked the basic legal principle that the death penalty cannot be imposed under any of the following conditions:
+
+1. The prosecution fails to allege qualifying or aggravating circumstances in the information. For example, a killing is deemed to be merely homicide punishable with reclusion temporal, if no qualifying circumstance is alleged in the information. The usual qualifying circumstance is "treachery." Now, murder is punishable with "reclusion perpetua to death.” To justify the imposition of the death penalty in a prosecution for murder, an aggravating circumstance like nighttime or dwelling must likewise be alleged in the information. In short, to impose death in a murder charge, a qualifying and an aggravating circumstance must be alleged in the information and proven beyond reasonable doubt during the trial.
+
+2. The prosecution is for incestuous rape, but the age of the victim and her exact relationship with the accused are not stated in the information and proven beyond reasonable doubt during the trial. The failure to allege and to prove either of these facts will mean that death cannot be imposed. The minority of the victim and her filial relationship to the offender are special circumstances that partake of the nature of the elements of the crime. Due process and the constitutional right of the accused "to be informed of the nature and cause of the accusation" require that "every element of the offense must be alleged in the information" and proven during the trial.
+
+3. The heinous crimes were committed prior to the effectivity of the Death Penalty Law on  December 31, 1993. Thus, a murder committed on December 1, 1993, even with aggravating circumstances, will not be penalized with death. This is true even if the judgment was rendered after December 31, 1993.
+
+4. The prosecution is for statutory rape — the victim was below 7 years old at the time of the rape - but her age was not alleged in the information and proven during the trial.
+
+5. The prosecution is for the possession or the sale of more than 200 grams of illegal drugs (marijuana), but no aggravating circumstance is alleged in the information and proven during the trial.
+
+6. The proven facts show that a lesser crime, which is included in the charge, was actually committed, and so only the penalty for the lesser crime can be imposed. Hence, if only attempted - not consummated - rape was proven, the penalty cannot be death.
+
+7. Youthful male offenders have "behave[d] properly and x x x shown [their] capability as useful members of the community."
+
+8. The offender  was a minor at the time the crime was committed. Minority is a "privileged" mitigating circumstance.
+
+Acquittals happen when the corpus delicti of the crime is not proven, or the evidence does not establish the identity of the culprit beyond reasonable doubt. On the other hand, a remand is ordered as a consequence of the improvident plea of guilt by the accused.
+
+## Recent Jurisprudential Pronouncements
+
+During my seventh year (October 11, 2001-October 10, 2002), the Supreme Court ruled on the following new important pronouncements:
+
+## 1. The Complainant's Age Cannot Be Stipulated.
+
+As above stated, in incestuous rape, the age of the victim and her exact relationship to the offender must be alleged in the information and proven during the trial. To emphasize this strict principle, People v. Agravantel held that the age of the complainant cannot be the subject of an agreement between the prosecution and the defense. "The stipulation of facts, therefore, cannot be used as evidence of complainant’s age at the time of [the] rapes in question."
+
+This rule was reiterated in People v. Sajolga, which held that the relationship of the parties "cannot be the subject of stipulation of the parties" in a death penalty case. "The reason for this is that the age (below 18) and relationship of the offender and the offended party in Art. 266-B, par. 1 are in the nature of qualifying circumstances requiring the imposition of a more severe penalty."
+
+In Sajolga, the Court also said in passing that "there are no half measures in the Heinous Crime Law x x x (which) does not distinguish between full blood and half blood relatives."
+
+Indeed, "an accused cannot be condemned to suffer the extreme penalty of death on the basis of stipulations or his own admissions. This strict rule is warranted by the seriousness of the penalty of death."
+
+## 2. Sufficiency of Proof of The Victim's Age
+
+In rape cases, the age of the victim must both be alleged in the information and adequately proven during the trial. As to what is "adequate" proof has been the subject of many, sometimes confusing, decisions of the Supreme Court. To clarify, the Court1 penned by Chief Justice Hilario G. in People v. Pruna, Davide Jr. - issued guidelines as follows:
+
+"A person's age is best proved by the birth certificate. But is the presentation of the victim's birth certificate a sine qua non requirement to prove her age for the appreciation of minorities either as an element of the crime or as a qualifying circumstance? Recent jurisprudence has conflicting pronouncements.
+
+"In the following cases, no birth certificate was presented and this Court ruled that the age of the victim was not duly proved by the prosecution:
+
+"1. In People v. Vargas,19 the testimonies of the victim and her aunt that the former was 10 years old at the time of the rape were not considered proof of her age for being hearsay. This Court also observed that the victim could easily be mistaken for a child below 12 years of age, and hence it was not correct to judge the victim's age by her appearance. We held: 'The difference of two or three years in age may not always be readily apparent by mere physical manifestations or appearance.'
+
+"2. In People v. Javier, the victim was alleged to be 16 years old, and the accused did not contest her age. Ratiocinating that in this age of modernism, there is hardly any difference between a 16-year-old girl and an 18-year-old one insofar as physical features and attributes are concerned, this Court held that an independent proof of the actual age of a rape victim is vital and essential so as to remove any iota of doubt that the victim is indeed under 18 years of age as to fall under the qualifying circumstances enumerated in R.A. No. 7659.
+
+"3. In People v. Brigildo, aside from the failure of the prosecution to present the offended party's birth certificate or other equally acceptable official document concerning her age, the testimonies on record were not clear as to her exact age. The victim declared that she was 1 years old when she testified in court a year after the incident, while her mother claimed that she was around 15 years old at the time of the commission of the crime. The information even alleged a different age. Hence, this Court refused to appreciate the qualifying circumstance of the minority because of the uncertainty regarding her age.
+
+"4. In People v. Tipay, the offended party was alleged in the information to be under 16 years of age. No 'independent' evidence was presented to prove it. This Court recognized that the minority of a victim who may be below the age of 10 is quite manifest and may be taken judicial notice of by the court. But when the victim is between the crucial years of 15 and 17 where the minority may seem to be dubitable due to one's physical appearance, the prosecution should prove the fact of minority with certainty. The lack of objection on the part of the accused concerning the victim's age does not excuse the prosecution from discharging its burden.
+
+"5. In People v. Cula, the victim was alleged in the complaint to be 16 years old when the rape was committed, but no evidence at all was presented to prove her age. We held that the failure of the accused to deny such an allegation cannot make up for the failure of the prosecution to prove with certainty the victim's minority. Because of the lacuna in the prosecution's evidence, coupled with the trial court's failure to make a categorical finding of minority of the victim, we declined to consider the qualifying circumstance of minority.
+
+"6. In People v. Veloso, the victim was alleged to be 9 years of age when she was raped. Citing People v. Vargas, this Court refused to consider the testimonies of the victim and her father as sufficient proof of her age.
+
+"7. In People v. Pecayo, the victim simply stated during the beginning of her direct examination that she was 14 years old and that she was born on 13 January 1983. We held that the victim's casual testimony as to her age is not enough, and that the lack of denial on the part of the accused does not excuse the prosecution from proving her age through competent evidence such as a duly certified certificate of live birth, baptismal certificate, or some other authentic document showing her age.
+
+"8. In People v. Tundag, the victim testified that she was 13 years of age when she was raped, but she did not know exactly when she was born. Unable to secure a copy of her birth certificate, the prosecution moved that judicial notice be taken of the fact that she was below 18 years old at the time of the rape. Despite the admission by the defense of such fact, this Court held that the age of the victim is not a matter of judicial notice, whether mandatory or discretionary. Under Section 3, Rule 129 of the Rules on Evidence, a hearing is required before such fact can be taken judicial notice by courts.
+
+"9. In People v. Geraban, the victim's testimony was categorical in declaring that she was 15, but her mother's testimony regarding her age was not clear. We thus declared that the prosecution failed to discharge the burden of proving minority.
+
+"10. In People v. Liban, and People v. Llandelar, the only evidence adduced to prove the minority of the victims was the victim's bare testimony that they were 10 and 16 years old, respectively. This Court held that while the declaration of a victim as to her age, being an exception to the hearsay proscription, would be admissible under the rule on pedigree, the question on the relative weight that may be accorded to it is another matter. The prosecution should present the victim's birth certificate or, in lieu thereof, any other documentary evidence, like a baptismal certificate, school records, and documents of similar nature, or credible testimonial evidence that can help establish the age of the victim. Neither the obvious minority of the victim nor the absence of any contrary assertion from the defense can exonerate the prosecution from its burden. Judicial notice of the issue of age without the requisite hearing under Section 3 of Rule 129 of the Rules on Evidence would not be sufficient compliance with the law.
+
+"11. In People v. Alvarado, the victim testified that she was 14 years old at the time accused, who was the victim's father. The victim's mother, however, testified as to her date of birth which showed that she was 13 years of age at the time of the commission of the crime. For this doubt as to the victim's age, the accused was held guilty of simple rape only and meted the penalty of reclusion perpetua, and not death penalty.
+
+"On the other hand, in the following cases, we ruled that the age of the rape victim was sufficiently established despite the failure of the prosecution to present the birth certificate e on of the offended party to prove her age:
+
+"1. In People v. Rafales, the testimony of the victim and her mother that the former was only 10 years old when she was raped, which was not denied by the accused, was deemed sufficient to prove her age for the purpose of determining whether the accused could be held guilty of statutory rape, which is carnal knowledge of a woman below 12 years of age.
+
+"2. In People v. De la Cruz, the testimony of the mother alone that her two daughters were both 14 years old at the time of the rape incidents was deemed sufficient because there was no reason to doubt the testimony of the mother, who had personal knowledge of the ages of her children. Moreover, said testimony was never challenged by the accused and stood unrebutted by any other evidence.
+
+"3. In People v. Bali-balita, the victim’s testimony as to her age, which was corroborated by her half-sister, was deemed sufficient. We noted that the victim testified in court four months after the rape, and hence it was not difficult for the trial court to take judicial notice that she was under 18 years of age.
+
+"4. In People v. Velasco, the minority of the victim was deemed established by (a) the complainant herself, who was held to be competent to testify on her age, as it constituted family tradition; (b) the open admission of the accused that the victim was a 12-year-old minor; and (c) the categorical finding of the trial court that she was 'minor of a little over twelve years.'
+
+"5. In People v. Remudo, the trial court appreciated the qualifying circumstance of minority on the strength of (a) the offended party's testimony as to the date of her birth, which showed that she was 13 years old at the time of the rape, and (b) the admission of said date of birth by the accused who was the victim's brother.
+
+“6. In People v. Llanita, the only evidence presented by the prosecution to establish that the victim was below 7 years old at the time of the alleged rape was the victim's own testimony. Although hearsay because she could not have personal knowledge of the date of her birth but could only acquire knowledge thereof from her parents or relatives, said testimony was held admissible for being an assertion of family tradition regarding pedigree. Her testimony and the accused's admission that she was 5 years old during the commission of the crime were held sufficient to establish her age.
+
+"7. In People v. Agustin, the victim's testimony that she was 14 years old at the time of the rape incidents, coupled with the express admission of her age by the accused who was her father, sufficiently proved her minority.
+
+"8. In People v. Esuela, the testimony of the victim's mother that the victim was 13 years of age at the time of the rape was held sufficient to establish minority for the reason that as a mother she was in the best position to know when she delivered her child. Also considered were the victim's own testimony regarding her age, as well as the observation of the trial court that she could not have been more than 18 years old when she testified.
+
+"In order to remove any confusion that may be engendered by the foregoing cases, we hereby set the following guidelines in appreciating age, either as an element of the crime or as a qualifying circumstance.
+
+"1. The best evidence to prove the age of the offended party is an original or certified true copy of the certificate of live birth of such party.
+
+"2. In the absence of a certificate of live birth, similar authentic documents such as baptismal certificate and school records which show the date of birth of the victim would suffice to prove age.
+
+"3. If the certificate of live birth or authentic document is shown to have been lost or destroyed or otherwise unavailable, the testimony, if clear and credible, of the victim's mother or a member of the family either by affinity or consanguinity who is qualified to testify on matters respecting pedigree such as the exact age or date of birth of the offended party pursuant to Section 40, Rule 130 of the Rules on Evidence shall be sufficient under the following circumstances.
+
+a. If the victim is alleged to be below 3 years of age and what is sought to be proved is that she is less than 7 years old;
+
+b. If the victim is alleged to be below 7 years of age and what is sought to be proved is that she is less than 12 years old;
+
+c. If the victim is alleged to be below 12 years of age and what is sought to be proved is that she is less than 18 years old.
+
+"4. In the absence of a certificate of live birth, authentic document, or the testimony of the victim's mother or relatives concerning the victim's age, the complainant’s testimony will suffice provided that it is expressly and clearly admitted by the accused.
+
+"5. It is the prosecution that has the burden of proving the age of the offended party. The failure of the accused to object to the testimonial evidence regarding age shall not be taken against him.
+
+"6. The trial court should always make a categorical finding as to the age of the victim."
+
+## 3. The Accused Must Have Been Properly Identified.
+
+In People v. Escordial, the Court acquitted the accused because of the defective out-of-court and in-court identification of the appellant as the person who had robbed and raped the victim and her companions on the night of December 27, 1996. The circumstances surrounding the show-up, the victim's determination to seek justice, as well as the disparity between her description of her attacker and the appearance of the appellant rendered his identity dubious. The Court explained
+
+"A show-up, such as what was undertaken by the police in the identification of accused-appellant by Michelle Darunday, has been held to be an underhanded mode of identification for 'being pointedly suggestive, generating confidence where there was none, activating visual imagination, and all told, subverting one’s reliability as [an eyewitness]. In these cases, Michelle knew that she was going to identify a suspect when she went to Pontevedra. Upon seeing the accused-appellant escorted by Tancinco and his colleagues in the Bacolod police, she knew that he was the suspect she was supposed to identify. When accused-appellant was thus shown to her, there could be no doubt as to what was expected of her. Further aggravating the situation were the reply of the policeman to accused-appellant's protestations of innocence that he was being held for rape and Michelle's aunt's obvious assumption of his guilt. Michelle's immediate conclusion, therefore, that the accused-appellant was her attacker was understandable . As has been explained:
+
+'Social psychological influences. Various social psychological factors also increase the danger of suggestibility in a lineup confrontation. Witnesses, like other people, are motivated by a desire to be correct and to avoid looking foolish. By arranging a lineup, the police have evidenced their belief that they have caught the criminal; witnesses, realizing this, probably will feel foolish if they cannot identify anyone and therefore may choose someone despite residual uncertainty. Moreover, the need to reduce psychological discomfort often motivates the victim of a crime to find a likely target for feelings of hostility.
+
+'Finally, witnesses are highly motivated to behave like those around them. This desire to conform produces an increased need to identify someone in order to show the police that they, too, feel that the criminal is in the lineup, and makes the witnesses particularly vulnerable to any clues conveyed by the police or other witnesses as to whom they suspect of the crime. . .
+
+"Coupled with the failure of Michelle to see the face of her assailant, the apparent suggestiveness of the show-up places in doubt her credibility concerning the identity of accused-appellant. The possibility that her identification of accused-appellant was merely planted in her mind both by the circumstances surrounding the show-up and her concomitant determination to seek justice cannot be disregarded by this Court.
+
+“Michelle’s identification of accused-appellant is further rendered dubious by the disparity between her description of her attacker and the appearance of accused-appellant.
+
+## 4. The Information Must Be Sufficient.
+
+In People v. Quezada, the RTC convicted appellant of rape under the second circumstance (the victim was "unconscious") listed under in Article 335 of the Revised Penal Code, but he argued that the Informations had charged him with rape under the first paragraph (the use of "force and intimidation").
+
+The Court upheld the lower court because the complainant's unconsciousness was the immediate and direct consequence of the force, the violence and the threats employed by appellant in raping her. "It is not necessary for the consequent unconsciousness to be alleged in the Information. Indeed, in the present case, the loss of consciousness was the immediate result of the appellant's violence."
+
+## 5. The Town Mayor Is Not an Independent Counsel.
+
+The Court acquitted appellant in People v. Velarde, because his constitutional right to be assisted by an independent and competent counsel during the custodial investigation was violated. He was supposedly represented by the mayor of the town where he was  arrested and investigated. The Court explained:
+
+"Under the circumstances, Atty. Domingo cannot be considered as an independent counsel. He was the mayor of Malolos at the time. As such, he exercised 'operational supervision and control' over the PNP unit in that municipality. His powers included the utilization of the elements thereof for the maintenance of peace and order; the prevention of crimes, the arrest of criminal offenders and the bringing of offenders to justice.
+
+"As mayor of Malolos, his duties were inconsistent with those of his responsibilities to appellant, who was already incarcerated and tagged as the main suspect in the rape-slay case. Serving as counsel of appellant placed him in direct conflict with his duty of 'operational supervision and control' over the police. 'What the Constitution requires in Article III Section 12(1) is the presence of competent and independent counsel, one who will effectively undertake his client's defense without any intervening conflict of interest.' Evidently, Atty. Domingo, being the mayor of the place where the investigation was taken, could not act as counsel, independent or otherwise, of appellant."
+
+## 6. Oral Extra-Judicial Confessions Are Not Allowed.
+
+The Court ruled in People v. Felixminia that the admission made by appellant to PO3 Roberto Reyes — a member of the Philippine National Police (PNP) stationed in Urdaneta, Pangasinan — was inadmissible in evidence because it had not been written.  Notwithstanding this, the High Court sustained his conviction because the circumstantial evidence effectively pointed to him, to the exclusion of all other ed. as the person who had committed the crime.
+
+## 7. DNA Testing Is Reliable.
+
+Deoxyribonucleic acid (DNA) is an organic substance that contains one's genetic code and is found in one's cells. Except for identical twins, each person's DNA profile is distinct and unique. Thus, like the al fingerprint, the DNA print is unique to an individual and is thus a reliable source of evidence proving or disproving the identity of a person.
+
+In People v. Vallejo, the appellant assailed the National Bureau of Investigation's DNA analysis of the evidence sample consisting of the victim's bloodstains, hair strands, nails and vaginal smears. He claimed that the specimens were already contaminated, as they had been soaked in smirchy water before they were submitted to the NBI laboratory.
+
+The Court has ruled that DNA testing is resorted to in order to ascertain whether an association exists between the evidence and the reference sample. It may yield three possible results:
+
+"1) The samples are different and therefore must have originated from different sources (exclusion). This conclusion is absolute and requires no further analysis or discussion.
+
+“2) It is not possible to be sure, based on the results of the test, whether the samples have similar DNA types (inconclusive). This might occur for a variety of reasons including degradation, contamination, or failure of some aspect of the protocol. Various parts of the analysis might then be repeated with the same or a different sample, to obtain a more conclusive result; or
+
+“3) originated from the same source (inclusion). In such a case, [wherein] the samples are found to be similar, the analyst proceeds to determine the statistical significance of the similarity."
+
+According to the High Tribunal, lower courts assessing the probative value of DNA evidence must consider the following, among other things: (1) how the samples were collected, (2) how they were handled, (3) the possibility of their contamination, (4) whether the proper standards and procedures were followed in conducting the tests, and (5) the qualification of the analyst who conducted the tests.
+
+In Vallejo, the vaginal swabs taken from the victim were found positive for the presence of human DNA which, upon further analysis, showed the DNA profile of the appellant. Thus, his identity as the rapist was established. Relying on the totality of the evidence presented by the prosecution, the Court affirmed the death penalty imposed by the RTC.
+
+In his Motion for Reconsideration, the appellant questioned the reliability of the DNA analysis conducted by the NBI. He claimed that DNA testing in this country was merely "junk science." The Court disagreed and said that DNA tests in our country were scientific and credible.
+
+There are now two DNA testing laboratories in the Philippines: (1) the Natural Science and Research Institute (NSRI) DNA Analysis Laboratory at the University of the Philippines, which has been conducting DNA typing research and analysis since 1996; and (2) the NBI DNA testing laboratory. In ascertaining the reliability of these facilities, the Court explained: "No one reading the scientific papers presented at the Third Convention and Seminar of the Philippine Judges Association on June 11, 1999 can doubt the credibility of DNA tests done in the Philippines. As pointed out by Dr. Saturnina C. Halos, then supervisor, UPNSRI DNA Analysis Laboratory, in her paper entitled, 'Current Trends in DNA Typing and Applications in the Judicial System':
+
+The Philippines now has the facility and the expertise in using DNA tests by STR analysis for identification and for paternity testing. It will be of tremendous help in declogging the courts of civil cases involving paternity suits if DNA tests are accepted. DNA tests can also be used to exonerate individuals in rape cases and other violent crimes where human tissues are left in scenes of crime. It is respectfully proposed that the justice system accept DNA tests as a reliable investigative tool for forensic purposes.
+
+## 8. The Court Votes Separately on Guilt and on Penalty.
+
+In People v. Roque, the Court - citing Section 22 of RA 7659 amending Article 47 of the Revised Penal Code - explained that in death penalty cases, it votes separately on these two issues: (1) whether the appellant is guilty, and (2) whether the death sentence should be imposed. It held thus:
+
+"The Court heretofore acknowledged that circumstances could exist to warrant an  exercise of such forbearance. In People us. Santos,51 the Court considered the acts of the deceased victim, a former municipal mayor, in clearing and working on the land claimed by the longots which could have been seen by the accused as an act of oppression and abuse of authority which he felt morally bound to forestall, as well as the limited schooling of the accused, as justification to reduce the penalty of death to reclusion perpetua. In People vs. De la Cruz, the Court took into account, in lowering the penalty to reclusion perpetua for the accused most of whom were already death row convicts, the deplorable sub-human conditions of the National Penitentiary where the crime was committed. In People vs. Marcos, the failure of the appellant to realize the gravity of his offense was held to justify the reduction of the penalty of death to reclusion perpetua.
+
+"In this case, appellant argued for the application of some leniency to him. Indeed, in U.S. vs. Dichao, although not exactly on all fours, the dismissal by the trial court on the  ground that the Information charged the accused with rape committed 'on or about and during the interval between October, 1910 to August 1912' was sustained by the Court, upon the thesis that allegations of the information should be sufficiently explicit as to time as to aptly inform the defendant of the accusation. The necessity that allegation in the Information be specific enough should be understandable particularly when the accused would be minded to raise the defense of alibi. The instant information, which placed the time of the commission of the offense sometime in 1992, and subsequent thereto, in 1994, concededly was widely inclusive spanning, as it so period of two years. Understandably, it unduly put the accused, who raised the defense of alibi, [to] the difficult task of accounting in detail his actions for every single day of the two-year period to prove that he could not have committed the particular offense charged.
+
+"The Court is convinced of the guilt beyond reasonable doubt of appellant for the crime with which he has been charged but, given the circumstances hereinabove stated, there is, in the mind of the Court, sufficient justification in imposing on him the reduced penalty of reclusion perpetua."
+
+## 9. Illegal Possession of Firearm Is No Longer Punishable as a Separate Offense.
+
+In Transparency, Unanimity & Diversity (2000), I recalled that in People v. Molina and subsequent cases, the Court ruled that, pursuant to RA 8294, the accused may no longer be held liable for illegal possession of a firearm, if the gun was used in the commission of another crime, for which the accused was convicted. In People v. Ladjaalam, we said “x x x if an unlicensed firearm is used in the commission of any crime, there can be no separate offense of simple illegal possession of firearms." Recently, People v. Bernal held that this principle applies even if the illegal possession was committed before July 6, 1997 - the date of effectivity of RA 8294 - because "the amendment contained in RA 8294 is favorable to the" accused; thus, "the law should be given retroactive effect."

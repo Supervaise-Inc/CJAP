@@ -1,0 +1,16 @@
+order,book_title,part_label_as_printed,classification,skip_reason,chapter_no,chapter_title,start_page,end_page,word_count,file,collected_piece,original_date,original_outlet,flags
+1,With Due Respect (Vol. 1),Cover and title page,SKIP,title page,,,,,17,,no,,,
+2,With Due Respect (Vol. 1),"Copyright page, CIP data, imprint",SKIP,copyright page,,,,,140,,no,,,
+3,With Due Respect (Vol. 1),Table of Contents,SKIP,table of contents,,,,,550,,no,,,
+4,With Due Respect (Vol. 1),"Foreword by Isagani Yambot, Publisher, Philippine Daily Inquirer",SKIP,"foreword, by someone else",,,,,411,,no,,,
+5,With Due Respect (Vol. 1),BOOK 1: On Gloria Macapagal-Arroyo,SKIP,part divider,,,,,5,,no,,,
+6,With Due Respect (Vol. 1),CHAPTER 1 GMA's Legacy,CHAPTER,,1,GMA's Legacy,,,889,ch01_gma-s-legacy.md,yes,2007-08-12,Philippine Daily Inquirer (column “With Due Respect”),
+7,With Due Respect (Vol. 1),CHAPTER 2 For or Against GMA,CHAPTER,,2,For or Against GMA,,,899,ch02_for-or-against-gma.md,yes,2007-09-30,Philippine Daily Inquirer (column “With Due Respect”),
+8,With Due Respect (Vol. 1),CHAPTER 3 Rage for Truth,CHAPTER,,3,Rage for Truth,,,900,ch03_rage-for-truth.md,yes,2008-03-02,Philippine Daily Inquirer (column “With Due Respect”),
+9,With Due Respect (Vol. 1),CHAPTER 4 Untrammeled Search for Truth,CHAPTER,,4,Untrammeled Search for Truth,,,894,ch04_untrammeled-search-for-truth.md,yes,2008-03-16,Philippine Daily Inquirer (column “With Due Respect”),
+10,With Due Respect (Vol. 1),"CHAPTER 5 Country, Democracy, and Economy",CHAPTER,,5,"Country, Democracy, and Economy",,,815,ch05_country-democracy-and-economy.md,yes,2008-03-23,Philippine Daily Inquirer (column “With Due Respect”),ocr-garbled-date-line
+11,With Due Respect (Vol. 1),CHAPTER 6 Can GMA Reign Beyond 2010?,CHAPTER,,6,Can GMA Reign Beyond 2010?,,,870,ch06_can-gma-reign-beyond-2010.md,yes,2008-07-20,Philippine Daily Inquirer (column “With Due Respect”),
+12,With Due Respect (Vol. 1),CHAPTER 7 Will GMA Win the Cha-cha War?,CHAPTER,,7,Will GMA Win the Cha-cha War?,,,863,ch07_will-gma-win-the-cha-cha-war.md,yes,2008-07-27,Philippine Daily Inquirer (column “With Due Respect”),
+13,With Due Respect (Vol. 1),CHAPTER 8 Limits of Presidential Power,CHAPTER,,8,Limits of Presidential Power,,,866,ch08_limits-of-presidential-power.md,yes,2009-08-23,Philippine Daily Inquirer (column “With Due Respect”),
+14,With Due Respect (Vol. 1),CHAPTER 9 Dress Her Down Anyway,CHAPTER,,9,Dress Her Down Anyway,,,886,ch09_dress-her-down-anyway.md,yes,2009-12-13,Philippine Daily Inquirer (column “With Due Respect”),
+15,With Due Respect (Vol. 1),CHAPTER 10 How GMA Can Prolong Her Stay,CHAPTER,,10,How GMA Can Prolong Her Stay,,,887,ch10_how-gma-can-prolong-her-stay.md,yes,2010-01-31,Philippine Daily Inquirer (column “With Due Respect”),

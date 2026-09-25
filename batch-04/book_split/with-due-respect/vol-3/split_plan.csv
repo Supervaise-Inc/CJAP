@@ -1,0 +1,12 @@
+order,book_title,part_label_as_printed,classification,skip_reason,chapter_no,chapter_title,start_page,end_page,word_count,file,collected_piece,original_date,original_outlet,flags
+1,With Due Respect (Vol. 3),BOOK 3: On Legal Reform,SKIP,part divider,,,,,5,,no,,,
+2,With Due Respect (Vol. 3),CHAPTER 1 Mediation: A Useful Tool to Unclog Dockets,CHAPTER,,1,Mediation: A Useful Tool to Unclog Dockets,,,852,ch01_mediation-a-useful-tool-to-unclog-dockets.md,yes,2007-05-27,Philippine Daily Inquirer (column “With Due Respect”),
+3,With Due Respect (Vol. 3),CHAPTER 2 Legal Empowerment of the Poor,CHAPTER,,2,Legal Empowerment of the Poor,,,893,ch02_legal-empowerment-of-the-poor.md,yes,2007-07-29,Philippine Daily Inquirer (column “With Due Respect”),
+4,With Due Respect (Vol. 3),CHAPTER 3 Role of the Judicial and Bar Council,CHAPTER,,3,Role of the Judicial and Bar Council,,,848,ch03_role-of-the-judicial-and-bar-council.md,yes,2007-09-09,Philippine Daily Inquirer (column “With Due Respect”),
+5,With Due Respect (Vol. 3),CHAPTER 4 Reforming the Judicial and Bar Council,CHAPTER,,4,Reforming the Judicial and Bar Council,,,847,ch04_reforming-the-judicial-and-bar-council.md,yes,2007-09-16,Philippine Daily Inquirer (column “With Due Respect”),
+6,With Due Respect (Vol. 3),"CHAPTER 5 How to Pass, Nay, Top the Bar Exams",CHAPTER,,5,"How to Pass, Nay, Top the Bar Exams",,,949,ch05_how-to-pass-nay-top-the-bar-exams.md,yes,2008-04-20,Philippine Daily Inquirer (column “With Due Respect”),
+7,With Due Respect (Vol. 3),CHAPTER 6 Responsibility for Selecting Justices,CHAPTER,,6,Responsibility for Selecting Justices,,,868,ch06_responsibility-for-selecting-justices.md,yes,2008-10-12,Philippine Daily Inquirer (column “With Due Respect”),
+8,With Due Respect (Vol. 3),CHAPTER 7 CJ Puno and Ombudsman Gutierrez,CHAPTER,,7,CJ Puno and Ombudsman Gutierrez,,,909,ch07_cj-puno-and-ombudsman-gutierrez.md,yes,2009-01-25,Philippine Daily Inquirer (column “With Due Respect”),
+9,With Due Respect (Vol. 3),CHAPTER 8 Jolting Assault on JBC,CHAPTER,,8,Jolting Assault on JBC,,,557,ch08_jolting-assault-on-jbc.md,yes,2009-08-02,Philippine Daily Inquirer (column “With Due Respect”),
+10,With Due Respect (Vol. 3),CHAPTER 9 Like Cory or Like Ferdie,CHAPTER,,9,Like Cory or Like Ferdie,,,134,ch09_like-cory-or-like-ferdie.md,yes,2009-08-09,Philippine Daily Inquirer (column “With Due Respect”),
+11,With Due Respect (Vol. 3),CHAPTER 10 Small Claims Court,CHAPTER,,10,Small Claims Court,,,880,ch10_small-claims-court.md,yes,2010-12-12,Philippine Daily Inquirer (column “With Due Respect”),

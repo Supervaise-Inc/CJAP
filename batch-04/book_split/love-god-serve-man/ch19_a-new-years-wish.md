@@ -1,0 +1,21 @@
+# Chapter 19: A New Year's Wish
+
+(Editor's note: A stirring New Year message for the year 1991 printed in the January 3, 1991 issue of the Rotary Balita. The author expressed only one wish: "That I become more open to Him and His word so that daily I may do only what He wills for me.")
+
+I never thought that the Soviet Union, while embracing and professing communism, would reconcile with Christianity. More incredibly, I did not think that Mikhail Gorbachev would visit the Pope and tell him that Russia made a mistake in suppressing Czechoslovakia and in invading Afghanistan. And much more than that, I never imagined that Gorbachev could tell the Pope that it was a mistake to exclude religion from the life of the Russian people.
+
+Perestroika and glasnost were just the beginning of the thaw. Now, free enterprise, individual initiative and liberalism in economic policies are sweeping that once-upon-a-time caged empire. Even Rotary made history with the organization of the first Rotary Club of Moscow earlier this year.
+
+Many years ago, what I knew about the Soviet Union concerned only heartless men who were constantly chasing James Bond, but who were nonetheless defeated by the superior and oftentimes romantic wiles of Agent 007. Now the Iron Curtain has been lifted and I find the image of God, be he Russian, fulfillment in this life as well as in the next. For man is basically the same; his spirit is created in the image of God, be he Russian, American or Filipino. This spirit hungers and thirsts for fulfillment.
+
+Some people try to satisfy their hunger and thirst by turning to worldly pleasures - drugs, women, wine and wealth. Some give vent to their ire through a madding lust for power - by manipulating
+
+others and controlling political and business empires. Some bathe themselves in the sunshine of mob adulation. But this greed for money, power and glorification are all self-destructive and at best, temporary. They may please, for a time, the human in man, but they can never satisfy the more overwhelming spirit in man.
+
+St. Augustine once said that man is restless till he rests in God. Yes, there is a restlessness in each of us that can be put to rest only in God. I did not have to be a Russian to discover that I cannot separate religion from my daily life; that I cannot dichotomize my work from my faith; that I should live each day - whether at home or outside - with the same eternal faith and enduring values; and that my Christianity and my humanity are one inseparable whole.
+
+While I have always believed in a Divine Creator and Maker, I also thought (in my restless past) that He was someone apart and unreachable. I thought that prayer was not important because this God knew everything and it was not necessary to ask from Him what He already knew I needed. Or sometimes, I even thought that my problems were so insignificant that I should not bother Him with them.
+
+But now I know that my God is a personal God. He is Jesus - my friend who guides me and consoles me; who attends to me and loves me. Every morning as I wake up, I immediately speak with Him in my thoughts - to thank Him, to praise Him, to ask Him to open my eyes and my heart so I can receive His word. It is not what I ask of Him that really matters; it is what He tells me I should do that truly matters. For I am but a servant of God. Nothing more.
+
+During this new year 1991, I ask the Lord for only one wish - that I become more open to Him and His word so that daily, I may do only what He wills for me. As Jesus taught in the Lord's prayer - that "Thy will be done" - in my life, in my family, in my career, in the Rotary Club of Manila and in my country.

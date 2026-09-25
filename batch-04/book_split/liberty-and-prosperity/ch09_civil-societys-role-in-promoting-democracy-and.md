@@ -1,0 +1,127 @@
+# Chapter 9: Civil Society's Role in Promoting Democracy and Development
+
+Good afternoon. I am pleased and honored to be with you this afternoon during this 51st Globalization Lecture Series, spearheaded by the Asian Institute of Management Policy Center. For a particularly special reason, this was one invitation I could not say no to despite my busy schedule. My wife Leni's 32-year stint as a faculty member at the AIM exerts such a tectonic influence over me. I am afraid that this time -- and this time only - I have to succumb to influence, lest I risk eternal silence and damnation from my wife.
+
+Levity aside, I welcome this opportunity to share my views on the judicial philosophy that I had been espousing even before I assumed office as Chief Justice of the Philippines. In quite a number of fora, I have talked about safeguarding the liberty and nurturing the prosperity of our people; in short, Liberty and Prosperity. This is the first time, though, that I have been asked to correlate this philosophy with civil society's role in economic development.
+
+To make this presentation easier and more systematic, I have decided to divide my discussion into three main sections: (1) a brief disquisition on Liberty and Prosperity; (2) the stake and role of civil society in this new egalitarian philosophy; and (3) specific ways in which civil society can contribute to the promotion of the political liberty and economic prosperity of our people. All these I shall discuss from the perspective of the judiciary.
+
+## The Imperatives of Liberty and Prosperity
+
+Upon assuming office as Chief Justice of the Philippines on December 21, 2005, I immediately declared my vow to lead a judiciary characterized by four Ins: integrity, independence, industry and intelligence; and one that is morally courageous to stand its ground against the onslaughts of influence, interference, and indifference.
+
+Verily, I envision a judiciary that is impervious to the plague of "ships" - kinship, relationship, friendship and fellowship. And one that battles what I call the ACID problems of (1) limited access to justice by the poor, (2) corruption, (3) incompetence and (4) delay in the delivery of quality judgments. In reforming the judiciary, I shall focus on these four ACID problems that corrode justice in our country.
+
+The Supreme Court is mandated to watch over not only the entire judiciary, but also the Philippine bar --the vineyard from which our judges take root. Accordingly, I look for legal professionals who will courageously uphold truth and justice above everything else, above even their own and their clients' interests and causes. The renaissance of the legal profession should see the emergence of competent and ethical lawyers who will be willing and able to stand for their convictions against all odds; to carry on in spite of seemingly insurmountable opposition; and to be marginalized.
+
+This vision of a reformed judiciary and a revitalized legal profession is directed towards two loftier goals of safeguarding the liberty and nurturing the prosperity of our people, while upholding the rule of law and the independence of the judiciary.
+
+It is easy to see the role of courts as the great equalizers between the citizens and the government. It has become usual for people to seek refuge in the halls of justice when conflicts arise. This need becomes more urgent when the conflict is between individual freedoms whether civil, political or economic - on the one hand; and, on the other, the awesome powers of the State and governmental institutions.
+
+By civil liberties I mean, in particular, the inviolability of our persons and our homes from arbitrary searches and seizures, those guaranteeing our freedoms of abode and travel, and the so-called Miranda rights of persons accused of crimes. The battle for civil liberties is in fact a never-ending saga of trials and triumphs for the judiciary and for our people. And so will such struggles continue to dot the pages of our nation's history.
+
+Ironically, how much lawyers know about protecting civil liberties seems to be negatively correlated with how little they have thus far devoted to nurturing the prosperity of our people. Apparently, this is the reality that persists despite the mandates of marginalized and the poor; (2) to promote a just and dynamic social order that will ensure the prosperity and independence of the nation and free the people from poverty; and (3) to achieve a more equitable distribution of opportunities, income and wealth.
+
+The constitutional mandate to achieve the goal of prosperity was given to all three departments of government: the executive, the legislative and the judiciary. In my book Leveling the Playing Field, I underscored the balancing role of the judiciary in our government. I said that while the Supreme Court was keenly aware of the continuing need for "eternal vigilance" in protecting our hard-won political freedoms and civil rights, it also recognized its increasingly important role in economic development.
+
+Let me quote directly from that book: "[The Court] knows that integrity, stability and predictability in judicial decisions are needed to achieve the nation's goal of prosperity and progress. Moreover, it joins our policymakers in their desire to attract investments, both local and foreign; to elevate the gross national product, the gross international reserves; the per capita income of our people, the stock market index and other growth indicators."
+
+That is to say, "The Supreme Court safeguards not only food but also freedom; not only jobs but also justice; not only indulgences but also integrity; not only development but also democracy; not only prosperity but also peace."
+
+I am truly convinced that the prosperity of our people requires as much nurturing in the present century as that accorded to liberty in the past. To be relevant, courts must be constantly attuned to the needs of the present and the vagaries of the future, so that they can respond in a timely and prudent manner to the people's ever-expanding well-being. How courts cope with the stark realities of poverty has become the litmus test for the fulfillment of their mandate to weigh the scales of justice in favor of the downtrodden and the neglected.
+
+Amid this paradigm shift in the role of the courts in economic development are welcome moves to redefine poverty as a "deprivation of essential assets and opportunities to which every human is entitled."
+
+Under this new definition, the right to prosperity is elevated to the level of a universal human right. Hence, it definitely needs attention, cultivation and protection by the courts -- nay, by everyone.
+
+In short, the battle for liberty and prosperity is in the final analysis a battle for the poor and the marginalized, the forgotten and the deprived. Indeed, freedom and political equality are meaningless to people who wallow in grinding poverty, debilitating disease and inexplicable hunger. Human dignity requires both liberty and prosperity, both democracy and development.
+
+## Liberty and Prosperity
+
+Civil society organizations have a long tradition in the Philippines. Informal groups and other forms of citizen associations had been in existence even way before the term "civil society" was consciously conceived. Our realization and appreciation of the full potentials and power of civil society is a fairly recent development, however.
+
+Civil society, as we know it now, includes self-help groups; neighborhood associations and community organizations; religious and spiritual societies; professional associations; business foundations; local philanthropies; private voluntary organizations (PVOs) and nongovernmental organizations (NGOs); and a wide variety of aggroupments: workers, farmers, urban poor, indigenous people, elderly citizens, disabled people, women, children, students and the like.
+
+Needless to say, civil society has been in the forefront of the fight for liberty. Popular action has brought down a dictatorship; it has also rejected a once populist, but later perceived to be corrupt, administration. Thus has "People Power" been carved into the consciousness of our citizenry - lying latent while restrained, but deadly when unleashed. For this reason, civil society is considered a pillar of our democracy, the conscience of government, and the overseer of governmental actions. In this sense, it precedes the judiciary as the vanguard of our freedoms and the protector of our liberties.
+
+But civil society operates not just in the political arena; most of the time, it operates outside of it. Noteworthy in fact are its contributions to the provision of basic social services; grassroots organization and development; resolution of conflict situations; and various trainings in human rights, gender equality, credit and debt repayment, and about almost everything else in the whole gamut of human activity.
+
+Civil society should likewise be credited for directing attention and channeling resources to the needs of the poor and disadvantaged majority of our society. This all-encompassing role of civil society makes it a necessity in a democracy -- as essential to good governance as a robust media and an idealistic student movement.
+
+## Legal Framework for Participation
+
+Like any other entity, civil society exists and operates within the legal framework laid down by our Constitution and our laws. Thus, it enjoys all the rights guaranteed to all persons under the Bill of Rights; among these are the freedoms of speech, association, and assembly; and the right to information on matters of national concern.
+
+Owing to the constitutional mandate to ensure the people's participation at all levels of policymaking, the government is duty-bound to accord civil society an environment suitable to the latter's viability and buoyancy. For this reason, civil society organizations (CSOs), people's organizations (POs) and nongovernmental organizations (NGOs) have been granted tax exemptions and other benefits - including Official Development Assistance (ODA) funds - for their activities.
+
+The legal limits of the participation of civil society in our nation's affairs are therefore circumscribed only by the same Constitution and laws that sustain it. Within legal bounds, it may strongly advocate a certain position, but it must at the same time respect the rights fair comment, privacy and disclosure. It may work actively in human resource organization and mobilization, but it must take care not to overstep the boundaries of legitimate people's actions and assemblies.
+
+As expressed in the objectives of a particular people's organization, it must "pursue and protect, within the democratic framework, the [people's] legitimate and collective interests and aspirations through peaceful and lawful means."
+
+In fine, civil society must draw the line between, on one side, legitimate protest and active participation in government; and, on the other side, unlawful mass actions, interference and destabilization efforts. One only needs to be reminded that democratic space is healthy for the advancement of both democracy and development, while anarchy is destructive of both liberty and prosperity.
+
+## Ways of Contributing to Economic Growth
+
+There is a growing agreement that civil society, civic culture, and social capital are all important for strengthening democracy and enabling conflict resolution. Fostering democratic governance should therefore be a good way in which civil society could contribute to economic growth.
+
+In a recent round-table discussion on economic growth, I was privileged to express and exchange views with top economists. Among them was Professor William Easterly who had recently published a much-acclaimed book entitled Elusive Quest for Growth, 12 Finance Secretary Margarito Teves, former Prime Minister Cesar Virata, former National Economic and Development Authority Director-General Felipe Medalla, Senator and Senate Ways and Means Committee Chair) Ralph Recto, business leader Jaime Augusto Zobel de Ayala II, Professor Alex Magno, IMF Resident Representative Reza Bagir, and World Bank Country Director Joaquim von Amsberg.
+
+After a long and lively discussion - and given the contrasting models of economic growth in the United States and Europe on the one hand; and, on the other, China, Chile, Singapore and Vietnam -- we all came to the conclusion that there was no single international formula that would ensure rapid economic growth. For side with prosperity as a durable combination for lasting economic success.
+
+Regarding our Philippine experience, I contributed my own view that the peculiar facts and distinct circumstances of the Philippines would make the formula Liberty and Prosperity still the most viable economic and judicial philosophy here. After all, during the years of Martial Law, authoritarian rule was proven to be incapable of producing meaningful long-term economic progress. Even more important, our people value their freedoms very dearly and will not exchange them for food. They may endure occasional hunger, but they will never tolerate injustice and indignity for long:
+
+## Role of Donor Agencies
+
+Indeed, the imperative of achieving economic growth within a democratic system has recently influenced multilateral and bilateral donor agencies to direct their support programs towards the establishment of more accountable and rule-based institutions.
+
+This re-direction is intended to facilitate and enhance access to justice by the poor; in turn, greater development.
+
+The United Nations Development Programme (UNDP), for instance, has been actively engaged in building and enhancing the capacities of the courts, the prosecution and law enforcement arms of the government, as well as legal support groups. The UNDP seeks to achieve these goals by supporting the following:
+
+1. The development, institutionalization, and implementation of policies and mechanisms to address problems of the poor, especially the women, to help them gain greater access to justice
+
+2. Critical justice agencies, so they may increase their awareness of and enhance their capacities for respecting, protecting and fulfilling the rights of the citizens - particularly the poor and disadvantaged --through programs such as free legal assistance, and enhanced information and education, communication technologies
+
+3. Linkages and synergy among various agencies under the five pillars of justice and at all levels
+
+4. Efforts to strengthen and expand stakeholder networks and partnerships among the government, civil society, academe, church, private sector and media; and their initiatives to advocate, review and monitor reforms in the justice and human rights sector.
+
+To reduce human poverty in the Philippines, UNDP seeks to promote growth with equity, an objective that entails creating more wealth while closing the gap between the rich and the poor.
+
+Both the World Bank and the Asian Development Bank believe that good governance is a prerequisite to economic growth and poverty alleviation. Both of these international developmental institutions are passionate in their efforts to enhance access to justice by the poor, as well as transparency and accountability in the government. These twin objectives are likewise the advocacies of both the judiciary and civil society.
+
+This commonality of interests and goals is also evident in The Asia Foundation's current programs in the Philippines. To promote better governance, it supports economic growth; strengthens the rule of law; and fosters peace and development, especially in Mindanao. The foundation believes that long-term political and social stability can be achieved by sustaining economic growth and reducing poverty. Hence, it has been helping the government, local NGOs, and the private sector to strengthen democratic institutions and create sustainable economic growth.
+
+Another focus of concern is the issue of corruption that cripples the economy. These developmental agencies therefore encourage public debate, partner with government agencies such as the Department of Education, and foster a corruption-intolerant culture. More important, they pour assistance into efforts to address inefficiency in the legal system, a problem that also constrains economic growth and lessens access to justice by the citizenry.
+
+Also noteworthy is the assistance given by the United States Agency for International Development (USAID; and the national aid agencies of Australia, Britain, Canada, Japan, the Netherlands and other countries. One of the projects assisted by the USAID and The Asia Foundation is called Transparent and to build civil society and private sector constituencies for a counter-corruption reform agenda aimed at economic growth and poverty reduction.
+
+Civil society has the capability to mobilize power among the nation's poor, as well as to influence the government in reforming specific anti-poor policies and practices especially at local levels. This remarkable capability should likewise be put to good use. Indeed, civil society has much to contribute to rousing people's consciousness through organization and advocacy within the allowed limits. Moreover, it also has the capacity to equip the great masses of our people with the skills and abilities they need to rightfully claim their meaningful share of available assets and resources.
+
+In June 2004, former Brazilian President Fernando Henrique Cardoso, chair of the Panel of Eminent Persons on United Nations-Civil Society Relations, reported that "[p]ublic opinion has become a key factor influencing intergovernmental and governmental policies and actions."
+
+The panel's report noted that "citizens increasingly act politically by participating directly, through civil society mechanisms, in policy debates that particularly interest them. xxx. This constitutes a broadening from representative to participatory democracy. Traditional democracy aggregates citizens by communities of neighborhood (their electoral districts), but in participatory democracy citizens aggregate in communities of interest. xxx."
+
+## Role of Civil Society
+
+From the foregoing discussion, it is obvious that civil society assists the three great branches of government in their common effort to uplift our people from the plagues of misgovernance, tyranny, poverty and want. Specifically, it can also play a significant role in promoting economic development by supporting judicial initiatives along this line. That support can take various forms.
+
+First, civil society can initiate the judicial process by prosecuting or defending cases and causes that bear judiciary cannot act, unless appropriate proceedings are initiated by proper parties. Here, civil society can tap the help of professional lawyers groups like the Integrated Bar of the Philippines, the Philippine Bar Association, and the Free Legal Assistance Group (FLAG).
+
+Second, civil society should push for the legal empowerment or the use of the law by the poor to exercise more control over their lives. On this point, let me refer to an ADB-commissioned study on how legal empowerment contributes to good governance, poverty reduction and other developmental goals.
+
+That study recommended 1) raising awareness of the law and the rights it confers through a mix of informational/ educational campaigns and trainings; 2) extending legal assistance, so that the poor can take action to assert their rights or push for the enforcement of judgments; and 3) ensuring participation by the poor or their representatives in local governance structures.
+
+Third, civil society can advocate collective cooperation in solving poverty. Ingenious ways of reducing this problem have recently been aired in the wake of global recognition of the widening gap between the rich and the poor. Calls to reduce poverty include proposals to "buy" peace by seeing to it that what would otherwise be allocated to military spending and other concerns are rechanneled towards providing for the "world's poorest of the poor, whose societies are destabilized by extreme poverty and thereby become havens of unrest, violence, and even global terrorism."
+
+Noteworthy is the fact that Bill and Melinda Gates -- the world's richest multi-billionaire couple -- have contributed huge sums of money, through the Gates Foundation, to save 700,000 lives through vaccinations and public health care. On the other hand, rock star Bono, Time magazine's other "Person of the Year" for 2005, "charmed and bullied and morally blackmailed the leaders of the world's richest countries into forgiving $40 billion in debt owed by the poorest. Now, these countries can spend the money on health and schools rather than interest payments, and have no more excuse for not doing so."18 These efforts are being replicated around the world by various charities, POs, NGOs and civil society.
+
+A myriad of other possibilities can be added to the list of areas in which civil society may operate and be involved. For sure, the field of cooperative endeavors, as much as civil society itself, is sprouting and evolving.
+
+## Conclusion
+
+Civil society has a big stake in ensuring the liberty and prosperity of our people. Like you, I realize that the road to attaining the twin objectives of liberty and prosperity may be long and difficult. But with your help and active participation, the vision becomes clearer and our resolve firmer.
+
+As I close my address, may I reiterate my clarion call to the business community a month ago, on and fearlessly espousing both jobs and justice, food and freedom, investments and integrity, economics and ethics, development and democracy; in short, Liberty and Prosperity.
+
+Maraming salamat po.

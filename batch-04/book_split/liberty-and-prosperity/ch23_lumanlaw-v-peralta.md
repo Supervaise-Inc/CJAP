@@ -1,0 +1,47 @@
+# Chapter 23: Lumanlaw v. Peralta: Violation of the Right to Speedy Trial
+
+## The Facts
+
+Petitioner Lumanlaw was charged with illegal possession of a dangerous drug in November 2002. He was detained in the Manila City Jail by virtue of a Commitment Order. From the time of his arrest in 2002 up to the filing of the instant Petition in 2004, his arraignment was postponed a total of 14 times for various reasons, such as the absence of petitioner’s counsel, the trial judge’s unavailability, and the jail warden’s failure to bring him to court.
+
+These postponements resulted in his detention for almost two years, without the benefit of an arraignment. Thus, he filed two Motions to Dismiss the Information against him, on the ground that his right to speedy trial had been violated. Both Motions were denied by respondent judge.
+
+Petitioner filed a Petition for Mandamus under Rule 65, arguing that respondent’s failure to act expeditiously on his arraignment violated his right to speedy trial and justified the dismissal of the charge against him.
+
+## The Issues
+
+The issues were as follows:
+
+1. Whether there was a violation of the right to speedy trial
+
+2. Whether mandamus was the proper remedy
+
+## The Court’s Ruling
+
+The Petition was granted in a unanimous ruling penned by the Chief Justice. The right of the accused to speedy trial was deemed violated because, for almost two years, the trial court had unreasonably failed to conduct the arraignment of petitioner. For this violation of his constitutional right, the Court ruled that he could compel the dismissal of the Information against him through a petition for mandamus.
+
+## First Issue: Violation of the Right to Speedy Trial
+
+The 30-day period for an arraignment provided in the Speedy Trial Act is not absolute. Judicial proceedings do not exist in a vacuum, but have to contend with the realities of everyday life. Rather than merely making mathematical calculations of periods that have elapsed between stages, one should consider if the delays were vexatious, capricious, oppressive, or unjustified.
+
+This Court reviewed the reasons for the postponements in the case and found that the violation of petitioner’s right to speedy trial was manifest, given the length and the unreasonableness of a majority of the delays. It saw in the fourteen postponements a lack of earnest effort on the part of respondent to conduct the arraignment as soon as the court calendar allowed.
+
+An arraignment takes, at most, ten minutes of the court’s business and does not normally entail legal gymnastics. It consists simply of reading to accused persons the charges leveled against them, ensuring their understanding of those charges, and obtaining their plea to the charges. A prudent and resolute judge can conduct an arraignment as soon as the accused is presented before the court. For this reason alone, the high tribunal was astonished that the lower court could not complete this simple but fundamental stage in the proceedings.
+
+The absence of petitioner’s counsel de parte during arraignment was not a valid reason to postpone it. It would have been more prudent for the judge to have appointed a counsel de oficio for purposes of arraignment only. This course of action became more compelling in the instant case when the accused himself requested the appointment. Thus, the decision of respondent to deny the request was unreasonable, without legal basis, and generally attributable to his inflexibility as regards contingencies.
+
+The foremost cause for the lengthy delay was the repeated failure of the jail wardens to bring petitioner to court. Although the deferment of the arraignment until the accused was presented was justified,[9] the problem could have easily been averted by efficient court management. As an administrator, respondent judge should have supervised[10] his clerk of court to ensure a timely service of the produce orders on the wardens of the Manila City Jail. Judges who set the pace for greater efficiency, diligence and dedication can prompt their personnel to be more diligent and efficient in the performance of official duties.
+
+The Court held that, under the given circumstances, respondent failed to assert his authority actively, so as to expedite the proceedings. He allowed the listlessness of the parties, his staff, and the jail wardens to dictate the pace of the proceedings. As further aggravation, he did not exert any effort to expedite the arraignment even after petitioner had filed two urgent Motions to Dismiss.
+
+Judges should be more deliberate in their actions and make full use of their authority to expedite proceedings.[13] Delays in the disposition of cases erode the faith and confidence of our people in the judiciary, lower its standards, and bring it into disrepute.
+
+## Second Issue: Mandamus as the Proper Remedy
+
+Well-established is the principle that a writ of mandamus may be issued to control the exercise of discretion. The issuance of the writ is warranted when, in the performance of a duty, there is undue delay that can be characterized as a grave abuse of discretion resulting in manifest injustice. The numerous and unreasonable postponements in the present case displayed an abusive exercise of discretion, in total disregard of the constitutional rights of petitioner. In fact, respondent’s Orders denying his Motions to Dismiss did not even bother to explain the reasonableness of the bases for the postponements.
+
+Also, established in this jurisdiction is the general rule that a writ of mandamus is available to the accused to compel a dismissal of the case.
+
+Respondent judge argued for the dismissal of the instant Petition on the ground that petitioner had not moved for a reconsideration of the trial court’s Order dated May 3, 2004. The former insisted that a prerequisite to a mandamus petition was a motion for reconsideration -- a remedy that was plain, speedy, and adequate in the ordinary course of law.
+
+This general rule cited by the respondent was not impervious to exceptions. In the face of extraordinary and compelling reasons, the availability of another remedy did not preclude a resort to a special civil action under Rule 65. Since the delays in the case at bar had been ordered in total disregard of the constitutional rights of petitioner, the instant case easily fell under those exceptions.[18] This Court will not deny a writ of mandamus on purely technical matters, like the failure of a party to seek reconsideration and to follow the hierarchy of courts, if that party would be deprived of substantive rights. Procedural rules will not be strictly enforced if their enforcement would result in a miscarriage of justice. This principle holds, especially when a petition is meritorious and the trial judge has clearly violated the petitioner’s constitutional rights. The protection of our people’s civil liberties overwhelms all rules of procedure. This Court has the duty to safeguard liberty; hence, it will always uphold the basic constitutional rights of our people, especially the weak and the marginalized.

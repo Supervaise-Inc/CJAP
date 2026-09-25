@@ -1,0 +1,137 @@
+# Chapter 28: Manila International Airport Authority v. City of Parañaque: The Power of Local Governments to Tax National Government Instrumentalities
+
+## The Facts
+
+Under Executive Order (EO) No. 903, known as the Revised Charter of the Manila International Airport Authority (MIAA), petitioner was created to administer and operate the Ninoy Aquino International Airport (NAIA) Complex in Parañaque City. EO 903 transferred to Petitioner MIAA approximately 600 hectares of land, including the runways and buildings under the then Bureau of Air Transportation.
+
+In 1997, the Office of the Government Corporate Counsel (OGCC) opined that the Local Government Code of 1991 had withdrawn the exemption from real estate tax granted to MIAA under Section 21 of EO 903. Hence, petitioner negotiated with and paid part of the real estate tax due Respondent City of Parañaque. Subsequently, MIAA received from respondent Final Notices of Real Estate Tax Delinquency in the total amount of P624,506,725.42 for the taxable years 1992 to 2001. Afterwards, upon respondent’s failure to pay the alleged tax delinquency; the city issued notices and warrants of levy on the MIAA land and buildings.
+
+On August 9, 2001, the OGCC clarified its previous opinion. This time, it opined that Section 21 of the MIAA Charter, in conjunction with Section 206 of the Local Government Code, exempted petitioner from real estate tax.
+
+Thus, MIAA filed with the Court of Appeals (CA) a Petition for prohibition and injunction, seeking to restrain the City of Parañaque from imposing real estate tax on, levying against, and auctioning for public sale the airport land and buildings. The CA, however, dismissed the Petition for having been filed out of time.
+
+Meanwhile, respondent published notices in two issues of the Philippine Daily Inquirer; and posted them at various public places in the city in January 2003. The notices announced the public auction sale of the MIAA land and buildings on February 7, 2003. On that day, however, the Court -- acting on petitioner’s Urgent Ex Parte and Reiteratory Motion -- issued a temporary restraining order (TRO), effective immediately. Respondent was ordered to cease and desist from publicly auctioning the properties.
+
+## The Issue
+
+The Court heard the parties in Oral Argument on March 29, 2005, on the threshold issue of whether the petitioner’s airport land and buildings were exempt from real estate tax under existing laws.
+
+## The Court’s Ruling
+
+In a Decision penned by Justice Antonio T. Carpio, the Court held that the real properties of MIAA were exempt from the real estate tax imposed by local governments.
+
+First, Petitioner MIAA was not a government-owned or -controlled corporation (GOCC), but an instrumentality of the national government and thus exempt from local taxation. Second, the real properties of MIAA were owned by the Republic of the Philippines and thus exempt from real estate tax. MIAA Not a Government-Owned or -Controlled Cor poration
+
+Under Section 2(13) of the “Introductory Provisions” of the Administrative Code of 1987, a GOCC must be “organized as a stock or non-stock corporation.” Petitioner, however, had no capital stock divided into shares. Neither did it have stockholders or voting shares. Hence, it was not a stock corporation.
+
+Neither was MIAA a nonstock corporation, because it had no members. Even assuming that its sole member was the government, this fact did not make MIAA a nonstock corporation. Although nonstock corporations could not distribute any part of their income to their members, Section 11 of EO 903 mandated MIAA to remit 20 percent of its annual gross operating income to the national treasury.
+
+Moreover, the Court noted, Section 88 of the Corporation Code provided that nonstock corporations were “organized for charitable, religious, educational, professional, cultural, recreational, fraternal, literary, scientific, social, civil service, or similar purposes, like trade, industry, agriculture and like chambers.” Being a public utility, petitioner had not been organized for any of these purposes, but for the operation of the Manila international and domestic airports for public use.
+
+## MIAA a Government Instrumentality
+
+MIAA is a government instrumentality vested with corporate powers. It may exercise the governmental powers of eminent domain, police authority, and the levying of fees and charges. At the same time, it may exercise “all the powers of a corporation under the Corporation Law, insofar as these powers are not inconsistent with the provisions of EO 903.” Being a government instrumentality, petitioner falls under Section 133(o) of the Local Government Code, which states:
+
+“SEC. 133. Common Limitations on the Taxing Powers of Local Government Units. - Unless otherwise provided herein, the exercise of the taxing powers of provinces, cities, municipalities, and barangays shall not extend to the levy of the following:
+
+xxx xxx xxx
+
+“(o) Taxes, fees or charges of any kind on the National Government, its agencies and instrumentalities and local government units.” (Emphasis and underscoring supplied.)
+
+Section 133(o) recognizes the basic principle that local governments cannot tax the national government. A tax is never presumed. The law imposing it must be expressed in clear language. Any doubt about the taxability of a person, article, or activity is resolved against taxation. This rule applies with greater force when local governments seek to tax national government instrumentalities.
+
+So, too, a tax exemption is strictly construed against the taxpayer claiming exemption. An exemption from local taxation granted by Congress to a national government instrumentality, however, is construed liberally in favor of the latter.
+
+Besides, there is no reason for local governments to tax national government instrumentalities for rendering essential public services to local inhabitants. The only exception is when the legislature has clearly intended, for sound and compelling policy considerations, to tax government instrumentalities for the delivery of essential public services. The law empowering local governments to tax national government instrumentalities must be couched in explicit language. Any doubt about whether this power exists must be resolved against local governments.
+
+## MIAA Lands and Buildings Under Public Dominion
+
+The properties mentioned in Article 420[10] of the Civil Code -- like “roads, canals, rivers, torrents, ports and bridges constructed by the State” -- are owned by the State. The term “ports” includes seaports and airports. Hence, the Court held that the MIAA airport land and buildings were properties of public dominion and thus owned by the State or the Republic of the Philippines, pursuant to Article 420.
+
+Furthermore, the airport land and buildings are devoted to public use, because they are used by the public for international and domestic travel and transportation. The fact that MIAA collects terminal fees and other charges from the public does not remove the “public use” character of the properties.
+
+Those fees, often termed “user’s tax,” are collected only from the members of the public who actually use a public facility, instead of from all of them including those who never use it. A user’s tax is more equitable -- a principle of taxation mandated by the Constitution.
+
+## MIAA Land and Buildings Outside Human Commerce
+
+The Court had repeatedly ruled that properties of public dominion -- including, as discussed earlier, the MIAA land and buildings -- were outside human commerce. The Court had also ruled that properties of public dominion, being outside human commerce, could not be the subjects of an auction sale. They were not subject to levy, encumbrance or disposition through public or private sale. Any encumbrance or levy on the execution or auction sale of any property of public dominion was void for being contrary to public policy. Hence, Respondent City of Parañaque could not foreclose and compel the auction sale of petitioner’s 600-hectare runway for nonpayment of real estate tax.
+
+Before MIAA could encumber its land and buildings, the President first had to withdraw them from public use, in accordance with Sections 83 and 88 of the Public Land Law -- or Commonwealth Act No. 141, which “remains to this day the existing general law governing the classification and disposition of lands of the public domain other than timber and mineral lands.” Respondents were not able to show that this prerequisite had been met.
+
+## MIAA a Mere Trustee of the Republic
+
+MIAA held title to its land and buildings merely in trust for the Republic,[12] on behalf of which petitioner’s executive head could not even sign a deed of conveyance; only the President could do so.
+
+The transfer of the airport land and buildings from the Bureau of Air Transportation to MIAA was not meant to transfer beneficial ownership of these assets from the Republic to petitioner. The purpose was merely to reorganize a division in the Bureau of Air Transportation into a separate and autonomous body. The Republic remained the beneficial owner of the properties and the sole owner of MIAA itself.
+
+## Real Property Owned by the Republic Not Taxable
+
+Section 234 (a) of the Local Government Code exempts from real estate tax any “[r]eal property owned by the Republic of the Philippines.” This exemption should be read in relation to Section 133(o) of the same Code, which prohibits local governments from imposing “[t]axes, fees or charges of any kind on the National Government, its agencies and instrumentalities x x x.”
+
+Section 234 (a) of the Local Government Code further states that real property owned by the Republic loses its tax exemption only if the “beneficial use thereof has been granted, for consideration or otherwise, to a taxable person.” In this case, MIAA, as a government instrumentality, was not a taxable person under Section 133(o) of the Local Government Code. Thus, even assuming that the Republic had granted it the beneficial use of the airport facilities, that fact did not make them subject to real estate tax.
+
+Portions of the MIAA properties that had been leased to private entities, however, were not exempt from real estate tax. In regard to those entities, petitioner had granted to a taxable person, for a certain consideration, the beneficial use of the land area involved. That property was therefore subject to real estate tax.
+
+In conclusion, the Court declared the real properties of the Manila International Airport Authority EXEMPT from the real estate tax imposed by the City of Parañaque. It also declared VOID (1) the real estate tax assessments, including the Final Notices of Real Estate Tax Delinquencies issued by the City of Parañaque, in relation to the MIAA properties excluding the portions leased by petitioner to private parties; and (2) the assailed auction sale and all its effects.
+
+## The Dissent of Justice Tinga, Joined by Justices Martinez and Callejo
+
+In his Dissenting Opinion, Justice Dante O. Tinga lamented the fact that the majority had “veered wildly off-course [with blind but measured rage], shattering statutes and judicial precedents left and right in order to protect the precious Ming vase that is the Manila International Airport Authority (MIAA).” He claimed that the majority Decision had overturned “at least one dozen precedents,” if not “all previous jurisprudence regarding local government taxation vis-a-vis government entities x x x.”
+
+Mactan-Cebu International Airport Authority v. Marcos, the leading case on the power of local governments to impose realty taxes upon GOCCs and government instrumentalities, should have been applied. The parties in Mactan and in the present case were similarly situated. Both petitioners were airport authorities operating under similarly worded charters; they were the owners of airport properties; they were owned by the State, and their respective charters denied their absolute right to dispose of their properties without the prior approval of the President.
+
+According to Justice Tinga, the majority Decision, while being obviously inconsistent with Mactan, did not even bother to explain why the ruling in that earlier case was wrong.
+
+Mactan had ruled that the prohibition on taxing the national government, its agencies, and instrumentalities -- as provided under Section 133 of the Local Government Code (LGC) -- was qualified only by Sections 232 and 234. Accordingly, the only relevant exemption now applicable to these bodies was that provided under Section 234(o) on “real property owned by the Republic of the Philippines or any of its political subdivisions except when the beneficial use thereof has been granted, for consideration or otherwise, to a taxable person.” The LGC’s express withdrawal of previously granted exemptions did not make any distinction as to whether the exempt person was a governmental entity or not. Besides, under Section 2 (10) and (4) of the Administrative Code, a GOCC may be an instrumentality or agency of the national government. Thus, there actually was no point in the majority’s assertion that petitioner was not a GOCC.
+
+## MIAA a GOCC
+
+Moreover, the law that governs the definition of a corporation created by Congress is the legislative charter of that entity. If the legislative enactment defines an entity as a corporation, then it is a corporation even if the Corporation or the Administrative Code seemingly provides otherwise. Thus, an entity created by law as a corporation remains as such, even though it has no capital structure or members that would make it either a stock or a nonstock corporation under the Corporation Code. The long-standing rule is that the legislative charter of a government corporation prevails, in case of conflict between it and the Corporation or the Administrative Code.
+
+The MIAA Charter is replete with provisions that indubitably classify it as a GOCC. Petitioner may acquire and possess property, incur obligations, and bring civil or criminal actions. It has the power to contract in its own name and to acquire title to real or personal property. Likewise, it may exercise a panoply of corporate powers and possess all the trappings of a corporate personality, like a corporate name, a corporate seal, and bylaws.
+
+## GOCCs Subject to Local Taxation
+
+Sections 133 and 234(a) of the Local Government Code ensure that the Republic of the Philippines or its political subdivisions shall not be subjected to any form of local government taxation, except realty taxes if the beneficial use of the property owned has been granted to a taxable entity or person for consideration. Section 133 likewise assures that government instrumentalities -- like GOCCs -- may not be arbitrarily taxed by LGUs, since the former can be subjected to local taxation if covered by a specific proviso in the LGC.
+
+One such proviso is Section 137 which, as the Court found in National Power Corporation, permits the imposition of a franchise tax on businesses enjoying a franchise, even if they are GOCCs. And, as the Court acknowledged in Mactan, Section 232 provides another exception to the taxability of instrumentalities. This provision authorizes LGUs to “levy an annual ad valorem tax on real property such as land, building, machinery, and other improvements not hereafter specifically exempted.” The specific exemptions are provided by Section 234.
+
+## All Tax Exemptions Withdrawn by the Local Government Code
+
+The Dissent stressed that, according to Section 193 of the Local Government Code, unless otherwise provided, all tax exemptions enjoyed by all persons -- whether natural or juridical, including GOCCs -- were deemed withdrawn upon the effectivity of the LGC. Since the provision spoke of the withdrawal of tax exemptions of persons, it followed that the exemptions previously enjoyed by MIAA -- which was definitely a (juridical) person -- were deemed withdrawn upon the advent of the Local Government Code. Consequently, Section 21 of EO 903, which had granted tax exemption to petitioner, was rendered ineffectual by Section 193 of the LGC. Air port Land and Buildings Owned by MIAA
+
+The majority asserted that since the properties of MIAA were owned by the Republic of the Philippines, they were covered by the exemption under Section 234 of the LGC.
+
+Sections 3 and 22 of the MIAA charter, however, explicitly transferred ownership of the airport land and buildings from the State or Republic to petitioner. Nothing in the Civil Code or the Constitution prohibited the State from transferring ownership of a property of the public dominion to an entity that it similarly owned. In addition, there was no provision in the MIAA charter expressly stating that these properties were to be held in trust.
+
+Also, Justice Tinga pointed out the ultimate irrelevance of the claim that the beneficial ownership of MIAA remained, not with it, but with the government. According to Section 234(a) of the Local Government Code, he said, among those exempted from paying real property taxes were “[r]eal property owned by the [Republic] x x x except when the beneficial use thereof has been granted, for consideration or otherwise, to a taxable person.” In the context of Section 234(a), the identity of the beneficial owner of the properties was not determinative of whether the exemption availed. It was the identity of the beneficial user of the property owned by the Republic or its political subdivisions that was crucial. If the latter was a taxable person, then the exemption would not lie.
+
+## Only National and Local Governments Exempt from Realty Tax
+
+Nonetheless, opined Justice Tinga, Section 234(f) exempted properties owned by the Republic of the Philippines or its political subdivisions from realty taxation. The obvious question, he stressed, was what comprised “the Republic of the Philippines.” He believed that the key to understanding the scope of “the Republic” was the phrase “political subdivisions.”
+
+Under the Constitution, political subdivisions are defined as “the provinces, cities, municipalities and barangays.” In correlation, the Administrative Code of 1987 defines “local government” as a term referring to “the political subdivisions established by or in accordance with the Constitution.”
+
+These political subdivisions are those engaged in the exercise of sovereign functions and are, accordingly, exempt. The same can be said generally of the national government, which is similarly exempt.
+
+## MIAA a Proprietary Agency
+
+Petitioner, however, performs proprietary functions. The State’s operation of an airport facility may be imbued with public interest, but it is by no means indispensable or obligatory on the part of the national government. Notably, the Constitution authorizes private persons to exercise “public service” functions, as it allows them to operate public utilities in the country.
+
+There is no prohibition against the government taxing itself, and there is nothing obscene about allowing government entities to exercise proprietary functions and to be taxed for the purpose of raising the coffers of LGUs. On the other hand, noxious is the proposition that the government or the instrumentalities it owns are above the law and may refuse to pay a validly imposed tax. MIAA or any similar entity engaged in the exercise of proprietary, not sovereign, functions cannot avoid the adverse effects of tax evasion, simply by claiming that it is imbued with some of the attributes of government.
+
+## Disposition of MIAA Properties
+
+In any event, despite the fact that Respondent City of Parañaque ineluctably had the power to impose real property taxes over petitioner, an equally relevant statutory limitation on this power had to be fully upheld. Section 3 of the MIAA charter stated that “[a]ny portion of the [lands transferred, conveyed and assigned to the ownership and administration of the MIAA] shall not be disposed through sale or through any other mode unless specifically approved by the President of the Philippines.”
+
+In the present case, nothing in the Local Government Code -- even with its wide grant of powers to LGUs -- could be deemed to have repealed the prohibition under Section 3, which effectively foreclosed one of their possible remedies in the collection of delinquent real property taxes. While it withdrew all previous local tax exemptions of the MIAA and other natural and juridical persons, the LGC did not similarly withdraw any previously enacted prohibitions on properties owned by GOCCs, agencies, or instrumentalities. The LGU simply had to find another way to collect the taxes due from petitioner.
+
+Justice Tinga summed up his points thus:
+
+“1) Mactan and a long line of succeeding cases have already settled the rule that under the Local Government Code, enacted pursuant to the constitutional mandate of local autonomy, all natural and juridical persons, even those GOCCs, instrumentalities and agencies, are no longer exempt from local taxes even if previously granted an exemption. The only exemptions from local taxes are those specifically provided under the Local Government Code itself, or those enacted through subsequent legislation.
+
+“2) Under the Local Government Code, particularly Section 232, instrumentalities, agencies and GOCCs are generally liable for real property taxes. The only exemptions therefrom under the same Code are provided in Section 234, which include real property owned by the Republic of the Philippines or any of its political subdivisions.
+
+“3) The subject properties are owned by MIAA, a GOCC, holding title in its own name. MIAA, a separate legal entity from the Republic of the Philippines, is the legal owner of the properties, and is thus liable for real property taxes, as it does not fall within the exemptions under Section 234 of the Local Government Code.
+
+“4) The MIAA charter expressly bars the sale or disposition of MIAA properties. As a result, the City of Parañaque is prohibited from seizing or selling these properties by public auction in order to satisfy MIAA’s tax liability. In the end, MIAA is encumbered only by a limited lien possessed by the City of Parañaque.”

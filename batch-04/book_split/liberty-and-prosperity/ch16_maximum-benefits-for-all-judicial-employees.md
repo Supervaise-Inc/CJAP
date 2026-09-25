@@ -1,0 +1,73 @@
+# Chapter 16: Maximum Benefits for All Judicial Employees
+
+To celebrate my 6th month in office today, June 21, 2006, I am pleased to speak before this gathering of the heads of offices in the Supreme Court and the leaders of various employee organizations in the judiciary. Today's occasion gives me the rare opportunity to expound on my policy in regard to the grant of benefits to all of you, and how that policy has been implemented during my first six months in office.
+
+I took my oath as the 21st Chief Justice of the Republic on December 21, 2005, a Wednesday. The succeeding days were marked by the Yuletide holidays; thus, my first chance to give a brief address to the Supreme Court rank and file was during the flag ceremony on Monday, January 2, 2006.
+
+Although I was still nursing stinging post-operational pains from my surgery on December 30, 2005, I bravely stood at attention as we sang the National Anthem, as well as the Supreme Court and the Judiciary Hymns, and recited the Pledge of Allegiance to the Filipino flag.
+
+That sunny morning, I hid my affliction. Neither did I mention the surgery that had taken place only three days before. And although I was profusely perspiring from the surgical pain, I gamely took to the microphone and announced my policy of giving you, our employees, maximum benefits allowed by law and within my discretion to give as the constitutional head of the Judicial Department of the government.
+
+## Four Ways of Granting Benefits
+
+There are four ways by which the Chief Justice is able to grant benefits. First, under Presidential Decree (PD) No. 1949, the Chief Justice has the "sole exclusive power" to distribute 80 percent of the Judiciary Development Fund (JDF) to "augment the allowances of the members and personnel of the Judiciary.
+
+Second, under the Appropriations Law' and conformably with Joint Resolution Nos. 1 and 90 of the Constitutional Fiscal Autonomy Group (CFAG), the Chief Justice is allowed to realign the judiciary budget.
+
+Realignment is done by transferring savings from one item to augment some other items enumerated in the Appropriations Law, thereby enabling the Chief Justice to use those savings to grant financial benefits to employees. Note, however, that the augmentation may be applied to items other than personnel benefits.
+
+Third, Republic Act (RA) No. 9227 authorizes, at the sound discretion of the Chief Justice, the grant of additional allowances from surplus collections of the so-called Special Allowance for Justices and Judges (SAJ. Pursuant to this law, the compensation of justices and judges has been doubled by the payment of a special allowance equal to 25 percent of their basic salaries per year for four years. That period started in November 2003 and will be culminating in a 100 percent increase this year, in November 2006. The SAJ funds come from increases in docket and other legal fees that are authorized and collected by the Supreme Court.
+
+Fourth, the regular budget of the Supreme Court, as approved by Congress under the General Appropriations Act, provides a number of allowances and benefits. These benefits, which are uniformly granted to all employees of the government, include performance and productivity incentive bonuses, clothing allowance, and additional compensation or Adcom.
+
+Benefits Granted During the First Half of 2006
+
+Using these powers granted by the above-cited laws, I authorized - for the first half of the year 2006 - the release of the following financial benefits from the JDF to all employees of the judiciary:
+
+January 6, 2006	P2500
+
+February 6, 2006	2,500
+
+March 8, 2006	2,500
+
+April 7, 2006		3,800
+
+May 3, 2006		2,900
+
+June 2, 2006		3,400
+
+Total			P17,600
+
+As you all know, additional Cost of Living Allowances or COLA from the JDF fluctuated monthly, depending on the actual sums collected from the field. To provide regularity in the amounts, I have made it my policy to disburse at least ₽2,500 monthly, to be given during the first week of each month. And following the policy of the JDF Law to give the highest share to the lowest-ranked employees, I approved upon the recommendation of our Fiscal Management and Budget Office (FMBO) the classification of our employees into three tiers as follows:
+
+1. Employees receiving P 7,000 or less monthly
+
+2. Those receiving more than ₽ 7,000 but not more than P10,000
+
+3. Those receiving more than ₽10,000 monthly
+
+Employees in the first group thus receive the highest sums from the JDF COLA.
+
+I believe that from December 21, 2005, to June 21, 2006, I have been able to release benefits equivalent to a total of about P57,000 to each of our personnel, an amount that effectively doubled the basic monthly salaries of many of them. Some officials and employees have actually received more, depending on their monthly basic salaries.
+
+I feel happy, because I had intended to double the take-home pays of our rank-and-file employees, in the same way that the compensation of justices and judges have been doubled by RA 9227. I believe I have thus far achieved that goal.
+
+May I also add that upon the recommendation of the Supreme Court Program on Awards and Incentives for Service Excellence (SC Praise) Committee, I have increased from P15,000 to ₽20,000 the award for model employees on the supervisory and non-supervisory levels, who have had exceptional work performance and achievements. The award for the five finalists in the Search for Model Employees was also increased from P1,000 to ₽5,000.
+
+Further, a special award in the amount of P5,000 was granted to an employee who registered perfect attendance in the year 2005, using the chronolog time recorder machine.
+
+Also, during the flag-raising ceremony on Monday, June 19, branded wristwatches were given out as service awards to 10 compulsory retirees in addition to their certificates of appreciation. As you may know, on January 31, 2006, I authorized the grant of a cash award of P20,000 to each of them on or about a week before their actual dates of retirement.
+
+Apart from direct monetary benefits, there are a number of welfare programs I have envisioned for you, including (1) a judiciary housing project, (2) a more comprehensive health and medical plan, and (3) the creation of a separate fund to enable ordinary rank-and-file employees to acquire laptop computers, similar to those available to judges and court attorneys. I do not have the time to discuss details now; perhaps, on another occasion, I may be able to give you the specifics of these programs.
+
+## Compassion and Fairness
+
+Many people have asked me why I granted maximum benefits to our workers to such an extent as to double the monthly take-home compensations of many of them. I have two main reasons. First, this policy is a matter of compassion. Having been very poor myself, I have personally experienced the longings and frustrations of the impoverished. As a young boy, I hawked newspapers, shined shoes, and peddled cigarettes on the streets of Manila. I sold textbooks to my classmates, as well as Bibles to my professors and school officials, hoping that what I earned would help me get through my education. So I identify with your daily struggles, frustrations, and hopes. In trying my best to help you in this manner, I hope you could better meet the necessities of life and thus be less vulnerable to the temptations of corruption and other less-than-honest ways of feeding your families.
+
+Second and more important, better compensation is a matter of fairness. Since the government demands total loyalty and all-out performance from its workers, it must - whenever legally and financially possible -compensate them properly.
+
+In exchange for these financial benefits, I have on several occasions asked you, our employees, three things: dedication to duty, honesty in every way, and loyalty to the Supreme Court and the judiciary. From you, the leaders of various employee organizations in the Judicial Department, I ask for written feedback -if possible within one month from today - on how you have implemented in concrete terms the DHL (dedication, honesty and loyalty) norms I mentioned.
+
+In closing, it is my hope that this policy of maximum benefits would result in happy, hardworking and honest employees who would help me achieve my ultimate goals of safeguarding the liberty and nurturing the prosperity of our people.
+
+Maraming salamat po.
