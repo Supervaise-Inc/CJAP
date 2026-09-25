@@ -1,3 +1,8 @@
+> **Prompt 0 is DONE (26 Sep) and needed no repair. Prompts A / A2 / B here are REPLACED by
+> `docs/p3/P3_rulings_and_run_prompts_2026-09-26.md`.** The "3.11.9" venv named in Prompt 0 was
+> the wake-word environment; the approved interpreter is Python 3.12.13 at
+> `C:\Reachy Mini Project 2026\.venv\Scripts\python.exe`. Install nothing. Read the rulings file.
+
 # P3 — next phase: paste-ready Claude Code prompts
 
 **Written 26 Sep 2026. Supersedes `docs/p3/P3.2_claude_code_prompt.md`** (25 Sep), which was written
