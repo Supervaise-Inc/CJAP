@@ -88,7 +88,7 @@ venv.
 
 ## Coverage, for the record
 
-1,104 documents today: 785 columns (17 Apr 2011 – 18 May 2026) · 131 book chapters from 4 of the 12 books
+1,104 documents today: 785 columns (17 Apr 2011 – 18 May 2026) · 131 book chapters from 4 of the 12 works (10 volumes — With Due Respect is one work in seven)
 · 153 speeches (23 Nov 1994 – 27 Apr 2026) · 35 biography chapters. After the P6 merge: **1,290
-documents, all 12 books, 803 columns**. The 2007–2011 column gap (~222 documents) is described in
+documents, all 12 works (18 volumes), 803 columns**. The 2007–2011 column gap (~222 documents) is described in
 `docs/p1/source_inventory.md`.

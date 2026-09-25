@@ -291,3 +291,74 @@ applied.
 "Unnamed honoree" where the restored text names *Justice Regino C. Hermosisima, Jr.* That summary is
 appended to the `.md` and therefore chunked and embedded. Fixing it after the embed means embedding
 again.
+
+
+---
+
+## Why 1,104 and not ~1,290 — the counts in Prompt B are correct
+
+Asked 26 Sep. **1,104 is right for this run.** Nothing is missing; batch-04 is not merged yet, and it
+must not be merged during this run.
+
+### The arithmetic, measured from disk 26 Sep
+
+| | Now | Batch-04 adds | After P6 |
+|---|---:|---:|---:|
+| Columns | 785 | 18 | **803** |
+| Book chapters | 131 | 168 | **299** |
+| Speeches | 153 | 0 | 153 |
+| Biography chapters | 35 | 0 | 35 |
+| **Active corpus documents** | **1,104** | **186** | **1,290** |
+| Retired IDs (rows kept, no corpus file) | 5 | 0 | 5 |
+| Rows in the four pinned sheets | 1,109 | 186 | 1,295 |
+
+Chunks track documents: **9,804 now**, and roughly 12,000–13,000 after P6. So Prompt A's 9,804 and
+Prompt B's 1,104 / 9,804 are the correct expected values today, and a script reporting 1,290 during this
+run would mean batch-04 leaked into the pinned corpus — which is the failure, not the goal.
+
+### "12 books" counts works; "10 books" counts volumes. Both numbers are right
+
+This is the whole source of the confusion. *With Due Respect* is one work in seven volumes.
+
+**In the corpus now — 10 volumes, 4 works:** With Due Respect Vol. 1–7 · A Centenary of Justice ·
+Justice and Faith · The Bio-Age Dawns on the Judiciary.
+
+**Batch-04 brings 8 new works** (168 chapters): Liberty and Prosperity 35 · Transparency, Unanimity &
+Diversity 24 · Love God, Serve Man 22 · Judicial Renaissance 21 · Reforming the Judiciary 20 · Leveling
+the Playing Field 20 · Leadership by Example: The Davide Standard 14 · Battles in the Supreme Court 11 ·
+plus 1 into A Centenary of Justice (BA108, Ch. 20, superseding retired BA040).
+
+**4 + 8 = 12 works** — which is exactly the "all 12 books" target. As volumes it is 18.
+
+### Why batch-04 is not merged yet — CE-17
+
+Batch-03 is a **correction**. Its promotion eval (CE-12) measures the corrections against the standing
+baseline. Merging 186 new documents into the same run would make any movement in the eval
+uninterpretable: nobody could say whether the numbers moved because the repairs worked or because 186
+new documents arrived. CE-17 is the rule that a correction runs as its own batch, never mixed with new
+material.
+
+Order: finish P3 on 1,104 → CE-11 → CE-12 → CE-13/14 → **P6 merges batch-04** → re-chunk, re-embed,
+re-index at 1,290 → eval again.
+
+**The cost of doing it in this order has collapsed, which is worth noticing.** The reason to fear two
+embed passes was the ~10-hour CPU estimate. On the GTX 1650 in the approved venv a full pass is tens of
+minutes. Two clean, attributable runs now cost about an hour of GPU time — so there is no longer a
+performance argument for cutting the corner.
+
+### The one number that is genuinely short: columns
+
+Even after P6 it is **803 columns, not ~1,000.** Measured coverage: 2011:36 · 2012–2025 at 51–53 each ·
+2026:20, running 17 Apr 2011 – 18 May 2026 with **no missing year inside that range**. The column began
+**11 Feb 2007** (BA031 is his first Inquirer column). Feb 2007 – Apr 2011 at roughly weekly cadence is
+**~222 columns that were never sourced**. 803 + ~222 ≈ 1,025 — which is where "almost 1,000 columns"
+comes from.
+
+That gap is a **sourcing task, not a pipeline task**: nothing in P3, P6 or the eval will produce those
+documents. It is described in `docs/p1/source_inventory.md` and belongs in a batch-05 intake against the
+Inquirer archive.
+
+### No change to Prompt B
+
+Run it as written. Add one line to its report: the expected counts for this run are 1,104 documents and
+9,804 chunks, and they become ~1,290 / ~12–13k only after P6.
