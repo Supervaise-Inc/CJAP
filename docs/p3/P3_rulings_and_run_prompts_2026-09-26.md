@@ -1,3 +1,10 @@
+> **CORRECTION 26 Sep: Prompt B step 4 was wrong.** It called `merge_tag_topics.py` a "RETAG
+> ONLY" script. That script MERGES centroids first, by design, and on this centroid set the
+> merge collapsed 34 topics to 3. Never run it without `CJ_TOPIC_MERGE_COSINE=1.01`.
+> Recovery: `docs/p3/P3.3_centroid_recovery_prompt_2026-09-26.md`.
+> Prompt B step 8's smoke test is also wrong — `set()` as the allowlist gives an empty universe
+> and a ValueError upstream of any centroid code. The corrected call is in the recovery file.
+
 # P3 — rulings, and the corrected run prompts
 
 **26 Sep 2026.** Prompt 0 is **done** and returned the right answer: no repair was needed. This file
