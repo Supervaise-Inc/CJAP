@@ -240,3 +240,73 @@ then CE-11 to CE-14, and copy `data/index/` back into the Final Project Folder.
 ### Defects closed by this batch
 D-1, D-2, D-3, D-7 (and the 978 datetimes it never covered), D-10, D-11, D-12, D-13.
 Still open: D-6 (uncommitted) and D-14 (OCR damage in the batch-04 book sources - needs a re-scan).
+
+
+---
+
+## Found 26 Sep 2026, while drafting CE-11 — NOT fixed, logged
+
+### C-11 · `BC018`'s curated row is stale relative to its repaired body
+
+C-7 restored `BC018.md` from 97 to 276 words. The **row was never re-derived.** It still says, in
+`sub_topics`: *"NOTE: The source file is a short fragment (about 12 lines, of which the opening phrasing
+is partly missing in the upload); the curation reflects only the content legibly present"*, and in
+`register_markers`: *"NOTE: chapter is a short fragment; curation depth here is necessarily lighter"*.
+`entities.people` lists *"Unnamed honoree being prayed for ('he')"* — the restored text names **Justice
+Regino C. Hermosisima, Jr.** The restored first two paragraphs (petitions for "peace and prosperity in
+our land", "sagacity, and integrity for our leaders", "a Supreme Court sublimated in prayer") are absent
+from every curated field.
+
+**Why it matters now:** `one_paragraph_summary` and `notable_anecdotes` are appended to the generated
+`.md`, so they are chunked and embedded. This text goes into the index as written. **Cheapest to fix
+before CE-6, not after.** Gold row `C48` in `gold_additions_batch03_2026-09-26.csv` flags it so a wrong
+answer is not misread as a retrieval failure.
+
+**Scope check:** a corpus-wide sweep for curated fields that describe their own source as damaged,
+truncated, fragmentary, illegible or OCR-shredded returned 29 hits across 24 documents. Of those, only
+`BC018` (two hits), `CA528` (below) and `SA120` matched substantively, and `SA120` is genuinely lecture
+notes rather than damage. The other repaired documents — `BA031`, `BA039`, `BC017` — have rows
+consistent with their repaired bodies.
+
+### C-12 · `CA528` is truncated at source — pre-existing, outside batch-03
+
+*"Only the President can"* (2011-05-15) states in its own `sub_topics`: *"Note: article is truncated in
+source — full article content beyond 'Why no demurrer?' section not available"*. The title itself looks
+cut. Body is 5,231 characters and stops mid-argument on the Garcia plea bargain. Not a batch-03
+regression; it was never logged. **Batch-04 item** — needs the full text or a retirement decision.
+
+### C-13 · The curated schema's enums are not enforced anywhere, and the data does not follow them
+
+`docs/p1/corpus_schema.md` §3 states that `stances[].confidence` is **exactly one of** `asserted` ·
+`asserted with evidence` · `hedged` · `reported (not his view)`, and that `entities` keys are a subset
+of `people` · `institutions` · `places` · `cases` · `laws_treaties` · `events`. Swept across all 1,104
+corpus documents on 26 Sep:
+
+| | |
+|---|---:|
+| Documents with at least one non-enum `confidence` | **1,022 of 1,104 (93%)** |
+| Distinct `confidence` values in use | **1,959** |
+| Most common non-enum values | `high` (1,552 stances) · missing/`None` (404) · `medium` (36) · `endorsed` (17) |
+| Free-text variants | `asserted as warning`, `asserted via Diokno`, `asserted with case citation`, `asserted as titular thesis`, … |
+| Documents with a non-schema `entities` key | **103**, across **45** distinct keys |
+| Most common non-schema keys | `dates` (30) · `concepts` (17) · `laws` (12) · `laws_and_documents` (11) |
+
+**Blast radius — small, and worth saying precisely.** Neither field reaches the dense or sparse index:
+`chunk_corpus.py` chunks the `.md` body, which carries the summary and anecdotes but not stances or
+entities. `stances[:4]` *is* passed into the composition context block
+(`app/answer_pipeline.py:866`), so the model is shown values like `confidence: "asserted via Diokno"`
+and `confidence: null`. The `entities` object feeds the atomic-phrase dictionary in
+`build_sparse_index.py`, which reads the object's values, not its key names — so the 45 stray keys cost
+nothing at build time. **This is not a P3 blocker.** It is a documentation-versus-data contradiction
+that should be settled rather than carried.
+
+**Decision needed (not taken here):** either (a) amend `corpus_schema.md` §3 to describe
+`confidence` as free text with a recommended vocabulary — which is what the data is — or (b) map the
+1,959 values onto the four and make `normalise_curated.py` enforce it. (a) is honest and free; (b) is
+correct and costs a mapping pass over 3,365 column stances alone. **Recommend (a) now and (b) at the P6
+merge**, when batch-04's 186 rows arrive and a single enforcement point is cheapest to add. Either way
+the schema should stop asserting an enum nothing checks.
+
+**Process note:** the 25 Sep format-consistency audit checked encoding, punctuation, dates and JSON
+parseability. It did not check *values against the declared vocabularies*, which is why this survived.
+Any future audit should validate enums, not only that the JSON parses.
