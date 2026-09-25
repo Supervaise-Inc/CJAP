@@ -57,6 +57,10 @@ def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--force", action="store_true",
                     help="overwrite an existing runtime index (a backup is taken either way)")
+    ap.add_argument("--allowlist", metavar="CSV", default=None,
+                    help="restrict the runtime index to the doc_ids in this CSV's first column "
+                         "(e.g. reports/pilot-eval subset/pilot_subset_frozen_v4.csv). Without it the "
+                         "index covers the whole corpus.")
     args = ap.parse_args()
 
     cmat_path = Path(config.CORPUS_DENSE_PATH)
@@ -117,6 +121,45 @@ def main() -> int:
         return 2
 
     doc_ids = [doc_of[c] for c in chunk_ids]
+
+    # ---- optional allowlist: restrict to one document universe ----------------
+    allow_label = "full-corpus (no allowlist; supersedes pilot_subset_frozen_v4)"
+    if args.allowlist:
+        ap_path = Path(args.allowlist)
+        if not ap_path.is_absolute():
+            ap_path = _REPO_ROOT / args.allowlist
+        if not ap_path.exists():
+            print(f"[runtime-index] allowlist not found: {ap_path}. STOP.", file=sys.stderr)
+            return 2
+        allow: set[str] = set()
+        for raw in ap_path.read_text(encoding="utf-8-sig").splitlines():
+            raw = raw.strip()
+            if not raw or raw.startswith("#"):
+                continue
+            first = raw.split(",")[0].strip()
+            if first.lower() == "doc_id":
+                continue
+            allow.add(first)
+        if not allow:
+            print(f"[runtime-index] allowlist {ap_path.name} yielded no doc_ids. STOP.", file=sys.stderr)
+            return 2
+        keep = [i for i, d in enumerate(doc_ids) if d in allow]
+        if not keep:
+            print("[runtime-index] no chunk in the matrix belongs to an allowlisted document. STOP.",
+                  file=sys.stderr)
+            return 2
+        present = {doc_ids[i] for i in keep}
+        absent = sorted(allow - present)
+        if absent:
+            print(f"[runtime-index] NOTE: {len(absent)} allowlisted doc(s) have no chunk in the "
+                  f"matrix (retired or removed): {absent[:10]}")
+        matrix = matrix[keep]
+        chunk_ids = [chunk_ids[i] for i in keep]
+        doc_ids = [doc_ids[i] for i in keep]
+        allow_label = f"{ap_path.name} ({len(present)} of {len(allow)} documents resolved)"
+        print(f"[runtime-index] allowlist {ap_path.name}: {len(present)} documents, "
+              f"{len(chunk_ids)} chunks")
+
     n_docs = len(set(doc_ids))
 
     # ---- retired IDs must not be present ------------------------------------
@@ -154,7 +197,7 @@ def main() -> int:
             "model_id": cmeta["model_id"],
             "dim": cmeta["dim"],
             "normalize": cmeta.get("normalize", config.EMBED_NORMALIZE),
-            "allowlist_version": "full-corpus (no allowlist; supersedes pilot_subset_frozen_v4)",
+            "allowlist_version": allow_label,
             "n_docs": n_docs,
             "n_chunks": len(chunk_ids),
             "build_date": stamp,

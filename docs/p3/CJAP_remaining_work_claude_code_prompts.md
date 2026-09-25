@@ -1,3 +1,11 @@
+> **REVISED 26 Sep.** Phase 3 and Phase 4 here are superseded by
+> `docs/p3/Phase3_CE-11_and_comparator_fix_2026-09-26.md`. Two corrections: Phase 4 named
+> `arch_baseline_v2.json` as the standing comparator, but that is a bge-large / 827-chunk baseline
+> and the bge-base lineage is arch-baseline-v4 / v4.2, whose harness `run_ops2_c1.py` is $0 and
+> retrieval-only; and Phase A2 widened the runtime universe from 95 documents to 1,104, which must
+> be reverted for the CE-12 comparison and re-applied afterwards as its own labelled change.
+> Phase 1 (P3.3 recovery) is still UNRUN and blocks everything.
+
 # CJAP — the remaining work, as sequential Claude Code prompts
 
 **26 Sep 2026.** Everything left between here and a promoted batch-03, in order. Six phases, each one
