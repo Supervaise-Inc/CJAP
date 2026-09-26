@@ -155,5 +155,14 @@
     "technology assessed against whether it can serve information rights without impairing due process"
   ],
   "one_paragraph_summary": "Chapter 15 of 'Reforming the Judiciary' was CJP's postscript to his previous book, 'A Centenary of Justice.' He reported being overwhelmed by close to a hundred congratulatory letters from members of the judiciary, foreign Chief Justices and magistrates, officials, legislators, diplomats, educators, churchmen, lawyers, NGO leaders and librarians, singling out a letter from President Gloria Macapagal Arroyo and an entirely handwritten one from former President Fidel V. Ramos, as well as Brother Willy Nakar's note praising his habit of beginning each book with the Word of God. He explained the practice behind the books: since being sworn into the Supreme Court in 1995 he had recognized that, like all government servants, he was accountable to the public and should adhere to transparency, owing readers the certainty that he had worked conscientiously, 'letting only truth, the law, reason and my conscience dictate my actions.' He listed the resulting series from 'Justice and Faith' in 1997 through the present volume, noted that the Supreme Court Press issued them in limited runs for libraries, law schools, NGOs and media, and observed with amusement that people wrote asking for all five even though the books were no 'literary potboilers.' He attributed the demand to a wider public appetite for transparency, quoting CHED Chairperson Ester Albano Garcia, and linked it to the Court's reform program under Chief Justice Davide, which is why the present book concentrated on the Action Program for Judicial Reform 2001-2006. He then described the books as a 'window to the Court,' citing Mahar Mangahas's Manila Standard column on his chapter about the SWS survey-ban case and his chapter on Perez v. Estrada, where the Court denied live coverage of the Estrada plunder trial 8-6 and he dissented, arguing it was already technologically possible to serve the people's right to information without violating the accused's due process -- a view Beth Day Romulo relayed in the Manila Bulletin as the Court 'turning its back' on technology. He closed with his chairmanship of the Centenary Executive Committee, a letter from Justice Dorit Beinisch of Israel's Supreme Court, and thanks to his readers and reviewers.",
-  "source_xlsx": "cjp_books_curated_normalized.xlsx"
+  "source_xlsx": "cjp_books_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "criminal_trials_and_prosecutions"
+    ],
+    "secondary": [
+      "judicial_reform",
+      "judiciary_milestones_and_tributes"
+    ]
+  }
 }

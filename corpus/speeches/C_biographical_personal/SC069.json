@@ -84,5 +84,13 @@
     "eight-domain completeness: the exhaustive inventory as the proof of a fully lived life"
   ],
   "one_paragraph_summary": "Delivered June 26, 2015 as a birthday toast for Archit Bartolome's 74th birthday, this brief tribute by CJP is structured entirely around the anaphoric refrain 'My words are inadequate' -- applied eight consecutive times to as many domains: as a young man (Most Distinguished Alumnus of UE; TOYM Awardee); as a banker (Chairman/President of several banks including the PNB when it was the largest banking institution in the country); as a manager and executive (President of both MAP and FINEX); as a civic leader (President of the Rotary Club of Manila -- 'the first and, during his term, the largest Rotary Club in Asia'); as a man of God (couple-leader of Ligaya ng Panginoon with wife Nenne); as a public servant (Presidential Cabinet member; BCDA Chairman); as a father (an outstanding son and beautiful talented daughters); and as a husband ('successfully wooed a beautiful, brainy and devoted wife whom he adores and worships day and night'). CJP concludes: 'Truly, my words are inadequate to describe the many-splendored achievements of Archit. What then can I say about him now on his 74th birthday? Nothing really, except to cheer him up and remind him how lucky he is to be among God's chosen disciples on earth! Happy Birthday Archit! Hep! Hep! Hurray!'",
-  "source_xlsx": "cjp_speeches_curated_normalized.xlsx"
+  "source_xlsx": "cjp_speeches_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "life_story_family_school_and_church"
+    ],
+    "secondary": [
+      "judiciary_milestones_and_tributes"
+    ]
+  }
 }

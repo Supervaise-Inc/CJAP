@@ -117,5 +117,13 @@
     "frames clarity as a remedial requirement, not a wholesale rejection"
   ],
   "one_paragraph_summary": "Panganiban examines the JBC's 2020 Revised Rules (Sec. 1, Rule 8), which require SC associate justice and chief justice applicants to have at least 2.5 years remaining (if they were appellate justices, SolGen, ConCom chairs, Court Administrator, or Cabinet secretaries) or 5 years (everyone else), effectively imposing age caps of 67.5 or 65. He names the full JBC slate -- CJ Peralta, Secretary Guevarra, Senator Gordon, Representative Veloso, retired Justices Mendoza and Tijam, retired Judges Ilao and Demonteverde -- and explains the four-vote nomination threshold. He commends the rule's stated rationale (giving new justices time to learn the Court's Internal Rules and contribute to docket reduction) but quickly turns to its defects: it is ambiguous about whether sitting SC associate justices are covered when seeking elevation to chief justice, and three recent CJs (Leonardo-De Castro, Bersamin, Peralta) would all have been disqualified under it. He surfaces an irony: Justice Tijam, who voted for the rule, was himself confirmed in 2017 over Sereno's objection despite being over 68 and only able to serve about 22 months, on the strength of his record and a personal commitment to dispose of 1,000 cases -- and he later wrote the quo warranto decision that ousted Sereno. Justice Mendoza appears to clarify in a media interview that sitting AJs are not contemplated by the rule. Panganiban closes 'with due respect' urging amendment to add clarity, particularly for chief-justice-succession scenarios, to forestall a fresh round of quo warranto suits.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "jbc_discernment_and_appointment"
+    ],
+    "secondary": [
+      "supreme_court_vacancies_and_chief_justiceship"
+    ]
+  }
 }

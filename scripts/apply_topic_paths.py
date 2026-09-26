@@ -1,12 +1,13 @@
 """
-Backfill `topic_paths` in the 79 generated .json files using the curated
-taxonomy from build_topic_map.py.
+Backfill `topic_paths` in every generated .json file (1,290: columns, books, speeches,
+biography) using the curated taxonomy from build_topic_map.py.
 
-Reads each .json under corpus/{columns,speeches,biography}/, computes
+Reads each .json under corpus/{columns,books,speeches,biography}/, computes
 primary / secondary topic ids by scoring the doc against the taxonomy,
 and writes the result back in place (idempotent).
 
-Run after build_topic_map.py whenever the taxonomy changes.
+Run after build_topic_map.py whenever the taxonomy changes, and BEFORE the corpus pin is refreshed
+(pinning first wiped the backfill on every earlier regeneration).
 """
 
 from __future__ import annotations
@@ -28,6 +29,8 @@ def main() -> int:
         list(CORPUS_ROOT.glob("columns/**/*.json"))
         + list(CORPUS_ROOT.glob("speeches/**/*.json"))
         + list(CORPUS_ROOT.glob("biography/**/*.json"))
+        # CE-10: books/** was never globbed here either (same defect as load_docs): 299 book chapters carried no topic_paths.
+        + list(CORPUS_ROOT.glob("books/**/*.json"))
     )
     # First pass: score every doc.
     doc_scores: dict[str, dict[str, int]] = {}
@@ -47,6 +50,7 @@ def main() -> int:
             p.write_text(
                 json.dumps(doc, ensure_ascii=False, indent=2) + "\n",
                 encoding="utf-8",
+                newline="\n",     # CE-10: LF, not the platform newline (the corpus JSONs are LF in git)
             )
             updated += 1
         if not tp["primary"]:

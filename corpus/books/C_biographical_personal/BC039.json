@@ -173,5 +173,11 @@
     "GG=TE3 as the formula for good governance"
   ],
   "one_paragraph_summary": "Chapter 5 of 'Transparency, Unanimity & Diversity' reproduced CJP's address to a Phi Kappa Phi and Civil Service Commission round table on 'Excellence in Government Service,' which he only partly endorsed, arguing that excellence should not be confined to government and, more importantly, that excellence is not enough. Opening with Time magazine's choice of Einstein over Roosevelt and Gandhi as Person of the Century, he credited Einstein's work on light quanta and the microchip with founding the information age, then illustrated that age experientially: from New York over Christmas 1999 he read Manila's dailies online hours before their printed copies reached readers; a single plastic card unlocked all of DisneyWorld's Coronado Resort; his Manila mobile phone worked across 2,000 kilometers of Turkey; and Encarta, a single-ounce CD-ROM, had rendered shelves of encyclopedias obsolete. Against this he set a country still mired in poverty, rebellion, corruption and criminality. He then took up his three Es. On excellence he argued that each person must develop to the maximum whatever gift the Lord gave, illustrating with the contrasting careers of his son -- seventeen years of study from Ateneo to a Stanford doctorate, then straight into a Bear Stearns vice presidency -- and his own short schooling followed by a climb from lowly associate to Supreme Court justice, and quoted Learned Hand on the magistrate who must know Thucydides and Kant as well as the law. On ethics he grounded professional canons in character ethic, distinguished them sharply from image-building tactics and spin, and repeated that society needs a change in men rather than a change of men. On eternity he disclosed his poor, secular upbringing and his late introduction to God, and argued that spiritual laws carry consequences just as civil and physical laws do, with salvation by repentance, restitution and reformation. He added transparency for public officials, citing the Constitution's disclosure and accountability commands and RA 6713, and closed with the equation GG=TE3, nominating Jovito R. Salonga as its personification.",
-  "source_xlsx": "cjp_books_curated_normalized.xlsx"
+  "source_xlsx": "cjp_books_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "life_story_family_school_and_church"
+    ],
+    "secondary": []
+  }
 }

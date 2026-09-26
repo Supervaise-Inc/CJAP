@@ -128,5 +128,13 @@
     "Connect business interest to educational mission: FEU producing the country's wealthiest taipans is a living example of ROI from education investment"
   ],
   "one_paragraph_summary": "Digressing from the trade-and-investment purpose of taipans accompanying Aquino to China, Panganiban surveys their passion for education philanthropy. Gokongwei celebrated his 85th birthday with P250M to DLSU (Gokongwei College of Engineering) and P15M to AGAPP for 18 preschool buildings -- gamely joking that his 80th gift of P200M to Ateneo is roughly equal to the 85th gift when adjusted for inflation. The late Ramon V. del Rosario was honored posthumously by DLSU with a renamed business college; his Phinma Group (now under Hilado and del Rosario Jr.) controls four provincial universities and grants 1,000 teacher scholarships. Washington SyCip received the Order of Lakandula (rank of bayani) at age 90 for the Synergeia Foundation's basic-education work; he co-founded AIM with Ayala Corp and the Eugenio Lopez Foundation. Oscar Lopez (81) donated P25M to refurbish AIM and land for two Ateneo professional schools. School owners include Henry Sy (NU), Lucio Tan (UE), Yuchengco (Mapua), and Emilio Yap (CEU). Tony and Grace Tan Caktiong's Jollibee Foundation runs the Busog Lusog Talino feeding program in 232 schools plus Don Bosco technical training. The centerpiece is George Ty's Metrobank Foundation: the annual Search for Outstanding Teachers, with P350,000 prizes for each of 10 winners (this year conferred at Malacañang by Aquino), P100M total annual grant, and a NOTED network of 306 teacher-awardees since 1997.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "foundation_for_liberty_and_prosperity"
+    ],
+    "secondary": [
+      "life_story_family_school_and_church"
+    ]
+  }
 }

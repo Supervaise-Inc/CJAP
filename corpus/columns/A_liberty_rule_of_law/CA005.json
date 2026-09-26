@@ -124,5 +124,13 @@
     "frames congressional-funding-from-national-coffers as the only equitable solution"
   ],
   "one_paragraph_summary": "Panganiban raises a fundamental due process objection to Gamboa v. Teves (June 28, 2011, J. Carpio): the foreign investors whose property would be adversely affected -- forced to unload investments at bargain prices -- were never summoned or given the opportunity to be heard. The SEC had uniformly construed 'capital' as including all shares since 1935; foreigners invested relying on this representation. Yet the decision does not show they were summoned; one foreigner mentioned in the title was not served; First Pacific itself was not impleaded; and foreign chambers of commerce were not joined. The Constitution (Art. III Sec. 1) protects 'persons' including foreigners and corporations -- invoking Themistocles ('Strike, but hear me first!') and Daniel Webster ('a law that hears before it condemns'). CJ refrains from discussing the substance and confines his comment to the absolute need for due process, without which any decision would be void. In the second part, CJ traces the torturous judicial compensation history: RA 9227 (effective Nov. 11, 2006, implemented during his tenure) doubled judicial pay via the tax-free SAJ, filling 600 vacancies. But GMA's subsequent 10% pay increases and Joint Resolution No. 4 tranches were both charged to the SAJ and reclassified as taxable basic salary -- effectively decreasing judges' take-home pay despite nominal increases. The new SC resolution (June 7, 2011) attempts to stabilize the framework retroactively from June 24, 2010, but new problems arise: the SAJ may be insufficient, forcing the SC to raise docket fees -- burdening poor litigants. CJ recommends Congress fund judicial pay increases from national coffers, as done for all other government offices.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "property_contracts_and_economic_rights"
+    ],
+    "secondary": [
+      "judicial_reform"
+    ]
+  }
 }

@@ -101,5 +101,11 @@
     "triple-no argument: constitutional + international + domestic as the three dimensions for assessing emergency rule"
   ],
   "one_paragraph_summary": "Published July 30, 2009 as a policy analysis of President Gloria Macapagal Arroyo's options after her last SONA (July 27, 2009), this document by CJP presents three tracks. Option 1 -- Step down: exit gracefully with a legacy narrative (strong economy, 33-quarter uninterrupted growth, GDP doubled from $76B to $186B, 'highest average GDP growth in 43 years,' imminent White House visit as first Southeast Asian leader to meet Obama); protect institutional back (House, SC, Sandiganbayan, Ombudsman, Comelec, Military); choose a viable presidential candidate or run for VP (with Noli or Erap) or for a Pampanga congressional seat. Option 2 -- Extend reign as PM/President: (a) Cha-cha via people's initiative (for simple amendments only, not revisions), constituent assembly (three-fourths of all Congress), or con-con (no more time before elections); (b) martial law (only for invasion/rebellion; 60 days only; Congress can revoke; SC reviews factual basis within 30 days); (c) emergency rule -- 'no constitutional authority; no international backing; our people will rebel against it; even the military may not support it'; (d) holdover -- 'not expressly provided by the Constitution but supported by jurisprudence.' Option 3 -- Preventions: HOPE elections; vigilant people and media; People Power; CBCP; Twitter revolt; full-scale revolution. (Note: this is a companion to SE103's Automation or Confusion analysis from April 2010.)",
-  "source_xlsx": "cjp_speeches_curated_normalized.xlsx"
+  "source_xlsx": "cjp_speeches_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "party_list_charter_change_and_dynasties"
+    ],
+    "secondary": []
+  }
 }

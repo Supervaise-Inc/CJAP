@@ -166,5 +166,11 @@
     "values before acclaim: moral courage, high-mindedness and love of country as the qualities worth emulating"
   ],
   "one_paragraph_summary": "Chapter 2 of 'Liberty and Prosperity' answered friends' testimonials with two stories, one fictional and one true. The first was a medieval parable of a farmer whose runaway horse, unexpected windfall of eleven horses, son's broken leg and consequent exemption from a fatal conscription each drew the same reply: 'Good news, bad news, who knows? I will just keep on doing my best and God will do the rest.' The second was CJP's own life. Born poor, the youngest of four children of a father who had left school to support seven siblings, he hawked newspapers, sold cigarettes and shone shoes in postwar Sampaloc, sleeping on sidewalks to wait for the dawn delivery, and received a purely secular education in public schools without catechism. His ambition to be a chemical engineer gave way to his father's insistence on law; a UP scholarship went unused because the family could not afford the bus fare to Diliman, so he enrolled at Far Eastern University nearby, funding his studies by peddling textbooks and selling bibles. A Yale scholarship won on Dean Salonga's recommendation was lost for want of plane fare. Each frustration, he recounted, proved a blessing in disguise: poverty taught him hard work, yielding a cum laude degree and sixth place in the 1960 bar; big dreams carried him to the presidency of a leading newspaper; the lost Yale trip produced Baron Travel Corporation; and his five children earned the Ivy League graduate degrees he had missed. FEU gave him demanding professors, the ideal of knowing everything about something and something about everything, lay Catholic faith through Columban priests, student leadership, and his wife Leni. He declined early government offers and a Cabinet post from President Ramos, accepting instead a Supreme Court seat in 1995, and learned of his appointment as Chief Justice mid-speech at a hotel dinner, freezing before the microphone for the first time in his life.",
-  "source_xlsx": "cjp_books_curated_normalized.xlsx"
+  "source_xlsx": "cjp_books_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "life_story_family_school_and_church"
+    ],
+    "secondary": []
+  }
 }

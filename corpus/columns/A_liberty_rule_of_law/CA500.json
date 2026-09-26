@@ -116,5 +116,11 @@
     "applies chasm-between-income-and-assets test as the ill-gotten-wealth predicate"
   ],
   "one_paragraph_summary": "Panganiban reports that Chief Justice Corona agreed to testify before the Senate on the condition that Ombudsman Morales testify first and reveal under oath her initial finding that the CJ had amassed at least a 'mind-boggling' $10 million 'purportedly grossly disproportionate to his salary and other lawful income.' Morales accepted without hesitation. Two weeks earlier, the OMB had written Corona a letter asking him to explain within 72 hours 'several bank accounts in PSBank and several other banks denominated in US dollars the aggregate value of which amounts to at least US$10 million.' Instead of responding, Corona's lawyers flatly denied the $10M and challenged the OMB's jurisdiction. CJ rejects the jurisdictional challenge: Art. XI Sec. 13 and RA 6770 specifically empower the OMB to investigate impeachable officials for the purpose of filing an impeachment complaint, recovering ill-gotten wealth, and filing criminal indictments. On Corona's strategy: it will favor Corona only if Morales fudges her testimony; it will backfire if she discloses substantial prima facie evidence of the $10M, given the already heavy prima facie prosecution showing of omitted/undervalued assets disproportionate to his legal income. Since impeachment is more political than legal, Corona cannot hide behind technicalities before the senator-judges -- he must demonstrate the high moral character, integrity, independence, probity, and fitness to remain as the highest magistrate.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "public_funds_budget_and_bank_evidence"
+    ],
+    "secondary": []
+  }
 }

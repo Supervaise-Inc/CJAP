@@ -170,5 +170,13 @@
     "applies the 'rich-poor chasm + ostentatious profligacy' diagnostic for democratic erosion"
   ],
   "one_paragraph_summary": "Reading the Jan 6, 2021 Capitol riot as a 'heretofore unthinkable assault on democracy and capitalism' in the 'very temple' of American liberalism, Panganiban argues that discontent morphs into insurrection when the gap between rich and poor becomes unconscionably wide and is aggravated by an arrogant display of profligacy -- private jets, luxury yachts, sports cars, mansions, red diamonds -- pushing populations toward populist demagogues like Trump. Marx's redistribution answer has utterly failed; even China rose only by embracing capitalism. The path is therefore not replacement but inclusion. He cites three international examples -- Muhammad Yunus's Grameen Bank, India's Aravind Eye Hospital, and InfoGeekie -- and then enumerates Filipino counterparts: Jollibee's Farmer Entrepreneurship Program, BPI BanKo, Jaime Aristotle Alip's CARD MRI, Metrobank Foundation's Manila Doctors Hospital, Lopez Group's Green advocacies, Metro Pacific's GabayKabuhayan, and the conglomerate stewardship of UE (Tan Yan Kee), Mapua and U. Nueva Caceres (Yuchengco/Ayala), National University (SM), eight institutions under Phinma, and PLDT's GabayGuro for teachers. San Miguel's P1B vaccine commitment for 70,000 employees illustrates the pandemic response. He closes with a governance manifesto: 'the best way of governing is to govern the least,' interfering only to check avarice and level the playing field, while improving access to food, water, education, infrastructure, health care, and decent incomes -- liberal democracy and performance-driven capitalism remain the best catalysts for liberty and prosperity, but must scale up the inclusion of the poor and powerless.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "foundation_for_liberty_and_prosperity"
+    ],
+    "secondary": [
+      "us_supreme_court_and_american_politics"
+    ]
+  }
 }

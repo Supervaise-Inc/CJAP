@@ -139,5 +139,13 @@
     "anchors public-figure / private-individual analysis in Borjal v. CA doctrine"
   ],
   "one_paragraph_summary": "Panganiban sets the record straight on the Maria Ressa cyber libel case: the DOJ in its January 10, 2019 Resolution explicitly exonerated her from libel for the original May 29, 2012 Rappler posting (because the Cybercrime Act was not promulgated until September 2012), and charged her and writer Reynaldo Santos Jr. only for the 'republication' of February 19, 2014 under the multiple publication rule articulated in Soriano v. IAC (November 9, 1988). Because the operative statute is RA 10175 (which prescribes in 12 years for cyber libel) rather than the Revised Penal Code's ordinary libel (which prescribes in 1 year), her prescription defense is 'wobbly.' Her ex post facto defense is similarly inviable because the charged act (the 2014 republication) occurred while the Cybercrime Law was already in effect -- CJ illustrates with a jaywalking analogy. He pivots to the defenses Ressa actually has: (a) the Rappler article may be privileged as 'fair commentary on a matter of public interest' under Borjal v. CA (January 14, 1999), provided that complainant Wilfredo Keng -- a private individual -- can be shown to have attained 'public figure' status; (b) the old RPC multiple-publication doctrine may not transpose to cyber libel; (c) selective justice may breach equal protection; and (d) probable cause itself may be absent. The deplorable after-hours warrant service and overnight detention, he says, will have minimal effect on substantive culpability though administrative sanctions against the agents are appropriate and the NBI is already investigating. He closes with the universal litigation caveat: 'perceived facts must be converted to legal facts by the lawyers of both sides via the rules of evidence; otherwise, courts cannot use them in their judgments.'",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "libel_and_cybercrime"
+    ],
+    "secondary": [
+      "criminal_trials_and_prosecutions"
+    ]
+  }
 }

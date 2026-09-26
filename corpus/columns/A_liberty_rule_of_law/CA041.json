@@ -135,5 +135,11 @@
     "Anticipate inhibition risk: actions taken without party motion may invite recusal demands"
   ],
   "one_paragraph_summary": "Panganiban critiques the Senate Impeachment Court's unusual 18-5 vote remanding the Articles of Impeachment against VP Sara Duterte to the House of Representatives -- while simultaneously issuing a Writ of Summons giving her 10 non-extendible days to file an answer -- and the IC's demand that the HOR of the 20th Congress certify it did not violate the one-year impeachment bar and confirm willingness to pursue the complaint. He argues that the remand has no constitutional, legal, or procedural anchor: the Constitution textually commands that once one-third of the House files the verified complaint, the Senate 'shall forthwith proceed'; the Senate Rules grant no such remand power; and the analogy to the certificate of non-forum shopping in the Rules of Court applies only to civil, not criminal, cases. Even if the IC has implied sui generis powers, he says, it cannot exercise them unilaterally without notice and due process to the parties -- especially since the VP's own counsel had already announced an intent to raise constitutional infirmities, making the IC's pre-emption procedurally premature and potentially biased enough to invite inhibition motions from the prosecutors. He concedes one point: the IC's existence is properly continuous across the 19th and 20th Congresses because the office is different from the occupant, just as courts continue despite the retirement, resignation, or death of their judges. He closes by asking, in the refrain of the Diana Ross song that titles the column, whether the senator-judges know where they are taking this -- to the Supreme Court (where it could be delayed and forgotten), to the wastebasket (ignoring the 78-88% of Filipinos who want accountability), to embarrass the VP, or to the July 2025 battle for the 20th Congress's Senate Presidency -- leaving the answer to their public-trust discretion.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "impeachment_accountability"
+    ],
+    "secondary": []
+  }
 }

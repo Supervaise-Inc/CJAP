@@ -117,5 +117,11 @@
     "prove-critics-wrong: resistance as the answer to charges of timidity/subservience"
   ],
   "one_paragraph_summary": "Chapter 8 of 'With Due Respect' (Vol. 3), CJP's August 2, 2009 Inquirer column, is a sharp protest -- written 'as a retired Chief Justice and ex-officio chair of the Judicial and Bar Council' -- against 'Malacañang's assault on the JBC's integrity and independence.' The trigger was a 'jolting letter' signed by Executive Secretary Eduardo Ermita that returned, 'without any legal justification,' the council's nominee list for two Supreme Court vacancies. CJP recalls the constitutional mandate: justices are appointed by the President 'from a list of at least three nominees prepared by the Judicial and Bar Council for every vacancy,' and 'any vacancy shall be filled within 90 days.' The JBC, after 'a protracted screening process,' had sent six nominees -- three each for the seats vacated by Justices Austria-Martinez and Tinga -- a slate of 'no pushovers' (four senior jurists and two private lawyers, including a 1967 bar topnotcher), so it had plainly 'done its constitutional duty.' Ermita's move, he argues, was a double blow: rejecting all six 'virtually accused the JBC of not doing its job,' and demanding names 'acceptable to the Palace' 'challenged its independence' -- even though the Constitution places the JBC 'under the supervision of the Supreme Court, not... the President.' By returning the list, Malacañang also breached its duty to fill the vacancies within 90 days (Martinez retired April 30, Tinga May 11), and CJP warns that a JBC which revised and resubmitted beyond that window would itself violate the Constitution. Because the council exists as 'a check on... the appointing power,' it 'must refuse to add more names'; to 'capitulate now' would 'completely erode' its raison d'être. Long faulted for 'timidity' and 'subservience to the Palace,' the JBC now had its chance to 'prove its critics wrong' and 'assert its independence and integrity by refusing to buckle' -- and he names every member so readers know who must hold the line.",
-  "source_xlsx": "cjp_books_curated_normalized.xlsx"
+  "source_xlsx": "cjp_books_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "jbc_discernment_and_appointment"
+    ],
+    "secondary": []
+  }
 }

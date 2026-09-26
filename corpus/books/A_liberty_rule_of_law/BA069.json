@@ -159,5 +159,11 @@
     "where procedure is cumbersome but constitutionally commanded, the Court has no choice but to enforce it"
   ],
   "one_paragraph_summary": "Chapter 15 of 'Transparency, Unanimity & Diversity' recounted Ho v. People, the unanimous en banc Decision Artemio V. Panganiban wrote to settle what had been confusing jurisprudence on the basis for an arrest warrant. The Anti-Graft League had complained to the Ombudsman against Doris Teresa Ho, Rolando S. Narciso and others under Section 3(g) of RA 3019; Ombudsman Conrado M. Vasquez authorized the charges and the Sandiganbayan issued warrants on the strength of the prosecutor's resolution alone. That, the Court held, violated Section 2 of Article III, which requires probable cause to be determined personally by the judge. Surveying Soliven, Inting, Lim, Allado, Webb and Roberts, CJP summarized three points: the prosecutor decides whether to hold the accused for trial while the judge decides whether immediate custody is necessary; because their objectives differ the judge must decide independently on evidence beyond the prosecutor's bare report; and yet the complete records need not be examined, only sufficient supporting documents such as affidavits, counter-affidavits and transcripts, on which the judge can make or at least verify a finding. He corrected a misreading of Webb, where sworn statements and counter-affidavits had also been before the trial court, and found grave abuse of discretion in a Sandiganbayan that had nothing before it but a resolution, a memorandum and its own conjecture. He noted his pleasure at the unanimous vote, won by reconciling the divided opinions in Roberts. A wrinkle followed in Cojuangco Jr. v. Sandiganbayan, where the majority held that posting bail and participating waived objections to a void warrant; dissenting, he traced the petitioner's continuing objections -- an Opposition, bail posted expressly without prejudice, a Memorandum in Amplification, a motion to dismiss -- and argued that a conditional arraignment sought only to permit travel was no voluntary appearance, that three years of inaction by the graft court made the majority's rule unjust, and that remand was constitutionally commanded however cumbersome. The Revised 2000 Rules abandoned Cojuangco and adopted his Dissent as Section 26 of Rule 114.",
-  "source_xlsx": "cjp_books_curated_normalized.xlsx"
+  "source_xlsx": "cjp_books_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "criminal_trials_and_prosecutions"
+    ],
+    "secondary": []
+  }
 }

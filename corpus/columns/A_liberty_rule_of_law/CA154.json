@@ -194,5 +194,13 @@
     "uses anticipated-litigation prediction to telegraph likely SC alignment with Comelec on legitimate-authority questions"
   ],
   "one_paragraph_summary": "The Supreme Court issued temporary restraining orders against Comelec -- under chair George Erwin Garcia (GEG) -- stopping the implementation of Resolution No. 11044-A dated Sept 4, 2024, which had disqualified Mandaue City Mayor Jonas C. Cortes, former Albay Governor Noel E. Rosal, and Cebu City Mayor Michael L. Rama from 2025 candidacy based on Ombudsman dismissals carrying perpetual disqualification -- for the very simple reason that those OMB dismissals are still under appeal and therefore not final. GEG himself conceded the TRO was 'timely' ('Sana nga, pero hindi ginawa eh' -- we should have done it but did not) and rightly added that all ~100 such non-final disqualified candidates should be on the May 2025 ballot. The SC's Oct 22, 2024 press release affirming Rosal's disqualification, CJ clarifies via Romulo Macalintal's email, refers to Rosal's 2022 gubernatorial candidacy (won with an overwhelming 230,735-vote majority against then-Gov Al Francis Bichara), while the current TRO is for 2025. After CJ's Oct 14 column expressed hope that GEG would redeem himself, the multiple new TROs have made that hope 'evaporate' -- but CJ refuses to knock him out because GEG faces the more crucial job of assuring HOPE (Honest, Orderly, Peaceful) elections in 2025. Beyond the usual 3Gs (guns, goons, gold), two new challenges loom: artificial intelligence and the untested Miru System. GEG has required all candidates to register their online identities by Dec 13 (only 62 of over 44,000 had complied as of Oct 23) and forcefully threatened disqualification or 1-6 years' imprisonment for endorsements via unregistered social-media outlets -- 'let's see whether the Comelec and GEG have the gravitas and the guts to enforce his big talk.' Comelec's posting of party-list nominees' names for public scrutiny may be challenged, but the SC is likely to uphold Comelec's constitutional authority to assure HOPE. The Nov 5 US presidential election will give the Comelec and the Filipino public an experiential view of how AI can be used, abused, and misused; the Miru System remains untested locally, and CJ leaves its investigation, monitoring, and critique to PPCRV and Namfrel.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "elections_and_automated_voting"
+    ],
+    "secondary": [
+      "science_technology_and_the_law"
+    ]
+  }
 }

@@ -121,5 +121,13 @@
     "science-against-irreversibility: DNA exoneration data reinforcing principled opposition to the death penalty"
   ],
   "one_paragraph_summary": "Chapter 10 of 'A Centenary of Justice' reproduces CJP's plenary remarks of July 1, 2001 at the Einstein Institute (Einshac) 'Working Conversation' on biosciences and biotechnology in Kona, Hawaii -- a conference of about 100 leaders of law and science he attended on a judicial scholarship with Justice Leonardo A. Quisumbing and PhilJA Chancellor Ameurfina A. Melencio Herrera, framing it as ushering 'the bio-age into the Philippine judiciary' during its centenary. Building on Canadian Justice Claire L'Heureux-Dube's account of judicial and constitutional globalization (with her 'Harvard mouse and Monsanto's canola' examples), he surveys the new paradigms confronting the world's courts: economic deregulation, liberalization and privatization dissolving sovereign borders under the WTO; the information highway shifting wealth 'from the exploitation of natural resources to the exploration and use of knowledge'; and -- 'most daunting' -- genomics, genetic engineering and biotechnology reshaping health, ethics and 'the very essence of life itself.' Answering for the Philippines, he restates that the SC is reckoned from 1901 (after the 1898 Treaty of Paris) because only then did an independent tribunal arise, with decisions appealable to the US Supreme Court until 1946, and defines judicial independence as non-reviewable decisions, constitutionally guaranteed funding, and security of tenure (to age 70) and compensation. He then enumerates the Court's five powers -- ordinary review; certiorari review of any agency, including the Presidency and Congress, for grave abuse of discretion; administrative supervision and discipline of judges; control of the bar; and rule-making -- and maps each to bioscience readiness: reviewing the DOH, DA, Bureau of Patents and FDA, voiding laws on cloning, genetic testing and privacy, promulgating rules on DNA and electronic evidence, shaping curricula through bar exams and PhilJA, ensuring uniform ethical application, and entering international judicial agreements unaided. He closes on truth: Time magazine's report that 80 US convicts were later exonerated by DNA leads him to 'shudder' that Philippine trial courts had imposed death on more than 1,500 persons in five years -- 'a penalty which, incidentally, I personally oppose on constitutional and philosophical grounds' -- concluding that scientific breakthroughs can ensure 'mistakes in the discovery of truth can be minimized, if not totally avoided.'",
-  "source_xlsx": "cjp_books_curated_normalized.xlsx"
+  "source_xlsx": "cjp_books_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "science_technology_and_the_law"
+    ],
+    "secondary": [
+      "death_penalty_and_echegaray"
+    ]
+  }
 }

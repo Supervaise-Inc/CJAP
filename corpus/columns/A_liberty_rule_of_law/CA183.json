@@ -178,5 +178,14 @@
     "treats 1Sambayan's candidate-search posture as the canonical opposition-coalition discipline"
   ],
   "one_paragraph_summary": "The Supreme Court sitting as the Presidential Electoral Tribunal dismissed, 15-0, Bongbong Marcos's election protest against VP Leni Robredo 'for lack of merit' in a Feb 16, 2021 decision (released only the week before this column) ably written by Justice Marvic M.V.F. Leonen, with Romulo Macalintal leading Leni's defense and George Garcia leading Bongbong's team. The three causes were dismissed in turn: the first (alleging non-authentic Certificates of Canvass) thrown out at the Pre-Trial Conference of Aug 29, 2017; the second (revision and recount of 36,465 clustered precincts) failing because the recount in the three pilot provinces (Camarines Sur, Iloilo, Negros Oriental) actually grew Leni's lead from 263,473 to 278,566; and the third (annulment of results in Maguindanao, Lanao del Sur, and Basilan for terrorism, intimidation, and pre-shaded ballots in 2,756 precincts) junked because protestant 'utterly failed to allege that protestee instigated' the irregularities. Despite this legal defeat, Bongbong remains a viable, even strong, contender in 2022: Pulse Asia's Feb 22-Mar 3 face-to-face survey -- conducted AFTER public knowledge of the dismissal and for PRESIDENT not VP -- places him at 13%, second only to Sara Duterte (27%) and marginally ahead of Grace Poe, Isko Moreno, and Manny Pacquiao. Leni at 7% places only 6th, having 'apparently failed to take advantage of the political worth of her sweeping legal victory.' CJ predicts Bongbong will file an MR -- not because a 15-0 decision can be reversed but to strengthen his political stock. Five months from COC filing, CJ notes the Pulse Asia field misses Frank Drilon (brilliant, diligent, scandal-free, the most experienced public servant around), Mark Villar (DPWH secretary, Manny-and-Cynthia heir, Build-Build-Build credentials), Gwen Garcia (Cebu and 'One Cebu' regional bloc), and Win Gatchalian (undefeated; 'Kay SARA, WIN tayo'). Tony Carpio leads 1Sambayan's candidate search, not as candidate himself. CJ closes with a six-tandem speculative matrix for ongoing Pulse Asia/SWS testing -- administration, opposition, regional, populist, surprise, and competent-celebrity pairings.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "elections_and_automated_voting"
+    ],
+    "secondary": [
+      "impeachment_accountability",
+      "marcos_robredo_election_contest"
+    ]
+  }
 }

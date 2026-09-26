@@ -140,5 +140,14 @@
     "malasakit-as-governance-culture: the call to embed mercy and care into civic institutions, not just private virtue"
   ],
   "one_paragraph_summary": "Delivered July 16, 2016 at the Third Philippine Conference on New Evangelization (PCNE) at Cardinal Tagle's invitation -- the theme being AWA, UNAWA, GAWA and 'Malasakit sa Bayan ni Juan de la Cruz' -- this keynote by CJP (nearly 80 years old, initially hesitant) proclaims two basic truths: God's mercy felt through Catholic faith, and God's wisdom experienced through the gift of reason. The journey of faith begins with a World War II dysentery miracle at age six in Candaba, Pampanga (given up for dead; no medical care; miraculous recovery); continues through the newsboy years in Sampaloc (promising himself he would be president of the Manila Times, fulfilled in 1991 as Inquirer President); through the UST Trinity failure ('sheepishly whispered, Jesus, Mary, Joseph'; denied scholarship; went to FEU instead -- one of the best turns of his life); through meeting Fr. Michael Nolan at FEU (Student Catholic Action), then Leni Carpio at the NUS ('She wanted to be a Benedictine nun, until she met me. She taught me how to pray'); through Marriage Encounter, Life in the Spirit, reading the Bible several times and 100+ religious books, the 1991 Second Plenary Council, and ultimately Pope John Paul II's appointment as the only Filipino in the Pontifical Council of the Laity (Vatican, 1996-2001). The journey of reason parallels it: father's deathbed vow (to fulfill his frustrated law ambition); bar exams while sick, wading through knee-deep flood, wanted to quit, Salonga insisted, placed 6th; Yale scholarship granted but travel grant denied; Salonga's consolation: 'Forget graduate studies. Come and join my law office and I will teach you what I learned from UP, Harvard and Yale.' Policy applications: vigilance on the federal system proposal; the death penalty proposal 'clearly violates the Ten Commandments, as well as the sacredness of life and the dignity of the human person.' Closes: 'God will always be with us: above us to inspire us, behind us to strengthen us, before us to lead us, and within us to transform us to be another Christ. To God be the glory! Alleluia!'",
-  "source_xlsx": "cjp_speeches_curated_normalized.xlsx"
+  "source_xlsx": "cjp_speeches_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "life_story_family_school_and_church"
+    ],
+    "secondary": [
+      "faith_journey",
+      "death_penalty_and_echegaray"
+    ]
+  }
 }

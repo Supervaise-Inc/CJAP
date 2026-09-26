@@ -184,5 +184,13 @@
     "embeds humor as table-management -- defusing power-dynamics between guests of different ranks"
   ],
   "one_paragraph_summary": "Delivered August 29, 2025 at Manila Polo Club as closing remarks of the annual FLP Awards Ceremony, this speech opens with extended, witty acknowledgments of the head-table guests led by Special Guest First Lady Louise Araneta-Marcos (whose birthday on August 21 was celebrated by the audience and whose 'Germany secret' exchange with CJP at the August 1 Goldenberg Mansion First Friday Musical is teased but not revealed), guest speaker Fernando Zobel de Ayala (subjected to a teasing roster of admiring lady guests), Lucio 'Hun-Hun' Tan III ('young, single and available'), Mike Toledo (defused with a St. Peter henpecked-husband joke), SAJ Telly Bernabe, bachelor donor Dr. Allen Roxas (who gave FLP a 2,750 sq m commercial lot in Alabang Global City), MPIC boss Chaye Cabal Revilla, Gov. 'Say' Tetangco, SolGen Lelen Berberabe, J. Jhosep 'Jholo' Lopez, and CJ Alexander G. Gesmundo (who will lay the FLP Museum's cornerstone before his November 2026 retirement). CJP then reports on FLP's five education programs and announces a new Super Committee -- chaired by SolGen Berberabe with SAJ Bernabe, Bernadine Siy (first female Ateneo BOT chair), Atty. Joel Gregorio, Atty. Arvin Cortez, and Gov. Tetangco as adviser -- to design a program elevating lawyers' ethical standards, prompted by Tessie Sy Coson's principle that lawyers must be 'not just talented, but also ethical and Godly.' He then presents a 7-minute video on the two flagship ultimate projects: the futuristic AI-powered Museum for Liberty and Prosperity (designed in preliminary form by Architect Jun Palafox) and the pro-poor, multi-billion-peso Fund for Liberty and Prosperity for MSMEs. Invoking 'to whom much is given, much is required' and a seed-in-fertile-soil parable, he closes with the hope of gathering 'one day within my lifetime' at the new Museum, and turns the program over to the FLP Choir for 'Tagumpay Nating Lahat' arranged by Eudenice Palaruan.",
-  "source_xlsx": "cjp_speeches_curated_normalized.xlsx"
+  "source_xlsx": "cjp_speeches_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "foundation_for_liberty_and_prosperity"
+    ],
+    "secondary": [
+      "life_story_family_school_and_church"
+    ]
+  }
 }

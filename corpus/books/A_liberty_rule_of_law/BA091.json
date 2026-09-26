@@ -161,5 +161,11 @@
     "executive immunity is personal to a sitting President and cannot be derived by a relative or aide"
   ],
   "one_paragraph_summary": "Chapter 20 of 'Leveling the Playing Field' recounted how Romualdez v. Sandiganbayan gave the Supreme Court the occasion to settle a question that Estrada v. Sandiganbayan had left open: whether the void-for-vagueness doctrine may be used to invalidate penal laws. In Estrada the Court had upheld the Anti-Plunder Law by a 10-4-1 vote but had not met the 'on its face' challenge head on, merely citing Justice Mendoza's Separate Concurring Opinion that overbreadth and vagueness apply only to free-speech cases; CJP himself had written a Separate Concurring Opinion there. Romualdez, a brother-in-law of former President Marcos charged by the PCGG in 1989 with violating Section 5 of Republic Act 3019, attacked that provision as vague and overbroad after a long train of motions to dismiss and to quash. The Court first held those motions procedurally fatal -- a motion to dismiss was in substance a prohibited second motion to quash, the Rules abhor repetitive motions, and issues may not be raised by installment -- yet reached the merits because of the importance of the case in curtailing graft and corruption. It then held that the doctrines have special application only to free-speech cases, that a statute aimed at conduct is tested only as applied, that every statute is presumed valid, and that under Dans v. People the law adequately answered 'What is the violation?' through its two elements; the word 'intervene' meant simply 'to come between.' A vague Information called for a bill of particulars, not a quashal; the reinvestigation by the Ombudsman satisfied Cojuangco and Raro; prescription ran from discovery after the PCGG's work, so the 1989 Information was timely; and immunity failed because the 1981 amendment could not reach a 1975 act and, under Estrada v. Desierto, immunity attaches only during incumbency. CJP closed by reproducing Justice Tinga's Separate Opinion that the Estrada pronouncement was obiter and that a vagueness challenge is a proper due process claim.",
-  "source_xlsx": "cjp_books_curated_normalized.xlsx"
+  "source_xlsx": "cjp_books_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "criminal_trials_and_prosecutions"
+    ],
+    "secondary": []
+  }
 }

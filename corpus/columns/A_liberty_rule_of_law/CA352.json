@@ -146,5 +146,13 @@
     "Court's jurisdiction over presidential 'qualifications' arises only after election, not before -- distinct from Comelec's COC authority"
   ],
   "one_paragraph_summary": "Panganiban returns to the Grace Poe cases to address reader queries about why the Supreme Court spent five days of combative oral argument on her citizenship and residency when (as he argued the prior week) the gut issue was simply whether the Comelec gravely abused its discretion in cancelling her COC. He answers by laying out the three cumulative requirements for COC cancellation: the misrepresentation must be (1) material, (2) false, and (3) made with deliberate intent to mislead. Poe's statements about citizenship and residency are concededly material, but whether they were false -- and if false, whether made in good faith -- is genuinely contested among the justices. He flags Justice Jardeleza's separate concern that the Comelec may have denied Poe due process, which would ipso facto void the cancellation. Panganiban then offers Tecson vs Comelec (March 3, 2004), the FPJ disqualification case, as the controlling precedent. He recounts how Justice Vitug's 8-justice majority strung together presumptions about Lorenzo Pou's Philippine residence to conclude that mass Filipinization under the Philippine Bill of 1902 extended Filipino citizenship to FPJ's father Allan Poe, and thus to FPJ himself under the 1935 Constitution -- but more importantly, that even if 'the totality of the evidence may not establish conclusively that respondent FPJ is a natural-born citizen,' he could not be held guilty of material misrepresentation since it must be 'deliberate and willful' per Romualdez-Marcos. He extensively quotes Justice Puno's preference to 'let the people decide who will be the next President' on political questions and Justice Sandoval-Gutierrez's warning that disqualifying popular candidates on doubtful claims 'results to violence.' He contrasts these with the strict-interpretation dissent of Justice Carpio, who demanded conclusive proof that Lorenzo Pou was a Philippine inhabitant on April 11, 1899. The closing question: will the Court adopt the FPJ majority's liberal or the minority's strict interpretation in the cases of his adoptive daughter? 'We should know soon enough.'",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "elections_and_automated_voting"
+    ],
+    "secondary": [
+      "citizenship_and_residency_grace_poe"
+    ]
+  }
 }

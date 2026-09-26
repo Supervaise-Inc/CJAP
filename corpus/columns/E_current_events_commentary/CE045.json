@@ -173,5 +173,15 @@
     "celebrates exemplary outliers without dismissing 'passers' (inclusive tribute structure)"
   ],
   "one_paragraph_summary": "Two weeks before Election Day 2022, Panganiban -- opening with the disclaimer that as a retired jurist he 'seldom write[s] on highly partisan matters' -- critiques the joint press conference at which Senator Ping Lacson, Manila Mayor Isko Moreno, and former defense secretary Bert Gonzales asked Vice President Leni Robredo to withdraw and let voters consolidate behind one of them as the viable alternative to Bongbong Marcos. He does the survey arithmetic out loud: Lacson (2%) + Moreno (8%) + Gonzales (0%) + an absent Pacquiao (6%) = 16%, still well below Robredo's 24%, so 'logically then, if anyone should withdraw, it should be the four, not the VP'; the Marcos-Robredo contrast in programs and personalities is a 'bonus to voters,' not a disadvantage. He formally demotes Lacson from the top of his presidential short list to the bottom because of the presser, and laments that Marcos's debate-skipping has reduced the televised forums to 'pitiful debates for the second place.' The column pivots via star-bar transition to a 'more pleasant topic': all 22 FLP scholars (in partnership with Tan Yan Kee Foundation) passed the 2021 bar, with 3 rated 'Excellent' (>90%) and 11 rated 'Exemplary' (85-90%) under the Court's new tier classifications, while 10 FLP-Ayala Dissertation Writing Contest winners also rated 'Exemplary.' He highlights the strong showing of UCor (Baguio), USC (Cebu), and FSUU (Butuan) as regional-equity evidence and closes with the April 30 deadline for the next cohort at www.libpros.com.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "foundation_for_liberty_and_prosperity"
+    ],
+    "secondary": [
+      "life_story_family_school_and_church",
+      "marcos_robredo_election_contest",
+      "bar_exam_and_legal_education"
+    ]
+  }
 }

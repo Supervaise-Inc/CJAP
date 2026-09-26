@@ -161,5 +161,11 @@
     "treats inauguration vows as evaluable promises ('is he up to the job?')"
   ],
   "one_paragraph_summary": "On Joe Biden's inauguration as the 46th American president amid a divided United States -- the column's titular oxymoron -- Panganiban catalogs Biden's vows to restore order, revive the rule of law, heal pandemic wounds, win over the 74 million who did not vote for him, lift the country from depression, reverse Trump's immigration policies, and regain abandoned-ally trust. He sketches Biden's life in dot-leader fragments: born to poor Irish-descent parents; mocked as a child for stuttering; window-washing and gardening to pay for high school; ranking 76th of 85 in law school; widowed in 1972 when Neilia and one-year-old Naomi were killed shopping for a Christmas tree; suicidal grief; remarriage to Jill in 1977; six Senate terms; 1987 plagiarism withdrawal; 1988 brain-aneurysm surgery; 2007 caucus exit at under 1%; eight years as Obama's VP; 2015 exit on Beau's death; 2020 victory at age 78, oldest US president ever and only the second Catholic. He then maps Biden's tragedies and triumphs onto Lincoln's structurally -- child labor at 7, orphaned at 9, rejected marriage at 28, Congress on third try at 37, Senate defeat at 45, VP failure at 47, presidency at 51 -- recalling Lincoln's narrow 40% victory among four candidates, the Confederate rejection both popular and electoral, his 'with malice towards none' forgiveness of Robert E. Lee and the Confederate leadership, and his assassination by John Wilkes Booth, a Confederate sympathizer 'who could not accept they lost the war.' Like Lincoln, Biden offered reconciliation in his inaugural -- 'We must end this uncivil war that pits red against blue, rural versus urban, conservative versus liberal. We can do this -- if we open our soul instead of hardening our hearts.' CJ closes with Amanda Gorman's inaugural poem at 22 -- 'a country that is bruised, but whole. Benevolent, but bold. Fierce and free' -- and an 'Amen!': 'may the USA be an oxymoron no more.'",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "us_supreme_court_and_american_politics"
+    ],
+    "secondary": []
+  }
 }

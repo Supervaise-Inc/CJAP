@@ -154,5 +154,11 @@
     "transcendent importance as an answer to mootness where the freedom at stake outlives the particular election"
   ],
   "one_paragraph_summary": "Chapter 20 of 'A Centenary of Justice' reported the Supreme Court's decision in Social Weather Stations v. Comelec, which struck down Section 5.4 of RA 9006, the Fair Elections Act, barring publication of election surveys fifteen days before a national and seven days before a local election. CJP opened by recalling ABS-CBN v. Comelec, the exit-poll case he had written for the Court and reported in an earlier book, where he had expressed elation at the 10-4 vote because it showed the Court could meet head-on new paradigms of free expression brought about by advances in science and technology; the survey case, he wrote, strengthened that confidence. He set out the challenged provision and the statutory definition of an election survey, then reproduced the 7-5-3 ponencia of Justice Vicente V. Mendoza holding the ban an unconstitutional abridgment of speech, expression and the press: it laid a prior restraint, the Comelec's constitutional powers over media reach only equal opportunity, time, space and the right to reply, and under the United States v. O'Brien test the provision failed criterion three, since it suppressed a whole class of expression while leaving columnists and commentators free to opine, and criterion four, since aims such as preventing last-minute pressure, the bandwagon effect and dagdag-bawas could be pursued by punishing unlawful acts rather than speech. He distinguished National Press Club and Osmena, where the ad ban had constitutional authorization and supplied Comelec space and Comelec hour as a substitute. He then summarized the concurrences of Justice Melo, who had dissented in ABS-CBN, and of Justice Puno, who invoked the clear and present danger rule and the overbreadth doctrine, and quoted his own concurrence treating freedom of expression as a preferred right limitable only upon a substantive danger. He reproduced Justice Kapunan's dissent on balancing free speech against equal access to public service, and closed by explaining that the earlier ABS-CBN dissents had rested only on mootness.",
-  "source_xlsx": "cjp_books_curated_normalized.xlsx"
+  "source_xlsx": "cjp_books_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "elections_and_automated_voting"
+    ],
+    "secondary": []
+  }
 }

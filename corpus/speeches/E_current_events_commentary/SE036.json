@@ -129,5 +129,15 @@
     "self-application logic: FLP programs are the institutionalized 'little things' -- the organizational equivalent of the stranger's gesture"
   ],
   "one_paragraph_summary": "Delivered June 12, 2020 -- Independence Day -- as the closing address at FLP's first pandemic-era online awards ceremony, this speech by CJP opens with thanks to CJ Diosdado Peralta and SAJ Estela Perlas-Bernabe (Board of Judges chairs) and the Tan Yan Kee Foundation and Ayala Group, and acknowledges that bar exams have been postponed by COVID. The governing philosophy is the 'little things' thesis, illustrated by two stories. The first is Lucila Takjerad's Harvard commencement: a 1994 Algerian civil war refugee's illiterate mother couldn't write her name on the French emigration list; a stranger scribbled it; the family emigrated to France; Lucila graduated Harvard and proposed: 'Fellow graduates, of course, do the most you can do... But also do the least you can do. Because, the least you can do might turn out to be the most significant.' The second is CJP's own story: both parents dead, no money for bar review, an anonymous older friend paid for it on condition he land in the Top Ten; CJP was hospitalized during the first bar Sunday but Salonga urged him not to quit; he landed sixth place. The friend 'never knew how his simple gesture... brought me over to the noble legal profession and, eventually, to the highest judicial position in our country.' CJP positions FLP's own programs -- grants, SC interviews, board questioning, midnight dissertation-writing, secretariat kindness -- as the institutionalized version of that stranger's gesture. He then addresses the AI challenge: DiGi Age robots may apply FxL=D (facts times law equals decision) and dura lex, sed lex automatically -- but 'only humans have a heart, only humans have wisdom, only humans can dispense compassionate justice especially when the law is not clear, when the law is inadequate, or when the law is unconscionable.' He commissions the scholars as 'the leaders of the DiGi generation' in 10-20 years, closing with the hovering-spirit promise: 'my spirit will be hovering above you, beside you and behind you, smiling and contented, that I have brought you a few little things that have made a vital difference.'",
-  "source_xlsx": "cjp_speeches_curated_normalized.xlsx"
+  "source_xlsx": "cjp_speeches_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "foundation_for_liberty_and_prosperity",
+      "life_story_family_school_and_church"
+    ],
+    "secondary": [
+      "science_technology_and_the_law",
+      "bar_exam_and_legal_education"
+    ]
+  }
 }

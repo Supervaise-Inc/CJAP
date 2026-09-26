@@ -174,5 +174,13 @@
     "treats philanthropy-advisory role as legitimate consequence of corporate-network embeddedness"
   ],
   "one_paragraph_summary": "Panganiban continues his retirement-thanksgiving series by chronicling his concurrent careers as corporate director/adviser and foundation trustee/officer since leaving the Supreme Court in 2006. To be effective, he has had to learn the millennials' tools -- from smartphones to the three technologies he flags as shaping the near future: artificial intelligence, blockchain, and internet of things -- using his directorship at Metro Pacific Investments (14 hospitals including Makati Med and Asian Hospital) for cutting-edge medical knowledge. He portrays the tycoon successions he has witnessed firsthand: Jaime Zobel de Ayala to Jaime Augusto and Fernando; George S.K. Ty to Arthur and Alfred; John Gokongwei Jr. (and James) to Lance; Oscar M. Lopez to Piki; and Henry Sy Sr. to Tessie and siblings -- with the young heirs inheriting not just wealth but 'the hard work, grit and ingenuity of the old' plus the drive to build the nation. He names Tony Tan Caktiong (Jollibee from solitary eatery to Asia's largest QSR) and Edgar 'Injap' Sia (Mang Inasal, Double Dragon) as the newest taipans he has met, and singles out Manuel V. Pangilinan (MVP Group's phoenix-like rise from the 1998 real estate debacle) and Ramon S. Ang (San Miguel from food/beer to multifaceted behemoth) as 'the most amazing entrepreneurs.' He shares his discipline -- strict time management, declining boards with meeting conflicts, direct-competitor conflicts, or uncomfortable cultures (singling out Japanese and Emirati work ethic as exemplary) -- and his stock-market investment criteria (profitability, growth, public float, transparency, trustworthiness, governance, social responsibility). He illustrates real-estate appreciation with his own Dasmariñas Village purchase (P2,000/sqm in 1979 → P400,000/sqm now) and proprietary memberships in Manila Polo (P100K → P23M) and Manila Golf (P200K → P60M). He closes on philanthropy: half his retirement pay committed to the FLP, his service to the Manila Cathedral Foundation, the Metrobank Foundation, and the Tan Yan Kee Foundation, plus consultations from taipans on 'how to deploy more effectively their private wealth to philanthropy.'",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "foundation_for_liberty_and_prosperity"
+    ],
+    "secondary": [
+      "science_technology_and_the_law"
+    ]
+  }
 }

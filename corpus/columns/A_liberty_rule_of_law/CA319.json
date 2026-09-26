@@ -136,5 +136,13 @@
     "Treat the admin charge as resolved by the SC's own review of the case -- look at the appellate outcome, not the complaint"
   ],
   "one_paragraph_summary": "Panganiban profiles Justice Samuel R. Martires, Duterte's first SC appointee -- a career jurist at RTC Agoo, La Union (2000-2006) and the Sandiganbayan (2006-2017) who drew curiosity when media reported six points of concern: his acquittal of then Mayor Duterte, a Davao meeting with the President, controversial JBC interview opinions, an admin charge, a short stint (retiring January 2, 2019), and his San Beda alumni status. The author responds to each. All six were known to and vetted by the JBC, which interviewed Martires lengthily on November 16, 2016, and found him worthy. On the Duterte acquittal: the canal-cover case was correctly dismissed for lack of probable cause -- Duterte could not be held liable for demolishing a structure built without permits. On the Davao meeting: it was an out-of-town hearing; the President invited the group but spoke only of student days, the drug war, and respect for the judiciary. On controversial opinions: Martires said the Marcos burial was more political than justiciable, agreed GMA should be acquitted for lack of ill-gotten wealth proof, but dissented from Enrile's bail (advanced age is not a statutory ground) -- a notably mixed, courageous position. On the admin charge: Pangan v. Ganay (December 4, 2004) shows the SC upheld Martires's refusal to issue an arrest warrant as a proper exercise of discretion. On the short stint: he should work extra hard, consistent with his promise of independence ('the Court should not be influenced by any king or president'). On San Beda: de Lima and Saguisag are both Bedan critics of Duterte. The author classifies Martires as belonging to the Analytical School of Jurisprudence -- faithful to statutory text, courageous under JBC grilling -- and endorses welcoming him, noting his three target problems: corruption, government interference, and trial by publicity.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "criminal_trials_and_prosecutions"
+    ],
+    "secondary": [
+      "jbc_discernment_and_appointment"
+    ]
+  }
 }

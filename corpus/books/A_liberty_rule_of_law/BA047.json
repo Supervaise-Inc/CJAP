@@ -72,5 +72,11 @@
     "harmonize residence requirement with the absentee-voting mandate"
   ],
   "one_paragraph_summary": "Chapter 12 examines Macalintal v. Comelec, which upheld the constitutionality of the Overseas Absentee Voting Act (RA 9189). CJP explains how the Court reconciled the constitutional residence requirement for suffrage (Art. V) with Congress's express mandate to provide a system of absentee voting for qualified Filipinos abroad.",
-  "source_xlsx": "cjp_books_curated_normalized.xlsx"
+  "source_xlsx": "cjp_books_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "science_technology_and_the_law"
+    ],
+    "secondary": []
+  }
 }

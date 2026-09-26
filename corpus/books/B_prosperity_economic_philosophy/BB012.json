@@ -187,5 +187,13 @@
     "courts decide in magisterial consideration of contemporaneous situations, not in isolation"
   ],
   "one_paragraph_summary": "Chapter 16 of 'Love God, Serve Man' is the reaction paper CJP delivered on March 15, 1994 at the UP Law Center, at the Phi Kappa Phi 60th anniversary roundtable on Dr. F. Landa Jocano's thesis that traditional values have positive roles in stimulating industrialization and that the lack of appreciation of those roles impedes rapid growth. He accepted the first half but attacked 'the rather absolutist and exclusivistic implication of the second,' and answered from three perspectives. As a Catholic layman he reported PCP II's inquiry into why a country so rich in potential is so poor in reality, quoting its finding that 'it is not our values so much that are at fault as the exaggeration and the wrong uses we have put them to,' its insistence on an inculturated faith, its verdict that 'our society remains a sick society' despite full churches, its diagnosis of dichotomized Christians, and its prescriptions of re-evangelization and total integral development. As a businessman he challenged Jocano's century-long frame, recalling that until the late '60s the Philippines was the show window of democracy in Asia -- under four pesos to the dollar, single-digit inflation, public schools as good as the best universities -- so that the study should cover only the last 25-30 years; and he argued that the Filipino is productive, diligent and law-abiding abroad yet not at home, which points to reward systems rather than native values. He illustrated the malaise with Kardo, the taxi driver who escapes every ticket by LUSOT, LAKAS and finally LAGAY, the dead presidents in his wallet serving as his lawyers, and asked whether Jocano's core values were not basically Tagalog. As a lawyer of 33 years he showed that Philippine law has been calibrated to local custom, that the 1987 Constitution encodes pananagutan, malasakit, balikatan and bayanihan, and that the Supreme Court decides with an eye to contemporaneous conditions, closing with Roscoe Pound's 'Law must be stable, but it cannot stand still.'",
-  "source_xlsx": "cjp_books_curated_normalized.xlsx"
+  "source_xlsx": "cjp_books_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "faith_journey"
+    ],
+    "secondary": [
+      "economy_taxes_and_prosperity"
+    ]
+  }
 }

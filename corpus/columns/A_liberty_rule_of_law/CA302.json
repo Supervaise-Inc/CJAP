@@ -119,5 +119,11 @@
     "uses economic-data triangulation (tourist arrivals, investment suppression, agricultural jobs) to monetize the cost of prolonged ML"
   ],
   "one_paragraph_summary": "Writing against the backdrop of the 34th anniversary of Ninoy Aquino's martyrdom and the ongoing Marawi siege, Panganiban argues that martial law has played only a marginal role in suppressing the Mindanao rebellion: the 1987 Constitution's defanged ML grants the President nothing beyond facilitating warrantless arrests of suspected rebels and extending detention from 36 to 72 hours, and Congress has not passed any implementing laws that would expand presidential powers further -- a point underlined by Solicitor General Calida's own characterization of ML as a mere 'exclamation point.' He argues that prolonging ML has backfired strategically by giving 'bloated international recognition' to the Maute and Hapilon groups, enabling them to attract more logistics, funding, and recruits, while also suppressing Mindanao tourism (even as national arrivals rose 12.73% in the first half of 2017) and chilling long-term investment and agricultural employment. Since the final assault on remaining rebels is underway and no law prevents the President from ending ML at any time before the December 31 deadline, Panganiban recommends early termination as a signal of military competence and Mindanao normalization -- framing the advice not as criticism of Duterte's prerogative but as interest-aligned counsel from 'a humble retired jurist.'",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "presidential_power_martial_law_people_power"
+    ],
+    "secondary": []
+  }
 }

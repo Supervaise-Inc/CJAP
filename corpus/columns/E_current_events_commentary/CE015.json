@@ -179,5 +179,11 @@
     "Paper-tiger test -- antidynasty measures without enforcement fail this test"
   ],
   "one_paragraph_summary": "Second installment in CJP's dynasty-trilogy cluster (E16→E15→E14), opening with the PIDS statistic that political dynasties hold over 65% of elective positions and prescribing a three-prong containment: (1) constitutional clarity via a Con-con (distinguished from a Constituent Assembly but warned of quack-Con-con dynasty-capture risk), (2) targeted legislation via Senate Bill 1548 (fourth-degree consanguinity restriction + immediate-successor prohibition), and (3) strategic nudges from coequal branches -- endorsing Marcos's four-priority-bill list (antidynasty + party-list reform + Independent People's Commission + CADENA digital budget portal). On the SC's role, he recites the mandamus ministerial-vs-discretionary jurisprudential test and argues that while a verba-legis Court would only direct Congress to legislate, an activist Court (like the one he led) would engage in judicial nudging and articulate a first-degree-consanguinity baseline (parents + children + spouses). Closing with the Apostols-Ongs (2016) and Eusebios-Sotto (2019) replacement vignettes, he reframes the problem as impunity rather than dynasty per se, demanding accountability over transparency -- until corrupt officials face swift, certain, and meaningful consequences, antidynasty measures remain paper tigers.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "party_list_charter_change_and_dynasties"
+    ],
+    "secondary": []
+  }
 }

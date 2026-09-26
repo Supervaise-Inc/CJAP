@@ -153,5 +153,13 @@
     "Personal-experience-with-AI-consultation as model for layperson tech engagement"
   ],
   "one_paragraph_summary": "Panganiban surveys the accelerating robotics and physical-AI revolution: Trump's executive order on US AI dominance through deregulation, the Davos 2026 regulation debate, five robo-dogs dancing to Queen on 'America's Got Talent,' and the CES 2026 unveiling of Boston Dynamics' Atlas humanoid (now under Hyundai) with 360-degree sensing, autonomous battery replacement, and breakdancing capabilities. He flags the workforce consequences -- Amazon's 30,000-job cuts amid the deployment of over a million robots, and the implications for the Philippines' 1.6 million BPO workers -- and calls for adaptive governance featuring clear policies, equitable transitions, and upskilling. He recounts his own postponed robot-assisted spine surgery, his ChatGPT consultation confirmed by his surgeon, and the entry of home robots Eggie, NEO, Isaac, and Memo. Closing at age 89, he affirms that technology is ethically neutral but amplifies human choices, for better or for worse.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "science_technology_and_the_law"
+    ],
+    "secondary": [
+      "us_supreme_court_and_american_politics"
+    ]
+  }
 }

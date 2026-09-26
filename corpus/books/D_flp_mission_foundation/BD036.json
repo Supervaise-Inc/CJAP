@@ -185,5 +185,14 @@
     "reform is never complete; guard against complacency"
   ],
   "one_paragraph_summary": "Chapter 2 of 'Transparency, Unanimity & Diversity' is Panganiban's address to the Management Association of the Philippines, opening with personal tributes to MAP's Ric Pascua and Johnny Santos and an apology to old friends for the seclusion of a justice 'entombed in judicial cloisters,' since jurists must not only be impartial but appear so. He then poses three questions: the main complaints against the judiciary, the reforms that answer them, and what business can do. Through three apocryphal stories about 'Hukom Juan Suplado' -- a lawyer offering to sell the judge a Mercedes for a thousand pesos, a garbled court translation, and a 75-year-old man who turns out to be the infant two women once fought over -- he identifies corruption, incompetence and delay, or CID. Corruption, he says, includes the 'three ships' of friendship, relationship and kinship, and he cites the World Bank's 'Combating Corruption in the Philippines' and a February 2000 SWS survey in which 62 percent perceived significant judicial corruption. He then surveys the Court's reform program under its Centenary Executive Committee: upgrading law schools through a Committee on Legal Education, the new Board of Legal Education and the Foundation for the Enhancement of Legal Education; reforming recruitment through the JBC and RA 8557's pre-judicature course; rationalizing compensation through fiscal independence and exemption from the Salary Standardization Law; improving the disciplinary process; building Halls of Justice, distributing 1,500 computers and opening the Court's website; professionalizing judicial administration; and easing dockets through ADR, discovery, alternatives to BP 22 cases and filtered capital appeals. Because stability requires predictable justice, 'judicial reform becomes also the business of business,' and he asks four things: never bribe a judge, fund private reform efforts, send good lawyers to the bench, and pray -- closing with Bishop Benny Tudtud's 'Disturb Us O Lord.'",
-  "source_xlsx": "cjp_books_curated_normalized.xlsx"
+  "source_xlsx": "cjp_books_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "life_story_family_school_and_church"
+    ],
+    "secondary": [
+      "judicial_reform",
+      "judiciary_milestones_and_tributes"
+    ]
+  }
 }

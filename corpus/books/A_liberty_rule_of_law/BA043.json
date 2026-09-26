@@ -71,5 +71,13 @@
     "when-to-call-oral-argument standard (public interest/complexity)"
   ],
   "one_paragraph_summary": "Chapter 8, on Republic v. Meralco, examines when the Supreme Court may call oral argument under Rule 49 of the Rules of Court. CJP notes that, unlike trial courts, appellate tribunals rarely hold oral argument, and uses the high-profile Meralco electric-rate case to explain when a case's public interest and complexity warrant hearing the parties in oral argument.",
-  "source_xlsx": "cjp_books_curated_normalized.xlsx"
+  "source_xlsx": "cjp_books_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "property_contracts_and_economic_rights"
+    ],
+    "secondary": [
+      "science_technology_and_the_law"
+    ]
+  }
 }

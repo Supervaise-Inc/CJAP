@@ -244,5 +244,14 @@
     "leadership legitimated by personal example rather than by the authority or power a leader clothes himself with"
   ],
   "one_paragraph_summary": "Chapter 5 of 'Leadership by Example: The Davide Standard' assessed the first year of Chief Justice Hilario G. Davide Jr., whose elevation on November 30, 1998 Justice Panganiban reported as universally acclaimed -- even by the President's critics, and reflected in Pulse Asia surveys showing the Supreme Court topping approval ratings, though he cautioned that the Court does not thrive on popularity but must keep enough residual public respect for its decisions to be obeyed. He traced the program's origin to Davide's habit of cutting the Bible at random: on the morning of his oath-taking it opened on 2 Maccabees 10, \"Purification of Temple and City,\" which Davide read as a commission to cleanse the judicial stables and, in his Knights of Columbus speech, as a call to metanoia before any institutional change. CJP then reproduced \"The Davide Watch\" in full -- its policy statement, its vision of a judiciary independent, effective, efficient and worthy of public trust and of a legal profession that is ethical and accessible, and its mission items -- and summarized its core values as IIEE for the bench and EP for the bar, noting the SC-UNDP-funded Blueprint of Action then forthcoming under Justice Bellosillo. He inventoried the first-year measures: lump-sum appropriations won from Congress against a judiciary budget of only 1.12 percent of the national total; a more transparent Judicial and Bar Council; the new Committee on Public Information he was asked to chair and a Public Information Office under Atty. Khan; a long list of administrative cases ending in dismissals and forfeitures; PHILJA's strengthening, computerization and the Court's new web page; rulings such as St. Martin Funeral Home and Fabian that redirected appeals to the Court of Appeals; reorganized Divisions; the first regional judicial dialogs, including the Cagayan de Oro sortie he joined; and a reform program for the bar built on mandatory continuing legal education and accelerated discipline. He closed with an essay on Davide's decision-writing and juridical thought -- pro-environment in Oposa and Tano, a stickler for the rule of law in Quijada and Regala, conventional yet capable of the innovation CJP had opposed in the PIRMA case, and deeply spiritual -- all sewn together, he argued, by the credo Leadership by Example, which he traced to the Gospel of Mark.",
-  "source_xlsx": "cjp_books_curated_normalized.xlsx"
+  "source_xlsx": "cjp_books_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "life_story_family_school_and_church"
+    ],
+    "secondary": [
+      "faith_journey",
+      "how_the_supreme_court_decides"
+    ]
+  }
 }

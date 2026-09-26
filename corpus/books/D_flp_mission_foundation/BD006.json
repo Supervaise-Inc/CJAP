@@ -116,5 +116,11 @@
     "ethics-parity: hold JBC regular members to the judges' standard of conduct"
   ],
   "one_paragraph_summary": "Chapter 4 of 'With Due Respect' (Vol. 3), CJP's September 16, 2007 Inquirer column, answers critics who would abolish the Judicial and Bar Council (JBC) and revert to Commission-on-Appointments confirmation. He resists: the regular JBC members, who need CA confirmation and may seek reappointment, are themselves 'vulnerable to the same political pressures,' and judges as presidential appointees still feel executive influence -- so the answer is to 'strengthen the anti-political shield of the judiciary, not... shove it back to the partisan mud.' His structural proposal: let the Supreme Court appoint the three regular members representing the retired justices, the Integrated Bar and the legal academe, while the President names only the private-sector representative without CA confirmation -- giving the Court four seats to the President's and Congress's two each, to 'further depoliticize' selection. He sets this in global context: the JBC, then 20 years old, reflects a worldwide reform adopted 'in more than 25 countries,' and, citing Judge Sandra Oxner's study, notes councils abroad average about 20 members, actually appoint judges in France and Italy, are usually chaired by the chief justice, and in Japan are simply done by the Supreme Court. Because systemic change needs a constitutional amendment, he reviews the JBC's interim process reforms -- its October 10, 2000 Rules (implementing 'proven competence, integrity, probity, and independence,' amended at Senator Pimentel's instance to allow a single-member veto for 'questionable integrity'), full-time members and staff (from late 2005), media-opened interviews, and the JBC website he launched on April 21, 2006. He closes with three 'humble suggestions': make public the votes of JBC members for listed candidates (as justices' votes are known), have regular members observe the judges' code of ethics by analogy (no socializing with candidates), and hold those full-time members to the same 'proven competence, integrity, probity and independence' demanded of judges.",
-  "source_xlsx": "cjp_books_curated_normalized.xlsx"
+  "source_xlsx": "cjp_books_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "jbc_discernment_and_appointment"
+    ],
+    "secondary": []
+  }
 }

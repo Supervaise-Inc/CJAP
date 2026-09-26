@@ -140,5 +140,9 @@
     "Treat EO 420's administrative-only, executive-offices-only model as the template for what can be done without legislation"
   ],
   "one_paragraph_summary": "Noting the House has passed a national ID bill and the Senate will follow after Christmas, Panganiban traces the constitutional controversy through two key rulings. First, Ople v. Torres (July 23, 1998, 8-6) voided President Ramos's AO 308 on two grounds: violation of the right to privacy (J. Puno's ponencia, warning of a 'vast reservoir of personal information' as a 'covert invitation to misuse') and the principle that a national ID can only be instituted by Congress -- though importantly, only three of the eight majority justices gave unqualified concurrence to the ponencia; Panganiban himself wrote a separate opinion (joined by J. Davide) invalidating the AO solely on the congressional-authority ground, not the privacy ground. Six dissented, led by J. Mendoza (data already gathered from existing agencies; identification, not thought control). Second, Kilusang Mayo Uno v. Director General (April 19, 2006) upheld President Arroyo's EO 420 directing executive offices to adopt a unified ID format -- because it was purely administrative, covered only offices under executive control, and did not expand data collection beyond what was routinely required. The Court set three conditions for when legislation is needed: (1) appropriation required, (2) compulsory for all branches and citizens, and (3) data beyond routinary transactional requirements. The author endorses Sen. Lacson's prescription (confine data to basics: name, birthdate, birthplace, age, gender) and Sen. Drilon's prescription (incentive-based, not security-based, to facilitate government transactions rather than screen people) as the constitutional fixes for the pending bill.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [],
+    "secondary": []
+  }
 }

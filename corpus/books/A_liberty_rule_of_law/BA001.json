@@ -121,5 +121,11 @@
     "rule-of-law gatekeeping: extension is lawful only with concurrence of Congress, Court, Comelec and people"
   ],
   "one_paragraph_summary": "Chapter 6 of 'With Due Respect' (Vol. 1), CJP's July 20, 2008 Inquirer column, asks whether GMA could legally extend her reign beyond June 30, 2010, and answers: yes, but only by revising the Constitution to a parliamentary system, and only if Congress, the Supreme Court, the Comelec and the people all agree. He recaps, as a first-hand participant, the failed 2006 Charter-change bid during his term as Chief Justice: the de Venecia-allied 'people's initiative' (the Sigaw ng Bayan and Ulap, with 6.3 million alleged signatures) was struck down 8-7 in Lambino as 'a deception' and 'a gigantic fraud' -- the signatures gathered 'without first showing to the people the full texts' -- and because shifting to a parliamentary system is a 'revision, not a mere amendment' beyond the reach of an initiative (Carpio for the majority, which included CJP; Puno in dissent). With the initiative foreclosed and a constitutional convention too 'tedious,' he predicts the Palace's vehicle will be a constituent assembly (Con-ass), where the decisive legal question is whether the two houses vote jointly or separately on a three-fourths proposal: a joint count would let GMA's 200-plus House majority prevail 'even if all the senators' opposed. He forecasts that a Supreme Court thinned by retirements -- and with GMA 'lately... winning controversial cases' -- might validate a joint vote and 'wash its hands' to a Yes/No plebiscite that is 'easy to manipulate,' recalling that the Marcos Constitution was 'approved by a mere raising of hands during citizens' assemblies,' validated by 'a compliant Supreme Court.' Laying out a timeline (congressional approval by December 2008, a Court decision by mid-2009, a plebiscite in September 2009, and a 2010 election for a new Parliament in which GMA takes a Pampanga seat and becomes prime minister), he closes with the question that frames the next column: can GMA, 'unlike Ferdinand Marcos,' extend her reign 'without martial law'?",
-  "source_xlsx": "cjp_books_curated_normalized.xlsx"
+  "source_xlsx": "cjp_books_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "party_list_charter_change_and_dynasties"
+    ],
+    "secondary": []
+  }
 }

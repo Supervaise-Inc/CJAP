@@ -124,5 +124,11 @@
     "Enact lateral judicial appointment by court level (not specific branch) to reduce redundant reappointment friction"
   ],
   "one_paragraph_summary": "Panganiban opens with empathy for the senior SC justices -- especially Justice Antonio Carpio, twice bypassed (first in 2010 when he refused the JBC short list to protest a midnight appointment, second in 2012 when Sereno was chosen) -- while noting that Carpio himself acknowledged the President's absolute constitutional prerogative to choose from the JBC list. Remarkably, Sereno told P-Noy at her own JBC interview that Carpio 'stands a cut above everyone else in the Court.' The column then surveys Carpio's judicial reform proposals articulated in a speech as acting chief: clogged dockets are the judiciary's number one problem; the solution is the computerized case management (CCM) system from CJ Davide's Action Program for Judicial Reforms, which the Court of Appeals has already implemented (litigants can type a case number on the CA website and instantly download any decision); a simplified trial procedure using affidavits in lieu of direct examination and prohibiting dilatory motions; congressional legislation enabling appointment by court level rather than specific branch for lateral advancement; and -- most strikingly -- a judge-to-population reengineering: Manila has one first-level judge per 55,072 residents (242-case average), Taguig has one per 644,473 (1,161-case average). The author endorses consolidating all justices' proposals -- Carpio's and Sereno's alike -- into one unified program, closing with the exhortation that the SC must move forward through collegiality, not just seniority or juniority.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "supreme_court_vacancies_and_chief_justiceship"
+    ],
+    "secondary": []
+  }
 }

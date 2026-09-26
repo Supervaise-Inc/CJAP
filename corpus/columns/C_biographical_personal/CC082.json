@@ -120,5 +120,9 @@
     "Read each hero's story as a data point on the cost of speaking truth to power under authoritarian rule"
   ],
   "one_paragraph_summary": "On Kagitingan Day, Panganiban quotes extensively from Chief Justice Claudio Teehankee's separate opinion in Olaguer v. Military Commission (May 22, 1987), which documented the martial law heroes whose courage Teehankee witnessed. Ninoy Aquino and Jose Diokno were among the first detainees when martial law was declared; after Ninoy smuggled out a written critique, both were blindfolded and flown to Fort Laur in Nueva Ecija for solitary confinement in dark, boarded cells with barely any ventilation -- appearing before the Court on habeas corpus a 'pitiable sight, having lost about 30 to 40 lbs in weight.' Diokno was released in September 1974 after almost two years without any charges. Horacio Morales Jr., 1977 TOYM awardee and Development Academy VP, went underground the night he was to receive his award. Abraham Sarmiento Jr., UP Collegian editor, challenged his readers -- 'Sino ang kikibo kung hindi tayo kikibo? Kung hindi ngayon, kailan pa?' -- was imprisoned, released near death from asthma, and died. Edgar Jopson, Ateneo honor student and TOYM awardee, pressed Marcos in 1971 to put in writing that he would not seek a third term, was publicly called 'son of a grocer,' went underground, and was killed at 34 by 21 military troops in Mindanao. Emmanuel Yap disappeared on Valentine's Day 1976, age 24, picked up by military agents in front of Channel 7 and never seen again. Evelio Javier, Harvard-trained Antique governor, was gunned down unarmed in broad daylight by six 'mad-dog killers' who 'riddled his body with 24 bullets fired from M-16 armalite rifles' -- the last straw before EDSA.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [],
+    "secondary": []
+  }
 }

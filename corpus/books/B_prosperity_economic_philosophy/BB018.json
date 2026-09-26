@@ -169,5 +169,11 @@
     "sympathy for a distressed party yields to the rule of law and blind justice"
   ],
   "one_paragraph_summary": "Chapter 8 of 'Transparency, Unanimity & Diversity' recounted First Philippine International Bank v. Court of Appeals, which CJP called the most significant of the sixteen decisions he wrote in the month after his unanimously supported first ponencia. Buyers Demetrio Demetria and Jose O. Janolo had negotiated for six parcels of land with Mercurio Rivera, the bank's Property Management Department manager, met senior vice president Luis Co on September 28, 1987, and accepted the bank's P5.5 million price by letter two days later; the bank, then under Central Bank conservatorship, later disowned Rivera's dealings, advertised the land for sale, and was sued for specific performance, while its stockholders filed a derivative suit in another court during the appeal. The Court held first that the derivative suit was forum shopping, since the parties, rights and relief were identical enough that judgment in one action would be res judicata in the other; second, that a contract of sale had been perfected at the September 28 meeting, because Rivera had apparent or implied authority and the lower courts' concurrent finding was consistent with human experience, truth and good faith; and third, that a conservator's powers, however vast, relate to preserving assets and restoring viability and cannot extend to post-facto repudiation of perfected transactions without infringing the non-impairment clause. Its Epilogue conceded sympathy for the distressed bank, whose overdraft had reached P1.023 billion, but refused to let that override perfected contracts and the sanctions against forum shopping, noting that rewarding the bank for procrastinating while land values rose would reward lawlessness and delay. When the bank filed a second motion for reconsideration blaming the Court for its malaise, the Resolution of July 17, 1996 denied it outright, restating that litigation must end at some point and that piecemeal impugnation of judgments is anathema, correcting the bank's tax arithmetic from P12.625 million to P513,357.60, and attributing its near-bankruptcy to its own mismanagement and neglect.",
-  "source_xlsx": "cjp_books_curated_normalized.xlsx"
+  "source_xlsx": "cjp_books_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "property_contracts_and_economic_rights"
+    ],
+    "secondary": []
+  }
 }

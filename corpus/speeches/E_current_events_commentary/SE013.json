@@ -132,5 +132,11 @@
     "models humor-as-engagement-technique for high-corporate audiences ('AVP' vs 'MVP')"
   ],
   "one_paragraph_summary": "Delivered November 9, 2023 at the Makati Shangri-La as extemporaneous closing remarks of the MVP Group's Annual Corporate Governance Enhancement Session, this short address showcases CJP's witty register at a corporate-governance audience. Opening with a self-deprecating mock-rank-comparison -- he is not the great MVP (Manuel V. Pangilinan) but a 'lowly AVP' (Artemio V. Panganiban), a 'fake' -- he punishes the audience with 'I'll prolong my talk so you won't eat,' then performs an object-anecdote with a borrowed Grand Hyatt ballpen used to take notes at the Makati Shangri-La event, borrowed from the Grand Hyatt's owner Alfred Ty seated beside him. He thanks guest lecturer Dr. Max Tegmark and panel reactor Paco Sandejas (disclosing the family tie: Paco is the brother of CJP's deceased son-in-law Thomas Sandejas; Paco and CJP's son both UP summas and Stanford PhDs). He then delivers three takeaways: (1) invest in human intelligence as contradistinguished from AI -- 'artificial intelligence is fake, human intelligence is real. So, we will invest in all of you, in all your brains. We will just make AI our slave'; (2) customer-centricity as North Star -- 'we will use artificial intelligence, native intelligence, Filipino intelligence, PLDT intelligence to serve our customers'; and (3) leverage the MVP Group's collective strength across PLDT, Meralco, Maynilad, MPH, and tollways. He closes by posing the governance questions the executives must answer -- customer data protection, transactional integrity, cybersecurity, and respectful competition -- and asks: 'Are we up to the challenge?'",
-  "source_xlsx": "cjp_speeches_curated_normalized.xlsx"
+  "source_xlsx": "cjp_speeches_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "science_technology_and_the_law"
+    ],
+    "secondary": []
+  }
 }

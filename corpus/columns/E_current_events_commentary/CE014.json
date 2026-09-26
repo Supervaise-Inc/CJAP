@@ -170,5 +170,11 @@
     "Triple-binary voting maxim -- competence-over-nostalgia + platforms-over-pedigree + accountability-over-affinity"
   ],
   "one_paragraph_summary": "Third installment in CJP's dynasty-trilogy cluster (E16→E15→E14), arguing that the issue is structural-not-moral -- political families have evolved from 'thin' dynasties to 'obese' ones that simultaneously occupy multiple elective and appointive posts, and antidynasty legislation should institutionalize a critical temporal buffer that allows voters to reflect, alternatives to emerge, and accountability to take root (with second-degree consanguinity as reasonable scope and fourth-degree as overreach raising equal-protection concerns). He revisits Article XI Section 1's 'public office is a public trust,' admitting his evolved view that trust itself is subjective -- explaining why convicted officials still win elections -- and diagnoses an electoral psychology that confuses recognition with competence and loyalty with accountability, recalling surnames rather than records, brands rather than performance. While acknowledging Vico Sotto, Bam Aquino, and Chel Diokno as good-dynasty exemplars grounded in competence and reform, he resists making reform depend on consolidating good dynasties, since systems designed around exceptions fail when mediocrity returns. He closes that a healthy democracy thrives without dynasties, not with good ones, demanding voting competence over nostalgia, platforms over pedigree, and accountability over affinity.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "party_list_charter_change_and_dynasties"
+    ],
+    "secondary": []
+  }
 }

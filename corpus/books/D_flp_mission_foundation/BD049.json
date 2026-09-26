@@ -198,5 +198,14 @@
     "institutionalization over personality: a reform program must belong to the whole judiciary to survive its author's retirement"
   ],
   "one_paragraph_summary": "Chapter 1 of 'Judicial Renaissance' is the tenth lecture of the Chief Justice Hilario G. Davide Jr. Distinguished Lecture Series, delivered by Justice Panganiban at the Far Eastern University, where he had given his inaugural address as student council president 48 years earlier. He predicts that Davide will be remembered as one of the greatest Chief Justices in the Asia-Pacific, recalls dedicating his 1999 book 'Leadership by Example' to him, and measures him against the four Ins of an ideal magistrate -- Integrity, Independence, Industry and Intelligence -- before making his central distinction: the Chief Justice has only one vote as primus inter pares, but as chief executive officer of the entire judicial department, spending more than 60 percent of his time on the concerns of 28,000 judicial employees, he is a paradox who is detached as a jurist yet transparent and accountable as a leader. Davide's true legacy, he argues, is the reform program begun on his assumption of office: the Davide Watch announced at a Kilosbayan forum on December 11, 1998, with its vision of a judiciary worthy of public trust, and the Action Program for Judicial Reform approved on December 8, 2000, which grew out of the UNDP-funded Blueprint and an 18-month consultation under Chief Justice Narvasa. Regrouping the APJR's six technical components into three plain headings, CJP inventories the reforms in detail: bar examination and legal education reform, the Legal Education Board, the Judicial Apprenticeship Program, MCLE, a restructured Judicial and Bar Council, Philja's training and e-learning, court-annexed mediation and the JURIS Project with their success rates, the New Code of Judicial Conduct patterned on the Bangalore Principles, the sanctioning of 463 lawyers and 660 magistrates, the Judicial Excellence Awards and a doubling of judicial pay; then computerization through CFM and CAMIS, a computer in every courtroom, installment laptops, the e-library launched in November 2004 as 'the first of its kind in Asia,' the Benchbook, model electronic courts and new rules of procedure; and finally the opening of the judicial fortress through the Public Information Office, Chamber-to-Chamber and Judge-to-Judge Dialogues, jail decongestion, the PERLAS school program and Justice on Wheels. Citing the World Bank's Anthony Gerald Toft and a roster of donors, he calls the program a model, previews the International Conference and Showcase of November 28-30, 2005 that he chairs, and closes by promising that the APJR, the work of the whole judiciary rather than one man, will continue after Davide's retirement.",
-  "source_xlsx": "cjp_books_curated_normalized.xlsx"
+  "source_xlsx": "cjp_books_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "judicial_reform"
+    ],
+    "secondary": [
+      "life_story_family_school_and_church",
+      "bar_exam_and_legal_education"
+    ]
+  }
 }

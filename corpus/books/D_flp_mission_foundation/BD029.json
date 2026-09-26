@@ -173,5 +173,14 @@
     "acknowledged subjectivity: his summaries are from his viewpoint, with the original decisions cited for the reader to check"
   ],
   "one_paragraph_summary": "Chapter 2 of 'Battles in the Supreme Court' served as CJP's prologue to the case accounts that follow. Covering his first three years on the Court, from October 10, 1995 to October 10, 1998, he described debating questions with almost every member of the Court and receiving dissenting, concurring and separate opinions on his ponencias. He recounted his own development: in his first months he was awed by the consuming presence of colleagues whose lucidity, legal wisdom and analytical skill he admired, and he tended to adhere to precedents and conventional doctrines, until he realized that being with the majority was not as fulfilling as expressing his thoughts openly and freely according to his best light. He quoted Justice Isagani A. Cruz's April 1998 column, which noted his dissent in People v. Montilla and hoped he would see that dissenting would not diminish the dissenter's cause or his integrity, and gave his reply that jurists are never diminished by their dissents, only by their reckless or thoughtless concurrences. As evidence that he would not be a fence-sitter or bench warmer, he cited his output of 115 to 120 ponencias a year and the doubling of his separate opinions to thirteen in his third year, pledging to concur most of the time but to dissent steadfastly, even if alone, when the need arose. He then catalogued his disagreements colleague by colleague -- with Narvasa on the Death Penalty Law, Regalado on searches and arrests, Davide on charter change, Romero on illegitimate children, Bellosillo on Filipino First, Puno on privacy, Vitug on the right of first refusal, Kapunan on residence, Mendoza on political advertising, Francisco on obedience to superiors, Purisima on the Marcos acquittal -- then listed the dissents and concurrences his own ponencias drew, and the cases that ended unanimous. He closed by noting that constitutional cases imbued with public interest sparked the most debate, and that his summaries were written from his own viewpoint.",
-  "source_xlsx": "cjp_books_curated_normalized.xlsx"
+  "source_xlsx": "cjp_books_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "party_list_charter_change_and_dynasties"
+    ],
+    "secondary": [
+      "death_penalty_and_echegaray",
+      "marriage_annulment_and_the_family_code"
+    ]
+  }
 }

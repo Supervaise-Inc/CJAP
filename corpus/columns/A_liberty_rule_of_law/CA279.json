@@ -137,5 +137,11 @@
     "Treat the 'can a passive intermediary privatize censorship?' question as requiring a judicial answer, not an algorithmic one"
   ],
   "one_paragraph_summary": "Following a Senate committee hearing chaired by Sen. Grace Poe on fake-news liability for internet intermediaries, Panganiban summarizes the FLP Dissertation Contest second-place treatise (P200,000) by Tess Marie P. Tan of the University of San Carlos, titled 'Liberty and Prosperity in the Digital Age: Determining the Proper Treatment of Online Intermediaries in Light of the United Nations Guiding Principles on Business and Human Rights.' Tan distinguishes active intermediaries (with editorial control, like Inquirer.net -- liable for both published content and uploaded reader comments and photos) from passive intermediaries (without editorial control, like YouTube, Facebook, Twitter, Instagram, Google, and Yahoo!) and asks whether passive intermediaries should be liable for user content -- including intellectual property infringement and advertiser-fitness determinations. Using the Black Letter Approach, Tan surveys international instruments (UN Guiding Principles, ICCPR, ICESCR, UDHR), ICJ decisions, and the highest courts of the US, EU, France, Hungary, and Estonia, finding that in the US and Europe, passive intermediaries are held liable only if they exercised editorial control -- while more restrictive states like China and Thailand penalize intermediaries for all illegal content, triggering a 'repressive effect' on free speech. The ECHR offers an alternative 'economic interest test' -- liability if the intermediary had a commercial interest in the uploading. Tan's proposal: passive intermediaries should remain neutral platforms; assessing the lawfulness of content is a judicial question best resolved by courts; liability should attach only upon refusal to comply with a valid court order. Full text is at www.libpros.com.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "international_law_disputes"
+    ],
+    "secondary": []
+  }
 }

@@ -140,5 +140,11 @@
     "case-to-case analysis as the SolGen's and CJ's shared norm against blanket precedent"
   ],
   "one_paragraph_summary": "Panganiban probes whether the Supreme Court's 'libertarian' First Division ruling in Reyes v. Director (Jan. 17, 2023, ponencia by Justice Ramon Paul L. Hernando) freeing Jessica 'Gigi' Reyes via habeas corpus can be extended to Sen. Leila de Lima. His short answer: 'Not necessarily; at least not immediately; much needs to be done still.' He aligns with Solicitor General Menardo I. Guevarra that the ruling 'will have to be applied on a case-to-case basis, depending on the facts of each particular case, and not as a blanket precedent,' and with Gigi's counsel Estelito P. Mendoza's reserve. De Lima's counsel agree: Dino de Leon says they must study whether the facts are 'on all fours,' refusing to join 'the frenetic chorus of many politicians and hangers-on who immediately demanded the former solon's release,' while Boni Tacardon prefers to pursue bail at the Muntinlupa RTC (a ruling he expects 'at the end of March'). The column then teaches the doctrinal distinction: the Bill of Rights guarantees bail to all persons before conviction (even when the writ is suspended) except in capital offenses when evidence of guilt is strong, while habeas corpus is available to any illegally detained person regardless of charge and requires no bail bond. The Reyes exception lets habeas corpus reach lawful custody when it becomes 'vexatious, capricious, and oppressive' -- as it had for Gigi after wrong markings in the prosecution's evidence, Sandiganbayan one-witness-per-day pacing, and trial commencement only on March 3, 2022 though the information was filed June 5, 2014 -- 'nine years is far too long of a detention.' He invites de Lima's counsel to consider the further remedy where speedy-trial violations are extreme: outright dismissal of charges, available 'regardless of whether the accused is factually guilty or not.' Will it be bail, habeas corpus, or dismissal? Abangan!",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "criminal_trials_and_prosecutions"
+    ],
+    "secondary": []
+  }
 }

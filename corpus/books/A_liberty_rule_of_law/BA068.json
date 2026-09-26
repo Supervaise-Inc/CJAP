@@ -153,5 +153,13 @@
     "the offended party cannot recover more than once for the same act or omission"
   ],
   "one_paragraph_summary": "Chapter 14 of 'Transparency, Unanimity & Diversity' took up Cabaero v. Cantos and the question it posed: since the civil action is impliedly instituted with the criminal one, may the accused file an answer with counterclaim for damages in the same criminal proceeding? Amado Cabaero and Carmen Perez, charged with estafa, had done exactly that, claiming damages for malicious prosecution and invoking Javier v. Intermediate Appellate Court, which had called such a compulsory counterclaim procedurally sound and otherwise barred forever; Judge Alfredo C. Cantos expunged the pleading. Writing for the Court, Artemio V. Panganiban acknowledged Javier's cogency but set out ten difficulties his colleagues had raised in deliberation, all flowing from the obvious lacuna in the Rules of Court: the criminal rules are silent where the civil rules are explicit; a criminal judgment need not award a counterclaim; counterclaims would delay a prosecution whose issue is guilt; civil-only doctrines like admission of actionable documents and waiver of affirmative defenses would intrude; an information filed for the People states no ultimate facts of civil liability, so the accused is not apprised of the claim; bills of particulars and discovery would follow; no reckoning date exists for an answer since summons is alien to a criminal action; the answer could come only after the initial hearing; interlocutory challenges would stall cases and deprive a detained accused of speedy trial; and a malicious prosecution claim may be premature. Without expressly reversing Javier, the Court ordered the trial to proceed and set the counterclaim aside without prejudice, citing the absence of clear-cut rules. As postscript he recounted the July to September 2000 revision: the Puno committee's three proposals, Justice Mendoza's adopted amendment confining the implied institution to civil liability ex delicto, the deletion of the reservation requirement for the independent civil actions under Articles 32, 33, 34 and 2176, and the new sixth paragraph of Section 1, Rule 111 flatly barring counterclaims, crossclaims and third-party complaints by the accused -- on which he pointedly declined to comment further.",
-  "source_xlsx": "cjp_books_curated_normalized.xlsx"
+  "source_xlsx": "cjp_books_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "criminal_trials_and_prosecutions"
+    ],
+    "secondary": [
+      "property_contracts_and_economic_rights"
+    ]
+  }
 }

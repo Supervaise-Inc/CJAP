@@ -116,5 +116,11 @@
     "applies foreign-model-source-vetting (authoritarian Russia as disqualifying context)"
   ],
   "one_paragraph_summary": "Panganiban draws seven rhetorical lessons from the party-list fiasco, tracing how a nobly-conceived constitutional experiment collapsed through three sequential institutional failures: the framers left almost everything to Congress without safeguards; Congress enacted RA 7941 with textual provisions -- the 2-percent threshold, 3-seat limit -- that contradicted its own laudable aim; and the Supreme Court, after CJ Panganiban's retirement, abandoned the liberal 'marginalized and underrepresented' doctrine in favor of verba legis, allowing the rich, powerful, and dynasties to invade the party-list as a cheaper backdoor to Congress. He asks: Should constitutional experiments carry built-in expiry clauses of 20 years? Should parliamentary Germany's party-list be expected to succeed in presidential Philippines? Should federalism be imported before the Bangsamoro pilot is fully functioning? Should one SC be replaced with four courts modeled on authoritarian Russia? Should Congress have been more careful? Should it have responded to SC's calls for revision? Should the SC have continued its liberal interpretation? CJ leaves the questions unanswered, inviting readers to conjure and circulate their own.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "party_list_charter_change_and_dynasties"
+    ],
+    "secondary": []
+  }
 }

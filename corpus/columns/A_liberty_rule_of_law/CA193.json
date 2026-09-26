@@ -166,5 +166,11 @@
     "uses conditional-recommendation close (four if-conditions) to convert the four-Ws diagnostic into a feasibility checklist"
   ],
   "one_paragraph_summary": "Panganiban offers a generic framework for evaluating any Cha-cha proposal -- the four 'Ws': What, Why, When, Who. He recalls the long inventory of failed attempts: Ramos and Arroyo's people's-initiative bids were shot down by the Supreme Court; Estrada's Preparatory Commission on Constitutional Reforms chaired by retired CJ Andres Narvasa produced a report that 'remained unacted upon'; Duterte's Consultative Commission chaired by retired CJ Reynato Puno drafted a sweeping 'Bayanihan Constitution' that 'to this day remains unused.' On What: the present surgical amendments are (1) abolishing or modifying the party-list -- itself 'an experiment' from parliamentary regimes uncomfortably grafted onto a presidential system, with vague text and a Supreme Court that has flipped between restrictive and permissive interpretations -- and (2) lifting the nationalistic provisions, which does not actually remove the restrictions but only authorizes Congress to vary the allowable foreign-equity percentages. On Why: Duterte cites terrorism and rebel misuse of the party-list; Speaker Velasco cites foreign investment, jobs, and poverty alleviation; Finance Secretary Dominguez argues for opening the economy in all areas except land ownership. On When: PCCI's Ambassador Yujuico is right that pandemic-recovery bills should come first, and Congress has very little time before COC filing in October and the May 9, 2022 polls, with the Constitution requiring a 60-to-90-day plebiscite window. On Who: con-ass by sitting legislators -- especially those running for re-election -- raises the trust hazard (term extensions, self-benefiting insertions), and the SC will likely have to resolve the joint-vs-separate-vote question, adding more delay. CJ concludes that Cha-cha's 34-year failure is fundamentally a trust problem, and offers a four-bullet conditional: if lawmakers ride on the President's 91% trust rating, stick to the two proposals only, vote separately, and concurrently pass CREATE and other urgent recovery bills, they could finally overcome the four 'Ws' this time.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "party_list_charter_change_and_dynasties"
+    ],
+    "secondary": []
+  }
 }

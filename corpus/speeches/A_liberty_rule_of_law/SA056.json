@@ -147,5 +147,14 @@
     "opportunity-cost analysis: Ave Cruz's and Bodgie Reyes' declinations as the quantifiable cost of personal choice in judicial succession"
   ],
   "one_paragraph_summary": "Delivered July 28, 2017 at the San Beda Law Alumni Association testimonial dinner, this speech by CJP -- who describes being intercepted en route to San Beda enrollment by Salonga outside FEU and calls his honorary Bedan membership his 'impossible dream fulfilled' -- honors several new judicial appointees. He opens by comparing Ave Cruz's lifetime SBLAA chairmanship to Martial Law and noting that Cruz 'could have been the longest-serving Chief Justice' had he accepted Cory Aquino's SC offer in 1986 (instead choosing to serve as Deputy Prime Minister under Salvador Laurel -- a position abolished by the 1987 Constitution). Justice Bodgie Reyes similarly declined President Noynoy Aquino's personal telephone CJ offer, depriving San Beda of its first native Chief Justice. Cruz's 'greatest achievement,' however, is not in law or ALA but 'convincing Helen to become his wife more than 50 years ago.' The primary tribute goes to Justices Samuel Martires and Noel Tijam. On Martires: CJP personally read People vs. Duterte (April 14, 2011) and fully agrees with the dismissal for lack of probable cause -- the Mayor could not be held liable for demolishing a canal cover built without permits; crucially, Martires decided it against the perceived wishes of then-powerful House Speaker Nograles (opposite political camp), demonstrating that he 'had the guts to do what was correct and proper regardless of the wishes of ruling political gods.' Martires initially wanted to be a psychiatrist, then a Franciscan priest (his widowed mother discouraged him), became a lawyer; his most prized possession is a rosary from Rome; favorite snacks are hopia and Skyflakes; karaoke: 'Babalik Ka Rin' and Tony Bennett's 'Who Can I Turn To.' On Tijam: an 'accidental Bedan' (enrolled because enrollment queues were too long at UE and UST); 1971 class salutatorian (Duterte was his batchmate; Justice Vit Aguirre was valedictorian); served CA 2003-2017. CJP closes with his judicial character framework: the four Ins (integrity, independence, industry, intelligence -- independence is the most important) and the plague of the four ships (kinship, relationship, friendship, fellowship), and the canonical quote from 'Leadership by Example' (1999) on the 'god-like finality' of judicial decisions immortalized in books.",
-  "source_xlsx": "cjp_speeches_curated_normalized.xlsx"
+  "source_xlsx": "cjp_speeches_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "life_story_family_school_and_church"
+    ],
+    "secondary": [
+      "criminal_trials_and_prosecutions",
+      "judiciary_milestones_and_tributes"
+    ]
+  }
 }

@@ -188,5 +188,11 @@
     "closes with formal wish-formulas ('singular model of excellence, integrity, probity and humility') that signal CJ's settled values vocabulary"
   ],
   "one_paragraph_summary": "Panganiban devotes his Dec 15 column to FLP institutional news and a roster of milestone felicitations, all woven around the headlining prediction about Cardinal Tagle. CJ Peralta will chair the FLP scholarship board of judges (20 scholars nationwide at P200,000 each via the Tan Yan Kee partnership; the first batch already produced bar-topper Sean James Borja and #5 placer Katrina Monica Gaw), and Justice Perlas-Bernabe will head the dissertation-writing contest board (Ayala Corporation partnership: P300,000 first prize, P200,000 second, P100,000 for three third placers, and P20,000 for 20 finalists, on CJ's signature theme of 'safeguarding liberty and nurturing prosperity under the rule of law'). He congratulates new SC Justices Mario V. Lopez and Edgardo L. Delos Santos -- recalling that Lopez took his CA oath before him on June 9, 2006, and that Justice Gesmundo took his SBN oath before him on Jan 6, 2006 -- and notes that Delos Santos is the first USC graduate and first from the Cebu appellate station to reach the SC. He felicitates Cardinal Tagle on being named Prefect of the Congregation for the Evangelization of Peoples (concurrent with the presidency of Caritas International), placing him in the Pope's Cabinet at the top-5 'Red Pope' tier; after a thunderous standing ovation at the Dec 9 Manila Cathedral Mass and a private lunch where Tagle was emotional and teary, torn between Manila and obedience to the Church, CJ told him directly: 'by calling him to be by his side 24/7, the Pope is preparing him to be the next pontiff.' He sends Godspeed to Papal Nuncio Gabriele Giordano Caccia (leaving Dec 22 for the UN), and rounds out the column with Don Ramon Ang (Bloomberg's '50 who defined 2019'), Henry Gozon's 80th, F. Sionil Jose's 95th, Estelito Mendoza's pending 90th (still visiting to challenge legal strategies, friendship unperturbed across 50 years of cases won and lost), and Amando Tetangco's Order of the Rising Sun honor from Japan.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "foundation_for_liberty_and_prosperity"
+    ],
+    "secondary": []
+  }
 }

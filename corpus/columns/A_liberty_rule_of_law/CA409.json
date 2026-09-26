@@ -139,5 +139,11 @@
     "endorses legislative-judicial parallel action (Drilon bill + SC new guidelines)"
   ],
   "one_paragraph_summary": "Panganiban argues that the SC's decision to let the Sandiganbayan raffle the pork barrel cases to its different divisions -- despite the OOO's request for two special divisions -- signals that the cases will get no special treatment for now, but warns that without innovative procedural acceleration the cases will take more than a decade to resolve. He prefers ONE special division (not two), with justices cleared of all other dockets on the Ampatuan-massacre template (PJ Solis-Reyes, assisting judges, five SC special guidelines from his Jan 12 2014 column), and points to the divergent probable-cause treatment -- First Division issuing warrants immediately on Revilla et al. while Third and Fifth Divisions held hearings first -- as live evidence that multi-division raffle produces inconsistent procedure on the same legal question. He inventories the docket: 45 cases filed (1 plunder + 16 graft per senator cluster against Revilla, Cambe, Napoles, Lim, De Asis and others), each accused with at least one lawyer filing petitions and motions, truckloads of documents to be authenticated. He notes the SBN's internal rules already permit a special division recommendation (as belatedly done in the Estrada trial), joint trials, or consolidation, and demolishes the June 16 Inquirer editorial's debunking of the myth that special divisions exist to nail down the accused -- the Estrada Special Division convicted the President but acquitted Jinggoy and Edward Serapio. He endorses Drilon's bill expanding SBN slots, authorizing single-justice trials, and moving minor graft cases to regular courts, and closes with the warning that unless creative solutions are deployed, the cases will drag on for decades to the prejudice of innocent and public interest alike -- citing his June 1 transcendental-importance rallying cry Yes, the Supreme Court can!",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "criminal_trials_and_prosecutions"
+    ],
+    "secondary": []
+  }
 }

@@ -115,5 +115,9 @@
     "applies completeness test (four criteria) as the operational measure of a valid disposition"
   ],
   "one_paragraph_summary": "Panganiban continues his Decision-making series (sequel to his October 7 column on the Aristotelian syllogism) by focusing on the fact-finding and decision-writing dimensions of judicial decision-making. He argues that witness credibility is the most crucial element of fact-finding: trial judges have a structural advantage over appellate courts because they observe witnesses on the stand while appellate courts rely only on transcripts -- an advantage he illustrates with everyday analogies (a mother hearing her son describe a sibling's scolding; an irate wife examining lipstick marks). He identifies cross-examination -- testing coherence, consistency, and correctness -- as the historically unmatched credibility tool, especially essential for lawyer-prepared affidavits that are inherently one-sided. For decision structure, he draws on his own Velarde vs Social Justice Society ponencia (April 28, 2004) to articulate the five essential parts: statement of the case, statement of facts, issues/assignment of errors, court ruling (each issue addressed separately), and dispositive portion -- with optional prologue and epilogue for high-profile cases. He specifies the content required for criminal dispositions (guilt/innocence, specific crime, penalty, participation, modifying circumstances, civil liability, costs; plus -- for acquittals -- an immediate release order and a mandatory Bureau of Corrections report within 10 days), civil dispositions (relief granted or denied, costs), and the four-part completeness test: parties know their rights and obligations, know how to execute the decision, no further proceedings are needed, and proper relief is granted.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [],
+    "secondary": []
+  }
 }

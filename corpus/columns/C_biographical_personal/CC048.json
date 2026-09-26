@@ -138,5 +138,11 @@
     "treats personal biography as didactic material for younger professionals (graduation-speech convention)"
   ],
   "one_paragraph_summary": "Repurposing his recent commencement address at the FEU-Nicanor Reyes Medical Foundation as an Easter-season column, Panganiban walks through five life-threatening episodes -- the 1942 dysentery at age six saved by his mother's vigil during WWII, the 1949 jeepney-jump escape under a 6x6 army truck whose road clearance let his lean body slide under its axles, the 1957 ruptured appendix at the FEU Hospital (where Dr. Ricardo Alfonso had him withdraw, in pain, his student-leader opposition to the P6 hospitalization fee), the 1983 diabetes diagnosis under Dr. Augusto Litonjua, and the heart-rhythm anomalies cleared by Dr. Dante Morales's angiogram. Though born Catholic, he had no catechesis until FEU chaplain Fr. Michael Nolan taught him the Our Father, Hail Mary, Glory Be, and the FEU Prayer -- the FEU Prayer becoming a source of the 2001 'Centennial Prayer of the Courts.' From this, his first advice to the medical graduates is to 'pray and trust God always,' asking not for the removal of evils but for the strength to triumph over them 'in His own way, in His own time.' His second advice is to work with 'two Cs -- competence and care,' illustrated by a deceased Filipino multibillionaire's testimony of dehumanizing US hospital care where he was treated as an object rather than a human being needing the companionship, care, and love of Filipino doctors and nurses. The column closes with the Ignatian synthesis: 'Pray as though everything depended on God; work as though everything depended on you.'",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "life_story_family_school_and_church"
+    ],
+    "secondary": []
+  }
 }

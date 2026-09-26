@@ -160,5 +160,15 @@
     "unique-paradigm-unique-formula: rejecting wholesale transplantation of foreign models (Niemeyer) to Philippine conditions"
   ],
   "one_paragraph_summary": "Chapter 2 of 'A Centenary of Justice' reproduces the Centenary Lecture Series lecture CJP delivered on February 13, 2001 in the SC Session Hall, surveying how the Court used 'old but reliable doctrines' to meet new e-age paradigms across four domains. His premise, anchored in Judge Learned Hand, is that judges need both liberal education and legal expertise -- 'it is no longer enough for judges to be walking encyclopedias of the Constitution.' On the new economy (globalization, liberalization, deregulation, privatization): Tanada v. Angara upheld WTO membership on grave-abuse deference, holding the 'Filipino First' provisions non-self-executing and the Constitution interpretable for 'future and unknown circumstances'; Manila Prince Hotel was distinguished as a self-executing exception; Tatad v. Secretary of Energy voided the Oil Deregulation Law (RA 8180) 9-2 for entrenching the Petron-Shell-Caltex oligopoly ('the Constitution mandates this Court to be the guardian not only of the people's political rights but their economic rights as well'), while Garcia v. Corona upheld the corrected RA 8479; and Pimentel v. Aguirre affirmed LGU fiscal autonomy. On constitutional and political law he canvasses free expression (ABS-CBN v. Comelec protecting exit polls; Vasquez's actual-malice libel standard), the death penalty (his Dissent in People v. Echegaray that the 1987 Constitution abolished rather than suspended capital punishment and that executions are 'nightmarishly irreversible'), due process for workers (his Serrano Dissent that due process binds private power, not just government) and extraditees (Lantion), privacy (Ople v. Torres), citizenship (Frivaldo; Mercado on dual citizenship; the 'reluctant hinges'), automated elections (Loong; Bush v. Gore), initiative/referendum/recall (Santiago and PIRMA finding RA 6735 inadequate to amend the Constitution), the party-list four parameters (Veterans Federation Party v. Comelec -- 'the Philippine style party list system is a unique paradigm,' rejecting the German Niemeyer formula because 'one cannot grow Washington apples in the Philippines'), and the environment (Oposa; Tano). He treats the Court's role in swearing in President Arroyo on January 20, 2001 only guardedly under the sub judice rule, and closes on medical-malpractice res ipsa loquitur (Batiquin; Ramos). His epilogue concedes the Court has yet to catch up on the death penalty and private-power due process, but credits the 1987 Constitution as 'a beacon of light and a rock of stability,' ending on his Tanada paean that a Constitution 'can withstand the assaults of bigots and infidels but at the same time bend with the refreshing winds of change.'",
-  "source_xlsx": "cjp_books_curated_normalized.xlsx"
+  "source_xlsx": "cjp_books_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "death_penalty_and_echegaray"
+    ],
+    "secondary": [
+      "criminal_trials_and_prosecutions",
+      "elections_and_automated_voting",
+      "libel_and_cybercrime"
+    ]
+  }
 }

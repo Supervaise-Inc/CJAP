@@ -119,5 +119,11 @@
     "rule-of-law means to legitimate ends ('with prudent legal advice, goals can be attained under the rule of law')"
   ],
   "one_paragraph_summary": "Chapter 1 of 'With Due Respect' (Vol. 1) is CJP's August 12, 2007 Inquirer column asking how President Gloria Macapagal-Arroyo (GMA) will be remembered, and whether her State of the Nation Address legacy -- infrastructure, a wider social safety net, and peace in Mindanao -- is achievable. Granting that her aspirations are hard to fault, he reframes the debate: the critics ask where she will find 'the trillions' to fund them, but the real first priority, he argues, is to earn the people's trust, 'for without trust, no leader can succeed.' Citing Cardinal Rosales ('it is treason to lead without a vision, supported by core values') and paraphrasing Salonga, he insists that beyond the things money can buy (roads, bridges, schools), it is 'the things that money cannot buy' -- integrity, public esteem, character, moral ascendancy and credibility -- that matter most, and GMA's record-low ratings stem from her credibility deficit. He offers two prescriptions that 'require no funding': first, lead an internal transformation by holding relatives, officials and cronies strictly to the Constitution and the anti-graft, ethics and procurement laws, wielding presidential strength to be 'transformational, no longer transactional'; second, fortify democratic institutions by naming trustworthy -- not 'loyalist' -- appointees to the Supreme Court and the Comelec, since between 2007 and 2010 she would fill all fifteen Court seats (eight justices retiring, plus Chief Justice Puno) and all seven Comelec posts. He warns that court-packing backfires, recalling that Eisenhower's appointees Warren and Brennan voted against him and that Marcos's compliant Court 'aggravated the discontent that eventually toppled and disgraced him,' and assures her that 'with prudent legal advice, goals can be attained under the rule of law.' Such selfless acts, he concludes, would be a lasting legacy that costs nothing and would itself lift her credibility -- the key to making her SONA dreams a 2010 reality.",
-  "source_xlsx": "cjp_books_curated_normalized.xlsx"
+  "source_xlsx": "cjp_books_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "life_story_family_school_and_church"
+    ],
+    "secondary": []
+  }
 }

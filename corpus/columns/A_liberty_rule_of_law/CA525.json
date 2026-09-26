@@ -121,5 +121,11 @@
     "frames legislative-reform as Congress's legitimate distinct purpose beyond the presidential race outcome"
   ],
   "one_paragraph_summary": "Panganiban analyzes the Joint DoJ-Comelec Panel (Justice Secretary de Lima and Comelec Chair Brillantes) and congressional investigations into alleged massive cheating in the 2004 and 2007 elections, responding to critics who say the charges were already laid to rest. The congressional canvass merely passed upon the authenticity and due execution of certificates of canvass -- it could not examine the actual ballots within the constitutionally limited 30-day period, as illustrated by Senate President Pro Tem Pangilinan's famous 'Noted' reply to Sotto's demand to open the ballots (earning Pangilinan the nickname 'Mr. Noted'). The PET dismissed FPJ's protest because his widow Susan Poe was not a real party in interest (nobody voted for her as president) and dismissed Legarda's protest because she abandoned her VP claim by winning a Senate seat in 2007. Neither dismissal resolved the underlying fraud allegations on the merits. The new probes have limited and distinct purposes: the Joint Panel can determine whether electoral crimes were committed and file criminal cases -- not remove GMA (her term expired June 30, 2010); Congress can craft or amend legislation governing the canvassing process. CJ closes: GMA is within her legal rights to keep silent, since any statement could be used against her in subsequent legal proceedings, while self-serving declarations cannot be used in her favor.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "elections_and_automated_voting"
+    ],
+    "secondary": []
+  }
 }

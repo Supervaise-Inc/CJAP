@@ -151,5 +151,11 @@
     "applies the 'who benefits' diagnostic (dynasties, rich, powerful, term-limit circumventors) to expose system capture"
   ],
   "one_paragraph_summary": "Following Senate President Sotto's disclosure that Duterte wants to abolish the party-list system (with lifting the nationalistic provisions as an aside), Panganiban revisits the system he helped shape. The framers borrowed party-list from European parliaments and inserted it into a presidential system with the noble intent of empowering the marginalized and underrepresented, but the Constitution only set a 20% allocation and a three-term half-reservation for the marginalized, leaving the 'political mongrel' textually vague. Congress's Republic Act 7941 compounded the ambiguity by imposing a 2% vote threshold. In two decisions CJ wrote for the Court -- Veterans v. Comelec (Oct 6, 2000) and Bagong Bayani v. Comelec (June 26, 2001) -- the SC upheld the 2% bar, restricted party-list to the marginalized, and explicitly asked Congress to enact clarifying legislation, which Congress sadly did not heed. After his retirement, Banat v. Comelec (2009) voided the 2% bar and Atong Paglaum v. Comelec (2013) opened the system to non-marginalized sectors. The degenerated result: dynasties invaded the system, veteran politicians circumvented the three-term limit, the rich captured it ('the richest House member is a party-list rep'), the House budget grew by 20% to fund 61 party-list solons, and pork-like insertions multiplied. Sotto's Senate Bill 1989 would let Comelec refuse or cancel registration of party-lists that fail to represent the marginalized -- but the 61 party-list reps, allied with the ruling supermajority and voting as a bloc, will oppose even that. CJ closes with a trifurcated question: will the party-list be reformed toward its noble intent, abolished as the President wants, or remain in the status quo? Abangan.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "party_list_charter_change_and_dynasties"
+    ],
+    "secondary": []
+  }
 }

@@ -126,5 +126,11 @@
     "applies issue-specifically-raised test to distinguish Dulay's ratio decidendi from obiter"
   ],
   "one_paragraph_summary": "Panganiban identifies two urgent constitutional problems facing the JBC in selecting the new chief justice. First, the dual-representation issue: the Constitution says 'a representative of the Congress' -- singular -- yet a senator and a congressman currently sit and each cast a full vote, bloating membership to eight from the constitutional seven, with significant implications for the majority-vote threshold (5 of 8 vs 4 of 7). He traces the history: CJ Teehankee's original practice was one alternating representative; under CJ Davide, Sen. Pimentel persuaded the JBC to grant two full votes on the theory that the unicameral legislature premise became obsolete when the Constitutional Commission adopted bicameralism -- but the Committee on Style failed to update the JBC composition provision. In 2006, CJ Panganiban recounts, Dean Dimayuga formally proposed reverting to one vote but Sen. Pangilinan tabled it, and CJ himself could not opine without prejudging the case. Former SolGen Chavez has now filed a formal SC petition -- CJ agrees Congress should have only one vote given the Constitution's clear text and the structural-equality principle (executive and judicial branches each get one). Second, the presiding-officer issue: CJ finds that Dulay vs JBC (July 3, 2012) definitively resolved that the most senior non-applicant justice presides over JBC proceedings, making JBC members' claim that this is only obiter incorrect -- the issue was specifically raised and decided, making it ratio decidendi, additionally supported by RA 296 which devolves CJ duties to the most senior associate justice during a vacancy.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "jbc_discernment_and_appointment"
+    ],
+    "secondary": []
+  }
 }

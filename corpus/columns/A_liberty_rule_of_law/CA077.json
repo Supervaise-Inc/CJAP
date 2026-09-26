@@ -183,5 +183,13 @@
     "uses mythological-elevation language to dramatize institutional choices"
   ],
   "one_paragraph_summary": "Following his March 11 column (A78) on Scotus's narrow Trump ruling, Panganiban offers four cases that exemplify the PH Supreme Court's 'courage and grit' in jumping into 'the vortex of political whirlpools' -- in stark contrast to Frankfurter's 'political thicket' avoidance practiced by the US Scotus. First, Santiago v. Comelec (March 19, 1997, per J -- later CJ -- Davide, en banc) shut down the People's Initiative to shift to a parliamentary system that would have let FVR continue as prime minister, ruling the PI implementing law 'insufficient and inadequate.' Second, Lambino v. Comelec (Oct. 25, 2006, per J Carpio, en banc) scuttled GMA's parliamentary-extension PI as a 'grand deception' and 'gigantic fraud.' Third -- and 'worse,' because the justices entered politics 'of their own volition without waiting for a complaint or petition' -- Estrada v. Desierto (March 2, 2001, per J -- later CJ -- Puno, en banc) legitimized the GMA-Erap transition via Edsa People Power 2 by a 13-0 vote (CJ Davide and CJ Panganiban inhibited). 'But even more courageous, if not more heroic,' was CJ Davide's unilateral Jan. 20, 2001 announcement to swear in GMA at noon -- triggered by CJ Panganiban's own suggestion to administer the oath as 'acting president' after the Cabinet, AFP, and PNP withdrew support from Estrada and 'the country was left with no leader!' -- which the Court unanimously approved in an emergency session 'after a lot of hemming and hawing'; at noon at Edsa Shrine, Davide skipped 'acting' and swore in GMA as 'president' amid chants of 'Davide, Davide, Davide,' 'gallantly owning sole responsibility,' with the Court on Jan. 22, 2001 unanimously passing a resolution 'to confirm the authority' of the CJ. Fourth, Francisco v. House (Nov. 10, 2003, per J Carpio Morales, en banc) barred the House from entertaining the second impeachment of CJ Davide within the constitutional one-year period; the House 'reluctantly obeyed' after several days. CJ closes with the IMHO doctrinal point that even when the Constitution grants exclusive powers (like the House's exclusive power to initiate impeachment), the judiciary may pass on whether constitutionally imposed conditions, limitations, or restrictions have been observed -- and the first-person witness warrant: 'As a member of the Court when these four cases were decided, I can vouch for the courage and grit displayed by the justices in tiptoeing the political minefields to uphold the rule of law and to save the nation from chaos and civil strife.'",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "presidential_power_martial_law_people_power"
+    ],
+    "secondary": [
+      "party_list_charter_change_and_dynasties"
+    ]
+  }
 }

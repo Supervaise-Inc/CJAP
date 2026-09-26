@@ -207,5 +207,14 @@
     "judicial deadlines and reporting duties as remedies for chronic delay"
   ],
   "one_paragraph_summary": "Chapter 17 of 'Reforming the Judiciary' presented Republic v. Cocofed, which CJP identified as one of the most important decisions of his seventh year on the Court and which he 'had the honor of writing.' The ruling held that the controlling sequestered shares in the United Coconut Planters Bank should be voted by the government, because they had been bought with coconut levy funds exacted from more than a million farmers during the Marcos regime -- funds the Court declared 'not only affected with public interest' but 'in fact, prima facie public funds.' Rather than restate the case himself, CJP reprinted with permission the Kilosbayan summation written by former Senate President Jovito R. Salonga, the first PCGG chair, who had sequestered the shares. Salonga defined prima facie for lay readers, recounted the PCGG's 1986 recovery mission and his own Los Angeles meeting with Eduardo Cojuangco, and traced fifteen years of litigation from the 1987 reconveyance suit through the 1990 lifting of sequestration, the 1993 resolution, the 1995 Narvasa decision, and the 2001 demand for a stockholders' meeting that produced the assailed Sandiganbayan order. He then laid out the reasoning step by step: registered owners normally vote, the PCGG is a mere conservator, sequestered shares alleged to be ill-gotten are tested by the two-tiered test of prima facie ill-gotten character and imminent dissipation, but shares shown to be originally governmental or bought with public funds fall instead under the public character exceptions of BASECO and Cojuangco-Roxas, on the principle that 'legal fiction must yield to truth.' Since respondents' counsel had judicially admitted the shares came from the Coconut Consumers Stabilization Fund, the Court itemized six reasons the levies were public -- the police and taxing powers, the purpose of the levy, the admission, COA review, BIR treatment and the decrees themselves, with Marcos's own deletion of the words calling the fund private. The Court added a caveat limiting the ruling to the voting question and ordered the Sandiganbayan to decide the main cases within six months. Salonga then reprinted Justice Melo's dissent and Justice Vitug's partial dissent.",
-  "source_xlsx": "cjp_books_curated_normalized.xlsx"
+  "source_xlsx": "cjp_books_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "life_story_family_school_and_church"
+    ],
+    "secondary": [
+      "property_contracts_and_economic_rights",
+      "ill_gotten_wealth_and_the_pcgg"
+    ]
+  }
 }

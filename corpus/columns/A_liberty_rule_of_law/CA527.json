@@ -115,5 +115,13 @@
     "identifies continuous-coverage-without-commercial-break as the practical limitation requiring attention"
   ],
   "one_paragraph_summary": "Panganiban celebrates the SC's June 14, 2011 resolution (written by Justice Conchita Carpio Morales, unanimous) as the first time the Supreme Court has ever authorized live TV/radio coverage of a criminal case -- granting it pro hac vice for the Ampatuan multiple murder case. He traces the historical arc of the absolute ban: in 1991, the Court unanimously denied live coverage of the Cory Aquino libel case (citing Estes v. Texas, where the US SCOTUS banned TV cameras 5-4); in 2001, the 8-6 Estrada plunder resolution (J. Vitug) flatly denied live coverage on due process and fair-administration grounds, with a subsequent resolution allowing only documentary cameras. CJ discloses that in 2001 he was a sitting justice who joined the minority: he proposed a single fixed camera under court control, locked to wide-angle stationary view, feeding audio-visual output to wide TV monitors inside and outside the courthouse -- enabling TV and radio crews to broadcast without intimidating media equipment inside. The 2011 resolution adopted precisely this approach. It was justified by the Ampatuan case's unique circumstances: 57 victim families, 197 accused, over 200 prosecution and defense witnesses -- physical impossibility of accommodating all parties makes technology the only solution for a transparent, open and public trial. CJ notes the continuous-coverage-without-commercial-break requirement may dampen TV participation but welcomes the resolution as recognizing that technology can give Filipinos in their homes the same access as courtroom spectators.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "criminal_trials_and_prosecutions"
+    ],
+    "secondary": [
+      "libel_and_cybercrime"
+    ]
+  }
 }

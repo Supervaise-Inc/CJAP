@@ -117,5 +117,11 @@
     "events-make-leaders: Cory's death altered the succession"
   ],
   "one_paragraph_summary": "Chapter 8 of 'With Due Respect' (Vol. 6), CJP's May 30, 2010 Inquirer column, argues that what propelled Noynoy Aquino was 'destiny and legacy, not dynasty' -- Time Magazine's word -- and shows how the 'tsunami of votes' could be turned against corruption and poverty. The landslide 'so impressed the international community' that ambassadors of the US (Harry Thomas Jr.), China (Liu Jianchao), Japan (Makoto Katsura) and the EU (Alistair MacDonald) congratulated Noynoy 'even before... canvassing had begun,' and Time featured him twice in under a month, making the Philippines 'the darling of the world again.' This 'shining moment,' CJP urges, should be leveraged to draw 'new investments, funding grants (like from the US Millennium Challenge Corporation), and favorable trade agreements' -- and, concretely, to negotiate 'sovereign debt waivers' or 'at the very least, a moratorium of say three years' on international-debt amortizations, freeing 'meager funds' for 'pump-priming and job creation.' For the source of Noynoy's 'passion to liberate his people,' CJP turns to Ninoy Aquino's August 25, 1973 prison letter (shared by retired Justice Flerida Ruth Romero), written under martial law to explain -- after consulting Salonga and Tañada -- his refusal to join the 'one-sided' Military Commission, an 'act of conscience' and 'protest against the structures of injustice' by which he 'decided to walk into the very jaws of death.' Unable to leave wealth, Ninoy bequeathed the family name kept 'untarnished,' apologized for the 'great responsibility' on his son's 'young shoulders,' and urged him to stand by his mother and inherit her 'indomitable spirit and... silent courage,' closing: 'live with honor and follow your conscience... the ball is now in your hands.' Like Cory, Noynoy 'had no plans of seeking the presidency' until his mother's August 1, 2009 death 'altered history' -- so, against the 'dynasty' label, CJP credits destiny and legacy.",
-  "source_xlsx": "cjp_books_curated_normalized.xlsx"
+  "source_xlsx": "cjp_books_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "party_list_charter_change_and_dynasties"
+    ],
+    "secondary": []
+  }
 }

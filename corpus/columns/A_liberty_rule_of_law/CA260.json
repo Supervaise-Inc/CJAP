@@ -113,5 +113,11 @@
     "frames abolish-or-reform as the binary after statutory amendment is foreclosed"
   ],
   "one_paragraph_summary": "Panganiban takes up the second major party-list question -- how many seats -- by tracing the evolution from the 'Panganiban formula' in Veterans Federation Party v. Comelec (October 6, 2000, which he wrote for a 12-3 majority) through to Banat v. Comelec (2009). Veterans mandated four inviolable parameters: 20% ceiling, 2% threshold, 3-seat limit, and proportional representation -- producing 22 winners. Banat voided the 2% threshold to chase the 20% ceiling, awarding 55 winners instead, but retained the 3-seat cap while abandoning proportional representation, creating absurdities like Buhay Party (7.33% of votes, 3 seats) and Cocofed (0.98%, 1 seat), with the theoretical possibility of a 10,000-vote party winning a seat. Combined with the reversal of the 'marginalized and underrepresented' doctrine, the rich and dynasties now dominate the 'mongrelized party-list system.' Statutory amendment is foreclosed -- the dominant beneficiaries will block it -- so CJ argues only a constitutional convention (not a constituent assembly) can either abolish the party-list or institute the necessary reforms.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "party_list_charter_change_and_dynasties"
+    ],
+    "secondary": []
+  }
 }

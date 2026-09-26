@@ -131,5 +131,11 @@
     "treats correction-paper-trail as substantive evidence, not mere clerical history"
   ],
   "one_paragraph_summary": "Panganiban offers a guarded welcome to Ombudsman Jesus Crispin 'Boying' Remulla's Memorandum Circular No. 3, Series of 2025, which opens public officials' SALNs to public inspection in fulfillment of the Constitution, RA 6713 (Ethical Standards Law) and RA 6770 (Ombudsman Law), while balancing them against RA 10173 (Data Privacy Law). He praises President Marcos and the lawmakers who voluntarily released their SALNs, but tests the circular guideline by guideline: he argues the 'no earlier than 10 working days' access floor should be replaced with a phased timetable in which SALNs filed in the last five years are available within ten calendar days; that both original and corrected SALNs (with the declarant's reasons) should be public, not only the corrected versions; that the redactions of home address, minor children's identifying data, signature and government IDs are reasonable but must remain rebuttable upon a showing of specific need; and that the welcome lifestyle-check provision should be vigorously used. He closes with the recurring series argument that RA 6713 -- which requires both a SALN and a separate Disclosure of Business Interests and Financial Connections -- is already stricter than the new guidelines, and that strict pre-existing compliance would have 'moderated the greed' behind the pork-barrel and flood-control scams.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "independent_commissions_and_appointments"
+    ],
+    "secondary": []
+  }
 }

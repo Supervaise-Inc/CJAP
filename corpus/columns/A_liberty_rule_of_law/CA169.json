@@ -143,5 +143,11 @@
     "Same-surname rule as the only post-Nov-15 substitution mechanism"
   ],
   "one_paragraph_summary": "Written as a Q&A column following reader response to his October 3 piece, CJ Panganiban walks through six election-law puzzles around candidate substitution under Section 77 of the Omnibus Election Code and Comelec Resolution No. 10717. He concedes that Romulo Macalintal's proposal to declare 'reservation' filers as nuisance candidates is 'sensible, even patriotic,' but argues the ouster process is itself uncertainty-generating; his own fix is more radical -- abolish substitution for any reason except the death of the candidate. He clarifies that withdrawing presidential or vice-presidential bets can lawfully substitute for senatorial vacancies provided the same political party (or a properly sworn-in member of a new party) makes the nomination, and that this mechanism can produce 'a realignment of political forces.' Post-Nov-15 substitution is permitted only for death or final disqualification and only when the substitute bears the same surname, so the votes flow through to the substitute. The column closes with the most consequential stance: under the 'with due respect' formula CJ openly departs from Quinto v. Comelec (Feb. 22, 2010), arguing that the Court's 'substantial distinctions' rationale for treating elective and appointive officials differently is insufficient, and that all candidates -- elective or appointive -- should be deemed resigned upon filing their COCs to prevent incumbents from leveraging office for campaign advantage. The piece functions as both clarifier of working election law for 2022 aspirants and quiet manifesto for an unrealized electoral reform.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "marcos_robredo_election_contest"
+    ],
+    "secondary": []
+  }
 }

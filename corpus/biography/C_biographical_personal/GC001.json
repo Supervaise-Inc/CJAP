@@ -133,5 +133,13 @@
     "Prayer-then-act methodology under emergency conditions"
   ],
   "one_paragraph_summary": "The biography's framing prologue opens at dawn on January 20, 2001 -- Joseph Estrada still technically President, Gloria Macapagal Arroyo as Vice President unable to act, Manila under low sky with barricades at Mendiola, and the Constitution itself trembling between legality and popular withdrawal. Art Panganiban Jr., characterized as a jurist who had spent his life inside institutions believing 'stubbornly that constitutions mattered even when crowds did not,' reaches the conclusion that 'if the law waited, chaos would arrive first.' At approximately 5:30 AM he places the call to the Chief Justice with three imperatives -- 'swear her in. Do it now. Do it lawfully. Do it before the Republic fractures beyond repair' -- a call described as 'invisible to the crowd, absent from photographs' yet 'one of the most consequential acts of judgment in modern Philippine history.' The chapter closes with a narrative pivot: to understand how a man could make such a decision, one must return not to the Supreme Court but to a sidewalk in Sampaloc, where a boy once learned that survival itself requires discipline, and that order, when absent, must be built by hand.",
-  "source_xlsx": "cjp_biography_curated_normalized.xlsx"
+  "source_xlsx": "cjp_biography_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "life_story_family_school_and_church"
+    ],
+    "secondary": [
+      "presidential_power_martial_law_people_power"
+    ]
+  }
 }

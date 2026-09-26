@@ -119,5 +119,9 @@
     "deploys OMB mandate as the ultimate enforcement authority over SALN violations"
   ],
   "one_paragraph_summary": "Panganiban writes on the eve of the April 30, 2012 SALN filing deadline for all public officials and employees, providing a practical guide to filling out the two-page Civil Service Commission form -- prompted by the Corona impeachment trial's public education effect on SALN requirements. He clarifies the most contested issue: the SALN form requires three real estate values (assessed, current fair market, and acquisition cost), but acquisition cost -- not market or assessed value -- is the legally correct basis for determining whether a public official has amassed ill-gotten wealth, as held by the SC in Republic v. Sandiganbayan (January 30, 2002, CJ Davide). Acquisition cost is the amount in the deed of sale; improvement costs require an honest good-faith estimate; honest errors in approximating market values should not constitute falsification. For personal properties, invoices and receipts provide the data; motor vehicles must be declared (Flores v. Montemayor, 2011 -- dismissal for omitting two cars). Business interests and financial connections must also be declared (Rabe v. Flores, 1997 -- dismissal for failing to disclose a market stall). The SC in Ombudsman v. Valeroso (2007) described the SALN as 'a valid check and balance mechanism to verify undisclosed properties and wealth.' Failure to file complete, accurate, and truthful SALNs may subject the declarant to administrative sanctions (reprimand to dismissal plus forfeiture and permanent ban), criminal liability, and civil forfeiture of properties manifestly disproportionate to legitimate income -- all enforced primarily by the OMB.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [],
+    "secondary": []
+  }
 }

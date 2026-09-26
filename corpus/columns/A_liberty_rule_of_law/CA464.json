@@ -127,5 +127,11 @@
     "cites SC precedents (Macalintal, Nicolas) as positive law supporting liberal overseas voter registration"
   ],
   "one_paragraph_summary": "Panganiban welcomes the Comelec's March 5, 2013 reversal reinstating 238,557 overseas Filipino workers deleted from the National Registry of Overseas Absentee Voters for failing to vote in two consecutive elections (2007 and 2010). He identifies the procedural flaw: the Comelec's notice -- published in only two local newspapers and its website -- was 'miserably inadequate' for people living abroad, producing only 29 filings ('only 29 -- yes, only 29') out of 238,557 delisted voters, effectively denying due process. He catalogs structural barriers: sea-based workers who remitted $4.8 billion cannot vote at their 'original ports'; green card holders face a legal trap where the required affidavit of intent to return within three years risks green card revocation and criminal prosecution, and voting in two elections becomes incriminating evidence of non-return. CJ anchors his advocacy in SC precedents (Macalintal vs Comelec holding green card holders never lost their domicile of origin; Nicolas vs Comelec exempting dual citizens from the physical-return requirement) and in the OFWs' economic contribution: $21.4 billion in 2012 remittances, the single biggest source of foreign currency, creating a reciprocal obligation to 'construe election laws liberally in their favor.'",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "elections_and_automated_voting"
+    ],
+    "secondary": []
+  }
 }

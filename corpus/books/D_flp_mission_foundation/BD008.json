@@ -116,5 +116,11 @@
     "accountability: pinpoint who voted for an errant appointee, as justices' votes are public"
   ],
   "one_paragraph_summary": "Chapter 6 of 'With Due Respect' (Vol. 3), CJP's October 12, 2008 Inquirer column, examines the Judicial and Bar Council's responsibility to nominate worthy justices for the seven Supreme Court vacancies of 2009 -- an unprecedented turnover of 'almost one-half' the Court in a single year (outside the 1986 Aquino revolutionary 'cleansing'). Because the President may appoint only from the JBC's list of at least three per vacancy and judicial appointments no longer pass through the Commission on Appointments, 'the primary responsibility... falls squarely on the JBC': if it nominates only the most qualified, every appointment is 'unquestionable,' but 'even if just one undeserving candidate is smuggled into the list, the whole selection process tumbles' -- so its three 's' functions (search, screen, select) 'cannot afford a single mistake.' The hard part, he says, is finding the four nonquantifiable qualities ('proven competence, integrity, probity, and independence,' especially the last two) beyond the three quantifiable ones (natural-born, at least 40, 15 years' practice). He notes the process for the first vacancy (Justice Ruben Reyes's seat, opening January 2, 2009) had begun but the October 13 application deadline was 'not generally known' and should be extended. He praises three monitoring and transparency efforts: Senator Pangilinan's 'Bantay Korte Suprema,' which invites the legal community, academe, civil society and business to take part; Dean Dimayuga's reference-check system, modeled on California's Judicial Nominees Evaluation Commission, which surveys at least 20 references before the JBC evaluates a candidate; and J. Conrado Castro's proposal to record and publish the JBC's votes, now cast by secret ballot. Reasoning that since 'the votes of individual justices... are made known,' open JBC voting would 'pinpoint responsibility' when 'magistrates misbehave' and 'breed public confidence,' he endorses it. The JBC, he concludes, must nominate 'only... the most eminent' and 'will be praised or condemned by the quality of all their choices' -- naming the members so readers know who is accountable: 'Will they pass the test?'",
-  "source_xlsx": "cjp_books_curated_normalized.xlsx"
+  "source_xlsx": "cjp_books_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "jbc_discernment_and_appointment"
+    ],
+    "secondary": []
+  }
 }

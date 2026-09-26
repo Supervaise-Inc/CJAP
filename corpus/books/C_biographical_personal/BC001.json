@@ -103,5 +103,11 @@
     "magistrates and priests both serve a God of justice and love"
   ],
   "one_paragraph_summary": "Chapter 3 of 'With Due Respect' (Vol. 7), CJP's February 14, 2010 Inquirer column, is a Valentine's reflection from his address to the Second National Congress of the Clergy -- 'before 5,500 cardinals, archbishops, bishops, and priests' -- relating 'the juristic duty of dispensing justice to the priestly work of spreading God's love.' He recalls visiting the Muntinlupa penitentiary against Security's warnings (he had 'sent many of them to jail'), going only after a Mass on Matthew 25 and reasoning it 'better to risk the ire of the inmates than to incur the ire of the Lord.' Some 500 inmates welcomed him with applause, a band and a talent show; he spoke 'boldly of hope,' noting that 'almost everyone is in some kind of prison' -- the rich 'by their greed,' others by 'incurable illnesses,' the mentally ill 'by their minds' -- and that the incarcerated, who may be freed or pardoned, can be freer than these. As he left, an inmate asked why, if all commandments reduce to loving God and neighbor and a confessor forgives with a rosary, a judge must punish -- 'Isn't love inconsistent with the punishment?' The question made CJP wonder whether 'dispensing justice [is] contradictory to the Lord's commandment of love,' and he found his answer back in Matthew 25, where the Lord himself, judging the nations, condemns some to 'eternal punishment' and grants others 'eternal life' -- proof that 'the Lord too was making choices because he was the Lord of justice just as He was also the Lord of love.' He closes with a parable: a judge fines his repentant speeding daughter P500, then 'removed his robe... and paid the fine' himself -- justice done 'though the heavens may fall,' yet love bearing the cost -- just as 'our Father in heaven' punished sin yet 'sent His only Son to redeem,' so 'must His priests' and 'His magistrates.'",
-  "source_xlsx": "cjp_books_curated_normalized.xlsx"
+  "source_xlsx": "cjp_books_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "faith_journey"
+    ],
+    "secondary": []
+  }
 }

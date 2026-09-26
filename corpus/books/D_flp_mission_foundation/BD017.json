@@ -107,5 +107,11 @@
     "equity-and-good-sense over technicality: reversion that merely re-disposes land to private persons serves no public purpose"
   ],
   "one_paragraph_summary": "Chapter 18 of 'A Centenary of Justice' is a short postscript completing a critique CJP began in Chapter 22 of his earlier book 'Transparency, Unanimity & Diversity': that the Supreme Court en banc, by a one-vote 8-7 margin, had inappropriately pulled the Firestone Ceramics v. Court of Appeals cases 'out of and against the will of' its Third Division and treated them as banc cases, even though the losing movants 'utterly failed to adduce any legal reason for such referral.' He now reports the sequel: on January 30, 2001 the full Court UNANIMOUSLY denied the movants' Motion for Reconsideration and upheld the Third Division's own unanimous original decision. On the merits, the Court reaffirmed that the Court of Appeals correctly refused to annul the title -- res judicata applied through the Margolles case because 'absolute identity of parties is not required but only substantial identity,' Firestone and the Margolles losing parties having raised the same argument against OCT No. 4216 (that it covered forest land so the 1929 registration court lacked jurisdiction over the Gana spouses), making them 'privy in law'; the burden of proving a 70-year-old decree void rests on the petitioner; and the State faced no real loss of patrimony, since reverted land 'would not be devoted to public use' but reserved for disposition to private persons, including Firestone itself -- 'a simple matter of equity and good sense.' CJP's purpose in including the piece is institutional: the unanimous outcome showed 'the folly' of ignoring the maxim that 'Sauce for the poor goose should be the same sauce for the rich gander,' since the banc's needless takeover 'merely resulted in a waste of precious time' and 'uselessly and imprudently clogged the Court's dockets.'",
-  "source_xlsx": "cjp_books_curated_normalized.xlsx"
+  "source_xlsx": "cjp_books_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "property_contracts_and_economic_rights"
+    ],
+    "secondary": []
+  }
 }

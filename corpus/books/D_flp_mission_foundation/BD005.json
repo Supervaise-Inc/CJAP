@@ -107,5 +107,11 @@
     "transparency-and-merit as the answer to the JBC's standing criticisms"
   ],
   "one_paragraph_summary": "Chapter 3 of 'With Due Respect' (Vol. 3), CJP's September 9, 2007 Inquirer column, explains the role of the Judicial and Bar Council (JBC) in securing a credible judiciary. He begins with why independence matters: where Congress makes laws and the President enforces them, 'unelected judges' decide legal questions by applying law to facts, so a court that upholds a citizen's rights becomes 'a majority of one against the whole government' -- a power obeyed because of constitutional authority and 'implicit trust' in the courts' fairness. Magistrates must therefore be chosen for the four 'nis' (independence, integrity, industry, intelligence) and be immune to 'the plague of ships' (kinship, relationship, friendship, fellowship), with independence and integrity most vital -- 'a judge who does not possess independence and integrity... has no place' on the bench, 'in the same manner that a biased basketball referee has no place in the game.' Under the old system, he recalls, the President had wide latitude but appointees faced Commission on Appointments confirmation that subjected them to 'intensive questioning' and 'personal demands for favors,' diminishing their independence -- so the 1987 Constitution, at Chief Justice Concepcion's suggestion, created the JBC to recommend appointees, limiting the President to a list of at least three per vacancy and abolishing CA confirmation. He details the JBC's seven seats (three ex-officio, four regular) and the practical wrinkle that two members of Congress sit, giving the legislature two of eight votes and raising the approval threshold to five. Yet the reform is incomplete: appointees are shielded from Congress, but JBC members are not, and 'nothing except the highest form of statesmanship' stops a President from steering the Council -- so a President 'could still pack the courts.' He closes by listing the JBC's standing criticisms -- opacity and a 'lackluster' process, unfilled vacancies that aggravate delay, and 'unworthy nominees' who get appointed and 'taint the whole judiciary' -- setting up his follow-up column on reforming it.",
-  "source_xlsx": "cjp_books_curated_normalized.xlsx"
+  "source_xlsx": "cjp_books_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "jbc_discernment_and_appointment"
+    ],
+    "secondary": []
+  }
 }

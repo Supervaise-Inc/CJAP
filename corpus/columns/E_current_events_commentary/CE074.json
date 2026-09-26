@@ -128,5 +128,11 @@
     "Pair macro-policy remedies with micro-behavioral changes (consumer savings, car pools) for a layered response"
   ],
   "one_paragraph_summary": "Panganiban diagnoses the May 2018 fuel price surge -- pump prices up P1/liter/week for two weeks; P10/liter since January 1 -- as driven mainly by the nearly 200% rise in Dubai crude from $30.42/bbl (Q1 2016) to nearly $80 (May 2018), compounded by geopolitical tensions, Venezuela's production halving, OPEC/Russia output cuts, rising Asian demand, a 12% peso depreciation (P47 → P52.50), and the TRAIN Law's new excise taxes (RA 10963, RR 2-2018: gasoline P7→P9→P10 per liter; diesel P2.50→P4.50→P6 per liter). He rejects two popular knee-jerk reactions: minimum-wage increases would only stoke inflation that lingers beyond any crude-price decline, and repealing the Oil Deregulation Law has proven over the years not viable because subsidizing pump prices encourages wasteful consumption. Instead, he proposes three remedies linked directly to the main villain -- crude prices. First, TRAIN Section 43 already provides an automatic suspension of the 2019-and-beyond excise increases when Dubai crude averages $80/bbl or more in the prior three months -- a ready-made relief mechanism. Second, Congress can legislate a suspension of the 12% VAT when Dubai crude reaches $63/bbl -- the Q1 2018 average, i.e., the price already straining consumers -- instead of outright subsidizing pump prices as other countries do. Third, consumers themselves can help through practical savings: minimizing unnecessary trips, popularizing car pools, using alternate routes during heavy traffic -- revisiting the 'Asiong Aksaya' tips of five decades ago.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "economy_taxes_and_prosperity"
+    ],
+    "secondary": []
+  }
 }

@@ -124,5 +124,13 @@
     "Cite existing precedent (Tinga v. Cayetano) to show the proposed remedy is not novel"
   ],
   "one_paragraph_summary": "Panganiban alerts readers to an unintended peril lurking in the Presidential Electoral Tribunal's 50% shading rule in the Bongbong Marcos v. Leni Robredo election protest. The 2016 automated voting machines were calibrated by Comelec to read ballots shaded by at least 25%, but the PET has ruled that only 50%-shaded ballots will count during its manual recount -- thereby disenfranchising voters who shaded between 25% and 50%. The peril is arithmetical: Bongbong identified three pilot provinces where he was most disadvantaged (Camarines Sur, Iloilo excluding Iloilo City, and Negros Oriental), all areas where Leni's margins are enormous. Assuming 5% of ballots fall in the 25-50% gap, Leni would lose approximately 74,675 votes across those three provinces while Bongbong would lose only 10,107 -- a net loss for Leni of 64,568 against her overall canvassed lead of 263,473. That net loss could be significant enough to trigger a full recount of the remaining 22 protested provinces with about nine million votes. The possible overturning of Leni's lead, the column stresses, would not be because of any proven cheating but because of a mechanical shading loophole -- unfair to her and more so to the electorate. The obvious remedy is to revert to the 25% threshold; the better remedy is to rerun the SD cards that contain digital copies of all the ballots -- as was done in Tinga v. Cayetano in Taguig in 2010 -- which is cheaper (avoids paying 50 revisors per party at P1,500 per day), fairer, and faster (pilot precincts alone will take seven months of manual revision; the remaining nine million ballots would take years).",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "elections_and_automated_voting"
+    ],
+    "secondary": [
+      "marcos_robredo_election_contest"
+    ]
+  }
 }

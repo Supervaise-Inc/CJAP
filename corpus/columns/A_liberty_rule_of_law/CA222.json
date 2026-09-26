@@ -133,5 +133,13 @@
     "frames bank-secrecy relaxation as the operational complement to predicate-crime expansion"
   ],
   "one_paragraph_summary": "Panganiban examines two claims by Senate blue ribbon committee chair Richard Gordon: (1) more than US$633 million (~₱32 billion) in cash flown in by couriers via Philippine airports, and (2) a ₱20 million bribe offered (and refused) by a Filipino family that allegedly brought in $283 million (~₱15 billion) in exchange for avoiding committee summons. He frames the first as a potential AMLA violation and at least a legislative trigger to strengthen the law and the AMLC ahead of the FATF's October 2020 deadline -- failure to meet which could see the Philippines deemed 'a threat to the international financial system' with consequent banking sanctions affecting OFW remittances and correspondent-bank relations. The second, he argues, is bribery that Sen. Gordon should bring to justice. He then offers a textbook exposition of money laundering: the act of transacting cash proceeds of an 'unlawful activity' to make them appear to come from legitimate sources, illustrated by the kidnapping-ransom example in which the predicate crime (kidnapping) and the laundering crime (depositing the ransom) are prosecuted separately, with bank officials who knowingly accepted the ransom liable for laundering even if uninvolved in the kidnapping. He enumerates AMLA's predicate crimes -- kidnapping for ransom, drug trafficking, graft and corruption, plunder, bribery, malversation, carnapping, robbery and extortion, jueteng and masiao, piracy, qualified theft, swindling, smuggling, e-commerce-act violations, hijacking, destructive arson, securities-regulation violations, terrorism under RA 9372, terrorism financing under the 2012 Act, and other special-law crimes -- and notes that tax evasion is conspicuously absent (though prosecutable separately). He surveys the regulated laundering channels (BSP-supervised banks, FX dealers, pawnshops, money changers, remittance companies; IC-supervised insurance and pre-need; SEC-supervised securities dealers, brokers, investment houses, mutual funds; and casinos including internet and ship-based under RA 10927 for single transactions exceeding ₱5 million). He closes by endorsing Finance Secretary Carlos Dominguez III's reform plea: include tax-evasion proceeds as a predicate crime and relax the bank secrecy law to fight money laundering and corruption more effectively.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "public_funds_budget_and_bank_evidence"
+    ],
+    "secondary": [
+      "criminal_trials_and_prosecutions"
+    ]
+  }
 }

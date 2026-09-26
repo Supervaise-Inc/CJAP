@@ -125,5 +125,11 @@
     "treats conclave rules (age 80 limit, two-thirds vote requirement) as the formal framework constraining the outcome"
   ],
   "one_paragraph_summary": "Panganiban assesses Cardinal Tagle's real possibility of becoming the first Filipino (and first Asian and first non-European) pope following Pope Benedict XVI's resignation, arguing he has 'more than an even chance.' He grounds the argument in three frameworks: the 1978 historical precedent of the unexpected election of Polish Cardinal Wojtyla (99 of 111 votes on the 8th ballot, defeating two Italian frontrunners); the epochal-transformation analogy of Cory Aquino and Barack Obama making the 'impossible' happen; and the demographic-strategic argument that Asia's combined Catholic and potential population -- China 1.3B, India 1.1B, plus Indonesia, Japan, the Philippines, Vietnam, and others -- makes it the greatest evangelical opportunity for a global institution losing relevance in Europe. He explains conclave mechanics: the 80-year age cap (excluding Cardinals Rosales and Vidal), the Sistine Chapel oath of secrecy, four daily ballots, white/black smoke signals, and the 'Habemus Papam!' proclamation. Appended as a postscript: Filipino WWII veterans' Recinto appeal to the US Supreme Court (the US appellate court dismissed for wrong-court filing, not on the merits), with CJ wishing them luck while noting the US SC's 1% acceptance rate -- and using the comparison to explain why the US SC has no backlog while the PH SC does: the US Charter grants far greater discretionary leeway in case selection.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "elections_and_automated_voting"
+    ],
+    "secondary": []
+  }
 }

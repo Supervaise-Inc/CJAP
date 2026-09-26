@@ -154,5 +154,11 @@
     "implicit benchmark-by-recitation: itemizing specific peso amounts and programs creates an implicit standard that other actors are measured against"
   ],
   "one_paragraph_summary": "Panganiban opens with a friends-ask Q-and-A: the enhanced community quarantine and Proclamation 922 (State of Public Health Emergency, March 8, 2020) are constitutional as valid exercises of police power to protect the people's health, even though they restrict rights like travel and could yield illegalities through improvident implementation (warrantless arrests, privacy violations, physical injuries). He distinguishes these proclamations from martial law and from Proclamation 1017 (the 2006 State of National Emergency, portions of which were struck down in David v. Arroyo) by noting that the enemy here is not state action but unknown microorganisms originating in Wuhan. Acknowledging missteps and the inherent difficulty of feeding the quarantined poor while preventing local transmission, he refuses to fault-find: no country had prepared for a pandemic this terrifying. He calls instead for unity, gratitude to frontline troops (doctors, nurses, lab technicians), and commendation of churches, intrepid media, and LGUs distributing food packs. He then itemizes the corporate response with specific peso commitments: Ayala's ₱2.4B program for wage support, rent condonation, and worker assistance; MVP Group affiliates advancing 13th-month pay and continuing salaries while extending 30-day bill payment windows; Jollibee's ₱1B Emergency Response Fund plus ₱100M in food for health workers and checkpoint personnel; Metrobank-GT Cap's ₱200M for test kits; ₱100M each from the Lopez Group, Robinsons Land, and SM; mall rental waivers from Ayala, Megamall, RLC, and SM; one-month loan-payment extensions from major banks; and San Miguel's six-month food (including Nutribuns), gasoline, beverage, water, disinfectant, and power assurances under the tagline 'This isn't about profit, it's about public responsibility in a national crisis.' He closes with hope for warm-weather suppression of the virus and a devotional reminder of the miracles fervent prayers can bring.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "foundation_for_liberty_and_prosperity"
+    ],
+    "secondary": []
+  }
 }

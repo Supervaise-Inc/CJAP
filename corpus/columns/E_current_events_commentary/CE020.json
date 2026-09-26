@@ -187,5 +187,11 @@
     "Silence-is-surrender closing test"
   ],
   "one_paragraph_summary": "Eighth column in CJP's flood-control-scam series, accounting for ~800 reader comments and selecting Lorenzo de la Paz's letter (with edits) as the representative frustration. The letter opens with a shocking 3:1 taxpayer-to-bureaucrat ratio and inventories the Philippines's bloated political structure -- 82 provinces + 149 cities + 1,493 municipalities + 42,011 barangays + 317 congressmen + 24 senators -- atop an executive-branch 'monstrous machine' of hundreds of departments and millions of personnel. Through chiasmus (bureaucracy-grows-governance-shrinks; sustains-itself-rather-than-serves), the letter diagnoses patronage + unqualified appointments + ghost employees, frames the barangay as the first casualty of grassroots democracy, and develops the titular thesis: democracy is more than having an election -- it is accountability + transparency + service to the people. Western recognition does not legitimize corruption; the West Philippine Sea has become a diversionary patriotic veil; OFW remittances sustain a corrupt system rather than build a nation. The Marcos administration's proposed tax relief is dismissed as a 'breadcrumb token,' BIR audits as weapons, integrity as a disadvantage. The letter closes that we are 'overgoverned, underled, and underserved,' demanding courage over cynicism -- silence in the face of such decay 'is no longer acceptable. It is surrender.'",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "international_law_disputes"
+    ],
+    "secondary": []
+  }
 }

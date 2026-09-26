@@ -114,5 +114,11 @@
     "Let the respondent's own prior pronouncements guide the standard of conduct -- Corona's Alonso v. Villamor citation is self-binding"
   ],
   "one_paragraph_summary": "Panganiban analyzes the opposing strategies in the Corona impeachment: the prosecution relies on media power (live TV/radio coverage, Twitter, Facebook, YouTube) to reach non-lawyer senators and the public, while the defense relies on courtroom technicalities and Rule-of-Court objections to block evidence. He notes that BIR Commissioner Henares's testimony on the income-vs-assets disparity laid the basis for a prima facie ill-gotten-wealth presumption even if the Senate blocked direct ill-gotten-wealth evidence. The column's central irony: Corona's own ponencia in Republic v. Sandiganbayan (July 15, 2003) cited the 1910 Alonso v. Villamor case: 'A litigation is not a game of technicalities... Lawsuits, unlike duels, are not to be won by a rapier's thrust' -- the exact principle his defense lawyers are now ignoring. The second-envelope lesson from the Estrada impeachment is permanent: the Senate's technical refusal to open the envelope triggered EDSA II; when the envelope was later opened, it contained nothing harmful -- a self-defeating technicality that caused the fall of a president. The best strategy is captured in lyrical Filipino: 'Walang taguan, walang takipan. Katotohanan lamang ang panalo sa bayan' -- hide nothing, cover up nothing; only truth wins the people.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "impeachment_accountability"
+    ],
+    "secondary": []
+  }
 }

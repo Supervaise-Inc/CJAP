@@ -133,5 +133,13 @@
     "deploys faculty-adviser prizes as an incentive-alignment device for academic mentorship"
   ],
   "one_paragraph_summary": "Panganiban announces the 2021-2022 awardees of the Foundation for Liberty and Prosperity (FLP) law-scholarship program (with the Tan Yan Kee Foundation) and the FLP dissertation-writing contest (with the Ayala Corporation). Chief Justice Alexander G. Gesmundo chaired the scholarship board of judges, joined by Justice Secretary Menardo I. Guevarra, former Education Secretary Edilberto C. de Jesus, TYKF vice chairman Harry C. Tan, law dean Anna Maria D. Abad, and lawyer Joel Emerson J. Gregorio; 21 scholars were each awarded P200,000 (P100,000 tuition, P80,000 stipend, P20,000 books), with the full junior and senior roster named in full. Senior Justice Estela M. Perlas-Bernabe chaired the dissertation board, which awarded P320,000 to first-placer Lord Jay-em Cuntapay (ADMU), P220,000 to second-placer Eunice Baliong (USC), and P120,000 each to three third-placers (De Vera/DLSU, Dulanas/USC, Lim/ADMU), with seven elimination-round finalists receiving P20,000 each and faculty advisers receiving P100,000, P75,000, and P50,000 prizes respectively. He then articulates the FLP creed in its most condensed form: that justice and jobs, freedom and food, ethics and economics, liberty and prosperity are intertwined -- 'one is useless without the other' -- and that the indispensable and inseparable freedoms from tyranny and from poverty, and from fear and from hunger, must be attained under the rule of law in a democracy, not under the rule of force in a monocracy. Awardees automatically join the FLP Scholars Society, from which Panganiban fervently hopes 'will arise the new leaders of our country -- patriotic, talented, and trustworthy promoters of liberty and prosperity under the rule of law.'",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "foundation_for_liberty_and_prosperity"
+    ],
+    "secondary": [
+      "life_story_family_school_and_church"
+    ]
+  }
 }

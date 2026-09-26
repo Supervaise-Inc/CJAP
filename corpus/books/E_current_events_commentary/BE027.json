@@ -65,5 +65,11 @@
     "judicial-education-for-science-literacy"
   ],
   "one_paragraph_summary": "Appendix A reproduces an address by Dr. Franklin M. Zweig of the Einstein Institute for Science, Health & the Courts, 'Life Technologies and the Rule of Law,' delivered on the Philippine Supreme Court's 100th anniversary. He congratulates the Court, stresses that as law, science, and economies intermingle continuous judicial education becomes vital, and highlights the role of the Philippine Judicial Academy.",
-  "source_xlsx": "cjp_books_curated_normalized.xlsx"
+  "source_xlsx": "cjp_books_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "science_technology_and_the_law"
+    ],
+    "secondary": []
+  }
 }

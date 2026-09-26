@@ -154,5 +154,11 @@
     "reduces multi-issue controversy to a single statutory-construction question (prosecutor-as-ICC-integral-part)"
   ],
   "one_paragraph_summary": "Panganiban analyzes the July 18 ICC Appeals Chamber 3-2 decision authorizing chief prosecutor Karim Khan -- 'a celebrated Queen's Counsel in the United Kingdom' -- to resume his investigation of the alleged 'crime against humanity of murder, committed in the Philippines between Nov. 1, 2011, and March 16, 2019, in the context of the so-called war on drugs.' He walks the reader carefully through the date chronology: Bensouda's Feb. 8, 2018 preliminary 'examination' announcement; PH withdrawal submitted March 17, 2018, effective March 17, 2019; Bensouda's PTC request only on May 24, 2021 (more than two years past effective withdrawal); PTC grant on Sept. 15, 2021; Khan's agreement to suspend at the PH government's request; PTC's Jan. 26, 2023 grant for Khan to continue because the government's inquiry was deemed 'allegedly superficial.' On appeal, the AC took up two issues: complementarity (where the majority agreed with Khan that the PH had not shown genuine willingness/ability under Article 17) and jurisdiction (which the majority skirted, claiming the PH waived the issue by appealing only the Jan. 26, 2023 decision instead of the underlying Sept. 15, 2021 one). The two-judge minority asserted this was error -- jurisdiction will resurface when warrants are sought, so refusing to rule now wastes resources -- and held that the ICC did not acquire jurisdiction because Bensouda's PTC petition was both filed and granted more than two years after effective withdrawal. CJ reads Khan's silence and inaction since the AC ruling as possibly meaning he 'may no longer be minded to pursue the case,' redirecting effort to clearer 'situations' like Russia's war on Ukraine. The PH government's strategic knowledge: two ICC judges are minded to dismiss, and notably no judge has taken an opposing stance on jurisdiction. CJ closes by reducing the whole controversy to one statutory-construction question -- 'Is the Office of the Prosecutor an integral part of the ICC?' -- and answers, 'My short answer is No.'",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "criminal_trials_and_prosecutions"
+    ],
+    "secondary": []
+  }
 }

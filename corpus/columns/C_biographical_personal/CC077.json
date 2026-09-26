@@ -141,5 +141,13 @@
     "Align institutional advancement with a corresponding rise in alumni civic responsibility -- use biblical 'by its fruits' standard"
   ],
   "one_paragraph_summary": "This three-university column opens with UST's expulsion of eight law students found guilty of violating its Code of Conduct in connection with the hazing death of law freshman Horacio 'Atio' Castillo III, investigated by Rector Fr. Herminio Dagohoy's committee. Atio's mother Carmina welcomed the expulsions but demanded accountability for faculty members who failed to report the death to police -- and noted ongoing fraternity and fraternity-member prosecution. Two Senate committees have recommended disbarment of UST Law Dean Nilo Divina; the Castillo parents filed murder and anti-hazing charges against him. Divina denies the charges and the author reserves further comment pending the SC's disbarment action and DOJ criminal proceedings. On a brighter note, UST conferred a DBA on distinguished alumnus Tony Tan Caktiong (founder/president of Jollibee Foods Corp.) on February 19, 2018; Caktiong credits wife Grace and his management team for making JFC the largest QSR in the Philippines and Asia and a global top-10 by market cap, with 10 brands sold in China, Asia, the Americas, Europe, and the Middle East -- and envisions JFC eventually becoming the world's largest. The column also notes FEU's death-anniversary premiere of 'Be Brave,' documenting founder Nicanor Reyes Sr.'s history through the recollections of his only living child, Lourdes Reyes-Montinola (FEU chair until 2013, succeeded by banker-son Aurelio Montinola III). It closes with San Beda College's CHEd grant of university status on February 5, 2018 and the author's response to the SBAA's request for a brief message: 'By its fruits, a tree is known' -- expressing the expectation that San Beda's alumni should rise from wielders of power and critics to statesmen and heroes who will uplift the nation to new heights of peace, progress, liberty, and prosperity, 'united in prayer and work for the glory and exaltation of God Almighty. Alleluia!'",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "foundation_for_liberty_and_prosperity"
+    ],
+    "secondary": [
+      "life_story_family_school_and_church"
+    ]
+  }
 }

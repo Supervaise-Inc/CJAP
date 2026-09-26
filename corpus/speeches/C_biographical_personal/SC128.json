@@ -107,5 +107,11 @@
     "soul-vs-embodiment: intellectual substance vs. public persona as the governing distinction"
   ],
   "one_paragraph_summary": "Delivered August 16, 2007 at the launch of Jose T. Almonte's 'We Must Level the Playing Field' -- with President Fidel V. Ramos as special guest -- this address by CJP opens with public gratitude: 'maraming salamat po, President FVR, for initiating me into public service and for appointing me to the Supreme Court on a Double Ten, October 10, 1995.' He narrates their history: first met in 1983 at the Rotary Club of Manila; on June 17, 1992, FVR offered Justice Secretary (CJP declined -- 'I had neither campaigned for him nor supported his candidacy... I voted for my mentor, Senator Salonga'); FVR replied he wanted to be President 'not only of those who voted for me but also of those who did not, but who are competent and honest' and offered the SC instead; FVR then never spoke to CJP about any pending case -- 'Such is the gentleman that he is.' He turns to Almonte: initially feared as 'some sort of James Bond and Napoleon Solo combined'; eventually discovered as 'a true-blue ideologue, thinker, philosopher, strategist, reformer, visionary and patriot' whose commonsensical theories reinforced CJP's belief that 'law could not be read in a vacuum. It must be interpreted and applied in the context of pulsating contemporary social and economic realities. The rule of law must not only safeguard liberty but must help eradicate poverty and nurture prosperity.' The book's thesis (quoted directly from Almonte): 'To level the playing field, we must cut the networks of collusion that have allowed persons of influence to extract wealth without effort from the economy... smooth the economic distortions that perpetuate jobless growth and uneven development.' On the poor: 'they can be lifted up only by economic growth that creates and expands jobs and business opportunities, not by dole-outs and charity.' Conclusion: 'President Fidel V. Ramos may have been the embodiment of Philippines 2000 but National Security Adviser Jose T. Almonte was the sentient soul of the Ramos Presidency.'",
-  "source_xlsx": "cjp_speeches_curated_normalized.xlsx"
+  "source_xlsx": "cjp_speeches_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "life_story_family_school_and_church"
+    ],
+    "secondary": []
+  }
 }

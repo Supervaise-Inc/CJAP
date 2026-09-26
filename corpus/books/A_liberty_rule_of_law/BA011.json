@@ -119,5 +119,13 @@
     "liberty-and-prosperity as the organizing vision behind the two standards"
   ],
   "one_paragraph_summary": "Chapter 1 of 'With Due Respect' (Vol. 4), CJP's April 8, 2007 Inquirer column, explains why courts use 'strict scrutiny' when liberty is endangered but 'deferential interpretation' when prosperity is promoted -- a question readers pressed after the Supreme Court ordered Rep. Satur Ocampo's release. On liberty: the Bill of Rights (Article III) exists 'to restrict the State's power to interfere' and shields the people 'from the misuse and abuse of the awesome powers of the State'; its provisions, like the due-process and equal-protection clause, are 'self-executory' (courts 'need no other law' to enforce them), so any government action encroaching on rights is 'presumed invalid' and strictly scrutinized -- the reverse of the usual presumption that laws and orders are valid. On prosperity: the Constitution's development mandates are 'general policies or instructions' to Congress and the President (to 'promote a just and dynamic social order' freeing the people 'from poverty' and to pursue 'a more equitable distribution of opportunities, income and wealth'), not self-executory rights, so they generally need 'enabling' legislation. Because the judiciary 'has no power to pass upon the wisdom, merit, and propriety' of the political branches' discretionary acts, it is 'loathe to interfere' -- holding, for instance, that whether to adopt deregulation or globalization is for the political branches, reversible by the people at the polls, not by judges substituting their judgment. That deference, however, yields to the judiciary's 'unique duty, not just power' to nullify acts tainted with 'grave abuse of discretion' -- those that clearly violate the Constitution, laws or jurisprudence, or are issued with 'patent arbitrariness, whim, bias or personal hostility.' He illustrates with the Court's striking down of the first Oil Deregulation Law for offending the ban on monopolies (after which a corrected statute admitted Total, PTT and Seaoil) and its invalidation of the Manila airport terminal, Manila Bay reclamation, and automated election-counting contracts.",
-  "source_xlsx": "cjp_books_curated_normalized.xlsx"
+  "source_xlsx": "cjp_books_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "twin_beacons_doctrine"
+    ],
+    "secondary": [
+      "property_contracts_and_economic_rights"
+    ]
+  }
 }

@@ -167,5 +167,12 @@
     "uses tribute-pivot closing to embed personal lineage in analytical column"
   ],
   "one_paragraph_summary": "Panganiban gives a fair-minded close reading of Judge Rainelda H. Estacio-Montesa's 37-page decision (fortified by 170 footnotes) convicting Maria Ressa and Reynaldo Santos Jr. of cyberlibel -- finding it 'not baseless or capricious' but appealable to the Supreme Court. He walks through the trial sequence (arraignment, mediation, pretrial, six prosecution witnesses including Wilfredo Keng, two defense witnesses) and identifies the trial court's analytical-school architecture: 'law times facts equals decision,' Austin-style. He explains three crucial doctrinal items. First, the article publicly imputed despicable crimes (human trafficking, drug/contraband smuggling, murder) tending to dishonor Keng, a private citizen; under Article 353/355 and the Cybercrime Law (which extends libel to 'computer system or similar means' with heavier penalty), MALICE IS PRESUMED BY LAW, shifting the burden onto the accused -- and 'lamentably, the defense miserably failed in this regard,' with both accused 'oddly also' opting not to testify on fair-comment-on-public-interest. Second, the retroactivity defense fails: the Information charged the February 19, 2014 republication (post-Cybercrime Law), not the May 2012 original, and every republication is a separate crime. Third, on prescription, Montesa used John Austin's robotic syllogism -- because the Cybercrime Law prescribes 6+ years' imprisonment without setting a new prescriptive period, Act No. 3326's twelve-year rule applies. CJ concludes that the article IS libelous, but the accused can still be acquitted on appeal IF the Supreme Court sidesteps Austin's strict syllogism and embraces Roscoe Pound's more liberal sociological school, which 'regards law merely as a brick -- an important one -- in the building of a just and humane society,' reading the one-year libel prescription back into cyberlibel under the rule that penal laws should favor the accused. He closes with a tribute: 'Tomorrow, June 22, is the 100th birthday of the late Dr. Jovito R. Salonga, my esteemed guru, a respected scholar, low-profile educator, brilliant lawyer, outstanding lawmaker, acclaimed patriot, and statesman par excellence.'",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "libel_and_cybercrime",
+      "life_story_family_school_and_church"
+    ],
+    "secondary": []
+  }
 }

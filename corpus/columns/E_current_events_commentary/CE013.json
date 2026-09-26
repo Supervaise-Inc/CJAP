@@ -169,5 +169,13 @@
     "Careful-balance maxim -- penalize harmful deception without criminalizing imperfect/careless/dissenting speech"
   ],
   "one_paragraph_summary": "Year-end 2025 column anchored on the Digital 2026 Report's 98M Filipino internet users (96M smartphones, 67% concerned about online misinformation) and CJP's own 52-column 2025 output as authorial accounting for the source-verification discipline the times demand. He distills Joji Alonso's three-actor responsibility framework (consumer + producer + platform), prescribes the four-P consumer practice (pause + prioritize + probe + proceed), and supplements it with two Sotto bills: one defining fake content and extending accountability to online intermediaries that fail to comply with takedown orders (supplementing RPC Article 154's narrow publication-endangering-public-order threshold), and another targeting algorithm-driven amplification through troll farms during elections -- both grounded in the EU Digital Services Act + Australia + Singapore international shift toward regulating providers rather than content creators alone. He closes by insisting that the rule of law must adapt to digital-age fake news while striking a careful balance that penalizes harmful deception without criminalizing imperfect, careless, or dissenting speech.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "libel_and_cybercrime"
+    ],
+    "secondary": [
+      "science_technology_and_the_law"
+    ]
+  }
 }

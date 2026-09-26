@@ -138,5 +138,13 @@
     "Liberal construction in election cases favoring popular choice"
   ],
   "one_paragraph_summary": "Panganiban addresses readers who wonder whether the Supreme Court's extended oral argument -- which overtook the Comelec's printing deadline -- telegraphs a favorable decision for Grace Poe. He answers by reasserting institutional trust: the Court is weighing the issues responsibly and will produce a speedy and fair decision avoiding the dark scenarios he outlined the previous Sunday. He then sharpens the doctrinal architecture: the gut issue in the Comelec appeals is whether the poll body gravely abused its discretion in cancelling Poe's COC under Sec. 78 of the Omnibus Election Code, which 'exclusively' permits cancellation for false material representation made with deliberate intent to deceive -- the three-part test from settled jurisprudence (material, false, deliberately misleading). He emphasizes in ALL-CAPS that the SC's constitutional power to judge presidential 'qualifications' under Sec. 4, Art. VII arises only AFTER election, not before -- meaning the Comelec lacks any pre-election authority over constitutional qualifications as such. He contrasts this with the SET appeal, where Sec. 17, Art. VI grants the SET sole-judge authority over senatorial qualifications, and explains that the gut issue there is whether the SET gravely abused its discretion in finding Poe a natural-born citizen. This doctrinal distinction -- 'representation' (Comelec power) vs 'qualification' (SET/SC power) -- explains why three justices (Carpio, De Castro, Brion) inhibited from the SET appeal (having voted against Poe at the SET level) but participated actively in the Comelec appeals. He notes the Rules of Court grant voluntary inhibition to 'sound discretion,' and whether the three justices exercised their discretion 'soundly' he leaves 'to the judgment of history.' He closes by showing that it is legally possible to vote against Poe at the SET (on qualification) but for Poe at the Comelec level (on representation), pointing to Comelec Chair Andres Bautista's separate opinion: 'while I find that the statements of [Poe] ... are false, I do not believe that ... there was a deliberate intent on [her] part to mislead, misinform or hide a fact which would otherwise render a candidate ineligible' -- ergo, the COC cannot be cancelled.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "elections_and_automated_voting"
+    ],
+    "secondary": [
+      "citizenship_and_residency_grace_poe"
+    ]
+  }
 }

@@ -75,5 +75,13 @@
     "continuing-opposition posture"
   ],
   "one_paragraph_summary": "Chapter 14, 'Update on Death Penalty Cases,' continues CJP's yearly survey of capital-punishment jurisprudence. He reports that no executions were carried out during his eighth year (owing to reprieves granted by President Arroyo), recalls that People v. Echegaray upheld the Death Penalty Law (RA 7659), surveys the year's capital cases (Delim, Rullepa, Abrazaldo, and others), and reiterates his continuing reservations about the penalty.",
-  "source_xlsx": "cjp_books_curated_normalized.xlsx"
+  "source_xlsx": "cjp_books_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "death_penalty_and_echegaray"
+    ],
+    "secondary": [
+      "science_technology_and_the_law"
+    ]
+  }
 }

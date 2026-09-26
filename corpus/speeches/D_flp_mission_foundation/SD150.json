@@ -92,5 +92,13 @@
     "gospel-dissemination-sequence: academic → national → global as the governing dissemination strategy"
   ],
   "one_paragraph_summary": "Delivered August 25, 2006 as the opening address at the National Forum on Liberty and Prosperity -- the second domestic forum, preceded by the July 20, 2006 academic forum at San Beda; this National Forum brings together judiciary, bar, legislative, executive, business, media and civil society -- this address by CJP restates his full vision-mission: four Ins (independence, integrity, industry, intelligence); APJR with special focus on ACID; revitalized legal profession (responsible, dependable, morally upright); EC (competent and ethical lawyers); DHL (dedication, honesty, loyalty for 26,000 judicial employees); and the governing hierarchy: 'all these visions and objectives must lead to two loftier goals of safeguarding the liberty and nurturing the prosperity of our people.' He presents the UNDP/WB/ADB three-way consensus: 'poverty alleviation and economic growth cannot be attained, unless there is a well-functioning judicial system that enables the State to regulate the economy and empower private individuals to contribute to economic development.' The dual judicial standard: strict scrutiny for liberty (scales weigh heavily against government, favor the poor and marginalized) and deferential interpretation for prosperity (defer to Presidency and Congress). He closes by pointing to the coming October 18-20 Global Conference: 'The results of this conference will lay the groundwork for the forthcoming Global Conference on Liberty and Prosperity. During that global gathering, we hope to spread the gospel of Liberty and Prosperity beyond our shores and unto the world.'",
-  "source_xlsx": "cjp_speeches_curated_normalized.xlsx"
+  "source_xlsx": "cjp_speeches_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "twin_beacons_doctrine"
+    ],
+    "secondary": [
+      "faith_journey"
+    ]
+  }
 }

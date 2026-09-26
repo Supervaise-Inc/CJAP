@@ -139,5 +139,15 @@
     "uses death-penalty parallel as clarifying example for legal-standing doctrine"
   ],
   "one_paragraph_summary": "Panganiban observes that the Supreme Court could have dismissed at sight the many petitions challenging the Anti-Terrorism Act of 2020 on familiar procedural grounds -- prematurity (since Section 58 of the ATA itself makes the law effective only 15 days after Official Gazette publication, an inflection date of July 18, 2020), lack of actual controversy, lack of clear legal right, lack of cause of action, lack of locus standi -- as it did just two months earlier in De Leon v. Duterte (May 8, 2020). Instead, the Court ordered respondents to file Comment without yet giving due course, signaling its willingness to veer from John Austin's analytical school of jurisprudence toward the sociological school epitomized by David v. Arroyo (May 3, 2006, 'superbly penned by Justice Angelina Sandoval-Gutierrez during my term as CJ') and address transcendental-importance issues on the merits. He frames the ATA case around three novel and transcendental constitutional issues: (1) whether the war on terrorism can justify an innovative reading of the constitutional guarantee that 'no warrant of arrest shall issue except upon probable cause to be determined personally by the judge' vis-à-vis the ATA's Anti-Terrorism Council (composed only of executive officials) authorizing arrest and 24-day detention; (2) whether Congress can amend the Rules of Court on warrantless arrests when the Constitution expressly grants that rule-making power to the Supreme Court; (3) whether the ATA's terrorism acts are unconstitutionally vague or overbroad. Citing the Court's successful adjudication of other novel laws (cybercrime, money laundering) the Framers could not have contemplated, he closes with a 'fervent hope' that the Court will decide the petitions 'speedily, head-on, on their merit, in clear and simple language' -- delivering 'substantial justice understandable by ordinary citizens, free of legal gobbledygook intelligible only to lawyers.'",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "criminal_trials_and_prosecutions"
+    ],
+    "secondary": [
+      "how_the_supreme_court_decides",
+      "libel_and_cybercrime",
+      "death_penalty_and_echegaray"
+    ]
+  }
 }

@@ -127,5 +127,9 @@
     "Disclose conflicts of interest in good faith but write the analysis on legal merits regardless"
   ],
   "one_paragraph_summary": "Panganiban opens Part 1 of a two-part critique of the Konektadong Pinoy (KP) bill by defining connectivity as the seamless capacity to exchange voice and data via Wi-Fi, internet, and similar facilities, and respectfully commending Congress for trying to narrow the digital divide for rural and far-flung Filipinos. He warns, however, that the bill as worded will not survive constitutional scrutiny and raises three issues. First, allowing foreign satellite operators to serve the Philippines without local physical infrastructure makes the state's Article XII, Section 17 power to take over public utilities in national emergencies ceremonial rather than functional -- a danger he illustrates with the early-2025 Russia-Ukraine episode in which Ukraine's satellite-internet access was threatened with cutoff unless political conditions were met. Second, Section 14's preferential treatment of satellite operators (direct broadband interconnection and spectrum use without partnering with local PTEs) violates the Equal Protection Clause of Article III, Section 1, because satellite and terrestrial entities perform the same essential function of delivering data services and there is no substantial distinction justifying the regulatory carve-out. Third, Section 19 self-contradicts: it proclaims technological neutrality while its own provisions favor one delivery platform over another, an inconsistency he calls 'constitutionally abhorrent.' He closes by reiterating that reform is needed but must remain within constitutional bounds, discloses his independent directorship at PLDT, and signals a continuation the following Monday.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [],
+    "secondary": []
+  }
 }

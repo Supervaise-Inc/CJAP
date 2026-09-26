@@ -151,5 +151,13 @@
     "uses physical-metaphor (height) to convey moral stature"
   ],
   "one_paragraph_summary": "Panganiban opens with Donald Trump's third-debate refusal to commit to accepting the impending 2016 US election results -- 'I'll tell you at the time. I'll keep you in suspense. Ok?' -- and his pillorying of media for 'rigging' and bewailing 'electoral frauds' reminiscent of Philippine elections, later modified to 'provided I win.' Hillary Clinton was appalled by this attack on 240 years of US democracy in which rigging or fraud had never been raised by losers, raising the question: how is the US president chosen? Unlike Filipinos, American voters do not directly indicate presidential choices on their ballots; they vote for 'electors' pledged to vote later for the chosen candidate, with each of the 50 states plus DC determining the elector selection method by local law. Election Day is fixed as the first Tuesday after the first Monday of November (Nov 8 in 2016); Inauguration Day is January 20. Each state allocates electors in proportion to population -- California 55, Alaska/Montana/Wyoming/DC 3 each -- for 538 total electors with a 270-vote winning threshold under most states' winner-takes-all rule. Normally the popular vote winner also wins the EC, but exceptions occurred in 1824, 1876, 1888, and most strikingly in 2000 when Al Gore won the popular vote but lost the EC 271-266 to George W. Bush after the US Supreme Court 5-4 refused a manual recount of imperfectly punched Florida ballots -- a decision criticized as partisan since Florida's governor was Jeb Bush (George's brother), Florida's election commission was headed by a Cabinet member of the governor, and all 5 anti-Gore justices were appointed by Republican presidents. Despite the widespread howling, Gore humbly accepted the decision and conceded defeat. In 2006, during CJ Panganiban's watch as chief justice, Gore visited the Philippines and during a private conversation explained his reasoning: 'Mr. Chief Justice, there is something greater than me. The survival of our democratic institutions is more important than my personal victory. Had I brought the battle to America's streets, there would have been chaos and political upheaval. The manual recount would have taken many months. Meanwhile, no one would have been sworn in as president that ensuing January. Can you imagine a leaderless United States?' Gore was tall and husky, but in CJ's esteem he 'immediately rose 10 feet taller.' The column closes with the rhetorical challenge: 'Can we expect the same patriotism from Trump?'",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "elections_and_automated_voting"
+    ],
+    "secondary": [
+      "us_supreme_court_and_american_politics"
+    ]
+  }
 }

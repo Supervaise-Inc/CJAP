@@ -117,5 +117,11 @@
     "prudent-fallback: prepare for manual elections when automation falters"
   ],
   "one_paragraph_summary": "Chapter 8 of 'With Due Respect' (Vol. 5), CJP's January 10, 2010 Inquirer column, charges that the Melo-led Comelec had 'regretfully been squandering the people's trust' just months before the country's first automated polls. Melo's appointment had once 'restored credibility' despite objections over his age and 'closeness to the Macapagal family,' and CJP had backed him and his automation drive -- reminding him that 'beyond the appointing authority' lie 'media... history... a grateful nation... and an all-knowing God to judge him.' But recent events, he writes, had shaken his confidence: Melo admitted 'unnerving delays' in 'physical' preparations (ballot boxes, ballot condition, the candidate list, election-day substitutions) and teacher training was 'on hold'; only 30 of 600 sample ballots were read at the Smartmatic warehouse (blamed on a 'high shading threshold'); a 24-by-8.5-inch ballot had room for only 259 slots against 583 filed candidates, leaving about 324 'eased out'; and with 1,630 towns each having a distinct slate, there would be 'at least 1,630 types of ballots' and machines to deliver -- 'an untested logistical nightmare,' worsened because the Comelec had not posted the ballots online as he urged, having 'not finished cleaning up the candidates' list.' He then faults the body's 'inexplicable' decisions -- citing a 'stinging' Inquirer editorial on its 'partisanship' -- the 'monstrosity' unseating Gov. Grace Padaca (so flimsy GMA's lawyer Macalintal safely bragged he'd quit if the Court affirmed it), the ouster of Ang Ladlad on 'wobbly religious and gender grounds,' and the disqualification of Brig. Gen. Danilo Lim while accepting Col. Ariel Querubin though both were detained for breaking their military oaths -- 'a violation of his right to equal protection.' The Comelec, he concludes, 'has come up short in both its automation work and quasi-judicial decisions' and 'must work seven times more'; though he does 'not doubt the noble intentions' of Melo and Sarmiento, 'the time for automation is running out,' so 'it is time to prepare for manual elections.'",
-  "source_xlsx": "cjp_books_curated_normalized.xlsx"
+  "source_xlsx": "cjp_books_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "elections_and_automated_voting"
+    ],
+    "secondary": []
+  }
 }

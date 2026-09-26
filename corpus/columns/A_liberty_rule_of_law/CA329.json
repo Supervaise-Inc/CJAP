@@ -162,5 +162,13 @@
     "applies leap-in-law-and-logic critique to legal claims requiring multiple inferential steps"
   ],
   "one_paragraph_summary": "Panganiban surveys three Supreme Court cases worth watching that may change PH political landscape -- one rehabilitating the Marcos martial law regime and two potentially catapulting Bongbong Marcos Jr. to the vice presidency and eventually the presidency, 'or so his partisans hope.' First, the Marcos burial petitions at Libingan ng mga Bayani: petitioners invoke the unwritten yet underlying spirit of the 1987 Constitution (ouster by direct act of the people = unworthiness for heroes' cemetery), opponents invoke Dura lex sed lex -- the plain letter allowing interment of presidents and soldiers without heroism distinction; the SC issued a status quo ante order until Oct 18, extended to Nov 8, and the justices will definitely be divided between liberal and literal interpretation. Second, Bongbong's PET protest against Robredo's 250,000-vote winning margin alleges fraud in 39,221 clustered precincts in 25 provinces and 5 cities and includes the Smartmatic hash-code-in-transparency-server allegation whose criminal aspect was dismissed (appealably) by the Manila Prosecutors Office; historically no presidential or VP unseating has ever succeeded -- Miriam Defensor-Santiago's 1992 protest against Ramos was dismissed for mootness after her 1995 senate win, and Mar Roxas's 2010 protest against Binay was dismissed after his 2016 presidential run -- meaning regardless of merit, Bongbong has no immediate prospect of replacing Robredo via this tedious route. Third, Speaker Alvarez's petition to reverse the Comelec's 4-3 resolution extending the Soce filing deadline from June 8 to June 30: under RA 7166 a candidate's late or non-filing produces fines, bar from office until compliance, and perpetual disqualification for repeat offenders -- and here is the kicker, Sec 14 prescribes the same prohibition if the winner's nominating party fails to file timely. Unquestionably, the Liberal Party filed only during the extension, not within the prescribed period; ergo, Marcos partisans claim, Robredo and all LP-affiliated winners should be perpetually disqualified and Bongbong should replace her pronto as VP -- but this claim is 'a major leap in law and logic, and deserves a column in the future.'",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "elections_and_automated_voting"
+    ],
+    "secondary": [
+      "marcos_robredo_election_contest"
+    ]
+  }
 }

@@ -144,5 +144,11 @@
     "deploys moral-equivalence warning when good-government goals threaten procedural integrity"
   ],
   "one_paragraph_summary": "Panganiban corrects media mischaracterization that the Sandiganbayan freed all of Gregorio 'Greggy' Araneta III's sequestered assets: the SBN's Special Fourth Division (Justices Quiroz as ponente, Mendoza-Arcega, and Trespeces) lifted sequestration only over properties 'in the name of' Araneta -- not those 'attributed to him' -- by reading its own 2006 resolution literally rather than liberally. He traces the chronology: the PCGG's July 16, 1987 complaint against Marcos and heirs including Greggy (Marcos son-in-law and Irene's husband) targeting Northern Express Transport, Imexco, Phil. Semi-Conductor Devices, Golden Needle, and High Five Philippines; the SBN's grant of Greggy's demurrer on December 6, 2005; the SC's affirmation in Republic v. Marcos-Manotoc on February 8, 2012; and Greggy's subsequent motion to lift sequestration of all 'attributed' assets, which the SBN literally limited to 'in-name' properties. CJ argues for liberal construction on three grounds: (a) the predicate for sequestration was the ill-gotten-wealth assumption, which collapsed when PCGG failed to present evidence; (b) the sequestered corporations are not parties to Civil Case 0002 and have no standing to ask for their own release despite 30+ years 'under the yoke of PCGG custodianship'; (c) due process must be accorded to the other shareholders and officers of those corporations (the Civil Code requires at least five owners), who have suffered prejudice. He concludes that if PCGG believes the 'attributed' assets should remain sequestered, it must apply for a fresh order -- the old ones are 'improvident' -- and warns that without rule-of-law fidelity, 'the crusaders for good government would be no different from the raiders of the nation's treasures.'",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "ill_gotten_wealth_and_the_pcgg"
+    ],
+    "secondary": []
+  }
 }

@@ -117,5 +117,11 @@
     "start-now: the short runway to 2013 demands immediate planning"
   ],
   "one_paragraph_summary": "Chapter 10 of 'With Due Respect' (Vol. 5), CJP's January 2, 2011 Inquirer column, urges President Aquino to 'start electoral reforms now.' Unlike the Court -- where in six years he can name only four of 15 justices, 'not enough to sway a new judicial philosophy' -- Aquino can reshape the Commission on Elections through a 'sweeping revamp': with Chairman Melo resigning and Commissioners Ferrer and Larrazabal retiring, he could 'appoint immediately three of the seven' members (including the chair) and two more in 2013, enough to 'dominate the poll body.' The 2010 polls, CJP allows, were held 'in relative peace,' and the results -- 'especially of the presidential contest' -- were 'accepted,' though more protests were filed than under manual elections. He sets the new Comelec three challenges. First, whether to automate at all: weighing speed against 'humongous expense,' he cites former Chair Christian Monsod's doubts about the 'non-transparent and secretive' P16.5-billion PCOS that 'did not address the traditional problems' of cheating, command votes and disenfranchisement -- so 'the country may not need an expensive automation system.' Second, if automation continues, which system: Monsod 'trashed' the PCOS as 'mass-produced in one step' and under-tested; the watchdog Lente found that 'peaceful and expedient elections did not translate to honest and credible elections,' with vote-buying 'most prevalent'; and the Comelec Advisory Council urged against buying the PCOS machines. Third, time: with May 2013 'just two and a half years' away and the PCOS perhaps to be jettisoned, the body is 'really pressed.' Recalling that Melo had about a two-year runway for 2010 yet the Comelec was 'almost always tardy' (with 'horrifying delays' in printing, delivery and calibration), and that Roque v. Comelec had settled the contract's legality 'but not the technical, administrative, and logistical issues,' he concludes that 'only two years and a few months remain' -- 'barely enough' -- so Aquino, Congress, the Comelec and the watchdogs 'should now carefully plan for the 2013 elections.'",
-  "source_xlsx": "cjp_books_curated_normalized.xlsx"
+  "source_xlsx": "cjp_books_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "elections_and_automated_voting"
+    ],
+    "secondary": []
+  }
 }

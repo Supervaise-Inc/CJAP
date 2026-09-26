@@ -166,5 +166,11 @@
     "uses symbolic acts (time capsule) to express enduring ideals"
   ],
   "one_paragraph_summary": "Panganiban reports that the time capsule for the Foundation for Liberty and Prosperity's 'Museum for Liberty and Prosperity' was laid on a 3,350-square-meter lot at Alabang Global City donated by State Properties Corp. The museum, his long-held dream, is to be futuristic, immersive, interactive and AI-powered, embodying the philosophy of safeguarding liberty and nurturing prosperity under the rule of law -- 'not a memorial of the past, but a forebearer of the future.' Guests included Chief Justice Alexander G. Gesmundo, Monetary Board member Benjamin E. Diokno for BSP Governor Eli M. Remolona, SPC chair Allen Roxas and FLP officers. Since founding the National Union of Students of the Philippines, CJP has held that justice and jobs, freedom and food, ethics and economics, liberty and prosperity must go together; Canadian Chief Justice Beverley McLachlin advised at the 2006 Global Forum that 'under the rule of law' be made express. Ideals take root when institutions give them life, and FLP's partners are the Supreme Court, which safeguards liberty and guards emerging rights against state power amplified by technology, and the BSP, which nurtures prosperity through financial stability; FLP also needs the presidency and Congress. Both the Court and the BSP have institutional continuity beyond changing political leaders. So does FLP: since 2011 it has been led by three generations -- a founding board of Hilario G. Davide Jr., Washington SyCip, Edilberto C. de Jesus, Angelina Sandoval-Gutierrez, Elenita C. Panganiban and CJP; a second generation led by Amando M. Tetangco Jr.; and a third including young lawyers and scholars. The capsule, holding the museum's blueprints, the AGC masterplan, newspapers and the BSP's 125th-anniversary banknote and coin, is a seed that will grow into a giant Narra rooted in the rule of law.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "foundation_for_liberty_and_prosperity"
+    ],
+    "secondary": []
+  }
 }

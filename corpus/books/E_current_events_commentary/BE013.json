@@ -121,5 +121,11 @@
     "diplomatic-secrecy as the genuinely hard case (JPEPA)"
   ],
   "one_paragraph_summary": "Chapter 5 of 'With Due Respect' (Vol. 4), CJP's June 8, 2008 Inquirer column, previews three pending 'presidential secrecy' (executive privilege) cases as the Supreme Court resumed sessions, framing them as a test of whether it would 'serve or check President Arroyo.' The first, on 'secrecy of conversations,' is the Senate's motion for reconsideration of Neri v. Senate Committee on Accountability, which had 'sealed the lips' of former NEDA chief Romulo Neri; CJP declines to rehash the merits but warns that the ruling will shape both 'the contours of existing jurisprudence' and 'the public esteem for the Court.' Quoting his earlier column, he observes that a great Court is 'endearingly named after its chief, like the Davide Court or the Teehankee Court,' but a servile one 'is derisively named after the president it serves, like the Marcos Supreme Court' -- hoping the Neri ruling is 'a mere aberration' and not enough to brand the present bench 'the Arroyo Supreme Court,' since 'by its judgment, the tribunal itself will be judged.' The second, on 'secrecy of documents,' is Roxas v. Ermita, where Senators Roxas and Aquino sought to compel NEDA's Augusto Santos to surrender the NBN-ZTE meeting minutes; CJP notes Ermita invoked privilege 'without any justification at all,' merely directing Santos to snub the Senate, while the NEDA employees' group (ONE) publicly demanded disclosure -- so the question is whether the Court will 'find the courage to enforce the constitutional mandate of transparency and accountability.' The third, on 'secrecy of diplomatic negotiations,' is Akbayan v. Aquino, seeking disclosure of the JPEPA negotiations (the treaty signed by GMA and PM Koizumi in Helsinki but not yet effective for want of Senate concurrence); here the government warns that exposing negotiations would make the country 'a pariah' no nation would negotiate with -- so CJP leaves genuinely open whether 'confidentiality... be validly upheld as an exception to our stringent transparency rule. Abangan.'",
-  "source_xlsx": "cjp_books_curated_normalized.xlsx"
+  "source_xlsx": "cjp_books_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "presidential_power_martial_law_people_power"
+    ],
+    "secondary": []
+  }
 }

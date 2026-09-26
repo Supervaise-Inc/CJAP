@@ -138,5 +138,11 @@
     "remedy-alternatives analysis (mandamus as an alternative path for the Kalayaan goal)"
   ],
   "one_paragraph_summary": "As the New Year dawned, CJ Alexander G. Gesmundo announced that the Supreme Court would prioritize public-interest cases in 2023. Panganiban inventories four of them: Romulo Macalintal's constitutional challenge to RA 11935 (which postponed the Barangay and Sangguniang Kabataan Elections from Dec. 5, 2022 to October 2023); the KAPIT petition against the Metro Manila No Contact Apprehension Policy; CJ Gesmundo's off-the-cuff comment that the P203-billion Marcos Estate Tax could be reopened; and Senior Associate Justice Marvic Leonen's proposed 'Writ of Kalayaan.' He focuses chiefly on Macalintal, who argues that RA 11935 usurped the Comelec's power to postpone elections, disguised a term-of-office extension as a postponement, and violated the one-subject-one-title rule by embracing three subjects. Comelec chair George Garcia has offered to hold the BSKE in May 2023 if the Court grants the petition before the end of January, and Macalintal has filed two 'extremely urgent' motions for a TRO or SQA directing the Comelec to cease implementing RA 11935 and resume preparations. The OSG, under Solicitor General Menardo I. Guevarra, opposes 'passionately,' arguing the petition failed to allege grave abuse of discretion, that Congress validly exercised police power, that the hold-over is not a term-of-office change, that the three subjects are interrelated, and that COVID and a recent presidential election justified the deferment. Panganiban places his commentary inside the fair-comment doctrine -- truthful, respectful, free of personal attacks, in good faith -- and limits himself to one urging: the Court must resolve the urgent motions within January (even by full decision, given the extensive oral argument and memoranda) to guide the Comelec and the electorate, lest the petition go moot. On the Writ of Kalayaan, he respectfully agrees with a retired colleague's caution that constitutional writs (habeas corpus, habeas data) are designed for self-executory rights; rights requiring legislation (like health care) need enabling laws -- so the Court can issue the writ if Congress first enacts enabling legislation. The other public-interest cases will be taken up later.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "elections_and_automated_voting"
+    ],
+    "secondary": []
+  }
 }

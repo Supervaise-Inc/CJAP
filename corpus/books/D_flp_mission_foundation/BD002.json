@@ -111,5 +111,13 @@
     "nationwide stewardship: the CJ as exemplar and leader beyond the courtroom"
   ],
   "one_paragraph_summary": "Chapter 5 of 'With Due Respect' (Vol. 2), CJP's December 27, 2009 Inquirer column, catalogues the eight functions of the Chief Justice, written as a turmoil-weary public looked to the Court -- for though they should turn to elected leaders, the abuses they complain of 'come mainly from executive officials.' First, the CJ is 'primus inter pares,' presiding over and shaping the Court's work yet holding 'only one vote,' so he leads by 'moral ascendancy and persuasive skill, not a boss-subordinate relationship.' Second, he is the chief executive of the entire judiciary -- 2,000 judges and 26,000 employees -- who must both honor precedent and 'innovate, re-engineer' the branch. Third, he is a passionate reformer driving speedy justice and automation, interacting even with foreign institutions in a 'sensitive balancing act' that demands public trust in his integrity and independence. Fourth, as the Court supervises the practice of law, he is leader of the bar; fifth, as ex-officio chair of the Philippine Judicial Academy, he is the academic 'maestro' of judicial education; sixth, as JBC chair he is the 'mover and shaker' of judicial selection, since 'the need for quality judgments begins with quality judges'; and seventh, he is the 'administrator, manager, and financial wizard' who, under the Constitution, the Administrative Code, the GAA, the JDF Law (PD 1949) and the SAJ Law (RA 9227), wields 'exclusive sole power' to disburse the judiciary's funds. Eighth, under the 'minute scrutiny' of an inquisitive media, he is a role model and exemplar of public service whose 'quiet persona' draws civic groups in times of political wrangling. In sum, leading 'the last bulwark of democracy' while carrying leadership duties 'to the farthest corners of the country,' the CJ is, CJP argues, 'more accurately addressed' as Chief Justice of the Philippines, not just of the Supreme Court.",
-  "source_xlsx": "cjp_books_curated_normalized.xlsx"
+  "source_xlsx": "cjp_books_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "jbc_discernment_and_appointment"
+    ],
+    "secondary": [
+      "public_funds_budget_and_bank_evidence"
+    ]
+  }
 }

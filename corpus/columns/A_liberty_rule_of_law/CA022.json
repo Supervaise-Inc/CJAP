@@ -144,5 +144,11 @@
     "closes with rallying-cry titular thesis as recurring CJP motto"
   ],
   "one_paragraph_summary": "Panganiban opens with the Bill of Rights verbatim -- no person shall be deprived of life, liberty or property without due process of law, nor shall any person be denied the equal protection of the laws -- and explains that these twin rights safeguard especially the poor and powerless from government tyranny. He distinguishes substantive (objectives and intrinsic validity of laws) from procedural (means and methods) due process and lays out the five-element legal definition: impartial court, jurisdiction over subject matter, jurisdiction over person, opportunity to be heard, judgment only after hearing. He uses live PDAF examples -- Jinggoy Estrada's due-process petition over the OOO's initial document-furnishing denial (mooted when Ombudsman Morales promptly sent the documents) and routine challenges to Sandiganbayan jurisdiction -- to ground the framework. On equal protection he explains that equality is not absolute because factual situations differ and need classification (aliens vs citizens, senior-citizen 20-percent discount, the Estrada plunder Special Division still assailed by Saguisag, the Ampatuan-Solis-Reyes docket-clearance now criticized by defense lawyers). He rejects the reader-proposed Singapore/Malaysia authoritarian shortcut -- Filipinos tried martial law and it failed in our milieu, causing more injustices, and will not exchange hard-won freedoms for harsh efficiencies of strongman rule. His prescription is an innovative and courageous judiciary backed by vigilant citizenry, redefining the twin rights case-by-case because the Charter left them undefined, with the Court revisiting age-old rights to keep them in step with digital and biotechnological revolutions. He closes with the titular rallying cry: jurisprudence must be stable but it cannot stand still, the Supreme Court has the will and the weapons to simplify legal processes and allow good governance and sterling economic growth to endure -- Yes, the Supreme Court can.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "criminal_trials_and_prosecutions"
+    ],
+    "secondary": []
+  }
 }

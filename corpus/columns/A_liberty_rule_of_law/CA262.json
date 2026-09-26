@@ -119,5 +119,13 @@
     "treats June 30 commencement date as critical benchmark for term-start determination"
   ],
   "one_paragraph_summary": "Panganiban opens with the 2018 COC filing carnival -- featuring a self-proclaimed 'king of the Philippines,' a 'protector of the universe,' and a 'half-man and half-zombie' pledging to deter China -- to support Sen. Gatchalian's proposal to fine (not just disqualify) nuisance candidates who mock the electoral process. He argues fines and even imprisonment do not violate freedom to seek public office, by analogy to libel liability for those who abuse freedom of speech. He then addresses Ferdinand Topacio's petition to disqualify Sen. Koko Pimentel for alleged third consecutive term: Pimentel ran in 2007 but Zubiri was declared winner; Zubiri voluntarily surrendered the seat in 2011 after Pimentel filed a protest; Pimentel ran again and won in 2013. Since Pimentel did not commence his 'term of office' on June 30 after the 2007 election -- Zubiri held the office -- his tenure began only in 2011, meaning the consecutive-term ban (which applies only to those who completed their terms per Abundo v. Comelec and Albania v. Comelec) does not bar him. CJ agrees with Macalintal's sportsmanlike unsolicited opinion favoring Pimentel. The column closes congratulating Ryan Cayabyab on his National Artist recognition, noting his 18 compositions for CJ's 'Ageless Passion' musical.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "elections_and_automated_voting"
+    ],
+    "secondary": [
+      "libel_and_cybercrime"
+    ]
+  }
 }

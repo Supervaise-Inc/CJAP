@@ -118,5 +118,11 @@
     "persuade-don't-attack: win the Court patiently, for it speaks the final law"
   ],
   "one_paragraph_summary": "Chapter 10 of 'With Due Respect' (Vol. 6), CJP's October 24, 2010 Inquirer column, lays out how President Aquino can prevail in the 'crucial cases' before the Supreme Court -- the one body that 'can scuttle' his anti-corruption and anti-poverty programs because it is 'independent and apolitical' and bound to 'the Constitution and the rule of law,' which, per CJ Corona, 'will never bend to the ever-shifting political winds.' In a 'tête-à-tête' with presidential allies (Drilon, Purisima, Abad, Soliman, Bautista, Santos, Cruz), CJP had discussed four cases: 'the impeachment of the Ombudsman, the... Truth Commission, the validity of midnight appointments, and the legality of public-private partnerships (PPP).' The Court had issued two status quo ante (SQA) orders -- barring the House from hearing the Gutierrez impeachment, and stopping the firing of alleged 'midnight appointee' Bai Omera Dianalan Lucman -- plus an earlier SLEX TRO. SQAs, he explains, are 'worded more benignly than TROs' to spare co-equal branches but 'have the same effect,' biting immediately because they need no bonds; and their issuance 'implies that the Court has found the petitions to be prima facie meritorious,' so the respondents (the House and the administration) 'must rebut the prima facie case... to win.' That is what happened in the SLEX matter: persuaded by the respondents, the Court lifted the TRO and, in Francisco v. Toll Regulatory Board (2010), 'unanimously upheld' the SLEX/NLEX/Skyway PPPs -- Justice Velasco balancing 'the paramount common good for infrastructure' with 'a reasonable rate of return' to investors, and answering the ADB's call that 'the judicial system will uphold contractual rights.' Finally, CJP offers two models of how cases are decided -- the 'analytical' (facts × law = decision) and the 'sociological' (personality × stimuli = decision) -- and counsels that P-Noy must 'strategize patiently and properly,' using 'persuasion' rather than 'frontal criticisms,' remembering that 'in the end, the law is what the Supreme Court says it is.'",
-  "source_xlsx": "cjp_books_curated_normalized.xlsx"
+  "source_xlsx": "cjp_books_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "property_contracts_and_economic_rights"
+    ],
+    "secondary": []
+  }
 }

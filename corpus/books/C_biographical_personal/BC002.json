@@ -115,5 +115,13 @@
     "service-and-sharing over wealth, degrees and office"
   ],
   "one_paragraph_summary": "Chapter 4 of 'With Due Respect' (Vol. 7), CJP's July 5, 2009 Inquirer column, reflects on the Catholic Church's 'awesome gathering power,' shown when -- 'defying the influenza A(H1N1) contagion' -- more than 12,000 lay faithful filled the SMX for the Congress on Parish Liturgical Life. CJP, who cut short an Alaska vacation to attend, arrived as Gaudencio Cardinal Rosales concluded a keynote met with 'adulating love.' Though the theme was 'religious, not political,' he sensed the 'disciplined disciples' (lay leaders of the Archdiocese's 13 vicariates and 92 parishes) 'could have been swayed to any direction,' and was 'convinced that Cardinal Rosales could easily produce more than enough warm bodies to change the course of our history, just as Jaime Cardinal Sin did in 1986 and 2001,' summoning 'an army of faithful' able to 'topple authoritarian and corrupt regimes' -- as the prelate had shown by resisting Charter change amid the NBN-ZTE scandal. The 'secret weapon,' he writes, is 'the lethal combination of parishes and Catholic schools in Metro Manila.' Recalling his own sharing at the Congress, he tells how, on becoming Chief Justice, he chose to remain 'an ordinary parishioner' and extraordinary minister at the Santuario de San Antonio 'without extra arrangements or protocols,' because 'in serving our Lord... we, the people of God, are all equal' -- and, invoking Matthew 25, that at the 'pearly gates' the Lord will ask not about 'bank accounts' or 'doctoral degrees' but 'whether we shared our resources with the poor.' He closes with a tribute to Washington Sycip at 88, whose birthday gathering of 500 business titans made him the commercial counterpart to the archbishop's pull -- 'wisdom and strength over the ages.'",
-  "source_xlsx": "cjp_books_curated_normalized.xlsx"
+  "source_xlsx": "cjp_books_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "party_list_charter_change_and_dynasties"
+    ],
+    "secondary": [
+      "faith_journey"
+    ]
+  }
 }

@@ -79,5 +79,14 @@
     "void-for-illegality plus public-interest test on BOT contracts"
   ],
   "one_paragraph_summary": "Chapter 10 recounts Agan v. Piatco, one of the most publicized cases of CJP's eighth year, which voided the agreements for the NAIA Terminal III airport project. He narrates the facts — AEDC's 1993 unsolicited proposal, Piatco's award, and the five challenged agreements — and the grounds of invalidity (questionable prequalification, denial of the right to match, delay, and one-sided terms) under the Build-Operate-Transfer Law (RA 6957).",
-  "source_xlsx": "cjp_books_curated_normalized.xlsx"
+  "source_xlsx": "cjp_books_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "foundation_for_liberty_and_prosperity"
+    ],
+    "secondary": [
+      "property_contracts_and_economic_rights",
+      "science_technology_and_the_law"
+    ]
+  }
 }

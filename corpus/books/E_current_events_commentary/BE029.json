@@ -67,5 +67,11 @@
     "sanctity-of-life plus ethical-reflection on biotech"
   ],
   "one_paragraph_summary": "Appendix D reproduces Fr. Ranhilio Callangan Aquino's essay on the ethics of the 'brave new world' of human cloning and genetic engineering. He probes the moral status of the human embryo, invokes the Constitution's recognition of the sanctity of family life (Art. II, Sec. 12), and calls for serious philosophical reflection on manipulating human life.",
-  "source_xlsx": "cjp_books_curated_normalized.xlsx"
+  "source_xlsx": "cjp_books_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "science_technology_and_the_law"
+    ],
+    "secondary": []
+  }
 }

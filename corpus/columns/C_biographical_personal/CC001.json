@@ -112,5 +112,11 @@
     "uses no-personal-ambition declaration to establish civic-service legitimacy of continued writing"
   ],
   "one_paragraph_summary": "Panganiban celebrates his 10th anniversary of writing for the Inquirer (first column: February 11, 2007), recounting that he accepted Marixi Prieto's offer with hesitation for three reasons: his guru Dr. Jovito Salonga advised against it ('chief justices make history, they do not write it'), he had no background in opinion writing beyond student journalism at the FEU Advocate and FEU Law Review, and he wanted to rest after authoring over 1,200 SC decisions. As a compromise with Prieto's three-times-a-week request, he agreed to weekly -- and has maintained a perfect 100% Sunday output for 10 consecutive years without fail. He cites two sources of joy: complete editorial freedom (equivalent to his freedom in the SC) and the obligation to stay updated, adapt to digital technology (Nokia to iPhone 6-plus, Googling to AI appreciation), and contribute to policy and polity at advanced age with no personal ambition. He announces the recent publication of 'With Due Respect 2' (2011-2016 columns), with a foreword by Dr. Raul Pangalangan (former Inquirer publisher, now ICC judge in The Hague) and a preface by CJ Sereno -- a sequel to 'With Due Respect' (2007-2011 columns, published in 2011 for CJ's 75th birthday).",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "life_story_family_school_and_church"
+    ],
+    "secondary": []
+  }
 }

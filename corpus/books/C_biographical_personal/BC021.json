@@ -66,5 +66,11 @@
     "judiciary-must-adapt-to-science principle"
   ],
   "one_paragraph_summary": "Foreword by Chief Justice Hilario G. Davide Jr. to 'The Bio-Age Dawns on the Judiciary.' Observing that science and technology advance at the 'speed of thought' (Bill Gates), Davide argues the Judiciary must keep in step to grapple with complex scientific and technological issues, notes the absence of legal literature on the subject, and commends Justice Panganiban's book — the latest in his tradition of yearly reports — as filling that gap.",
-  "source_xlsx": "cjp_books_curated_normalized.xlsx"
+  "source_xlsx": "cjp_books_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "science_technology_and_the_law"
+    ],
+    "secondary": []
+  }
 }

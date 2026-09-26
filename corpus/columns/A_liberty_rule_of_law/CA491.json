@@ -119,5 +119,11 @@
     "treats four constitutional ideals (competence, integrity, probity, independence) as the non-negotiable screening baseline"
   ],
   "one_paragraph_summary": "Writing as daily live-media-coverage JBC interviews begin July 24, 2012 for the chief justice vacancy, Panganiban identifies the JBC's central challenge: to prove in its 25-year history that the council system works -- interviewing candidates assiduously but not rudely, scrutinizing thoroughly but not brusquely -- while critics push to abolish it and return to President + Commission on Appointments appointments. He rebuts the abolition proposal by noting that under the old CA system, no SC appointee was ever rejected despite some proving unworthy, and that CJ Concepcion specifically designed the JBC to replace confirmation hearings that 'demeaned appointees with crude questions and demands for personal favors.' He cites Judge Oxner's study showing the JBC model has been adopted in 20+ countries (with France, Italy, Portugal, and Spain having councils that actually appoint judges) as proof of a growing international depoliticization trend. He proposes a future constitutional amendment: the SC should appoint three JBC members (retired justices, integrated bar, law professors) while the President retains the private-sector representative and each congressional chamber gets one member, creating a 4-4 judicial/political balance. Post-Corona, he urges the JBC to comb candidates' SALNs and ITRs and grill them on familiarity with all eight chief justice duties, vision-mission for reform, and plans to speed up the delivery of quality justice.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "jbc_discernment_and_appointment"
+    ],
+    "secondary": []
+  }
 }

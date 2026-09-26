@@ -117,5 +117,11 @@
     "professionalize mediation: screening, accreditation, 'officers of the courts'"
   ],
   "one_paragraph_summary": "Chapter 1 of 'With Due Respect' (Vol. 3), CJP's May 27, 2007 Inquirer column, makes the case for mediation as a tool to unclog court dockets, opening with a crisis: fewer than 2,000 judges carry about a million pending cases -- over 500 each, unevenly spread, some buried under 6,000 -- and the backlog worsens daily as new filings outpace judgments that often merely shift the burden to appellate courts. Through its Action Program for Judicial Reform (APJR), he writes, the Court is appointing more judges, computerizing, streamlining the Rules of Court and promoting alternative dispute resolution, of which he singles out mediation. Full-blown litigation is 'tedious, time-consuming, stressful, expensive,' breeding 'broken relationships' and even 'new cycles of violence'; mediation, by contrast, is speedy, peaceful, cheaper and 'win-win,' suited to 'the Filipino way of ending problems sans loss of face,' and usable before or during a case. Once 'frowned upon' for ousting courts of jurisdiction, mediation proved itself in a 2001 pilot in which Philja-trained mediators settled '80 percent of the 1,000 cases referred to them' in under two weeks -- some more than 10 years old -- prompting the Court to institutionalize court-annexed mediation, with a Philja curriculum, the nationwide Philippine Mediation Center, a per-case mediation fee, and mandatory mediation at pretrial (save 'non-mediatable' cases). A 'phase two,' Judicial Dispute Resolution (JDR) -- an innovation from the National Judicial Institute of Canada, piloted in the San Fernando and Bacolod RTCs and pioneered by Executive Judge Adelaida Ala-Medina -- lets the pretrial judge act as conciliator and 'neutral evaluator,' with strict confidentiality if it fails and the case is re-raffled. Mediation has become 'a new profession' of accredited court 'officers,' and CJP closes by recalling the November 2006 National Conference on Court-Annexed ADR Mechanisms (USAID- and Asia Foundation-funded), which reported settling about 24,983 of 35,223 cases mediated from 2002 to 2006 -- a 71-percent success rate.",
-  "source_xlsx": "cjp_books_curated_normalized.xlsx"
+  "source_xlsx": "cjp_books_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "judicial_reform"
+    ],
+    "secondary": []
+  }
 }

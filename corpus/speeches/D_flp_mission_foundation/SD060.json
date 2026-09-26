@@ -129,5 +129,11 @@
     "bar-topnotcher-and-Latin-honors incentive structure as the long-term expectation framework for the inaugural cohort"
   ],
   "one_paragraph_summary": "Delivered December 1, 2016 as the closing address at the inaugural FLP Scholarship Program launch ceremony, this speech by CJP opens with profound thanks to CJ Maria Lourdes Sereno for chairing the first Board of Judges, opening the SC's three Division Conference Rooms ('normally reserved exclusively for sessions of the three Divisions... when justices convene in these hallowed halls, they meet strictly by themselves, without clerks, stenographers or secretaries'), and delivering a stimulating and challenging speech specifically addressing law school deans and the inaugural LibPros scholars -- 'amazed how she can remember so accurately the give and take between the candidates and the applicants.' He thanks the other judges: FLP President Evelyn Dumdum, Dr. Edilberto de Jesus, TYK Foundation's Maria Cecilia Pesayco, and PALS President Dean Maria Soledad Mawis of Lyceum PH. He notes the positive surprise: 'We were looking for only 10 scholars but the board of judges was so impressed by the applicants, they recommended 11. The Foundation for Liberty and Prosperity happily agreed.' He sets explicit expectations for the inaugural batch: graduate with honors, be among the top 10 in the 2018 bar exam, and become 'competent and ethical lawyers who will safeguard liberty and nurture prosperity under the rule of law.' He describes FLP (founded December 2011, CJP's 75th birthday) and its programs: 20 law scholarships (11 in the first batch), dissertation contest (P300K champion, P200K 2nd, three P100K honorable mentions, P20K for 20 entries), 10 professorial chairs across eight law schools plus the Philippine Judicial Academy. He notes FLP's office: 700+ square meters in Salcedo Village, Makati, donated by First Philippine Holdings, Lopez Holdings, PLDT, Meralco, MPIC, and San Miguel Corp. president Ramon Ang. He closes with an invitation to merienda with the 11 inaugural scholars.",
-  "source_xlsx": "cjp_speeches_curated_normalized.xlsx"
+  "source_xlsx": "cjp_speeches_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "foundation_for_liberty_and_prosperity"
+    ],
+    "secondary": []
+  }
 }

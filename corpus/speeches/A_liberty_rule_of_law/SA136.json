@@ -143,5 +143,13 @@
     "closes major institutional moments with a personal Christian prayer, signaling the speaker's view that judicial vocation is a religious vocation"
   ],
   "one_paragraph_summary": "Delivered on December 6, 2006 at the Supreme Court Session Hall as his retirement valedictory, CJ Panganiban structures his thanksgiving in concentric circles -- first the two Presidents who appointed him (Ramos to the Court on October 10, 1995, and Arroyo as 21st Chief Justice on December 21, 2005), then his Supreme Court colleagues, his teachers from Candaba Elementary to FEU, his spiritual shepherds led by Fr. Michael Nolan and Dr. Jovito R. Salonga, and finally his wife Leni and their five children and nine grandchildren. He uses the occasion to crystallize the institutional vocabulary of what he calls 'the Panganiban Court': the 'Four Ins' the judiciary must embody (independence, integrity, industry, intelligence), the four institutional vices it must resist (influence, interference, indifference, insolence), the 'plague of ships' that corrodes impartiality (kinship, relationship, friendship, fellowship), and the 'ACID problems' that the Action Program for Judicial Reform attacks (limited Access by the poor, Corruption, Incompetence, Delay). All of these, he argues, are means toward the twin end-goals of safeguarding liberty AND nurturing prosperity under the rule of law, exemplified by the Global Forum on Liberty and Prosperity he convened October 18-20, 2006. He closes with a personal Psalm-23 echoing prayer dedicating his life to God.",
-  "source_xlsx": "cjp_speeches_curated_normalized.xlsx"
+  "source_xlsx": "cjp_speeches_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "life_story_family_school_and_church"
+    ],
+    "secondary": [
+      "judicial_reform"
+    ]
+  }
 }

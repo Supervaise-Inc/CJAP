@@ -115,5 +115,13 @@
     "frames second-placer vs constitutional-succession as the VP-replacement question hinging on timing of the cause"
   ],
   "one_paragraph_summary": "Panganiban takes up Speaker Alvarez's petition to reverse the Comelec's 4-3 vote extending the Soce filing deadline from June 8 to June 30, 2016, identifying three main issues. First: does the Comelec have power to extend the Soce period? RA 7166 is silent on this, but the Comelec claims the power is implied from its residual constitutional authority. Second: assuming the Comelec had no such power, are LP winners including Robredo perpetually disqualified? RA 7166 Sec. 14's 'kicker' provides that 'the same prohibition shall apply if the political party which nominated the winning candidate fails to file' Soce within the prescribed period -- and the LP did file only during the extension. Third: who replaces Robredo if she is ousted? CJ explains: when the cause arose before the election (winner's votes cast for a non-candidate), the second placer (Marcos) is deemed elected; but when the cause arose after election, proclamation, and assumption to office, constitutional succession applies -- the President nominates a VP from among senators and representatives, confirmed by majority vote of both houses voting separately. CJ also flags that Robredo was not impleaded in the Alvarez petition, raising a fundamental due process concern. Column ends noting more to say on another day.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "elections_and_automated_voting"
+    ],
+    "secondary": [
+      "marcos_robredo_election_contest"
+    ]
+  }
 }

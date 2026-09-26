@@ -124,5 +124,13 @@
     "treats the petitioners' failure to win as compatible with having served the public interest — separating advocacy outcome from constitutional value"
   ],
   "one_paragraph_summary": "Panganiban extracts four doctrinal holdings from Justice Del Castillo's ponencia in Lagman vs Medialdea (July 4, 2017) as they relate to his prior columns on the subject. First, even though the petitioners lost, they served the public by giving all 15 justices -- who wrote individual opinions ranging from Leonen's 92-page dissent (longer than the 82-page ponencia) to Bersamin's 10-page concurrence -- the opportunity to define ML's constitutional parameters. Second, the vote is more precisely 11-2-1-1 (not 11-3-1): 11 found sufficient factual basis for all of Mindanao; Sereno and Caguioa (2) limited it to three provinces; Carpio (1) limited it to Marawi; Leonen (1) found no factual basis. Third, the President has sole and exclusive discretion to declare ML -- but only upon actual invasion or rebellion plus public safety necessity, with a prosecutorial 'probable cause' evidentiary standard, not a judicial one. Fourth, SC review is narrower than Congressional review: the Court looks only at data available at declaration time and does not need to find the President correct, while Congress can consider supervening events and probe the accuracy of facts -- with both powers exercisable simultaneously despite being 'totally different.' The ponencia closes with a unity call that CJ quotes approvingly.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "presidential_power_martial_law_people_power"
+    ],
+    "secondary": [
+      "criminal_trials_and_prosecutions"
+    ]
+  }
 }

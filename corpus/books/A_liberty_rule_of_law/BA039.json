@@ -131,5 +131,13 @@
     "globalization rationale: welcome back former Filipinos who are Filipinos 'by blood, by origin and by culture'"
   ],
   "one_paragraph_summary": "Chapter 19 of 'A Centenary of Justice' analyzes Bengson v. House of Representatives Electoral Tribunal (GR 142840, May 7, 2001, per Kapunan, J.), which held that repatriation under RA 2630 restores a person's ORIGINAL citizenship. Teodoro C. Cruz, natural-born in 1960, lost his Philippine citizenship by enlisting in the US Marine Corps (1985) and being naturalized American (1990), repatriated in 1994, and in 1998 was elected to the House from Pangasinan's Second District; the HRET dismissed Antonio Bengson III's quo warranto and upheld Cruz, who then charged the tribunal with grave abuse. The Court reasoned that citizenship is acquired by birth or naturalization, yielding only two classes -- natural-born and naturalized -- and since Cruz reacquired his status by repatriation rather than naturalization or a direct act of Congress, he 'perforce' is natural-born, the Constitution providing no separate category for reacquirers. CJP -- whose dissent became a Concurring Opinion after he deferred to the senior Justice Kapunan -- gave five reasons: (1) repatriation is the recovery of original citizenship (citing Salonga's 'Private International Law' and Webster), 'not a grant of a new citizenship'; (2) not being naturalized, Cruz is natural-born; (3) the HRET, as 'sole judge' of its members' qualifications, committed no grave abuse, since a good-faith interpretation of an unsettled question is not capricious or whimsical ('there is a line between perceived error and grave abuse'); (4) in case of doubt the popular will prevails -- Cruz won 80,119 votes, more than all opponents combined -- and 'it would be better to err in favor of the people's choice than to be right in complex but little understood legalisms' (Frivaldo v. Comelec); and (5) the global trend favors welcoming back former Filipinos who are 'Filipinos by blood, by origin and by culture.' Justice Gutierrez dissented, arguing that natural-born status is a privilege that cannot be reacquired once a person must perform acts (oath, renunciation, registration) to regain citizenship, and that the constitutional trend has made natural-born status 'more narrow and qualified over the years.'",
-  "source_xlsx": "cjp_books_curated_normalized.xlsx"
+  "source_xlsx": "cjp_books_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "life_story_family_school_and_church"
+    ],
+    "secondary": [
+      "citizenship_and_residency_grace_poe"
+    ]
+  }
 }

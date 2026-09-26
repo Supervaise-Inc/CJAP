@@ -154,5 +154,11 @@
     "uses ICCPR-compatibility as international-law defense of domestic libel regime"
   ],
   "one_paragraph_summary": "Panganiban devotes a Q&A column to seven reader follow-up questions on the previous week's Maria Ressa cyberlibel analysis. He corrects the misreading that Disini v. SOJ (February 11, 2014) held libel and cyberlibel are 'really one and the same crime' -- the case said only that cyberlibel is not a NEW crime, since Article 353/355 already punishes libel and the Cybercrime Law merely affirms that online defamation is 'similar means.' Using a murder/homicide analogy -- both are the killing of a person, but murder is qualified by treachery and carries a heavier penalty -- he explains that libel and cyberlibel belong to the same genre but are distinct offenses, with cyberlibel made 'more obnoxious' by computer technology that spreads defamation farther and faster. He restates Disini's architecture: cyberlibel is VALID and CONSTITUTIONAL for the original author but VOID and UNCONSTITUTIONAL for those who merely receive and react. PH libel laws do not violate the ICCPR because the Penal Code recognizes truth (subject to good-motives qualification) as a defense, and the UN Human Rights Committee did not enjoin decriminalization. Even assuming Wilfredo Keng has attained public-figure status (Forbes 'Top 40 Richest,' scholarship and sports donations of P2M/year), Judge Montesa found ACTUAL malice in addition to PRESUMED malice based on three evidence pillars from the trial record: Santos wrote the article sans verification; this contradicted Rappler's own accuracy/truth/fairness standard as testified by defense witness Chay Hofileña; and Rappler refused for seven months to publish Keng's side despite numerous follow-ups. Only testifying could have rebutted this and secured outright acquittal -- but the accused did not, and were convicted. He closes by defining prescription ('the accused, even if guilty, can no longer be penalized due to the passing of time') and promising the next Sunday's column will explain how it would apply on appeal.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "libel_and_cybercrime"
+    ],
+    "secondary": []
+  }
 }

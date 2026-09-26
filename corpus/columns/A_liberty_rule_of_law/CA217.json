@@ -132,5 +132,11 @@
     "treats post-judgment civil collection as a separate enforcement axis requiring bar-association assistance"
   ],
   "one_paragraph_summary": "Panganiban uses the Quezon City Police's homicide filing against MSgt. Daniel Florendo Jr. for the fatal shooting of retired Army Cpl. Winston Ragos to argue that filing a criminal case is only the beginning -- sustained vigilance is the real price of speedy justice. He explains the limits of private-prosecutor participation (subordinate to public prosecutors, scoped to civil damages) and walks through three exemplary failures: GMA's plunder acquittal because the information failed to allege the 'identity of the main plunderer' (an essential element) after the prosecution had already rested; the Mamasapano acquittals of Purisima and Napeñas because the Anti-Graft information omitted material remuneration as an element; and the Marcos ill-gotten wealth dismissals for failure to authenticate documentary evidence. He then catalogues the structural causes of clogged dockets using the Supreme Court's own resolutions -- the March 18, 2014 trial-duration mandate frustrated by Rules-of-Court exceptions, the January 8, 2013 admission that 80 percent of trial-court backlog is criminal and stems from prosecutor and witness absences and PAO lawyer shortages, and the September 4, 2012 admission that roughly 40 percent of criminal cases are dismissed annually because complainants 'simply gave up' after repeated postponements. He closes with the uncomfortable observation that even final-judgment victories often leave civil liability uncollected, renewing his earlier call to the IBP for help -- a call that, he candidly notes, has gone unanswered.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "criminal_trials_and_prosecutions"
+    ],
+    "secondary": []
+  }
 }

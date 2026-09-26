@@ -109,5 +109,13 @@
     "concert-series-as-fundraising-vehicle: the organ concert series as the public-outreach mechanism for building the donor base"
   ],
   "one_paragraph_summary": "Delivered November 12, 2010 as the welcome address on behalf of the Manila Metropolitan Cathedral-Basilica Foundation at the 5th organ concert featuring the Cathedral's renovated giant pipe organ, this address by CJP opens with the governing theological frame: 'More than mortar and brick, the Manila Cathedral is a symbol of our faith and a monument of our religious heritage as a people. It is the bulwark of Filipino Catholicism and an enduring witness to the strength and depth of our people's fidelity to our Lord Jesus Christ.' He traces the Cathedral's history from its 1581 founding through typhoons, earthquakes, fire and WWII ('practically ravaged it to the ground'); the current Neo-Romanesque Byzantine structure was designed by Architect Fernando Ocampo and reconstructed after WWII by Archbishop Rufino J. Santos -- who became the first Filipino Cardinal -- and consecrated December 7, 1958 under the patronage of Mary, the Immaculate Conception. Now, 50+ years after reconstruction, major renovation is needed; the Foundation is chaired by Cardinal Rosales. Recent work: the giant belfry bells were brought down for earthquake safety and housed at ground level (with Dr. Emilio T. Yap's funding; to be finished November 20, 2010). And: 'the Foundation has been the fortunate recipient of the generosity of Alberto and Sylvia Lina who donated almost five million pesos to acquire new computerized, top-of-the-line carillon bells from the Netherlands. They will arrive next month, so we can use them during the Christmas season. Maraming, maraming salamat po to my inaanak, Bert and Sylvia of Fedex and Air 21 fame.' The concert program features choirs from UST, St. Paul's, St. Scholastica's, Santa Isabel and the Manila Cathedral Choir (coordinated by Eugene de los Santos and Monsignor Nestor Cerbo), composers-organists Buenaventura and Santiago, dance groups (Shirley Halili, St. Dominic, Pamana), and TV coverage by NBN Channel 4 for the Feast of the Immaculate Conception.",
-  "source_xlsx": "cjp_speeches_curated_normalized.xlsx"
+  "source_xlsx": "cjp_speeches_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "foundation_for_liberty_and_prosperity"
+    ],
+    "secondary": [
+      "life_story_family_school_and_church"
+    ]
+  }
 }

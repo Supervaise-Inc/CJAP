@@ -153,5 +153,11 @@
     "correcting injustice and laying down guiding doctrine justify taking up even a small case"
   ],
   "one_paragraph_summary": "Chapter 23 of 'Transparency, Unanimity & Diversity' takes up Basher v. Comelec, which some would call an insignificant case, to show that the Supreme Court takes up such matters anyway when it cannot let an injustice pass. Hadji Rasul Batador Basher and Abulkair Ampatua contested the post of punong barangay in Maidan, Tugaya, Lanao del Sur; after two failed elections the exercise was reset to August 30, 1997, but according to the Comelec voting began only around nine that evening amid tension, threats from the town mayor and guns drawn between his followers and the election officer's military escorts. Ampatua was proclaimed with 250 votes to Basher's 15. Basher alleged that the candidates had agreed there would be no election, that the ballot box had been turned over to the police, and that the voting was later conducted at the former mayor's residence without announcement. The case was assigned to Justice Sabino R. De Leon Jr., who would have affirmed the Comelec, but CJP dissented during deliberations, the Court sided with him 11-2, and his Dissent became the ponencia. It held the exercise void on four grounds and a fifth that he called most significant. The situs was illegal, since Section 42 of the Omnibus Election Code requires a public building within the barangay and the designated Cagayan Elementary School was not used. The time was irregular, since voting runs from seven in the morning to three in the afternoon and the thirty-meter exception presupposes an election already begun. The date and the postponement were invalid, since only the Comelec may declare a failure of election and the election officer held no summary proceeding. Finally, the announcement over the mosque minutes before voting was no notice at all, a conclusion drawn a fortiori from Hassan v. Comelec. Justice De Leon dissented, urging deference to the Comelec's findings and caution in nullifying elections.",
-  "source_xlsx": "cjp_books_curated_normalized.xlsx"
+  "source_xlsx": "cjp_books_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "elections_and_automated_voting"
+    ],
+    "secondary": []
+  }
 }

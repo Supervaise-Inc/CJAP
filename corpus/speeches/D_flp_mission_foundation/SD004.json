@@ -114,5 +114,11 @@
     "audience call-and-response as a public-commitment mechanism (the crowd's 'Kayang kaya!' becomes a collective vow)"
   ],
   "one_paragraph_summary": "Delivered as opening remarks at the FLP 2024 Awards Ceremony at Kalayaan Hall, Malacañang Palace on October 22, 2024, this short speech thanks First Lady Louise Araneta-Marcos for hosting the 30 FLP awardees in the official sanctum of the Palace where CJP himself took his oath as Chief Justice. He underscores the privilege by noting he was in his early 40s the first time he entered Kalayaan Hall, while the young scholars are barely half that age. In playful Tagalog, he challenges the 20 law scholars to pledge to become bar topnotchers ('Kayang kaya!') and explains the 10-fourth-year / 10-third-year split by the SC's own topnotcher-proclamation count of 10 per batch. He calls on the ESMEL fellows and dissertation winners to help the poor through private entrepreneurship, restates FLP's two flagship ultimate projects (the futuristic AI-powered Museum for Liberty and Prosperity and the multi-billion-peso Fund for Liberty and Prosperity for MSMEs), and closes with a personal wish -- expressed 'with the kind permission of our dear First Lady' -- that their next gathering be at the 'Bulwagang Kasaganaan' or, better yet, at the 'Bulwagang Kalayaan at Kasaganaan, or Hall of Liberty and Prosperity.'",
-  "source_xlsx": "cjp_speeches_curated_normalized.xlsx"
+  "source_xlsx": "cjp_speeches_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "foundation_for_liberty_and_prosperity"
+    ],
+    "secondary": []
+  }
 }

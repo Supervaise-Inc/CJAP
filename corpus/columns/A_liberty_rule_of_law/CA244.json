@@ -143,5 +143,11 @@
     "uses self-disclosure of belated discovery as auditing testimony"
   ],
   "one_paragraph_summary": "Panganiban examines why the Supreme Court's July 31, 2007 'Internal Policy to Achieve and Maintain a Zero Backlog' (A.M. No. 06-2-10-SC), drafted by Justice Antonio T. Carpio, failed empirically -- even though the Court itself unanimously admitted in Gio-Samar vs DOTC (March 12, 2019) that its docket had grown from 8,741 cases (January 31, 2007 baseline in the plan's footnote 2) to '14,491 cases in its docket' as of December 31, 2016. He summarizes the plan's design: the Court can promulgate an average of 1,000 signed decisions per year, so accepting more than 1,000 yearly creates structural backlog; routine cases (those not involving novel questions of law, merely reiterating settled doctrines, raising questions of fact in substance, or not showing grave abuse of discretion) must be dismissed by minute resolutions; for 6.5 years, signed-decision acceptances should be capped at 500 total (102 En Banc plus 166 per Division -- CJ notes in brackets that 166 should be 133 to keep the total under 500); and a three-tier monitoring chain (clerk of court, three deputy clerks, judicial staff heads of each justice) tracks acceptances. He discloses he 'did not know this plan until two weeks ago' because it was promulgated 'not for release.' In his 'humble opinion' the plan was 'viable and workable,' but it 'was not implemented properly': the Court accepted more cases than the cap, cases were not disposed in the manner the plan specified, and 'some retiring justices merely left the backlog to their successors who probably did not even know about the plan, considering that it was promulgated not for release in 2007 prior to their assumption of office.' Yet some incumbents -- Justices Carpio, Diosdado M. Peralta, Mariano C. Del Castillo, and Estela M. Perlas-Bernabe -- 'faithfully followed the plan and have no backlog, even if the Court itself carries a hefty caseload,' establishing that compliance is structurally feasible. 'With due respect,' CJ urges the Court to make the resolution public 'instead of being kept in the Court's labyrinths' so new justices can learn and follow it, and to publish per-justice caseloads for closer monitoring.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "judicial_reform"
+    ],
+    "secondary": []
+  }
 }

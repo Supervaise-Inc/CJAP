@@ -157,5 +157,11 @@
     "Failure treated as detour rather than dead end; success offered rather than owned"
   ],
   "one_paragraph_summary": "Chapter 8 of 'Liberty and Prosperity' gathered three addresses Chief Justice Panganiban delivered to the youth in 2006 -- the University of Cebu commencement on April 1, the Ateneo de Manila law school graduation on April 23, and the new lawyers' oath-taking at the Philippine International Convention Center on May 9 -- into a single compendium organized around what he called the Three E's of A Life Worth Living: Excellence, Ethics and Eternity. He explained that his workload and judicial propriety forced him to decline most invitations but that these rites returned him to his own youth and gave him, near retirement, an elder's duty to pass on timeless values. Recalling his graduation from the Far Eastern University Institute of Law, he credited his dean Jovito R. Salonga with insisting that academics outranked his student-council and NUSP offices and with refusing to let him abandon the bar examinations when flu and gastroenteritis put him in hospital during the first week. Excellence, he argued, means choosing what one wants most and mastering it, embodied in St. Ignatius of Loyola's magis, and is not the goal but the tool that opens windows of opportunity -- only the first stage of winnowing. Ethics, the second E, rests on old-fashioned principles no code can exhaustively specify, and he rejected the quick fixes of motivational speaking and consumerism, observing that money still cannot buy peace of mind, dignity or respect in a society where the vile deride the upright. For the third E he offered personal testimony: reared poor and schooled without religion, he came to faith late, and he set out the 3 Rs of repentance, restitution and reformation together with the prayer he composed as an associate justice and published in Justice and Faith. He closed by counselling that failure is a detour rather than a dead end, that success should not intoxicate, and with Phillips Brooks's verse on praying for powers equal to one's tasks.",
-  "source_xlsx": "cjp_books_curated_normalized.xlsx"
+  "source_xlsx": "cjp_books_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "life_story_family_school_and_church"
+    ],
+    "secondary": []
+  }
 }

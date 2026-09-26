@@ -113,5 +113,13 @@
     "continuity: the resolution of the standoff opened in the prior chapter"
   ],
   "one_paragraph_summary": "Chapter 9 of 'With Due Respect' (Vol. 3), the August 9, 2009 Inquirer column 'Like Cory or Like Ferdie' -- curated here from the JBC-focused excerpt provided -- is a short, celebratory sequel to 'Jolting Assault on JBC,' reporting that the council did exactly what CJP had urged a week earlier. He opens by saluting the Judicial and Bar Council for 'resisting Malacañang's jolting assault on its integrity and independence': it 'unanimously rejected' Executive Secretary Ermita's letter asking for more nominees to fill the two Supreme Court vacancies. He quotes the council's chair, Chief Justice Reynato Puno, that the decision whether to include more names belongs exclusively to the JBC and cannot be compromised in the slightest without impairing 'the delicate check and balance' in the appointment of justices -- adding, 'Well said and well done.' In a notably even-handed turn, CJP also extends 'kudos... to the President for accepting the JBC's decision,' rather than forcing the issue, and for appointing 'without further ado' Court of Appeals Justice Mariano C. del Castillo and Dean Roberto A. Abad -- 'both... on the original list of six JBC nominees.' The column's title frames the episode as a test of the recurring choice between governing in the institution-respecting mold of Corazon Aquino or the authoritarian mold of Ferdinand Marcos, here resolved, on the JBC question, in favor of institutional integrity. (As noted, the source supplied is an excerpt limited to the JBC portion of the essay, so this entry captures that segment; the full column ranges more widely under the same 'Cory or Ferdie' frame.) Taken with the preceding chapter, it closes the two-vacancy standoff opened by the retirements of Justices Austria-Martinez and Tinga and the returned nominee list -- a rare, satisfying vindication of the JBC's constitutional role as an independent check on the appointing power.",
-  "source_xlsx": "cjp_books_curated_normalized.xlsx"
+  "source_xlsx": "cjp_books_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "jbc_discernment_and_appointment"
+    ],
+    "secondary": [
+      "supreme_court_vacancies_and_chief_justiceship"
+    ]
+  }
 }

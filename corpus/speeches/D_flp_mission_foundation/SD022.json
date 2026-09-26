@@ -129,5 +129,11 @@
     "transparency-as-credibility: board-member disclosure before the investment nudge preserves CJP's authority as an honest assessor"
   ],
   "one_paragraph_summary": "Delivered July 25, 2022 at the RVR Awards Ceremony, this laudation by CJP presents Dr. Tony Tan Caktiong as the 2022 RVR Award for Nation Building recipient and as 'a truly world-class Filipino entrepreneur.' CJP traces JFC's trajectory from a single mom-and-pop Chickenjoy store co-founded by Tony and Grace Tan Caktiong in 1978 to 6,000+ stores across 18 international brands (Mang Inasal, Chow King, Tim Ho Wan, Yonghe King, Smashburger, Coffee Bean and Tea Leaf) in 34 countries -- reaching top-10 QSR status globally pre-pandemic and aiming for top-5 in eight years by doubling store count and revenue. He narrates the stock-market story: listed on the PSE at P9 per share in 1993, peaking at P325 pre-pandemic (a 36x multiplier in <30 years), dropping to P100 at pandemic height, and recovering to ~P210 at the time of the speech -- prompting the parenthetical: 'It's time to buy JFC shares!' -- accompanied by his disclosure as a non-executive JFC director. He observes, humorously, that if the awardee visited one store daily and ate a meal in each, he could not finish visiting all during his lifetime because they multiply faster than visits. He praises Tan Caktiong as remaining 'humble, friendly, generous and patriotic' despite this achievement, notes the Jollibee Group Foundation's direct-sourcing model that guarantees fair mark-ups for Filipino farmers and poultry raisers, and concludes that the late Ambassador Ramon V. Del Rosario Sr. 'would surely be proud that his dream for global Filipino ingenuity and pioneering spirit is fulfilled to the hilt by our Awardee.'",
-  "source_xlsx": "cjp_speeches_curated_normalized.xlsx"
+  "source_xlsx": "cjp_speeches_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "foundation_for_liberty_and_prosperity"
+    ],
+    "secondary": []
+  }
 }

@@ -118,5 +118,11 @@
     "guard-the-courts: high-stakes disputes will reach the Supreme Court, raising the stakes of the chief-justice selection"
   ],
   "one_paragraph_summary": "Chapter 10 of 'With Due Respect' (Vol. 1), CJP's January 31, 2010 Inquirer column, warns that a partial 'failure of proclamation' from automated-election glitches could open a path for GMA to stay in power past June 30, 2010. Echoing the CBCP's plea (via new president Bishop Odchimar) for Comelec 'fallback positions,' he urges the commission to 'prepare for manual polls now,' arguing it can 'no longer perfect its automation system in time' for the May 10 polls: the PCOS machines were tested only in small, unrepresentative numbers -- not the 82,200 to be deployed -- and never made 'precinct specific,' calibrated to the actual ballots for each of the 1,630 towns, for which 'Comelec has no more time.' He then builds the 'no proc' scenario: the Comelec admitted possible problems in 'about 30 percent of the country,' and even a 15-percent failure would leave roughly six million votes uncounted -- in a tight race (Villar closing on Aquino) with a winning margin under four million, those votes would be 'determinative,' so no one could be proclaimed president, vice-president or senator. Meanwhile, with the other 85 percent unaffected, local winners -- including 'putative Rep. Gloria M. Arroyo' -- would be proclaimed, and the House could elect a speaker; with the presidency, vice-presidency, Senate presidency and speakership all expiring June 30, 2010, GMA could claim to be 'holdover' president and, once elected speaker, continue as 'acting' president under the constitutional succession, the depleted Senate lacking a quorum to intervene. Such a vacancy, he warns, could dovetail with a Senate-less parliamentary Cha-cha that makes her prime minister -- all destined for the Supreme Court, which is why 'political maneuverings abound' over the selection of the new chief justice. Confronting the alternatives -- martial law, military takeover, people power, civil strife -- he ends not with a forecast but with a prayer: 'Heaven help our country.'",
-  "source_xlsx": "cjp_books_curated_normalized.xlsx"
+  "source_xlsx": "cjp_books_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "elections_and_automated_voting"
+    ],
+    "secondary": []
+  }
 }

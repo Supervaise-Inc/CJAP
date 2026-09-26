@@ -146,5 +146,13 @@
     "anticipates partial judgments rendered soon on some accused as success metric"
   ],
   "one_paragraph_summary": "Panganiban reports the Supreme Court's Dec 10 2013 motu proprio resolution instituting five new pro hac vice measures to speed up the Maguindanao massacre trial. He recaps the Nov 23 2009 atrocity -- the most gruesome crime of our time, 58 defenseless civilians (34 media workers) shot, mangled, killed, and back-hoed; 197 accused in 58 separate informations originally filed in RTC Maguindanao but transferred to RTC Quezon City Branch 221 under Judge Jocelyn Solis-Reyes with two assisting judges. Status: 3 accused dead, 194 remaining, 106 detained without bail for capital murder, 88 still at large. The procedural scale is intimidating and unprecedented -- 71 case-record volumes, 38 TSN volumes, 139 witnesses, 560 petitions/motions/manifestations filed (427 resolved), with 64 accused petitioning for bail (8 Ampatuans + 42 police officers + 14 civilians) represented by 39 sets of lawyers. The five SC guidelines: (1) DIRECT implementation of the Judicial Affidavit Rule (promulgated Sept 4 2012 but suspended at the public prosecutors' request -- the Court overrides for Maguindanao); (2) ENJOIN the presiding judge to hold, based on her discretion, separate trials for accused against whom no further prosecution evidence is contemplated; (3) AUTHORIZE separate decisions in any of the 58 cases without waiting for completion of evidence-for-all-accused -- items 2 and 3 are very important because ordinarily a single final judgment would take decades, but under these guidelines judgments can be issued 'in installments' (Ampatuans first, then some policemen, etc.); (4) DESIGNATE a third assisting judge for nontrial incidents like arraignment and pretrials so Judge Solis-Reyes can focus on trials; (5) AUTHORIZE the presiding and assisting judges to resolve motions despite higher-court pendency -- overriding the normal stop-in-deference rule that indefinitely delays trials. Harry Roque, pro bono private prosecutor for 15 media workers and 2 others, hailed the directives and asked the Executive to do its share, also petitioning the AMLC for asset freezes and filing NAPOLCOM administrative-dismissal charges against accused policemen. Panganiban frames the cases as a litmus test of the judicial system and its officials, and the SC directives as raising fresh hopes that the cases will move much faster with partial judgments soon on some accused.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "criminal_trials_and_prosecutions"
+    ],
+    "secondary": [
+      "public_funds_budget_and_bank_evidence"
+    ]
+  }
 }

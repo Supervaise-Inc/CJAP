@@ -140,5 +140,11 @@
     "Treat DOJ's dilemma with empathy but not as justification -- redirect to legislative action and agency vigilance"
   ],
   "one_paragraph_summary": "Panganiban reports on the Supreme Court's unanimous decision in Genuino v. De Lima (April 17, 2018, per J. Andres B. Reyes Jr.) voiding DOJ Circular No. 41 and upholding the constitutional right to travel. The decision arose from then Justice Secretary Leila de Lima (now a detained senator) ordering immigration officers to stop former President Gloria Macapagal Arroyo and her husband at NAIA on November 15, 2011, preventing medical travel abroad. The unanimous 50-page ruling held that the right to travel is part of 'liberty' protected by due process and can be limited only through statutory law or the Rules of Court -- not a mere administrative issuance -- and that 'the end will not justify the means: to sacrifice individual liberties because of a perceived good is disastrous to democracy.' Acknowledging the DOJ's real dilemma in preventing suspect flight, J. Reyes directed Congress to legislate permissible intrusions and the DOJ to exercise more vigilance. Three justices offered concurring paths: ACJ Carpio cited the Philippine Passport Act of 1996 (RA 8239); J. Velasco proposed a new precautionary warrant of arrest; and J. Tijam invoked Memorandum Circular No. 036 under RA 9208 (Anti-Trafficking in Persons Act). Justice Secretary Guevarra's reported willingness to abide by the ruling is noted approvingly. The column closes with the Claudio Teehankee Centenary celebration at Ateneo on April 18, and the 'Case Quote' contest winner's submission of Teehankee's directive from Moral v. Barro (September 28, 1973) -- that judges must exercise due care and thoroughness and render decisions that are just, fair, and equitable.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "criminal_trials_and_prosecutions"
+    ],
+    "secondary": []
+  }
 }

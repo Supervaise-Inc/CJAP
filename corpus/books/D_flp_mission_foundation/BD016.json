@@ -121,5 +121,11 @@
     "human-face strategy: personifying the institution through the Chief Justice (the four Ins) to build public understanding"
   ],
   "one_paragraph_summary": "Chapter 12 of 'A Centenary of Justice' reproduces CJP's keynote at the PRSP Anvil Awards (February 23, 2001, Hotel Intercontinental, Makati), included in the book because it lays out the Supreme Court's transparency policy. After congratulating the Grand Anvil winner (the Intel Philippines Science Fair) as a model of corporate selflessness, CJP gives three reasons for speaking. First, family: his wife Leni is the daughter of the late Jose A. Carpio Sr., founder and first president of the PRSP and 'Dean of Filipino PR Practitioners,' who once nearly recruited CJP into his PR firm. Second, the PR concepts he learned from Carpio now serve him at the Court, which had organized 'for the first time in its 100-year history' a Committee on Public Information that he chairs. Third, he created the Public Information Office under Atty. Ismael G. Khan Jr. His governing thesis is that the once-'inscrutable' Court -- 'a fortress, a Mount Olympus' -- must embrace transparency because, though its rulings are nonpolitical, it 'can be effective only insofar as it retains the long-term support of the public,' which is possible only if the institution is understood; hence the PIO's objective is simply 'to tell others the truth about the Supreme Court and its work,' not to 'sanitize,' 'angle,' 'proselytize' or 'propagandize.' To give the Court a 'human face,' he wrote 'Leadership by Example: The Davide Standard' (3,000 copies) and 'Transparency, Unanimity & Diversity,' opened a web page, and presented CJ Davide -- personifying the four 'Ins' (integrity, intelligence, independence, industry) and named 'Filipino of the Year 2000' -- as the model judge. He notes the reform program's broad support (World Bank, UNDP, USAID, CIDA, the Dutch and Belgian governments, AusAID, ADB, the Asia Foundation) and closes with a call for PR practitioners to help, since 'public relations and judicial dispensation have a basic commonality -- the search for truth.' A long photo section documents the centenary, from President Arroyo's launch of the Centenary Reader to the Centennial Dinner with visiting foreign chief justices.",
-  "source_xlsx": "cjp_books_curated_normalized.xlsx"
+  "source_xlsx": "cjp_books_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "foundation_for_liberty_and_prosperity"
+    ],
+    "secondary": []
+  }
 }

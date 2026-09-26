@@ -111,5 +111,11 @@
     "model-the-conduct you expect (assets, integrity, punctuality)"
   ],
   "one_paragraph_summary": "Chapter 15 of 'With Due Respect' (Vol. 7), CJP's February 11, 2007 Inquirer column -- his very first, and the volume's closing piece -- opens with 'one of the ringing joys' of his life: the journey 'from hawking newspapers in the backstreets of Sampaloc... to becoming the president of the most widely read newspaper,' and now, after 'more than 11 years on the Supreme Court,' his return to the Inquirer 'as a column writer.' Keynoting the Ayala Young Leaders Congress (75 student leaders, on 'Leading in Challenging Times'), he argued that 'every leader and every organization... must have a clear idea of what they ultimately want to accomplish': as a journey needs 'a pre-selected destination, and a specific mode of how to get there' (like a pilot's announced route), 'so must every leader have a vision-mission' -- one 'specific and quantifiable, not a mere collection of motherhood principles,' value-laden and 'achievable within a declared period.' Quoting George Patton that wars 'are won by soldiers' -- by 'the spirit of the men who follow and of the man who leads' -- he points to the Inquirer (the largest daily, on a clear vision to be 'the dominant, most respected and influential' media organization) and GMA Network (whose values place 'God above all'), pursued 'doggedly... into fruition' by Marixi Prieto and Felipe Gozon. But beyond vision, he insists, 'leading by example is the best, if not the only, way': a new CEO of 'a huge Philippine company,' finding 'more than five dozen' cars assigned to his office, kept one and sold the rest; banked a briefcase of commission cash; and quietly began arriving at '8 a.m.' That CEO was Manuel V. Pangilinan, whose three days of modeling 'prudent use of corporate assets, integrity in money matters, and on-time office arrival' multiplied PLDT's worth 'tenfold' and 'its corporate ethics, a hundredfold' -- proof that 'using visionary leadership by example, the Inquirer, GMA7, and PLDT climbed to the top,' as 'can any organization,' and perhaps 'the Philippines.'",
-  "source_xlsx": "cjp_books_curated_normalized.xlsx"
+  "source_xlsx": "cjp_books_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "life_story_family_school_and_church"
+    ],
+    "secondary": []
+  }
 }

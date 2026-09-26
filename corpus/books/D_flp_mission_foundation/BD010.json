@@ -121,5 +121,13 @@
     "universality-of-rights: foreign-luminary lectures invoked to show that human-rights principles transcend territorial law"
   ],
   "one_paragraph_summary": "Chapter 1 of 'A Centenary of Justice' reproduces the Closing Statement Justice Panganiban delivered on June 11, 2001 -- the Supreme Court's exact 100th birthday -- at the final lecture of Phase I of the Centenary Lecture Series, which he calls 'the fulcrum of the celebrations' among the Court's 50-plus centenary activities. He surveys the series begun July 11, 2000: former CJ Andres R. Narvasa opened it with 'The Chief Justices in Philippine History'; retired CJ Enrique M. Fernando spoke on a century of constitutionalism; Justice Ameurfina A. Melencio Herrera honored the women of the bench in 'Feminine Grace, the High Court and Jurisprudence' ('though outnumbered, the lady justices were never out-written, out-argued or out-achieved by the men'); Prof. Michael O. Mastura addressed 'Shari'ah Law and the Philippine Legal System'; and foreign luminaries Justice Dorit Beinisch of Israel and Dr. Pal Solt of Hungary spoke on civil liberties and the role of supreme courts, illustrating the universality of human-rights principles. Four lectures treated current jurisprudential trends -- including 'Old Doctrines and New Paradigms' by 'an incumbent member of the Court whose name need not be mentioned' (CJP himself, the book's Chapter 2). CJP frames the series as a deliberate past-present-future arc, closed by the incumbent Chief Justice's reform vision. He extols the 'Davide Watch' -- the judiciary-at-the-new-millennium program announced on CJ Davide's assumption on November 30, 1998, 'inspired by Scripture, born of idealism, but grounded on the reality of the possible' -- stressing that it is not 'merely a broad statement of intent' but is 'complemented by a definite development plan implemented day by day' through the Action Program for Judicial Reform (APJR), backed by the UN Development Fund, World Bank, Asia Foundation, UNICEF, ADB, and bilateral aid from Japan, Canada, Australia, the US and the Netherlands. His governing thesis: a centenary 'cannot be justified by a mere rehash of past successes or by an overextended gloating over the present' but must 'set forth our collective dreams of the future.' He closes on the song line 'the trouble with hello is goodbye,' insisting that while the lecture series must end, its influence will endure as 'a well-remembered renaissance in the judiciary.'",
-  "source_xlsx": "cjp_books_curated_normalized.xlsx"
+  "source_xlsx": "cjp_books_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "judicial_reform"
+    ],
+    "secondary": [
+      "judiciary_milestones_and_tributes"
+    ]
+  }
 }

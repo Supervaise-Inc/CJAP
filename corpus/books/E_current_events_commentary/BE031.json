@@ -167,5 +167,13 @@
     "globalization compatible with nationalism once artificial borders are deemphasized"
   ],
   "one_paragraph_summary": "Chapter 10 of 'Leveling the Playing Field' collects CJP's address on the 'Globalization of Justice' to the First Global Biotechnology Forum in Concepcion, Chile, organized by UNIDO and the Chilean government. He opened by claiming affinity with his hosts, since the Philippines is often called the only Latin American nation in Asia, the only Christian nation in its part of the globe and the only one colonized by both Spain and the United States, and linked that affinity to the FEALAC or FOCALE ministers' meeting held in Manila that January. He then stated the traditional postulate that laws and judicial decisions are territorial, flowing from the view that sovereignty is absolute only within a state's boundary, and argued that international tribunals, telecommunications, migration, technology and an ever-shrinking world had modified that absoluteness. Globalization, he said, was more than trade: it was an interconnected process of institutional, demographic and cultural connection, and human rights had been propelled by it ahead of trade, citing Hans Köchler for the view that sovereignty must be redefined against human rights as norms of jus cogens, while the wars on terror had transformed the concept of just war. He offered two borderless viruses as proof. SARS respected no boundaries, showed that medical questions were at heart questions of human rights and social policy, exposed both the suppression of reporting in closed systems and the legal barriers to quarantine in open ones, and made the WHO the only credible authority, teaching that the right to health could be secured through local courts. The 'ILoveYou' virus, created by a Philippine student, crippled systems worldwide yet left its author unpunished, since no Philippine law then covered computer crimes and the double criminality clause blocked extradition. He surveyed the coming bio-age docket -- genetic engineering, embryo disposition, cloning, cryogenics, GMO labeling, DNA identification and patents -- urging uniform national decisions to avoid forum shopping, and closed that globalization is not necessarily antagonistic to nationalism.",
-  "source_xlsx": "cjp_books_curated_normalized.xlsx"
+  "source_xlsx": "cjp_books_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "science_technology_and_the_law"
+    ],
+    "secondary": [
+      "international_law_disputes"
+    ]
+  }
 }

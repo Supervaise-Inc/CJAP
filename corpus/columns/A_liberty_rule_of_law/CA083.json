@@ -172,5 +172,13 @@
     "preserves IMHO as the canonical humility-marker for personal legal predictions"
   ],
   "one_paragraph_summary": "Panganiban examines two pending acquittal questions. First -- Maria Ressa's. In Causing v. People (Oct 11, 2023), the SC Third Division (Inting ponente, with Caguioa, Gaerlan, Dimaampao, and Singh) abandoned the 15-year cyberlibel prescriptive period set in the Unsigned Extended Resolution in Tolentino v. People (Aug 6, 2018), holding instead that cyberlibel prescribes in one year -- but counted from discovery of the libelous matter by the offended party, the authorities, or their agents, NOT from the date of posting. Causing himself was not acquitted because he failed to allege or prove the discovery date. Ressa, unlike Causing, went through RTC trial and CA affirmation before the SC. CJ's view: IMHO yes, she is entitled to acquittal -- but subject to two qualifications: she must have proven in the RTC or CA that complainant Wilfredo Keng filed his complaint more than one year after his discovery of the libelous matter on Rappler, AND the case must be ruled on by the SC en banc, not by a Division, because under Article VIII Section 4 Item 3 of the Constitution, '[N]o doctrine or principle of law laid down by the court in a decision rendered en banc or in division may be modified or reversed except by the court sitting en banc.' Second -- Jinggoy Estrada's. The SBN's 360-page per curiam decision acquitted him of plunder (a capital offense) but convicted him of direct and indirect bribery. CJ doubts the SBN will 'just suddenly somersault' on MR. And Estrada's planned SC appeal is very risky because of People v. XXX (June 21, 2021): an appeal throws the entire case wide open, the reviewing tribunal can correct errors or reverse on grounds not raised by the parties, increase penalties, or apply the proper provision of the penal law. This invalidates the immediate finality of the plunder acquittal, reopening the entire case and rendering Estrada vulnerable to a plunder conviction -- though the same appeal could also acquit him completely and absolve him of the accessory penalty of perpetual disqualification from public office. 'Will he take the risk? Abangan.'",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "libel_and_cybercrime"
+    ],
+    "secondary": [
+      "criminal_trials_and_prosecutions"
+    ]
+  }
 }

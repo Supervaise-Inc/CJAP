@@ -177,5 +177,11 @@
     "valid dismissal requires both just or authorized cause and the two-notice procedural due process"
   ],
   "one_paragraph_summary": "Chapter 11 of 'Transparency, Unanimity & Diversity' gathered the labor rulings Artemio V. Panganiban wrote in his first three years on the Supreme Court (October 10, 1995 to October 10, 1998), all unanimously supported, as his answer to how a judge finds the right balance between labor and management -- a search he called contentious even though the Constitution guarantees full protection to labor and, in case of doubt, the law favors labor. In San Pedro Hospital v. Secretary of Labor he held a six-month suspension of operations invalid because the hospital's unexplained failure to submit financial statements left its claimed crisis unproven, and upheld the labor secretary's power to order a new CBA with a union security clause and to grant back wages without first ruling on the strike's legality. In North Davao Mining v. APT he denied separation benefits to workers of a company killed by over P20 billion in losses, distinguishing BISSI on the ground that when a business dies its cashflow 'literally dries up' and 'one cannot squeeze blood out of a dry stone.' Philippines Today treated Felix Alegre's abrasive memorandum to the Star's chairman, read with his clearing of his desk and his acceptance of a senator's job, as voluntary resignation, its Epilogue insisting that 'General principles do not decide specific cases' and that each case 'has its own flesh and blood.' Naguiat awarded regular separation pay to Clark taxi drivers displaced by the bases phase-out and held the actively managing owner solidarily liable for the corporate tort; Caurdanetaan applied the 'four fold' test to declare cargadores regular employees and refused the NLRC's remand, invoking the duty to leave 'no root or branch to bear the seeds of future litigation'; Somerville rejected a lone year's financial statement as proof of retrenchment-justifying losses; and Pascua awarded moral damages and attorney's fees for dismissals marked by precipitate dispatch and utter disregard of due process.",
-  "source_xlsx": "cjp_books_curated_normalized.xlsx"
+  "source_xlsx": "cjp_books_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "property_contracts_and_economic_rights"
+    ],
+    "secondary": []
+  }
 }

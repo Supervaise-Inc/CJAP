@@ -133,5 +133,11 @@
     "frames the entire analysis as factual mapping rather than prescriptive advocacy"
   ],
   "one_paragraph_summary": "Panganiban maps all 11 remaining Supreme Court vacancies that President Duterte can fill before his term ends June 30, 2022, explaining the counterintuitive arithmetic: though Duterte has already appointed four justices, three of those four (Martires, Tijam, Reyes) will themselves hit compulsory retirement age of 70 within his term and require replacement. He lists the full retirement chronology -- 2 slots in 2018 (Velasco, De Castro), 6 in 2019 (Martires, Tijam, Del Castillo, Jardeleza, Bersamin, Carpio), 1 in 2020 (Reyes), and 2 in 2022 (Peralta, Bernabe) -- and flags that the 2022 slots fall within the Art. VII Sec. 15 midnight-appointments ban, noting that the SC's 9-3 ruling in De Castro vs JBC (2010) established that this ban does not apply to SC vacancies, a precedent that allowed GMA to appoint Corona and will similarly apply to Duterte. The column also profiles the current 15-member bench by career origin (CA, Sandiganbayan, private practice) and law school (UP 6, Ateneo 5, San Beda 2, UST 1, UE 1), notes that all four Duterte appointees are career jurists, discloses the three newly reorganized divisions, and reminds readers that 80%+ of cases are decided by divisions where even three votes constitute a Court decision.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "supreme_court_vacancies_and_chief_justiceship"
+    ],
+    "secondary": []
+  }
 }

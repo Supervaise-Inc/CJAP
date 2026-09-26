@@ -159,5 +159,13 @@
     "annual scarcity of the award as a moral calibration device"
   ],
   "one_paragraph_summary": "Delivered as a laudation at the RVR Awards Ceremony on August 20, 2024, this speech presents former Ambassador Howard Q. Dee as the personification of the late Ambassador Ramon V. Del Rosario Sr.'s twin beacons -- matchless excellence in business and extraordinary devotion to the less privileged. As President and CEO of Unilab (the Philippines' largest drug manufacturer, competing with Roche, Pfizer, J&J, Novartis, and Merck), Dee considered himself 'God's servant first and foremost' and shared CJP's credo that things money cannot buy (integrity, honor, candor, truth, trustworthiness, love for God) matter far more than things money can buy. He pioneered Philippine corporate social responsibility by co-founding PBSP with former Ambassador Bienvenido Tan Jr. -- inviting ~50 top tycoons (Sorianos of San Miguel, Eugenio Lopez Sr. of Meralco, Sixto Roxas of Bancom, Washington SyCip of SGV) to commit 1% of net income before taxes to poverty reduction; PBSP now has 230+ members led by Manuel Pangilinan. After retiring from Unilab in 1972, Dee founded the Assisi Development Foundation (named after St. Francis of Assisi, for 'quiet but stubborn devotion to empower, serve and love the poor'), chaired the government's CPP-NPA-NDF peace panel (1993-1999), served as Ambassador to the Holy See and Malta under President Cory Aquino (1986-1990), and in July 1994 co-founded ASA Philippines Foundation with Kamrul Tarafder and late banker Eduardo Go -- which by its 2022 Chairman's Message had earned P5.9 billion, served 2 million+ clients nationwide, operated 1,683 branches, employed 11,401 souls, and maintained a 93.97% repayment rate. CJP notes that FLP's Prosperity Fund co-chairs -- former BSP Governor Tetangco and retired SAJ Perlas-Bernabe -- are attending to learn ASA's microfinance model, and concludes: 'the Filipino is trustworthy, credit worthy and Christ worthy.'",
-  "source_xlsx": "cjp_speeches_curated_normalized.xlsx"
+  "source_xlsx": "cjp_speeches_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "foundation_for_liberty_and_prosperity"
+    ],
+    "secondary": [
+      "twin_beacons_doctrine"
+    ]
+  }
 }

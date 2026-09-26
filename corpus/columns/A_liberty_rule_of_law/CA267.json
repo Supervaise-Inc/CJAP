@@ -135,5 +135,14 @@
     "Frame post-conflict institutional repair (seniority + collegiality restored) as the baseline goal"
   ],
   "one_paragraph_summary": "Panganiban profiles the appointment of CJ Teresita J. Leonardo-De Castro -- chosen, the President explained, because she was the most senior of the three JBC nominees, while the most senior of all (SAJ Carpio) had declined his nomination. He notes that De Castro will have the historically shortest CJ tenure: 42 days (Aug. 28 - Oct. 9, 2018), shorter than CJ Pedro Yap's prior record of 72 days, though her over 10 years of AJ service dwarf Yap's two. He flags her unique distinction as the first justice to serve as both CJ and SBN Presiding Justice -- her 211-page SBN decision convicting Estrada of plunder (September 12, 2007) was landmark, later effectively modified by her own Risos-Vidal v. Comelec (January 21, 2015) that allowed Estrada to run for Manila mayor after President Arroyo's pardon restored his political rights. He lists her seven key AJ votes (Hacienda Luisita, midnight appointments enabling Corona, pork barrel/DAP unconstitutionality, Marcos burial, Truth Commission strike-down, Mindanao martial law upholding, and Sereno QW ouster) and notes her press conference statement that seniority and collegiality were restored. He explains the structural rationale: 85% of SC cases are decided by Divisions (not the Banc), so the three senior AJs serve as 'little chiefs' -- the SAJ chairs the 2nd Division, the second senior the 3rd, and the third senior is the 'working chairman' of the 1st -- and they are observed, rated, and weighed as future CJs. When nonseniors or outsiders are appointed and cannot lead, strife and dissensions arise. He closes with the hope that the restored collegiality will help the team reduce the court's docket backlog.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "supreme_court_vacancies_and_chief_justiceship"
+    ],
+    "secondary": [
+      "criminal_trials_and_prosecutions",
+      "ill_gotten_wealth_and_the_pcgg"
+    ]
+  }
 }

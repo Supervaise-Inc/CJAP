@@ -145,5 +145,14 @@
     "applies pardon-as-check-on-judicial-excesses doctrine to limit self-pardon scope"
   ],
   "one_paragraph_summary": "Panganiban addresses whether presidents can pardon themselves -- categorically 'No' in the Philippines (where pardon requires conviction by final judgment), but unsettled in the United States (where presidents may pardon even before charges are filed, except in impeachment cases). He surveys famous US pardons: Ford's broad September 8, 1974 grant to Nixon covering all federal crimes 'committed or may have been committed' (paired with the US-jurisprudence rule that acceptance of a pardon implies confession of guilt); Carter's January 21, 1977 pardon of Vietnam draft dodgers; Clinton's January 2000 clemency to his actor-brother Roger; and Trump's recent pardons led by Michael Flynn, with reported inclinations to extend clemency to lawyers who tried to overturn Biden's victory. On the self-pardon question proper, a verba legis reading disfavors Trump: the word 'grant' in the US Constitution 'assumes one person giving and another person receiving,' implying giver and receiver cannot be the same. Even if Trump succeeds in self-pardoning (or extracts a Ford-style pardon from Biden), clemency would cover only federal offenses -- state AGs in New York, California, and other states are already preparing post-January 20 suits. CJ raises a possible workaround -- Trump taking leave from office before January 20 to let VP Pence, as acting president, grant absolute pardon -- but asks whether 'his more sedate vice president [will] participate in this caper which could damn them both in history.' In the Philippines, the categorical bar is reinforced by the Anti-Graft Law and Ethical Standards Law prohibiting officials from using office for private benefit; the only imaginable self-pardon scenario (a pre-incumbency conviction) would still run into these statutory barriers. He closes by recalling Risos-Vidal v. Comelec (January 21, 2015), in which the SC held that Arroyo's pardon of Estrada (post-plunder-conviction with reclusion perpetua, disqualification, and asset return) -- 'though hazily worded, was absolute' -- restored his civil-political rights and lifted his disqualification, enabling his successful mayoral run in Manila.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "criminal_trials_and_prosecutions"
+    ],
+    "secondary": [
+      "impeachment_accountability",
+      "us_supreme_court_and_american_politics"
+    ]
+  }
 }

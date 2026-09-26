@@ -161,5 +161,14 @@
     "Impregnable-Constitution anchor: Philippine libertarianism rests on constitutional text, not changeable precedent -- more rollback-resistant than US"
   ],
   "one_paragraph_summary": "Continuing from A112's account of the Warren-Court origin of judicial activism, CJ Panganiban argues that the Philippine variant rests on firmer ground than its American template. Article VIII Section 1 of the 1987 Constitution makes activism a duty, not a discretion: it commits 'the courts of justice' both to 'settle actual controversies involving rights which are legally demandable and enforceable' and to 'determine whether or not there has been a grave abuse of discretion amounting to lack or excess of jurisdiction on the part of any branch or instrumentality of the government' -- and CJ underlines that 'Power can be relinquished, but a duty cannot under any circumstance be evaded.' Under separation of powers, the three branches remain supreme in their own spheres, so the judiciary may not police internal rules of Congress or confidential internal orders of the Presidency; but where the Constitution imposes 'conditions, limitations, or restrictions' on an otherwise exclusive power, expanded certiorari may police those textual caveats. Francisco v. House of Representatives (Nov. 10, 2003), restraining the House from pursuing a second impeachment complaint against CJ Davide within the once-per-year window, is offered as the worked example -- 'reluctantly, after several days that tested its adherence to the rule of law, the House obeyed.' Comparatively, Philippine libertarianism replicates the famous phrases of US jurisprudence ('separate is not equal,' 'read him his rights,' 'one-man-one-vote,' 'fruit of the poisonous tree') but anchors them to the Constitution rather than to changeable precedent, so 'American magistrates are accorded the luxury of choosing between being passivists or activists' but 'this luxury is denied to all Philippine judges.' The column closes by naming a personal exemplar: recently retired RTC Naga Judge Soliman M. Santos Jr., subject of three earlier CJ columns and author of the forthcoming book 'Judicial Activist' (CJ writing the Foreword), is identified as a 'soulmate' through their shared student-activist past -- CJ as the youngest FEU Central Student Organization president and NUSP cofounder.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "life_story_family_school_and_church"
+    ],
+    "secondary": [
+      "impeachment_accountability",
+      "how_the_supreme_court_decides"
+    ]
+  }
 }

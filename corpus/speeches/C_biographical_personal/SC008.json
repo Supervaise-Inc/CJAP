@@ -124,5 +124,14 @@
     "repetition of same biographical markers establishes stable identity across different speaking roles"
   ],
   "one_paragraph_summary": "This is the second introduction delivered by Dr. Alcala at the same PICPA event on July 3, 2021, for CJP's second address titled 'From an Imbedded Legal Lore to a Practical Reality.' It is a condensed version of SC007, sharing the same thematic opener ('Ageless Passion' by National Artist Ryan Cayabyab), the same biographical arc (newsboy in post-war Manila to Chief Justice), the same credential roster (Meralco, Petron, PLDT, Metro Pacific, JG Summit, GMA Network, Asian Terminals as independent director; Jollibee as non-executive director; Metrobank senior adviser; FLP Chairman, Metrobank Foundation, Manila Cathedral Foundation, Permanent Court of Arbitration Philippine Chairman, and unique Vatican appointment by Pope John Paul II to the Pontifical Council for the Laity 1996-2001), and the same academic highlights (6th in 1960 Bar at 89.55, FEU Outstanding Alumnus, five honorary doctorates, 'Adopted Son of Cebu'). It omits SC007's 'With Due Respect' Amazon bestseller ranking (behind Jeffrey Toobin and Justice Antonin Scalia), the 2004 bioscience lectures in Chile, the 'Summa' compilation by Emma Matammu, and the extended quotations from CJ Hilario Davide Jr. and Judge Raul Pangalangan. The introduction closes identically with CJP's family: wife Elenita C. Panganiban and five children. The title of the address introduced ('From an Imbedded Legal Lore to a Practical Reality') signals CJP's role as bridge between constitutional/legal doctrine and real-world professional application for the accounting and CPA community.",
-  "source_xlsx": "cjp_speeches_curated_normalized.xlsx"
+  "source_xlsx": "cjp_speeches_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "life_story_family_school_and_church"
+    ],
+    "secondary": [
+      "foundation_for_liberty_and_prosperity",
+      "judiciary_milestones_and_tributes"
+    ]
+  }
 }

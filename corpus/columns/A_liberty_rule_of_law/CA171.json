@@ -180,5 +180,11 @@
     "Procedural-failure fairness: distinguishing 'apathetic prosecution' losses from merits-based acquittals"
   ],
   "one_paragraph_summary": "Marking the 49th anniversary of martial law -- and quietly correcting the date to Sept. 23, 1972 (not Sept. 21) -- CJ Panganiban answers the renewed political question of whether the Marcoses possess ill-gotten wealth with a case-by-case roll call drawn from the Supreme Court's own record. The doctrinal centerpiece is Republic v. Sandiganbayan (July 15, 2003), penned by then-J Corona and concurred in by CJ Davide, CJ Panganiban himself, and ten others, which forfeited over $658 million in Marcos foundations and -- crucially -- fixed the couple's 'only known lawful income' from 1965 to 1985 at roughly $304,000, the benchmark below which subsequent forfeitures have cascaded. The column then enumerates Yuchengco v. Sandiganbayan (Jan. 20, 2006, PTIC/PLDT controlling shares, Panganiban concurring as CJ), Marcos Jr. v. Republic (April 25, 2012, Arelma S.A. $3.37M under a Sereno ponencia, Aquino III presidency), Estate of Marcos v. Republic (Jan. 18, 2017, Malacañang jewelry, Sereno again, Duterte presidency), and the foundational PCGG v. Pena (April 12, 1988, Teehankee CJ, Corazon Aquino presidency) which supplied the recurring language of 'well-entrenched plundering regime' and 'organized pillage.' For fairness, CJ acknowledges Marcos wins -- including Chavez v. Albano (Leonen, 2018) dismissed for 'apathetic prosecution,' and the 2019 Benedicto/Tantoco/Gimenez series dismissed for procedural failures -- but pointedly notes that these are prosecutorial collapses, not merits-based exonerations. The piece reads as both anniversary commemoration and pre-election doctrinal reminder: the answer in the case law has been 'a clear and unqualified Yes.'",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "ill_gotten_wealth_and_the_pcgg"
+    ],
+    "secondary": []
+  }
 }

@@ -142,5 +142,13 @@
     "treats named-counsel quality as analytically relevant context for litigation outcome"
   ],
   "one_paragraph_summary": "Panganiban addresses public anxiety triggered by Duterte's December 14, 2016 Phnom Penh speech disclosing his Buerger's disease, daily migraine, and back pains and the possibility he may not finish his six-year term -- which has refocused attention on Bongbong Marcos's PET election protest against VP Leni Robredo. He examines the 1,000-page petition backed by over 20,000 affidavits: the broad VCM-defect allegation is self-defeating because if true, all 2016 winners including Duterte would be unseated; the hash-code-into-Transparency-Server claim has been repeatedly debunked by Comelec, PPCRV, and technology experts. What caught the PET's attention is the narrower 'traditional modes of cheating' allegation in 39,221 clustered precincts (97,366 VCMs) in 25 provinces and 5 cities. The PET's December 6, 2016 resolution flagged a potential P2,078,304,225.76 Smartmatic VCM lease cost -- which CJ argues Marcos (not Comelec) should pay, and notes the VCMs need not be used because warehouse dust/water exposure makes them impractical; SD card images decrypted in Comelec laptops in the presence of parties and lawyers offer a cleaner faster data source. Even with this efficiency, revision logistics (document gathering by AFP/PNP, revision committees compensated from Marcos deposits, 4.3 average established precincts per clustered precinct) mean the Marcos protest will take at least 2 years and Robredo's 8,042-clustered-precinct counterprotest in 13 provinces at least 1 more year. The 'inevitable conclusion is that, in the normal course, it will take a few more years of hard work before we see light in the case,' which is being litigated by 'two of the brightest election lawyers' -- George Garcia for Marcos and Romulo Macalintal for Robredo.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "elections_and_automated_voting"
+    ],
+    "secondary": [
+      "marcos_robredo_election_contest"
+    ]
+  }
 }

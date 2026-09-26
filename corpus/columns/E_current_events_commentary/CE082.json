@@ -123,5 +123,11 @@
     "applies religious-discrimination constitutional test as the primary fatal flaw in Trump's EO"
   ],
   "one_paragraph_summary": "Panganiban analyzes why Trump's executive order banning entry from seven Muslim-majority countries faces problematic prospects at SCOTUS, identifying four grounds: (1) the ban targets nationals on the basis of religion, violating the US (and Philippine) Bill of Rights; (2) the US government admitted having no evidence that nationals of the affected countries threatened national security; (3) SCOTUS normally reviews final judgments, not interlocutory orders like the Robart TRO and 9th Circuit affirmation; and (4) the current 4-4 ideological split means a tie vote defeats the appeal -- and even Trump's nominee Gorsuch (awaiting Senate confirmation) provides no guarantee, since justices often cross the philosophical divide when constitutional rights are at stake (citing Earl Warren and William Brennan as Eisenhower-appointed liberals, and CJ Roberts upholding Obamacare). CJ's recommended strategy: withdraw, replace, or revise the EO to remove religious discrimination -- 'not defending the indefensible.' He draws a PH parallel: after the SC issued a TRO on the Payatas Tokhang operation, the Duterte administration's OSG (through Asst. SolGen Cimafranca) wisely sided with the petitioners, and the CA made the protection order permanent -- a win-win for petitioners' counsel Joel Butuyan and the government.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "us_supreme_court_and_american_politics"
+    ],
+    "secondary": []
+  }
 }

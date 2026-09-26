@@ -120,5 +120,11 @@
     "treats personal-network knowledge as basis for predicting negotiated outcomes"
   ],
   "one_paragraph_summary": "Panganiban analyzes the constitutional petition asking the Supreme Court to nullify the Philippine Law School Admission Test (PhilSAT) imposed by the Legal Education Board (LEB) under Republic Act No. 7662. He traces the LEB's MO 7-2016 imposing PhilSAT for AY 2016-2017, MO 11-2017 allowing conditional enrollment for those unable to test, and MO 18-2018 barring non-takers, failures, and expired-honor-graduates from enrolling in AY 2018-2019 -- culminating in the SC's March 12, 2019 TRO halting MO 18-2018 enforcement. He describes the jurisdictional clash: petitioners say only the SC may regulate admission to legal practice; the LEB says legal education is an Executive policy prerogative beyond judicial review. CJ refuses to take sides on the live case but endorses the TRO as preventing irreparable injury to current enrollees, and discloses that during his own CJ tenure the Court issued BM 1161 (June 8, 2004) referring four LEB reform proposals including a Mandatory Law School Admission Test -- to which the LEB never responded before unilaterally imposing the PhilSAT. He argues the underlying crisis is the persistent 25% bar passing rate (one in four after eight total years of pre-law and law), which neither side prevailing in court will fix, and calls for the Court, the LEB, and the petitioners (whom he personally knows) to abandon constitutional combat in favor of a common legal-education reform agenda.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "bar_exam_and_legal_education"
+    ],
+    "secondary": []
+  }
 }

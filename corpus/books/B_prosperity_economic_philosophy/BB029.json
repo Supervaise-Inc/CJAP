@@ -166,5 +166,13 @@
     "the rule of law is an essential ingredient of economic governance"
   ],
   "one_paragraph_summary": "Chapter 4 of 'Leveling the Playing Field' presents CJP's address to the Employers Confederation of the Philippines on why the Supreme Court had voided three mega-contracts. He opened with the courtesy call of the US-ASEAN Business Council on September 11, 2003, when visiting American investors asked what advice would safeguard their investments and he replied that justices normally do not render advisory opinions, since under the adversarial system judges are passive participants who speak through decisions tied to their peculiar facts. He read that polite question as the familiar criticism that the Court was interfering inordinately in economic matters, and took up the AMARI, PIATCO and MEGA PACIFIC Decisions, setting aside the Western Mining case as sub judice because he had written the main dissent. His premise was that the Constitution gives the judiciary the duty, not merely the power, to strike down any act tainted with grave abuse of discretion, defined as action contrary to the Constitution, the law or jurisprudence or done whimsically, capriciously or arbitrarily. In AMARI, a unanimous Court through Justice Carpio held that reclaimed public land could be leased but not sold to a private corporation and submerged areas were inalienable, later finding a P140.16 billion price gap and calling the deal the grandmother of all scams. In PIATCO, written by Justice Puno, the Court found five defects, among them an award to a financially unqualified bidder, an amended agreement that destroyed the fair competition essence of bidding, prohibited government guarantees, and an exclusive Luzon terminal amounting to a monopoly. In MEGA PACIFIC, which he wrote, the contract went to an entity that had not bid, the machines flunked the DOST accuracy and audit-trail tests, the software could not prevent repeated downloads, and Comelec admitted testing only a demo version. He concluded that the Court had upheld the rule of law and the leveling of the playing field, advancing business in general even where particular contractors lost.",
-  "source_xlsx": "cjp_books_curated_normalized.xlsx"
+  "source_xlsx": "cjp_books_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "property_contracts_and_economic_rights"
+    ],
+    "secondary": [
+      "elections_and_automated_voting"
+    ]
+  }
 }

@@ -149,5 +149,11 @@
     "Arbitration-over-arms as moral-leadership template for smaller states confronting great-power rivalries"
   ],
   "one_paragraph_summary": "Written on the eve of South Korean President Lee Jae-myung's two-day Philippine state visit, the column frames the bilateral encounter as a rare opportunity to forge partnership in upholding the rule of law, constitutionalism, and AI development. Panganiban praises South Korea's democratic resilience during the 2024 martial-law upheaval, endorses the 2026 Nobel Peace Prize nominations for South Korean citizens, and parallels Lee's poverty-to-presidency trajectory with his own poverty-to-Chief-Justice arc. He situates the visit within the 2025 APEC follow-through, the Philippine-Korea FTA, Korean leadership in electronics, semiconductors, and AI (citing Boston Dynamics' Atlas under Hyundai), and the Philippines' incoming ASEAN chairmanship -- recalling that the country earned global respect when it chose arbitration over arms via the 2016 Arbitral Award. Invoking ex dolo malo non oritur actio, ratio legis, and pacta sunt servanda, he closes with the conviction that liberty and prosperity are best safeguarded when the rule of law governs power, not the other way around.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "science_technology_and_the_law"
+    ],
+    "secondary": []
+  }
 }

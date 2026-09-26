@@ -167,5 +167,14 @@
     "extends parallel-contrast analysis from presidential to VP race"
   ],
   "one_paragraph_summary": "Panganiban applies a 'macho power vs woman power' frame to the 2016 PH presidential race -- observing that recent Pulse Asia and SWS surveys show Digong Duterte (DD) and Bongbong Marcos (BM) as the candidates to beat, with Grace Poe (GP) and Leni Robredo (LR) as the closest credible challengers. The two men, especially DD, are 'strong-willed, hyperbolic, magnetic, unorthodox and brash,' while the women are 'polished, compassionate, motherly, loving and humble.' Parenthetically, the same phenomenon appears in the US, where Trump and Clinton 'uncannily... typify the phenomenon of macho power vs woman power.' To demonstrate, CJ uses direct quotations across five policy domains. On peace and order, DD threatens 'it will be bloody because I will order the killing of all criminals... I will recommend to Congress the restoration of the death penalty by hanging in public,' while GP says 'As a mother, I am deeply troubled by the proliferation of crime and drugs. Like every parent, I cannot rest easy until my children are home safe at night.' On corruption, DD bets his life ('if I fail, kill me'); GP commits to hold the corrupt accountable 'whether they be friend or foe' and to push FOI legislation. On poverty alleviation, DD proposes food terminals, Land Bank lending to farmers, DTI-supported credit unions, and continuation/enhancement of 4Ps; GP says (in Tagalog) that alleviating poverty is her priority -- strengthening 4Ps and adding livelihood for additional income. On foreign relations, DD says 'We cannot afford to war with China' but vows to 'ride a jet ski carrying the Philippine flag' to a Chinese-occupied airport (Spratlys), and threatens to sever ties with America and Australia; GP advocates strengthening the military, constructive talks with China, and ASEAN leadership for a code of conduct. On women, DD's mayor-rape comment is preserved verbatim with Tagalog + English translation; GP says (in Tagalog) that more women should be in government because 'we have empathy' and care for family. The Marcos-Robredo VP race exhibits parallel contrasts: Marcos seeks 'leaders that seek to unite, not to divide, leaders that look to the future, not to the past,' aspiring to run DOLE (since employment is the biggest problem); Robredo identifies herself as 'a mother' refusing to abandon children or country, aspiring to streamline anti-poverty programs (not hold a cabinet position).",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "us_supreme_court_and_american_politics"
+    ],
+    "secondary": [
+      "death_penalty_and_echegaray",
+      "marcos_robredo_election_contest"
+    ]
+  }
 }

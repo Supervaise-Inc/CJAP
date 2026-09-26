@@ -105,5 +105,11 @@
     "distinguishes 'mastering at least one device' (minimum viable threshold) from full social-media fluency as the realistic senior target"
   ],
   "one_paragraph_summary": "Writing as an 81-year-old who personally types and researches all his columns on a desktop computer, Panganiban makes the case that senior citizens must embrace digital technology -- at minimum the smartphone -- by situating the current moment in a macro-history of communication revolutions: from oral transmission and manuscript copying, through Gutenberg's printing press (c.1440) and the analog media of telegraph, telephone, and television, to the computers of the 1950s and the World Wide Web of the 1990s, arriving at today's smartphone ecosystem of Viber, Waze, Uber, Netflix, and soon-to-come convergences of phone-as-credit-card, car-key, and home CCTV. He grounds the argument personally: his post-retirement column writing and corporate board/advisory roles have forced him to keep digitally current, keeping his brain 'active, curious and inquisitive' and hopefully 'dementia-proof.' On legal research specifically, he notes the shift from manually opening Philippine Reports and hand-copying quotes to instant SC website access and cut-and-paste accuracy. The column closes with a generational rallying call -- 'Fellow seniors, let's reinvent ourselves. The future is now' -- applying to his peer group the same spirit of modernization he championed for the judiciary.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "science_technology_and_the_law"
+    ],
+    "secondary": []
+  }
 }

@@ -128,5 +128,11 @@
     "deploys legalese-reduction as a democratizing principle (litigants not just lawyers can understand)"
   ],
   "one_paragraph_summary": "Panganiban shares two narratives in his April Fools' Day column. First, he recounts bringing his eight grandchildren (four from Connecticut and four from PH) on a February school break trip to Bicol -- staying at Misibis Bay Resort near Legazpi City and experiencing the whale sharks (butanding) of Donsol, Sorsogon, where they 'gleefully jumped again and again from the motorized bancas to interact with the giant whale sharks' alongside BIOs (Butanding Interaction Officers). Hawaii is now passé for them. The return flight was stranded by clouds; all 16 boarded an overnight air-conditioned bus to Makati so US guests could catch their Connecticut flight. Tourism chief Jimenez's 'It's more fun in the Philippines' campaign is working wonders. Second, CJ announces the formal March 29 launch of his book 'With Due Respect' at Powerbooks Greenbelt -- compiled by John Nery (synthesizing 2007-2010 columns by topic like stitching fabrics into a new dress), a Marixi Prieto/InqBooks initiative. The digital edition ranked No. 3 on Amazon's courts category bestseller list (text from Sandy Prieto-Romualdez on February 11), behind only Toobin and Scalia. He pays tribute to the late Isagani Yambot (Inquirer publisher who passed 'a few weeks ago'), who taught CJ to write 'simply but effectively with as little legalese as possible' -- a lesson applied in SC decisions so litigants, not just lawyers, could understand them -- and whose generous foreword to CJ's first book ('Love God Serve Man') almost certainly influenced President Ramos's decision to appoint him to the Supreme Court.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "judiciary_milestones_and_tributes"
+    ],
+    "secondary": []
+  }
 }

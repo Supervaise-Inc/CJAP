@@ -135,5 +135,11 @@
     "frames laissez-faire economic policy as a positive signal (Duterte economic team credit)"
   ],
   "one_paragraph_summary": "Panganiban profiles two contrasting 'supercitizens of Pampanga': the controversial Luis Taruc, posthumously declared a hero by the National Historical Commission, and the universally celebrated Amando Tetangco Jr., recently retired as BSP Governor. For Taruc, CJ discloses that as a late-1950s student leader (president of FEUCSO and NUS), he received letters from the Hukbalahap supremo urging the 'former newsboy and bootblack' to lead the peasants -- an appeal CJ acknowledges he 'might have' heeded had Alejandro Roces and Fr. Michael Nolan not persuaded him to organize the NUS as a counter to the Kabataang Makabayan of Sison and Ocampo. For Tetangco, CJ argues that his defining quality was not technical brilliance but nonpartisanship: his appointment by GMA and reappointment by Aquino III -- who 'loathed the politics of his predecessor' -- is the definitive proof that institutional integrity can transcend political cycles. CJ closes with two institutional observations: that the BSP, though created only by statute rather than by the Constitution, disciplines erring banks with a firmness the judiciary should emulate to solve case-delay problems; and that Tetangco's successor Espenilla, together with new Monetary Board members Favila and Abacan, signal continuity of the Duterte administration's laissez-faire approach to economic governance.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "life_story_family_school_and_church"
+    ],
+    "secondary": []
+  }
 }

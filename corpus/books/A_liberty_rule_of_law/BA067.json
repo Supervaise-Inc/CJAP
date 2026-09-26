@@ -139,5 +139,11 @@
     "doctrine is tested by what actually happened afterwards"
   ],
   "one_paragraph_summary": "Chapter 13 of 'Transparency, Unanimity & Diversity' set out Obosa v. Court of Appeals, the unanimous ponencia Artemio V. Panganiban wrote on who may approve bail in an appealed case. Jose T. Obosa, an escapee from the National Penitentiary who had been let out on a subpoena illegally issued by an MTC judge of Sariaya, was charged with the double murder of Secretary of Local Governments Jaime N. Ferrer and his driver Jesus D. Calderon. The Makati RTC convicted him instead of homicide on two counts, granted his manifestation to appeal and post bail, approved the bond the following day and ordered his release, which the prison authorities carried out. On the Solicitor General's motion a special five-person Division of the Court of Appeals cancelled the bond, nullified the order and ordered his arrest. The Supreme Court agreed: the trial court had power to grant bail when it did but not to approve the bond and release him after the appeal was perfected, and Obosa had no right to bail because the Information charged murder, because an appeal in a criminal case opens the whole case for review as Quemel held, and because the earlier showing that the evidence of guilt was strong survived his conviction for a lesser offense. Although the grant of bail is initially the trial court's discretion, CJP wrote, that discretion must be exercised with caution and only for strong reasons, and is best lodged in the appellate court. He answered the academe's objection that jurisdiction persists while the records remain below by weighing the special circumstances of an escapee who could offend again and would probably jump bail, calling his release bad judicial policy, while declining to fault trial judge Nemesio Felix. The Court's July to September 2000 deliberations wrote his stand into Section 5 of Rule 114, and the later conviction of Obosa for double murder, affirmed in toto on May 31, 2000, confirmed that bail would have let him make a mockery of judicial processes.",
-  "source_xlsx": "cjp_books_curated_normalized.xlsx"
+  "source_xlsx": "cjp_books_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "criminal_trials_and_prosecutions"
+    ],
+    "secondary": []
+  }
 }

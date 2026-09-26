@@ -117,5 +117,13 @@
     "applies appointer-loyalty-vs-constitutional-duty distinction as the core independence test"
   ],
   "one_paragraph_summary": "Panganiban responds to critics disturbed by the SC's perceived softness -- citing the Marcos burial decision (9-5-1), GMA PCSO acquittal, and Enrile bail -- and worried about Duterte's forthcoming appointments. CJ refuses to predict individual votes or impute bad faith to colleagues unless their stance is 'clearly hobbled by manifest bias, evident error, or similar palpable factors.' He surveys four administrations to show the SC's historical independence: under Ramos, the SC voided the charter change initiative (Santiago v. Comelec, 1997) -- had Ramos appointees voted for it, his tenure might have been extended; under Estrada, his six appointees joined the 13-0 Estrada v. Desierto decision affirming his own ouster; under Arroyo, the SC unanimously voided her EO 464 (Senate v. Ermita, 2006), her calibrated preemptive response policy (Bayan v. Ermita, 2006), parts of her state-of-national-emergency declaration (David v. Arroyo, 2006), and by an 8-7 vote trashed the people's initiative for a parliamentary shift (Lambino v. Comelec, 2006); and under Aquino, the Court unanimously voided the congressional pork barrel (Belgica v. Ochoa, 2013) and declared certain DAP practices unconstitutional (Araullo v. Aquino, 2014). CJ closes: the justices know history will judge them -- law professors and students remember both those who lived up to 'proven competence, integrity, probity and independence' and those who betrayed their oaths. Fiat justitia ruat caelum.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "criminal_trials_and_prosecutions"
+    ],
+    "secondary": [
+      "party_list_charter_change_and_dynasties"
+    ]
+  }
 }

@@ -142,5 +142,11 @@
     "uses Q&A pedagogy to convert doctrine into actionable compliance guidance"
   ],
   "one_paragraph_summary": "Panganiban traces the dismal drug-case conviction record of past governments to police failure to observe constitutionally-mandated arrest and evidence-gathering procedures, citing two recent Supreme Court decisions both penned by Justice Estela M. Perlas-Bernabe: Sindac v People (Oct 3, 2016) and People v Manago (Aug 17, 2016), both producing acquittals under the fruit-of-the-poisonous-tree doctrine. Typically the drug evidence is shabu or marijuana seized after a search of the suspect's body, effects, vehicle, or home -- but under the Constitution, searches require warrants based on probable cause, with the narrow exception of a search incident to a lawful arrest (arrest MUST precede search; the sequence cannot be reversed, and evidence from an unlawful search cannot justify a post-facto arrest). Warrantless arrests are limited to three Rules-of-Court exceptions: (1) in flagrante delicto -- the suspect's overt act done within the officer's view (officer sees the actual shooting); (2) hot pursuit -- offense just committed plus officer's personal knowledge of facts (officer sees the victim fall and the suspect fleeing with a smoking gun); and (3) escaped prisoner. CJ applies the doctrine through Q&A: in Sindac, an arrest based on reliable surveillance information producing a shabu seizure was held unlawful because 'reliable information alone -- even if it was the product of well-executed surveillance operations -- is not sufficient to justify a warrantless arrest' since the officer lacked personal knowledge; in Manago, an officer who witnessed a robbery but lost the fleeing suspect and traced him next day via investigation could have secured a warrant -- and his pre-arrest vehicle search tainted the shabu evidence. CJ closes with the moral lesson: to improve the conviction rate, the police should study meticulously and follow strictly the constitutional process -- strengthening compliance rather than weakening protections.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "criminal_trials_and_prosecutions"
+    ],
+    "secondary": []
+  }
 }

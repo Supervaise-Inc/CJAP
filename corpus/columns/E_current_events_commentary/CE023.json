@@ -163,5 +163,14 @@
     "uses cross-institutional comparison (trial courts, congressional committees, ICI) to derive design norms"
   ],
   "one_paragraph_summary": "Panganiban respectfully disagrees with the Independent Commission on Infrastructure's announced policy of closed-door, no-livestream, no-TV proceedings 'to avoid trial by publicity,' arguing that the ICI's invocation of the Supreme Court's closed-deliberations practice is misplaced -- the SC merely reviews already-publicly-tried trial-court records on errors of law, while the ICI is an investigative body whose true parallels are the trial courts and the Senate Blue Ribbon and House Infra Committees, which are open from the start. Citing former Senate President Franklin Drilon's admission that the insertions existed but at appalling scale and Senate President Tito Sotto's recollection that earlier insertions were at least made openly, he contends that past pork-barrel scams grew bolder precisely because they were 'done in the dark.' The 'trial by publicity' concern can be cured by retaining a general counsel to ask fair questions, allowing persons of interest to retain their own counsel, and observing the Bill of Rights -- making closed doors unjustified, especially when the ICI eventually 'bares its fangs on the honorable lawmakers.' The column then pivots to the day's most consequential anticorruption decision: the Oct. 6 JBC vote on the Ombudsman shortlist, naming the seven-member JBC and the full 17-applicant pool -- from Aguinaldo and Henares to Remulla, Lopez, Reyes and Turgano -- and inviting readers to 'take your picks' before one of them is chosen to hound the corrupt for the next seven years.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "public_funds_budget_and_bank_evidence"
+    ],
+    "secondary": [
+      "independent_commissions_and_appointments",
+      "jbc_discernment_and_appointment"
+    ]
+  }
 }

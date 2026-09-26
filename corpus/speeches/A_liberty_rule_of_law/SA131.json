@@ -119,5 +119,13 @@
     "14-year-inaction-as-failure: institutional non-operationalization as a governance failure"
   ],
   "one_paragraph_summary": "Delivered April 26, 2007 at the PBA's 116th Foundation Day -- the day after 1,893 lawyers from the 2006 bar were sworn in at the PICC -- this address by CJP (in his first months as a retired CJ) provides a comprehensive data-driven review of the 2006 bar and the state of legal education. The 2006 bar has several historic firsts: the largest-ever batch (6,187 takers); topnotcher Noel Neil Q. Malimba from the University of the Cordilleras; Ateneo's Ricardo Pilares Jr. and UP's Deborah Acosta tied for second; FEU's Gina Lyn Rubio took fifth; and for the first time, four non-Metro Manila schools (UC, University of San Carlos, Romualdez Educational Foundation, University of Cebu) made the top ten. Bar illustrados among sitting SC members: Carpio (6th, 1975), Azcuna (4th, 1962), Velasco (6th, 1971), Nachura (7th, 1967). Of 21 past CJs, nine were topnotchers -- including Pedro Yap (1st, 1946), Narvasa (2nd, 1951) and CJP himself (6th, 1960). School performance (1946-2006): UP produced 25 number ones; Ateneo 17; San Beda 6; FEU 4. Passing rates (1991-2005): Ateneo 87.57%, San Beda 80.38%, UP 76.4%. Bar reforms (Bar Matter 1161, June 2004): five-failure rule, 50% disqualification, multiple choice. Legal education reform failures: four proposals (accreditation, clinical education, sanctions on sub-standard schools, national admission test) were not acted on but referred to the Legal Education Board which, 'although created 14 years ago, has not been operationalized.' CJP closes with his EC legacy: 'The doors to our legal profession must swing on reluctant hinges. Those who want to pass those doors must make a solemn commitment to adhere to an ethical compass. Quality justice always begins with a high standard of ethics... competent and ethical attorneys, code-named EC, that is the legacy I would like to leave our profession.'",
-  "source_xlsx": "cjp_speeches_curated_normalized.xlsx"
+  "source_xlsx": "cjp_speeches_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "life_story_family_school_and_church"
+    ],
+    "secondary": [
+      "bar_exam_and_legal_education"
+    ]
+  }
 }

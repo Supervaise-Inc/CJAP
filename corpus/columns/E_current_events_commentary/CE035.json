@@ -168,5 +168,13 @@
     "draws PH-US doctrinal parallels (executive secretary / chief of staff; RICO; rule-of-law tradition)"
   ],
   "one_paragraph_summary": "Panganiban catalogues Donald Trump's historic status as the first and only American president -- incumbent or past -- to be criminally indicted, not once but four times: the Fulton County RICO case under DA Fani T. Willis (a 97-page indictment alleging criminal conspiracy to overturn Georgia's 2020 results, with 18 co-accused including chief of staff Mark Meadows and lawyer Rudy Giuliani, and explicitly likened to the federal RICO statute used against Al Capone), the New York hush-money case for an alleged porn star, the Florida case for mishandling top-secret state documents, and the Washington DC conspiracy in the Jan. 6, 2021 'rebellious' undertaking to prevent the proclamation of Biden. CJ notes that Trump alone was arrested at a grand jury's instance and detained at 'the notoriously dingy Fulton County Jail' with inmate number P01135809 before $200,000 bail and his 'historic scowling mug shot,' then 'bowled unbowed': 'What has taken place here is a travesty of justice. I did nothing wrong.' But CJ argues that 'far more crucial' than the four criminal cases is Trump's possible disqualification under the 14th Amendment Section 3 -- and presents the verba legis reading (his alleged Jan. 6 participation suffices) against the ratio legis reading (the Amendment targeted post-Civil War Confederate officers and may be functus officio). The question is not yet ripe because Trump is only seeking the Republican nomination; but should he be nominated, state electoral officials may refuse to include his electors on the ballot, sending the case to a Scotus where the six Republican-appointed (verba legis) justices and the three Democratic-appointed (ratio legis) justices will face a doctrinal test as much as a political one. CJ closes with the global stakes: 'Will the US uphold the rule of law or succumb to the rule of the mob? The world is keenly watching!'",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "criminal_trials_and_prosecutions"
+    ],
+    "secondary": [
+      "us_supreme_court_and_american_politics"
+    ]
+  }
 }

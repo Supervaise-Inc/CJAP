@@ -114,5 +114,11 @@
     "Avoid the MOA-AD pattern: surprise signings of undisclosed agreements invite SC intervention and public backlash"
   ],
   "one_paragraph_summary": "On August 21, 2011, as Aquino set aside protocol to meet MILF Chair Murad Ebrahim in Tokyo and KL peace talks were resuming the next day, Panganiban distills the key lessons from the botched MOA-AD for the new negotiations. Peace negotiators are the President's agents -- they cannot exceed his authority or unconditionally agree to constitutional changes; they can only commit to propose necessary amendments to the proper authorities ('think outside the box but cannot act outside of it'). On self-determination: the SC (citing the Canadian Supreme Court) held that external self-determination (political independence) is available only to people under colonial rule or foreign domination -- since the Bangsamoros are not colonials and are adequately represented in government, their entitlement is to internal self-determination (development within the existing state). Radical proposals like an East Timor-style independence are discussable but must be subject to constitutional processes and ultimately a plebiscite. On transparency: the right to information requires progressive disclosure of all matters of public concern -- including steps and negotiations -- not just the final agreement; the SC held this in North Cotabato v. Government. The column notes that while the PH panel has not yet disclosed the negotiations' terms, MILF's Michael Mastura has already publicly revealed the minimum non-negotiable demand: a 'sub-state.' The big lesson from the botched MOA-AD: never spring a peace agreement only at the last moment when it is about to be signed.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "bangsamoro_peace_process"
+    ],
+    "secondary": []
+  }
 }

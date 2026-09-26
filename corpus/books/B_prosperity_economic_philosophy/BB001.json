@@ -115,5 +115,13 @@
     "philanthropy as a path to God (Matthew 25)"
   ],
   "one_paragraph_summary": "Chapter 5 of 'With Due Respect' (Vol. 7), CJP's May 17, 2009 Inquirer column, profiles taipan Henry Sy Sr. as both 'tycoon and philanthropist,' opening with his economic creed: 'in a capitalist democracy... private enterprise is both the engine of economic growth and the propellant of social responsibility,' so a conglomerate's success is measured 'not so much by the profits it makes but by its ardor in caring for the less fortunate' -- 'fabulous wealth can be justified only by the zeal to share it with the poor.' Speaking at the 13th Presentation of SM Scholar-Graduates, he found the proof: the SM Foundation, 'the heart and soul of SM,' treats its scholarships (then 750 beneficiaries, 1,176 graduates to date) as its flagship. Recalling that he bought shoes at the original Carriedo Shoemart 'at... P10 a pair' in the 1950s, he marvels at its growth into SM -- 'three of the world's biggest malls,' '~P150 billion in revenues,' 'over 75,000' employees -- under Sy's philosophy of 'SYnergy' (an interconnected core of retail, malls, real estate and banking). Yet Sy 'remains humble... and low profile,' treasuring his wife Molly and children and placing 'a house of the Lord' at the center of his projects -- a life Sy calls 'balance' but CJP renames 'SYmmetry.' Having 'not forgotten his roots,' Sy's 'passion is no longer to accumulate more wealth but to distribute it to the hopeless and the helpless,' joining 'mega philanthropists like Bill Gates... and Li Ka Shing.' For the endowed, CJP concludes, philanthropy is 'the way to a final reunion with God' -- by Matthew 25, the Lord asks 'whether we shared our resources with the poor' -- a 'SYmphony with God' proving one can be at once 'a tycoon and a philanthropist, an entrepreneur and a Christian.'",
-  "source_xlsx": "cjp_books_curated_normalized.xlsx"
+  "source_xlsx": "cjp_books_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "foundation_for_liberty_and_prosperity"
+    ],
+    "secondary": [
+      "faith_journey"
+    ]
+  }
 }

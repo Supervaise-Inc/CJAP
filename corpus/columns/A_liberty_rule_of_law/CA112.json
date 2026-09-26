@@ -203,5 +203,13 @@
     "Anchor-jurisprudence-vs-anchor-constitution argument (cliffhanger to A111): the choice is the difference between rollback-vulnerable and rollback-resistant rights"
   ],
   "one_paragraph_summary": "CJ Panganiban traces the origin of judicial activism to the 1950s turn of the US Supreme Court -- a turn that Philippine constitutional thought has inherited because the 1935 and later Philippine Constitutions 'took their bearing from the Constitution of the United States,' especially in the republican presidential system, the tripartite allocation of powers, and the sanctity of human rights. The anchoring anecdote is President Dwight D. Eisenhower's 1961 CBS interview with Fred Friendly: asked whether he had made any great mistakes, Eisenhower snapped 'Yes, two, and they are still sitting in the Supreme Court' -- meaning CJ Earl Warren and J William Brennan, both of whom Eisenhower had appointed expecting deference but who instead teamed with Justices Hugo Black and William Douglas (later joined by Thurgood Marshall and Abe Fortas) to overhaul American jurisprudence via Brown v. Board of Education (May 17, 1954), Miranda v. Arizona (June 13, 1966), Terry v. Ohio (June 10, 1968), Mapp v. Ohio (June 19, 1961), NY Times v. Sullivan (March 9, 1964), Gideon v. Wainwright (March 18, 1963), and Baker v. Carr (March 26, 1962) -- supplying the famous phrases 'separate is not equal,' 'read him his rights,' 'one-man-one-vote,' and 'fruit of the poisonous tree.' The internal opposition came from Felix Frankfurter's Harvard School of judicial restraint and Nuremberg-veteran Robert Jackson, who believed the Court existed 'to establish rules of law, not to provide justice'; the activists countered that 'all heart' had been excised from the law and that abdication, not intervention, was the real threat. CJ then traces the sway-vote era through Sandra Day O'Connor (first woman SCOTUS, retired Jan. 31, 2006) and Anthony Kennedy (CJ's personal 'friend, the brilliant Justice') to the Trump-era transformation: three conservative appointments (Gorsuch, Kavanaugh, Barrett) producing the current 6-3 bulwark, with Dobbs v. Jackson (June 24, 2022) overturning Roe v. Wade (Jan. 22, 1973), and the generational-reversal warning that 'liberals will take generations to reverse Dobbs.' The piece closes with a cliffhanger pointing to A111: while US justices may choose between activist and passivist leanings, their Philippine counterparts cannot -- 'Why? Read the answer next Monday.'",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "us_supreme_court_and_american_politics"
+    ],
+    "secondary": [
+      "how_the_supreme_court_decides"
+    ]
+  }
 }

@@ -129,5 +129,13 @@
     "deploys consequence-of-non-compromise warning to motivate negotiated outcome"
   ],
   "one_paragraph_summary": "Panganiban pleads for cooperation, not collision, among the agencies converging on the pork barrel scandal. He recaps his earlier three-part program -- identify-prosecute-penalize, recover funds, prevent repetition -- and locates each mandate: COA, BIR, AMLC, BSP, DOJ and Omb on the first two; Congress and the judiciary on the third. He notes that each agency is doing its job: COA released 2007-2009 audit findings, BIR is investigating tax violations, AMLC is chasing the money trail, DOJ has filed plunder complaints against 38 individuals, and the Senate Blue Ribbon is investigating for legislation. The trouble is the interface: Senate Blue Ribbon chair Teofisto Guingona III asked Senate President Franklin Drilon to subpoena Janet Lim Napoles; Drilon referred the request to Ombudsman Conchita Carpio Morales, who invoked RA 6770 and Omb Rules of Procedure to oppose publicity that might prejudice witnesses, the case, and the respondents. Drilon withheld the subpoena; Guingona objected. Panganiban deliberately refuses to adjudicate -- 'Although a lawyer, I will not join the battle of legalities... I will not contribute to the hardening of their legal opinions' -- because his intervention would worsen rather than resolve the standoff. Instead he close-reads Morales' qualifier 'at this time' (repeating it twice) and proposes a timing compromise: the Senate defers 'in the meantime, just in the meantime' while the Omb 'hastens, yes, hastens' its preliminary investigation. The warning is that if legalities prevail, the dispute will end up in court fighting over 'which agency should have the first crack at Napoles' testimony' -- eclipsing the real question of guilt or innocence and the legislative task of banishing pork barrel.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "criminal_trials_and_prosecutions"
+    ],
+    "secondary": [
+      "public_funds_budget_and_bank_evidence"
+    ]
+  }
 }

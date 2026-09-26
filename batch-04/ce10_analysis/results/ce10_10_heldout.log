@@ -1,0 +1,10 @@
+A. BUILT MAP, held-out centroids (20 splits): median neighbourhood precision 75%  [per-dimension medians min 51% / max 100%; 29/30 dimensions >= 60%]  random-membership control 9%  (base rate 10%)
+   split 1/8 done
+   split 2/8 done
+   split 3/8 done
+   split 4/8 done
+   split 5/8 done
+   split 6/8 done
+   split 7/8 done
+   split 8/8 done
+B. THE PROCEDURE, split-sample (8 splits, 29 dimensions): held-out recall of the cluster's test docs: median 30%; neighbourhood precision of the caught test docs: median 70%; dimensions with recall >= 50%: 10/29; median terms per dimension 2; random-set control recall 0%

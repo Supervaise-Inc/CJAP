@@ -129,5 +129,11 @@
     "Support pending reform bills -- the Philippines-Lebanon outlier status on bank secrecy is not a competitive advantage but a shield for corruption"
   ],
   "one_paragraph_summary": "Panganiban examines bank deposits as evidence of corruption, using the Corona impeachment as the paradigm. When the Senate sought PSBank's disclosure of CJ Corona's alleged $10 million foreign currency deposit, the SC issued a TRO (February 9, 2012) based on RA 6426 (Foreign Currency Deposit Act), which has only one exception: written permission of the depositor. By contrast, RA 1405 (Bank Secrecy Law for peso deposits) has six exceptions including impeachment. The TRO became academic when Corona admitted to Sen. Cayetano that he had $2.4 million (not $10 million) in PSBank not included in his SALN -- key evidence that led to his ouster on May 29, 2012. Despite RA 6426's single exception, the SC has allowed foreign currency deposit examination in at least two cases -- Salvacion v. Central Bank (August 21, 1997) and China Banking v. CA (December 18, 2006) -- to 'prevent the perpetuation of an injustice.' Historically, Swiss banks were the most secretive; the Philippines has the distinction of being the first country to breach Swiss bank secrecy in 1986, convincing Swiss authorities to open and return Marcos's hidden deposits under pseudonyms and dubious foundations -- triggering the global AML movement, the KYC standard, covered-transaction reporting ($10,000/P500,000 threshold), suspicious-transaction reporting, and enhanced scrutiny of politically exposed persons (PEPs). The Philippines and Lebanon are now the last two countries with stringent bank secrecy protection; Congress has pending bills to pierce the veil on criminal deposits while still protecting legitimate wealth.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "public_funds_budget_and_bank_evidence"
+    ],
+    "secondary": []
+  }
 }

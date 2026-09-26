@@ -107,5 +107,11 @@
     "belongingness-and-oneness: shared identity across SC, CA and DOJ staff as a value of the centennial"
   ],
   "one_paragraph_summary": "Chapter 7 of 'A Centenary of Justice' reproduces a Valentine's Day tribute CJP delivered on February 14, 2001 at the Court of Appeals Auditorium, deliberately timed (he explains in Filipino) to stress that those 'closest to the heart' of the Supreme Court are the rank-and-file employees who serve justice. Setting it amid broad employee participation -- Region 7's two-day Cebu celebration (Jan 26-27, ~1,000 staff) and the Dumaguete grand debate (Feb 9) -- he catalogues the Centenary Executive Committee's employee-focused programs: a cultural presentation under Justice Minerva P. Gonzaga-Reyes; health and welfare activities run by the SC Clinic and Employees Association (a Basic Life Support course, a Cancer Awareness workshop, an Employees' Sports Festival, and a Pfizer-coordinated seminar on 'Sexual Dysfunction Among Lay People'); upcoming blood-letting, stress-management and anti-smoking seminars organized by the Employees' Participation Committee (Attys. Luz Puno and Marissa Villarama); loyalty awards for ten-year veterans; and a Search for Special Centennial Awardees for Excellence chaired by Justices Bellosillo and Feria. A major highlight is a mass housing program for judicial employees under a sub-committee headed by Justice Bernardo P. Pardo, with PAG-IBIG negotiations for favorable interest rates 'similar to those given to policemen.' His governing thesis is that the employees are 'the most important components of judicial dispensation' -- 'without our employees, we cannot speak of the judiciary,' and any office 'can be effective only when it has the support and the cooperation of the people composing it' -- and he closes by inviting everyone to relax and honor, in his Filipino words, all who serve the justice of the nation.",
-  "source_xlsx": "cjp_books_curated_normalized.xlsx"
+  "source_xlsx": "cjp_books_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "judiciary_milestones_and_tributes"
+    ],
+    "secondary": []
+  }
 }

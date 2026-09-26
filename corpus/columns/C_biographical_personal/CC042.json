@@ -159,5 +159,11 @@
     "Complementary marriage dynamic: outgoing partner + reserved anchor"
   ],
   "one_paragraph_summary": "A week after publishing his own eulogy for Elenita 'Leni' Carpio-Panganiban (C43, Apr. 17, 2023), CJ Panganiban yields his column space to three of the ten eulogies delivered during her wake -- selecting voices that portray Leni as mother, grandmother, and professor for 37 years at the Asian Institute of Management. Daughter Celine Panganiban-Hannett recalls 'quiet authority' parenting that never yelled, that reasoned at the 'age of reason' (eight), and that turned monthly allowances into a banking lesson -- with siblings either running out and learning installment borrowing, or saving and being rewarded by Leni still buying the pajamas Archie had skipped. Grandson Rafa Panganiban Yaptangco preserves Lola Leni's verbatim greetings at the Dasmariñas house ('Do you want chicheria? Just get, just get, we have plenty!' and 'Do you have a girlfriend na?'), her tutorials in tongue-curling and Uno and Old Maid and Sudoku, and the phone-game hobby (Bounce on her latest device) that Rafa credits as the seed of his tech career. AIM classmate and later co-professor Mari Sison Garcia situates Leni in the male-dominated pioneer batch of 1971 -- 'one of four women' -- who balanced 'the Harvard's case study method' with mothering five children and supporting CJ Art, earning their MBM as 'First Fruits of AIM,' later reuniting as faculty colleagues exchanging encouragement over lunches, and finally serving together in the Bukas Loob Sa Diyos Council of Servant Leaders, where 'CJ Art changed the dynamics of worship and Leni remained his anchor.' The column functions as curated family-and-community memorial in the voices of those who loved her most.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "life_story_family_school_and_church"
+    ],
+    "secondary": []
+  }
 }

@@ -112,5 +112,13 @@
     "faith-consolation in the face of death (John 14)"
   ],
   "one_paragraph_summary": "Chapter 8 of 'With Due Respect' (Vol. 7), CJP's August 24, 2008 Inquirer column, reproduces his eulogy for Patricio 'Pat' Garcia -- lawyer, CPA and Inquirer director-treasurer -- 'laid to rest' on August 17 and read at 'the St. James Church in Ayala Alabang.' Opening with Matthew 11:28-30, CJP says its phrase 'meek and humble of heart' 'describes exactly what Pat was.' He recalls meeting Pat in 1987 as counsel to the 'Excel Group,' being 'ushered... to the Philippine Daily Inquirer and to Marixi... Prieto,' who 'enticed' him to become president of 'the most widely read broadsheet' -- fulfilling the 'impossible dream' of 'a poor boy hawking newspapers in the streets of Sampaloc.' Though their business tie 'ended in 1995' when CJP joined the Court, the friendship endured 'especially on the golf course.' Pat was 'gentle, genteel... and always fair,' yet 'resolute in his convictions,' kept a 'low profile' and felt 'uneasy when publicly acclaimed,' embodying 'whoever exalts himself will be humbled; but whoever humbles himself will be exalted.' He 'never used... highfalutin words,' was never heard 'erupt in anger,' and let his actions speak, so 'what you see is what you get with Pat.' Loyal and caring, he helped friends 'neither counting the cost nor expecting anything in return' -- in 1996 'voluntarily' arranging CJP's heart consult with his surgeon cousin Dr. Jorge Garcia, and in 2004 having Print Town publish CJP's 'Leveling the Playing Field,' which 'sold out' within a year. Bidding 'adieu,' CJP is 'certain that [Pat] is now with our Father in heaven,' invoking John 14's promise -- 'where I am, you also shall be' -- for one who, 'like our Lord, was meek and humble of heart.'",
-  "source_xlsx": "cjp_books_curated_normalized.xlsx"
+  "source_xlsx": "cjp_books_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "life_story_family_school_and_church"
+    ],
+    "secondary": [
+      "faith_journey"
+    ]
+  }
 }

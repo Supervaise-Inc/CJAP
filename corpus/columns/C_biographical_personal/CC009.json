@@ -134,5 +134,13 @@
     "biographical-arc reasoning (Sampaloc newsboy → CJ → columnist) as integrity narrative"
   ],
   "one_paragraph_summary": "On the occasion of the formal launch of 'With Due Respect 3' -- the third Inquirer-published compilation of his Sunday columns from 2016 to 2021 -- Panganiban offers an abridged response of gratitude. He confesses he had 'never written (a column) in (his) life until after (he) retired from the judiciary'; his 'historical romance with newspapers' began as a Sampaloc newsboy helping his impoverished family during grade school and high school, but his late mentor Dr. Jovito R. Salonga had cautioned him that 'Chief Justices make history; they do not write it.' Marixi R. Prieto would not be dissuaded -- 'I do not know of any retired chief justice who had been offered to write a column' -- and a compromise of one column per week became 15 years of unbroken Sunday publication, through illness, travel (five trips a year abroad), and active roles in over 25 companies and foundations. He credits Marixi for the writing career and the acclaim that followed, citing the third-place Amazon bestseller ranking of WDR1 behind only Jeffrey Toobin (CNN) and Antonin Scalia of the US Supreme Court. He thanks incumbent CJ Alexander G. Gesmundo -- who at 65 'could be my son' -- for the formal launch and praises him for embodying the constitutional virtues of competence, integrity, probity, and independence, calling him 'a glutton for work' ready to attack the perennial case backlog and to automate the judiciary. He thanks JV Rufino of the Inquirer Book Company, Sean James Borja (Ateneo law valedictorian 2018 and bar topnotcher of the same year) who arranged WDR3 topically rather than chronologically, and editors Jorge Aruta, Rosario Garcellano (both retired), and Gilbert Cadiz (incumbent opinion editor) -- asking that they 'never tire of teaching this aging jurist the rudiments of the English language and of column-writing.'",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "life_story_family_school_and_church"
+    ],
+    "secondary": [
+      "judiciary_milestones_and_tributes"
+    ]
+  }
 }

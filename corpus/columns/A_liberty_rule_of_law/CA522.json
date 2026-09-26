@@ -118,5 +118,11 @@
     "Treat partial retractions as insufficient -- full corrections on equal prominence are required"
   ],
   "one_paragraph_summary": "Panganiban profiles two new P-Noy SC appointees -- Justice Bienvenido Reyes (20+ years of judicial experience; CIPI; author's personal voucher despite critics' friendship-connection allegations) and Justice Estela Perlas-Bernabe (unblemished track record from MTC Makati 1996 to CA 2004; salutatorian Ateneo Law 1976; magna cum laude St. Paul's) -- then devotes the main column to rebutting a WikiLeaks canard. A broadsheet ran a front-page article by Ellen Tordesillas citing a September 2006 US Embassy cable from DCM Paul Jones claiming the author was the 'protector' of Mariano Nocom, whose malls allegedly sold pirated goods, and that the author had Judge Antonio Eugenio (OMB's most productive search-warrant issuer) removed from IP cases. The author, learning of the article in Morocco, called Court Administrator Marquez long-distance; Marquez sent a prompt letter to the broadsheet stating the author barely knew Nocom and that Eugenio was never replaced as an IP court judge. Three days later, Tordesillas backtracked in an inside-page article, attributing to 'a friend in the SC' the clarification that the protector was 'not former CJ Panganiban.' The author concludes with the Sherlock Holmes rebuke: the US Embassy could have verified with the OCA in one call. He expresses amazement that a credible journalist 'could write a canard of a leak that is completely false and baseless' without checking.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "faith_journey"
+    ],
+    "secondary": []
+  }
 }

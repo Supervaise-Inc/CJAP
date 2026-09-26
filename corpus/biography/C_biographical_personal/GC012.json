@@ -128,5 +128,11 @@
     "Cabinet-vs-Supreme-Court branch-choice calibration"
   ],
   "one_paragraph_summary": "Art's 1992 Malacañang chapter, opening with the country 'again at a turning point -- a new administration taking shape; the wounds of authoritarianism had not fully healed; democratic institutions remained fragile, distrusted, incomplete.' President-elect Fidel V. Ramos summons Art for a private meeting and makes a direct offer: Secretary of Justice. 'It was the kind of appointment that would have thrilled many,' but 'for Art it triggered caution': he had not campaigned, he had not sought office, and 'more importantly, he sensed that politics -- even in reformist guise -- would exact a cost his family and conscience might not be prepared to pay. He declined.' Ramos pressed him 'not with flattery, but with reasoning' -- speaking of trust, observed competence, Rotary, PPCRV, and 'a country that needed steady hands more than loud voices.' Still, Art hesitated. Then came the alternative -- 'If not the Cabinet,' Ramos said, 'then the Supreme Court.' Closing reframe: 'It was not a consolation prize. It was a summons.'",
-  "source_xlsx": "cjp_biography_curated_normalized.xlsx"
+  "source_xlsx": "cjp_biography_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "life_story_family_school_and_church"
+    ],
+    "secondary": []
+  }
 }

@@ -162,5 +162,13 @@
     "Court composition as variable in doctrinal continuity"
   ],
   "one_paragraph_summary": "Building on the looming Oct. 1-8, 2021 COC filing window, CJ Panganiban unpacks two structures: the asymmetry between appointive officials (deemed ipso facto resigned upon filing) and elective officials (retain office until term-end, June 30, 2022), and the substitution mechanics under Comelec Resolution No. 10717 that effectively extend the filing deadline. The legal anchor is Quinto v. Comelec (Feb. 22, 2010), penned by CJ Puno, which upheld RA 9369 §13 by a 10-5 vote -- but the column's most piercing passage is its forensic explanation of how this came to reverse, less than three months later, the original 8-6 Nachura ruling of Dec. 1, 2009: J Chico-Nazario retired, JJ Brion and Del Castillo flipped sides, and the two new appointees (JJ Perez and Mendoza) voted with CJ Puno. The substitution discussion then walks through the operative mechanics -- withdrawing, disqualified, or deceased candidates of registered political parties or coalitions may be substituted up to Nov. 15 with ballot reprint, while substitution for death or final disqualification under the same-surname rule extends to midday on May 9, 2022. Independent candidates are excluded from the regime entirely. The column closes with politician-specific illustrations -- Pacquiao would be 'jobless after June 30, 2022' if he loses a non-reelection bid; Grace Poe enjoys an unexpired-term safety net; Lacson and Sotto are termed out -- and the title's quiet thesis: in practice, the Oct. 8 deadline is functionally extended to Nov. 15 for candidates of registered political parties.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "impeachment_accountability"
+    ],
+    "secondary": [
+      "marcos_robredo_election_contest"
+    ]
+  }
 }

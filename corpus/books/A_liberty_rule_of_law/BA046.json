@@ -74,5 +74,11 @@
     "20%/2%/three-seat parameters"
   ],
   "one_paragraph_summary": "Chapter 11 analyzes Ang Bagong Bayani-OFW Labor Party v. Comelec, which — building on Veterans Federation Party v. Comelec and its four parameters (the 20% allocation, 2% threshold, three-seat cap, and proportional distribution) — held that the party-list system is reserved for the marginalized and underrepresented, and set guidelines for qualifying groups, winners, and nominees under RA 7941.",
-  "source_xlsx": "cjp_books_curated_normalized.xlsx"
+  "source_xlsx": "cjp_books_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "science_technology_and_the_law"
+    ],
+    "secondary": []
+  }
 }

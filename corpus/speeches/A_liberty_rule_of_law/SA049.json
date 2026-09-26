@@ -149,5 +149,14 @@
     "solicitor/barrister merger as the comparative-law observation explaining why Filipino lawyers must be both analysts and advocates"
   ],
   "one_paragraph_summary": "Written August 1, 2018 as the Foreword to the Ateneo Law Journal at the request of Lead Editor Angelo Francesco F. Herbosa, this piece by CJP advances the 'disruptive symphony' thesis: the volume's 10 apparently disparate articles are united by a single arching theme -- disruption -- with their very disparateness as 'the arching melody itself.' He comments on seven articles: Diokno's ('Now or Never') traces how the justice system was 'robbed of its independence and integrity by an unwanted dictatorship' and offers reform solutions; Candelaria-Balisong on Republic v. Sereno treats it as the Court 'consolidating its power to exact accountability even from its own leader'; Santiago-Pelongco (to be read together with Candelaria-Balisong) dissects the ponencia's 'apparent misuse of a remedy found only in the Rules of Court to undermine a constitutional remedy historically intended as the only method to oust impeachable officials.' CJP's sharpest intervention is his forward-looking question on Sereno: when the Court's composition changes and most incumbents retire, will the decision withstand a petition declaring it void for 'being rendered without due process by a biased majority who apparently had not only prejudged their Chief but in fact conceived the very weapon of quo warranto to oust her?' -- potentially enabling Sereno's return as 'the first woman to head the highest court of the land.' Sta. Maria's foreign divorce article (Van Dorn to Manalo) exposes Article 26 of the Family Code as 'zigzagged by the Supreme Court, in the process succumbing to judicial legislation in the guise of interpretation'; Calleja tackles the Marcos v. Robredo 50%-vs-25% shading threshold; Mata-Perez on TRAIN 1 prompts CJP's sole policy intervention: 'Why is the government raising new revenue streams when infrastructure could be built through PPP agreements?' The technology trio -- WTO (Baguilat), online child exploitation (Aritao-Pangilinan), Data Privacy Act (Pardu-Jacob) -- is praised as examining 'the most disruptive phenomenon of our time: technology,' prompting CJP's call that 'law, lawmakers, magistrates and lawyers must keep pace with the speedy march of science.' He closes by honoring Herbosa's team as future 'topnotch advocates and eminent justices': 'My wish is to live long enough to witness their passage.'",
-  "source_xlsx": "cjp_speeches_curated_normalized.xlsx"
+  "source_xlsx": "cjp_speeches_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "elections_and_automated_voting"
+    ],
+    "secondary": [
+      "marcos_robredo_election_contest",
+      "marriage_annulment_and_the_family_code"
+    ]
+  }
 }

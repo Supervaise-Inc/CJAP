@@ -185,5 +185,11 @@
     "surrender-to-God as the seventh and synthesizing point -- neither poverty nor wealth answers the inner questions"
   ],
   "one_paragraph_summary": "Chapter 4 of 'Justice and Faith' is CJP's FEU Institute of Law commencement address (c. 1995), introduced by his former FEUCSO predecessor Judge Clemente M. Soriano and hosted by Dean Justice Oscar R. Victoriano. CJP returns to 'the green and gold portals' thirty-five years after his own 1960 graduation, recounting his Salonga-tutored bar-prep, hospitalization on day one of the 1960 exams, and the FEU-bar-topnotcher pedigree that later produced his Panganiban-Benitez-Parlade-Africa-Barinaga law firm. The body of the speech diagnoses the Philippine justice system's deepest grievance -- clogged dockets and lawyerly delay tactics -- quoting Chief Justices Marcelo B. Fernan and Andres R. Narvasa's UP self-assessments and the Multi-Sectoral Conference on the Administration of Justice CJP chaired at De La Salle on October 17, 1992; the 'anak na pinag-awayan' courtroom joke supplies the popular face of that delay, while the Flor Contemplacion outrage (decoded against a SWS finding that 1 in 3 Metro Manila households had a member abroad) supplies the moral. CJP then gives the graduates a seven-point advice: improve bar preparation; embrace ADRs (arbitration and mediation, including the ICC's international rules); cooperate with judges through pre-trial admissions; use law to promote justice not to delay it (anchored in retired Justice Isagani R. Cruz's 'conscience of the government' ponencia); volunteer free legal services for the poor (IBP, PPCRV, NAMFREL); develop a personal philosophy of law (S × P = D realism, with Holmes/Pound/Concepcion as exemplars); and finally, surrender to God. He closes by collapsing the six secular advices into the seventh through Philippians 3:8-9 ('not by the letter that killeth but by the spirit that giveth life') and Matthew 25 -- the ultimate question we will be asked at judgment is whether we used possession and profession to defend the weak and the poor, not how many bar honors, millions or titles we collected.",
-  "source_xlsx": "cjp_books_curated_normalized.xlsx"
+  "source_xlsx": "cjp_books_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "life_story_family_school_and_church"
+    ],
+    "secondary": []
+  }
 }

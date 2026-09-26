@@ -155,5 +155,11 @@
     "mootness yields to the Court's symbolic function of educating bench and bar on constitutional guarantees"
   ],
   "one_paragraph_summary": "Chapter 20 of 'Transparency, Unanimity & Diversity' recounts ABS-CBN v. Comelec, the exit poll case. CJP opens with a history of free expression widening alongside technology -- from free speech and peaceful assembly in the Middle Ages, to freedom of the press after the printing press, to labor's right to strike and picket, to radio and television -- and predicts that the Internet, broadband fiber optics and teleconferencing will raise the same questions. The issue was whether the Comelec, invoking the sanctity of elections and the secrecy of the ballot, could totally prohibit exit polls and the publication of their results. Writing for a majority that included the Chief Justice and eight other justices, he answered no. The Decision defined exit polls as a species of electoral survey confidentially asking randomly selected voters whom they had voted for immediately after balloting, first used in the May 11, 1998 elections. It restated free expression as a 'preferred' right, held that prior restraint is presumed invalid and that the restrainer bears the burden, adhered to the clear and present danger test over the dangerous tendency test, and required any restriction to serve a substantial governmental interest by means no greater than essential. He dismissed the Comelec's fears as purely speculative, noted that a survey is random by nature and does not replace the official count, found the Resolution overbroad for applying without regard to actual disruption, and observed that a ban would also foreclose long-term research into voting behavior. In place of prohibition he listed narrowly tailored measures -- designated areas, professional pollsters kept at a distance, voluntary interviews, distinctive clothing, an information campaign. He answered the ballot secrecy objection by tracing the rule to the prevention of vote buying, and answered the dissents of Justices Vitug and Kapunan, including their mootness point, by invoking the Court's duty under Salonga v. Cruz Pano to educate bench and bar. The Decision carried 10-4 with one abstention.",
-  "source_xlsx": "cjp_books_curated_normalized.xlsx"
+  "source_xlsx": "cjp_books_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "elections_and_automated_voting"
+    ],
+    "secondary": []
+  }
 }

@@ -1,0 +1,163 @@
+{
+ "A_built_map_heldout_centroids": {
+  "median_precision": 0.7518939393939394,
+  "per_dimension_median": {
+   "foundation_for_liberty_and_prosperity": 0.9215384615384616,
+   "twin_beacons_doctrine": 0.8095238095238095,
+   "life_story_family_school_and_church": 0.75,
+   "criminal_trials_and_prosecutions": 0.6961290322580646,
+   "international_law_disputes": 0.7446808510638298,
+   "property_contracts_and_economic_rights": 0.7537878787878788,
+   "presidential_power_martial_law_people_power": 0.6830143540669856,
+   "elections_and_automated_voting": 0.846135265700483,
+   "judicial_reform": 0.8333333333333334,
+   "party_list_charter_change_and_dynasties": 0.7142857142857143,
+   "science_technology_and_the_law": 0.7230113636363636,
+   "impeachment_accountability": 0.7019927536231885,
+   "public_funds_budget_and_bank_evidence": 0.7875939849624061,
+   "us_supreme_court_and_american_politics": 0.7752525252525253,
+   "faith_journey": 0.8154761904761905,
+   "how_the_supreme_court_decides": 0.7735042735042735,
+   "libel_and_cybercrime": 0.625,
+   "judiciary_milestones_and_tributes": 0.7277777777777777,
+   "economy_taxes_and_prosperity": 0.8888888888888888,
+   "death_penalty_and_echegaray": 0.5147058823529411,
+   "independent_commissions_and_appointments": 0.7386363636363636,
+   "bangsamoro_peace_process": 0.6235294117647059,
+   "marcos_robredo_election_contest": 0.7142857142857143,
+   "supreme_court_vacancies_and_chief_justiceship": 0.8,
+   "asean_law_association": 1.0,
+   "ill_gotten_wealth_and_the_pcgg": 0.6923076923076923,
+   "bar_exam_and_legal_education": 0.788888888888889,
+   "citizenship_and_residency_grace_poe": 0.7386363636363636,
+   "marriage_annulment_and_the_family_code": 0.7857142857142857,
+   "jbc_discernment_and_appointment": 0.7596153846153846
+  },
+  "control_median": 0.08695652173913043,
+  "base_rate": 0.1,
+  "n_ge_60": 29
+ },
+ "B_procedure_split_sample": {
+  "recall_median": 0.30164835164835163,
+  "precision_median": 0.7004545454545454,
+  "control_recall_median": 0.0,
+  "per_dimension": {
+   "foundation_for_liberty_and_prosperity": {
+    "recall": 0.678735632183908,
+    "precision": 0.9532608695652174
+   },
+   "twin_beacons_doctrine": {
+    "recall": 0.28125,
+    "precision": 0.7083333333333333
+   },
+   "life_story_family_school_and_church": {
+    "recall": 0.6944927536231884,
+    "precision": 0.7004545454545454
+   },
+   "criminal_trials_and_prosecutions": {
+    "recall": 0.5425213675213675,
+    "precision": 0.6645833333333333
+   },
+   "international_law_disputes": {
+    "recall": 0.6452380952380952,
+    "precision": 0.8592592592592593
+   },
+   "property_contracts_and_economic_rights": {
+    "recall": 0.19805194805194803,
+    "precision": 0.7083333333333333
+   },
+   "presidential_power_martial_law_people_power": {
+    "recall": 0.30164835164835163,
+    "precision": 0.4728835978835979
+   },
+   "elections_and_automated_voting": {
+    "recall": 0.5321428571428571,
+    "precision": 0.8234916559691913
+   },
+   "judicial_reform": {
+    "recall": 0.3339130434782609,
+    "precision": 0.7708333333333333
+   },
+   "party_list_charter_change_and_dynasties": {
+    "recall": 0.615909090909091,
+    "precision": 0.5811688311688312
+   },
+   "science_technology_and_the_law": {
+    "recall": 0.28157894736842104,
+    "precision": 0.7044817927170868
+   },
+   "impeachment_accountability": {
+    "recall": 0.23157894736842105,
+    "precision": 0.6
+   },
+   "public_funds_budget_and_bank_evidence": {
+    "recall": 0.2113970588235294,
+    "precision": 0.6333333333333333
+   },
+   "us_supreme_court_and_american_politics": {
+    "recall": 0.8777777777777778,
+    "precision": 0.75
+   },
+   "faith_journey": {
+    "recall": 0.5192307692307692,
+    "precision": 0.7416666666666667
+   },
+   "how_the_supreme_court_decides": {
+    "recall": 0.09632034632034632,
+    "precision": 0.6
+   },
+   "libel_and_cybercrime": {
+    "recall": 0.291005291005291,
+    "precision": 0.6603260869565217
+   },
+   "judiciary_milestones_and_tributes": {
+    "recall": 0.1530214424951267,
+    "precision": 0.7528409090909092
+   },
+   "economy_taxes_and_prosperity": {
+    "recall": 0.11437908496732026,
+    "precision": 0.5833333333333333
+   },
+   "independent_commissions_and_appointments": {
+    "recall": 0.0,
+    "precision": 0.6666666666666666
+   },
+   "bangsamoro_peace_process": {
+    "recall": 0.3348214285714286,
+    "precision": 0.8
+   },
+   "marcos_robredo_election_contest": {
+    "recall": 0.38461538461538464,
+    "precision": 0.6770833333333333
+   },
+   "supreme_court_vacancies_and_chief_justiceship": {
+    "recall": 0.15476190476190477,
+    "precision": 0.6333333333333333
+   },
+   "asean_law_association": {
+    "recall": 0.16666666666666666,
+    "precision": 0.8035714285714286
+   },
+   "ill_gotten_wealth_and_the_pcgg": {
+    "recall": 0.1,
+    "precision": 0.5
+   },
+   "bar_exam_and_legal_education": {
+    "recall": 0.1125,
+    "precision": 0.625
+   },
+   "citizenship_and_residency_grace_poe": {
+    "recall": 0.7136363636363636,
+    "precision": 0.6666666666666666
+   },
+   "marriage_annulment_and_the_family_code": {
+    "recall": 0.746031746031746,
+    "precision": 0.8046218487394958
+   },
+   "jbc_discernment_and_appointment": {
+    "recall": 0.31666666666666665,
+    "precision": 0.7321428571428572
+   }
+  }
+ }
+}

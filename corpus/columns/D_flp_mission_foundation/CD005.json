@@ -140,5 +140,13 @@
     "frames scholarship as identity-formation, not merely financial assistance"
   ],
   "one_paragraph_summary": "Panganiban writes a donor-warm celebration of the Foundation for Liberty and Prosperity (FLP) and Tan Yan Kee Foundation (TYKF) scholars who passed the most recent Bar exams, led by 6th placer Kenneth Glenn Manuel (UST, cum laude, CPA, 'Sir K' to his students) and 9th placer Jun Dexter Rojas (PUP) -- a farmer's son and former UP college scholar who worked years to support his siblings before becoming PUP's first-ever bar topper. He profiles each of the 13 scholars in turn: Leo Francis Abot (ADMU summa cum laude in history, class valedictorian, 'the king's good servant but God's first'); John Anthony Almerino (USC magna cum laude, rock guitarist, two-time chess champion, class valedictorian); Arvin Paolo Cortez (UP cum laude, 'to liberate the people from poverty and misery'); King Anthony Perez (UP Cebu cum laude, broadcast journalist, UCebu law valedictorian); Ma. Vida Malaya Villarico (UP Diliman cum laude, PUP law class topper); Micah Celine Carpio (DLSU magna cum laude, DLSU Law valedictorian); Alimar Mohammad Malabad (UP Manila cum laude, San Beda Moot Court champion, 'Youth Leader for the Preservation of the Ibanag Culture'); Dion Ceazar Pascua (FEU magna cum laude, CPA, part-time worker at HRET, Supreme Court, and DOF); Tess Marie Tan (first Filipina 'World Champion and Best Over-all Oralist' in the 21-year history of the Stetson International Environmental Law Moot Court Competition, plus prizes at Price, Jessup, and ANC Square-Off Debates, 2nd place FLP Dissertation 2018); and Mikael Gabrielle Ilao and Julienne Therese Salvacion who, without Latin honors, displayed the same passion in law school. He frames the column with his organizing aphorism -- that the scholarship's 'little things' (peering questions at the Supreme Court's inner sanctum, midnight toil of the screening panel, modest financial assistance, and lessons on liberty and prosperity) compound into outsized career outcomes -- and closes with a reminder that the first FLP batch (2018, led by Sean James Borja's 1st-place finish and Katrina Gaw's 5th-place) also passed 100 percent, signaling sustained institutional performance.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "foundation_for_liberty_and_prosperity"
+    ],
+    "secondary": [
+      "life_story_family_school_and_church"
+    ]
+  }
 }

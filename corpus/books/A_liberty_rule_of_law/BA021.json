@@ -117,5 +117,11 @@
     "best-available-method: adopt the workable formula absent a viable rival"
   ],
   "one_paragraph_summary": "Chapter 3 of 'With Due Respect' (Vol. 5), CJP's July 15, 2007 Inquirer column, explains the 'law and mathematics' of party-list seat allocation. With commentators calling the system a 'conundrum' (Pangalangan) and an 'experiment' (Bernas), and the Comelec having named 13 winners with one 'qualifying' seat each, the 'Gordian question' is which winners get more than one. The answer, he writes, lies in Veterans Federation Party v. Comelec (2000) -- a 53-page decision he ranks among 'the most debated' of his 11 years -- which drew from the Constitution and RA 7941 'four inviolable parameters': the 20-percent allocation, the 2-percent threshold, the three-seat limit, and proportional representation. Litigants argued the threshold and limit were arbitrary and that the 20-percent allocation must always be filled, but the Court 'unanimously' upheld them, since the system is 'provided by law' and Congress has 'wide latitude.' What divided the Court was how to turn the parameters into a formula. A simple '2 percent = one seat, 4 percent = two' proposal was discarded because lopsided votes (a 20-percent party getting 10 seats) broke the three-seat limit and ignored proportionality; Justice Mendoza's German 'Niemeyer Formula' was inapplicable because German law has no seat limits, whereas RA 7941 imposes one 'to encourage small parties.' So CJP devised the 'Panganiban Formula' to honor all four parameters: the 'first party' (topnotcher) gets one more seat at 4-to-under-6 percent and two at 6 percent or more, while the other qualified parties' additional seats are computed proportionally (their votes divided by the topnotcher's, times the topnotcher's seats). The majority accepted his math, so he wrote the decision (Mendoza, with two others, dissented; Puno concurred), and though criticized, the formula drew no viable alternative and was 'unanimously reiterated' in Partido ng Manggagawa (2006) and CIBAC (2007).",
-  "source_xlsx": "cjp_books_curated_normalized.xlsx"
+  "source_xlsx": "cjp_books_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "party_list_charter_change_and_dynasties"
+    ],
+    "secondary": []
+  }
 }

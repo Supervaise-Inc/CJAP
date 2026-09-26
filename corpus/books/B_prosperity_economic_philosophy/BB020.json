@@ -169,5 +169,11 @@
     "grave abuse tested by patent and gross arbitrariness or despotism from passion or personal hostility"
   ],
   "one_paragraph_summary": "Chapter 10 of 'Transparency, Unanimity & Diversity' recounted Tañada v. Angara, the unanimous decision CJP penned upholding Philippine membership in the World Trade Organization. He opened with a survey of the century -- the collapse of Fascism, Nazism and Stalinism, the last gasps of colonialism, the end of the Cold War and the emergence of a single superpower -- and argued that the arena for world preeminence had shifted from brute force to economic and intellectual dominance, with attention moving from government control to deregulation, from government ownership to privatization, and from national sovereignty to globalization and liberalization, all institutionalized in the WTO the Ramos government joined to widen market access for Philippine exports. Days after the Senate concurred through Resolution No. 97, Senators Tañada and Coseteng, Representatives Andolana and Arroyo and others challenged the adherence, raising five issues. The Court held that it had jurisdiction, since a legislative act seriously alleged to infringe the Constitution makes it the judiciary's duty to settle the dispute, while stressing that it would not review the wisdom of joining or the merits of trade liberalization. It held that the Article II Declaration of Principles is not self-executing and creates no cause of action, that the Constitution favors Filipino goods and labor yet permits exchange on the bases of equality and reciprocity and never intended an isolationist policy, and that charters must be interpreted to cover future and unknown circumstances, as the 1935 Constitution's silence on the United Nations showed. It held that treaty obligations do not impair legislative power, since sovereignty is restricted by membership in the family of nations and by pacta sunt servanda; that the TRIPS presumption shifts only the burden of evidence; and that concurrence in the WTO Agreement alone conformed exactly to what the one-page Final Act required. Its Epilogue found no patent and gross arbitrariness in the Senate's overwhelming consent, warned that striking it down on policy grounds would itself be grave abuse, and left the choice to the people through their elected officers.",
-  "source_xlsx": "cjp_books_curated_normalized.xlsx"
+  "source_xlsx": "cjp_books_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "international_law_disputes"
+    ],
+    "secondary": []
+  }
 }

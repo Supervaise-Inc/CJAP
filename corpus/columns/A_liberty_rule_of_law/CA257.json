@@ -141,5 +141,11 @@
     "treats ponente identity as analytically relevant when same justice's jurisprudence is being deployed"
   ],
   "one_paragraph_summary": "Panganiban answers two further questions on the Imelda conviction case: why she was granted bail despite conflicting reasons for her absence during promulgation, and why her lawyers withdrew the motion for reconsideration at the Sandiganbayan and appealed directly to the Supreme Court. On the first, he explains that the Sandiganbayan Fifth Division's November 28 ruling -- though acknowledging inconsistencies between her medical-certificate-of-organ-failure justification and her testimony about her lawyer's failure to inform her -- invoked leniency because she 'surrendered and placed herself within the reach and arm of the law,' and required a cash bail of P300,000 (double the original P150,000). Had the reasons been rejected, under Villarin v. People (January 31, 2011), her post-conviction remedies would have been ipso facto forfeited and she would have been 'jailed pronto.' The bail grant rested on Enrile v. Sandiganbayan (August 18, 2015) -- penned by now-CJ Lucas P. Bersamin -- which is the prevailing jurisprudence on advanced age and health bail and binds all courts. On the second question, CJ explicitly discloses he is 'not privy' to the lawyers' actual reasoning but surmises: at the SBN, reversal or penalty reduction was probably unattainable on the existing record; a pro-forma-MR finding would risk barring the SC appeal entirely; and the SC en banc -- though normally deferring to lower-court factual findings -- can initiate new doctrines or reverse/modify existing jurisprudence as it did in Arroyo v. Sandiganbayan (July 19, 2016, also penned by CJ Bersamin), where the novel main-plunderer identification doctrine produced an acquittal. The likely strategy is therefore not factual contest but doctrinal innovation -- following Estelito Mendoza's Arroyo template -- and direct SC appeal also offers a speedier final resolution to consolidated cases whose first five began 27 years ago.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "criminal_trials_and_prosecutions"
+    ],
+    "secondary": []
+  }
 }

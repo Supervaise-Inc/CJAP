@@ -115,5 +115,14 @@
     "intangible legacies outlast infrastructure"
   ],
   "one_paragraph_summary": "Chapter 9 of 'With Due Respect' (Vol. 7), CJP's June 22, 2008 Inquirer column, urges President Arroyo to make education 'one of her enduring legacies,' built on his family's faith that education is 'the gateway to success and the way out of grinding poverty.' His father, who 'did not finish high school,' worked 'doubly hard as a lowly government employee' to send all four children through college (sister Tessie 'summa cum laude,' brother Nardo topping the engineers' board); steering CJP to law but unable to afford UP bus fare, he said 'Diyan ka sa FEU. Hindi na kailangan ang pamasahe' -- advice made 'prophetic' by his early death. CJP kept his FEU scholarship by 'selling bibles to [his] professors and textbooks to [his] classmates,' having 'hawked newspapers, peddled cigarettes, and shined shoes.' Unable to pursue a Yale master's, he 'visited on [his] children [his] frustrated postgraduate aspiration' -- four daughters with graduate degrees from California, Chicago, Michigan and Harvard, a son with 'two masters and a PhD' from Stanford -- and won scholarships for his law clerks. Begging pardon for the 'immodest breast-thumping,' he indicts the government's 'sheer neglect of higher education': the failure to meet 'the 12-year global standard,' the 170-member PACU's call for a qualified permanent CHEd chair (faulting acting chair Romulo Neri with 'a failing grade of 4'), and the 'utter disregard' of the January 31 Education Summit's expert recommendations. Like CJP's father, 'the poor boy from Lubao' Diosdado Macapagal had 'a passion for education' but 'liberated himself from destitution' through it; so CJP appeals to his daughter GMA, with 'two years more,' to 'have a passion for academic excellence,' appoint 'a permanent CHEd chair' and organize 'the Legal Education Board,' giving 'millions of Filipino students an opportunity to fulfill their dreams of conquering ignorance and poverty.'",
-  "source_xlsx": "cjp_books_curated_normalized.xlsx"
+  "source_xlsx": "cjp_books_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "life_story_family_school_and_church"
+    ],
+    "secondary": [
+      "presidential_power_martial_law_people_power",
+      "bar_exam_and_legal_education"
+    ]
+  }
 }

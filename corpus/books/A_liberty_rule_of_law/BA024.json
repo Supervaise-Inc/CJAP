@@ -118,5 +118,11 @@
     "Congress-fixes-policy: the legislature, not the Court, revises the statute"
   ],
   "one_paragraph_summary": "Chapter 6 of 'With Due Respect' (Vol. 5), CJP's April 26, 2009 Inquirer column, sharply critiques Banat v. Comelec, which raised party-list seats 'from 22 to 55' and enlarged the House toward 271. The Court upheld the 'first clause' of Section 1(b) of RA 7941 (an initial seat for a party-list with 'at least two percent of the total votes cast') but struck down the 'second clause' (proportional additional seats) as unconstitutional for making it 'mathematically impossible to achieve the maximum number of available party-list seats when the number... exceeds 50.' To fill the seats, the Court awarded slots to parties with under 2 percent while still capping topnotchers at three -- so Buhay Party's 7.33 percent got only three seats and Cocofed's 0.98 percent got one, and 'a party that gets only 1,000 votes can win. Preposterous, but certainly possible!' If filling 55 seats 'was its passion,' CJP argues, the Court should have struck down both the three-seat limit and the 2-percent threshold entirely (as Justice Nachura urged) to compute with 'legal, mathematical, and proportional precision.' He flags a 'doctrinal contradiction': the Court called the 20-percent allocation 'merely a ceiling' yet made reaching it mandatory, and it 'quietly overlooked' its own recent decisions unanimously reaffirming the Veterans formula -- even those ponentes concurring in Banat 'with nary a mention' ('So much for doctrinal stability and depth of conviction!'). He suggests the true defect may be 'the reckless creation of the excessive districts' (220 of them), not the 'second clause,' and warns that inflating party-list seats past the constitutional cap of 'not more than two hundred and fifty members' may have 'usurp[ed] the law-making function of Congress,' leaving unanswered what becomes of the new solons' salaries, pork and three-fourths Charter-change votes. The fix, he concludes, belongs to the legislature: 'only Congress has the constitutional mandate to formulate policy solutions... It is not too late.'",
-  "source_xlsx": "cjp_books_curated_normalized.xlsx"
+  "source_xlsx": "cjp_books_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "party_list_charter_change_and_dynasties"
+    ],
+    "secondary": []
+  }
 }

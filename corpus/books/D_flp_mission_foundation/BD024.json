@@ -64,5 +64,11 @@
     "competence-plus-ethics standard for lawyers"
   ],
   "one_paragraph_summary": "Chapter 4, 'The Essentials of Legal Education,' is CJP's address to law students on what legal education should instill: competence, ethics, and values. He pays warm tribute to Dean Antonio H. Abad Jr., his former law partner of nearly half a century, and argues that legal education must form not merely learned lawyers but ethical ones devoted to public service.",
-  "source_xlsx": "cjp_books_curated_normalized.xlsx"
+  "source_xlsx": "cjp_books_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "science_technology_and_the_law"
+    ],
+    "secondary": []
+  }
 }

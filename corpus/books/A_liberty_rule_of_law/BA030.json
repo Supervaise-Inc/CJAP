@@ -114,5 +114,13 @@
     "a-nation-honors-its-best as a civic measure"
   ],
   "one_paragraph_summary": "Chapter 14 of 'With Due Respect' (Vol. 7), CJP's March 4, 2007 Inquirer column, honors Jose Wright 'Ka Pepe' Diokno on his 85th birthday and 20th death anniversary, presenting him as the living answer to a homily by Archbishop Oscar Cruz. Cruz preached that loving one's neighbor (Matthew 25) means feeding the hungry and visiting prisoners -- then pressed beyond the Gospel: 'Shall we just feed the hungry but not punish the greedy who deprived them of food?... visit the prisoners without bringing to justice the tyrants who jailed them?' Reflecting at home, CJP thought of Diokno, whose anniversaries De La Salle marked with the 'Ka Pepe Diokno Human Rights Award' and the launch of 'Diokno on Trial.' As keynote speaker, CJP 'remembered him as the answer.' Diokno 'easily exemplified... ethics and competence': he 'topped both the CPA and the bar examinations' and, 'with special permission,' took the bar 'without having formally graduated' -- a feat 'unsurpassed.' In an age of plunderers, CJP distinguishes the merely 'honest public servants' who 'did nothing to stamp out the evil around them' from those of true 'integrity, not mere honesty' -- for 'honesty is a virtue taught in grade school,' but the country needs the 'moral courage to punish the greedy, chase the robbers, and prosecute the tyrants.' Diokno had it: though he 'twice supported the presidential candidacy of... Marcos,' he 'did not hesitate to part from him' and 'denounce his excesses,' risking 'his own safety, health... and career' and enduring 'solitary confinement without being charged or tried' -- 'a visionary leader of exemplary integrity.' Pointing to the Bantayog ng mga Bayani heroes (Ninoy, Climaco, Concepcion, Tañada, Teehankee and more, 'all... in the Great Beyond') and Salonga's words that 'a nation is measured by the quality of the men and women it honors,' CJP leaves readers -- especially the Ayala Young Leaders -- to name the living leaders worth honoring.",
-  "source_xlsx": "cjp_books_curated_normalized.xlsx"
+  "source_xlsx": "cjp_books_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "criminal_trials_and_prosecutions"
+    ],
+    "secondary": [
+      "faith_journey"
+    ]
+  }
 }

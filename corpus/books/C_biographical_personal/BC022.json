@@ -65,5 +65,11 @@
     "interdisciplinary-jurisprudence principle"
   ],
   "one_paragraph_summary": "CJP's Preface to the book, his yearly 'contribution to transparency' covering his eighth year on the Supreme Court (October 10, 2002 to October 10, 2003). He introduces the theme — how the new biosciences and biotechnologies affect the judiciary's decision-making — and argues that, since 'law is a jealous mistress,' jurists must be more than 'walking computers' of the codes, needing a working knowledge of every facet of life and learning.",
-  "source_xlsx": "cjp_books_curated_normalized.xlsx"
+  "source_xlsx": "cjp_books_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "science_technology_and_the_law"
+    ],
+    "secondary": []
+  }
 }

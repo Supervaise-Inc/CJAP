@@ -113,5 +113,13 @@
     "reasoned-rulings: ballots must not be voided without stated legal grounds"
   ],
   "one_paragraph_summary": "Chapter 1 of 'With Due Respect' (Vol. 5), CJP's April 1, 2007 Inquirer column, is a civic-education primer exposing 'the ways used by politicians to subvert the popular will' at every stage of an election. He opens with the PPCRV's 'three Gs' -- guns, goons, and gold -- and the quipped fourth, 'Garci.' Before and during election day, cheats pad the voters' list, register 'flying' voters, print fake or excess ballots and returns, and field 'nuisance' like-named candidates to spoil votes for genuine aspirants; the 'lansadera' scheme smuggles a pre-filled ballot into the box (often with BEI connivance) while the blank one is carried back out to be filled again; hostile voters are paid off and their fingernails inked so the law bars them; and bought ballots are covertly identified by quirks like middle names. After the ballots are cast, precinct 'misreading' adds or subtracts votes, while 'wholesale' fraud -- 'dagdag-bawas' -- alters the election returns and statements of votes (SOVs), where changing 'one number, say, from 10 to 100,' or an SOV 'from 1,000 to 10,000,' can decide a race, since the SOVs feed the Boards of Canvassers' Certificates of Canvass and the proclamation. The 'critical struggles,' he stresses, come after precinct counting but before proclamation, in 'pre-proclamation controversies' over the returns' validity -- a vigilance many candidates neglect after spending everything on the campaign. After proclamation, results may be contested by 'timely election protests' (RTCs for municipal offices, the Comelec for provincial/city, the House and Senate Electoral Tribunals for Congress), even as ballots are substituted in the treasurers' custody. He closes with a 'dubious' adjudication: a governor's race (margin 2,700) where the Comelec voided 3,500 of the winner's ballots as 'marked' even though the ballot boxes' seals were intact -- 'How then were the ballots examined?' -- concluding that until a 'credible Comelec' checks the cheating, 'eternal vigilance at all stages of the polls is the price of democracy.'",
-  "source_xlsx": "cjp_books_curated_normalized.xlsx"
+  "source_xlsx": "cjp_books_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "elections_and_automated_voting"
+    ],
+    "secondary": [
+      "marcos_robredo_election_contest"
+    ]
+  }
 }

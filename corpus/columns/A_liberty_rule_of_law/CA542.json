@@ -150,5 +150,11 @@
     "separates civil from ecclesiastical aspects of marriage"
   ],
   "one_paragraph_summary": "Panganiban explains a liberal shift in bigamy jurisprudence. Bigamy under the Revised Penal Code is contracting a second marriage while a valid first marriage exists; earlier rulings barred offending spouses from remarrying and from using the invalidity of a prior marriage as a defense without a prior judicial declaration of nullity. In Pulido v. People (2021), a unanimous en banc Court held that a prior void ab initio marriage is a valid defense even without such a declaration, and Lapira v. Fariscal (Feb. 26, 2026) reiterated this in acquitting a woman convicted below. Imelda Lapira married Jimmy Fariscal in 2001, but a record showed she had married Japanese national Takahiko Sato in 2000; she said that marriage was a sham arranged for her entry into Japan, with no ceremony and only a blank paper she signed for 'Jo.' The trial court convicted her and the Court of Appeals affirmed because the first marriage had not been declared void. The Supreme Court ruled on three points. First, Article 40 of the Family Code requires a declaration of nullity only for remarriage and allows collateral attack on a void prior marriage; Imelda's marriage to Sato lacked a license and ceremony. Second, a marriage certificate is prima facie evidence rebuttable by substantial evidence, here a Local Civil Registrar certification that it issued no certificate and no license was applied for. Third, the matter was purely civil: no sacramental union was involved. A declaration of nullity is still required to remarry. CJP says courts should not impose criminal penalties on a bond that was nothing but a phantom, and that the rulings respect both the constitutional inviolability of marriage and Church doctrine, balancing reverence for matrimony with criminal justice.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "marriage_annulment_and_the_family_code"
+    ],
+    "secondary": []
+  }
 }

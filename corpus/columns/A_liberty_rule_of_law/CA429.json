@@ -168,5 +168,15 @@
     "closes with action-agad imperative breaking from usual prudence-register"
   ],
   "one_paragraph_summary": "Panganiban reports good news that the Senate, before its holiday adjournment, started plenary deliberation on the freedom of information (FOI) bill -- buried in the legislative mill for 14 years and resurrected by Sen. Grace Poe's Senate committee approval last September, with SP Drilon expecting chamber passage by end of March. The bad news: the House committee on public information and media has yet to act, giving its technical working group until mid-February to consolidate 19 pending versions. He flags two sticky points -- the 'right of reply' rider insisted on by some legislators (which constitutionalists view as a free-speech violation, compelling media outlets to give criticized officials free print space or broadcast time) and a sneaky effort to exempt House members' SALNs from FOI (when the Ethical Standards Law and Anti-Graft Law already allow public access to SALNs, and even SC justices have released theirs to PCIJ -- so why should legislators be exempted?). He distinguishes the Charter's two information provisions: the Declaration of Principles' full-public-disclosure policy is general state policy needing enabling law; the Bill of Rights' right-to-information is self-executory and enforceable by courts without enabling law. He marshals jurisprudence: Baldoza v. Dimaano (May 1 1976) recognized the right pre-1987 -- 'There can be no realistic perception by the public of the nation's problems, nor a meaningful democratic decision-making, if they are denied information of general interest'; Chavez v. PCGG (July 15 2003) directed government disclosure of Marcoses' ill-gotten-wealth negotiations; Senate v. Ermita (April 20 2006) struck down a presidential order barring Cabinet members from legislative investigations. Permitted restrictions include national security, intelligence, trade secrets, banking transactions (subject to AMLA exception), criminal matters, and other confidential information. He warns Congress with a two-example template: congressional inaction on PDAF impelled the SC's strikedown; legislative failure to revise the Party-list Law impelled Banat v. Comelec (April 21 2009) to strike down the 2-percent threshold, opening floodgates to microscopic-vote winners. The moral lesson: Congress should wisely and proactively use its policy-determining powers instead of waiting for the Court to strike down ill-conceived actions or fill the void left by inaction. He closes with the unusually direct imperative: Pass the FOI bill now!",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "party_list_charter_change_and_dynasties"
+    ],
+    "secondary": [
+      "public_funds_budget_and_bank_evidence",
+      "ill_gotten_wealth_and_the_pcgg",
+      "citizenship_and_residency_grace_poe"
+    ]
+  }
 }

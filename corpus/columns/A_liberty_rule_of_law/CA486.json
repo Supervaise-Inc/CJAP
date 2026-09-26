@@ -128,5 +128,11 @@
     "Apply the FDR lesson: judicial resistance to economic policy risks institutional delegitimization and political retaliation"
   ],
   "one_paragraph_summary": "Against the backdrop of the Philippines' strong 2012 growth (6.3% Q1, 5.9% Q2), Panganiban addresses how the judiciary can help the economy. The primary responsibility for economic growth rests with elected leaders and the private sector -- the judiciary's proper role is deferential interpretation: absent a clear constitutional violation or grave abuse of discretion, courts must respect the economic programs of political leaders who are accountable to voters. In human rights cases the rule is reversed: courts strictly construe laws in favor of the people and against the government. He illustrates with two SC cases. Tañada v. Angara (May 2, 1997) unanimously upheld WTO ratification using deferential interpretation -- the Constitution has a bias for Filipino goods but also recognizes globalization, and 'whether such exercise was wise, beneficial or viable is outside the realm of judicial inquiry.' The NAIA Terminal 3 contract was correctly voided because it had a specific, clear violation of public bidding law -- an 'unwanted interloper' objection the SC rebuffed by enforcing the 'level the playing field' axiom. Long-term investors expect stable, consistent, and predictable jurisprudence; courts should interfere only for specific legal defects or GAD, not policy disagreements. The FDR-New Deal parallel warns against obstruction: the US SC's blocking of New Deal programs prompted court-packing plans, averted only when Justice Owen Roberts joined the liberal bloc ('switch in time that saved nine').",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "property_contracts_and_economic_rights"
+    ],
+    "secondary": []
+  }
 }

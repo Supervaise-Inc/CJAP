@@ -155,5 +155,11 @@
     "the requirement of an actual case or controversy, and the bar on advisory opinions"
   ],
   "one_paragraph_summary": "Chapter 21 of 'Judicial Renaissance' recounts the sequel to the Court's January 13, 2004 Decision nullifying the Comelec's contract with Mega Pacific eSolutions for automated counting machines, a contract voided for clear violation of law and jurisprudence and reckless disregard of the poll body's own bidding rules, with the result that the machines went unused in the 2004 national elections. Although the Decision became final and was entered in the Book of Entries of Judgment on March 30, 2004, the Comelec moved for leave to use the 1,991 idle ACMs in the August 8, 2005 ARMM elections, pleading RA 9333's automation mandate, the absence of funds, the machines' deterioration, storage costs of P329,355.26 a month, and a certification by 'information technology experts' that the software met ISO/IEC 12207 standards. Panganiban, who wrote the unanimous Resolution of June 16, 2005, sets out the grounds for denial in order. First, a final and executory judgment can no longer be modified or reversed, and granting leave would have subverted the Decision; moreover, a check of the records showed that the experts' letter had already been filed as an annex to an earlier motion for reconsideration, and for all its technical jargon it did not alter the finding of grave abuse of discretion -- the Commission, he writes, seemed to think it could resurrect a dead case like a witch doctor muttering incantations over a corpse. Second, the concession would have jeopardized recovery of over a billion pesos improvidently paid and might even have abated the Ombudsman prosecutions and impeachment proceedings. Third, the machines and their nonexistent software had failed eight critical integrity requirements. Fourth, the Motion was too vague to say how many units the ARMM needed or how the machines would be protected for return. Fifth, the Comelec had ample time to bid anew or to manualize, as it had for the May 2004 elections. Finally, no justiciable controversy existed, making the request at best one for an advisory opinion; the Court closed by directing the Comelec to follow the Decision, return the machines, recover the funds, and devise a sound computerization plan.",
-  "source_xlsx": "cjp_books_curated_normalized.xlsx"
+  "source_xlsx": "cjp_books_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "elections_and_automated_voting"
+    ],
+    "secondary": []
+  }
 }

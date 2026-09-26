@@ -109,5 +109,13 @@
     "uses paradox-identification (reformer must interact without arousing suspicion) as the primary framing for the independence-vs-engagement tension"
   ],
   "one_paragraph_summary": "Panganiban draws from his book 'With Due Respect' (printed edition sold out) to enumerate the eight unique functions of the chief justice not required of associate justices. Beyond the constitutional qualifications (natural-born, at least 40, 15 years as judge or lawyer, proven competence, integrity, probity, independence), the CJ must be: (1) primus inter pares -- presiding over sessions and shaping the SC's agenda with only one vote, relying entirely on moral ascendancy; (2) leader of the entire judiciary -- CEO of 2,000 lower court judges and 26,000 employees; (3) passionate reformer -- interacting with public and private offices, foreign governments, and international institutions while maintaining integrity 'without arousing public suspicion'; (4) leader of the bar -- guiding lawyers as the institutional head of law practice supervision; (5) academic and maestro -- ex-officio chair of the Philippine Judicial Academy; (6) mover and shaker -- as JBC chair, securing better compensation and facilities to attract the best and brightest to the judiciary; (7) administrator, manager and finance wizard -- wielding 'exclusive sole power' to disburse the JDF and SAJ funds under PD 1949 and RA 9227; and (8) role model and exemplar -- during political turmoil, civic groups 'find solace and peace in his quiet persona.' The CJ, he concludes, is more accurately the 'Chief Justice of the Philippines,' not merely of the Supreme Court.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "jbc_discernment_and_appointment"
+    ],
+    "secondary": [
+      "public_funds_budget_and_bank_evidence"
+    ]
+  }
 }

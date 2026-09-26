@@ -136,5 +136,13 @@
     "applies constitutional-criteria emphasis ('with emphasis on independence') as normative anchor"
   ],
   "one_paragraph_summary": "Panganiban responds to critics fearing that the elevation of Justice Rodil V. Zalameda -- giving President Duterte's appointees a clear majority (eight of fifteen) on the Supreme Court, with three more vacancies to come before year-end (Jardeleza on Sept 26, Bersamin on Oct 18, Carpio on Oct 26) and a new CJ slot -- will produce a subservient Court that renders the system of checks and balances 'inutile.' Critics point to the 'foreboding' decisions on the Marcos burial at Libingan ng mga Bayani and the quo warranto ouster of CJ Sereno, and to Arroyo's July 9 dinner remark crediting Duterte for 'provid[ing] the atmosphere in which the Court had the freedom to acquit me... 11-4 in my favor, including half of those who were appointed by my successor.' CJ counters with historical counter-examples: Cory Aquino's revolutionary-regime appointees still struck down her acts and edicts; and the Panganiban Court -- dominated by Arroyo appointees -- produced landmark decisions against her wishes (Senate v. Ermita, Bayan v. Ermita, David v. GMA, Lambino v. Comelec) even as his personal relations with her remained cordial. The structural reason, he argues, is that justices know their votes are 'recorded eternally in books and other repositories from where the public, including their heirs and descendants, continuously review and rate their performance,' so they remain faithful to the constitutional command of 'proven competence, integrity, probity and independence -- with emphasis on independence.' The President and the Court, he closes, 'could disagree without being disagreeable.'",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "criminal_trials_and_prosecutions"
+    ],
+    "secondary": [
+      "supreme_court_vacancies_and_chief_justiceship"
+    ]
+  }
 }

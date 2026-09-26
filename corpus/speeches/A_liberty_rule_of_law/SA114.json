@@ -109,5 +109,13 @@
     "Obama-milestone-as-inspiration: historical progress as evidence that the battle for human dignity can be won"
   ],
   "one_paragraph_summary": "Delivered December 8, 2008 as the tone-setting keynote at the GAJE (Global Alliance of Justice Education) 5th Worldwide Conference in the Philippines, this address by CJP opens with Obama's election as 'a major milestone in the battle for human dignity and equality that started with the adoption of the Magna Charta by the British, carried on by all independence-loving peoples, to the French Revolution, and then to America where human freedom was immortalized in the Bill of Rights.' He situates the Philippines in this history (all Constitutions enshrine the Bill of Rights; the Constitution mandates 'a just and dynamic social order to free the people from poverty'). He proposes two projects for the GAJE conference: (1) The ICC -- founded July 17, 1998 (120 states at the Rome Diplomatic Conference; effective July 1, 2002 with 60 ratifications); fights the impunity of dictators and heads of state 'who could not be sued in their home countries due to national immunity from suit' for genocide, crimes against humanity, war crimes and the crime of aggression. (2) PERLAS (Public Education on the Rule of Law) -- 'which in Filipino and Spanish means a pearl of great price'; teaches the basics of democracy, rule of law, justice and peace at the basic school level; workbooks and teaching exemplars already developed and printed, ready for Philippine elementary and high schools. The governing political philosophy: 'in many places, we still have rulers who practice authoritarianism... on the opposite extreme, regimes where mobs and charlatans abuse democratic processes. The solution to both extremes is the rule of law. No one should be so powerful, so moneyed or so influential as to be above the law.' He closes with a new-paradigm enumeration: 'mix these mantras with the cyber-age and globalization, and we come face to face with new paradigms of justice like mediation in lieu of litigation, public interest law centers, international bridges to justice, independent commissions on human rights, writs of amparo and, if I may stress, the International Criminal Court and PERLAS, the pearl of a great price.'",
-  "source_xlsx": "cjp_speeches_curated_normalized.xlsx"
+  "source_xlsx": "cjp_speeches_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "twin_beacons_doctrine"
+    ],
+    "secondary": [
+      "independent_commissions_and_appointments"
+    ]
+  }
 }

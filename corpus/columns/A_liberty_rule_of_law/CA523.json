@@ -106,5 +106,11 @@
     "Apply the purpose-fulfillment test: if the Information Age has already achieved what residency was supposed to ensure (knowledge of PH political life), the residency requirement is no longer necessary"
   ],
   "one_paragraph_summary": "Responding to frequent questions from US-based readers, Panganiban explains the legal distinction between 'duals' (Filipinos who became naturalized foreign citizens but reacquired PH citizenship under RA 9225) and 'greens' (Filipino immigrants and permanent residents who have not changed citizenship). Under RA 9189 (Overseas Absentee Voting Law), greens may vote for national candidates only if they execute an affidavit declaring they will resume physical residence in the Philippines within three years of registration -- the affidavit overcoming the Macalintal v. Comelec (2003) presumption that permanent foreign residency abandons PH domicile. By contrast, under Nicolas v. Comelec (2006), duals need not establish PH residence or execute the affidavit at all -- the Constitution's implicit authorization of non-resident absentee voting removes the residency requirement. Fil-American lawyer Ted Laguatan argues that greens who remain Filipino citizens (unlike duals who took foreign citizenship) should not be treated worse, and that the affidavit has a 'chilling effect' that negates the constitutional intent to enfranchise all overseas Filipinos. The author agrees -- and anchors the agreement on his own Macalintal concurrence: he did not rely on domicile theory but argued that the Information Age (interactive websites, cable TV, Facebook, Twitter, Skype, Magic Jack, teleconferencing) has already fulfilled the residency requirement's purpose of ensuring voters know PH political life. The residency requirement is now an 'anachronistic roadblock' -- overseas Filipinos, the single biggest source of foreign exchange, should vote freely in national elections.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "citizenship_and_residency_grace_poe"
+    ],
+    "secondary": []
+  }
 }

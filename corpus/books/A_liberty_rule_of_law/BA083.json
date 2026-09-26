@@ -201,5 +201,11 @@
     "guilt and penalty are voted upon separately in capital cases"
   ],
   "one_paragraph_summary": "Chapter 22 of 'Reforming the Judiciary' continues the running survey of death penalty developments that Panganiban had included in each of his four previous books. He records that under RA 7659 only seven convicts have ever been lethally injected -- Leo Echegaray first, on February 5, 1999 -- and that although People v. Echegaray upheld the law 12-3 and the Court had affirmed 143 death impositions as of August 8, 2002, 'the executive branch of government has shown some reluctance in fully implementing' it: President Estrada's December 2000 moratorium was continued by President Arroyo, whose August 27, 2002 memorandum granted 90-day reprieves. Congress was again debating repeal through Senate Bill 2060, while Pagdayawon v. Secretary of Justice held that a pending bill cannot justify staying a final sentence and declined to revisit constitutionality. He restates that 'the international trend is unmistakably towards the abolition of legalized killing,' citing the Optional Protocol to the ICCPR. Against a PAO report that 107 convicts had been 'spared,' he supplies the fuller figures from the Judicial Records Office -- 483 cases reviewed, 143 affirmed, 46 acquitted, 294 modified or remanded -- so that only about a third of capital sentences survive, and argues that if trial courts can be wrong more often than right 'there is always a probability of an erroneous death being inflicted.' He then lists eight conditions barring a death sentence and nine new pronouncements of his seventh year: age and relationship cannot be stipulated; People v. Pruna's six guidelines on proving age; the suggestive show-up in People v. Escordial; sufficiency of the information in Quezada; the town mayor as a disqualified counsel in Velarde; the inadmissibility of unwritten confessions in Felixminia; the reliability of DNA testing in Vallejo; separate voting on guilt and penalty in Roque; and the retroactive effect of RA 8294 on illegal firearm possession.",
-  "source_xlsx": "cjp_books_curated_normalized.xlsx"
+  "source_xlsx": "cjp_books_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "death_penalty_and_echegaray"
+    ],
+    "secondary": []
+  }
 }

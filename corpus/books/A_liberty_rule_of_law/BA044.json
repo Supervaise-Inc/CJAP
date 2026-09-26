@@ -70,5 +70,11 @@
     "grave-abuse-of-discretion check on the Ombudsman"
   ],
   "one_paragraph_summary": "Chapter 9 recounts PCGG v. Desierto and Disini — a decision CJP wrote — on the investigatory and prosecutory powers of the Ombudsman. He explains that although the Ombudsman enjoys wide latitude under RA 6770, that power is not absolute: when it is gravely abused through a gross misappreciation of evidence, the Court has the constitutional duty to reverse.",
-  "source_xlsx": "cjp_books_curated_normalized.xlsx"
+  "source_xlsx": "cjp_books_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "science_technology_and_the_law"
+    ],
+    "secondary": []
+  }
 }

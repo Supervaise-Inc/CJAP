@@ -153,5 +153,11 @@
     "Success-must-never-outpace-conscience PABLAW-founding test"
   ],
   "one_paragraph_summary": "Art's mentorship chapter, reframing the Yale denial as 'one of the most formative disappointments' that redirected him into Salonga's orbit. Jovito R. Salonga -- UP, Harvard, Yale-credentialed and 'a figure of moral and intellectual authority' -- steps into Art's life 'not merely as a former dean, but as a moral architect,' offering the chapter's titular aphorism: 'If you cannot go to Yale, Yale will come to you.' Apprenticing at Salonga, Ordoñez and Associates (1961-1963), Art encounters a firm culture where 'law was not practiced as transaction -- it was practiced as responsibility,' where 'victory without integrity was considered failure,' and where conscience mattered more than expediency. Salonga introduces him to the Filipino-legal-giants lineage -- Jose W. Diokno ('human rights advocacy would become legend') and Claudio O. Teehankee ('judicial courage would later define an era') -- men who 'were not... merely interpreting law; they embodied it.' From them Art learns that 'law divorced from morality becomes tyranny by another name' and that 'judges must sometimes stand alone and accept isolation as the cost of fidelity.' This apprenticeship 'forged his moral spine.' When he leaves in 1963 to establish his own firm, PABLAW, he carries not only legal competence but a philosophy: 'success must never outpace conscience.'",
-  "source_xlsx": "cjp_biography_curated_normalized.xlsx"
+  "source_xlsx": "cjp_biography_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "life_story_family_school_and_church"
+    ],
+    "secondary": []
+  }
 }

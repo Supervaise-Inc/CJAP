@@ -125,5 +125,11 @@
     "treats ASEAN/regional route as a pragmatic fallback requiring patience and diplomacy"
   ],
   "one_paragraph_summary": "Opening with a public correction of his prior column's citation error (Art. 51 should be Art. 33 of the UN Charter -- caught by reader Zara Mari Dy of Silliman University), Panganiban surveys all eight peaceful methods under Art. 33 available to settle the Sabah dispute. He gives most space to ICJ judicial settlement -- the Filipino public's 'hands-down favorite' -- explaining that while the Philippines as a sovereign state may sue, the ICJ requires the consent of both parties: if Malaysia refuses, the Court cannot acquire jurisdiction and the dispute cannot proceed. He clarifies the ICJ-vs-ICC distinction (only the ICJ is a UN organ; Sen. Santiago was elected to the ICC, not the ICJ), notes that only one Filipino -- CJ Cesar Bengzon -- ever sat on the ICJ, and explains that ICJ advisory opinions, while not binding, carry great persuasive weight but may be refused if the question relates to a pending bilateral dispute. He surveys the Security Council referral route (obligatory if Art. 33 methods fail and peace is threatened), the ASEAN regional route (requiring patience and diplomacy given state sovereign equality), and concludes that a fair, open, and free plebiscite or referendum under UN or ASEAN auspices -- allowing Sabahans to choose between Philippine, Malaysian, or even independent sovereignty -- is 'the most feasible and lasting solution,' while noting that Malaysia's 1963 referendum already claimed to settle the question and that Sabahans might vote for independence rather than alignment with either claimant.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "international_law_disputes"
+    ],
+    "secondary": []
+  }
 }

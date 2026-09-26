@@ -113,5 +113,11 @@
     "Read public opinion polls and approval ratings as legitimate inputs into the senatorial decision -- senators are the people's alter egos, not pseudo-jurists"
   ],
   "one_paragraph_summary": "Panganiban opens the Corona impeachment series with the foundational thesis: impeachment is sui generis -- more political than legal. While the Constitution uses legal language and sets out impeachment parameters in legalese, it lodged initiation in the House and decision in the Senate -- both bodies mostly of non-lawyers chosen by the people as their alter egos. If impeachment were mainly legal, the power would have been given to the SC, limited to lawyers with CIPI qualifications. The litmus test is policy-oriented: will the people and nation be better served by retaining or ousting the official? Senators carry the people's aspirations, pains, and sense of right and wrong. Three examples prove impeachment belongs to the people: (1) Live TV/radio coverage makes public opinion an integral part of the trial -- when technicalities block truth-discovery, the people take over (Estrada second-envelope → EDSA II); (2) the private lives of impeached officials and their families are opened to media scrutiny -- Gutierrez resigned before her Senate trial to spare her family; (3) the SC legally blocked the Davide impeachment, the House capitulated, and there was no public upheaval -- because the people trusted Davide and the SC. The Davide capitulation itself proves the thesis: public trust, not legal rulings, is the ultimate impeachment arbiter.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "impeachment_accountability"
+    ],
+    "secondary": []
+  }
 }

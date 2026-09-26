@@ -107,5 +107,11 @@
     "Member-in-Charge vs. ponente: separating case management from opinion authorship"
   ],
   "one_paragraph_summary": "Chapter 7 of 'With Due Respect' (Vol. 2), CJP's July 4, 2010 Inquirer column, sets out to demystify 'the most mysterious among major government agencies' -- the Supreme Court, whose processes stay hidden because, unlike trial courts, 'the public discovers a case only after a judgment is issued.' He recalls making it his 'self-imposed duty' to write a book each year to explain the Court's work, and notes that the Court itself did better on May 4, 2010 by codifying its processes as 'The Internal Rules of the Supreme Court' (A.M. No. 10-4-20-SC) -- rules that, by their own caveat, cannot limit the Court's constitutional powers and may be 'amended, revised, deleted, suspended or dispensed with' as the en banc finds 'just, fair and proper.' He explains that the Court sits en banc or in three five-member divisions, that 'a decision rendered by any of the three divisions is deemed a decision of the Court itself,' and that the most important cases (constitutionality of a treaty, law or EO; the death penalty; novel questions; reversals of jurisprudence; huge financial impact) are reserved to the banc. He lays out the 'controversial but well settled' rule that the banc does not exercise appellate jurisdiction over the divisions -- a division's denial of a referral motion is 'final and not appealable' -- while candidly noting that the banc has at times still reviewed and reversed division judgments under its power to suspend the Rules. On workload, he contrasts the Court's roughly 6,000 new cases and 1,200-1,500 full decisions a year with the US Court's ~10,000 petitions and ~100 acceptances, and describes the raffle system (about 30 cases a month per justice) and the new 'Member-in-Charge' role, which oversees a case but may not become its ponente -- so that if a draft ponencia loses the vote, the main dissenter writes the decision and the old draft becomes a dissent.",
-  "source_xlsx": "cjp_books_curated_normalized.xlsx"
+  "source_xlsx": "cjp_books_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "death_penalty_and_echegaray"
+    ],
+    "secondary": []
+  }
 }

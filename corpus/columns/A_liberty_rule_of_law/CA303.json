@@ -123,5 +123,11 @@
     "treats liability-for-abuse specification as an essential component of constitutional-powers analysis"
   ],
   "one_paragraph_summary": "Panganiban systematically maps the four legal consequences of martial law under the 1987 Constitution, using Justice Carpio's taxonomy from Lagman vs Medialdea (July 14, 2017) as his organizing framework. The first and only direct consequence requiring no implementing legislation is the facilitation of warrantless arrests of rebellion suspects -- grounded in Umil vs Ramos (1990)'s holding that rebellion is a continuing crime -- combined with habeas corpus suspension extending permissible detention from 36 to 72 hours, beyond which authorities become criminally liable for arbitrary detention. The second and third consequences are contingent triggers: ML can activate congressional delegation of emergency powers under Art. VI Sec. 23 (as happened via RA 6826 during the 1989 AFP rebellion under Aquino, allowing utility takeovers), and can authorize conferral of jurisdiction on military courts -- but both require implementing legislation that Congress has not passed. He briefly flags Justice Leonen's dissent that Proclamation 216 is unconstitutional for failing to specify what new powers the President would wield and what rights would be curtailed, presenting it as a legally serious concern without endorsing it. The column's through-line is the 'trigger function' thesis: ML is not an autonomous power grant but a constitutional switch that can activate additional authority only if Congress has pre-wired it through specific legislation.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "presidential_power_martial_law_people_power"
+    ],
+    "secondary": []
+  }
 }

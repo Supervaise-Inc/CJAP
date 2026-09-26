@@ -120,5 +120,11 @@
     "recommends omnibus-resolution as the institutional tool for preventing implementation paralysis"
   ],
   "one_paragraph_summary": "Panganiban analyzes the SC's landmark November 22, 2011 resolution (penned by Justice Velasco) invalidating Hacienda Luisita's 1989 Stock Distribution Plan and ordering the parceling of 4,915.75 hectares among 6,296 qualified farmworker-beneficiaries -- partly reversing the July 5, 2011 Velasco decision that had allowed stock ownership and 3% gross revenues. While all 14 participating justices unanimously upheld the constitutional 'land-to-the-tiller' principle, they were deeply divided on just compensation: the six-justice majority (Velasco, De Castro, Peralta, Del Castillo, Abad, Perez) fixed the reckoning date at November 21, 1989 (the PARC SDP approval, yielding less than P1 billion) as 'preliminary' subject to RTC revisit; Justice Sereno reckoned the taking on January 2, 2006 (potentially many times higher); and Justice Bersamin (joined by Reyes and Bernabe) left the date to DAR, LandBank, and the Special Agrarian Court. CJ identifies at least four additional unresolved issues: accounting for 3% gross revenues already paid; whether the P1.33 billion from the converted industrial park and SCTex sale (more than enough to cover the 1989 appraisal) should inure to FWBs; computing HLI's 'legitimate taxes and expenses'; and valuing home lots. He notes the PARC (chaired by President Aquino who is simultaneously the son of the landowners' family and the reform's executor) plus DAR and LandBank must implement a 'long and winding' resolution, and recommends the Court issue an omnibus resolution clearly showing where the majority stands to prevent the complexity of divergent opinions from paralyzing implementation.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "ill_gotten_wealth_and_the_pcgg"
+    ],
+    "secondary": []
+  }
 }

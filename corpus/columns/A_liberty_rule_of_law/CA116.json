@@ -191,5 +191,13 @@
     "Reputational-stakes test: failed-African-states placement risk"
   ],
   "one_paragraph_summary": "Stepping forward 'as a retired jurist' to comment on 'three crucial legal issues' while leaving political overtones to politicians, CJ Panganiban frames the looming ICC inquiry into alleged crimes against humanity during Rodrigo Duterte's incumbency as Davao mayor (Nov. 1, 2011 - June 30, 2016) and president (July 1, 2016 - March 16, 2019). On sovereignty: while political leaders invoke absolute control, the Philippines partly surrendered sovereignty when the Senate ratified the Rome Statute on Aug. 30, 2011 -- including the binding provision that the ICC retains jurisdiction over crimes committed while the Philippines was a member, which is exactly the date range Khan is investigating. On scope: Rome Statute Article 5 covers genocide, crimes against humanity, war crimes, and the crime of aggression, with Article 7 defining crimes against humanity to include murder 'committed as part of a widespread and systematic attack directed against any civilian population with knowledge of the attack.' The OSG (under Menardo Guevarra) denies the predicate by characterizing the killings as 'legitimate operations against illicit drugs' rather than state-policy attacks on civilians -- a factual dispute CJ defers, noting only that this is exactly what Khan's preliminary investigation (which requires ICC Pre-Trial Chamber authority, unlike Philippine and US PI regimes) is meant to assess. On complementarity -- the 'pivotal' third issue -- Article 17 requires the ICC to defer if the state 'is already being investigated or prosecuted... unless the State is unwilling or unable genuinely to carry out the investigation or prosecution.' CJ decomposes the test into three parts (willingness + ability + genuinely) and identifies DOJ and OSG as the 'immediate targets' who must demonstrate real investigation of the 'lawless killers of drug suspects estimated by our government at 6,117, and by critics at 30,000.' If Khan succeeds, the Philippines will be 'mercilessly debased and numbered among failed African states' -- tainting also the Supreme Court (admired as 'the most powerful in the world' because uniquely empowered to strike down grave abuse of discretion), the network of foreign jurists CJ visited and hosted as CJ (Canada's McLachlin, China's Xiao Yang, Russia's Lebedev, Israel's Beinisch, France's Canivet, US Justices O'Connor and Kennedy who 'became my personal friends'), and revered Filipino jurists at world tribunals (Bengzon at the ICJ, Feliciano at the WTO, Pangalangan recently retired from the ICC itself).",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "criminal_trials_and_prosecutions"
+    ],
+    "secondary": [
+      "international_law_disputes"
+    ]
+  }
 }

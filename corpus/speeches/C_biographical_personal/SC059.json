@@ -151,5 +151,11 @@
     "uses doxology-as-closer as a recurring structural signature of personal-occasion speeches"
   ],
   "one_paragraph_summary": "Delivered December 20, 2016 at the brand-new Maybank Performing Arts Theater in BGC at the end of the 'Ageless Passion' musicale staged in his honor, this closing remarks address blends humor, gratitude, and doxology. Panganiban opens by introducing his wife Leni, his five children with their spouses, and his eight grandchildren by name. He greets Cardinal Luis Antonio Tagle ('the gentle Archbishop of Manila and Pope-in-waiting,' who sang rather than recited the Prayer of St. Francis as invocation), President FVR and wife Ming (who sent his book '2030 One World, One Community, One Family' with the salutation 'Dear Tiger Chief Justice Art'), and President GMA and husband Atty. Jose Miguel (who appointed him 21st CJ without interview or conversation from the JBC's 5-name short list). He discloses that December 20 is not his actual birthday (which is December 7) but the 11th anniversary of his CJ appointment, and recalls the hotel-ballroom moment when, mid-speech, someone passed him a note that he had been appointed CJ -- he froze, descended the stage, avoided media, drove with Leni to their parish church, and on bended knees thanked the Lord. He then reformulates Reinhold Niebuhr's serenity prayer for old age: 'Lord, grant me the senility to forget the people I never liked, the good fortune to run into the people I do, and the eyesight to tell the difference,' and quotes Frank Laubach's 'Life Begins at 80' on the joys of octogenarian forgetfulness. He inventories his life at 80 -- director/adviser in 12+ corporations and 6+ foundations with near-100% attendance, six annual trips abroad, tennis and golf four times a week, gym thrice weekly, occasional dancing -- having survived 'premature death as a six-year old during World War II' to become 'a recycled octogenarian.' He closes by reciting the personal Psalm-23-echoing prayer he composed in 1995 on entering the Supreme Court, dedicating his life to God.",
-  "source_xlsx": "cjp_speeches_curated_normalized.xlsx"
+  "source_xlsx": "cjp_speeches_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "jbc_discernment_and_appointment"
+    ],
+    "secondary": []
+  }
 }

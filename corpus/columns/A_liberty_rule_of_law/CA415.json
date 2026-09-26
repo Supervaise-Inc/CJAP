@@ -159,5 +159,13 @@
     "closes with Latin-fiat-justitia public-demand maxim"
   ],
   "one_paragraph_summary": "Panganiban addresses reader impatience over the slow PDAF prosecution against the fast Cedric Lee/Vhong Navarro detention case. The trigger: ten of the twenty Senate blue ribbon committee members have found probable cause and recommended plunder charges against Senators Jinggoy Estrada, Juan Ponce Enrile, and Bong Revilla -- and notably Estrada's half-brother Sen. JV Ejercito signed the committee report, telling Rappler 'It's the right thing to do.' To explain the pace difference, Panganiban compares the law and the evidence required. Plunder under RA 7080 is a complicated offense -- 'amasses, accumulates or acquires ill-gotten wealth [of at least P50 million] through a combination or series of overt or criminal acts' establishing an overall scheme or conspiracy, cognizable by the Sandiganbayan when committed by high-ranking officials. Illegal detention under RPC Art 167 is straightforward and uncomplicated -- 'any private individual who shall kidnap or detain another' -- committed in single acts, easy to perpetrate, investigate, and prove, cognizable by the RTC. Both are capital offenses non-bailable when evidence of guilt is strong, but plunder's structural complexity (multiple acts, multiple respondents, schemes via NGOs) means the truckloads of NBI/COA/whistleblower evidence on the overall scheme are sufficient for plunder of the treasury but the bottleneck is pinpointing each respondent's role, particularly the three senators'. He adds that care in pinpointing is critical because filing may trigger arrest and indefinite detention, and the Plunder Law's suspension-from-office consequence could disrupt Senate functioning. His prescription is the CJP-signature prudence-over-haste: while only probable cause is required to file, the OOO should go beyond and make sure evidence will convict; a little delay can be excused if it secures punishment. He invokes the Jinggoy Estrada document-furnishing petition (Morales's prompt remedy headed off SC reversal) as the model of due-process care, frames the pork cases as a litmus test like Maguindanao, and closes with the Latin maxim: Fiat justitia ruat caelum -- let justice be done though the heavens fall.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "criminal_trials_and_prosecutions"
+    ],
+    "secondary": [
+      "public_funds_budget_and_bank_evidence"
+    ]
+  }
 }

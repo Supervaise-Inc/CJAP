@@ -139,5 +139,13 @@
     "Anticipate elite-deterrent and victim-empowerment consequences as part of doctrinal evaluation"
   ],
   "one_paragraph_summary": "Following up his prior column on People v. Alcantara (the De Lima case), Panganiban explains the asymmetric appellate consequence in People v. XXX262846 (February 18, 2025, per J. Antonio T. Kho Jr., en banc, 14-0-1), where the accused -- convicted by the RTC and CA only of unjust vexation for trying to mount the victim with his genitals exposed before being stopped by her blow to his stomach -- saw his own appeal upgrade his conviction to attempted rape with a maximum 12-year sentence plus damages (identities withheld under RA 7610). The Supreme Court held, correctly in the author's view, that an appeal by the accused waives the constitutional defense of double jeopardy under Article III, Section 21 and authorizes the upper courts to reopen the case de novo, examine all records, modify the judgment, and increase the penalty when warranted. In contrast, when it is the prosecution that challenges an acquittal -- as in De Lima's case -- it cannot ask, and the reviewing court cannot grant, a harsher penalty unless the state proves deprivation of due process or grave abuse of discretion. The decision expressly abandons and reverses People v. Balunsat (July 28, 2010, per J. later CJ Teresita J. Leonardo-De Castro, First Division), which had held that even an accused-initiated appeal could not be reviewed without violating double jeopardy. Panganiban welcomes the return to the 'inflexible rule' of his law-student days, arguing it prevents elite accused from using multiple appeals to gain time, jump bail, harass victims and witnesses, and clog court dockets -- and that it serves as a warning to unscrupulous prosecutors who pursue innocents at the bidding of political patrons. The reversal, he closes, engenders deterrent fear among the elite and levels the playing field for the offended parties, who can now continue their fight without being outlasted by powerful or wealthy adversaries gaming the appellate system.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "criminal_trials_and_prosecutions"
+    ],
+    "secondary": [
+      "supreme_court_vacancies_and_chief_justiceship"
+    ]
+  }
 }

@@ -168,5 +168,13 @@
     "peace evaluated as the fruit of social justice, not merely the absence of violence"
   ],
   "one_paragraph_summary": "Chapter 1 of 'Love God, Serve Man' is the address CJP delivered on July 12, 1990 at the Manila Hotel Fiesta Pavilion on his induction as president of the Rotary Club of Manila, where he announced the credo that gives the book its title. He begins with humility and history: he had never been a candidate, since under an election procedure unique in all of Rotary the top vote-getter for the board is automatically proclaimed president; his predecessors included Senate President Gil J. Puyat, Justice George A. Malcolm and Carlos P. Romulo; and the Club, at 455 members, is the oldest in Asia and the largest outside the United States, which he says has loaded a heavy burden upon his lean and unworthy shoulders. Elected as early as December 1989, he spent seven months planning with his team and produced a printed Program of Action built on a three-point VISION, structured like a triad and a pyramid: Manila Rotary is for its members, colleagues and guests; for excellence in the professions, business, education and government; and mostly and most importantly for the poor, the afflicted and the weak. He enumerates the programs under each point -- weekly meetings and membership targets, the 4-way test and journalism and scholarship programs, and a long list of charitable projects from medico-surgical missions and a new eye bank to immunization drives, Save A Heart, Save A Life, Sagip Kabataan, newsboys' Mini-Olympics and shoeshine stands -- and states the budget frankly: P10 million needed against a previous high of P5 million, with dues unchanged and P7 million to be raised. The raison d'etre, he says, is to help those who cannot help themselves and to help those who cannot help us back in return, for if the rich who are few will not help the poor who are many, the few who are filled cannot escape the wrath of the many who are hungry. He then grounds Rotary's maxims theologically in Christ's threefold command to Peter to feed My sheep, defines peace as the fruit of social justice, and closes by submitting to be judged upon the credo and inviting all to recite the Prayer of St. Francis of Assisi.",
-  "source_xlsx": "cjp_books_curated_normalized.xlsx"
+  "source_xlsx": "cjp_books_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "life_story_family_school_and_church"
+    ],
+    "secondary": [
+      "faith_journey"
+    ]
+  }
 }

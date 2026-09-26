@@ -115,5 +115,11 @@
     "structures voter-education around scattered constitutional duties rather than charisma metrics"
   ],
   "one_paragraph_summary": "Panganiban opens with a paradox from an SWS survey of December 2018: while 'will not be corrupt' topped the qualities Filipino voters seek in senators, the same surveys showed several probable winners not known for honesty. He attributes this stated-preference-vs-revealed-preference gap to voter ignorance about which of the 63 aspirants for 12 slots actually embody incorruptibility, leaving name recall (from Senate incumbency, showbiz, sports, media ads, and entertainment) to dominate choices alongside the '3Gs' (guns, goons, gold), '3Rs' (relationship, kinship, friendship), and 'profligate vote-buying.' He argues the Constitution's bare-minimum qualifications -- natural-born citizenship, 35 years old, ability to read and write, voter registration, two-year residence -- are absurdly less demanding than what households require when hiring a kasambahay (trustworthiness, honesty, diligence plus specific skills). He proposes a six-fold framework derived from scattered constitutional provisions on senatorial duties: lawmaking competence with parliamentary skill; substantive oversight-hearing preparation (avoiding 'nauseous grandstanding and intellectual nihilism'); budget literacy detecting disguised pork; quasi-judicial probity in impeachment, electoral tribunals, the Commission on Appointments, and treaty ratification; statesperson serenity on war, amnesty, emergency powers, and martial law/habeas corpus; and constitutional-amendment independence. He closes by asking voters whether their senatorial choices possess any of these qualities -- leaving the diagnostic question rather than naming candidates.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "party_list_charter_change_and_dynasties"
+    ],
+    "secondary": []
+  }
 }

@@ -79,5 +79,11 @@
     "stare-decisis on election law"
   ],
   "one_paragraph_summary": "Chapter 7 analyzes Socrates v. Comelec and Mendoza v. Comelec, which tested the constitutional three-term limit on elective local officials (Constitution Art. X; RA 7160). CJP explains how the limit — and the rule that 'voluntary renunciation' does not interrupt consecutive terms — was applied against the backdrop of precedents like Borja, Lonzanida, and Adormeo.",
-  "source_xlsx": "cjp_books_curated_normalized.xlsx"
+  "source_xlsx": "cjp_books_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "science_technology_and_the_law"
+    ],
+    "secondary": []
+  }
 }

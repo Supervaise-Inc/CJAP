@@ -143,5 +143,11 @@
     "Recognize that a single doctrinal change can run in opposite directions for different cases -- protective in some, prolonging in others"
   ],
   "one_paragraph_summary": "Returning to a topic he addressed on March 24, Panganiban explains how the question of prescription operates in the case of former president Rodrigo R. Duterte at the International Criminal Court and how recent Philippine jurisprudence affects it. He restates the pivotal issue: the ICC Statute gives the Office of the Prosecutor two years from the Philippines' withdrawal (effective March 17, 2019) to conduct its preliminary examination and seek Pre-Trial Chamber authority to investigate; former ICC Chief Prosecutor Fatou Bensouda started her preliminary examination on February 8, 2018 (when the PH was still a member), applied for formal investigation only on May 24, 2021, and received Pre-Trial Chamber authority on September 15, 2021 -- both well past the two-year limit. Under the now-superseded PH rule in Republic v. Desierto (January 16, 2023) and Corpuz Jr. v. People (August 16, 2023), prescription was tolled only when the information was filed in court, not when the complaint was filed at the prosecutor's office; the ICC counterargument was that the OP is an integral organ of the ICC itself (alongside the Presidency, Judicial Divisions, and Registry), unlike the PH DOJ, which sits in the executive branch. But in People v. Consebido (April 2, 2025, per J. Henri Jean Paul B. Inting, en banc), the Supreme Court abandoned the old doctrine and now treats the filing of the complaint at the DOJ or city/provincial prosecutor's office as the tolling event, reasoning that 'it is unjust to deprive the injured party of the right to obtain vindication on account of delays that are not under [their] control.' Applying that analogously, Duterte's ICC case should not be dismissed because the two-year window had not even begun running when Bensouda started her examination while the PH was still a member. He closes by noting the doctrinal 'somersault' is double-edged: it explains how prescription could end Duterte's detention in The Hague while it could also prolong his case in Philippine courts.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "criminal_trials_and_prosecutions"
+    ],
+    "secondary": []
+  }
 }

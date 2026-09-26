@@ -160,5 +160,11 @@
     "deterrence as a test of a sanction's adequacy, against the 'dismiss now, pay later' practice"
   ],
   "one_paragraph_summary": "Chapter 19 of 'Judicial Renaissance' recounts Agabon v. NLRC, promulgated November 14, 2004 during Panganiban's tenth year on the Court, in which an 8-to-6 majority abandoned Serrano v. NLRC and reverted to the Wenphil doctrine. Riviera Home Improvements had hired Virgilio and Jenny Agabon in January 1992 as cornice and gypsum board installers and dismissed them in February 1999 without any termination notice for abandoning work; the labor arbiter ruled for them, but the NLRC found abandonment and the Court of Appeals agreed. Writing for the majority, Mme. Justice Consuelo Ynares-Santiago held there was a just cause but that the employer had breached the twin-notice requirement of the Omnibus Rules, and so owed each petitioner nominal damages of P30,000. Panganiban traces the doctrinal line: before 1989 a dismissal without notice was illegal; Wenphil made it valid with a P1,000 indemnity; Serrano in 2000 made it ineffectual and required full back wages to deter employers wont to 'dismiss now and pay later'; Agabon returned to indemnity, stiffened, reasoning that under Article 279 a termination is illegal only if it is not for a just or authorized cause. He dissented, calling the ruling an 'inexplicable turnaround' that set back labor's rights and diminished respect for due process, and restated the position he had taken in Serrano: illegal dismissal results not only from the absence of a just or authorized cause but also from the failure to observe due process, so the sanction is full back wages plus reinstatement and a return to the status quo ante, the only exception being a Wenphil-like case where observing the procedure was impractical and futile, where compassion may supply a nominal sum under Article 2221 of the Civil Code. He reports Justice Puno's dissent grounding notice in constitutional social justice and security of tenure, and Justice Tinga's concurrence treating the breach as merely statutory and relocating the remedy in the Civil Code, with four proposed standards for nominal, actual, temperate and moral or exemplary damages.",
-  "source_xlsx": "cjp_books_curated_normalized.xlsx"
+  "source_xlsx": "cjp_books_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "property_contracts_and_economic_rights"
+    ],
+    "secondary": []
+  }
 }

@@ -96,5 +96,13 @@
     "48.02-percent-as-evidence: quantifiable APJR achievement as proof of direction"
   ],
   "one_paragraph_summary": "Delivered October 12, 2006 at a Pampanga trial judges convention -- 'my coming home to Pampanga has been oftener in the past few months than it has been collectively in the past two decades' -- this address by CJP reviews the APJR achievements of his 10-month tenure. On access to justice: the Justice on Wheels program (deployed December 21, 2004; a mobile court bus with judge, prosecutor and stenographer, initially for Family Court cases in the NCR; two more buses ordered for Visayas and Mindanao). On corruption and incompetence: strict entrance and promotion requirements, continuing ethical education, and doubled compensation per RA 9227. On delay: Zero Backlog Committee created upon assuming office; 'old cases assigned to the three Divisions of the Supreme Court have drastically gone down by 48.02 per cent.' The key insight: 'the SC may be the highest court of the land, but to the vast majority of our people, justice is represented and dispensed by you, the trial judges.' He closes with the candle-fill-the-room parable: a man gives each of three children P1,000 to fill the room; the tree doesn't cover it, the hay doesn't fill it, the third child buys candles and matches -- 'at nightfall, he lit the candles one by one, and slowly the room was filled with light. The father exclaimed: This is the one who will lead.' Application: 'sometimes it takes so little to accomplish so much of a gargantuan task. I urge all of you to take courage in lighting your own little candles of reform in your respective courts and together, we shall light up the firmament of justice in our country.'",
-  "source_xlsx": "cjp_speeches_curated_normalized.xlsx"
+  "source_xlsx": "cjp_speeches_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "judicial_reform"
+    ],
+    "secondary": [
+      "twin_beacons_doctrine"
+    ]
+  }
 }

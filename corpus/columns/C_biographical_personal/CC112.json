@@ -129,5 +129,11 @@
     "treats family participation (5 children, 10 grandchildren) as the ultimate measure of a life well-lived"
   ],
   "one_paragraph_summary": "Writing on Christmas Day, Panganiban recounts the genesis of 'Ageless Passion' -- a Broadway-style musicale celebrating his 75th birthday staged December 20 at the Meralco Theater. What began as a modest home gathering with a string band and 120 guests was transformed when Jeff Agustin, a former PowerPoint preparer now studying at the University of Westminster in London, submitted an unsolicited libretto romanticizing CJ's life at a planning meeting; Eduardo Yap showed it to Ryan Cayabyab who created 7 original compositions in 7 weeks; and producer Donna May Lina Flavier organized the Manila Symphony Orchestra (conducted by Arturo Molina), a cast of six, and multi-awarded director Bart Guingona -- with Alberto and Sylvia Lina as sponsors. The show drew 800+ attendees including VP Binay, former presidents Ramos and Estrada, Archbishop Tagle, SC justices, and business titans (President Aquino was absent tending Mindanao flood victims). The musicale opened with the good-news-bad-news medieval farmer story -- also the late Cardinal Sin's favorite -- whose refrain 'I will just keep on doing my best and God will do the rest' is the column's organizing philosophy, applied to CJ's biographical arc: 'from the poor newsboy in the backstreets of Sampaloc, Manila to the presidency of the Philippine Daily Inquirer; from an ignorant Catholic to an adviser to the Holy Father in the Vatican; from frustrated applicant for graduate studies to father of five wonderful children who each achieved his impossible dream of graduating in a pedigreed US university; from a shoeshine boy to the boardrooms of the largest blue chips; and from a frustrated chemical engineer to a reluctant lawyer to the highest magistrate of the land.' CJ closes by naming all five children and ten grandchildren -- including eldest grandchild Miguel as narrator and two youngest (Joey and Matt Reagan) contributing via video from New York.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "life_story_family_school_and_church"
+    ],
+    "secondary": []
+  }
 }

@@ -125,5 +125,11 @@
     "Treat the House-only Cha-cha as the most vulnerable target for a prohibition action"
   ],
   "one_paragraph_summary": "The four top congressional leaders (Pimentel, Sotto, Alvarez, and Fariñas) agreed to discuss specific draft provisions rather than resolving the joint-vs-separate-voting dispute first -- reversing the Senate's earlier condition-first stance. The Senate wants separate sessions, separate voting, and one year's work with a plebiscite at the 2019 midterms (per Lacson, treat as ordinary legislation); the House is fast-tracking via joint voting and three months toward a May 2018 barangay-election plebiscite, with Alvarez arguing the Charter text says only 'Congress, vote of three-fourths' and nothing more. Sen. Bam Aquino's Con-con alternative requires a two-thirds congressional vote -- mathematically impossible without the House. Panganiban identifies the SC as the ultimate arbiter: it cannot force the Senate to join a Con-ass or the House to call a Con-con (both are discretionary powers, and the SC can only command ministerial duties), but in a timely prohibition suit the SC can rule on joint vs separate voting, bar the House from proceeding with 'House-only' Cha-cha, or prohibit Comelec from conducting a plebiscite on those revisions. He notes that a petition for declaratory relief (like lawyer Arturo de Castro's) will not prosper because the SC has no original jurisdiction over declaratory relief. Even if separate votes are counted, a taxpayer may still sue to determine whether they can be added 'jointly' to reach three-fourths. The column closes: only the SC can direct the Cha-cha express which fork to take -- reinforcing the series title of Jan. 14's 'What Alvarez wants, Alvarez gets.'",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "party_list_charter_change_and_dynasties"
+    ],
+    "secondary": []
+  }
 }

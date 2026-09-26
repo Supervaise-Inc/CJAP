@@ -131,5 +131,13 @@
     "Treat stable pay as an anti-corruption measure, not just a retention incentive"
   ],
   "one_paragraph_summary": "Panganiban surveys three interrelated judicial reforms. First, the Judicial Affidavit Rule (promulgated September 4, 2012; effective January 1, 2013), drafted by committees led by JJ Carpio and Abad: witnesses no longer give direct testimony through Q&A but instead submit affidavits in their language with translation, while the adverse party retains cross-examination rights; applies to all civil cases and criminal cases with a maximum 6-year penalty or with the accused's consent; a Quezon City pilot showed it reduced direct testimony time by two-thirds. Second, the vacancy problem: Drilon discovered at a Senate finance hearing that 591 trial courts (26% of organized courts) were funded but vacant, with their budget realigned as SAJ and other supplements for sitting judges. CJ Sereno (as JBC chair) committed to hasten short lists so all vacancies could be filled by 2015. Third, compensation stabilization: at a private meeting hosted by the author, Budget Secretary Abad and legislative leaders Drilon and Rep. Abaya agreed to fund stable monthly compensation for trial judges -- RTC judges at P128,198.66, MeTC judges at P119,209.66, MTC judges at P102,612-P110,925 -- eliminating the need for 'savings realignment.' The three reforms are interlocking: the first shortens trial time, the second adds 25%+ judicial capacity, and the third raises quality by attracting better lawyers and helping judges resist bribery. The column closes with a plug for the FLP Professorial Chairs launch on September 18.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "judicial_reform"
+    ],
+    "secondary": [
+      "jbc_discernment_and_appointment"
+    ]
+  }
 }

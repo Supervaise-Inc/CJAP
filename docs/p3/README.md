@@ -80,8 +80,8 @@ Nothing in `app/` or `scripts/` reads the moved paths — checked. Two reference
 
 - `scripts/verify_v4_transition.py:153` records the P3.1 rollback as *"restore
   `data/index/_archived_bgelarge_*` over production names"* — those files are now under `_archive/`.
-- `scripts/build_centroids_fullcorpus.py:82` **writes** `_archived_pilotmm_*` at the top level if run.
-  That script is banned outside CE-10 anyway.
+- `scripts/build_centroids_fullcorpus.py` used to write `_archived_pilotmm_*` at the top level. CE-10 rewrote it: it now
+  builds centred centroids from scratch and REFUSES to overwrite existing centroid files (archive first, by moving).
 
 **Do not delete `_archive/`.** It holds the only rollback for the ratified encoder and the promoted
 arch-baseline-v4.2 artifacts, all three sha-verified:
@@ -93,3 +93,35 @@ _archived_precorrection_2026-09-22_corpus_dense.npy    df5ca465c954e218   = v4.2
 _archived_bgelarge_* · _archived_pilotmm_* · bakeoff_* = P3.1's "archive the alternatives with a
                                                           rollback", which is a Done-when bullet
 ```
+
+---
+
+## CE-10 (27 Sep 2026) — the build order, recorded because the order is the fix
+
+**map → centroids → tag all 1,290 documents → `apply_topic_paths` → re-pin (`build_corpus_snapshot.py`) → refresh
+`chunk_index.json`.** The pin comes LAST. Pinning before the apply step is what wiped the `topic_paths` backfill on every
+earlier regeneration and left 0 of 1,104 documents tagged (P3.3); the pin is over the source xlsx, but the regeneration that
+follows a re-pin rewrites the corpus JSONs, so anything applied before it is lost. Run in this order, every time the taxonomy
+changes:
+
+| # | step | command | what it must show |
+|---|---|---|---|
+| 0 | corpus mean (once) | `scripts/build_corpus_mean.py` | writes `data/index/corpus_mean.npy`; refuses to overwrite a differing file |
+| 1 | archive v1 artifacts | *move* (never delete) into `data/index/_archive/` with a dated prefix | `_v1_pre-CE10_2026-09-27_*` |
+| 2 | topic map | `scripts/build_topic_map.py` | `len(load_docs()) == 1290`, `taxonomy_version: 2`, doc_counts = the proposal's Table 1 |
+| 3 | centroids, from scratch, centred | `scripts/build_centroids_fullcorpus.py` | meta records the mean's sha256, `n_chunks`, `corpus_dense_build_date` |
+| 4 | independence check + tag ALL documents | `scripts/merge_tag_topics.py <date>` | 0 pairs above `TOPIC_MERGE_COSINE`; `n of 1,290` tagged; `reports/topic_tags_full_<date>.json` |
+| 5 | per-document `topic_paths` | `scripts/apply_topic_paths.py` (now includes `books/**`, writes LF) | 1,290 of 1,290 files carry `topic_paths` |
+| 6 | **re-pin** | `scripts/build_corpus_snapshot.py`, then `scripts/verify_pin.py` | `PASS — 1295 docs` (1,290 + 5 retired ids) |
+| 7 | refresh `chunk_index.json` | `scripts/chunk_corpus.py` | `chunks.jsonl` byte-identical; only `source_snapshot` changes; update the four metas that record its sha256 |
+
+**Centring.** Every cosine that touches a centroid is on vectors centred on `data/index/corpus_mean.npy`, loaded only through
+`app/centering.py`, which raises if the file is missing or its sha256 disagrees with `corpus_mean.sha256` in
+`topic_centroids_meta.json` (three sites: the centroid build, `retrieval._load_pilot()`, `retrieval.route()`; plus the tagger).
+There is no fallback to raw. The dense retrieval arm still uses raw vectors. `TOPIC_MERGE_COSINE` (0.75),
+`TOPIC_ASSIGN_MIN_COSINE` (0.31) and `OUT_OF_SCOPE_THRESHOLD` (0.12) are centred values; do not compare them with the v1 raw ones.
+
+**Archived by this phase (moved, not deleted):** `data/index/_archive/_v1_pre-CE10_2026-09-27_topic_centroids.npy`,
+`..._topic_centroids_meta.json`, `..._topic_centroids_premerge.npy`; the v1 map is kept beside the new one as
+`corpus/voice/topic_map_v1_2026-05-25.json`. `data/index/corpus_mean.npy`, `topic_centroids.npy` and `topic_centroids_meta.json`
+are force-tracked (the rest of `data/index/` stays git-ignored) because the load-time sha256 check ties the three together.

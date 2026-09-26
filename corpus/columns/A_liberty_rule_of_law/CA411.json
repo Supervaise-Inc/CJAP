@@ -142,5 +142,13 @@
     "closes with anchor-of-the-ship-of-state metaphor framing SC institutional role"
   ],
   "one_paragraph_summary": "Panganiban argues that the 1987 Constitution -- drafted in record one year by handpicked-not-elected Cory Aquino framers traumatized by martial-rule repression -- was deliberately designed to make authoritarian rule impossible by reducing presidential powers, strengthening Congress and the independent agencies, writing a detailed-and-lengthy Charter contrary to the broad-brief-definite tradition, and most importantly giving the judiciary overarching grave-abuse-of-discretion powers undefined by the Charter and left for the SC to flesh out, making the Philippine SC the most powerful tribunal in the world, more so than even the US SC. He notes the framers wrote into the Charter text Miranda rights that the US handles only by SC decision (with reader Mongontawar Gubat's rueful 'Sa porsiento ka na lang magpaliwanag' joke on systemic memorization failure), and that illegally-obtained evidence and forced confessions are inadmissible, sometimes acquitting the factually guilty. He praises the Court's capacity for self-correction -- LAMP (April 24 2012) unanimously upheld PDAF, Belgica (Nov 10 2013) unanimously struck it down a year later -- while raising without pressing the asymmetric TRO treatment of MOA-AD (TRO'd on signing day) versus the functionally equivalent FAB (no TRO) and EDCA (no TRO despite the Charter's Senate-concurrence requirement for foreign military bases/troops/facilities). He closes with his living-Constitution interpretive philosophy: the Charter should be construed according to the evolving needs of the people who ratified it, not rigidly according to its letter, and with this mindset the SC can use its vast powers to speed up justice, minimize technicalities, and be the anchor of the ship of state during stormy times.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "how_the_supreme_court_decides"
+    ],
+    "secondary": [
+      "bangsamoro_peace_process"
+    ]
+  }
 }

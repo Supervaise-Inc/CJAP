@@ -149,5 +149,14 @@
     "judicial unanimity as the supreme institutional virtue"
   ],
   "one_paragraph_summary": "This is the formal introduction of CJP as guest speaker and inducting officer at the PICPA induction ceremony on July 3, 2021, delivered by Dr. Alcala. It opens with 'Ageless Passion' -- a musical tribute composed by National Artist Ryan Cayabyab with lyrics by Kristian Jeff Agustin -- as the thematic hook. The introduction traces his life from newsboy in post-war Manila to his 11-year Supreme Court stint, recounts the December 6, 2006 unanimous resolution acclaiming him '21st Century's Renaissance Jurist,' the April 26, 2007 Philippine Bar Association Award of Honor, and Judge Raul Pangalangan's (ICC The Hague) assessment that he 'strove to have as much unanimity as possible' because 'the least dangerous branch speaks loudest when it judges wisely and in one voice.' It enumerates his post-retirement directorial roles (Meralco, Petron, PLDT, Metro Pacific, JG Summit, GMA Network, Jollibee, Metrobank, etc.) and civic leadership (FLP Chairman, Metrobank Foundation, Manila Cathedral Foundation, Permanent Court of Arbitration Philippine Chair, Pontifical Council for the Laity -- only Filipino appointee by Pope John Paul II for 1996-2001). Academic highlights include 6th place in the 1960 Bar at 89.55, FEU Outstanding Alumnus, honorary doctorates from five universities, and 'With Due Respect' ranking 3rd on Amazon's courts bestseller list (behind Jeffrey Toobin and Justice Antonin Scalia). The introduction closes with CJP's family: wife Elenita C. Panganiban and five children (Maria Elena-Yaptangco, Jose Artemio III, Maria Jocelyn-Hannett, Maria Theresa-Manalac, Maria Evelyn-Reagan).",
-  "source_xlsx": "cjp_speeches_curated_normalized.xlsx"
+  "source_xlsx": "cjp_speeches_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "foundation_for_liberty_and_prosperity",
+      "life_story_family_school_and_church"
+    ],
+    "secondary": [
+      "judiciary_milestones_and_tributes"
+    ]
+  }
 }

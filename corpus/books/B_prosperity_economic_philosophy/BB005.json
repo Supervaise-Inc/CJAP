@@ -110,5 +110,11 @@
     "opportunities-over-welfare; civil society as democracy's future"
   ],
   "one_paragraph_summary": "Chapter 11 of 'With Due Respect' (Vol. 7), CJP's August 26, 2007 Inquirer column, reviews Jose T. 'JoeAl' Almonte's book 'We Must Level the Playing Field' -- which CJP and President Ramos were invited to launch -- reading it as the key to 'the soul of the Ramos presidency.' CJP recalls first being 'wary' of the 'shadowy and enigmatic' national security adviser, picturing him as 'some sort of James Bond,' before the 'Wednesday Group' meetings revealed 'a true-blue ideologue, thinker, and strategist' whose ideas reinforced CJP's belief that 'the rule of law must not only safeguard liberty but must help eradicate poverty and nurture prosperity.' The book's central aim is to 'level the playing field of enterprise' by dismantling 'networks of collusion' -- a vision that led the Ramos government to break up monopolies in 'telecommunications, transportation, banking, insurance,' open strategic industries and attract investment against 'oligarchic interests.' Almonte, a retired general, also analyzed the military (the 'best organized' institution, hence 'a major player in post-independence politics,' whose dissident officers could only be kept in 'their barracks' by real reforms) and insurgencies ('wars of ideas... won or lost depending on which side gains the people's trust'). On social and political reform, he argued the poor 'need economic opportunities more than they need welfare,' that 'parliamentary government will not be a cure-all' and 'might... produce revolving-door governments,' and that democracy's future 'may lie outside the formal political arena' with a civil society building parties 'based on principles and programs, rather than... naked power.' The book, CJP concludes, confirms the Ramos government had 'a clear ideology' -- and that while FVR 'may have been the embodiment of Philippines 2000,' Almonte was its 'sentient' soul.",
-  "source_xlsx": "cjp_books_curated_normalized.xlsx"
+  "source_xlsx": "cjp_books_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "property_contracts_and_economic_rights"
+    ],
+    "secondary": []
+  }
 }

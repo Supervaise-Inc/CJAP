@@ -148,5 +148,11 @@
     "Frame historical legacy as the most powerful non-institutional check on judicial independence"
   ],
   "one_paragraph_summary": "More than a month after his January 29 column on the SC's 'crucial cases,' Panganiban continues to receive harsh criticism of the nine Libingan majority justices (Ocampo v. Enriquez, December 8, 2016). He states he would have voted with the minority but has not lost faith in the majority and does not consider them all Marcos partisans or Duterte followers -- pointing out that some of them, including JJ Del Castillo and Perlas-Bernabe, voted unanimously to forfeit Marcos ill-gotten wealth just weeks later (Estate of Marcos v. Republic, January 18, 2017). He urges critics to read justices' opinions and track records before condemning them, and to treat the Libingan defeat as a 'wake-up call' -- 'eternal vigilance is the price of liberty.' He then places the Libingan controversy in historical context: Javellana v. Executive Secretary (March 31, 1973) -- validating the 1973 Constitution ratified by hand-raising in barangay assemblies rather than nationwide secret ballot -- is the most infamous PH SC decision, creating judicial villains from the majority and heroes from the minority (CJ Roberto Concepcion, Justice Calixto Zaldivar, Justice Claudio Teehankee, who became CJ after EDSA). In comparative perspective, the US paradigm of judicial villainy is Dred Scott v. Sandford (March 6, 1857) -- CJ Taney ruling Black Americans were 'mere possessions,' not citizens -- requiring a constitutional amendment to correct. The US paradigm of judicial heroism is Marbury v. Madison (February 24, 1803) -- CJ John Marshall defining the SC's role and conceiving judicial review, his statue dominating the Court's interior. Every sitting justice, he concludes, knows they too could be hailed as heroes or condemned as villains -- and closes with a call for the PCGG to finally give the public a full account of how much Marcos ill-gotten wealth has been recovered.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "ill_gotten_wealth_and_the_pcgg"
+    ],
+    "secondary": []
+  }
 }

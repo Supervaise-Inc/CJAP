@@ -137,5 +137,13 @@
     "uses Reyes Jr.'s CA precedent as proof-of-concept that institutional backlog is tractable with hard work and monitoring"
   ],
   "one_paragraph_summary": "Panganiban turns to the second prong of CJ Peralta's backlog elimination goal: the trial courts. He observes that President Duterte's policy of promoting only CA and Sandiganbayan magistrates to the SC -- though it breaks the tradition of balancing insiders with justice secretaries, solicitors-general and academics -- may unintentionally help Peralta, because the same justices who disposed of the CA backlog under then-Presiding Justice Andres B. Reyes Jr. can repeat the feat in the SC. Turning to trial-court congestion, he uses arithmetic to differentiate the two levels: first-level courts hold ~133 cases per sala (no palpable congestion), while RTCs hold ~582 per sala -- meaning 23 hearings would need to be calendared per working day, leaving no time for actual trial. The crisis is worsened by ~25% sala vacancies and grossly uneven distribution (5,000 cases in some salas, 50 in others). Congress's response, RA 11459 -- creating 100 RTC and 50 Municipal Judges-at-Large positions deployable to congested salas -- is sound, but the JBC has opened only 30 + 20 of those positions, less than half. Panganiban argues, 'with due respect to the Supreme Court and the JBC,' that all 100 RTC posts should be opened; even then the average drops only to 533, still large, but better than the smaller dent now planned. He closes endorsing Peralta's valiant effort: solving even 50% of this horrendous congestion within his 2.5-year term would earn him true acclaim.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "judicial_reform"
+    ],
+    "secondary": [
+      "jbc_discernment_and_appointment"
+    ]
+  }
 }

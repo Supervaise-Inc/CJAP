@@ -158,5 +158,11 @@
     "live for the here and now and also for the hereafter and forever"
   ],
   "one_paragraph_summary": "Chapter 4 of 'Transparency, Unanimity & Diversity' reproduced CJP's commencement address at the University of the East, in which he told the graduates that the world they were entering had already undergone what John Naisbitt called a 'megashift' from an industrial community to an information society, where prosperity depends on the processing, possession and distribution of information and where, as Drucker wrote, the central workforce would consist of highly specialized people. He opened by thanking UE president Josefina R. Cortes and Law Dean Carlos M. Ortega, recalling that although he studied law at FEU, UE was the site of the 1960 bar examinations in which he placed among the topnotchers, and that he had nearly missed those examinations after falling ill, walking through knee-deep floodwater from the FEU Hospital at the urging of his dean, Jovito R. Salonga. He then catalogued the new e-age fortunes -- Gates, Morgridge and Chambers, Moore and Noyce, Bezos, Case, Dell and Schwab -- and, drawing on Gates's 'The Road Ahead,' described a wallet-sized computer that would replace money, camera, phone and map. He warned that the shift would reshape the graduates' careers: rules of evidence and court procedure would be radically amended, electronic commerce and deregulation would require new doctrines, DNA and cloning would alter civil and criminal law, dentistry would be transformed, and 1.6 million new infotech jobs were opening. His advice, he conceded, would sound strange: to meet new paradigms the graduates should retain, practise and internalize old values, because paradigms change but values endure. He summarized these as three Es under the acronym ExEE -- excellence, illustrated by the 3M employee Art Fry whose Post It note grew from a choir problem; ethics, rooted in character ethic and requiring a change in men rather than a change of men; and eternity, the life after death where our final destiny lies -- closing with Isaiah and an imagined graduate crediting his success decades later to that day's message.",
-  "source_xlsx": "cjp_books_curated_normalized.xlsx"
+  "source_xlsx": "cjp_books_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "life_story_family_school_and_church"
+    ],
+    "secondary": []
+  }
 }

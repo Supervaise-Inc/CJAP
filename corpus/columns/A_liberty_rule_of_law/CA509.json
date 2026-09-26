@@ -121,5 +121,13 @@
     "Treat the TRO compliance as diplomatic, not substantive -- Senate reserves its GAD argument"
   ],
   "one_paragraph_summary": "Panganiban addresses whether the SC can restrain a Senate impeachment subpoena. In the US, the answer is an absolute No (Walter Nixon v. United States, January 13, 1993 -- 'sole' means reposed in the Senate alone). In the Philippines, the answer is also No but with the GAD exception: Francisco v. House of Representatives (November 10, 2003) held that the SC has a constitutional duty to review any branch for grave abuse of discretion (arbitrary, capricious, whimsical, or despotic exercise arising from passion or personal hostility). The SC's February 9, 2012 TRO on the PSBank dollar-deposit subpoena prompted two notable dissents: Justice Sereno argued the Senate was 'superbly careful' in canalizing the subpoena to only 31 impeachable officers and 2 impeachment trials in history; Justice Carpio warned the TRO made dollar accounts 'a much better safe haven for ill-gotten wealth than Swiss bank accounts.' Justice Brion's concurrence clarified that the TRO was merely precautionary -- not an attribution of GAD to the Senate. The Senate respected the TRO not because it agreed but to avoid an unnecessary collision of wills, reserving its no-GAD argument for the SC hearing. The author draws the Gutierrez precedent (TRO later lifted after the House proved its right to impeach) as the likely resolution template, and frames the entire episode as part of the maturing processes of democracy toward Archbishop Tagle's 'culture of integrity.'",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "impeachment_accountability"
+    ],
+    "secondary": [
+      "public_funds_budget_and_bank_evidence"
+    ]
+  }
 }

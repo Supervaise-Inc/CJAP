@@ -161,5 +161,11 @@
     "long-term public trust, not force or money, is the Court's source of effectiveness"
   ],
   "one_paragraph_summary": "Chapter 7 of 'Leveling the Playing Field' records CJP's address to the Fourth Asian Regional Conference of the World Association of Public Opinion Research, opened with a joke about a surgeon who assured a patient he would survive because nine of his last ten patients had already died. Thanking Mahar Mangahas and greeting WAPOR president Kathleen Francovic, he observed that polling had grown from a marketing research tool into a credible index of voter preference in the hands of organizations like Social Weather Stations, believed by Filipinos sometimes more than the official count. He surveyed how other countries treat election polls -- bans in Singapore and Mexico, judicial protection in India and Canada, voluntary restraint in Britain, and liberalization in South Africa and France -- noting that embargoes are evaded through foreign websites. He then explained two landmark Decisions. In ABS-CBN v. Comelec, which he wrote, the Court rejected as speculative Comelec's claim that exit polls posed a clear and present danger to the electoral process, holding that respondents were randomly chosen, that results were not meant to replace the official count, and that exit polls formed part of free expression. In Social Weather Stations v. Comelec, the Court voided Section 5.4 of the Fair Elections Act as prior restraint, beyond Comelec's powers, and an unreasonable regulation under United States v. O'Brien. He restated the doctrine that free speech is an indispensable condition of other freedoms and that debate should be uninhibited, robust and wide open, encompassing the thought we hate, while conceding that polling may be regulated to safeguard it through designated areas, professional pollsters and disclosure of margin of error and methodology. He closed on the Court's own standing: it decides with cold impartiality and resists mobs and lobbies, yet commanding neither army nor money it needs residual public trust, its real strength lying not in its might but in its being right -- which is why SWS surveys prompted its transparency reforms.",
-  "source_xlsx": "cjp_books_curated_normalized.xlsx"
+  "source_xlsx": "cjp_books_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "elections_and_automated_voting"
+    ],
+    "secondary": []
+  }
 }

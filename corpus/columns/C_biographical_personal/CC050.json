@@ -132,5 +132,11 @@
     "service-without-end principle: 'the work is never finished'"
   ],
   "one_paragraph_summary": "During the Christmas season of thanksgiving, Panganiban yields the column space to publish (with deletions of about 40%) CJ Alexander G. Gesmundo's speech formally launching 'With Due Respect 3.' Gesmundo recalls being asked at his Judicial and Bar Council interview whether he favored extending Supreme Court Justices' terms beyond 70 toward US-style lifetime tenure, and answering against it on the assumption that productivity wanes with age. 'I may have spoken too soon,' he says -- pointing to Panganiban at 85, 15 years into retirement, 'two decades my senior,' yet 'as incisive and lucid as when he was writing his ponencias for the Court' -- as 'the best argument to lifetime tenure for Justices of the High Court.' He celebrates Panganiban's mastery of what he proposes as the title of CJ's next book, 'The Art of Relevance,' anchored by the Inquirer column 'With Due Respect' which addresses 'the burning legal issues of the day with more freedom than he had when he was sitting in the Court,' articulating views that incumbent justices 'could only wish to say themselves... even mischievously, if I dare say.' The columns are 'incisive and can cut to the quick, but are always insightful' -- staunch advocacy delivered 'with the utmost respect for the Court and its rules.' Gesmundo quotes CJ's own Oct. 31, 2021 column lamenting 'I have not done enough,' observes that 'the work is never finished,' and closes by thanking CJ for service to the judiciary, for paving the road his successors now tread, and for opening 'the gate of our minds to a relevant life after retirement.' He raises his glass to the 'unofficial resident amicus curiae' and to a future 'fourth installment' of 'With Due Respect.' Cheers!",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "judiciary_milestones_and_tributes"
+    ],
+    "secondary": []
+  }
 }

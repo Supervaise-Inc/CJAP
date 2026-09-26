@@ -156,5 +156,13 @@
     "applies civic-acclamation as a substitute for official title -- the Filipino nation 'proclaims and acclaims him as our esteemed and beloved Chief Justice'"
   ],
   "one_paragraph_summary": "Delivered on October 18, 2019 at New World Hotel Makati at a tribute dinner sponsored by the Makati Business Club, MAP, and FINEX, this is Panganiban's eyewitness biography of Antonio T. Carpio's five missed chances at the Chief Justiceship across his 18-year Supreme Court career. The first chance (May 2010, post-Puno) was declined for 'delicadeza' -- Carpio had voted against the midnight-appointment decision authorizing the very vacancy, refusing to be 'Mr. Midnight Chief Justice'; the chiefship went to Corona. The second (May 2012, post-Corona impeachment) was lost when Aquino III told Carpio directly that he admired his qualifications but key Senate allies and three business leaders opposed him. The third (post-Sereno quo warranto) was again declined for delicadeza -- Carpio had dissented from the ouster decision; De Castro got the post. The fourth (post-De Castro) was accepted, but Duterte appointed third-most-senior Bersamin over both Carpio and Peralta. The fifth (October 2019, post-Bersamin) was offered as a one- or two-day appointment but declined to avoid being 'Mr. One Day Chief Justice.' The Court unanimously granted Carpio CJ-level salary and retirement benefits. Panganiban frames the 'best news' as still to come: when China accedes to the rule of law over the West Philippine Sea, Carpio's single-minded advocacy will earn him acclamation as 'a hero and a patriot.' Panganiban interleaves Carpio's near-resignation with him over Lambino vs Comelec (2006) and Carpio's last-minute Edsa 2 pleading that made Arroyo regular rather than Acting President. He closes by leading the assembly in three 'Hep, hep! Hurray!' acclamations of Carpio as the people's Chief Justice.",
-  "source_xlsx": "cjp_speeches_curated_normalized.xlsx"
+  "source_xlsx": "cjp_speeches_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "international_law_disputes"
+    ],
+    "secondary": [
+      "judiciary_milestones_and_tributes"
+    ]
+  }
 }

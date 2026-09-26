@@ -122,5 +122,11 @@
     "treats senatorial-question-immunity-from-objection as the structural risk making Corona's testimony 'fodder for future cases'"
   ],
   "one_paragraph_summary": "Writing the week before the verdict with Corona's defense having reversed course to call him as its last witness, Panganiban opens with genuine bafflement at the decision to call Ombudsman Morales -- violating the cardinal trial rule of never calling a witness whose testimony is unknown -- with the result that she 'demolished' the defense case rather than helping it. The OMB presented a PowerPoint from AMLC documents covering 82 accounts in 5 banks from 2003-2012, showing transaction balances of $10-12 million, which she explained to the Senate's unanimous approval; JPE quickly ruled that the party calling a witness -- even a 'hostile' one -- is bound by all testimony, and that even illegally obtained evidence is admissible in the impeachment court. Now facing Corona's own testimony, CJ maps a no-win-scenario: if he contests the OMB's figures as 'bloated,' he admits the dollar accounts exist; once on the stand, he will be forced to identify the yearend balances, providing conclusive non-disclosure proof; he cannot invoke the PSBank TRO given his repeated public promises to 'bare all accounts' (rendering the TRO moot); and senators' questions -- which his counsel cannot object to -- will become 'fodder for future cases.' Additionally, the defense trapped itself into calling witnesses who exposed the 'labyrinthine secrets' of the Basa-Guidote Enterprises purchase (P28,000 for a company with P34M+ net cash assets). CJ predicts Justice Cuevas will not throw his client to 'the tender mercies of the prosecutors' -- 'I guess not, but let us wait and see.'",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "public_funds_budget_and_bank_evidence"
+    ],
+    "secondary": []
+  }
 }

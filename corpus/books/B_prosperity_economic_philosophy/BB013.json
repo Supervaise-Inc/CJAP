@@ -203,5 +203,14 @@
     "presumption in favor of constitutionality in case of doubt"
   ],
   "one_paragraph_summary": "Chapter 6 of 'Battles in the Supreme Court' recounted the ruling that big business criticized most during CJP's first three years: Tatad v. Secretary of Energy and its companion case, in which the Court through Justice Puno invalidated RA 8180, the Oil Deregulation Law, by 9 to 2 for allowing Petron, Shell and Caltex to act as an oligopoly and for erecting barriers against new players through its tariff differential, minimum inventory and predatory pricing provisions. CJP reproduced his Concurring Opinion, which insisted that the issue was not whether the Court could fix oil prices but whether a law permitting unilateral pricing was constitutional, that the Court has the duty rather than merely the power to annul such a law, that it was striking a pseudo-deregulation law which perpetuated a cartel rather than opposing deregulation itself, and that in a time of economic dislocation everyone, rich or poor, must share the burden -- ending with an appeal in Filipino to wealthy countrymen and a rebuke to greedy traders. Because he had come from the business community, he took it upon himself to explain the ruling to the Rotary Club of Makati on January 6, 1998, and included that speech in full as a postscript. In it he summarized the proceedings in five steps, listed five criticisms and answered each: economic policy must conform to a Charter that uniquely guarantees economic rights; the demand for outside expert advice misunderstands the adversarial system, in which justice is not administered by plebiscite; the Court knew that voiding a new law revives the old but cannot itself amend; striking only three provisions would have left the cartel intact; and partial deregulation, though wise, would have required the Court to legislate. He closed with the doctrine from his own Tanada v. Angara that only unconstitutionality or grave abuse of discretion may void an economic act, and with the reasons the Court cannot prejudge a pending bill.",
-  "source_xlsx": "cjp_books_curated_normalized.xlsx"
+  "source_xlsx": "cjp_books_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "property_contracts_and_economic_rights"
+    ],
+    "secondary": [
+      "life_story_family_school_and_church",
+      "marriage_annulment_and_the_family_code"
+    ]
+  }
 }

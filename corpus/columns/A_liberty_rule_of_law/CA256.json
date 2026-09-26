@@ -144,5 +144,15 @@
     "deploys statutory enumeration to demonstrate scope of administrative powers"
   ],
   "one_paragraph_summary": "Panganiban addresses readers' questions about why President Duterte chose the third most senior justice, Lucas P. Bersamin, as new Chief Justice -- instead of the most senior or second most senior -- and what special qualifications he saw. CJ Panganiban frankly admits he does not know, adding that CJ Bersamin himself disclaimed knowledge, and notes that the Constitution gives the President wide discretion among JBC nominees. Rather than second-guessing the choice, he urges weighing Bersamin when he retires on October 18, 2019. He then summarizes the CJ's role drawing on three of his own ten books: the CJ is primus inter pares of the SC en banc -- presiding, controlling proceedings, shaping the agenda, summarizing deliberations, setting pace -- but with only one vote, relying on moral ascendancy and persuasion, not boss-subordinate relation. More importantly, the CJ is chief executive officer of the entire judiciary and is properly addressed as 'Chief Justice of the Philippines,' not just 'Chief Justice of the Supreme Court.' The role demands the jurist's traditionalism alongside the leader's innovation -- a 'passion for reforms' to ensure speedy and equal justice for all. The CJ interacts with foreign governments, international bodies, and bar associations; chairs the Judicial and Bar Council ('Quality judgments begin with quality judges'), and is impelled into nonjudicial endeavors for better judicial compensation, security, and facilities; chairs the Philippine Judicial Academy for judicial continuing education; exercises constitutional administrative supervision over all courts and personnel under the Administrative Code, GAA, PD 1949 (JDF), and RA 9227 (SAJ) -- with 'exclusive sole power' to disburse JDF and SAJ funds -- making him a 'visionary administrator, efficient manager and sensible finance wizard all at the same time.' Finally, the CJ must withstand inquisitive-media scrutiny as 'the model of an upright public servant.'",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "judicial_reform"
+    ],
+    "secondary": [
+      "public_funds_budget_and_bank_evidence",
+      "supreme_court_vacancies_and_chief_justiceship",
+      "jbc_discernment_and_appointment"
+    ]
+  }
 }

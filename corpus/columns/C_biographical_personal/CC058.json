@@ -157,5 +157,11 @@
     "closes with 'Mabuhay!' as CJ's distinctive Filipino farewell"
   ],
   "one_paragraph_summary": "In a Christmas-season column summarizing his talk to retired SC justices at their Christmas party, Panganiban offers a meditation on collegiality, gratitude, nostalgia, and futurism. He opens with his canonical formula for principled disagreement -- 'disagree without being disagreeable... differ without being difficult' -- and explains why lay people are surprised that justices remain the best of colleagues after strongly worded opposing opinions: the disagreement is with views, not with persons. He thanks God for the 'bonus days and years' beyond the Philippine average longevity of 70 (69 men, 71 women), citing a Snoopy-Charlie-Brown cartoon -- 'We only die once. We live every day' -- and exhorts seniors to make each day count: 'Smile, laugh, sing, dance, help the poor, enjoy life... till we reach 100 and beyond.' He indulges generational nostalgia -- 1950s university-belt law schools (UP, Ateneo, USC, UST, San Beda, MLQ, UE, FEU), 15-centavo bus fares on Halili Transit and JD Bus, four pesos to the dollar, dates at Moonlit Terrace and Jai Alai Sky Room, and the singers Sylvia La Torre, Ruben Tagalog, Diomedes Maturan and Pilita Corrales -- and pivots to the futurist arc: 5G smartphone shopping and home CCTV, AI, cryptocurrencies, IoT, and the stem-cell revolution that will let grandchildren live 150 years via grown or traded replacement body parts. 'Death from disease will be optional' in 25 years; aging will be reversed via telomere lengthening, already shown possible in lab experiments. He closes with the trademark Einstein-vs-bar-flunker brain auction joke (Einstein's brain is cheaper because it's already overused) and his signature Filipino valedictory: 'Mabuhay!'",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "science_technology_and_the_law"
+    ],
+    "secondary": []
+  }
 }

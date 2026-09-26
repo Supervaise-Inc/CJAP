@@ -112,5 +112,13 @@
     "HOPE as the electoral standard: Honest, Orderly and Peaceful Elections as the minimum requirement"
   ],
   "one_paragraph_summary": "Published April 20, 2010 as a structured policy analysis paper on the risks of automated elections for the May 10, 2010 Philippine elections, this document by CJP is organized as a series of headers: desiderata (HOPE: Honest, Orderly and Peaceful Elections, if possible automated), reality (limited time, defective system, spotty Comelec preparations, inadequate PCOS testing), fundamentals of automation (precinct-specific ballots and machines; automated counting, transmission and proclamation), and automation problems (misdelivery, PCOS failures, theft/burning, erroneous ballots, wrong transmissions, long-queue disenfranchisements). The critical threshold: if problems involve more ballots than the margin between the leading presidential candidates, no winner can be proclaimed. Legal consequences: failure of elections, failure of proclamation, massive disenfranchisement, massive electoral fraud. Political consequences: presidential succession (VP, Senate President, Speaker) or GMA holdover -- 'not expressly provided by the Constitution but supported by jurisprudence, the latest of which is Seneres vs. Comelec (April 16, 2009).' For a holdover to work: 'Brains and Brawns' -- SC, AFP, PNP, Church, INC, People Organizations, and the US to prop up the economy. GMA's three options: (1) exit gracefully and protect her back through the House, SC, Sandiganbayan, Ombudsman, Comelec and Military; (2) extend reign via Cha-cha (people's initiative, constituent assembly or con-con), martial law (60 days; Congress can revoke; SC reviews factual basis -- but 'emergency rule has no constitutional authority'); or (3) prevent via HOPE elections, vigilant media and people, People Power, CBCP, Twitter revolt, or full-scale revolution. Timeline: Election Day (May 10) to GMA's term end (June 30) = 61 days. 'Many things can happen during that period.' Closes with Einstein: 'Insanity is committing the same errors and expecting different results.'",
-  "source_xlsx": "cjp_speeches_curated_normalized.xlsx"
+  "source_xlsx": "cjp_speeches_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "elections_and_automated_voting"
+    ],
+    "secondary": [
+      "party_list_charter_change_and_dynasties"
+    ]
+  }
 }

@@ -153,5 +153,13 @@
     "uses tenure-vs-record framing to defend brief but substantively grounded appointments"
   ],
   "one_paragraph_summary": "Panganiban answers readers querying where the title 'First Female and 24th Chief Justice' for Teresita J. Leonardo-De Castro originated: from the front page of 'Benchmark,' the Supreme Court Public Information Office magazine, Vol. 3 No. 4 Special Issue. He documents De Castro's 42-day CJ tenure (Aug 28 - Oct 9, 2018 midnight) as the shortest in history -- a few days shorter than CJ Pedro L. Yap's 72-day tenure in 1988 -- but anchored in 45 years of government service and 10+ years as an SC Associate Justice (Dec 4, 2007 - Aug 27, 2018), five times Yap's two-year associate stint. She is the only CJ also to have served as Sandiganbayan presiding justice, where she penned the 211-page Sept 12, 2007 decision convicting Joseph Estrada of plunder, sentencing him to reclusion perpetua, forfeiting more than ₱549 million in the Muslim Youth Foundation deposit, ₱180 million in the 'Jose Velarde' deposit, and the 'Boracay Mansion' in New Manila, plus perpetual disqualification -- only for her later, as an SC associate justice, to effectively modify that ruling through Risos-Vidal v. Comelec (Jan 21, 2015), holding that Arroyo's pardon restored Estrada's civil and political rights and allowing him to run and win as Manila mayor. He catalogues her SC vote profile: for distributing Hacienda Luisita to farmers; against Aquino's Truth Commission; against PDAF/DAP; for Marcos's Libingan ng mga Bayani burial; for upholding De Lima's arrest and detention; for the Mindanao martial law and its extension; and for the quo warranto ouster of Sereno. Because she retired by reaching age 70 rather than being removed, De Castro received the full CJ-equivalent retirement entitlement: emoluments for life (lump-sum first five years, monthly thereafter), survivorship benefits for her husband, one month salary and allowances per year of service, leave monetization, and ceremonial Session Hall honors plus a sit-down dinner at a five-star hotel. By contrast, Sereno (ousted by quo warranto, declared ineligible though recognized as a 'de facto officer') and Corona (ousted by Senate impeachment May 29, 2012) received none of these because neither retired -- a doctrinal consequence that CJ closes by noting transferred the title 'First Female and 24th Chief Justice' in law to someone who never expected it even for 42 days, away from someone who had held it in fact for six years and expectedly for a record-breaking 18.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "criminal_trials_and_prosecutions"
+    ],
+    "secondary": [
+      "ill_gotten_wealth_and_the_pcgg"
+    ]
+  }
 }

@@ -131,5 +131,13 @@
     "futures-projection as generational handoff: the stem cell and 5G outlook is addressed to the 'Generation Z' in the room, not to the retirees themselves"
   ],
   "one_paragraph_summary": "Delivered November 27, 2019 at the annual Christmas gathering of the Association of Retired Supreme Court Justices -- at the request of CJ Hilario Davide Jr. who serves as the association's president and who 'must be a glutton for punishment' for asking CJP to deliver a homily every year ('here's his penance -- totaling 50 pages; but because of the Christmas season, I will read only 49!') -- this speech opens by welcoming newly-retired CJ Luke and Senior Justice Tony and thanking them for establishing retirement benefits equal to incumbents' emoluments with a survivorship clause, before Justice Minita Chico-Nazario firmly clarified that survivorship applies only to the original spouse, not future partners. The governing philosophy is 'Make Every Day Count': retirees have exceeded the Philippine average longevity of ~70 years and are living on 'bonus days, months, years and even decades' granted by God; a Viber cartoon of Charlie Brown ('We only live once') and Snoopy ('Wrong! We only die once. We live every day') provides the epigram. CJP leads a nostalgic tour of the bar exam era: bus fares of 10-15 centavos (Halili Transit, JD Transit), taxis at 10 centavos flag-down, 2-4 pesos to a US dollar, 360 yen to a dollar, dates at the Moonlight Terrace and Winter Garden of the Manila Hotel, favorite singers Sylvia La Torre, Ruben Tagalog, Diomedes Maturan, Pilita Corrales -- versus today's newest sensation Moira de la Torre. He then pivots to the technology future: 5G ripple effects, AI, crypto and IoT within five years; beyond those, stem cell technology enabling grandchildren to grow spare hearts, limbs and brains; telomere lengthening experiments; Bill Gates' nuclear energy safety research; and the prediction by genetic engineers that death from disease will be 'optional' by 2045. He closes with his Einstein/bar-flunker joke: brains auctioned at Sotheby's -- Einstein's at $1,000 (overused) vs. Filipino Alberto Estan's at $100,000 (almost new and underused). 'May we all have underused brains so our heirs may inherit them and fill them up with wit and wisdom we missed in our own carefree lives.'",
-  "source_xlsx": "cjp_speeches_curated_normalized.xlsx"
+  "source_xlsx": "cjp_speeches_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "science_technology_and_the_law"
+    ],
+    "secondary": [
+      "faith_journey"
+    ]
+  }
 }

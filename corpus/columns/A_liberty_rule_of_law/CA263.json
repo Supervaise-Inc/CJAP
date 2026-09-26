@@ -124,5 +124,13 @@
     "anchors reform proposals in the model of existing independent constitutional commissions (Comelec, COA)"
   ],
   "one_paragraph_summary": "Panganiban contrasts the PH judicial selection system favorably against the contentious US process exemplified by the Kavanaugh confirmation hearings, arguing that the JBC has partly depoliticized appointments by limiting the President to a shortlist of at least three nominees -- eliminating the US dynamic where presidents appoint justices aligned with their party platform in openly partisan battles that made Kavanaugh's hearings acrimonious. He describes the current JBC search for a new Chief Justice (vice Leonardo-De Castro) and two Associate Justices, noting that the five most senior justices (Carpio, Peralta, Bersamin, Del Castillo, Perlas-Bernabe) are automatically included if they accept, with the process involving qualifications review, psychological tests, public interview, and a final deliberation requiring four of seven JBC votes. Justice Hernando's recent seamless elevation is cited as proof of system quality. Despite the comparative advantage, CJ acknowledges the JBC is not perfect and proposes three constitutional reforms to further insulate it: (1) independent constitutional agency status with fiscal autonomy like Comelec and COA; (2) fixed 7-year terms without reappointment for regular members; and (3) security of compensation plus a lifetime retirement package extending to spouses.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "supreme_court_vacancies_and_chief_justiceship"
+    ],
+    "secondary": [
+      "us_supreme_court_and_american_politics"
+    ]
+  }
 }

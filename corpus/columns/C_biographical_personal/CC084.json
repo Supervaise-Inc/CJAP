@@ -106,5 +106,11 @@
     "deploys biographical-arc-as-tapestry metaphor to frame pains and gains as purposeful"
   ],
   "one_paragraph_summary": "Panganiban continues his 80th birthday closing remarks from the 'Ageless Passion' musicale as his New Year message, offering General Douglas MacArthur's 'youth is a state of mind' philosophy as his secular answer for remaining active at 80 -- serving as a director/adviser in over a dozen corporations and foundations, traveling abroad six times a year, and playing tennis, golf, and gym. MacArthur: 'Nobody grows old by merely living a number of years. People grow old only by deserting their ideals. You are as young as your faith, as old as your doubt.' CJ identifies with the humble farmer who prefaced the musicale, and shares the prayer he composed when joining the SC in 1995: 'The Lord is my Shepherd... Other than fulfilling my role in the Court, I have no more earth-bound ambition. I live my life with only one consuming passion: on that inevitable day... my Lord and Master will say: Well done on your earthly sojourn.' He recounts his journey's contrasts -- WWII near-death at six, Sampaloc newsboy, Inquirer president; ignorant Catholic to Vatican lay council member; frustrated graduate-school applicant to father of five US-educated children; bootblack to chief justice -- as pains and gains woven by God into a 'magnificent tapestry showing His mystical presence.' He dedicates all that he has been, is, and will be: 'To God be the glory!'",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "life_story_family_school_and_church"
+    ],
+    "secondary": []
+  }
 }

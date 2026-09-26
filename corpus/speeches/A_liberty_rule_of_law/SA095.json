@@ -110,5 +110,11 @@
     "prospective-compliance as the equitable solution when a new interpretation cannot be reversed"
   ],
   "one_paragraph_summary": "Delivered August 5, 2011 as the keynote address at a UP forum on Gamboa v. Teves (GR No. 176579, June 28, 2011) -- organized by Professor Florin T. Hilbay of the UP Institute of Government and Law Reform -- this address by CJP opens with a formal disclosure: 'I have been sitting as an independent member of the board of advisers of PLDT since mid-2009... I do not represent PLDT's management or any stockholder. I cannot propose or second motions. Neither can I vote.' He summarizes the Gamboa ratio (Justice Carpio ponente, nine concurring justices): 'capital' in Section 11 Article XII refers only to shares entitled to vote in director elections (common shares), not total outstanding capital stock including non-voting preferred shares; the SEC is directed to investigate PLDT and impose sanctions. CJP raises three concerns: (1) Due process -- PLDT was not a respondent and was not heard; the Themistocles principle ('Strike, but hear me first!') applies regardless of whether the SC's interpretation is correct; (2) Constitutionalism -- 'in construing the economic provisions of the Constitution, courts should, absent grave abuse of discretion, defer to the government... the judiciary does not have the mandate, not to say the expertise, to decide on matters relating to the economy'; and (3) Retroactivity -- since 1935 (75 years), the DOJ and SEC 'uniformly held that the entire capital stock' is used to compute the 40% allocation, and the government used this interpretation in foreign road shows to attract investors; 'how can we punish investors who relied in good faith on government's representations over the last 75 years? That is most cruel and unfair.' His proposed remedies: give investors a few years to comply if the decision cannot be reversed; and Congress should pass a new law governing an orderly and fair divestment process.",
-  "source_xlsx": "cjp_speeches_curated_normalized.xlsx"
+  "source_xlsx": "cjp_speeches_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "property_contracts_and_economic_rights"
+    ],
+    "secondary": []
+  }
 }

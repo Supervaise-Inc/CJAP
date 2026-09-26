@@ -126,5 +126,11 @@
     "uses Bensouda's public statement to calibrate the actual procedural status vs public perception"
   ],
   "one_paragraph_summary": "Panganiban systematically identifies the multiple legal hurdles to indicting President Duterte in the ICC for alleged crimes against humanity. The primary barrier is the complementarity principle (Art. 17 Rome Statute): the ICC will decline unless the Philippines is 'unwilling or unable genuinely' to investigate or prosecute him, and the mere dismissal of his impeachment complaint is insufficient proof -- impeachment is not a criminal investigation, and the Ombudsman retains authority to investigate motu proprio and sue him after his term. Even if complementarity is overcome, the three prosecutorial initiation pathways each have obstacles: the Philippines will not self-refer; China would likely veto a UNSC referral; and even OSP proprio motu initiation requires Pre-Trial Chamber authorization that has been denied in prior cases. He notes that ICC Chief Prosecutor Bensouda has only said her office will 'closely monitor developments' -- no formal preliminary investigation authorization has been sought or granted. He closes by noting that Art. 25 (individual criminal responsibility) presents additional hurdles he has no space to address, and that anyone seriously pursuing an ICC case must master three key documents: the Rome Statute, the ICC Rules of Procedure, and the Elements of Crimes.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "criminal_trials_and_prosecutions"
+    ],
+    "secondary": []
+  }
 }

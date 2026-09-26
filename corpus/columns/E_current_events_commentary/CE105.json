@@ -118,5 +118,11 @@
     "Require all judicial candidates to submit SALN, ITR, and bank waivers as baseline transparency -- the JBC's 2012 precedent"
   ],
   "one_paragraph_summary": "Panganiban offers a mid-process assessment of the JBC's nomination process -- transparent, accountable, and dignified -- noting that live TV and radio coverage allowed the public to observe 20 candidates under probing but civil questioning by JBC members. Body language, voice inflection, facial expression, and eye contact often revealed more than verbal answers -- 'Tinimbang sila at hindi naman nagkulang.' Though 20 candidates was too many (some outsiders had no real chance), the JBC also weighed education, track record, past decisions, SALNs, ITRs, and bank records. He highlights two SC peculiarities the interviews revealed. First, Sereno explained to acting chair J. Peralta that there are no partisan blocs or permanent alliances in the SC -- those voting together in one case may be miles apart in the next; 200+ agenda items per session with the 10-minute debate threshold before issues are referred to written argument. Second, a reader asks how 15 justices can supervise 2,000 judges and 26,000 employees: the author answers through the corporate board analogy -- the SC en banc acts as the board of directors, guided by A.M. No. 99-12-08-SC (April 22, 2003), which delegates: the executive committee (CJ + top two senior) handles personnel appointments and court committees; the three divisions handle inhibitions, extensions, venue transfers, and routine discipline (short of dismissal); the CJ handles detailing of personnel, overtime, and procurement. The CJ is the CEO but needs the 14 other justices as 'the board of directors.'",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "jbc_discernment_and_appointment"
+    ],
+    "secondary": []
+  }
 }

@@ -154,5 +154,13 @@
     "frames partisan voting patterns against a backdrop of ceremonial process to expose substance-vs-form gaps"
   ],
   "one_paragraph_summary": "Panganiban reports the Feb 5, 2020 US Senate acquittal of President Donald Trump as 'an unabashedly partisan vote' -- without trial, without testimonial evidence, and without documentary evidence -- with all 53 Republicans voting to dismiss Article 2 (obstruction of House investigation) 53-47, and all 53 Republicans except Mitt Romney voting to dismiss Article 1 (abuse of power for withholding ~$400M in military aid to Ukraine unless Joe Biden was investigated) 52-48. The preceding 51-49 vote on Jan 31 barring oral and testimonial evidence (with Romney and Susan Collins crossing) made the partisan outcome inevitable. The five ceremonial Senate processes -- oath of 'impartial justice,' oral arguments, written questions read aloud by CJ John Roberts, manager/defense replies, and latitude for Democratic questioners -- formed the carapace of judicial form around a plainly numerical outcome. Republicans argued that 'abuse of power' and 'obstruction' fall outside the US Constitution's enumerated grounds ('treason, bribery, or other high crimes and misdemeanors') because they are not 'criminal acts' -- a verbal-legis literal interpretation that, in 250 years, has produced no Senate-ousted US president (Andrew Johnson 1868, Clinton 1999, and Trump all acquitted; Nixon resigned). The 1987 Philippine Charter's framers, aware of this literal exclusion, provided 'more encompassing' grounds -- 'culpable violation of the Constitution, treason, bribery, graft and corruption, other high crimes and betrayal of public trust' -- so that abuses cannot be textually dumped. The catch-all 'betrayal of public trust' (plus the SALN Law) was partly used in both the Estrada and Corona impeachments. Estrada's trial was truncated by House prosecutors' walkout, precipitating the Edsa II People Power Revolution, but Corona's ran for several months without testimonial blockade -- including testimony from Ombudsman Conchita Carpio Morales and Corona himself -- and ended in a more-than-three-fourths Senate vote 'without any unabashedly partisan alignment.' The Philippine 3/4 threshold (vs the US 2/3) is also structurally higher. CJ concludes that the Philippine impeachment process, though also sui generis, is 'fairer, more democratic and less partisan' than its US counterpart.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "impeachment_accountability"
+    ],
+    "secondary": [
+      "us_supreme_court_and_american_politics"
+    ]
+  }
 }

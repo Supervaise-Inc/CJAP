@@ -114,5 +114,11 @@
     "courts-apply-not-make-law: reiterate the formula until the statute changes"
   ],
   "one_paragraph_summary": "Chapter 4 of 'With Due Respect' (Vol. 5), CJP's July 22, 2007 follow-up column, answers the critics of his party-list 'Panganiban Formula.' He first rejects Rep. Satur Ocampo's charge that the formula was meant to 'marginalize... progressive party-list groups' as 'unfair, uncalled for, and totally baseless,' insisting 'no partisan or ideological bias' shaped the Court's deliberations. He then takes up the mathematical objections: Oscar Franklin Tan faulted the formula for not justifying the 'two percent per seat ratio' and not graphing as a 'rough straight line,' and would discard the 2-percent threshold (which he called 'mathematically absurd') to seat even 1-percent parties; Felix Muga II called Tan's scheme 'unacceptable' and noted true proportionality also needs the three-seat limit junked; and Luis Baltazar proposed 'rounding off' (above 1.5 to 2 percent) to reach 53 seats. CJP rebuts: any failure to graph a straight line arises 'only because the formula reflects the distortions in the law' it converts; 'rounding off may make sense in abstract math' but not in 'flesh-and-blood law' that demands 'at least two percent' (so 199,000 votes cannot satisfy a 200,000-vote requirement); and the topnotcher's seat-per-2-percent rule flows from the statute itself. Crucially, the critics' 'obsession to fill up the 20-percent allocation' (to 53 or 55 seats) would push the House past the constitutional ceiling of 'not more than two hundred fifty members,' meaning 265-267 lawmakers and 'more salaries, more allowances, and more pork barrel' -- all requiring a law. The remedy, he concludes, is for Congress to amend the statute (on the allocation, thresholds, limits, rounding and House size), since these are 'policy matters addressed to the discretion of Congress'; despite seven years of party-list practice Congress has not acted, so the Court cannot be faulted for reiterating a formula whose provisions, however 'unwise or mathematically imprecise,' are 'not unconstitutional' -- for 'the Supreme Court does not make the law, it merely applies it.'",
-  "source_xlsx": "cjp_books_curated_normalized.xlsx"
+  "source_xlsx": "cjp_books_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "party_list_charter_change_and_dynasties"
+    ],
+    "secondary": []
+  }
 }

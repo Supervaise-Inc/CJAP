@@ -135,5 +135,11 @@
     "Use the seven existing professional MRAs as templates for the law-practice framework"
   ],
   "one_paragraph_summary": "With ASEAN marking its 50th anniversary, Panganiban previews the special Governing Council session of the ASEAN Law Association (ALA) that President Duterte -- as ASEAN 2017 chair -- will host and keynote at Malacañang on October 25. About 300 ALA delegates plus the diplomatic corps will attend, followed by a Manila Symphony Orchestra concert. ALA president Avelino V. Cruz and secretary general Regina Geraldez lead the organization; its Governing Council draws from four sectoral groups: magistrates, government lawyers, law professors, and private practitioners. Five of the 10 national chapters are headed by their incumbent chief justices (Brunei, Indonesia, Malaysia, Singapore, Thailand); the Philippines chapter is headed by ret. CJ Panganiban, while Myanmar, Cambodia, Vietnam, and Lao PDR are headed by an attorney general, practitioners, and a justice respectively. Notable Philippine ALA members include CJ Sereno, SAJ Carpio, Justice Velasco Jr., Executive Secretary Medialdea, SolGen Calida, and UP President Concepcion. ALA is the only non-government law organization recognized by the ASEAN Charter (Annex 3-IV), founded in Jakarta in 1979. Its prime project -- harmonization of laws for trade, investments, banking, and arbitration -- faces the structural challenge that the AEC has no parliament, requiring harmonization to pass through each national legislature under ASEAN's consensus rule. ALA president Cruz has proposed an Institute for Harmonization of Laws. The Philippines concluded mutual recognition agreements for seven professions (engineering, nursing, architecture, land surveying, medicine, dentistry, accounting) between 2005 and 2009 under RA 8981, but law practice remains excluded; ALA is working to allow foreign lawyers to practice foreign law (not PH law) here on a reciprocal basis.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "asean_law_association"
+    ],
+    "secondary": []
+  }
 }

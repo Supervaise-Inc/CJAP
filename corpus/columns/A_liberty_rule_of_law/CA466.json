@@ -123,5 +123,11 @@
     "proposes alternative-means test: campaign expense limits as a constitutionally permissible leveling tool that achieves the same goal without rights violation"
   ],
   "one_paragraph_summary": "Panganiban argues that the Comelec's resolution imposing an 'aggregate total' of only 120 TV minutes and 180 radio minutes per national candidate for the entire 87-day campaign period is 'unconstitutional, unfair and unwise.' The arithmetic is stark: 120 aggregate minutes divided by 87 days equals 82.75 seconds per day across all networks -- with only three major networks, each candidate gets 27.58 seconds per network per day, 'barely enough for only one--yes, one--TV spot of 30 seconds.' He grounds the constitutional argument in Chavez vs Gonzales (free expression is a preferred right subject to clear-and-present-danger scrutiny for content-based restrictions), Justice Carpio's concurrence (no prior restraint), and his own ABS-CBN vs Comelec ponencia (courts must 'lean in favor of freedom' when campaign speech is restricted). He demonstrates the rule's perverse effect using Nielsen data: a 30-second spot on Kapuso Mo Jessica Soho reaches 9,509,573 viewers at only 4 centavos per person -- making TV the most cost-efficient medium for new, poor, and unknown candidates who most need exposure. The rule instead benefits celebrities, media hotshots, incumbents, and dynastic candidates with built-in name recall, directly contradicting its stated goal of limiting wealthy-candidate propaganda. He proposes campaign expense limits as a constitutionally permissible alternative that levels the field without suppressing speech.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "elections_and_automated_voting"
+    ],
+    "secondary": []
+  }
 }

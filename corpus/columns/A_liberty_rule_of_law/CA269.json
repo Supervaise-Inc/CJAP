@@ -148,5 +148,13 @@
     "Frame each justice's historical legacy around the judicial-hero / judicial-villain binary as a motivational structure"
   ],
   "one_paragraph_summary": "Responding to alarmed reader reactions to his August 5 column forecasting that President Duterte would name a majority of SC justices before his midterm -- and eventually 13 of 15 by end of term -- Panganiban urges vigilance but not panic. He acknowledges the 'foreboding cases' cited by readers (Marcos burial, Mindanao martial law, Sereno ouster) and notes the JBC's political tilt (three Duterte allies among seven, with only the IBP slot held by Fernan-Cayosa appearing outside the President's loop). But he places this in historical context: presidential attempts to dominate the judiciary are not new anywhere in the world, and the Philippines has experienced this before. Under Marcos, Javellana v. Executive Secretary (March 31, 1973) validated a constitution ratified by hand-raising rather than secret ballots -- yet judicial heroes still emerged among Marcos's own appointees: CJ Roberto Concepcion, Justices Teehankee, Muñoz-Palma, and Melencio-Herrera. Under GMA, who had the second-longest incumbency and named a majority and eventually all 15 justices (including three chiefs), the Court still blocked her people's initiative for parliamentary shift and struck down her emergency powers issuance. The ascendancy of the Court ultimately depends on the justices' adherence to the four constitutional standards of 'proven competence, integrity, probity, and independence.' The Court's brinkmanship -- balancing protection of people's rights against the prima facie presumption of regularity of executive actions -- is the ultimate test of independence. Public vigilance insisting on those four standards will protect rights and secure justices' places in history; while not all will be judicial heroes, no one wants to be remembered as a judicial villain.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "elections_and_automated_voting"
+    ],
+    "secondary": [
+      "jbc_discernment_and_appointment"
+    ]
+  }
 }

@@ -122,5 +122,13 @@
     "courts-as-arbiter: the Supreme Court judges disputed privilege claims"
   ],
   "one_paragraph_summary": "Chapter 2 of 'With Due Respect' (Vol. 4), CJP's November 25, 2007 Inquirer column, attacks the Palace's bid to suppress former NEDA chief Romulo Neri's Senate testimony in the $329-million national broadband network (NBN) scandal through a 'nebulous claim of executive privilege.' Neri had testified that resigned Comelec Chair Benjamin Abalos offered him a P200-million bribe ('Sec, may 200 ka dito') but 'clammed up' on President Arroyo's involvement; Presidential Legal Counsel Sergio Apostol then 'sneered, \"Bring the case to the Supreme Court,\"' apparently calculating that a court loss would damage GMA less than 'a media feast' on Neri's revelations. Measuring the Palace's chances against the parameters set in Senate v. Ermita (2006, by Justice Carpio Morales), CJP lays out a six-point primer on executive privilege: Congress, 'in aid of legislation,' has a right to information and officials a duty to provide it; the President may withhold only three categories (state secrets, informer's privilege, and internal deliberations); 'disclosure is the rule and secrecy is the exception,' requiring a showing of 'the superiority of the public interest'; only the President may invoke it (or the Executive Secretary 'By order of the President'); it covers information, not officials (even 'a waiter' who overheard Cabinet secrets); and both the subpoena and any exemption request must be detailed enough for Congress to judge, with the Supreme Court resolving disputes. On that basis the Palace had not justified secrecy or followed the process, so its chances were poor. But CJP's sharper point is political: earlier inquiries -- the fertilizer scam (Joc-Joc Bolante), North Rail, 'Hello Garci' and the Venable contract -- remained 'in limbo,' and the 'Palace strategy' of muddling issues, delaying resolution and tiptoeing 'from crisis to crisis' had worked because public outrage was never 'enough... to rattle and shoo away GMA.' 'Kawawa naman tayong mga Pinoy!'",
-  "source_xlsx": "cjp_books_curated_normalized.xlsx"
+  "source_xlsx": "cjp_books_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "presidential_power_martial_law_people_power"
+    ],
+    "secondary": [
+      "public_funds_budget_and_bank_evidence"
+    ]
+  }
 }

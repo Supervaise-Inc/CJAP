@@ -165,5 +165,11 @@
     "anchors conclusions in the Constitution and public trust"
   ],
   "one_paragraph_summary": "Panganiban calls the Supreme Court's Aug. 5, 2026 resolution in Torreon v. House committee on justice, dismissing the petitions against VP Sara Duterte's impeachment on mootness, a turning point that may signal the Court will not be dragged into partisan dramas unless the impeachment court commits grave abuse of discretion. He then outlines three complementary options for the VP. First, defend herself to the end: her team challenges the admissibility of evidence and the relevance of allegations, and CJP asks whether she will testify, whether she will be aggressive (as with a sheriff serving a court order) or measured, who would cross-examine her, and how she will explain alleged threats to the First Family, confidential funds, unexplained wealth, bank deposits and tax records. Second, resign: removal would become moot, but the senator-judges could continue the trial by majority vote and, by two-thirds, impose perpetual disqualification, barring her 2028 presidential run. Corona was removed and disqualified in 2012, while Sereno, ousted by an 8-6 quo warranto ruling, was not disqualified; Nixon resigned in 1974 with a one-sentence letter after losing the people's trust. Third, rally public support, as Bill Clinton did, remaining above 60 percent approval and winning acquittal in 1999; impeachment is tried before a political body where public sentiment often decides. The dynamic could shift if former President Rodrigo R. Duterte returns from detention in The Hague, dead or alive. CJP concludes that the trial transcends the fortunes of officials: impeachment preserves the integrity of governance and the principle that a public office is a public trust, and whatever happens, the Constitution must endure as the citadel of liberty and prosperity under the rule of law.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "impeachment_accountability"
+    ],
+    "secondary": []
+  }
 }

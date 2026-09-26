@@ -147,5 +147,14 @@
     "topical arrangement over chronological as an editorial design principle (Borja's WDR3 decision)"
   ],
   "one_paragraph_summary": "Delivered December 7, 2021 -- CJP's 85th birthday -- at the Philippine Daily Inquirer for the book launch of 'With Due Respect 3' (WDR3), this speech opens with CJP expressing being 'overwhelmed with honor and joy' that Marixi Rufino Prieto and her daughter Sandy Prieto-Romualdez 'perpetualize my humble work into books every five years' -- the third volume in the series (WDR1: 2011, WDR2: 2016, WDR3: December 7, 2021), this time in two volumes. He narrates the origin story: he was deeply hesitant to accept Marixi's invitation to write for the Inquirer, having witnessed firsthand the rigors of column-writing as lawyer to famous columnist Teodoro Valencia, and having never written a column in his life. When he told Marixi of Salonga's warning -- 'Chief justices make history. They do not write it' -- she countered: 'Dr. Salonga may be correct, but I do not know of any retired chief justice who had been offered to write a column.' A compromise was struck: once weekly instead of the proposed thrice. He has written every Sunday without fail for 15 years (February 2007 to December 2021), despite illness, five annual foreign trips, and directorial duties in 15+ companies and foundations. He credits Marixi for the Amazon achievement: WDR1 ranked 3rd on the courts bestseller list behind Jeffrey Toobin (1st) and the late Justice Antonin Scalia (2nd). He discloses that he was sued for libel over his November 7, 2021 'Disini to pay damages in BNPP suit' column -- but was absolutely cleared by the DOJ and the CA. He thanks CJ Gesmundo for launching the book -- a particularly meaningful gesture since CJP intuited in January 2006 (when Gesmundo came to his Chamber to be sworn in as Sandiganbayan justice) that he should sit on the Chief Justice's chair: 'Please sit on my chair because one day you will be sitting there anyway as chief justice. I must have been led by the Holy Spirit.' He thanks Sean James Borja -- Ateneo valedictorian, 2018 bar topnotcher, and FLP's first scholar-bar-sitter -- for arranging WDR3 topically rather than chronologically, JV Rufino (Inquirer Books), and the editorial team, closing with: 'May they never tire of teaching this aging jurist the rudiments of the English language.'",
-  "source_xlsx": "cjp_speeches_curated_normalized.xlsx"
+  "source_xlsx": "cjp_speeches_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "life_story_family_school_and_church"
+    ],
+    "secondary": [
+      "libel_and_cybercrime",
+      "judiciary_milestones_and_tributes"
+    ]
+  }
 }

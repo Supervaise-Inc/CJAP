@@ -179,5 +179,13 @@
     "regulation to safeguard rather than stifle, paired with transparency and public education"
   ],
   "one_paragraph_summary": "Chapter 14 of 'Reforming the Judiciary' reproduced CJP's address contending that the public opinion poll is an emerging paradigm of free expression. He opened with the Gospel reading of August 25, 2002, in which Jesus asked his disciples who people said he was and then who they themselves said he was, calling it 'the first recorded opinion survey in history' and evidence that 'polling is rooted not only in law, but also in theology,' before confining himself to juridical grounds. Invoking the adage attributed to Voltaire, he set out the two aspects of free expression -- freedom from previous restraint under Section 4 of Article III and freedom from subsequent punishment under Section 18 -- and traced the widening modes of expression from sermons and slogans to yellow ribbons and silent picket lines to satellites and the Internet, whose constitutional protection he said he awaited. He argued that polls both reflect and shape opinion and arm voters with power, citing Mahar Mangahas's WAPOR keynote, and compared foreign regimes in Singapore, India, Mexico, France, the United Kingdom and the United States, including the premature Florida call. He then recounted ABS-CBN v. Comelec, the exit-poll decision he wrote, which held that Comelec could not prohibit exit polls, restating the Court's account of expression as a preferred right embracing 'the thought we hate, no less than the thought we agree with,' the clear and present danger rule of Holmes against the dangerous tendency rule of Cabansag v. Fernandez and People v. Perez, and the Court's rebuttals of Comelec's claims of confusion and unreliability. He then welcomed SWS v. Comelec, written by Justice Mendoza, which struck down Section 5.4 of the Fair Elections Act as a prior restraint beyond Comelec's Article IX-C powers and failing the third and fourth O'Brien criteria, and recalled his own Concurring Opinion that no substantive danger had been shown. He closed by conceding that polling may be reasonably regulated to safeguard it, endorsing the ABS-CBN recommendations on how exit polls should be conducted, and insisting that 'For every freedom, there is a corresponding responsibility,' with pollsters bound to disclose methodology and educate the public on the limits and abuses of polls.",
-  "source_xlsx": "cjp_books_curated_normalized.xlsx"
+  "source_xlsx": "cjp_books_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "elections_and_automated_voting"
+    ],
+    "secondary": [
+      "faith_journey"
+    ]
+  }
 }

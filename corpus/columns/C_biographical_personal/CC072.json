@@ -149,5 +149,13 @@
     "deploys deliberate career-choice framing (chosen this, declined that) to explain post-retirement portfolio"
   ],
   "one_paragraph_summary": "Panganiban opens his Sunday column written in advance from before a Florida Disney World + Royal Caribbean Cruise family trip, thanksgiving-style, for the four new careers he embarked on after ending his SC term on Dec. 7, 2006: column writer, arbitrator/expert witness in international arbitrations, corporate director/adviser, and foundation trustee/officer. He recounts how former Inquirer chair Marixi R. Prieto initially asked for three columns per week, which he respectfully declined (citing only his student-era credentials as a fledgling FEU Advocate reporter and FEU Law Review managing editor) before compromising at weekly. He states his editorial philosophy: 'I do not spoon-feed readers. Neither do I stupefy them with grand opinions and holier-than-thou sermons. Rather, I prefer to provide the background, the facts and the law' -- letting readers 'analyze, find their eureka moments and derive their own conclusions' as 'the best way to be independent and responsible citizens.' He had to learn to google, double-check, and adjust to Inquirer style (Comelec/Metrobank in caps-lower-case but DOJ/DTI/BPI in caps only). He recounts being sued for libel despite quoting verbatim from a Supreme Court decision -- with prosecutors filing the case after reconsideration and a judge issuing an arrest warrant without personally determining probable cause as the Constitution requires -- and ultimately obtaining a Court of Appeals injunction and DOJ reversal, making him 'truly empathize' with courageous opinion-molders facing similar harassment. He notes his biggest writing challenge is the 4,100-character space limit ('I had to work back wearyingly and edit excess verbiage'), his 12-year 100% Sunday-output record, and his system of writing in advance and leaving copies with Inquirer coordinator Christine Ang Buban. On arbitration, he recounts becoming chairman (then chairman emeritus) of the Philippine Dispute Resolution Center -- the only PH private arbitration outfit -- and one of only four Filipino members of the Permanent Court of Arbitration in The Hague, while respectfully declining all offers to rejoin the government.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "criminal_trials_and_prosecutions"
+    ],
+    "secondary": [
+      "libel_and_cybercrime"
+    ]
+  }
 }

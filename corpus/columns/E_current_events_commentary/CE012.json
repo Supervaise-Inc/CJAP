@@ -168,5 +168,13 @@
     "Integrity-marker -- voluntary office-dissolution on political appointment to avoid conflict"
   ],
   "one_paragraph_summary": "Following his January 5 piece on the women of ASEAN, Panganiban profiles seven empowered women of the Philippine private sector whom he knows personally: Charo Santos-Concio (former ABS-CBN president and MAP keynote on the leadership-integrity nexus), Lydia Echauz (Meralco ID and former FEU president), Bernadine Siy (first lady president of the 1901-founded Manila Golf Club and Ateneo board chair), Monette Iturralde-Hamlin (AIM scholar and TeamAsia founder), Chaye Cabal-Revilla (Metro Pacific CFO and sole Filipino founding member of King Charles III's A4S CFO Leadership Network), Tessie Sy-Coson (BDO chair and the nation's wealthiest woman, who has called for FLP to also identify ethical lawyers), and First Lady Louise Araneta-Marcos (who dissolved her MOST law office and continues teaching at West Visayas State University, which posted a 100% bar passing rate). The column closes affirming the shared philosophy of safeguarding liberty and nurturing prosperity under the rule of law.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "foundation_for_liberty_and_prosperity"
+    ],
+    "secondary": [
+      "life_story_family_school_and_church"
+    ]
+  }
 }

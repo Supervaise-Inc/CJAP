@@ -97,5 +97,11 @@
     "Apply the whitewashed-tombs test: does an official's public appearance match the ethical reality inside?"
   ],
   "one_paragraph_summary": "On Palm Sunday (May 1, 2011), Panganiban delivers Part 1 of a reflection on Jesus Christ as the eternal leader -- 'the same yesterday, today and tomorrow' -- identifying five leadership qualities of which he covers three. First, vision and mission: Jesus communicated His salvific mission differently to different audiences -- lofty and authoritative to disciples ('the greatest teaching of all time'), parables to non-disciples that ended with questions ('Which of these three was neighbor to the man?'; 'Which of them was more grateful?'; 'What fate do you suppose the owner has in store for them?') -- designed to make the listener discover truth for himself. Second, courage and conviction: in a world with no freedom of speech or dissent, Jesus mixed with sinners, tax collectors, a Samaritan woman, and an adulteress; acquired a reputation as 'a glutton and a drunkard'; and boldly denounced the scribes and Pharisees as 'whitewashed tombs, beautiful on the outside but inside full of filth and dead men's bones.' Third, servant-leadership: Jesus explicitly taught 'The Son of Man has not come to be served but to serve' and demonstrated it by washing the apostles' feet -- contrasting sharply with Philippine political leaders who use pork barrel appropriations for personal patronage, and who make themselves the center of authority 'such that no business can be opened without their blessings and no employment can be secured without their recommendation.'",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "faith_journey"
+    ],
+    "secondary": []
+  }
 }

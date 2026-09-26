@@ -192,5 +192,12 @@
     "an escaped appellant loses the Court's judgment but not its review, until he submits to its jurisdiction"
   ],
   "one_paragraph_summary": "Chapter 4 of 'Battles in the Supreme Court' recounted the Court's battles over capital punishment, written under the constraint that death-penalty decisions are per curiam, so CJP named neither ponentes nor dissenters. He set out Section 19, Article III, which permits death only for compelling reasons involving heinous crimes, and RA 7659, under which trial courts had imposed at least 748 death sentences by October 1998. In Echegaray the Court upheld the law 12 to 3, reasoning that death is not cruel or unusual, that the covered offenses are heinous, that the statute contains safeguards, and that no statistical proof of rising crime is required. He reproduced the two dissents at length, especially a 32-page opinion arguing that Congress merely made penalties more severe for crimes already punishable by death, that the framers had in mind organized murder or the brutal murder of a rape victim, that heinousness requires new offenses or new aggravating elements, that no empirical proof links death to deterrence, that the Charter shows an explosion of concern for man more than property, and that the penalty falls hardest on the poor and unlettered, closing with Scripture and Evangelium Vitae. He then traced Esparas and Prades on whether an escaped appellant's sentence must still be reviewed and judgment rendered, recording his own middle position of review without judgment until rearrest. He described the quarrel over repetitive dissents in Escala, settled by a standard clause reproduced in all later affirmations, and printed that dissent in full, with its warning of one execution every working day. He summarized the 10-4 ruling sustaining the Lethal Injection Law while voiding two implementing rules, and the dissents on dual delegation and the international abolition trend. He closed by predicting the dissenters would eventually win and warning that an innocent man could die through plain human error.",
-  "source_xlsx": "cjp_books_curated_normalized.xlsx"
+  "source_xlsx": "cjp_books_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "criminal_trials_and_prosecutions",
+      "death_penalty_and_echegaray"
+    ],
+    "secondary": []
+  }
 }

@@ -118,5 +118,13 @@
     "settle-doubts-before-the-next-election, regardless of who wins"
   ],
   "one_paragraph_summary": "Chapter 9 of 'With Due Respect' (Vol. 6), CJP's July 18, 2010 Inquirer column, calls Mar Roxas's electoral protest against VP Jejomar Binay 'an exercise in courage,' demanding 'herculean effort, enormous time, and humongous expense' (up to P50 million) with 'no assurance of victory' -- for 'no one has won an electoral protest for any national position... since the 1987 Constitution.' He surveys the graveyard of national protests (Defensor-Santiago, Legarda and Pimentel Jr. dismissed on winning Senate seats; Poe's mooted by death), leaving only Koko Pimentel III's pending alongside Roxas's. The Roxas protest, over 100 pages and about three million ballots, claims 2.6 million were mis-handled as 'null/misread' -- abstentions, 'under shaded' ovals, over-votes, or machine omissions -- and, since 'no human eye saw how the votes were appreciated by the PCOS machine,' asks that the boxes be opened and manually recounted by PET revisors to avoid 'wholesale disenfranchisement' and overtake Binay's 727,084-vote lead. Revising 2.6 million ballots would cost about five times Koko Pimentel's 500,000, and Binay would likely counter-protest -- making the process 'tedious and expensive.' On the novel manual-vs-machine question, Chairman Melo said automated ballots 'cannot be manually examined' and only the same PCOS can recount, but CJP notes Roxas 'is precisely contesting the accuracy of the machine count' and that the Court's April 27, 2010 PCOS rules 'expressly recognize manual revision.' Roxas further alleges Comelec and Smartmatic disabled 'legally mandated safeguards': a source code never given the required 'independent review' (and found 'inadequate and not professionally written'), no voter-verification, 'improper printing of official ballots,' missing ultraviolet marks, compact flash cards 'reconfigured not to read votes' for him, a 'compromised' audit trail, and an irregular random manual audit. CJP writes 'not to divine whether Roxas will win or lose' but to push both camps to secure 'definitive answers to lingering doubts about the Comelec-Smartmatic system before we undertake another PCOS-automated election.'",
-  "source_xlsx": "cjp_books_curated_normalized.xlsx"
+  "source_xlsx": "cjp_books_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "elections_and_automated_voting"
+    ],
+    "secondary": [
+      "citizenship_and_residency_grace_poe"
+    ]
+  }
 }

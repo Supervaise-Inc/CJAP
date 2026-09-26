@@ -113,5 +113,11 @@
     "vigilance-plus-legislation: both public and legislative action needed to protect the party-list system from co-optation"
   ],
   "one_paragraph_summary": "Delivered November 19, 2010 as an address on the Philippine party-list system, this speech by CJP -- the ponente of the foundational Veterans Federation Party v. Comelec decision -- analyzes the system through three landmark cases. Veterans (1998): CJP devised the 'Panganiban formula' (informally christened by textwriters) for allocating party-list seats based on four inviolable parameters: (1) 20% allocation; (2) 2% threshold; (3) three-seat limit; (4) proportional representation. Ang Bagong Bayani: the party-list system is reserved for those who 'factually and truly represent the marginalized and underrepresented constituencies' -- 'representation is easy to claim and to feign.' Banat v. Comelec (April 2009): in 'one fell swoop' increased party-list seats from 22 to 55 (total congressmen from 238 to 271); upheld the 2% threshold for the initial guaranteed seat but declared unconstitutional the second clause of Section 11(b) of the Party-List Law which gave additional seats proportionally to those above 2% -- this 'radically changed the rules of the game'; any party, 'regardless of how few its votes were,' can now get a Congressional seat; the Buhay (7.33% of votes, three seats) vs. Cocofed (0.98%, one seat) comparison shows 'grave violence to the precept of proportional representation.' The 2010 Comelec was applying 'inconsistent standards... sometimes outrightly contrary to jurisprudence' on accreditation despite nine years of clear Ang Bagong Bayani guidance. Conclusion: 'the party-list system is clearly vulnerable to manipulation and misuse... may be readily co-opted and utilized to maintain certain personages in political power. The clarion call of the hour is for ceaseless public vigilance and amendatory legislation.'",
-  "source_xlsx": "cjp_speeches_curated_normalized.xlsx"
+  "source_xlsx": "cjp_speeches_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "party_list_charter_change_and_dynasties"
+    ],
+    "secondary": []
+  }
 }

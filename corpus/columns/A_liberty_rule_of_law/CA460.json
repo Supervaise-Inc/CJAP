@@ -118,5 +118,13 @@
     "frames the ConCom president's aspiration ('just and humane society') as the teleological standard against which textual readings are measured"
   ],
   "one_paragraph_summary": "Panganiban opens with a declaration that April 2, 2013 -- the day of Atong Paglaum vs Comelec -- is 'a sad day for the poor and powerless.' Justice Carpio's ponencia reversed CJ Panganiban's own 12-year-old Ang Bagong Bayani ruling (June 26, 2001) that the party-list system is 'a social justice tool designed not only to give more law to the great masses... but also to enable them to become veritable lawmakers themselves' -- the ruling that said 'the law crafted to address the peculiar disadvantages of the Payatas hovel dwellers cannot be appropriated by the mansion owners of Forbes Park.' Carpio, relying on framers' discussions and the Party-List Law's single mention of 'marginalized and underrepresented,' held the party-list is merely an electoral mechanism for political parties that lose in district elections, open to all. CJ Puno had won an 8-7 battle for the marginalized in Banat (2009) with a dire warning that opening the system to major parties 'will surely suffocate the voice of the marginalized' and be its 'graveyard'; CJ Sereno dissented in Atong Paglaum arguing Carpio 'may have further marginalized the already marginalized.' CJ Panganiban situates the clash within the great constitutional divide between textualists ('dura lex sed lex', letter that killeth) and liberals (living Constitution, spirit that giveth life), placing himself, Davide, Puno, and Sereno in the latter camp as 'social engineers who courageously fix their gaze on the underlying principles and overarching aspirations of the Constitution.'",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "elections_and_automated_voting"
+    ],
+    "secondary": [
+      "party_list_charter_change_and_dynasties"
+    ]
+  }
 }

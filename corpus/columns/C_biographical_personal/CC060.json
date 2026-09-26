@@ -134,5 +134,14 @@
     "frames CJ's role as having moral ascendancy beyond a single vote"
   ],
   "one_paragraph_summary": "Responding to reader interest in his October 20 column 'Why Tony Carpio never became chief justice,' Panganiban explores the counterfactual: what would have happened had Carpio been named CJ. He defends the over-110-year SC tradition (broken only during the Japanese occupation) of naming the most or second-most-senior justice as CJ -- even Marcos at his most powerful 'carefully adhered to this tradition,' bypassing Teehankee only to name the second-most-senior -- and grounds it functionally in the Division structure: the Court decides ~85% of cases through three five-member Divisions, with the First Division usually chaired by the CJ, the Second by the most senior, and the Third by the second-most-senior, making the latter two 'little chiefs' grooming the 'big chief.' Of Carpio's five chances, the saddest was after CJ Renato C. Corona's impeachment and ouster on May 29, 2012, when P-Noy reportedly told him he was 'most qualified and most senior' but that 'some Senate allies and three prominent business leaders opposed his elevation' -- CJ Panganiban discloses that he spoke with one of those senators and two of the businessmen, and all denied opposing him, a story 'worth a full column.' Had Carpio been CJ from 2012 to his Oct 26, 2019 retirement, there would have been no CJs Sereno, De Castro, or Bersamin; Sereno could not have been ousted and would have been the most senior AJ today, potentially serving ~20 years (Aug 13, 2010 to July 2, 2030). Because chief justices have 'moral ascendancy' as primus inter pares -- Courts are named after their chiefs, like the Teehankee Court or Warren Court -- Carpio's dissents in this period could have become the decisions: limiting martial law in Mindanao to Marawi City only, rejecting both its extensions, denying the natural-born citizenship of Grace Poe, opposing the Marcos burial at Libingan, refusing to acquit Arroyo of plunder, denying bail to Enrile, and rejecting the validity of De Lima's arrest and detention.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "criminal_trials_and_prosecutions"
+    ],
+    "secondary": [
+      "presidential_power_martial_law_people_power",
+      "supreme_court_vacancies_and_chief_justiceship"
+    ]
+  }
 }

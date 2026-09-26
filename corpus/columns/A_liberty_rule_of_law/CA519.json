@@ -130,5 +130,11 @@
     "applies ex-parte-TRO-as-premature-decision analysis to recommend oral argument as the fair process"
   ],
   "one_paragraph_summary": "Panganiban uses Senator Bong Revilla Jr.'s statement that 'flight is an admission of guilt' -- triggered by his half-sister Ramona's flight to Turkey the day after Ramgen's murder -- to survey the legal doctrine and three parallel cases of flight by criminal suspects. The SC doctrine (People v. Ayupan, 2002) holds that 'unexplained flight' may be taken as evidence of guilt -- but flight is damning only when unexplained and unrebutted. He applies this to three cases: Ramona Bautista (co-conspirator allowed to fly despite the same in flagrante/hot pursuit rationale used to arrest brother RJ -- an inexplicable police inconsistency now requiring passport cancellation, Interpol red notice, and potential extradition from Turkey); Sen. Lacson (fled January 4, 2010; hid for 14 months until the CA dismissed his Dacer-Corbito double murder charges February 3, 2011 while he was still at large -- which CJ says 'encouraged lawlessness,' though the CA correctly noted the SC allows certiorari from at-large accused; new indictment remains possible since no arraignment occurred); and GMA Arroyo (watch-list order under DOJ Circular 41 issued during her own administration; her constitutional right-to-travel argument complicated by Marcos v. Manglapus which balanced that right against national security even without a specific law). CJ recommends oral argument rather than an ex parte TRO for GMA's petition, applying Holmes's principle that 'general propositions do not decide specific cases.'",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "criminal_trials_and_prosecutions"
+    ],
+    "secondary": []
+  }
 }

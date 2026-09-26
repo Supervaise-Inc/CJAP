@@ -122,5 +122,14 @@
     "uses the Ilocos Norte intramural as a negative exemplar of misplaced political energy"
   ],
   "one_paragraph_summary": "Responding to readers who noted the 'softness' of his previous two ML columns, Panganiban explains that his deliberate avoidance of blame -- opining on June 18 that ML was validly declared at least for Marawi while calling Lagman's petition a public service, and opining on June 25 that Congress's separate sessions were constitutionally questionable while recommending no fault-finding -- was a strategic choice to avoid divisive bickering and focus national energy on the Marawi crisis: 422 dead (militants, soldiers, civilians) as of July 1, 200,000+ displaced civilians, CNN calling it 'the deadliest urban fighting in the Philippines,' and ~200 hostages including Fr. 'Chito' Suganob held by the Maute rebels. He marshals cross-partisan and cross-religious voices for unity: VP Robredo visiting evacuees and praising the military despite being the opposition leader, Cardinal Tagle meditating on human violence, Archbishop Villegas pleading for hostage safety, and Muslim, Protestant, and ecumenical groups all joining the call. He closes by noting the Ilocos Norte political intramural as a misplaced distraction, calling on Congress and local leaders to redirect their energy toward Marawi relief, rehabilitation, and the long-term pursuit of a comprehensive peace process with moderate Moro groups and the National Democratic Front.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "presidential_power_martial_law_people_power"
+    ],
+    "secondary": [
+      "bangsamoro_peace_process",
+      "marcos_robredo_election_contest"
+    ]
+  }
 }

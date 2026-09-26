@@ -206,5 +206,11 @@
     "preserves student-research amplification as part of the FLP-pedagogy register"
   ],
   "one_paragraph_summary": "At last week's FLP awards ceremony for 20 new law scholars, five MBA fellows, and 30 dissertation contest winners -- with First Lady Louise Araneta Marcos, herself 'a brilliant lawyer,' as special guest -- keynote speaker Manuel V. Pangilinan (MVP) reassured that lawyers and the public should not fear AI's disruptions 'except that it will drastically reduce their billable hours.' MVP defined generative AI as the capacity to curate huge data and create new content (video, audio, text) resembling human intelligence, with loopback learning making it more human-like over time -- yet reassured that 'you will not be replaced by AI per se, but you can be replaced by a person using AI.' Algorithms are AI's 'homecourt' but 'can be rigid and fundamentalist'; humans must distinguish themselves not by competing with algorithms but by exercising 'liberty of thought, our talent to think, and combining our creative and innovative powers with AI' in the continuing pursuit of prosperity -- robots cannot replace human touch, empathy, instincts, ability to connect, or capacity to navigate crisis emotions. Rachel Lois B. Gella's first-prize 77-page dissertation at USLS Bacolod cited CJ's prosperity motto and argued that 'consent permeates our lives in the digital landscape,' that commercial practices can render that consent illusory, and -- paraphrasing Justice George Malcolm -- that 'liberty cannot be dwarfed into mere freedom from physical restraint' and 'there will be no real liberty in the digital world when consent is rendered illusory.' Though of older vintage than AI, the 1987 Constitution's guarantee that 'the privacy of communication and correspondence shall be inviolable,' together with the ICCPR, the Civil Code, and the Data Privacy Act of 2012, can protect digital consent. The SC's Strategic Plan for Judicial Innovation 2022-2027 anticipates the AI age, with its data-sharing alliance with DOJ and DILG cutting down redundancies and delays. Congress is to be hailed for HB 7396 (Artificial Intelligence Authority) and HB 7913 (AI system audit and accountability). 'Properly contextualized and used, AI can fortify the safeguarding of liberty and the nurturing of prosperity under the rule of law.'",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "science_technology_and_the_law"
+    ],
+    "secondary": []
+  }
 }

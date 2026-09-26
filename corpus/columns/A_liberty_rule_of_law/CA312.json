@@ -107,5 +107,13 @@
     "frames DO 174's P5M threshold as the bright-line regulatory standard for the capital requirement"
   ],
   "one_paragraph_summary": "Panganiban provides a plain-language explanation of the contractualization debate by walking through two escalating hypotheticals. In the simple version, a homeowner hires a properly capitalized contractor (DO 174: at least P5M paid-up capital or net worth) to build a house; the contractor supplies labor, materials, and equipment, pays workers at least minimum wage, and the homeowner is not the employer -- this is permissible job contracting under Labor Code Art. 106. Labor-only contracting (prohibited) arises if the contractor merely recruits workers while the owner pays salaries, supervises work, or provides equipment. In the complex version, a contractor for a P5-billion multi-building project subcontracts cleaning, security, and medical services to three separately capitalized entities -- each is still legitimate job contracting because the subcontractors control, pay, and equip their own workers. He anchors the analysis in Sasan vs NLRC (October 17, 2008), which sets a three-part test: (a) the contractor carries on an independent business in its own manner and under its own responsibility; (b) has substantial capital or investment; and (c) assures contractual employees full labor and safety standards -- contrasted with the two labor-only contracting elements: no substantial capital, and employees performing activities directly related to the principal's main business. He closes by noting that 'outsourcing is the digital-age synonym of job contracting.'",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "property_contracts_and_economic_rights"
+    ],
+    "secondary": [
+      "economy_taxes_and_prosperity"
+    ]
+  }
 }

@@ -149,5 +149,13 @@
     "treats LAMP→Belgica reversal as SC self-correction not stare-decisis breach"
   ],
   "one_paragraph_summary": "Panganiban addresses restive congressmen dismayed by alleged Supreme Court 'flip-flopping' -- especially Belgica v. Ochoa (Nov 19 2013) outlawing PDAF and Reyes v. Comelec (June 25 2013) upholding the Comelec's unseating of Regina Ongsiako Reyes -- who are threatening to disobey and impeach justices. He defends both decisions. On PDAF, LAMP v. DBM (April 24 2012) was reversed by Belgica a year later, but this is self-correction, not stare-decisis breach. On Reyes, he rewinds the four-stage chronology: March 27 Comelec First Division cancelled Reyes's COC (she lost Filipino citizenship by marriage to an American and failed to take oath of allegiance and renounce US citizenship); May 14 the en banc affirmed 6-1; May 18 the BOC proclaimed her winner despite the cancellation; May 19 the Comelec ruling became final and executory; June 5 she took her oath and simultaneously sued the SC; June 25 the SC (J. Jose Portugal Perez, 7-4) affirmed the Comelec, citing the HRET-three-element Member threshold (proclamation + oath + June 30 assumption-of-office), and held that the Comelec still had jurisdiction when it decided on May 14 (which became final on May 19, before Reyes met all three HRET-Member elements). The resolution had legal and logical moorings and cited many precedents -- with due respect, he cannot understand why it ignited a congressional conflagration. He delivers the rule-of-law maxim: legislators have the right to disagree but not to disobey. He discloses his own three-stage practice: he disagreed many times as AJ, persuaded colleagues internally as CJ but did not begrudge those who differed, and as retired jurist has critiqued flip-flops but always honored and followed decisions. Congress is not helpless -- it holds the purse, legislates laws, has oversight powers, determines court jurisdictions, can change jurisprudence, and most importantly can impeach justices -- but only for culpable violation of the Constitution, treason, bribery, graft and corruption, other high crimes, or betrayal of public trust, NOT for their decisions, opinions, or votes, even if these may later turn out to be erroneous. By the same token, lawmakers can be disciplined only for disorderly behavior, not for bills and votes, even if these may later prove unwise.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "elections_and_automated_voting"
+    ],
+    "secondary": [
+      "how_the_supreme_court_decides"
+    ]
+  }
 }

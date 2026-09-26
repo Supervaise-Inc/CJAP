@@ -138,5 +138,13 @@
     "deploys parallel-application reasoning (if VFA, then MDT) for symmetric treaty analysis"
   ],
   "one_paragraph_summary": "Panganiban responds to President Duterte's surprise six-month suspension of the VFA abrogation (Diplomatic Note No. 2020-2622, June 1, 2020) by tracing the layered history of the VFA (Senate-concurred May 27, 1999; upheld in Bayan v. Zamora, Oct 10, 2000, from which he recused due to ties to petitioner Salonga) and the MDT (Aug 30, 1951), then walks through the 2006 Daniel Smith rape case and the Romulo-Kenney transfer of Smith to the US Embassy -- which was invalidated in Nicolas v. Romulo (Feb 11, 2009) yet strangely left Smith in embassy custody pending diplomatic agreement. He pivots to the dispositive supervening doctrine: Medellin v. Texas (March 25, 2008, CJ Roberts) held that a treaty, even one ratified by the US Senate, is not enforceable as US domestic federal law unless Congress enacts implementing legislation or the treaty is by its terms self-executory and Senate-ratified as such. Applying this test, he argues the VFA fails on all counts (no US Senate ratification, no implementing law, not self-executory) and the MDT also fails (no implementing law, not self-executory), making both treaties unenforceable in the US. Because Sec. 25, Art. XVIII of the 1987 Constitution requires the other contracting state to 'recognize as a treaty' any agreement permitting foreign troops, the Philippines as a self-respecting sovereign has no choice but to deem both treaties unenforceable here. He punctuates the argument with a personal anecdote about Justice Antonin Scalia's May 17, 2006 confession in Washington that he was 'useless in international meetings' because the US Supreme Court enforces only the US Constitution and US statutes -- and closes by wondering whether this Medellin conundrum is what truly informed Duterte's Feb 11 abrogation.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "life_story_family_school_and_church"
+    ],
+    "secondary": [
+      "international_law_disputes"
+    ]
+  }
 }

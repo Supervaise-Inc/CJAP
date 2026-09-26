@@ -206,5 +206,13 @@
     "quasi-judicial acts require prior notice and hearing, and a mere administrative issuance cannot cancel a certificate of candidacy"
   ],
   "one_paragraph_summary": "Chapter 22 of 'Judicial Renaissance' is Panganiban's report on the House of Representatives Electoral Tribunal, written to redeem a promise made in 'Leveling the Playing Field' and timed to his first anniversary as chairperson on July 15, 2005. He sets out the HRET's constitutional charter under Section 17, Article VI -- sole judge of all contests relating to the election, returns and qualifications of representatives -- names its nine members as of October 10, 2005, and explains its practice: an election protest by a defeated candidate, a quo warranto petition by any voter, the five grounds for summary dismissal under Rule 21, summons and answer, the preliminary conference, and then either reception of evidence before a hearing commissioner or the collection of ballot boxes followed by revision and appreciation of ballots. Of the 15 protests, 3 quo warranto petitions and 1 petition to re-canvass returns filed after the May 10, 2004 elections, 8 protests and all 3 quo warranto cases had been disposed of, and he lists each dismissal with its resolution number and dates. He gives fuller accounts of San Miguel v. Dy, where evidence of domicile of origin and animus revertendi defeated a residence challenge under Romualdez-Marcos v. Comelec; of Samson v. Crisologo, where an absolute pardon restoring full civil and political rights was held to remove every disability, and where jurisdiction was said to pass from the Comelec to the HRET upon proclamation; and of Roman v. Garcia, where neither side proved the alleged massive fraud and revision of all 881 precincts widened Garcia's margin from 803 to 1,417 votes under the Neighborhood, Intent and Idem Sonans Rules and the principle that ballot appreciation exists to give effect to the voter's intention. The chapter's centerpiece is Angping v. Roces, a novel petition for re-canvassing alone, in which the Tribunal upheld the substitute candidacy and its own jurisdiction and Panganiban wrote separately that the Tribunal's primordial duty was to ascertain the true winner. He closes by praising the Tribunal's diligence, forecasting that it would finish its cases within two years, commending the Secretariat by name, and reproducing a poem an HRET lawyer had privately given him.",
-  "source_xlsx": "cjp_books_curated_normalized.xlsx"
+  "source_xlsx": "cjp_books_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "property_contracts_and_economic_rights"
+    ],
+    "secondary": [
+      "elections_and_automated_voting"
+    ]
+  }
 }

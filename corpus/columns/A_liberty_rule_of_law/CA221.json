@@ -127,5 +127,13 @@
     "deploys civic-mobilization logic: where State capacity falters, organized bar and academe must fill the gap"
   ],
   "one_paragraph_summary": "Panganiban devotes a column 'in the midst of the COVID-19 crisis' to a Sandiganbayan 4th Division resolution dated Feb 28, 2020, directing the OSG to report within five days on its 'proper legal action' in Republic v. Estate of Africa (Civil Case No. 0178) -- a case filed Oct 29, 1997 to recover shares of stock held in the names of alleged Marcos cronies, in which some defendants have still not been properly served summons after 22 years because they are abroad. The OSG's Sept 24, 2018 motion to suspend the preliminary conference for 60 days to attempt summons by publication was granted four days later, but the 60 days lapsed in silence, prompting the SBN's renewed inquiry. He uses this as a hook to argue that the PCGG and OSG must 'wake up, follow the Rules of Court, and hasten' long-dormant ill-gotten wealth cases -- and that even cases with final judgments suffer closure gaps. He cites Estate of Marcos v. Republic (Jan 18, 2017) for the difficulty of tracing foreign-located forfeited cash, bonds, real estate, shares, paintings, and condominiums; People v. Estrada (Sept 12, 2007) for the SBN's forfeiture of P549M (Muslim Youth Foundation), P180M ('Jose Velarde'), and the 'Boracay Mansion' in New Manila -- assets held in third-party names whose recovery status he cannot confirm even after GMA's pardon preserved those forfeitures 'in force and in full'; and the Dec 7, 2018 SBN split decision that acquitted Sen. Bong Revilla but convicted Richard Cambe and Janet Lim Napoles of plunder while holding the accused 'solidarily and jointly liable' for P124.5M -- a sum Revilla refuses to pay despite his solidary obligation. He closes by urging the private sector, especially the Integrated Bar of the Philippines, to help monitor and close these cases, and by inviting 'patriotic law students and their professors' in the legal academe to join the chase.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "criminal_trials_and_prosecutions"
+    ],
+    "secondary": [
+      "ill_gotten_wealth_and_the_pcgg"
+    ]
+  }
 }

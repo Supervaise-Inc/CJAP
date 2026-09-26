@@ -100,5 +100,11 @@
     "four-Ins-vision as the governing personal judicial philosophy standard"
   ],
   "one_paragraph_summary": "Published April 29, 2008 as the outline or lecture notes for a presentation titled 'The Philippine Supreme Court: Activism and Restraint,' this document by CJP is structured as topic labels with brief descriptions rather than a full speech transcript. It begins with the Eisenhower-liberal-duo framing (CJ Earl Warren and Justice William Brennan as Eisenhower's unintended activist appointees). It covers the major sources of Philippine law (constitutional, political, commercial and remedial law; civil and criminal law), the Philippine governmental structure (separation of powers), and the definition of judicial power under Section 1 Article VIII of the 1987 Constitution: (1) settling actual controversies involving legally demandable rights; (2) determining grave abuse of discretion amounting to lack or excess of jurisdiction. The definition of grave abuse of discretion is given in full: 'Capricious and whimsical exercise of judgment by reason of passion or personal hostility in a manner so patent and so gross as to amount to an evasion of a positive duty or to a virtual refusal to perform the duty enjoined, or to act at all in contemplation of law. Also, any action done contrary to the Constitution, the law or jurisprudence.' The outline compares the Philippine grave-abuse-of-discretion jurisdiction with the US political question doctrine. It lists ten measures guaranteeing judicial independence: fiscal autonomy; security of tenure and compensation; protection from removal; non-diminution of powers; administrative supervision over lower courts; continuing judicial education; freedom from congressional confirmation; control of bar admission; rule-making power; and protection and enforcement of constitutional rights. It closes with the ACID problems (Access, Corruption, Incompetence, Delay) and the four-Ins vision (Independence, Integrity, Industry, Intelligence) safeguarding liberty and nurturing prosperity.",
-  "source_xlsx": "cjp_speeches_curated_normalized.xlsx"
+  "source_xlsx": "cjp_speeches_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "how_the_supreme_court_decides"
+    ],
+    "secondary": []
+  }
 }

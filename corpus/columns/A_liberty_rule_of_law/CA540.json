@@ -159,5 +159,13 @@
     "anchors the outcome to the rule of law over public sentiment"
   ],
   "one_paragraph_summary": "Panganiban examines Senate presiding officer Francis 'Chiz' Escudero's ruling that 16 of 24 votes are needed to convict VP Sara Duterte, regardless of senators who are detained, hiding, sick or otherwise unable to participate -- a literal reading of the Constitution's 'two-thirds of all the Members of the Senate.' Not a politician, CJP offers a judicial perspective on how the Supreme Court sets its voting denominator. Under its Internal Rules, the Court needs a quorum of eight en banc, and a decision requires the majority of members who actually took part; the denominator shifts with active participation. In League of Cities v. Comelec, the Court struck down the Cityhood Laws 6-5 in 2008, upheld them 6-4 in 2009 when vacancies and abstentions cut the denominator to 10, then reinstated its first ruling 7-6 with 13. In Cruz v. DENR Secretary, a 14-member Court deadlocked 7-7, so the challenge to the Indigenous Peoples' Rights Act failed. In De Castro v. JBC, the Court stressed that deliberation is the core of decision-making and that one voice less is a contributed opinion less. Yet these examples do not settle the question: the SC reviews questions of law and is not a trier of facts, while the impeachment court receives evidence and hears witnesses. CJP does not ask the Senate to copy the Court, but argues that the two-thirds requirement cannot be applied without first identifying the correct denominator. Escudero's ruling is interlocutory, not written in stone, and may be reversed by a simple majority. The Court will intervene only for grave abuse of discretion; since the impeachment court is susceptible to shifting public moods, the SC's duty, when petitioned, is to anchor its power to the rule of law rather than partisan passion.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "property_contracts_and_economic_rights"
+    ],
+    "secondary": [
+      "impeachment_accountability"
+    ]
+  }
 }

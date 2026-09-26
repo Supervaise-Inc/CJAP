@@ -210,5 +210,13 @@
     "applies the personal-fear-disclosure as an authentic political-warning register"
   ],
   "one_paragraph_summary": "Inverting the usual stereotype, Panganiban argues that the Philippine Supreme Court and the Catholic Church -- traditional bulwarks of conservatism -- are moving progressively on a 'rocky road to liberalism,' while the US Supreme Court (Scotus), traditional bastion of liberalism, has turned conservative. The PH SC's liberal trek is illustrated by Republic v Ng (Feb 27, 2024, J Dimaampao, en banc, 13-2), which recognized foreign divorces -- even by administrative process or mutual agreement (as practiced in Japan and Korea) -- by reading Article 26(2) of the Family Code according to its spirit and intent (sparing Filipino spouses from disadvantage when foreign spouses are already free to remarry), and by Pulido v People (July 27, 2021, J Hernando, en banc, 15-0), which acquitted an accused of bigamy even without a judicial declaration of nullity of a void-ab-initio first marriage (though judicial declaration is still needed for remarriage and civil-rights questions like heirship). CJ is surprised that 13 insider-justices trended liberal, with only two outsiders (UP, DOJ) predictably liberal. The Catholic Church has likewise been liberalizing -- Vatican II (1962-1965) made it more humane and ecumenical (vernacular masses, priests facing the faithful), PCP2 implemented this in the Philippines, Pope John Paul II carried it forward, and Pope Francis as the first non-European pontiff is even more determined; his Sept 13 Singapore extemporaneous remarks ('All religions are paths to reach God... God is God for all, then we are all children of God') will 'rock the rafters' and intensify traditionalist opposition. By contrast, Scotus tipped from 5-4 to 6-3 conservative with Trump's three appointees (Gorsuch, Kavanaugh, Barrett), and Dobbs v Jackson (June 24, 2022) reversed Roe v Wade (Jan 22, 1973). Combined with immigration, democracy, jobs, and the economy, abortion has turned the Nov 5 Harris-Trump contest into 'acrimonious combat between liberals and conservatives' whose ramifications will shake the wars in Ukraine, Gaza, and Lebanon, the tensions in the North and South China Sea, and the Israel-Iran standoff. CJ's fervent hope is that liberalism not become 'licentiousness' subverting the rule of law, and that conservatism not become Hitler-style Nazism violating individual liberty -- but he is 'terrified by the rants of Trump that, if elected, he would become a dictator. Heaven forbid!'",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "us_supreme_court_and_american_politics"
+    ],
+    "secondary": [
+      "marriage_annulment_and_the_family_code"
+    ]
+  }
 }

@@ -121,5 +121,13 @@
     "peaceful communal action / 'new people power' as the citizens' legitimate recourse"
   ],
   "one_paragraph_summary": "Chapter 3 of 'With Due Respect' (Vol. 1), CJP's March 2, 2008 Inquirer column, confronts the deepening crisis of confidence in the Arroyo government as corruption scandals escalate. He surveys five ways out and finds each unlikely or unpalatable: voluntary resignation (which GMA rejected -- 'I am President and no one else'); a snap election (impossible, since there is no vacancy and the Vice-President would succeed); impeachment (hopeless in a House that had just 'defrocked' Speaker de Venecia); a coup d'etat (a 'Burma-type junta' 'far worse than GMA'); and emergency rule (which would make her a dictator in the company of Marcos, Suharto or Idi Amin), noting that 'martial law under the present Constitution is toothless.' People power, too, is not ripe -- the economy holds, Cardinal Sin is gone, the military is loyal, and the bishops asked only for an end to corruption. GMA's best honorable option, he argues, is to win back the 'middle forces' by credibly committing to relinquish power in June 2010 and to abate graft now, leveraging her 'two aces' (an economy still rising and only two years left). He lays out four confidence-building steps: halt all Charter change; fortify the Comelec, the COA and the Court (starting with Gutierrez's vacated seat); prosecute the NBN-ZTE 'biggies,' be transparent, and allow an untrammeled Senate inquiry; and cushion the receding US economy, with a reminder about the OFWs' five recommendations. Meanwhile, he urges citizens to 'rage on' -- to amplify the demos and media blitz, sharpen the Senate probes, hasten the Court decision that would 'unshackle' Neri, and fill the churches -- until peaceful 'communal action' becomes 'a new type of people power,' closing with the rallying cry 'Umabot tayo noon, aabot din tayo ngayon.'",
-  "source_xlsx": "cjp_books_curated_normalized.xlsx"
+  "source_xlsx": "cjp_books_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "presidential_power_martial_law_people_power"
+    ],
+    "secondary": [
+      "party_list_charter_change_and_dynasties"
+    ]
+  }
 }

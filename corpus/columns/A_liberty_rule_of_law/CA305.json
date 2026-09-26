@@ -119,5 +119,13 @@
     "applies minority-vindication framework to Leonen dissent: temporal hedge ('at another time') as a judicial-history prediction method"
   ],
   "one_paragraph_summary": "Panganiban opens by acknowledging that the 14 separate opinions in Lagman vs Medialdea (July 4, 2017) constitute 'indigestible legal gobbledygook for lay people' but a 'veritable legal feast for law scholars,' and proceeds to curate the most jurisprudentially significant contributions. He highlights the concurrences of Perlas-Bernabe and Jardeleza, which argued that ML review is sui generis: the government, not the petitioners, bears the burden of proving the sufficiency of facts because only the government has access to classified information, and the applicable standard is 'reasonableness' rather than the ponencia's 'probable cause' -- with all four ordinary judicial review thresholds (substantial evidence, preponderance, proof beyond reasonable doubt, grave abuse of discretion) to be discarded. He then makes a taxonomic correction: Sereno's and Carpio's opinions -- which concurred on P216's factual basis but dissented only on territorial coverage (Lanao/Maguindanao/Sulu for Sereno with Caguioa; Marawi-only for Carpio) -- are mislabeled as 'Dissenting' and should be 'Concurring and Dissenting,' since their mislabeling buries valuable 'legal gems': Sereno's comprehensive dissertation on arrest/seizure procedures and rights of the accused, and Carpio's four-consequence taxonomy of ML. Finally, he identifies Leonen's 92-page opus as the only true dissent, recommending it be 'read and reread' for its holding that the Court cannot grant the President undefined ML powers over all of Mindanao and its application of the 'void for vagueness' and 'void for overbreadth' doctrines -- predicting with characteristic elegance that Leonen's 'peregrinations may be lonely now, but they could be cheerful at another time.'",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "presidential_power_martial_law_people_power"
+    ],
+    "secondary": [
+      "criminal_trials_and_prosecutions"
+    ]
+  }
 }

@@ -151,5 +151,14 @@
     "amends factual errors in real time within the same column (intellectual humility)"
   ],
   "one_paragraph_summary": "Panganiban explains why he generally declines to respond to online comments -- Inquirer's 'Balanced News, Fearless Views' policy lets comments balance one another, and 'stoic silence washes more than a torrent of invectives,' though he will sue violators of the cybercrime law. Citing Oliver Wendell Holmes Jr. ('General propositions do not decide concrete cases'), he refuses to dispense long-distance legal advice and instead refers readers to licensed counsel, the Public Attorney's Office, or the IBP. He reiterates that he dissolved his law office on joining the Court and has not rejoined any firm post-retirement -- even as 'of counsel' -- because his appearance before judges who had served under him would create perception of bias. He then reproduces verbatim a hostile reader's five-question email and prints his straight answers to questions 2 and 4 about his own chief-justice record: he retired with no backlog in his personal docket, reducing his caseload from 1,100 initial cases (plus 45 raffled monthly) to 200 current cases, and instituted 'Operation Zero Backlog' across the entire Court -- facts documented in his annual books (one per year of incumbency), in the Supreme Court library, and on cjpanganiban.com, where the Plaque of Acclamation signed unanimously by all 14 associate justices is hosted. He closes by appreciating dissenting reactions to his recent columns -- Justice Adolf S. Azcuna's text disagreement on the MDT and Hickenlooper Amendment, Gen. Antonio Sotelo's '10 lawyers, 11 opinions' quip, and Justice Angelina Sandoval-Gutierrez's wonder at his frequent citation of her David v. Arroyo ponencia -- with his memorable rejoinder: 'I will not cease doing so because your career and your decision exemplify how to rise from human mortality to judicial immortality.'",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "international_law_disputes"
+    ],
+    "secondary": [
+      "judicial_reform",
+      "libel_and_cybercrime"
+    ]
+  }
 }

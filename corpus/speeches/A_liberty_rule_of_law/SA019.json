@@ -112,5 +112,11 @@
     "reciprocity-as-diplomacy: the goodwill invitation to CJ Syarifuddin as a response to Indonesia's hospitality"
   ],
   "one_paragraph_summary": "Delivered virtually on October 3, 2022 at the 43rd ASEAN Law Association Governing Council Meeting in Jakarta, this brief address by CJP -- as ALA Philippines Chairman -- opens with a profuse apology to host CJ Mohammad Syarifuddin of Indonesia for his inability to attend in person. He narrates the failed logistics: Philippine Airlines notified him that PR 539 Manila-Jakarta (October 1, 2022) would 'not be operational'; he tried Singapore Airlines via Changi but the connecting flight was only 1 hour 10 minutes, the next one required a 5+ hour wait, and the flight was 'super full.' His staff had earlier communicated the cancellation to Swandy Halim of ALA Indonesia. He expresses regret at missing the Grand Dinner in honor of retired CJ Hatta Ali, thanks CJ Syarifuddin for his hospitality, and invites him to visit the Philippines on a goodwill mission to meet ALA Philippines members and the incumbent SC members. He introduces the Philippine delegation of over a dozen jurists, lawyers, and academics -- asking them to open their cameras and wave online -- and expresses anticipation at hearing the reports on the ALA Institute, the ALA Guidelines on Best Practices to Enforce Arbitral Awards within ASEAN, the ASLOM update, and the Working Group reports. He closes with the Filipino greeting: 'Mabuhay po tayong lahat at maraming salamat po.'",
-  "source_xlsx": "cjp_speeches_curated_normalized.xlsx"
+  "source_xlsx": "cjp_speeches_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "asean_law_association"
+    ],
+    "secondary": []
+  }
 }

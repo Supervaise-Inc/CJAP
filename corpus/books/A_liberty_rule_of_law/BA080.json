@@ -237,5 +237,14 @@
     "judicial restraint toward a co-equal branch's policy choices, including classification of crimes"
   ],
   "one_paragraph_summary": "Chapter 16 of 'Reforming the Judiciary' presented the Supreme Court's decision in Estrada v. Sandiganbayan upholding the Anti-Plunder Law. CJP supplied only the opening frame: he recalled that on March 2, 2001 the Court had unanimously upheld Gloria Macapagal Arroyo's ascension and denied Estrada immunity, that the Ombudsman then charged him with plunder under RA 7080, and that Estrada, 'in a bid to shortcut his detention and obtain immediate acquittal,' attacked the law's constitutionality; he then reprinted, with permission, former Senate President Jovito R. Salonga's Kilosbayan article as the chapter proper. Salonga, who had drafted the measure as Senate Bill No. 733 in August 1988 out of his PCGG experience, recounted its unanimous passage by the post-EDSA Senate -- including several affirmative votes by Senator Estrada himself -- and set out the charge of more than four billion pesos in illegal-gambling protection money, tobacco excise funds, Belle Corp. commissions and the 'Jose Velarde' deposits. He then explained the 10-4-1 Decision opinion by opinion. Justice Bellosillo held the law presumed constitutional, its standards ascertainable, its words 'combination' and 'series' plain on the legislative record, its Section 4 no dispensation from proof beyond reasonable doubt, and Estrada estopped from claiming ignorance of a law he had voted for. Justice Mendoza concurred that strict scrutiny, overbreadth and vagueness are tools for free speech cases and inapt for penal statutes, which must be judged as applied, and that plunder is a malum in se requiring mens rea. Justice Panganiban's own Separate Opinion answered the dissenters point by point: a penal law suffices if it answers 'What is the violation?'; 'simple statutory construction, not a declaration of unconstitutionality, is the key' to the undefined terms; 'pattern' is procedural rather than an essential element, so RA 7080 is not a copy of RICO; and the quantum of evidence was not lowered but raised. The article closed by noting that Estrada could now meet the charges on the merits, 'not by resorting to mere legalisms, but by showing the sheer falsity of the offenses attributed to him.'",
-  "source_xlsx": "cjp_books_curated_normalized.xlsx"
+  "source_xlsx": "cjp_books_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "death_penalty_and_echegaray"
+    ],
+    "secondary": [
+      "life_story_family_school_and_church",
+      "criminal_trials_and_prosecutions"
+    ]
+  }
 }

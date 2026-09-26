@@ -169,5 +169,15 @@
     "social justice as lifting up the poor, the marginalized, the exploited and the disadvantaged"
   ],
   "one_paragraph_summary": "Chapter 13 of 'Judicial Renaissance' collects Justice Panganiban's remarks at the launch of Jovito R. Salonga's book 'The Task of Building a Better Nation.' He opened with the 13th International Judicial Conference in Kiev, which he attended with Chief Justice Davide alongside chief justices from former Soviet republics and allies, and whose theme -- judicial independence and the courts' role in safeguarding elections -- honored the Ukrainian Supreme Court for annulling a fraud-ridden presidential election and clearing the way for the balloting that brought Viktor Yushchenko to power. What struck him more than the sessions were the 'corridor conversations' about life after the USSR's collapse: under authoritarian rule everyone had a job but nobody was working, while privatization, deregulation and globalization brought efficiency together with unemployment and inflation. He argued that the Philippines, freed from twenty years of Marcos rule only in 1986, was comparable to those states, and that the yellow People Power revolution had presaged the velvet revolutions of 1989 and Ukraine's orange revolution. Turning to Salonga's book, he set out its diagnosis of three interrelated maladies -- massive poverty, rampant corruption and uncontrolled criminality -- traced to the concentration of wealth in an elite and to a double standard of justice, and its address to the youth, supported by a roll of young leaders from Rizal and Bonifacio to Quezon and Roxas, to which he added the young Salonga himself. He endorsed the book's treatment of the judiciary as guarantor of civil, political and economic rights, repeated his own conviction that those with less in life should have a better chance at competing with those who have more in law, and noted Salonga's defence of Chief Justice Davide against impeachment charges pursued in ruthless, cold-blooded haste. Salonga's prescription -- an open, pluralistic and free society resting on human dignity as the first article of faith -- is distinguished from politicians' copycat incantations, he said, by Salonga's insistence after Confucius that government must be government by example: dissolving his law firm on appointment to the PCGG, living austerely in a rented house with a small car and cotton barongs, authoring the ethics, anti-plunder and anti-coup laws, and forsaking wealth for service. He closed with the 1971 Plaza Miranda grenade attack that left Salonga briefly clinically dead, answering the honoree's question about God's purpose in sparing him: to be a beacon in a darkened country.",
-  "source_xlsx": "cjp_books_curated_normalized.xlsx"
+  "source_xlsx": "cjp_books_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "life_story_family_school_and_church"
+    ],
+    "secondary": [
+      "criminal_trials_and_prosecutions",
+      "presidential_power_martial_law_people_power",
+      "supreme_court_vacancies_and_chief_justiceship"
+    ]
+  }
 }

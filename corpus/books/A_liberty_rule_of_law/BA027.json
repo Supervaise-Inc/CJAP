@@ -120,5 +120,11 @@
     "dialogue-over-confrontation between Church and State"
   ],
   "one_paragraph_summary": "Chapter 1 of 'With Due Respect' (Vol. 7), CJP's October 3, 2010 Inquirer column, treats 'the sanctity of life and... of marriage' -- the issues uniting the Catholic hierarchy against the Reproductive Health Bill and the divorce bill, and making it 'extra sensitive' to President Aquino's pronouncements. On life, the 'basic Catholic theology' is Humanae Vitae (Paul VI, 1968), 'condemning abortion and prohibiting artificial contraception,' which Benedict XVI defended decades later: 'What was true yesterday is still true today.' The 1987 Constitution 'outlaws abortion,' protecting the unborn 'from conception,' so unlike countries still debating when life begins, the live Philippine dispute is the Church's bar on artificial means of preventing the egg-sperm union (condoms, IUDs, ligation, 'pills'). On marriage, the dogma that 'what God has joined together, let no man put asunder' makes it an 'inviolable social institution' that 'no human institution, including the state, can dissolve' -- yet the Church recognizes nullity for 'psychological incapacity' that is 'grave,' 'incurable' and 'antecedent' (Canon 1095, adopted as Article 36 of the Family Code). CJP traces the jurisprudence he helped shape: Santos v. CA (1995) and his own Republic v. Molina (1997, the 'eight guidelines') 'closely hued to the three Church requirements,' a 'more liberal' drift followed, and Suazo v. Suazo (2010) clarified that Santos and Molina remain 'good case law.' He faults Rep. Luzviminda Ilagan's divorce bill as 'theologically untenable' for letting psychological incapacity arise after the wedding rather than be 'antecedent,' thus 'infringing inviolability' -- but hopes P-Noy and the Church can avoid 'a grisly confrontation,' echoing Benedict XVI's Westminster call for 'ongoing dialogue' between secular reason and religious belief.",
-  "source_xlsx": "cjp_books_curated_normalized.xlsx"
+  "source_xlsx": "cjp_books_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "marriage_annulment_and_the_family_code"
+    ],
+    "secondary": []
+  }
 }

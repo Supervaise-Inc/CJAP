@@ -129,5 +129,11 @@
     "Evaluate counsel by range of clientele: high-profile does not preclude pro bono service to ordinary Filipinos"
   ],
   "one_paragraph_summary": "Responding to readers puzzled by the difference between GMA's acquittal (Arroyo v. Sandiganbayan, July 19, 2016, 10-4-1, per J. Bersamin) and Jinggoy Estrada's mere bail grant, Panganiban explains the procedural distinction. The acquittal/bail difference turns on stage of proceedings: GMA was acquitted after the prosecution completed its full presentation of evidence in a trial on the merits, while Jinggoy received bail only after a preliminary bail hearing before the prosecution rested. Both rulings invoked the same new doctrine from Arroyo v. SBN: plunder requires the information to allege and the prosecution to prove beyond reasonable doubt the identity of the 'main plunderer.' In GMA's case, the information failed to identify one and the prosecution's evidence proved none -- acquittal followed. In Jinggoy's case, the SBN Special Fifth Division (3-2) found that while the information alleged a main plunderer, the prosecution had not strongly established Jinggoy as that person -- hence bail, not acquittal; he can still be convicted. The column turns to a profile of Estelito P. Mendoza -- GMA's SC counsel, Enrile's bail counsel, and newly retained by Revilla. Mendoza rose as Marcos's young solicitor general, winning Javellana v. Executive Secretary (March 31, 1973), earning the grudging moniker 'Champion of the Wrong Side.' His assistants -- Puno, V. Mendoza, and Kapunan -- became SC justices. He chose lifetime private practice over the SC, took lonely causes others shunned, won San Miguel's Cojuangco controlling shares, and at nearly 88, hearing-impaired but mentally agile, still represents both powerful clients (GMA, Enrile, Cojuangco, Lucio Tan) and ordinary Filipinos pro bono.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "criminal_trials_and_prosecutions"
+    ],
+    "secondary": []
+  }
 }

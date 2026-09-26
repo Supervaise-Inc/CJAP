@@ -139,5 +139,14 @@
     "Require recusal where a legislator-investigator has prior executive responsibility over the subject agency"
   ],
   "one_paragraph_summary": "Panganiban explains that the Senate Blue Ribbon and House Infra committees' televised flood-control-scam inquiries -- triggered by President Marcos's viral 'Mahiya naman kayo' -- exist mainly to aid new legislation including the 2026 budget, and only secondarily to refer the criminal aspect to the OMB and DOJ for the proper preliminary investigations and the eventual filing of charges under the probable-cause standard, even as conviction will demand proof beyond reasonable doubt. He spotlights Rep. Leandro Legarda Leviste's in flagrante delicto entrapment of a district highways engineer (whom Leviste is now flipping into a state witness against contractors and higher officials) and calls out Sen. Mark Villar's conflict of interest as a former DPWH Secretary from 2016 to 2021, saying Villar should be answering questions, not asking them. His central thesis is that the Philippines does NOT need new anti-graft laws -- RA 3019, RA 6713, AMLA, and others are already on the books -- and does NOT need a new independent commission either, because the Constitution has already established the OMB and COA with the necessary powers; any ad-hoc commission lacks the powers of contempt, subpoena, arrest, and case-filing, and must still refer matters to the OMB or DOJ. He invokes the Agrava Board as a cautionary precedent -- decades after the Ninoy Aquino assassination, the mastermind remains unidentified -- and closes with a prescription against media shows and excessive talk in favor of diligent use of existing laws and institutions, speedy trials grounded in original (not photocopied) evidence, and continuous, aggressive, and patient monitoring by an incensed public.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "public_funds_budget_and_bank_evidence"
+    ],
+    "secondary": [
+      "criminal_trials_and_prosecutions",
+      "independent_commissions_and_appointments"
+    ]
+  }
 }

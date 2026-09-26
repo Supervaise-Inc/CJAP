@@ -158,5 +158,11 @@
     "Vaccine-supply sufficiency as the trigger for lifting the DOLE ban"
   ],
   "one_paragraph_summary": "Triggered by a friend's text question -- 'May a private corporation require its employees to be vaccinated?' -- CJ Panganiban examines the DOLE's March 12, 2021 'no vaccine, no work' ban and RA 11525's rule that vaccine cards are not an additional mandatory requirement. Under the 'with due respect' formula, he proposes a calibrated modification turning on three factors: the kind of work performed, the kind of sanction imposed, and the availability of vaccines. For frontliners -- doctors, nurses, security guards, fast-food dispensers, bank tellers, toll collectors -- refusal to vaccinate, given their 'clear and present danger' exposure, should attract graduated sanctions (backend work, work-from-home, forced leave) with dismissal reserved only for outright Labor Code insubordination, and always subject to due process for refusers with valid reasons (allergies, comorbidities, fear of the needle). He invokes Yrasuegi v. PAL (Nov. 17, 2008), where a flight attendant's obesity was held to be a 'bona fide occupational qualification,' to argue that RA 11525 yields to BFOQ doctrine: once a company has procured sufficient vaccines for all employees, the 'no jab, no work' rule (or Macron's negative-RT-PCR alternative) becomes lawful. Labor-law specialist Anna Maria D. Abad's texted opinion confirms the synthesis. He then escalates from private-employer BFOQ to state police power, citing California's compulsory-vaccination regime and the maxim 'Salus populi est suprema lex' -- but qualified by the reasonableness-of-means-and-purpose test ('in law as in life, the means never justifies the end'). The column closes with an a-fortiori clincher: if the President may order lockdowns and restrict mobility and worship, certainly DOLE may modify its ban.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "property_contracts_and_economic_rights"
+    ],
+    "secondary": []
+  }
 }

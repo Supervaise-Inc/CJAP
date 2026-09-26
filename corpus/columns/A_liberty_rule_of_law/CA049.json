@@ -178,5 +178,11 @@
     "Frame gender-based harassment 'disguised as campaign humor' as a category of harm worth naming"
   ],
   "one_paragraph_summary": "Prompted by election lawyer Romulo B. Macalintal's reminder, Panganiban marks April 30 as Woman Suffrage Day under Marcos Sr.'s Presidential Decree No. 2346 (March 29, 1984), commemorating the 447,725 Filipino women who, in a plebiscite on April 30, 1937, voted themselves into the franchise -- 88 years before this column. He recalls that suffrage in the Philippines, granted by American colonizers in 1907, was male-only because women were dismissed as 'extensions of their husbands and fathers' and classed with minors, illiterates, aliens, and the insane. He warns the hard-won victory is now under assault -- not by law but by misogynistic campaign conduct -- citing a lawyer-congressional candidate facing both Comelec disqualification and SC disbarment for proposing that single, still menstruating mothers could sleep with him once a year if elected, and another male candidate caught on video urging a man to kiss a widowed female board-member candidate while quipping her 'something' was 'already closed' and needed to be 'loosened,' which drew former senator Leila de Lima's 'deeply appalled and angered' rebuke. Even Malacañang has condemned such behavior, with President Marcos calling it 'unacceptable' -- a continuity with his father's 1984 proclamation. He honors Henrietta 'Tita' De Villa as founder and chair emeritus of the Parish Pastoral Council for Responsible Voting and Evelyn R. Singson as its current chair, then catalogues Filipina firsts: presidents Cory Aquino and Gloria Macapagal-Arroyo; senators Pecson, Kalaw, and Loren Legarda (topping the Senate race twice in 1998 and 2007); bar-topping SC justices Muñoz-Palma, Melencio-Herrera, and Griño-Aquino; and J. Maria Filomena D. Singh's unanimous election as president of the International Association of Women Judges in Cape Town. He closes with rosters of leading businesswomen led by Tessie Sy Coson and active lady law practitioners across Ayala, MVP, UP, Romulo, Divina, PLDT, Gokongwei, ACCRALAW, and V&A Law -- calling on the public not to diminish the suffragists' legacy by tolerating or laughing at gender-based harassment disguised as campaign humor.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "party_list_charter_change_and_dynasties"
+    ],
+    "secondary": []
+  }
 }

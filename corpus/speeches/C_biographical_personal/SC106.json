@@ -111,5 +111,13 @@
     "things-money-cannot-buy as the governing value hierarchy: honor, dignity, ethics, character, excellence above material necessities"
   ],
   "one_paragraph_summary": "Delivered December 14, 2009 as the keynote address at the book launch of Senator Jovito R. Salonga's 'The Faith and Love of My Parents and Brothers' -- 'his invitation is really a command, a direct order from a superior' -- this address by CJP opens by noting that while Salonga has authored over a dozen books, this is his first about his immediate family; all of them remained low profile, his children barred from any appointive or elective posts while he held public office ('passionately fighting political dynasties'). CJP narrates his first encounter with Salonga: the 1956-57 FEU law student strike (1,500 students protesting the 'precipitate retirement' of Dean Lavides); new 36-year-old Dean Salonga (bespectacled Yale/Harvard graduate, bar topnotcher) walked to the microphone, spoke with a 'forceful tremolo,' and in 30 minutes sent them all back to class 'convinced of the wisdom, honesty, sincerity and good faith of their new dean.' At FEU, Salonga explained the Harvard vs. Yale approach: Harvard trained advocates; Yale trained lawyers to 'go beyond rules and doctrines for the sake of clients and do what would best serve the interests of the nation and the world community.' 'I was ignited by the Yale approach.' His Yale scholarship was granted but the US Embassy denied travel funds; 'looking back, I have no regrets because Dr. Salonga invited me to join his law firm.' The book reveals that Salonga met his wife Lydia Busuego on the SS Marine Lynx en route to Harvard; they married February 14, 1948 (Valentine's Day); his Yale doctoral thesis received the highest grade possible and his private international law dissertation won the Ambrose Gherini prize -- both later converted into the most-read Filipino textbooks on corporation law and private international law. CJP quotes his Valedictory Address (December 6, 2006): Salonga is 'the one person outside of my immediate family who has had the longest and perhaps the deepest influence in my life, career and faith'; his foremost teaching: 'while it is desirable to have the necessities that money can buy, never ever forget that it is far more important to aspire for the things that money cannot buy, like honor, dignity, ethics, character and excellence.'",
-  "source_xlsx": "cjp_speeches_curated_normalized.xlsx"
+  "source_xlsx": "cjp_speeches_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "life_story_family_school_and_church"
+    ],
+    "secondary": [
+      "party_list_charter_change_and_dynasties"
+    ]
+  }
 }

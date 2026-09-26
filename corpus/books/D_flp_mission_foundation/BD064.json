@@ -200,5 +200,14 @@
     "Technology as an anti-delay and anti-corruption instrument: case flow management, e-payment, e-library and paperless courts"
   ],
   "one_paragraph_summary": "Chapter 10 of 'Liberty and Prosperity' set out Chief Justice Panganiban's full programmatic report on the Action Program for Judicial Reform, arranged by the four ACID problems he had made his priority. He restated his December 21, 2005 vow of a judiciary marked by four Ins -- independence, integrity, industry and intelligence -- impervious to the plague of 'ships,' his vision of a revitalized legal profession, and the DHL bargain with 26,000 judicial employees, all converging on the twin beacons of Liberty and Prosperity. He described the six-component APJR his predecessor Chief Justice Davide had begun in 2000 and the international and private support behind it, resting the whole enterprise on the proposition that speedy justice, democracy and the economy are intertwined in one tapestry of governance. On access, he called the Constitution pro-poor, pro-labor and pro-human rights, catalogued the Court's exemptions and free counsel for indigents, quoted Ang Bagong Bayani-OFW Labor Party v. Comelec on the party-list system as a social justice vehicle, invoked the labor line from Calalang v. Williams, and reported jail studies, the IBP decongestion project, the EU project for internally displaced persons and the Justice on Wheels mobile courts. On corruption, he described it as hiding behind kinship and friendship and answered it with entry standards, ethical education, discipline and Republic Act 9227's doubling of judicial pay, while asking Congress for a lump-sum appropriation of about two percent of the national budget and exemption from the Salary Standardization Law. On incompetence, he reported the June 2004 bar reforms, the MCLE, the JBC's three S tasks and 29.49 percent vacancy rate, PhilJA and the P300 million Japanese grant, the New Code of Judicial Conduct patterned on the Bangalore Principles, and the sanctioning of 463 lawyers and 660 judges. On delay, he described the Committee on Zero Backlog and a broad computerization program, from case flow management and CAMIS to the Sandiganbayan's paperless docket, the e-library, model electronic courts, e-payment and broadband connectivity.",
-  "source_xlsx": "cjp_books_curated_normalized.xlsx"
+  "source_xlsx": "cjp_books_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "judicial_reform"
+    ],
+    "secondary": [
+      "twin_beacons_doctrine",
+      "jbc_discernment_and_appointment"
+    ]
+  }
 }

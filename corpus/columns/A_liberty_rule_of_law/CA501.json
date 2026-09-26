@@ -121,5 +121,11 @@
     "deploys Court-of-Public-Opinion parallel to show political as well as legal burden on Corona"
   ],
   "one_paragraph_summary": "Panganiban writes as the six-week Senate recess ends and the impeachment trial resumes on May 7, 2012. Though the prosecution withdrew five of eight Articles, it established a prima facie case on Article 2: CJ Corona's repeated failure to include properties in his SALNs culpably violates the Constitution and betrays public trust. The Senate's January 27, 2012 order linked non-disclosure to the constitutional duty to completely, truthfully and faithfully declare assets, and held that undisclosed assets disproportionate to known income constitute betrayal of public trust. Prosecution evidence includes undeclared/undervalued houses, condos, and peso deposits appearing manifestly disproportionate to Corona's legal income. On the dollar deposits: PSBank president Garcia admitted five dollar accounts belong to the CJ; the SC issued a TRO; the Ombudsman wrote that the CJ has at least $10M in PSBank and other banks. CJ applies the willfully suppressed evidence rule (Rule 131 Sec. 3): the TRO was addressed to the Senate and prosecution, not to Corona himself -- he can voluntarily give written consent to the bank inquiry without violating it; failure to do so may trigger the adverse presumption. The SWS poll (March 10-13) shows 63% of Filipinos believe Corona has hidden wealth, 12% are unconvinced, 24% undecided -- the Court of Public Opinion has also been persuaded.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "public_funds_budget_and_bank_evidence"
+    ],
+    "secondary": []
+  }
 }

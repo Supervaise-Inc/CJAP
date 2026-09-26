@@ -106,5 +106,11 @@
     "frames multi-perspectival analysis (scientific, legal, religious, etc.) as the appropriate method for biotechnology's complex consequences"
   ],
   "one_paragraph_summary": "Panganiban uses the Yuletide 2012 public fascination with stem cell therapy as a 'fountain of youth' to launch a broader survey of biotechnology's legal and ethical consequences. He traces the scope of the new biosciences -- IVF, reproductive cloning, genetic modification of humans/animals/plants, hair-width brain electrodes enabling paralyzed persons to move limbs, and the prospect of 'superbionic humans' -- before turning to legal implications: Dr. Franklin Zweig's 'My genes made me do it' as a near-future criminal defense, genetic prescreening of public office candidates for predispositions to Alzheimer's, cancer, and violent behavior (per Time magazine, Dec. 24, 2012), and the SC's early acknowledgment of DNA evidence in Tijing vs Court of Appeals (2001) and People vs Vallejo (2002). The column's centerpiece is the Carmina hypothetical: Marie (American wife) uses somatic cell nuclear transfer -- inserting her cell nucleus into a denucleated egg -- which is carried by Italian surrogate Katerina, born in the Philippines. CJ generates 10+ unanswerable questions under current Philippine law: Who is the mother -- Marie (genetic origin) or Katerina (gestational carrier)? Is there a father (Pedro or Juan)? Is Carmina legitimate? What surname? Is she Filipino? Natural-born? Can she run for office? Since Carmina bears only Marie's chromosomes, is she not Marie's sister? The column closes by noting there are no specific Philippine laws or SC decisions answering these questions, inviting readers to respond from any perspective.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "science_technology_and_the_law"
+    ],
+    "secondary": []
+  }
 }

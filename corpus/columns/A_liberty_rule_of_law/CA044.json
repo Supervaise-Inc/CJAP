@@ -139,5 +139,11 @@
     "Use bank-secrecy and similar statutes as concrete defenses for justices targeted by impeachment-related subpoenas"
   ],
   "one_paragraph_summary": "Setting up the first of a two-part series, Panganiban inventories the Supreme Court's five constitutional powers -- settling actual controversies, determining grave abuse of discretion, promulgating rules of practice, regulating the bar, and exercising administrative supervision over all courts -- and notes that the latter three are rarely accorded to judiciaries elsewhere. He explains that while the Constitution does not expressly grant the SC the power to defend and discipline its members, the Court exercises both as implied duties tied to the impeachment-only removal rule. He cites three illustrative defense cases: Cuenco v. Fernan (February 17, 1988) held that disbarment against a sitting justice would circumvent the impeachment mandate; In Re Gonzalez (April 15, 1988) reinforced that justices may not be removed 'by any other method,' establishing prevailing jurisprudence by stare decisis (later reversed in the Sereno case, his preview for next Monday); Philippine Savings Bank v. Senate Impeachment Court (February 9, 2012) saw the Court defend then CJ Renato C. Corona by enjoining a subpoena that sought his suspected dollar deposits, citing Foreign Currency Deposit Law confidentiality. The marquee case is Francisco v. House of Representatives (November 10, 2003, 11-3-1, per former Justice Conchita Carpio Morales), which arose from the Estrada/Davide impeachment saga of 2003 -- a complaint filed June 2, referred to the Committee on Justice August 5, dismissed October 23, and immediately followed by a second complaint against CJ Davide the same day. The Court held the House Rule defining 'initiated' as the committee's substance vote unconstitutional, ruling that initiation is filing plus referral to the Committee on Justice and that the second complaint was therefore barred under the constitutional one-year bar. The column closes with a teaser: next Monday, how the Court disciplines (rather than defends) its own.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "impeachment_accountability"
+    ],
+    "secondary": []
+  }
 }

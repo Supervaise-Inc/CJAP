@@ -132,5 +132,11 @@
     "frames disenfranchisement risk as constitutional-rights problem, not mere inconvenience"
   ],
   "one_paragraph_summary": "Panganiban opens with the indignation of a former Chief Justice who, checking his own precinct via the Comelec's online 'Precinct Finder' at voterverifier.comelec.gov.ph, was met with 'NO RECORD FOUND' -- a result he photographed on his cellphone and turned over to election lawyer Romulo Macalintal, who used it in a press conference that morning on behalf of hundreds of similarly-affected voters. Macalintal then secured the physical 'List of Voters' confirming CJ and his wife Leni were properly registered in Precinct 0205A, Makati -- proving the registration existed and the tool was the failure. Looking deeper, CJ walks readers through the statutorily-mandated alternatives under RA 8189 (the 90-day posted list at the Office of the Election Registrar and LGU bulletin boards), the Election Day postings at polling places, the PPCRV copy, and most importantly the Election Day Computerized Voters List (EDCVL) which is the prima facie authority on who may vote in a specific precinct. As he wrote, a 'Voter Information Sheet' arrived at his household under RA 7904 with all the correct details -- putting 'to terrible shame' the digital Precinct Finder. He calls on Comelec to 'expurgate' the unreliable tool 'like it unabashedly purges nuisance candidates,' restore it only after thorough testing, and closes with the generalizable principle that hi-tech and digital apps 'should be thoroughly tested before they are inflicted on the public.'",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "elections_and_automated_voting"
+    ],
+    "secondary": []
+  }
 }

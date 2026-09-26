@@ -112,5 +112,13 @@
     "guard the system against 'desecration' that stomps the poor"
   ],
   "one_paragraph_summary": "Chapter 2 of 'With Due Respect' (Vol. 5), CJP's May 13, 2007 Inquirer column, calls the Court's Bantay Republic v. Comelec ruling only an 'incomplete victory.' The decision was 'greeted with jubilation' for ordering the Comelec to 'immediately disclose and release the names of the nominees' so voters could be 'more informed' -- but, he writes, 'the battle may have been only half-won,' because the Court 'summarily denied' the bid to disqualify 31 party-list candidates. It answered only the narrow argument that RA 7941 nowhere requires a nominee's qualification to be determined 'simultaneously' with the organization's accreditation, and 'totally ignored' whether the 31 respondents met the Court's own guidelines and the law -- never reaching whether they 'truly belonged to the marginalized and underrepresented sectors' or were government-funded. He contrasts this with Ang Bagong Bayani v. Comelec (2001), where the Court (9-5) held the party-list system reserved for the marginalized -- a party 'must not be an adjunct of, or... funded or assisted by, the government' -- and famously said a law for 'the Payatas hovel dwellers cannot be appropriated by the mansion owners of Forbes Park.' That case remanded the matter for a factual qualifications check, issued eight guidelines, and barred proclamations until the Court ruled (crucial because, once party-list congressmen are proclaimed, jurisdiction passes to the HRET), and was reaffirmed 12-1 in 2003. Against that careful approach, Bantay Republic gave petitioners 'the short shrift'; CJP argues the Court should have remanded and held the proclamations until the 31 respondents' qualifications were settled, lest the Comelec 'simply proclaim the winners' and render the issue 'academic' -- 'a cop-out... an unmitigated desecration of the party-list system and a muscular stomp on the poor and the weak.'",
-  "source_xlsx": "cjp_books_curated_normalized.xlsx"
+  "source_xlsx": "cjp_books_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "elections_and_automated_voting"
+    ],
+    "secondary": [
+      "party_list_charter_change_and_dynasties"
+    ]
+  }
 }

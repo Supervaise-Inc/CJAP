@@ -155,5 +155,11 @@
     "Exclusionary rule barring illegally obtained evidence in any proceeding"
   ],
   "one_paragraph_summary": "Panganiban explains the constitutional protection against unreasonable arrests, searches, and seizures under Article III Section 2, anchored on a freshly released February 25 2026 Supreme Court decision in People v. Bautista penned by Justice Rosario. He lays out the general warrant requirement, the probable-cause standard, and the seven jurisprudentially recognized exceptions where warrantless searches are permitted, then drills into the plain-view doctrine and the knock-and-announce rule with illustrative recent cases -- Sapla rejecting anonymous text tips, Bautista upholding in-flagrante-delicto seizure incident to lawful arrest, Comamo allowing seizure of unlisted contraband during an otherwise lawful search, Enriquez acquitting due to no-announce entry, and Acdang acquitting due to broken chain of custody. He stresses that exceptions are strictly construed against law enforcers, that private establishments may inspect items only in plain sight while citizens retain the right to refuse entry, and closes urging citizens to assert rights firmly and peacefully through knowledge rather than force.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "criminal_trials_and_prosecutions"
+    ],
+    "secondary": []
+  }
 }

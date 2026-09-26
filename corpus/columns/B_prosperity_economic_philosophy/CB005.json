@@ -133,5 +133,13 @@
     "frames FLP's three projects (chairs, scholarships, contests) as deliberate institutional rebalancing"
   ],
   "one_paragraph_summary": "Panganiban summarizes his speech at the launch of 'Momentum,' an economic-reforms book by Romeo Bernardo, Calixto Chikiamco, Emmanuel de Dios, Raul Fabella, and the late Cayetano Paderanga. He proposes that the authors would constitute a 'Supreme Court for economic matters' and uses the launch to restate his core philosophy: 'Humans need both justice and jobs; freedom and food; ethics and economics; peace and development; liberty and prosperity' -- twin beacons that must always go together because 'one is useless without the other,' achieved by unleashing the entrepreneurial genius of people. He cites Tañada v. Angara (May 2, 1997), which he authored -- affirming Philippine WTO membership and adopting globalization, liberalization, deregulation, and privatization against the then-reigning 'Filipino First' doctrine -- and recalls that he began with only three concurrences but persuaded the other 14 to a unanimous outcome. He recounts CJ Beverley McLachlin of Canada renaming the philosophy 'liberty and prosperity under the rule of law' to stress that 'egalitarian goal should be achieved only via libertarian methods,' and the Global Forum's Manila Declaration. He notes that after his retirement the Court reverted to giving primacy to political liberties -- traceable to the Constitution's anti-colonial origins, where the Bill of Rights (borrowed from the US Constitution, epitomized by Patrick Henry's 'Give me liberty or give me death') is mandatory and self-executing while prosperity provisions are mostly aspirational. He founded the FLP in 2011 to give equal primacy, sponsoring three projects: 20 Metrobank Foundation professorial chairs on liberty and prosperity, 20 annual Tan Yan Kee Foundation P200,000 scholarships (first batch all passed the bar; two placed first and fifth, with CJ Peralta chairing the board), and Ayala Corporation-funded dissertation contests (~P2 million in prizes, with Senior Justice Perlas-Bernabe as board chair). FLP plans a roving museum in 2020 and a Global Forum reconvening in 2021.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "foundation_for_liberty_and_prosperity"
+    ],
+    "secondary": [
+      "twin_beacons_doctrine"
+    ]
+  }
 }

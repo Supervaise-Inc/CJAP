@@ -153,5 +153,11 @@
     "Counterfactual analysis as historical-judgment tool"
   ],
   "one_paragraph_summary": "Written as Drilon launched his autobiography 'Being Frank, a Memoir,' Panganiban reproduces the Foreword he authored, arguing that Drilon should have been President of the Republic -- the most qualified, experienced, effective, and trustworthy politician of his time. He recounts his unsuccessful pleas for Drilon to run in 2016 with Roxas or Poe (positing that Duterte would not have entered the race) and his daily lobbying in 2012 for Drilon to fill the post-Corona Chief Justice vacancy, including Drilon's escape to San Francisco and post-flight detour directly from NAIA to CJP's home to deliver his final refusal. The refusals led Aquino III to bypass Arroyo-appointed senior justices and name Sereno, who was later ousted 8-6 via quo warranto over unfiled SALNs. He closes warmly on Drilon's first wife Violy Calvo (the 'wind beneath his sails' and 'activist' driving force from NUSP days), her selection of Mila Genuino as his future second wife before her own death, and Drilon's St. Paul-quoting faith legacy.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "supreme_court_vacancies_and_chief_justiceship"
+    ],
+    "secondary": []
+  }
 }

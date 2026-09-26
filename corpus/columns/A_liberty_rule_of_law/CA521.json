@@ -113,5 +113,9 @@
     "treats every-legal-problem-is-unique principle as the meta-reason for declining long-distance legal advice"
   ],
   "one_paragraph_summary": "Panganiban addresses several frequently asked questions from readers. On justices' SALNs: while all other senior officials' SALNs are released under the Anti-Graft Law, justices and judges are exempted by two old SC decisions promulgated before CJ joined; Justice Azcuna voluntarily released his SALN but withdrew it after learning of these decisions; at his December 22, 2005 first press conference as CJ, Panganiban publicly challenged reporters and the bar to file a petition for the SC to revisit the matter -- 'but no one during my watch picked up my dare.' On personal legal advice: every legal problem is unique and he cannot dispense 'long-distance advice' -- readers should consult practicing lawyers or the PAO/IBP for indigents; but public-interest questions he publishes in the column (e.g., 'Enfranchising duals and greens'). On citation format: he gives only title and promulgation date (not Phil/SCRA/case number) to save space -- title + date is sufficient to find the decision via internet or SC Library, and the date signals recency and authority. On 'members of the bar': a traditional court railing separates lawyers' area from public gallery, with swing doors only lawyers may pass -- 'nothing to do with their vaunted voluminous drinking habit.' On social media: retired, values privacy, cannot keep up with tweets; responds to relevant e-mails within 24 hours, does not open unknown attachments. On a law firm: dissolved when he joined the SC; has not rejoined or served 'of counsel' since retirement because it would be unfair to other lawyers whose cases before incumbent justices and judges might invite (wittingly or unwittingly) accusations of bias -- he serves instead as an independent director/adviser of some companies and closes: 'I do not claim to be infallible, only reasonable.'",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [],
+    "secondary": []
+  }
 }

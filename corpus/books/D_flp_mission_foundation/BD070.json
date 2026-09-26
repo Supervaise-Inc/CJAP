@@ -177,5 +177,13 @@
     "transparency as method -- a JDF advisory committee, press conferences and automation that lets anyone check a case's status"
   ],
   "one_paragraph_summary": "Chapter 17 of 'Liberty and Prosperity' reproduces Chief Justice Panganiban's first major policy address before a private organization, given to the Rotary Club of Manila forty-two days after he assumed office on December 21, 2005. He explained that he chose Rotary because it had initiated him into government: on June 17, 1992 then President-elect Fidel V. Ramos, a Manila Rotarian, offered him the justice portfolio, which he declined for not having campaigned; Ramos answered that this was immaterial, having observed him closely during his 1990-1991 Rotary presidency, and later offered the associate justiceship he accepted in 1995 -- an appointment, he noted, for which Ramos never asked a favor. He pledged a judiciary of four Ins -- integrity, independence, industry and intelligence -- morally courageous against influence, interference, insolence and indifference and closed to the plague of 'ships,' and a legal profession owing fidelity to truth and justice above clients' interests. His objectives were to safeguard the people's liberty and nurture their prosperity, pursued through two standards of judicial review: in civil-liberties cases the scales weigh heavily for the people, especially the poor and marginalized, invoking the Bill of Rights and Magsaysay's line that those with less in life should have more in law; in conflicts affecting prosperity and development, deference is owed the political departments, as he had argued in 'Leveling the Playing Field.' He committed to continuing Chief Justice Davide's reform program and to the ACID agenda. Answering the objection that this was too much for one year, he cited Rotary, whose presidents serve twelve months yet are remembered for great deeds, and his own decade of preparation on the Court. He then listed what he had done: a press conference and a televised interview with Korina Sanchez; a JDF advisory committee created for transparency after the 2003 controversy, plus disbursement of 2005 JDF funds to some 28,000 employees; an all-day Strategic Planning Workshop on January 12, 2006; and four concrete results -- the P300 million Japanese grant for the PhilJA Development Center, the second and third Justice on Wheels mobile courts, the e-payment pilot for court fees, and the USAID-funded computerization of the Sandiganbayan -- closing with a pledge that his 'RENAISSANCE COURT' of one year would be a model judiciary in the region.",
-  "source_xlsx": "cjp_books_curated_normalized.xlsx"
+  "source_xlsx": "cjp_books_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "life_story_family_school_and_church"
+    ],
+    "secondary": [
+      "judicial_reform"
+    ]
+  }
 }

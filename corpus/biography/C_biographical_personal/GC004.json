@@ -142,5 +142,11 @@
     "Different-door re-entry-strategy when conventional path closes"
   ],
   "one_paragraph_summary": "Art's 1960 Bar Examination chapter, opening with the scene-contrast of fellow candidates 'arranging schedules, sharpening pencils, rehearsing doctrines' while Art 'lay flat on a hospital bed' with fever, throbbing head, and heavy limbs as doctors advised rest. The decisive intervention comes from his FEU dean Jovito R. Salonga, who delivers two words -- 'Do not quit' -- with 'no lecture, no pep talk, just conviction,' understanding that 'endurance, once surrendered, is difficult to reclaim.' Art endures four relentless weeks of the bar while ill, pushing hard enough to perform but not so hard as to collapse, and finishes 'not with exhilaration, but with exhaustion.' The results: sixth place, 89.55 percent. The chapter's thematic-reframe insists this was 'not triumph, but confirmation' -- proof that 'pressure did not fracture him,' that 'adversity, when met with discipline, could be absorbed rather than feared.' The second foreclosure then arrives: a Yale graduate-law scholarship awaits, but 'validation did not pay for passage' -- a travel-grant application returns 'denied,' and the door closes 'not dramatically, not cruelly, but decisively.' Years later Art would call this 'the moment when the world seemed to collapse around him,' but he comes to see the denial 'not as an ending but as a redirection -- toward mentorship instead of credentials, toward institution-building instead of personal advancement, toward a path that would ultimately carry him farther than Yale ever could. The world had not closed. It had simply asked him to enter through a different door.'",
-  "source_xlsx": "cjp_biography_curated_normalized.xlsx"
+  "source_xlsx": "cjp_biography_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "life_story_family_school_and_church"
+    ],
+    "secondary": []
+  }
 }

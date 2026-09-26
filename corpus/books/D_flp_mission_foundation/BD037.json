@@ -194,5 +194,13 @@
     "the Court's power rests entirely on long-term public trust, not on force or money"
   ],
   "one_paragraph_summary": "Chapter 3 of 'Transparency, Unanimity & Diversity' is Panganiban's lecture asking how microchips, modems and media have affected life on Mount Olympus, organized around three impacts of cyber technology. Invoking Alvin Toffler's The Third Wave, he argues that the information phase is transforming everything, citing the $162-billion AOL absorption of Time Warner, Amazon.com and its Person-of-the-Year founder Jeff Bezos, and Bill Gates's fortune built on compressing knowledge into microchips. He then catalogues doctrinal puzzles the judiciary is unready for: whether a bare computer order is a contract of sale and where suit lies for a misdelivered car; whether an e-medical company practices medicine illegally and who answers for a fatal misdiagnosis; who the legal parents of a surrogate child are and whether a person may patent himself; whether globalization shifts threats to liberty from government to markets, as in Tanada v. Angara, Tatad v. Secretary of Energy and Garcia v. Corona; and the media rulings in ABS-CBN v. Comelec, protecting exit polls, and Vasquez v. Court of Appeals, importing actual malice. Second, he inventories the Court's response: a Committee on Computerization and the MISO, the Case Administration System, Computer-Assisted Legal Research covering decisions from 1901, computerized administrative processes, the Court's website, 1,500 computers for trial courts, and planned speech recognition, electronic data interchange, information kiosks and video teleconferencing. Third, he describes how a once-sacrosanct bench, whose justices were 'treated like little deities,' now faces a questioning post-EDSA generation and an invasive press. Of four options -- surrender, silence, combat or professional help -- the Court chose the fourth, creating the Committee on Public Information he chairs. He closes on transparency and accountability, welcoming fair scrutiny but pleading for discreet restraint, since 'the media and the judiciary are natural partners.'",
-  "source_xlsx": "cjp_books_curated_normalized.xlsx"
+  "source_xlsx": "cjp_books_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "elections_and_automated_voting"
+    ],
+    "secondary": [
+      "libel_and_cybercrime"
+    ]
+  }
 }

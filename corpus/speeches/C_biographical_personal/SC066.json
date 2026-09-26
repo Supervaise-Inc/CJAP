@@ -100,5 +100,13 @@
     "parallel-transformation as the governing biographical framework"
   ],
   "one_paragraph_summary": "Written August 4, 2015 as the foreword/toast to Filemon 'Jun' T. Berba Jr.'s book, this brief tribute by CJP traces a personal debt: at Mapa High School, Jun was the consistent and uncontested math topnotcher in a class of 2,000 ('our batch mates and I vied only for second place'), and his phenomenal mathematical genius was 'enough inspiration for me to aspire to be a chemical engineer' -- an ambition redirected only by CJP's strong-willed father who insisted on law. Despite their parting at different universities, CJP 'quietly and enviously tracked Jun's pursuits' through magna cum laude in electrical engineering, an MBA at Wharton, training at SGV, and top executive roles at Ayala and Lopez enterprises. Jun's book reveals an 'engineer-manager-teacher-enabler with a social conscience and with a family of achievers in love with their patriarch's patriotic pursuits.' CJP draws the governing parallel: just as Jun transformed beyond pure engineering, CJP has 'tried to become not just a legal technician who tinkers with and repairs legal imperfections -- rather, I have tried to be a social engineer who helps build our social structures, with law as my basic tool.' He closes: 'even in my own sunset years, I still strive to be the engineer that Jun Berba inspired me to be when we were just carving our lives in high school.'",
-  "source_xlsx": "cjp_speeches_curated_normalized.xlsx"
+  "source_xlsx": "cjp_speeches_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "life_story_family_school_and_church"
+    ],
+    "secondary": [
+      "judiciary_milestones_and_tributes"
+    ]
+  }
 }

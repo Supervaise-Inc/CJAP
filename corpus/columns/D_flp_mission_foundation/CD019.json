@@ -173,5 +173,13 @@
     "Generational stewardship: investing in the FLP Scholars Society as investing in future state leadership"
   ],
   "one_paragraph_summary": "Writing as Foundation for Liberty and Prosperity (FLP) chair after the week's awards ceremony, CJ Panganiban honors the 2021 scholars and dissertation winners by yielding the column space to their own voices. He opens by restating the program scaffold -- yearly since 2017, FLP with the Tan Yan Kee Foundation and Ayala Corporation awards at least 20 P200,000 scholarships and the dissertation writing contest (P320K/P220K/3 × P120K/up to 20 × P20K finalists, P100K-P50K adviser honoraria) -- and frames the awardees as the future presidents, lawmakers, Cabinet members, governors, mayors, justices, and judges of the country. The bulk of the piece quotes the scholars themselves: Jay-em Cuntapay (ADMU, first prize) on challenging 'Viral Sovereignty,' Eunice Baliong on free trade in essential medical equipment, Catherine Lim on biotechnological inventions, Trisha Dulanes on reinterpreting freedom of thought against Brain-Computer Interface evils, Noelle De Vera on Chinese FDI; William Christian Dela Cruz (FSUU Butuan), speaking for the 21 new scholars, on how law is 'felt on the margins' during pandemic border closures that are 'a life-and-death matter' for daily-wage earners; and Jani Omamalin (USC) on reciprocal liberty, Paula Ramos (U Cordilleras) on economic justice 'on the same throne' as civil and political rights, Daverick Pacumio (UST) on the rule of law as 'the great equalizer,' and Cecilia Laza (SLU Baguio) on the roots metaphor of remaining grounded. The column closes by pointing readers to www.libpros.com for full copies. It reads as both donor-stewardship report and generational manifesto in the scholars' own words.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "foundation_for_liberty_and_prosperity"
+    ],
+    "secondary": [
+      "twin_beacons_doctrine"
+    ]
+  }
 }

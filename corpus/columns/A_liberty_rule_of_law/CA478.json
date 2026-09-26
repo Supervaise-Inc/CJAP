@@ -113,5 +113,11 @@
     "frames congressional inaction as the root cause of recurring controversies"
   ],
   "one_paragraph_summary": "Panganiban takes up the second major party-list question -- how winners are determined -- tracing the evolution from Veterans Federation Party v. Comelec (October 6, 2000), where he was the ponente of what became known as the 'Veterans/Panganiban formula,' through Banat v. Comelec (April 21, 2009). The root problem is RA 7941 itself, which is 'vague, contradictory and mathematically inscrutable': its four parameters -- 20% allocation, 2% threshold, 3-seat limit, and proportional representation -- are internally contradictory and cannot be satisfied simultaneously, making any judicial formula imperfect. The Veterans formula was unanimously affirmed in Partido ng Manggagawa (2006) and Cibac (2007), but Banat modified it by declaring the 2% threshold unconstitutional -- producing worse distortions: groups with less than 1% of votes can now win, poll topnotchers are still capped at 3 seats, and 55 party-list representatives entered the House instead of 14. Since the SC can only declare laws valid or invalid (not make or amend laws), the only lasting solution is congressional action: either clearly define and reengineer the PH party-list system, or repeal RA 7941 altogether. CJ closes dryly: leaving RA 7941 as is will 'continue to confound and confuse everyone, including its own honorable members. And the people.'",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "party_list_charter_change_and_dynasties"
+    ],
+    "secondary": []
+  }
 }

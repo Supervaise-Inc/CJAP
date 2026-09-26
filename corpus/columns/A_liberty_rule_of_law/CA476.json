@@ -112,5 +112,13 @@
     "distinguishes documentation-camera permission from live-broadcast permission as separate procedural steps"
   ],
   "one_paragraph_summary": "Panganiban analyzes the SC's October 23, 2012 resolution modifying its earlier pro hac vice June 14, 2011 ruling that had allowed live TV and radio broadcast of the Maguindanao massacre trial -- subject to strict guidelines including a single fixed compact camera, continuous broadcast without commercial breaks, and no voice-overs. The 2011 ruling was itself pro hac vice because of the trial's extraordinary circumstances: 57 victim families, 197 accused, 20 sets of lawyers, 200 prosecution and 200 defense witnesses. The October 2012 resolution reverted to audio-visual recording for documentary purposes and streaming only to selected viewing areas, citing two specific fears: (1) live broadcast could produce public pressure leading to mistrial and acquittal of guilty accused on appeal, and (2) witnesses were not being properly excluded from listening to prior testimony. CJ traces the doctrinal lineage: the 1991 Cory Aquino libel case disallowed live coverage; the 2001 Estrada plunder ruling (8-6) weighed accused rights over press freedom; and the September 13, 2001 documentation-camera resolution became the seed of the 2011 ruling. He discloses his own 2001 stand as a sitting justice: advocate for a single fixed camera under court control whose audio-video output could be fed to wide-screen monitors inside and outside the courthouse -- giving the public the same view as spectators without the intimidating media setup inside the courtroom.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "criminal_trials_and_prosecutions"
+    ],
+    "secondary": [
+      "libel_and_cybercrime"
+    ]
+  }
 }

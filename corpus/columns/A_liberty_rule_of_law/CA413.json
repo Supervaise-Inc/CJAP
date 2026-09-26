@@ -139,5 +139,11 @@
     "uses twin-injustice framing (unfair to accused + wasteful for state)"
   ],
   "one_paragraph_summary": "Panganiban responds to weekly reader questions about why our criminal justice system is overprotective of the guilty -- why it takes so long to investigate, prosecute, and convict, why conviction rates remain dismal -- with a structural diagnosis. He begins with the foundational maxim 'better to acquit 10 guilty than convict 1 innocent,' adding the bleak caveat that the ratio worsens to 100:1 or 1,000:1 when corruption, negligence, incompetence, or outright malevolence seeps in. The judiciary strictly adheres to the adversarial system -- passive magistrates sitting with the cold neutrality of an impartial judge, acting like referees not players in a basketball game, restricted to three evidence sources (facts proven by parties per the law on evidence, admissions/confessions, judicial notice), forbidden to convict or acquit based on personal knowledge (which would require inhibition and a turn as ordinary witness subject to cross-examination). By contrast, the prosecutorial agencies -- OOO, DOJ, city/provincial prosecutors -- use the inquisitorial method, mandated to help victims of crimes, free to call PNP/NBI assistance, with the OOO's Field Investigation Office serving even as internal-complainant (as in the GMA plunder case Morales dismissed last week). The structural problem he identifies: prosecutors may file criminal charges including capital offenses on mere probable cause (existence of facts and circumstances as would excite belief in a reasonable mind that respondent is guilty), but must secure proof-beyond-reasonable-doubt for conviction -- and if all they can prove at trial is probable cause, the accused will surely be acquitted, explaining low conviction rates. He poses rhetorical questions: Is this not unfair to capital-offense accused detained indefinitely only to be acquitted for insufficient evidence -- and a waste of state resources? Should not prosecutors make sure they have enough evidence to convict before filing, especially capital offenses? He promises to continue in future columns on the due-process concept that is sometimes abused and misused to miscarry justice.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "criminal_trials_and_prosecutions"
+    ],
+    "secondary": []
+  }
 }

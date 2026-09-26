@@ -131,5 +131,11 @@
     "applies deferred-question close (set up the enforcement question for next week's column)"
   ],
   "one_paragraph_summary": "Panganiban summarizes the July 12, 2016 UNCLOS Annex VII arbitral award in three parts. First, the tribunal rejected China's 'nine-dash line' and its claim of 'indisputable sovereignty' over almost the entire SCS, leaving the sea open to freedom of navigation. Second, it upheld PH maritime entitlements derived from archipelagic-state baselines -- 12-NM territorial sea, 24-NM contiguous zone, 200-NM EEZ, and 350-NM extended continental shelf -- collectively known as the West Philippine Sea, the sea area along the west side of the country from Aparri to Sulu. Third, it held that no disputed maritime feature qualifies as an 'island' with its own maritime rights, including Scarborough Shoal, which is merely a high-tide elevation generating only a 12-NM territorial sea around a protruding rock. He clarifies the scope: the arbitration covered only maritime rights, not land features, occupations, reclamations, or installations. The freedom-of-navigation portion is being de facto enforced by US, Australian, British, and Japanese forces because doing so serves their own permanent interests; the maritime-entitlements portions, however, are left to PH care because no other power's interests are independently engaged. Invoking Lord Palmerston -- 'in international relations there are no permanent friends or permanent enemies, only permanent interests' -- and pointing to 'America First,' he concludes that mutual defense pacts contain no express PH-maritime-rights obligations; the question of how the PH can enforce its own rights becomes the topic for the next column.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "international_law_disputes"
+    ],
+    "secondary": []
+  }
 }

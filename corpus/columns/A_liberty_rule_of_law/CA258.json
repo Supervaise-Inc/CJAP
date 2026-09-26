@@ -159,5 +159,13 @@
     "marshals named-witness credentials as conviction-credibility evidence"
   ],
   "one_paragraph_summary": "Panganiban systematically answers the six questions befuddling readers about Imelda Marcos's conviction: why it took 27 years, why she was not jailed, why she was granted bail, why her ill-gotten wealth was not forfeited, why she was convicted only of graft, and why not of plunder. He explains that of the 10 cases lodged against her, five were filed by the Office of the Ombudsman on December 16, 1991, one on December 21, 1993, and four on August 17, 1995 -- alleging the use of Swiss foundations by Imelda and Ferdinand Marcos to hide wealth -- and were raffled to different Sandiganbayan divisions before consolidation in the Fifth Division. The delay was attributable to inhibitions of former ponentes, midstream amendments of charges, multiple motions to quash that had to reach and be decided by the Supreme Court, Ombudsman reinvestigations, and numerous postponements by both sides; the prosecution and defense memoranda were submitted only on August 29 and September 19, 2017. The new ponente, Justice Maryann E. Corpus-Mañalac -- appointed to the Sandiganbayan only on December 8, 2017 -- cannot be blamed for the delay; she diligently perused the gargantuan five-foot-thick records and produced a 70-page, single-spaced decision buttressed by 226 footnotes, convicting Imelda in seven of ten offenses and acquitting her in three. Imelda was convicted under the Anti-Graft Law (RA 3019) in relation to the 1973 Constitution; she could not be charged with plunder because the Anti-Plunder Law was enacted only after Marcos was ousted. Forfeiture was not part of the criminal judgment because separate civil suits exist to recover the Swiss-foundation millions, though the judgment perpetually disqualified her from public office. She was granted bail because none of her offenses was a capital one; her original P150,000 bond was forfeited due to her absence at promulgation, an arrest order was issued November 9, 2018, and she posted a new P150,000 bond on November 16, with PJ Rafael R. Lagos ordering her release the same day. Panganiban flags as strange that only Lagos signed the release order (without his Fifth Division co-members Mendoza-Arcega and Mañalac), that her 'Motion for Leave of Court to Avail of Post-Conviction Remedies' had not yet been ruled upon, and that the prosecution did not object to and meekly accepted the bail grant.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "criminal_trials_and_prosecutions"
+    ],
+    "secondary": [
+      "ill_gotten_wealth_and_the_pcgg"
+    ]
+  }
 }

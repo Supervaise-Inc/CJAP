@@ -151,5 +151,13 @@
     "uses backlog-record (zero at CA) as direct evidence of fitness for backlogged SC"
   ],
   "one_paragraph_summary": "Panganiban interprets President Duterte's March 2019 (Women's Month) appointment of Justice Amy C. Lazaro-Javier -- UST magna cum laude valedictorian of the law class of 1982, 12 years on the Court of Appeals with zero backlog, 24 years at the Office of the Solicitor General -- as a 'rousing tribute to women jurists,' following his November 2018 appointment of Justice Rosmari D. Carandang (UP salutatorian of the law class of 1975, ninth-placer in that year's bar exam where she was bested only by Antonio Carpio). Both women required eight JBC nominations apiece -- what CJ calls 'the biblical eye of the needle' -- before finally reaching the Court. Together with incumbent Estela M. Perlas-Bernabe (Ateneo 1976 salutatorian), they form a triumvirate that 'can match the gravitas of the gentlemen in the Court,' though their independence shows in voting divergences (Bernabe favored the Marcos LNMB burial; Carandang and Javier publicly said they would have joined the minority). He notes the striking institutional imbalance: UP has produced 11 women SC justices, UST only 2 (Javier and Sandoval-Gutierrez), and Ateneo only 1 (Bernabe), despite the inverse correlation with each school's institutional age. He closes with the slate of JBC renominees and new entrants competing for the Tijam vacancy -- mostly from the CA, Sandiganbayan, and CTA -- confirming Duterte's documented fondness for appellate-jurist appointments.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "judicial_reform"
+    ],
+    "secondary": [
+      "supreme_court_vacancies_and_chief_justiceship"
+    ]
+  }
 }

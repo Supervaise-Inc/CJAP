@@ -121,5 +121,13 @@
     "dispositive-portion test for the winning party; 'separately or jointly' as the next Cha-cha question"
   ],
   "one_paragraph_summary": "Chapter 6 of 'With Due Respect' (Vol. 4), CJP's October 26, 2008 Inquirer column, answers three questions -- many raised by diplomats like Austrian lawyer Ambassador Herbert Jager -- about the Supreme Court's MOA-AD decision, whose core holding was that negotiators must follow their mandates and that peace agreements must conform to the Constitution and laws. First, asked whether negotiations can take up matters needing Charter changes or 'think outside the box,' CJP answers that negotiators 'are mere agents of the President' who 'cannot have more powers than their principal'; the country 'is governed by the rule of law,' whose 'bedrock' is the Constitution, amendable only through its own processes -- so negotiators may discuss and propose changes but 'cannot act outside of it,' a point Puno's concurrence underscored by contrasting the 1996 MNLF Peace Agreement (which 'respected the metes and bounds of the Constitution') and warning that careless accords with 'international consequences' can make negotiators 'traitors to the very cause they... espouse.' Second, asked whether striking the MOA-AD violated the Bangsamoro right to self-determination, he explains that the Court held the right 'fulfilled through internal self-determination' within an existing state, excluding secession; citing the Canadian Supreme Court, external self-determination 'arises only when the people are under colonial rule or subjected to foreign domination,' which does not fit the adequately represented Bangsamoros. Third, asked whether the vote was '8-7 or 12-3,' he clarifies that there were two issues -- the procedural mootness issue (8-7) and the substantive unconstitutionality issue (12-3) -- with the winning party found by counting who 'granted' or 'dismissed' the petitions. He closes with a Charter-change 'Update': the Court dismissed Rep. Adam Relson Jala's petition against House Resolution 730 'for being premature,' and with 28 Cha-cha proposals pending and Speaker Nograles's foreign-ownership resolution reportedly nearing 196 of 261 legislators' signatures, he predicts a test case on whether the houses vote 'separately or jointly' -- after which 'watch the parliamentary Con-ass zoom off.'",
-  "source_xlsx": "cjp_books_curated_normalized.xlsx"
+  "source_xlsx": "cjp_books_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "party_list_charter_change_and_dynasties"
+    ],
+    "secondary": [
+      "bangsamoro_peace_process"
+    ]
+  }
 }

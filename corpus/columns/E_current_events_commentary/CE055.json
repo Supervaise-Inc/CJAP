@@ -159,5 +159,11 @@
     "for Christian readership, applies the Bible-covers-thoughts-words-deeds extension"
   ],
   "one_paragraph_summary": "Reflecting on the volume of correspondence triggered by his prior column on the divided United States, Panganiban publishes three letters and his replies. Yvette San Luis accuses Democrats of hatefulness for impeaching an ex-president and welcoming immigrant caravans; CJ corrects the factual attribution -- Pelosi, not Biden, drove the impeachment -- and reminds her that both the popular vote (Biden +7M) and the Electoral College (306-232) have already settled the contested questions in the Democrats' favor, with the minority's civic duty being to disagree peacefully but follow, 'as Al Gore did in 2000.' He does not expect Biden to unite all Americans, but Biden faces Lincoln's problem and is taking Lincoln's reconciliation approach; CJ hopes 'he is not shot like Lincoln,' insisting that 'the barrel of a gun should not settle an electoral disagreement.' A lawyer-reader, citing Eleanor Roosevelt, urges CJ to write about ideas like Randy David and Tony Carpio; CJ accommodates the comparison gracefully and quotes a long emailed character contrast from Justice Conchita Carpio Morales (Biden's poverty, grief, and culture vs Trump's silver spoon, braggadocio, and 'LIAR') as a model of the spontaneous reader response his columns aim to inspire. Eddie Yap asks how far Biden will go to heal the nation; CJ enumerates accountability options short of revenge -- impeachment, criminal cases, tax collection, disqualification legislation -- and waits to see Biden's choice. He closes with his columnist's credo: he does not proselytize, indoctrinate, or impose; his columns present facts, conflicting claims, laws, and jurisprudence to inspire critical thinking. The freedom to think and to believe is boundless; the freedom to act is bounded by Constitution and law -- and for Christians, by a Bible that covers thoughts, words, and deeds.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "us_supreme_court_and_american_politics"
+    ],
+    "secondary": []
+  }
 }

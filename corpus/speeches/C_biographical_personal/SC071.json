@@ -129,5 +129,13 @@
     "obligation-repayment principle: CJP campaigned for Ave's ALA presidency as thanksgiving for the inadvertent gift of the CJ vacancy"
   ],
   "one_paragraph_summary": "Delivered May 22, 2015 at the 50th Wedding Anniversary of Ave and Helen Cruz, this toast by CJP opens with a Shakespeare-styled salutation ('Friends, Bedans and Countrymen, please lend me your ears') and an affectionate roast of Senate President Franklin Drilon ('not a Bedan -- finished only from the second best law school in the country'). CJP recalls his lifelong Bedan aspiration: headed from Cataluna Street to San Beda to enroll in law, but 'intercepted when already in front of FEU by Dean Jovito R. Salonga who led me in'; his dream fulfilled only when Ave proclaimed him honorary member 'by roaring acclamation, not by quiet balloting.' He tracks Ave's career arc: youngest bar topnotcher in history at 20; LLM at Michigan at 24; Mobil general counsel at 28; ACCRA founding partner at 31 -- alongside his musical parallel (composer of ACCRA, San Beda and ALA hymns, plus 'passionate love songs to win the reluctant heart of Helen Canave'). The critical counterfactual: had Ave accepted Cory Aquino's SC offer in 1986 instead of serving as Deputy PM under Laurel (abolished by the 1987 Constitution), he would have become Chief Justice after Narvasa's 1998 retirement and reigned until 2010 -- 'there would have been no Chief Justices Hilario Davide Jr., Artemio V. Panganiban and Reynato S. Puno.' In thanksgiving for this inadvertent gift, CJP campaigned for Ave to become ALA President (attained February 2015); 'he now lords over six Asean Chief Justices who are his vice presidents.' But the supreme tribute: 'his greatest achievement is not in law, or in music, or in public service. Not even in ALA. In my humble opinion, his greatest achievement is convincing Helen to become his wife 50 years ago, and persuading her to repeat her sweet Yes annually during the last 50 years.' Closes with a toast and cheeky wish for another 50 years -- 'and may they celebrate tonight by adding a new member of the Cruz family who will greet the world nine months from now.'",
-  "source_xlsx": "cjp_speeches_curated_normalized.xlsx"
+  "source_xlsx": "cjp_speeches_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "life_story_family_school_and_church"
+    ],
+    "secondary": [
+      "judiciary_milestones_and_tributes"
+    ]
+  }
 }

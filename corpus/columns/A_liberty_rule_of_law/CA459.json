@@ -125,5 +125,11 @@
     "frames the ultimate decision as a risk-management choice: evidentiary strengthening or PBA acceptance"
   ],
   "one_paragraph_summary": "Panganiban examines the Sandiganbayan's April 10, 2013 resolution (Justice Martires, ponente) reaffirming the plea bargaining agreement under which AFP Comptroller Maj. Gen. Carlos Garcia pleaded guilty to indirect bribery and facilitating money laundering -- reduced from plunder -- and surrendered P135 million in properties, after the original plunder and anti-money laundering charges against him, his wife, and sons were withdrawn by then Ombudsman Gutierrez. The OSG (under the Aquino administration) and Ombudsman Morales both sought nullification, but the SBN rejected the OSG for lack of standing and ignored Morales's position paper -- which CJ finds 'odd' since Morales complied with the SBN's own written directive. CJ identifies legal grounds for OSG standing in the Constitution, RA 6770, and the Rules of Court requirement that lesser-offense pleas carry the consent of both offended parties (the 'Filipino people' and 'Republic'), arguing that Morales and the OSG effectively withdrew that consent. He closes with a pragmatic dilemma: since the SBN signaled Garcia would likely be acquitted if the PBA were junked (finding prosecution evidence weak and hearsay), the Ombudsman and OSG must either produce stronger evidence or 'swallow the bitter PBA pill to avoid the plague of an acquittal.'",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "criminal_trials_and_prosecutions"
+    ],
+    "secondary": []
+  }
 }

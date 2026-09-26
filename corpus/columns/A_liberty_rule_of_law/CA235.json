@@ -115,5 +115,13 @@
     "frames per-justice output publication as low-cost high-leverage reform"
   ],
   "one_paragraph_summary": "Panganiban amplifies superlawyer Estelito P. Mendoza's critique -- raised in a text message responding to CJ's Sept 22 column on ICJ Judge Yuji Iwasawa and elaborated in Mendoza's 42-page March 2013 Philippine Law Journal article -- that the Supreme Court's Internal Rules (May 4, 2010) disregard the Constitution's unequivocal command that the Court's 'conclusions... shall be reached in consultation before the case is assigned to a Member for the writing of the opinion of the Court.' The Internal Rules instead raffle petitions immediately to a 'Member-in-charge' who submits a 'report' that 'in actual practice... takes the form of a draft decision' on which the others concur, dissent, or write separately -- meaning the justices do not first read, study, and deliberate before voting. Compounding the problem, CJ Panganiban argues, is the systemic violation of the 24-month constitutional deadline: in Gio-Samar v. DOTC (March 12, 2019), the Court admitted a 14,491-case docket (up from 8,741 in 2007) with 3,201 cases past the deadline. He urges the incoming CJ -- to succeed Bersamin after his Oct 18 retirement -- to implement Carpio's 2007 backlog-reduction plan (limit accepted cases; dispose facially-non-meritorious petitions by minute resolution) or craft a better one, and proposes 'a little transparency' -- publication of per-justice case load and monthly outputs -- so that 'justice delayed is justice denied' can give way to 'prompt at last.'",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "international_law_disputes"
+    ],
+    "secondary": [
+      "judicial_reform"
+    ]
+  }
 }

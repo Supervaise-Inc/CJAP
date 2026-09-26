@@ -156,5 +156,11 @@
     "quality over quantity: presence measured by contributed values and inspiration rather than headcount"
   ],
   "one_paragraph_summary": "Chapter 14 of 'Liberty and Prosperity' reproduces Chief Justice Panganiban's Women's Month address, delivered days after the Court's March 8 exhibit honoring its female justices under the theme 'Gender-Responsive Philippine Judiciary: KKK (Kamalayan, Katarungan, Kababaihan).' He traced how quickly women had reshaped a once predominantly male profession: more than half the graduating classes of three leading law colleges over five years were female, prompting old professors to joke that male law students might become an endangered species; only 287 women against 7,846 men were admitted to the bar from 1901 to 1945, but 4,430 women against 6,493 men passed between 1996 and 2005, lifting the female share from 3.5 percent to 40.6 percent. He gave the counts on the bench -- five of fifteen Supreme Court justices, 17 in the Court of Appeals, three in a Sandiganbayan led by a woman presiding justice, two in the Court of Tax Appeals, and 419 lower-court judges -- and cited a Court study with UNDP and the Swiss Agency for Development and Cooperation showing more female lawyers in academe and NGOs. He described the Court's Strategic Gender and Development Mainstreaming Plan, its Committee on Gender Responsiveness (the first in Asia), the rules on violence against women and on harassment, the work-decorum guidelines, the codes of conduct, a proposed audit of issuances for gender-insensitive language, and the new Manual of Judicial Writing. Observing that the English language is not gender-friendly, he quoted masculine pronouns in the Bill of Rights, the qualifications for Senator, President and Supreme Court member, Article 1305 of the Civil Code and Rule 126 on arraignment, rejected the 'convenient excuse' that the masculine includes all genders, and showed how he had long pluralized or recast his own sentences to avoid sexist language. He then enlisted women judges in his agenda of the four Ins, the plague of 'ships' and the ACID problems, holding up Justices Cecilia Muñoz-Palma, Ameurfina A. Melencio Herrera and Carolina C. Griño-Aquino as models, and closed by praising those who had taken the less traveled road toward a judicial renaissance.",
-  "source_xlsx": "cjp_books_curated_normalized.xlsx"
+  "source_xlsx": "cjp_books_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "bar_exam_and_legal_education"
+    ],
+    "secondary": []
+  }
 }

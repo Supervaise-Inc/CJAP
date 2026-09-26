@@ -200,5 +200,11 @@
     "compromises must state definite periods and determinable standards or invite anti-graft liability"
   ],
   "one_paragraph_summary": "Chapter 9 of 'Transparency, Unanimity & Diversity' collected five unanimous decisions CJP wrote on the Presidential Commission on Good Government and its crusade to recover the alleged ill-gotten wealth of former President Marcos, his family, nominees and cronies. In First Philippine Holdings he held that a company claiming ownership of 6,299,177 sequestered PCIBank shares had to be allowed to intervene before the Sandiganbayan, since intervention settles the whole controversy in one action and the shares were in the custody of the court, and that the Sandiganbayan's jurisdiction over ill-gotten wealth is exclusive, plenary and all-embracing, reaching every related incident. Three sequestration cases turned on the PCGG's own Rules: the writ against Dio Island Resort was void because it was issued by a regional representative rather than a commissioner, and no later ratifying resolution could cure it; the writ against Provident International Resources, though signed by only one commissioner, survived because it predated the Rules of April 11, 1986 and no rule is given retroactive effect unless explicitly decreed; and the writs against Prime Holdings and its PTIC shares, signed after the Rules took effect by a single commissioner, were void because two signatures are the best evidence of the Commission's approval, while the amended complaint impleading the Cojuangcos three years later could not satisfy the six-month requirement of Section 26, Article XVIII. The chapter closed with Chavez v. PCGG, where the Court upheld a citizen's standing and its own venue, held that the State must disclose matters of public concern including the negotiating terms of any settlement, and voided the December 1993 General and Supplemental Agreements splitting $356 million in Swiss deposits: the PCGG could not grant criminal immunity to principal defendants, could not grant tax exemptions vested in Congress, could not promise the dismissal of pending cases, and could not waive future claims -- a waiver the Court called a dangerous precedent effectively ensconcing the Marcoses beyond the reach of the law.",
-  "source_xlsx": "cjp_books_curated_normalized.xlsx"
+  "source_xlsx": "cjp_books_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "ill_gotten_wealth_and_the_pcgg"
+    ],
+    "secondary": []
+  }
 }

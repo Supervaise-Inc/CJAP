@@ -179,5 +179,11 @@
     "in public service, no private deals and no under-the-table transactions"
   ],
   "one_paragraph_summary": "Chapter 6 of 'Transparency, Unanimity & Diversity' reproduced CJP's address to a CAP forum honoring President Sergio Osmena, which he began by insisting the speaker should have been his host, Dr. Alejandro R. Roces -- his FEU mentor, the adviser he recruited for the National Union of Students in 1957, his wedding sponsor in 1961, and the education secretary who made him his legal counsel a year after he passed the bar. He then recounted a televised biography of Aristotle Onassis, who commanded wealth, heads of state and famous women yet died a broken man in 1975 because he never answered the questions Who am I? Why was I born? Where am I headed for? How do I get there? Humans, he argued, share animal appetites but find fulfillment only in their rational and divine natures, and what we call values are the traits that lift us from mere existence to life on high. He then set out three: excellence, defined as competence, dedication to duty and hard work, illustrated by his blind masseur Larry, his barber and his tailor, by Edison's line on perspiration and by Dado Banatao's counting of 100 or 200 failures for every success, and taught by the parable of the farmer who met every turn of fortune with 'Good luck? Bad luck? Who knows?'; ethics, rooted in integrity as honesty and truth regardless of personal consequences, codified for officials in RA 6713 and betrayed by leaders' double standards, double speak and spin doctors, which he blamed, with the Catholic Church's diagnosis of dichotomized Christian lives, for the country's poverty, graft and violence; and eternity, where spiritual laws carry consequences as civil and physical laws do, a plea he extended to Muslim, Jewish and other God-loving listeners, supported by Havel on the common elements beneath religions. He added transparency as a fourth value for public servants, and closed by calling excellence, ethics and eternity the immutable e-values for the e-age and beyond.",
-  "source_xlsx": "cjp_books_curated_normalized.xlsx"
+  "source_xlsx": "cjp_books_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "life_story_family_school_and_church"
+    ],
+    "secondary": []
+  }
 }

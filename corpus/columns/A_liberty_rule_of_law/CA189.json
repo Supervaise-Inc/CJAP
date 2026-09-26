@@ -145,5 +145,11 @@
     "frames current political threat (Trump's SCOTUS balance) as a historical regression risk against a 150-year baseline of cases"
   ],
   "one_paragraph_summary": "Writing as a jurist with a personal encounter with Al Gore, Panganiban surveys five landmark SCOTUS decisions to argue that two centuries of American libertarian struggle -- from the nadir of Dred Scott (1857), which denied Black slaves citizenship and was later overturned by the 13th and 14th Amendments, through the racial victories of Brown v. Board of Education (1954) reversing Plessy's 'separate but equal' doctrine, the due-process triumph of Miranda v. Arizona (1966) whose protections the Philippines embedded directly into its Constitution, the privacy-rights holding of Roe v. Wade (1973) which despite repeated challenges was never overturned in four subsequent decisions, to the politically partisan Bush v. Gore (2000) in which five Republican-appointed justices handed the presidency to Bush against four Democratic-appointees' dissent -- is now endangered by Trump's populism, amplified by his three conservative SCOTUS nominees who tipped the Court's ideological balance to 6-3. The column's moral centerpiece is a personal 2006 exchange in Manila, where Gore told CJ Panganiban that despite disagreeing with Bush v. Gore he felt duty-bound to respect and obey it, and where Gore's admission that he would never have invaded Iraq or Afghanistan frames Trump's no-concession stance as not merely a democratic failure but a geopolitical one whose costs -- trillions in war spending withheld from global poverty reduction -- fall partly on the Philippines.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "us_supreme_court_and_american_politics"
+    ],
+    "secondary": []
+  }
 }

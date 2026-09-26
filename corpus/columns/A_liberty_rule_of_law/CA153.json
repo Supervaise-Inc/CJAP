@@ -162,5 +162,13 @@
     "applies historic-stakes close framing (first woman / first South Asian / prosecutor vs oldest / fascist / convict)"
   ],
   "one_paragraph_summary": "Panganiban frames Nov 5, 2024 as one of the most vicious and divisive elections in the history of the 'Divided States of America' -- with about 68 million Americans (per a Nov 1 CBS News report) having already voted by mail or early in person, roughly 43% of the total expected ballots. Using the 2020 baseline (Biden 81.3M / Trump 74.2M; 306-232 in the Electoral College; ~155.5M total), and with all credible national surveys placing Kamala Harris and Donald Trump even at 49% each, the remaining 2% will decide the race. Republicans have historically been suspicious of mail-in voting and the US Post Office; Trump's recent Pennsylvania-fraud accusation was made 'without proof' and was emphatically denied by Penn Secretary of State Al Schmidt, 'a true-red Republican.' Unlike the Philippines, US voters elect electors who in turn elect the President; states set their own selection rules but Election Day is federally fixed, the Electoral College has 538 members, 270 are required to win, and most states (except Maine and Nebraska) are winner-takes-all. Trump's Pennsylvania focus reflects that PA's 19 EVs have lately carried the presidency; the seven swing states (PA, AZ, GA, NV, NC, MI, WI) total 93 EVs, while the other 43 states + DC give Democrats a 226-219 baseline. Postmaster General Louis DeJoy -- who openly admits being a Republican but vows objectivity -- testified that First-Class Mail is delivered on-time 94.29% of the time and Election Mail 97.67%, with averages of 1.3 and 2.1 days; the actual result is therefore likely not known until ~2.1 days after Nov 5, unless a candidate sweeps the non-swing states for 270. Either way, the Divided States will make history -- the first woman president, first noncolored rooted in South Asia, a prosecutor; or billionaire Trump, the oldest presidential candidate ever, 'an inveterate liar, a fascist, and a convict (with pending appeals),' returning triumphantly -- and the ramifications will stir the world, including the Philippines.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "elections_and_automated_voting"
+    ],
+    "secondary": [
+      "us_supreme_court_and_american_politics"
+    ]
+  }
 }

@@ -126,5 +126,11 @@
     "treats SC exhortation for stakeholder cooperation as a normative obligation on Comelec post-legal-victory"
   ],
   "one_paragraph_summary": "Panganiban addresses the 2013 Comelec mock election glitches -- PCOS machine failures, transmission defects, and pin code problems that critics (Kontra Daya, CenPeg) said were the same issues from the 2010 elections -- by separating the legal question from the technological one. He surveys three SC decisions establishing the PCOS system's legal soundness: Roque vs Comelec (no Philippine pilot testing required; PCOS meets RA 8436 standards), Capalla vs Comelec (Smartmatic option-to-purchase agreement upheld), and CenPeg vs Comelec (source codes available for independent review, subject to five strict conditions including NDA and read-only restricted access). All three rulings, he notes, rest on the entrenched doctrine of judicial deference to Comelec's technical expertise absent grave abuse of discretion. But he insists this legal victory does not resolve the technological risk -- like the 'unsinkable' Titanic, the US warship Guardian grounding in Tubbataha, and the Doña Paz disaster, all legally certified but still sunk -- especially since the SC itself admitted it cannot guarantee fraud-free elections or machine integrity, and instead called on 'all advocates of orderly and honest elections' to assist Comelec. CJ's conclusion: 'Legality does not guarantee technology,' and Comelec should engage its critics in constructive dialogue rather than dismissing their concerns.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "elections_and_automated_voting"
+    ],
+    "secondary": []
+  }
 }

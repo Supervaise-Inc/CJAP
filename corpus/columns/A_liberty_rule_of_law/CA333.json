@@ -151,5 +151,14 @@
     "endorses Belmonte's flexibility-amendment as model for hardcoded-percentage reform"
   ],
   "one_paragraph_summary": "Panganiban argues that since Duterte's federalism proposal is forcing constitutional revision anyway, the Cha-cha 'may as well delve into other basic reforms.' First, Article 1 ('National Territory') needs UNCLOS conformity -- it currently lists 'territorial sea, the sea bed, the subsoil, the insular shelves, and other submarine areas' but is silent on the exclusive economic zone and continental shelf that the Philippines 'so valiantly fought for and won' against China in the July 2016 arbitration. Though the catch-all 'all other territories over which the Philippines has sovereignty or jurisdiction' may arguably cover EEZ/CS, 'in my humble view' it would be better to expressly incorporate them. Second, the Bill of Rights bail clause (Sec 13, Art III) needs clarification of its capital-offense exception ('reclusion perpetua when the evidence of guilt is strong'): Estelito Mendoza's argument in the Arroyo and Enrile bail petitions -- that the strength of evidence can only be determined after prosecution presents its case, meaning the accused should not be detained pre-trial -- was not directly addressed by the SC, which instead released Arroyo via demurrer (acquittal-equivalent, since evidence was not strong) and Enrile on old-age and ill-health grounds. The Office of the Ombudsman countered that Mendoza's argument would create a legal loophole permitting flight; the doctrine remains unresolved and 'needs to be met head-on.' Third, the nationalistic economic provisions are 'long waiting for constitutional review': 60% Filipino ownership for natural-resource exploration, private land transfer, public utilities, and non-religious educational institutions; 100% for mass media (anomalous given CNN/BBC broadcasts and foreign newsstand publications); and 70% for advertising. Former Speaker Feliciano Belmonte's proposed amendment -- letting Congress determine the exact percentage by statute -- would give the country flexibility to adjust to changing economic needs and would spare the Con-ass or Con-con from spending excessive time on hardcoded percentages.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "criminal_trials_and_prosecutions"
+    ],
+    "secondary": [
+      "international_law_disputes",
+      "party_list_charter_change_and_dynasties"
+    ]
+  }
 }

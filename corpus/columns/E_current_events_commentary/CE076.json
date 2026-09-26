@@ -139,5 +139,11 @@
     "Frame automatic review as an institutional safeguard -- the Secretary of Justice has independent authority to find probable cause"
   ],
   "one_paragraph_summary": "Panganiban explains why newly inducted Justice Secretary Guevarra and incoming PNP Chief Albayalde can easily rise from the prosecutors' recommendation to dismiss drug charges against Kerwin Espinosa, Peter Lim, and others: the 42-page DOJ resolution by prosecutors Catalan, Gingoyon, Reyes, and Humarang expressly directed the entire record to be elevated to the Secretary of Justice for automatic review and allowed the PNP to refile if it gathered more concrete and competent evidence. After reviewing the resolution, the author concludes the PNP woefully failed to show probable cause -- it presented only one witness, Marcelo Adorco, whose three separate affidavits were inconsistent on at least six material categories (meeting dates/places, transaction months/years, drug volumes, delivery quantities, courier identities, and persons present). Outgoing PNP Chief Dela Rosa himself admitted to media that the PNP 'filed a weak case.' Under the adversarial system, prosecutors could only consider the evidence presented to them, not the Senate hearing material. The pre-court dismissal is actually beneficial: had the weak case been filed, the court would have dismissed it anyway, and double jeopardy would have attached -- barring any future prosecution. With strong additional evidence from Albayalde's strict command, Guevarra can find probable cause on automatic review. The column closes with a biographical endorsement of Guevarra -- BA magna cum laude and LLB second honors from Ateneo, second place in the 1985 bar, teaching at Ateneo Law while partnering with Medialdea, nonpartisan government service under both Aquino III and Duterte -- repeating the author's public recommendation that Guevarra has the nonpartisan gravitas, proven competence, integrity, probity, and independence to be a Supreme Court member.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "criminal_trials_and_prosecutions"
+    ],
+    "secondary": []
+  }
 }

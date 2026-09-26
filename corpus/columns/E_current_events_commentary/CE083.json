@@ -122,5 +122,13 @@
     "frames rule-of-law and due process as enduring routes despite their short-term inefficiency perception"
   ],
   "one_paragraph_summary": "Panganiban analyzes the global populism wave through the Oxfam finding (January 17, 2017) that eight billionaires -- Gates, Ortega, Buffett, Slim, Bezos, Zuckerberg, Ellison, Bloomberg -- own as much wealth as the bottom 3.6 billion people. Oxfam warned that unless the elite shares, public anger will produce more seismic political changes like Trump and Brexit; Stephen Hawking (in The Guardian, December 1, 2016) described both as a 'cry of anger by people who felt abandoned by their leaders.' CJ identifies Duterte's rise as the Philippine manifestation of the same anger against the elite's failure to address poverty, criminality, and corruption -- elected without funds, political party, or elite support. He notes that globalization, free trade, and the hallmarks of liberal democracy (rule of law and due process) are now being stereotyped as villains, with shortcuts in prosecution and strong leadership cults lauded for efficiency regardless of their human costs. Technology acceleration and AI will further deepen inequality. While endorsing Oxfam's and Hawking's calls for wealth sharing, CJ proposes his own Philippine solutions -- efficient public services, labor training, micro enterprise promotion, and speedy quality justice -- while insisting there are no viable alternatives to liberal democracy and the rule of law, and that the present disdain for these values will in time wane. He notes that for the Philippines, globalization has specifically benefited the working class via OFWs and the BPO sector.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "science_technology_and_the_law"
+    ],
+    "secondary": [
+      "us_supreme_court_and_american_politics"
+    ]
+  }
 }

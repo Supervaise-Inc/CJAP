@@ -127,5 +127,11 @@
     "deploys fitness-integrity-moral-ascendancy as the ultimate standard beyond procedural and technical legal arguments"
   ],
   "one_paragraph_summary": "Panganiban explains the legal framework for using bank deposits as evidence in the Corona impeachment trial. Under RA 1405 (Bank Secrecy Law), deposits are absolutely confidential with six exceptions -- including impeachment cases, making the Senate's subpoenas of PSBank and BPI for Corona's peso deposits legally proper. The defense filed a motion to suppress the peso deposits as the fruit of the poisonous tree (a rule coined by Justice Frankfurter and adopted by the Philippine SC in People v. Alicando, 1995) -- claiming the specimen signature card was illegally leaked to the prosecutors. The Senate rejected the motion on two grounds: bank secrecy laws do not bar admission of illegally obtained bank records, and there is no evidence the government leaked the card. CJ notes the puzzle: Corona himself said the source 'could have come only from the PSBank' -- explaining why he closed three PSBank peso accounts on the day of his impeachment, December 12, 2011 -- yet his lawyers still filed the motion. On the dollar deposits: RA 6426 (Foreign Currency Deposit Act) has only one exception (depositor's written permission); PSBank obtained a SC TRO barring disclosure. But the SC has previously allowed such examination in Salvacion v. Central Bank (1997) and China Banking v. Court of Appeals (2006) to 'prevent the perpetuation of an injustice'; and the Senate argues that 'the statutory rule on absolute confidentiality must yield to CJ Corona's clear constitutional obligation to fully declare and publicly disclose his assets.' PSBank president Pascual Garcia admitted the five dollar accounts belong to the CJ. CJ accepts at face value Corona's TV pledge to explain the accounts and calls on him to demonstrate -- before not just the impeachment court but the nation -- the fitness, integrity, and moral ascendancy worthy of the highest judicial office.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "public_funds_budget_and_bank_evidence"
+    ],
+    "secondary": []
+  }
 }

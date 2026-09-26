@@ -160,5 +160,14 @@
     "treats mentorship (Salonga) and small gestures (anonymous bar-review payor) as equally generative"
   ],
   "one_paragraph_summary": "Panganiban summarizes his commencement-style address at the Foundation for Liberty and Prosperity (FLP) awarding ceremonies -- honoring bar topnotchers, scholars, valedictorians, and dissertation-writing contest winners -- held via Zoom on June 12, 2020. He builds the address around Lucila Takjerad's Harvard commencement story from a year earlier: in 1994, during the Algerian civil war, Lucila's poor illiterate mother walked through a public market, learned a France emigration list was open, but could not write her own name; an unnamed man chased her and wrote it for her, transporting the family to France where Lucila grew up to graduate from Harvard. Lucila's message -- 'of course, do the most you can do... But also, do the least you can do. Because, the least you can do might turn out to be the most significant' -- leads CJ to his own autobiographical confirmation: peddling newspapers, shining shoes, selling bibles and textbooks; orphaned during law school (his father, a high school graduate and lowly government employee, dying during his pre-law years and his unemployed mother in his senior year); hospitalized on the first Sunday of his bar exams; ready to quit until his FEU law dean Dr. Jovito R. Salonga refused to let him, and until an old friend (now deceased) paid for his bar review on condition of a Top Ten finish -- leading to his sixth-place finish 'with God's grace' and ultimately the highest judicial post. He extends the metaphor to the FLP's own gifts -- financial grants, Supreme Court interviews, judges' tough questions, midnight dissertations, secretariat kindness -- as 'valuable little things' that may twist and turn careers more decisively than the formal honors. He closes with an AI-age credo: contrary to predictions, DiGi Age robots will not eliminate lawyers, because 'lawyers bred in liberty and prosperity... have the heart and the wisdom to dispense compassionate justice especially when the law is inadequate, unclear, or unconscionable.' And with one of his most explicit valedictory passages: in ten or twenty years, when the scholars are DiGi Age leaders, 'my spirit will be hovering above you, behind you, and beside you, smiling and contented, that I have brought you a few little things that made a vital difference in twisting and turning your lives and careers to build a just and humane society under the rule of law in the DiGi Age.'",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "life_story_family_school_and_church"
+    ],
+    "secondary": [
+      "foundation_for_liberty_and_prosperity",
+      "science_technology_and_the_law"
+    ]
+  }
 }

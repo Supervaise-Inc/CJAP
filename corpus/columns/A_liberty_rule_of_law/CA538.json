@@ -156,5 +156,13 @@
     "prescribes ethical standards for judges and lawyers"
   ],
   "one_paragraph_summary": "Panganiban revisits the first of his 'four truths' after readers' comments. Citing US Chief Justice Warren E. Burger that the very nature of a trial is a search for truth, he asks why judicial truth sometimes diverges from actual truth. Judicial truth is the version of facts established by evidence presented, admitted and accepted under the rules; actual truth is what truly happened. Ideally they coincide, but justice is administered by fallible, if not scheming, people, and the road to truth is fraught with errors and machinations. The divergence has three sources. First, witnesses: People v. Nuñez (2017) recognized that the frailty of human memory is a scientific fact; an eyewitness may not accurately identify a bag snatcher, and some witnesses perjure, disappear or succumb to 'lusot, lagay, lakas.' Second, lawyers: a court is only as good as its advocates; a prosecutor may file an information that fails to allege the elements of plunder, or defense counsel may fail to object to inadmissible evidence. Third, magistrates: recalling his 2015 column 'How cases are decided,' he contrasts John Austin's Facts x Law = Decision, under which convicting of murder without proof of treachery would be a grave misapplication, with Roscoe Pound's Stimuli x Personality of the Judge = Decision, recognizing that judges may be swayed by public interest, personal afflictions or the 'Plague of Ships: kinship, relationship, friendship, and fellowship.' The gap victimizes the marginalized and powerless, turning laws meant as shields into sources of injustice. Yet cynicism would surrender the rule of law; courts lack divine omniscience, and judicial truth is a continuing pursuit. To narrow the gap, society must demand the 'Four Ins' -- Independence, Integrity, Intelligence and Industry -- from judges and 'TIP' -- Trust, Integrity and Probity -- from lawyers.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "criminal_trials_and_prosecutions"
+    ],
+    "secondary": [
+      "impeachment_accountability"
+    ]
+  }
 }

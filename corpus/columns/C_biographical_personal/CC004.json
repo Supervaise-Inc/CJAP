@@ -144,5 +144,11 @@
     "Treat mentorship as a chain: the mentor's habits (Salonga's preparation standard) become the apprentice's minimum"
   ],
   "one_paragraph_summary": "Responding to reader letters following his previous column, Panganiban addresses three issues. First, on Estelito Mendoza's praise for J. Reyes Jr.'s swift GMA right-to-travel decision alongside his lament about an unnamed accused detained for over 1,400 days, he joins the plea for speedier resolution and invokes the constitutional 24-month rule for cases after the last pleading was filed. Second, he definitively corrects repeated misattributions of the constructive-resignation doctrine to himself -- 'I have said it before and will say it again: fake news.' The doctrine belongs to CJ Reynato S. Puno, who wrote the unanimous Estrada-Arroyo decision; Panganiban and CJ Davide took no part in the 13-0 ruling. Third, he responds to two readers who criticized him for hero-worshipping CJ Claudio Teehankee by confirming it unapologetically: Teehankee earned summa cum laude in both BA and LLB from Ateneo and was No. 1 in the 1940 bar -- 'the greatest Ateneo law alumnus of all time.' He extends equal esteem to Jose W. Diokno and Jovito R. Salonga, who tied for No. 1 in the 1944 bar at 95.3% -- Diokno without finishing law school (also the CPA board topnotcher), and Salonga with LL.M. from Harvard and J.S.D. from Yale. Salonga was the author's mentor at FEU and boss at his law firm -- the boss in awe of only Diokno and Teehankee, warning his young assistant to 'prepare our trial brief extra well' whenever either appeared on the opposite side. When Salonga disbanded his firm to chair the PCGG in 1986, the author consciously emulated him by dissolving his own firm (Panganiban, Parlade, Benitez and Africa) upon SC appointment in 1995, living, as he humbly concludes, 'in the penumbra of their great shadows.'",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "life_story_family_school_and_church"
+    ],
+    "secondary": []
+  }
 }

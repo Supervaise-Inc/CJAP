@@ -108,5 +108,11 @@
     "Test whether requiring notice/hearing before 1/3 filing would be 'over due process' -- pointless given the 1/3 threshold of conviction"
   ],
   "one_paragraph_summary": "Startled by 188 House members filing a verified impeachment complaint without prior notice or hearing, Panganiban re-examines the constitutional provisions. The 1987 Charter provides two initiation methods: (1) a single congressman/citizen files a verified complaint, the House Committee on Justice conducts hearings and recommends by majority vote, and a 1/3 vote of all members is needed to proceed -- the respondent is heard at the committee stage; (2) a verified complaint filed by at least 1/3 of all House members 'shall constitute the Articles of Impeachment, and trial by the Senate shall forthwith proceed' -- no hearing required, because the word is 'filed' not 'voted.' Regarding the due process objection: the Bill of Rights protects against deprivation of 'life, liberty or property' -- but jurisprudence emphatically holds that no one has a vested right or Torrens title to a public office; a public office is a public trust temporarily entrusted by the state, not the official's property. Traditional (extra-constitutional) due process -- Themistocles's 'Strike, but hear me first' and Webster's 'hears before it condemns' -- is satisfied by the Senate's trial rules, which provide ample notice and hearing before judgment. The framers allowed ex parte filing under the second method because requiring notice and hearing when 1/3 of the House have already signed the complaint would be 'over due process' and a 'moro-moro of false impartiality.' The penalty (removal and possible disqualification) is not criminal -- no deprivation of liberty or property -- further justifying the streamlined filing.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "impeachment_accountability"
+    ],
+    "secondary": []
+  }
 }

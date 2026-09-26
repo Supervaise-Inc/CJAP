@@ -113,5 +113,11 @@
     "Pope-Francis-as-validator: the pontiff's call for exactly the JGF model as external theological endorsement"
   ],
   "one_paragraph_summary": "Delivered May 4, 2015 at the Jollibee Group Foundation's 10th anniversary gala, this closing address by CJP opens with the mystical resonance of the number 10 -- used 242 times in the Bible, the exact number of the Ten Commandments, the tithe percentage, the Rosary decade, and -- crucially -- JFC's rank as the 10th largest QSR chain by market capitalization in the world (and #1 in Asia), 'signifying perfection.' The governing philanthropic thesis: 'It is easy to dole out goodies to the hungry... but it is not as easy to help them help themselves because this involves not just money and alms but passion, patience and personal devotion.' Confucius' fisherman parable is applied to JGF's BLT and FEP programs: teaching fishing not only feeds for a lifetime but 'enables him to teach his own family and community.' CJP presents the four-T framework: the standard three Ts (treasure, talent, time) plus the fourth T -- 'the truth that passion and patience are essential to real philanthropic success.' Tony and Grace embody all four: Grace planned to stay only three years as JGF President 'to kick off the BLT and FEP projects' but 'passion and patience in helping the poor overwhelmed her completely,' leading her to devote full time to poverty alleviation; Tony gave up his JFC CEO position to do the same. JGF's 50% contribution increase -- from the standard 1% to 1.5% of Jollibee net income -- is the institutional recognition of the model's excellence. Pope Francis visited the Philippines three months before, calling for 'more Christian charity and dedication to the cause of the poor' -- CJP had already publicly applauded Tony and Grace in his January 18, 2015 Inquirer column as exemplars of the Pope's call. Closes: 'May you always share the joy of giving. May you never tire of helping the poor help themselves. And may your tribe increase. Hep! Hep! Hurrah!'",
-  "source_xlsx": "cjp_speeches_curated_normalized.xlsx"
+  "source_xlsx": "cjp_speeches_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "foundation_for_liberty_and_prosperity"
+    ],
+    "secondary": []
+  }
 }

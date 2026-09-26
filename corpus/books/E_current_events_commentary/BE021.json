@@ -117,5 +117,11 @@
     "investigate-disenfranchisement to prevent repetition"
   ],
   "one_paragraph_summary": "Chapter 6 of 'With Due Respect' (Vol. 6), CJP's May 16, 2010 Inquirer column, hails the Noynoy Aquino landslide as a 'thunderous triumph of People Power' that survived 'sweltering kilometric queues, technical glitches... and other booboos of Comelec and Smartmatic.' The first nationwide automated election, he writes, was 'People Power of the strict constitutional genre' -- the people choosing a peaceful transition 'no longer by staging mammoth street rallies, but by pouring a massive electoral mandate.' He sets it among three: the 'extra constitutional' People Power 1 (Cory's 1986 revolutionary ascent), the 'intra constitutional' but contested People Power 2 (GMA in 2001, per Estrada v. Desierto), and now People Power 3, which 'catapults Noynoy with unquestioned constitutionality' and is fittingly embodied in 'the 1987 Constitution of Cory.' Yet he itemizes avoidable failures: the clustering that, as he had predicted, assigned 'only one... BEI and one PCOS machine to 1,000 voters' (he and his wife waited 45 minutes; Noynoy 'sweated many hours'); wasted votes from 'PCOS machine malfunction, oval misalignment, ballot rejection, and printing errors'; weak training and voter-list exclusions; and 'small covers... half the size of the ballots' that violated secrecy -- captured by the Inquirer photo of Estrada's exposed ballot -- disenfranchisement that, he agrees with Sen. Jamby Madrigal, 'must still be investigated.' He also warns that the celebrated 'instant transmission' and the PPCRV, GMA7 and ABS-CBN parallel counts all drew 'from the same election returns spewed out by the PCOS machines,' so none explained 'how the PCOS machines counted the individual votes,' leaving 'no check on how the machines tallied' after the Comelec 'inexplicably disengaged' a voter-confirmation safeguard. Still, he 'heave[s] a sigh of relief' that nationwide failure, source-code corruption, holdover and military rule 'did not come to pass,' hailing 'the miraculous start of a peaceful transition of power.'",
-  "source_xlsx": "cjp_books_curated_normalized.xlsx"
+  "source_xlsx": "cjp_books_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "elections_and_automated_voting"
+    ],
+    "secondary": []
+  }
 }

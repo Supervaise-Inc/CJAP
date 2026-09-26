@@ -113,5 +113,13 @@
     "treats plain-view restriction as the constitutionally appropriate design for Comelec checkpoints"
   ],
   "one_paragraph_summary": "Panganiban uses the Comelec's authorization of military/police checkpoints during the 2013 election gun ban as the entry point for a systematic constitutional guide to warrantless arrests and searches. He affirms the Comelec's restriction of its checkpoints to 'plain view search' -- visual inspection only, no opening of glove compartments or trunks, no body search without reasonable probable cause -- as constitutionally sound. He then surveys the three exceptions to the warrant requirement for arrests: in flagrante delicto (overt act + in presence of arresting officer; suspicious appearance alone -- 'darting eyes,' 'moving very fast' -- is insufficient per Mengote and Malacat); hot pursuit (prior committed offense + arresting officer's personal knowledge, not mere intelligence information); and the continuing-offense doctrine (Umil vs Ramos -- rebellion is 'anchored on an ideological base,' so a warrantless arrest is valid even when the suspect is hospitalized). For warrantless searches, he catalogues six exceptions: (1) incident to lawful arrest; (2) plain view; (3) vehicle searches (allowed more liberally for public safety); (4) customs searches; (5) consented searches; (6) stop and frisk. He closes with the governing meta-rule: the general rule is 'no warrant, no arrest, no search,' and all exceptions -- including Comelec checkpoints -- must be construed strictly in favor of the people.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "criminal_trials_and_prosecutions"
+    ],
+    "secondary": [
+      "elections_and_automated_voting"
+    ]
+  }
 }

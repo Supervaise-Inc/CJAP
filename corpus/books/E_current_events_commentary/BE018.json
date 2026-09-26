@@ -119,5 +119,11 @@
     "automation-constraints: printing deadlines and substitution shape eligibility's real effect"
   ],
   "one_paragraph_summary": "Chapter 2 of 'With Due Respect' (Vol. 6), CJP's October 25, 2009 Inquirer column, takes up the legal and administrative tangle of Joseph 'Erap' Estrada's presidential bid -- launched at an October 21 Tondo rally under 'Tapat sa Mahirap' with running mate Jojo Binay -- framing it with 'The Sound of Music': 'how do you solve a problem like' Estrada? Estrada would likely file his COC on the November 30 deadline (an earlier filing risking the premature-campaigning ban under Penera v. Comelec), after which adversaries would 'feast on him' with two eligibility challenges. First, that GMA's plunder pardon carried a continuing disqualification -- which CJP rejects, arguing the clemency was 'absolute and unconditional,' since a retained accessory penalty 'should have been couched in clear language' and the pardon instead expressly 'restored his civil and political rights.' Second, the more 'contentious' claim that the Constitution bars all former presidents: some read 'any reelection' as a perpetual bar on elected presidents (Ramos, Arroyo, Estrada), while others say 'the President' means only the incumbent and the clause on those who 'succeeded' for under four years lets Erap run -- invoking that 'the interpretation of the people who adopted the Constitution prevails' and Puno's Tecson v. Comelec line that 'the better policy approach is to let the people decide,' for on political questions 'this Court may err but the sovereign people will not.' Before any ruling, though, the Comelec must climb its own ladder (division → En Banc → Court) and solve automation puzzles: whether to print Estrada's name by the January 9 deadline (since voters merely 'shade the ovals'), whether his votes would count if he is disqualified, and whether a substitute like Binay or a same-surnamed Jinggoy could inherit them -- a riddle CJP likens to holding 'a moonbeam in your hands.'",
-  "source_xlsx": "cjp_books_curated_normalized.xlsx"
+  "source_xlsx": "cjp_books_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "criminal_trials_and_prosecutions"
+    ],
+    "secondary": []
+  }
 }

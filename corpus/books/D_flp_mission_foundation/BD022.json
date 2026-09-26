@@ -83,5 +83,13 @@
     "comparative and global judicial dialogue"
   ],
   "one_paragraph_summary": "Chapter 2, 'Judicial Globalization,' is CJP's lecture at the First Australasia Judicial Educators Forum (Philja; judges from 21 countries) on 'Paradigm Shifts in Law and Changing Philosophical Perspectives.' He argues the informational and technological revolution is transforming law and doctrine, surveys numerous Supreme Court decisions responding to new questions (from Echegaray to election-law and treaty cases), and frames judicial globalization as the cross-border exchange of judicial ideas.",
-  "source_xlsx": "cjp_books_curated_normalized.xlsx"
+  "source_xlsx": "cjp_books_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "science_technology_and_the_law"
+    ],
+    "secondary": [
+      "death_penalty_and_echegaray"
+    ]
+  }
 }

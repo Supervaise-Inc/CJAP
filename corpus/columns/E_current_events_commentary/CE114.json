@@ -108,5 +108,11 @@
     "Apply the belt-tightening paradox test to PH government responses: spending cuts during downturns can be self-defeating"
   ],
   "one_paragraph_summary": "Panganiban offers a plain-language explanation of the August 2011 US debt crisis and S&P downgrade. The US accumulated $14.3 trillion in debt over 10 years through tax cuts, two wars, and the 2008 stimulus; when it hit the statutory debt ceiling, Republican/Democratic gridlock (cut spending vs raise taxes) paralyzed Congress until a last-minute deal raised the ceiling and cut $1 trillion in expenses over 10 years, creating a 'super committee' (12 members) to find $1.5 trillion more by November 30. S&P downgraded US debt from AAA to AA+ -- not because of the debt itself but because it saw 'insufficient' cuts and political gridlock as undermining US policymaking effectiveness, making the downgrade 'the last straw that broke the confidence of creditors.' Compounding fears were the PIIGS (Portugal, Ireland, Italy, Greece, Spain) with less absolute debt but structurally weaker economies. Investors fled stocks into cash, Swiss francs, bonds, and gold. He explains the government belt-tightening paradox: unlike families, governments that cut spending during downturns reduce consumption, constrict money circulation, and cause job losses -- governments typically borrow and spend more to generate activity. For the Philippines, the turmoil could lower oil prices (positive) but reduce OFW remittances from 9 million ethnic Filipinos in America (job losses + weaker dollar = fewer pesos) -- addressed by Finance Secretary Purisima's plans to fast-track infrastructure awards and BPO growth. The PH economy is 'resilient enough to withstand the US and European turbulence' with proper anticipation and planning.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "property_contracts_and_economic_rights"
+    ],
+    "secondary": []
+  }
 }

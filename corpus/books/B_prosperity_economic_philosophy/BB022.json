@@ -216,5 +216,13 @@
     "doctrine must be updated as private power grows capable of abusing rights once only the State could violate"
   ],
   "one_paragraph_summary": "Chapter 17 of 'Transparency, Unanimity & Diversity' recounted Serrano v. NLRC, promulgated January 27, 2000 after more than a year of internal debate, in which the en banc Court answered in the negative the question whether workers are entitled to due process before dismissal. Isetann Department Store had phased out its Security Section and terminated Ruben Serrano on the very day he received notice; Justice Mendoza, for the majority, held the lay-off a valid redundancy under Article 283, awarded separation pay, and characterized the defective notice as making the termination merely 'ineffectual,' compensable by full back wages rather than reinstatement. His reasons were that the Due Process Clause limits governmental and not private power, that an Article 283 notice serves to let the worker prepare and DOLE verify the economic cause rather than to answer a charge, that the requirement descends from the mesada of the 1882 Spanish Code of Commerce and the Termination Pay Law, and that failure to give it is like failing to make a notarial demand before rescinding a sale. Artemio V. Panganiban dissented, first thanking the Court for reexamining a ten-year doctrine under which he had long rankled at indemnities of P1,000 to P10,000, then arguing three theses: the notice requirement rests on the Constitution and not merely the Labor Code, since employment is a property right and constitutional provisions are written into every statute; a violation of procedural due process voids the proceeding and restores the status quo ante, as a long line of labor, administrative, criminal and election cases showed, so the remedy is reinstatement plus full back wages; and Article 277(b) itself grants ample opportunity to be heard. He preserved one exception, for cases like Wenphil where compliance was impractical or the employee was caught in flagrante delicto, and warned that indemnity had become an easy substitute for due process, letting the rich purchase a constitutional right granted to the poor. He reproduced Justice Puno's dissent at length and closed with his own creed -- due process begins with the employer, the administration of justice begins with each of us, and denial of due process is a denial of justice itself -- noting in the Epilogue that the majority had bought labor money at the price of a vital right.",
-  "source_xlsx": "cjp_books_curated_normalized.xlsx"
+  "source_xlsx": "cjp_books_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "criminal_trials_and_prosecutions"
+    ],
+    "secondary": [
+      "property_contracts_and_economic_rights"
+    ]
+  }
 }

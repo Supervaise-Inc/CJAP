@@ -157,5 +157,11 @@
     "invokes history (People Power) and faith (Pilate) to frame higher ideals of truth"
   ],
   "one_paragraph_summary": "Panganiban cuts through the legalese of VP Sara Duterte's impeachment trial by asking: what is the truth in the trial? He answers with four truths: judicial, political or convenient, public, and absolute or Christian. Judicial truth rests only on evidence properly marked, identified, offered, admitted and believed under the Rules of Court; judges never rely on radio, television or TikTok, and cannot use even what they personally saw -- absent proof, they must acquit. The impeachment court, however, is not purely judicial: senator-judges in crimson robes may resemble justices, but they need not be lawyers and may follow political truths, so the two intersect in this sui generis tribunal. This was seen when prosecutor Rep. Chel Diokno and defense counsel Michael Poa clashed over subpoenas for the VP's BIR tax records in the 'Green Box' and AMLC financial records of the VP and her husband. CJP explains that a subpoena merely directs a person to testify or bring documents and opens the door to inquiry, unlike a search warrant; produced documents are not automatically admissible, since evidence must be both relevant and competent. Presiding officer Sen. Francis 'Chiz' Escudero issued the subpoenas because the records appeared prima facie relevant to unexplained wealth and betrayal of public trust, leaving credibility for later. These distinctions are constitutional safeguards, not technicalities, though no tribunal can fully attain the truth, as Diokno admitted. Public truth is what people believe when judicial and political truths lose credibility, as when the Second People Power Revolution erupted over the unopened second envelope. The absolute truth recalls Jesus' trial and Pilate's question, 'What is truth?' Every court must strive to approximate it; justice cannot rest on speculation, political convenience or public clamor.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "impeachment_accountability"
+    ],
+    "secondary": []
+  }
 }

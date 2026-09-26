@@ -140,5 +140,11 @@
     "Read the dissent's factual analysis as the Ombudsman's roadmap for the remaining presentation of evidence"
   ],
   "one_paragraph_summary": "Panganiban explains why the Sandiganbayan denied bail to Janet Napoles (Third Division, 3-0) but granted it to Jinggoy Estrada (Special Fifth Division, 3-2), even though both face plunder -- a nonbailable offense. On Napoles: the SBN found 'clear and strong evidence' that she committed plunder; the SC affirmed on November 7, 2017. On Jinggoy: a prior bail denial (January 7, 2016, 215-page Fifth Division resolution) was overtaken by Arroyo v. Sandiganbayan (July 21, 2016), which added a new plunder element -- the information must allege and prosecution must prove the identity of the 'main plunderer.' The Special Fifth Division majority (Justices Mendoza-Arcega, R. Cruz, and Pahimna) held that while the information did allege a main plunderer, the evidence presented so far had not strongly established Jinggoy as that person. The dissent (Justices Lagos and Trespeces) disagreed, finding strong evidence of his guilt. Crucially, the bail grant is not an acquittal: the majority itself stated the ruling 'does not delve on the guilt or innocence of accused Estrada' and the prosecution retains the right to present further evidence. The prosecution's MR was denied November 10, 2017, but the author suggests elevating to the SC given the narrow 3-2 vote and the non-participation of the original Fifth Division members (Gesmundo and others since promoted). Ombudsman Carpio Morales's response: 'We have never been more confident about the evidence we have.' The column ends: Abangan.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "criminal_trials_and_prosecutions"
+    ],
+    "secondary": []
+  }
 }

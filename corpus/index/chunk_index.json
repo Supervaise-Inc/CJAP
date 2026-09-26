@@ -14,15 +14,15 @@
     "overlap_tokens": 40
   },
   "source_snapshot": {
-    "doc_id_count": 1109,
+    "doc_id_count": 1295,
     "source_files": [
       {
         "filename": "cjp_columns_curated_normalized.xlsx",
-        "sha256": "b437b6102cd71074c9d8d5365a648601fd50d4cab382cf9d5c5e323430b4c028"
+        "sha256": "bf56b42a920c5af3809efcef3a1f60606ceb7ec0f0a273e100dfc890d3b442ec"
       },
       {
         "filename": "cjp_books_curated_normalized.xlsx",
-        "sha256": "037ee6a6e839c187ec77dfd7059d2853e86876448bbef3a8d7cf8f0dfc7cd1e4"
+        "sha256": "379913ac7b5d175d7b57b241e7238969cf78afedb7dba24672bee739b77adee8"
       },
       {
         "filename": "cjp_speeches_curated_normalized.xlsx",

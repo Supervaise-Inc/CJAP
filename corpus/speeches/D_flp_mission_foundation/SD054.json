@@ -131,5 +131,14 @@
     "new cash award structure: Latin honors + bar topnotcher prizes as the additional motivation layer"
   ],
   "one_paragraph_summary": "Delivered March 23, 2018 at the FLP Awards Ceremony at Ateneo de Manila Professional Schools, this closing address by CJP opens with the two-drivers-and-bosses joke -- where both lawyers' drivers turn out to be the rational ones after due-process treatment ('he has a cell phone; he should just have called'; 'he should have specified the color of the car he wanted') -- as a parable for procedural fairness. He thanks Acting CJ Antonio T. Carpio ('foremost advocate of our sovereign rights in the West Philippine Sea'; longest-serving SC member; chaired the Scholarship Board of Judges, opening the SC Division Conference Rooms -- 'the sacred inner sanctum of the temple of justice... where only the justices are allowed entry') and Justice Presbitero J. Velasco Jr. (second longest-serving; chaired the Dissertation Board of Judges). Other judges: Dr. Edilberto de Jesus (AIM/FEU/former Edu Sec; wife Leni taught with him 37 years at AIM), Dean Sedfrey Candelaria (Ateneo; PALS president; FLP chair holder), Ms. Elizabeth Alba (TYK Foundation), and Joel Emerson Gregorio (ADB; FLP trustee). He thanks the Tan Yan Kee Foundation and Ayala Corporation (Jaime Zobel 'immediately and unhesitatingly agreed' to fund the Dissertation Contest as an extra to Ayala's philanthropy budget). He hails the 21 scholars from across the country (Cordilleras, Metro Manila, USC, U Cebu, St. Thomas More) and the dissertation winners: Rafael Pangalangan of Oxford/UP (1st, P300,000), Tess Marie Tan of USC (2nd, also former FLP scholar; her work on Internet intermediaries was published weeks before the same issue arose in a Senate hearing chaired by Sen. Grace Poe -- to be featured in CJP's March 25 Inquirer column), and four finalists (Evora/PUP, Frias/FEU, Napoles/Centro Escolar, Odulio/Ateneo). He announces new exclusive cash awards for Latin honors graduates and future bar topnotchers, and reaffirms the merit-first-need-as-tiebreaker selection principle.",
-  "source_xlsx": "cjp_speeches_curated_normalized.xlsx"
+  "source_xlsx": "cjp_speeches_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "foundation_for_liberty_and_prosperity"
+    ],
+    "secondary": [
+      "criminal_trials_and_prosecutions",
+      "international_law_disputes"
+    ]
+  }
 }

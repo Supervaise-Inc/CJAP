@@ -144,5 +144,11 @@
     "First Gen CAGR data as the evidence base for the energy demand forecast"
   ],
   "one_paragraph_summary": "Delivered November 14, 2019 to the TeaM Energy Management Team, this PESTLE (Political, Economic, Social, Technological, Legal, Environmental) keynote by CJP covers three topics at President John Alcordo's request, opened by three jokes including Mang Art's motorized-saw tree story. On the first -- the three branches of government -- CJP provides a frank constitutional tutorial: the House (3-year/3-term maximum) and Senate (6-year/1-reelection); the Presidency (6 years, no reelection, commands both the sword and the purse); the Supreme Court (with a globally unique anti-grave-abuse power, designed to prevent a repeat of Marcos-era dictatorship -- but 'sometimes this judicial power becomes illusory when members of the Court compromise their independence by being subservient to the appointing authority'). He explains the JBC's practical limitation: of its 7 members, the 'super majority are controlled by the President,' making the nomination list easily manipulable. On the second -- energy legal and regulatory factors -- he traces the generation-transmission-distribution structure, notes First Gen's data showing 5.3% CAGR in Philippine power demand over the last 10 years, and identifies the trend toward green energy and a nuclear energy revival (Bill Gates investing in Chernobyl/Fukushima safety research for safe, cheap, 24/7 power). On TeaM Energy's future after the cooperation period, he applies the change-of-tires metaphor: he planned a small bungalow and Tagaytay farm after the SC but 13 years later remains active in corporate, media and philanthropic life. He closes with the technology future for Generation Z (5G, AI, IoT, stem cells, telomere lengthening, death 'optional' by 2045) and the Einstein/Alberto-Estan brain auction joke: 'Einstein's brain is already overused while the bar flunker's brain is almost new and underused -- may we all have underused brains so our heirs may inherit them.'",
-  "source_xlsx": "cjp_speeches_curated_normalized.xlsx"
+  "source_xlsx": "cjp_speeches_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "jbc_discernment_and_appointment"
+    ],
+    "secondary": []
+  }
 }

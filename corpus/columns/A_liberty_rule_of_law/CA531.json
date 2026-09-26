@@ -166,5 +166,11 @@
     "closes on no-one-above-the-law, due process for the accused and justice for victims"
   ],
   "one_paragraph_summary": "Panganiban likens the continuing 'telenovela' of Sen. Ronald 'Bato' dela Rosa to the 1993 film 'The Fugitive,' in which Dr. Richard Kimble, wrongly convicted of killing his wife, escapes from a police van. The public is transfixed by the senator's whereabouts and the government's determination to catch him, but his legal situation is more complicated. After the Supreme Court's 9-5-1 denial of interim relief, the DOJ and OSG publicly called him a 'fugitive from justice,' yet he has not been judicially declared one; the Court refrained so as not to prejudge the pending petitions. This matters for two reasons. First, under Vallacar v. Yanson (2025), a fugitive is one who flees after conviction or after being charged, the 'indispensable element' being intent to evade prosecution or punishment with knowledge of the warrant, and the status attaches only when the issuing court declares it. Second, the declaration triggers the fugitive disentitlement doctrine: as CJP wrote in Philippine Rabbit Bus Lines v. People (2004), a fugitive loses standing in court and cannot seek judicial relief, including appeal. Still, CJP holds that Dela Rosa may be lawfully arrested under the ICC warrant without such a declaration, since enforceability and fugitive-status consequences are distinct. The circumstances deserve scrutiny: the warrant, announced May 11 2026, was known to him; three days later, after six months of refuge within the Senate premises, he slipped away at night; his wife Nancy admitted he had 'escaped'; allies would not reveal his whereabouts. These strongly suggest an intent to evade, though a formal finding is for the Court. Authorities must enforce the warrant, whose validity is decided 'in the courtroom, not in flight,' under the presumption of regularity. Unlike Kimble, who fled to prove his innocence, Dela Rosa is a once-feared police chief fleeing the machinery of law he once commanded. No one is above the law; impunity has no place.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "criminal_trials_and_prosecutions"
+    ],
+    "secondary": []
+  }
 }

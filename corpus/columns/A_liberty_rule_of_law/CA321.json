@@ -113,5 +113,11 @@
     "deploys PCGG petition as documentary anchor for the $5B total estimate"
   ],
   "one_paragraph_summary": "Panganiban reviews the most recent jurisprudence on Marcos ill-gotten wealth -- Estate of Marcos v. Republic (January 18, 2017, CJ Sereno) -- in the context of Edsa@31. The decision affirmed a 2014 Sandiganbayan ruling (J. De la Cruz) that the Malacañang Collection jewelry was ill-gotten and forfeited in favor of the Republic. It recalled that Republic v. Sandiganbayan (July 15, 2003) unanimously fixed the Marcoses' known lawful income from 1965 to 1986 at only $304,372.43, with all assets above that threshold deemed ill-gotten -- including $658,175,373.60 in bank deposits forfeited in the same 2003 case. The 2012 Marcos Jr. v. Republic decision had separately forfeited Arelma S.A. assets of $3,369,975 (as of 1983) plus interest. The 2017 decision incorporated in its footnotes the 1991 PCGG petition (civil case 0141) listing 14 categories of alleged ill-gotten wealth 'approximated at US$5B,' spanning holding companies, agro-industrial ventures, land, buildings, condominiums, cash, paintings and silverware sold at US auction ($17M) and found in Malacañang ($23.9M), Philippine peso bills and foreign currency seized by US customs in Honolulu ($4M and P46.4M in time deposits), SBTC deposits (over P974M and $6.5M), Traders Royal Bank deposits (over P1B), and secret Swiss bank accounts as the 'primary and principal object of this petition.'",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "ill_gotten_wealth_and_the_pcgg"
+    ],
+    "secondary": []
+  }
 }

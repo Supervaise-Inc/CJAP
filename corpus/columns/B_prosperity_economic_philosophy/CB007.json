@@ -129,5 +129,11 @@
     "frames originalism vs liberal interpretation as the meta-framework governing all four economic decisions"
   ],
   "one_paragraph_summary": "Panganiban reports on Justice Azcuna's lecture at the Ateneo Law School dissecting four controversial SC decisions on the economic provisions of the Constitution. First, Manila Prince Hotel vs GSIS (1997): the SC directed the award of Manila Hotel to a losing Filipino bidder who equaled a Malaysian competitor's higher bid, citing the Filipino-preference clause -- CJ Panganiban dissented, arguing the hotel was not part of national patrimony and that public bidding was subverted when the 'ballgame is over.' Second, La Bugal-B'laan vs Ramos: the SC struck down the Mining Law 8-5 in January 2004, then reversed itself 10-4 in December 2004 -- CJ wrote the reversal upholding the FTAA on condition that ultimate control remained with the President -- but this 'festering policy volatility' has kept the mining industry from growing. Third, Gamboa vs Teves (2011): the 40% foreign ownership cap in public utilities applies only to voting shares. Fourth, PSALM (2012): river water is a national resource, but once appropriated and collected in a dam it becomes private and usable by a Korean firm for electricity generation. CJ closes with a Scalia-Kennedy anecdote on originalism vs international-law interpretation, framing it as the meta-debate underlying all four decisions.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "property_contracts_and_economic_rights"
+    ],
+    "secondary": []
+  }
 }

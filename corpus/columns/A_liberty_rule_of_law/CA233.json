@@ -120,5 +120,13 @@
     "deploys retired-jurist counterfactual as substitute for sitting-jurist vote"
   ],
   "one_paragraph_summary": "Panganiban dissects the four procedural options before the Supreme Court, sitting as the Presidential Electoral Tribunal (PET), in the Bongbong Marcos election protest against VP Leni Robredo. He sets out PET Rule 65's 'substantial recovery' standard -- which authorizes outright dismissal when the protestant 'will most probably fail to make out his case' -- and notes that Justice Caguioa's recount in the three pilot provinces (Camarines Sur, Iloilo, Negros Occidental) showed Leni's lead increasing by ~15,000 votes beyond her original 263,473. However, Bongbong's Third Cause of Action -- seeking annulment of all votes in 2,756 clustered precincts across Maguindanao, Lanao del Sur, and Basilan on grounds of terrorism, threats, intimidation, harassment, and pre-shading -- was not part of the pilot framework, so simple dismissal cannot reach the whole protest. Of four options -- outright dismissal, adoption of the Comelec's prior 200-precinct technical examination, a full TE of all 2,756 precincts, or calling for position papers and amicus curiae briefs to craft proper rules -- CJ rejects Option 2 as a due-process violation (Leni was not a party to the other case), notes Option 3 will take very long, and endorses Option 4 as 'the prudent way to proceed' since the existing PET Rules do not contemplate the Third Cause framework. He closes with the retired-jurist counterfactual: 'If I were still sitting in the Court, I would vote for the said option.'",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "elections_and_automated_voting"
+    ],
+    "secondary": [
+      "marcos_robredo_election_contest"
+    ]
+  }
 }

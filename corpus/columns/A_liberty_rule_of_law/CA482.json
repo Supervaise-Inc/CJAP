@@ -117,5 +117,11 @@
     "uses ignorance-not-an-excuse principle to show law operates on a presumption of universal knowledge"
   ],
   "one_paragraph_summary": "Panganiban introduces judicial decision-making through the Aristotelian syllogism framework: law times facts equals decision (L x F = D). He illustrates with a homicide example (major premise: anyone who kills shall be jailed; minor premise: Pedro killed Juan; conclusion: Pedro shall be jailed) and notes that despite nine years of tertiary study required to become a lawyer, ignorance of the law is never an excuse -- 'truth is not a valid defense' against jaywalking, for instance. Most litigations are won or lost not on legal issues but on the factual minor premise -- whether the act was committed. Facts are proven only in trial courts, not in the CA or SC, which rely on the trial court's fact-finding authority because the trial judge has firsthand impressions of witnesses' demeanor, tone, and credibility (quoting People v. Delavin, 1987, and People v. Rivera, 1993 -- the latter listing 'timidity, forthrightness, surliness, belligerence, indignation, embarrassment, hesitancy, glibness, evasiveness, insolence' as credibility indicators). Though lowest in the judicial hierarchy, trial judges are 'virtual kings' in acquittals -- which are immediately executory and cannot be appealed under the double jeopardy prohibition. He then shows how legal complications -- jurisdiction challenges (e.g., GMA charged in RTC when the Sandiganbayan has jurisdiction over high officials), bail petitions, preliminary investigation disputes, novel-crime constitutionality questions (e.g., plunder), and post-judgment appeals on crime classification or penalty -- can delay criminal prosecutions interminably, preventing the simple syllogism from producing a timely result.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "criminal_trials_and_prosecutions"
+    ],
+    "secondary": []
+  }
 }

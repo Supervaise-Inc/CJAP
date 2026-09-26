@@ -169,5 +169,13 @@
     "treats procedural-pathway mapping (Memoranda → MR → SC) as part of analytical closure"
   ],
   "one_paragraph_summary": "Panganiban strips the Bongbong Marcos COC case to its two main issues: did BB commit false material representations in his certificate of candidacy, and did his CA conviction involve moral turpitude? The Petition asserts YES on three grounds -- BB falsely represented eligibility, falsely denied past liability carrying perpetual disqualification, and was convicted of a moral-turpitude crime. Estelito P. Mendoza's Answer counters NO on all three. To strengthen Mendoza's pleading, the Federal Party filed an Answer-in-Intervention alleging that BB has paid the fine and deficiency income taxes from the October 31, 1997 CA decision. Citing OEC Sections 12, 74, and 78 plus Ty-Delgado v. HRET (January 26, 2016) -- which held that a candidate barred by final judgment who declares eligibility in his COC 'clearly makes a false material representation,' and that libel is a moral-turpitude crime -- Panganiban observes that at first sight the law favors the Petition because the CA conviction indirectly imposed perpetual disqualification. However, the accessory penalty under PD 1994 took effect only January 1, 1986 and cannot be retroactively applied to BB's 1982-1984 ITRs; it covers only the 1985 ITR (due April 15, 1986). If the Federal Party's allegation of payment is true, timely, and adequate, BB may be saved because Section 12 says the disqualification 'is deemed removed five years from service of the sentence,' and payment of the fine IS the service of the sentence -- meaning he did not make a false material representation. What remains is the moral-turpitude argument, which Section 12 would disqualify him on independently. In sum: if petitioners can show (i) BB's conviction involves moral turpitude AND the five-year prescription does not embrace moral turpitude, OR (ii) the alleged payment is false, inadequate, or ill-timed, the COC should be cancelled; if not, BB should continue his quest. He urges the Comelec Second Division to resolve this speedily through Memoranda -- reviewable by MR to the en banc and ultimately by the Supreme Court -- and closes by wondering how President Duterte views the case given Prof. Dante Gatmaytan's observation that Duterte is the only post-Edsa president who has never lost in the Court.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "criminal_trials_and_prosecutions"
+    ],
+    "secondary": [
+      "libel_and_cybercrime"
+    ]
+  }
 }

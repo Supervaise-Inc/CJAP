@@ -140,5 +140,9 @@
     "Frame the Constitution as enabling infrastructure for legitimacy of reform, not as a brake on progress"
   ],
   "one_paragraph_summary": "In Part 2 of his Konektadong Pinoy critique, Panganiban takes up three further constitutional defects. On infrastructure access, he argues that Sections 7, 12, and 13 -- requiring PTEs to grant access to registered DTIPs whenever 'necessary' to compete, and mandating a Reference Access Offer that eliminates negotiation -- radically depart from the global 'indispensability' test under the essential facilities doctrine (dominance, non-replicability, refusal eliminating competition), and risk regulatory taking under Article III, Section 9, citing Southern Luzon Drug Corp. v. DSWD (April 25, 2017) for the rule that substantial deprivation of beneficial use suffices. He also flags implied amendments to the Philippine Competition Act that violate Article VI, Section 26(1)'s one-subject-one-title rule. On delegation, Section 5(e)'s grant to DICT to define 'other segments' of digital infrastructure lacks sufficient standards under the nondelegation doctrine, and the redistribution of regulatory roles among DICT, the Department of Economy, Planning, and Development, the Philippine Competition Commission, and the traditional NTC produces vague lines of authority that risk delays, overlap, and diluted accountability. On private property, the transitory clause limiting legislative franchises to non-data services modifies franchise rights midstream and violates due process and the non-impairment of contracts, undermining investor confidence and long-term infrastructure planning. He closes -- as in Part 1 -- by reaffirming support for the KP's noble aims of access, competition, and innovation, but insists that reforms must remain within constitutional bounds because the Constitution is not a hindrance but the very structure through which reforms gain legitimacy.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [],
+    "secondary": []
+  }
 }

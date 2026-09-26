@@ -67,5 +67,11 @@
     "precautionary plus benefit-balancing on biotech"
   ],
   "one_paragraph_summary": "Appendix B reproduces Justice Leonardo A. Quisumbing's essay on genetically modified organisms and food products. He observes that biotechnology — a booming industry — outpaces the law, weighs the promise of GMOs for feeding a growing population against their risks, and touches on regulation and the patenting of life (Diamond v. Chakrabarty).",
-  "source_xlsx": "cjp_books_curated_normalized.xlsx"
+  "source_xlsx": "cjp_books_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "science_technology_and_the_law"
+    ],
+    "secondary": []
+  }
 }

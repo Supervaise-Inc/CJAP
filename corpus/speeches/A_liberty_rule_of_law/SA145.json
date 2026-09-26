@@ -147,5 +147,14 @@
     "stable-judiciary-as-development-prerequisite: UNDP/WB/ADB consensus on the nexus"
   ],
   "one_paragraph_summary": "Delivered October 18, 2006 as the keynote at the Global Forum on Liberty and Prosperity -- the most internationally comprehensive speech in the corpus, attended by 300+ jurists, lawyers, diplomats and civil society leaders from multiple countries; supported by UNDP, WB, ADB, CIDA, USAID/TAF, ABA and ROLE; WB President Wolfowitz and ADB President Kuroda sent video messages; US SC Justice Kennedy and Judge Wallace participated by video conference; French CJ Canivet and IBA President Pombo Garcia attended in person -- this address by CJP presents Liberty and Prosperity in global historical and theoretical context. He traces the liberty arc (Magna Carta → French Revolution → American Declaration → Filipino nationhood) and cites three Panganiban Court decisions (Senate v. Ermita, Bayan v. Ermita, David v. Arroyo) plus international cases (Hamdan v. Rumsfeld, Rasul v. Bush, Jameel v. Wall Street Journal, Spanish SC detention ruling, French Cour de Cassation). Three factors impel the prosperity mandate: (1) private philanthropy (Gates/Buffett/Soros), (2) Muhammad Yunus's Nobel Peace Prize announced October 14, 2006, and (3) UNDP/WB/ADB consensus that 'a stable judiciary is necessary for poverty reduction and economic growth' (WB's von Amsberg: 'there is no choice to be made between liberty and prosperity. Both are imperative paradigms in society.'). Philippine dual judicial standard: strict scrutiny for liberty; deferential interpretation for prosperity; the 'peculiarly Filipino' grave-abuse-of-discretion exception (tracing to the previous dictatorial regime). The governing political psychology claim: 'our people value their freedoms very dearly and will not exchange them for food. The Filipinos may endure occasional hunger, but they will never tolerate injustice and indignity for long.' He discusses economic development theories (Easterly's Elusive Quest, Bremmer's J Curve, the law-and-finance school) and closes: 'each country has its own history, experience, temperament, economics, culture and politics, which should determine how viable Liberty and Prosperity would be in its jurisdiction,' proposing a possible global foundation for Liberty and Prosperity with international awards.",
-  "source_xlsx": "cjp_speeches_curated_normalized.xlsx"
+  "source_xlsx": "cjp_speeches_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "foundation_for_liberty_and_prosperity"
+    ],
+    "secondary": [
+      "twin_beacons_doctrine",
+      "international_law_disputes"
+    ]
+  }
 }

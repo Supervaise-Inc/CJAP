@@ -122,7 +122,7 @@ def main() -> int:
     snap = compute_snapshot()
     SNAPSHOT_PATH.write_text(
         json.dumps(snap, ensure_ascii=config.JSON_ENSURE_ASCII, indent=2) + "\n",
-        encoding=config.OUTPUT_ENCODING)
+        encoding=config.OUTPUT_ENCODING, newline="\n")   # CE-10: LF (corpus_snapshot.json is LF in git), not the platform newline
     print(f"[snapshot] {SNAPSHOT_PATH.name}: {snap['header']['doc_id_count']} docs, "
           f"{len(snap['source_files'])} source files")
     for sf in snap["source_files"]:

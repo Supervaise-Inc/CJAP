@@ -157,5 +157,11 @@
     "the right to travel protects access to the facility, not the choice of vehicle or mode of travel"
   ],
   "one_paragraph_summary": "Chapter 32 of 'Liberty and Prosperity' digests Mirasol v. DPWH, the tollway-traffic case decided for the Court by Justice Antonio T. Carpio. Acting under Republic Act 2000, the Limited Access Highway Act of 1957, the DPWH had issued Department Order No. 215 in June 1998 declaring the Manila-Cavite (Coastal Road) Toll Expressway a limited-access facility, and petitioners sued in the Makati Regional Trial Court to nullify that order together with Administrative Order No. 1 of 1968, Department Order No. 74 of 1993 and the Revised Rules on Limited Access Facilities promulgated through the Toll Regulatory Board. After the trial court enjoined the total motorcycle ban in June 2001, the DPWH issued DO 123 admitting motorcycles of 400 cubic centimeters, and in 2003 the same court dismissed the petition while voiding DO 123 on equal-protection grounds. On appeal the Court partly granted the petition. It first held that the earlier injunction was a provisional remedy that merely served to preserve the status quo, an ancillary measure that Section 9 of Rule 58 required to be confirmed by a final injunction, so res judicata did not bar the dismissal. It then traced the old Department of Public Works and Communications through Presidential Decree 458, the 1973 renaming of departments as ministries, and Executive Orders 546 and 710, concluding that the authority to regulate limited-access highways devolved to the Department of Transportation and Communications; DO 74, DO 215, the TRB regulations and DO 123 were therefore void, and the equal-protection question was never reached. AO 1, however, had been issued in 1968 before the split, enjoyed the presumption of validity and merely set rules to ensure public safety and the uninhibited flow of traffic; the right to travel did not mean the right to choose any vehicle in traversing a tollway, there being no absolute right to drive. Justice Tinga, joined by three colleagues, dissented, tracing highway administration through the Bureau of Public Highways to the DPWH and urging deference to long-standing practice.",
-  "source_xlsx": "cjp_books_curated_normalized.xlsx"
+  "source_xlsx": "cjp_books_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "property_contracts_and_economic_rights"
+    ],
+    "secondary": []
+  }
 }

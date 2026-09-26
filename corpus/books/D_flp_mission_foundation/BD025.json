@@ -65,5 +65,11 @@
     "avoidance of ex parte contact"
   ],
   "one_paragraph_summary": "Chapter 5, 'Excellence and Ethics in Appellate Practice,' sets out the standards expected of appellate justices and advocates. CJP observes that justices — 'the gods of Padre Faura' — must be pure and appear pure, recounts his own practice of avoiding audiences, visitors, and calls about pending matters, and urges both bench and bar to combine excellence with unimpeachable ethics.",
-  "source_xlsx": "cjp_books_curated_normalized.xlsx"
+  "source_xlsx": "cjp_books_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "science_technology_and_the_law"
+    ],
+    "secondary": []
+  }
 }

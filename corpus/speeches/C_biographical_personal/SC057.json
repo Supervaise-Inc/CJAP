@@ -102,5 +102,13 @@
     "literary citation as argumentation: Samuel Ullman's poem as the theoretical framework for the anniversary tribute"
   ],
   "one_paragraph_summary": "Delivered May 7, 2017 at the Diamond (60th) Wedding Anniversary celebration of Major Leonardo and Dr. Venus Santos -- parents of Monsignor Gerry Santos, CJP's beloved 'Anak' -- this toast by CJP opens with the wedding-paradox observation: most parents grieve at losing a child to marriage, but they should rejoice at gaining a son-in-law or daughter-in-law. Applied in reverse to Msgr. Gerry's priestly vocation: when his mother was 'the first to say No,' CJP says he would have given the same advice -- not to refuse, but to rejoice, because instead of losing Msgr. Gerry they 'gained the Lord and the Christian community their illustrious son served -- you and me and all of us here in this ballroom numbering over 300 plus the countless parishioners, seminarians, students and other people he touched.' That rejoicing, CJP argues, is 'the reason why after 60 years of marriage, they are still amazingly young, happy and good-looking.' He extends the beauty tribute through a generational arc: Msgr. Gerry's father compared Doctora Venus to Joan Crawford and Paraluman; CJP doesn't know those stars but knows Marian Rivera, Kathryn Bernardo and Liza Soberano -- 'in the beauty league of Tita de Villa (who is with us today); in turn, all of them are as beautiful as Doctora Venus!' He quotes Samuel Ullman's 'Youth' poem as his theoretical anchor: 'Nobody grows old by merely living a number of years. People grow old only by deserting their ideals... You are as young as your faith, as old as your doubt; as young as your self-confidence, as old as your fears.' He closes with a personal tribute to Msgr. Gerry -- 'since then he has been to me the Peter... and the Shepherd extolled in the Gospel, throughout my legal, business and judicial career. He has been my teacher of faith and morals in my stint as a justice and chief justice' -- and a toast to another 60 years of marital bliss.",
-  "source_xlsx": "cjp_speeches_curated_normalized.xlsx"
+  "source_xlsx": "cjp_speeches_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "faith_journey"
+    ],
+    "secondary": [
+      "judiciary_milestones_and_tributes"
+    ]
+  }
 }

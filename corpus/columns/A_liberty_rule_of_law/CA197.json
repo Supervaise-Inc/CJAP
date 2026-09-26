@@ -134,5 +134,13 @@
     "applies arguendo-extension to test whether granting opposing claim still produces mootness"
   ],
   "one_paragraph_summary": "Panganiban updates readers on the June 29, 2016 election protest filed by former senator Bongbong Marcos against VP Leni Robredo in the Presidential Electoral Tribunal (PET). The protest raised three causes of action: first, that the Certificates of Canvass were 'not authentic' (dismissed August 29, 2017 for 'judicial economy'); second, massive frauds and irregularities in 25 provinces and 5 cities (~39,000 precincts), with three pilot provinces (Camarines Sur, Iloilo, Negros Oriental) selected to 'best exemplify' the anomalies; and third, annulment of all votes in Maguindanao, Lanao del Sur, and Basilan on grounds of terrorism, intimidation, harassment, and pre-shading. The Second Cause was effectively resolved by Justice Caguioa's report after the August 14, 2019 recount: Leni's lead 'even widened from 263,473 to 278,506' (by 15,033 more votes), and he recommended outright dismissal under PET Rule 65. But on October 15, 2019, the PET (11-2) deferred dismissal and required the parties to comment 'consistent with due process of law' -- and a new raffle on October 29 moved the member-in-charge role from Caguioa to Justice Leonen. The Third Cause requires evidence aliunde (not recount), and is subject to the Abayon v. HRET (May 3, 2016) three-condition test: (1) more than 50% of votes cast illegally, (2) impossibility of differentiating lawful from unlawful ballots, and (3) clear, convincing, and strong evidence that the protestee is accountable for the illegal acts -- conditions 'extremely difficult to prove,' with the protest not even alleging Leni's accountability. Bongbong claims that if the three provinces are annulled, the original 477,985-vs-169,160 result there flips to a 306,825 net advantage for him, overcoming Leni's 278,503 lead by 'a very narrow 30,332 votes.' Granting arguendo that the three conditions are proven, Leni's counter-protest involving 18 provinces (8,000 precincts) would still require the same recount route -- making the case academic by May 9, 2022. CJ's preferred pathway: because due process has already been observed (the parties submitted comments per the PET's October 19, 2019 resolution), the PET can apply Rule 65 and dismiss because, 'taking all circumstances into account, the protestant... failed to make out his case.'",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "elections_and_automated_voting"
+    ],
+    "secondary": [
+      "marcos_robredo_election_contest"
+    ]
+  }
 }

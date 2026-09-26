@@ -113,5 +113,13 @@
     "consequentialist comparison of remedies to advise petitioners on strategic posture"
   ],
   "one_paragraph_summary": "Panganiban draws the doctrinal line between two remedies for removing a candidate from an electoral race: disqualification under Section 12 of the Omnibus Election Code and cancellation (denial of due course) of the Certificate of Candidacy under Sections 78 and 74. The pending DQ cases against Bongbong Marcos turn on whether his Court of Appeals conviction for failure to file Income Tax Returns for 1982-1985 is a crime involving moral turpitude under Section 12. He cites Republic v. Marcos II (Aug. 4, 2009, SC Third Division), which distinguished three ITR-related violations -- false return, fraudulent return with intent to evade tax (both involving moral turpitude), and mere failure to file (which does not) -- and held that BBM's offense was not one of moral turpitude. He notes critics may rage against this 'cryptic' ratio but until reversed, modified, or downgraded to obiter by the en banc, it binds the Comelec. The remedies have very different consequences: a cancelled COC is void from the beginning, the votes cast for the erstwhile candidate are stray, and no substitution is allowed; a disqualified candidate, by contrast, can be substituted by another bearing the same surname and political party -- opening the door for a sister such as Imee Marcos to inherit the slot. Panganiban therefore counsels partisans that, if their real goal is to take the Marcoses out of the presidential race, pursuit of COC cancellation (Comelec en banc, then the Supreme Court) is the more potent path than disqualification -- which only rotates the Marcos name on the ballot.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "criminal_trials_and_prosecutions"
+    ],
+    "secondary": [
+      "ill_gotten_wealth_and_the_pcgg"
+    ]
+  }
 }

@@ -148,5 +148,11 @@
     "parties may not judge for themselves the nullity of their marriage; only courts may declare it"
   ],
   "one_paragraph_summary": "Chapter 24 of 'Transparency, Unanimity & Diversity' presents Mercado v. Tan, in which CJP's ponencia held that a judicial declaration of nullity of a previous marriage is necessary before another may be contracted, and that one who remarries without it commits bigamy. Vincent Paul G. Mercado married Thelma Oliva in 1976 and Consuelo Tan in 1991; Tan filed a bigamy complaint in October 1992, and only afterwards did Mercado sue to annul the first marriage for psychological incapacity, obtaining a decree in 1993. He argued before the Court that a void marriage is deemed never to have taken place, so there was no first marriage to speak of. CJP answered by first tracing what the Court itself had called conflicting jurisprudence: People v. Mendoza and People v. Aragon had acquitted on the theory that no declaration was needed, Vda. de Consuegra v. GSIS and Wiegel v. Sempio-Diy had stressed that one was, Tolentino v. Paras and Yap v. CA had gone the other way, and Domingo v. CA had declared that the Family Code settled the matter. Because Domingo was a civil case, he had to justify the requirement in a criminal prosecution, which he did by showing that Mendoza and Aragon rested on Section 29 of Act No. 3613, carried into Article 83 of the Civil Code and Article 41 of the Family Code, whereas Article 40 was a new provision expressly requiring a final judgment. That statutory mooring having been cast aside, remarriage without a decree exposes the party to conviction. Mercado's later decree was immaterial, since the crime was already consummated, and his position would encourage delay by letting accused persons invoke pending nullity suits as prejudicial questions. Justice Vitug urged a narrower reading limited to marriages that at least ostensibly occurred; CJP found the observation worth reflection but inapplicable. A postscript cites Bobis v. Bobis, decided almost the same day, holding such a civil action not a prejudicial question.",
-  "source_xlsx": "cjp_books_curated_normalized.xlsx"
+  "source_xlsx": "cjp_books_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "marriage_annulment_and_the_family_code"
+    ],
+    "secondary": []
+  }
 }

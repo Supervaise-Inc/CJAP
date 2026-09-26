@@ -117,5 +117,11 @@
     "Distinguish fitness-for-office (Nixon) from personal moral lapses (Clinton) in evaluating what warrants removal"
   ],
   "one_paragraph_summary": "Panganiban uses Nixon's 1974 resignation as the paradigm of choosing dignity over an impeachment trial, then draws the Clinton contrast to identify public trust as the decisive variable. When it became clear that only 15 of 100 senators backed him -- far below the 34 needed to avoid ouster -- Nixon did not filibuster or challenge the proceedings in the US Supreme Court. He submitted his one-sentence resignation letter ('I hereby resign as President of the United States') on August 9, 1974, followed by a live-TV Oval Office valedictory. President Ford's September 8, 1974 pardon was initially resisted but finally accepted; Nixon apologized 'no words can describe the depth of my regret.' Biographer Conrad Black observed he 'converted to a personal triumph what was intended to be an unprecedented humiliation.' After years of anguish, Nixon rehabilitated himself as an elder statesman; his 1994 death drew 50,000 mourners across a five-kilometer line. The Clinton-Nixon contrast is instructive: Clinton was retained because the people did not believe his sexual dalliance impaired his fitness to govern; Nixon was forced out because his repeated Watergate lies betrayed his fitness for office. The decisive factor is always the people's trust -- more political than legal.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "impeachment_accountability"
+    ],
+    "secondary": []
+  }
 }

@@ -138,5 +138,13 @@
     "Layer protections: even when employment status is unclear, expand SSS coverage as a baseline floor"
   ],
   "one_paragraph_summary": "On Labor Day, Panganiban shifts the conversation from organized labor's perennial demands for higher wages, security of tenure, lower prices, and the end of endo-contractualization to the unorganized self-employed workers of the gig economy -- musicians, dance instructors, online sellers, influencers, delivery drivers, seasonal workers, and construction laborers -- whose income spread runs from P1 million per taping day for movie stars to P500 per day for garbage collectors and canal diggers. He notes SSS President Jay de Claro's planned issuance of gig-worker coverage under RA 11199 and turns to legal protection more broadly. The 1987 Constitution's Article XIII, Section 3 instills a 'bias for labor' echoed in Article 4 of the Labor Code, which resolves doubts in favor of labor. Although gig workers are not directly covered by the Labor Code, Article 106 on labor-only contractors can indirectly reach them when the intermediary lacks substantial capital and the workers perform tasks directly related to the principal's business. He illustrates the line with two driver hypotheticals: a freelance driver given a company vehicle and working under company control is a regular employee, while a Grab driver who owns or leases his vehicle and merely uses the app is an independent contractor. He then enumerates the Supreme Court's five criteria for determining when occasional workers qualify as regular employees -- the presumption of regular status absent specific project elements, the attachment of security of tenure, the ripening of project employment into regular status through continuous rehiring of workers performing indispensable tasks, the no-work-no-pay rule moderated by management prerogatives, and the indicative-only character of DOLE termination-report submissions. He closes with a call for Congress to enact legislation specifically for the gig economy because the Labor Code was written before the digital age and does not directly cover these workers.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "foundation_for_liberty_and_prosperity"
+    ],
+    "secondary": [
+      "property_contracts_and_economic_rights"
+    ]
+  }
 }

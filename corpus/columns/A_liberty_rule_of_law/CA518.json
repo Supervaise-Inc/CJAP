@@ -115,5 +115,11 @@
     "frames moral-correction of legal language as a normative preliminary before doctrinal analysis"
   ],
   "one_paragraph_summary": "Using the Ramgen Bautista murder case -- allegedly masterminded by siblings RJ and Ramona, with money rifts over the ailing Sen. Revilla Sr.'s unequal allowance distribution as the theorized motive -- as his entry point, Panganiban surveys the legal rights of illegitimate children under Philippine law. He opens with his personal moral position: 'there are really no illegitimate children; there are only illegitimate fathers and mothers' who beget offspring outside valid marriage. Under the Civil Code and Family Code, illegitimate children use the mother's surname by default, but the 2004 Revilla Law (RA 9255 -- authored by the senator himself) allows use of the father's surname through express (not implied) recognition in a signed birth certificate, notarized document, or written instrument. Once expressly recognized, illegitimate children gain support rights (sustenance, dwelling, clothing, medical care, education extending beyond majority, transportation -- proportional to the giver's means and the recipient's needs), and siblings of any filiation must support each other under the Family Code. On succession, recognized illegitimate children are compulsory heirs entitled to a legitime equivalent to one-half of what a legitimate child receives -- they cannot be disinherited from their legitime. Adopted and legitimated children (whose parents had no legal impediment to marry at the time of their conception) enjoy the same rights as legitimate children.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "marriage_annulment_and_the_family_code"
+    ],
+    "secondary": []
+  }
 }

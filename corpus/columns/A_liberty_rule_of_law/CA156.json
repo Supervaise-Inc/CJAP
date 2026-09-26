@@ -185,5 +185,13 @@
     "preserves the agree-with-administrative-leads / disagree-with-quasi-judicial-record distinction"
   ],
   "one_paragraph_summary": "CJ has long admired George Erwin Garcia as an election lawyer of competence, integrity, and dignity -- and cheered his ascension as Comelec chair -- but Garcia has now led the Comelec into 'not just simple errors but grave abuse of discretion (GAD)' multiple times. In Smartmatic v Comelec (April 16, 2024, J Marquez, en banc, 15-0), the Court reversed the Comelec for disqualifying Smartmatic based merely on US DOJ information about an ongoing criminal investigation into former Comelec Chair Juan Andres D. Bautista -- a violation of Comelec's own rules and Smartmatic's due-process rights. CJ does not favor Smartmatic in any way, but believes 'due process and the rule of law must always be observed in our democracy.' The Court applied the operative-fact doctrine prospectively to preserve the Comelec's Miru-Systems award and avoid 2025-election infeasibility, while lecturing Comelec on proper future procedure. In De Guzman-Lara v Comelec (Aug 6, 2024, J Lopez, en banc, 13-0-2), the Court taught the poll body that 'a day is composed of 24 hours' and that an email petition received before midnight is timely -- 'institutions with vast innovative resources such as the Comelec' should be able to access pleadings filed beyond office hours. In Macalintal v Comelec, the Court issued an ex parte TRO against Comelec's resolution allowing public appointive party-list nominees to remain in office for about two months until automatic resignation at the start of the campaign period -- an abhorrent practice already thrashed in Quinto v Comelec (Feb 22, 2010, CJ Puno, en banc) holding that all appointive officials are deemed resigned upon COC filing, which 'as a seasoned election lawyer, Garcia should have known.' CJ agrees with Garcia's two recent administrative leads -- calling for an amendment to the party-list law (the SC having 'opened the flood gates to the dynasts, the powerful and the rich') and publishing all COCs online for public scrutiny -- but still asks 'quo vadis, Chair Garcia,' hoping he will redeem himself in quasi-judicial matters by sticking to his election-law expertise. 'One chastisement for committing GAD may be acceptable, but multiple times? Quite painful for a lawyer of his caliber and stature. In the next case, I hope to cheer his rise.'",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "elections_and_automated_voting"
+    ],
+    "secondary": [
+      "party_list_charter_change_and_dynasties"
+    ]
+  }
 }

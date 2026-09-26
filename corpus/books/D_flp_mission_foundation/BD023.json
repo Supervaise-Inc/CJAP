@@ -68,5 +68,13 @@
     "vision-and-mission (Davide Watch)"
   ],
   "one_paragraph_summary": "Chapter 3, 'A Primer on the APJR,' summarizes the judiciary's Action Program for Judicial Reform 2001-2006 — the concrete response, founded on Chief Justice Hilario Davide Jr.'s 'Davide Watch' vision, to make the courts efficient, trustworthy, and accountable. CJP reprints the program's Executive Summary and outlines its reform components: judicial education, capacity building, appointments, remuneration, organizational culture, and public information.",
-  "source_xlsx": "cjp_books_curated_normalized.xlsx"
+  "source_xlsx": "cjp_books_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "judicial_reform"
+    ],
+    "secondary": [
+      "science_technology_and_the_law"
+    ]
+  }
 }

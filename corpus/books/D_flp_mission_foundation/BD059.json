@@ -174,5 +174,11 @@
     "ACID as the diagnostic frame for judicial reform: access, corruption, incompetence, delay"
   ],
   "one_paragraph_summary": "Chapter 3 of 'Liberty and Prosperity' is CJP's Philconsa Constitution Day address, delivered soon after he took his oath on December 21, 2005 at 2:56 p.m. as the 21st Chief Justice, the first sworn in during the 21st century. He organized the speech around the Chief Justice's two roles. As primus inter pares he presides over en banc sessions, shapes the agenda, opens discussion and summarizes arguments, yet holds only one vote, and even Chief Justices from Arellano to Davide have found themselves in the minority. Pointing to published reports, the Court's e-library and the ten books he wrote over ten years, he summarized his judicial philosophy in a sentence: to safeguard the liberty and nurture the prosperity of the people while upholding the rule of law and the independence of the judiciary. On liberty he stressed that the 1987 Constitution protects social justice, labor, women, indigenous communities and human rights, invoked his own ruling in Ang Bagong Bayani that those who have less in life should have more in law, and traced a line of free-expression cases -- ABS-CBN, Social Weather Stations, and United States v. Bustos -- in which the Court leans in favor of freedom. On prosperity he urged deference to the political branches, citing Tañada v. Angara and La Bugal-B'laan, while reserving the power to strike down acts that clearly violate the Constitution or are arbitrary. Turning to his second role as leader of some 2,000 judges and 26,000 personnel, he set out the four Ins -- integrity, independence, intelligence and industry -- describing independence as freedom from kinship, relationship, friendship and fellowship, and declaring that the judiciary's might is in its being right. He named ACID as his reform agenda, reported the international standing won by the Action Program for Judicial Reform, and closed by answering doubts about his short term with the statues of Arellano and Abad Santos.",
-  "source_xlsx": "cjp_books_curated_normalized.xlsx"
+  "source_xlsx": "cjp_books_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "judicial_reform"
+    ],
+    "secondary": []
+  }
 }

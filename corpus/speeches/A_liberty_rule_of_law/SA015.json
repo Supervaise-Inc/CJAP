@@ -138,5 +138,14 @@
     "structures FLP reporting in dyadic form (liberty programs + prosperity programs) to enact the twin-beacons philosophy"
   ],
   "one_paragraph_summary": "Delivered as Panganiban's valedictory at the ALA General Assembly in Kuala Lumpur on October 17, 2023, this address combines four moves: (1) introducing the 50-member Philippine delegation, including CJ Alexander G. Gesmundo and seven other Supreme Court justices (a majority of the 15-member Court), and announcing his handover of ALA Philippines chairmanship to CJ Gesmundo effective January 1, 2024; (2) thanking Malaysian host CJ Tun Tengku Maimun binti Tuan Mat and acknowledging ALA President CJ Sundaresh Menon for honoring his late wife Leni (d. April 9, 2023) with a minute of silence at the Opening Ceremony; (3) declaring ASEAN's 40-year history of consensus and rule of law as the only sustainable method of regional governance -- explicitly rejecting 'gray tactics,' military force, mob rule, propaganda, and nuclear weapons, and affirming faith in the UN, ICJ, WTO Appellate Body, and the Permanent Court of Arbitration; and (4) reporting FLP's scoreboard (83 law scholarships, 16 professorial chairs, 27 dissertation winners, 10 ESMEL fellowships) and announcing FLP's two ultimate projects -- the Center for Liberty and Prosperity with an AI-powered museum, and a multi-billion-peso Prosperity Fund -- which he hopes to complete 'before I leave this earth.'",
-  "source_xlsx": "cjp_speeches_curated_normalized.xlsx"
+  "source_xlsx": "cjp_speeches_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "international_law_disputes"
+    ],
+    "secondary": [
+      "science_technology_and_the_law",
+      "asean_law_association"
+    ]
+  }
 }

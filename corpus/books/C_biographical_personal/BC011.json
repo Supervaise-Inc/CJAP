@@ -138,5 +138,13 @@
     "Modest-in-volume-not-in-quality readerly economy -- value of a curated, restrained collection"
   ],
   "one_paragraph_summary": "Chief Justice Andres R. Narvasa's Foreword to 'Justice and Faith' frames the book around CJP's own self-chosen title -- the 'twin beacons that have guided the professional and personal life of Mr. Justice Artemio Panganiban': Justice and Faith. The collection, Narvasa writes, is 'modest in volume though not in quality' but suffices to give the serious reader insight into that twin-beacon thesis. He singles out as 'particularly impressive' the chapter in which CJP acknowledges with 'frankness and humility' his 'much-cherished ambition for a seat in the High Court' and the 'long and difficult road to its fulfillment'; that culmination, when it came, CJP celebrated with 'exemplary industry' -- 'no less than 230 ponencias in the two years following his elevation,' by his own reckoning. Narvasa commends two chapters in particular as 'absorbing reading' that should 'prove useful to those who aspire for the profession': CJP's account of how he developed his decision-writing style, and his advice to would-be lawyers. The Foreword also notes that CJP 'does not forget the sitting judge' -- expounding the 'mental skills and disciplines' a judge should possess in 'seeking out crucial issues, analyzing the evidence and arguments, determining the applicable law and, finally, expressing his conclusions in clear, precise and logical manner' -- 'pithy advice that judges would do well to follow.' Narvasa closes with the compliment that 'the book leaves the reader looking for more in the same vein' and the hope that 'the author will not disappoint him.'",
-  "source_xlsx": "cjp_books_curated_normalized.xlsx"
+  "source_xlsx": "cjp_books_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "twin_beacons_doctrine"
+    ],
+    "secondary": [
+      "how_the_supreme_court_decides"
+    ]
+  }
 }

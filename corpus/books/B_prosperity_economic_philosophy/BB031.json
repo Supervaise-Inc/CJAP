@@ -187,5 +187,13 @@
     "the balancing job description: safeguarding food and freedom, jobs and justice, development and democracy, prosperity and peace"
   ],
   "one_paragraph_summary": "Chapter 8 of 'Judicial Renaissance' reproduces the keynote address Justice Panganiban delivered at an Asian Development Bank symposium on judicial reforms, on the theme of enhancing the effectiveness and accountability of the judiciary. He began by recalling the 9th Conference of Chief Justices in Christchurch in October 2001, where UN and World Bank speakers praised the Philippine Supreme Court, and listed the endorsements that followed: the World Bank posting the Action Program for Judicial Reform on its website as a model, assistance from USAID, CIDA and AusAID, advanced negotiations for a Japanese grant to build the Philippine Judicial Academy complex in Tagaytay, a 2.3-million-euro European Union grant for Access to Justice for the Poor, and ADB TA No. 3693-PHI on strengthening independence and defining accountability. He described the highest court of the past as a fortress, a Mount Olympus whose gods were unapproachable, and argued that transparency requirements of the Constitution, the Ethical Standards Law and the judicial conduct codes, together with the information revolution and a persistent media, had partly opened its doors -- a development he accepted, since people no longer accept doctrines they do not understand. Answering ADB General Counsel Arthur M. Mitchell's invitation to show how an accountable judiciary reduces poverty, he made a three-tier case: the 1987 Constitution is pro-poor, pro-labor and pro-human rights and guarantees legal assistance that shall not be denied by reason of poverty; Congress has passed implementing laws on arrest rights, domestic violence, child protection, barangay dispute settlement, housing, agriculture and labor; and the Court itself exempts indigents from fees, grants free counsel, works with the IBP and FLAG, and authorized the Shari'ah Appellate Court. He cited his own ponencia in Ang Bagong Bayani reserving the party-list system for the marginalized, the labor line running from Calalang v. Williams through eight settled doctrines, human-rights safeguards in criminal procedure, and strict death-penalty review culminating in People v. Mateo, noting his own opinion that the death penalty was unconstitutional. Conceding criticism from businessmen and a foreign diplomat, he insisted the social justice orientation must remain, lest the marginalized take the law into their own hands, and closed by quoting his book 'Leveling the Playing Field' on the Court safeguarding not only food but also freedom.",
-  "source_xlsx": "cjp_books_curated_normalized.xlsx"
+  "source_xlsx": "cjp_books_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "judicial_reform"
+    ],
+    "secondary": [
+      "death_penalty_and_echegaray"
+    ]
+  }
 }

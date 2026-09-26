@@ -117,5 +117,11 @@
     "voter-patience as a safeguard against disenfranchisement"
   ],
   "one_paragraph_summary": "Chapter 5 of 'With Due Respect' (Vol. 6), CJP's May 2, 2010 Inquirer column written eight days before the polls, lays out how to prevent a 'no-proc' (no-proclamation) gridlock that could trigger a GMA holdover 'or worse, a military power grab.' He frames the stakes: this was the world's first leap 'from full manual to full automated count nationwide in just one jump,' with a 28-inch, back-to-back ballot ('a sure entry in the Guinness Book of Records'), under a Comelec given under a year and 'neither... efficient nor careful' -- so scattered glitches could block proclamation 'when the lead of the leading candidate... would be less than the number of uncounted ballots.' His six measures: first, let the presidential victor 'win overwhelmingly,' so a lead exceeding the 'glitched' votes makes proclamation 'inevitable' -- vote for the candidate 'with the best chances... even if he (or she) may not be our first choice,' since 'a huge landslide will also wipe out the effects of cheating'; second, elect a VP decisively as a fallback acting president; third, elect enough senators to let the 12 holdover senators 'form a quorum to elect a new Senate president,' foiling the theory that the Senate is no longer 'continuing'; fourth, have SWS and Pulse Asia release exit polls immediately (constitutional under ABS-CBN Broadcasting v. Comelec) to deter manipulation; fifth, deploy watchdogs, since automation 'will not stop guns, goons, and gold'; and sixth, guard against 'massive disenfranchisement' by waiting out the long queues (clustered precincts now packing 'as many as 1,000 electors') and machine failures. Above all, he reframes the vote as 'not just a personal contest... [but] a battle for democracy,' since 'more important than the election of any particular candidate is the triumph of democracy over the dark forces of status quo' -- 'our sacrifice for democracy.'",
-  "source_xlsx": "cjp_books_curated_normalized.xlsx"
+  "source_xlsx": "cjp_books_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "elections_and_automated_voting"
+    ],
+    "secondary": []
+  }
 }

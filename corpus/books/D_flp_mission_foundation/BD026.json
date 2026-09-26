@@ -60,5 +60,11 @@
     "exemplar-of-judicial-virtue"
   ],
   "one_paragraph_summary": "Chapter 6, 'Veracious and Venerable Magistrate,' is CJP's opening remarks honoring the retirement of Justice Vicente V. Mendoza. He welcomes guests to the newly refurbished Supreme Court Session Hall (reopened April 1, 2003) — part of Mendoza's legacy — and pays tribute to the honoree as an exemplar of the veracity and venerability the magistracy demands.",
-  "source_xlsx": "cjp_books_curated_normalized.xlsx"
+  "source_xlsx": "cjp_books_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "science_technology_and_the_law"
+    ],
+    "secondary": []
+  }
 }

@@ -138,5 +138,11 @@
     "closes with academic-referral as next-step learning path for serious readers"
   ],
   "one_paragraph_summary": "Panganiban introduces the 'right to be forgotten' -- also called 'the right to have an imperfect past' -- as the doctrine, announced by the Court of Justice of the European Union in Google Spain SL v. Agencia Española de Protección de Datos (2014), that allows individuals to compel search engines like Google to de-index 'inadequate, irrelevant or excessive' personal data. He addresses head-on whether a ruling by a foreign tribunal is enforceable in the Philippines and answers 'Yes,' arguing that the right substantially predates the European ruling: Justice Louis Brandeis recognized it as 'the right to be left alone' in his 1928 Olmstead v. United States dissent, and the Philippine Supreme Court declared 'the right to privacy' as 'fully deserving of constitutional protection' in Morfe v. Mutuc (1968). He argues the Philippines is in fact more advanced in safeguarding personal information than commonly assumed -- the Supreme Court promulgated the writ of habeas data on January 22, 2008 (issued as recently as May 3 for the National Union of Peoples' Lawyers against the military), and Congress enacted the Data Privacy Act in 2012. He distinguishes ordinary 'personal information' (any data identifying a natural person; corporations excluded) from 'sensitive personal information' -- race, ethnicity, marital status, age, color, religion, philosophy, politics, health, education, genetic or sexual life, criminal proceedings, government-issued identifiers, and classified material -- which receives heavier penalties. He closes by enumerating the National Privacy Commission's five obligations on all data-processing firms (data processing officer, privacy impact assessment, robust infrastructure, operationalized policies, breach protocols) and refers serious readers to Dr. Ivy D. Patdu and Jamael A. Jacob's article in the Ateneo Law Journal Vol. 63 No. 1, edited by Angelo Francesco F. Herbosa, for implementation detail.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "science_technology_and_the_law"
+    ],
+    "secondary": []
+  }
 }

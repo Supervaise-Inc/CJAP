@@ -169,5 +169,13 @@
     "reform measured by access, speed, transparency and predictability"
   ],
   "one_paragraph_summary": "Chapter 6 of 'Leveling the Playing Field' is CJP's compilation of the questions and answers from the Supreme Court's 'Chamber-to-Chamber' Dialogues with the business community, prefaced by his own framing essay. He acknowledged that business leaders had long accused judges of dampening business by deciding economic issues over which they had no expertise, and conceded that deregulation, privatization, globalization, devaluation, oil taxation and whether to build an airport or reclaim Manila Bay were questions for policymakers. But when officials violated the Constitution or gravely abused their discretion, he wrote, the judiciary was duty-bound to step in; judicial decisions might affect the economy, yet the courts decided constitutional and legal rather than economic questions and merely championed the rule of law. The Dialogues, assisted by a grant from The Asia Foundation, were held in eleven key areas and in special sessions for ECOP, the LMCP and the Bangko Sentral's Investor Services Unit, with answers given in non-legal language by a panel of justices and court administrators. The compiled answers covered the 710 vacancies among 2,214 judicial positions as of December 2003 and their causes in low pay and the three-nominee rule; the JBC-and-President appointment process and PhilJA's pre-judicature program; constitutional periods for deciding cases and remedies for delay through alternative dispute resolution, a new ADR office, and a piloted two-judge system; mediation's 81 percent pilot success rate and the DOJ's 93 percent; computerized case-flow management, transcription and legal research; courthouse funding, model courthouses and proposed mobile courts; discipline of lawyers through the IBP and of judges through monthly reports and OCA investigation; and jurisdictional questions on the ARMM, labor cases, DARAB appeals, jails, tribal justice and commercial courts. On contracts he reported that only about 2 percent are voided, that the mega-contracts fell on the principle of leveling the playing field, and that entrepreneurs should consult counsel early, avoid shortcuts and never bribe judges.",
-  "source_xlsx": "cjp_books_curated_normalized.xlsx"
+  "source_xlsx": "cjp_books_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "elections_and_automated_voting"
+    ],
+    "secondary": [
+      "judicial_reform"
+    ]
+  }
 }

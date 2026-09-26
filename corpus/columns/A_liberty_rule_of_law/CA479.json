@@ -118,5 +118,11 @@
     "deploys 8-7 slim margin in Banat to show how precarious the major-parties exclusion has become"
   ],
   "one_paragraph_summary": "Panganiban takes up the first major party-list question -- who qualifies -- by reviewing Ang Bagong Bayani v. Comelec (June 26, 2001, 9-5), which he wrote as ponente. The decision held that party-lists must factually and truly represent marginalized and underrepresented constituencies, and their nominees must belong to marginalized sectors -- major political parties excluded because they represent the political mainstream. CJ quotes his own decision: 'those who have less in life should have more in law... It gives the great masses of our people genuine hope and genuine power. It is a message to the destitute and the prejudiced, and even to those in the underground, that change is possible.' Despite this crystal-clear language, the Comelec has been 'inconsistent, sometimes defiant' -- illustrated by the 2010 Maza v. Arroyo ruling upholding Mikey Arroyo as Ang Galing Pinoy's nominee despite his not being marginalized. The Brillantes-led Comelec has now re-enforced the guidelines, disqualifying Ang Galing Pinoy for 2013 -- but cannot dislodge incumbents for lack of jurisdiction. The slim 8-7 Banat vote affirming the ban on major parties shows how precarious the doctrine is. The real solution remains congressional legislation: despite Congress having 20% party-list membership, it has done nothing. CJ closes with congratulations to St. Pedro Calungsod, Cardinal Tagle ('he could be the first Filipino Pope!'), and BPI's Montinola.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "party_list_charter_change_and_dynasties"
+    ],
+    "secondary": []
+  }
 }

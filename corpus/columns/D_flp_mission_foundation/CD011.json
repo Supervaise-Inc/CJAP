@@ -146,5 +146,13 @@
     "Shared prosperity and poverty alleviation under the rule of law as equitable-socioeconomic-progress framework"
   ],
   "one_paragraph_summary": "On AIM's 58th anniversary, Panganiban celebrates its evolution from traditional business education to online classes, undergraduate programs, sustainability focus, and AI responsibility. He honors founding chairman Washington SyCip, recounts his own role in proposing the Master's in International Business Law program (launched in 2024 and inspired by his grandson Mig Sandejas's email about how legal knowledge rounds out business thinking), and praises current president Dr. Jikyeong Kang for expanding offerings from three to 15 degree programs and launching the first Philippine transnational double-degree program with the University of Houston. He recounts AIM's tribute to his late wife Leni -- first female professor for 37 years, who passed April 9 2023 -- by naming a case room after her and rededicating the chapel she helped build as the 'Chapel of the Immaculate Conception In Loving Memory of Professor Leni Panganiban,' with daughter Tet Mañalac continuing the Panganiban professorial line. He closes affirming FLP's philosophy that people need both liberty and prosperity under the rule of law.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "foundation_for_liberty_and_prosperity"
+    ],
+    "secondary": [
+      "science_technology_and_the_law"
+    ]
+  }
 }

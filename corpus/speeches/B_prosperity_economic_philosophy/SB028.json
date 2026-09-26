@@ -155,5 +155,14 @@
     "professional-elevation argument: accountants as purveyors of liberty and prosperity through TATS, not merely processors of numbers"
   ],
   "one_paragraph_summary": "Delivered July 3, 2021 as the keynote and induction address at PICPA's national conference, this speech by CJP -- who opens by humorously questioning why Dolly Miguel invited 'not a CPA, not even a commerce or business administration graduate' to be their inducting officer -- makes the case that CPAs, CFOs and CEOs are directly relevant to the philosophy of liberty and prosperity under the rule of law through the four TATS values: Transparency, Accountability, Truth and Sustainability. He first establishes the relationship with incoming PICPA President Dolly Miguel through their shared PLDT, MPIC, Meralco and GMA7 experience -- she as SGV partner-in-charge of external audits, he as Audit Committee chairman -- noting the multi-jurisdictional complexity of auditing PLDT (NYSE-listed, HK-listed parent, Philippine regulations) and Dolly's consistent performance under intense grilling. His L&P thesis is anchored in MLK ('If a man does not have a job or an income, he has neither life nor liberty nor the possibility for the pursuit of happiness') -- quoted not for his nationality but because 'truth is eternal and limitless; truth is not bound by sovereignty, or territory, or ideology.' He proves the entrepreneurship-prosperity link through three natural experiments: the US (pioneers unleashing Edison, Ford, Gates, Jobs, Bezos, contained by good governance); China (Deng Xiaoping's One-Country-Two-Systems unlocking Jack Ma and others); and the Korea comparison (South's private-initiative prosperity vs. North's poverty from tight grip on freedom). He then argues that different nations can sequence liberty and prosperity differently but must eventually achieve both in equal measure. TATS values, he concludes, make accountants 'images and collaborators of Martin Luther King, of Confucius and his fisherman, of Thomas Edison, of J.P. Morgan, of Franklin Delano Roosevelt, of Steve Jobs and even of Deng Xiaoping and Jack Ma.' He closes with FLP's three first-decade programs (20 law scholarships, dissertation contests, 17 professorial chairs) and announces the second-decade ESMEL expansion -- including a proposed AIM MBA major in Legal Management welcomed by AIM President Jikyeong Kang.",
-  "source_xlsx": "cjp_speeches_curated_normalized.xlsx"
+  "source_xlsx": "cjp_speeches_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "foundation_for_liberty_and_prosperity"
+    ],
+    "secondary": [
+      "twin_beacons_doctrine",
+      "life_story_family_school_and_church"
+    ]
+  }
 }

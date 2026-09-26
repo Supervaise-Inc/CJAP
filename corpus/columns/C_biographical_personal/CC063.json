@@ -138,5 +138,11 @@
     "frames collegial-decision-writing as procedural alternative worth considering"
   ],
   "one_paragraph_summary": "Panganiban recounts a private DFA-hosted lunch in honor of visiting ICJ Judge Yuji Iwasawa -- arranged by Usec Eduardo Malaya and Ambassador Jaime Victor Ledda -- during which the 'softspoken jurist' explained how the International Court of Justice reaches and writes its decisions. Unlike the Philippine and US Supreme Courts, the ICJ does not assign a single ponente; after oral arguments and written briefs or memorials, the 15 judges deliberate and vote en banc (5-judge panels are possible at the parties' request), elect a committee to draft the decision collegially, then discuss, scrutinize, correct, and vote on the draft part by part, with dissenters writing under their own names. Ad hoc judges of any nationality may be chosen when a litigant lacks an ICJ judge of its nationality -- making 16-judge benches possible. Iwasawa attributed near-universal voluntary compliance with ICJ judgments to the UN Charter's requirement of state-party consent to jurisdiction; the singular exception was the June 27, 1986 Nicaragua v. United States decision (the US vetoed Security Council compliance and ignored a General Assembly resolution) which was 'in the end... settled peacefully through diplomacy and negotiation.' CJ Panganiban then draws his own structural distinction: the ICJ is a permanent court whose nine-year-term judges form international law and judicial precedents, while the ad hoc arbitral tribunal that recognized Philippine maritime entitlements was created to decide one case, was disbanded after rendering its award, and its award 'is not a part of international law'; the Permanent Court of Arbitration (PCA), which served as the tribunal's 'Registry,' is not a court but 'the rough equivalent of our Office of the Clerk of Court.' Iwasawa thanked CJ Panganiban, retired CJ Reynato S. Puno, and retired Justice Jose C. Vitug -- the four Filipino PCA members along with ICC Judge Raul C. Pangalangan -- for nominating him to succeed Hisashi Owada, who retired after his daughter became Empress of Japan. His PH activities included the ASIL Conference (chaired by Harry Roque, with Elizabeth Pangalangan as PH chapter chair) and a Philippine Judicial Academy lecture.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "international_law_disputes"
+    ],
+    "secondary": []
+  }
 }

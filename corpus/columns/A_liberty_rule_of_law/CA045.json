@@ -157,5 +157,13 @@
     "Recognize the difference between a petition for legislation (likely path to law) and a petition for direct disqualification (likely path to dismissal)"
   ],
   "one_paragraph_summary": "Panganiban reports that the Supreme Court has consolidated three anti-political-dynasty petitions -- by the 1Sambayan coalition led by retired SAJ Antonio T. Carpio, the Kapatiran party, and Wilfredo Trinidad -- and required the Senate and House to comment within a non-extendible 10 days. He lays out the petitioners' textualist reading of Article II, Section 26: the word 'shall' after 'State' and the comma between 'service' and 'and' make the duty to prohibit political dynasties ineluctably mandatory, and the phrase 'as may be defined by law' underscores rather than weakens Congress's obligation to define the prohibition's scope. The petitioners invoke the judiciary's solemn duty under the GAD clause -- citing his own Tanada v. Angara (May 2, 1997) -- to strike down whimsical, arbitrary, capricious, and despotic exercises of judgment that amount to a refusal to perform a positive constitutional duty. Pending bills from Sen. Robinhood Padilla and senatorial candidates Lacson, Aquino, and Pangilinan complicate the GAD showing. Author explicitly recuses himself from arguing for or against the petition, both as an opinion writer at risk of contempt and as the incumbent president of the Association of Retired Justices, of which Carpio is a member, but he raises two residual questions if petitioners prevail: how much time should Congress be given (petitioners suggest one year), and how the Court can grant relief while still respecting Congress's discretion to define scope and parameters. He flags as 'more difficult, if not quixotic' the Anim petition before the Comelec to disqualify five publicly dynastic candidates -- former President Rodrigo Duterte (Davao mayor), Matthew Manotoc (Ilocos Norte governor), Peter Cua (Catanduanes governor), Speaker Martin Romualdez (Leyte 1st district), and Sen. Cynthia Villar (Las Piñas representative) -- based on a commonsense first-degree-relative definition; the Comelec promptly denied it and Anim has elevated the matter to the Supreme Court.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "elections_and_automated_voting"
+    ],
+    "secondary": [
+      "party_list_charter_change_and_dynasties"
+    ]
+  }
 }

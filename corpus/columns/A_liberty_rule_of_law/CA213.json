@@ -159,5 +159,11 @@
     "elevates merit-acquittal over hermeneutical-acquittal as moral ideal"
   ],
   "one_paragraph_summary": "Panganiban reads the Maria Ressa cyberlibel conviction in search of legal and honorable ways to show that Ressa and Reynaldo Santos Jr. were innocent of defamation -- and regrets that he found none. The only viable defenses, he concludes, are republication (the May 29, 2012 original publication was not alleged or proven in the Information, and the February 19, 2014 republication should not be a separate source of conviction) and prescription (cyberlibel as a new form of libel should retain libel's one-year prescription rather than the 15-year period the Supreme Court announced in Tolentino v. People, August 6, 2018). Both, like the rescue mission in 'Saving Private Ryan,' can be risky and costly and at best yield a barren rather than triumphant acquittal, because they do not deny the crime, only its punishability. He argues forcefully that Ressa and Santos should have testified to widen the crack in the prosecution's armor on Wilfredo Keng's status as a public figure, prove their lack of actual malice, or show good faith protection of public interest -- and reminds readers that 'judges decide cases only from the evidence vetted in court, not from street parliaments and media utterances.' If the accused appeal, he urges direct appeal to the Supreme Court en banc -- the only forum that can reverse Tolentino -- and hopes the justices will veer toward the sociological school of jurisprudence to restore the one-year libel prescription, because society is better served when cases are prosecuted speedily. He closes with his characteristic institutional credo that independent judiciaries and independent media are natural partners in safeguarding truth, fairness, and accountability -- 'one from the silence of the peaks and the other from the blare of the valley' -- and a final caution: 'The best acquittal is a judgment that the accused did not commit any crime.'",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "libel_and_cybercrime"
+    ],
+    "secondary": []
+  }
 }

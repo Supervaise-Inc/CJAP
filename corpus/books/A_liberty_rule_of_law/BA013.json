@@ -121,5 +121,11 @@
     "courts-lead, legislature-follows on protecting fair criticism"
   ],
   "one_paragraph_summary": "Chapter 4 of 'With Due Respect' (Vol. 4), CJP's April 27, 2008 Inquirer column, weighs the pending bills to decriminalize libel -- either abolishing it as a crime or replacing imprisonment with fines. He presents retired Justice Vicente Mendoza's Senate testimony against outright decriminalization: free speech 'can and has been used as a calumny... to destroy the reputation' of others, and 'the right to one's honor is oftentimes more valuable than the right to property,' since a defamed reputation is 'more difficult to restore than stolen goods.' Yet CJP balances this against abuse from the other side -- 'the powerful and the rich' who file libel suits in 'inconvenient venues' with 'odious lawyers' to harass penniless journalists, some of whom suffer 'disappearances and extralegal killings.' Mendoza's middle way, which CJP favors, is to distinguish 'political' from 'private' libel: criticism of public officials for their official conduct would be 'privileged' and presumed in good faith, so a writer could be convicted only on proof of 'actual malice' (the imputation false and known to be false), while ordinary protection would remain for private individuals. The Senate was split -- Sen. Gordon backed the distinction; Sens. Enrile and Joker Arroyo had 'reservations' since 'the law is already lenient on media.' The proposal, CJP notes, tracks Vasquez v. Court of Appeals (1999), which made truth a complete defense and required proof of 'actual malice' for statements on official conduct, reversing older jurisprudence. And even before Congress acts, the Court had already moved: Administrative Circular 08-2008 declared a 'rule of preference for... fine only rather than imprisonment,' applied in Fermin v. People (2008), where Justice Nachura's ruling fined 'Gossip Tabloid' publisher Cristy Fermin just P6,000 'in lieu of imprisonment' for libel against Annabelle Rama and Eddie Gutierrez -- part of the judiciary's care, CJP writes, to 'encourage fair criticism especially of public officials, and to protect journalists from harassment.'",
-  "source_xlsx": "cjp_books_curated_normalized.xlsx"
+  "source_xlsx": "cjp_books_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "libel_and_cybercrime"
+    ],
+    "secondary": []
+  }
 }

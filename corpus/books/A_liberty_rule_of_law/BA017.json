@@ -114,5 +114,11 @@
     "curability: the court can recall its orders and re-confine the accused"
   ],
   "one_paragraph_summary": "Chapter 9 of 'With Due Respect' (Vol. 4), CJP's January 30, 2011 Inquirer column, argues that the documents that freed retired Maj. Gen. Carlos Garcia are 'in my humble view, invalid' -- the undated Plea Bargaining Agreement (PBA) with the Ombudsman, the May 4, 2010 Sandiganbayan (SBN) resolution, and the December 16, 2010 resolution granting bail. The background: in 2005 the Ombudsman charged Garcia, his wife and three sons with non-bailable plunder and, separately, money laundering; in the PBA Garcia offered to plead guilty to the lesser offenses of indirect bribery and facilitating money laundering -- ceding properties worth about P135 million against the Information's P303-million claim -- if the graver charges were dropped. CJP's first ground: Rule 116 lets an accused plead to a lesser offense only 'with the consent of the offended party and the prosecutor,' and while the prosecutors consented, the offended party did not -- indeed was 'not mentioned at all.' In plunder, he explains, the offended party is 'the Republic' (acknowledged in the Information itself and represented by the OSG, not the prosecutors), whose consent was 'especially essential' given the P135-million-for-P303-million gap. His second ground: a plea to a lesser crime must come 'at arraignment' or 'before trial,' yet Garcia's came after the prosecution had rested; the narrow exception applies 'only when the prosecution does not have sufficient evidence' and requires a finding on 'the weight of the evidence' (People v. Villarama, 1992) -- a finding the May 4 resolution never made, and one contradicted by the SBN's own January 7, 2010 denial of bail because the evidence was 'strong.' The December 16 bail-and-release order, resting on the invalid May 4 resolution, is therefore 'likewise irregular,' and CJP flags that only Garcia signed even as the deal's benefits reached his wife and sons 'in the United States, outside the jurisdiction of our courts.' Still, 'all is not lost': the Sandiganbayan 'can still correct these lapses... by recalling its two Resolutions and ordering the re-confinement of the accused.'",
-  "source_xlsx": "cjp_books_curated_normalized.xlsx"
+  "source_xlsx": "cjp_books_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "criminal_trials_and_prosecutions"
+    ],
+    "secondary": []
+  }
 }

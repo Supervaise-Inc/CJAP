@@ -77,5 +77,11 @@
     "science-literacy-for-judges"
   ],
   "one_paragraph_summary": "Chapter 1, 'Enter the Bio-Age,' surveys the biosciences and biotechnologies — organ transplants (opening with Christian Barnard's first heart transplant), gene therapy, cloning, stem cells, and DNA — transforming society, and the legal and ethical questions they pose for the judiciary. CJP touches on DNA evidence (People v. Vallejo, Tijing v. Court of Appeals) and intellectual property (RA 8293), arguing the incoming 'bio-age' will test the law as profoundly as the information age.",
-  "source_xlsx": "cjp_books_curated_normalized.xlsx"
+  "source_xlsx": "cjp_books_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "science_technology_and_the_law"
+    ],
+    "secondary": []
+  }
 }

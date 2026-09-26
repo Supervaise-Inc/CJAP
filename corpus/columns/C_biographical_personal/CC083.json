@@ -154,5 +154,13 @@
     "Leverage corporate brand identity (Search for Outstanding Teachers as Metrobank's legendary annual program)"
   ],
   "one_paragraph_summary": "Panganiban surveys Philippine tycoons' preferred philanthropy -- education -- noting the irony that even those without college degrees devote personal and corporate funds to it. He catalogues school owners: Ramon del Rosario Jr.'s Phinma Group (four provincial schools); Lucio Tan (UE); Henry Sy (NU and Asia Pacific); Alfonso Yuchengco (Mapua); Emilio Yap heirs (CEU); Lourdes Reyes Montinola and son Aurelio Montinola III (FEU); George Ty (Tytana, plus P1B to Toyota Institute matched peso-for-peso by Toyota Japan). George Ty's Metrobank Foundation has become 'legendary' for its annual P1M Search for Outstanding Teachers prizes. Henry Sy mandated son Hans to build 50 NU campuses nationwide and recently constructed the new 9-story UP Professional Schools Building at Fort Bonifacio. John Gokongwei donated P200M to ADMU on his 80th birthday, P250M to DLSU on his 85th, and several gifts on his 90th. The Ayala brothers set up 27 Affordable Private Education Centers preparing 10,000 high school enrollees for higher-paying jobs, develop OJT curricula with universities, and co-founded AIM with the Lopezes and Washington SyCip. The Rufino family funded the DLSU Rufino campus at Fort Bonifacio. Manuel V. Pangilinan donated multiple buildings to Ateneo, San Beda, and St. Scholastica's and channeled multiple foundations toward education and vocational training. Ramon S. Ang's San Miguel Foundation funds agricultural and vocational scholarships, a child-nutrition program, and book donations to public schools. The Jollibee Group Foundation's 'Busog, Lusog, Talino' project serves thousands of schoolchildren. The column closes with the author noting that FLP's three education programs -- CJ Panganiban Professorial Chairs, Libpros law scholarships, and the legal dissertation contest -- are respectively cosponsored by Metrobank, Tan Yan Kee, and Ayala.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "foundation_for_liberty_and_prosperity"
+    ],
+    "secondary": [
+      "life_story_family_school_and_church"
+    ]
+  }
 }

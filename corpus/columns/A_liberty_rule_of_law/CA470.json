@@ -124,5 +124,11 @@
     "treats Cruz vs Sandiganbayan as the precedent establishing PCGG's legal authority for non-Marcos graft investigation"
   ],
   "one_paragraph_summary": "Panganiban counters PCGG Chair Dean Bautista's surprising proposal to abolish his own agency by arguing for revitalization instead. He acknowledges Bautista's position -- that the primary ill-gotten wealth recovery mission is largely accomplished (P165 billion recovered) and the remaining 279 Sandiganbayan/SC cases could be supervised by the DOJ/OSG -- but argues that the PCGG's two additional, underutilized mandates make abolition premature: (1) investigating non-Marcos graft cases, upheld by Cruz vs Sandiganbayan (1991) when directed by the President, and (2) instituting anti-corruption prevention measures, a function no other executive office performs. These mandates -- backed by extraordinary powers including contempt authority, provisional business takeover, injunctions, and foreign asset freeze requests -- give President Aquino a ready-made institutional platform to expand his anti-corruption drive. CJ notes that the PCGG's global reputation (first body to crack Swiss bank secrecy) contrasts with the domestic push to abolish it, and that the 279 pending cases averaging 20 years old represent a justice crisis for both the Filipino people and potentially innocent defendants. He recommends President Aquino use his Gopac keynote address (January 31, 2013) to announce a revitalized PCGG mandate -- including investigating post-Marcos graft within his own administration -- and frames the choice as 'not as difficult as Hamlet's to be or not to be': keep it if you use its full mandate, abolish it only if you relegate it to a monitoring role.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "ill_gotten_wealth_and_the_pcgg"
+    ],
+    "secondary": []
+  }
 }

@@ -149,5 +149,11 @@
     "carillon donations as theologically grounded wealth-deployment practice"
   ],
   "one_paragraph_summary": "Delivered at Bert Lina's funeral Mass on Ash Wednesday, March 5, 2025, this eulogy by CJP opens by asking mourners to smile like Bert -- whose portrait reflects his characteristically happy disposition -- and frames death as the beginning of eternal life. The organizing thesis is a three-part love: first, love for family, especially for Sylvia whose extraordinary birthday gifts ranged from a Jaguar car and a Bösendorfer piano to a specially bred pink gumamela variety from UPLB and the Sylvia P. Lina Theater at De La Salle Zobel; his four daughters (April Rose, Donna May, Lucia Jane/Sheila, Bertha Ann) and four grandchildren. Second, love for work -- 21 companies, 2,800 employees treated as 'partners and collaborators, not alalays,' each receiving a free daily healthy meal and production bonuses and profit sharing regardless of rank, fueled by the 'back haul' system and a philosophy that problems are opportunities not obstacles. He served twice as Customs Commissioner (under Arroyo and Aquino III, against CJP's advice) and funded the Manila Symphony Orchestra. Third, love for God -- crediting the Lord with everything, donating Carillons to five churches (Manila Cathedral, St. James Alabang, Naga City, Pila Laguna, Mandaue Cebu) as reminders of mortality, and conducting annual medical-surgical-dental missions. CJP traces the relationship to 1969 when Bert was a junior auditor at L.C. Diaz, became his and Sylvia's wedding sponsor, and considers Donna May his 'daughter by choice.' The climactic one-word reveal -- LOVE, his 'enormous, googolplex love' -- ties all three themes together, closing with 'To God be the glory.'",
-  "source_xlsx": "cjp_speeches_curated_normalized.xlsx"
+  "source_xlsx": "cjp_speeches_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "life_story_family_school_and_church"
+    ],
+    "secondary": []
+  }
 }

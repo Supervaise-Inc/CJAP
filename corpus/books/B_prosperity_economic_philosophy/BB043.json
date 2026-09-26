@@ -153,5 +153,11 @@
     "where restitution is impossible, indemnity for damages operates as restitution under Article 1385"
   ],
   "one_paragraph_summary": "Chapter 34 of 'Liberty and Prosperity' digests Coastal Pacific Trading v. Southern Rolling Mills, a unanimous decision granting the petition of a defrauded creditor. VISCO, a steel processor, had mortgaged its land, machinery and equipment to the Development Bank of the Philippines in 1961 and again, by an unrecorded second mortgage, to respondent banks in 1963; under a processing agreement it received 3,000 metric tons of steel coils from Coastal Pacific and returned only 1,600. After VISCO defaulted, the banks converted their loan into more than 90 percent of its equity, formed a consortium and took over management, filling nine of the ten board seats. The chapter then traces the transactions the Court found fraudulent: the quiet renaming of the FEBTC account to drop the word VISCO as a precautionary measure and to avoid a government takeover; the 1974 sale of the generator sets whose proceeds, instead of going directly to DBP, were routed through the consortium so that it could be subrogated to DBP's recorded primary lien; and the 1980 foreclosure and 1985 sale that ended with the properties in the hands of National Steel Corporation. The Court first held that the Court of Appeals erred in treating the earlier Southern Industrial Projects case as a bar, since several creditors of one debtor cannot be considered as identical parties, do not become privies by assailing the same transactions, and hold distinct rights giving rise to distinct causes of action. On the merits it found more than a preponderance of evidence of a deliberate plan to defraud: as trustees, the consortium's directors should have managed VISCO's assets with strict regard for all the creditors' interests, yet miserably failed in their duty of fidelity, and the assignment of the DBP mortgage bore the earmarks of fraud. Because NSC was a buyer in good faith and restitution was impossible, the Court awarded Coastal actual damages measured by its unsatisfied judgment credit, plus P250,000 in exemplary damages as a warning to other creditors not to abuse their rights.",
-  "source_xlsx": "cjp_books_curated_normalized.xlsx"
+  "source_xlsx": "cjp_books_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "property_contracts_and_economic_rights"
+    ],
+    "secondary": []
+  }
 }

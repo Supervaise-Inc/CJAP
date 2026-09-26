@@ -124,5 +124,13 @@
     "treats 'the court's might rests on being right' as the institutional accountability standard for the SC itself"
   ],
   "one_paragraph_summary": "Panganiban maps the legal battle over former President Arroyo's right to travel against the Aquino administration's accountability goal. Justice Secretary De Lima issued a watch-list order (ironic note: under DOJ Circular 41 issued during GMA's own administration) and physically blocked Arroyo at the airport despite the SC's TRO, nearly precipitating a constitutional crisis. The Comelec's electoral sabotage case in Pasay RTC (Judge Mupas, arrest warrant issued) is now challenged on three fronts: (1) the DOJ-Comelec joint preliminary investigation compromised Comelec's constitutional independence; the government counters that RA 9369 gives DOJ concurrent jurisdiction; (2) the RTC lacks jurisdiction over a high official, which belongs to the Sandiganbayan; the government counters that the Omnibus Election Code gives the RTC exclusive jurisdiction over election offenses; (3) Judge Mupas could not have personally determined probable cause in only 4 hours; the government counters that speed was essential since Arroyo was about to fly. CJ notes the government is also speeding up other cases as backup travel bars. He frames the ultimate question as: will the SC rule correctly, and if it issues a TRO allowing Arroyo to fly, will the Palace comply or 'do another Leila'? He closes with the institutional reminder that 'the might of the Supreme Court rests on its being right -- a judgment that will come from our people and from history.'",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "criminal_trials_and_prosecutions"
+    ],
+    "secondary": [
+      "elections_and_automated_voting"
+    ]
+  }
 }

@@ -178,5 +178,13 @@
     "treats reform-by-selective-amendment as the correct posture vs wholesale replacement"
   ],
   "one_paragraph_summary": "Delivered January 16, 2024 at the National Museum of Fine Arts during the 1971-72 Constitutional Convention Surviving Delegates' Conference and Exhibits on 'Philippine Constitutions and the Social Order,' this speech opens with an admission against interest ('I do not feel qualified... I AM NOT A ROBOT') and a joke about three new commandments added by scheming lawyers and unfaithful husbands ('Thou shall not get caught'; 'deny, deny, deny, even when caught in flagrante'; invoke the right to remain silent). Borrowing the judicial opinion structure (FACTS -- ISSUE -- RULING), CJP situates the 1987 Constitution -- ratified February 2, 1987 and in force February 11, 1987 -- within the global 'AI Winter' of 1973-1993, demonstrating with the ILOVEYOU virus case (May 2000, $5B+ damages, two Filipino programmers acquitted because PH had no anti-malware law) that constitutional anticipation of technology was structurally impossible. He then enumerates seven contemporary pressure points: (1) in vitro fertilization and surrogacy (citing Pope Francis's January 8, 2024 ambassadors speech calling surrogacy 'despicable'); (2) nanotechnology's dual nature; (3) autonomous weapons that select targets without human intervention; (4) cyber risks and AI errors in the hands of terrorists, dictators, and warlords; (5) social-media-driven youth suicide (more US young people die by suicide than by soldiers/terrorists/criminals combined); (6) the illusory truth effect in political ads ('Saligang Batas Gawing Saligang Patas' with 1M+ X views); and (7) the 100% Filipino-mass-media ownership constraint in an era of CNN/BBC and foreign social platforms. His ruling: humane justice can be dispensed ONLY by judges, not by automated formula -- the Penal Code's range of penalties and the Civil Code's 'right and justice' liberality clause confer discretion irreducible by tech bots. He cites the UK House of Lords March 30, 2022 'Technology Rules?' report ('a new Wild West'), the November 2023 Bletchley Park AI Safety Summit (29 governments including the Philippines), and US CJ Roberts's 2023 Year-End Report confirming judges are not becoming obsolete. He endorses CJ Gesmundo's Strategic Plan for Judicial Innovations 2022-2027 -- 'turn tech for good and move from problem to solution' -- as the right institutional posture, and closes by invoking the 1987 Constitution's preamble guarantee of human dignity 'especially the poor, the oppressed, the dispossessed, the weak, the disabled and the marginalized' as the irreducible reference point for all technology policy.",
-  "source_xlsx": "cjp_speeches_curated_normalized.xlsx"
+  "source_xlsx": "cjp_speeches_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "twin_beacons_doctrine"
+    ],
+    "secondary": [
+      "science_technology_and_the_law"
+    ]
+  }
 }

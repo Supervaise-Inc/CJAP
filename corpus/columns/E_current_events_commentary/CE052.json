@@ -155,5 +155,13 @@
     "Reform principle: spending caps should be modernized for the new normal"
   ],
   "one_paragraph_summary": "Ahead of the Oct. 1-8 COC filing window, CJ Panganiban builds a public-finance argument about what presidential campaigns actually cost. The 1991 statute, RA 7166 §13, caps spending at P10 per registered voter for president and VP, P3 for senators and party-list reps, P5 for independents, and P5 per voter for supporting registered parties -- meaning, against the Comelec's expected 60-million-plus 2022 electorate, P600M max per presidentiable, P1.2B for a P-VP tandem, P300M per backing party, and P2.16B for a 12-senatorial slate. Against these statutory ceilings he sets investment-banker-turned-blogger Leo Alejandrino's 'heneralunacy' estimate of a P50-billion campaign kitty, derived by treating the P5T national budget and the P19T GDP as the 'addressable market for corruption' -- at plausible leakage rates of 10 percent of budget and 2.5 percent of GDP ('the allowable pilferage rate in supermarkets'), the annual take approaches P1 trillion, making the ROI on a successful campaign 'actually infinite' -- what Alejandrino brands a leveraged buyout of the country itself. CJ then turns to the regulatory blind spot of the new normal: the 2022 contest will be largely contactless, shifting to social media bloggers, influencers, troll armies, and fake-news sellers who, unlike print and broadcast advertisers, are 'difficult to identify, to track, and to sue for libel.' He flags barangay captains -- by law nonpartisan -- as the de facto ground-game infrastructure through ayuda, packed meals, and medical aid. He closes with an unnamed presidentiable's Tagalog boast ('Masaya ang eleksyon. Hindi na ako gumagastos, kumikita pa.') and a promise to return to electoral spending reform in a future column.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "elections_and_automated_voting"
+    ],
+    "secondary": [
+      "libel_and_cybercrime"
+    ]
+  }
 }

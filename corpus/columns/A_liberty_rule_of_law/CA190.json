@@ -131,5 +131,13 @@
     "applies priority-redirect on legislative time (pandemic/poverty over redundant bill)"
   ],
   "one_paragraph_summary": "Panganiban examines the constitutional objections to House Bill 7814, whose 'disputable presumptions' in drug cases have prompted main sponsor Rep. Robert Ace Barbers into a media overdrive. Barbers argues that disputable or prima facie presumptions are not new -- citing Sec. 5 of the Anti-Fencing Law, Art. 354 of the Revised Penal Code, and the 30+ presumptions in Rule 131 -- but CJ counters that the Constitution itself guarantees a basic right that trumps all of these: the accused 'shall be presumed innocent until the contrary is proved.' Conviction requires proof beyond reasonable doubt drawn from hard facts filtered by strict rules of evidence and due process, not mere presumptions. Presumptions are logical consequences of factual findings, not substitutes for them, and Rule 131's presumptions protect the accused while HB 7814's would damn him. The real risk, CJ argues, is operational: overzealous policemen would 'take the role of judges' in determining probable cause for warrantless arrest and search -- in an area where the Supreme Court itself, in People v. Sapla (June 16, 2020), settled the doctrine only by a divided 11-3 vote after decades of disagreement among sagacious justices. With no Senate counterpart filed, CJ urges the Senate to focus on the pandemic, poverty, and unemployment; existing jurisprudence already arms the police -- what is needed is better training, not redundant law.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "criminal_trials_and_prosecutions"
+    ],
+    "secondary": [
+      "bar_exam_and_legal_education"
+    ]
+  }
 }

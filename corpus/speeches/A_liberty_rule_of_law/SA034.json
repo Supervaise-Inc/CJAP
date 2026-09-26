@@ -123,5 +123,13 @@
     "forward-looking preparation as a governance principle: address the immediate crisis AND prepare the next steps simultaneously"
   ],
   "one_paragraph_summary": "Delivered August 24, 2020 as the welcome address at an ALA Philippines/AIM webinar on Philippine Foreign Investment Rules and the ASEAN Comprehensive Investment Agreement, this short speech by CJP -- as ALA Philippines Chairman -- establishes the institutional context (ALA founded 1979, recognized in the ASEAN Charter as ASEAN's lone accredited civil society law organization, with the Philippines hosting the first General Assembly in 1980 and producing three ALA presidents: the late Senator Angara, the late CJ Fernan, and Atty. Ave Cruz, now chairman of the AsnLI which ALA Philippines pioneered in April 2019) and explains why it makes sense to discuss investment rules during a pandemic: first, being forward-looking -- ASEAN needs investment-promotion infrastructure ready for post-COVID recovery; second, the organized response principle -- 'we are in this together and... an organized response produces far better results than isolated actions.' He notes his sentimental connection to co-organizer AIM through Leni (39 years of teaching) and daughter Tet (now teaching there). He closes by linking the webinar's topic to his signature philosophy, with one domain-specific extension for the business-law audience: 'justice and jobs; freedom and food; ethics and economics; integrity and investments; peace and development; liberty and prosperity -- these twin beacons must always go together; one is useless without the other.'",
-  "source_xlsx": "cjp_speeches_curated_normalized.xlsx"
+  "source_xlsx": "cjp_speeches_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "twin_beacons_doctrine"
+    ],
+    "secondary": [
+      "asean_law_association"
+    ]
+  }
 }

@@ -152,5 +152,13 @@
     "treats personal-memoir-postscript as legitimate column-form when canonization triggers biographical recall"
   ],
   "one_paragraph_summary": "Panganiban maps what comes next for the pork barrel cases after the five-day MR window: Ruby Tuason's MR was granted with immunity from criminal prosecution, but if the others' MRs are denied the OOO will file criminal informations in the Sandiganbayan. He emphasizes that filing does not mean automatic arrest -- the Charter requires judges to personally determine probable cause (a check designed to curb the martial-law-era abuse of arbitrary arrest on prosecutors' say-so), and given the voluminous truckloads of evidence this judicial scrutiny will take several days; accused may also intervene to show why no warrant should issue. The next major battle will be bail, which he forecasts will be acrimonious -- the Maguindanao murder cases are still locked in bail-fight 4 years on, and plunder is more complicated than murder because it is a composite of several crimes. He anticipates further skirmishes on quashing for insufficiency, place of detention, and prejudicial questions. On the recent Napoles affidavit allegedly incriminating 100+ lawmakers including 13 senators, he exercises explicit sub-judice restraint: until its contents are revealed and verified, I will not offer any opinion; an opinion is good only if anchored on verified facts, and speculation-based opinions are noxious because they confuse readers, divert attention, and muddle issues. He then shifts register for a memoir postscript on St. JP II's canonization, recalling three personal encounters: the November 1985 Rome ASTA election where he was the first Asian chair of the International Council of Governors (and was touched by JP II's strong advocacy against the death penalty); the January 1995 World Youth Day preparatory committee, where in the final airport-arrival rehearsal Archbishop Carmelo Morelos role-played JP II and CJP role-played FVR, Morelos quipping that CJP would become president someday and CJP retorting only if Morelos became pope -- followed by FVR's actual SC appointment of CJP later that year on June 17 1995; and the moment 5-year-old grandson Miguel P. Sandejas and Vada Rodriguez welcomed JP II with a Viva il Papa drawing and a salakot the Pontiff gamely wore and waved joyfully to the crowd. From 1996 JP II named CJP a five-year member of the Pontifical Council for the Laity, granting him several close encounters with one of the greatest leaders of the Catholic Church in its 2,000-year history.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "criminal_trials_and_prosecutions"
+    ],
+    "secondary": [
+      "death_penalty_and_echegaray"
+    ]
+  }
 }

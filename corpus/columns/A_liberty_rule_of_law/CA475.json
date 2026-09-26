@@ -118,5 +118,11 @@
     "frames political action as the residual option when legal routes are foreclosed"
   ],
   "one_paragraph_summary": "Panganiban analyzes four options for enforcing the 25-year-old unenforced constitutional anti-dynasty provision (Art. II Sec. 26). The legislative option is the 'no-brainer' but practically foreclosed because legislators with relatives in office have no incentive. Judicial and quasi-judicial options -- petitions to compel the Comelec to deny certificates of candidacy, or mandamus against Congress -- are legally untenable: the Comelec cannot legislate without an enabling law, the dynasty ban is not self-executory (unlike term limits), and mandamus cannot compel a discretionary legislative act. Comelec Chair Brillantes's proposed people's initiative faces the Lambino v. Comelec bar by analogy: a controversial anti-dynasty law requires a deliberative body with recorded proceedings, not a simple initiative process. That leaves political action -- forming movements like KAPAL (Kamag-anak sa Politika Aayawan Lahat), using social media as Obama successfully did, and letting the 2013 elections serve as a referendum. If voters demonstrably reject dynasty candidates, the new Congress will have the mandate to finally enact the enabling law.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "party_list_charter_change_and_dynasties"
+    ],
+    "secondary": []
+  }
 }

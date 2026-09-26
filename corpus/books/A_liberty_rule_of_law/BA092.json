@@ -188,5 +188,11 @@
     "in case of doubt in a capital case, the doubt is resolved in favor of the accused"
   ],
   "one_paragraph_summary": "Chapter 21 of 'Leveling the Playing Field' surveyed the Supreme Court's new jurisprudence on capital offenses for the period from October 10, 2003 to October 10, 2004, the year marking CJP's ninth on the Court. He opened with Judicial Records Office statistics and observed that less than one third of the capital cases reviewed since the Death Penalty Law took effect on December 31, 1993 had been affirmed, a figure he read as proof of the Court's special assiduousness. The year's most significant ruling was People v. Mateo, Justice Vitug's valedictory ponencia, which held it wise and compelling to have the Court of Appeals review all heinous-crime judgments before they reach the Supreme Court, and which the Court implemented through AM No. 00-5-03-SC amending Rules 122 and 124. Having voted for Mateo without writing separately, CJP set out six reasons in plain English: death convicts deserve the same multiple review that petty offenders enjoy; capital cases turn on facts and the Supreme Court is not a trier of facts while the Court of Appeals is; a decade of doctrine now guides the CA; automatic Supreme Court review survives by constitutional fiat and acquittals remain unappealable; the CA had been enlarged to 69 justices; and the High Court would gain time for novel disputes and its Judicial Reform Program. He then reviewed the year's other rulings -- DNA evidence in Vallejo and Yatar and the limits of the self-incrimination clause, the validity of routine airport searches in Suzuki, the rejection of a complex crime of robbery with homicide and assault in Otayde, the reading of an Information as one whole document in Villanueva, the strict scrutiny of waivers in Macarang and Beriber, the searching inquiry required in Besonia, the divided treatment of successive custodial investigations in Mojello, and the rulings on sexual assault, relationship, pretrial stipulations, proof of age and filiation, explosives, and the quorum question recalled and re-deliberated in People v. Ebio.",
-  "source_xlsx": "cjp_books_curated_normalized.xlsx"
+  "source_xlsx": "cjp_books_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "death_penalty_and_echegaray"
+    ],
+    "secondary": []
+  }
 }

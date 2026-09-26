@@ -126,5 +126,11 @@
     "Accept that decentralization goals can be achieved through existing constitutional mechanisms (BBL model) without revision"
   ],
   "one_paragraph_summary": "Panganiban maps the three retired chief justices' divergent positions on Charter change. CJ Puno, the youngest, heads the Consultative Committee as a definitive federalism proponent -- his known libertarianism reassuring against any downgrading of the Bill of Rights. CJ Davide, the oldest, is passionately contra: he calls federalism a 'lethal experiment, fatal leap, plunge to death, and leap to hell' -- untried and untested -- and insists the 1987 Constitution (of which he was a drafter) is 'the best Constitution of the world,' arguing that effective decentralization and power-sharing are already assured by the current Charter and that the BBL is the model to follow. The author occupies the middle position: the 1987 Constitution is good but not perfect and needs updating, yet he is not convinced federalism is needed, remaining open to listening once the specifics are laid out clearly and precisely -- since federalism is a generic concept with many faces. He monitors the ConCom (which meets daily toward the July 23 SONA deadline), PDP-Laban, and Congress. He notes the ConCom's early vote to prohibit simultaneous holding of national and regional/local positions by persons within the second degree of consanguinity or affinity, but is skeptical this will survive Congress -- citing Ateneo School of Governance data showing 75% of legislators belong to dynastic families -- while holding out hope for a 'Damascus-road experience' among lawmakers.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "party_list_charter_change_and_dynasties"
+    ],
+    "secondary": []
+  }
 }

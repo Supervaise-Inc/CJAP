@@ -144,5 +144,13 @@
     "measures reform by its effect on ordinary citizens, especially the poor and marginalized"
   ],
   "one_paragraph_summary": "Panganiban reflects on the Supreme Court's 125th anniversary, celebrated on June 11 with a Holy Mass at the SC quadrangle -- a fitting tribute to an institution that has outlasted colonial regimes, survived global wars and weathered political storms. Twenty-five years after he wrote 'A Centenary of Justice' for the Court's 100th birthday, he thinks people remain unsettled by modern afflictions that test legal traditions and demand innovative reforms. He weaves the anniversary theme, 'Mula sa Tradisyon, Tungo sa Inobasyon,' and three speeches into three propositions. First, liberty through tradition: Manila Archbishop Jose F. Cardinal Advincula's homily recalled the Gospel mandate 'Freely you have received; freely you are to give' and the wisdom received from centuries of struggle; CJP adds that these principles must transcend law texts and courthouse walls, or liberty crumbles into judicial tyranny. Second, prosperity through independence: BSP Governor Eli Remolona Jr., presenting a commemorative coin and a new P3,000 banknote bearing Lady Justice, called institutions the 'rules of the game' that the Court interprets through judicial review; CJP says the Court's independence is a condition sine qua non of other institutions' independence, and the BSP looks to it as a lighthouse in uncertain times. Third, innovation: Chief Justice Alexander G. Gesmundo, through the Strategic Plan for Judicial Innovations 2022-2027, seeks a resilient judiciary able to withstand disruption. As the Court embraces the algorithms of innovation, CJP insists it must never lose its soul, and he remains optimistic about justice grounded on human judgment rather than artificial intelligence. The judiciary must preserve justice through tradition while expanding its reach through innovation, so that liberty and prosperity are enjoyed by all, especially the poor and the marginalized.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "science_technology_and_the_law"
+    ],
+    "secondary": [
+      "faith_journey"
+    ]
+  }
 }

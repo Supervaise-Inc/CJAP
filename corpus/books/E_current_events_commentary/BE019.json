@@ -117,5 +117,11 @@
     "computerization-cannot-be-rushed: eight months invites a 'no-proc' gridlock"
   ],
   "one_paragraph_summary": "Chapter 3 of 'With Due Respect' (Vol. 6), CJP's February 7, 2010 Inquirer column, asks whether the Senate can stop a Gloria Macapagal-Arroyo 'holdover' presidency. He had argued that a failed election in 15 percent of the country could let GMA hold over, since the constitutional successors -- VP de Castro, Senate President Enrile, and Speaker Nograles -- would all 'end their terms... on June 30, 2010.' Readers near-unanimously proposed electing a Senate president whose term runs to 2013 to act as president, but CJP warns 'it is not' that simple: the fix assumes the Senate is a 'continuing body,' a notion rooted in earlier Constitutions that staggered 24 senators 'eight every two years' (leaving 16 in office), whereas under the present charter only 12 remain after an election -- 'who do not constitute a majority' -- so GMA's partisans could argue the Senate has 'ceased to be a continuing body.' That question would fall to the Supreme Court, and CJP reads the rushed JBC push to name a Chief Justice before Puno's May 17 retirement (during the March 11-June 30 appointment ban) as an attempt to control the holdover ruling -- though the Palace kept it an 'option,' since a 'credible' and 'non-controversial' Court would be needed to make any holdover publicly acceptable. He then warns that eight months could not perfect a nationwide PCOS system: ATMs, credit cards and even the Court's own decade-old computerization took years; PCOS field-test transmissions ran 'several hours' against a credit card's seconds; and with 82,200 machines, 47 million voters, and 'many other dangers' (printing delays, miscalibration, misdelivery, hacking, weak training), a 'no-proc' gridlock could arise from glitches in just five percent of votes -- about two million ballots. His conclusion: 'the closer the presidential race is, the more [likely] holdover becomes.'",
-  "source_xlsx": "cjp_books_curated_normalized.xlsx"
+  "source_xlsx": "cjp_books_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "elections_and_automated_voting"
+    ],
+    "secondary": []
+  }
 }

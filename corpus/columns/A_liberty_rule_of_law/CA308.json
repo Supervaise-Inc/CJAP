@@ -122,5 +122,11 @@
     "uses outcome-decoupling framework: constitutional teaching value independent of petition outcome"
   ],
   "one_paragraph_summary": "Writing three weeks before the Lagman vs Medialdea ruling, Panganiban analyzes the SC's oral arguments on Proclamation 216 (June 13-15, 2017) on three consolidated petitions. He identifies the key constitutional question as whether 'actual' (not merely threatened or anticipated) rebellion exists and whether its magnitude justifies covering 'the whole of Mindanao.' He argues the answer for at least Marawi City is yes: Proclamation 216 itself recites that the Maute group took up arms, burned facilities, flew the ISIS flag, and attempted to deprive the President of his powers (meeting Art. 134 RPC's rebellion elements); Lorenzana and Año gave the justices a classified executive-session briefing; daily media coverage confirmed prolonged urban fighting; and the legal presumption of regular official duty places the burden on petitioners to show grave abuse. He also argues that even if Rep. Lagman's group loses, they will have rendered a public service -- giving the SC the 'precious opportunity' to craft a landmark, comprehensive decision defining ML's parameters under the 1987 Constitution for future guidance nationwide. He closes by framing such a decision as a 'win-win for all,' reaffirming that ML constitutionally understood need not be feared, and distinguishing the current defanged Charter from Marcos's misuse.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "presidential_power_martial_law_people_power"
+    ],
+    "secondary": []
+  }
 }

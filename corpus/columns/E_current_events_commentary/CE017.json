@@ -173,5 +173,11 @@
     "Con-con (not Con-Ass) as the only constitutional-revision remedy"
   ],
   "one_paragraph_summary": "Anchored on the Makabayan bloc's renewed party-list-revision bills + Hontiveros's parallel Senate bill targeting dynasties, CJP diagnoses the system's 'original sin' -- the 1987 Constitution experimentally grafted a parliamentary party-list mechanism onto an inherited US presidential system meant to partner with proportional representation and component-state autonomy (per Jones Law and Tydings-McDuffie Act). The Charter set a 20% party-list House ceiling and a three-term half-marginalized rule, but never defined the mongrel; Congress added only a 2% statutory threshold. CJP's own pre-retirement authorship of Veterans v. Comelec (Oct 6 2000, upholding the 2% threshold and ruling the 20% directory) and Bagong Bayani v. Comelec (June 26 2001, limiting qualified parties to marginalized-and-underrepresented) limited the early party-list winners to about 15 seats. After his retirement, Banat (April 21 2009) voided the 2% bar and Atong Paglaum (April 2 2013) opened the system to all, after which dynasties + veteran politicians + the rich + the powerful invaded -- driving a 20% House budget increase plus pork-barrel and flood-control insertions. He confesses his earlier activist 'spirit-of-the-law' streak versus his successors' verba-legis school, and concludes that only a Con-con (not a Con-Ass) can abolish or relimit the mongrel.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "party_list_charter_change_and_dynasties"
+    ],
+    "secondary": []
+  }
 }

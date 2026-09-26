@@ -106,5 +106,11 @@
     "deploys six-month-liquidation-deadline as the consequence of failing to timely settle deceased spouse estate"
   ],
   "one_paragraph_summary": "Panganiban introduces the column as a prelude to the ongoing divorce debate -- before addressing marriage's termination, he first writes about its beginning and its property consequences. The law 'instantly takes over' upon the exchange of vows: the default regime under the Family Code is the absolute community of property, under which all property owned by either spouse before the marriage -- or acquired thereafter -- ipso facto becomes jointly owned, even if titles remain in only one name. Land, condominiums, cars, bank deposits, jewelry and other assets all become communal upon saying 'I do.' The marital evidentiary privilege also kicks in: a spouse cannot testify for or against the other without consent (except in civil or criminal cases filed by one against the other). Exclusions include personal-use property, property acquired by gratuitous title (donations) during marriage, and a widow or widower's property where legitimate children by the prior marriage stand to inherit (subject to a six-month liquidation deadline, failing which complete separation governs any subsequent marriage). Neither spouse may sell, mortgage or donate communal assets without the other's consent; but each may practice their profession, with the income becoming communal. The only escape is a prenuptial agreement -- in writing, signed before the wedding, irrevocable after it (like the marriage vow itself). The most commonly chosen alternative is the conjugal partnership of gains (the regime before the Family Code's August 3, 1988 effectivity): each spouse retains ownership of separate assets, but their income, fruits, and rentals accrue to a common fund.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "marriage_annulment_and_the_family_code"
+    ],
+    "secondary": []
+  }
 }

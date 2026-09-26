@@ -131,5 +131,13 @@
     "willingness to sacrifice private rights for the common good"
   ],
   "one_paragraph_summary": "Chapter 15 of 'Love God, Serve Man' is CJP's November 3, 1992 speech at the Hotel Inter-Continental before a joint meeting of the Bishops-Businessmen's Conference, FINEX, the Makati Business Club, the Management Association of the Philippines, Philippine Business for Social Progress and the Philippine Chamber of Commerce and Industry, delivered while he served as the chamber's general counsel. He began from the premise that peace is everyone's concern -- espoused by Christianity, Islam and Buddhism alike, wished daily in every Mass, and sought by every government, family and person -- and greeted his audience with the same wish. The gathering's purpose, he said, was to make the country's leading business and professional groups aware of the Ramos government's Peace Process and to ask what the 'middle forces' could do to hasten it, since the 1986 EDSA revolution had shown that non-violent revolutionary change requires a partnership between street marchers and the middle class. He traced the private sector's peace effort to the first Multi-Sectoral Conference at the Asian Institute of Management in June 1992, where the Workshop on Administration of Justice he chaired recommended the Peace Process as a government priority, and to the second conference at De La Salle University that October, where it was hailed as a leading achievement and endorsed for the next 1,000 days. He then defined true peace negatively and positively: not the absence of violence, the victory of superior arms, or 'the eerie silence imposed by dictators and strong men,' but the resolution of the social, economic and political imbalances behind armed conflict -- Jose P. Laurel's humanization of laws and equalization of social and economic forces, John Paul I's solidarity of those who have more with those who have less, PCP II's harmony of heart and social order. Justice being impersonal, he argued, peace also requires love and sacrifice, and he closed pledging solidarity with the poor and re-dedicating the country to peace, justice and love.",
-  "source_xlsx": "cjp_books_curated_normalized.xlsx"
+  "source_xlsx": "cjp_books_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "bangsamoro_peace_process"
+    ],
+    "secondary": [
+      "twin_beacons_doctrine"
+    ]
+  }
 }

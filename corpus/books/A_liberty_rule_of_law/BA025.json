@@ -120,5 +120,11 @@
     "strict-adherence to the bidding law and the Comelec's own rules"
   ],
   "one_paragraph_summary": "Chapter 7 of 'With Due Respect' (Vol. 5), CJP's May 24, 2009 Inquirer column, draws 'lessons in automating elections' from the Comelec's long record of failure. Over 20 years and 'billions of pesos,' he writes, the body 'miserably failed to computerize' the 'antiquated, fraud-prone, and super-slow' system -- a failure the Court blamed on 'the illegal, imprudent and hasty actions of the Commission' that 'desecrated legal and jurisprudential norms.' After Congress enacted RA 8436 (1997) mandating automation, the Comelec (having slipped from 1998 to the 2004 polls) split the work into three phases -- voters'-list cleanup, automated counting/canvassing, and electronic transmission -- and the Court 'voided all the contracts' for legal and constitutional flaws across 'three rebuffs.' In Comelec v. Quijano-Padilla (2002), it voided the Photokina fingerprint-digitization deal because the P6.588-billion bid 'exceeded the P1 billion appropriated by Congress'; in Information Technology Foundation v. Comelec (2004), which CJP wrote, it nullified the 'Mega Pacific Consortium' counting-automation contract awarded 'with inexplicable haste... without adequately checking... mandatory financial, technical and legal requirements,' and referred officials to the Ombudsman; and in Brillantes v. Comelec (2004), it struck down the 'unofficial quick count' because the Comelec had 'no authority to canvass the votes for president and vice-president.' From the Information Technology ruling CJP distills public-bidding lessons: an 'overarching need for utter transparency' (never 'break the speed record' on huge contracts), full disclosure of a consortium's 'composition and scope,' no unrealistic specifications 'water[ed]... down after the bid' (a 'sure indication of fraud'), working software (without which 'the same danger of massive fraud remains'), a level playing field, no post-bid 'substantive amendment,' and strict adherence to the bidding rules -- all so Chair Melo's team could finally deliver 'electronic, honest, orderly... peaceful elections (e-hope)' in 2010, since 'our people expect nothing less.'",
-  "source_xlsx": "cjp_books_curated_normalized.xlsx"
+  "source_xlsx": "cjp_books_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "elections_and_automated_voting"
+    ],
+    "secondary": []
+  }
 }

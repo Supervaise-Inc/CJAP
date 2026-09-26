@@ -180,5 +180,13 @@
     "ends with comparative-challenge interrogative ('Can we do the same?') as the implicit Philippine reform agenda"
   ],
   "one_paragraph_summary": "Despite Trump's baseless suits, shameless shenanigans, chaotic mobs, and incited rioters, the US Congress certified Joe Biden's 306-232 Electoral College victory -- a 'fitting conclusion' to the dismissal of more than 50 Trump post-election suits by federal and state courts including the Supreme Court of the United States. Panganiban inventories the escalating shenanigans: Trump's denunciation of absentee voting while ironically using a Florida absentee ballot; Mike Flynn's unprecedented call for martial law and a re-staging of the 2020 election; the now-infamous Raffensperger call demanding 11,780 votes to flip Biden's 11,779-vote lead in Georgia by a single ballot, with criminal-charge threats; and the request that VP Pence undermine the congressional certification. He then turns to a structural comparison: unlike the Philippines, the US has no independent nonpartisan Comelec, no PPCRV or Namfrel watchdogs, no Presidential Electoral Tribunal -- 50 states regulate their own elections, and chief election officers are usually elected partisan secretaries of state. Yet despite these structural gaps, US elections have been comparatively peaceful, orderly, and credible because partisan officers nonetheless follow the law and do not invent facts to suit their biases. Concrete examples of institutional resistance: Raffensperger's 'President Trump... We don't agree that you have won' after a thrice-counted (once-manually-at-Trump's-request) ballot; the Jan 5 Georgia Senate runoff returning two Democrats and giving VP Harris a 50-50 tie-breaking vote; Pence's textual constitutional rebuff ('The Constitution constrains me from claiming unilateral authority'); the 10 living former US secretaries of defense (two from Trump's own term) declaring no military role in resolving the election; and the affirmative vote of three Trump-appointed Scotus justices dismissing his suit on short shrift. CJ closes with a two-line ordinal summary and a comparative challenge to the Philippine reader: without constitutional safeguards or private sentinels, the US still produced a credible election; Trump did his worst, and American democracy still prevailed -- 'Can we do the same?'",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "elections_and_automated_voting"
+    ],
+    "secondary": [
+      "us_supreme_court_and_american_politics"
+    ]
+  }
 }

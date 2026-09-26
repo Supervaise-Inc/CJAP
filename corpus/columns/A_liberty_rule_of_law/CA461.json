@@ -122,5 +122,11 @@
     "frames CJ Concepcion's original intent as the authoritative design rationale for the liberty-protection function"
   ],
   "one_paragraph_summary": "Panganiban reports on Dean Joan Largo's lecture at USC Cebu -- one of the 10 holders of the CJ Panganiban Professorial Chair -- arguing that the Philippine SC is the most powerful court in the world: unlike most supreme courts (which have only the traditional power to settle controversies) and most parliamentary systems (where judicial review is vested in separate constitutional courts), the Philippine SC has all three judicial prerogatives, including the unique expanded certiorari jurisdiction to strike down grave abuse of discretion by any branch or instrumentality of government -- framed by the Constitution as a non-waivable 'duty.' He acknowledges Dean Largo's democratic concern that unelected judges reversing elected officials is problematic and that constitutional guarantees are now codified, making the third prerogative less necessary. CJ agrees on economic matters: Garcia vs BOI (1990), where the SC voided a BOI decision on petrochemical plant location and feedstock choice -- purely economic questions outside judicial expertise -- caused investors to abandon the project and disrupted PH industrialization, making it 'the most glaring example of the misuse of the expanded certiorari duty.' But on liberty, CJ insists the power must remain: CJ Concepcion proposed it specifically to guard against an intrusive and abusive President, and 'eternal vigilance is the price of liberty.'",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "property_contracts_and_economic_rights"
+    ],
+    "secondary": []
+  }
 }

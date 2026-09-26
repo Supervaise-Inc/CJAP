@@ -108,5 +108,13 @@
     "VIPs-as-ASEAN-centers-of-gravity: recognizing the emerging economic leaders within ASEAN as the foundation for optimism"
   ],
   "one_paragraph_summary": "Delivered February 26, 2015 as the opening luncheon address at the 12th ALA General Assembly -- on the theme 'Sharing Prosperity at the Crossroads of ASEAN Integration: the Legal Challenges,' at the invitation of incoming ALA President Ave Cruz -- this speech by CJP opens by twice quoting Martin Luther King: 'If a man does not have a job or an income, he has neither life nor liberty nor the possibility for the pursuit of happiness.' He grounds the ALA theme in his twin beacons philosophy ('justice and jobs; freedom and food; ethics and economics; peace and development; liberty and prosperity -- one is useless without the other') and in FLP's founding mission (2011, CJP's 75th birthday). He advances the Confucius fisherman thesis with its governance corollary: government provides guarantees, incentives, institutions and minimal regulations -- not to give fish but to teach fishing, fund the boat, allow ocean access, and teach marketing. Three natural experiments validate the thesis: the US (Edison through Jobs, contained by FDR/Eisenhower good governance); China (Deng Xiaoping's One-Country-Two-Systems unleashing entrepreneurial ingenuity); and the Korea comparison (South Korea's private initiative vs. North Korea's 'abject poverty as a result of its tight grip on creativity'). He identifies the ASEAN rising stars: Singapore (first world), Malaysia and Thailand (exemplars), and 'the VIPs of the world, Vietnam, Indonesia and Philippines' with enviable GDP growth records. The speech's most concrete policy recommendation: the Philippines' 34-day, 16-step, 17%-of-per-capita-income process to start a business vs. Malaysia's 6-day, 3-step, 7% -- 'certainly, the lawyers of Asean can easily help solve this simple problem by tapping Malaysia as the model.' He closes with optimism: at the Assembly's opening he sees happy faces; at the closing, he expects 'even happier faces for, by then, we would have accomplished our mission.'",
-  "source_xlsx": "cjp_speeches_curated_normalized.xlsx"
+  "source_xlsx": "cjp_speeches_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "twin_beacons_doctrine"
+    ],
+    "secondary": [
+      "economy_taxes_and_prosperity"
+    ]
+  }
 }

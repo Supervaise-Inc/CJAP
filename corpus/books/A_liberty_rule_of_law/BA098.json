@@ -182,5 +182,13 @@
     "inquiries must follow duly published rules and respect the Bill of Rights, and may not usurp judicial functions"
   ],
   "one_paragraph_summary": "Chapter 19 of 'Liberty and Prosperity' digests The Senate v. Ermita, the challenge to Executive Order 464, which the President issued on September 28, 2005 requiring department heads and a broad class of senior executive, military, police and security officials to secure presidential consent before appearing before either House of Congress. Invoking it, officials declined to attend Senate hearings on alleged presidential electoral fraud, the North Rail project and the fertilizer funds, and the Senate and several senators sued, claiming the order had rendered the chamber inutile. In a unanimous 14-0 Decision written by Justice Conchita Carpio Morales, the Court first upheld the standing of the Senate, its members, the Bayan Muna, Anakpawis and Gabriela representatives and the Bayan Muna party-list group, while denying standing to PDP-Laban for asserting only a generalized interest, and held the case ripe because implementation had already produced nonappearances. On the merits it distinguished Section 22 of Article VI, the Question Hour, where appearance is discretionary under a presidential system, from Section 21, inquiries in aid of legislation, where attendance is compulsory because, per Arnault v. Nazareno, the power of inquiry is coextensive with the power to legislate. Sections 1 and 2(a) of EO 464 were therefore sustained, while Sections 2(b) and 3 were struck down. Drawing on Schwartz, Rozell, Black's Law Dictionary, U.S. v. Nixon and Almonte vs. Vasquez, the Court held that executive privilege covers only certain sensitive types of information, never officials by reason of office, and that its extraordinary character inclines heavily against secrecy and in favor of disclosure. A claim must be clearly asserted with its specific basis stated, may be invoked only by the President or the executive secretary 'By order of the President,' and cannot be made by mere silence; an official summoned must be given reasonable time to seek an invocation, failing which Congress may compel appearance. The Court also noted that unduly limiting disclosure in public legislative investigations denies citizens information presumed of public concern, denied both Motions for Reconsideration with finality on July 14, 2006, and recorded Justice Tinga's separate view that the order was valid on its face as an exercise of executive control though unconstitutional in its application.",
-  "source_xlsx": "cjp_books_curated_normalized.xlsx"
+  "source_xlsx": "cjp_books_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "impeachment_accountability"
+    ],
+    "secondary": [
+      "public_funds_budget_and_bank_evidence"
+    ]
+  }
 }

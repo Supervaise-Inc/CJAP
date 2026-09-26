@@ -144,5 +144,11 @@
     "stare-decisis discipline: dissenters bound to apply prior majority rulings"
   ],
   "one_paragraph_summary": "Panganiban catalogues how the Supreme Court has liberally interpreted Article 26 of the Family Code to recognize foreign divorces obtained by mixed couples -- by judicial or non-judicial bodies, for any cause, and regardless of which spouse initiated -- provided the divorce is valid in the place where it was obtained. The latest decision, Republic v. Bayog-Saito (Aug. 17, 2022, ponente Justice Henri Jean Paul B. Inting), recognizes the divorce granted by the mayor of Minami-ku, Yokohama City, Japan, based merely on a 'divorce notification' filed by Japanese husband Toru Saito with the written acquiescence of his Filipino wife Helen Bayog, and recorded in the Official Family Registry of Minami-ku -- no court appearance required. To obtain Philippine recognition, however, Helen had to submit five DFA-authenticated documents to the Tarlac City RTC: the Certificate of Marriage (Aug. 30, 1999, Pasay City), the Certificate of Acceptance of Divorce Notification by Mayor Takashi Yamaguchi (Oct. 16, 2012), the duly authenticated Family Register of Toru, the Divorce Certificate from Vice Consul Kengo Fukasawa at the Japanese Embassy, and pertinent provisions of the Civil Code of Japan with English translation. He stresses the limit: divorce between Filipino couples remains invalid here -- 'Once married, forever married,' with Muslim Filipinos under a separate law -- and advance-bills a future column on the liberalized PI doctrine. The animating principle of the liberalization is to avoid the 'anomaly that results ... from a Filipino spouse being tied to the marriage while the foreigner spouse is free to remarry.' Republic v. Manalo (April 24, 2018, Justice Peralta) justified the liberal reading on twin canons -- 'Verba legis non est recedendum' (no departure from statutory words) and the purposive principle that laws should be construed to carry out, not defeat, their ends. Republic v. Galapon (Jan. 22, 2020, Justice Caguioa, who had dissented from but had to obey Manalo) extended the rule: the Filipino spouse may remarry where the divorce was obtained (i) by the foreign spouse, (ii) jointly, or (iii) solely by the Filipino spouse.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "marriage_annulment_and_the_family_code"
+    ],
+    "secondary": []
+  }
 }

@@ -152,5 +152,14 @@
     "'God is not finished with him yet' as transformative-spiritual-journey premise"
   ],
   "one_paragraph_summary": "After hosting an asalto in his home for the 14 FLP bar topnotchers and passers, Panganiban reflects on his own 1960 bar experience as recounted in Salonga and Miranda-Feliciano's late-2007 'A Test of Courage': hospitalized with diarrhea and flu, wading through R. Papa Street floodwater between FEU Hospital and the University of the East, and pep-talked by Dean Salonga ('Art, take the exams, you will get well') into placing sixth. He honors Salonga -- joint Numero Uno with Diokno in the 1944 bar, Harvard LLM, Yale doctorate, and revered Senate President -- as the model he tries to echo. He stresses that what lies beyond the bar is a demanding ethics test under the CPRA's six-canon integrity formulation, that competence is measurable but ethics is not always apparent, and that new lawyers need a mentor or historical role model to emulate. He closes with the hope that someday his scholars will surpass him, fulfilling Salonga's 'God is not finished with him yet' promise.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "life_story_family_school_and_church",
+      "foundation_for_liberty_and_prosperity"
+    ],
+    "secondary": [
+      "bar_exam_and_legal_education"
+    ]
+  }
 }

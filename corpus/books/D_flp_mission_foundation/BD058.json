@@ -181,5 +181,13 @@
     "narrow construction of operative terms: 'intervention' confined to substantial and significant participation, 'matter' excluding abstract or procedural advice"
   ],
   "one_paragraph_summary": "Chapter 20 of 'Judicial Renaissance' recounts Presidential Commission on Good Government v. Sandiganbayan, which Panganiban presents as a case of first impression forcing the Court to balance its drive to upgrade the ethics of lawyers in government service against the government's right to recruit competent counsel. The PCGG had moved to disqualify Atty. Estelito P. Mendoza, solicitor general when the Central Bank declared GenBank insolvent in March 1977, from representing Lucio Tan and others in the sequestration cases over Allied Banking Corporation, invoking Rule 6.03 of the Code of Professional Responsibility against accepting engagement in any matter in which a lawyer had intervened while in government service. The Sandiganbayan denied the Motion, and by a majority of eleven, with two dissents and two non-participations, the Court denied the PCGG's certiorari Petition. Justice Puno's ponencia traced the Rule to the ABA's 1924 concern with the 'revolving door,' distinguished adverse-interest from congruent-interest conflicts, and held that advising the Central Bank on liquidation procedure was not the 'matter' the Rule contemplates and that Mendoza's participation -- signing an initiatory pleading -- was insignificant and insubstantial; it also warned against chilling government recruitment and against disqualification used as a harassment tactic. Panganiban wrote separately to dismiss the Petition only on conclusiveness of judgment and prescription, arguing that the Sandiganbayan's final April 22, 1991 Resolution on the identical ground had become immutable, that identity of parties and issues alone suffices for estoppel, and that the congruent-interest restriction should expire five years after separation from government, since a perpetual and absolute ban would be unduly harsh, unreasonable and unfair. He reports Justice Sandoval-Gutierrez's concurrence condemning the PCGG's 'scattershot' motions, Justice Carpio Morales's dissent rejecting both conclusiveness of judgment and the five-year cap, Justice Callejo's dissent urging strict application as an ethical compass, and Justice Tinga's view that applying a rule promulgated after Mendoza entered government would violate his right to due process.",
-  "source_xlsx": "cjp_books_curated_normalized.xlsx"
+  "source_xlsx": "cjp_books_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "property_contracts_and_economic_rights"
+    ],
+    "secondary": [
+      "ill_gotten_wealth_and_the_pcgg"
+    ]
+  }
 }

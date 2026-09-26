@@ -121,5 +121,13 @@
     "treats scalability (SC adoption) as the ultimate validation of an institutional reform"
   ],
   "one_paragraph_summary": "Panganiban commends Court of Appeals Presiding Justice Andres Reyes Jr. for his Zero Backlog program, which reversed the CA's chronic negative disposal performance -- 2008: -5.93%, 2009: -9.81% -- from the moment of his appointment on February 22, 2010, producing seven consecutive years of positive disposal rates: +4% in 2010, +17% in 2011 and 2012, +13% in 2013, +8% in 2014, +11% in 2015, and +13.19% in 2016. He contextualizes the CA's challenge: expanded jurisdiction handling ~90% of all elevated cases (covering Ombudsman admin appeals per Fabian, NLRC appeals per St. Martin, death penalty review per Mateo, AMLC freeze orders, Writs of Amparo/Habeas Data/Kalikasan, corporate rehabilitation, and NCIP cases) with 69 justices in 23 divisions, all subject to the constitutional 12-month decision deadline. The practical result, per CA Clerk of Court Marigomen, is that 80% of submitted cases are now less than one year old -- approaching constitutional compliance. CJ closes by noting that Reyes's dashboard and computerized case-monitoring system has been adopted by the SC for all courts nationwide, making the CA's administrative innovation a system-wide judicial reform.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "judicial_reform"
+    ],
+    "secondary": [
+      "death_penalty_and_echegaray"
+    ]
+  }
 }

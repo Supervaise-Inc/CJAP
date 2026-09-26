@@ -159,5 +159,11 @@
     "Filipino-virtues catalogue (Davide) as the integrative ideal"
   ],
   "one_paragraph_summary": "Chapter 5 of 'Justice and Faith' reproduces CJP's master-of-ceremonies introductions of the then-sitting members of the Supreme Court at Justice Justo P. Torres Jr.'s retirement rites on October 22, 1997 -- each delivered as the named justice rose, per a 'hallowed tradition,' to present the honoree with a memento of his term. Only ten justices are introduced because Padilla and Hermosisima had retired and Narvasa and Regalado were abroad on official business. The vignettes are deliberately plural: Puno is 'a trained surgeon' wielding 'laser-like precision' and waging Holmes-like lonely dissents; Vitug is 'an icon of the academe' whose restrained language renders law in 'cadenced expression'; Romero, 'the gracious and precious gem of the Court, its only lady member,' tenaciously battles 'sometimes chauvinistic colleagues'; Francisco is 'the essential magistrate' guided solely by 'the quiet comfort of a disciplined conscience'; Mendoza is 'molded in the ivy-league traditions of Yale,' scholarly and impeccable; Kapunan is 'the perfect gentleman of the bench,' firm but never imperious; Melo is 'the consensus builder' and 'the living barometer' of the Court; Bellosillo is 'the paragon, the pith and soul of the career magistrate,' diligent and methodical; and at the rhetorical climax CJP shifts into Tagalog to name Davide 'the epitome of the Filipino jurist -- makabayan, maginoo, marangal, matapang, masipag, mapagkakatiwalaan.' The longest introduction is reserved for the honoree, Justice Torres, whose March 13, 1996 Ramos appointment is woven into a 'lucky 13' running joke (CA seniority 13, SC seniority 13, his father Justo Sr. 13th in the 1925 bar), softened only by Rose's heart, where 'he is Number One and only'; the closing invites the audience to rise for Torres's valedictory.",
-  "source_xlsx": "cjp_books_curated_normalized.xlsx"
+  "source_xlsx": "cjp_books_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "life_story_family_school_and_church"
+    ],
+    "secondary": []
+  }
 }

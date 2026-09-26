@@ -149,5 +149,13 @@
     "treats auxiliary-role framing (help, do not interfere) as the principled accommodation of ICI to OMB"
   ],
   "one_paragraph_summary": "Panganiban responds to the TRILLION PESO MARCH and other rallies that denounced the Independent Commission for Infrastructure as a 'palabas' by extending the ICI a chance to prove itself, while listing the constitutional and operational questions that linger around its very creation. He asks whether 'all government officials' in the ICI mandate reaches senators and congressmen, whether lawmakers will accept being summoned, interrogated, arrested or detained, and whether Congress will pass laws giving the ICI subpoena, contempt, and arrest powers comparable to those it routinely deploys against legislative resource persons. He invokes Biraogo v. Philippine Truth Commission (Dec. 7, 2010, J. Jose Catral Mendoza, en banc) -- which struck down PNoy's EO 1 for equal-protection violation since it targeted only Arroyo's 'previous regime' -- to ask whether the ICI's prioritization of the 'last 10 years' may similarly fail the equal-protection clause. The ICI risks adding an unnecessary bureaucratic layer doomed to fade like Ramos's PCAGC, Arroyo's PAGC, and Duterte's PACC, especially since its findings are merely recommendatory and it will be swamped by lawsuits. By contrast, the OMB is constitutionally armed and insulated -- 7-year non-renewable term, impeachment-only removal, undiminishable salary -- with the Ombudsman vacancy since July 27 awaiting the JBC's super-final Oct. 6 vote and the President's 20-day window. CJ's bottom line: only the OMB can actually jail trillion-peso plunderers, and the ICI's real role is to help and facilitate that work without interfering with it.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "independent_commissions_and_appointments"
+    ],
+    "secondary": [
+      "jbc_discernment_and_appointment"
+    ]
+  }
 }

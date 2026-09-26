@@ -135,5 +135,11 @@
     "lexicon-shift strategy ('nonmarital' for 'illegitimate') as a form of interpretive reform"
   ],
   "one_paragraph_summary": "On the day after Christmas, Panganiban turns to the Supreme Court's care for 'the least, the last, and the lost' -- the 'laylayan ng lipunan' -- by featuring Aquino v. Aquino (Dec. 7, 2021), the 47-page ponencia of Senior Associate Justice Marvic M.V.F. Leonen. The decision reverses traditional norms in two ways. First, lexical: the Court refuses to use the 'pejorative and disparaging' label 'illegitimate' for children born of parents not married to each other and coins 'nonmarital' instead -- explaining that, beyond children born to parents with marriage impediments, nonmarital birth covers parents below marriageable age, victims of sexual assault who refused to marry the perpetrator, fathers who died before birth, and parents who chose not to marry though qualified. The Court cannot amend the statute, only interpret it. Second, substantive: it recognizes the right of such children to inherit 'by representation' from their grandparents who died intestate, partly shattering the 'iron curtain' of Article 992 of the Civil Code, which had barred inheritance ab intestato between legitimate and illegitimate lines. Panganiban traces the historical layering of the disability: from the Spanish conquistadores' Civil Code in 'this blessed land of the morning,' through the 1950 Civil Code's trichotomy (natural, natural by legal fiction, spurious), to the 1988 Family Code's legitimate/illegitimate binary that nonetheless preserved many earlier disabilities. He shares his own law-school exchange with Prof. Edgardo L. Paras (later a Supreme Court justice): 'there are no illegitimate children, only illegitimate parents.' The Court -- anchored on 1987 Constitution policies and international treaties -- courageously held that 'we are not duty bound to uncritically parrot archaic prejudices and cruelties' and that 'the best interest of the child should prevail.' He notes in passing SAJ Leonen's parallel Writ of Kalayaan project, worth another column.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "marriage_annulment_and_the_family_code"
+    ],
+    "secondary": []
+  }
 }

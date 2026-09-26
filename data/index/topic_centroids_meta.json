@@ -10,7 +10,7 @@
     "sha256": "596a9fb08b0315eee8e935673791b42340c492ac17beac78611cfaffea6c9d1e",
     "n_chunks": 13549,
     "corpus_dense_build_date": "2026-09-26",
-    "chunk_index_sha256": "f89071b92afaf12946f7c9e2421cdd6ddb319e131d20214263348438306363b2",
+    "chunk_index_sha256": "e672757b9dbce883bdd499acec7a6c69df0d8e12145df368337cd3791e3c03af",
     "normalisation": "after centring: centred(x) = (x - mu) / ||x - mu||"
   },
   "centroid_recipe": "unit(mean of ALL chunks of the member docs - corpus_mean); chunk-weighted; built from scratch (no incremental growth, no zero-member fallback); members = topic_map.json doc_ids",

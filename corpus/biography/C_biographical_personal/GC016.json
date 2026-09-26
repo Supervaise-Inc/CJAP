@@ -170,5 +170,11 @@
     "Jurist-judged-by-courage-over-comfort + responsibility-over-silence closing standard"
   ],
   "one_paragraph_summary": "The EDSA II chapter dramatizes Art's defining act of judgment. January 2001 is framed not as a legal puzzle but as 'a moral emergency, unfolding faster than doctrine could keep pace' -- Estrada had lost the confidence of the people, his authority eroded 'not by court ruling but by public withdrawal,' yet 'in the cold language of law, he remained President'; Arroyo was 'tethered by constitutional constraint,' the Constitution 'designed to ensure order' now 'threatened paralysis,' and a coup was 'no longer unthinkable.' From within the Supreme Court Art imagined the abyss -- violence at the barricades, bloodshed justified by confusion, Constitution rendered irrelevant by force -- and concluded he 'feared violence more than controversy' and 'constitutional collapse more than personal criticism.' Withdrawing into prayer and judgment in the pre-dawn hours of January 20, he reaches the conclusion that 'the Constitution had to be saved from annihilation by inaction.' He places the call to CJ Hilario Davide Jr. with the direct, unembellished, grave imperative 'Swear her in.' Davide listens; the proposal is 'extraordinary -- not because it was illegal, but because it was unprecedented.' By noon Arroyo takes the oath; the immediate crisis passes; the Republic holds. When the legality of her presidency later reaches the Court, Art recuses himself (so does Davide), and the Court rules 13-0 to uphold her ascension, later denying with finality Estrada's motion for reconsideration. The chapter closes with the charge: 'He had not acted to seize power. He had not acted to choose a president. He had acted, as he understood it, to preserve order when order was about to fail' -- judged not by popularity but by 'whether, when the Constitution trembles, he chooses courage over comfort and responsibility over silence.'",
-  "source_xlsx": "cjp_biography_curated_normalized.xlsx"
+  "source_xlsx": "cjp_biography_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "presidential_power_martial_law_people_power"
+    ],
+    "secondary": []
+  }
 }

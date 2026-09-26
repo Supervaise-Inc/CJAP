@@ -123,5 +123,11 @@
     "uses statistical concentration (uneven 50-vs-5,000 distribution) as evidence of management failure not capacity failure"
   ],
   "one_paragraph_summary": "Panganiban examines the Angara-Gordon Senate bill creating 100 RTC and 50 MeTC/MTC judges-at-large to ease the trial-court backlog of over 640,000 pending cases distributed unevenly across 1,100 RTC salas (some carrying 5,000 cases, others 50), with 25% of RTC salas vacant and BJMP penal facilities holding 146,302 inmates against a 20,653 capacity. He rejects the bill as theoretically appealing but practically unworkable: judges-at-large would be perceived as inferior to regular judges, subjected to constant family dislocation, paid the same as regulars but exposed to security risks in remote and rebel-infested areas, making it even harder to recruit than the regular posts that already suffer 25% vacancy. He argues that the lower-court 50-judge component is unnecessary since MeTC/MTCs are not congested, and proposes instead two complementary reforms: aggressive JBC recruitment to bring the regular RTC vacancy rate from 25% down to 10%, and creating 150 more regular RTC salas in congested areas presided over by regular judges with full institutional dignity rather than the displaced second-class status of judges-at-large.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "jbc_discernment_and_appointment"
+    ],
+    "secondary": []
+  }
 }

@@ -133,5 +133,13 @@
     "Exercise restraint on breaking developments (Camarines Sur) until documents are in hand"
   ],
   "one_paragraph_summary": "Panganiban updates readers on the Presidential Electoral Tribunal's Bongbong-Leni protest, focusing on the crucial shading-threshold issue now finally ready for ruling after the OSG filed its Comment. Background: the PET had earlier ruled that only 50%-shaded ballots should count, unintentionally disenfranchising voters who shaded between 25% and 50%; the author's June 14 column backed reversion to the 25% threshold, and even Comelec submitted a resolution confirming it used 25% at the precincts. But the OSG sought three successive 15-day extensions despite the PET's explicit warning against further delays, and its final Comment -- while a positive development -- puzzlingly supported Bongbong's 50% stance rather than its own client Comelec's 25% resolution. The author reiterates his preferred 'better remedy': rerunning the SD card digital ballot images, which can speedily settle the threshold issue and guide lower courts in the digital age without resorting to 'snail-paced processes of a bygone era.' This drew two published letters from retired Justice Dante Tinga: first, insisting the Taguig mayoralty ballots were intact (not the occasion for SD card use); second, insisting that Comelec's CFC-image resort in that case violated its own rule requiring revision of physical ballots first. The author rebuts the first with his October 2012 Inquirer quote showing Comelec did in fact use CFC images in Tinga v. Cayetano, dismisses the second with the note that Tinga's SC appeal was dismissed as moot and academic, and closes the collegial dispute with: 'If still unsatisfied, he can maintain his views, while I stay with mine.' He ends by flagging the late-breaking BEI order to explain alleged irregularities in Camarines Sur precincts, pledging to await those explanations before writing on it.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "elections_and_automated_voting"
+    ],
+    "secondary": [
+      "marcos_robredo_election_contest"
+    ]
+  }
 }

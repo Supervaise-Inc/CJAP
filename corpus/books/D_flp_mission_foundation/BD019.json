@@ -99,5 +99,11 @@
     "comparative learning: drawing on the Australian 'paperless courts' experience to assess Philippine feasibility"
   ],
   "one_paragraph_summary": "Appendix C of 'A Centenary of Justice' reproduces CJP's opening remarks, 'A Prelude to Paperless Courts,' delivered September 26, 2001 to introduce a centenary lecture by Justice Robert Nicholson of the Federal Court of Australia on the Australian paperless-courts experience. CJP surveys the new-millennium paradigms reshaping the world -- the contest for preeminence shifting from ideologies and weapons to trade dominance, and strategy moving 'from government control to deregulation, from state ownership to privatization, from national sovereignty to globalization, and from protectionism to trade liberalization' -- alongside the Information Age (where data via the Internet and fiber optics is 'as valuable as oil resources') and the biosciences (cloning, stem cells, DNA, lifespans of 150-200 years). These forces, he argues, transform even 'the normally reclusive and exclusive judicial enclaves.' He then turns to the provocative idea of eliminating paper from 'the most paper-dependent discipline in the world,' where 'Put it in writing' assumes paper and rules like parol evidence, the statute of frauds and best evidence carry 'a definite bias in favor of documentation.' The concrete milestone is legal: with RA 8792 (the Electronic Commerce Act of 2000) and the Philippine Rules on Electronic Evidence (effective August 1, 2001), an electronic document becomes the 'functional equivalent' of a paper one and a digital signature the equivalent of a penned 'John Hancock' -- making the Supreme Court 'one of the first tribunals in Asia' to keep step with the electronic age. CJP closes with measured restraint, noting there is 'as yet no intention... to eliminate paper as the primary medium,' and welcoming the lecture as 'the epochal prelude to paperless legal proceedings in our country.'",
-  "source_xlsx": "cjp_books_curated_normalized.xlsx"
+  "source_xlsx": "cjp_books_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "science_technology_and_the_law"
+    ],
+    "secondary": []
+  }
 }

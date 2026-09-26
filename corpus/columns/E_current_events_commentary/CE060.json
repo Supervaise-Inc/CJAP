@@ -149,5 +149,13 @@
     "uses '270' as numerical-fixity organizing principle"
   ],
   "one_paragraph_summary": "Two days before the November 3, 2020 US election, Panganiban explains 'the race to 270' between Joe Biden (78) and Donald Trump (74). US voters do not elect the president directly -- they elect 'electors' (538 in total, allocated to the 50 states and DC in rough proportion to population: California has 55; Alaska, Montana, Wyoming, and DC have three each), and a candidate needs at least 270 electoral votes to win. Most states (all except Maine and Nebraska) apply a winner-takes-all rule, awarding their full electoral slate to the popular-vote plurality winner. Each state legislature determines its own elector-selection process, but Election Day is fixed (first Tuesday after the first Monday of November) and the winner is sworn in on January 20. Under this complex, indirect system, a candidate may win the nationwide popular vote yet lose the electoral vote -- which has happened in five elections (1824, 1876, 1888, 2000, 2016). In 2016, Hillary Clinton won three million more popular votes than Trump but lost the electoral vote 304-227. The most controversial mismatch was 2000: Al Gore won the popular vote but lost 271-266 to George W. Bush after the US Supreme Court, voting 5-4, rejected a manual recount of 'imperfectly punched automated ballots' in Florida. CJ notes the partisan pattern: Florida's governor was Jeb Bush (George's brother), the state electoral commission was headed by a Bush-appointed Cabinet member, and the five anti-Gore justices were all Republican-appointed while the four pro-Gore were all Democratic-appointed. Yet Gore 'humbly accepted the decision and conceded defeat.' During CJ's CJ-tenure in 2006, Gore visited Manila and in a private conversation answered CJ's question why he had not taken his remedies to America's streets: 'Mr. Chief Justice, there is something greater than me. The survival of our democratic institutions is more important than my personal victory. The Supreme Court had spoken. Though I disagreed with its decision, I had a duty to respect and obey it... Can you imagine a leaderless United States?' -- to which CJ appends, 'Rule of law at its best!' Structurally, the Electoral College's 'theoretical parity among the states' -- reflected also in the 100-member Senate (two per state regardless of population) -- makes the Union 'democratic' in the same way that 'the sovereign equality of independent states in the United Nations gives every member one vote,' so India (>1 billion people) is the sovereign equal of Singapore (<6 million).",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "elections_and_automated_voting"
+    ],
+    "secondary": [
+      "us_supreme_court_and_american_politics"
+    ]
+  }
 }

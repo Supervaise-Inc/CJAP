@@ -131,5 +131,11 @@
     "retrospective-tapestry logic: the meaning of individual events becomes clear only from the vantage point of a completed arc"
   ],
   "one_paragraph_summary": "Delivered May 4, 2016 as the commencement address at Taguig City University on the theme 'Nurturing Lives, Fulfilling Dreams,' this speech by CJP opens by calling the TCU graduates 'blessed' for receiving free college education courtesy of Mayor Lani Cayetano and the Taguig City Council -- a generosity that directly mirrors the barrier CJP himself faced: an honor student granted a UP scholarship but unable to enroll because his father could not afford the 15-centavo bus fare from Cataluna Street, Sampaloc to Quezon City. CJP recounts his story from child laborer (hawking newspapers, selling cigarettes, shining shoes; sleeping on sidewalks for morning deliveries; promising himself he would be president of the Manila Times, fulfilled as Inquirer President in 1991) through the UST Trinity failure ('Jesus, Mary, Joseph' -- denied scholarship; went to FEU where he was 'granted a scholarship with no questions asked') through FEU's gifts (Salonga taught him UP-Harvard-Yale; Roces later became youngest Edu Secretary; Fr. Nolan taught him the faith) through the 1960 bar exams (sick, hospitalized, waded knee-deep through flood, placed 6th) to President-elect Ramos's June 1992 offer of the Secretary of Justice position (declined) and then the Supreme Court ('an offer I could not refuse because it is the dream of every lawyer') to the Chief Justice appointment by GMA. He distills five lessons: hard work, excellence, perseverance, kindness and forgiveness, faith. He maps four journey arcs: poor newsboy to Inquirer President; Catholic ignoramus to Vatican lay council; frustrated US-graduate applicant to father of five US university graduates; aspiring chemical engineer to Chief Justice. He closes: 'God has woven my many pains and gains into a magnificent tapestry showing His mystical presence... To God be the glory!'",
-  "source_xlsx": "cjp_speeches_curated_normalized.xlsx"
+  "source_xlsx": "cjp_speeches_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "life_story_family_school_and_church"
+    ],
+    "secondary": []
+  }
 }

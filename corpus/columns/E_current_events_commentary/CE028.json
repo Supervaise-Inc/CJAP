@@ -141,5 +141,12 @@
     "Resolve voting-mode disputes (joint vs separate) before triggering any Con-ass process"
   ],
   "one_paragraph_summary": "Panganiban responds to Sen. Tito Sotto's revival of Charter change -- sparked by the Senate's 19-4-1 vote archiving the House articles of impeachment against VP Sara Duterte and Sotto's claim that Con-ass is the only way to 'erase the Supreme Court's virtual rewriting of the basic law' -- and to Deputy Speaker Ronaldo Puno's privilege speech preferring a constitutional convention on the ground that the impeachment provision's word 'forthwith' is dangerously ambiguous. He walks the reader through the three constitutional modes of amendment (Con-ass via three-fourths of Congress, Con-con, and People's Initiative at 12%/3% -- the last twice nullified by the SC), spotlights the unresolved joint-vs-separate-voting arithmetic (256 jointly versus 18 senators plus 238 representatives), and observes that without the presidential 'baton' no constitutional music can be played, making Marcos's 'no opposition' decisive. His prescription is prudence: wait for the Supreme Court's ruling on the pending motion for reconsideration filed by the House through the OSG, because Cha-cha risks two dangerous second-order outcomes -- a shift to a parliamentary system in which parliament outranks the courts, and the deletion or mangling of the judiciary's Article VIII Sec. 1 duty to strike down grave abuse of discretion, a clause deliberately imposed in 1987 to stop presidential excesses of past regimes. Rather than a rebound or revenge Cha-cha, he proposes a nonpartisan study by the UP Law Center on how the courts have used that duty, and closes with his characteristic counsel: when faced with crisis, do not panic and do not rebel; pause, think, reflect, and act with simplicity and wisdom.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "party_list_charter_change_and_dynasties",
+      "impeachment_accountability"
+    ],
+    "secondary": []
+  }
 }

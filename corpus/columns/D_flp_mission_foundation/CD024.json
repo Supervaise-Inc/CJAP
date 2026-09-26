@@ -114,5 +114,11 @@
     "dissertation judging criteria (significance, comprehensiveness, innovation, writing quality) reflect intellectual-quality framework"
   ],
   "one_paragraph_summary": "Panganiban addresses two linked institutional concerns in a single column. In the first half, he notes that Budget Secretary Diokno's pending Rightsizing bill would abolish the PCGG -- created by President Aquino's very first executive order in 1986 and internationally celebrated for being the first body to crack Swiss and other secret financial havens -- and argues that before any dissolution or merger, the PCGG must be required to fully account for all recovered assets (P170 billion, or only about a third of the initial $10 billion/$500 billion estimate), with the 'many reports of wastage, losses, malversation, criminal neglect, or outright thievery' formally verified and resolved. In the second half, he announces the Foundation for Liberty and Prosperity's 16 new law scholarships for SY 2017-2018 (P200,000 each, split P100K/P80K/P20K for tuition, stipend, and books; co-sponsored by the Tan Yan Kee Foundation with PALS cooperation; for top-20 students with ≥85% GPA at schools above the mean national bar passing rate), and a dissertation contest co-sponsored by the Ayala Group offering prizes of P300,000/P200,000/P100,000 (plus P20,000 for each of the top 20 elimination-round entries), with the submission deadline extended from June 30 to September 15, 2017.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "foundation_for_liberty_and_prosperity"
+    ],
+    "secondary": []
+  }
 }

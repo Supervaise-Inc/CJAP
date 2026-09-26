@@ -152,5 +152,13 @@
     "Lawmakers + courts + media + citizens as the four-tier defenders when an executive abandons institutional commitments"
   ],
   "one_paragraph_summary": "Panganiban celebrates the SCOTUS 6-3 ruling striking down Trump's tariffs as unconstitutional usurpation of congressional taxing power, with CJ Roberts joined by conservatives Gorsuch and Barrett plus the three liberal justices -- Sotomayor, Kagan, and Jackson. He contrasts the Court's polite firmness with Trump's gutter verbiage and praises the three conservatives for courage and grit. The column then catalogs Trump's wider pattern of defiance: ICE detentions exceeding 60,000 mostly without criminal convictions, defiance of judicial orders on deportation, zigzagging tariff reversals that have rendered 'trade policy' functionally meaningless, environmental rollbacks, attacks on UN agencies, the capture of the Venezuelan President, and a military buildup signaling strikes on Iranian nuclear sites. Panganiban concludes that Trump's transactional unilateralism is not 'Make America Great Again' but 'Make America Great Alone,' threatening Philippine enforcement leverage in the West Philippine Sea, and calls on lawmakers, courts, media, and citizens to defend the rules-based order.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "us_supreme_court_and_american_politics"
+    ],
+    "secondary": [
+      "international_law_disputes"
+    ]
+  }
 }

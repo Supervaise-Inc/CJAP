@@ -167,5 +167,14 @@
     "res judicata and grave abuse of discretion as the procedural frames of the second case"
   ],
   "one_paragraph_summary": "Chapter 3 of 'Battles in the Supreme Court' recounted the two Charter change cases that CJP considered the most controversial of his first three years: Santiago v. Comelec and PIRMA v. Comelec. In the first, Senator Miriam Defensor Santiago and others sought to stop the Comelec and Jesus Delfin from conducting a people's initiative to let an incumbent President seek reelection. The March 1997 Decision by Justice Davide, concurred in by eight justices, held RA 6735 inadequate to cover initiatives on constitutional amendments. CJP dissented with Justices Puno, Francisco, Melo and Mendoza. The dissenters accepted that the Comelec could not act without the constitutionally required signatures, twelve percent nationwide and three percent per district, but rejected the thesis of statutory insufficiency; CJP called the majority's position all too sweeping and all too extremist, equivalent to burning the whole house to exterminate the rats, and reported that his research staff could find no authority for the novel concept of an insufficient law. His epilogue placed initiative, referendum and recall among the institutionalized legacies of EDSA people power. Motions for reconsideration deadlocked six to six and were denied with finality. PIRMA, led by the Pedrosa spouses, then filed nearly six million signatures; the Comelec dismissed the petition under the Court's order, and in September 1997 the Court unanimously found no grave abuse of discretion while seven justices refused to re-examine the insufficiency ruling. CJP argued that upholding the law's adequacy would not have validated PIRMA's petition, which still had to answer whether the change was an amendment rather than a revision, which registry would verify signatures, whether the clamor came from the people or from the beneficiaries of term extension, and whether the signatures were genuine. He rebutted claims of partisan alignment by noting that Ramos appointees voted against PIRMA, and closed with his credo that initiative is an alternative to bloody revolution.",
-  "source_xlsx": "cjp_books_curated_normalized.xlsx"
+  "source_xlsx": "cjp_books_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "property_contracts_and_economic_rights"
+    ],
+    "secondary": [
+      "elections_and_automated_voting",
+      "party_list_charter_change_and_dynasties"
+    ]
+  }
 }

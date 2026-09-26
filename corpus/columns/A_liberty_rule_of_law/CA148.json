@@ -158,5 +158,11 @@
     "uses Q&A then 'YES'-then-qualifier rhythm to teach the legal rule before stating personal evaluation"
   ],
   "one_paragraph_summary": "Panganiban opens with the Family Code Article 40 puzzle -- whether an accused can be acquitted of bigamy without a prior judicial declaration of the first marriage's nullity -- and reports that the Supreme Court answered YES en banc in Pulido v. People (July 27, 2021), penned by Justice Hernando with three separate concurring opinions, using the chicken-and-egg facts of Luisito (a 16-year-old who married his 22-year-old teacher Nora in 1983, then Rowena in 1995, was convicted of bigamy in 2009, and saw the second marriage independently declared void shortly after). The judicial declaration is now required only 'for purposes of remarriage' and for civil-rights determinations (heirship, legitimacy, estates, property regimes). The column then pivots to Psychological Incapacity, tracing its doctrinal arc from Santos v. CA (1995) -- which adopted the canonical characteristics of gravity, juridical antecedence, and incurability -- through Republic v. Molina (1997), whose guidelines were sourced from amicus Archbishop Oscar V. Cruz of the Church's National Appellate Matrimonial Tribunal, to Tan-Andal v. Andal (May 11, 2021), Justice Leonen's unanimous ponencia (with nine separate concurring opinions) that denounced Santos and Molina as 'restrictive, rigid, and intrusive on our rights to liberty, autonomy, and human dignity' and eliminated the expert-evidence requirement. In CJ's IMHO, the resulting proceedings are 'strikingly similar to absolute divorce in many jurisdictions,' and he poses a pointed shame-by-creed question to the religious-school alumni jurists who joined Tan-Andal: is the result consistent with St. Thomas More's 'the King's good servant but God's first,' with the Atenean 'amDg,' the Bedan 'Ora et labora,' and the Thomasian 'Veritas'? As 'just a humble offspring of the Be brave tradition of a nonsectarian university that does not have an incumbent member of the Court,' he declines to answer and closes by asking whether the Court should instead have waited for Congress to legislate absolute divorce -- if that be the sovereign will -- rather than mangling the canonical PI doctrine to achieve the same effect.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "marriage_annulment_and_the_family_code"
+    ],
+    "secondary": []
+  }
 }

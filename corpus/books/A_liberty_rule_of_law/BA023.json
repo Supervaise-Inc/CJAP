@@ -118,5 +118,11 @@
     "no-mandate-no-extension: reject postponements that prolong governance"
   ],
   "one_paragraph_summary": "Chapter 5 of 'With Due Respect' (Vol. 5), CJP's October 14, 2007 Inquirer column, is a Q&A on Comelec leadership prompted by his call to 'energize' the poll body to 'finally reform and automate our archaic election system' and hold 'credible, speedy and peaceful elections.' Asked whether a 'great lawyer who is a so-so leader' or a 'visionary leader who is not so great a lawyer' would make the better chair, he picks the latter: the Comelec must 'enforce and administer' election laws, which demands 'innovative leadership, executive ability, and InfoTech know-how' rather than chiefly legal skill -- 'the president... is not even required to be a lawyer' -- with election-law expertise supplied by the commissioners. He cites the Monsod precedent, where the Court liberally read 'practice of law' to qualify Christian Monsod on his 'legal management experience' (a 'hairline 8-to-7 decision' vindicated by 'honest, orderly, and peaceful elections'). He then explains two independence-protecting rules: the ban on reappointments (lest commissioners curry favor with the appointing President and the confirming Commission on Appointments) and the 'unexpired balance of the term' rule from Gaminde v. COA (2000), which preserves the staggered 'two-year interval' so no single President -- normally serving six years -- can appoint all seven, an aim defeated only by GMA's 'constitutional quirk' of about nine and a half years. Finally, he faults GMA's 'ill advised' proposal to postpone the October 2007 barangay elections, invoking David v. Comelec (1997) against 'self-serving propositions to lengthen governance without a mandate from the governed,' and notes that by scuttling the move 'the Senate may have saved GMA from another splitting legal headache.'",
-  "source_xlsx": "cjp_books_curated_normalized.xlsx"
+  "source_xlsx": "cjp_books_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "elections_and_automated_voting"
+    ],
+    "secondary": []
+  }
 }

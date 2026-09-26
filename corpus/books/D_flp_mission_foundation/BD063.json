@@ -143,5 +143,11 @@
     "Regional and international benchmarking of curricula and standards"
   ],
   "one_paragraph_summary": "Chapter 7 of 'Liberty and Prosperity' recounted what Chief Justice Panganiban called a chronicle of faith: the long and tortuous journey to build the Philippine Judicial Academy's Center in Tagaytay. He traced it from July 19, 1995, when President Fidel V. Ramos turned over the 3.3-hectare property to the Supreme Court through the free transfer of 51 percent of a sequestered corporation's shares on the initiative of then Presidential Legal Counsel Antonio T. Carpio, through the cornerstone laid on November 23, 1998 under Chief Justice Narvasa, to the funding detour in which Chief Justice Davide's June 2000 application under Japan's Grant Assistance Program was overtaken by that program's suspension in 2004 and had to be recoursed through the Non-Project Grant Assistance Counter Value Fund. The P300 million grant was finally handed over by Ambassador Ryuichiro Yamazaki on January 26, 2006, during his own term. He reported the preparations already made -- a Project Implementation Committee from the February 22, 2006 Action Planning Workshop, approved terms of reference, budget and timelines for the architectural design, referral to the APJR Bids and Awards Committee, and 12 prospective bidders -- with construction expected to begin the following year. He then set out the ambition: to raise the first and only training school for the Philippine judiciary into a national and ASEAN regional hub for continuing legal education, pre-judicature training, career enhancement and specialized programs, supported by cooperation agreements with Spain and, in prospect, France and the United Kingdom, and by regional moves toward a common judicial curriculum. He proposed as well a special school for aspiring career judges modeled on the Foreign Service Institute, entered by competitive examination but open to poor applicants through scholarships. He closed by tying the project to his ACID agenda, arguing the campaign against corrosive judicial incompetence could be waged faster if begun at the foundations of judicial training.",
-  "source_xlsx": "cjp_books_curated_normalized.xlsx"
+  "source_xlsx": "cjp_books_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "judicial_reform"
+    ],
+    "secondary": []
+  }
 }

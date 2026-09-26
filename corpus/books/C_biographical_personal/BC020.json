@@ -158,5 +158,11 @@
     "Compositional-closure principle: open and close the book with the same integrative frame (twin beacons)"
   ],
   "one_paragraph_summary": "The back matter of 'Justice and Faith,' titled 'From the Men of Justice and Faith,' is a short anthology of accolades from six named figures across ecclesiastical, judicial, academic, and legal-press vantage points -- Chief Justice Andres R. Narvasa (Foreword excerpt reprinted, naming the 'twin beacons' that have guided CJP's professional and personal life); Jaime L. Cardinal Sin (Oct 20, 1995 dinner speech in CJP's honor, calling him 'a very dear friend and lay collaborator ... a truly Catholic lawyer, faithful to the magisterium and loyal to the Lord Jesus Christ'); Bishop Edmundo M. Abaya, then-recent former Vice President of the CBCP (Sept 8, 1995, saying he is 'above all, a man of God and of our Church'); retired Justice Isagani A. Cruz (Oct 15, 1997 letter, 'proving to be one of the most competent members of the Supreme Court today'); Dr. Enrique P. Syquia, publisher of The Lawyers Review (Oct 31, 1997, attesting that CJP is 'the most prolific decision writer in the Supreme Court; but despite the quantity of his decisions, they are also 'quality' as well as clear and readable'); and Dr. Benjamin G. Tayabas, President of Pamantasan ng Lungsod ng Maynila (Nov 2, 1995, naming CJP as 'an exemplary model for the students and faculty of Pamantasan ng Lungsod ng Maynila'). The composition is itself the argument: by closing the book with six independent institutional voices -- Cardinal Archbishop of Manila, former CBCP Vice President, Chief Justice, retired Justice, legal-press publisher, and public-university president -- the back matter triangulates the man-of-God-and-of-the-law identity that the Appendix has just stated as fact, and brackets CJP's first two SC years between two clusters of endorsements (September-November 1995 around his oath; October-November 1997 around the book's publication and his second anniversary). Reprinting Narvasa's 'twin beacons' formula at the back matter closes the volume on the same integrative frame with which it opened -- a deliberate compositional move that makes Justice and Faith the keystone of CJP's self-presentation as a debut author.",
-  "source_xlsx": "cjp_books_curated_normalized.xlsx"
+  "source_xlsx": "cjp_books_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "twin_beacons_doctrine"
+    ],
+    "secondary": []
+  }
 }

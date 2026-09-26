@@ -133,5 +133,13 @@
     "Preserve SC's institutional memory of the Marcos-era judicial capture as a permanent deterrent"
   ],
   "one_paragraph_summary": "Responding to reader requests -- especially from history teachers -- for additional SC jurisprudence documenting Marcos's ill-gotten wealth beyond the cases discussed on February 26, Panganiban surveys four categories of decisions. First, the forfeiture cases: Republic v. Sandiganbayan (July 15, 2003) forfeited $658.175 million from Swiss banks; Marcos Jr. v. Republic (April 25, 2012) forfeited $3.37 million. Second, the regime characterizations: Yuchengco v. Sandiganbayan (January 20, 2006), citing PCGG v. Pena (April 12, 1988), described the Marcos rule as 'a well-entrenched plundering regime of twenty years' marked by 'organized pillage'; Licaros v. Sandiganbayan (October 18, 2004) called it 'a dark chapter in our history'; Republic v. Tuvera (February 16, 2007) described it as a regime of 'national trauma.' Third, the concealment technique: former PCGG Chairman Jovito Salonga revealed in the New York real estate case that Marcos owned the Crown Building through a Netherlands Antilles corporation, owned in turn by Panamanian corporations with untraceable bearer shares -- discoverable only because of the Bernstein handwritten trust declaration dated April 4, 1982 on Manila Peninsula Hotel stationery, found among the first post-EDSA documents. Fourth and most damning, Galman v. Sandiganbayan (September 12, 1986) found that Marcos -- code named 'Olympus' -- stage-managed the Aquino-Galman murder trial in a 'scripted and pre-determined manner' that pre-determined the acquittal of the accused, acting through pressure that the prosecution and judges 'proved to be beyond their capacity to resist' -- conduct the Court found had 'no parallel and precedent in our annals and jurisprudence.'",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "criminal_trials_and_prosecutions"
+    ],
+    "secondary": [
+      "ill_gotten_wealth_and_the_pcgg"
+    ]
+  }
 }

@@ -130,5 +130,11 @@
     "Anticipate that a ruling party's supermajority may override a commission's recommendation if they conflict"
   ],
   "one_paragraph_summary": "Panganiban reports on the Consultative Committee's first major decision: an 11-7 vote choosing the US-style federal-presidential system over the hybrid semi-presidential model. The winning system preserves a tripartite separation of legislative, executive, and judicial powers with a nationally elected president and vice president, a secondary layer of regions or 'states' with state courts, and the Supreme Court's coequal tripartite status -- mirroring the United States. This stands in direct contrast to PDP-Laban's preferred concept (as described on its March 2017 website) of a president as 'head of state responsible for national defense and foreign affairs' and a prime minister 'elected by the House of Representatives/National Assembly responsible for domestic and economic policy' -- which the author characterizes as more akin to the French or Russian presidential-parliamentary system, under which the VP becomes redundant and the Senate and SC are reduced in status and power. Given that PDP-Laban controls the congressional supermajority through Duterte (chair), Pimentel (president), and Alvarez (secretary general), the author asks whether Congress will heed the ConCom's recommendation and leaves it as an open question: 'Let us wait and see.' The column's second section announces the FLP Dissertation Contest winners: Raphael Lorenzo Pangalangan (Oxford/UP, son of ICC Judge Raul Pangalangan and UP Law Prof. Elizabeth Pangalangan) taking first place with P300,000, Tess Marie Tan (USan Carlos) second with P200,000, and four finalists at P20,000 each -- all to be formally awarded on March 23 at Ateneo Law School with Justice Velasco chairing the board of judges.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "criminal_trials_and_prosecutions"
+    ],
+    "secondary": []
+  }
 }

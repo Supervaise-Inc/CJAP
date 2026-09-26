@@ -114,5 +114,11 @@
     "frames compliance-period-and-legislative-remedy as the pragmatic alternative"
   ],
   "one_paragraph_summary": "Panganiban opens with Alberto Lina's (Air 21) offer to establish a 24/7 free OFW call center needing only DOLE cooperation. He then analyzes Gamboa v. Teves (June 28, 2011), in which a majority of 10 led by Justice Carpio held that 'capital' in the public utility constitutional provision means only voting shares, directing the SEC to apply this to PLDT and impose sanctions for violations. CJ explains the 3-member minority's arguments (led by Justice Velasco): the Constitution already ensures Filipino control through two other mechanisms -- (1) foreign investors can use only 40% of common shares in electing directors, so Filipinos always control the board; and (2) only Filipinos may be executive and managing officers. He articulates his 'liberty and prosperity' philosophy: courts should defer to the Executive on economic issues (absent grave abuse of discretion) while weighing heavily in favor of the poor and marginalized in civil liberties cases. Most objectionable is the retroactive sanction threat: investors relied in good faith on the government's 75-year uniform construction since 1935, and punishing them retroactively is 'most cruel and unfair.' If the decision cannot be reversed, investors should be given a reasonable period to comply, and Congress should pass a law governing an orderly and fair divestment process.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "property_contracts_and_economic_rights"
+    ],
+    "secondary": []
+  }
 }

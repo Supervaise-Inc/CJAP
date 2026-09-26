@@ -120,5 +120,11 @@
     "prudence-over-haste: avoid flip-flops by curing the procedural defect first"
   ],
   "one_paragraph_summary": "Chapter 10 of 'With Due Respect' (Vol. 4), CJP's February 27, 2011 Inquirer column, advises the House Committee on Justice that it could resume the impeachment of Ombudsman Merceditas Gutierrez -- suspended by the Supreme Court's status quo ante order -- but should 'tread cautiously and prudently.' His threshold point is technical: while a decision becomes final 15 days after receipt (and a motion for reconsideration can delay finality), the status quo ante order was 'a mere interlocutory order' effective at once on September 14, 2010, so the order lifting it (written into the Court's decision) 'should also be deemed immediately executory,' since 'a court may lift an interlocutory order with immediate effect.' Even so, the way forward is 'full of legal minefields laid down by the conflicting opinions of the justices.' He maps the fracture: of the nine-justice majority, two (Del Castillo and Perez) allowed only the first complaint; Nachura would dismiss on 'prematurity'; and Abad thought the one-year bar 'begins only when the House files the articles of impeachment in the Senate.' Justice Brion's dissent (joined by four) reasoned that when the committee found the complaints 'sufficient in form and substance,' the impeachment Rules 'had not been published and were thus not yet effective' (published September 2, effective September 17), so the committee's declarations were 'void for violating the due process rights of Gutierrez' -- but Brion offered a remedy: resume from 'the last valid action,' the Speaker's referral to the Justice Committee. CJP's prudent counsel: to 'forestall any possible flip-flops and delays,' the committee should take 'a new vote on... sufficiency in form and substance' and give the Ombudsman 'a fresh period of 15 days.' He stresses that, unlike Francisco v. House of Representatives (2003), this Court gave 'no clear answer' on when an impeachment is 'initiated' -- only four justices (Carpio, Morales, Villarama, Mendoza) sustained the Francisco rule, while five dissenters (Corona, De Castro, Brion, Peralta, Bersamin) put the trigger at the committee's sufficiency finding, and Velasco inhibited -- so the committee must 'tiptoe its way in the maze of these labyrinthine opinions.'",
-  "source_xlsx": "cjp_books_curated_normalized.xlsx"
+  "source_xlsx": "cjp_books_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "impeachment_accountability"
+    ],
+    "secondary": []
+  }
 }

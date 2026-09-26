@@ -133,5 +133,14 @@
     "structural-competence analysis matching Comelec functions to a multidisciplinary commissioner mix"
   ],
   "one_paragraph_summary": "Panganiban opens with the express constitutional prohibition (Article IX-C, Section 2) against any temporary or acting appointment to the Commission on Elections -- including its chair -- and reconciles it with Brilliantes v. Yorac (Dec. 18, 1990), which allows commissioners to designate one of their own as acting chair while awaiting a permanent appointment. With CJ Sheriff M. Abas retiring on Feb. 2, 2022, and Socorro B. Inting designated acting chair, the President faces a congressional recess from Feb. 2 to May 23 that complicates permanent appointment. He explains the ad interim mechanism under Article VII, Section 16: such appointments are effective until disapproved by the Commission on Appointments or until the next adjournment of Congress, and once issued cannot be withdrawn. To ensure his appointees survive his June 30 term, the President should seek CA confirmation from the lame-duck Congress reconvening May 23, otherwise his picks may serve only until canvassing ends. Panganiban argues -- 'IMHO' -- that the President should now name a permanent chair and fill the two other vacancies, notes that non-lawyers may serve as commissioners (but not chair), and recommends one or two commissioners with finance, logistics, or digital-technology expertise to match Comelec's many-faceted duties. He observes that Duterte has favored insiders (Abas, plus SC picks from the Court of Appeals, Sandiganbayan, and OCA), unlike past outsider chairs (Davide Jr., Monsod, Pardo, Melo), and predicts Inting will likely succeed Abas. He closes by foreshadowing whether Duterte will maintain his insider habit when filling a current SC vacancy -- 'Abangan.'",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "elections_and_automated_voting"
+    ],
+    "secondary": [
+      "independent_commissions_and_appointments",
+      "supreme_court_vacancies_and_chief_justiceship"
+    ]
+  }
 }

@@ -130,5 +130,11 @@
     "Leverage executive power to reclassify (via proclamation) or protect (via national park designation) public lands"
   ],
   "one_paragraph_summary": "Panganiban answers the question 'Who owns Boracay?' by distilling Secretary of DENR v. Mayor Yap (October 8, 2008), which upheld Proclamation No. 1064 (May 22, 2006) classifying the island into 400 hectares of protected forestland and 628.96 hectares of alienable and disposable agricultural land. Under the Regalian Doctrine -- rooted in Spanish conquest and continued through the 1935, 1973, and 1987 Constitutions -- all land not clearly within private ownership belongs to the state. Only the portions covered by valid Torrens titles, like the 1933 Tirol OCT and its successors-in-interest, are privately owned. Prior to Proc 1064, Boracay was entirely unclassified public land treated as public forest under PD 705, and no one could acquire ownership through possession alone, no matter how long or notorious -- because the essential second prong of the CA 141 judicial-confirmation test (prior alienable-and-disposable classification) was absent. Stripping the forest cover to build beach resorts, restaurants, and commercial establishments does not convert the land from public forest to alienable agricultural land. Proc 1064 changed the status of 628.96 hectares, opening the path for Filipinos to now apply for judicial confirmation of imperfect titles or other modes of acquisition under CA 141. The column closes with the author's own prescription: President Duterte may repeal or modify Proc 1064 and reconvert Boracay's public lands to protected forest, or better still, designate them a national park that cannot be owned privately -- a stronger and more permanent protection.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "property_contracts_and_economic_rights"
+    ],
+    "secondary": []
+  }
 }

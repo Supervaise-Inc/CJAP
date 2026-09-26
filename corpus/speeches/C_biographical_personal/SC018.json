@@ -154,5 +154,11 @@
     "co-protagonist framing: Leni's independent professional achievements prevent her from being subordinated to CJP's narrative"
   ],
   "one_paragraph_summary": "Published April 9, 2023 -- the day of her passing -- this memorial biography of Professor Elenita 'Leni' Carpio-Panganiban, CJP's wife of 62 years, is structured in four sections: loving wife, nurturing mother, inspiring professor and colleague, and faithful daughter of God. Born on the leap-year date of February 29, 1940, she graduated cum laude from St. Scholastica's College, earned an MA in Statistics from UP's Statistical Center, and completed her MBA at AIM in 1971 as one of four women in the pioneering batch -- on a Central Bank full scholarship after 13 years as statistician and economist. She joined AIM's faculty in 1973 as its first woman faculty member and taught for 37 years (retiring 2009), serving as MBM Coordinator multiple terms and Associate Dean 1999-2000; her daughter Tet is now also an AIM professor. Msgr. Gerry Santos narrated their meeting: a 1958 train to Naga City for an NUSP Seminar on Communism (Art was NUSP president, Leni represented St. Scholastica's; she had wanted to be a Benedictine nun). They married April 8, 1961 at Immaculate Conception Parish Church in Cubao. The 2021 Diamond Anniversary was held privately at Carmelite Chapel, Tagaytay, presided by Cardinal Advincula and attended by all 86 incumbent Philippine archbishops and bishops. The couple returned from a joyful Singapore trip on April 7, 2023, privately celebrated their 62nd anniversary on April 8, and Leni passed suddenly on April 9 -- 'That is so Mom, giving us a gift to the very end' (Archie's eulogy). The biography quotes all five children: Celine ('My Mom was my image of perfection'); Len ('She was a constant, reassuring presence'); Archie (the April 8 phone call found her 'very happy and talkative... less than 24 hours later, she was gone'); Tet (Leni's letter: 'Tet, you are so quiet... You have to learn to fight'); and Mabel ('Mom put family above all else'). CJP calls her 'the gentle wind beneath my wings and the inspiration of my humble career.'",
-  "source_xlsx": "cjp_speeches_curated_normalized.xlsx"
+  "source_xlsx": "cjp_speeches_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "life_story_family_school_and_church"
+    ],
+    "secondary": []
+  }
 }

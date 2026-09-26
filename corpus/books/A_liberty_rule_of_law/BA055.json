@@ -187,5 +187,11 @@
     "stare decisis yields to the verity, integrity and correctness of jurisprudence"
   ],
   "one_paragraph_summary": "Chapter 5 of 'Battles in the Supreme Court' gathered three cases CJP treated as battles over the people's sovereignty. In Osmena v. Comelec the Court, speaking through Justice Mendoza, dismissed by 10 to 4 a challenge to the political ad ban of Section 11 (b) of RA 6646, holding the restriction regulatory, incidental and limited in time and scope, and finding no empirical data that it disadvantaged poor candidates. CJP dissented with figures, showing by actual computation that thirty quarter-page newspaper ads cost less than mailing an equivalent number of posters, and argued that since candidates need to advertise precisely during the election period the ban is total rather than limited; far from leveling the playing field, he wrote, the Court had abolished it, favoring the rich and popular who can afford costlier propaganda. He rejected stare decisis as a reason to preserve error, citing Roscoe Pound, and urged that clean elections require not only the absence of guns, goons and gold but the presence of principles, platforms and programs. In the companion case, Telebap v. Comelec, the Court upheld by 11 to 3 the compulsory grant of free broadcast time as a condition of a franchise; he dissented that the State does not own the airwaves, that stations already pay fees and have invested billions, and that the distinction from Philippine Press Institute, which shielded print media from the same compulsion, was too flimsy to justify the taking. Justice Romero dissented separately on eminent domain and police power. Finally, in his own ponencia in Frivaldo v. Comelec he held that citizenship must be possessed when an elective official begins to govern, so the thrice-elected Sorsogon governor, repatriated on the very day his term began, was qualified. Justice Davide dissented on fragmentized sovereignty; Justice Puno concurred.",
-  "source_xlsx": "cjp_books_curated_normalized.xlsx"
+  "source_xlsx": "cjp_books_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "elections_and_automated_voting"
+    ],
+    "secondary": []
+  }
 }

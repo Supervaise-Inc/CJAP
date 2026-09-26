@@ -155,5 +155,13 @@
     "extends institutional duty to resistance against mobs and well-intentioned crusaders alike"
   ],
   "one_paragraph_summary": "Panganiban opens his Anti-Terror Act series by noting that 'never in a long while has a law generated more controversy' -- yet what is comforting is the admirable unanimity of both pros (Sen. Panfilo Lacson, President Duterte) and contras (Howard Calleja, Br. Armin Luistro, FEU Dean Mel Sta. Maria, ConCom's Christian Monsod and Felicitas Arroyo, minority solons) in their trust of the Supreme Court's impartiality and fairness. The contras' prayer to have judges, not executive officials, personally determine probable cause for ATA arrests is itself 'the enduring proof of their faith in the judiciary' -- they want the Court's protection because they trust it. The counter-example is the martyred Ninoy Aquino's refusal to participate in Marcos's military tribunal: had the petitioners doubted the Court, they would not have prayed for its intervention at all. Panganiban argues that the Court must be worthy of this bipartisan trust by ruling on the merits rather than dismissing on procedural niceties or prematurity under Section 58 -- and avoiding 'perplexing dictums' that have damaged its reputation: the raising of hands in barangay assemblies to ratify a Constitution (Javellana, 1973), opening the party-list to every Juan including the rich and powerful (Atong Paglaum, 2013), the main-plunderer identification requirement (Arroyo v. People, 2016), and the ousting of a chief justice via quo warranto (Republic v. Sereno, 2018). The justices must be impervious to 'the plague of ships: kinship, relationship, friendship, and fellowship.' He closes with an extended self-quotation from his 1999 book 'Leadership by Example,' invoking Justice Frankfurter's framing of the Court as 'the conscience of society,' and concluding that 'the Court does not lust for the brute power of the executive. Neither does it desire to have the patronage of the legislature. It prays only for courage, integrity and sagacity, for these are its only tools with which to fulfill its work and to deserve the people's trust.'",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "criminal_trials_and_prosecutions"
+    ],
+    "secondary": [
+      "how_the_supreme_court_decides"
+    ]
+  }
 }

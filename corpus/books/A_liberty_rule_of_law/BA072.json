@@ -163,5 +163,11 @@
     "unfairness produced by the law is a legislative problem, curable only by amendment"
   ],
   "one_paragraph_summary": "Chapter 19 of 'Transparency, Unanimity & Diversity' recounts Veterans Federation Party v. Comelec, which CJP presents as a rare case in which the Supreme Court was unanimous on the constitutional and legal questions yet divided on mathematics. After the first party-list election of May 11, 1998, the Comelec proclaimed thirteen qualifying parties and then, on the petition of thirty-eight defeated groups, ignored the two percent threshold to fill all fifty-two seats; the qualified parties in turn sought three seats each. The Court held unanimously that the twenty percent constitutional allocation is a ceiling rather than a mandate, that the two percent threshold and three-seat limit of RA 7941 are constitutional, and that the Comelec, as a mere implementing body, gravely abused its discretion in circumventing the statute. The division came on how to compute additional seats. Justice Vicente V. Mendoza, who had researched European practice, urged the German Niemeyer formula; CJP objected during the September 2000 deliberations that Germany fills all its party-list seats and imposes no cap on a party, while the Philippine system has a ceiling and a three-seat limit, so the formula would again give every qualified party three seats and defeat proportional representation. The Court sustained him twelve to three and gave him the ponencia. His method ranked the parties, identified a 'first party,' fixed its seats by a six percent benchmark, and awarded the other qualified parties additional seats in proportion to the first party's, refusing to round off fractions because rounding could exceed the seats the law allows. Mendoza dissented on seven grounds, chiefly that a rule applied only to the first party is no formula at all and amounts to judicial legislation. CJP answered that the formula merely translated the statutory parameters into an equation and that the cure for any harshness lies with Congress, quoting Justice Puno's concurrence and closing with the Epilogue of his ponencia urging sectoral groups not to despair of the party-list system, Philippine style.",
-  "source_xlsx": "cjp_books_curated_normalized.xlsx"
+  "source_xlsx": "cjp_books_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "party_list_charter_change_and_dynasties"
+    ],
+    "secondary": []
+  }
 }

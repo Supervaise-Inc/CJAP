@@ -121,5 +121,11 @@
     "treats constitutional mandate (renunciation of war) as a hard constraint on available dispute-settlement options"
   ],
   "one_paragraph_summary": "Panganiban opens by defining the conceptual tools needed to understand the Sabah dispute: sovereignty (the perpetual and absolute power of a state to command obedience, with external and internal aspects) versus ownership (the limited right to control, possess, and dispose of property, regulated by the sovereign). Applying these, he explains that the Sultan of Sulu holds an ownership claim -- his forebears leased Sabah to the British North Borneo Company, Malaysia inherited the leasehold, and rentals are still paid -- not a sovereignty claim. Malaysia, by contrast, has exercised actual sovereignty since its 1963 incorporation of Sabah following an alleged referendum. The sultan's followers' stealthy armed entry violated Malaysian immigration law, and even a valid perpetual lease does not allow a lessor to forcibly deprive a lessee of possessory rights. A parity-of-reasoning hypothetical -- a Malaysian sultan with Spanish-granted Mindanao land rights cannot send armed followers into the Philippines -- confirms the Philippine government's legal consistency in responding to the entry. CJ recommends a two-track resolution: the Philippines presses its sovereign claim via peaceful methods under the 1987 Constitution (which renounces war) and the UN Charter; the sultan pursues his ownership claim through Malaysian internal legal processes; and if the Philippines acquires sovereignty over Sabah, the sultan may then press his ownership rights under Philippine law.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "international_law_disputes"
+    ],
+    "secondary": []
+  }
 }

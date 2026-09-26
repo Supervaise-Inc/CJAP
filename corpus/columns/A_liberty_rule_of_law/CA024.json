@@ -133,5 +133,11 @@
     "Use history as the ultimate check on ML implementors: Lorenzana and Año know they will be judged"
   ],
   "one_paragraph_summary": "Observing the September rallies (September 11 for Marcos's 100th birthday; September 21 for the 45th ML anniversary) from the United States, Panganiban takes three positions. First, yes to constitutional martial law: the 1987 Constitution has adequately restricted ML to suppressing actual rebellion or invasion (nothing else) when public safety requires it, with congressional and SC review powers, no suspension of the Bill of Rights, and the only immediate adverse effect being authority to detain suspects for 72 hours (vs the normal 36 hours) -- and only if habeas corpus is also suspended. Defense Secretary Lorenzana and AFP Chief Año, administering Mindanao ML, are personally aware of these limits and have observed them; the author finds Lorenzana a genuine gentleman who knows he will be judged by history. ML is not evil per se -- if it were, the 1987 Constitution would have prohibited rather than merely restricted it. Second, no to authoritarian rule: the scenario where the President, backed by the military, sets aside the Constitution and governs alone -- or where a military coup installs a new regime -- obliterates the Bill of Rights, abolishes Congress and the SC, and abrogates all checks and balances. Duterte has recently said he respects and will always follow the Constitution. Third, neither yes nor no to Cha-cha: the author has no position yet because no specific federal model has been presented; the Philippines has no experience with anything but centralized government since the Spanish colonization; and Cha-cha could also abolish the presidency, Congress, and the Senate, cut all official terms, and alter the Bill of Rights -- making it 'as novel as a revolutionary government.'",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "presidential_power_martial_law_people_power"
+    ],
+    "secondary": []
+  }
 }

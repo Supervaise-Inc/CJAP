@@ -155,5 +155,11 @@
     "requires active participation for a valid vote"
   ],
   "one_paragraph_summary": "Panganiban writes that his appearance last Wednesday as amicus curiae before the Senate, on computing the votes needed to convict in an impeachment trial, went viral and made him a 'rockstar.' Many praised its simplicity: he told senator-judges to set aside legalism and remember two words, truth and fairness. For readers who missed it, he sums it up in four points. First, impeachment is sui generis, with legal and political aspects; senator-judges are not magistrates but politicians elected by, and mixing with, the sovereign people. Second, jurisprudence offers two ways to read the requirement of two-thirds of all Senate members: verba legis, which gives words their ordinary meaning (Francisco v. House of Representatives), and ratio legis est anima, 'the reason of the law is the soul of the law' (League of Cities v. Comelec). Literally, two-thirds of 24 is 16, but reality is not an abstract equation -- two drops of water may make one bigger drop. Third, the Senate should use neither alone; as representatives of the electorate, senators must apply the people's common sense, anchored on truth, drawn from documents and witnesses' demeanor, and fairness, or due process: 'Strike me if you must but hear me first.' Active participation and independent evaluation of the evidence are thus essential. Fourth, the Supreme Court will not overturn the Senate except for grave abuse of discretion, a capricious, whimsical or arbitrary exercise of judgment (Duterte v. House of Representatives). His viral quip asked whether it is truthful and fair to let senators vote while absent, hiding, abroad, detained or sick, without examining the evidence. The Senate's duty transcends arithmetic; senators must vote with conscience, in public view, guided by truth and fairness.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "impeachment_accountability"
+    ],
+    "secondary": []
+  }
 }

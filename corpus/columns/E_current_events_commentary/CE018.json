@@ -185,5 +185,11 @@
     "Abundance-to-wisdom-not-distraction closing-aspiration test"
   ],
   "one_paragraph_summary": "Second installment in the AI cluster (A34→E19→E18), opening with CJP's PLDT/MVP-sponsored 'Decision Intelligence and Supercreativity Leading in the Age of AI' seminar attendance -- featuring guest speaker Cassie Kozyrkov whose 'Will you marry me?' invitation got an instant 'Yes' from her while CJP's parallel chatbot query got a courteous 'I can't.' From this vignette he develops the freedom-to-ask thesis -- no death stare, no rebuke, no awkwardness -- as a genuinely new mode of knowledge access, then pivots to two organizing questions: how AI reshapes what matters and what governance means for leaders. He invokes Cal Newport's 'Digital Minimalism' for the intentionality principle (which tools add real value, cut low-value noise, optimize for meaning) and develops a sustained museum-curation analogy -- curators not overwhelmed by countless artifacts but asking 'Which pieces tell our story?' -- illustrated by the Louvre's Google-collaborated AI personalized virtual tours. Closing with a judicial-parallel that access to evidence is meaningless without wisdom to weigh it, he insists that the challenge is ensuring abundance leads to wisdom rather than distraction, and that leaders must evolve in tandem -- not just in knowledge and creativity but also in judgment.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "science_technology_and_the_law"
+    ],
+    "secondary": []
+  }
 }

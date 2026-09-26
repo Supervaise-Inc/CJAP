@@ -183,5 +183,14 @@
     "Poverty redefined as deprivation of essential assets and opportunities, making prosperity a universal human right"
   ],
   "one_paragraph_summary": "Chapter 4 of 'Liberty and Prosperity' set out Chief Justice Panganiban's core judicial philosophy in full. He opened with the program he announced on assuming the chief justiceship: a judiciary marked by four Ins -- independence, integrity, industry and intelligence -- morally courageous against influence, interference, indifference and insolence, and impervious to the plague of 'ships,' namely kinship, relationship, friendship and fellowship. He recalled the Supreme Court's supervision of the bar, 'the vineyard from which our judges take root,' his pledge to revitalize the Action Program for Judicial Reform around the four ACID problems of limited access to justice by the poor, corruption, incompetence and delay, and the DHL bargain he offered 26,000 judicial employees. These, he said, were only means; the end goals were safeguarding liberty and nurturing prosperity. He distinguished three ways of relating the two -- disjunctive, causal, and mutually inclusive -- and aligned himself with the third, insisting it was 'not liberty or prosperity but liberty and prosperity.' From this he derived a double standard of review: heightened or strict scrutiny weighing heavily against government in civil-liberties litigation, and deference to the political branches on economic and developmental questions. He illustrated the first with the new right to conduct and publish opinion polls upheld in ABS-CBN v. Comelec and echoed in Social Weather Stations v. Comelec, a decision he penned freeing an accused detained almost two years without arraignment, and three recent rulings on legislative inquiries, peaceful assembly and a state of national emergency. He grounded the second in Tanada v. Angara on the WTO Agreement and La Bugal-B'laan v. Ramos on the Mining Law, while preserving justiciability and the duty to strike down gravely abusive acts. Four developments -- constitutional commands on wealth distribution, Sachs's End of Poverty and the Gates-Bono philanthropy, the UNDP, World Bank and ADB insistence on a well-functioning judiciary, and PBSP-led Philippine corporate responsibility -- convinced him that prosperity now needs as much nurturing as liberty once did. He closed by offering the philosophy as a possible framework rather than an absolute prescription for other jurisdictions.",
-  "source_xlsx": "cjp_books_curated_normalized.xlsx"
+  "source_xlsx": "cjp_books_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "foundation_for_liberty_and_prosperity",
+      "twin_beacons_doctrine"
+    ],
+    "secondary": [
+      "judicial_reform"
+    ]
+  }
 }

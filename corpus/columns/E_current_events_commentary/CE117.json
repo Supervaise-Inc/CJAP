@@ -135,5 +135,13 @@
     "deploys independent-adviser-role-definition to establish the proper scope of CJ private sector engagements"
   ],
   "one_paragraph_summary": "Panganiban reports on his China visit amid rising West Philippine Sea/Spratlys tension (with Drilon, Bautista, and others), noting that locals were keener on harmony and prosperity than on discussing territorial disputes. He catalogs the remarkable success of Filipino taipans in China: Carlos Chan's Oishi (13 factories, 7,000 Chinese workers, 80 Filipino managers, eclipsing Frito-Lay); George Ty's Metrobank China (first non-Chinese bank headquartered in Nanjing); Henry Sy's SM (largest mall in Xiamen); Lucio Tan's banking/real estate/beer interests; John Gokongwei's real estate and food businesses; and Tony Tan Caktiong's 300 food outlets under a Chinese brand. He lists Filipino professionals excelling in the US (including his own son Jose Artemio III in quantitative risk management), and recounts his private dinner with Silicon Valley billionaire Dado Banatao (poor boy from Cagayan), who plans a P5B endowment (with Ayala and Lopez) to help brilliant Filipino S&T students. CJ rebuts reckless reader accusations linking him to the First Pacific PLDT acquisition: Justice Carpio Morales wrote the relevant decision (Yuchengco v. Sandiganbayan, 2006); CJ had no participation in the auction; he first met Pangilinan in 2007 (after retirement); he is an independent adviser of PLDT (not director -- cannot propose, second, or vote); and was invited to Meralco by Manuel Lopez (not Pangilinan). He closes: magistrates, incumbent and retired, can differ without being difficult.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "foundation_for_liberty_and_prosperity"
+    ],
+    "secondary": [
+      "international_law_disputes"
+    ]
+  }
 }

@@ -117,5 +117,11 @@
     "frames time/place/manner vs content-suppression distinction as the line between permissible and unconstitutional Internet regulation"
   ],
   "one_paragraph_summary": "Panganiban analyzes the Cybercrime Prevention Act of 2012 (RA 10175), which the SC enjoined via an ex parte TRO (effective immediately for 120 days) after multiple petitioners -- including the only senator who voted against it, Teofisto Guingona III -- challenged its constitutionality, with oral argument set for January 15, 2013. He sorts the law's three categories: (a) confidentiality/integrity/availability violations (hacking, illegal access, interception, data interference, cyber squatting) and (b) computer-related offenses (forgery, fraud, identity theft) are constitutionally unremarkable -- the 'grain.' But (c) content-related offenses (cybersex, child pornography, unsolicited communications, and online libel) create a 'chilling effect' -- the 'chaff.' He argues that Internet and social media communications are a technological expansion of free expression in the same lineage as the printing press, radio/TV/cinema, and exit polls (ABS-CBN v. Comelec, 2000) -- requiring the same protection from previous restraint and subsequent punishment. A netizen needs no permit to communicate online, just as no one needs a permit to speak at a gathering or publish a book; local-government-style time/place/manner regulations are permissible but content suppression (like a tax on excess email volume) is not. Free expression is not absolute -- lewd, obscene, seditious, and libelous expression remains subject to Justice Oliver Wendell Holmes' clear-and-present-danger test (falsely shouting 'fire' in a crowded theater creates liability; the same words in an open field do not). CJ predicts the SC will separate the chaff from the grain via the crucibles of freedom of expression.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "libel_and_cybercrime"
+    ],
+    "secondary": []
+  }
 }

@@ -114,5 +114,14 @@
     "APJR as the institutional model for judiciary reform: Philippine Judicial Academy, MCLE, filled vacancies, computerization"
   ],
   "one_paragraph_summary": "Delivered March 30, 2011 at a US-ASEAN Business Council forum -- invited by Washington Sycip (SGV founder), Cirilo Noel (SGV Chairman) and Edilberto De Jesus (AIM President), with Council President Alexander C. Feldman flying from Washington DC to assess the Philippine investment climate under President Aquino -- this address by CJP begins with the fictional Judge Cerapio I. Delayo (CID) and the Mercedes Benz S560 joke (lawyer: 'I'm selling it for fifty dollars'; judge: 'In that case, I will buy two!') to illustrate the three most common judicial complaints: Corruption, Incompetence and Delay. He rejects constitutional change (the presidential system is fine -- the US has peaceful elections without an independent Comelec) and new salary laws (the legislature already doubled judicial compensations during his term; enough laws exist to punish crimes). The right solution: 'not just a change of leaders, but a change in our leaders... a change from the inside out, a change of hearts, a change of values, a change in ethical backbone.' During his incumbency, the APJR achieved: the Philippine Judicial Academy (P300 million JICA grant; buildings in Tagaytay City); Mandatory Continuing Legal Education (all lawyers retrained every three years); filled vacant judgeships; computerization program (World Bank, USAID, CIDA, EU). 'I am proud to tell you that our APJR was cited by the World Bank as its official model in assisting other judiciaries in the world. Unfortunately, after I retired in 2006, the Court gave little priority to the APJR. Sadly, the APJR was taken off the World Bank's website as a model judicial reform program.' He restates his judicial philosophy (strict scrutiny for civil liberties; deferential interpretation for economic matters) and closes with an investment invitation: 'Join the battle cry of President Noynoy Aquino, Kung Walang Corrupt, Walang Mahirap.'",
-  "source_xlsx": "cjp_speeches_curated_normalized.xlsx"
+  "source_xlsx": "cjp_speeches_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "judicial_reform"
+    ],
+    "secondary": [
+      "property_contracts_and_economic_rights",
+      "independent_commissions_and_appointments"
+    ]
+  }
 }

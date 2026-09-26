@@ -179,5 +179,11 @@
     "Choice-architects leadership framing -- create-value-and-build-trust intelligent-decisions standard"
   ],
   "one_paragraph_summary": "Third in CJP's AI cluster (A34→E19→E18), pivoting from the judiciary focus of A34 to a business-and-consumer-and-leader three-lens analysis. He opens with the Alexa-in-his-living-room domestic vignette -- anthropomorphized as 'isolated + starved of data' -- and positions himself humbly as 'ancient me' + 'just a curious learner.' Through the businessperson lens he flags the 2017 Equifax breach (140M customers) as trust-erosion exemplar while celebrating AI as cybersecurity counter-application and 'great equalizer' for the Philippines's mostly-small businesses. Through the consumer lens he catalogs breakthroughs (AlphaFold drug discovery + Seeing AI visually-impaired aid + self-driving cars + research assistants) but warns of saved-time-tradeoffs and overreliance eroding critical thinking, problem-solving, and emotional intelligence. Through the leader lens he invokes scientific self-correcting spirit and the AI-akin-to-fire metaphor -- useful but dangerous, tamable through adaptive systems (skilled firefighters + water cannons + sprinklers) but with invariant chemistry. He cites DeepMind's AlphaGo defeating Fan Hui and Lee Sedol with millennia-unseen moves, warns against the industrialization-environmental-ruin parallel in the mind-and-morality realm, and closes by urging great leaders to act as choice architects designing cultures that create value and build trust.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "science_technology_and_the_law"
+    ],
+    "secondary": []
+  }
 }

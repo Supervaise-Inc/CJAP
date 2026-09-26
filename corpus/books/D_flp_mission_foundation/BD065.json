@@ -139,5 +139,13 @@
     "dissemination as value: knowledge of law and justice being an undertaking whose value rises when spread to others"
   ],
   "one_paragraph_summary": "Chapter 11 of 'Liberty and Prosperity' reproduces the address Chief Justice Panganiban gave to launch the Supreme Court's electronic library simultaneously in eight law schools and universities -- Arellano University School of Law, with a live simulcast to Aquinas University in Legazpi, Saint Louis University in Baguio, Silliman in Dumaguete, the University of San Carlos in Cebu, Xavier in Cagayan de Oro, Ateneo de Davao and Mindanao State University in Marawi. He noted that the e-library was the first of its kind in Asia and one of the few in the world, conceived and developed in less than a year for only US$10,000 granted by the World Bank, and that sharing it with the schools was meant to make the study of law easier, more convenient and more systematic. He contrasted the study of law in his own time, when students waited for barely readable mimeographed copies of decisions and wrote their own digests, with a present in which a few keystrokes bring a case onto the screen. He then tied the project to his program: on assuming office on December 21, 2005 he had pledged to continue Chief Justice Hilario G. Davide Jr.'s Action Program for Judicial Reform, to lead a judiciary marked by four Ins -- integrity, independence, industry and intelligence -- and to attack the ACID problems of limited access to justice by the poor, corruption, incompetence and delay. Citing the Court's discipline of six lawyers and six judges in a single month, including a judge found grossly ignorant of the law in two child-rape cases, he presented the e-library, developed under Justice Antonio T. Carpio and launched on November 19, 2004, as the remedy for incompetence: cheap, updated within 48 hours, always open, space-free and fully searchable. He described computer orientation courses reaching 2,000 judges and 26,000 employees, easy-term laptop purchases, home DSL, the P300 million Japanese-funded PhilJA Development Center in Tagaytay, and the Sandiganbayan's full computerization as the model for the judiciary. Conceding that new technologies 'can only be as good as the people who use them,' he argued that law schools, not the courts, are the first line of defense against injustice, and exhorted professors and students to digitize their law schools.",
-  "source_xlsx": "cjp_books_curated_normalized.xlsx"
+  "source_xlsx": "cjp_books_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "presidential_power_martial_law_people_power"
+    ],
+    "secondary": [
+      "judicial_reform"
+    ]
+  }
 }

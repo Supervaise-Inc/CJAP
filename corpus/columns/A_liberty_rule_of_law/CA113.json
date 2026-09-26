@@ -158,5 +158,11 @@
     "Liberty-and-prosperity-under-rule-of-law philosophy echo as endorsement"
   ],
   "one_paragraph_summary": "Even though the media had already reported it, CJ Panganiban gives Ditiangkin v. Lazada (Sept. 21, 2022; uploaded Jan. 19, 2023; Second Division, penned by SAJ Marvic M.V.F. Leonen with JJ Lazaro-Javier, Jhosep Lopez, and Kho Jr. concurring, J Mario Lopez on official business) a lookback because the Supreme Court 'once more demonstrated its activist and libertarian streak' by going beyond two sets of normal rules. The first set concerns appellate procedure: the SC normally dismisses Rule 45 petitions through the unsigned-resolution '1-2-3 rule' when the CA has affirmed the NLRC and the labor arbiter, and it normally refuses to review facts. In Lazada, the Court did the opposite -- waded deep into an exhaustive factual review and overturned the unanimous lower-tribunal finding that the riders were independent contractors. The second set concerns substantive labor classification: under the four-fold test (selection/engagement, wages, dismissal power, control -- with control 'the most significant factor'), Lazada failed to discharge its burden of showing the riders were not regular employees. The Court rejected the independent-contractor framing because the riders neither carried on 'a distinct and independent business' nor possessed the 'unique skills and talents' that distinguish the genuinely independent service class -- canonically the columnist, the basketball referee, and the masiador/sentenciador of cockfighting -- since 'picking up and delivering goods from warehouse to buyers does not call for specific expertise.' The constitutional anchor is the full-protection-to-labor clause and the corollary that 'when a person has no property, his job may possibly be his only possession or means of livelihood' so 'he should be protected against any arbitrary deprivation of his job' -- a closing dictum CJ explicitly recognizes as 'reminiscent of my own philosophy of liberty and prosperity under the rule of law.' The Inquirer editorial called it a 'game-changing ruling for workers'; CJ quotes the label approvingly.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "property_contracts_and_economic_rights"
+    ],
+    "secondary": []
+  }
 }

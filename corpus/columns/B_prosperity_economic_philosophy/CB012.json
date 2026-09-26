@@ -135,5 +135,13 @@
     "Frame the poverty/want issue through the rights framework -- it is not just a policy aspiration but a justiciable claim"
   ],
   "one_paragraph_summary": "On Easter Sunday, Panganiban summarizes the first-place winning dissertation (P300,000, FLP Dissertation Contest 2017-2018, funded by Ayala Corp.) by Raphael Lorenzo Pangalangan of Oxford University and UP -- titled 'Enforcing Liberty and Prosperity Through the Courts of Law: A Shift in Legal Thought from Juridification to Judicialization.' Anchored in FLP's core philosophy that liberty and prosperity must always go together as co-equal essentials, Pangalangan diagnoses a doctrinal imbalance: traditional constitutional law treats civil and political rights as self-executing and judicially enforceable, while social and economic rights are mere aspirations -- 'mere commands to the state' requiring congressional action before courts can enforce them. The state action doctrine further limits the Bill of Rights to public actors, leaving private entities (multinationals, large conglomerates, powerful individuals) unaccountable for rights violations in the private sphere. Drawing on a 47-page, 248-footnote treatise that surveys 20+ international covenants including seven core human rights treaties the Philippines has ratified, along with US and Philippine jurisprudence, the author cites Tañada v. Angara (May 2, 1997) and Panganiban's own separate opinion in Serrano v. NLRC (January 27, 2000) as anchors for the argument that the 'advent of liberalization, deregulation and privatization' has shifted abusive power to private entities that should now be equally held accountable. Pangalangan concludes: 'Liberty and prosperity forward common sense in the pursuit of uncommon justice' -- recognizing how civil and political rights are tightly intertwined with social and economic relations, such that 'freedom from fear necessitates freedom from want.'",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "foundation_for_liberty_and_prosperity"
+    ],
+    "secondary": [
+      "twin_beacons_doctrine"
+    ]
+  }
 }

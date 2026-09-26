@@ -156,5 +156,11 @@
     "balances due process against 'overdue process'"
   ],
   "one_paragraph_summary": "Panganiban says the US request to extradite pastor Apollo Quiboloy recalls the Supreme Court's first extradition decision, USA v. RTC Judge Purganan (2002), involving Manila Rep. Mark Jimenez, which he wrote and which passed 8-3-3 over Justice Jose C. Vitug's due process dissent. Extradition is no longer limited to political offenses, is not asylum and differs from deportation; it is now an indispensable tool against crime. To curb interminable proceedings, the Court issued the Rules on Extradition Proceedings on April 8, 2025. First, arrest warrants issue ex parte: as Purganan held, a hearing would give the extraditee a chance to escape, so the court reviews the petition's sufficiency, treaty compliance and probable cause without the extraditee. Second, bail is a matter of discretion, not right, since extradition is not a criminal proceeding; it may be granted only on clear and convincing proof that the extraditee is not a flight risk. Third, appeals end at the Court of Appeals, which must decide within 90 days, with its decision immediately executory; only certiorari for grave abuse of discretion remains. Under Article 11 of the RP-US Extradition Treaty, the executive may postpone extradition until local cases end or temporarily surrender the accused. Quiboloy may be extradited, but not immediately, because the Pasig RTC detains him in a non-bailable qualified human trafficking case under its criminal jurisdiction. The DOJ may hasten that trial or, given the snail pace of prosecutions, seek its archiving or indefinite postponement. Citing his earlier decision, CJP warns against 'overdue process' that would make the country a haven for fugitives, and urges the executive, as chief architect of foreign policy, to act with firmness, fairness and fidelity to the rule of law.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "criminal_trials_and_prosecutions"
+    ],
+    "secondary": []
+  }
 }

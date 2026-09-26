@@ -109,5 +109,11 @@
     "en banc vs. division and the strict seniority order as the operating structure"
   ],
   "one_paragraph_summary": "Chapter 3 of 'With Due Respect' (Vol. 2), CJP's June 21, 2009 Inquirer column, is 'a primer on how the Court decides cases in the normal course,' prompted by the Court's unusual signed resolution throwing out the petitions against House Resolution 1109 -- special treatment, he notes, compared with the one-sentence dismissals reserved for 'utterly unmeritorious and cerebrally deficient' petitions. He explains that the Court is a 'review court' that does not take initial cognizance of controversies but mainly affirms, modifies or reverses lower-court rulings and polices jurisdiction and grave abuse, and that it is a 'passive branch' whose authority 'must be triggered by the filing of a petition by a proper party.' Unlike open trial courts, its internal deliberations are confidential -- only the net results (decisions, resolutions, and concurring, dissenting and separate opinions) are released -- and he quotes Justice Regalado that 'in trial courts, the rule is transparency; but in the Supreme Court, it is confidentiality.' The justices decide collegially: they debate and vote independently but bind the Court only in session, with no justice acting alone, and the 'backbreaking job' is done in chambers and at home through study, reflection and writing -- 'they do not talk too much; rather, they write a lot,' the CJ steering discussion to written opinions once it exceeds five minutes. Oral arguments are rare, held in the Padre Faura hearing hall for difficult cases at about 20 minutes a side (often extended), sometimes aided by amici curiae invited as a 'rare privilege,' and followed by written memoranda. Finally he lays out the structure: the Court sits en banc or in three five-member divisions (a division ruling being as final as an en banc one), deciding by a majority of those taking part, with the CJ assigning justices and a strict seniority rule governing seating and the 'working chairman' who runs the CJ's division.",
-  "source_xlsx": "cjp_books_curated_normalized.xlsx"
+  "source_xlsx": "cjp_books_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "party_list_charter_change_and_dynasties"
+    ],
+    "secondary": []
+  }
 }

@@ -161,5 +161,11 @@
     "extra vigilance where public funds or government contracts are involved"
   ],
   "one_paragraph_summary": "Chapter 3 of 'Leveling the Playing Field' collects CJP's address to the Legal Management Council of the Philippines, the association of corporate lawyers in which he had served as vice-president and board member before joining the Supreme Court and in which the late Senator Rene 'Compañero' Cayetano had 'developed his wings of leadership.' Taking up LMCP President Ariel F. Abonal's request to explain how the Court decided cases involving the business community, he answered the criticism that the Court had been interfering unreasonably in economic governance and lacked commercial expertise. He replied that courts had heard commercial disputes since the Spanish Code of Commerce, more than a century, and now faced patents, genetically modified organisms, in vitro fertilization and cloning; if the judiciary were excluded, he asked, who would settle such disputes, by what laws and under what standards, and who would protect the public from economic tyrannies and abuses. Expertise was no obstacle, since judges also decided murder, construction and e-commerce cases and were expected to have a working idea of all branches of human knowledge, with the parties educating the court on technical matters. He then set out six guidelines: deference to the political branches, as in Tañada v. Angara; abstention from political questions unless unconstitutionality or grave abuse of discretion appeared; a laissez-faire policy toward private contracts, excepting equitable relief from excessive, iniquitous, unconscionable and exorbitant interest; respect for the Court of Appeals, the constitutional commissions and specialized agencies; insistence on an actual case and controversy under Velarde v. SJS, though locus standi and the hierarchy of courts could yield to transcendental importance; and extra vigilance over public contracts, illustrated by Chavez v. PEA, Agan v. Piatco, the Comelec automation case and Jaworski v. PAGCOR, with MMDA v. Jancom and JG Summit as refinements. To cop out of such cases, he concluded, would be dereliction of the Court's sworn duty, which safeguards not only prosperity but also peace.",
-  "source_xlsx": "cjp_books_curated_normalized.xlsx"
+  "source_xlsx": "cjp_books_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "property_contracts_and_economic_rights"
+    ],
+    "secondary": []
+  }
 }

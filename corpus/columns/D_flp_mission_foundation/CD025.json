@@ -138,5 +138,11 @@
     "anchors call-to-action in lawyer-agency dependency for rule-of-law function"
   ],
   "one_paragraph_summary": "Panganiban features the essay of 1st-batch FLP LibPros scholar Sean Borja (Ateneo de Manila) -- abstracted in Borja's own words -- as the column's centerpiece. Borja begins with his vocational certainty since high school's junior year -- sparing him the millennial 'quarterlife crisis' -- but acknowledging that wanting to be a lawyer did not equal understanding what lawyers do. He grounds the answer in Article II Section 9 of the Constitution, which commands the state to 'promote a just and dynamic social order' ensuring prosperity, independence, and freedom from poverty -- making 'Prosperity for all' the goal of social justice. He cites SC jurisprudence: social justice does not champion division of property or equality of economic status but rather 'equality of opportunity, equality of political rights, equality before the law, equality between values given and received, and equitable sharing of the social and material goods on the basis of efforts exerted in their production' -- concluding that justice must be ENABLING, not merely benevolent, and that 'One without the other would simply not do.' He grounds the abstraction in the story of 'Little Prince' Lander Solano, a 9-year-old kesong puti vendor on Filmore Street in Makati who navigates alleys, flyovers, and underpasses daily 'in the company of thieves,' currently out of school but aspiring to engineering; his mother also vends kesong puti behind the Cash & Carry on Osmeña Highway where the family sleeps when goods remain unsold. Borja closes that the rule of law is 'the great equalizer' but 'without lawyers, the law is rendered fictional and out of reach, especially for those at the fringes of society' -- making the lawyer's mission to learn advocacy and 'become the voice that resonates when others go silent,' which gives the column its title.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "twin_beacons_doctrine"
+    ],
+    "secondary": []
+  }
 }

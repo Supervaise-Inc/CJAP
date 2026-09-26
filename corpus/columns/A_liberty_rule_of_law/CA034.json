@@ -180,5 +180,13 @@
     "Fake-case-law-citation precaution as concrete AI-Governance-Framework safeguard"
   ],
   "one_paragraph_summary": "First installment in CJP's AI cluster (A34→E19→E18), opening with the age-of-revolutions taxonomy -- agricultural laws on land and food, industrial laws on commerce and labor, information-age laws on computers and behavior, and now the AI age where technology no longer merely assists but thinks, decides, and acts. He anchors the column on the third-year milestone of the SC's Strategic Plan for Judicial Innovations (SPJI), self-citing his 2003 'The Bio-Age Dawns on the Judiciary' as predecessor work bridging science and jurisprudence. Through a three-sector relevance triangulation (private sector + public sector + judiciary), he flags trust-as-marketplace-currency and the telesurgery liability/ethics example, then invokes the twin guardians (Data Privacy Act RA 10173 + Cybercrime Prevention Act RA 10175) alongside the IP Code (RA 8293) confronting AI human-vs-machine creativity blurring. He celebrates RA 12254 (E-Governance Act) and Senate blockchain hearings, parallels pandemic doctors/nurses with IT experts as new digital frontliners (citing Aon's projection that 1-in-5 skilled Filipinos may change employers next year with IT bearing heaviest losses), and commends the SC's CALESA Digital project + AI Governance Framework -- particularly its precautions against fake case-law citations. He closes that the response must be governance-led, ethically grounded, and people-centric, with the judiciary ready to safeguard liberty and nurture prosperity in an ever-expanding digital space.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "science_technology_and_the_law"
+    ],
+    "secondary": [
+      "libel_and_cybercrime"
+    ]
+  }
 }

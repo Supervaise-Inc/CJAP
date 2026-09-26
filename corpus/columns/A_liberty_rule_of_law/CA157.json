@@ -125,5 +125,11 @@
     "invokes the expanded grave-abuse-of-discretion jurisdiction as the gateway for substantive review"
   ],
   "one_paragraph_summary": "Panganiban anatomizes the Supreme Court's Calleja v. Executive Secretary ruling (Dec. 7, 2021; released Feb. 15, 2022) on the Anti-Terrorism Act, calling Justice Rosmari Carandang's 235-page, 560-footnote ponencia -- and the 640 pages of separate opinions from CJ Gesmundo, Perlas-Bernabe, Leonen, Caguioa, Lazaro-Javier, Inting, Zalameda, M.V. Lopez, Gaerlan, J.Y. Lopez, and Dimaampao -- a 'doctoral dissertation on constitutional law.' He fully concurs with five rulings: the 37 petitions cannot be summarily dismissed, they fall within the expanded judicial review of grave abuse of discretion, a facial challenge is properly confined to free-speech cases, only the speech-touching portions of the ATA can be facially invalidated, and 'as applied' challenges must go to the trial courts. Focusing on Section 4, he deconstructs it into a Main Part (overt acts, intents, and the penalty of life imprisonment without parole) and a Proviso protecting advocacies, protests, dissents, and mass actions. The Main Part involves conduct or 'bodily movements,' beyond the reach of a facial challenge; but the Proviso's quoted phrase -- which conditions protected speech on absence of intent to cause death, serious physical harm, life endangerment, or serious risk to public safety -- fails the three free-speech tests of strict scrutiny, overbreadth, and vagueness because it produces a chilling effect and shifts the burden of proof to the accused. He closes by noting that these three tests are 'some of the most controversial grids of constitutional law' on which even seasoned constitutionalists rarely agree, signaling more installments to come.",
-  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "how_the_supreme_court_decides"
+    ],
+    "secondary": []
+  }
 }

@@ -116,5 +116,11 @@
     "TV-broadcast-as-visibility opportunity: the live broadcast reframes the ALA event as an international media moment"
   ],
   "one_paragraph_summary": "Delivered October 27, 2017 at the Manila Peninsula Hotel as the welcome address at the Special Session of the ALA Governing Council celebrating ASEAN's 50th Anniversary, this speech by CJP as ALA Philippines Chairman previews a rich two-day program. The morning features the official business session at Manila Peninsula (ALA-ASLOM Areas of Cooperation, ASEAN Legal System E-Book update, AIPA Secretary General talk, and Singapore's briefing on preparations for next year's General Assembly). The afternoon centers on Malacañang Palace: President Rodrigo Duterte (incumbent ASEAN Chairman) delivers the keynote, followed by a Special Concert mixing classical and contemporary music -- where CJP's son Dr. Jose Artemio C. 'Archie' Panganiban III ('a banker by profession at JP Morgan in NYC and a pianist by passion') flew from New York specifically to perform a Brahms piece accompanied by the Manila Symphony Orchestra, 'the piece de résistance'; President Duterte may also be 'encouraged to sing his favorite song' with MSO accompaniment. The proceedings are broadcast live (CJP advises: 'please wear your best smile and your national dress if possible'). The evening returns to Manila Peninsula for the Gala Dinner. The following day, PAGCOR President Alfredo Lim hosts the ALA Golf Tournament at the Orchard Golf Club. Executive Secretary Salvador 'Bing Bong' Medialdea -- 'Little President who works in the Palace 24/7' and a veteran ALA golf tournament winner -- will welcome the delegates at Malacañang.",
-  "source_xlsx": "cjp_speeches_curated_normalized.xlsx"
+  "source_xlsx": "cjp_speeches_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "asean_law_association"
+    ],
+    "secondary": []
+  }
 }
