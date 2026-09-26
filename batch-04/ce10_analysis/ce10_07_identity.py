@@ -29,6 +29,7 @@ b = ap._topic_max_tokens(routing, art)
 chk("token budget for the intent (120 x scale)", b == ap._scale_budget(120), f"-> max_tokens {b}")
 chk("v2 topics have a budget entry (no silent default)", all(t in ap.TOKEN_BUDGET_BY_DIM for t in tm["topics"]), f"{sum(t in ap.TOKEN_BUDGET_BY_DIM for t in tm['topics'])}/30")
 chk("no v1-only id left in the budget table", set(ap.TOKEN_BUDGET_BY_DIM) == set(tm["topics"]) | {"robot_identity_meta"})
+chk("router fail-safe route is a v2 topic (was hard-coded rule_of_law)", ap.FALLBACK_ANCHOR_TOPIC in art.valid_topic_ids and ap.FALLBACK_ANCHOR_TOPIC in tm["topics"], ap.FALLBACK_ANCHOR_TOPIC)
 chk("voice card still states the Identity rule", "robot_identity_meta" in art.voice_card or "Identity" in art.voice_card)
 print("== new arch (retrieval) ==")
 for q in ("Are you an AI?", "Are you really Chief Justice Panganiban?", "Who made you?", "How do you work?"):

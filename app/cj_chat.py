@@ -106,7 +106,10 @@ COMPOSER_MAX_TOKENS = int(os.environ.get("CJ_COMPOSER_MAX_TOKENS", "220"))
 # Router output cap (2026-08-21): the router emits ~100 tokens of compact JSON
 # (reasoning is prompt-capped to one short clause); a tight cap just bounds
 # runaway output. Do NOT set below ~140 — a truncated JSON parse falls back to
-# rule_of_law/low-confidence routing.
+# the fallback anchor topic (FALLBACK_ANCHOR_TOPIC) at low confidence.
+# CE-10: the router's fail-safe route. It was the hard-coded v1 id "rule_of_law", which taxonomy v2 absorbed into twin_beacons_doctrine;
+# a fallback to an id that is not in the map would silently ground the answer on nothing.
+FALLBACK_ANCHOR_TOPIC = "twin_beacons_doctrine"
 ROUTER_MAX_TOKENS = int(os.environ.get("CJ_ROUTER_MAX_TOKENS", "300"))
 COMPOSER_EFFORT = os.environ.get("CJ_COMPOSER_EFFORT", "low").strip()
 SKIP_FIDELITY = os.environ.get("CJ_SKIP_FIDELITY", "").strip().lower() in {"1", "true", "yes", "on"}
@@ -595,7 +598,7 @@ def route_question(client: Anthropic, question: str, artifacts: CorpusArtifacts)
 
     Validator (PLAN-0001 §B):
       - primary_topic must be in `valid_topic_ids`; otherwise falls back to
-        `rule_of_law` with confidence `"low"`.
+        FALLBACK_ANCHOR_TOPIC (`twin_beacons_doctrine`) with confidence `"low"`.
       - secondary_topics: filtered to known ids, distinct from primary;
         capped at 3.
       - confidence: normalised to one of {high, medium, low}; missing → low.
@@ -622,7 +625,7 @@ def route_question(client: Anthropic, question: str, artifacts: CorpusArtifacts)
     except json.JSONDecodeError:
         # Fallback to safe default — anchor route, low confidence.
         return {
-            "primary_topic": "rule_of_law",
+            "primary_topic": FALLBACK_ANCHOR_TOPIC,
             "secondary_topics": [],
             "confidence": "low",
             "reasoning": "Router output unparseable; falling back to anchor topic.",
@@ -631,7 +634,7 @@ def route_question(client: Anthropic, question: str, artifacts: CorpusArtifacts)
     # Validate primary
     primary = parsed.get("primary_topic")
     if primary not in artifacts.valid_topic_ids:
-        primary = "rule_of_law"
+        primary = FALLBACK_ANCHOR_TOPIC
         parsed["confidence"] = "low"
     parsed["primary_topic"] = primary
 
