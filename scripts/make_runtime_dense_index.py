@@ -54,6 +54,16 @@ import config  # noqa: E402
 
 
 def main() -> int:
+    # A Windows console on a legacy code page raises UnicodeEncodeError on a
+    # non-cp1252 character, which on this script happened AFTER both outputs were
+    # written — a success reported as a non-zero exit. Never let a print decide
+    # the exit code.
+    for _stream in (sys.stdout, sys.stderr):
+        try:
+            _stream.reconfigure(errors="replace")   # type: ignore[union-attr]
+        except Exception:                           # noqa: BLE001
+            pass
+
     ap = argparse.ArgumentParser()
     ap.add_argument("--force", action="store_true",
                     help="overwrite an existing runtime index (a backup is taken either way)")
@@ -94,7 +104,7 @@ def main() -> int:
     norms = np.linalg.norm(matrix, axis=1)
     dev = float(np.max(np.abs(norms - 1.0)))
     if dev > 1e-5:
-        print(f"[runtime-index] rows are not unit-norm (max |‖v‖−1| = {dev:.3e}). STOP.",
+        print(f"[runtime-index] rows are not unit-norm (max abs(norm-1) = {dev:.3e}). STOP.",
               file=sys.stderr)
         return 2
 
@@ -225,7 +235,7 @@ def main() -> int:
     print(f"[runtime-index] wrote {out_mat.name} {matrix.shape} and {out_meta.name}")
     print(f"[runtime-index]   {n_docs} documents / {len(chunk_ids)} chunks, "
           f"model {meta['model_id']} @{meta['dim']}d, backend {meta['backend']}")
-    print(f"[runtime-index]   max |‖v‖−1| = {dev:.3e}")
+    print(f"[runtime-index]   max abs(norm-1) = {dev:.3e}")
     for b in backed_up:
         print(f"[runtime-index]   backed up -> {b}")
     return 0
