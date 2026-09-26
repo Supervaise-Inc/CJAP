@@ -1,3 +1,8 @@
+> **DO NOT RUN. Superseded 26 Sep.** This file uses an ad-hoc "Phase" numbering that is not in
+> `CJAP_Robot_Project_Plan_v2.xlsx`, and its Part D would re-derive a topic-map decision the
+> Corpus Expansion sheet already owns: CE-7 orphan census -> CE-8 DECIDE -> CE-9 -> CE-10.
+> The current task is `batch-04/CE-4_to_CE-7_batch04_prompt.md`. See `docs/p3/README.md`.
+
 # Phase 6 assessment, and Phase 7 — adjudicate the universe, then two sized fixes
 
 **26 Sep 2026.** Phase 6 A and B are excellent work. One conclusion in it is understated, and the

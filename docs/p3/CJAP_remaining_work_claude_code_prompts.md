@@ -1,3 +1,6 @@
+> **SUPERSEDED 26 Sep — invented numbering.** The six "phases" here are not Project Plan phases.
+> Batch work follows the Corpus Expansion sheet (CE-1..CE-18). See `docs/p3/README.md`.
+
 > **REVISED 26 Sep.** Phase 3 and Phase 4 here are superseded by
 > `docs/p3/Phase3_CE-11_and_comparator_fix_2026-09-26.md`. Two corrections: Phase 4 named
 > `arch_baseline_v2.json` as the standing comparator, but that is a bge-large / 827-chunk baseline
