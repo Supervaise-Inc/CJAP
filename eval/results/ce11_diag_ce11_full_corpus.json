@@ -1,0 +1,589 @@
+{
+  "summary": {
+    "label": "ce11_full_corpus",
+    "timestamp": "2026-09-26T10:31:59+08:00",
+    "universe": {
+      "n_docs": 1104,
+      "n_chunks": 9804,
+      "allowlist_version": "full-corpus (no allowlist; supersedes pilot_subset_frozen_v4)"
+    },
+    "queries_file": "ce11_queries_2026-09-26.json",
+    "queries_sha256_of_queries": "f7f796c4278594957ff11cce1cc2422708bb92c8445adf95bdf1f78fec02eb03",
+    "grading_reference": "gold_additions_batch03_2026-09-26.csv",
+    "n_queries": 14,
+    "n_grounding": 11,
+    "grounding_recall": {
+      "@1": 0.273,
+      "@3": 0.636,
+      "@5": 0.727,
+      "@10": 0.727
+    },
+    "grounding_recall_at_selected": 0.727,
+    "retired_probes_pass": true,
+    "retired_leaks_anywhere": [],
+    "llm_calls": 0,
+    "cost_usd": 0.0
+  },
+  "per_query": [
+    {
+      "qid": "A41",
+      "qtype": "doc",
+      "theme": "A",
+      "query": "What was your own role in the Supreme Court's centenary celebrations?",
+      "routed_topic": "with_due_respect_persona",
+      "route_cosine": 0.5881,
+      "in_scope": true,
+      "n_chunks_selected": 10,
+      "retrieved_doc_ids": [
+        "BD011",
+        "BD013",
+        "BD014",
+        "BD010",
+        "BD016"
+      ],
+      "top_chunk_ids": [
+        "BD011::c002",
+        "BD013::c000",
+        "BD014::c000",
+        "BD014::c003",
+        "BD014::c001",
+        "BD010::c007",
+        "BD016::c015",
+        "BD013::c003",
+        "BD013::c010",
+        "BD013::c001"
+      ],
+      "universe_size": 9804,
+      "fallback_global": false,
+      "retired_leak": [],
+      "mode": "grounding",
+      "expected_docs": [
+        "BA032"
+      ],
+      "hit@1": false,
+      "hit@3": false,
+      "hit@5": false,
+      "hit@10": false,
+      "hit@selected": false,
+      "rank_of_first_gold": null,
+      "verdict": "FAIL",
+      "criterion": "at least one expected grounding document in the selection"
+    },
+    {
+      "qid": "A42",
+      "qtype": "case",
+      "theme": "A",
+      "query": "How did the Supreme Court decide whether President Estrada had resigned?",
+      "routed_topic": "impeachment_accountability",
+      "route_cosine": 0.6622,
+      "in_scope": true,
+      "n_chunks_selected": 11,
+      "retrieved_doc_ids": [
+        "CA452",
+        "CA357",
+        "CA356",
+        "CA020",
+        "BA036",
+        "GC016"
+      ],
+      "top_chunk_ids": [
+        "CA452::c000",
+        "CA452::c007",
+        "CA357::c003",
+        "CA356::c001",
+        "CA452::c005",
+        "CA020::c002",
+        "CA452::c003",
+        "BA036::c054",
+        "GC016::c002",
+        "BA036::c001"
+      ],
+      "universe_size": 9804,
+      "fallback_global": false,
+      "retired_leak": [],
+      "mode": "grounding",
+      "expected_docs": [
+        "BA036"
+      ],
+      "hit@1": false,
+      "hit@3": false,
+      "hit@5": true,
+      "hit@10": true,
+      "hit@selected": true,
+      "rank_of_first_gold": 5,
+      "verdict": "PASS",
+      "criterion": "at least one expected grounding document in the selection"
+    },
+    {
+      "qid": "A43",
+      "qtype": "stance",
+      "theme": "A",
+      "query": "Where have you set out your opposition to the death penalty in your earlier books?",
+      "routed_topic": "constitutional_doctrine",
+      "route_cosine": 0.5242,
+      "in_scope": true,
+      "n_chunks_selected": 4,
+      "retrieved_doc_ids": [
+        "BA037",
+        "GC031",
+        "BA049",
+        "BD022"
+      ],
+      "top_chunk_ids": [
+        "BA037::c000",
+        "GC031::c003",
+        "BA049::c000",
+        "BD022::c038"
+      ],
+      "universe_size": 9804,
+      "fallback_global": false,
+      "retired_leak": [],
+      "mode": "grounding",
+      "expected_docs": [
+        "BA037"
+      ],
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "hit@10": true,
+      "hit@selected": true,
+      "rank_of_first_gold": 1,
+      "verdict": "PASS",
+      "criterion": "at least one expected grounding document in the selection"
+    },
+    {
+      "qid": "B44",
+      "qtype": "doc",
+      "theme": "B",
+      "query": "What do indigenous peoples say about owning ancestral land?",
+      "routed_topic": "international_law_disputes",
+      "route_cosine": 0.5437,
+      "in_scope": true,
+      "n_chunks_selected": 20,
+      "retrieved_doc_ids": [
+        "BB006"
+      ],
+      "top_chunk_ids": [
+        "BB006::c029",
+        "BB006::c017",
+        "BB006::c078",
+        "BB006::c032",
+        "BB006::c033",
+        "BB006::c057",
+        "BB006::c014",
+        "BB006::c004",
+        "BB006::c005",
+        "BB006::c069"
+      ],
+      "universe_size": 9804,
+      "fallback_global": false,
+      "retired_leak": [],
+      "mode": "grounding",
+      "expected_docs": [
+        "BB006"
+      ],
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "hit@10": true,
+      "hit@selected": true,
+      "rank_of_first_gold": 1,
+      "verdict": "PASS",
+      "criterion": "at least one expected grounding document in the selection"
+    },
+    {
+      "qid": "A45",
+      "qtype": "case",
+      "theme": "A",
+      "query": "Does repatriation restore a Filipino's natural-born citizenship?",
+      "routed_topic": "international_law_disputes",
+      "route_cosine": 0.5752,
+      "in_scope": true,
+      "n_chunks_selected": 13,
+      "retrieved_doc_ids": [
+        "BA039",
+        "CA378",
+        "CA370",
+        "BD022",
+        "CA363",
+        "CA381"
+      ],
+      "top_chunk_ids": [
+        "BA039::c000",
+        "BA039::c008",
+        "BA039::c025",
+        "BA039::c012",
+        "BA039::c009",
+        "BA039::c026",
+        "CA378::c002",
+        "CA370::c003",
+        "BD022::c053",
+        "BA039::c003"
+      ],
+      "universe_size": 9804,
+      "fallback_global": false,
+      "retired_leak": [],
+      "mode": "grounding",
+      "expected_docs": [
+        "BA039"
+      ],
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "hit@10": true,
+      "hit@selected": true,
+      "rank_of_first_gold": 1,
+      "verdict": "PASS",
+      "criterion": "at least one expected grounding document in the selection"
+    },
+    {
+      "qid": "A46",
+      "qtype": "doc",
+      "theme": "A",
+      "query": "What did you write about in your very first Inquirer column?",
+      "routed_topic": "mentors_and_legal_lineage",
+      "route_cosine": 0.6082,
+      "in_scope": true,
+      "n_chunks_selected": 28,
+      "retrieved_doc_ids": [
+        "SC058",
+        "SC025",
+        "BA031",
+        "CC001",
+        "CC009",
+        "CC072",
+        "BD007",
+        "BC008",
+        "CC006",
+        "GC024",
+        "SA020",
+        "SC090",
+        "SC070",
+        "SC088",
+        "CC085",
+        "BC014",
+        "CC037",
+        "SE092",
+        "SC117",
+        "BC004",
+        "CC080"
+      ],
+      "top_chunk_ids": [
+        "SC058::c001",
+        "SC025::c001",
+        "BA031::c005",
+        "CC001::c000",
+        "CC001::c001",
+        "SC058::c003",
+        "CC009::c000",
+        "SC058::c002",
+        "CC072::c002",
+        "BD007::c003"
+      ],
+      "universe_size": 9804,
+      "fallback_global": false,
+      "retired_leak": [],
+      "mode": "grounding",
+      "expected_docs": [
+        "BA031"
+      ],
+      "hit@1": false,
+      "hit@3": true,
+      "hit@5": true,
+      "hit@10": true,
+      "hit@selected": true,
+      "rank_of_first_gold": 3,
+      "verdict": "PASS",
+      "criterion": "at least one expected grounding document in the selection"
+    },
+    {
+      "qid": "C47",
+      "qtype": "doc",
+      "theme": "C",
+      "query": "What did your grandson teach you about offering your work to God?",
+      "routed_topic": "faith_journey",
+      "route_cosine": 0.5789,
+      "in_scope": true,
+      "n_chunks_selected": 5,
+      "retrieved_doc_ids": [
+        "CE109",
+        "BC008",
+        "BC017",
+        "BD021"
+      ],
+      "top_chunk_ids": [
+        "CE109::c001",
+        "BC008::c004",
+        "BC008::c003",
+        "BC017::c007",
+        "BD021::c017"
+      ],
+      "universe_size": 9804,
+      "fallback_global": false,
+      "retired_leak": [],
+      "mode": "grounding",
+      "expected_docs": [
+        "BC017"
+      ],
+      "hit@1": false,
+      "hit@3": true,
+      "hit@5": true,
+      "hit@10": true,
+      "hit@selected": true,
+      "rank_of_first_gold": 3,
+      "verdict": "PASS",
+      "criterion": "at least one expected grounding document in the selection"
+    },
+    {
+      "qid": "C48",
+      "qtype": "doc",
+      "theme": "C",
+      "query": "Have you ever delivered an invocation for a fellow justice?",
+      "routed_topic": "mentors_and_legal_lineage",
+      "route_cosine": 0.5921,
+      "in_scope": true,
+      "n_chunks_selected": 4,
+      "retrieved_doc_ids": [
+        "SC117",
+        "BC018"
+      ],
+      "top_chunk_ids": [
+        "SC117::c000",
+        "BC018::c000",
+        "SC117::c001",
+        "BC018::c001"
+      ],
+      "universe_size": 9804,
+      "fallback_global": false,
+      "retired_leak": [],
+      "mode": "grounding",
+      "expected_docs": [
+        "BC018"
+      ],
+      "hit@1": false,
+      "hit@3": true,
+      "hit@5": true,
+      "hit@10": true,
+      "hit@selected": true,
+      "rank_of_first_gold": 2,
+      "verdict": "PASS",
+      "criterion": "at least one expected grounding document in the selection"
+    },
+    {
+      "qid": "X49",
+      "qtype": "cite",
+      "theme": "X",
+      "query": "What is G.R. No. 142840 about?",
+      "routed_topic": "honors_received",
+      "route_cosine": 0.5438,
+      "in_scope": true,
+      "n_chunks_selected": 5,
+      "retrieved_doc_ids": [
+        "BA041",
+        "CA343",
+        "BD020"
+      ],
+      "top_chunk_ids": [
+        "BA041::c013",
+        "BA041::c014",
+        "CA343::c000",
+        "BD020::c040",
+        "BD020::c002"
+      ],
+      "universe_size": 9804,
+      "fallback_global": false,
+      "retired_leak": [],
+      "mode": "grounding",
+      "expected_docs": [
+        "BA039"
+      ],
+      "hit@1": false,
+      "hit@3": false,
+      "hit@5": false,
+      "hit@10": false,
+      "hit@selected": false,
+      "rank_of_first_gold": null,
+      "verdict": "FAIL",
+      "criterion": "at least one expected grounding document in the selection"
+    },
+    {
+      "qid": "X50",
+      "qtype": "date",
+      "theme": "X",
+      "query": "When was A Centenary of Justice published?",
+      "routed_topic": "mentors_and_legal_lineage",
+      "route_cosine": 0.5071,
+      "in_scope": true,
+      "n_chunks_selected": 14,
+      "retrieved_doc_ids": [
+        "BD015",
+        "BC006",
+        "BD010",
+        "BC007",
+        "SC007",
+        "BD014",
+        "BC008",
+        "BD013",
+        "BD019",
+        "BD011"
+      ],
+      "top_chunk_ids": [
+        "BD015::c000",
+        "BC006::c002",
+        "BD010::c000",
+        "BC007::c000",
+        "SC007::c006",
+        "BD014::c001",
+        "BC008::c007",
+        "BD013::c013",
+        "BD015::c004",
+        "BD019::c004"
+      ],
+      "universe_size": 9804,
+      "fallback_global": false,
+      "retired_leak": [],
+      "mode": "grounding",
+      "expected_docs": [
+        "BD010",
+        "BA032"
+      ],
+      "hit@1": false,
+      "hit@3": true,
+      "hit@5": true,
+      "hit@10": true,
+      "hit@selected": true,
+      "rank_of_first_gold": 3,
+      "verdict": "PASS",
+      "criterion": "at least one expected grounding document in the selection"
+    },
+    {
+      "qid": "X51",
+      "qtype": "date",
+      "theme": "X",
+      "query": "Which of your Justice and Faith reflections date from 1997?",
+      "routed_topic": "faith_journey",
+      "route_cosine": 0.5315,
+      "in_scope": true,
+      "n_chunks_selected": 7,
+      "retrieved_doc_ids": [
+        "BD020",
+        "BC020",
+        "CC053",
+        "BA041",
+        "BC016"
+      ],
+      "top_chunk_ids": [
+        "BD020::c008",
+        "BC020::c001",
+        "CC053::c007",
+        "BC020::c000",
+        "BA041::c038",
+        "BD020::c002",
+        "BC016::c011"
+      ],
+      "universe_size": 9804,
+      "fallback_global": false,
+      "retired_leak": [],
+      "mode": "grounding",
+      "expected_docs": [
+        "BC017",
+        "BC018"
+      ],
+      "hit@1": false,
+      "hit@3": false,
+      "hit@5": false,
+      "hit@10": false,
+      "hit@selected": false,
+      "rank_of_first_gold": null,
+      "verdict": "FAIL",
+      "criterion": "at least one expected grounding document in the selection"
+    },
+    {
+      "qid": "X52",
+      "qtype": "orphan",
+      "theme": "X",
+      "query": "Tell me about Appendix D of A Centenary of Justice, the tribute to Justice Minerva P. Gonzaga-Reyes.",
+      "routed_topic": "mentors_and_legal_lineage",
+      "route_cosine": 0.6032,
+      "in_scope": true,
+      "n_chunks_selected": 5,
+      "retrieved_doc_ids": [
+        "BC008",
+        "BD014"
+      ],
+      "top_chunk_ids": [
+        "BC008::c000",
+        "BD014::c005",
+        "BD014::c001",
+        "BD014::c003",
+        "BC008::c008"
+      ],
+      "universe_size": 9804,
+      "fallback_global": false,
+      "retired_leak": [],
+      "mode": "retired_probe",
+      "verdict": "PASS",
+      "criterion": "no retired doc_id may appear in the selection"
+    },
+    {
+      "qid": "X53",
+      "qtype": "orphan",
+      "theme": "X",
+      "query": "What do the accolades and the foreword at the back of A Centenary of Justice say about the book?",
+      "routed_topic": "bar_exam_and_legal_education",
+      "route_cosine": 0.5566,
+      "in_scope": true,
+      "n_chunks_selected": 7,
+      "retrieved_doc_ids": [
+        "BD015",
+        "BC007",
+        "BC008",
+        "BC011",
+        "BC020"
+      ],
+      "top_chunk_ids": [
+        "BD015::c001",
+        "BC007::c000",
+        "BC008::c005",
+        "BC011::c002",
+        "BC020::c001",
+        "BC011::c000",
+        "BC011::c001"
+      ],
+      "universe_size": 9804,
+      "fallback_global": false,
+      "retired_leak": [],
+      "mode": "retired_probe",
+      "verdict": "PASS",
+      "criterion": "no retired doc_id may appear in the selection"
+    },
+    {
+      "qid": "X54",
+      "qtype": "oos",
+      "theme": "X",
+      "query": "Which law firm should I hire for my property case in Quezon City?",
+      "routed_topic": "friendships_and_civic_circles",
+      "route_cosine": 0.5747,
+      "in_scope": true,
+      "n_chunks_selected": 4,
+      "retrieved_doc_ids": [
+        "CA089",
+        "BD021",
+        "CA451",
+        "CA052"
+      ],
+      "top_chunk_ids": [
+        "CA089::c003",
+        "BD021::c013",
+        "CA451::c001",
+        "CA052::c001"
+      ],
+      "universe_size": 9804,
+      "fallback_global": false,
+      "retired_leak": [],
+      "mode": "oos_probe",
+      "verdict": "REPORTED",
+      "criterion": "route cosine vs OUT_OF_SCOPE_THRESHOLD 0.15; the real test is a composer decline, which is not run here"
+    }
+  ]
+}

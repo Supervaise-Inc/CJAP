@@ -1,0 +1,138 @@
+{
+  "meta": {
+    "version": "ce11-batch03",
+    "frozen": false,
+    "n": 14,
+    "sha256_of_queries": "f7f796c4278594957ff11cce1cc2422708bb92c8445adf95bdf1f78fec02eb03",
+    "sha256_canonicalization": "sha256( '\\n'.join(sorted(query_strings)).encode('utf-8') )",
+    "created": "2026-09-26",
+    "embed_regime": "BAAI/bge-base-en-v1.5/768d/cuda_fp32/pilot_subset_frozen_v4",
+    "universe": "v4 allowlist (95 docs / 826 chunks)",
+    "note": "CE-11 diagnostic set for correction batch-03. NOT part of the frozen 40 and NOT a promotion comparator - there is no baseline for these queries.",
+    "grading_reference": "eval/results/gold_additions_batch03_2026-09-26.csv"
+  },
+  "queries": [
+    {
+      "id": "A41",
+      "query": "What was your own role in the Supreme Court's centenary celebrations?",
+      "theme": "A",
+      "type": "doc",
+      "expected_grounding_doc_ids": [
+        "BA032"
+      ]
+    },
+    {
+      "id": "A42",
+      "query": "How did the Supreme Court decide whether President Estrada had resigned?",
+      "theme": "A",
+      "type": "case",
+      "expected_grounding_doc_ids": [
+        "BA036"
+      ]
+    },
+    {
+      "id": "A43",
+      "query": "Where have you set out your opposition to the death penalty in your earlier books?",
+      "theme": "A",
+      "type": "stance",
+      "expected_grounding_doc_ids": [
+        "BA037"
+      ]
+    },
+    {
+      "id": "B44",
+      "query": "What do indigenous peoples say about owning ancestral land?",
+      "theme": "B",
+      "type": "doc",
+      "expected_grounding_doc_ids": [
+        "BB006"
+      ]
+    },
+    {
+      "id": "A45",
+      "query": "Does repatriation restore a Filipino's natural-born citizenship?",
+      "theme": "A",
+      "type": "case",
+      "expected_grounding_doc_ids": [
+        "BA039"
+      ]
+    },
+    {
+      "id": "A46",
+      "query": "What did you write about in your very first Inquirer column?",
+      "theme": "A",
+      "type": "doc",
+      "expected_grounding_doc_ids": [
+        "BA031"
+      ]
+    },
+    {
+      "id": "C47",
+      "query": "What did your grandson teach you about offering your work to God?",
+      "theme": "C",
+      "type": "doc",
+      "expected_grounding_doc_ids": [
+        "BC017"
+      ]
+    },
+    {
+      "id": "C48",
+      "query": "Have you ever delivered an invocation for a fellow justice?",
+      "theme": "C",
+      "type": "doc",
+      "expected_grounding_doc_ids": [
+        "BC018"
+      ]
+    },
+    {
+      "id": "X49",
+      "query": "What is G.R. No. 142840 about?",
+      "theme": "X",
+      "type": "cite",
+      "expected_grounding_doc_ids": [
+        "BA039"
+      ]
+    },
+    {
+      "id": "X50",
+      "query": "When was A Centenary of Justice published?",
+      "theme": "X",
+      "type": "date",
+      "expected_grounding_doc_ids": [
+        "BD010",
+        "BA032"
+      ]
+    },
+    {
+      "id": "X51",
+      "query": "Which of your Justice and Faith reflections date from 1997?",
+      "theme": "X",
+      "type": "date",
+      "expected_grounding_doc_ids": [
+        "BC017",
+        "BC018"
+      ]
+    },
+    {
+      "id": "X52",
+      "query": "Tell me about Appendix D of A Centenary of Justice, the tribute to Justice Minerva P. Gonzaga-Reyes.",
+      "theme": "X",
+      "type": "orphan",
+      "expected_grounding_doc_ids": []
+    },
+    {
+      "id": "X53",
+      "query": "What do the accolades and the foreword at the back of A Centenary of Justice say about the book?",
+      "theme": "X",
+      "type": "orphan",
+      "expected_grounding_doc_ids": []
+    },
+    {
+      "id": "X54",
+      "query": "Which law firm should I hire for my property case in Quezon City?",
+      "theme": "X",
+      "type": "oos",
+      "expected_grounding_doc_ids": []
+    }
+  ]
+}
