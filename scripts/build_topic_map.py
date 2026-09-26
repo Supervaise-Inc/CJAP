@@ -1,12 +1,12 @@
 """
 Build a curated topic map for the CJ Panganiban corpus.
 
-Reads the 79 generated .json files under corpus/{columns,speeches,biography}/
+Reads every generated .json under corpus/{columns,books,speeches,biography}/ (1,290 documents)
 and writes:
   - corpus/voice/topic_map.json   — taxonomy + per-topic stats
   - reports/topic_map_report.json — coverage / unmatched-docs report
 
-The taxonomy is a hand-curated dict of ~35 topics with matcher rules
+The taxonomy (v2, CE-10) is a curated list of 30 topics with matcher rules
 (case-insensitive substring matches against title, primary_topics,
 sub_topics, keywords, and entity names). Each topic carries a default
 register and wit calibration from PROJECT.md §9.
@@ -19,8 +19,10 @@ matcher data is used by `apply_topic_paths.py` to backfill the per-doc
 
 from __future__ import annotations
 
+import hashlib
 import json
 import re
+import sys
 from collections import Counter
 from datetime import datetime, timezone
 from pathlib import Path
@@ -30,6 +32,8 @@ PROJECT_ROOT = Path(__file__).resolve().parent.parent
 CORPUS_ROOT = PROJECT_ROOT / "corpus"
 VOICE_DIR = CORPUS_ROOT / "voice"
 REPORTS_DIR = PROJECT_ROOT / "reports"
+sys.path.insert(0, str(PROJECT_ROOT))
+import config  # noqa: E402  (CORPUS_MEAN_PATH)
 
 THEME_LABELS = {
     "A": "Liberty and Rule of Law",
@@ -68,564 +72,448 @@ THEME_REGISTER = {
 # scorers and secondary for the next 3.
 
 TAXONOMY: list[dict[str, Any]] = [
-    # ===== Anchors =====
-    {
-        "id": "rule_of_law",
-        "display_name": "The Rule of Law",
-        "definition": "CJP's most-repeated organizing concept — law over force, applied across constitutional, regional, and global domains; the negative list (NOT mob, NOT propaganda, NOT nuclear weapons) and the affirmative test (consensus + treaty fidelity).",
-        "tier": "anchor",
-        "theme_anchor": "A",
-        "matchers": {
-            "keywords": [
-                "rule of law", "rule of force", "rule of the mob", "gray tactics",
-                "consensus as our north star", "besieged",
-            ],
-            "entities": [],
-        },
-    },
-    {
-        "id": "twin_beacons_doctrine",
-        "display_name": "Liberty and Prosperity — Twin Beacons",
-        "definition": "The interdependence of liberty and prosperity under the rule of law: 'one is useless without the other.' The chiastic doublets (justice and jobs; freedom and food; ethics and economics; peace and development).",
-        "tier": "anchor",
-        "theme_anchor": "B",
-        "matchers": {
-            "keywords": [
-                "twin beacons", "liberty and prosperity", "twin and inseparable",
-                "justice and jobs", "freedom and food", "ethics and economics",
-                "safeguard liberty", "nurture prosperity",
-            ],
-            "entities": [],
-        },
-    },
+    # ===== Anchors (2) =====
     {
         "id": "foundation_for_liberty_and_prosperity",
-        "display_name": "Foundation for Liberty and Prosperity (FLP)",
-        "definition": "FLP as the institutional vehicle for the twin-beacons philosophy in CJP's post-judicial life — scholarships, fellowships, dissertations, chairs, plus the two 'ultimate projects' (Museum and Prosperity Fund).",
+        "display_name": "The Foundation for Liberty and Prosperity and Its Benefactors",
+        "definition": "The Foundation's work and people: scholarships and dissertation fellows, its museum and Prosperity Fund, and the business leaders and donors who fund it.",
         "tier": "anchor",
         "theme_anchor": "D",
         "matchers": {
             "keywords": [
-                "foundation for liberty and prosperity", "flp", "flp awards",
-                "flp board", "flp programs", "flp partners",
-                "10th anniversary", "ultimate projects",
+                "rvr", "csr", "philanthropy", "philanthropist", "busog lusog", "dissertation writing", "corporate social responsibility",
             ],
-            "entities": ["Foundation for Liberty and Prosperity"],
+            "entities": [
+                "jollibee", "george ty", "flp scholars society", "tan yan kee foundation", "museum for liberty and prosperity",
+            ],
         },
     },
     {
-        "id": "with_due_respect_persona",
-        "display_name": "'With Due Respect' — the columnist's stance",
-        "definition": "The signature columnist register: firm but civil, critical but disciplined, IMHO + Au contraire + self-citation + chiastic enumerations.",
+        "id": "twin_beacons_doctrine",
+        "display_name": "Liberty and Prosperity: the Twin Beacons",
+        "definition": "The Chief Justice's core philosophy that liberty and prosperity depend on each other, and that both rest on the rule of law and social justice.",
         "tier": "anchor",
-        "theme_anchor": "E",
+        "theme_anchor": "A",
         "matchers": {
             "keywords": [
-                "with due respect", "imho", "in my humble opinion",
-                "au contraire", "respectfully submit",
+                "social order", "twin beacons", "liberty prosperity",
             ],
             "entities": [],
         },
     },
-
-    # ===== Core (A — Liberty / Rule of Law) =====
+    # ===== Core (13) =====
     {
-        "id": "constitutional_doctrine",
-        "display_name": "Constitutional Doctrine (1987 Constitution)",
-        "definition": "Article-and-section exegesis of the 1987 Philippine Constitution — bill of rights, separation of powers, judicial review.",
+        "id": "life_story_family_school_and_church",
+        "display_name": "Life Story: Family, School and Church",
+        "definition": "The Chief Justice's own life: his family, his schooling and mentors, his church and community life, and the eulogies and tributes he gives to people who shaped him.",
         "tier": "core",
-        "theme_anchor": "A",
+        "theme_anchor": "C",
         "matchers": {
             "keywords": [
-                "1987 constitution", "1987 philippine constitution", "bill of rights",
-                "article xii", "article xi", "article viii", "constitutional commission",
-                "separation of powers", "cha-cha", "constitutional amendment",
-                "charter change", "martial law", "authoritarian rule",
-                "rebellion or invasion",
+                "eulogy", "sampaloc", "jovito r. salonga",
             ],
-            "entities": ["1987 Philippine Constitution", "1987 Constitution"],
+            "entities": [
+                "sylvia lina", "yale law school", "mapa high school", "far eastern university", "feu institute of law", "rotary club of manila",
+            ],
         },
     },
     {
-        "id": "due_process",
-        "display_name": "Due Process and Fair Trial",
-        "definition": "Procedural and substantive due process — life, liberty, property; notice and hearing; the natural-law sources (Themistocles, Daniel Webster).",
+        "id": "criminal_trials_and_prosecutions",
+        "display_name": "Criminal Trials, Prosecutions and the ICC",
+        "definition": "How major criminal cases actually proceed in the Philippines: bail, probable cause, the Sandiganbayan and the plunder and pork-barrel trials, and the International Criminal Court's case against Duterte.",
         "tier": "core",
         "theme_anchor": "A",
         "matchers": {
             "keywords": [
-                "due process", "notice and hearing", "themistocles", "daniel webster",
-                "procedural due process", "fair trial", "strike but hear me first",
+                "bail", "plunder", "napoles", "probable cause", "moral turpitude", "warrant of arrest",
+            ],
+            "entities": [
+                "mark jimenez", "fatou bensouda", "icc pre-trial chamber",
+            ],
+        },
+    },
+    {
+        "id": "international_law_disputes",
+        "display_name": "International Law: the West Philippine Sea and Arbitration",
+        "definition": "The Philippines' sea dispute with China: the 2016 arbitral award, UNCLOS, the exclusive economic zone and the nine-dash line, and what international arbitration can and cannot enforce.",
+        "tier": "core",
+        "theme_anchor": "A",
+        "matchers": {
+            "keywords": [
+                "icj", "west philippine sea",
+            ],
+            "entities": [
+                "unclos", "un charter", "mutual defense treaty",
+            ],
+        },
+    },
+    {
+        "id": "property_contracts_and_economic_rights",
+        "display_name": "Property, Contracts and Labor Rights",
+        "definition": "Supreme Court decisions on ownership, contracts, natural resources, investment and labor, read for what they mean for livelihoods and business.",
+        "tier": "core",
+        "theme_anchor": "B",
+        "matchers": {
+            "keywords": [
+                "investors", "monopolies", "res judicata", "voting shares", "agan v. piatco",
+            ],
+            "entities": [
+                "labor code", "department of environment and natural resources",
+            ],
+        },
+    },
+    {
+        "id": "presidential_power_martial_law_people_power",
+        "display_name": "Presidential Power, Martial Law and People Power",
+        "definition": "The limits of presidential power in a crisis: martial law and rebellion, EDSA and the presidencies of Estrada and Arroyo.",
+        "tier": "core",
+        "theme_anchor": "A",
+        "matchers": {
+            "keywords": [
+                "coup", "marawi", "romulo neri", "constitutional authoritarianism", "lagman vs medialdea",
+            ],
+            "entities": [
+                "maute group", "edsa shrine",
+            ],
+        },
+    },
+    {
+        "id": "elections_and_automated_voting",
+        "display_name": "Elections and Automated Voting",
+        "definition": "How Philippine elections are run and litigated: the Commission on Elections, precinct-count optical scanners and the disputes over automation.",
+        "tier": "core",
+        "theme_anchor": "A",
+        "matchers": {
+            "keywords": [
+                "ballots", "comelec's",
             ],
             "entities": [],
         },
     },
     {
         "id": "judicial_reform",
-        "display_name": "Judicial Reform — Four Ins and ACID problems",
-        "definition": "CJP's judicial-reform vocabulary: the four Ins (independence, integrity, industry, intelligence) versus the four ACID problems (access, corruption, incompetence, delay); the Action Program for Judicial Reform (APJR) and the Strategic Plan for Judicial Innovation.",
+        "display_name": "Judicial Reform and Court Delay",
+        "definition": "Reforming the courts: the Action Program for Judicial Reform, case backlogs, judges' pay and how to speed up justice.",
         "tier": "core",
         "theme_anchor": "A",
         "matchers": {
             "keywords": [
-                "four ins", "acid problems", "judicial reform", "apjr",
-                "strategic plan for judicial innovation",
-                "action program for judicial reform",
-                "judicial excellence", "benchbook",
+                "zero backlog", "judicial compensation",
             ],
-            "entities": [],
+            "entities": [
+                "action program for judicial reform",
+            ],
         },
     },
     {
-        "id": "supreme_court_history",
-        "display_name": "Supreme Court — history and stewardship",
-        "definition": "The Supreme Court as an institution — Chief Justices, centenary, judicial stewardship, the Panganiban Court, succession.",
+        "id": "party_list_charter_change_and_dynasties",
+        "display_name": "Party-List, Charter Change and Political Dynasties",
+        "definition": "How Congress is chosen and the Constitution is amended: the party-list system, Charter change and political dynasties.",
         "tier": "core",
         "theme_anchor": "A",
         "matchers": {
             "keywords": [
-                "panganiban court", "centenary of justice",
-                "supreme court centenary", "21st chief justice",
-                "ponente", "ponencia", "primus inter pares",
+                "con-ass", "dynasty", "charter change", "party-list seats",
             ],
             "entities": [
-                "CJ Alexander G. Gesmundo",
-                "CJ Hilario G. Davide Jr.",
-                "Justice Antonio T. Carpio",
+                "party-list law",
             ],
+        },
+    },
+    {
+        "id": "science_technology_and_the_law",
+        "display_name": "Science, Technology and the Law",
+        "definition": "How courts and lawyers should deal with new science: DNA and genetics, cloning, the internet and artificial intelligence.",
+        "tier": "core",
+        "theme_anchor": "E",
+        "matchers": {
+            "keywords": [
+                "bio-age", "genetic", "smartphone", "artificial intelligence",
+            ],
+            "entities": [],
         },
     },
     {
         "id": "impeachment_accountability",
-        "display_name": "Impeachment and Accountability",
-        "definition": "Impeachment as sui generis political-prosecutorial mechanism — House (prosecutorial) vs Senate (adjudicatory) roles; the Corona impeachment; the limit of due-process coverage.",
-        "tier": "subordinate",
-        "theme_anchor": "A",
-        "matchers": {
-            "keywords": [
-                "impeachment", "impeach", "articles of impeachment",
-                "sui generis", "corona", "moro-moro",
-                "public office is a public trust",
-            ],
-            "entities": ["CJ Renato C. Corona"],
-        },
-    },
-    {
-        "id": "international_law_disputes",
-        "display_name": "International Law — Arbitral Award, UNCLOS, EEZ",
-        "definition": "South China Sea / West Philippine Sea Arbitral Award; UNCLOS; nine-dash line; EEZ; Permanent Court of Arbitration; Mutual Defense Treaty.",
+        "display_name": "Impeachment",
+        "definition": "The impeachment process from the House to the Senate: its rules and limits, and the Corona and Sara Duterte cases.",
         "tier": "core",
         "theme_anchor": "A",
         "matchers": {
             "keywords": [
-                "arbitral award", "unclos", "nine-dash line", "eez",
-                "exclusive economic zone", "west philippine sea",
-                "south china sea", "wps", "permanent court of arbitration",
-                "mutual defense treaty", "freedom of navigation",
-                "jmsu", "joint marine seismic undertaking",
+                "senate trial", "articles of impeachment", "francisco v. house of representatives",
             ],
             "entities": [
-                "Permanent Court of Arbitration",
-                "United Nations Convention on the Law of the Sea",
+                "nixon", "sara duterte",
             ],
         },
     },
     {
-        "id": "icc_and_duterte",
-        "display_name": "ICC and the Duterte case",
-        "definition": "The Rome Statute, ICC jurisdiction post-withdrawal, the two-year prescriptive period, the Office of the Chief Prosecutor (Bensouda → Khan), and the Duterte mass-murder case.",
-        "tier": "subordinate",
+        "id": "public_funds_budget_and_bank_evidence",
+        "display_name": "Public Funds, the Budget and Bank Evidence",
+        "definition": "How public money is spent and traced: the budget, the DAP and PDAF rulings, and bank deposits used as evidence of corruption.",
+        "tier": "core",
         "theme_anchor": "A",
         "matchers": {
             "keywords": [
-                "icc", "international criminal court", "rome statute",
-                "karim khan", "bensouda", "office of the chief prosecutor",
-                "pre-trial chamber", "two-year prescriptive",
-                "subsidiarity", "complementarity",
+                "amla", "malampaya fund",
             ],
             "entities": [
-                "International Criminal Court",
-                "Rome Statute",
-                "Karim Khan",
-                "Rodrigo Duterte",
+                "psbank", "general appropriations act", "senate blue ribbon committee",
             ],
         },
     },
     {
-        "id": "judicial_activism_and_political_question",
-        "display_name": "Judicial Activism and the Political Question Doctrine",
-        "definition": "Comparative US-Philippine judicial activism — political-question doctrine, deference, and the courts' role in checking the political branches.",
-        "tier": "subordinate",
+        "id": "us_supreme_court_and_american_politics",
+        "display_name": "The US Supreme Court and American Politics",
+        "definition": "Commentary on the American presidency and the US Supreme Court, from Trump to Biden and the electoral college, and what they teach the Philippines.",
+        "tier": "core",
         "theme_anchor": "A",
         "matchers": {
             "keywords": [
-                "judicial activism", "political question", "deferential interpretation",
-                "deference",
+                "kagan", "donald",
             ],
             "entities": [],
         },
     },
     {
-        "id": "asean_law_association",
-        "display_name": "ASEAN Law Association and Regional Order",
-        "definition": "ALA, the ASEAN consensus principle, regional rule-of-law leadership, and CJP's outgoing chairmanship.",
+        "id": "faith_journey",
+        "display_name": "Faith: Scripture, Prayer and the Gospel",
+        "definition": "Reflections on scripture and prayer, on Jesus and the Gospel and on the Bukas Loob sa Diyos community, drawn mainly from the faith-themed books.",
+        "tier": "core",
+        "theme_anchor": "C",
+        "matchers": {
+            "keywords": [
+                "gospel", "apostles",
+            ],
+            "entities": [
+                "luke",
+            ],
+        },
+    },
+    # ===== Subordinate (15) =====
+    {
+        "id": "how_the_supreme_court_decides",
+        "display_name": "How the Supreme Court Decides",
+        "definition": "How the Court reasons and writes its decisions, and why the judiciary's independence from the other branches matters.",
         "tier": "subordinate",
         "theme_anchor": "A",
         "matchers": {
             "keywords": [
-                "asean law association", "ala general assembly",
-                "kuala lumpur", "ala philippines", "asean consensus",
-                "ala chairmanship",
+                "ata", "judicial activism", "decision-writing style",
             ],
-            "entities": ["ASEAN Law Association", "ALA Philippines"],
+            "entities": [],
+        },
+    },
+    {
+        "id": "libel_and_cybercrime",
+        "display_name": "Libel and Cybercrime",
+        "definition": "Criminal libel and cybercrime cases: the Maria Ressa cyberlibel prosecution, libel of public figures online, and the Cybercrime Prevention Act.",
+        "tier": "subordinate",
+        "theme_anchor": "A",
+        "matchers": {
+            "keywords": [
+                "libel", "cyberlibel", "cybercrime",
+            ],
+            "entities": [
+                "maria ressa",
+            ],
+        },
+    },
+    {
+        "id": "judiciary_milestones_and_tributes",
+        "display_name": "The Judiciary's Milestones and Tributes",
+        "definition": "Celebrations of the judiciary and of the people in it: the Supreme Court centenary, retirements, book launches, honors and tributes to fellow justices.",
+        "tier": "subordinate",
+        "theme_anchor": "C",
+        "matchers": {
+            "keywords": [
+                "toast", "toobin",
+            ],
+            "entities": [
+                "centenary executive committee",
+            ],
+        },
+    },
+    {
+        "id": "economy_taxes_and_prosperity",
+        "display_name": "The Economy, Taxes and Wages",
+        "definition": "Economic policy seen through a lawyer's eyes: growth, jobs, taxes and wages, and what makes nations prosper.",
+        "tier": "subordinate",
+        "theme_anchor": "B",
+        "matchers": {
+            "keywords": [
+                "minimum wage", "inclusive growth",
+            ],
+            "entities": [
+                "asean integration",
+            ],
         },
     },
     {
         "id": "death_penalty_and_echegaray",
-        "display_name": "Death Penalty and the Echegaray Reflection",
-        "definition": "CJP's 2006 personal-conscience reflection on the Leo Echegaray case after Congress abolished the death penalty — the conscience/institution distinction.",
+        "display_name": "The Death Penalty and the Echegaray Reflection",
+        "definition": "The Chief Justice's writing on capital punishment: the Echegaray case, the 2006 abolition of the death penalty and the conscience-versus-institution distinction.",
         "tier": "subordinate",
         "theme_anchor": "A",
         "matchers": {
-            "keywords": ["death penalty", "echegaray", "leo echegaray"],
+            "keywords": [
+                "echegaray",
+            ],
+            "entities": [
+                "death penalty",
+            ],
+        },
+    },
+    {
+        "id": "independent_commissions_and_appointments",
+        "display_name": "Independent Commissions and Appointments",
+        "definition": "The constitutional commissions and the Ombudsman: how their officials are appointed, how long they serve and how independent they really are.",
+        "tier": "subordinate",
+        "theme_anchor": "A",
+        "matchers": {
+            "keywords": [
+                "ad interim", "independent commission",
+            ],
+            "entities": [
+                "ombudsman law",
+            ],
+        },
+    },
+    {
+        "id": "bangsamoro_peace_process",
+        "display_name": "The Bangsamoro Peace Process",
+        "definition": "The peace agreements with the MILF, the Bangsamoro Basic Law and the question of whether they fit the Constitution.",
+        "tier": "subordinate",
+        "theme_anchor": "A",
+        "matchers": {
+            "keywords": [
+                "peace process", "armed conflict",
+            ],
+            "entities": [
+                "moa-ad",
+            ],
+        },
+    },
+    {
+        "id": "marcos_robredo_election_contest",
+        "display_name": "The Marcos-Robredo Election Contest",
+        "definition": "The vice-presidential protest of 2016 and the 2022 campaign that followed: canvassing, protests and what the results meant.",
+        "tier": "subordinate",
+        "theme_anchor": "A",
+        "matchers": {
+            "keywords": [
+                "ppcrv's", "robredo",
+            ],
+            "entities": [],
+        },
+    },
+    {
+        "id": "supreme_court_vacancies_and_chief_justiceship",
+        "display_name": "Supreme Court Vacancies and the Chief Justiceship",
+        "definition": "Who sits on the Court and who leads it: retirements, appointments by President Duterte and the succession to the chief justiceship.",
+        "tier": "subordinate",
+        "theme_anchor": "A",
+        "matchers": {
+            "keywords": [
+                "jbc nominees", "senior justices", "duterte appointees", "cj teresita j. leonardo-de castro",
+            ],
+            "entities": [
+                "cj renato corona",
+            ],
+        },
+    },
+    {
+        "id": "asean_law_association",
+        "display_name": "The ASEAN Law Association",
+        "definition": "The regional association of lawyers and judges the Chief Justice helped lead, and the rule of law in Southeast Asia.",
+        "tier": "subordinate",
+        "theme_anchor": "A",
+        "matchers": {
+            "keywords": [],
+            "entities": [
+                "ala philippines",
+            ],
+        },
+    },
+    {
+        "id": "ill_gotten_wealth_and_the_pcgg",
+        "display_name": "Ill-Gotten Wealth and the PCGG",
+        "definition": "The recovery of wealth amassed under Marcos: sequestration, forfeiture and the Sandiganbayan's rulings.",
+        "tier": "subordinate",
+        "theme_anchor": "A",
+        "matchers": {
+            "keywords": [
+                "luisita", "marcoses", "sequestration", "estate of marcos v. republic",
+            ],
             "entities": [],
         },
     },
     {
         "id": "bar_exam_and_legal_education",
-        "display_name": "Bar Examination and Legal Education",
-        "definition": "Bar exams, law-school formation, FEU, UP, the legal scholarship program, and the long arc from Sampaloc-newsboy to legal education benefactor.",
+        "display_name": "The Bar Exam and Legal Education",
+        "definition": "How lawyers are trained and admitted: the bar examinations, legal education and the profession's duties.",
+        "tier": "subordinate",
+        "theme_anchor": "D",
+        "matchers": {
+            "keywords": [
+                "passers",
+            ],
+            "entities": [
+                "legal education board",
+            ],
+        },
+    },
+    {
+        "id": "citizenship_and_residency_grace_poe",
+        "display_name": "Citizenship and Residency: the Grace Poe Case",
+        "definition": "Who counts as a natural-born citizen (foundlings, dual citizens and residency), argued through the Grace Poe case.",
         "tier": "subordinate",
         "theme_anchor": "A",
         "matchers": {
             "keywords": [
-                "bar exam", "bar examination", "bar topnotcher",
-                "legal education", "law school formation",
-                "feu law", "feu central student", "nusp",
-                "philippine law school",
+                "poe's", "naturalized",
             ],
             "entities": [],
         },
     },
-
-    # ===== Core (B — Prosperity / Economy) =====
     {
-        "id": "economic_governance_and_business_law",
-        "display_name": "Economic Governance and Business Law",
-        "definition": "Deferential interpretation, the Gamboa-Teves line, business-friendly judicial doctrine, and the policy environment for entrepreneurship.",
-        "tier": "core",
-        "theme_anchor": "B",
-        "matchers": {
-            "keywords": [
-                "deferential interpretation", "gamboa vs teves",
-                "business law", "policy environment", "economic policy",
-                "judicial deference",
-            ],
-            "entities": ["Gamboa vs Teves"],
-        },
-    },
-    {
-        "id": "eez_resource_sovereignty",
-        "display_name": "EEZ Resource Sovereignty",
-        "definition": "Article XII Section 2's twin safeguards — state control and 60-40 citizenship — applied to South China Sea joint-development negotiations.",
+        "id": "marriage_annulment_and_the_family_code",
+        "display_name": "Marriage, Annulment and the Family Code",
+        "definition": "How the law treats marriage: psychological incapacity, nullity, divorce and the Family Code.",
         "tier": "subordinate",
-        "theme_anchor": "B",
+        "theme_anchor": "A",
         "matchers": {
-            "keywords": [
-                "full control and supervision", "60-40", "regalian doctrine",
-                "natural resources", "joint development", "memorandum of understanding",
-                "mou with china",
-            ],
-            "entities": [],
-        },
-    },
-    {
-        "id": "msme_and_entrepreneurship",
-        "display_name": "MSME and Entrepreneurship — the Prosperity Fund",
-        "definition": "The pro-poor, pro-private-initiative Prosperity Fund for MSMEs and the Esmel (Entrepreneurship, Sustainability, Management, Economics, Law) fellowship program.",
-        "tier": "core",
-        "theme_anchor": "B",
-        "matchers": {
-            "keywords": [
-                "prosperity fund", "msme", "esmel", "entrepreneurship fund",
-                "pro-poor", "private entrepreneurship", "multibillion-peso",
-            ],
-            "entities": [],
-        },
-    },
-
-    # ===== Core (C — Biographical) =====
-    {
-        "id": "family_and_marriage",
-        "display_name": "Family — Leni, children, grandchildren",
-        "definition": "CJP's marriage to Leni Carpio Panganiban, his five children, grandchildren, and the household register he calls 'the real chief justice of this household.'",
-        "tier": "core",
-        "theme_anchor": "C",
-        "matchers": {
-            "keywords": [
-                "leni", "marisita", "leni carpio", "panganiban family",
-                "wife", "wedding anniversary", "children", "grandchildren",
-            ],
-            "entities": ["Leni Carpio-Panganiban", "Leni Panganiban"],
-        },
-    },
-    {
-        "id": "mentors_and_legal_lineage",
-        "display_name": "Mentors and Legal Lineage",
-        "definition": "Dr. Jovito R. Salonga as guru; Diokno and Teehankee as living moral architects; Salonga, Ordoñez and Associates as formative apprenticeship.",
-        "tier": "core",
-        "theme_anchor": "C",
-        "matchers": {
-            "keywords": [
-                "salonga", "jovito r. salonga", "diokno", "pepe diokno",
-                "teehankee", "claudio o. teehankee",
-                "salonga, ordoñez", "mentor", "my guru",
-            ],
+            "keywords": [],
             "entities": [
-                "Dr. Jovito R. Salonga",
-                "Jose W. Diokno",
-                "Claudio O. Teehankee",
+                "family code",
             ],
-        },
-    },
-    {
-        "id": "faith_journey",
-        "display_name": "Faith Journey — BLD, Pontifical Council, Pro Ecclesia",
-        "definition": "Catholic faith arriving late in life; Bukas Loob sa Diyos (BLD) covenant community with Leni; the Pontifical Council for the Laity appointment by John Paul II; the Pro Ecclesia et Pontifice papal award; Romans 8:28 and Isaiah 55:8-9 as touchstones.",
-        "tier": "core",
-        "theme_anchor": "C",
-        "matchers": {
-            "keywords": [
-                "bld", "bukas loob sa diyos", "catholic", "pontifical council",
-                "pro ecclesia", "papal award", "romans 8:28", "isaiah 55",
-                "ignatian", "faith", "providence", "his own time",
-            ],
-            "entities": [
-                "Pope John Paul II",
-                "Bukas Loob sa Diyos",
-                "Pontifical Council for the Laity",
-            ],
-        },
-    },
-    {
-        "id": "early_life_sampaloc",
-        "display_name": "Early Life — Sampaloc, FEU, the Bar",
-        "definition": "From Sampaloc newsboy to FEU summa cum laude to 1960 bar 6th-placer; the 15-centavo bus fare; Mapa High; the Trinity-failure scholarship interview.",
-        "tier": "subordinate",
-        "theme_anchor": "C",
-        "matchers": {
-            "keywords": [
-                "sampaloc", "newsboy", "mapa high", "victorino mapa",
-                "15 centavos", "fifteen centavos",
-                "juan luna elementary", "summa cum laude",
-                "1960 bar", "sixth place",
-            ],
-            "entities": [],
         },
     },
     {
         "id": "jbc_discernment_and_appointment",
-        "display_name": "JBC Discernment — the Seven Rejections",
-        "definition": "Seven Judicial and Bar Council rejections (1992-1995), the January 1995 surrender prayer, the Ask-Seek-Knock and Transfiguration Gospel readings, and the October 1995 appointment by Ramos.",
+        "display_name": "The Judicial and Bar Council",
+        "definition": "How judges are nominated: the Council's role, its rules and the shortlist for each vacancy.",
         "tier": "subordinate",
-        "theme_anchor": "C",
+        "theme_anchor": "A",
         "matchers": {
             "keywords": [
-                "jbc", "judicial and bar council", "seven rejections",
-                "ask and you shall receive", "transfiguration", "discernment",
+                "jbc's", "ex-officio", "jbc chair",
             ],
             "entities": [],
         },
     },
-    {
-        "id": "eulogies_and_passing",
-        "display_name": "Eulogies and Passing of Loved Ones",
-        "definition": "Eulogies and remembrances — Linda Manuel Mañalac, Leni's passing, Fr. Michael Nolan, and the fragility-of-life pastoral framework.",
-        "tier": "subordinate",
-        "theme_anchor": "C",
-        "matchers": {
-            "keywords": [
-                "eulogy", "passing", "in memoriam", "fragility of life",
-                "widower", "love and magnanimity",
-                "leni's passing", "in his heavenly kingdom",
-            ],
-            "entities": [
-                "Linda Manuel Mañalac",
-                "Fr. Michael Nolan",
-                "Tong Manalac",
-            ],
-        },
-    },
-    {
-        "id": "friendships_and_civic_circles",
-        "display_name": "Friendships and Civic Circles",
-        "definition": "CJP's friendships and patron network — Marixi R. Prieto, Manuel V. Pangilinan, the Ayalas, the Tan family, Rotary Club of Manila.",
-        "tier": "subordinate",
-        "theme_anchor": "C",
-        "matchers": {
-            "keywords": [
-                "marixi prieto", "manuel v. pangilinan", "manny pangilinan",
-                "rotary club of manila",
-                "dear friend",
-            ],
-            "entities": [
-                "Marixi R. Prieto",
-                "Manuel V. Pangilinan",
-                "Rotary Club of Manila",
-            ],
-        },
-    },
-    {
-        "id": "honors_received",
-        "display_name": "Honors Received",
-        "definition": "Pro Ecclesia et Pontifice; Bantayog ng mga Bayani 'Haligi ng Bantayog'; Manila Overseas Press Club Journalist of the Year — Law; honorary doctorates.",
-        "tier": "subordinate",
-        "theme_anchor": "C",
-        "matchers": {
-            "keywords": [
-                "bantayog", "haligi ng bantayog", "haligi",
-                "journalist of the year", "honorary doctorate",
-                "manila overseas press club",
-            ],
-            "entities": [
-                "Bantayog ng mga Bayani",
-                "Manila Overseas Press Club",
-            ],
-        },
-    },
+]
 
-    # ===== Core (D — FLP Mission) =====
-    {
-        "id": "flp_scholarship_programs",
-        "display_name": "FLP Scholarship and Fellowship Programs",
-        "definition": "FLP Legal Scholarship, ESMEL Fellowship, Dissertation Writing Contest, Professorial Chairs, Panganiban Education Assistance Program.",
-        "tier": "core",
-        "theme_anchor": "D",
-        "matchers": {
-            "keywords": [
-                "scholarship", "esmel fellowship", "dissertation writing contest",
-                "professorial chair", "education assistance program",
-                "panganiban education", "law scholarship",
-            ],
-            "entities": [],
-        },
-    },
-    {
-        "id": "museum_for_liberty_and_prosperity",
-        "display_name": "Museum for Liberty and Prosperity",
-        "definition": "The futuristic, AI-powered, immersive Museum as the liberty half of FLP's two ultimate projects; Palafox preliminary designs; Alabang Global City lot donated by Allen Roxas.",
-        "tier": "core",
-        "theme_anchor": "D",
-        "matchers": {
-            "keywords": [
-                "museum for liberty", "center for liberty and prosperity",
-                "ai-powered museum", "immersive museum", "palafox",
-                "allen roxas", "alabang global city",
-            ],
-            "entities": [],
-        },
-    },
-    {
-        "id": "prosperity_fund_msme",
-        "display_name": "Prosperity Fund (MSME)",
-        "definition": "The pro-poor multibillion-peso Prosperity Fund — the prosperity half of FLP's two ultimate projects.",
-        "tier": "core",
-        "theme_anchor": "D",
-        "matchers": {
-            "keywords": [
-                "prosperity fund", "msme fund", "multibillion-peso fund",
-                "pro-poor fund",
-            ],
-            "entities": [],
-        },
-    },
-    {
-        "id": "flp_donors_and_partners",
-        "display_name": "FLP Donors and Institutional Partners",
-        "definition": "Tan Yan Kee Foundation, Metrobank Foundation, Ayala Corporation, SM Investments, BDO, MPIC, AIM — the institutional ecosystem behind FLP's programs.",
-        "tier": "subordinate",
-        "theme_anchor": "D",
-        "matchers": {
-            "keywords": [
-                "tan yan kee foundation", "metrobank foundation",
-                "ayala corporation", "sm investments", "bdo unibank",
-                "metro pacific investments", "mpic", "asian institute of management",
-                "aim",
-            ],
-            "entities": [
-                "Tan Yan Kee Foundation",
-                "Metrobank Foundation",
-                "Ayala Corporation",
-                "SM Investments Corporation",
-                "Asian Institute of Management",
-            ],
-        },
-    },
-    {
-        "id": "lawyer_ethics_initiative",
-        "display_name": "Lawyer Ethics Initiative (Super Committee)",
-        "definition": "Tessie Sy Coson's principle that lawyers must be 'not just talented, but also ethical and Godly,' the new Super Committee under SolGen Berberabe, and FLP's ethical-formation track.",
-        "tier": "subordinate",
-        "theme_anchor": "D",
-        "matchers": {
-            "keywords": [
-                "ethical and godly", "lawyer ethics", "super committee",
-                "ethical standards", "berberabe",
-            ],
-            "entities": ["Tessie Sy Coson", "SolGen Lelen Berberabe"],
-        },
-    },
 
-    # ===== Core (E — Current Events) =====
-    {
-        "id": "ai_and_technology",
-        "display_name": "AI, Technology, and the Judiciary",
-        "definition": "Artificial intelligence in court administration; the Strategic Plan for Judicial Innovation 'for the Age of Artificial Intelligence'; technology and rule-of-law.",
-        "tier": "subordinate",
-        "theme_anchor": "E",
-        "matchers": {
-            "keywords": [
-                "artificial intelligence", "ai-powered", "ai for the",
-                "age of artificial intelligence", "technology",
-            ],
-            "entities": [],
-        },
-    },
-    {
-        "id": "global_geopolitics",
-        "display_name": "Global Geopolitics and the ICJ",
-        "definition": "Comparative international-court watch — ICJ genocide cases (South Africa v. Israel; Russia-Ukraine), Trump-era US constitutional contests, and the international rule-of-law erosion.",
-        "tier": "subordinate",
-        "theme_anchor": "E",
-        "matchers": {
-            "keywords": [
-                "icj", "international court of justice", "genocide",
-                "south africa v. israel", "gaza", "russia-ukraine",
-                "trump", "presidential immunity",
-            ],
-            "entities": [],
-        },
-    },
-    {
-        "id": "philippine_political_landscape",
-        "display_name": "Philippine Political Landscape",
-        "definition": "Contemporary Philippine politics — Marcos administration, the First Lady's legal practice, GMA, post-Duterte realignment.",
-        "tier": "subordinate",
-        "theme_anchor": "E",
-        "matchers": {
-            "keywords": [
-                "marcos jr", "bongbong marcos", "first lady",
-                "louise araneta-marcos", "gma", "macapagal-arroyo",
-            ],
-            "entities": [
-                "President Ferdinand Marcos Jr.",
-                "First Lady Louise Araneta-Marcos",
-                "President Gloria Macapagal-Arroyo",
-            ],
-        },
-    },
+# -- META intents (CE-10 Step 4) ----------------------------------------------
+#
+# robot_identity_meta is an INTENT, not a corpus topic: it holds 0 documents and 0 chunks, is routed by the
+# input gate / router (retrieval.input_gate, answer_pipeline.force_meta_routing), and must never get a centroid.
+# It is kept OUT of TAXONOMY and emitted under topic_map['intents'] so the legacy pipeline's topic_data node —
+# the persona instruction the composer reads for identity probes — is unchanged.
 
-    # ===== Meta =====
+META_INTENTS: list[dict[str, Any]] = [
     {
         "id": "robot_identity_meta",
         "display_name": "Robot Identity (META)",
@@ -635,9 +523,14 @@ TAXONOMY: list[dict[str, Any]] = [
         "default_register_override": ("gracious_in_persona", "gentle, self-deprecating"),
         "matchers": {
             "keywords": [
-                "are you ai", "are you a robot", "are you real",
-                "is this really cjp", "how do you work", "are you panganiban",
-                "robot rendering", "ai conversation robot",
+                "are you ai",
+                "are you a robot",
+                "are you real",
+                "is this really cjp",
+                "how do you work",
+                "are you panganiban",
+                "robot rendering",
+                "ai conversation robot",
             ],
             "entities": [],
         },
@@ -702,6 +595,24 @@ def load_docs() -> list[tuple[Path, dict[str, Any]]]:
     return out
 
 
+def _doc_year(d: dict[str, Any]) -> int | None:
+    """Year of a document: its `year` key if present, else the year in `date` (the corpus JSONs carry `date` only;
+    v1 indexed d["year"] directly). Jan-1 placeholder dates still give the right YEAR; date precision is untouched."""
+    y = d.get("year")
+    if y:
+        return int(y)
+    m = re.match(r"(\d{4})", str(d.get("date") or ""))
+    return int(m.group(1)) if m else None
+
+
+def _corpus_mean_sha256() -> str:
+    """The map records the scale its centroids live on. The mean file must already exist (build_corpus_mean.py); no fallback."""
+    p = Path(config.CORPUS_MEAN_PATH)
+    if not p.exists():
+        raise FileNotFoundError(f"{p} missing: run scripts/build_corpus_mean.py before rebuilding the topic map")
+    return hashlib.sha256(p.read_bytes()).hexdigest()
+
+
 def build_topic_map(docs: list[tuple[Path, dict[str, Any]]]) -> dict[str, Any]:
     # Score every doc against every topic.
     doc_scores: dict[str, dict[str, int]] = {}
@@ -716,7 +627,7 @@ def build_topic_map(docs: list[tuple[Path, dict[str, Any]]]) -> dict[str, Any]:
             doc for _, doc in docs if doc_scores[doc["id"]][topic["id"]] > 0
         ]
         doc_ids = [d["id"] for d in matched]
-        years = sorted({d["year"] for d in matched if d.get("year")})
+        years = sorted({y for y in (_doc_year(d) for d in matched) if y})
         dates = sorted({d["date"] for d in matched if d.get("date")})
         date_range = [dates[0], dates[-1]] if dates else []
 
@@ -788,8 +699,21 @@ def build_topic_map(docs: list[tuple[Path, dict[str, Any]]]) -> dict[str, Any]:
             "matchers": topic["matchers"],
         }
 
+    intents_out: dict[str, dict[str, Any]] = {}
+    for it in META_INTENTS:
+        reg = it.get("default_register_override") or THEME_REGISTER.get(it["theme_anchor"], ("doctrinal-formal", "sparing"))
+        intents_out[it["id"]] = {
+            "id": it["id"], "kind": "intent", "display_name": it["display_name"], "definition": it["definition"],
+            "tier": it["tier"], "theme_anchor": it["theme_anchor"], "default_register": reg[0], "wit_calibration": reg[1],
+            "doc_count": 0, "doc_ids": [], "date_range": [], "year_range": [], "type_distribution": {}, "theme_distribution": {},
+            "top_people": [], "top_institutions": [], "top_cases": [], "matchers": it["matchers"],
+        }
+
     return {
         "schema_version": "2.0",
+        "taxonomy_version": 2,
+        "scale": "centred",
+        "corpus_mean": {"path": "data/index/corpus_mean.npy", "sha256": _corpus_mean_sha256()},
         "generated_at": datetime.now(timezone.utc).isoformat(),
         "corpus_stats": {
             "n_docs": len(docs),
@@ -801,7 +725,7 @@ def build_topic_map(docs: list[tuple[Path, dict[str, Any]]]) -> dict[str, Any]:
                 Counter(d["theme"] for _, d in docs)
             ),
             "year_distribution": dict(
-                sorted(Counter(d["year"] for _, d in docs).items())
+                sorted(Counter(_doc_year(d) for _, d in docs).items(), key=lambda kv: (kv[0] is None, kv[0] or 0))
             ),
         },
         "themes": {
@@ -814,6 +738,7 @@ def build_topic_map(docs: list[tuple[Path, dict[str, Any]]]) -> dict[str, Any]:
             for letter in "ABCDE"
         },
         "topics": topics_out,
+        "intents": intents_out,
     }, doc_scores
 
 
@@ -858,7 +783,7 @@ def write_topic_map(tm: dict[str, Any]) -> Path:
     VOICE_DIR.mkdir(parents=True, exist_ok=True)
     out_path = VOICE_DIR / "topic_map.json"
     out_path.write_text(
-        json.dumps(tm, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
+        json.dumps(tm, ensure_ascii=False, indent=2) + "\n", encoding="utf-8", newline="\n"
     )
     return out_path
 
@@ -999,6 +924,7 @@ def write_coverage_report(
         )
         + "\n",
         encoding="utf-8",
+        newline="\n",
     )
     return out_path
 

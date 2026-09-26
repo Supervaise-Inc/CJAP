@@ -1,0 +1,1424 @@
+{
+ "hit_at_k": {
+  "before": {
+   "1": 0.058823529411764705,
+   "3": 0.29411764705882354,
+   "5": 0.38235294117647056,
+   "10": 0.5294117647058824
+  },
+  "after": {
+   "1": 0.058823529411764705,
+   "3": 0.29411764705882354,
+   "5": 0.38235294117647056,
+   "10": 0.5
+  }
+ },
+ "jaccard": [
+  0.8888888888888888,
+  1.0,
+  0.8,
+  1.0,
+  1.0,
+  0.75,
+  0.8888888888888888,
+  0.6,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  0.6,
+  0.8333333333333334,
+  0.8333333333333334,
+  1.0,
+  1.0,
+  0.8888888888888888,
+  1.0,
+  1.0,
+  0.8,
+  1.0,
+  1.0,
+  0.8,
+  1.0,
+  1.0,
+  0.9,
+  1.0,
+  1.0,
+  0.9,
+  0.9375,
+  1.0,
+  1.0
+ ],
+ "same_set": 26,
+ "same_top_doc": 36,
+ "before": {
+  "A1": {
+   "top": "global_geopolitics",
+   "in_scope": true,
+   "relmax": 0.03201914578676224,
+   "rdocs": [
+    "CA081",
+    "BA062",
+    "SA133",
+    "SA015",
+    "CA028",
+    "BB035",
+    "CD025",
+    "CD026",
+    "CA015",
+    "BB020"
+   ]
+  },
+  "A2": {
+   "top": "robot_identity_meta",
+   "in_scope": true,
+   "relmax": 0.03146587684750557,
+   "rdocs": [
+    "BC043",
+    "BB032",
+    "BD060",
+    "BD049",
+    "BA005",
+    "CE020",
+    "SA145",
+    "SB065",
+    "CA128",
+    "BD067"
+   ]
+  },
+  "A3": {
+   "top": "robot_identity_meta",
+   "in_scope": true,
+   "relmax": 0.03215072676539421,
+   "rdocs": [
+    "CA242",
+    "BB040",
+    "BA107",
+    "BA066",
+    "CA078",
+    "CA099",
+    "BB013",
+    "BD059",
+    "BD022",
+    "BD042"
+   ]
+  },
+  "A4": {
+   "top": "constitutional_doctrine",
+   "in_scope": true,
+   "relmax": 0.03173379600048065,
+   "rdocs": [
+    "CA112",
+    "BA084",
+    "CA111",
+    "CC054",
+    "CA085",
+    "SB065",
+    "BC008",
+    "BC046",
+    "BD047",
+    "BA078"
+   ]
+  },
+  "A5": {
+   "top": "constitutional_doctrine",
+   "in_scope": true,
+   "relmax": 0.03123466670513153,
+   "rdocs": [
+    "BA093",
+    "CA095",
+    "BD041",
+    "BD068",
+    "BB037",
+    "BA077",
+    "BD067",
+    "BD059",
+    "BA034",
+    "BD049"
+   ]
+  },
+  "A6": {
+   "top": "due_process",
+   "in_scope": true,
+   "relmax": 0.03308862820267677,
+   "rdocs": [
+    "BB022",
+    "BB014",
+    "CA004",
+    "BA082",
+    "BA009",
+    "BA071",
+    "CA022",
+    "SA095",
+    "CA005",
+    "BB036"
+   ]
+  },
+  "B7": {
+   "top": "judicial_reform",
+   "in_scope": true,
+   "relmax": 0.03310166299343109,
+   "rdocs": [
+    "BD060",
+    "SA138",
+    "SA015",
+    "SA034",
+    "SD150",
+    "BB037",
+    "SD044",
+    "BD062",
+    "CB012",
+    "SB028"
+   ]
+  },
+  "B8": {
+   "top": "due_process",
+   "in_scope": true,
+   "relmax": 0.03096158802509308,
+   "rdocs": [
+    "CD025",
+    "BB007",
+    "BD021",
+    "BA010",
+    "BA041",
+    "BD036",
+    "CA479",
+    "CC108",
+    "CA362",
+    "CA371"
+   ]
+  },
+  "B9": {
+   "top": "economic_governance_and_business_law",
+   "in_scope": true,
+   "relmax": 0.0319974310696125,
+   "rdocs": [
+    "GC034",
+    "CD003",
+    "CC028",
+    "SB085",
+    "CD008",
+    "CB010",
+    "SD021",
+    "SD027",
+    "BA010",
+    "CE091"
+   ]
+  },
+  "B10": {
+   "top": "msme_and_entrepreneurship+prosperity_fund_msme",
+   "in_scope": true,
+   "relmax": 0.03217342123389244,
+   "rdocs": [
+    "CC028",
+    "GC034",
+    "SD016",
+    "CD008",
+    "SA015",
+    "SB006",
+    "CD016",
+    "SD009",
+    "CA092",
+    "SD021"
+   ]
+  },
+  "B11": {
+   "top": "eez_resource_sovereignty",
+   "in_scope": true,
+   "relmax": 0.033015307039022446,
+   "rdocs": [
+    "BB031",
+    "BB028",
+    "BD056",
+    "BD046",
+    "BB033",
+    "BD060",
+    "SA145",
+    "BD064",
+    "BB020",
+    "BB037"
+   ]
+  },
+  "B12": {
+   "top": "judicial_reform",
+   "in_scope": true,
+   "relmax": 0.03213398531079292,
+   "rdocs": [
+    "SA145",
+    "SA138",
+    "SA111",
+    "SB028",
+    "SD027",
+    "BD060",
+    "SD150",
+    "BC044",
+    "SD035",
+    "CB008"
+   ]
+  },
+  "C13": {
+   "top": "faith_journey",
+   "in_scope": true,
+   "relmax": 0.030906548723578453,
+   "rdocs": [
+    "BC008",
+    "BA035",
+    "BC017",
+    "GC031",
+    "BC018",
+    "BC011",
+    "BC013",
+    "SC057",
+    "BC014",
+    "BC042"
+   ]
+  },
+  "C14": {
+   "top": "with_due_respect_persona",
+   "in_scope": true,
+   "relmax": 0.03133294731378555,
+   "rdocs": [
+    "SC032",
+    "BD033",
+    "BD025",
+    "BC014",
+    "BD030",
+    "SC061",
+    "SC062",
+    "BD045",
+    "SB042",
+    "BC013"
+   ]
+  },
+  "C15": {
+   "top": "due_process",
+   "in_scope": true,
+   "relmax": 0.03064827062189579,
+   "rdocs": [
+    "CA440",
+    "BC008",
+    "CA441",
+    "CD025",
+    "BD021",
+    "BC001",
+    "BD027",
+    "BC046",
+    "SA107",
+    "BC016"
+   ]
+  },
+  "C16": {
+   "top": "with_due_respect_persona",
+   "in_scope": true,
+   "relmax": 0.031438328325748444,
+   "rdocs": [
+    "CC001",
+    "SA020",
+    "SC117",
+    "SC058",
+    "BD041",
+    "SC025",
+    "CC111",
+    "CA110",
+    "BC034",
+    "BD007"
+   ]
+  },
+  "C17": {
+   "top": "early_life_sampaloc",
+   "in_scope": true,
+   "relmax": 0.031238127499818802,
+   "rdocs": [
+    "BD033",
+    "BD025",
+    "BD024",
+    "BD026",
+    "BD034",
+    "SC067",
+    "BC046",
+    "CA110",
+    "BC042",
+    "GC015"
+   ]
+  },
+  "C18": {
+   "top": "early_life_sampaloc",
+   "in_scope": true,
+   "relmax": 0.03105141595005989,
+   "rdocs": [
+    "BC046",
+    "BC014",
+    "SD148",
+    "SB079",
+    "BC031",
+    "BC039",
+    "CC084",
+    "SC066",
+    "BC041",
+    "SC135"
+   ]
+  },
+  "D19": {
+   "top": "twin_beacons_doctrine",
+   "in_scope": true,
+   "relmax": 0.03253716975450516,
+   "rdocs": [
+    "CD030",
+    "CB005",
+    "SA052",
+    "SD016",
+    "CD013",
+    "SB040",
+    "SA011",
+    "SA145",
+    "SA074",
+    "SB075"
+   ]
+  },
+  "D20": {
+   "top": "flp_donors_and_partners",
+   "in_scope": true,
+   "relmax": 0.033626407384872437,
+   "rdocs": [
+    "CD020",
+    "CD001",
+    "CD026",
+    "SD016",
+    "CA164",
+    "CA165",
+    "CD019",
+    "SD035",
+    "BD039",
+    "BE018"
+   ]
+  },
+  "D21": {
+   "top": "museum_for_liberty_and_prosperity",
+   "in_scope": true,
+   "relmax": 0.032623931765556335,
+   "rdocs": [
+    "CD018",
+    "CD030",
+    "SD002",
+    "SD021",
+    "CD017",
+    "SA015",
+    "CA092",
+    "CD013",
+    "SD016",
+    "CD016"
+   ]
+  },
+  "D22": {
+   "top": "economic_governance_and_business_law",
+   "in_scope": true,
+   "relmax": 0.031127965077757835,
+   "rdocs": [
+    "CA092",
+    "SA015",
+    "CA081",
+    "BA010",
+    "CA080",
+    "SA145",
+    "CA435",
+    "BB037",
+    "SA133",
+    "CD003"
+   ]
+  },
+  "D23": {
+   "top": "flp_donors_and_partners",
+   "in_scope": true,
+   "relmax": 0.03171703591942787,
+   "rdocs": [
+    "CC083",
+    "CD018",
+    "SB113",
+    "BB037",
+    "SB072",
+    "SB083",
+    "CC077",
+    "CA164",
+    "CD020",
+    "SC121"
+   ]
+  },
+  "D24": {
+   "top": "due_process",
+   "in_scope": true,
+   "relmax": 0.03072473220527172,
+   "rdocs": [
+    "SC130",
+    "CC111",
+    "BC013",
+    "SA048",
+    "BD021",
+    "SA145",
+    "CC071",
+    "BC029",
+    "CC006",
+    "SB083"
+   ]
+  },
+  "E25": {
+   "top": "international_law_disputes",
+   "in_scope": true,
+   "relmax": 0.033183254301548004,
+   "rdocs": [
+    "CA335",
+    "CA313",
+    "CA010",
+    "CA014",
+    "CA082",
+    "CA009",
+    "CA314",
+    "CA237",
+    "CA011",
+    "CA365"
+   ]
+  },
+  "E26": {
+   "top": "global_geopolitics",
+   "in_scope": true,
+   "relmax": 0.03223215416073799,
+   "rdocs": [
+    "CA042",
+    "SA114",
+    "CA003",
+    "CA116",
+    "CC093",
+    "BE031",
+    "CA368",
+    "CA182",
+    "CA099",
+    "CA333"
+   ]
+  },
+  "E27": {
+   "top": "global_geopolitics",
+   "in_scope": true,
+   "relmax": 0.03257601708173752,
+   "rdocs": [
+    "BA051",
+    "BB020",
+    "CA486",
+    "CA462",
+    "CA363",
+    "CA182",
+    "BA042",
+    "CA080",
+    "CB013",
+    "CA386"
+   ]
+  },
+  "E28": {
+   "top": "constitutional_doctrine",
+   "in_scope": true,
+   "relmax": 0.032349295914173126,
+   "rdocs": [
+    "CA142",
+    "CA189",
+    "BA107",
+    "CA376",
+    "BE032",
+    "CC022",
+    "CA078",
+    "BB025",
+    "BB013",
+    "BA032"
+   ]
+  },
+  "E29": {
+   "top": "eez_resource_sovereignty",
+   "in_scope": true,
+   "relmax": 0.031200943514704704,
+   "rdocs": [
+    "CA034",
+    "CE021",
+    "CA242",
+    "CA303",
+    "SA049",
+    "BA056",
+    "BA072",
+    "BA094",
+    "BA080",
+    "SE012"
+   ]
+  },
+  "E30": {
+   "top": "honors_received",
+   "in_scope": true,
+   "relmax": 0.032732799649238586,
+   "rdocs": [
+    "CA202",
+    "BA071",
+    "CA117",
+    "BD035",
+    "CA376",
+    "BD036",
+    "BD042",
+    "BD070",
+    "BA092",
+    "BA036"
+   ]
+  },
+  "X31": {
+   "top": "jbc_discernment_and_appointment",
+   "in_scope": true,
+   "relmax": 0.030977793037891388,
+   "rdocs": [
+    "SC130",
+    "BC029",
+    "BC040",
+    "BC046",
+    "BA079",
+    "BC014",
+    "BC025",
+    "CA110",
+    "CC117",
+    "BC038"
+   ]
+  },
+  "X32": {
+   "top": "honors_received",
+   "in_scope": true,
+   "relmax": 0.030219275504350662,
+   "rdocs": [
+    "SD027",
+    "BC029",
+    "BB027",
+    "BD069",
+    "BD036",
+    "SB079",
+    "BD062",
+    "BD039",
+    "SB075",
+    "BD066"
+   ]
+  },
+  "X33": {
+   "top": "robot_identity_meta",
+   "in_scope": true,
+   "relmax": 0.0309118814766407,
+   "rdocs": [
+    "BA032",
+    "BA059",
+    "BD022",
+    "BA070",
+    "CA371",
+    "BA051",
+    "CA003",
+    "BA083",
+    "BA054",
+    "BA047"
+   ]
+  },
+  "X34": {
+   "top": "international_law_disputes",
+   "in_scope": true,
+   "relmax": 0.03354461491107941,
+   "rdocs": [
+    "CA335",
+    "CA010",
+    "CA009",
+    "CA313",
+    "CA314",
+    "CA238",
+    "CA082",
+    "CA014",
+    "CA365",
+    "CA237"
+   ]
+  },
+  "X35": {
+   "top": "friendships_and_civic_circles",
+   "in_scope": true,
+   "relmax": 0.030654609203338623,
+   "rdocs": [
+    "CE108",
+    "SC037",
+    "CC015",
+    "SA055",
+    "BC039",
+    "CE063",
+    "SC070",
+    "BC023",
+    "BB011",
+    "BC005"
+   ]
+  },
+  "X36": {
+   "top": "museum_for_liberty_and_prosperity",
+   "in_scope": true,
+   "relmax": 0.030417196452617645,
+   "rdocs": [
+    "SB042",
+    "CD013",
+    "CD030",
+    "SC046",
+    "BD007",
+    "CE018",
+    "SD002",
+    "CA110",
+    "SE001",
+    "SD016"
+   ]
+  },
+  "X37": {
+   "top": "asean_law_association",
+   "in_scope": true,
+   "relmax": 0.03242599591612816,
+   "rdocs": [
+    "SB085",
+    "SA015",
+    "BA084",
+    "BD056",
+    "CD019",
+    "SB028",
+    "SA111",
+    "BD064",
+    "CA031",
+    "CA015"
+   ]
+  },
+  "X38": {
+   "top": "economic_governance_and_business_law",
+   "in_scope": true,
+   "relmax": 0.03144937753677368,
+   "rdocs": [
+    "SA124",
+    "SA098",
+    "BD037",
+    "SB075",
+    "BC044",
+    "CB008",
+    "SD150",
+    "SB028",
+    "SA145",
+    "BD060"
+   ]
+  },
+  "X39": {
+   "top": "jbc_discernment_and_appointment",
+   "in_scope": true,
+   "relmax": 0.03134114295244217,
+   "rdocs": [
+    "CC038",
+    "SC059",
+    "CC085",
+    "CC033",
+    "SA043",
+    "SA126",
+    "BD056",
+    "BC038",
+    "CC099",
+    "SC024"
+   ]
+  },
+  "X40": {
+   "top": "with_due_respect_persona",
+   "in_scope": true,
+   "relmax": 0.03061649389564991,
+   "rdocs": [
+    "BD025",
+    "BD057",
+    "CA110",
+    "BC001",
+    "SC090",
+    "BD021",
+    "SC029",
+    "CD012",
+    "BC029",
+    "CD021"
+   ]
+  }
+ },
+ "after": {
+  "A1": {
+   "top": "how_the_supreme_court_decides",
+   "in_scope": true,
+   "relmax": 0.044157497584819794,
+   "rdocs": [
+    "CA081",
+    "BA062",
+    "SA133",
+    "SA015",
+    "CA028",
+    "BB035",
+    "CD026",
+    "CD025",
+    "CA015",
+    "BB020"
+   ]
+  },
+  "A2": {
+   "top": "judicial_reform",
+   "in_scope": true,
+   "relmax": 0.04787464812397957,
+   "rdocs": [
+    "BC043",
+    "BB032",
+    "BD060",
+    "BD049",
+    "BA005",
+    "CE020",
+    "SA145",
+    "SB065",
+    "CA128",
+    "BD067"
+   ]
+  },
+  "A3": {
+   "top": "marriage_annulment_and_the_family_code",
+   "in_scope": true,
+   "relmax": 0.04633976146578789,
+   "rdocs": [
+    "CA242",
+    "BB040",
+    "BA107",
+    "BA066",
+    "CA078",
+    "CA099",
+    "BB013",
+    "BA101",
+    "BD059",
+    "BD035"
+   ]
+  },
+  "A4": {
+   "top": "how_the_supreme_court_decides",
+   "in_scope": true,
+   "relmax": 0.051963645964860916,
+   "rdocs": [
+    "CA112",
+    "BA084",
+    "CA111",
+    "CA085",
+    "CC054",
+    "SB065",
+    "BC008",
+    "BC046",
+    "BD047",
+    "BA078"
+   ]
+  },
+  "A5": {
+   "top": "judicial_reform",
+   "in_scope": true,
+   "relmax": 0.05364988371729851,
+   "rdocs": [
+    "BA093",
+    "CA095",
+    "BD041",
+    "BD068",
+    "BD067",
+    "BB037",
+    "BA077",
+    "BA034",
+    "BD059",
+    "BD049"
+   ]
+  },
+  "A6": {
+   "top": "death_penalty_and_echegaray",
+   "in_scope": true,
+   "relmax": 0.04451603814959526,
+   "rdocs": [
+    "BB022",
+    "BB014",
+    "CA004",
+    "BA082",
+    "CA022",
+    "BA009",
+    "BA071",
+    "CA005",
+    "SA095",
+    "BB036"
+   ]
+  },
+  "B7": {
+   "top": "twin_beacons_doctrine",
+   "in_scope": true,
+   "relmax": 0.06944997608661652,
+   "rdocs": [
+    "SA138",
+    "BD060",
+    "SA015",
+    "SA034",
+    "SD150",
+    "BB037",
+    "BD062",
+    "SD044",
+    "CC111",
+    "CB012"
+   ]
+  },
+  "B8": {
+   "top": "death_penalty_and_echegaray",
+   "in_scope": true,
+   "relmax": 0.04331031069159508,
+   "rdocs": [
+    "CD025",
+    "BB007",
+    "BD021",
+    "CC108",
+    "BD036",
+    "BA010",
+    "BA041",
+    "CA362",
+    "BC029",
+    "CA371"
+   ]
+  },
+  "B9": {
+   "top": "twin_beacons_doctrine",
+   "in_scope": true,
+   "relmax": 0.04215509817004204,
+   "rdocs": [
+    "GC034",
+    "CD003",
+    "CC028",
+    "SB085",
+    "CD008",
+    "CB010",
+    "SD021",
+    "SD027",
+    "BA010",
+    "CE091"
+   ]
+  },
+  "B10": {
+   "top": "foundation_for_liberty_and_prosperity",
+   "in_scope": true,
+   "relmax": 0.05787038803100586,
+   "rdocs": [
+    "CC028",
+    "GC034",
+    "SD016",
+    "CD008",
+    "SA015",
+    "SB006",
+    "CD016",
+    "SD009",
+    "CA092",
+    "SD021"
+   ]
+  },
+  "B11": {
+   "top": "judicial_reform",
+   "in_scope": true,
+   "relmax": 0.0500311553478241,
+   "rdocs": [
+    "BB031",
+    "BB028",
+    "BD056",
+    "BB033",
+    "BD046",
+    "BD060",
+    "SA145",
+    "BD064",
+    "BB020",
+    "BB037"
+   ]
+  },
+  "B12": {
+   "top": "twin_beacons_doctrine",
+   "in_scope": true,
+   "relmax": 0.06350049376487732,
+   "rdocs": [
+    "SA145",
+    "SA138",
+    "SA111",
+    "SB028",
+    "BD060",
+    "SD027",
+    "SD150",
+    "CB008",
+    "SD035",
+    "BC044"
+   ]
+  },
+  "C13": {
+   "top": "faith_journey",
+   "in_scope": true,
+   "relmax": 0.05175513029098511,
+   "rdocs": [
+    "BC008",
+    "BA035",
+    "BC017",
+    "GC031",
+    "BC018",
+    "BC011",
+    "SC057",
+    "BC013",
+    "BC014",
+    "BC042"
+   ]
+  },
+  "C14": {
+   "top": "bar_exam_and_legal_education",
+   "in_scope": true,
+   "relmax": 0.04625349119305611,
+   "rdocs": [
+    "SC032",
+    "BD033",
+    "BD025",
+    "BC014",
+    "BD030",
+    "BD045",
+    "SC061",
+    "SB042",
+    "SC062",
+    "BC013"
+   ]
+  },
+  "C15": {
+   "top": "faith_journey",
+   "in_scope": true,
+   "relmax": 0.04908399656414986,
+   "rdocs": [
+    "BC008",
+    "CA440",
+    "CA441",
+    "CD025",
+    "BD021",
+    "BC001",
+    "BD027",
+    "BC046",
+    "SA107",
+    "BC016"
+   ]
+  },
+  "C16": {
+   "top": "life_story_family_school_and_church",
+   "in_scope": true,
+   "relmax": 0.04375693202018738,
+   "rdocs": [
+    "CC001",
+    "SA020",
+    "SC117",
+    "SC058",
+    "BD041",
+    "CA110",
+    "SC025",
+    "BC034",
+    "BD007",
+    "CC111"
+   ]
+  },
+  "C17": {
+   "top": "life_story_family_school_and_church",
+   "in_scope": true,
+   "relmax": 0.050963833928108215,
+   "rdocs": [
+    "BD033",
+    "BD025",
+    "BD024",
+    "BD026",
+    "BD034",
+    "SC067",
+    "CA110",
+    "BC046",
+    "GC015",
+    "BC042"
+   ]
+  },
+  "C18": {
+   "top": "life_story_family_school_and_church",
+   "in_scope": true,
+   "relmax": 0.05116712674498558,
+   "rdocs": [
+    "BC046",
+    "BC014",
+    "SD148",
+    "SB079",
+    "BC031",
+    "BC039",
+    "CC084",
+    "SC066",
+    "BC041",
+    "SC135"
+   ]
+  },
+  "D19": {
+   "top": "twin_beacons_doctrine",
+   "in_scope": true,
+   "relmax": 0.07215774804353714,
+   "rdocs": [
+    "CD030",
+    "CB005",
+    "SA052",
+    "CD013",
+    "SD016",
+    "SB040",
+    "SA011",
+    "SA145",
+    "SA074",
+    "SB075"
+   ]
+  },
+  "D20": {
+   "top": "foundation_for_liberty_and_prosperity",
+   "in_scope": true,
+   "relmax": 0.05398322641849518,
+   "rdocs": [
+    "CD020",
+    "CD001",
+    "CD026",
+    "SD016",
+    "CA164",
+    "CA165",
+    "BD039",
+    "CD019",
+    "SD035",
+    "CD009"
+   ]
+  },
+  "D21": {
+   "top": "twin_beacons_doctrine",
+   "in_scope": true,
+   "relmax": 0.06432764232158661,
+   "rdocs": [
+    "CD018",
+    "CD030",
+    "SD002",
+    "SD021",
+    "CD017",
+    "SA015",
+    "CD013",
+    "CA092",
+    "SD016",
+    "CD016"
+   ]
+  },
+  "D22": {
+   "top": "twin_beacons_doctrine",
+   "in_scope": true,
+   "relmax": 0.04442538321018219,
+   "rdocs": [
+    "CA092",
+    "CA081",
+    "SA015",
+    "BA010",
+    "CA080",
+    "SA145",
+    "BB037",
+    "CA435",
+    "SA133",
+    "CD003"
+   ]
+  },
+  "D23": {
+   "top": "foundation_for_liberty_and_prosperity",
+   "in_scope": true,
+   "relmax": 0.05333702266216278,
+   "rdocs": [
+    "CC083",
+    "CD018",
+    "SB113",
+    "BB037",
+    "SB072",
+    "SB083",
+    "CC077",
+    "CA164",
+    "SC121",
+    "CD020"
+   ]
+  },
+  "D24": {
+   "top": "foundation_for_liberty_and_prosperity",
+   "in_scope": true,
+   "relmax": 0.04532981291413307,
+   "rdocs": [
+    "SC130",
+    "CC111",
+    "BC013",
+    "SA048",
+    "SA145",
+    "BD021",
+    "CC071",
+    "SB083",
+    "BC029",
+    "CC006"
+   ]
+  },
+  "E25": {
+   "top": "international_law_disputes",
+   "in_scope": true,
+   "relmax": 0.05552392452955246,
+   "rdocs": [
+    "CA335",
+    "CA313",
+    "CA010",
+    "CA014",
+    "CA082",
+    "CA009",
+    "CA314",
+    "CA237",
+    "CA365",
+    "CA011"
+   ]
+  },
+  "E26": {
+   "top": "international_law_disputes",
+   "in_scope": true,
+   "relmax": 0.05088147893548012,
+   "rdocs": [
+    "CA042",
+    "SA114",
+    "CA003",
+    "CA116",
+    "CC093",
+    "BE031",
+    "CA368",
+    "CA099",
+    "CA380",
+    "CA182"
+   ]
+  },
+  "E27": {
+   "top": "international_law_disputes",
+   "in_scope": true,
+   "relmax": 0.05756722018122673,
+   "rdocs": [
+    "BA051",
+    "BB020",
+    "CA486",
+    "CA462",
+    "CA363",
+    "CA080",
+    "BA042",
+    "CA182",
+    "CB013",
+    "CA386"
+   ]
+  },
+  "E28": {
+   "top": "marriage_annulment_and_the_family_code",
+   "in_scope": true,
+   "relmax": 0.05485120043158531,
+   "rdocs": [
+    "CA142",
+    "CA189",
+    "BA107",
+    "BE032",
+    "CA376",
+    "CC022",
+    "CA078",
+    "BB025",
+    "BB013",
+    "BA032"
+   ]
+  },
+  "E29": {
+   "top": "libel_and_cybercrime",
+   "in_scope": true,
+   "relmax": 0.04314741492271423,
+   "rdocs": [
+    "CA034",
+    "CA242",
+    "CE021",
+    "CA303",
+    "SA049",
+    "BA056",
+    "BA072",
+    "BA094",
+    "BA080",
+    "SE012"
+   ]
+  },
+  "E30": {
+   "top": "how_the_supreme_court_decides",
+   "in_scope": true,
+   "relmax": 0.0469384603202343,
+   "rdocs": [
+    "CA202",
+    "BA071",
+    "CA117",
+    "BD035",
+    "CA376",
+    "BD036",
+    "BD042",
+    "BD070",
+    "CA395",
+    "BA084"
+   ]
+  },
+  "X31": {
+   "top": "faith_journey",
+   "in_scope": true,
+   "relmax": 0.04616851732134819,
+   "rdocs": [
+    "SC130",
+    "BC029",
+    "BC040",
+    "BC046",
+    "BA079",
+    "BC014",
+    "CC117",
+    "CA110",
+    "BC025",
+    "BC038"
+   ]
+  },
+  "X32": {
+   "top": "faith_journey",
+   "in_scope": true,
+   "relmax": 0.04338286817073822,
+   "rdocs": [
+    "SD027",
+    "BC029",
+    "BB027",
+    "BD069",
+    "BD036",
+    "SB079",
+    "BD062",
+    "BD039",
+    "SB075",
+    "BC038"
+   ]
+  },
+  "X33": {
+   "top": "death_penalty_and_echegaray",
+   "in_scope": true,
+   "relmax": 0.047525569796562195,
+   "rdocs": [
+    "BA032",
+    "BA059",
+    "BD022",
+    "BA070",
+    "CA371",
+    "BA051",
+    "BA083",
+    "CA003",
+    "BA054",
+    "BA049"
+   ]
+  },
+  "X34": {
+   "top": "international_law_disputes",
+   "in_scope": true,
+   "relmax": 0.05640065297484398,
+   "rdocs": [
+    "CA335",
+    "CA010",
+    "CA009",
+    "CA313",
+    "CA314",
+    "CA082",
+    "CA238",
+    "CA014",
+    "CA365",
+    "CA237"
+   ]
+  },
+  "X35": {
+   "top": "asean_law_association",
+   "in_scope": true,
+   "relmax": 0.04250890389084816,
+   "rdocs": [
+    "CE108",
+    "SC037",
+    "CC015",
+    "SA055",
+    "BC039",
+    "CE063",
+    "SC070",
+    "BB011",
+    "BC023",
+    "BC005"
+   ]
+  },
+  "X36": {
+   "top": "foundation_for_liberty_and_prosperity",
+   "in_scope": true,
+   "relmax": 0.045070894062519073,
+   "rdocs": [
+    "SB042",
+    "CD013",
+    "CD030",
+    "SC046",
+    "CE018",
+    "BD007",
+    "CA110",
+    "SD002",
+    "SE001",
+    "SD016"
+   ]
+  },
+  "X37": {
+   "top": "twin_beacons_doctrine",
+   "in_scope": true,
+   "relmax": 0.05224611610174179,
+   "rdocs": [
+    "SA015",
+    "SB085",
+    "BA084",
+    "BD056",
+    "CD019",
+    "SA111",
+    "SB028",
+    "BD064",
+    "CA031",
+    "BB029"
+   ]
+  },
+  "X38": {
+   "top": "twin_beacons_doctrine",
+   "in_scope": true,
+   "relmax": 0.054007235914468765,
+   "rdocs": [
+    "SA124",
+    "SA098",
+    "BD037",
+    "SB075",
+    "BC044",
+    "CB008",
+    "SD150",
+    "BD060",
+    "SA145",
+    "SB028"
+   ]
+  },
+  "X39": {
+   "top": "life_story_family_school_and_church",
+   "in_scope": true,
+   "relmax": 0.04982006549835205,
+   "rdocs": [
+    "CC038",
+    "SC059",
+    "CC033",
+    "CC085",
+    "SA043",
+    "SA126",
+    "BD056",
+    "BC038",
+    "CC099",
+    "BC039"
+   ]
+  },
+  "X40": {
+   "top": "bar_exam_and_legal_education",
+   "in_scope": true,
+   "relmax": 0.04579059034585953,
+   "rdocs": [
+    "BD057",
+    "BD025",
+    "CA110",
+    "BC001",
+    "SC029",
+    "BD021",
+    "SC090",
+    "BC029",
+    "CD012",
+    "CD021"
+   ]
+  }
+ }
+}

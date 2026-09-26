@@ -151,12 +151,20 @@ LAMBDA: float = _env_float("CJ_LAMBDA", 0.25)
 # Below this top-affinity score the question is treated as out-of-scope and
 # the OOC reasoning policy fires. Higher → stricter scope (more "I haven't
 # written on that"); lower → more answers attempted (risks ungrounded ones).
-# P3 (W1.8): PROVISIONAL / UNCALIBRATED. This gates QUERY→centroid cosine — a
-# DIFFERENT distribution from W1.7's 0.68 doc/chunk→centroid coverage floor; do
-# NOT reuse 0.68 here. Real calibration needs draft queries (post-W1.8). Below
-# this, the soft prior is treated as out-of-scope and retrieval falls through to
-# global (the bias is dropped, never gated).
-OUT_OF_SCOPE_THRESHOLD: float = _env_float("CJ_OUT_OF_SCOPE_THRESHOLD", 0.15)
+# This gates QUERY→centroid cosine — a DIFFERENT distribution from the doc/chunk→centroid
+# coverage floor (TOPIC_ASSIGN_MIN_COSINE); do NOT reuse that value here. Below this, the
+# soft prior is treated as out-of-scope and retrieval falls through to global (the bias is
+# dropped, never gated).
+# CE-10: CENTRED cosine (query and centroids centred on corpus_mean.npy). The v1 value 0.15
+# was on the RAW scale, where every query scores 0.34-0.70 against its nearest centroid, so
+# the gate was inert: 100% in-scope on every set, including 20/20 nonsense strings and 40/40
+# out-of-domain probes. Re-derived on the centred scale (batch-04/ce10_analysis/ce10_05_oos.py):
+# the median top-1 centred cosine of nonsense controls is 0.129; the rule 'noise median, rounded
+# down, provided >= 97.5% of real in-domain queries stay in scope' gives 0.12 (real in-domain
+# queries: min 0.134, median 0.288). It is PERMISSIVE by design: the real out-of-scope queries
+# (weather, restaurant) score inside the in-domain band even on this scale, so declining them
+# stays the composer's job (COMPOSER_OOS_DECLINE_ENABLED).
+OUT_OF_SCOPE_THRESHOLD: float = _env_float("CJ_OUT_OF_SCOPE_THRESHOLD", 0.12)
 # Softmax temperature over topic affinities → soft prior (not a hard pick).
 # Higher temperature = flatter prior (more topics contribute, ↑recall);
 # lower = peakier (commits to the top topic, ↑precision).
@@ -176,14 +184,17 @@ TOPIC_MAP_PATH: Path = _env_path(
 # so consumers can detect a stale on-disk map (no runtime trade-off, hygiene).
 TOPIC_MAP_VERSION: str = _env_str("CJ_TOPIC_MAP_VERSION", "2.0")
 # Independence check: two topics whose centroids exceed this cosine are flagged
-# as non-independent (merge candidates). RECALIBRATED for bge-large (W1.7 Step 1;
-# values carried through the bge-base v4 transition — re-derive if the embedder changes):
-# bge cosines are compressed, so distinct hand-curated topics already pair at a
-# median 0.84 (p95 0.91, p99 0.93) — the old MiniLM-era 0.85 would merge ~half of
-# ALL topic pairs. 0.95 isolates genuine duplicates (only
-# msme_and_entrepreneurship≡prosperity_fund_msme @0.976 exceeds it); the 0.93-0.94
-# cluster is compression, not duplication. Lower→more merges (↓precision).
-TOPIC_MERGE_COSINE: float = _env_float("CJ_TOPIC_MERGE_COSINE", 0.95)
+# as non-independent (merge candidates); scripts/merge_tag_topics.py STOPS on any.
+# CE-10: this is a CENTRED cosine (vectors centred on data/index/corpus_mean.npy).
+# The v1 value, 0.95 on the RAW scale, was below the noise floor: two independent
+# random 30-document groups score 0.984 raw, and 220 of the 561 pairs of the 34 v1
+# centroids cleared 0.95, which collapsed 34 -> 3 (P3.3). On the centred scale random
+# groups reach at most 0.54 (p95 0.24), the 30 approved dimensions' closest pair is
+# 0.694, and one dimension split at random into two halves has median 0.80.
+# 0.75 sits above every approved pair (margin 0.056), far above the noise, below a genuine
+# duplicate's median — a BACKSTOP for accidental duplicates, not a discriminator
+# (batch-04/taxonomy_v2_PROPOSAL.md section 7). Re-derive if the embedder changes.
+TOPIC_MERGE_COSINE: float = _env_float("CJ_TOPIC_MERGE_COSINE", 0.75)
 # Max topic tags (primary + secondary) attached to a question/doc, clamped to
 # 1–3. More tags → broader context pulled (↑recall, ↑cost); fewer → tighter.
 MAX_TOPIC_TAGS: int = max(1, min(3, _env_int("CJ_MAX_TOPIC_TAGS", 3)))
@@ -571,17 +582,17 @@ CORPUS_MEAN_PATH: Path = _env_path("CJ_CORPUS_MEAN_PATH", REPO_ROOT / "data" / "
 # Exemplar member chunks averaged into each centroid (with label/description/
 # signature_phrases). More → smoother centroid (↑stability, ↑build cost).
 N_EXEMPLAR_CHUNKS: int = _env_int("CJ_N_EXEMPLAR_CHUNKS", 8)
-# CHUNK-LEVEL assignment floor (LOCKED, W1.7): a chunk whose nearest centroid
-# cosine is below this is flagged as taxonomy-gap content. Derived from the bge
-# chunk-vs-nearest-centroid p5 (full corpus: p50 0.76, p25 0.73, p5 0.68, p1 0.64).
-# GC006 (0.7566) and CA330 (0.8124) are keyword-rarity / retrieval-gap cases, NOT
-# taxonomy orphans — they map cleanly to real topics. Doc-level coverage is
-# complete (0/1,089 below floor). The 400/8,887 chunk-level flags are a REVIEW
-# SURFACE (taxonomy-gap vs rare-language), not an orphan defect count. This floor
-# is calibrated for taxonomy COVERAGE, not retrieval recall; GC006-style recall is
-# the dense+sparse arms' job (W1.8 / W1.6 case short-form fix). NOT the same as
-# W1.8's query-time OUT_OF_SCOPE_THRESHOLD (query→centroid, a different distribution).
-TOPIC_ASSIGN_MIN_COSINE: float = _env_float("CJ_TOPIC_ASSIGN_MIN_COSINE", 0.68)
+# DOCUMENT-LEVEL assignment floor: a document whose best-chunk CENTRED cosine to every
+# topic centroid is below this is an orphan (scripts/merge_tag_topics.py).
+# CE-10: centred scale. The v1 value 0.68 was RAW best-chunk and inert (it orphaned 0.0% under
+# every definition). Derived in batch-04/taxonomy_v2_PROPOSAL.md section 7: the median (0.306)
+# of a random-membership null — the same procedure with random document sets of the dimensions'
+# own sizes, a maximum over all dimensions per document — measured leave-one-out, so a member
+# document is not inflated by matching itself. It is a NOISE-MEDIAN floor for flagging orphans,
+# not a significance test (the null's 95th percentile, 0.434, would orphan a third of the corpus).
+# One global value: per-format floors buy ~2 points of parity for four config values. NOT the same
+# as the query-time OUT_OF_SCOPE_THRESHOLD (query→centroid, a different distribution).
+TOPIC_ASSIGN_MIN_COSINE: float = _env_float("CJ_TOPIC_ASSIGN_MIN_COSINE", 0.31)
 
 
 # ===========================================================================
@@ -617,6 +628,8 @@ FILLER_V5_ENABLED: bool = _env_bool("CJ_FILLER_V5_ENABLED", True)
 # cost of 2/34 in-scope (C18 0.4904, E29 0.5025) getting a generic opener (they
 # still answer). The bands OVERLAP (in-scope floor 0.4904 < weather 0.5072) so no
 # perfect cut exists; the composer OOS-decline is the real backstop.
+# CE-10 NOTE: derived on the RAW route-score scale; nothing in app/ or scripts/ reads it today. Route scores are now CENTRED
+# (top cosines ~0.13-0.56, not 0.34-0.70), so re-derive it on the centred scale before any filler code reads it.
 THEME_CONF_THRESHOLD: float = _env_float("CJ_THEME_CONF_THRESHOLD", 0.51)
 # TOPIC gate (Filler 2). Name the specific topic only when top-topic cosine minus
 # the best NON-fallback runner-up cosine (CLEAN margin — gmean-fallback centroids
@@ -625,6 +638,8 @@ THEME_CONF_THRESHOLD: float = _env_float("CJ_THEME_CONF_THRESHOLD", 0.51)
 # the ~20% genuinely-separated queries; near-ties stay SILENT (never name a coin-
 # flip topic). Raw top-minus-runner-up is degenerate (p50 0.004) because the two
 # corpus-mean fallback centroids keep grabbing the runner-up slot.
+# CE-10 NOTE: derived on the RAW scale (and with the two corpus-mean fallback centroids, which no longer exist). No reader today;
+# re-derive on the centred scale before any filler code reads it.
 TOPIC_MARGIN_THRESHOLD: float = _env_float("CJ_TOPIC_MARGIN_THRESHOLD", 0.01)
 # At filler-selection, wait at most this long for the route (embed+centroid) to
 # resolve; past it, fire NEUTRAL rather than make the visitor wait (late-route).

@@ -1,0 +1,70 @@
+{
+ "threshold_before": 0.15,
+ "scale_before": "raw cosine, v1 centroids (n=34)",
+ "sets": {
+  "gold40/in": {
+   "n": 36,
+   "top_cos_min": 0.49041759967803955,
+   "top_cos_median": 0.5960394144058228,
+   "top_cos_max": 0.6864038705825806,
+   "in_scope_at_0.15": 36,
+   "in_scope_rate": 1.0
+  },
+  "gold40/meta": {
+   "n": 2,
+   "top_cos_min": 0.4865466356277466,
+   "top_cos_median": 0.49036356806755066,
+   "top_cos_max": 0.49418050050735474,
+   "in_scope_at_0.15": 2,
+   "in_scope_rate": 1.0
+  },
+  "gold40/out": {
+   "n": 2,
+   "top_cos_min": 0.46112188696861267,
+   "top_cos_median": 0.4841499328613281,
+   "top_cos_max": 0.507178008556366,
+   "in_scope_at_0.15": 2,
+   "in_scope_rate": 1.0
+  },
+  "ce11/in": {
+   "n": 13,
+   "top_cos_min": 0.5070666670799255,
+   "top_cos_median": 0.5752155780792236,
+   "top_cos_max": 0.6621843576431274,
+   "in_scope_at_0.15": 13,
+   "in_scope_rate": 1.0
+  },
+  "ce11/out": {
+   "n": 1,
+   "top_cos_min": 0.5747296810150146,
+   "top_cos_median": 0.5747296810150146,
+   "top_cos_max": 0.5747296810150146,
+   "in_scope_at_0.15": 1,
+   "in_scope_rate": 1.0
+  },
+  "ood/out": {
+   "n": 40,
+   "top_cos_min": 0.34120672941207886,
+   "top_cos_median": 0.4362488389015198,
+   "top_cos_max": 0.5163700580596924,
+   "in_scope_at_0.15": 40,
+   "in_scope_rate": 1.0
+  },
+  "noise/noise": {
+   "n": 20,
+   "top_cos_min": 0.42023974657058716,
+   "top_cos_median": 0.4885922074317932,
+   "top_cos_max": 0.5455285906791687,
+   "in_scope_at_0.15": 20,
+   "in_scope_rate": 1.0
+  },
+  "titles/in": {
+   "n": 300,
+   "top_cos_min": 0.43989378213882446,
+   "top_cos_median": 0.5750237703323364,
+   "top_cos_max": 0.7024627923965454,
+   "in_scope_at_0.15": 300,
+   "in_scope_rate": 1.0
+  }
+ }
+}
