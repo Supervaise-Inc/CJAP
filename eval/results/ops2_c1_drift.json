@@ -3242,5 +3242,1084 @@
         "hit@sent": true
       }
     ]
+  },
+  "C3_full_corpus_universe": {
+    "recall": {
+      "1": 0.118,
+      "3": 0.294,
+      "5": 0.382,
+      "10": 0.647,
+      "chunks_sent": 0.529
+    },
+    "delta_vs_v4": {
+      "1": -0.5,
+      "5": -0.5,
+      "chunks_sent": -0.412,
+      "10": -0.324
+    },
+    "n": 34,
+    "live_vs_replay": "40/40 exact",
+    "scope_signal": [
+      [
+        "A1",
+        "in",
+        0.637
+      ],
+      [
+        "A2",
+        "in",
+        0.6268
+      ],
+      [
+        "A3",
+        "in",
+        0.5855
+      ],
+      [
+        "A4",
+        "in",
+        0.6143
+      ],
+      [
+        "A5",
+        "in",
+        0.6864
+      ],
+      [
+        "A6",
+        "in",
+        0.5889
+      ],
+      [
+        "B7",
+        "in",
+        0.6372
+      ],
+      [
+        "B8",
+        "in",
+        0.5928
+      ],
+      [
+        "B9",
+        "in",
+        0.5853
+      ],
+      [
+        "B10",
+        "in",
+        0.5551
+      ],
+      [
+        "B11",
+        "in",
+        0.6678
+      ],
+      [
+        "B12",
+        "in",
+        0.6083
+      ],
+      [
+        "C13",
+        "in",
+        0.5915
+      ],
+      [
+        "C14",
+        "in",
+        0.6058
+      ],
+      [
+        "C15",
+        "in",
+        0.5711
+      ],
+      [
+        "C16",
+        "in",
+        0.5847
+      ],
+      [
+        "C17",
+        "in",
+        0.547
+      ],
+      [
+        "C18",
+        "in",
+        0.4904
+      ],
+      [
+        "D19",
+        "in",
+        0.5974
+      ],
+      [
+        "D20",
+        "in",
+        0.629
+      ],
+      [
+        "D21",
+        "in",
+        0.5657
+      ],
+      [
+        "D22",
+        "in",
+        0.6225
+      ],
+      [
+        "D23",
+        "in",
+        0.5108
+      ],
+      [
+        "D24",
+        "in",
+        0.5642
+      ],
+      [
+        "E25",
+        "in",
+        0.608
+      ],
+      [
+        "E26",
+        "in",
+        0.6728
+      ],
+      [
+        "E27",
+        "in",
+        0.6132
+      ],
+      [
+        "E28",
+        "in",
+        0.5947
+      ],
+      [
+        "E29",
+        "in",
+        0.5025
+      ],
+      [
+        "E30",
+        "in",
+        0.6182
+      ],
+      [
+        "X31",
+        "meta",
+        0.4865
+      ],
+      [
+        "X32",
+        "meta",
+        0.4942
+      ],
+      [
+        "X33",
+        "in(gap-v4)",
+        0.5907
+      ],
+      [
+        "X34",
+        "in",
+        0.6137
+      ],
+      [
+        "X35",
+        "out",
+        0.5072
+      ],
+      [
+        "X36",
+        "out",
+        0.4611
+      ],
+      [
+        "X37",
+        "in",
+        0.6157
+      ],
+      [
+        "X38",
+        "in",
+        0.6538
+      ],
+      [
+        "X39",
+        "in(gap)",
+        0.5564
+      ],
+      [
+        "X40",
+        "in",
+        0.5639
+      ]
+    ],
+    "artifacts": {
+      "pilot_dense_sha16": "c11f67848cd7bf91",
+      "topic_centroids_sha16": "71a7c29427140ff1",
+      "pilot_sparse_sha16": "d31594452864cbd7",
+      "corpus_dense_model": "BAAI/bge-base-en-v1.5"
+    },
+    "commit": "55f6940",
+    "timestamp": "2026-09-26T11:03:30+08:00",
+    "per_query": [
+      {
+        "qid": "A1",
+        "retrieved_docs": [
+          "CA081",
+          "SA133",
+          "SA015",
+          "CA028",
+          "CD025",
+          "CD026",
+          "CA180",
+          "CA124",
+          "CA015",
+          "SB028",
+          "BD022",
+          "BA010",
+          "BA014",
+          "CA031",
+          "SA111"
+        ],
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": false,
+        "hit@10": true,
+        "hit@sent": false
+      },
+      {
+        "qid": "A2",
+        "retrieved_docs": [
+          "CE020",
+          "BA005",
+          "SA145",
+          "SB065",
+          "CA128",
+          "BA008",
+          "SA133",
+          "SB079",
+          "CA493",
+          "CA070",
+          "SE038",
+          "CE059",
+          "BD010",
+          "BB006",
+          "BD023"
+        ],
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": false,
+        "hit@10": false,
+        "hit@sent": false
+      },
+      {
+        "qid": "A3",
+        "retrieved_docs": [
+          "CA242",
+          "BD003",
+          "BD001",
+          "BA036",
+          "CA175",
+          "BE012",
+          "CA078",
+          "BA038",
+          "BD022",
+          "CA118",
+          "CA099",
+          "BA032",
+          "BA041",
+          "CA067",
+          "CA475"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true,
+        "hit@10": true,
+        "hit@sent": true
+      },
+      {
+        "qid": "A4",
+        "retrieved_docs": [
+          "CA112",
+          "CA111",
+          "CC054",
+          "CA085",
+          "BD020",
+          "BA038",
+          "SB065",
+          "BD022",
+          "CE096",
+          "BC008",
+          "SD035",
+          "CE039",
+          "SA120",
+          "SE036",
+          "BD025"
+        ],
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": false,
+        "hit@10": false,
+        "hit@sent": false
+      },
+      {
+        "qid": "A5",
+        "retrieved_docs": [
+          "CA095",
+          "BA034",
+          "CA382",
+          "CA440",
+          "SB085",
+          "SA098",
+          "CA474",
+          "SD137",
+          "CC074",
+          "SC029",
+          "SA133",
+          "SA124",
+          "CA192",
+          "CA470",
+          "SA120"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true,
+        "hit@10": true,
+        "hit@sent": true
+      },
+      {
+        "qid": "A6",
+        "retrieved_docs": [
+          "CA004",
+          "BA009",
+          "SA095",
+          "CA022",
+          "CA005",
+          "CA330",
+          "BA032",
+          "BA043",
+          "CE083",
+          "CA472",
+          "BB006",
+          "CA395",
+          "BA011",
+          "BA049",
+          "SB028"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true,
+        "hit@10": true,
+        "hit@sent": true
+      },
+      {
+        "qid": "B7",
+        "retrieved_docs": [
+          "SA138",
+          "SA015",
+          "SD150",
+          "SA034",
+          "SD044",
+          "CB012",
+          "SB028",
+          "CA092",
+          "SA052",
+          "CC111",
+          "SA011",
+          "CA113",
+          "CB005",
+          "SA119",
+          "CD026"
+        ],
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": false,
+        "hit@10": true,
+        "hit@sent": true
+      },
+      {
+        "qid": "B8",
+        "retrieved_docs": [
+          "CD025",
+          "BB007",
+          "BD021",
+          "BA010",
+          "BA041",
+          "CA479",
+          "CC108",
+          "SC059",
+          "CC117",
+          "CA362",
+          "CA371",
+          "CC034",
+          "BC016",
+          "BA035",
+          "CA460"
+        ],
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": false,
+        "hit@10": false,
+        "hit@sent": false
+      },
+      {
+        "qid": "B9",
+        "retrieved_docs": [
+          "GC034",
+          "CD003",
+          "CC028",
+          "SB085",
+          "CB010",
+          "SD021",
+          "CD008",
+          "SD027",
+          "BA010",
+          "CE091",
+          "SD026",
+          "CD015",
+          "SD009",
+          "BD009",
+          "CA102"
+        ],
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": false,
+        "hit@10": false,
+        "hit@sent": false
+      },
+      {
+        "qid": "B10",
+        "retrieved_docs": [
+          "CC028",
+          "GC034",
+          "SD016",
+          "CD008",
+          "SA015",
+          "SB006",
+          "CD016",
+          "CA092",
+          "SD009",
+          "SD021",
+          "SD027",
+          "CE091",
+          "CD013",
+          "CD014",
+          "CC040"
+        ],
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": true,
+        "hit@10": true,
+        "hit@sent": true
+      },
+      {
+        "qid": "B11",
+        "retrieved_docs": [
+          "SA145",
+          "SA134",
+          "SA078",
+          "BA032",
+          "SB075",
+          "SD150",
+          "CD026",
+          "SA124",
+          "BD016",
+          "SB040",
+          "CB005",
+          "CA486",
+          "CA418",
+          "CA461",
+          "SA052"
+        ],
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": false,
+        "hit@10": false,
+        "hit@sent": false
+      },
+      {
+        "qid": "B12",
+        "retrieved_docs": [
+          "SA138",
+          "SA145",
+          "SA111",
+          "SD150",
+          "SB028",
+          "SD027",
+          "CB008",
+          "SD035",
+          "SB073",
+          "CE081",
+          "CB004",
+          "CD026",
+          "SA015",
+          "CA376",
+          "SB040"
+        ],
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": true,
+        "hit@10": true,
+        "hit@sent": true
+      },
+      {
+        "qid": "C13",
+        "retrieved_docs": [
+          "BC008",
+          "BA035",
+          "BC017",
+          "BC018",
+          "GC031",
+          "BC011",
+          "BC006",
+          "BC013",
+          "SC057",
+          "SC014",
+          "BC014",
+          "CA110",
+          "BC016",
+          "BD020",
+          "BA041"
+        ],
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": false,
+        "hit@10": false,
+        "hit@sent": false
+      },
+      {
+        "qid": "C14",
+        "retrieved_docs": [
+          "SC032",
+          "BC014",
+          "BD025",
+          "SB042",
+          "SC062",
+          "SC061",
+          "BC013",
+          "SD016",
+          "BE027",
+          "BD024",
+          "SC024",
+          "BD016",
+          "CE109",
+          "CA039",
+          "BD021"
+        ],
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": false,
+        "hit@10": false,
+        "hit@sent": false
+      },
+      {
+        "qid": "C15",
+        "retrieved_docs": [
+          "CA440",
+          "BC008",
+          "CA441",
+          "CD025",
+          "BD021",
+          "BC001",
+          "SA107",
+          "BC016",
+          "BD026",
+          "BE009",
+          "BC018",
+          "SA136",
+          "CA416",
+          "SC053",
+          "SC118"
+        ],
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": false,
+        "hit@10": true,
+        "hit@sent": false
+      },
+      {
+        "qid": "C16",
+        "retrieved_docs": [
+          "CC001",
+          "SA020",
+          "SC117",
+          "SC058",
+          "SC025",
+          "CC038",
+          "CC111",
+          "BD007",
+          "CA110",
+          "SA043",
+          "CC072",
+          "SA126",
+          "CC080",
+          "CC085",
+          "BC008"
+        ],
+        "hit@1": true,
+        "hit@3": true,
+        "hit@5": true,
+        "hit@10": true,
+        "hit@sent": true
+      },
+      {
+        "qid": "C17",
+        "retrieved_docs": [
+          "BD025",
+          "GC015",
+          "BD024",
+          "BD026",
+          "SC067",
+          "BD021",
+          "CA110",
+          "BC004",
+          "SC125",
+          "SA056",
+          "SA136",
+          "BC008",
+          "SC046",
+          "BC006",
+          "BA035"
+        ],
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": false,
+        "hit@10": false,
+        "hit@sent": false
+      },
+      {
+        "qid": "C18",
+        "retrieved_docs": [
+          "BC014",
+          "SD148",
+          "SB079",
+          "CC084",
+          "SC066",
+          "SC135",
+          "SA126",
+          "SA052",
+          "SC106",
+          "SC029",
+          "BC007",
+          "CC099",
+          "CC002",
+          "SD044",
+          "BB002"
+        ],
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": false,
+        "hit@10": false,
+        "hit@sent": false
+      },
+      {
+        "qid": "D19",
+        "retrieved_docs": [
+          "CB005",
+          "SA052",
+          "CD013",
+          "SD016",
+          "SA011",
+          "SB040",
+          "SA145",
+          "SA074",
+          "SB075",
+          "CC111",
+          "CE038",
+          "SB051",
+          "CA092",
+          "SD044",
+          "SD033"
+        ],
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": true,
+        "hit@10": true,
+        "hit@sent": true
+      },
+      {
+        "qid": "D20",
+        "retrieved_docs": [
+          "CD020",
+          "CD001",
+          "CD026",
+          "SD016",
+          "CA164",
+          "CA165",
+          "CD019",
+          "SD035",
+          "BE018",
+          "CD009",
+          "CD024",
+          "CA150",
+          "CD017",
+          "CD018",
+          "CA140"
+        ],
+        "hit@1": false,
+        "hit@3": true,
+        "hit@5": true,
+        "hit@10": true,
+        "hit@sent": true
+      },
+      {
+        "qid": "D21",
+        "retrieved_docs": [
+          "CD018",
+          "SD002",
+          "SD021",
+          "CD017",
+          "SA015",
+          "CA092",
+          "SD016",
+          "CD013",
+          "CD016",
+          "SC007",
+          "SD026",
+          "CA072",
+          "SA124",
+          "CA152",
+          "CA173"
+        ],
+        "hit@1": false,
+        "hit@3": true,
+        "hit@5": true,
+        "hit@10": true,
+        "hit@sent": true
+      },
+      {
+        "qid": "D22",
+        "retrieved_docs": [
+          "CA092",
+          "CA081",
+          "SA015",
+          "BA010",
+          "CA080",
+          "SA145",
+          "CA435",
+          "SA133",
+          "CD003",
+          "BE027",
+          "CD020",
+          "CA015",
+          "CC057",
+          "SD082",
+          "CA210"
+        ],
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": false,
+        "hit@10": true,
+        "hit@sent": false
+      },
+      {
+        "qid": "D23",
+        "retrieved_docs": [
+          "CC083",
+          "CD018",
+          "SB113",
+          "SB072",
+          "SB083",
+          "CC077",
+          "CD008",
+          "CA164",
+          "CC106",
+          "CD020",
+          "SC121",
+          "SD060",
+          "CC097",
+          "CC071",
+          "SD009"
+        ],
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": false,
+        "hit@10": true,
+        "hit@sent": false
+      },
+      {
+        "qid": "D24",
+        "retrieved_docs": [
+          "SC130",
+          "CC111",
+          "BC013",
+          "SA048",
+          "BD021",
+          "SA145",
+          "SB040",
+          "CC071",
+          "CC006",
+          "SB083",
+          "SA052",
+          "CA187",
+          "CA231",
+          "SB073",
+          "SD137"
+        ],
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": false,
+        "hit@10": false,
+        "hit@sent": false
+      },
+      {
+        "qid": "E25",
+        "retrieved_docs": [
+          "CA335",
+          "CA313",
+          "CA010",
+          "CA014",
+          "CA009",
+          "CA082",
+          "CA314",
+          "CA237",
+          "CA011",
+          "CA365",
+          "CA176",
+          "CA238",
+          "CA339",
+          "CA066",
+          "CE030"
+        ],
+        "hit@1": false,
+        "hit@3": true,
+        "hit@5": true,
+        "hit@10": true,
+        "hit@sent": true
+      },
+      {
+        "qid": "E26",
+        "retrieved_docs": [
+          "CA042",
+          "SA114",
+          "CA003",
+          "CA116",
+          "CC093",
+          "CA333",
+          "CA182",
+          "CA368",
+          "CA380",
+          "CA009",
+          "CA031",
+          "CA099",
+          "CA173",
+          "CE103",
+          "SA138"
+        ],
+        "hit@1": false,
+        "hit@3": true,
+        "hit@5": true,
+        "hit@10": true,
+        "hit@sent": true
+      },
+      {
+        "qid": "E27",
+        "retrieved_docs": [
+          "CA182",
+          "CA270",
+          "CA080",
+          "CA465",
+          "CA462",
+          "CE003",
+          "CA184",
+          "BA014",
+          "CA486",
+          "CA038",
+          "CA009",
+          "CE113",
+          "CE030",
+          "SA078",
+          "BA042"
+        ],
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": false,
+        "hit@10": true,
+        "hit@sent": true
+      },
+      {
+        "qid": "E28",
+        "retrieved_docs": [
+          "CA189",
+          "CA142",
+          "CA376",
+          "CA078",
+          "CC022",
+          "BA032",
+          "BD001",
+          "BD003",
+          "CA352",
+          "CA175",
+          "BA045",
+          "BA041",
+          "CA417",
+          "CA377",
+          "BD022"
+        ],
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": false,
+        "hit@10": false,
+        "hit@sent": false
+      },
+      {
+        "qid": "E29",
+        "retrieved_docs": [
+          "CA034",
+          "CE021",
+          "CA242",
+          "CA303",
+          "SA049",
+          "CA089",
+          "CA496",
+          "SE012",
+          "BB008",
+          "BA046",
+          "CE077",
+          "CA293",
+          "CA121",
+          "BC021",
+          "CB001"
+        ],
+        "hit@1": false,
+        "hit@3": true,
+        "hit@5": true,
+        "hit@10": true,
+        "hit@sent": true
+      },
+      {
+        "qid": "E30",
+        "retrieved_docs": [
+          "CA202",
+          "CA117",
+          "CA376",
+          "CA061",
+          "CA434",
+          "BD001",
+          "CA409",
+          "CA395",
+          "CA486",
+          "BA036",
+          "CA227",
+          "CA424",
+          "BA049",
+          "CA402",
+          "BE025"
+        ],
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": false,
+        "hit@10": true,
+        "hit@sent": true
+      },
+      {
+        "qid": "X34",
+        "retrieved_docs": [
+          "CA335",
+          "CA010",
+          "CA009",
+          "CA313",
+          "CA314",
+          "CA238",
+          "CA082",
+          "CA014",
+          "CA365",
+          "CA237",
+          "CA239",
+          "CA066",
+          "CA013",
+          "CA011",
+          "CA176"
+        ],
+        "hit@1": false,
+        "hit@3": true,
+        "hit@5": true,
+        "hit@10": true,
+        "hit@sent": true
+      },
+      {
+        "qid": "X37",
+        "retrieved_docs": [
+          "SA133",
+          "CD019",
+          "SA015",
+          "SA111",
+          "SB068",
+          "BB005",
+          "SB085",
+          "CA486",
+          "SB028",
+          "SA145",
+          "CA015",
+          "BA010",
+          "CA031",
+          "CA092",
+          "SA122"
+        ],
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": false,
+        "hit@10": true,
+        "hit@sent": true
+      },
+      {
+        "qid": "X38",
+        "retrieved_docs": [
+          "SB075",
+          "SA124",
+          "SA098",
+          "SA145",
+          "CB008",
+          "CE096",
+          "SD150",
+          "CD025",
+          "SB028",
+          "SA052",
+          "CC059",
+          "SC067",
+          "SB085",
+          "CC085",
+          "SA134"
+        ],
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": false,
+        "hit@10": true,
+        "hit@sent": true
+      },
+      {
+        "qid": "X40",
+        "retrieved_docs": [
+          "BD025",
+          "CA110",
+          "BC001",
+          "BD021",
+          "SC090",
+          "SC029",
+          "CD012",
+          "CD021",
+          "GC026",
+          "BE009",
+          "SA132",
+          "BA035",
+          "BA023",
+          "BD007",
+          "BC004"
+        ],
+        "hit@1": false,
+        "hit@3": false,
+        "hit@5": false,
+        "hit@10": false,
+        "hit@sent": false
+      }
+    ]
   }
 }
