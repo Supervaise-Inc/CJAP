@@ -1,3 +1,8 @@
+> **SUPERSEDED 26 Sep by `docs/p3/Phase4_CE-12_prompt_v2_2026-09-26.md`.** `run_ops2_c1.py:56`
+> asserts the pilot matrix is exactly 827 rows; the post-correction slice is 826, so CE-12 would
+> abort before measuring. v2 runs `scripts/run_ops2_c2.py`, a copy with that one assert relaxed to
+> `len(chunk_ids)` and verified by diff. Use v2.
+
 # Phase 4 — CE-12, the batch-03 promotion eval. **$0**
 
 **26 Sep 2026.** Phase 3 verified complete from disk: runtime index at **95 docs / 826 chunks**
