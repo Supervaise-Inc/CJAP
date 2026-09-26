@@ -20,6 +20,57 @@ CE-1, CE-1a, CE-1b, CE-2 and CE-3 are complete — verified on disk:
 Expected after CE-4: corpus **1,104 → 1,290**; pinned rows **1,109 → 1,295**; columns 785 → 803; book
 chapters 131 → 299; **4 works → 12**.
 
+## Full reconciliation — every .md and .xlsx accounted for
+
+Audited 26 Sep across `batch-04/book_split/`, `batch-04/data_text/`, the intake manifest and the four
+pinned workbooks. There is no unaccounted material.
+
+| | count |
+|---|---:|
+| Split-plan rows, 12 works / 18 volumes (the `with-due-respect` parent plan excluded — it aggregates the 7 volume plans) | **435** |
+| − SKIP: part dividers 23, appendices 28, forewords by others 11, preface 9, cover 6, epigraph 6, title pages 24, other | −146 |
+| = classified **CHAPTER** | **289** |
+| − flagged `by-another-author`, deliberately not enriched | −2 |
+| = enrichable chapters across all 12 works | **287** |
+| − already in the corpus as chapters | −119 |
+| = **new book chapters enriched in batch-04** | **168** |
+
+And the corpus side closes too: **131** existing book chapters = 119 of the above **+ 12** items the
+newer B0 split now classifies as SKIP but which an earlier, looser intake admitted as documents —
+A Centenary of Justice +3 (Appendices A–C are their own doc_ids: BC007, BC008, BD019), Justice and
+Faith +3, The Bio-Age Dawns on the Judiciary +6 (the four appendices by other authors are the open
+question already logged).
+
+**The two excluded chapters, for the record** — both flagged `by-another-author`, consistent with CE-3
+and with the corpus rule that it carries CJP's own voice:
+
+- *Leveling the Playing Field* ch. 9, "Law Without Borders" (1,022 words)
+- *Reforming the Judiciary* ch. 2, "Forum on the APJR" (7,558 words)
+
+### Expected end state after CE-4
+
+| | now | +batch-04 | after |
+|---|---:|---:|---:|
+| Columns | 785 | +18 | **803** |
+| Book chapters | 131 | +168 | **299** |
+| Speeches | 153 | — | 153 |
+| Biography | 35 | — | 35 |
+| **Corpus documents** | **1,104** | **+186** | **1,290** |
+| Pinned rows (incl. 5 retired) | 1,109 | +186 | 1,295 |
+| Distinct works | 4 | +8 | **12** |
+
+**Do not cross-check 299 against the split plan's 289 and conclude something is missing** — the 10-item
+difference is the 12 legacy appendix/front-matter documents minus the 2 by-another-author exclusions,
+reconciled above.
+
+### What batch-04 does NOT contain
+
+`BATCH-04_SPEECHES_PROMPTS.md` and `BATCH-04_BIOGRAPHY_PROMPTS.md` exist but **were never run** — there
+are no `speeches_enriched*.xlsx` or `biography_enriched*.xlsx` anywhere, and the manifest holds only
+`B*` and `C*` doc_ids. Speeches stay at 153 and biography at 35. Also still outstanding: the **~222
+columns from Feb 2007 – Apr 2011** that were never sourced (803 + ~222 ≈ 1,025 is where "almost 1,000
+columns" comes from). Both are future batches, not gaps in this one.
+
 ## One decision before CE-4 starts
 
 **C-11 — `BC018`'s curated row is stale.** C-7 restored its body from 97 to 276 words, but the row still
