@@ -283,10 +283,12 @@ def process_format(letter: str, dry_run: bool, stats: dict) -> list[str]:
         out_dir = CORPUS_ROOT / type_folder / THEME_FOLDERS[theme]
         out_dir.mkdir(parents=True, exist_ok=True)
         (out_dir / f"{code}.md").write_text(build_md(rec, body, has_body),
-                                            encoding=config.OUTPUT_ENCODING)
+                                            encoding=config.OUTPUT_ENCODING,
+                                            newline="\n")
         (out_dir / f"{code}.json").write_text(
             json.dumps(rec, ensure_ascii=config.JSON_ENSURE_ASCII, indent=2) + "\n",
-            encoding=config.OUTPUT_ENCODING)
+            encoding=config.OUTPUT_ENCODING,
+            newline="\n")
     wb.close()
     return written
 
