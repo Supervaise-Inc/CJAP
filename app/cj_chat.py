@@ -125,40 +125,39 @@ DYNAMIC_TOKENS_ENABLED = (
 # topic keys: CJ_TOKEN_BUDGET_BY_DIM='{"rule_of_law": 300}'. A topic missing
 # from the table (e.g. after a taxonomy regen) gets TOKEN_BUDGET_DIM_DEFAULT.
 _TOKEN_BUDGET_DEFAULT = {
-    "rule_of_law": 260,
-    "twin_beacons_doctrine": 240,
     "foundation_for_liberty_and_prosperity": 220,
-    "with_due_respect_persona": 240,
-    "constitutional_doctrine": 260,
-    "due_process": 260,
-    "judicial_reform": 260,
-    "supreme_court_history": 260,
-    "impeachment_accountability": 260,
+    "twin_beacons_doctrine": 240,
+    "life_story_family_school_and_church": 200,
+    "criminal_trials_and_prosecutions": 260,
     "international_law_disputes": 260,
-    "icc_and_duterte": 260,
-    "judicial_activism_and_political_question": 260,
-    "asean_law_association": 260,
-    "death_penalty_and_echegaray": 260,
-    "bar_exam_and_legal_education": 260,
-    "economic_governance_and_business_law": 240,
-    "eez_resource_sovereignty": 240,
-    "msme_and_entrepreneurship": 240,
-    "family_and_marriage": 200,
-    "mentors_and_legal_lineage": 200,
+    "property_contracts_and_economic_rights": 240,
+    "presidential_power_martial_law_people_power": 260,
+    "elections_and_automated_voting": 260,
+    "judicial_reform": 260,
+    "party_list_charter_change_and_dynasties": 260,
+    "science_technology_and_the_law": 240,
+    "impeachment_accountability": 260,
+    "public_funds_budget_and_bank_evidence": 260,
+    "us_supreme_court_and_american_politics": 260,
     "faith_journey": 200,
-    "early_life_sampaloc": 200,
-    "jbc_discernment_and_appointment": 200,
-    "eulogies_and_passing": 200,
-    "friendships_and_civic_circles": 200,
-    "honors_received": 200,
-    "flp_scholarship_programs": 220,
-    "museum_for_liberty_and_prosperity": 220,
-    "prosperity_fund_msme": 220,
-    "flp_donors_and_partners": 220,
-    "lawyer_ethics_initiative": 220,
-    "ai_and_technology": 240,
-    "global_geopolitics": 240,
-    "philippine_political_landscape": 240,
+    "how_the_supreme_court_decides": 260,
+    "libel_and_cybercrime": 260,
+    "judiciary_milestones_and_tributes": 200,
+    "economy_taxes_and_prosperity": 240,
+    "death_penalty_and_echegaray": 260,
+    "independent_commissions_and_appointments": 260,
+    "bangsamoro_peace_process": 260,
+    "marcos_robredo_election_contest": 260,
+    "supreme_court_vacancies_and_chief_justiceship": 260,
+    "asean_law_association": 260,
+    "ill_gotten_wealth_and_the_pcgg": 260,
+    "bar_exam_and_legal_education": 260,
+    "citizenship_and_residency_grace_poe": 260,
+    "marriage_annulment_and_the_family_code": 260,
+    "jbc_discernment_and_appointment": 260,
+    # CE-10: taxonomy v2 ids. The 9 ids whose subject carried over keep their v1 budget; the other 21 are seeded from
+    # the retired per-theme values via theme_anchor (A 260, B 240, C 200, D 220, E 240).
+    # robot_identity_meta is an INTENT, not a taxonomy topic (topic_map["intents"]); it keeps its brief budget.
     "robot_identity_meta": 120,
 }
 TOKEN_BUDGET_DIM_DEFAULT = int(os.environ.get("CJ_TOKEN_BUDGET_DIM_DEFAULT", "220"))
@@ -523,7 +522,11 @@ class CorpusArtifacts:
             match = re.search(r"```\s*(.+?)\s*```", raw, re.DOTALL)
             self.router_system = match.group(1) if match else raw
 
-        self.topics = self.topic_map["topics"]
+        # CE-10: the taxonomy (30 topics) PLUS the META intents (robot_identity_meta). The intent is not a corpus topic and has no
+        # centroid, but force_meta_routing() / the router still emit its id and the composer reads its topic_data node (the
+        # persona instruction for identity probes) — so it must stay resolvable here.
+        self.topics = dict(self.topic_map["topics"])
+        self.topics.update(self.topic_map.get("intents", {}))
         self.valid_topic_ids = set(self.topics.keys())
 
     # ----- per-doc loaders --------------------------------------------------
