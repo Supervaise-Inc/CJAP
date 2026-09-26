@@ -1,0 +1,154 @@
+{
+  "id": "CA542",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 542,
+  "title": "Liberal jurisprudence on bigamy",
+  "date": "2026-08-31",
+  "link": "https://opinion.inquirer.net/194120/liberal-jurisprudence-on-bigamy",
+  "keywords": [
+    "bigamy",
+    "void ab initio marriage",
+    "Pulido v. People",
+    "Lapira v. Fariscal",
+    "Family Code Article 40",
+    "marriage certificate",
+    "sanctity of marriage",
+    "criminal justice"
+  ],
+  "primary_topics": [
+    "Bigamy under the Revised Penal Code and earlier rulings requiring a prior judicial declaration of nullity before the invalidity of a first marriage could be a defense",
+    "Pulido v. People (2021, en banc, unanimous) -- a prior void ab initio marriage is a valid defense without a judicial declaration; reiterated in Lapira v. Fariscal (Feb. 26, 2026, Third Division)",
+    "Lapira facts -- Imelda Lapira married Jimmy Fariscal in 2001 but had a 2000 marriage record with Takahiko Sato, which she called a 'sham' for entry into Japan; convicted by the RTC and CA",
+    "Three holdings -- Article 40 requires a declaration only for remarriage and allows collateral attack; a marriage certificate is prima facie evidence rebuttable by substantial evidence (LCR certification that no certificate or license was issued); a purely civil matter not touching the sacrament",
+    "Principles -- courts cannot impose criminal penalties on a marital bond that was 'nothing but a phantom'; a prior declaration of nullity is still needed to remarry",
+    "Closing -- the rulings respect the constitutional inviolability of marriage and Church doctrine while freeing the innocent from a void union"
+  ],
+  "sub_topics": [
+    "Revised Penal Code definition of bigamy",
+    "Earlier requirement of prior judicial declaration of nullity",
+    "Void ab initio marriage",
+    "Pulido v. People (2021)",
+    "Lapira v. Fariscal (2026)",
+    "Sham marriage to facilitate entry into Japan",
+    "RTC conviction affirmed by the CA",
+    "Article 40 of the Family Code",
+    "Collateral attack on a prior void marriage",
+    "Marriage certificate as prima facie evidence",
+    "Rebuttal by Local Civil Registrar certification",
+    "Missing marriage license and ceremony",
+    "Civil vs sacramental marriage",
+    "Marriage as an inviolable social institution"
+  ],
+  "signature_phrases": [
+    "HOWEVER, IN PULIDO v. PEOPLE",
+    "a prior void ab initio (from the beginning) marriage is a valid defense",
+    "Imelda claimed that her marriage to Sato was a \"sham,\"",
+    "THE SUPREME COURT RULED with three significant aspects",
+    "it did not prohibit the accused from collaterally attacking the validity of a prior void marriage",
+    "the accused in a prosecution for bigamy can freely raise the defense of a prior void ab initio marriage",
+    "such prima facie evidence may be rebutted by \"substantial evidence.\"",
+    "Because no sacramental union was celebrated, the Church had no reason to interfere",
+    "a prior declaration of nullity is nonetheless necessary to enable any of the erstwhile spouses to remarry",
+    "a marital bond that, from the very beginning, was nothing but a phantom",
+    "our civil institutions cannot protect a covenant that never was",
+    "balances our constitutional reverence for matrimony with the demands of criminal justice",
+    "guarding the sacred rings of a valid marriage, while freeing the innocent from the shackles of a void union"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban",
+      "Ramon Paul L. Hernando",
+      "Alfredo Benjamin S. Caguioa",
+      "Imelda Lapira",
+      "Jimmy Fariscal",
+      "Takahiko Sato",
+      "\"Jo\" (arranger of travel documents)"
+    ],
+    "institutions": [
+      "Supreme Court of the Philippines",
+      "Court of Appeals",
+      "Regional Trial Court",
+      "Local Civil Registrar",
+      "Catholic Church"
+    ],
+    "cases": [
+      "Pulido v. People (July 27, 2021, per J Ramon Paul L. Hernando, en banc)",
+      "Lapira v. Fariscal (Feb. 26, 2026, per J Alfredo Benjamin S. Caguioa, Third Division)"
+    ],
+    "laws_treaties": [
+      "Revised Penal Code (bigamy)",
+      "Family Code, Article 40",
+      "Constitution (marriage as an inviolable social institution)"
+    ],
+    "events": [
+      "Lapira-Sato marriage record (2000)",
+      "Lapira-Fariscal civil marriage (2001)",
+      "Imelda's departure for Japan (2004)",
+      "Lapira's conviction by the RTC and affirmance by the CA",
+      "Lapira's acquittal by the Supreme Court"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "Pulido v. People modified earlier jurisprudence so that a prior void ab initio marriage is a valid defense to bigamy without a prior judicial declaration, and Lapira v. Fariscal reiterated it.",
+      "rhetorical_move": "reports the doctrinal shift",
+      "confidence": "asserted with evidence"
+    },
+    {
+      "claim": "Article 40 of the Family Code requires a declaration of nullity only for remarriage and does not bar an accused from collaterally attacking a void prior marriage.",
+      "rhetorical_move": "explains the first holding",
+      "confidence": "asserted with evidence"
+    },
+    {
+      "claim": "A marriage certificate is prima facie evidence that may be rebutted by substantial evidence, such as a Local Civil Registrar certification that no certificate or license was issued.",
+      "rhetorical_move": "explains the evidentiary holding with the facts",
+      "confidence": "asserted with evidence"
+    },
+    {
+      "claim": "Courts cannot and should not impose criminal penalties based on a marital bond that was nothing but a phantom; civil institutions cannot protect a covenant that never was.",
+      "rhetorical_move": "normative endorsement of the rulings",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "The rulings do not transgress the constitutional sanctity of marriage or the Church's sacramental doctrine, because the ecclesiastical aspects were untouched.",
+      "rhetorical_move": "anticipates and answers an objection",
+      "confidence": "asserted"
+    }
+  ],
+  "notable_anecdotes": [
+    "Imelda Lapira's claimed 'sham' marriage to Japanese national Takahiko Sato, arranged to facilitate her entry into Japan.",
+    "Imelda signing a blank paper at the instruction of 'Jo,' who arranged her travel documents.",
+    "Jimmy Fariscal losing contact with his wife after she left for Japan and discovering her earlier marriage.",
+    "The Local Civil Registrar certifying that it issued no certificate and that no marriage license had been applied for."
+  ],
+  "target_audience": [
+    "Inquirer general readership",
+    "Spouses and families facing bigamy issues",
+    "Lawyers, prosecutors and judges",
+    "Law students (criminal and family law)",
+    "Catholic readers concerned with the sanctity of marriage"
+  ],
+  "register_markers": [
+    "HOWEVER, IN PULIDO v. PEOPLE all-caps pivot",
+    "void ab initio (from the beginning) Latin glossed",
+    "Let me briefly explain the facts narrative opener",
+    "THE SUPREME COURT RULED with three significant aspects all-caps enumerated structure",
+    "First ... Second ... Third enumerated holdings",
+    "DRAWING FROM JUSTICE HERNANDO'S RULING all-caps synthesis",
+    "nothing but a phantom vivid metaphor",
+    "a covenant that never was aphorism",
+    "rhythms of divine justice ... sacred rings ... shackles of a void union lyrical closing"
+  ],
+  "decision_framework_signals": [
+    "traces a doctrinal change across two rulings",
+    "explains holdings through the facts of a case",
+    "distinguishes criminal liability from capacity to remarry",
+    "balances constitutional reverence for marriage with criminal justice",
+    "separates civil from ecclesiastical aspects of marriage"
+  ],
+  "one_paragraph_summary": "Panganiban explains a liberal shift in bigamy jurisprudence. Bigamy under the Revised Penal Code is contracting a second marriage while a valid first marriage exists; earlier rulings barred offending spouses from remarrying and from using the invalidity of a prior marriage as a defense without a prior judicial declaration of nullity. In Pulido v. People (2021), a unanimous en banc Court held that a prior void ab initio marriage is a valid defense even without such a declaration, and Lapira v. Fariscal (Feb. 26, 2026) reiterated this in acquitting a woman convicted below. Imelda Lapira married Jimmy Fariscal in 2001, but a record showed she had married Japanese national Takahiko Sato in 2000; she said that marriage was a sham arranged for her entry into Japan, with no ceremony and only a blank paper she signed for 'Jo.' The trial court convicted her and the Court of Appeals affirmed because the first marriage had not been declared void. The Supreme Court ruled on three points. First, Article 40 of the Family Code requires a declaration of nullity only for remarriage and allows collateral attack on a void prior marriage; Imelda's marriage to Sato lacked a license and ceremony. Second, a marriage certificate is prima facie evidence rebuttable by substantial evidence, here a Local Civil Registrar certification that it issued no certificate and no license was applied for. Third, the matter was purely civil: no sacramental union was involved. A declaration of nullity is still required to remarry. CJP says courts should not impose criminal penalties on a bond that was nothing but a phantom, and that the rulings respect both the constitutional inviolability of marriage and Church doctrine, balancing reverence for matrimony with criminal justice.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

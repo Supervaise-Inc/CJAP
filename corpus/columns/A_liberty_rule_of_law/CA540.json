@@ -1,0 +1,163 @@
+{
+  "id": "CA540",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 540,
+  "title": "Two-thirds",
+  "date": "2026-08-17",
+  "link": "https://opinion.inquirer.net/193829/two-thirds",
+  "keywords": [
+    "impeachment",
+    "two-thirds vote",
+    "voting denominator",
+    "Escudero",
+    "Supreme Court",
+    "League of Cities v. Comelec",
+    "grave abuse of discretion",
+    "rule of law"
+  ],
+  "primary_topics": [
+    "Escudero's ruling that 16 of 24 votes are needed to convict VP Sara Duterte regardless of senators detained, in hiding, sick or absent -- a literal reading of Art. XI's 'two-thirds of all the Members of the Senate'",
+    "How the Supreme Court sets its majority -- Internal Rules: quorum of eight en banc, decision by majority of members who actually took part; the denominator shifts with ACTIVE participation",
+    "Examples -- League of Cities v. Comelec flip-flops (6-5, 6-4 with denominator 10, 7-6 with 13); Cruz v. DENR Secretary 7-7 deadlock upholding IPRA; De Castro v. JBC on deliberation as the core of decision-making",
+    "Limits of the analogy -- the SC reviews questions of law and is not a trier of facts, while the impeachment court receives evidence and hears witnesses",
+    "Thesis -- the Senate need not blindly follow the Court's method, but the two-thirds rule cannot be applied without first identifying the correct denominator",
+    "Escudero's ruling is interlocutory and 'not written in stone' -- reversible by simple majority; the SC will intervene only for grave abuse of discretion, anchoring the power to the rule of law against partisan passion"
+  ],
+  "sub_topics": [
+    "Presiding officer Escudero's 16-vote ruling",
+    "Senators detained, in hiding, sick or unable to participate",
+    "Literal reading of Article XI, Section 3(6)",
+    "Internal Rules of the Supreme Court",
+    "Quorum of eight in en banc cases",
+    "Majority of members who actually took part",
+    "Cityhood Laws flip-flops",
+    "Vacancies, abstentions and 'took no part'",
+    "Cruz v. DENR Secretary and IPRA",
+    "Retirement of J. Fidel P. Purisima",
+    "De Castro v. JBC and midnight appointments",
+    "SC as not a trier of facts",
+    "Interlocutory ruling reversible by simple majority",
+    "Grave abuse of discretion as basis for SC review"
+  ],
+  "signature_phrases": [
+    "I AM NOT A POLITICIAN AND CANNOT DIVINE THE SENATE'S POLITICAL WISDOM in computing its math",
+    "the Court does not always compute its majority from its full complement of 15 members",
+    "the computation of the mathematical denominator shifts depending on ACTIVE participation",
+    "the notorious flip-flops in \"League of Cities v. Comelec\"",
+    "won or lost on the basis of one vote",
+    "one voice less is not only a vote less but a contributed opinion, an observation",
+    "BE THAT AS IT MAY, THESE EXAMPLES DO NOT NECESSARILY ANSWER the question we are taking up",
+    "the Supreme Court is not a trier of facts",
+    "the analogy I propose is not for the Senate to follow blindly the Court's method",
+    "the two-thirds voting requirement cannot be understood or enforced without first identifying the correct mathematical denominator",
+    "THE TWO-THIRDS RULING OF ESCUDERO IS NOT WRITTEN IN STONE",
+    "its reversal or modification requires only a simple majority, not two-thirds",
+    "the impeachment court remains susceptible to the shifting moods of public sentiment",
+    "not to concede it to unreliable partisan passion"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban",
+      "Francis \"Chiz\" Escudero",
+      "Sara Duterte",
+      "Presbitero J. Velasco Jr.",
+      "Fidel P. Purisima",
+      "Lucas P. Bersamin"
+    ],
+    "institutions": [
+      "Senate sitting as Impeachment Court",
+      "Supreme Court of the Philippines",
+      "Commission on Elections",
+      "Department of Environment and Natural Resources",
+      "Judicial and Bar Council"
+    ],
+    "cases": [
+      "League of Cities v. Comelec (Dec. 21, 2009, per J. Presbitero J. Velasco Jr., en banc)",
+      "Cruz v. DENR Secretary (Dec. 6, 2000, per curiam)",
+      "De Castro v. Judicial and Bar Council (Mar. 17, 2010, per J., later CJ Lucas P. Bersamin, en banc)",
+      "Impeachment trial of Vice President Sara Duterte"
+    ],
+    "laws_treaties": [
+      "Constitution, Article XI (two-thirds of all the Members of the Senate)",
+      "Internal Rules of the Supreme Court",
+      "Cityhood Laws",
+      "Indigenous Peoples' Rights Act of 1997",
+      "Constitutional prohibition on midnight appointments"
+    ],
+    "events": [
+      "Escudero's ruling that 16 votes are needed to convict",
+      "Cityhood Laws decisions of 2008, 2009 and 2010",
+      "7-7 deadlock in Cruz v. DENR Secretary after J. Purisima's retirement"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "Escudero's 16-vote ruling rests on a literal reading of the Constitution, regardless of senators who cannot participate.",
+      "rhetorical_move": "frames the ruling under discussion",
+      "confidence": "reported (not his view)"
+    },
+    {
+      "claim": "The Supreme Court computes its majority from members who actually took part, so its denominator shifts with active participation, as the League of Cities and Cruz cases show.",
+      "rhetorical_move": "judicial-practice perspective with case examples",
+      "confidence": "asserted with evidence"
+    },
+    {
+      "claim": "These examples do not directly answer the Senate question, since the SC reviews law and is not a trier of facts, while the impeachment court receives evidence and hears witnesses.",
+      "rhetorical_move": "acknowledges limits of his own analogy",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "The two-thirds requirement cannot be understood or enforced without first identifying the correct mathematical denominator.",
+      "rhetorical_move": "central thesis",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Escudero's ruling is merely interlocutory and can be reversed or modified by a simple majority before the decision becomes final.",
+      "rhetorical_move": "procedural opinion",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "The SC will interfere only upon grave abuse of discretion, and when petitioned it must anchor the Senate's power to the rule of law rather than partisan passion.",
+      "rhetorical_move": "judicial-review limit and closing duty",
+      "confidence": "asserted"
+    }
+  ],
+  "notable_anecdotes": [
+    "The 'notorious flip-flops' in League of Cities v. Comelec: 6-5, then 6-4 with only 10 justices counted, then 7-6 with 13.",
+    "Cruz v. DENR Secretary: a 7-7 deadlock among 14 justices upheld IPRA because no majority of eight was reached.",
+    "De Castro v. JBC: 'one voice less is not only a vote less but a contributed opinion ... less for the Court.'",
+    "CJP's disclaimer: 'I am not a politician and cannot divine the Senate's political wisdom in computing its math.'"
+  ],
+  "target_audience": [
+    "Inquirer general readership",
+    "Senator-judges and the presiding officer",
+    "Supreme Court justices",
+    "Lawyers and students of constitutional law",
+    "Citizens following the impeachment"
+  ],
+  "register_markers": [
+    "I AM NOT A POLITICIAN all-caps disclaimer opener",
+    "To be precise precision marker",
+    "ACTIVE capitalized emphasis",
+    "One ... Two ... Three enumerated examples",
+    "notorious flip-flops candid characterization",
+    "BE THAT AS IT MAY all-caps concession",
+    "To stress emphasis connective",
+    "the analogy I propose ... Rather, my thesis is thesis statement",
+    "THE TWO-THIRDS RULING OF ESCUDERO IS NOT WRITTEN IN STONE all-caps idiom",
+    "At bottom closing formula"
+  ],
+  "decision_framework_signals": [
+    "offers a judicial rather than political perspective",
+    "reasons by analogy from Supreme Court voting practice",
+    "tests the limits of his own analogy",
+    "distinguishes interlocutory from final rulings",
+    "defers to the Senate absent grave abuse of discretion",
+    "anchors the outcome to the rule of law over public sentiment"
+  ],
+  "one_paragraph_summary": "Panganiban examines Senate presiding officer Francis 'Chiz' Escudero's ruling that 16 of 24 votes are needed to convict VP Sara Duterte, regardless of senators who are detained, hiding, sick or otherwise unable to participate -- a literal reading of the Constitution's 'two-thirds of all the Members of the Senate.' Not a politician, CJP offers a judicial perspective on how the Supreme Court sets its voting denominator. Under its Internal Rules, the Court needs a quorum of eight en banc, and a decision requires the majority of members who actually took part; the denominator shifts with active participation. In League of Cities v. Comelec, the Court struck down the Cityhood Laws 6-5 in 2008, upheld them 6-4 in 2009 when vacancies and abstentions cut the denominator to 10, then reinstated its first ruling 7-6 with 13. In Cruz v. DENR Secretary, a 14-member Court deadlocked 7-7, so the challenge to the Indigenous Peoples' Rights Act failed. In De Castro v. JBC, the Court stressed that deliberation is the core of decision-making and that one voice less is a contributed opinion less. Yet these examples do not settle the question: the SC reviews questions of law and is not a trier of facts, while the impeachment court receives evidence and hears witnesses. CJP does not ask the Senate to copy the Court, but argues that the two-thirds requirement cannot be applied without first identifying the correct denominator. Escudero's ruling is interlocutory, not written in stone, and may be reversed by a simple majority. The Court will intervene only for grave abuse of discretion; since the impeachment court is susceptible to shifting public moods, the SC's duty, when petitioned, is to anchor its power to the rule of law rather than partisan passion.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

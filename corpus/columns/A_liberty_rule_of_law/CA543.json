@@ -1,0 +1,159 @@
+{
+  "id": "CA543",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 543,
+  "title": "Commonsensical interpretation",
+  "date": "2026-09-21",
+  "link": "https://opinion.inquirer.net/194563/commonsensical-interpretation",
+  "keywords": [
+    "impeachment",
+    "amicus curiae",
+    "constitutional interpretation",
+    "two-thirds vote",
+    "verba legis",
+    "ratio legis",
+    "truth and fairness",
+    "grave abuse of discretion"
+  ],
+  "primary_topics": [
+    "CJP's viral appearance as amicus curiae before the Senate on computing votes for conviction -- only two words senator-judges should remember: truth and fairness",
+    "Point 1 -- impeachment is sui generis, with legal and political aspects; senator-judges are politicians elected by and mixing with the sovereign people",
+    "Point 2 -- two ways of interpreting 'two-thirds of all the Members of the Senate': verba legis (Francisco v. House) giving 16 of 24, and ratio legis est anima (League of Cities v. Comelec); mathematics vs reality (two drops of water may become one bigger drop)",
+    "Point 3 -- neither method: the Senate must reflect the people's common sense, anchored on truth (documents and witnesses' demeanor) and fairness (due process: 'Strike me if you must but hear me first')",
+    "Point 4 -- the SC will not overturn the Senate except for grave abuse of discretion (Duterte v. House of Representatives, 2025)",
+    "The viral quip -- is it truthful and fair to let absent, hiding, detained or sick senators vote without examining the evidence? Active participation is the prerequisite for a valid judgment"
+  ],
+  "sub_topics": [
+    "Senate appearance as amicus curiae",
+    "Viral reaction and media quotes",
+    "Legalism, legalese and pointless legalities",
+    "Sui generis nature of impeachment",
+    "Senator-judges as elected politicians",
+    "Article XI, Section 3(6)",
+    "Verba legis in Francisco v. House of Representatives",
+    "Ratio legis est anima in League of Cities v. Comelec",
+    "Two drops of water analogy",
+    "Common sense of the people",
+    "Warren E. Burger on trial as a search for truth",
+    "Due process as fairness",
+    "Grave abuse of discretion in Duterte v. House of Representatives",
+    "Active participation as prerequisite for a valid judgment"
+  ],
+  "signature_phrases": [
+    "became \"trending\" and made me something of a viral \"rockstar.\"",
+    "they should not be bothered by legalism, legalese, and pointless legalities",
+    "there are only two words they should remember: truth and fairness",
+    "they are politicians elected by, and freely mixing with, the sovereign people",
+    "JURISPRUDENCE TEACHES TWO MAJOR WAYS OF INTERPRETATION",
+    "the reason of the law is the soul of the law",
+    "But reality is not always an abstract equation",
+    "one small drop of water added to another drop is not always two drops",
+    "which of these two methods should our senator-judges employ? Neither",
+    "it must reflect the common sense of the people",
+    "Strike me if you must but hear me first",
+    "The answer is a resounding NO, subject to one exception: grave abuse of discretion",
+    "active participation is the prerequisite for a valid judgment",
+    "the Senate's constitutional duty transcends abstract arithmetic",
+    "their mandate demands a commonsensical interpretation of the Constitution"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban",
+      "Conchita Carpio-Morales",
+      "Presbitero Velasco, Jr.",
+      "Warren E. Burger",
+      "Marvic M.V.F. Leonen"
+    ],
+    "institutions": [
+      "Senate sitting as Impeachment Court",
+      "Supreme Court of the Philippines",
+      "House of Representatives",
+      "Commission on Elections"
+    ],
+    "cases": [
+      "Francisco v. House of Representatives (Nov. 10, 2003, per J Conchita Carpio-Morales, en banc)",
+      "League of Cities v. Comelec (Dec. 21, 2009, per J Presbitero Velasco, Jr., en banc)",
+      "Duterte v. House of Representatives (July 25, 2025, per SAJ Marvic M.V.F. Leonen, en banc)",
+      "Impeachment trial (Senate)"
+    ],
+    "laws_treaties": [
+      "Constitution, Article XI, Section 3(6)"
+    ],
+    "events": [
+      "CJP's appearance before the Senate as amicus curiae (the Wednesday before the column)",
+      "Viral public reaction to CJP's presentation"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "In computing votes to convict, senator-judges should set aside legalism and remember only two words: truth and fairness.",
+      "rhetorical_move": "simplifies his amicus presentation for readers",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Impeachment is sui generis: senator-judges are politicians elected by and mixing with the people, not magistrates.",
+      "rhetorical_move": "first point, on the nature of the tribunal",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Verba legis reads two-thirds of 24 as 16, but reality is not always an abstract equation; ratio legis looks to intent and purpose.",
+      "rhetorical_move": "contrasts two interpretive methods with an analogy",
+      "confidence": "asserted with evidence"
+    },
+    {
+      "claim": "The Senate should use neither method alone but the people's common sense, anchored on truth and fairness (due process).",
+      "rhetorical_move": "proposes a third, commonsensical approach",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "The Supreme Court will not overturn the Senate's judgment except for grave abuse of discretion.",
+      "rhetorical_move": "limit of judicial review with case support",
+      "confidence": "asserted with evidence"
+    },
+    {
+      "claim": "Senators who are absent, hiding, detained or sick and have not examined the evidence should not vote; active participation is the prerequisite for a valid judgment.",
+      "rhetorical_move": "rhetorical question from his speech as closing argument",
+      "confidence": "asserted"
+    }
+  ],
+  "notable_anecdotes": [
+    "CJP's appearance before the Senate as amicus curiae going 'trending' and making him a viral 'rockstar.'",
+    "Hundreds of congratulatory messages after the presentation.",
+    "The two-drops-of-water analogy: two drops may become one bigger drop.",
+    "The ancient plea: 'Strike me if you must but hear me first.'",
+    "His oft-quoted line asking whether absent, hiding, detained or sick senators may fairly vote."
+  ],
+  "target_audience": [
+    "Inquirer general readership",
+    "Senator-judges",
+    "Netizens who followed the Senate hearing",
+    "Lawyers and students of constitutional law",
+    "Supreme Court justices"
+  ],
+  "register_markers": [
+    "pleasantly surprised--and a little amused light self-deprecating opener",
+    "viral \"rockstar\" playful pop term",
+    "legalism, legalese, and pointless legalities alliterative triad",
+    "First point ... Second point ... Third ... Fourth enumerated structure",
+    "sui generis--Latin for \"of its own kind\" glossed Latin",
+    "JURISPRUDENCE TEACHES TWO MAJOR WAYS OF INTERPRETATION all-caps opener",
+    "one small drop of water homely analogy",
+    "Neither. one-word answer",
+    "a resounding NO emphatic capitals",
+    "THIS BRINGS ME TO THE VERY QUIP all-caps pivot",
+    "fair to the parties, fair to their peers, and ... fair to our sovereign people tricolon closing"
+  ],
+  "decision_framework_signals": [
+    "simplifies legal doctrine for a lay audience",
+    "contrasts textual and purposive interpretation, then rejects both as sufficient alone",
+    "grounds judgment in truth (evidence) and fairness (due process)",
+    "treats senators as representatives bound to the people's common sense",
+    "defers to the Senate except for grave abuse of discretion",
+    "requires active participation for a valid vote"
+  ],
+  "one_paragraph_summary": "Panganiban writes that his appearance last Wednesday as amicus curiae before the Senate, on computing the votes needed to convict in an impeachment trial, went viral and made him a 'rockstar.' Many praised its simplicity: he told senator-judges to set aside legalism and remember two words, truth and fairness. For readers who missed it, he sums it up in four points. First, impeachment is sui generis, with legal and political aspects; senator-judges are not magistrates but politicians elected by, and mixing with, the sovereign people. Second, jurisprudence offers two ways to read the requirement of two-thirds of all Senate members: verba legis, which gives words their ordinary meaning (Francisco v. House of Representatives), and ratio legis est anima, 'the reason of the law is the soul of the law' (League of Cities v. Comelec). Literally, two-thirds of 24 is 16, but reality is not an abstract equation -- two drops of water may make one bigger drop. Third, the Senate should use neither alone; as representatives of the electorate, senators must apply the people's common sense, anchored on truth, drawn from documents and witnesses' demeanor, and fairness, or due process: 'Strike me if you must but hear me first.' Active participation and independent evaluation of the evidence are thus essential. Fourth, the Supreme Court will not overturn the Senate except for grave abuse of discretion, a capricious, whimsical or arbitrary exercise of judgment (Duterte v. House of Representatives). His viral quip asked whether it is truthful and fair to let senators vote while absent, hiding, abroad, detained or sick, without examining the evidence. The Senate's duty transcends arithmetic; senators must vote with conscience, in public view, guided by truth and fairness.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

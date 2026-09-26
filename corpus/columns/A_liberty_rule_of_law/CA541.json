@@ -1,0 +1,160 @@
+{
+  "id": "CA541",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 541,
+  "title": "Is Quiboloy extraditable immediately?",
+  "date": "2026-08-24",
+  "link": "https://opinion.inquirer.net/193974/is-quiboloy-extraditable-immediately",
+  "keywords": [
+    "extradition",
+    "Quiboloy",
+    "USA v. Purganan",
+    "Extradition Rules",
+    "bail",
+    "Court of Appeals",
+    "RP-US Extradition Treaty",
+    "rule of law"
+  ],
+  "primary_topics": [
+    "US request to extradite Apollo Quiboloy recalls the SC's first extradition decision, USA v. RTC Judge Purganan (2002, 8-3-3, CJP's ponencia) on Mark Jimenez",
+    "Nature of extradition -- not limited to political offenses, not asylum, distinct from deportation; an indispensable tool against ordinary crimes",
+    "SC's 'Rules on Extradition Proceedings' (April 8, 2025) -- (1) ex parte review and arrest warrant, as held in Purganan; (2) bail as discretion, not right, only on clear and convincing proof of no flight risk; (3) appeals end at the CA, decided within 90 days and immediately executory",
+    "Executive discretion under Article 11 of the RP-US Extradition Treaty -- postpone extradition until local cases end or temporarily surrender the accused",
+    "Quiboloy may be extradited but not immediately, being detained by the Pasig RTC in a non-bailable qualified human trafficking case under its criminal jurisdiction; DOJ may hasten trial, or seek archiving or indefinite postponement",
+    "Closing -- guard against 'overdue process' so the country does not become a haven for fugitives; the executive, as chief architect of foreign policy, must act with firmness, fairness and fidelity to the rule of law"
+  ],
+  "sub_topics": [
+    "US request for Quiboloy's extradition to California",
+    "Mark Jimenez extradition (2002)",
+    "Justice Jose C. Vitug's dissent on due process",
+    "Extradition vs asylum vs deportation",
+    "Rules on Extradition Proceedings (2025)",
+    "Ex parte review for arrest warrant",
+    "Probable cause and treaty compliance",
+    "Bail as a matter of discretion",
+    "Clear and convincing evidence of no flight risk",
+    "Appeal to the CA within 90 calendar days",
+    "Certiorari for grave abuse of discretion",
+    "Article 11 of the RP-US Extradition Treaty",
+    "Pasig RTC qualified human trafficking case",
+    "Archiving or indefinite postponement of the local case"
+  ],
+  "signature_phrases": [
+    "TO BEGIN WITH, EXTRADITION IS NO LONGER LIMITED TO POLITICAL OFFENSES",
+    "It has become an indispensable tool to suppress crimes, including ordinary crimes",
+    "the Court commendably codified and streamlined our extradition framework",
+    "would give [Jimenez] ample opportunity to escape and, thus, to frustrate and defeat the very purpose of extradition",
+    "bail is a matter of discretion",
+    "Extraditions are not criminal proceedings where the presumption of innocence applies",
+    "appeals under the Extradition Rules now terminate at the Court of Appeals",
+    "They clarified procedures, shortened timelines, and limited the avenues for delay",
+    "OBVIOUSLY, THE EXECUTIVE BRANCH IS GRANTED DISCRETION",
+    "Quiboloy may be extradited. But not immediately",
+    "Given the snail pace of prosecutions",
+    "guard against legal contortions and \"overdue process,\"",
+    "lest our country become a dubious haven where fugitives can delay, frustrate, and defeat the pursuit of justice",
+    "with firmness, fairness, and fidelity to the rule of law"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban",
+      "Apollo Quiboloy",
+      "Mark Jimenez",
+      "Judge Purganan",
+      "Jose C. Vitug"
+    ],
+    "institutions": [
+      "Supreme Court of the Philippines",
+      "Court of Appeals",
+      "Pasig Regional Trial Court",
+      "Department of Justice",
+      "United States government",
+      "Executive branch"
+    ],
+    "cases": [
+      "USA v. RTC Judge Purganan (Sept. 24, 2002, en banc, 8-3-3, ponencia of CJP)",
+      "US extradition request for Apollo Quiboloy",
+      "Pasig RTC qualified human trafficking case against Quiboloy"
+    ],
+    "laws_treaties": [
+      "Rules on Extradition Proceedings (April 8, 2025)",
+      "RP-US Extradition Treaty, Article 11"
+    ],
+    "events": [
+      "US request for Quiboloy's extradition to face charges in California",
+      "Promulgation of the Extradition Rules on April 8, 2025",
+      "Mark Jimenez extradition case 24 years earlier"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "Extradition is no longer limited to political offenses, is not asylum, and differs from deportation; it is an indispensable tool against crime.",
+      "rhetorical_move": "clarifies the concept at the outset",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "The 2025 Extradition Rules codified what Purganan held: ex parte issuance of arrest warrants, bail as discretion rather than right, and appeals ending at the CA within 90 days.",
+      "rhetorical_move": "traces new rules to his own precedent",
+      "confidence": "asserted with evidence"
+    },
+    {
+      "claim": "Under Article 11 of the RP-US treaty, the executive may postpone extradition until local cases end or temporarily surrender Quiboloy.",
+      "rhetorical_move": "identifies executive options",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Quiboloy may be extradited, but not immediately, because he is detained by the Pasig RTC in a non-bailable domestic case under its criminal jurisdiction.",
+      "rhetorical_move": "answers the title question",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Given the snail pace of prosecutions, the faster route is for the DOJ to seek archiving or indefinite postponement of the local case.",
+      "rhetorical_move": "practical recommendation",
+      "confidence": "hedged"
+    },
+    {
+      "claim": "The judiciary must guard against 'overdue process,' and the executive must exercise its discretion with firmness, fairness and fidelity to the rule of law.",
+      "rhetorical_move": "closing appeal drawn from his earlier decision",
+      "confidence": "asserted"
+    }
+  ],
+  "notable_anecdotes": [
+    "CJP recalling that he wrote USA v. RTC Judge Purganan, the SC's first extradition decision, passed 8-3-3.",
+    "Justice Jose C. Vitug, CJP's 'bosom friend,' dissenting on due process.",
+    "Judge Purganan setting a hearing before issuing Jimenez's arrest warrant, which the Court ruled wrong.",
+    "The 'snail pace of prosecutions' prompting the archiving suggestion."
+  ],
+  "target_audience": [
+    "Inquirer general readership",
+    "Department of Justice and executive officials",
+    "Judges handling extradition cases",
+    "Lawyers and law students (criminal procedure, international law)",
+    "Followers of the Quiboloy case"
+  ],
+  "register_markers": [
+    "reminds me of the first extradition decision personal recollection opener",
+    "that I had the honor of writing self-citation",
+    "my bosom friend, Justice Jose C. Vitug warm personal aside",
+    "TO BEGIN WITH ... Neither ... Nor negative definition",
+    "First ... Second ... Third enumerated rule changes",
+    "In the case I decided personal authority",
+    "OBVIOUSLY ... Obviously also parallel openers",
+    "snail pace colloquial image",
+    "overdue process wordplay",
+    "AS EMPHASIZED IN MY EARLIER DECISION all-caps self-citation",
+    "Ultimately closing formula"
+  ],
+  "decision_framework_signals": [
+    "defines the concept before applying it",
+    "traces procedural rules back to precedent",
+    "separates criminal jurisdiction from extradition powers",
+    "identifies the executive's treaty options",
+    "offers practical steps to avoid delay",
+    "balances due process against 'overdue process'"
+  ],
+  "one_paragraph_summary": "Panganiban says the US request to extradite pastor Apollo Quiboloy recalls the Supreme Court's first extradition decision, USA v. RTC Judge Purganan (2002), involving Manila Rep. Mark Jimenez, which he wrote and which passed 8-3-3 over Justice Jose C. Vitug's due process dissent. Extradition is no longer limited to political offenses, is not asylum and differs from deportation; it is now an indispensable tool against crime. To curb interminable proceedings, the Court issued the Rules on Extradition Proceedings on April 8, 2025. First, arrest warrants issue ex parte: as Purganan held, a hearing would give the extraditee a chance to escape, so the court reviews the petition's sufficiency, treaty compliance and probable cause without the extraditee. Second, bail is a matter of discretion, not right, since extradition is not a criminal proceeding; it may be granted only on clear and convincing proof that the extraditee is not a flight risk. Third, appeals end at the Court of Appeals, which must decide within 90 days, with its decision immediately executory; only certiorari for grave abuse of discretion remains. Under Article 11 of the RP-US Extradition Treaty, the executive may postpone extradition until local cases end or temporarily surrender the accused. Quiboloy may be extradited, but not immediately, because the Pasig RTC detains him in a non-bailable qualified human trafficking case under its criminal jurisdiction. The DOJ may hasten that trial or, given the snail pace of prosecutions, seek its archiving or indefinite postponement. Citing his earlier decision, CJP warns against 'overdue process' that would make the country a haven for fugitives, and urges the executive, as chief architect of foreign policy, to act with firmness, fairness and fidelity to the rule of law.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

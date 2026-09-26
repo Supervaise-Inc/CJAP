@@ -1,0 +1,158 @@
+{
+  "id": "CA533",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 533,
+  "title": "Wanted: Senator-heroes",
+  "date": "2026-06-15",
+  "link": "https://opinion.inquirer.net/192407/wanted-senator-heroes",
+  "keywords": [
+    "Senate",
+    "quorum",
+    "Senate President",
+    "Avelino v. Cuenco",
+    "Defensor-Santiago v. Guingona",
+    "separation of powers",
+    "judicial restraint",
+    "Saint Paul"
+  ],
+  "primary_topics": [
+    "Senate gridlock as a 'political purgatory' befuddling a people already reeling from high prices, criminality, flood control corruption, the VP impeachment trial and an earthquake -- salvation should come from a senator casting the decisive 13th vote, not from the Supreme Court",
+    "Gatchalian group's view -- the 12 senators present on June 3 were a valid quorum, per Avelino v. Cuenco (1949): only senators physically present count; the 1987 quorum provision (Art. VI, Sec. 16[2]) is the same as the 1935 text",
+    "Cayetano bloc's view -- electing the Senate President or any other officer needs an absolute majority of 13 of 24, including detained or fugitive members, per Art. VI, Sec. 16[1]; both blocs agree 13 is needed for the Senate President",
+    "The real controversy -- the vote needed for a quorum and for 'other' officers such as the President Pro Tempore; CJP's ponencia in Defensor-Santiago v. Guingona (1998): Constitution 'dead silent' on other officers, left to Senate rules (Rule II, Sec. 2) -- the Senate is the sole judge of its own choices",
+    "Judicial restraint -- despite the Court's expanded power to check grave abuse of discretion, it should not be dragged into partisan landmines until internal political remedies are exhausted",
+    "Saint Paul analogy -- the flawed persecutor blinded on the road to Damascus and redeemed; the elusive 13th senator can break the deadlock and be remembered as an institutional hero, wiping away past transgressions"
+  ],
+  "sub_topics": [
+    "Senate deadlock and public frustration",
+    "Clamor for Supreme Court intervention",
+    "The decisive 13th vote",
+    "Gatchalian group and Senate President Pro Tempore Sherwin Gatchalian",
+    "June 3 session attended by 12 senators",
+    "Avelino v. Cuenco (1949) quorum rule",
+    "Article VI, Section 16(2) quorum provision in the 1935 and 1987 Constitutions",
+    "Cayetano bloc and Senate President Alan Peter Cayetano",
+    "Absolute majority of 13 out of 24, including detained or fugitive members",
+    "Article VI, Section 16(1) election of the Senate President",
+    "Defensor-Santiago v. Guingona (1998) and the silence on other officers",
+    "Rule II, Section 2 of the Rules of the Senate",
+    "Expanded judicial power to check grave abuse of discretion",
+    "Redemption through the Saint Paul / road to Damascus story"
+  ],
+  "signature_phrases": [
+    "The gridlock plaguing the Senate has plunged the nation into a political purgatory",
+    "the Senate's salvation, in my humble view, should come from a senator (or senators) willing to attend the sessions",
+    "TO BE FAIR, LET ME BRIEFLY TAKE UP THE TWO OPPOSING VIEWS on the Senate deadlock",
+    "the House does not mean 'all' [its] members",
+    "requires an absolute majority of 13 votes out of the 24 members",
+    "VERILY, THE CONTROVERSY LIES IN THE VOTE REQUIRED",
+    "dead silent on the manner of selecting the other officers",
+    "In short, the Senate remains the sole judge of its own choices",
+    "the solution to the Senate paralysis rests on the heroism of the honorable senators, or even just one of them",
+    "dragging the nonpolitical robes of justice into partisan landmines",
+    "Until all internal political remedies within the chamber have been fully exhausted",
+    "LOOKING AT THE SENATE STALEMATE, I am reminded of Saint Paul",
+    "history will long and well remember him/her as an institutional hero",
+    "History never forgets the sinners, but more so, those who find the courage to redeem themselves"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban",
+      "Sherwin Gatchalian",
+      "Alan Peter Cayetano",
+      "Saint Paul"
+    ],
+    "institutions": [
+      "Senate of the Philippines",
+      "Supreme Court of the Philippines"
+    ],
+    "cases": [
+      "Avelino v. Cuenco (Mar. 14, 1949, en banc)",
+      "Defensor-Santiago v. Guingona (Nov. 18, 1998, en banc, ponencia of CJP)"
+    ],
+    "laws_treaties": [
+      "1987 Constitution, Article VI, Section 16(1), (2) and (3)",
+      "1935 Constitution quorum provision",
+      "Rules of the Senate, Rule II, Section 2"
+    ],
+    "events": [
+      "Senate deadlock over its leadership",
+      "June 3 Senate session attended by 12 senators",
+      "Election of Sherwin Gatchalian as Senate President Pro Tempore",
+      "Impeachment trial of the Vice President",
+      "A recent devastating earthquake"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "The Senate's salvation should come from a senator (or senators) willing to attend sessions and cast the decisive 13th vote, without need of judicial intervention.",
+      "rhetorical_move": "thesis stated up front against the clamor for SC intervention",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "The Gatchalian group holds that the 12 senators present on June 3 were a valid quorum under Avelino v. Cuenco, since the 1987 quorum provision is the same as the 1935 text.",
+      "rhetorical_move": "fair presentation of one side",
+      "confidence": "reported (not his view)"
+    },
+    {
+      "claim": "The Cayetano bloc holds that electing the Senate President or any other officer requires 13 of 24 votes, counting detained or fugitive members, under Article VI, Section 16(1).",
+      "rhetorical_move": "fair presentation of the other side",
+      "confidence": "reported (not his view)"
+    },
+    {
+      "claim": "As his ponencia in Defensor-Santiago v. Guingona held, the Constitution is silent on how other officers are chosen and leaves it to Senate rules, so the Senate is the sole judge of its own choices.",
+      "rhetorical_move": "self-cited precedent to locate the real issue",
+      "confidence": "asserted with evidence"
+    },
+    {
+      "claim": "Although the judiciary may check grave abuse of discretion, the Court should not be dragged into partisan landmines until all internal political remedies in the Senate are exhausted.",
+      "rhetorical_move": "argument for judicial restraint",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Like Saint Paul redeemed on the road to Damascus, a senator who breaks the deadlock would be remembered as an institutional hero, wiping away past transgressions.",
+      "rhetorical_move": "biblical analogy and moral appeal to senators",
+      "confidence": "asserted"
+    }
+  ],
+  "notable_anecdotes": [
+    "The June 3 session in which 12 senators remained and continued the Senate's work.",
+    "Avelino v. Cuenco (1949): a senator in the United States for medical treatment excluded from the quorum count.",
+    "CJP noting that he had the honor of writing Defensor-Santiago v. Guingona (1998).",
+    "The Cayetano bloc counting even senators detained in prison or hiding as fugitives toward the 24.",
+    "Saint Paul, the flawed persecutor of Christians blinded on the road to Damascus and transformed into a saint."
+  ],
+  "target_audience": [
+    "Inquirer general readership",
+    "Senators of both blocs",
+    "Supreme Court justices facing calls to intervene",
+    "Lawyers and students of constitutional law",
+    "Citizens frustrated by the Senate deadlock"
+  ],
+  "register_markers": [
+    "political purgatory vivid metaphor",
+    "in my humble view humility marker",
+    "TO BE FAIR, LET ME BRIEFLY TAKE UP THE TWO OPPOSING VIEWS all-caps even-handed opener",
+    "On one hand ... On the other hand balanced presentation",
+    "VERILY, THE CONTROVERSY LIES all-caps pivot",
+    "which I had the honor of writing self-citation",
+    "In short summarizing connective",
+    "nonpolitical robes of justice into partisan landmines metaphor",
+    "LOOKING AT THE SENATE STALEMATE, I am reminded of Saint Paul all-caps biblical-analogy opener",
+    "13th (and 14th, and 15th ...) parenthetical escalation",
+    "History never forgets the sinners aphoristic closing"
+  ],
+  "decision_framework_signals": [
+    "presents both blocs' legal positions fairly before giving his own",
+    "locates the real legal issue using his own precedent",
+    "treats the Senate as sole judge of its internal choices (separation of powers)",
+    "favors exhausting internal political remedies before judicial intervention",
+    "appeals to individual moral courage rather than court orders",
+    "frames redemption through a biblical analogy"
+  ],
+  "one_paragraph_summary": "Panganiban says the Senate gridlock has plunged the nation into a political purgatory, befuddling a people already reeling from high prices, rising criminality, flood control corruption, the Vice President's impeachment trial and a recent earthquake. Amid a clamor for the Supreme Court to step in, he argues that the Senate's salvation should come from a senator (or senators) willing to attend sessions and cast the decisive 13th vote without judicial intervention. To be fair, he sets out both views. The Gatchalian group, led by newly elected Senate President Pro Tempore Sherwin Gatchalian, holds that the 12 senators who stayed in session on June 3 were a valid quorum, citing Avelino v. Cuenco (1949), which counted only senators physically present, and noting that the 1987 quorum provision is the same as the 1935 text. The Cayetano bloc, led by previously elected Senate President Alan Peter Cayetano, contends that electing the Senate President or any other officer needs 13 of 24 votes, including those detained or hiding as fugitives, under Article VI, Section 16(1); both sides agree that 13 is needed for the Senate President. The real controversy is the vote needed for a quorum and for other officers such as the President Pro Tempore. In Defensor-Santiago v. Guingona (1998), which CJP wrote, the Court observed that the Constitution is 'dead silent' on selecting other officers and leaves it to the Senate's rules, so the Senate is the sole judge of its own choices. The solution therefore rests on the heroism of even one patriotic senator; the Court should not be dragged into partisan landmines until internal remedies are exhausted. Recalling Saint Paul, the persecutor redeemed on the road to Damascus, CJP says the senator who breaks the deadlock would be remembered as an institutional hero. History never forgets the sinners, but more so those who find the courage to redeem themselves.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

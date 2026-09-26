@@ -1,0 +1,137 @@
+{
+  "id": "BB017",
+  "format": "B",
+  "type": "book",
+  "theme": "B",
+  "theme_label": "Prosperity and Economic Philosophy",
+  "number": 17,
+  "title": "Transparency, Unanimity & Diversity -- Ch. 7: Ty v. Trampe: Validity of Increases in Real Estate Taxes",
+  "date": "2000-11-01",
+  "link": "https://cjpanganiban.com/books-authored-by-chief-justice-artemio-v-panganiban/",
+  "keywords": [
+    "Ty v. Trampe",
+    "first ponencia",
+    "unanimous concurrence",
+    "Presidential Decree 921",
+    "Republic Act 7160",
+    "Local Government Code of 1991",
+    "Schedule of Market Values",
+    "Notice of Assessment",
+    "municipal assessor of Pasig",
+    "real estate taxes",
+    "418 to 570 percent",
+    "Section 534",
+    "repeals by implication",
+    "statutory construction",
+    "Metropolitan Manila area",
+    "Local Treasury and Assessment Districts",
+    "Judge Aurelio C. Trampe",
+    "Justice Jose A.R. Melo",
+    "Epilogue",
+    "the statutes' graveyard"
+  ],
+  "primary_topics": [
+    "Chapter 7 of 'Transparency, Unanimity & Diversity' -- CJP's account of Ty v. Trampe, the case he deliberately chose as his first ponencia on the Supreme Court, and of the welcome-cum-evaluation that incumbent justices give new appointees, whose first decisions are watched most closely of all.",
+    "The holding that the Local Government Code of 1991 (RA 7160) did not repeal Presidential Decree 921, so that a Schedule of Market Values prepared by the Pasig assessor alone -- without the joint action of all Metro Manila assessors that PD 921 requires -- could not validate real estate tax increases of 418 to 570 percent.",
+    "The doctrine applied: repeals by implication are disfavored and allowed only where two laws are so clearly repugnant that they cannot coexist, because a court's function is to harmonize seeming conflicts, not to take the place of Congress in repealing statutes.",
+    "The Epilogue's rebuke of the trial judge, who consigned a legislative enactment and three unanimous Supreme Court decisions to the statutes' graveyard without attempting to reconcile the laws, and was admonished to be more judicious in setting aside established laws, doctrines and precedents."
+  ],
+  "sub_topics": [
+    "He described how new appointees to the Supreme Court are welcomed as coequals in the task of delivering justice with finality, yet unobtrusively scrutinized in the way they converse, discuss, write and conduct themselves.",
+    "He noted that some justices brief newcomers on the Court's unique processes -- he was briefed by Justice Jose A.R. Melo -- but that their first ponencias, first dissents and first questions at oral argument are watched most of all.",
+    "Knowing this, he chose Ty v. Trampe as an initial Decision that would be jurisprudentially significant yet written well enough to win concurrence, and counted its enthusiastic unanimous concurrence by the full Court as passing his first major test.",
+    "He laid out the facts: a January 6, 1994 Notice of Assessment from the Pasig municipal assessor, based on a new Schedule of Market Values approved by the finance secretary, which raised real estate taxes from 418 to 570 percent.",
+    "Petitioners went to the Regional Trial Court to void the assessments for non-compliance with PD 921, but Judge Aurelio C. Trampe denied the Petition on the theory that RA 7160 had already repealed the Decree.",
+    "The Court answered that Section 534 of RA 7160 enumerated the statutes revoked and did not include PD 921, so any repeal could only arise from the general repealing clause in paragraph (f).",
+    "It held that repeals by implication are not favored unless the laws are convincingly shown to be so repugnant that they cannot coexist, because the legislature's will cannot be overturned by judicial construction.",
+    "It compared the two statutes -- PD 921 of 1976 covering only the administration of local financial services in Metropolitan Manila through four Local Treasury and Assessment Districts, and RA 7160 of 1992 covering almost all functions delegated to local government units nationwide -- and found them not co-extensive.",
+    "Coming down to specifics, it set Section 9 of PD 921 (schedules prepared jointly by the city assessors of the districts) beside Section 212 of RA 7160, concluding that harmony between the provisions was not only possible but desirable and consistent with legislative intent.",
+    "In the Epilogue the Court said it would be remiss as guardian of the judicial branch to let pass the ease with which the respondent judge swept a statute and three unanimous en banc decisions into the dustbin of judicial history, and admonished him for imperiously decreeing an implied repeal."
+  ],
+  "signature_phrases": [
+    "a mixture of genuine welcome and cautious evaluation",
+    "the new entrants are unobtrusively scrutinized in many subconscious ways",
+    "I had to carefully prepare my first ponencia",
+    "it carried the enthusiastic unanimous concurrence of the full Court",
+    "repeals by implication are not favored or allowed",
+    "The function of a court is not to take the place of Congress in repealing statutes",
+    "harmony in these provisions is not only possible, but in fact desirable, necessary and consistent with the legislative intent and policy",
+    "he is admonished to be more judicious in setting aside established laws, doctrines and precedents"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban (author of the ponencia; newly appointed Supreme Court justice)",
+      "Jose A.R. Melo (Supreme Court justice who briefed him)",
+      "Aurelio C. Trampe (then RTC judge, now retired; respondent)",
+      "the Ty petitioners (Pasig real property owners)",
+      "the municipal assessor of Pasig; the finance secretary"
+    ],
+    "institutions": [
+      "the Supreme Court",
+      "the Regional Trial Court of the National Capital Judicial Region",
+      "the Municipality (now City) of Pasig",
+      "the Metropolitan Manila Local Treasury and Assessment Districts"
+    ],
+    "cases": [
+      "Ty v. Trampe (his first ponencia, unanimously concurred in)"
+    ],
+    "laws_treaties": [
+      "Presidential Decree 921 (administration of local financial services in Metropolitan Manila; Section 9)",
+      "Republic Act 7160, the Local Government Code of 1991 (Sections 212 and 534)"
+    ],
+    "events": [
+      "the January 6, 1994 Notice of Assessment and the resulting Petition of March 29, 1994",
+      "Judge Trampe's Decision of July 14, 1994",
+      "his own appointment to the Supreme Court and the writing of his first ponencia"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "A new justice's first ponencia is a test before his colleagues, so he deliberately chose a case that would be jurisprudentially significant and written well enough to be concurred in by all fourteen others.",
+      "rhetorical_move": "insider disclosure: explaining the Court's unwritten rite of welcome-cum-evaluation before reporting his own strategy",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "RA 7160 did not repeal PD 921, because Section 534 enumerated the statutes revoked without naming it and the two laws are not co-extensive in scope or purpose.",
+      "rhetorical_move": "textual and comparative analysis of the two statutes, provision against provision",
+      "confidence": "asserted with evidence"
+    },
+    {
+      "claim": "Repeals by implication are not favored, and a court's function is to harmonize seeming conflicts and resolve doubts in favor of the laws' validity and coexistence rather than to take the place of Congress.",
+      "rhetorical_move": "appeal to a basic canon of statutory construction and to the separation of functions it protects",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "The trial judge deserved admonition for consigning a statute and three unanimous Supreme Court decisions to the statutes' graveyard without even attempting to reconcile the laws.",
+      "rhetorical_move": "epilogue rebuke framed as the Court's duty as guardian of the judicial branch",
+      "confidence": "asserted"
+    }
+  ],
+  "notable_anecdotes": [
+    "He described the private rite that greets a new Supreme Court appointee -- welcomed as a coequal in delivering justice with finality, yet quietly watched in how he converses, writes and even takes his first meals with his brethren.",
+    "He recalled counting himself fortunate to have been briefed on the Court's unique processes, functions and routines by Justice Jose A.R. Melo, whom he described as amiable.",
+    "He recounted choosing Ty v. Trampe as his first ponencia for both significance and craftsmanship, and counting its unanimous concurrence as proof that he had passed his first major test with his colleagues."
+  ],
+  "target_audience": [
+    "Lawyers and law students studying statutory construction and local taxation",
+    "Judges and members of the bench on the discipline of implied repeals",
+    "General readers curious about how the Supreme Court receives and judges its new members"
+  ],
+  "register_markers": [
+    "first-person insider recollection framing a case digest",
+    "facts / issue / ruling structure of a decision summary",
+    "extended block quotation from his own ponencia",
+    "judicial rebuke quoted in full from the Epilogue",
+    "understated self-assessment of having passed a test"
+  ],
+  "decision_framework_signals": [
+    "repeals by implication are disfavored unless the laws are clearly repugnant and cannot coexist",
+    "an express repealing clause that omits a statute signals no intent to revoke it",
+    "harmonize seeming conflicts and resolve doubts in favor of validity and coexistence",
+    "compare statutes by scope and purpose before finding inconsistency",
+    "courts construe, they do not legislate repeals",
+    "lower courts owe circumspection to established laws, doctrines and precedents"
+  ],
+  "one_paragraph_summary": "Chapter 7 of 'Transparency, Unanimity & Diversity' paired CJP's recollection of joining the Supreme Court with a digest of Ty v. Trampe, the decision he chose as his first ponencia. He explained that new appointees are greeted with a mixture of genuine welcome and cautious evaluation, unobtrusively scrutinized in how they converse, write and conduct themselves, with their first ponencias, dissents and questions at oral argument watched most closely; he himself was briefed on the Court's processes by Justice Jose A.R. Melo. Knowing this, he prepared his first decision carefully, choosing a case that would be jurisprudentially significant yet written well enough to win concurrence, and regarded the enthusiastic unanimous concurrence of the full Court as proof that he had passed his first major test. The case arose from a January 6, 1994 Notice of Assessment issued by the municipal assessor of Pasig on a new Schedule of Market Values, which raised real estate taxes by 418 to 570 percent; the petitioners argued the assessor had ignored Presidential Decree 921, and Judge Aurelio C. Trampe dismissed their petition on the ground that the Local Government Code of 1991 had repealed the Decree. The Court held that it had not. Section 534 of RA 7160 enumerated the statutes it revoked without naming PD 921, leaving only a general repealing clause, and it is a basic rule of construction that repeals by implication are not favored unless two laws are so clearly repugnant that they cannot coexist, since a court's function is to harmonize conflicts rather than take the place of Congress. Comparing the statutes, the Court found PD 921 limited to financial services in Metropolitan Manila while RA 7160 covered nearly all local government functions nationwide, so that harmony between Section 9 and Section 212 was not only possible but desirable. Its Epilogue chided the trial judge for consigning a statute and three unanimous decisions to the statutes' graveyard and admonished him to be more judicious in setting aside established laws, doctrines and precedents.",
+  "source_xlsx": "cjp_books_curated_normalized.xlsx"
+}

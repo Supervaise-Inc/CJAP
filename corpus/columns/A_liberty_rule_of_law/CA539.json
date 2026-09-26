@@ -1,0 +1,169 @@
+{
+  "id": "CA539",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 539,
+  "title": "Sara's options",
+  "date": "2026-08-10",
+  "link": "https://opinion.inquirer.net/193674/saras-options",
+  "keywords": [
+    "impeachment",
+    "Sara Duterte",
+    "resignation",
+    "perpetual disqualification",
+    "public opinion",
+    "Supreme Court",
+    "Nixon",
+    "Clinton"
+  ],
+  "primary_topics": [
+    "SC en banc resolution in Torreon v. House committee on justice (Aug. 5, 2026) dismissing petitions against the VP's impeachment on mootness -- possibly a signal the Court will not be dragged into partisan dramas absent grave abuse of discretion",
+    "Three complementary options for VP Sara: defend herself to the end, resign, and/or rally public support",
+    "Option 1: defense -- challenges to admissibility and relevance; open questions on whether she will testify, her demeanor, cross-examination, and how she will explain alleged threats to the First Family, confidential funds, unexplained wealth, bank deposits and tax records",
+    "Option 2: resignation -- removal moot, but the Senate may continue by majority and impose perpetual disqualification by two-thirds, barring a 2028 presidential run; Corona (2012) disqualified vs Sereno (quo warranto) not; Nixon's one-sentence 1974 resignation",
+    "Option 3: rally public support like Bill Clinton, acquitted in 1999 with approval ratings above 60 percent; impeachment is tried before a political body where public sentiment is often decisive; possible effect of former President Duterte's return 'dead or alive'",
+    "Closing -- impeachment preserves the integrity of governance and 'a public office is a public trust'; the Constitution must endure as the citadel of liberty and prosperity under the rule of law"
+  ],
+  "sub_topics": [
+    "Torreon v. House committee on justice (Aug. 5, 2026)",
+    "Mootness as ground for dismissal",
+    "Grave abuse of discretion defined as whimsical, arbitrary or capricious",
+    "Complementary options",
+    "Admissibility and relevance challenges",
+    "Whether VP Sara will take the witness stand",
+    "Clarificatory questions by senator-judges",
+    "Two constitutional penalties: removal and perpetual disqualification",
+    "2028 presidential run",
+    "Corona impeachment penalty (2012)",
+    "Sereno quo warranto (8-6)",
+    "Nixon resignation (1974) and Watergate",
+    "Clinton acquittal (1999) and approval ratings",
+    "Former President Rodrigo R. Duterte's detention in The Hague"
+  ],
+  "signature_phrases": [
+    "a signal that this time, the high court no longer wants to be dragged unnecessarily into partisan dramas",
+    "will not participate in political showmanship",
+    "CONSEQUENTLY, THE VP HAS AT LEAST THREE MAJOR OPTIONS",
+    "to defend herself to the sweet or bitter end",
+    "Who among the prosecutors would dare cross swords with her?",
+    "SECOND, VP SARA MAY RESIGN AMID THE ONGOING TRIAL",
+    "Will the senator-judges have the guts to continue the trial",
+    "I hereby resign as President of the United States.",
+    "He resigned because it became clear to him that he had lost the trust of the American people",
+    "While governed by the Constitution, impeachment cases are tried before a political body",
+    "public sentiment often plays a decisive role",
+    "returns to the Philippines dead or alive",
+    "a public office is a public trust",
+    "the Constitution must endure",
+    "As the impregnable citadel of liberty and prosperity, it must remain our ultimate compass under the rule of law"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban",
+      "Sara Duterte",
+      "Renato C. Corona",
+      "Maria Lourdes P. A. Sereno",
+      "Richard Nixon",
+      "Bill Clinton",
+      "Rodrigo R. Duterte",
+      "Ninoy Aquino"
+    ],
+    "institutions": [
+      "Supreme Court of the Philippines",
+      "House of Representatives (committee on justice)",
+      "Senate sitting as Impeachment Court",
+      "US House of Representatives",
+      "US Senate"
+    ],
+    "cases": [
+      "Torreon v. House committee on justice (Aug. 5, 2026, en banc resolution)",
+      "Impeachment trial of Vice President Sara Duterte",
+      "Impeachment of Chief Justice Renato C. Corona (2012)",
+      "Quo warranto case unseating Chief Justice Maria Lourdes P. A. Sereno (8-6)",
+      "Impeachment of US President Bill Clinton (acquitted 1999)"
+    ],
+    "laws_treaties": [
+      "Constitution (penalties of removal and perpetual disqualification; two-thirds vote to convict)",
+      "Principle that a public office is a public trust"
+    ],
+    "events": [
+      "SC dismissal of petitions against the VP's impeachment, Aug. 5, 2026",
+      "Nixon's resignation in 1974 over Watergate",
+      "Clinton's acquittal by the US Senate in 1999",
+      "Former President Rodrigo R. Duterte's detention in The Hague",
+      "Expected 2028 presidential election"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "The SC's dismissal of the petitions on mootness may signal that the Court no longer wants to be dragged into partisan dramas and will not intervene unless the impeachment court commits grave abuse of discretion.",
+      "rhetorical_move": "reads a signal in a procedural ruling",
+      "confidence": "hedged"
+    },
+    {
+      "claim": "VP Sara has at least three complementary options: defend herself to the end, resign, and/or rally public support to avert conviction.",
+      "rhetorical_move": "enumerated framework",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "If she resigns, removal becomes moot, but the Senate may continue by majority and impose perpetual disqualification by two-thirds, which would bar her 2028 run, as Corona was disqualified while Sereno was not.",
+      "rhetorical_move": "constitutional analysis with precedents",
+      "confidence": "asserted with evidence"
+    },
+    {
+      "claim": "Like Clinton, who was acquitted with approval ratings above 60 percent, she may rally public support, since impeachment is tried before a political body where public sentiment often decides.",
+      "rhetorical_move": "persuasive US precedent",
+      "confidence": "asserted with evidence"
+    },
+    {
+      "claim": "Former President Duterte's return, dead or alive, could change the political dynamic, though whether that pivot would apply remains uncertain.",
+      "rhetorical_move": "speculative scenario",
+      "confidence": "hedged"
+    },
+    {
+      "claim": "Whatever her choice, impeachment preserves the integrity of governance, and the Constitution must endure as the ultimate compass under the rule of law.",
+      "rhetorical_move": "principled closing",
+      "confidence": "asserted"
+    }
+  ],
+  "notable_anecdotes": [
+    "The VP's aggressive confrontation with a sheriff who was merely serving a court order.",
+    "Corona's 2012 penalty of removal and disqualification, contrasted with Sereno's 8-6 quo warranto ouster without disqualification.",
+    "Nixon's one-sentence resignation letter in 1974.",
+    "Clinton's acquittal in 1999 with approval ratings above 60 percent.",
+    "The scenario of former President Duterte's remains paraded along main avenues 'a la' Ninoy Aquino."
+  ],
+  "target_audience": [
+    "Inquirer general readership",
+    "Senator-judges",
+    "VP Sara Duterte and her defense team",
+    "Prosecutors",
+    "Lawyers and students of constitutional law",
+    "Voters looking to 2028"
+  ],
+  "register_markers": [
+    "partisan dramas grabbed in shimmering crimson vivid image (as printed)",
+    "CONSEQUENTLY, THE VP HAS AT LEAST THREE MAJOR OPTIONS all-caps framework",
+    "to the sweet or bitter end idiom",
+    "string of rhetorical questions on the witness stand",
+    "SECOND, VP SARA MAY RESIGN all-caps option heading",
+    "have the guts colloquial challenge",
+    "Incidentally ... aside on Nixon",
+    "KNOWING THAT THIS US PRECEDENT all-caps opener",
+    "(Exactly how many senators constitute 'two-thirds' deserves a future column.) teaser aside",
+    "dead or alive ... Alive, if acquitted. Dead, if ... stark antithesis",
+    "impregnable citadel of liberty and prosperity closing metaphor"
+  ],
+  "decision_framework_signals": [
+    "reads institutional signals from procedural rulings",
+    "maps a decision-maker's options as complementary rather than exclusive",
+    "separates the two constitutional penalties and their consequences",
+    "uses Philippine and US precedents (Corona, Sereno, Nixon, Clinton)",
+    "acknowledges the political nature of impeachment and the weight of public sentiment",
+    "anchors conclusions in the Constitution and public trust"
+  ],
+  "one_paragraph_summary": "Panganiban calls the Supreme Court's Aug. 5, 2026 resolution in Torreon v. House committee on justice, dismissing the petitions against VP Sara Duterte's impeachment on mootness, a turning point that may signal the Court will not be dragged into partisan dramas unless the impeachment court commits grave abuse of discretion. He then outlines three complementary options for the VP. First, defend herself to the end: her team challenges the admissibility of evidence and the relevance of allegations, and CJP asks whether she will testify, whether she will be aggressive (as with a sheriff serving a court order) or measured, who would cross-examine her, and how she will explain alleged threats to the First Family, confidential funds, unexplained wealth, bank deposits and tax records. Second, resign: removal would become moot, but the senator-judges could continue the trial by majority vote and, by two-thirds, impose perpetual disqualification, barring her 2028 presidential run. Corona was removed and disqualified in 2012, while Sereno, ousted by an 8-6 quo warranto ruling, was not disqualified; Nixon resigned in 1974 with a one-sentence letter after losing the people's trust. Third, rally public support, as Bill Clinton did, remaining above 60 percent approval and winning acquittal in 1999; impeachment is tried before a political body where public sentiment often decides. The dynamic could shift if former President Rodrigo R. Duterte returns from detention in The Hague, dead or alive. CJP concludes that the trial transcends the fortunes of officials: impeachment preserves the integrity of governance and the principle that a public office is a public trust, and whatever happens, the Constitution must endure as the citadel of liberty and prosperity under the rule of law.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

@@ -1,0 +1,130 @@
+{
+  "id": "BA102",
+  "format": "B",
+  "type": "book",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 102,
+  "title": "Liberty and Prosperity -- Ch. 23: Lumanlaw v. Peralta: Violation of the Right to Speedy Trial",
+  "date": "2006-07-01",
+  "link": "https://cjpanganiban.com/books-authored-by-chief-justice-artemio-v-panganiban/",
+  "keywords": [
+    "Lumanlaw v. Peralta",
+    "right to speedy trial",
+    "arraignment",
+    "fourteen postponements",
+    "Speedy Trial Act",
+    "30-day period for an arraignment",
+    "mandamus",
+    "Rule 65",
+    "grave abuse of discretion",
+    "Manila City Jail",
+    "jail wardens",
+    "produce orders",
+    "counsel de oficio",
+    "counsel de parte",
+    "Motions to Dismiss",
+    "court management",
+    "vexatious, capricious, oppressive, or unjustified",
+    "hierarchy of courts",
+    "illegal possession of a dangerous drug",
+    "Commitment Order"
+  ],
+  "primary_topics": [
+    "Chapter 23 of 'Liberty and Prosperity' -- a digest of Lumanlaw v. Peralta, a unanimous ruling penned by the Chief Justice holding that an accused detained for almost two years through fourteen postponed arraignments had been denied his right to speedy trial and could compel the dismissal of the Information by mandamus.",
+    "The Court's test for delay: the 30-day period of the Speedy Trial Act is not absolute, and rather than making mathematical calculations of elapsed periods one must ask whether the delays were vexatious, capricious, oppressive or unjustified.",
+    "The judicial-administration lesson drawn from the case: an arraignment takes at most ten minutes, a judge should have appointed a counsel de oficio when the accused himself asked for one, and efficient supervision of the clerk of court would have ensured timely service of produce orders on the jail wardens.",
+    "The remedial holding: mandamus lies to control the exercise of discretion where undue delay amounts to grave abuse resulting in manifest injustice, and procedural objections such as the want of a motion for reconsideration and the hierarchy of courts yield when constitutional rights are at stake."
+  ],
+  "sub_topics": [
+    "Lumanlaw was charged with illegal possession of a dangerous drug in November 2002 and detained in the Manila City Jail by virtue of a Commitment Order.",
+    "From his arrest in 2002 to the filing of the Petition in 2004 his arraignment was postponed fourteen times -- for the absence of his counsel, the judge's unavailability, and the warden's failure to bring him to court -- leaving him detained almost two years without arraignment, and both of his Motions to Dismiss were denied.",
+    "He filed a Petition for Mandamus under Rule 65, arguing that the failure to act expeditiously on his arraignment violated his right to speedy trial and justified dismissal of the charge.",
+    "On the first issue the Court held the violation manifest, given the length and unreasonableness of a majority of the delays and the lack of earnest effort to conduct the arraignment as soon as the calendar allowed.",
+    "It observed that an arraignment is a simple but fundamental stage -- reading the charges, ensuring the accused understands them, and taking his plea -- that a prudent and resolute judge can conduct as soon as the accused is presented.",
+    "The absence of counsel de parte was no valid reason to postpone, especially where the accused himself asked for a counsel de oficio; refusing that request was unreasonable, without legal basis and attributable to the judge's inflexibility as regards contingencies.",
+    "The foremost cause of delay was the repeated failure of the jail wardens to produce the accused, a problem that efficient court management and supervision of the clerk of court could easily have averted.",
+    "The judge had allowed the listlessness of the parties, his staff and the wardens to dictate the pace of the proceedings, and had exerted no effort to expedite matters even after two urgent Motions to Dismiss.",
+    "On the second issue the Court held that mandamus may issue to control the exercise of discretion where undue delay constitutes grave abuse resulting in manifest injustice, and is available to an accused to compel dismissal of a case.",
+    "The general rule requiring a prior motion for reconsideration was held not impervious to exceptions, and the Court refused to deny the writ on purely technical grounds -- including the hierarchy of courts -- where a party would be deprived of substantive rights."
+  ],
+  "signature_phrases": [
+    "An arraignment takes, at most, ten minutes of the court's business and does not normally entail legal gymnastics",
+    "vexatious, capricious, oppressive, or unjustified",
+    "Judicial proceedings do not exist in a vacuum, but have to contend with the realities of everyday life",
+    "The protection of our people's civil liberties overwhelms all rules of procedure",
+    "Delays in the disposition of cases erode the faith and confidence of our people in the judiciary",
+    "He allowed the listlessness of the parties, his staff, and the jail wardens to dictate the pace of the proceedings",
+    "This Court has the duty to safeguard liberty"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban (Chief Justice; ponente of the unanimous ruling)",
+      "Lumanlaw (petitioner, the detained accused)",
+      "Judge Peralta (respondent trial judge)"
+    ],
+    "institutions": [
+      "Supreme Court of the Philippines",
+      "the trial court and its clerk of court",
+      "Manila City Jail and its wardens"
+    ],
+    "cases": [
+      "Lumanlaw v. Peralta (the Petition for Mandamus)"
+    ],
+    "laws_treaties": [
+      "the Speedy Trial Act and its 30-day period for arraignment",
+      "Rule 65 of the Rules of Court (mandamus)",
+      "the constitutional right to speedy trial"
+    ],
+    "events": [
+      "The fourteen postponed arraignments between 2002 and 2004",
+      "The denial of the two Motions to Dismiss, including the Order dated May 3, 2004"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "The right to speedy trial was violated because for almost two years the trial court unreasonably failed to arraign the petitioner, the proper measure being not a mathematical count of elapsed periods but whether the delays were vexatious, capricious, oppressive or unjustified.",
+      "rhetorical_move": "substituting a qualitative standard for a mechanical one, then applying it to the fourteen postponements one class at a time",
+      "confidence": "asserted with evidence"
+    },
+    {
+      "claim": "A judge must assert his authority actively to expedite proceedings, appointing a counsel de oficio for arraignment when asked and supervising his clerk of court so that produce orders reach the jail wardens on time, since delays erode the faith and confidence of the people in the judiciary.",
+      "rhetorical_move": "administrative exhortation: converting the case into a lesson on court management and judicial diligence",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Mandamus was the proper remedy, because undue delay amounting to grave abuse of discretion warrants the writ, and procedural rules -- the prior motion for reconsideration, the hierarchy of courts -- will not be strictly enforced where their enforcement would result in a miscarriage of justice.",
+      "rhetorical_move": "exception-carving from a general rule, closing with the principle that the protection of civil liberties overwhelms all rules of procedure",
+      "confidence": "asserted with evidence"
+    }
+  ],
+  "notable_anecdotes": [
+    "The Court expressed astonishment that a lower court could not complete an arraignment -- which takes at most ten minutes and entails no legal gymnastics -- after fourteen settings over almost two years.",
+    "The accused himself asked the judge to appoint a counsel de oficio so that the arraignment could proceed in his private counsel's absence, and the judge refused.",
+    "The single largest cause of the delay was mundane: the jail wardens kept failing to bring the detainee from the Manila City Jail to the courtroom because the produce orders were not served on time.",
+    "The respondent judge sought dismissal of the Petition on the technicality that no motion for reconsideration had been filed against his Order of May 3, 2004."
+  ],
+  "target_audience": [
+    "Trial judges and court personnel responsible for calendaring, produce orders and the pace of proceedings",
+    "Detained accused and their counsel seeking a remedy for indefinite postponement",
+    "Lawyers and students of criminal procedure studying speedy trial and mandamus"
+  ],
+  "register_markers": [
+    "compact case-digest structure -- The Facts, The Issues, The Court's Ruling, issue by issue",
+    "plain-language demystification of a procedural step (what an arraignment actually consists of)",
+    "administrative scolding of a trial judge framed as guidance to the bench",
+    "cadenced closing appeal to civil liberties and to the Court's duty to safeguard liberty",
+    "qualitative standard preferred over mechanical computation"
+  ],
+  "decision_framework_signals": [
+    "delay is measured qualitatively -- vexatious, capricious, oppressive or unjustified -- not by arithmetic on elapsed periods",
+    "the 30-day arraignment period of the Speedy Trial Act is not absolute",
+    "a judge's duty of active assertion of authority and efficient court management, including supervision of the clerk of court",
+    "appointment of a counsel de oficio as the proper answer to an absent counsel de parte at arraignment",
+    "mandamus lies to control discretion where undue delay is grave abuse producing manifest injustice",
+    "procedural rules yield to substantive rights; the protection of civil liberties overwhelms all rules of procedure",
+    "special solicitude for the weak and the marginalized in the safeguarding of constitutional rights"
+  ],
+  "one_paragraph_summary": "Chapter 23 of 'Liberty and Prosperity' digests Lumanlaw v. Peralta, a unanimous ruling penned by the Chief Justice. Lumanlaw was charged with illegal possession of a dangerous drug in November 2002 and held in the Manila City Jail under a Commitment Order, yet his arraignment was postponed fourteen times between his arrest and the filing of his Petition in 2004 -- because his counsel de parte was absent, because the judge was unavailable, and above all because the jail wardens repeatedly failed to bring him to court -- leaving him detained almost two years without ever being arraigned, his two Motions to Dismiss both denied. He sought mandamus under Rule 65. The Court held his right to speedy trial violated, explaining that the 30-day period of the Speedy Trial Act is not absolute and that judicial proceedings must contend with the realities of everyday life, so the question is not a mathematical calculation of elapsed periods but whether the delays were vexatious, capricious, oppressive or unjustified. Reviewing the reasons for each postponement, it found the violation manifest and saw a lack of earnest effort to arraign the accused as soon as the calendar allowed. It observed that an arraignment takes at most ten minutes and entails no legal gymnastics, that the absence of private counsel was no reason to postpone when the accused himself had asked for a counsel de oficio, and that the wardens' failures could have been averted by efficient court management and proper supervision of the clerk of court. The judge had instead let the listlessness of the parties, his staff and the wardens dictate the pace, doing nothing even after two urgent Motions to Dismiss. On the remedy, the Court held that mandamus may issue to control discretion where undue delay amounts to grave abuse producing manifest injustice, and that the want of a prior motion for reconsideration and the hierarchy of courts would not bar the writ, since procedural rules are not strictly enforced when enforcement would cause a miscarriage of justice and the protection of the people's civil liberties overwhelms all rules of procedure.",
+  "source_xlsx": "cjp_books_curated_normalized.xlsx"
+}

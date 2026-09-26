@@ -1,0 +1,168 @@
+{
+  "id": "CA535",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 535,
+  "title": "For now, look at the means, not yet the end",
+  "date": "2026-06-29",
+  "link": "https://opinion.inquirer.net/192744/for-now-look-at-the-means-not-yet-the-end",
+  "keywords": [
+    "impeachment",
+    "Sara Duterte",
+    "Senate Impeachment Court",
+    "two-thirds vote",
+    "pretrial",
+    "Carpio",
+    "Azcuna",
+    "rule of law"
+  ],
+  "primary_topics": [
+    "VP Sara Duterte impeachment revives a constitutional numbers game; CJP holds the real turning point is the pretrial concluded June 25, before trial begins July 6",
+    "Two-thirds conviction threshold (Art. XI, Sec. 3[6]) -- 16 of 24; SAJ Antonio T. Carpio would exclude suspended Sen. Jinggoy Estrada (Trillanes v. Pimentel) but not yet Sen. Dela Rosa; Justice Adolfo S. Azcuna says a declared fugitive's status would amount to 'constructive resignation'",
+    "CJP's view -- the threshold matters only after votes are cast and only if convicting votes fall below 16; what matters now is the pretrial and trial proper",
+    "Pretrial as 'an essential device for the speedy disposition of disputes' (Tiu v. Middleton, 1999, CJP's ponencia); impeachment is sui generis -- no amicable settlement or plea bargaining; possible VP resignation left for a future column",
+    "Senate President Gatchalian's June 9 Notice of Pre-Trial Conference (stipulations, marking of evidence, witnesses incl. 'Mary Grace Piattos'); parties laid out witnesses and exhibits",
+    "Marking of the 'BIR Green Box' as a clerical act, not judicial discretion; Senate Secretary Renato Bantug's estimate of 92 trial days, at least seven months",
+    "Closing -- a nation's strength lies in the integrity of institutions ready to correct the frailties of those in power"
+  ],
+  "sub_topics": [
+    "Constitutional numbers game",
+    "Two-thirds of all the Members of the Senate",
+    "Magic number of 16",
+    "Preventive suspension of Sen. Jinggoy Estrada",
+    "Trillanes v. Pimentel (2008)",
+    "Sen. Dela Rosa not yet arrested or detained",
+    "Constructive resignation of a declared fugitive",
+    "Denominator for conviction",
+    "Tiu v. Middleton (1999) on pretrial",
+    "Impeachment as sui generis",
+    "Notice of Pre-Trial Conference of June 9",
+    "Witness 'Mary Grace Piattos'",
+    "Marking of the 'BIR Green Box'",
+    "Trial length estimate: 62 + 30 = 92 days"
+  ],
+  "signature_phrases": [
+    "The impeachment case of Vice President Sara Duterte has revived yet another constitutional numbers game",
+    "a major turning point in this political saga lies in the pretrial",
+    "AT THE OUTSET, LET ME POINT OUT THE CONSTITUTIONAL GUIDANCE",
+    "this translates academically to the magic number of 16",
+    "his status would amount to a \"constructive resignation.\"",
+    "WITH DUE RESPECT, THE THRESHOLD TO CONVICT WOULD BECOME VITAL ONLY after the trial is finished",
+    "pre-trial [a]s an essential device for the speedy disposition of disputes",
+    "both the prosecution and the defense lay their cards on the table to avoid surprises and delays",
+    "an impeachment case is sui generis",
+    "For now, let us look at the means, not yet the end",
+    "they will judge based on clear, unvarnished facts rather than on useless debates on technicalities or evidentiary loopholes",
+    "a clerical job that does not involve the exercise of judicial discretion",
+    "the true strength of a nation lies not in the perceived infallibility of its leaders"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban",
+      "Sara Duterte",
+      "Antonio T. Carpio",
+      "Jinggoy Estrada",
+      "Carpio Morales",
+      "Ronald \"Bato\" dela Rosa",
+      "Adolfo S. Azcuna",
+      "Sherwin Gatchalian",
+      "Mary Grace Piattos (named witness)",
+      "Renato Bantug"
+    ],
+    "institutions": [
+      "Senate of the Philippines (sitting as Impeachment Court, SIC)",
+      "Supreme Court of the Philippines",
+      "International Criminal Court",
+      "Bureau of Internal Revenue (BIR)"
+    ],
+    "cases": [
+      "Impeachment case of Vice President Sara Duterte",
+      "Trillanes v. Pimentel (June 27, 2008, per J. Carpio Morales, en banc)",
+      "Tiu v. Middleton (July 19, 1999, Third Division, ponencia of CJP)"
+    ],
+    "laws_treaties": [
+      "1987 Constitution, Article XI, Section 3(6)"
+    ],
+    "events": [
+      "Impeachment pretrial concluded on June 25",
+      "Trial proper set to begin July 6",
+      "Notice of Pre-Trial Conference issued June 9 by Senate President Gatchalian",
+      "Preventive suspension of Sen. Jinggoy Estrada",
+      "Marking of the 'BIR Green Box' as prosecution evidence"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "Beyond the numbers game, the major turning point of the impeachment saga lies in the pretrial concluded on June 25.",
+      "rhetorical_move": "redirects attention from the vote count to procedure",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "SAJ Carpio would count only senators legally qualified to act, excluding suspended Sen. Estrada but not yet Sen. Dela Rosa; Justice Azcuna says a declared fugitive's status would amount to constructive resignation.",
+      "rhetorical_move": "presents two eminent retirees' views",
+      "confidence": "reported (not his view)"
+    },
+    {
+      "claim": "The threshold becomes vital only after the votes are cast and only if convicting votes fall below 16; for now the pretrial and trial matter far more.",
+      "rhetorical_move": "respectful disagreement on timing",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Pretrial is an essential device for speedy disposition, but impeachment is sui generis: there is no amicable settlement or plea bargaining.",
+      "rhetorical_move": "self-cited precedent plus distinction",
+      "confidence": "asserted with evidence"
+    },
+    {
+      "claim": "The fuss over marking the 'BIR Green Box' was unwarranted, since marking is a clerical act; admissibility and weight are for the Impeachment Court's discretion.",
+      "rhetorical_move": "rhetorical question exposing a needless dispute",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "A nation's strength lies in the integrity of institutions ready to correct the frailties of those in power; both sides share the duty to lay proper procedural foundations.",
+      "rhetorical_move": "principled closing",
+      "confidence": "asserted"
+    }
+  ],
+  "notable_anecdotes": [
+    "SAJ Carpio's view that suspended Sen. Jinggoy Estrada cannot act as a senator-judge, per Trillanes v. Pimentel.",
+    "Justice Azcuna's 'constructive resignation' theory for a senator declared a fugitive.",
+    "CJP citing Tiu v. Middleton (1999), a decision he wrote, on pretrial.",
+    "The witness list including 'Mary Grace Piattos.'",
+    "The dispute over marking the 'BIR Green Box.'",
+    "Senate Secretary Renato Bantug's estimate: 62 prosecution days plus 30 defense days, at least seven months at three days a week."
+  ],
+  "target_audience": [
+    "Inquirer general readership",
+    "Senator-judges of the Impeachment Court",
+    "Prosecution and defense panels",
+    "Lawyers and students of constitutional and remedial law",
+    "Citizens following the VP impeachment"
+  ],
+  "register_markers": [
+    "constitutional numbers game framing phrase",
+    "AT THE OUTSET, LET ME POINT OUT all-caps opener",
+    "magic number of 16 colloquial touch",
+    "In contrast balanced presentation",
+    "WITH DUE RESPECT all-caps respectful disagreement (column title phrase)",
+    "a decision I had the honor of writing self-citation",
+    "sui generis--a class of its own kind Latin term glossed",
+    "A more jugular question vivid adjective",
+    "Well, that issue deserves a full column conversational aside",
+    "FAITHFULLY ADHERING TO THE PRETRIAL GUIDELINES all-caps opener",
+    "Therefore, why was there so much ado rhetorical question",
+    "Looks like a long journey informal aside",
+    "In sum closing formula"
+  ],
+  "decision_framework_signals": [
+    "reports rival expert views before stating his own",
+    "treats the voting threshold as contingent on the actual vote count",
+    "prioritizes procedure (pretrial, trial) over speculative end results",
+    "distinguishes clerical acts from exercises of judicial discretion",
+    "notes where impeachment differs from civil and criminal cases",
+    "measures institutions by their integrity in correcting those in power"
+  ],
+  "one_paragraph_summary": "Panganiban says VP Sara Duterte's impeachment has revived a constitutional numbers game, but the real turning point is the pretrial concluded on June 25, before the trial proper begins on July 6. The Constitution requires two-thirds of all Senate members to convict -- academically 16 of 24. He shares two retirees' views: SAJ Antonio T. Carpio counts only senators legally able to act, so preventively suspended Sen. Jinggoy Estrada is excluded under Trillanes v. Pimentel, while Sen. Dela Rosa, hiding from an ICC warrant, is not yet excluded because he has not been arrested; retired Justice Adolfo S. Azcuna argues that if Dela Rosa is judicially declared a fugitive and disentitled to his seat, that would amount to 'constructive resignation.' With due respect, CJP says the threshold matters only after the votes are cast: if 16 or more vote to convict, the debate is academic; only below 16 does the denominator become crucial. What matters now is the pretrial -- 'an essential device for the speedy disposition of disputes,' as his ponencia in Tiu v. Middleton put it -- where both sides lay their cards on the table. Impeachment is sui generis: no amicable settlement or plea bargaining; a possible resignation by VP Sara deserves its own column. Senate President Sherwin Gatchalian's June 9 notice sought stipulations, marking of evidence and witness lists (including 'Mary Grace Piattos'). The fuss over marking the 'BIR Green Box' was unwarranted, since marking is clerical; admissibility and weight are for the Impeachment Court. Senate Secretary Renato Bantug estimated 92 trial days, at least seven months. A nation's strength lies in the integrity of institutions ready to correct the frailties of those in power, and both sides must lay the procedural foundations to end the saga.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

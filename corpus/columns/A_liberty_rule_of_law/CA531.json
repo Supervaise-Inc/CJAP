@@ -1,0 +1,170 @@
+{
+  "id": "CA531",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 531,
+  "title": "The fugitive",
+  "date": "2026-06-01",
+  "link": "https://opinion.inquirer.net/192068/the-fugitive",
+  "keywords": [
+    "Dela Rosa",
+    "fugitive from justice",
+    "International Criminal Court",
+    "warrant of arrest",
+    "fugitive disentitlement doctrine",
+    "Vallacar v. Yanson",
+    "presumption of regularity",
+    "impunity"
+  ],
+  "primary_topics": [
+    "Dela Rosa 'telenovela' likened to the 1993 movie 'The Fugitive' (Harrison Ford as Dr. Richard Kimble) -- public transfixed by the senator's whereabouts, his attempts to evade arrest, and the government's determination to catch him",
+    "After the SC 9-5-1 denial of interim relief, the DOJ and OSG publicly dubbed him a 'fugitive from justice' -- but he has not been judicially declared one in the strict legal sense; the Court refrained to avoid prejudging the pending petitions",
+    "Vallacar v. Yanson (Nov. 25, 2025) definition -- flight after conviction or after being charged; 'indispensable element is the intent to evade prosecution or punishment' with knowledge of the warrant; status attaches only on declaration by the issuing court",
+    "Fugitive disentitlement doctrine -- a declared fugitive cannot participate in proceedings or seek judicial relief; CJP's own ponencia in Philippine Rabbit Bus Lines v. People (April 14, 2004)",
+    "CJP's view -- warrant enforceability and fugitive-status consequences are distinct; Dela Rosa may be lawfully arrested under the ICC warrant without a formal fugitive declaration",
+    "Circumstances suggesting intent to evade -- warrant publicly announced May 11 2026 and known to him; slipping away from the Senate premises at night three days later; wife Nancy admitting he 'escaped'; allies declining to disclose his whereabouts",
+    "Authorities must enforce the warrant and exhaust lawful means; validity decided 'in the courtroom, not in flight'; presumption of regular performance of official duties; closing contrast with Dr. Kimble -- no one is above the law, impunity has no place"
+  ],
+  "sub_topics": [
+    "1993 movie 'The Fugitive' and Dr. Richard Kimble",
+    "DOJ and OSG calling Dela Rosa a 'fugitive from justice'",
+    "SC 9-5-1 denial of interim relief",
+    "Pending petitions and avoidance of prejudgment",
+    "Definition of fugitive from justice in Vallacar v. Yanson",
+    "Intent to evade and knowledge of the warrant as indispensable elements",
+    "Judicial declaration by the issuing court, on motion or motu proprio",
+    "Fugitive disentitlement doctrine",
+    "Loss of standing, right to appeal and right to seek affirmative relief",
+    "Philippine Rabbit Bus Lines v. People (2004) ponencia by CJP",
+    "Warrant enforceability vs procedural disabilities of fugitive status",
+    "Six months of refuge within the Senate premises",
+    "Presumption that official duties have been regularly performed",
+    "Due process for the accused and justice for victims"
+  ],
+  "signature_phrases": [
+    "The continuing \"telenovela\" of Sen. Ronald \"Bato\" dela Rosa reminds me of the 1993 blockbuster movie \"The Fugitive,\"",
+    "MUCH LIKE THIS THRILLER, the public became transfixed by the mystery surrounding the senator's whereabouts",
+    "the legal issue surrounding the flesh-and-bone Dela Rosa is far more legally complicated",
+    "Yet, contrary to popular impression, Dela Rosa has not been judicially declared one in the strict legal sense",
+    "the Court's 9-5-1 vote refrained from declaring him a fugitive",
+    "indispensable element is the intent to evade prosecution or punishment",
+    "a fugitive from justice loses his standing in court and is not entitled to seek relief from the judiciary",
+    "STILL, I AM OF THE OPINION that Dela Rosa may be lawfully arrested",
+    "The enforceability of a warrant and the juridical consequences of the fugitive status are distinct legal matters",
+    "Dela Rosa quietly slipped away once more in the dead of night",
+    "undermine and frustrate the administration of justice",
+    "NONETHELESS, THE AUTHORITIES MUST DO WHAT THE LAW REQUIRES THEM",
+    "Whether the ICC warrant is lawful or not will be determined in the courtroom, not in flight",
+    "a once-feared police chief fearfully fleeing from the very machinery of law he once commanded with uncompromising ferocity",
+    "In a just and humane society, no one is above the law",
+    "Impunity has no place, not at all"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban",
+      "Ronald \"Bato\" dela Rosa",
+      "Harrison Ford",
+      "Dr. Richard Kimble (fictional character)",
+      "Samuel H. Gaerlan",
+      "Nancy (Dela Rosa's wife)"
+    ],
+    "institutions": [
+      "Supreme Court of the Philippines",
+      "Department of Justice",
+      "Office of the Solicitor General",
+      "International Criminal Court (ICC)",
+      "Senate"
+    ],
+    "cases": [
+      "Dela Rosa petitions for interim relief (denied 9-5-1; substantive matters pending)",
+      "Vallacar v. Yanson (Nov. 25, 2025, per J Samuel H. Gaerlan, en banc)",
+      "Philippine Rabbit Bus Lines v. People (April 14, 2004, ponencia of CJP)"
+    ],
+    "laws_treaties": [
+      "Fugitive disentitlement doctrine",
+      "Presumption that official duties have been regularly performed"
+    ],
+    "events": [
+      "Release of the 1993 movie 'The Fugitive'",
+      "SC 9-5-1 denial of Dela Rosa's plea for interim relief",
+      "ICC arrest warrant publicly announced on May 11, 2026",
+      "Dela Rosa slipping away from the Senate premises three days later",
+      "Wife Nancy publicly admitting he had 'escaped'"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "Although the DOJ and OSG publicly dubbed Dela Rosa a 'fugitive from justice,' he has not been judicially declared one in the strict legal sense; the Court's 9-5-1 vote refrained from doing so to avoid prejudging the pending petitions.",
+      "rhetorical_move": "corrects a popular impression with a legal distinction",
+      "confidence": "asserted with evidence"
+    },
+    {
+      "claim": "Under Vallacar v. Yanson, a fugitive is one who flees after conviction or after being charged, with intent to evade and knowledge of the warrant, and the status attaches only when the issuing court declares it; the declaration triggers the fugitive disentitlement doctrine, as CJP wrote in Philippine Rabbit Bus Lines v. People.",
+      "rhetorical_move": "doctrinal exposition citing precedent, including his own ponencia",
+      "confidence": "asserted with evidence"
+    },
+    {
+      "claim": "Dela Rosa may be lawfully arrested under the ICC warrant even without a formal fugitive declaration, because warrant enforceability and fugitive-status consequences are distinct legal matters.",
+      "rhetorical_move": "personal legal opinion drawing a distinction",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "The public announcement and his knowledge of the warrant, his night-time departure from the Senate, his wife's admission that he 'escaped,' and allies' silence strongly suggest, at the very least, an intent to evade -- though whether this justifies a formal declaration is for the Court to decide.",
+      "rhetorical_move": "marshals circumstances, then defers the final finding",
+      "confidence": "hedged"
+    },
+    {
+      "claim": "Authorities must enforce the warrant and exhaust lawful means to secure custody; its validity is for the courtroom, not flight, and until a court invalidates it, enforcement proceeds under the presumption of regularity.",
+      "rhetorical_move": "prescriptive call grounded in legal presumption",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Unlike Dr. Kimble, who fled to prove his innocence, Dela Rosa is a once-feared police chief fleeing the machinery of law he once commanded; no one is above the law, and impunity has no place.",
+      "rhetorical_move": "closing return to the film analogy with moral contrast",
+      "confidence": "asserted"
+    }
+  ],
+  "notable_anecdotes": [
+    "The 1993 movie 'The Fugitive' -- Dr. Richard Kimble, wrongly convicted of murdering his wife, escapes from a police van -- used as the frame for the Dela Rosa saga.",
+    "CJP citing his own ponencia in Philippine Rabbit Bus Lines v. People (2004): a fugitive 'loses his standing in court.'",
+    "Dela Rosa, after six months of refuge within the Senate premises, quietly slipping away 'in the dead of night' three days after the ICC warrant was announced.",
+    "His wife Nancy publicly admitting that he had 'escaped,' while political allies declined to disclose his whereabouts.",
+    "The closing image of 'a once-feared police chief fearfully fleeing from the very machinery of law he once commanded.'"
+  ],
+  "target_audience": [
+    "Inquirer general readership",
+    "Law enforcement authorities",
+    "Department of Justice and Office of the Solicitor General",
+    "Lawyers and law students (criminal procedure)",
+    "Supreme Court watchers",
+    "Victims and advocates of accountability"
+  ],
+  "register_markers": [
+    "reminds me of the 1993 blockbuster movie pop-culture analogy opener",
+    "MUCH LIKE THIS THRILLER all-caps section opener",
+    "flesh-and-bone Dela Rosa fiction-vs-reality contrast",
+    "contrary to popular impression myth-correcting register",
+    "First ... Second enumerated reasons",
+    "[like the fictional Dr. Kimble] bracketed insertion into a quotation",
+    "In a ponencia I humbly penned humble self-citation",
+    "STILL, I AM OF THE OPINION all-caps personal-opinion opener",
+    "To stress emphasis connective",
+    "More tellingly evidentiary escalation",
+    "NONETHELESS, THE AUTHORITIES MUST DO WHAT THE LAW REQUIRES THEM all-caps prescriptive opener",
+    "May I close by returning to the image closing callback",
+    "Impunity has no place, not at all emphatic closing"
+  ],
+  "decision_framework_signals": [
+    "frames a political saga through a film analogy, then separates fiction from legal reality",
+    "distinguishes public labels from a formal judicial declaration",
+    "defines the legal term from precedent (Vallacar v. Yanson, Philippine Rabbit Bus Lines v. People)",
+    "separates warrant enforceability from the consequences of fugitive status",
+    "weighs circumstantial evidence of intent but defers the final finding to the Court",
+    "relies on the presumption of regularity to require enforcement until a court rules otherwise",
+    "closes on no-one-above-the-law, due process for the accused and justice for victims"
+  ],
+  "one_paragraph_summary": "Panganiban likens the continuing 'telenovela' of Sen. Ronald 'Bato' dela Rosa to the 1993 film 'The Fugitive,' in which Dr. Richard Kimble, wrongly convicted of killing his wife, escapes from a police van. The public is transfixed by the senator's whereabouts and the government's determination to catch him, but his legal situation is more complicated. After the Supreme Court's 9-5-1 denial of interim relief, the DOJ and OSG publicly called him a 'fugitive from justice,' yet he has not been judicially declared one; the Court refrained so as not to prejudge the pending petitions. This matters for two reasons. First, under Vallacar v. Yanson (2025), a fugitive is one who flees after conviction or after being charged, the 'indispensable element' being intent to evade prosecution or punishment with knowledge of the warrant, and the status attaches only when the issuing court declares it. Second, the declaration triggers the fugitive disentitlement doctrine: as CJP wrote in Philippine Rabbit Bus Lines v. People (2004), a fugitive loses standing in court and cannot seek judicial relief, including appeal. Still, CJP holds that Dela Rosa may be lawfully arrested under the ICC warrant without such a declaration, since enforceability and fugitive-status consequences are distinct. The circumstances deserve scrutiny: the warrant, announced May 11 2026, was known to him; three days later, after six months of refuge within the Senate premises, he slipped away at night; his wife Nancy admitted he had 'escaped'; allies would not reveal his whereabouts. These strongly suggest an intent to evade, though a formal finding is for the Court. Authorities must enforce the warrant, whose validity is decided 'in the courtroom, not in flight,' under the presumption of regularity. Unlike Kimble, who fled to prove his innocence, Dela Rosa is a once-feared police chief fleeing the machinery of law he once commanded. No one is above the law; impunity has no place.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

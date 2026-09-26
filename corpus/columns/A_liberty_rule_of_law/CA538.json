@@ -1,0 +1,160 @@
+{
+  "id": "CA538",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 538,
+  "title": "Judicial truth vis-à-vis actual truth",
+  "date": "2026-08-03",
+  "link": "https://opinion.inquirer.net/193508/judicial-truth-vis-a-vis-actual-truth",
+  "keywords": [
+    "judicial truth",
+    "actual truth",
+    "witnesses",
+    "lawyers",
+    "judges",
+    "Four Ins",
+    "Plague of Ships",
+    "rule of law"
+  ],
+  "primary_topics": [
+    "Follow-up to the 'four truths' column -- Warren E. Burger's 'the very nature of a trial [is] a search for truth'; why does judicial truth sometimes diverge from actual truth?",
+    "Definitions -- judicial truth is the version of facts established by evidence admitted and accepted by the court; actual truth is what truly happened; ideally identical, but justice is administered by fallible, even scheming, people",
+    "First source of divergence: witnesses -- frailty of human memory (People v. Nuñez, 2017), perjury to protect allies or destroy adversaries, disappearing witnesses, the culture of 'lusot, lagay, lakas'",
+    "Second source: lawyers -- a court is only as good as its advocates; defective informations (e.g., plunder) and failure to object to inadmissible evidence distort the facts",
+    "Third source: magistrates -- Austin's Facts x Law = Decision vs Pound's Stimuli x Personality of the Judge = Decision; the 'Plague of Ships: kinship, relationship, friendship, and fellowship'",
+    "The gap victimizes the marginalized and powerless; yet cynicism surrenders the rule of law -- judicial truth is 'not a finished monument, but a continuing pursuit'",
+    "Remedy -- demand the 'Four Ins' (Independence, Integrity, Intelligence, Industry) from judges and 'TIP' (Trust, Integrity, Probity) from lawyers"
+  ],
+  "sub_topics": [
+    "Warren E. Burger on trial as a search for truth",
+    "Judicial truth vs actual truth defined",
+    "Fallible institutions and scheming individuals",
+    "People v. Nuñez (2017) on frailty of human memory",
+    "Eyewitness identification amid chaos",
+    "Perjury and disappearing witnesses",
+    "'Lusot, lagay, lakas' culture",
+    "A court only as good as its advocates",
+    "Defective information in plunder cases",
+    "Failure to object to inadmissible evidence",
+    "CJP's July 19, 2015 column 'How cases are decided'",
+    "John Austin: F x L = D",
+    "Roscoe Pound: S x P = D",
+    "Four Ins and TIP"
+  ],
+  "signature_phrases": [
+    "the search for judicial truth does not always end in actual truth",
+    "Why does judicial truth sometimes diverge from actual truth?",
+    "TO ANSWER, LET US FIRST DISTINGUISH",
+    "justice is administered by fallible human institutions and by fallible-if not scheming-individuals",
+    "the road to the discovery of truth is arduous and invariably fraught with errors and, sadly, machinations",
+    "frailty of human memory is a scientific fact",
+    "a court can only be as good as the advocates appearing before it",
+    "Plague of Ships: kinship, relationship, friendship, and fellowship",
+    "INDEED, THE GAP BETWEEN JUDICIAL TRUTH AND ACTUAL TRUTH remains one of the greatest challenges confronting every justice system",
+    "this gap victimizes the marginalized and the powerless",
+    "to succumb to cynicism is to surrender the rule of law",
+    "Judicial truth, therefore, is not a finished monument, but a continuing pursuit of the actual truth",
+    "Four Ins: Independence, Integrity, Intelligence, and Industry",
+    "TIP: Trust, Integrity, and Probity"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban",
+      "Sara Duterte",
+      "Warren E. Burger",
+      "Marvic MVF Leonen",
+      "John Austin",
+      "Roscoe Pound"
+    ],
+    "institutions": [
+      "Supreme Court of the Philippines",
+      "United States Supreme Court (Burger as Chief Justice)",
+      "Senate Impeachment Court (context)"
+    ],
+    "cases": [
+      "People v. Nuñez (Oct. 4, 2017, per SAJ Marvic MVF Leonen, Third Division)",
+      "Impeachment trial of Vice President Sara Duterte (context)"
+    ],
+    "laws_treaties": [
+      "Rules on evidence",
+      "Constitution"
+    ],
+    "events": [
+      "Reader comments on CJP's 'four truths' column",
+      "CJP's July 19, 2015 column 'How cases are decided'"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "The search for judicial truth does not always end in actual truth, because justice is administered by fallible, even scheming, people.",
+      "rhetorical_move": "poses and frames the central question",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Witnesses cause divergence through frail memory (People v. Nuñez), perjury, disappearance, or the culture of 'lusot, lagay, lakas.'",
+      "rhetorical_move": "first enumerated source with case support",
+      "confidence": "asserted with evidence"
+    },
+    {
+      "claim": "Lawyers cause divergence: a court is only as good as its advocates, and defective informations or failures to object distort the facts before the judge.",
+      "rhetorical_move": "second enumerated source",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Judges can err in appreciating facts or applying law; Austin's F x L = D and Pound's S x P = D show how judgment can be swayed, including by the 'Plague of Ships.'",
+      "rhetorical_move": "third source via jurisprudential theories",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "The gap between the two truths victimizes the marginalized and powerless, but cynicism would surrender the rule of law; judicial truth is a continuing pursuit.",
+      "rhetorical_move": "concession followed by refusal of cynicism",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "To narrow the gap, society must demand the 'Four Ins' from judges and 'TIP' from lawyers.",
+      "rhetorical_move": "prescriptive close using his long-standing formulas",
+      "confidence": "asserted"
+    }
+  ],
+  "notable_anecdotes": [
+    "Readers' many comments on the 'four truths' column prompting this follow-up.",
+    "An eyewitness who lacks time to identify a bag snatcher amid the chaos of a crime.",
+    "Jose killing Pedro: convicting of murder without proof of treachery as a grave misapplication of law.",
+    "CJP recalling his July 19, 2015 column 'How cases are decided.'",
+    "The 'Four Ins' CJP has advocated since he was an incumbent."
+  ],
+  "target_audience": [
+    "Inquirer general readership",
+    "Judges and justices",
+    "Lawyers and prosecutors",
+    "Law students (evidence and jurisprudence)",
+    "Citizens skeptical of the justice system"
+  ],
+  "register_markers": [
+    "Apropos is the wisdom of the late ... Warren E. Burger authority opener",
+    "TO ANSWER, LET US FIRST DISTINGUISH all-caps opener",
+    "fallible--if not scheming--individuals parenthetical sharpening",
+    "THIS DIVERGENCE BETWEEN THE TWO TRUTHS stems from three sources all-caps enumerated structure",
+    "First ... Second ... Third enumerated sources",
+    "Worse escalation",
+    "lusot, lagay, lakas Filipino alliteration glossed",
+    "F x L = D ... S x P = D formula register",
+    "Plague of Ships coined rhyming formula",
+    "INDEED, THE GAP ... all-caps thesis",
+    "Tragically, and quite infuriatingly emotive register",
+    "not a finished monument, but a continuing pursuit aphorism",
+    "Four Ins ... TIP mnemonic formulas"
+  ],
+  "decision_framework_signals": [
+    "defines terms before analyzing",
+    "diagnoses the problem by enumerating sources (witnesses, lawyers, judges)",
+    "uses jurisprudential theories (Austin, Pound) to explain judicial error",
+    "centers impact on the marginalized and powerless",
+    "rejects cynicism in favor of institutional reform",
+    "prescribes ethical standards for judges and lawyers"
+  ],
+  "one_paragraph_summary": "Panganiban revisits the first of his 'four truths' after readers' comments. Citing US Chief Justice Warren E. Burger that the very nature of a trial is a search for truth, he asks why judicial truth sometimes diverges from actual truth. Judicial truth is the version of facts established by evidence presented, admitted and accepted under the rules; actual truth is what truly happened. Ideally they coincide, but justice is administered by fallible, if not scheming, people, and the road to truth is fraught with errors and machinations. The divergence has three sources. First, witnesses: People v. Nuñez (2017) recognized that the frailty of human memory is a scientific fact; an eyewitness may not accurately identify a bag snatcher, and some witnesses perjure, disappear or succumb to 'lusot, lagay, lakas.' Second, lawyers: a court is only as good as its advocates; a prosecutor may file an information that fails to allege the elements of plunder, or defense counsel may fail to object to inadmissible evidence. Third, magistrates: recalling his 2015 column 'How cases are decided,' he contrasts John Austin's Facts x Law = Decision, under which convicting of murder without proof of treachery would be a grave misapplication, with Roscoe Pound's Stimuli x Personality of the Judge = Decision, recognizing that judges may be swayed by public interest, personal afflictions or the 'Plague of Ships: kinship, relationship, friendship, and fellowship.' The gap victimizes the marginalized and powerless, turning laws meant as shields into sources of injustice. Yet cynicism would surrender the rule of law; courts lack divine omniscience, and judicial truth is a continuing pursuit. To narrow the gap, society must demand the 'Four Ins' -- Independence, Integrity, Intelligence and Industry -- from judges and 'TIP' -- Trust, Integrity and Probity -- from lawyers.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

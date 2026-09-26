@@ -1,0 +1,146 @@
+{
+  "id": "BB039",
+  "format": "B",
+  "type": "book",
+  "theme": "B",
+  "theme_label": "Prosperity and Economic Philosophy",
+  "number": 39,
+  "title": "Liberty and Prosperity -- Ch. 26: Abacus v. Ampil: Liabilities of a Stock Market Investor",
+  "date": "2006-07-01",
+  "link": "https://cjpanganiban.com/books-authored-by-chief-justice-artemio-v-panganiban/",
+  "keywords": [
+    "Abacus v. Ampil",
+    "broker and dealer of securities",
+    "Philippine Stock Exchange Center",
+    "cash account",
+    "Revised Securities Act",
+    "Sections 23 and 25",
+    "Rule 25-1",
+    "mandatory close-out rule",
+    "margin requirements",
+    "pari delicto",
+    "clean hands",
+    "T+3 and T+4",
+    "T+14",
+    "mandatory sellout",
+    "credit account",
+    "innocent victim",
+    "speculation",
+    "Securities and Exchange Commission",
+    "jurisdiction",
+    "Agreement (AOF)",
+    "unjust enrichment"
+  ],
+  "primary_topics": [
+    "Chapter 26 of 'Liberty and Prosperity' -- a digest of Abacus v. Ampil, in which the Court apportioned the losses of a stock market investor and his broker by holding the pari delicto rule applicable only to the trades that followed the investor's first unpaid purchases.",
+    "The mandatory close-out rule as an obligation and not merely a right: Sections 23 and 25 of the Revised Securities Act and Rule 25-1 required the broker to liquidate an unpaid customer's order and to demand cash deposits before executing further transactions.",
+    "The investor's own culpability: the Court refused to treat him as an innocent victim, finding that he knowingly speculated on the market by taking advantage of the no-cash-out arrangement extended to him.",
+    "The jurisdictional holding: an ordinary civil suit to collect on the parties' Agreement belongs in the regular courts, and passing upon compliance with the Revised Securities Act does not deprive the SEC of its power to punish willful violations."
+  ],
+  "sub_topics": [
+    "Petitioner corporation, a broker and dealer of securities at the Philippine Stock Exchange Center, opened a cash account for respondent on April 8, 1997, and he began trading on April 10, accumulating an outstanding obligation of P6,617,036.22 by April 30, 1997.",
+    "When he failed to settle even after an extension, petitioner sold his securities on May 6, 1997 to offset the obligation, leaving him still owing P3,364,313.56, which he did not pay despite demands.",
+    "The trial court and the Court of Appeals both held the parties in pari delicto and without recourse against each other, finding that petitioner had violated the Revised Securities Act by not requiring payment within three or four days of trading and by not seeking an extension from the appropriate authority.",
+    "Two issues reached the Court: whether the pari delicto rule applied, and whether the trial court had jurisdiction over the case.",
+    "On the first issue, the Court held that the mandatory close-out rule vested an obligation, not just a right, in the broker -- to cancel or liquidate an unpaid order within three days, and thereafter to require cash deposits sufficient to cover each purchase before executing it, so as to forbid the extension of undue credit to a cash customer.",
+    "Those margin requirements applied only to transactions after the initial trades of April 10 and 11, 1997, so petitioner could still collect the difference between the outstanding obligation as of April 11 and the proceeds of the mandatory sellout, a right justified under the general law on obligations and contracts.",
+    "Because the buyer could not pay at T+4, the broker was duty-bound to advance payment to the settlement banks, without prejudice to its right to collect from the client later on.",
+    "The margin requirements were imposed by Congress to protect the general economy, not to give the customer a free ride at the expense of the broker; excusing the April 10 and 11 trades would put a premium on circumvention and unjust enrichment.",
+    "By failing to secure payment for the first purchases and allowing subsequent ones, petitioner effectively converted a cash account into a credit account, which Section 23(b) specifically prohibits, so it did not come to court with clean hands as to the later trades.",
+    "The respondent was equally guilty for the subsequent trades: the Court rejected his self-serving claim of being an innocent victim and found that he had knowingly speculated, asking for extensions and withholding sell orders in the hope that prices would rise.",
+    "His counterclaim for damages was denied, the Court holding that sustaining his argument would relieve him of the risks of his own speculation and saddle the broker with the consequences of an unfavorable result.",
+    "The measure of what he still owed was fixed by the rule itself: the broker should have liquidated at T+4 and completed liquidation not later than ten days after the last day to pay, so his outstanding obligation was to be determined on the basis of the closing prices at T+14.",
+    "On jurisdiction, the suit was an ordinary civil case to enforce rights arising from the parties' Agreement; reading the Act and its Rules into that Agreement did not deprive the SEC of authority under Sections 45 and 46 to determine willful violations and impose sanctions.",
+    "The Court quoted the SEC's Opinion that a party who invokes a court's jurisdiction to obtain affirmative relief cannot, after an adverse decision on the merits, repudiate that same jurisdiction to escape a penalty."
+  ],
+  "signature_phrases": [
+    "mandatory close-out rule",
+    "to protect the general economy, not to give the customer a free ride at the expense of the broker",
+    "petitioner effectively converted his cash account into a credit account",
+    "The extension or maintenance of credits on nonmargin transactions, however, were specifically prohibited under Section 23(b)",
+    "his self-serving assertions of being an \"innocent victim\" in all the transactions",
+    "It was respondent's privilege to gamble or speculate",
+    "His conduct as an investor was precisely the sort deplored by the law",
+    "both parties had acted in violation of the law and did not come to court with clean hands"
+  ],
+  "entities": {
+    "institutions": [
+      "Supreme Court of the Philippines",
+      "the petitioner corporation, a broker and dealer of securities",
+      "Philippine Stock Exchange Center",
+      "Securities and Exchange Commission (SEC)",
+      "the settlement banks",
+      "the trial court and the Court of Appeals"
+    ],
+    "cases": [
+      "Abacus v. Ampil (the collection suit over an unsettled stock trading account)"
+    ],
+    "laws_treaties": [
+      "Revised Securities Act (RSA), Sections 23 and 25, including Section 23(b) on nonmargin credit",
+      "Rule 25-1 of the Rules Implementing the Act, the 'mandatory close-out rule'",
+      "Sections 45 and 46 of the RSA (SEC authority over willful violations)",
+      "the general law on obligations and contracts",
+      "the Agreement (AOF) between broker and client"
+    ],
+    "events": [
+      "The opening of the cash account on April 8, 1997 and the initial trades of April 10 and 11",
+      "The mandatory sellout of the client's securities on May 6, 1997"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "The mandatory close-out rule imposes an obligation and not merely a right on the broker: it must cancel or liquidate an unpaid customer's order within three days and thereafter require cash deposits before executing further purchases, precisely so that a cash customer is not extended undue credit.",
+      "rhetorical_move": "recharacterizing a supposed privilege as a statutory duty, so that the broker's inaction becomes its own fault",
+      "confidence": "asserted with evidence"
+    },
+    {
+      "claim": "The pari delicto rule applies only to the transactions entered into after the initial trades of April 10 and 11, 1997, so the broker may still collect on those first purchases, which were valid and untainted when made.",
+      "rhetorical_move": "temporal line-drawing -- splitting one account into a lawful phase and an unlawful phase rather than denying all relief",
+      "confidence": "asserted with evidence"
+    },
+    {
+      "claim": "The margin requirements were imposed to protect the general economy, not to give the customer a free ride at the expense of the broker, so relieving the investor of the first trades would put a premium on his circumvention of the laws and let him enrich himself unjustly.",
+      "rhetorical_move": "appeal to legislative purpose plus an unjust-enrichment consequence argument",
+      "confidence": "asserted with evidence"
+    },
+    {
+      "claim": "The investor was no innocent victim: it was his privilege to gamble or speculate, and having asked for extensions and withheld sell orders in the hope that prices would rise, he deserved no legal or equitable relief on his counterclaim.",
+      "rhetorical_move": "assumption-of-risk reasoning that turns the investor's own trading behavior into the ground for denying him damages",
+      "confidence": "asserted with evidence"
+    },
+    {
+      "claim": "A party who invokes a court's jurisdiction to secure affirmative relief cannot, after an adverse decision on the merits, repudiate that same jurisdiction to escape a penalty, and resolving the case did not encroach on the SEC's power to punish willful violations of the Act.",
+      "rhetorical_move": "estoppel against jurisdictional objection, quoted from the SEC's own Opinion, coupled with a careful reservation of the regulator's turf",
+      "confidence": "asserted with evidence"
+    }
+  ],
+  "notable_anecdotes": [
+    "An investor who ran up more than P6.6 million on a cash account in three weeks was sold out by his broker and still owed over P3.3 million after the proceeds were applied.",
+    "Both lower courts had washed their hands of the dispute entirely, leaving the parties in pari delicto and without recourse against each other -- a result the Court found too crude for an account that had been lawful at its start.",
+    "The Court described the investor's tactic plainly: asking for extensions of time and refraining from giving sell orders, in the hope that prices would rise.",
+    "The broker's own indulgence was its undoing -- by letting the first purchases go unpaid and allowing more, it turned a cash account into the very credit account the law forbade."
+  ],
+  "target_audience": [
+    "Stock market investors who trade on cash accounts and assume the broker's indulgence protects them",
+    "Brokers, dealers and compliance officers bound by the margin and close-out rules",
+    "Lawyers and students of securities regulation and of the pari delicto and clean-hands doctrines"
+  ],
+  "register_markers": [
+    "compact case-digest structure -- The Facts, The Issues, then issue-by-issue rulings under their own headings",
+    "symmetrical treatment of fault, with parallel sections on the broker's and the investor's culpability",
+    "technical settlement vocabulary (T+3, T+4, T+14) used to fix both liability and its measure",
+    "quotation of the regulator's own Opinion as the closing authority on jurisdiction",
+    "neutral past-tense reporting of the Court's reasoning, with money amounts given to the centavo"
+  ],
+  "decision_framework_signals": [
+    "statutory duties of a broker (close-out, cash deposit, no undue credit) are obligations, not options",
+    "pari delicto applies only where both parties are actually at fault, and only for the period in which they were",
+    "legislative purpose -- protecting the general economy -- controls over a reading that would give one party a free ride",
+    "no legal or equitable relief for a speculator seeking to shift the risks of his own speculation",
+    "the timetable in the rule itself (liquidation at T+4, completion by T+14) supplies the measure of the obligation",
+    "a party who invokes a court's jurisdiction is estopped from repudiating it after losing",
+    "reading a regulatory statute into a private agreement does not oust the regulator of its sanctioning power"
+  ],
+  "one_paragraph_summary": "Chapter 26 of 'Liberty and Prosperity' digests Abacus v. Ampil, in which the Court divided the loss between a stock market investor and his broker. The petitioner, a broker and dealer of securities at the Philippine Stock Exchange Center, opened a cash account for the respondent on April 8, 1997; he began trading on April 10 and by the end of the month owed P6,617,036.22. After he failed to settle within the required period and an extension, the broker sold his securities on May 6, 1997, leaving him still owing P3,364,313.56. The trial court and the Court of Appeals held both parties in pari delicto and without recourse against each other, because the broker had violated Sections 23 and 25 of the Revised Securities Act and Rule 25-1 by failing to require payment within three or four days of trading and to seek an extension. The Court agreed that the so-called mandatory close-out rule imposed an obligation and not merely a right -- to cancel or liquidate an unpaid order and thereafter to require cash deposits before executing further purchases, so that no undue credit would be extended to a cash customer -- but held that those margin requirements bore only on the trades made after the initial purchases of April 10 and 11, 1997. Those first transactions were valid when made, so the broker could still collect on them under the general law on obligations and contracts; the margin rules existed to protect the general economy, not to give the customer a free ride at the broker's expense. For the later trades the broker had unclean hands, having effectively converted a cash account into a credit account, but the investor was equally guilty: the Court rejected his claim to be an innocent victim, found that he had knowingly speculated by asking for extensions and withholding sell orders, and denied his counterclaim. His remaining obligation was to be computed from the closing prices at T+14. On the second issue the Court held that the suit was an ordinary civil case to enforce the parties' Agreement, and that deciding it did not deprive the SEC of its authority to punish willful violations.",
+  "source_xlsx": "cjp_books_curated_normalized.xlsx"
+}

@@ -1,0 +1,160 @@
+{
+  "id": "CA532",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 532,
+  "title": "Correcting birth, marriage, and death data",
+  "date": "2026-06-08",
+  "link": "https://opinion.inquirer.net/192248/correcting-birth-marriage-and-death-data",
+  "keywords": [
+    "civil registry",
+    "Philippine Statistics Authority",
+    "clerical error",
+    "RA 9048",
+    "RA 10172",
+    "Rule 108",
+    "Apcas",
+    "rule of law"
+  ],
+  "primary_topics": [
+    "Civil registry basics -- births, marriages and deaths recorded by the Local Civil Registrar (LCR), transmitted to the PSA; simple errors cause difficulty with passports, school enrollment, employment and voting",
+    "Legal framework -- Civil Code rule that no civil register entry is changed without a judicial order, amended by RA 9048 and RA 10172 allowing civil registrars and consuls-general to correct clerical or typographical errors administratively",
+    "What counts as clerical -- errors 'visible to the eyes or obvious to the understanding' correctable by reference to existing records: misspelled name or place of birth, day and month of birth, patently clear sex entry; examples incl. Bartolome v. Republic (2019)",
+    "PSA's Administrative Petition for Correction Automated System (Apcas), launched May 12 2026 -- processing cut from six months to one month; LCR encodes, uploads and transmits electronically; nearly 6,000 petitions from 200+ LCRs as of April 2026",
+    "Limits -- substantial matters (age, nationality, legitimacy, civil status) cannot be corrected administratively; Rule 108 requires RTC proceedings",
+    "Jurisprudence on the clerical/substantial line -- Republic v. Coseteng-Magpayo (2011, legitimacy), Silverio v. Republic (2007, sex reassignment denied), Republic v. Cagandahan (2008, intersex correction allowed)",
+    "Closing -- Apcas may become one of the PSA's most consequential reforms; the rule of law must be felt concretely in people's daily lives through efficient, accessible, tech-enabled public service"
+  ],
+  "sub_topics": [
+    "Office of the Local Civil Registrar (LCR)",
+    "PSA national archive of civil registry data",
+    "Everyday effects of registry errors (passports, schools, employment, voting)",
+    "Civil Code rule requiring a judicial order",
+    "Republic Act No. 9048 and RA No. 10172",
+    "Administrative correction by city/municipal civil registrars and consuls-general abroad",
+    "Definition of clerical or typographical error",
+    "Examples: 'Ma. Cristina' to 'Maria Cristina'; 'June 9' to 'July 9'",
+    "Bartolome v. Republic (Aug. 28, 2019)",
+    "Apcas digital platform and processing time",
+    "Substantial errors: age, nationality, legitimacy, civil status",
+    "Rule 108 of the Rules of Court and the Regional Trial Court",
+    "Republic v. Coseteng-Magpayo; Silverio v. Republic; Republic v. Cagandahan",
+    "Rule of law felt in daily life through public service"
+  ],
+  "signature_phrases": [
+    "The defining milestones of a person's life",
+    "no entry in a civil register shall be changed or corrected without a judicial order",
+    "visible to the eyes or obvious to the understanding",
+    "TO MAKE THE PROCESS FASTER AND MORE ACCESSIBLE",
+    "Apcas is expected to reduce processing time from six months to just one month",
+    "applicants seeking certified copies no longer need to shuttle documents from office to office",
+    "Still, the new system must operate within the bounds set by law and jurisprudence",
+    "not every error in the civil registry is merely clerical",
+    "FOR YEARS, OUR SUPREME COURT HAS CONSISTENTLY DRAWN the fine line between clerical and substantial errors",
+    "the sex recorded at birth remains immutable if there was no clerical mistake in its recording",
+    "substantial changes, to repeat, must still pass through careful judicial scrutiny",
+    "Apcas may well become one of the PSA's most consequential reforms",
+    "the rule of law must not be confined to courtrooms and legal texts",
+    "it must also be felt concretely in the daily lives of our people"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban",
+      "Jennifer Cagandahan",
+      "Ruben Cruz Bartolome"
+    ],
+    "institutions": [
+      "Office of the Local Civil Registrar (LCR)",
+      "Philippine Statistics Authority (PSA)",
+      "Supreme Court of the Philippines",
+      "Regional Trial Court",
+      "Philippine consuls-general abroad"
+    ],
+    "cases": [
+      "Bartolome v. Republic (Aug. 28, 2019)",
+      "Republic v. Coseteng-Magpayo (Feb. 2, 2011)",
+      "Silverio v. Republic (Oct. 19, 2007)",
+      "Republic v. Cagandahan (Sept. 12, 2008)"
+    ],
+    "laws_treaties": [
+      "Civil Code (no entry changed without a judicial order)",
+      "Republic Act No. 9048",
+      "Republic Act No. 10172",
+      "Rule 108 of the Rules of Court"
+    ],
+    "events": [
+      "PSA launch of Apcas on May 12, 2026",
+      "Nearly 6,000 petitions from more than 200 LCRs processed through Apcas as of April 2026"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "Simple mistakes in recording births, marriages and deaths can cause difficulties in securing passports, enrolling in school, applying for jobs and voting.",
+      "rhetorical_move": "everyday-stakes opening",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "The Civil Code rule requiring a judicial order was amended by RA 9048 and RA 10172 to allow administrative correction of clerical or typographical errors that are obvious and correctable by reference to existing records.",
+      "rhetorical_move": "explains the legal framework with examples and a case",
+      "confidence": "asserted with evidence"
+    },
+    {
+      "claim": "The PSA's Apcas, launched May 12 2026, is expected to cut processing from six months to one month, and nearly 6,000 petitions from over 200 LCRs had been processed through it as of April 2026.",
+      "rhetorical_move": "reports the reform and its figures, attributed to the PSA",
+      "confidence": "reported (not his view)"
+    },
+    {
+      "claim": "Apcas must operate within law and jurisprudence: substantial matters affecting age, nationality, legitimacy or civil status cannot be corrected administratively and require Rule 108 proceedings before the RTC, as the Court held in Coseteng-Magpayo, Silverio and Cagandahan.",
+      "rhetorical_move": "sets limits using case law",
+      "confidence": "asserted with evidence"
+    },
+    {
+      "claim": "If sustained and properly supervised, Apcas may become one of the PSA's most consequential reforms for efficient and accessible public service.",
+      "rhetorical_move": "conditional endorsement",
+      "confidence": "hedged"
+    },
+    {
+      "claim": "The rule of law must not be confined to courtrooms and legal texts; it must be felt concretely in people's daily lives through efficient, accessible, technology-enabled public service.",
+      "rhetorical_move": "closes by tying a practical reform to a principle he has long espoused",
+      "confidence": "asserted"
+    }
+  ],
+  "notable_anecdotes": [
+    "The name mistakenly inscribed as 'Ma. Cristina' instead of 'Maria Cristina.'",
+    "'June 9' corrected to 'July 9' as an example of an administratively correctable date error.",
+    "Bartolome v. Republic (2019): correcting 'Feliciano Batholome' to 'Ruben Cruz Bartolome' recognized as a clerical correction.",
+    "Silverio v. Republic (2007): change of name and sex after sex reassignment surgery denied.",
+    "Republic v. Cagandahan (2008): Jennifer Cagandahan's birth certificate corrected from 'female' to 'male' because Jennifer was biologically intersex."
+  ],
+  "target_audience": [
+    "Inquirer general readership",
+    "Filipinos with errors in their birth, marriage or death records",
+    "Local civil registrars and the PSA",
+    "Overseas Filipinos and consular officials",
+    "Lawyers and law students (civil registry and family law)"
+  ],
+  "register_markers": [
+    "The defining milestones of a person's life--from birth to marriage to death life-cycle opening",
+    "cradle-to-grave data vivid compound",
+    "OUR CIVIL CODE PROVIDES all-caps section opener",
+    "Here are some examples explanatory register",
+    "TO MAKE THE PROCESS FASTER AND MORE ACCESSIBLE all-caps section opener",
+    "To repeat repetition for emphasis",
+    "FOR YEARS, OUR SUPREME COURT HAS CONSISTENTLY DRAWN all-caps section opener",
+    "A year later, however, the Court clarified contrast between precedents",
+    "If sustained and properly supervised conditional endorsement",
+    "In sum ... an important principle I have long espoused closing tie to his own principle"
+  ],
+  "decision_framework_signals": [
+    "starts from everyday consequences for ordinary people",
+    "lays out the statutory framework, then the test for clerical errors with examples",
+    "welcomes a technology reform while insisting it stay within law and jurisprudence",
+    "draws the clerical/substantial line through a sequence of Supreme Court cases",
+    "gives conditional praise tied to sustained, supervised implementation",
+    "links a practical reform to the principle that the rule of law must be felt in daily life"
+  ],
+  "one_paragraph_summary": "Panganiban explains how errors in civil registry records can be fixed and welcomes a new PSA platform. Births, marriages and deaths are recorded by the Local Civil Registrar (LCR) and sent to the Philippine Statistics Authority (PSA) for a national archive; simple mistakes in typing or transcribing these cradle-to-grave data can cause trouble in securing passports, enrolling in school, applying for jobs and voting. The Civil Code rule that no entry may be changed without a judicial order was amended by RA 9048 and RA 10172, which allow city or municipal civil registrars and consuls-general abroad to correct clerical or typographical errors administratively. Such errors must be 'visible to the eyes or obvious to the understanding' and correctable by reference to existing records: a misspelled name or place of birth, the day and month of birth, or a patently clear mistake in sex. Examples include 'Ma. Cristina' to 'Maria Cristina,' 'June 9' to 'July 9,' and, in Bartolome v. Republic (2019), 'Feliciano Batholome' to 'Ruben Cruz Bartolome.' On May 12 2026 the PSA launched the Administrative Petition for Correction Automated System (Apcas), expected to cut processing from six months to one month: the LCR encodes the applicant's information, uploads documents and transmits the petition electronically. As of April 2026, nearly 6,000 petitions from over 200 LCRs had gone through it. But not every error is clerical. Substantial matters affecting age, nationality, legitimacy or civil status need Rule 108 proceedings before the Regional Trial Court. The Court drew this line in Republic v. Coseteng-Magpayo (2011, legitimacy), Silverio v. Republic (2007, sex change after reassignment surgery denied) and Republic v. Cagandahan (2008, intersex correction allowed). If sustained and supervised, Apcas may become one of the PSA's most consequential reforms, reflecting CJP's principle that the rule of law must be felt concretely in people's daily lives through efficient, accessible public service.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

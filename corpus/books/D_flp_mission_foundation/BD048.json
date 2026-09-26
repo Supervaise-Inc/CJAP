@@ -1,0 +1,138 @@
+{
+  "id": "BD048",
+  "format": "B",
+  "type": "book",
+  "theme": "D",
+  "theme_label": "FLP Mission and Foundation",
+  "number": 48,
+  "title": "Leveling the Playing Field -- Ch. 12: Case Management of Bio-Litigations in the Philippines",
+  "date": "2004-03-01",
+  "link": "https://cjpanganiban.com/books-authored-by-chief-justice-artemio-v-panganiban/",
+  "keywords": [
+    "case management",
+    "case flow management",
+    "bio-cases",
+    "pretrial",
+    "mediation",
+    "pretrial order",
+    "plea bargaining",
+    "scientific evidence",
+    "expert witnesses",
+    "forensic DNA analysis",
+    "DNA profiles",
+    "People v. Vallejo",
+    "relevancy test",
+    "Frye rule",
+    "Rules of Court",
+    "expert testimony",
+    "due process",
+    "equal protection",
+    "right against self-incrimination",
+    "level playing field",
+    "tracking systems",
+    "undue delay",
+    "judges of Chile"
+  ],
+  "primary_topics": [
+    "Chapter 12 of 'Leveling the Playing Field' -- CJP's lecture to the judges of Chile explaining how Philippine trial courts manage bio-litigation, from mediation and pretrial through the reception of scientific evidence to calendaring and disposition.",
+    "His account of case management itself as the organizing of case events -- adding what the rules allow, eliminating what causes undue delay, limiting witnesses, rationalizing evidence and keeping firm judicial control of the calendar -- always without running roughshod over the requirements of due process.",
+    "His treatment of scientific evidence as the heart of a bio-case: expert testimony as the primary means of proving or disproving the cause of action, the Philippine Supreme Court's acceptance of DNA profiles in People v. Vallejo, and the liberal relevancy test of the Rules of Court as against the Frye rule.",
+    "His candid account of the practical and constitutional strains of bio-litigation in a developing country -- the dearth and cost of DNA experts, the due process and equal protection problems that cost creates, and the accused's rights against self-incrimination and unreasonable searches when DNA samples are taken."
+  ],
+  "sub_topics": [
+    "He defines case management strictly as the handling of a particular case by a trial court from its filing to its disposition, a strategy for facilitating hearing and early disposition by adding permitted events and eliminating those that cause undue delay.",
+    "He adds that effective case management also means fixing the number of witnesses, rationalizing objective and testimonial evidence, and exercising firm judicial control over calendaring, all without sacrificing substantive and procedural due process.",
+    "He describes the Philippine sequence: mandatory pretrial in both civil and criminal cases, with the case first referred to mediation whenever appropriate and returned to the trial court for pretrial proper if mediation fails.",
+    "He lists what pretrial covers -- in civil cases, simplifying issues, amending pleadings, obtaining stipulations, limiting witnesses and referring technical issues to a commissioner; in criminal cases, plea bargaining, stipulations, marking exhibits and waiving objections, subject to the caveat that the rights of the accused must not be violated.",
+    "He notes that bio-cases are managed like any other case, the only difference being that extensive judicial intervention is required because of the novelty of the scientific issues, with a pretrial order then serving as the trial guide.",
+    "He identifies the common bio-cases -- forensic DNA analysis applied to immigration, marital infidelity, lost or stolen children, paternity and the identification of human sources of crime-scene samples -- and explains that forensic scientists may draw inferences and give opinions that judges and investigators cannot.",
+    "He recommends settling at pretrial the number, qualifications and relevancy of expert witnesses, and floats the proposal that, to avoid a clash of hired experts, the litigants agree that the court appoint the expert while they shoulder the costs.",
+    "He recounts Philippine courts' initial reluctance to accept DNA profiles -- insufficient knowledge, lack of laboratories, contamination by inexperienced investigators -- and then People v. Vallejo (GR No. 144656, May 9, 2002), which settled their admissibility and listed the factors courts should weigh in assessing probative value.",
+    "He situates that ruling in the relevancy test under Section 2 of Rule 128, bolstered by Section 49 of Rule 130 on expert testimony, and calls it more liberal than the Frye rule.",
+    "He raises the cost problem: a dearth of Philippine experts in laboratory testing, molecular biology, chemistry, genetics and population statistics, and expensive services beyond the reach of most, which in turn raises due process and equal protection issues because the accused may not be accorded a level playing field.",
+    "He turns to trial rights -- self-incrimination in the manner DNA samples are obtained, unreasonable searches and seizures, privacy and due process -- and to calendaring intervals long enough to allow preparation but short enough to encourage it, with a strict no-continuance policy and access to all DNA-related documents for independent review.",
+    "He closes by reporting that the Philippines is pilot-testing case flow management in one Metro Manila city, with fast, standard, complex and holding tracks, and that a modified complex track will have to be formulated for bio-cases."
+  ],
+  "signature_phrases": [
+    "from its filing to its disposition",
+    "without running roughshod over the substantial and the procedural requirements of due process",
+    "extensive judicial intervention is required here, considering the novelty of the scientific issues involved",
+    "the testimonies of experts become the primary means of establishing or disproving a cause of action",
+    "it is now settled that DNA profiles are admissible as evidence in judicial proceedings",
+    "This test is perceived to be more liberal, as compared with the Frye rule",
+    "the accused may not be accorded a level playing field in court",
+    "the judges of Chile, would be able to learn a few matters that you could adopt in your country"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban (lecturer; Philippine Supreme Court justice)"
+    ],
+    "institutions": [
+      "Philippine trial courts (the subject of the case-management account)",
+      "Supreme Court of the Philippines (decided People v. Vallejo)",
+      "the judiciary of Chile (the audience addressed)"
+    ],
+    "cases": [
+      "People v. Vallejo (GR No. 144656, May 9, 2002) -- settled the admissibility of DNA profiles"
+    ],
+    "laws_treaties": [
+      "Rules of Court of the Philippines, Section 2 of Rule 128 (the relevancy test)",
+      "Rules of Court of the Philippines, Section 49 of Rule 130 (expert testimony)",
+      "the Frye rule (the stricter foreign standard he contrasts)"
+    ],
+    "events": [
+      "The pilot test of case flow management in the trial courts of one Metro Manila city",
+      "The judicial conference in Chile at which this lecture was delivered"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "Bio-cases should be managed like other cases through mandatory mediation and pretrial, with the single difference that the novelty of the scientific issues requires extensive judicial intervention.",
+      "rhetorical_move": "procedural walk-through: he lays out the Philippine sequence step by step so that the special handling of bio-cases appears as a small adjustment rather than a new regime",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "DNA profiles are admissible in Philippine judicial proceedings, and the Philippine relevancy test is a more liberal standard for scientific evidence than the Frye rule.",
+      "rhetorical_move": "authority plus comparison: he anchors admissibility in People v. Vallejo and the Rules of Court, then measures the domestic standard against the foreign one",
+      "confidence": "asserted with evidence"
+    },
+    {
+      "claim": "The scarcity and expense of DNA experts create genuine constitutional problems of due process and equal protection, because an accused who cannot afford his own expert is not accorded a level playing field.",
+      "rhetorical_move": "candid concession: he names his own system's weakness and reframes a resource shortage as a constitutional defect",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Having the court appoint the expert witness, with the litigants shouldering the laboratory and testimony costs, would forestall the clash of hired experts that can distort impartial judicial assessment.",
+      "rhetorical_move": "reported proposal: he presents the idea as one proposal among others rather than as settled practice",
+      "confidence": "hedged"
+    }
+  ],
+  "notable_anecdotes": [
+    "The Vallejo turning point: he recalls that Philippine courts were at first unwilling to accept DNA profiles until the Supreme Court affirmed the match between the accused's DNA profile and the semen taken from the rape victim's body.",
+    "The battle of hired experts: he describes litigants engaging their own 'experts' and the resulting clash of opinions that can unsettle impartial judicial assessment.",
+    "The pilot city: he reports that case flow management, with fast, standard, complex and holding tracks, is currently being pilot-tested in the trial courts of one city of Metro Manila.",
+    "The closing address to Chile: he explains that he took pains to detail Philippine trial processes in the hope that the judges of Chile could adopt some of them with adjustments to their own system."
+  ],
+  "target_audience": [
+    "The judges of Chile, whom he addresses directly",
+    "Trial judges and court administrators designing procedures for scientific-evidence cases",
+    "Prosecutors and litigators preparing DNA and other expert evidence"
+  ],
+  "register_markers": [
+    "lecture register addressed to a foreign judiciary, closing with 'I thank you'",
+    "procedural manual exposition -- definitions, stages and checklists",
+    "practitioner's candor about resource limits in a developing judiciary",
+    "citation of a single controlling domestic case and specific Rules of Court provisions",
+    "comparative framing of the local standard against a foreign one (relevancy versus Frye)"
+  ],
+  "decision_framework_signals": [
+    "early disposition pursued only within substantive and procedural due process",
+    "pretrial as the instrument for simplifying issues, limiting witnesses and fixing expert testimony",
+    "the relevancy test rather than Frye as the gate for scientific evidence",
+    "probative value of DNA judged by collection, handling, contamination risk, procedure, standards and the analyst's qualifications",
+    "calendaring intervals long enough to permit preparation but short enough to encourage it, under a strict no-continuance policy",
+    "equal access to expert evidence as a condition of a level playing field"
+  ],
+  "one_paragraph_summary": "Chapter 12 of 'Leveling the Playing Field' is CJP's lecture to the judges of Chile on how Philippine trial courts manage bio-litigation. He defined case management strictly as the handling of a case from its filing to its disposition, a strategy for early disposition achieved by organizing case events, adding those the rules permit, eliminating those that cause undue delay, determining how many witnesses each cause requires, rationalizing objective and testimonial evidence, and keeping firm judicial control of the calendar -- all without running roughshod over the substantial and procedural requirements of due process. He described the Philippine sequence: a case is referred to mediation whenever appropriate and, if mediation fails, proceeds to mandatory pretrial, where civil cases are narrowed by simplifying issues, amending pleadings, obtaining stipulations, limiting witnesses and referring technical matters to a commissioner, and criminal cases by plea bargaining, stipulations, marking exhibits and waiving objections, subject always to the rights of the accused. Bio-cases, he explained, are managed along the same lines, the only difference being that extensive judicial intervention is required because of the novelty of the scientific issues. Because scientific evidence is the essential component of such cases, expert testimony becomes the primary means of establishing or disproving a cause of action, and he urged that the number, qualifications and relevancy of experts be settled at pretrial, noting a proposal that the court appoint the expert while the parties bear the cost, so as to forestall a clash of hired opinions. He recounted Philippine courts' early reluctance to accept DNA profiles and then People v. Vallejo, which settled their admissibility and listed the factors bearing on probative value, and situated that ruling in the relevancy test of the Rules of Court, more liberal than the Frye rule. He conceded frankly that the dearth and expense of DNA experts raise due process and equal protection problems, since an accused who cannot hire his own expert is denied a level playing field, and he canvassed the trial rights at stake -- self-incrimination, unreasonable searches, privacy -- along with calendaring discipline, a strict no-continuance policy, and the pilot testing of fast, standard, complex and holding tracks in one Metro Manila city, closing with the hope that Chile might adapt some of it.",
+  "source_xlsx": "cjp_books_curated_normalized.xlsx"
+}

@@ -1,0 +1,158 @@
+{
+  "id": "CA536",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 536,
+  "title": "Intention different from discernment to kill",
+  "date": "2026-07-06",
+  "link": "https://opinion.inquirer.net/192907/intention-different-from-discernment-to-kill",
+  "keywords": [
+    "juvenile justice",
+    "RA 9344",
+    "discernment",
+    "criminal intent",
+    "children in conflict with the law",
+    "Tacloban shooting",
+    "age of criminal liability",
+    "social media"
+  ],
+  "primary_topics": [
+    "Tacloban shooting by two young boys -- grief, anger, and confusion between the legal concepts of discernment and criminal intent: can a child intend to shoot yet lack discernment to be criminally liable?",
+    "Section 6 of RA 9344 (Juvenile Justice and Welfare Act), as amended by RA 10630 -- children 15 or under exempt; above 15 and below 18 exempt unless they acted with discernment; age computed at midnight of the birth date",
+    "Definitions -- discernment (CICL XXX v. People, 2023) is the capacity to understand right and wrong and the consequences; intent is the desire of the act, discernment the moral significance ascribed to it (Guevarra v. Almodovar, 1989)",
+    "Application -- 14-year-old 'Nash' exempt and subject to an intervention program regardless of intent; 15-year-old 'Rod' found by DSWD to have acted with discernment, no diversion because the penalty exceeds six years, now under preliminary investigation for three counts of murder",
+    "Lowering the age of criminal liability -- first address technology and social media, incl. nihilistic and violent extremist groups like '764', which distort children's capacity to discern",
+    "Closing -- institutions bear the paramount responsibility to guide youth; children are often victims of a society that failed to protect them; nurture them to hold pens, books and devices, not guns"
+  ],
+  "sub_topics": [
+    "Drowning of two young athletes in Dipaculao, Aurora",
+    "Tacloban, Leyte shooting by two boys",
+    "Section 6 of RA 9344 as amended by RA 10630",
+    "Exemption for children 15 years of age or under",
+    "Discernment test for children above 15 and below 18",
+    "Age computed from midnight of the birth date",
+    "CICL XXX v. People (2023) definition of discernment",
+    "Guevarra v. Almodovar (1989) on intent vs discernment",
+    "Intelligence as necessary for a crime to exist",
+    "Intervention program",
+    "Diversion vs preliminary investigation; six-year penalty cutoff",
+    "Inquest for three counts of murder",
+    "Debate on lowering the age of criminal liability to 10 or 12",
+    "Online extremist group '764'"
+  ],
+  "signature_phrases": [
+    "I noticed how the legal concepts of discernment and criminal intent are so easily mixed up",
+    "Can a child intend to shoot (and actually shoot), yet lack the discernment to be held criminally liable?",
+    "TO ANSWER THIS QUESTION, LET ME QUOTE Section 6 of Republic Act No. 9344",
+    "children are deemed to be 15 years of age at midnight of their birth date",
+    "to understand the difference between right and wrong and the consequences of the wrongful act",
+    "a child may have the intent to pull a trigger and cause harm",
+    "the rationale behind Section 6 of the Juvenile Justice and Welfare Act rests on discernment, not on criminal intent",
+    "BY APPLYING THESE RULES TO THE TACLOBAN SHOOTING",
+    "has inevitably revived discussions on lowering the age of criminal liability to 10 or 12",
+    "the impact of technology and social media on a child's capacity to discern",
+    "The virtual world equips them with the mechanical intent to replicate what they see",
+    "they are, in many ways, victims of a society that failed to protect them",
+    "true justice is found not merely in punishing the young",
+    "nurtured to hold pens, books, and digital devices, not guns"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban",
+      "Rodil V. Zalameda",
+      "Edgardo L. Paras",
+      "\"Nash\" (14-year-old child in conflict with the law, pseudonym)",
+      "\"Rod\" (15-year-old child in conflict with the law, pseudonym)"
+    ],
+    "institutions": [
+      "Supreme Court of the Philippines",
+      "Department of Social Welfare and Development (DSWD)",
+      "barangay (nonjudicial diversion)"
+    ],
+    "cases": [
+      "CICL XXX v. People (March 14, 2023, per J Rodil V. Zalameda, en banc)",
+      "Guevarra v. Almodovar (Jan. 26, 1989, per J Edgardo L. Paras, Second Division)",
+      "Inquest and preliminary investigation of 'Rod' for three counts of murder and other charges"
+    ],
+    "laws_treaties": [
+      "Republic Act No. 9344 (Juvenile Justice and Welfare Act of 2006), Section 6",
+      "Republic Act No. 10630 (amending RA 9344)"
+    ],
+    "events": [
+      "Deaths of two young athletes in the waves of Dipaculao, Aurora",
+      "Tacloban, Leyte shooting by two young boys",
+      "Renewed debate on lowering the age of criminal liability"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "In the public reaction to the Tacloban shooting, discernment and criminal intent are easily and mistakenly mixed up.",
+      "rhetorical_move": "frames a legal clarification around a tragedy",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Under Section 6 of RA 9344, children 15 or under are exempt from criminal liability, while those above 15 and below 18 are exempt unless they acted with discernment.",
+      "rhetorical_move": "quotes the statute",
+      "confidence": "asserted with evidence"
+    },
+    {
+      "claim": "Intent is the desire of one's act while discernment is the moral significance ascribed to it, so a child may intend to pull a trigger yet lack discernment; the law's rationale rests on discernment, not intent.",
+      "rhetorical_move": "doctrinal distinction from case law",
+      "confidence": "asserted with evidence"
+    },
+    {
+      "claim": "Applied to Tacloban, 14-year-old 'Nash' is exempt and subject to intervention, while 15-year-old 'Rod,' found by DSWD to have acted with discernment, faces preliminary investigation since diversion does not apply to penalties over six years.",
+      "rhetorical_move": "applies the rules to the facts",
+      "confidence": "asserted with evidence"
+    },
+    {
+      "claim": "Before lowering the age of criminal liability, lawmakers should address technology and social media, including extremist groups like '764', which distort children's capacity to discern.",
+      "rhetorical_move": "respectful counterpoint to a policy proposal",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Institutions bear the paramount responsibility to guide youth; true justice lies not merely in punishing the young but in nurturing them to hold pens, books and devices, not guns.",
+      "rhetorical_move": "moral closing with a vivid contrast",
+      "confidence": "asserted"
+    }
+  ],
+  "notable_anecdotes": [
+    "The two young athletes whose lives were claimed by the waves of Dipaculao, Aurora, contrasted with the Tacloban shooting.",
+    "14-year-old 'Nash,' exempt from liability however deliberate his intent to shoot.",
+    "15-year-old 'Rod,' found by DSWD to have acted with discernment and now under preliminary investigation for three counts of murder.",
+    "The precise age rule: a child is 15 at midnight of the birth date and over 15 after the next midnight.",
+    "The online nihilistic and violent extremist group '764.'"
+  ],
+  "target_audience": [
+    "Inquirer general readership",
+    "Parents, teachers and youth workers",
+    "Legislators debating the age of criminal liability",
+    "DSWD, prosecutors and juvenile justice practitioners",
+    "Lawyers and law students (criminal law)"
+  ],
+  "register_markers": [
+    "our grief took a darker turn contrast opening",
+    "Can a child intend to shoot ... ? rhetorical question",
+    "TO ANSWER THIS QUESTION, LET ME QUOTE all-caps opener",
+    "To be precise precision marker",
+    "thus, let us define both explanatory register",
+    "BY APPLYING THESE RULES TO THE TACLOBAN SHOOTING all-caps application opener",
+    "First ... As to enumerated application",
+    "THE DIFFERING TREATMENT OF JUVENILE OFFENDERS all-caps opener",
+    "With due respect respectful disagreement",
+    "Verily ... To my mind personal emphasis",
+    "pens, books, and digital devices, not guns vivid closing contrast"
+  ],
+  "decision_framework_signals": [
+    "poses a legal question drawn from a current tragedy",
+    "answers from statute, then from case-law definitions",
+    "distinguishes intent from discernment as distinct mental processes",
+    "applies the rules to each child's age and assessment",
+    "weighs a policy proposal against unanticipated factors (technology, social media)",
+    "places responsibility on institutions and society, not only on the child"
+  ],
+  "one_paragraph_summary": "Panganiban contrasts the grief over two young athletes lost to the waves of Dipaculao, Aurora with the darker grief over the Tacloban shooting, in which two young boys killed many. He notes how discernment and criminal intent are easily confused and asks whether a child can intend to shoot yet lack the discernment to be criminally liable. Section 6 of RA 9344, as amended by RA 10630, exempts children 15 or under; those above 15 and below 18 are also exempt and placed in intervention unless they acted with discernment. A child is 15 at midnight of the birth date and crosses into the next bracket after the following midnight. CICL XXX v. People (2023) defines discernment as the child's capacity to understand right and wrong and the consequences of the wrongful act; Guevarra v. Almodovar (1989) explains that intent is the desire of one's act while discernment is the moral significance ascribed to it, and that intelligence, including discernment, is needed for a crime to exist. So a child may intend to pull a trigger yet lack discernment, and the law's rationale rests on discernment, not intent. Applying this, 14-year-old 'Nash' is exempt and subject to an intervention program, however deliberate his intent; 15-year-old 'Rod,' whom DSWD found to have acted with discernment, cannot undergo diversion because the penalty exceeds six years and is under preliminary investigation for three counts of murder. On proposals to lower the age of criminal liability to 10 or 12, CJP urges first addressing what RA 9344's framers could not anticipate: technology, social media and extremist groups like '764' that distort children's capacity to discern. Institutions bear the paramount responsibility to guide youth; true justice means nurturing children to hold pens, books and digital devices, not guns.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx"
+}

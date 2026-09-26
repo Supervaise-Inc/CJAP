@@ -1,0 +1,154 @@
+{
+  "id": "BA061",
+  "format": "B",
+  "type": "book",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 61,
+  "title": "Leadership by Example: The Davide Standard -- Ch. 8: Effect of a Void Warrant of Arrest on Jurisdiction Over the Accused",
+  "date": "1999-10-01",
+  "link": "https://cjpanganiban.com/books-authored-by-chief-justice-artemio-v-panganiban/",
+  "keywords": [
+    "Leadership by Example: The Davide Standard",
+    "Effect of a Void Warrant of Arrest on Jurisdiction Over the Accused",
+    "Ho v. People",
+    "Cojuangco v. Sandiganbayan",
+    "Eduardo M. Cojuangco Jr.",
+    "Justice Leonardo A. Quisumbing",
+    "probable cause",
+    "warrant of arrest",
+    "personal determination of probable cause",
+    "prosecutor's report",
+    "supporting documents",
+    "preliminary investigation",
+    "Sandiganbayan",
+    "Office of the Ombudsman",
+    "Office of the Special Prosecutor",
+    "posting of bail",
+    "voluntary appearance",
+    "waiver of objections to jurisdiction",
+    "special appearance",
+    "conditional arraignment",
+    "Allado v. Diokno",
+    "certiorari and prohibition",
+    "temporary restraining order",
+    "remand"
+  ],
+  "primary_topics": [
+    "Chapter 8 of 'Leadership by Example: The Davide Standard' -- the question, left open by his ponencia in Ho v. People, of whether a court that issued a void warrant of arrest nevertheless retains jurisdiction over the accused.",
+    "The three-part holding of Ho v. People: that prosecutor and judge determine probable cause for different purposes, that the judge must decide independently on supporting evidence rather than the prosecutor's bare report, and that the complete record need not be submitted so long as sufficient supporting documents are.",
+    "The majority ruling in Cojuangco v. Sandiganbayan, written by Justice Quisumbing, that the graft court kept jurisdiction over the accused because he posted bail and participated in its proceedings, thereby waiving his objections.",
+    "CJP's Concurring and Dissenting Opinion arguing that the nullity of the warrant meant the Sandiganbayan never acquired jurisdiction, that the bail bond was not a voluntary appearance, and that the case should be remanded."
+  ],
+  "sub_topics": [
+    "The framing question from Ho: may a trial judge issue a warrant of arrest on the basis merely of the information filed by the prosecutor, or must he require the evidence the prosecutor relied on?",
+    "First point of Ho: the prosecutor decides whether there is reasonable ground to hold the accused for trial, while the judge decides whether there is a necessity for immediate custody, so their objectives remain distinct even on the same evidence.",
+    "Second point of Ho: because the objectives differ, the judge cannot rely solely on the prosecutor's report, must decide independently on supporting evidence, and carries a responsibility lodged in him by the most basic law of the land.",
+    "The suggestion that prosecutors ease the judge's burden and speed up litigation by forwarding the records and evidence on hand, not merely the information and a bare resolution.",
+    "Third point of Ho: the complete record of the preliminary investigation need not be examined, only sufficient supporting documents such as affidavits, counter-affidavits, sworn statements or transcripts, since trial courts should not be unduly burdened.",
+    "The rule that the presumption of regularity attending the prosecutor's report does not excuse the judge, who fails in his bounden duty if he relies merely on the certification or report of the investigating officer.",
+    "The consequence drawn: a warrant issued merely on the prosecutor's charge is void because the judge failed in his constitutional duty -- and then the crucial question of what happens to jurisdiction afterwards.",
+    "The Cojuangco majority's reasoning: bail forecloses the claim of exemption from the court's jurisdiction, and motions seeking other affirmative reliefs negate a continuing objection.",
+    "The majority's rule on special appearance -- an appearance for any purpose other than the sole purpose of objecting to jurisdiction submits the party to the court -- and the precedents making it futile to assail an arrest warrant after posting bail.",
+    "The majority's answer that the accused was not without a remedy: he could have filed a petition for certiorari and prohibition with a prayer for a restraining order, as proved effective in Allado v. Diokno.",
+    "CJP's contrary account of the record: the immediate Opposition to the issuance of the warrant, the bail posted expressly without prejudice to that Opposition, the Memorandum in Amplification, the motion for reconsideration, and the motion to dismiss after the Ombudsman found no probable cause.",
+    "His treatment of the arraignment as conditional -- undertaken solely to accommodate a request to travel and set aside if the accused were exonerated at reinvestigation -- and therefore not a submission to jurisdiction.",
+    "His argument that these were special appearances to obtain urgent relief and avoid incarceration, since the accused would otherwise be rendered immobile while the graft court sat on his case for three years.",
+    "His proposed disposition: remand to the Sandiganbayan so that evidence sufficient to determine probable cause may be submitted, a procedure he concedes is cumbersome and harsh on the prosecution but which the Constitution commands."
+  ],
+  "signature_phrases": [
+    "However, the judge must decide independently",
+    "he must have supporting evidence, other than the prosecutor's bare report",
+    "the Constitution, we repeat, commands the judge to personally determine probable cause in the issuance of warrants of arrest",
+    "a judge fails in his bounden duty if he relies merely on the certification or the report of the investigating officer",
+    "It was essentially an express and continuing objection to the court's jurisdiction over his person",
+    "the petitioner merely made special appearances in order to obtain immediate urgent reliefs",
+    "to rule otherwise as the majority did is most unfair and unjust",
+    "This procedure may appear cumbersome and unduly harsh on the prosecution, but the Constitution commands it",
+    "The Court, as the guardian of the basic law, is thus left with no choice but to enforce the provision"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban (author; ponente in Ho v. People; concurring and dissenting in Cojuangco)",
+      "Justice Leonardo A. Quisumbing (ponente for the majority in Cojuangco v. Sandiganbayan)",
+      "Eduardo M. Cojuangco Jr. (the accused and petitioner)"
+    ],
+    "institutions": [
+      "Supreme Court of the Philippines (en banc in Ho; First Division in Cojuangco)",
+      "Sandiganbayan (the graft court that issued the warrant)",
+      "Office of the Ombudsman (which on reinvestigation found no probable cause)",
+      "Office of the Special Prosecutor"
+    ],
+    "cases": [
+      "Ho v. People (CJP's unanimous en banc ponencia on the issuance of arrest warrants)",
+      "Cojuangco v. Sandiganbayan (First Division; majority by Justice Quisumbing)",
+      "Allado v. Diokno (cited by the majority as an effective remedy)"
+    ],
+    "laws_treaties": [
+      "The Constitution's command that the judge personally determine probable cause before issuing a warrant of arrest"
+    ],
+    "events": [
+      "The filing of the Information and issuance of the arrest warrant against Cojuangco, met at once by his Opposition",
+      "His conditional arraignment, undertaken to accommodate his request to travel",
+      "The Ombudsman's manifestation after reinvestigation that there was no probable cause",
+      "The three years during which the graft court left his Opposition unresolved"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "A judge cannot rely solely on the prosecutor's report in finding probable cause; he must decide independently on supporting documents, because the Constitution lodges that determination personally in him.",
+      "rhetorical_move": "purpose-distinction argument: separating the prosecutor's object (holding for trial) from the judge's (necessity of immediate custody) and deriving the independent-judgment duty from it",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Requiring supporting documents does not mean the complete record must be examined; the judge needs only enough to make his own judgment or at least verify the prosecutor's findings.",
+      "rhetorical_move": "practical qualification that forestalls the objection of unduly burdening trial courts",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Because the warrant was void, the Sandiganbayan never acquired jurisdiction over Cojuangco, and his posting of bail should not be equated with voluntary appearance when he expressly reserved his opposition.",
+      "rhetorical_move": "record-based refutation: tracing each filing in sequence to show a continuing objection rather than a waiver",
+      "confidence": "asserted with evidence"
+    },
+    {
+      "claim": "Treating such filings as a waiver is most unfair and unjust, because an accused could then be indefinitely detained by the simple expedient of a trial court sitting on his objection to the warrant.",
+      "rhetorical_move": "reductio from consequences, pointed by the three years the graft court left the objection unresolved",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "The correct disposition was to remand the case so the prosecutor could submit evidence sufficient for a determination of probable cause, however cumbersome that may be for the prosecution.",
+      "rhetorical_move": "concede-the-cost-then-invoke-the-command: admitting the procedure's harshness and grounding it in the Court's role as guardian of the basic law",
+      "confidence": "asserted"
+    }
+  ],
+  "notable_anecdotes": [
+    "CJP recalls that in Ho v. People he was trying to reconcile and summarize doctrines on the issuance of arrest warrants that were then still somewhat fluid, writing for a unanimous Court en banc.",
+    "The detail that Cojuangco posted his bail bond while expressly manifesting that it was without prejudice to his Opposition, and followed it with a Memorandum in Amplification.",
+    "The Sandiganbayan's own description of his arraignment as conditional, to be set aside if he were exonerated at the preliminary investigation and undertaken solely to accommodate his request to travel.",
+    "The record showing that for three years the graft court practically sat on his motion for reconsideration of the denial of his Opposition."
+  ],
+  "target_audience": [
+    "Trial judges who must personally determine probable cause before issuing warrants of arrest",
+    "Prosecutors deciding what to forward to the court with an information",
+    "Criminal defense lawyers contesting an arrest while seeking provisional liberty",
+    "Students of criminal procedure following the Ho and Cojuangco line of cases"
+  ],
+  "register_markers": [
+    "doctrinal exposition built on long verbatim quotation of his own ponencia and opinion",
+    "question-and-answer structure -- posing the crucial question, then answering it",
+    "point-by-point sequencing (First, Second, Lastly) carried over from the ponencia",
+    "even-handed statement of the majority's reasoning in full before dissenting from it",
+    "courteous dissent formulas (\"With all due respect, I submit...\")"
+  ],
+  "decision_framework_signals": [
+    "the judge's personal and independent determination of probable cause as a constitutional command, not a formality",
+    "distinct objectives of prosecutor and judge even when both look at the same evidence",
+    "sufficiency rather than completeness of supporting documents as the workable standard",
+    "the presumption of regularity in the prosecutor's report not excusing the judge's own duty",
+    "special appearance as preserving an objection to jurisdiction where the objection is express and continuing",
+    "the practical consequence for an accused -- indefinite detention or immobility -- as a test of a procedural rule's justice",
+    "the Court as guardian of the basic law, bound to enforce it even at procedural cost"
+  ],
+  "one_paragraph_summary": "Chapter 8 of 'Leadership by Example: The Davide Standard' took up a question left open by Justice Panganiban's ponencia in Ho v. People: after a court issues a void warrant of arrest, does it retain jurisdiction over the accused? He first reproduced the three-part holding of Ho, written for a unanimous Court en banc to reconcile doctrines that were then still fluid. First, the prosecutor and the judge determine probable cause for different purposes -- the prosecutor whether the accused should be held for trial, the judge whether immediate custody is necessary -- so their objectives remain distinct even on the same evidence. Second, because the objectives differ, the judge cannot rely solely on the prosecutor's report but must decide independently on supporting evidence, a responsibility lodged in him by the most basic law of the land; prosecutors, he added, could ease that burden by forwarding the records and evidence on hand. Third, the complete record of the preliminary investigation need not be examined, only sufficient supporting documents such as affidavits, counter-affidavits, sworn statements or transcripts, since a judge fails in his bounden duty if he relies merely on the investigating officer's certification. A warrant issued on the bare charge is therefore void. In Cojuangco v. Sandiganbayan, the majority through Justice Quisumbing held that the graft court nevertheless retained jurisdiction, because the accused posted bail and participated in proceedings seeking other affirmative reliefs, thereby waiving his objections, and because he could have sought certiorari and prohibition instead, as had worked in Allado v. Diokno. CJP's Concurring and Dissenting Opinion argued the contrary: the accused had opposed the warrant immediately, posted bail expressly without prejudice to that Opposition, amplified it, moved for reconsideration and moved to dismiss once the Ombudsman found no probable cause, and had been arraigned only conditionally to accommodate a request to travel. These were special appearances to obtain urgent relief and avoid incarceration, not voluntary appearance. To hold otherwise, he wrote, was most unfair and unjust, since a court could indefinitely detain an accused by sitting on his objection -- as this one had for three years. He voted to remand the case so that evidence sufficient for determining probable cause could be submitted, a procedure he conceded was cumbersome but which the Constitution commands.",
+  "source_xlsx": "cjp_books_curated_normalized.xlsx"
+}

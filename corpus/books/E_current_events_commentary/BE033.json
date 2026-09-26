@@ -1,0 +1,134 @@
+{
+  "id": "BE033",
+  "format": "B",
+  "type": "book",
+  "theme": "E",
+  "theme_label": "Signature Current Events Commentary",
+  "number": 33,
+  "title": "Leveling the Playing Field -- Ch. 13: Law and the Biosciences in Asia",
+  "date": "2004-03-01",
+  "link": "https://cjpanganiban.com/books-authored-by-chief-justice-artemio-v-panganiban/",
+  "keywords": [
+    "UNIDO Global Biotechnology Forum",
+    "Asia's preparedness for the biosciences",
+    "Beijing Genomics Institute",
+    "cloning technology",
+    "blastocyst",
+    "embryonic stem cells",
+    "judicial reform",
+    "judicial independence",
+    "grave abuse of discretion",
+    "fiscal independence",
+    "alternative dispute resolution (ADR)",
+    "mediation, conciliation and arbitration",
+    "loss of face",
+    "paperless judicial system",
+    "Huanming Yang",
+    "Xiao Yang",
+    "Hwang Woo Suk",
+    "Yong Pung How",
+    "Thaksin Shinawatra",
+    "EINSHAC"
+  ],
+  "primary_topics": [
+    "Chapter 13 of 'Leveling the Playing Field' -- CJP's ten-minute round-table remarks at the UNIDO Global Biotechnology Forum surveying Asia's readiness to handle the controversies the new biosciences and biotechnologies will bring.",
+    "His country-by-country sketch of the region -- China, India, South Korea, Japan, Thailand, Vietnam, Malaysia, Singapore and the Philippines -- pairing each nation's scientific or economic advance with the state of its judiciary.",
+    "His claim that the Philippine judiciary is independent and competent enough for the bio-age, armed with the power to strike down acts of any branch tainted with grave abuse of discretion, administrative supervision of the courts and the legal profession, fiscal independence and rule-making power.",
+    "His closing assessment that Asian judicial systems are adjusting with equal velocity to the information and biotechnological ages, aided by a growing turn to alternative dispute resolution that suits the Asian ethic of settling disputes without loss of face."
+  ],
+  "sub_topics": [
+    "He frames the assignment modestly: given ten minutes for the whole Asian region, he can only skim the surface by way of a general introduction to the open forum.",
+    "He sets the scale of the subject by adding up the populations of China, India, Indonesia, Pakistan, Bangladesh, Japan, the Philippines, Vietnam and the rest -- about three billion people, half the world.",
+    "He dates the region's political, scientific and economic renaissance to the fall of the Soviet Union in 1989 and the emergence of the free market.",
+    "China: prospering amid the global financial crisis, its bioscience excellence typified by the Beijing Genomics Institute under Dr. Huanming Yang, its judiciary under Supreme Court President Xiao Yang undergoing reform.",
+    "India: a burgeoning center of cyber-technology with an accelerating economy and a judiciary known for its independence but saddled with a heavy backlog.",
+    "South Korea: he cites Time's February 23, 2004 report on Dr. Hwang Woo Suk and Dr. Moon Shin Yong of Seoul National University creating more than 200 cloned embryos, growing 30 to the blastocyst stage and extracting embryonic stem cells into a self-perpetuating colony.",
+    "South Korea and Japan: highly regarded legal systems where only 2 to 5 percent pass the bar and new lawyers must take further courses to specialize in the judiciary, the prosecution service or private practice.",
+    "Thailand, Vietnam, Malaysia and Singapore: the baht's stability and the Constitution Court's 8-7 vote upholding Premier Thaksin Shinawatra's election; Vietnam's communist state with a free-market economy; Malaysia's pegged currency and Petronas Twin Towers; and Singapore's judiciary under Chief Justice Yong Pung How, newly reformed and aiming to be the world's first paperless judicial system.",
+    "The Philippines: a constitutionally empowered Supreme Court that may review lower courts and strike down acts of any branch, including the Presidency and Congress, for grave abuse of discretion, with administrative power over all lower courts and the legal profession, fiscal independence and rule-making authority.",
+    "The regional turn to alternative dispute resolution -- mediation, conciliation and arbitration -- as suited to the Asian preference for peaceful settlement without loss of face."
+  ],
+  "signature_phrases": [
+    "I can only skim the surface of my assignment",
+    "One half of the world's population lives in Asia",
+    "many of these countries have experienced political, scientific and economic renaissance",
+    "China is prospering at an amazing rate in the midst of the global financial crisis",
+    "It hopes to be the first paperless judicial system in the world",
+    "an independent and a competent judiciary that is ready to meet the challenges of the bio-age",
+    "These ADRs appeal to the Asian ethic of settling disputes peacefully, without loss of face for any of the disputants"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban (round-table discussant; Philippine Supreme Court justice)",
+      "Dr. Huanming Yang (head of the Beijing Genomics Institute)",
+      "Xiao Yang (Supreme Court President of China)",
+      "Dr. Hwang Woo Suk and Dr. Moon Shin Yong (Seoul National University cloning researchers)",
+      "Thaksin Shinawatra (Thai Premier whose election was upheld)",
+      "Yong Pung How (Chief Justice of Singapore)"
+    ],
+    "institutions": [
+      "UNIDO Global Biotechnology Forum (the occasion)",
+      "Beijing Genomics Institute",
+      "Seoul National University",
+      "EINSHAC (co-sponsor of the bioscience conferences)",
+      "Constitution Court of Thailand",
+      "Supreme Court of the Philippines",
+      "Supreme Court of China; the judiciaries of India, Japan, South Korea and Singapore",
+      "Time magazine (source of the Korean cloning report)"
+    ],
+    "cases": [],
+    "laws_treaties": [
+      "the Philippine Constitution (grave abuse of discretion review, administrative supervision, fiscal independence and rule-making power)"
+    ],
+    "events": [
+      "The UNIDO Global Biotechnology Forum round-table discussion",
+      "The EINSHAC International Bioscience Conversation in Kona, Hawaii, July 2001",
+      "The 'World Congress on the Gene' sponsored by the Thai royal family with EINSHAC",
+      "The fall of the Soviet Union in 1989 and the Asian financial crisis"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "Given Asia's advanced economic, political and scientific developments, the region's judicial systems are adjusting with equal velocity to the needs of the information and biotechnological ages.",
+      "rhetorical_move": "survey-to-inference: he accumulates country sketches and lets the regional conclusion follow from the pattern",
+      "confidence": "asserted with evidence"
+    },
+    {
+      "claim": "The Philippine judiciary is independent and competent enough to meet the challenges of the bio-age, being constitutionally empowered to strike down acts of any branch tainted with grave abuse of discretion and to govern the courts and the legal profession.",
+      "rhetorical_move": "institutional credentialing: he enumerates his own court's constitutional powers as proof of readiness",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Alternative dispute resolution -- mediation, conciliation and arbitration -- is gaining importance across Asia because it fits the regional ethic of settling disputes peacefully, without loss of face.",
+      "rhetorical_move": "cultural explanation: he grounds a procedural trend in a shared social value rather than in efficiency alone",
+      "confidence": "asserted"
+    }
+  ],
+  "notable_anecdotes": [
+    "The Korean cloning breakthrough: he relays Time's account of Seoul National University researchers producing more than 200 cloned embryos, growing 30 to the blastocyst stage, and coaxing embryonic stem cells into a self-perpetuating colony -- notable, the magazine said, because the embryos did not die.",
+    "Dr. Huanming Yang in Kona: he recalls the respected and amiable head of the Beijing Genomics Institute delivering a brilliant scientific paper at the EINSHAC International Bioscience Conversation in Hawaii in July 2001.",
+    "Xiao Yang as a recent guest: he notes in passing that China's Supreme Court President had recently visited the Philippines.",
+    "Singapore's paperless ambition: he points out that the Petronas Twin Towers once outranked the World Trade Center, and that tiny Singapore's reformed judiciary hopes to be the first paperless judicial system in the world."
+  ],
+  "target_audience": [
+    "The international scientists, officials and jurists at the UNIDO Global Biotechnology Forum round table",
+    "Policymakers assessing whether legal systems can keep pace with biotechnology",
+    "Readers interested in comparative Asian judiciaries"
+  ],
+  "register_markers": [
+    "conference round-table register -- time-limited, self-deprecating about its own brevity, ending by inviting questions",
+    "country-by-country tour structure",
+    "statistics and figures used as scene-setting (populations, exchange rates, bar passage rates)",
+    "quotation of a news magazine as the scientific authority",
+    "pride of place given to his own country's judiciary at the close of the survey"
+  ],
+  "decision_framework_signals": [
+    "judicial independence and competence as the test of a legal system's readiness for the biosciences",
+    "expanded certiorari: the power to strike down acts of any branch tainted with grave abuse of discretion",
+    "institutional self-government -- administrative supervision of courts and the bar, fiscal independence, rule-making power",
+    "alternative dispute resolution preferred where it preserves peace and face",
+    "pairing scientific advance with judicial capacity as the measure of national preparedness"
+  ],
+  "one_paragraph_summary": "Chapter 13 of 'Leveling the Playing Field' is CJP's brief round-table contribution at the UNIDO Global Biotechnology Forum, where discussants were asked to describe their regions' preparedness for the controversies the new biosciences would bring. Allotted ten minutes for the whole of Asia, he said he could only skim the surface as a general introduction to the open forum. He began with scale, adding the populations of China, India, Indonesia, Pakistan, Bangladesh, Japan, the Philippines and Vietnam to reach roughly three billion people, half the world, and dated the region's political, scientific and economic renaissance to the fall of the Soviet Union in 1989 and the spread of the free market. He then sketched the region country by country, pairing scientific or economic advance with judicial condition: China prospering amid the global financial crisis, with the Beijing Genomics Institute under Dr. Huanming Yang and a judiciary being reformed under Supreme Court President Xiao Yang; India a burgeoning center of cyber-technology with an independent but backlogged judiciary; South Korea's startling cloning breakthrough, reported by Time, in which Seoul National University researchers created more than 200 cloned embryos, grew thirty to the blastocyst stage and derived a self-perpetuating stem-cell colony; South Korea and Japan's demanding bar examinations and specialized training; Thailand's recovered currency and its Constitution Court's 8-7 vote upholding Premier Thaksin Shinawatra; Vietnam's market-oriented communism; Malaysia's pegged currency and Petronas Twin Towers; and Singapore's newly reformed judiciary aiming to become the world's first paperless system. Of his own country he said the Philippines prides itself on an independent and competent judiciary ready for the bio-age, constitutionally empowered to review lower courts and to strike down acts of any branch, including the Presidency and Congress, tainted with grave abuse of discretion, with administrative power over the courts and the legal profession, fiscal independence and rule-making authority. He noted a growing regional interest in alternative dispute resolution, which suits the Asian ethic of settling disputes without loss of face, and concluded that Asian judicial systems are adjusting with equal velocity to the information and biotechnological ages before opening the floor to questions.",
+  "source_xlsx": "cjp_books_curated_normalized.xlsx"
+}
