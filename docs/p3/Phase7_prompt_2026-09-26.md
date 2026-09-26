@@ -168,3 +168,59 @@ would mean paying twice.
 | **CE-8** | the orphan floor at 0.68 vs a 0.6816 minimum · the near-inert topic prior (mean pairwise 0.9334) · `honors_received` ≡ `robot_identity_meta`, both zero-chunk |
 | **batch-05** | C-12 (CA528 truncated) · the ~222 columns Feb 2007 – Apr 2011 · re-baselining `check_date_index.py`'s NO-REGRESSION GATE off bge-large |
 | **Housekeeping** | `merge_tag_topics.py` hardening · `make_runtime_dense_index.py`'s exit-3 refusal · push `deliverable/2026-09` · the 94 staged `eval/results` files still to commit |
+
+
+---
+
+## PART D — the three P3 acceptance gaps (added 26 Sep, after auditing P3.1-P3.6)
+
+An audit of the P3 block against its own "Done when" bullets found P3.3 and P3.6 short and P3.5 built
+but dark. `CJAP_Robot_Project_Plan_v2.xlsx` Status/Evidence has been updated accordingly — P3.2 and P3.4
+move up to Done (both rebuilt 26 Sep), **P3.3 moves DOWN from Done to Partial**. Add this part to
+Phase 7; it is still $0 and still ends in a report, not a change.
+
+```
+PART D — size the three P3 acceptance gaps. $0, READ-ONLY, no index rebuilds, no file edits.
+
+D1. P3.3 gap 1 — tagging covers 95 of 1,104 documents.
+    The plan requires "every document tagged with a primary and secondary topic".
+    merge_tag_topics.py STEP 5 reads reports\pilot-eval subset\pilot_subset_frozen_v4.csv and tags only
+    those 95. Its own doc_affinity() already scans the FULL corpus for the orphan census, so the data to
+    tag all 1,104 is computed and then discarded.
+    Report: the exact lines that scope the tagging to the pilot list; what a full-corpus tagging pass
+    would cost (it is matrix work already done — estimate the added runtime); and whether the output
+    file shape (reports\w1_7_pilot_topic_tags.json) would need to change or just grow.
+    Do NOT implement it. This is a scope-and-cost answer.
+
+D2. P3.3 gap 2 — the independence check is mis-calibrated, and the degenerate pair is live in the data.
+    At TOPIC_MERGE_COSINE 0.95, 220 of 561 centroid pairs merge and 34 topics collapse to 3. We bypass it
+    at 1.01. Separately, honors_received and robot_identity_meta are byte-identical zero-chunk centroids
+    sharing one gmean fallback — and they are appearing as SECONDARY tags on real documents (sample:
+    CA003 -> secondary ['honors_received', 'robot_identity_meta']).
+    Report: (a) across the 95 tagged documents, how many carry either of those two as primary, and how
+    many as secondary; (b) the threshold at which the merge would produce a sensible number of topics —
+    sweep TOPIC_MERGE_COSINE from 0.95 to 0.999 in steps and report the resulting topic count at each,
+    computed directly from the centroid matrix, WITHOUT running merge_tag_topics.py; (c) whether
+    retiring the two zero-chunk topics would change the answer.
+    Do NOT change any threshold or retire anything.
+
+D3. P3.6 — what the voice card still needs.
+    Three bullets are unmet. Report, from corpus\voice\voice_card.md:
+    (a) confirm the opening block (lines 1-14, above the first ---) still states Haiku routing, "no
+        embeddings, no similarity search, no chunking", and whole documents — quote the lines;
+    (b) whether any signature-phrase section exists at all, and what the card currently says about
+        signature phrases (line 353 is the only hit I found);
+    (c) whether any authorship, reviewer or date marker exists anywhere in the 380 lines;
+    (d) a list of every OTHER passage in the remaining ~366 lines that assumes a small corpus, whole
+        documents, or the removed Haiku router — this is P3.6's outstanding "read-through by someone who
+        knows the voice", done mechanically so the SME read starts from a list rather than a blank page.
+    Do NOT edit the card. R-1 stays staged until after a compose baseline exists.
+
+REPORT — append a "Part D — P3 acceptance gaps" section to the Phase 7 report with D1's cost answer,
+D2's threshold sweep table and tag counts, and D3's four findings including the passage list.
+```
+
+**Why these are not fixed in this phase.** D1 changes what `merge_tag_topics.py` writes, which is in the
+batch-03 attributable path. D2 is a calibration decision that belongs to CE-8 and needs the sweep before
+anyone picks a number. D3's R-1 apply needs a compose baseline that may not exist. All three are sized
+here so the decisions are cheap when they come.
