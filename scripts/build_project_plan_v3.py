@@ -706,44 +706,107 @@ def build_themes_tab(wb):
             ws.cell(r - 1, 1).font = MONOB
     r += 1
 
-    ban("WHERE THE 34 TOPICS COME FROM — three layers, only two of them derived")
-    note("The question", "Are the topics a RESULT of the data enrichment, or something imposed on it? Both, in "
-         "different layers — and the distinction decides what has to be rebuilt when new material arrives.")
-    note("Layer 1 · taxonomy\n(NOT derived)",
-         "WHICH topics exist — the ~35 ids, display names, definitions, default register and matcher keywords — is a "
-         "HAND-CURATED Python dict inside scripts/build_topic_map.py. Its own docstring says so. It was written "
-         "against 79 documents (64 columns, 15 speeches, NO books), generated 2026-05-25, and never re-derived.",
-         key=True)
-    note("Layer 2 · assignment + stats\n(DERIVED from enrichment)",
-         "Each document is scored against every topic by matching title + primary_topics + sub_topics + Keyword/s + "
-         "entity names. The per-topic statistics — doc_count, doc_ids, top_signature_phrases, top_people, "
-         "top_institutions, top_cases, date_range, distributions — are aggregated the same way. The enrichment DOES "
-         "shape the map; it just cannot invent a topic the curator never wrote.")
-    note("Layer 3 · centroids\n(DERIVED from embeddings)",
-         "CE-10: centroid = mean(label + description + signature_phrases + exemplar chunks), in the 768-d space. This "
-         "is what retrieval scores against. Rebuilding centroids does NOT change which topics exist — that is layer 1.")
-    note("THE GAP", "Layer 1 has never seen the enrichment of the other 1,025 documents, let alone the 168 BOOK "
-         "chapters arriving in batch-04 — a format those keyword matchers were never written for.", red=True)
-    note("The governed fix",
-         "CE-7  tag the new docs against the CURRENT map, then CLUSTER the orphans\n"
-         "CE-8  DECIDE (human, no CC prompt): retag only / expand / full rebuild\n"
-         "CE-9  if expanding: taxonomy_expansion_PROPOSAL.md, one candidate dimension per section, with sign-off\n"
-         "CE-10 rebuild centroids from scratch under the agreed model\n"
-         "Runbook rule 4: add a topic dimension only from evidence you can point at. Never exercised — batch-03 was a "
-         "correction (retag only) and batch-04 has not started.", key=True)
+    ban("THE TOPIC MODEL — nothing is canonical yet")
+    note("Read this first", "There is NO canonical topic set for this corpus. The 35 topics in "
+         "corpus/voice/topic_map.json are PRIOR ART, not a baseline: hand-written against 79 documents "
+         "and generated 25 May 2026. The taxonomy for the 1,290-document corpus is derived from the "
+         "corpus itself at CE-7 to CE-9, signed off, and only then built into centroids at CE-10. "
+         "Nothing carries over because it is already there.", key=True)
     r += 1
 
-    ban("A SECOND GAP — the assignment does not persist")
+    ban("WHY THE 35 CANNOT CARRY OVER")
+    hdr(["Reason", "What the evidence says", "", "", "", "Consequence"])
+    st = (_json.loads((ROOT / "corpus" / "voice" / "topic_map.json").read_text(encoding="utf-8"))
+          if (ROOT / "corpus" / "voice" / "topic_map.json").exists() else {})
+    cs = st.get("corpus_stats", {})
+    v1n = cs.get("n_docs", 79)
+    v1mix = cs.get("doc_type_distribution", {})
+    line(["Built on a sliver", f"corpus_stats records n_docs = {v1n}: "
+          f"{' · '.join(f'{k} {v}' for k, v in sorted(v1mix.items())) or 'column 64 · speech 15'}. "
+          f"That is {v1n / 12.9:.0f}% of the corpus it now has to cover.", "", "", "",
+          "A taxonomy fitted to a sample is not a taxonomy for the population."], h=32)
+    line(["Never saw a book", "Zero book chapters informed it. 299 are arriving — long-form doctrinal "
+          "argument at a median 2,729 words, against roughly 800 for a column.", "", "", "",
+          "The keyword matchers are column-shaped and were never written for this material."], h=32)
+    line(["Never saw the biography", "Zero biography chapters informed it. 35 are in the corpus.",
+          "", "", "", "The one format that is purely narrative has no dimension of its own."], h=32)
+    line(["Three are already dead", "robot_identity_meta holds 0 documents, honors_received 2, "
+          "death_penalty_and_echegaray 1 — at 79 documents, before the corpus grew.", "", "", "",
+          "They would only look thinner at 1,290."], h=32)
+    line(["Two are the same vector", "honors_received and robot_identity_meta are byte-identical "
+          "zero-chunk centroids sharing one gmean fallback.", "", "", "",
+          "They are polluting secondary tags today. A rebuild must resolve the pair."], h=32)
+    r += 1
+
+    ban("HOW THE TOPIC COUNT IS DERIVED — four converging lines")
+    note("1 · Orphan clustering",
+         "Score every document against the prior-art matchers, take everything that scores zero, and "
+         "cluster it: k-means over k = 2…40, silhouette curve, the knee. Per cluster — size, format mix, "
+         "top TF-IDF terms, exemplars. Cross-checked at chunk level, because a 2,729-word chapter "
+         "averages into mush at document level and may fragment.")
+    note("2 · Enrichment vocabulary",
+         "Aggregate primary_topics and sub_topics across all 1,290 enriched rows. Every distinct value "
+         "appearing in 15 or more documents is a candidate dimension. This is the strongest signal "
+         "available: it is what the curators wrote by hand, document by document, and it was never fed "
+         "back into the taxonomy.", key=True)
+    note("3 · Per-work coverage",
+         "For each of the twelve works, which candidate dimensions its chapters land on and how many go "
+         "unmatched. The eight works entering for the first time carry sustained argument that the "
+         "columns only glance at.")
+    note("4 · Separation and viability",
+         "Provisional centroids for every candidate; pairwise cosine, flagging anything above the merge "
+         "bar as a rephrase; drop any dimension under the minimum document and chunk counts. The tagging "
+         "floor is re-derived from the orphan-rate curve swept 0.55 to 0.80, not inherited at 0.68.")
+    note("Rule 4", "A topic dimension is added only from evidence you can point at. Every dimension in "
+         "the proposal names its cluster or its vocabulary entry, with exemplar doc_ids.", key=True)
+    note("The gate", "CE-7 derives · CE-8 DECIDE (human, no CC prompt) · CE-9 proposal + sign-off · "
+         "CE-10 centroids from scratch. No centroid file is touched before the sign-off is recorded.",
+         key=True)
+    r += 1
+
+    ban("THE 35 PRIOR-ART TOPICS — candidates to test, not a set to preserve")
+    hdr(["Topic id", "Display name", "Tier", "Theme", f"Docs @{v1n}", "Standing in the rebuild"])
+    _t = st.get("topics", [])
+    _t = list(_t.values()) if isinstance(_t, dict) else list(_t)
+    for x in sorted(_t, key=lambda d: (d.get("tier", ""), -(d.get("doc_count") or 0))):
+        n = x.get("doc_count") or 0
+        stand = ("dead at 79 — must re-earn its place" if n < 3
+                 else "candidate — must re-earn its place")
+        line([x.get("id"), x.get("display_name"), x.get("tier"), x.get("theme_anchor"), n, stand],
+             bold_first=False, h=18)
+        ws.cell(r - 1, 1).font = MONOB
+    r += 1
+    note("What 'candidate' means", "A prior-art topic survives into v2 only if the derivation "
+         "independently produces it: a cluster, a vocabulary entry with enough documents behind it, or "
+         "both. Surviving is the normal outcome for the anchors. It is not the default.")
+    r += 1
+
+    ban("THE THREE LAYERS — which are derived, and from what")
+    note("Layer 1 · taxonomy\nWHICH topics exist",
+         "A hand-curated Python list, TAXONOMY, at scripts/build_topic_map.py lines 69-649 — ids, "
+         "display names, definitions, tier, theme anchor and matcher keywords. This is the layer the "
+         "rebuild rewrites. Until CE-9 is signed off, it holds prior art and nothing more.", key=True)
+    note("Layer 2 · assignment and stats\nDERIVED from enrichment",
+         "Each document is scored against every topic by matching title + primary_topics + sub_topics + "
+         "keywords + entity names. doc_count, doc_ids, top_signature_phrases, top_people, "
+         "top_institutions, top_cases, date_range and the distributions are aggregated the same way.")
+    note("Layer 3 · centroids\nDERIVED from embeddings",
+         "CE-10: centroid = mean(label + definition + signature_phrases + exemplar chunks) in the 768-d "
+         "space. This is what retrieval scores against. Rebuilding centroids does not change which "
+         "topics exist — that is layer 1, and layer 1 is a decision, not a computation.")
+    r += 1
+
+    ban("PERSISTENCE — the assignment has to survive regeneration")
     ntp = sum(1 for d in docs if "topic_paths" in d or "topics" in d)
-    note("Measured", f"{ntp} of {tot_now} corpus .json files carry topic_paths or any topic field.", red=True)
-    note("Why", "scripts/apply_topic_paths.py backfills topic_paths into the per-doc .json, but "
-         "generate_corpus_from_xlsx.py rebuilds those .json from the pinned workbooks — which have no topic column — "
-         "so every regeneration WIPES the backfill. The only live tagging is reports/w1_7_pilot_topic_tags.json, "
-         "covering 95 documents.")
-    note("What it means", "P3.3's 'every document tagged with a primary and secondary topic' fails twice: coverage "
-         "AND persistence. Fixing it is a choice — add a topic column to the pinned schema so it survives "
-         "regeneration, or treat the tag file as the system of record and regenerate it after every corpus build. "
-         "A CE-8-adjacent decision, not a bug fix.", key=True)
+    note("Measured", f"{ntp} of {tot_now} corpus .json files carry topic_paths or any topic field.",
+         red=True)
+    note("Why", "apply_topic_paths.py backfills topic_paths into the per-doc .json, but "
+         "generate_corpus_from_xlsx.py rebuilds those .json from the pinned workbooks, which have no "
+         "topic column. Every regeneration wiped the backfill, because the pin was taken before the "
+         "apply step rather than after it.")
+    note("The fixed order", "generate → chunk → embed → topic map → centroids → tag → apply_topic_paths "
+         "→ snapshot.  The pin is taken LAST, so it includes the tags and verify_pin validates a tagged "
+         "corpus. Running snapshot before apply is what broke it.", key=True)
 
     ws.freeze_panes = "A3"
 
@@ -752,16 +815,67 @@ def build_themes_tab(wb):
 FORMAT_POINTER = ("\n\nFORMATS: source .md -> see tab 'Format · Source .md'. Enriched row (15 fields; biography 14) -> "
                   "tab 'Format · Enriched row'. Generated corpus files -> tab 'Format · Corpus output'. "
                   "Themes and IDs -> tab 'Themes & IDs'.")
-# Evidence text appended to specific Project Plan rows. Lives here, not patched into the
-# workbook, so a rebuild does not silently drop it. Keyed by row ID; appended only if the
-# sentinel is not already present in the v2 cell.
-EVIDENCE_ADDENDA = {
-    "P3.3": ("ALSO MEASURED 26 Sep", " ALSO MEASURED 26 Sep: zero of 1,104 corpus .json carry topic_paths - "
-             "apply_topic_paths.py backfills them but generate_corpus_from_xlsx.py rebuilds the .json from the "
-             "pinned workbooks, which have no topic column, so every regeneration wipes it. The taxonomy itself "
-             "(layer 1) is a hand-curated dict in build_topic_map.py written against 79 documents and never "
-             "re-derived; only the assignment and the per-topic stats are derived from enrichment. See the "
-             "'Themes & IDs' tab."),
+# Cell overrides applied to the sheets copied from v2. They live here, not patched into
+# the workbook, so a rebuild cannot silently drop them.
+#   {sheet: {row_id: {column_name: ("replace"|"append", text, sentinel)}}}
+# An "append" is skipped when the sentinel is already present, so it is idempotent.
+ROW_OVERRIDES: dict[str, dict[str, dict[str, tuple]]] = {
+    "Project Plan": {
+        "P3.3": {
+            "Task": ("replace", "Topic model — DERIVE the dimensions, then build them", ""),
+            "Status": ("replace", "[ ] Not started — reset 26 Sep 2026", ""),
+            "Evidence": ("replace",
+                "RESET 26 Sep 2026. This row no longer inherits anything. corpus/voice/topic_map.json "
+                "records corpus_stats.n_docs = 79 (column 64, speech 15, zero books, zero biography), "
+                "generated 2026-05-25 and never re-derived, so its 35 topics are PRIOR ART and not a "
+                "baseline. Three are already degenerate at 79 documents (robot_identity_meta 0, "
+                "honors_received 2, death_penalty_and_echegaray 1) and the first two are byte-identical "
+                "zero-chunk centroids sharing one gmean fallback. The taxonomy for the 1,290-document "
+                "corpus is derived from the corpus at CE-7, decided at CE-8, signed off at CE-9 and "
+                "built into centroids at CE-10. Separately, zero of 1,104 corpus .json carry "
+                "topic_paths: the pin was taken before apply_topic_paths.py rather than after it, so "
+                "every regeneration wiped the backfill. The pipeline order is now generate - chunk - "
+                "embed - map - centroids - tag - apply - snapshot. See the 'Themes & IDs' tab.", ""),
+        },
+    },
+    "Corpus Expansion": {
+        "CE-7": {
+            "Step": ("replace", "DERIVE candidate topic dimensions from the corpus — no inherited map", ""),
+            "How / paste-ready prompt": ("append",
+                "  DERIVE-FIRST AMENDMENT (26 Sep 2026): the existing topic map is prior art, not the "
+                "reference. Score the WHOLE corpus against the prior-art matchers for diagnosis only, "
+                "then derive candidate dimensions from four sources: (1) k-means over the zero-scoring "
+                "documents, k = 2..40 with a silhouette curve, reported at document and chunk level; "
+                "(2) every distinct primary_topics / sub_topics value appearing in 15+ documents that no "
+                "prior-art matcher catches; (3) per-work coverage across all twelve works; (4) pairwise "
+                "cosine on provisional centroids plus an orphan-rate sweep of the floor from 0.55 to "
+                "0.80. Do not assume any prior-art topic survives.",
+                "DERIVE-FIRST AMENDMENT"),
+        },
+        "CE-8": {
+            "Step": ("replace", "DECIDE — the topic count and the dimension list  (the gate)", ""),
+            "How / paste-ready prompt": ("append",
+                "  DERIVE-FIRST AMENDMENT (26 Sep 2026): the branch is no longer retag / expand / "
+                "rebuild, because there is nothing to retag against. The decision is the topic count N "
+                "and the dimension list, taken from the CE-7 evidence, with the tagging floor and the "
+                "fate of every prior-art topic recorded alongside it.",
+                "DERIVE-FIRST AMENDMENT"),
+        },
+        "CE-9": {
+            "Step": ("replace", "Taxonomy proposal + human sign-off  (gate — always, not only on expansion)", ""),
+            "How / paste-ready prompt": ("append",
+                "  DERIVE-FIRST AMENDMENT (26 Sep 2026): the proposal covers the WHOLE taxonomy, not an "
+                "increment to an existing one. One section per dimension with label, definition, "
+                "signature phrases, three or more exemplar doc_ids, and the cluster or vocabulary entry "
+                "it came from. State the recommended N and why that number and not N plus or minus "
+                "three. A prior-art topic appears only if the derivation independently produced it.",
+                "DERIVE-FIRST AMENDMENT"),
+            "Depends on": ("replace", "CE-8", ""),
+        },
+        "CE-10": {
+            "Depends on": ("replace", "CE-9 (sign-off is mandatory)", ""),
+        },
+    },
 }
 
 POINTER_IDS = {"P1.3", "P1.4", "P2.1", "P2.2", "P2.3", "P2.4", "P3.2", "P3.3", "P3.4", "P3.5",
@@ -779,7 +893,6 @@ def copy_sheet(src_ws, wb, how_col_name="How / paste-ready prompt"):
             break
     how_i = hdr.index(how_col_name) + 1 if how_col_name in hdr else None
     id_i = hdr.index("ID") + 1 if "ID" in hdr else None
-    ev_i = hdr.index("Evidence") + 1 if "Evidence" in hdr else None
 
     for r in range(1, src_ws.max_row + 1):
         for c in range(1, ncols + 1):
@@ -789,10 +902,15 @@ def copy_sheet(src_ws, wb, how_col_name="How / paste-ready prompt"):
             if (how_i and c == how_i and id_i and str(src_ws.cell(r, id_i).value or "").strip() in POINTER_IDS
                     and isinstance(v, str) and "FORMATS:" not in v):
                 v = v + FORMAT_POINTER
-            if ev_i and c == ev_i and id_i and isinstance(v, str):
-                add = EVIDENCE_ADDENDA.get(str(src_ws.cell(r, id_i).value or "").strip())
-                if add and add[0] not in v:
-                    v = v + add[1]
+            if id_i and isinstance(v, str) and hdr and c <= len(hdr):
+                ov = ROW_OVERRIDES.get(src_ws.title, {}).get(
+                    str(src_ws.cell(r, id_i).value or "").strip(), {}).get(hdr[c - 1])
+                if ov:
+                    mode, text, sentinel = ov
+                    if mode == "replace":
+                        v = text
+                    elif sentinel not in v:
+                        v = v + text
             cell = ws.cell(r, c)
             cell.value = v
             cell.font = BODY
