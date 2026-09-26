@@ -696,6 +696,9 @@ def load_docs() -> list[tuple[Path, dict[str, Any]]]:
         out.append((p, json.loads(p.read_text(encoding="utf-8"))))
     for p in sorted(CORPUS_ROOT.glob("biography/**/*.json")):
         out.append((p, json.loads(p.read_text(encoding="utf-8"))))
+    # CE-10 Step 0a: books/** was never globbed, so layer 2 never saw a book chapter (299 of 1,290 docs).
+    for p in sorted(CORPUS_ROOT.glob("books/**/*.json")):
+        out.append((p, json.loads(p.read_text(encoding="utf-8"))))
     return out
 
 
