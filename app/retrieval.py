@@ -31,27 +31,50 @@ import config
 sys.path.insert(0, str(_REPO_ROOT / "app"))
 import embeddings  # noqa: E402
 import sparse  # noqa: E402
+import centering  # noqa: E402   CE-10: corpus-mean centring (the only loader of corpus_mean.npy)
 
 # ---- resident singletons ----
-_CENTROIDS = None    # (matrix [n_topics,dim], meta)
-_PILOT = None        # (matrix [n_chunks,dim], chunk_ids, doc_ids, chunk_centroid_sims)
+_CENTROIDS = None    # (matrix [n_topics,dim] — CENTRED unit vectors, meta)
+_MU = None           # corpus mean vector the centroids were built against (sha256-verified at load)
+_PILOT = None        # (matrix [n_chunks,dim] RAW, chunk_ids, doc_ids, chunk_centroid_sims CENTRED)
 
 
 def _load_centroids():
-    global _CENTROIDS
+    """Centred topic centroids + meta. RAISES (centering.CorpusMeanError) if corpus_mean.npy is missing, does
+    not match the sha256 in the centroid meta, or the meta does not declare scale='centred' — never falls back
+    to raw (CE-10 Step 1)."""
+    global _CENTROIDS, _MU
     if _CENTROIDS is None:
         m = json.loads(Path(config.CENTROIDS_META_PATH).read_text(encoding="utf-8"))
-        _CENTROIDS = (np.load(config.CENTROIDS_PATH).astype(np.float32), m)
+        mu = centering.mean_for_meta(m)
+        cen = np.load(config.CENTROIDS_PATH).astype(np.float32)
+        if cen.shape[0] != len(m["topic_ids"]) or not np.allclose(np.linalg.norm(cen, axis=1), 1.0, atol=1e-3):
+            raise centering.CorpusMeanError("centroid matrix does not match its meta / is not unit-norm")
+        _MU = mu
+        _CENTROIDS = (cen, m)
     return _CENTROIDS
 
 
+def _corpus_mean():
+    _load_centroids()
+    return _MU
+
+
 def _load_pilot():
-    """Pilot dense matrix + the precomputed chunk→centroid sims (for topic_affinity)."""
+    """Runtime dense matrix (RAW, for the dense arm) + the precomputed chunk→centroid sims used by
+    topic_affinity, taken on CENTRED chunk vectors (site 2 of 3 — same mean as the centroids)."""
     global _PILOT
     if _PILOT is None:
         mat, meta = embeddings.load_dense_index()
-        cen, _ = _load_centroids()
-        _PILOT = (mat.astype(np.float32), meta["chunk_ids"], meta["doc_ids"], mat @ cen.T)
+        cen, cmeta = _load_centroids()
+        want = (cmeta.get("corpus_mean") or {}).get("chunk_index_sha256")
+        have = meta.get("corpus_chunk_index_sha256")
+        if want and have and want != have:
+            raise centering.CorpusMeanError(
+                f"runtime dense index was built from chunk_index {have}, but the corpus mean/centroids were built "
+                f"from {want}: the centred affinities would be computed against a different chunk set.")
+        mat = mat.astype(np.float32)
+        _PILOT = (mat, meta["chunk_ids"], meta["doc_ids"], centering.center(mat, _MU) @ cen.T)
     return _PILOT
 
 
@@ -83,12 +106,15 @@ def input_gate(query: str) -> dict:
 
 
 def route(query: str, qv: np.ndarray | None = None) -> dict:
-    """Centroid soft prior. Returns relevance over the 34 topics + in/out scope.
-    Theme BIASES retrieval (via topic_affinity); it never gates."""
+    """Centroid soft prior. Returns relevance over the topics + in/out scope.
+    Theme BIASES retrieval (via topic_affinity); it never gates.
+
+    CE-10 (site 3 of 3): the query is CENTRED on the corpus mean before the centroid cosine; `qv` in the returned
+    dict stays RAW because the dense arm (`mat @ qv`) is a raw-space retrieval and must not change."""
     cen, meta = _load_centroids()
     if qv is None:
         qv = embeddings.embed_query(query)
-    cos = cen @ qv                                   # [n_topics]
+    cos = cen @ centering.center(qv, _MU)            # [n_topics]  centred·centred
     relevance = _softmax(cos, config.TOPIC_SOFTMAX_TEMPERATURE)
     top = int(cos.argmax())
     in_scope = bool(cos[top] >= config.OUT_OF_SCOPE_THRESHOLD)   # P3: provisional floor

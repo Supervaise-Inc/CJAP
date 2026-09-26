@@ -562,6 +562,12 @@ CORPUS_DENSE_META_PATH: Path = _env_path("CJ_CORPUS_DENSE_META_PATH", REPO_ROOT 
 # Persisted topic centroids (n_topics x EMBED_DIM) + meta.
 CENTROIDS_PATH: Path = _env_path("CJ_CENTROIDS_PATH", REPO_ROOT / "data" / "index" / "topic_centroids.npy")
 CENTROIDS_META_PATH: Path = _env_path("CJ_CENTROIDS_META_PATH", REPO_ROOT / "data" / "index" / "topic_centroids_meta.json")
+# CE-10: the corpus mean vector (mean of every chunk in corpus_dense.npy). Every cosine that touches a topic
+# centroid is taken on vectors centred on THIS file's vector (centred = unit(v - mean)); raw cosine is below the
+# noise floor in this space (independent random document groups score 0.98 raw). Written once by
+# scripts/build_corpus_mean.py; its sha256 is recorded in the centroid meta and re-checked at every load.
+# Missing or mismatching => the loaders raise; there is NO fallback to raw.
+CORPUS_MEAN_PATH: Path = _env_path("CJ_CORPUS_MEAN_PATH", REPO_ROOT / "data" / "index" / "corpus_mean.npy")
 # Exemplar member chunks averaged into each centroid (with label/description/
 # signature_phrases). More → smoother centroid (↑stability, ↑build cost).
 N_EXEMPLAR_CHUNKS: int = _env_int("CJ_N_EXEMPLAR_CHUNKS", 8)
