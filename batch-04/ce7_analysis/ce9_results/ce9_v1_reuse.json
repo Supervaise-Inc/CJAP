@@ -1,0 +1,322 @@
+{
+ "ai_and_technology": {
+  "dim": 12,
+  "cos": 0.6494408065432146,
+  "dim_n": 39,
+  "caught": 99,
+  "ratio": 2.5384615384615383,
+  "P3": 0.29292929292929293,
+  "inside": 21,
+  "reusable": false
+ },
+ "asean_law_association": {
+  "dim": 25,
+  "cos": 0.8591801819538121,
+  "dim_n": 24,
+  "caught": 39,
+  "ratio": 1.625,
+  "P3": 0.6153846153846154,
+  "inside": 10,
+  "reusable": true
+ },
+ "bar_exam_and_legal_education": {
+  "dim": 1,
+  "cos": 0.7307839139447361,
+  "dim_n": 148,
+  "caught": 132,
+  "ratio": 0.8918918918918919,
+  "P3": 0.4393939393939394,
+  "inside": 43,
+  "reusable": false
+ },
+ "constitutional_doctrine": {
+  "dim": 14,
+  "cos": 0.689305036967309,
+  "dim_n": 35,
+  "caught": 611,
+  "ratio": 17.457142857142856,
+  "P3": 0.19476268412438624,
+  "inside": 30,
+  "reusable": false
+ },
+ "death_penalty_and_echegaray": {
+  "dim": 6,
+  "cos": 0.6049627289910302,
+  "dim_n": 56,
+  "caught": 30,
+  "ratio": 0.5357142857142857,
+  "P3": 0.43333333333333335,
+  "inside": 11,
+  "reusable": false
+ },
+ "due_process": {
+  "dim": 6,
+  "cos": 0.6587597882513072,
+  "dim_n": 56,
+  "caught": 145,
+  "ratio": 2.5892857142857144,
+  "P3": 0.3793103448275862,
+  "inside": 12,
+  "reusable": false
+ },
+ "early_life_sampaloc": {
+  "dim": 1,
+  "cos": 0.9221658526761811,
+  "dim_n": 148,
+  "caught": 87,
+  "ratio": 0.5878378378378378,
+  "P3": 0.7816091954022989,
+  "inside": 55,
+  "reusable": true
+ },
+ "economic_governance_and_business_law": {
+  "dim": 19,
+  "cos": 0.8613314809592715,
+  "dim_n": 27,
+  "caught": 43,
+  "ratio": 1.5925925925925926,
+  "P3": 0.6046511627906976,
+  "inside": 10,
+  "reusable": true
+ },
+ "eez_resource_sovereignty": {
+  "dim": 3,
+  "cos": 0.6741974077374029,
+  "dim_n": 64,
+  "caught": 29,
+  "ratio": 0.453125,
+  "P3": 0.5517241379310345,
+  "inside": 9,
+  "reusable": false
+ },
+ "eulogies_and_passing": {
+  "dim": 1,
+  "cos": 0.8649377530326173,
+  "dim_n": 148,
+  "caught": 109,
+  "ratio": 0.7364864864864865,
+  "P3": 0.44954128440366975,
+  "inside": 38,
+  "reusable": false
+ },
+ "faith_journey": {
+  "dim": 1,
+  "cos": 0.9160359237269433,
+  "dim_n": 148,
+  "caught": 298,
+  "ratio": 2.0135135135135136,
+  "P3": 0.4865771812080537,
+  "inside": 100,
+  "reusable": false
+ },
+ "family_and_marriage": {
+  "dim": 1,
+  "cos": 0.934349694251172,
+  "dim_n": 148,
+  "caught": 272,
+  "ratio": 1.837837837837838,
+  "P3": 0.46691176470588236,
+  "inside": 90,
+  "reusable": false
+ },
+ "flp_donors_and_partners": {
+  "dim": 15,
+  "cos": 0.8943127032648261,
+  "dim_n": 33,
+  "caught": 143,
+  "ratio": 4.333333333333333,
+  "P3": 0.4965034965034965,
+  "inside": 29,
+  "reusable": false
+ },
+ "flp_scholarship_programs": {
+  "dim": 15,
+  "cos": 0.8943325040283975,
+  "dim_n": 33,
+  "caught": 109,
+  "ratio": 3.303030303030303,
+  "P3": 0.6146788990825688,
+  "inside": 28,
+  "reusable": false
+ },
+ "foundation_for_liberty_and_prosperity": {
+  "dim": 15,
+  "cos": 0.9057983821174913,
+  "dim_n": 33,
+  "caught": 136,
+  "ratio": 4.121212121212121,
+  "P3": 0.5882352941176471,
+  "inside": 33,
+  "reusable": false
+ },
+ "friendships_and_civic_circles": {
+  "dim": 1,
+  "cos": 0.8609971113922144,
+  "dim_n": 148,
+  "caught": 76,
+  "ratio": 0.5135135135135135,
+  "P3": 0.5657894736842105,
+  "inside": 29,
+  "reusable": false
+ },
+ "global_geopolitics": {
+  "dim": 17,
+  "cos": 0.7655674806291065,
+  "dim_n": 29,
+  "caught": 83,
+  "ratio": 2.8620689655172415,
+  "P3": 0.40963855421686746,
+  "inside": 26,
+  "reusable": false
+ },
+ "honors_received": {
+  "dim": 9,
+  "cos": 0.6947496422270223,
+  "dim_n": 43,
+  "caught": 24,
+  "ratio": 0.5581395348837209,
+  "P3": 0.2916666666666667,
+  "inside": 4,
+  "reusable": false
+ },
+ "icc_and_duterte": {
+  "dim": 20,
+  "cos": 0.5428074517995352,
+  "dim_n": 26,
+  "caught": 156,
+  "ratio": 6.0,
+  "P3": 0.16025641025641027,
+  "inside": 9,
+  "reusable": false
+ },
+ "impeachment_accountability": {
+  "dim": 14,
+  "cos": 0.8430711944230089,
+  "dim_n": 35,
+  "caught": 171,
+  "ratio": 4.885714285714286,
+  "P3": 0.391812865497076,
+  "inside": 27,
+  "reusable": false
+ },
+ "international_law_disputes": {
+  "dim": 3,
+  "cos": 0.9466888920025833,
+  "dim_n": 64,
+  "caught": 78,
+  "ratio": 1.21875,
+  "P3": 0.6794871794871795,
+  "inside": 46,
+  "reusable": true
+ },
+ "jbc_discernment_and_appointment": {
+  "dim": 33,
+  "cos": 0.8293332628260418,
+  "dim_n": 20,
+  "caught": 110,
+  "ratio": 5.5,
+  "P3": 0.5181818181818182,
+  "inside": 19,
+  "reusable": false
+ },
+ "judicial_activism_and_political_question": {
+  "dim": 19,
+  "cos": 0.5656191463397537,
+  "dim_n": 27,
+  "caught": 78,
+  "ratio": 2.888888888888889,
+  "P3": 0.2692307692307692,
+  "inside": 10,
+  "reusable": false
+ },
+ "judicial_reform": {
+  "dim": 10,
+  "cos": 0.8424280854312671,
+  "dim_n": 42,
+  "caught": 106,
+  "ratio": 2.5238095238095237,
+  "P3": 0.5754716981132075,
+  "inside": 27,
+  "reusable": false
+ },
+ "mentors_and_legal_lineage": {
+  "dim": 1,
+  "cos": 0.7787140787312581,
+  "dim_n": 148,
+  "caught": 156,
+  "ratio": 1.054054054054054,
+  "P3": 0.4166666666666667,
+  "inside": 48,
+  "reusable": false
+ },
+ "msme_and_entrepreneurship+prosperity_fund_msme": {
+  "dim": 15,
+  "cos": 0.8687204066649066,
+  "dim_n": 33,
+  "caught": 47,
+  "ratio": 1.4242424242424243,
+  "P3": 0.574468085106383,
+  "inside": 15,
+  "reusable": false
+ },
+ "museum_for_liberty_and_prosperity": {
+  "dim": 15,
+  "cos": 0.8971394114200231,
+  "dim_n": 33,
+  "caught": 20,
+  "ratio": 0.6060606060606061,
+  "P3": 0.95,
+  "inside": 11,
+  "reusable": true
+ },
+ "philippine_political_landscape": {
+  "dim": 7,
+  "cos": 0.7318544486477891,
+  "dim_n": 53,
+  "caught": 238,
+  "ratio": 4.490566037735849,
+  "P3": 0.25630252100840334,
+  "inside": 34,
+  "reusable": false
+ },
+ "rule_of_law": {
+  "dim": 19,
+  "cos": 0.7207901595330817,
+  "dim_n": 27,
+  "caught": 211,
+  "ratio": 7.814814814814815,
+  "P3": 0.2796208530805687,
+  "inside": 20,
+  "reusable": false
+ },
+ "supreme_court_history": {
+  "dim": 5,
+  "cos": 0.6260863100600327,
+  "dim_n": 59,
+  "caught": 406,
+  "ratio": 6.88135593220339,
+  "P3": 0.19458128078817735,
+  "inside": 32,
+  "reusable": false
+ },
+ "twin_beacons_doctrine": {
+  "dim": 15,
+  "cos": 0.8313946991354575,
+  "dim_n": 33,
+  "caught": 213,
+  "ratio": 6.454545454545454,
+  "P3": 0.4084507042253521,
+  "inside": 33,
+  "reusable": false
+ },
+ "with_due_respect_persona": {
+  "dim": 18,
+  "cos": 0.5430063511210045,
+  "dim_n": 27,
+  "caught": 197,
+  "ratio": 7.296296296296297,
+  "P3": 0.15736040609137056,
+  "inside": 9,
+  "reusable": false
+ }
+}

@@ -1,0 +1,62 @@
+{
+ "archived": {
+  "n_topics": 3,
+  "premerge_n_topics": 34,
+  "merge_cosine": 0.95,
+  "merged_pairs": 220
+ },
+ "stored_v1": {
+  "n_topics": 34,
+  "n_pairs": 561,
+  "raw_mean": 0.9333751242558724,
+  "raw_median": 0.9417338516584519,
+  "raw_min": 0.7532730670023626,
+  "raw_max": 1.0000001416700224
+ },
+ "sweep": {
+  "0.9": {
+   "topics_left": 2,
+   "pairs_above": 477
+  },
+  "0.92": {
+   "topics_left": 2,
+   "pairs_above": 395
+  },
+  "0.94": {
+   "topics_left": 2,
+   "pairs_above": 291
+  },
+  "0.95": {
+   "topics_left": 3,
+   "pairs_above": 220
+  },
+  "0.96": {
+   "topics_left": 3,
+   "pairs_above": 158
+  },
+  "0.97": {
+   "topics_left": 5,
+   "pairs_above": 100
+  },
+  "0.98": {
+   "topics_left": 10,
+   "pairs_above": 41
+  },
+  "0.99": {
+   "topics_left": 26,
+   "pairs_above": 11
+  },
+  "1.01": {
+   "topics_left": 34,
+   "pairs_above": 0
+  }
+ },
+ "random_groups_30": {
+  "n": 600,
+  "raw_mean": 0.9836101701179852,
+  "raw_min": 0.9617246122955656,
+  "centred_mean": -0.026525029984233072,
+  "centred_p95": 0.24297337315409354,
+  "centred_max": 0.4222246545232262
+ }
+}

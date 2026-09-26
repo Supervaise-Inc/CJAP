@@ -1,0 +1,649 @@
+{
+ "candidates": {
+  "orphan P0 k=4 \u00b7 c1": {
+   "n": 30,
+   "landing": [
+    {
+     "dim": 2,
+     "docs": 4,
+     "share_of_candidate": 0.13333333333333333,
+     "share_of_dim": 0.0425531914893617
+    },
+    {
+     "dim": 4,
+     "docs": 3,
+     "share_of_candidate": 0.1,
+     "share_of_dim": 0.04838709677419355
+    },
+    {
+     "dim": 12,
+     "docs": 3,
+     "share_of_candidate": 0.1,
+     "share_of_dim": 0.07692307692307693
+    }
+   ]
+  },
+  "orphan P2 k=12 \u00b7 c2": {
+   "n": 22,
+   "landing": [
+    {
+     "dim": 23,
+     "docs": 15,
+     "share_of_candidate": 0.6818181818181818,
+     "share_of_dim": 0.5769230769230769
+    },
+    {
+     "dim": 1,
+     "docs": 4,
+     "share_of_candidate": 0.18181818181818182,
+     "share_of_dim": 0.02702702702702703
+    },
+    {
+     "dim": 20,
+     "docs": 1,
+     "share_of_candidate": 0.045454545454545456,
+     "share_of_dim": 0.038461538461538464
+    }
+   ]
+  },
+  "orphan P2 k=12 \u00b7 c4": {
+   "n": 17,
+   "landing": [
+    {
+     "dim": 13,
+     "docs": 5,
+     "share_of_candidate": 0.29411764705882354,
+     "share_of_dim": 0.1388888888888889
+    },
+    {
+     "dim": 16,
+     "docs": 4,
+     "share_of_candidate": 0.23529411764705882,
+     "share_of_dim": 0.125
+    },
+    {
+     "dim": 4,
+     "docs": 2,
+     "share_of_candidate": 0.11764705882352941,
+     "share_of_dim": 0.03225806451612903
+    }
+   ]
+  },
+  "orphan P2 k=12 \u00b7 c1": {
+   "n": 14,
+   "landing": [
+    {
+     "dim": 4,
+     "docs": 8,
+     "share_of_candidate": 0.5714285714285714,
+     "share_of_dim": 0.12903225806451613
+    },
+    {
+     "dim": 6,
+     "docs": 2,
+     "share_of_candidate": 0.14285714285714285,
+     "share_of_dim": 0.03571428571428571
+    },
+    {
+     "dim": 5,
+     "docs": 1,
+     "share_of_candidate": 0.07142857142857142,
+     "share_of_dim": 0.01694915254237288
+    }
+   ]
+  },
+  "orphan P2 k=12 \u00b7 c7": {
+   "n": 13,
+   "landing": [
+    {
+     "dim": 8,
+     "docs": 7,
+     "share_of_candidate": 0.5384615384615384,
+     "share_of_dim": 0.14583333333333334
+    },
+    {
+     "dim": 17,
+     "docs": 2,
+     "share_of_candidate": 0.15384615384615385,
+     "share_of_dim": 0.06896551724137931
+    },
+    {
+     "dim": 18,
+     "docs": 1,
+     "share_of_candidate": 0.07692307692307693,
+     "share_of_dim": 0.037037037037037035
+    }
+   ]
+  },
+  "orphan P2 k=12 \u00b7 c8": {
+   "n": 11,
+   "landing": [
+    {
+     "dim": 24,
+     "docs": 5,
+     "share_of_candidate": 0.45454545454545453,
+     "share_of_dim": 0.20833333333333334
+    },
+    {
+     "dim": 1,
+     "docs": 3,
+     "share_of_candidate": 0.2727272727272727,
+     "share_of_dim": 0.02027027027027027
+    },
+    {
+     "dim": 13,
+     "docs": 2,
+     "share_of_candidate": 0.18181818181818182,
+     "share_of_dim": 0.05555555555555555
+    }
+   ]
+  },
+  "orphan P2 k=12 \u00b7 c3": {
+   "n": 10,
+   "landing": [
+    {
+     "dim": 12,
+     "docs": 8,
+     "share_of_candidate": 0.8,
+     "share_of_dim": 0.20512820512820512
+    },
+    {
+     "dim": 13,
+     "docs": 2,
+     "share_of_candidate": 0.2,
+     "share_of_dim": 0.05555555555555555
+    }
+   ]
+  },
+  "orphan P2 k=12 \u00b7 c10": {
+   "n": 10,
+   "landing": [
+    {
+     "dim": 11,
+     "docs": 2,
+     "share_of_candidate": 0.2,
+     "share_of_dim": 0.05
+    },
+    {
+     "dim": 32,
+     "docs": 2,
+     "share_of_candidate": 0.2,
+     "share_of_dim": 0.09523809523809523
+    },
+    {
+     "dim": 6,
+     "docs": 1,
+     "share_of_candidate": 0.1,
+     "share_of_dim": 0.017857142857142856
+    }
+   ]
+  },
+  "orphan P2 k=12 \u00b7 c12": {
+   "n": 10,
+   "landing": [
+    {
+     "dim": 13,
+     "docs": 4,
+     "share_of_candidate": 0.4,
+     "share_of_dim": 0.1111111111111111
+    },
+    {
+     "dim": 25,
+     "docs": 2,
+     "share_of_candidate": 0.2,
+     "share_of_dim": 0.08333333333333333
+    },
+    {
+     "dim": 3,
+     "docs": 2,
+     "share_of_candidate": 0.2,
+     "share_of_dim": 0.03125
+    }
+   ]
+  },
+  "kw \u00b7 supreme court": {
+   "n": 75,
+   "landing": [
+    {
+     "dim": 5,
+     "docs": 11,
+     "share_of_candidate": 0.14666666666666667,
+     "share_of_dim": 0.1864406779661017
+    },
+    {
+     "dim": 7,
+     "docs": 9,
+     "share_of_candidate": 0.12,
+     "share_of_dim": 0.16981132075471697
+    },
+    {
+     "dim": 11,
+     "docs": 6,
+     "share_of_candidate": 0.08,
+     "share_of_dim": 0.15
+    }
+   ]
+  },
+  "kw \u00b7 congress": {
+   "n": 15,
+   "landing": [
+    {
+     "dim": 7,
+     "docs": 4,
+     "share_of_candidate": 0.26666666666666666,
+     "share_of_dim": 0.07547169811320754
+    },
+    {
+     "dim": 5,
+     "docs": 2,
+     "share_of_candidate": 0.13333333333333333,
+     "share_of_dim": 0.03389830508474576
+    },
+    {
+     "dim": 11,
+     "docs": 2,
+     "share_of_candidate": 0.13333333333333333,
+     "share_of_dim": 0.05
+    }
+   ]
+  },
+  "kw \u00b7 grave abuse of discretion": {
+   "n": 50,
+   "landing": [
+    {
+     "dim": 4,
+     "docs": 12,
+     "share_of_candidate": 0.24,
+     "share_of_dim": 0.1935483870967742
+    },
+    {
+     "dim": 5,
+     "docs": 6,
+     "share_of_candidate": 0.12,
+     "share_of_dim": 0.1016949152542373
+    },
+    {
+     "dim": 14,
+     "docs": 6,
+     "share_of_candidate": 0.12,
+     "share_of_dim": 0.17142857142857143
+    }
+   ]
+  },
+  "kw \u00b7 judicial independence": {
+   "n": 22,
+   "landing": [
+    {
+     "dim": 5,
+     "docs": 11,
+     "share_of_candidate": 0.5,
+     "share_of_dim": 0.1864406779661017
+    },
+    {
+     "dim": 12,
+     "docs": 3,
+     "share_of_candidate": 0.13636363636363635,
+     "share_of_dim": 0.07692307692307693
+    },
+    {
+     "dim": 33,
+     "docs": 2,
+     "share_of_candidate": 0.09090909090909091,
+     "share_of_dim": 0.1
+    }
+   ]
+  },
+  "kw \u00b7 integrity": {
+   "n": 27,
+   "landing": [
+    {
+     "dim": 33,
+     "docs": 6,
+     "share_of_candidate": 0.2222222222222222,
+     "share_of_dim": 0.3
+    },
+    {
+     "dim": 7,
+     "docs": 4,
+     "share_of_candidate": 0.14814814814814814,
+     "share_of_dim": 0.07547169811320754
+    },
+    {
+     "dim": 1,
+     "docs": 3,
+     "share_of_candidate": 0.1111111111111111,
+     "share_of_dim": 0.02027027027027027
+    }
+   ]
+  },
+  "kw \u00b7 reynato s. puno": {
+   "n": 21,
+   "landing": [
+    {
+     "dim": 4,
+     "docs": 7,
+     "share_of_candidate": 0.3333333333333333,
+     "share_of_dim": 0.11290322580645161
+    },
+    {
+     "dim": 9,
+     "docs": 3,
+     "share_of_candidate": 0.14285714285714285,
+     "share_of_dim": 0.06976744186046512
+    },
+    {
+     "dim": 8,
+     "docs": 2,
+     "share_of_candidate": 0.09523809523809523,
+     "share_of_dim": 0.041666666666666664
+    }
+   ]
+  },
+  "kw \u00b7 ombudsman": {
+   "n": 17,
+   "landing": [
+    {
+     "dim": 2,
+     "docs": 4,
+     "share_of_candidate": 0.23529411764705882,
+     "share_of_dim": 0.0425531914893617
+    },
+    {
+     "dim": 18,
+     "docs": 3,
+     "share_of_candidate": 0.17647058823529413,
+     "share_of_dim": 0.1111111111111111
+    },
+    {
+     "dim": 16,
+     "docs": 3,
+     "share_of_candidate": 0.17647058823529413,
+     "share_of_dim": 0.09375
+    }
+   ]
+  },
+  "kw \u00b7 sandiganbayan": {
+   "n": 26,
+   "landing": [
+    {
+     "dim": 2,
+     "docs": 13,
+     "share_of_candidate": 0.5,
+     "share_of_dim": 0.13829787234042554
+    },
+    {
+     "dim": 27,
+     "docs": 5,
+     "share_of_candidate": 0.19230769230769232,
+     "share_of_dim": 0.21739130434782608
+    },
+    {
+     "dim": 6,
+     "docs": 2,
+     "share_of_candidate": 0.07692307692307693,
+     "share_of_dim": 0.03571428571428571
+    }
+   ]
+  },
+  "kw \u00b7 vicente v. mendoza": {
+   "n": 18,
+   "landing": [
+    {
+     "dim": 6,
+     "docs": 4,
+     "share_of_candidate": 0.2222222222222222,
+     "share_of_dim": 0.07142857142857142
+    },
+    {
+     "dim": 11,
+     "docs": 3,
+     "share_of_candidate": 0.16666666666666666,
+     "share_of_dim": 0.075
+    },
+    {
+     "dim": 8,
+     "docs": 2,
+     "share_of_candidate": 0.1111111111111111,
+     "share_of_dim": 0.041666666666666664
+    }
+   ]
+  },
+  "kw \u00b7 transparency": {
+   "n": 24,
+   "landing": [
+    {
+     "dim": 7,
+     "docs": 5,
+     "share_of_candidate": 0.20833333333333334,
+     "share_of_dim": 0.09433962264150944
+    },
+    {
+     "dim": 12,
+     "docs": 4,
+     "share_of_candidate": 0.16666666666666666,
+     "share_of_dim": 0.10256410256410256
+    },
+    {
+     "dim": 9,
+     "docs": 3,
+     "share_of_candidate": 0.125,
+     "share_of_dim": 0.06976744186046512
+    }
+   ]
+  },
+  "kw \u00b7 fidel v. ramos": {
+   "n": 20,
+   "landing": [
+    {
+     "dim": 1,
+     "docs": 6,
+     "share_of_candidate": 0.3,
+     "share_of_dim": 0.04054054054054054
+    },
+    {
+     "dim": 7,
+     "docs": 2,
+     "share_of_candidate": 0.1,
+     "share_of_dim": 0.03773584905660377
+    },
+    {
+     "dim": 8,
+     "docs": 2,
+     "share_of_candidate": 0.1,
+     "share_of_dim": 0.041666666666666664
+    }
+   ]
+  },
+  "kw \u00b7 people power": {
+   "n": 17,
+   "landing": [
+    {
+     "dim": 7,
+     "docs": 8,
+     "share_of_candidate": 0.47058823529411764,
+     "share_of_dim": 0.1509433962264151
+    },
+    {
+     "dim": 1,
+     "docs": 2,
+     "share_of_candidate": 0.11764705882352941,
+     "share_of_dim": 0.013513513513513514
+    },
+    {
+     "dim": 8,
+     "docs": 2,
+     "share_of_candidate": 0.11764705882352941,
+     "share_of_dim": 0.041666666666666664
+    }
+   ]
+  },
+  "kw \u00b7 hilario g. davide jr.": {
+   "n": 23,
+   "landing": [
+    {
+     "dim": 10,
+     "docs": 9,
+     "share_of_candidate": 0.391304347826087,
+     "share_of_dim": 0.21428571428571427
+    },
+    {
+     "dim": 31,
+     "docs": 3,
+     "share_of_candidate": 0.13043478260869565,
+     "share_of_dim": 0.14285714285714285
+    },
+    {
+     "dim": 5,
+     "docs": 2,
+     "share_of_candidate": 0.08695652173913043,
+     "share_of_dim": 0.03389830508474576
+    }
+   ]
+  },
+  "kw \u00b7 constitution": {
+   "n": 18,
+   "landing": [
+    {
+     "dim": 5,
+     "docs": 2,
+     "share_of_candidate": 0.1111111111111111,
+     "share_of_dim": 0.03389830508474576
+    },
+    {
+     "dim": 14,
+     "docs": 2,
+     "share_of_candidate": 0.1111111111111111,
+     "share_of_dim": 0.05714285714285714
+    },
+    {
+     "dim": 21,
+     "docs": 2,
+     "share_of_candidate": 0.1111111111111111,
+     "share_of_dim": 0.07692307692307693
+    }
+   ]
+  }
+ },
+ "by_dimension": {
+  "23": [
+   {
+    "candidate": "orphan P2 k=12 \u00b7 c2",
+    "docs": 15,
+    "share_of_candidate": 0.6818181818181818,
+    "share_of_dim": 0.5769230769230769
+   }
+  ],
+  "13": [
+   {
+    "candidate": "orphan P2 k=12 \u00b7 c4",
+    "docs": 5,
+    "share_of_candidate": 0.29411764705882354,
+    "share_of_dim": 0.1388888888888889
+   },
+   {
+    "candidate": "orphan P2 k=12 \u00b7 c12",
+    "docs": 4,
+    "share_of_candidate": 0.4,
+    "share_of_dim": 0.1111111111111111
+   }
+  ],
+  "4": [
+   {
+    "candidate": "orphan P2 k=12 \u00b7 c1",
+    "docs": 8,
+    "share_of_candidate": 0.5714285714285714,
+    "share_of_dim": 0.12903225806451613
+   },
+   {
+    "candidate": "kw \u00b7 reynato s. puno",
+    "docs": 7,
+    "share_of_candidate": 0.3333333333333333,
+    "share_of_dim": 0.11290322580645161
+   }
+  ],
+  "8": [
+   {
+    "candidate": "orphan P2 k=12 \u00b7 c7",
+    "docs": 7,
+    "share_of_candidate": 0.5384615384615384,
+    "share_of_dim": 0.14583333333333334
+   }
+  ],
+  "24": [
+   {
+    "candidate": "orphan P2 k=12 \u00b7 c8",
+    "docs": 5,
+    "share_of_candidate": 0.45454545454545453,
+    "share_of_dim": 0.20833333333333334
+   }
+  ],
+  "1": [
+   {
+    "candidate": "orphan P2 k=12 \u00b7 c8",
+    "docs": 3,
+    "share_of_candidate": 0.2727272727272727,
+    "share_of_dim": 0.02027027027027027
+   },
+   {
+    "candidate": "kw \u00b7 fidel v. ramos",
+    "docs": 6,
+    "share_of_candidate": 0.3,
+    "share_of_dim": 0.04054054054054054
+   }
+  ],
+  "12": [
+   {
+    "candidate": "orphan P2 k=12 \u00b7 c3",
+    "docs": 8,
+    "share_of_candidate": 0.8,
+    "share_of_dim": 0.20512820512820512
+   }
+  ],
+  "7": [
+   {
+    "candidate": "kw \u00b7 congress",
+    "docs": 4,
+    "share_of_candidate": 0.26666666666666666,
+    "share_of_dim": 0.07547169811320754
+   },
+   {
+    "candidate": "kw \u00b7 people power",
+    "docs": 8,
+    "share_of_candidate": 0.47058823529411764,
+    "share_of_dim": 0.1509433962264151
+   }
+  ],
+  "5": [
+   {
+    "candidate": "kw \u00b7 judicial independence",
+    "docs": 11,
+    "share_of_candidate": 0.5,
+    "share_of_dim": 0.1864406779661017
+   }
+  ],
+  "33": [
+   {
+    "candidate": "kw \u00b7 integrity",
+    "docs": 6,
+    "share_of_candidate": 0.2222222222222222,
+    "share_of_dim": 0.3
+   }
+  ],
+  "2": [
+   {
+    "candidate": "kw \u00b7 sandiganbayan",
+    "docs": 13,
+    "share_of_candidate": 0.5,
+    "share_of_dim": 0.13829787234042554
+   }
+  ],
+  "10": [
+   {
+    "candidate": "kw \u00b7 hilario g. davide jr.",
+    "docs": 9,
+    "share_of_candidate": 0.391304347826087,
+    "share_of_dim": 0.21428571428571427
+   }
+  ]
+ }
+}

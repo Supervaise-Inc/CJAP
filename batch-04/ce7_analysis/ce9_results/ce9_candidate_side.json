@@ -1,0 +1,1918 @@
+{
+ "1": {
+  "n": 148,
+  "formats": {
+   "books": 22,
+   "columns": 54,
+   "biography": 20,
+   "speeches": 52
+  },
+  "themes": {
+   "A": 12,
+   "B": 3,
+   "C": 127,
+   "D": 3,
+   "E": 3
+  },
+  "v1": [
+   {
+    "t": "family_and_marriage",
+    "cos": 0.934349694251172,
+    "overlap": 90,
+    "v1_n": 272
+   },
+   {
+    "t": "early_life_sampaloc",
+    "cos": 0.9221658526761811,
+    "overlap": 55,
+    "v1_n": 87
+   },
+   {
+    "t": "faith_journey",
+    "cos": 0.9160359237269433,
+    "overlap": 100,
+    "v1_n": 298
+   },
+   {
+    "t": "eulogies_and_passing",
+    "cos": 0.8649377530326173,
+    "overlap": 38,
+    "v1_n": 109
+   }
+  ],
+  "fine_parts": [
+   {
+    "fine": 1,
+    "docs_here": 93,
+    "fine_size": 93,
+    "terms": "god, feu, life, university, student, love"
+   },
+   {
+    "fine": 11,
+    "docs_here": 31,
+    "fine_size": 31,
+    "terms": "cardinal, cathedral, church, catholic, pope, archbishop"
+   },
+   {
+    "fine": 47,
+    "docs_here": 12,
+    "fine_size": 12,
+    "terms": "rotary, rotary club, club, rcm, club manila, serve man"
+   },
+   {
+    "fine": 48,
+    "docs_here": 12,
+    "fine_size": 12,
+    "terms": "cells, stem, cell, stem cells, lct, block"
+   }
+  ],
+  "coarse_parts": [
+   {
+    "coarse": 1,
+    "docs_here": 148,
+    "coarse_size": 222
+   }
+  ],
+  "terms": "god, life, lord, feu, manila, love, catholic, student, university, faith"
+ },
+ "2": {
+  "n": 94,
+  "formats": {
+   "books": 8,
+   "columns": 86
+  },
+  "themes": {
+   "A": 86,
+   "D": 1,
+   "C": 1,
+   "E": 6
+  },
+  "v1": [
+   {
+    "t": "due_process",
+    "cos": 0.6462155195480538,
+    "overlap": 23,
+    "v1_n": 145
+   },
+   {
+    "t": "supreme_court_history",
+    "cos": 0.4372126496582459,
+    "overlap": 37,
+    "v1_n": 406
+   },
+   {
+    "t": "philippine_political_landscape",
+    "cos": 0.35985028213801523,
+    "overlap": 33,
+    "v1_n": 238
+   },
+   {
+    "t": "impeachment_accountability",
+    "cos": 0.32096759991624346,
+    "overlap": 6,
+    "v1_n": 171
+   }
+  ],
+  "fine_parts": [
+   {
+    "fine": 2,
+    "docs_here": 76,
+    "fine_size": 76,
+    "terms": "sbn, bail, evidence, accused, prosecution, trial"
+   },
+   {
+    "fine": 35,
+    "docs_here": 18,
+    "fine_size": 18,
+    "terms": "icc, bensouda, prosecutor, rome statute, investigation, preliminary"
+   }
+  ],
+  "coarse_parts": [
+   {
+    "coarse": 4,
+    "docs_here": 94,
+    "coarse_size": 94
+   }
+  ],
+  "terms": "bail, prosecution, sbn, evidence, accused, trial, criminal, filed, plunder, crime"
+ },
+ "3": {
+  "n": 64,
+  "formats": {
+   "books": 7,
+   "columns": 55,
+   "speeches": 2
+  },
+  "themes": {
+   "A": 50,
+   "B": 5,
+   "D": 3,
+   "C": 2,
+   "E": 4
+  },
+  "v1": [
+   {
+    "t": "international_law_disputes",
+    "cos": 0.9466888920025833,
+    "overlap": 46,
+    "v1_n": 78
+   },
+   {
+    "t": "eez_resource_sovereignty",
+    "cos": 0.6741974077374029,
+    "overlap": 9,
+    "v1_n": 29
+   },
+   {
+    "t": "global_geopolitics",
+    "cos": 0.5711260516668681,
+    "overlap": 23,
+    "v1_n": 83
+   },
+   {
+    "t": "icc_and_duterte",
+    "cos": 0.5115980629336283,
+    "overlap": 31,
+    "v1_n": 156
+   }
+  ],
+  "fine_parts": [
+   {
+    "fine": 3,
+    "docs_here": 52,
+    "fine_size": 52,
+    "terms": "china, sea, scs, chinese, eez, arbitral"
+   },
+   {
+    "fine": 46,
+    "docs_here": 12,
+    "fine_size": 12,
+    "terms": "arbitration, disputes, icj, settlement, arbitral, dispute"
+   }
+  ],
+  "coarse_parts": [
+   {
+    "coarse": 5,
+    "docs_here": 64,
+    "coarse_size": 90
+   }
+  ],
+  "terms": "china, sea, arbitral, scs, eez, unclos, chinese, maritime, sovereignty, arbitration"
+ },
+ "4": {
+  "n": 62,
+  "formats": {
+   "books": 38,
+   "columns": 22,
+   "speeches": 2
+  },
+  "themes": {
+   "A": 28,
+   "B": 30,
+   "D": 2,
+   "C": 1,
+   "E": 1
+  },
+  "v1": [
+   {
+    "t": "eez_resource_sovereignty",
+    "cos": 0.5301263996761789,
+    "overlap": 9,
+    "v1_n": 29
+   },
+   {
+    "t": "due_process",
+    "cos": 0.4868271156159212,
+    "overlap": 20,
+    "v1_n": 145
+   },
+   {
+    "t": "supreme_court_history",
+    "cos": 0.3133657379417534,
+    "overlap": 36,
+    "v1_n": 406
+   },
+   {
+    "t": "judicial_activism_and_political_question",
+    "cos": 0.25789911182519343,
+    "overlap": 8,
+    "v1_n": 78
+   }
+  ],
+  "fine_parts": [
+   {
+    "fine": 4,
+    "docs_here": 49,
+    "fine_size": 49,
+    "terms": "property, contracts, section, ownership, contract, shares"
+   },
+   {
+    "fine": 44,
+    "docs_here": 13,
+    "fine_size": 13,
+    "terms": "employer, labor, labor code, workers, employee, employees"
+   }
+  ],
+  "coarse_parts": [
+   {
+    "coarse": 9,
+    "docs_here": 62,
+    "coarse_size": 62
+   }
+  ],
+  "terms": "section, contracts, property, contract, right, respondent, code, article, pay, subject"
+ },
+ "5": {
+  "n": 59,
+  "formats": {
+   "books": 20,
+   "columns": 37,
+   "speeches": 2
+  },
+  "themes": {
+   "A": 44,
+   "C": 6,
+   "D": 7,
+   "E": 2
+  },
+  "v1": [
+   {
+    "t": "supreme_court_history",
+    "cos": 0.6260863100600327,
+    "overlap": 32,
+    "v1_n": 406
+   },
+   {
+    "t": "judicial_activism_and_political_question",
+    "cos": 0.5090868861932966,
+    "overlap": 8,
+    "v1_n": 78
+   },
+   {
+    "t": "impeachment_accountability",
+    "cos": 0.4903623621377241,
+    "overlap": 17,
+    "v1_n": 171
+   },
+   {
+    "t": "constitutional_doctrine",
+    "cos": 0.47610380211040293,
+    "overlap": 44,
+    "v1_n": 611
+   }
+  ],
+  "fine_parts": [
+   {
+    "fine": 7,
+    "docs_here": 40,
+    "fine_size": 40,
+    "terms": "ata, justices, opinions, petitions, lawyers, decisions"
+   },
+   {
+    "fine": 33,
+    "docs_here": 19,
+    "fine_size": 19,
+    "terms": "independence, duty, justices, power, judiciary, executive"
+   }
+  ],
+  "coarse_parts": [
+   {
+    "coarse": 11,
+    "docs_here": 59,
+    "coarse_size": 59
+   }
+  ],
+  "terms": "justices, decisions, opinions, ata, lawyers, petitions, power, rights, court's, courts"
+ },
+ "6": {
+  "n": 56,
+  "formats": {
+   "books": 19,
+   "columns": 37
+  },
+  "themes": {
+   "A": 54,
+   "D": 1,
+   "C": 1
+  },
+  "v1": [
+   {
+    "t": "due_process",
+    "cos": 0.6587597882513072,
+    "overlap": 12,
+    "v1_n": 145
+   },
+   {
+    "t": "death_penalty_and_echegaray",
+    "cos": 0.6049627289910302,
+    "overlap": 11,
+    "v1_n": 30
+   },
+   {
+    "t": "supreme_court_history",
+    "cos": 0.38015362218115273,
+    "overlap": 30,
+    "v1_n": 406
+   },
+   {
+    "t": "impeachment_accountability",
+    "cos": 0.23305519331450428,
+    "overlap": 7,
+    "v1_n": 171
+   }
+  ],
+  "fine_parts": [
+   {
+    "fine": 10,
+    "docs_here": 32,
+    "fine_size": 32,
+    "terms": "accused, evidence, criminal, search, facts, trial"
+   },
+   {
+    "fine": 43,
+    "docs_here": 13,
+    "fine_size": 13,
+    "terms": "death penalty, penalty, appellant, victim, death, rape"
+   },
+   {
+    "fine": 49,
+    "docs_here": 11,
+    "fine_size": 11,
+    "terms": "libel, cyberlibel, ressa, maria ressa, cybercrime, keng"
+   }
+  ],
+  "coarse_parts": [
+   {
+    "coarse": 2,
+    "docs_here": 56,
+    "coarse_size": 100
+   }
+  ],
+  "terms": "accused, crime, evidence, trial, offense, criminal, penalty, libel, facts, information"
+ },
+ "7": {
+  "n": 53,
+  "formats": {
+   "books": 21,
+   "columns": 28,
+   "biography": 2,
+   "speeches": 2
+  },
+  "themes": {
+   "A": 32,
+   "B": 1,
+   "E": 17,
+   "C": 3
+  },
+  "v1": [
+   {
+    "t": "philippine_political_landscape",
+    "cos": 0.7318544486477891,
+    "overlap": 34,
+    "v1_n": 238
+   },
+   {
+    "t": "constitutional_doctrine",
+    "cos": 0.5770190692515881,
+    "overlap": 44,
+    "v1_n": 611
+   },
+   {
+    "t": "impeachment_accountability",
+    "cos": 0.51546637785113,
+    "overlap": 18,
+    "v1_n": 171
+   },
+   {
+    "t": "with_due_respect_persona",
+    "cos": 0.5125784732484837,
+    "overlap": 18,
+    "v1_n": 197
+   }
+  ],
+  "fine_parts": [
+   {
+    "fine": 37,
+    "docs_here": 18,
+    "fine_size": 18,
+    "terms": "gma, respect, gma's, neri, noynoy, neri's"
+   },
+   {
+    "fine": 36,
+    "docs_here": 18,
+    "fine_size": 18,
+    "terms": "rebellion, martial, martial law, proclamation, invasion, powers"
+   },
+   {
+    "fine": 42,
+    "docs_here": 17,
+    "fine_size": 17,
+    "terms": "estrada, edsa, arroyo, swear, noon, davide"
+   }
+  ],
+  "coarse_parts": [
+   {
+    "coarse": 14,
+    "docs_here": 53,
+    "coarse_size": 53
+   }
+  ],
+  "terms": "martial law, martial, rebellion, military, arroyo, gma, edsa, estrada, power, presidency"
+ },
+ "8": {
+  "n": 48,
+  "formats": {
+   "books": 25,
+   "columns": 22,
+   "speeches": 1
+  },
+  "themes": {
+   "A": 32,
+   "E": 14,
+   "C": 2
+  },
+  "v1": [
+   {
+    "t": "with_due_respect_persona",
+    "cos": 0.41443542975861225,
+    "overlap": 15,
+    "v1_n": 197
+   },
+   {
+    "t": "constitutional_doctrine",
+    "cos": 0.3904068652778315,
+    "overlap": 30,
+    "v1_n": 611
+   },
+   {
+    "t": "due_process",
+    "cos": 0.3385050913706491,
+    "overlap": 7,
+    "v1_n": 145
+   },
+   {
+    "t": "philippine_political_landscape",
+    "cos": 0.2887578616733708,
+    "overlap": 14,
+    "v1_n": 238
+   }
+  ],
+  "fine_parts": [
+   {
+    "fine": 5,
+    "docs_here": 48,
+    "fine_size": 48,
+    "terms": "comelec, ballots, election, elections, voters, pcos"
+   }
+  ],
+  "coarse_parts": [
+   {
+    "coarse": 3,
+    "docs_here": 48,
+    "coarse_size": 95
+   }
+  ],
+  "terms": "comelec, ballots, election, elections, voters, pcos, machines, automated, ballot, polls"
+ },
+ "9": {
+  "n": 43,
+  "formats": {
+   "books": 13,
+   "columns": 13,
+   "speeches": 17
+  },
+  "themes": {
+   "C": 20,
+   "D": 17,
+   "A": 5,
+   "E": 1
+  },
+  "v1": [
+   {
+    "t": "bar_exam_and_legal_education",
+    "cos": 0.7026249561536284,
+    "overlap": 15,
+    "v1_n": 132
+   },
+   {
+    "t": "honors_received",
+    "cos": 0.6947496422270223,
+    "overlap": 4,
+    "v1_n": 24
+   },
+   {
+    "t": "mentors_and_legal_lineage",
+    "cos": 0.6891869221547156,
+    "overlap": 15,
+    "v1_n": 156
+   },
+   {
+    "t": "early_life_sampaloc",
+    "cos": 0.5937608333615141,
+    "overlap": 11,
+    "v1_n": 87
+   }
+  ],
+  "fine_parts": [
+   {
+    "fine": 6,
+    "docs_here": 43,
+    "fine_size": 43,
+    "terms": "centenary, judiciary, book, davide, retired, justices"
+   }
+  ],
+  "coarse_parts": [
+   {
+    "coarse": 6,
+    "docs_here": 43,
+    "coarse_size": 85
+   }
+  ],
+  "terms": "centenary, judiciary, book, davide, retired, justices, marixi, retirement, write, writing"
+ },
+ "10": {
+  "n": 42,
+  "formats": {
+   "books": 18,
+   "columns": 22,
+   "speeches": 2
+  },
+  "themes": {
+   "A": 21,
+   "D": 19,
+   "C": 1,
+   "E": 1
+  },
+  "v1": [
+   {
+    "t": "judicial_reform",
+    "cos": 0.8424280854312671,
+    "overlap": 27,
+    "v1_n": 106
+   },
+   {
+    "t": "jbc_discernment_and_appointment",
+    "cos": 0.5068991217391505,
+    "overlap": 13,
+    "v1_n": 110
+   },
+   {
+    "t": "honors_received",
+    "cos": 0.34363852405677636,
+    "overlap": 2,
+    "v1_n": 24
+   },
+   {
+    "t": "ai_and_technology",
+    "cos": 0.30644159001826826,
+    "overlap": 9,
+    "v1_n": 99
+   }
+  ],
+  "fine_parts": [
+   {
+    "fine": 19,
+    "docs_here": 24,
+    "fine_size": 24,
+    "terms": "reform, judicial reform, judiciary, apjr, program, reforms"
+   },
+   {
+    "fine": 39,
+    "docs_here": 18,
+    "fine_size": 18,
+    "terms": "backlog, trial courts, courts, judges, average, docket"
+   }
+  ],
+  "coarse_parts": [
+   {
+    "coarse": 15,
+    "docs_here": 42,
+    "coarse_size": 42
+   }
+  ],
+  "terms": "judges, backlog, courts, judiciary, reform, trial courts, program, judicial reform, reforms, trial"
+ },
+ "11": {
+  "n": 40,
+  "formats": {
+   "books": 7,
+   "columns": 32,
+   "speeches": 1
+  },
+  "themes": {
+   "A": 29,
+   "B": 1,
+   "E": 10
+  },
+  "v1": [
+   {
+    "t": "constitutional_doctrine",
+    "cos": 0.5333127966308081,
+    "overlap": 38,
+    "v1_n": 611
+   },
+   {
+    "t": "with_due_respect_persona",
+    "cos": 0.3510935909440714,
+    "overlap": 8,
+    "v1_n": 197
+   },
+   {
+    "t": "icc_and_duterte",
+    "cos": 0.3231366387027797,
+    "overlap": 11,
+    "v1_n": 156
+   },
+   {
+    "t": "impeachment_accountability",
+    "cos": 0.2766365528725496,
+    "overlap": 5,
+    "v1_n": 171
+   }
+  ],
+  "fine_parts": [
+   {
+    "fine": 27,
+    "docs_here": 21,
+    "fine_size": 21,
+    "terms": "cha-cha, dynasties, con-ass, charter, congress, con-con"
+   },
+   {
+    "fine": 34,
+    "docs_here": 19,
+    "fine_size": 19,
+    "terms": "party-list, underrepresented, marginalized underrepresented, seats, marginalized, veterans"
+   }
+  ],
+  "coarse_parts": [
+   {
+    "coarse": 16,
+    "docs_here": 40,
+    "coarse_size": 40
+   }
+  ],
+  "terms": "party-list, cha-cha, congress, underrepresented, marginalized underrepresented, dynasties, house, seats, comelec, charter"
+ },
+ "12": {
+  "n": 39,
+  "formats": {
+   "books": 20,
+   "columns": 18,
+   "speeches": 1
+  },
+  "themes": {
+   "A": 11,
+   "C": 3,
+   "D": 7,
+   "E": 17,
+   "B": 1
+  },
+  "v1": [
+   {
+    "t": "ai_and_technology",
+    "cos": 0.6494408065432146,
+    "overlap": 21,
+    "v1_n": 99
+   },
+   {
+    "t": "judicial_reform",
+    "cos": 0.2829431411667256,
+    "overlap": 8,
+    "v1_n": 106
+   },
+   {
+    "t": "death_penalty_and_echegaray",
+    "cos": 0.2027408756623072,
+    "overlap": 2,
+    "v1_n": 30
+   },
+   {
+    "t": "economic_governance_and_business_law",
+    "cos": 0.11191191435886874,
+    "overlap": 0,
+    "v1_n": 43
+   }
+  ],
+  "fine_parts": [
+   {
+    "fine": 24,
+    "docs_here": 22,
+    "fine_size": 22,
+    "terms": "digital, information, internet, data, age, technology"
+   },
+   {
+    "fine": 41,
+    "docs_here": 17,
+    "fine_size": 17,
+    "terms": "bio-age, scientific, genetic, dawns judiciary, bio-age dawns, dna"
+   }
+  ],
+  "coarse_parts": [
+   {
+    "coarse": 17,
+    "docs_here": 39,
+    "coarse_size": 39
+   }
+  ],
+  "terms": "bio-age, human, genetic, technology, scientific, information, judiciary, bio-age dawns, dawns judiciary, dna"
+ },
+ "13": {
+  "n": 36,
+  "formats": {
+   "books": 3,
+   "columns": 29,
+   "speeches": 4
+  },
+  "themes": {
+   "B": 14,
+   "A": 7,
+   "C": 2,
+   "E": 13
+  },
+  "v1": [
+   {
+    "t": "msme_and_entrepreneurship+prosperity_fund_msme",
+    "cos": 0.4720625574488977,
+    "overlap": 3,
+    "v1_n": 47
+   },
+   {
+    "t": "foundation_for_liberty_and_prosperity",
+    "cos": 0.46891399279841045,
+    "overlap": 10,
+    "v1_n": 136
+   },
+   {
+    "t": "twin_beacons_doctrine",
+    "cos": 0.45284813203037194,
+    "overlap": 10,
+    "v1_n": 213
+   },
+   {
+    "t": "flp_donors_and_partners",
+    "cos": 0.4452263399878379,
+    "overlap": 6,
+    "v1_n": 143
+   }
+  ],
+  "fine_parts": [
+   {
+    "fine": 40,
+    "docs_here": 18,
+    "fine_size": 18,
+    "terms": "world, asean, prosperity, china, economy, korea"
+   },
+   {
+    "fine": 38,
+    "docs_here": 18,
+    "fine_size": 18,
+    "terms": "million, pay, tax, refund, wage, vat"
+   }
+  ],
+  "coarse_parts": [
+   {
+    "coarse": 12,
+    "docs_here": 36,
+    "coarse_size": 57
+   }
+  ],
+  "terms": "world, economy, economic, billion, growth, prosperity, taxes, million, institutions, countries"
+ },
+ "14": {
+  "n": 35,
+  "formats": {
+   "books": 7,
+   "columns": 28
+  },
+  "themes": {
+   "A": 32,
+   "E": 3
+  },
+  "v1": [
+   {
+    "t": "impeachment_accountability",
+    "cos": 0.8430711944230089,
+    "overlap": 27,
+    "v1_n": 171
+   },
+   {
+    "t": "constitutional_doctrine",
+    "cos": 0.689305036967309,
+    "overlap": 30,
+    "v1_n": 611
+   },
+   {
+    "t": "due_process",
+    "cos": 0.5850448788052012,
+    "overlap": 10,
+    "v1_n": 145
+   },
+   {
+    "t": "supreme_court_history",
+    "cos": 0.4936132278997377,
+    "overlap": 13,
+    "v1_n": 406
+   }
+  ],
+  "fine_parts": [
+   {
+    "fine": 8,
+    "docs_here": 35,
+    "fine_size": 35,
+    "terms": "impeachment, house, senate, house representatives, representatives, senators"
+   }
+  ],
+  "coarse_parts": [
+   {
+    "coarse": 8,
+    "docs_here": 35,
+    "coarse_size": 64
+   }
+  ],
+  "terms": "impeachment, house, senate, house representatives, representatives, senators, vote, committee, articles, trial"
+ },
+ "15": {
+  "n": 33,
+  "formats": {
+   "columns": 21,
+   "speeches": 12
+  },
+  "themes": {
+   "B": 3,
+   "D": 30
+  },
+  "v1": [
+   {
+    "t": "foundation_for_liberty_and_prosperity",
+    "cos": 0.9057983821174913,
+    "overlap": 33,
+    "v1_n": 136
+   },
+   {
+    "t": "museum_for_liberty_and_prosperity",
+    "cos": 0.8971394114200231,
+    "overlap": 11,
+    "v1_n": 20
+   },
+   {
+    "t": "flp_scholarship_programs",
+    "cos": 0.8943325040283975,
+    "overlap": 28,
+    "v1_n": 109
+   },
+   {
+    "t": "flp_donors_and_partners",
+    "cos": 0.8943127032648261,
+    "overlap": 29,
+    "v1_n": 143
+   }
+  ],
+  "fine_parts": [
+   {
+    "fine": 9,
+    "docs_here": 33,
+    "fine_size": 33,
+    "terms": "flp, scholars, dissertation, prosperity, liberty prosperity, liberty"
+   }
+  ],
+  "coarse_parts": [
+   {
+    "coarse": 10,
+    "docs_here": 33,
+    "coarse_size": 60
+   }
+  ],
+  "terms": "flp, scholars, dissertation, prosperity, liberty prosperity, liberty, foundation, dissertation writing, flp's, tan"
+ },
+ "16": {
+  "n": 32,
+  "formats": {
+   "books": 1,
+   "columns": 31
+  },
+  "themes": {
+   "A": 30,
+   "E": 2
+  },
+  "v1": [
+   {
+    "t": "due_process",
+    "cos": 0.525607028429009,
+    "overlap": 8,
+    "v1_n": 145
+   },
+   {
+    "t": "impeachment_accountability",
+    "cos": 0.3968939171028952,
+    "overlap": 14,
+    "v1_n": 171
+   },
+   {
+    "t": "constitutional_doctrine",
+    "cos": 0.35114565002422626,
+    "overlap": 21,
+    "v1_n": 611
+   },
+   {
+    "t": "supreme_court_history",
+    "cos": 0.19967231630889187,
+    "overlap": 9,
+    "v1_n": 406
+   }
+  ],
+  "fine_parts": [
+   {
+    "fine": 31,
+    "docs_here": 20,
+    "fine_size": 20,
+    "terms": "deposits, accounts, dollar, omb, corona, psbank"
+   },
+   {
+    "fine": 45,
+    "docs_here": 12,
+    "fine_size": 12,
+    "terms": "gaa, budget, dap, appropriations, pdaf, fund"
+   }
+  ],
+  "coarse_parts": [
+   {
+    "coarse": 13,
+    "docs_here": 32,
+    "coarse_size": 55
+   }
+  ],
+  "terms": "senate, deposits, dap, funds, budget, accounts, corona, dollar, assets, omb"
+ },
+ "17": {
+  "n": 29,
+  "formats": {
+   "columns": 29
+  },
+  "themes": {
+   "A": 17,
+   "E": 12
+  },
+  "v1": [
+   {
+    "t": "global_geopolitics",
+    "cos": 0.7655674806291065,
+    "overlap": 26,
+    "v1_n": 83
+   },
+   {
+    "t": "constitutional_doctrine",
+    "cos": 0.3363081771646079,
+    "overlap": 12,
+    "v1_n": 611
+   },
+   {
+    "t": "impeachment_accountability",
+    "cos": 0.30810112840317416,
+    "overlap": 2,
+    "v1_n": 171
+   },
+   {
+    "t": "with_due_respect_persona",
+    "cos": 0.24497934339583075,
+    "overlap": 3,
+    "v1_n": 197
+   }
+  ],
+  "fine_parts": [
+   {
+    "fine": 12,
+    "docs_here": 29,
+    "fine_size": 29,
+    "terms": "trump, scotus, trump's, biden, donald, republican"
+   }
+  ],
+  "coarse_parts": [
+   {
+    "coarse": 8,
+    "docs_here": 29,
+    "coarse_size": 64
+   }
+  ],
+  "terms": "trump, scotus, trump's, biden, donald, republican, conservative, donald trump, states, electoral"
+ },
+ "18": {
+  "n": 27,
+  "formats": {
+   "books": 3,
+   "columns": 24
+  },
+  "themes": {
+   "A": 18,
+   "E": 9
+  },
+  "v1": [
+   {
+    "t": "impeachment_accountability",
+    "cos": 0.6535989026884786,
+    "overlap": 13,
+    "v1_n": 171
+   },
+   {
+    "t": "constitutional_doctrine",
+    "cos": 0.6478788520409495,
+    "overlap": 24,
+    "v1_n": 611
+   },
+   {
+    "t": "philippine_political_landscape",
+    "cos": 0.5896713910238347,
+    "overlap": 11,
+    "v1_n": 238
+   },
+   {
+    "t": "with_due_respect_persona",
+    "cos": 0.5430063511210045,
+    "overlap": 9,
+    "v1_n": 197
+   }
+  ],
+  "fine_parts": [
+   {
+    "fine": 13,
+    "docs_here": 27,
+    "fine_size": 27,
+    "terms": "omb, comelec, term, officials, ombudsman, commission"
+   }
+  ],
+  "coarse_parts": [
+   {
+    "coarse": 7,
+    "docs_here": 27,
+    "coarse_size": 73
+   }
+  ],
+  "terms": "omb, comelec, term, officials, ombudsman, commission, commissioner, independent, ici, appointees"
+ },
+ "19": {
+  "n": 27,
+  "formats": {
+   "books": 5,
+   "columns": 10,
+   "speeches": 12
+  },
+  "themes": {
+   "A": 11,
+   "B": 9,
+   "D": 5,
+   "C": 1,
+   "E": 1
+  },
+  "v1": [
+   {
+    "t": "economic_governance_and_business_law",
+    "cos": 0.8613314809592715,
+    "overlap": 10,
+    "v1_n": 43
+   },
+   {
+    "t": "twin_beacons_doctrine",
+    "cos": 0.7433253477050605,
+    "overlap": 24,
+    "v1_n": 213
+   },
+   {
+    "t": "rule_of_law",
+    "cos": 0.7207901595330817,
+    "overlap": 20,
+    "v1_n": 211
+   },
+   {
+    "t": "foundation_for_liberty_and_prosperity",
+    "cos": 0.590671487122279,
+    "overlap": 12,
+    "v1_n": 136
+   }
+  ],
+  "fine_parts": [
+   {
+    "fine": 14,
+    "docs_here": 27,
+    "fine_size": 27,
+    "terms": "prosperity, liberty, liberty prosperity, poverty, rights, rule law"
+   }
+  ],
+  "coarse_parts": [
+   {
+    "coarse": 10,
+    "docs_here": 27,
+    "coarse_size": 60
+   }
+  ],
+  "terms": "prosperity, liberty, liberty prosperity, poverty, rights, rule law, economic, safeguarding liberty, nurturing prosperity, nurturing"
+ },
+ "20": {
+  "n": 26,
+  "formats": {
+   "books": 2,
+   "columns": 24
+  },
+  "themes": {
+   "A": 13,
+   "C": 5,
+   "E": 8
+  },
+  "v1": [
+   {
+    "t": "philippine_political_landscape",
+    "cos": 0.6484497077282055,
+    "overlap": 14,
+    "v1_n": 238
+   },
+   {
+    "t": "icc_and_duterte",
+    "cos": 0.5428074517995352,
+    "overlap": 9,
+    "v1_n": 156
+   },
+   {
+    "t": "with_due_respect_persona",
+    "cos": 0.3527751625767669,
+    "overlap": 3,
+    "v1_n": 197
+   },
+   {
+    "t": "family_and_marriage",
+    "cos": 0.2644504782643302,
+    "overlap": 14,
+    "v1_n": 272
+   }
+  ],
+  "fine_parts": [
+   {
+    "fine": 15,
+    "docs_here": 26,
+    "fine_size": 26,
+    "terms": "bongbong, election, robredo, leni, comelec, precincts"
+   }
+  ],
+  "coarse_parts": [
+   {
+    "coarse": 3,
+    "docs_here": 26,
+    "coarse_size": 95
+   }
+  ],
+  "terms": "bongbong, election, robredo, leni, comelec, precincts, leni robredo, ppcrv, elections, marcos"
+ },
+ "21": {
+  "n": 26,
+  "formats": {
+   "books": 3,
+   "columns": 23
+  },
+  "themes": {
+   "A": 20,
+   "D": 1,
+   "E": 5
+  },
+  "v1": [
+   {
+    "t": "icc_and_duterte",
+    "cos": 0.37594083260427913,
+    "overlap": 3,
+    "v1_n": 156
+   },
+   {
+    "t": "eez_resource_sovereignty",
+    "cos": 0.3720284613310474,
+    "overlap": 0,
+    "v1_n": 29
+   },
+   {
+    "t": "constitutional_doctrine",
+    "cos": 0.3630912791479113,
+    "overlap": 23,
+    "v1_n": 611
+   },
+   {
+    "t": "international_law_disputes",
+    "cos": 0.3349584465354679,
+    "overlap": 2,
+    "v1_n": 78
+   }
+  ],
+  "fine_parts": [
+   {
+    "fine": 16,
+    "docs_here": 26,
+    "fine_size": 26,
+    "terms": "peace, bangsamoro, moa-ad, milf, bbl, peace process"
+   }
+  ],
+  "coarse_parts": [
+   {
+    "coarse": 5,
+    "docs_here": 26,
+    "coarse_size": 90
+   }
+  ],
+  "terms": "peace, bangsamoro, moa-ad, milf, bbl, peace process, agreement, north cotabato, cotabato, congress"
+ },
+ "22": {
+  "n": 26,
+  "formats": {
+   "columns": 24,
+   "speeches": 2
+  },
+  "themes": {
+   "A": 15,
+   "C": 8,
+   "E": 3
+  },
+  "v1": [
+   {
+    "t": "jbc_discernment_and_appointment",
+    "cos": 0.7447981677001525,
+    "overlap": 16,
+    "v1_n": 110
+   },
+   {
+    "t": "philippine_political_landscape",
+    "cos": 0.5394091901553414,
+    "overlap": 12,
+    "v1_n": 238
+   },
+   {
+    "t": "icc_and_duterte",
+    "cos": 0.46189146240735435,
+    "overlap": 16,
+    "v1_n": 156
+   },
+   {
+    "t": "impeachment_accountability",
+    "cos": 0.4377440665208526,
+    "overlap": 14,
+    "v1_n": 171
+   }
+  ],
+  "fine_parts": [
+   {
+    "fine": 17,
+    "docs_here": 26,
+    "fine_size": 26,
+    "terms": "sereno, jbc, carpio, castro, justices, senior"
+   }
+  ],
+  "coarse_parts": [
+   {
+    "coarse": 7,
+    "docs_here": 26,
+    "coarse_size": 73
+   }
+  ],
+  "terms": "sereno, jbc, carpio, castro, justices, senior, retirement, peralta, bersamin, appoint"
+ },
+ "23": {
+  "n": 26,
+  "formats": {
+   "books": 14,
+   "columns": 5,
+   "biography": 3,
+   "speeches": 4
+  },
+  "themes": {
+   "C": 25,
+   "E": 1
+  },
+  "v1": [
+   {
+    "t": "faith_journey",
+    "cos": 0.7967841026018803,
+    "overlap": 22,
+    "v1_n": 298
+   },
+   {
+    "t": "family_and_marriage",
+    "cos": 0.5741441133170665,
+    "overlap": 10,
+    "v1_n": 272
+   },
+   {
+    "t": "early_life_sampaloc",
+    "cos": 0.5091944193748255,
+    "overlap": 1,
+    "v1_n": 87
+   },
+   {
+    "t": "friendships_and_civic_circles",
+    "cos": 0.5020549120704378,
+    "overlap": 3,
+    "v1_n": 76
+   }
+  ],
+  "fine_parts": [
+   {
+    "fine": 18,
+    "docs_here": 26,
+    "fine_size": 26,
+    "terms": "lord, jesus, god, love, christ, faith"
+   }
+  ],
+  "coarse_parts": [
+   {
+    "coarse": 1,
+    "docs_here": 26,
+    "coarse_size": 222
+   }
+  ],
+  "terms": "lord, jesus, god, love, christ, faith, gospel, prayer, man, holy"
+ },
+ "24": {
+  "n": 24,
+  "formats": {
+   "books": 1,
+   "columns": 13,
+   "speeches": 10
+  },
+  "themes": {
+   "B": 8,
+   "C": 11,
+   "D": 3,
+   "E": 2
+  },
+  "v1": [
+   {
+    "t": "friendships_and_civic_circles",
+    "cos": 0.8037603531548987,
+    "overlap": 8,
+    "v1_n": 76
+   },
+   {
+    "t": "flp_donors_and_partners",
+    "cos": 0.7935097538886384,
+    "overlap": 11,
+    "v1_n": 143
+   },
+   {
+    "t": "foundation_for_liberty_and_prosperity",
+    "cos": 0.7220144588390918,
+    "overlap": 11,
+    "v1_n": 136
+   },
+   {
+    "t": "family_and_marriage",
+    "cos": 0.7043844573450138,
+    "overlap": 11,
+    "v1_n": 272
+   }
+  ],
+  "fine_parts": [
+   {
+    "fine": 20,
+    "docs_here": 24,
+    "fine_size": 24,
+    "terms": "foundation, philanthropy, tan, metrobank, rvr, jollibee"
+   }
+  ],
+  "coarse_parts": [
+   {
+    "coarse": 1,
+    "docs_here": 24,
+    "coarse_size": 222
+   }
+  ],
+  "terms": "foundation, philanthropy, tan, metrobank, rvr, jollibee, business, tan caktiong, caktiong, george"
+ },
+ "25": {
+  "n": 24,
+  "formats": {
+   "books": 2,
+   "columns": 14,
+   "speeches": 8
+  },
+  "themes": {
+   "B": 1,
+   "C": 5,
+   "A": 9,
+   "D": 1,
+   "E": 8
+  },
+  "v1": [
+   {
+    "t": "asean_law_association",
+    "cos": 0.8591801819538121,
+    "overlap": 10,
+    "v1_n": 39
+   },
+   {
+    "t": "museum_for_liberty_and_prosperity",
+    "cos": 0.6203425269965825,
+    "overlap": 3,
+    "v1_n": 20
+   },
+   {
+    "t": "flp_donors_and_partners",
+    "cos": 0.6170102280483833,
+    "overlap": 6,
+    "v1_n": 143
+   },
+   {
+    "t": "msme_and_entrepreneurship+prosperity_fund_msme",
+    "cos": 0.6131592077642711,
+    "overlap": 4,
+    "v1_n": 47
+   }
+  ],
+  "fine_parts": [
+   {
+    "fine": 21,
+    "docs_here": 24,
+    "fine_size": 24,
+    "terms": "ala, asean, governing council, asean law, world, china"
+   }
+  ],
+  "coarse_parts": [
+   {
+    "coarse": 1,
+    "docs_here": 24,
+    "coarse_size": 222
+   }
+  ],
+  "terms": "ala, asean, governing council, asean law, world, china, manila, delegation, association, ambassador"
+ },
+ "26": {
+  "n": 23,
+  "formats": {
+   "books": 2,
+   "columns": 21
+  },
+  "themes": {
+   "A": 19,
+   "C": 1,
+   "E": 3
+  },
+  "v1": [
+   {
+    "t": "lawyer_ethics_initiative",
+    "cos": 0.30772325342058043,
+    "overlap": 6,
+    "v1_n": 47
+   },
+   {
+    "t": "due_process",
+    "cos": 0.30571952302040584,
+    "overlap": 3,
+    "v1_n": 145
+   },
+   {
+    "t": "constitutional_doctrine",
+    "cos": 0.18012857110634292,
+    "overlap": 14,
+    "v1_n": 611
+   },
+   {
+    "t": "supreme_court_history",
+    "cos": 0.17980036630901186,
+    "overlap": 4,
+    "v1_n": 406
+   }
+  ],
+  "fine_parts": [
+   {
+    "fine": 22,
+    "docs_here": 23,
+    "fine_size": 23,
+    "terms": "data, privacy, service, right privacy, shall, administrative"
+   }
+  ],
+  "coarse_parts": [
+   {
+    "coarse": 2,
+    "docs_here": 23,
+    "coarse_size": 100
+   }
+  ],
+  "terms": "data, privacy, service, right privacy, shall, administrative, criminal, april, information, saln"
+ },
+ "27": {
+  "n": 23,
+  "formats": {
+   "books": 3,
+   "columns": 20
+  },
+  "themes": {
+   "B": 3,
+   "A": 16,
+   "C": 2,
+   "E": 2
+  },
+  "v1": [
+   {
+    "t": "philippine_political_landscape",
+    "cos": 0.372356395156059,
+    "overlap": 10,
+    "v1_n": 238
+   },
+   {
+    "t": "supreme_court_history",
+    "cos": 0.263181899907518,
+    "overlap": 12,
+    "v1_n": 406
+   },
+   {
+    "t": "icc_and_duterte",
+    "cos": 0.2384942479354526,
+    "overlap": 1,
+    "v1_n": 156
+   },
+   {
+    "t": "eez_resource_sovereignty",
+    "cos": 0.23532856120904322,
+    "overlap": 0,
+    "v1_n": 29
+   }
+  ],
+  "fine_parts": [
+   {
+    "fine": 23,
+    "docs_here": 23,
+    "fine_size": 23,
+    "terms": "pcgg, ill-gotten, marcos, estate, ill-gotten wealth, properties"
+   }
+  ],
+  "coarse_parts": [
+   {
+    "coarse": 13,
+    "docs_here": 23,
+    "coarse_size": 55
+   }
+  ],
+  "terms": "pcgg, ill-gotten, marcos, estate, ill-gotten wealth, properties, assets, sandiganbayan, shares, marcoses"
+ },
+ "28": {
+  "n": 21,
+  "formats": {
+   "books": 2,
+   "columns": 19
+  },
+  "themes": {
+   "A": 20,
+   "E": 1
+  },
+  "v1": [
+   {
+    "t": "constitutional_doctrine",
+    "cos": 0.21356369439031464,
+    "overlap": 16,
+    "v1_n": 611
+   },
+   {
+    "t": "icc_and_duterte",
+    "cos": 0.19360702798956364,
+    "overlap": 5,
+    "v1_n": 156
+   },
+   {
+    "t": "global_geopolitics",
+    "cos": 0.14139728031530055,
+    "overlap": 1,
+    "v1_n": 83
+   },
+   {
+    "t": "due_process",
+    "cos": 0.14051836176840146,
+    "overlap": 2,
+    "v1_n": 145
+   }
+  ],
+  "fine_parts": [
+   {
+    "fine": 25,
+    "docs_here": 21,
+    "fine_size": 21,
+    "terms": "citizenship, poe, natural-born, poe's, natural-born citizenship, residency"
+   }
+  ],
+  "coarse_parts": [
+   {
+    "coarse": 3,
+    "docs_here": 21,
+    "coarse_size": 95
+   }
+  ],
+  "terms": "citizenship, poe, natural-born, poe's, natural-born citizenship, residency, comelec, foundlings, grace, citizen"
+ },
+ "29": {
+  "n": 21,
+  "formats": {
+   "books": 6,
+   "columns": 13,
+   "speeches": 2
+  },
+  "themes": {
+   "A": 19,
+   "C": 1,
+   "E": 1
+  },
+  "v1": [
+   {
+    "t": "death_penalty_and_echegaray",
+    "cos": 0.34071782322656086,
+    "overlap": 0,
+    "v1_n": 30
+   },
+   {
+    "t": "faith_journey",
+    "cos": 0.09462638197893794,
+    "overlap": 12,
+    "v1_n": 298
+   },
+   {
+    "t": "supreme_court_history",
+    "cos": 0.09153201485379481,
+    "overlap": 12,
+    "v1_n": 406
+   },
+   {
+    "t": "family_and_marriage",
+    "cos": 0.04899420542354469,
+    "overlap": 11,
+    "v1_n": 272
+   }
+  ],
+  "fine_parts": [
+   {
+    "fine": 26,
+    "docs_here": 21,
+    "fine_size": 21,
+    "terms": "marriage, family code, divorce, family, incapacity, code"
+   }
+  ],
+  "coarse_parts": [
+   {
+    "coarse": 2,
+    "docs_here": 21,
+    "coarse_size": 100
+   }
+  ],
+  "terms": "marriage, family code, divorce, family, incapacity, code, nullity, psychological incapacity, children, psychological"
+ },
+ "30": {
+  "n": 21,
+  "formats": {
+   "books": 8,
+   "columns": 10,
+   "speeches": 3
+  },
+  "themes": {
+   "A": 7,
+   "D": 8,
+   "C": 5,
+   "E": 1
+  },
+  "v1": [
+   {
+    "t": "bar_exam_and_legal_education",
+    "cos": 0.6892055268721221,
+    "overlap": 15,
+    "v1_n": 132
+   },
+   {
+    "t": "honors_received",
+    "cos": 0.4812265101499801,
+    "overlap": 0,
+    "v1_n": 24
+   },
+   {
+    "t": "eulogies_and_passing",
+    "cos": 0.4766150663406565,
+    "overlap": 11,
+    "v1_n": 109
+   },
+   {
+    "t": "early_life_sampaloc",
+    "cos": 0.46217439949343664,
+    "overlap": 7,
+    "v1_n": 87
+   }
+  ],
+  "fine_parts": [
+   {
+    "fine": 28,
+    "docs_here": 21,
+    "fine_size": 21,
+    "terms": "bar, exam, exams, lawyers, bar exams, topnotchers"
+   }
+  ],
+  "coarse_parts": [
+   {
+    "coarse": 6,
+    "docs_here": 21,
+    "coarse_size": 85
+   }
+  ],
+  "terms": "bar, exam, exams, lawyers, bar exams, topnotchers, bar exam, profession, passing, legal education"
+ },
+ "31": {
+  "n": 21,
+  "formats": {
+   "books": 9,
+   "columns": 1,
+   "biography": 10,
+   "speeches": 1
+  },
+  "themes": {
+   "C": 14,
+   "D": 5,
+   "A": 2
+  },
+  "v1": [
+   {
+    "t": "honors_received",
+    "cos": 0.6575195686718315,
+    "overlap": 2,
+    "v1_n": 24
+   },
+   {
+    "t": "jbc_discernment_and_appointment",
+    "cos": 0.5685046168908405,
+    "overlap": 8,
+    "v1_n": 110
+   },
+   {
+    "t": "faith_journey",
+    "cos": 0.5085029829501541,
+    "overlap": 12,
+    "v1_n": 298
+   },
+   {
+    "t": "judicial_reform",
+    "cos": 0.4846706034190438,
+    "overlap": 4,
+    "v1_n": 106
+   }
+  ],
+  "fine_parts": [
+   {
+    "fine": 29,
+    "docs_here": 21,
+    "fine_size": 21,
+    "terms": "art, conscience, davide, art's, appointment, moral"
+   }
+  ],
+  "coarse_parts": [
+   {
+    "coarse": 6,
+    "docs_here": 21,
+    "coarse_size": 85
+   }
+  ],
+  "terms": "art, conscience, davide, art's, appointment, moral, judiciary, leadership, god, integrity"
+ },
+ "32": {
+  "n": 21,
+  "formats": {
+   "books": 2,
+   "columns": 6,
+   "speeches": 13
+  },
+  "themes": {
+   "A": 7,
+   "C": 2,
+   "D": 1,
+   "E": 5,
+   "B": 6
+  },
+  "v1": [
+   {
+    "t": "friendships_and_civic_circles",
+    "cos": 0.4610612478507644,
+    "overlap": 6,
+    "v1_n": 76
+   },
+   {
+    "t": "lawyer_ethics_initiative",
+    "cos": 0.41818084728347127,
+    "overlap": 2,
+    "v1_n": 47
+   },
+   {
+    "t": "flp_donors_and_partners",
+    "cos": 0.39891974904551303,
+    "overlap": 5,
+    "v1_n": 143
+   },
+   {
+    "t": "twin_beacons_doctrine",
+    "cos": 0.39188294108928223,
+    "overlap": 5,
+    "v1_n": 213
+   }
+  ],
+  "fine_parts": [
+   {
+    "fine": 30,
+    "docs_here": 21,
+    "fine_size": 21,
+    "terms": "governance, corporate, integrity, corporate governance, ids, directors"
+   }
+  ],
+  "coarse_parts": [
+   {
+    "coarse": 12,
+    "docs_here": 21,
+    "coarse_size": 57
+   }
+  ],
+  "terms": "governance, corporate, integrity, corporate governance, ids, directors, corruption, business, good, shareholders"
+ },
+ "33": {
+  "n": 20,
+  "formats": {
+   "books": 8,
+   "columns": 12
+  },
+  "themes": {
+   "A": 12,
+   "D": 5,
+   "E": 3
+  },
+  "v1": [
+   {
+    "t": "jbc_discernment_and_appointment",
+    "cos": 0.8293332628260418,
+    "overlap": 19,
+    "v1_n": 110
+   },
+   {
+    "t": "impeachment_accountability",
+    "cos": 0.4958285135186955,
+    "overlap": 5,
+    "v1_n": 171
+   },
+   {
+    "t": "with_due_respect_persona",
+    "cos": 0.4708008074808129,
+    "overlap": 9,
+    "v1_n": 197
+   },
+   {
+    "t": "judicial_reform",
+    "cos": 0.38360426222445976,
+    "overlap": 3,
+    "v1_n": 106
+   }
+  ],
+  "fine_parts": [
+   {
+    "fine": 32,
+    "docs_here": 20,
+    "fine_size": 20,
+    "terms": "jbc, council, judicial bar, bar council, jbc's, vacancy"
+   }
+  ],
+  "coarse_parts": [
+   {
+    "coarse": 7,
+    "docs_here": 20,
+    "coarse_size": 73
+   }
+  ],
+  "terms": "jbc, council, judicial bar, bar council, jbc's, vacancy, bar, list, appointments, nominees"
+ }
+}

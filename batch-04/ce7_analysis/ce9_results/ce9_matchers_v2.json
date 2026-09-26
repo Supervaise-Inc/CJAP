@@ -1,0 +1,293 @@
+{
+ "1": {
+  "keywords": [
+   "eulogy",
+   "sampaloc",
+   "jovito r. salonga"
+  ],
+  "entities": [
+   "sylvia lina",
+   "yale law school",
+   "mapa high school",
+   "far eastern university",
+   "feu institute of law",
+   "rotary club of manila"
+  ]
+ },
+ "2": {
+  "keywords": [
+   "bail",
+   "plunder",
+   "napoles",
+   "probable cause",
+   "moral turpitude",
+   "warrant of arrest"
+  ],
+  "entities": [
+   "mark jimenez",
+   "fatou bensouda",
+   "icc pre-trial chamber"
+  ]
+ },
+ "3": {
+  "keywords": [
+   "icj",
+   "west philippine sea"
+  ],
+  "entities": [
+   "unclos",
+   "un charter",
+   "mutual defense treaty"
+  ]
+ },
+ "4": {
+  "keywords": [
+   "investors",
+   "monopolies",
+   "res judicata",
+   "voting shares",
+   "agan v. piatco"
+  ],
+  "entities": [
+   "labor code",
+   "department of environment and natural resources"
+  ]
+ },
+ "5": {
+  "keywords": [
+   "ata",
+   "judicial activism",
+   "decision-writing style"
+  ],
+  "entities": []
+ },
+ "6": {
+  "keywords": [
+   "libel",
+   "cyberlibel",
+   "cybercrime"
+  ],
+  "entities": [
+   "maria ressa"
+  ]
+ },
+ "7": {
+  "keywords": [
+   "coup",
+   "marawi",
+   "romulo neri",
+   "constitutional authoritarianism",
+   "lagman vs medialdea"
+  ],
+  "entities": [
+   "maute group",
+   "edsa shrine"
+  ]
+ },
+ "8": {
+  "keywords": [
+   "ballots",
+   "comelec's"
+  ],
+  "entities": []
+ },
+ "9": {
+  "keywords": [
+   "toast",
+   "toobin"
+  ],
+  "entities": [
+   "centenary executive committee"
+  ]
+ },
+ "10": {
+  "keywords": [
+   "zero backlog",
+   "judicial compensation"
+  ],
+  "entities": [
+   "action program for judicial reform"
+  ]
+ },
+ "11": {
+  "keywords": [
+   "con-ass",
+   "dynasty",
+   "charter change",
+   "party-list seats"
+  ],
+  "entities": [
+   "party-list law"
+  ]
+ },
+ "12": {
+  "keywords": [
+   "bio-age",
+   "genetic",
+   "smartphone",
+   "artificial intelligence"
+  ],
+  "entities": []
+ },
+ "13": {
+  "keywords": [
+   "minimum wage",
+   "inclusive growth"
+  ],
+  "entities": [
+   "asean integration"
+  ]
+ },
+ "14": {
+  "keywords": [
+   "senate trial",
+   "articles of impeachment",
+   "francisco v. house of representatives"
+  ],
+  "entities": [
+   "nixon",
+   "sara duterte"
+  ]
+ },
+ "15": {
+  "keywords": [
+   "rvr",
+   "csr",
+   "philanthropy",
+   "philanthropist",
+   "busog lusog",
+   "dissertation writing",
+   "corporate social responsibility"
+  ],
+  "entities": [
+   "jollibee",
+   "george ty",
+   "flp scholars society",
+   "tan yan kee foundation",
+   "museum for liberty and prosperity"
+  ]
+ },
+ "16": {
+  "keywords": [
+   "amla",
+   "malampaya fund"
+  ],
+  "entities": [
+   "psbank",
+   "general appropriations act",
+   "senate blue ribbon committee"
+  ]
+ },
+ "17": {
+  "keywords": [
+   "kagan",
+   "donald"
+  ],
+  "entities": []
+ },
+ "18": {
+  "keywords": [
+   "ad interim",
+   "independent commission"
+  ],
+  "entities": [
+   "ombudsman law"
+  ]
+ },
+ "19": {
+  "keywords": [
+   "social order",
+   "twin beacons",
+   "liberty prosperity"
+  ],
+  "entities": []
+ },
+ "20": {
+  "keywords": [
+   "ppcrv's",
+   "robredo"
+  ],
+  "entities": []
+ },
+ "21": {
+  "keywords": [
+   "peace process",
+   "armed conflict"
+  ],
+  "entities": [
+   "moa-ad"
+  ]
+ },
+ "22": {
+  "keywords": [
+   "jbc nominees",
+   "senior justices",
+   "duterte appointees",
+   "cj teresita j. leonardo-de castro"
+  ],
+  "entities": [
+   "cj renato corona"
+  ]
+ },
+ "23": {
+  "keywords": [
+   "gospel",
+   "apostles"
+  ],
+  "entities": [
+   "luke"
+  ]
+ },
+ "25": {
+  "keywords": [],
+  "entities": [
+   "ala philippines"
+  ]
+ },
+ "27": {
+  "keywords": [
+   "luisita",
+   "marcoses",
+   "sequestration",
+   "estate of marcos v. republic"
+  ],
+  "entities": []
+ },
+ "28": {
+  "keywords": [
+   "poe's",
+   "naturalized"
+  ],
+  "entities": []
+ },
+ "29": {
+  "keywords": [],
+  "entities": [
+   "family code"
+  ]
+ },
+ "30": {
+  "keywords": [
+   "passers"
+  ],
+  "entities": [
+   "legal education board"
+  ]
+ },
+ "33": {
+  "keywords": [
+   "jbc's",
+   "ex-officio",
+   "jbc chair"
+  ],
+  "entities": []
+ },
+ "x:death_penalty": {
+  "keywords": [
+   "echegaray"
+  ],
+  "entities": [
+   "death penalty"
+  ]
+ }
+}

@@ -1,0 +1,952 @@
+{
+ "1": {
+  "n": 148,
+  "terms": [
+   "priest",
+   "munich",
+   "catholic",
+   "sampaloc",
+   "cardinal tagle",
+   "donna may lina",
+   "yale law school",
+   "rotary club of manila"
+  ],
+  "caught": 215,
+  "ratio": 1.4527027027027026,
+  "recall": 0.7905405405405406,
+  "in_dim": 0.5441860465116279,
+  "P1": 0.4418604651162791,
+  "P3": 0.7069767441860465,
+  "P5": 0.772093023255814,
+  "ok": true,
+  "recall_by_format": {
+   "columns": 0.7407407407407407,
+   "books": 0.6818181818181818,
+   "speeches": 0.8076923076923077,
+   "biography": 1.0
+  },
+  "caught_by_format": {
+   "columns": 84,
+   "books": 52,
+   "speeches": 50,
+   "biography": 29
+  },
+  "n_candidates": 54
+ },
+ "2": {
+  "n": 94,
+  "terms": [
+   "sbn",
+   "bail",
+   "mark jimenez",
+   "fatou bensouda",
+   "moral turpitude",
+   "warrant of arrest",
+   "icc pre-trial chamber"
+  ],
+  "caught": 125,
+  "ratio": 1.3297872340425532,
+  "recall": 0.7659574468085106,
+  "in_dim": 0.576,
+  "P1": 0.56,
+  "P3": 0.728,
+  "P5": 0.784,
+  "ok": true,
+  "recall_by_format": {
+   "columns": 0.7558139534883721,
+   "books": 0.875,
+   "speeches": null,
+   "biography": null
+  },
+  "caught_by_format": {
+   "columns": 114,
+   "books": 11,
+   "speeches": 0,
+   "biography": 0
+  },
+  "n_candidates": 38
+ },
+ "3": {
+  "n": 64,
+  "terms": [
+   "unclos",
+   "un charter",
+   "mutual defense treaty"
+  ],
+  "caught": 63,
+  "ratio": 0.984375,
+  "recall": 0.765625,
+  "in_dim": 0.7777777777777778,
+  "P1": 0.7619047619047619,
+  "P3": 0.8412698412698413,
+  "P5": 0.8571428571428571,
+  "ok": true,
+  "recall_by_format": {
+   "columns": 0.8545454545454545,
+   "books": 0.2857142857142857,
+   "speeches": 0.0,
+   "biography": null
+  },
+  "caught_by_format": {
+   "columns": 58,
+   "books": 4,
+   "speeches": 1,
+   "biography": 0
+  },
+  "n_candidates": 52
+ },
+ "4": {
+  "n": 62,
+  "terms": [
+   "monopolies",
+   "labor code",
+   "res judicata",
+   "voting shares",
+   "agan v. piatco",
+   "department of environment and natural resources"
+  ],
+  "caught": 47,
+  "ratio": 0.7580645161290323,
+  "recall": 0.532258064516129,
+  "in_dim": 0.7021276595744681,
+  "P1": 0.6170212765957447,
+  "P3": 0.8297872340425532,
+  "P5": 0.851063829787234,
+  "ok": true,
+  "recall_by_format": {
+   "columns": 0.45454545454545453,
+   "books": 0.5789473684210527,
+   "speeches": 0.5,
+   "biography": null
+  },
+  "caught_by_format": {
+   "columns": 15,
+   "books": 29,
+   "speeches": 3,
+   "biography": 0
+  },
+  "n_candidates": 15
+ },
+ "5": {
+  "n": 59,
+  "terms": [
+   "ata",
+   "judicial activism",
+   "political patronage",
+   "marcos burial at libingan ng mga bayani"
+  ],
+  "caught": 27,
+  "ratio": 0.4576271186440678,
+  "recall": 0.288135593220339,
+  "in_dim": 0.6296296296296297,
+  "P1": 0.5185185185185185,
+  "P3": 0.7407407407407407,
+  "P5": 0.7777777777777778,
+  "ok": true,
+  "recall_by_format": {
+   "columns": 0.35135135135135137,
+   "books": 0.15,
+   "speeches": 0.5,
+   "biography": null
+  },
+  "caught_by_format": {
+   "columns": 21,
+   "books": 5,
+   "speeches": 1,
+   "biography": 0
+  },
+  "n_candidates": 7
+ },
+ "6": {
+  "n": 56,
+  "terms": [
+   "searches",
+   "cybercrime",
+   "moral certainty",
+   "death penalty law"
+  ],
+  "caught": 51,
+  "ratio": 0.9107142857142857,
+  "recall": 0.5892857142857143,
+  "in_dim": 0.6470588235294118,
+  "P1": 0.5882352941176471,
+  "P3": 0.7843137254901961,
+  "P5": 0.8235294117647058,
+  "ok": true,
+  "recall_by_format": {
+   "columns": 0.5675675675675675,
+   "books": 0.631578947368421,
+   "speeches": null,
+   "biography": null
+  },
+  "caught_by_format": {
+   "columns": 30,
+   "books": 20,
+   "speeches": 0,
+   "biography": 1
+  },
+  "n_candidates": 20
+ },
+ "7": {
+  "n": 53,
+  "terms": [
+   "noon",
+   "rebellion",
+   "romulo neri"
+  ],
+  "caught": 57,
+  "ratio": 1.0754716981132075,
+  "recall": 0.5849056603773585,
+  "in_dim": 0.543859649122807,
+  "P1": 0.47368421052631576,
+  "P3": 0.6140350877192983,
+  "P5": 0.7192982456140351,
+  "ok": true,
+  "recall_by_format": {
+   "columns": 0.5714285714285714,
+   "books": 0.5714285714285714,
+   "speeches": 0.5,
+   "biography": 1.0
+  },
+  "caught_by_format": {
+   "columns": 31,
+   "books": 19,
+   "speeches": 3,
+   "biography": 4
+  },
+  "n_candidates": 20
+ },
+ "8": {
+  "n": 48,
+  "terms": [
+   "ballots",
+   "comelec's"
+  ],
+  "caught": 91,
+  "ratio": 1.8958333333333333,
+  "recall": 0.8958333333333334,
+  "in_dim": 0.4725274725274725,
+  "P1": 0.45054945054945056,
+  "P3": 0.7692307692307693,
+  "P5": 0.8351648351648352,
+  "ok": true,
+  "recall_by_format": {
+   "columns": 0.9090909090909091,
+   "books": 0.88,
+   "speeches": 1.0,
+   "biography": null
+  },
+  "caught_by_format": {
+   "columns": 58,
+   "books": 31,
+   "speeches": 2,
+   "biography": 0
+  },
+  "n_candidates": 36
+ },
+ "9": {
+  "n": 43,
+  "terms": [
+   "toobin",
+   "katarungan",
+   "people v. genosa",
+   "centenary executive committee"
+  ],
+  "caught": 36,
+  "ratio": 0.8372093023255814,
+  "recall": 0.5348837209302325,
+  "in_dim": 0.6388888888888888,
+  "P1": 0.5555555555555556,
+  "P3": 0.6944444444444444,
+  "P5": 0.8055555555555556,
+  "ok": true,
+  "recall_by_format": {
+   "columns": 0.46153846153846156,
+   "books": 0.6923076923076923,
+   "speeches": 0.47058823529411764,
+   "biography": null
+  },
+  "caught_by_format": {
+   "columns": 7,
+   "books": 20,
+   "speeches": 9,
+   "biography": 0
+  },
+  "n_candidates": 13
+ },
+ "10": {
+  "n": 42,
+  "terms": [
+   "zero backlog",
+   "judicial compensation",
+   "action program for judicial reform"
+  ],
+  "caught": 54,
+  "ratio": 1.2857142857142858,
+  "recall": 0.6904761904761905,
+  "in_dim": 0.5370370370370371,
+  "P1": 0.5740740740740741,
+  "P3": 0.7777777777777778,
+  "P5": 0.8703703703703703,
+  "ok": true,
+  "recall_by_format": {
+   "columns": 0.45454545454545453,
+   "books": 1.0,
+   "speeches": 0.5,
+   "biography": null
+  },
+  "caught_by_format": {
+   "columns": 19,
+   "books": 29,
+   "speeches": 5,
+   "biography": 1
+  },
+  "n_candidates": 20
+ },
+ "11": {
+  "n": 40,
+  "terms": [
+   "con-ass",
+   "dynasty",
+   "party-list law",
+   "party-list seats"
+  ],
+  "caught": 53,
+  "ratio": 1.325,
+  "recall": 0.875,
+  "in_dim": 0.660377358490566,
+  "P1": 0.6415094339622641,
+  "P3": 0.7547169811320755,
+  "P5": 0.8301886792452831,
+  "ok": true,
+  "recall_by_format": {
+   "columns": 0.875,
+   "books": 0.8571428571428571,
+   "speeches": 1.0,
+   "biography": null
+  },
+  "caught_by_format": {
+   "columns": 39,
+   "books": 11,
+   "speeches": 3,
+   "biography": 0
+  },
+  "n_candidates": 36
+ },
+ "12": {
+  "n": 39,
+  "terms": [
+   "camera",
+   "bio-age",
+   "genetic",
+   "smartphone"
+  ],
+  "caught": 49,
+  "ratio": 1.2564102564102564,
+  "recall": 0.6410256410256411,
+  "in_dim": 0.5102040816326531,
+  "P1": 0.4897959183673469,
+  "P3": 0.7551020408163265,
+  "P5": 0.8775510204081632,
+  "ok": true,
+  "recall_by_format": {
+   "columns": 0.4444444444444444,
+   "books": 0.8,
+   "speeches": 1.0,
+   "biography": null
+  },
+  "caught_by_format": {
+   "columns": 16,
+   "books": 31,
+   "speeches": 2,
+   "biography": 0
+  },
+  "n_candidates": 12
+ },
+ "13": {
+  "n": 36,
+  "terms": [
+   "fisherman",
+   "minimum wage",
+   "inclusive growth"
+  ],
+  "caught": 19,
+  "ratio": 0.5277777777777778,
+  "recall": 0.3888888888888889,
+  "in_dim": 0.7368421052631579,
+  "P1": 0.6842105263157895,
+  "P3": 0.8947368421052632,
+  "P5": 0.9473684210526315,
+  "ok": true,
+  "recall_by_format": {
+   "columns": 0.3448275862068966,
+   "books": 0.3333333333333333,
+   "speeches": 0.75,
+   "biography": null
+  },
+  "caught_by_format": {
+   "columns": 14,
+   "books": 1,
+   "speeches": 4,
+   "biography": 0
+  },
+  "n_candidates": 12
+ },
+ "14": {
+  "n": 35,
+  "terms": [
+   "nixon",
+   "senate trial",
+   "francisco v. house of representatives"
+  ],
+  "caught": 24,
+  "ratio": 0.6857142857142857,
+  "recall": 0.5428571428571428,
+  "in_dim": 0.7916666666666666,
+  "P1": 0.75,
+  "P3": 0.9583333333333334,
+  "P5": 1.0,
+  "ok": true,
+  "recall_by_format": {
+   "columns": 0.5357142857142857,
+   "books": 0.5714285714285714,
+   "speeches": null,
+   "biography": null
+  },
+  "caught_by_format": {
+   "columns": 18,
+   "books": 6,
+   "speeches": 0,
+   "biography": 0
+  },
+  "n_candidates": 16
+ },
+ "15": {
+  "n": 33,
+  "terms": [
+   "tan yan",
+   "business law",
+   "emerson gregorio"
+  ],
+  "caught": 52,
+  "ratio": 1.5757575757575757,
+  "recall": 0.9696969696969697,
+  "in_dim": 0.6153846153846154,
+  "P1": 0.6346153846153846,
+  "P3": 0.9423076923076923,
+  "P5": 1.0,
+  "ok": true,
+  "recall_by_format": {
+   "columns": 1.0,
+   "books": null,
+   "speeches": 0.9166666666666666,
+   "biography": null
+  },
+  "caught_by_format": {
+   "columns": 36,
+   "books": 0,
+   "speeches": 16,
+   "biography": 0
+  },
+  "n_candidates": 53
+ },
+ "16": {
+  "n": 32,
+  "terms": [
+   "amla",
+   "psbank",
+   "general appropriations act"
+  ],
+  "caught": 35,
+  "ratio": 1.09375,
+  "recall": 0.65625,
+  "in_dim": 0.6,
+  "P1": 0.5714285714285714,
+  "P3": 0.6857142857142857,
+  "P5": 0.6857142857142857,
+  "ok": true,
+  "recall_by_format": {
+   "columns": 0.6451612903225806,
+   "books": 1.0,
+   "speeches": null,
+   "biography": null
+  },
+  "caught_by_format": {
+   "columns": 32,
+   "books": 3,
+   "speeches": 0,
+   "biography": 0
+  },
+  "n_candidates": 15
+ },
+ "17": {
+  "n": 29,
+  "terms": [
+   "donald"
+  ],
+  "caught": 47,
+  "ratio": 1.6206896551724137,
+  "recall": 0.896551724137931,
+  "in_dim": 0.5531914893617021,
+  "P1": 0.5957446808510638,
+  "P3": 0.7021276595744681,
+  "P5": 0.8085106382978723,
+  "ok": true,
+  "recall_by_format": {
+   "columns": 0.896551724137931,
+   "books": null,
+   "speeches": null,
+   "biography": null
+  },
+  "caught_by_format": {
+   "columns": 46,
+   "books": 1,
+   "speeches": 0,
+   "biography": 0
+  },
+  "n_candidates": 54
+ },
+ "18": {
+  "n": 27,
+  "terms": [
+   "unexpired",
+   "ombudsman law"
+  ],
+  "caught": 11,
+  "ratio": 0.4074074074074074,
+  "recall": 0.2962962962962963,
+  "in_dim": 0.7272727272727273,
+  "P1": 0.45454545454545453,
+  "P3": 0.9090909090909091,
+  "P5": 0.9090909090909091,
+  "ok": true,
+  "recall_by_format": {
+   "columns": 0.2916666666666667,
+   "books": 0.3333333333333333,
+   "speeches": null,
+   "biography": null
+  },
+  "caught_by_format": {
+   "columns": 9,
+   "books": 2,
+   "speeches": 0,
+   "biography": 0
+  },
+  "n_candidates": 4
+ },
+ "19": {
+  "n": 27,
+  "terms": [
+   "social order",
+   "liberty prosperity"
+  ],
+  "caught": 24,
+  "ratio": 0.8888888888888888,
+  "recall": 0.5185185185185185,
+  "in_dim": 0.5833333333333334,
+  "P1": 0.7083333333333334,
+  "P3": 0.8333333333333334,
+  "P5": 0.9166666666666666,
+  "ok": true,
+  "recall_by_format": {
+   "columns": 0.2,
+   "books": 0.6,
+   "speeches": 0.75,
+   "biography": null
+  },
+  "caught_by_format": {
+   "columns": 4,
+   "books": 5,
+   "speeches": 15,
+   "biography": 0
+  },
+  "n_candidates": 8
+ },
+ "20": {
+  "n": 26,
+  "terms": [
+   "ppcrv's",
+   "vp leni robredo"
+  ],
+  "caught": 24,
+  "ratio": 0.9230769230769231,
+  "recall": 0.5769230769230769,
+  "in_dim": 0.625,
+  "P1": 0.5416666666666666,
+  "P3": 0.75,
+  "P5": 0.7916666666666666,
+  "ok": true,
+  "recall_by_format": {
+   "columns": 0.5416666666666666,
+   "books": 1.0,
+   "speeches": null,
+   "biography": null
+  },
+  "caught_by_format": {
+   "columns": 17,
+   "books": 4,
+   "speeches": 1,
+   "biography": 2
+  },
+  "n_candidates": 25
+ },
+ "21": {
+  "n": 26,
+  "terms": [
+   "moa-ad",
+   "armed conflict"
+  ],
+  "caught": 16,
+  "ratio": 0.6153846153846154,
+  "recall": 0.5,
+  "in_dim": 0.8125,
+  "P1": 0.6875,
+  "P3": 0.875,
+  "P5": 0.9375,
+  "ok": true,
+  "recall_by_format": {
+   "columns": 0.4782608695652174,
+   "books": 0.6666666666666666,
+   "speeches": null,
+   "biography": null
+  },
+  "caught_by_format": {
+   "columns": 13,
+   "books": 2,
+   "speeches": 1,
+   "biography": 0
+  },
+  "n_candidates": 24
+ },
+ "22": {
+  "n": 26,
+  "terms": [
+   "duterte appointees",
+   "cj renato corona",
+   "cj teresita j. leonardo-de castro"
+  ],
+  "caught": 17,
+  "ratio": 0.6538461538461539,
+  "recall": 0.46153846153846156,
+  "in_dim": 0.7058823529411765,
+  "P1": 0.6470588235294118,
+  "P3": 0.8823529411764706,
+  "P5": 0.8823529411764706,
+  "ok": true,
+  "recall_by_format": {
+   "columns": 0.5,
+   "books": null,
+   "speeches": 0.0,
+   "biography": null
+  },
+  "caught_by_format": {
+   "columns": 17,
+   "books": 0,
+   "speeches": 0,
+   "biography": 0
+  },
+  "n_candidates": 9
+ },
+ "23": {
+  "n": 26,
+  "terms": [
+   "luke",
+   "sins"
+  ],
+  "caught": 25,
+  "ratio": 0.9615384615384616,
+  "recall": 0.6153846153846154,
+  "in_dim": 0.64,
+  "P1": 0.76,
+  "P3": 0.88,
+  "P5": 0.96,
+  "ok": true,
+  "recall_by_format": {
+   "columns": 0.8,
+   "books": 0.5714285714285714,
+   "speeches": 0.75,
+   "biography": 0.3333333333333333
+  },
+  "caught_by_format": {
+   "columns": 5,
+   "books": 11,
+   "speeches": 6,
+   "biography": 3
+  },
+  "n_candidates": 18
+ },
+ "24": {
+  "n": 24,
+  "terms": [
+   "rvr",
+   "philanthropy"
+  ],
+  "caught": 31,
+  "ratio": 1.2916666666666667,
+  "recall": 0.75,
+  "in_dim": 0.5806451612903226,
+  "P1": 0.6129032258064516,
+  "P3": 0.8064516129032258,
+  "P5": 0.9032258064516129,
+  "ok": true,
+  "recall_by_format": {
+   "columns": 0.6923076923076923,
+   "books": 1.0,
+   "speeches": 0.8,
+   "biography": null
+  },
+  "caught_by_format": {
+   "columns": 17,
+   "books": 2,
+   "speeches": 12,
+   "biography": 0
+  },
+  "n_candidates": 39
+ },
+ "25": {
+  "n": 24,
+  "terms": [
+   "ala philippines"
+  ],
+  "caught": 11,
+  "ratio": 0.4583333333333333,
+  "recall": 0.375,
+  "in_dim": 0.8181818181818182,
+  "P1": 0.8181818181818182,
+  "P3": 1.0,
+  "P5": 1.0,
+  "ok": true,
+  "recall_by_format": {
+   "columns": 0.21428571428571427,
+   "books": 0.0,
+   "speeches": 0.75,
+   "biography": null
+  },
+  "caught_by_format": {
+   "columns": 5,
+   "books": 0,
+   "speeches": 6,
+   "biography": 0
+  },
+  "n_candidates": 10
+ },
+ "26": {
+  "n": 23,
+  "terms": [
+   "data collection"
+  ],
+  "caught": 5,
+  "ratio": 0.21739130434782608,
+  "recall": 0.17391304347826086,
+  "in_dim": 0.8,
+  "P1": 0.6,
+  "P3": 1.0,
+  "P5": 1.0,
+  "ok": true,
+  "recall_by_format": {
+   "columns": 0.14285714285714285,
+   "books": 0.5,
+   "speeches": null,
+   "biography": null
+  },
+  "caught_by_format": {
+   "columns": 4,
+   "books": 1,
+   "speeches": 0,
+   "biography": 0
+  },
+  "n_candidates": 5
+ },
+ "27": {
+  "n": 23,
+  "terms": [
+   "levy",
+   "luisita",
+   "sequestration",
+   "estate of marcos v. republic"
+  ],
+  "caught": 23,
+  "ratio": 1.0,
+  "recall": 0.6956521739130435,
+  "in_dim": 0.6956521739130435,
+  "P1": 0.6521739130434783,
+  "P3": 0.782608695652174,
+  "P5": 0.8260869565217391,
+  "ok": true,
+  "recall_by_format": {
+   "columns": 0.7,
+   "books": 0.6666666666666666,
+   "speeches": null,
+   "biography": null
+  },
+  "caught_by_format": {
+   "columns": 19,
+   "books": 4,
+   "speeches": 0,
+   "biography": 0
+  },
+  "n_candidates": 13
+ },
+ "28": {
+  "n": 21,
+  "terms": [
+   "poe's",
+   "naturalized"
+  ],
+  "caught": 24,
+  "ratio": 1.1428571428571428,
+  "recall": 0.8571428571428571,
+  "in_dim": 0.75,
+  "P1": 0.7083333333333334,
+  "P3": 0.75,
+  "P5": 0.75,
+  "ok": true,
+  "recall_by_format": {
+   "columns": 0.8947368421052632,
+   "books": 0.5,
+   "speeches": null,
+   "biography": null
+  },
+  "caught_by_format": {
+   "columns": 22,
+   "books": 2,
+   "speeches": 0,
+   "biography": 0
+  },
+  "n_candidates": 29
+ },
+ "29": {
+  "n": 21,
+  "terms": [
+   "family code"
+  ],
+  "caught": 29,
+  "ratio": 1.380952380952381,
+  "recall": 0.7619047619047619,
+  "in_dim": 0.5517241379310345,
+  "P1": 0.6551724137931034,
+  "P3": 0.7931034482758621,
+  "P5": 0.8275862068965517,
+  "ok": true,
+  "recall_by_format": {
+   "columns": 0.7692307692307693,
+   "books": 0.8333333333333334,
+   "speeches": 0.5,
+   "biography": null
+  },
+  "caught_by_format": {
+   "columns": 16,
+   "books": 10,
+   "speeches": 2,
+   "biography": 1
+  },
+  "n_candidates": 23
+ },
+ "30": {
+  "n": 21,
+  "terms": [
+   "passers"
+  ],
+  "caught": 15,
+  "ratio": 0.7142857142857143,
+  "recall": 0.3333333333333333,
+  "in_dim": 0.4666666666666667,
+  "P1": 0.5333333333333333,
+  "P3": 0.7333333333333333,
+  "P5": 0.8,
+  "ok": true,
+  "recall_by_format": {
+   "columns": 0.6,
+   "books": 0.0,
+   "speeches": 0.3333333333333333,
+   "biography": null
+  },
+  "caught_by_format": {
+   "columns": 13,
+   "books": 1,
+   "speeches": 1,
+   "biography": 0
+  },
+  "n_candidates": 3
+ },
+ "31": {
+  "n": 21,
+  "terms": [],
+  "caught": 0,
+  "ratio": 0.0,
+  "recall": 0.0,
+  "in_dim": 0.0,
+  "P1": NaN,
+  "P3": NaN,
+  "P5": NaN,
+  "ok": false,
+  "recall_by_format": {
+   "columns": 0.0,
+   "books": 0.0,
+   "speeches": 0.0,
+   "biography": 0.0
+  },
+  "caught_by_format": {
+   "columns": 0,
+   "books": 0,
+   "speeches": 0,
+   "biography": 0
+  },
+  "n_candidates": 0
+ },
+ "32": {
+  "n": 21,
+  "terms": [
+   "corporate ethics"
+  ],
+  "caught": 5,
+  "ratio": 0.23809523809523808,
+  "recall": 0.19047619047619047,
+  "in_dim": 0.8,
+  "P1": 0.8,
+  "P3": 1.0,
+  "P5": 1.0,
+  "ok": true,
+  "recall_by_format": {
+   "columns": 0.0,
+   "books": 0.5,
+   "speeches": 0.23076923076923078,
+   "biography": null
+  },
+  "caught_by_format": {
+   "columns": 0,
+   "books": 1,
+   "speeches": 4,
+   "biography": 0
+  },
+  "n_candidates": 5
+ },
+ "33": {
+  "n": 20,
+  "terms": [
+   "jbc's",
+   "jbc chair"
+  ],
+  "caught": 27,
+  "ratio": 1.35,
+  "recall": 0.7,
+  "in_dim": 0.5185185185185185,
+  "P1": 0.5555555555555556,
+  "P3": 0.7777777777777778,
+  "P5": 0.8518518518518519,
+  "ok": true,
+  "recall_by_format": {
+   "columns": 0.6666666666666666,
+   "books": 0.75,
+   "speeches": null,
+   "biography": null
+  },
+  "caught_by_format": {
+   "columns": 15,
+   "books": 8,
+   "speeches": 2,
+   "biography": 2
+  },
+  "n_candidates": 6
+ }
+}

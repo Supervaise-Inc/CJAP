@@ -1,0 +1,331 @@
+{
+ "1": [
+  {
+   "pool": "rotary club of manila",
+   "pool_docs": 17,
+   "inside": 11,
+   "share": 0.6470588235294118
+  },
+  {
+   "pool": "jovito r. salonga",
+   "pool_docs": 22,
+   "inside": 11,
+   "share": 0.5
+  },
+  {
+   "pool": "far eastern university",
+   "pool_docs": 10,
+   "inside": 9,
+   "share": 0.9
+  },
+  {
+   "pool": "pontifical council for the laity",
+   "pool_docs": 7,
+   "inside": 6,
+   "share": 0.8571428571428571
+  },
+  {
+   "pool": "cardinal tagle",
+   "pool_docs": 8,
+   "inside": 6,
+   "share": 0.75
+  },
+  {
+   "pool": "pedro l. yap",
+   "pool_docs": 5,
+   "inside": 5,
+   "share": 1.0
+  }
+ ],
+ "2": [
+  {
+   "pool": "sandiganbayan",
+   "pool_docs": 26,
+   "inside": 13,
+   "share": 0.5
+  }
+ ],
+ "3": [
+  {
+   "pool": "arbitral award",
+   "pool_docs": 12,
+   "inside": 10,
+   "share": 0.8333333333333334
+  },
+  {
+   "pool": "nine-dash line",
+   "pool_docs": 8,
+   "inside": 8,
+   "share": 1.0
+  },
+  {
+   "pool": "unclos",
+   "pool_docs": 7,
+   "inside": 7,
+   "share": 1.0
+  },
+  {
+   "pool": "eez",
+   "pool_docs": 7,
+   "inside": 7,
+   "share": 1.0
+  },
+  {
+   "pool": "west philippine sea",
+   "pool_docs": 9,
+   "inside": 7,
+   "share": 0.7777777777777778
+  }
+ ],
+ "4": [],
+ "5": [
+  {
+   "pool": "judicial independence",
+   "pool_docs": 22,
+   "inside": 11,
+   "share": 0.5
+  }
+ ],
+ "6": [
+  {
+   "pool": "maria ressa",
+   "pool_docs": 6,
+   "inside": 6,
+   "share": 1.0
+  },
+  {
+   "pool": "people v. echegaray",
+   "pool_docs": 5,
+   "inside": 5,
+   "share": 1.0
+  },
+  {
+   "pool": "leo echegaray",
+   "pool_docs": 5,
+   "inside": 5,
+   "share": 1.0
+  }
+ ],
+ "7": [
+  {
+   "pool": "cory aquino",
+   "pool_docs": 8,
+   "inside": 5,
+   "share": 0.625
+  }
+ ],
+ "8": [
+  {
+   "pool": "smartmatic",
+   "pool_docs": 10,
+   "inside": 10,
+   "share": 1.0
+  },
+  {
+   "pool": "pcos",
+   "pool_docs": 8,
+   "inside": 8,
+   "share": 1.0
+  },
+  {
+   "pool": "commission on elections",
+   "pool_docs": 14,
+   "inside": 7,
+   "share": 0.5
+  },
+  {
+   "pool": "disenfranchisement",
+   "pool_docs": 5,
+   "inside": 5,
+   "share": 1.0
+  },
+  {
+   "pool": "prior restraint",
+   "pool_docs": 6,
+   "inside": 5,
+   "share": 0.8333333333333334
+  },
+  {
+   "pool": "exit polls",
+   "pool_docs": 7,
+   "inside": 5,
+   "share": 0.7142857142857143
+  }
+ ],
+ "9": [],
+ "10": [
+  {
+   "pool": "action program for judicial reform",
+   "pool_docs": 15,
+   "inside": 9,
+   "share": 0.6
+  },
+  {
+   "pool": "davide watch",
+   "pool_docs": 9,
+   "inside": 8,
+   "share": 0.8888888888888888
+  },
+  {
+   "pool": "salary standardization law",
+   "pool_docs": 12,
+   "inside": 8,
+   "share": 0.6666666666666666
+  },
+  {
+   "pool": "justice on wheels",
+   "pool_docs": 5,
+   "inside": 5,
+   "share": 1.0
+  },
+  {
+   "pool": "judicial compensation",
+   "pool_docs": 5,
+   "inside": 5,
+   "share": 1.0
+  },
+  {
+   "pool": "apjr",
+   "pool_docs": 7,
+   "inside": 5,
+   "share": 0.7142857142857143
+  }
+ ],
+ "11": [
+  {
+   "pool": "party-list system",
+   "pool_docs": 10,
+   "inside": 7,
+   "share": 0.7
+  },
+  {
+   "pool": "banat v. comelec",
+   "pool_docs": 7,
+   "inside": 6,
+   "share": 0.8571428571428571
+  },
+  {
+   "pool": "ang bagong bayani",
+   "pool_docs": 7,
+   "inside": 6,
+   "share": 0.8571428571428571
+  },
+  {
+   "pool": "atong paglaum",
+   "pool_docs": 8,
+   "inside": 6,
+   "share": 0.75
+  },
+  {
+   "pool": "ra 7941",
+   "pool_docs": 6,
+   "inside": 5,
+   "share": 0.8333333333333334
+  },
+  {
+   "pool": "marginalized and underrepresented",
+   "pool_docs": 6,
+   "inside": 5,
+   "share": 0.8333333333333334
+  }
+ ],
+ "12": [],
+ "13": [],
+ "14": [],
+ "15": [
+  {
+   "pool": "tan yan kee foundation",
+   "pool_docs": 16,
+   "inside": 14,
+   "share": 0.875
+  },
+  {
+   "pool": "foundation for liberty and prosperity",
+   "pool_docs": 13,
+   "inside": 9,
+   "share": 0.6923076923076923
+  },
+  {
+   "pool": "flp scholars society",
+   "pool_docs": 7,
+   "inside": 7,
+   "share": 1.0
+  },
+  {
+   "pool": "museum for liberty and prosperity",
+   "pool_docs": 7,
+   "inside": 6,
+   "share": 0.8571428571428571
+  },
+  {
+   "pool": "ayala corporation",
+   "pool_docs": 7,
+   "inside": 6,
+   "share": 0.8571428571428571
+  },
+  {
+   "pool": "prosperity fund",
+   "pool_docs": 9,
+   "inside": 5,
+   "share": 0.5555555555555556
+  }
+ ],
+ "16": [],
+ "17": [
+  {
+   "pool": "scotus",
+   "pool_docs": 9,
+   "inside": 8,
+   "share": 0.8888888888888888
+  }
+ ],
+ "18": [],
+ "19": [],
+ "20": [],
+ "21": [
+  {
+   "pool": "bangsamoro basic law",
+   "pool_docs": 7,
+   "inside": 6,
+   "share": 0.8571428571428571
+  }
+ ],
+ "22": [],
+ "23": [],
+ "24": [],
+ "25": [],
+ "26": [],
+ "27": [],
+ "28": [],
+ "29": [
+  {
+   "pool": "psychological incapacity",
+   "pool_docs": 10,
+   "inside": 6,
+   "share": 0.6
+  }
+ ],
+ "30": [],
+ "31": [],
+ "32": [],
+ "33": [
+  {
+   "pool": "bar council",
+   "pool_docs": 9,
+   "inside": 6,
+   "share": 0.6666666666666666
+  },
+  {
+   "pool": "judicial",
+   "pool_docs": 10,
+   "inside": 6,
+   "share": 0.6
+  },
+  {
+   "pool": "commission on appointments",
+   "pool_docs": 9,
+   "inside": 5,
+   "share": 0.5555555555555556
+  }
+ ]
+}

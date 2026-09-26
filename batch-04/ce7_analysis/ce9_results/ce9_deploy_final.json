@@ -1,0 +1,2064 @@
+{
+ "clusters": [
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16,
+  17,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23,
+  25,
+  27,
+  28,
+  29,
+  30,
+  33,
+  "x:death_penalty"
+ ],
+ "caught": [
+  193,
+  164,
+  85,
+  66,
+  21,
+  28,
+  45,
+  91,
+  37,
+  54,
+  68,
+  63,
+  17,
+  47,
+  107,
+  47,
+  50,
+  15,
+  41,
+  38,
+  28,
+  28,
+  49,
+  11,
+  27,
+  24,
+  29,
+  20,
+  34,
+  30
+ ],
+ "precision": [
+  {
+   "cluster": 1,
+   "caught": 193,
+   "P1": 0.37823834196891193,
+   "P3": 0.7668393782383419,
+   "P5": 0.8393782383419689,
+   "base3": 0.2310077519379845,
+   "control_P3": 0.10362694300518134,
+   "in_derived_cluster": 0.49740932642487046,
+   "recall_of_cluster": 0.6486486486486487,
+   "caught_by_format": {
+    "columns": 74,
+    "books": 43,
+    "speeches": 53,
+    "biography": 23
+   },
+   "recall_by_format": {
+    "columns": 0.5,
+    "books": 0.8181818181818182,
+    "speeches": 0.6346153846153846,
+    "biography": 0.9
+   }
+  },
+  {
+   "cluster": 2,
+   "caught": 164,
+   "P1": 0.5121951219512195,
+   "P3": 0.7012195121951219,
+   "P5": 0.8048780487804879,
+   "base3": 0.1697674418604651,
+   "control_P3": 0.042682926829268296,
+   "in_derived_cluster": 0.4268292682926829,
+   "recall_of_cluster": 0.7446808510638298,
+   "caught_by_format": {
+    "columns": 139,
+    "books": 21,
+    "speeches": 4,
+    "biography": 0
+   },
+   "recall_by_format": {
+    "columns": 0.7325581395348837,
+    "books": 0.875,
+    "speeches": null,
+    "biography": null
+   }
+  },
+  {
+   "cluster": 3,
+   "caught": 85,
+   "P1": 0.6,
+   "P3": 0.7411764705882353,
+   "P5": 0.7764705882352941,
+   "base3": 0.09612403100775194,
+   "control_P3": 0.08235294117647059,
+   "in_derived_cluster": 0.6235294117647059,
+   "recall_of_cluster": 0.828125,
+   "caught_by_format": {
+    "columns": 73,
+    "books": 6,
+    "speeches": 6,
+    "biography": 0
+   },
+   "recall_by_format": {
+    "columns": 0.9090909090909091,
+    "books": 0.42857142857142855,
+    "speeches": 0.0,
+    "biography": null
+   }
+  },
+  {
+   "cluster": 4,
+   "caught": 66,
+   "P1": 0.5151515151515151,
+   "P3": 0.696969696969697,
+   "P5": 0.803030303030303,
+   "base3": 0.09844961240310078,
+   "control_P3": 0.16666666666666666,
+   "in_derived_cluster": 0.5303030303030303,
+   "recall_of_cluster": 0.5645161290322581,
+   "caught_by_format": {
+    "columns": 25,
+    "books": 33,
+    "speeches": 6,
+    "biography": 2
+   },
+   "recall_by_format": {
+    "columns": 0.5454545454545454,
+    "books": 0.5789473684210527,
+    "speeches": 0.5,
+    "biography": null
+   }
+  },
+  {
+   "cluster": 5,
+   "caught": 21,
+   "P1": 0.5714285714285714,
+   "P3": 0.7619047619047619,
+   "P5": 0.8095238095238095,
+   "base3": 0.1062015503875969,
+   "control_P3": 0.09523809523809523,
+   "in_derived_cluster": 0.6666666666666666,
+   "recall_of_cluster": 0.23728813559322035,
+   "caught_by_format": {
+    "columns": 14,
+    "books": 6,
+    "speeches": 1,
+    "biography": 0
+   },
+   "recall_by_format": {
+    "columns": 0.24324324324324326,
+    "books": 0.2,
+    "speeches": 0.5,
+    "biography": null
+   }
+  },
+  {
+   "cluster": 6,
+   "caught": 28,
+   "P1": 0.4642857142857143,
+   "P3": 0.6071428571428571,
+   "P5": 0.75,
+   "base3": 0.07519379844961241,
+   "control_P3": 0.10714285714285714,
+   "in_derived_cluster": 0.42857142857142855,
+   "recall_of_cluster": 0.21428571428571427,
+   "caught_by_format": {
+    "columns": 24,
+    "books": 3,
+    "speeches": 1,
+    "biography": 0
+   },
+   "recall_by_format": {
+    "columns": 0.2702702702702703,
+    "books": 0.10526315789473684,
+    "speeches": null,
+    "biography": null
+   }
+  },
+  {
+   "cluster": 7,
+   "caught": 45,
+   "P1": 0.5111111111111111,
+   "P3": 0.6444444444444445,
+   "P5": 0.8,
+   "base3": 0.06666666666666667,
+   "control_P3": 0.044444444444444446,
+   "in_derived_cluster": 0.6222222222222222,
+   "recall_of_cluster": 0.5283018867924528,
+   "caught_by_format": {
+    "columns": 25,
+    "books": 14,
+    "speeches": 3,
+    "biography": 3
+   },
+   "recall_by_format": {
+    "columns": 0.6071428571428571,
+    "books": 0.42857142857142855,
+    "speeches": 0.0,
+    "biography": 1.0
+   }
+  },
+  {
+   "cluster": 8,
+   "caught": 91,
+   "P1": 0.4945054945054945,
+   "P3": 0.8241758241758241,
+   "P5": 0.8571428571428571,
+   "base3": 0.10775193798449613,
+   "control_P3": 0.07692307692307693,
+   "in_derived_cluster": 0.4725274725274725,
+   "recall_of_cluster": 0.8958333333333334,
+   "caught_by_format": {
+    "columns": 58,
+    "books": 31,
+    "speeches": 2,
+    "biography": 0
+   },
+   "recall_by_format": {
+    "columns": 0.9090909090909091,
+    "books": 0.88,
+    "speeches": 1.0,
+    "biography": null
+   }
+  },
+  {
+   "cluster": 9,
+   "caught": 37,
+   "P1": 0.40540540540540543,
+   "P3": 0.7567567567567568,
+   "P5": 0.8648648648648649,
+   "base3": 0.13023255813953488,
+   "control_P3": 0.02702702702702703,
+   "in_derived_cluster": 0.4864864864864865,
+   "recall_of_cluster": 0.4186046511627907,
+   "caught_by_format": {
+    "columns": 9,
+    "books": 12,
+    "speeches": 16,
+    "biography": 0
+   },
+   "recall_by_format": {
+    "columns": 0.3076923076923077,
+    "books": 0.5384615384615384,
+    "speeches": 0.4117647058823529,
+    "biography": null
+   }
+  },
+  {
+   "cluster": 10,
+   "caught": 54,
+   "P1": 0.6666666666666666,
+   "P3": 0.8148148148148148,
+   "P5": 0.8518518518518519,
+   "base3": 0.1062015503875969,
+   "control_P3": 0.037037037037037035,
+   "in_derived_cluster": 0.5370370370370371,
+   "recall_of_cluster": 0.6904761904761905,
+   "caught_by_format": {
+    "columns": 19,
+    "books": 29,
+    "speeches": 5,
+    "biography": 1
+   },
+   "recall_by_format": {
+    "columns": 0.45454545454545453,
+    "books": 1.0,
+    "speeches": 0.5,
+    "biography": null
+   }
+  },
+  {
+   "cluster": 11,
+   "caught": 68,
+   "P1": 0.6176470588235294,
+   "P3": 0.75,
+   "P5": 0.8088235294117647,
+   "base3": 0.10310077519379846,
+   "control_P3": 0.17647058823529413,
+   "in_derived_cluster": 0.5588235294117647,
+   "recall_of_cluster": 0.95,
+   "caught_by_format": {
+    "columns": 46,
+    "books": 17,
+    "speeches": 5,
+    "biography": 0
+   },
+   "recall_by_format": {
+    "columns": 0.96875,
+    "books": 0.8571428571428571,
+    "speeches": 1.0,
+    "biography": null
+   }
+  },
+  {
+   "cluster": 12,
+   "caught": 63,
+   "P1": 0.5238095238095238,
+   "P3": 0.7301587301587301,
+   "P5": 0.7936507936507936,
+   "base3": 0.059689922480620154,
+   "control_P3": 0.031746031746031744,
+   "in_derived_cluster": 0.42857142857142855,
+   "recall_of_cluster": 0.6923076923076923,
+   "caught_by_format": {
+    "columns": 29,
+    "books": 29,
+    "speeches": 5,
+    "biography": 0
+   },
+   "recall_by_format": {
+    "columns": 0.6111111111111112,
+    "books": 0.75,
+    "speeches": 1.0,
+    "biography": null
+   }
+  },
+  {
+   "cluster": 13,
+   "caught": 17,
+   "P1": 0.6470588235294118,
+   "P3": 0.9411764705882353,
+   "P5": 0.9411764705882353,
+   "base3": 0.1186046511627907,
+   "control_P3": 0.35294117647058826,
+   "in_derived_cluster": 0.7058823529411765,
+   "recall_of_cluster": 0.3333333333333333,
+   "caught_by_format": {
+    "columns": 14,
+    "books": 1,
+    "speeches": 2,
+    "biography": 0
+   },
+   "recall_by_format": {
+    "columns": 0.3448275862068966,
+    "books": 0.3333333333333333,
+    "speeches": 0.25,
+    "biography": null
+   }
+  },
+  {
+   "cluster": 14,
+   "caught": 47,
+   "P1": 0.5319148936170213,
+   "P3": 0.6808510638297872,
+   "P5": 0.8297872340425532,
+   "base3": 0.11085271317829458,
+   "control_P3": 0.02127659574468085,
+   "in_derived_cluster": 0.48936170212765956,
+   "recall_of_cluster": 0.6571428571428571,
+   "caught_by_format": {
+    "columns": 41,
+    "books": 6,
+    "speeches": 0,
+    "biography": 0
+   },
+   "recall_by_format": {
+    "columns": 0.6785714285714286,
+    "books": 0.5714285714285714,
+    "speeches": null,
+    "biography": null
+   }
+  },
+  {
+   "cluster": 15,
+   "caught": 107,
+   "P1": 0.5233644859813084,
+   "P3": 0.9065420560747663,
+   "P5": 0.9439252336448598,
+   "base3": 0.2062015503875969,
+   "control_P3": 0.04672897196261682,
+   "in_derived_cluster": 0.514018691588785,
+   "recall_of_cluster": 0.9649122807017544,
+   "caught_by_format": {
+    "columns": 61,
+    "books": 5,
+    "speeches": 40,
+    "biography": 1
+   },
+   "recall_by_format": {
+    "columns": 0.9411764705882353,
+    "books": 1.0,
+    "speeches": 1.0,
+    "biography": null
+   }
+  },
+  {
+   "cluster": 16,
+   "caught": 47,
+   "P1": 0.5319148936170213,
+   "P3": 0.7659574468085106,
+   "P5": 0.8085106382978723,
+   "base3": 0.13488372093023257,
+   "control_P3": 0.2127659574468085,
+   "in_derived_cluster": 0.5531914893617021,
+   "recall_of_cluster": 0.8125,
+   "caught_by_format": {
+    "columns": 42,
+    "books": 5,
+    "speeches": 0,
+    "biography": 0
+   },
+   "recall_by_format": {
+    "columns": 0.8064516129032258,
+    "books": 1.0,
+    "speeches": null,
+    "biography": null
+   }
+  },
+  {
+   "cluster": 17,
+   "caught": 50,
+   "P1": 0.56,
+   "P3": 0.78,
+   "P5": 0.88,
+   "base3": 0.046511627906976744,
+   "control_P3": 0.12,
+   "in_derived_cluster": 0.58,
+   "recall_of_cluster": 1.0,
+   "caught_by_format": {
+    "columns": 49,
+    "books": 1,
+    "speeches": 0,
+    "biography": 0
+   },
+   "recall_by_format": {
+    "columns": 1.0,
+    "books": null,
+    "speeches": null,
+    "biography": null
+   }
+  },
+  {
+   "cluster": 18,
+   "caught": 15,
+   "P1": 0.5333333333333333,
+   "P3": 0.8,
+   "P5": 0.8666666666666667,
+   "base3": 0.06666666666666667,
+   "control_P3": 0.13333333333333333,
+   "in_derived_cluster": 0.6666666666666666,
+   "recall_of_cluster": 0.37037037037037035,
+   "caught_by_format": {
+    "columns": 13,
+    "books": 0,
+    "speeches": 2,
+    "biography": 0
+   },
+   "recall_by_format": {
+    "columns": 0.4166666666666667,
+    "books": 0.0,
+    "speeches": null,
+    "biography": null
+   }
+  },
+  {
+   "cluster": 19,
+   "caught": 41,
+   "P1": 0.5853658536585366,
+   "P3": 0.8048780487804879,
+   "P5": 0.926829268292683,
+   "base3": 0.09612403100775194,
+   "control_P3": 0.0,
+   "in_derived_cluster": 0.3902439024390244,
+   "recall_of_cluster": 0.5925925925925926,
+   "caught_by_format": {
+    "columns": 12,
+    "books": 9,
+    "speeches": 20,
+    "biography": 0
+   },
+   "recall_by_format": {
+    "columns": 0.3,
+    "books": 0.6,
+    "speeches": 0.8333333333333334,
+    "biography": null
+   }
+  },
+  {
+   "cluster": 20,
+   "caught": 38,
+   "P1": 0.4473684210526316,
+   "P3": 0.7368421052631579,
+   "P5": 0.7894736842105263,
+   "base3": 0.10310077519379846,
+   "control_P3": 0.21052631578947367,
+   "in_derived_cluster": 0.47368421052631576,
+   "recall_of_cluster": 0.6923076923076923,
+   "caught_by_format": {
+    "columns": 31,
+    "books": 4,
+    "speeches": 1,
+    "biography": 2
+   },
+   "recall_by_format": {
+    "columns": 0.6666666666666666,
+    "books": 1.0,
+    "speeches": null,
+    "biography": null
+   }
+  },
+  {
+   "cluster": 21,
+   "caught": 28,
+   "P1": 0.4642857142857143,
+   "P3": 0.6785714285714286,
+   "P5": 0.7142857142857143,
+   "base3": 0.07906976744186046,
+   "control_P3": 0.03571428571428571,
+   "in_derived_cluster": 0.5357142857142857,
+   "recall_of_cluster": 0.5769230769230769,
+   "caught_by_format": {
+    "columns": 24,
+    "books": 3,
+    "speeches": 1,
+    "biography": 0
+   },
+   "recall_by_format": {
+    "columns": 0.5217391304347826,
+    "books": 1.0,
+    "speeches": null,
+    "biography": null
+   }
+  },
+  {
+   "cluster": 22,
+   "caught": 28,
+   "P1": 0.5357142857142857,
+   "P3": 0.8214285714285714,
+   "P5": 0.8571428571428571,
+   "base3": 0.08837209302325581,
+   "control_P3": 0.14285714285714285,
+   "in_derived_cluster": 0.5714285714285714,
+   "recall_of_cluster": 0.6153846153846154,
+   "caught_by_format": {
+    "columns": 23,
+    "books": 4,
+    "speeches": 1,
+    "biography": 0
+   },
+   "recall_by_format": {
+    "columns": 0.6666666666666666,
+    "books": null,
+    "speeches": 0.0,
+    "biography": null
+   }
+  },
+  {
+   "cluster": 23,
+   "caught": 49,
+   "P1": 0.5918367346938775,
+   "P3": 0.7959183673469388,
+   "P5": 0.8571428571428571,
+   "base3": 0.13333333333333333,
+   "control_P3": 0.02040816326530612,
+   "in_derived_cluster": 0.42857142857142855,
+   "recall_of_cluster": 0.8076923076923077,
+   "caught_by_format": {
+    "columns": 11,
+    "books": 24,
+    "speeches": 11,
+    "biography": 3
+   },
+   "recall_by_format": {
+    "columns": 1.0,
+    "books": 0.7857142857142857,
+    "speeches": 0.75,
+    "biography": 0.6666666666666666
+   }
+  },
+  {
+   "cluster": 25,
+   "caught": 11,
+   "P1": 0.8181818181818182,
+   "P3": 1.0,
+   "P5": 1.0,
+   "base3": 0.04806201550387597,
+   "control_P3": 0.09090909090909091,
+   "in_derived_cluster": 0.8181818181818182,
+   "recall_of_cluster": 0.375,
+   "caught_by_format": {
+    "columns": 5,
+    "books": 0,
+    "speeches": 6,
+    "biography": 0
+   },
+   "recall_by_format": {
+    "columns": 0.21428571428571427,
+    "books": 0.0,
+    "speeches": 0.75,
+    "biography": null
+   }
+  },
+  {
+   "cluster": 27,
+   "caught": 27,
+   "P1": 0.5185185185185185,
+   "P3": 0.7407407407407407,
+   "P5": 0.7777777777777778,
+   "base3": 0.08759689922480621,
+   "control_P3": 0.1111111111111111,
+   "in_derived_cluster": 0.5555555555555556,
+   "recall_of_cluster": 0.6521739130434783,
+   "caught_by_format": {
+    "columns": 23,
+    "books": 4,
+    "speeches": 0,
+    "biography": 0
+   },
+   "recall_by_format": {
+    "columns": 0.6,
+    "books": 1.0,
+    "speeches": null,
+    "biography": null
+   }
+  },
+  {
+   "cluster": 28,
+   "caught": 24,
+   "P1": 0.7083333333333334,
+   "P3": 0.75,
+   "P5": 0.7916666666666666,
+   "base3": 0.03643410852713178,
+   "control_P3": 0.08333333333333333,
+   "in_derived_cluster": 0.75,
+   "recall_of_cluster": 0.8571428571428571,
+   "caught_by_format": {
+    "columns": 22,
+    "books": 2,
+    "speeches": 0,
+    "biography": 0
+   },
+   "recall_by_format": {
+    "columns": 0.8947368421052632,
+    "books": 0.5,
+    "speeches": null,
+    "biography": null
+   }
+  },
+  {
+   "cluster": 29,
+   "caught": 29,
+   "P1": 0.6896551724137931,
+   "P3": 0.7931034482758621,
+   "P5": 0.8275862068965517,
+   "base3": 0.06046511627906977,
+   "control_P3": 0.27586206896551724,
+   "in_derived_cluster": 0.5517241379310345,
+   "recall_of_cluster": 0.7619047619047619,
+   "caught_by_format": {
+    "columns": 16,
+    "books": 10,
+    "speeches": 2,
+    "biography": 1
+   },
+   "recall_by_format": {
+    "columns": 0.7692307692307693,
+    "books": 0.8333333333333334,
+    "speeches": 0.5,
+    "biography": null
+   }
+  },
+  {
+   "cluster": 30,
+   "caught": 20,
+   "P1": 0.55,
+   "P3": 0.7,
+   "P5": 0.9,
+   "base3": 0.056589147286821705,
+   "control_P3": 0.15,
+   "in_derived_cluster": 0.45,
+   "recall_of_cluster": 0.42857142857142855,
+   "caught_by_format": {
+    "columns": 14,
+    "books": 4,
+    "speeches": 2,
+    "biography": 0
+   },
+   "recall_by_format": {
+    "columns": 0.7,
+    "books": 0.0,
+    "speeches": 0.6666666666666666,
+    "biography": null
+   }
+  },
+  {
+   "cluster": 33,
+   "caught": 34,
+   "P1": 0.4411764705882353,
+   "P3": 0.7647058823529411,
+   "P5": 0.8235294117647058,
+   "base3": 0.08604651162790698,
+   "control_P3": 0.029411764705882353,
+   "in_derived_cluster": 0.47058823529411764,
+   "recall_of_cluster": 0.8,
+   "caught_by_format": {
+    "columns": 21,
+    "books": 9,
+    "speeches": 2,
+    "biography": 2
+   },
+   "recall_by_format": {
+    "columns": 0.75,
+    "books": 0.875,
+    "speeches": null,
+    "biography": null
+   }
+  },
+  {
+   "cluster": "x:death_penalty",
+   "caught": 30,
+   "P1": 0.4,
+   "P3": 0.5666666666666667,
+   "P5": 0.6666666666666666,
+   "base3": 0.09069767441860466,
+   "control_P3": 0.03333333333333333,
+   "in_derived_cluster": null,
+   "recall_of_cluster": null,
+   "caught_by_format": {
+    "columns": 10,
+    "books": 17,
+    "speeches": 1,
+    "biography": 2
+   },
+   "recall_by_format": {
+    "columns": null,
+    "books": null,
+    "speeches": null,
+    "biography": null
+   }
+  }
+ ],
+ "v1_precision": [
+  {
+   "id": "ai_and_technology",
+   "caught": 99,
+   "P1": 0.15151515151515152,
+   "P3": 0.31313131313131315,
+   "P5": 0.3939393939393939,
+   "base3": 0.06434108527131784
+  },
+  {
+   "id": "asean_law_association",
+   "caught": 39,
+   "P1": 0.358974358974359,
+   "P3": 0.5384615384615384,
+   "P5": 0.6153846153846154,
+   "base3": 0.04496124031007752
+  },
+  {
+   "id": "bar_exam_and_legal_education",
+   "caught": 132,
+   "P1": 0.13636363636363635,
+   "P3": 0.2878787878787879,
+   "P5": 0.44696969696969696,
+   "base3": 0.059689922480620154
+  },
+  {
+   "id": "constitutional_doctrine",
+   "caught": 611,
+   "P1": 0.12438625204582651,
+   "P3": 0.36661211129296234,
+   "P5": 0.6039279869067103,
+   "base3": 0.21550387596899226
+  },
+  {
+   "id": "death_penalty_and_echegaray",
+   "caught": 30,
+   "P1": 0.36666666666666664,
+   "P3": 0.5,
+   "P5": 0.6,
+   "base3": 0.10542635658914729
+  },
+  {
+   "id": "due_process",
+   "caught": 145,
+   "P1": 0.36551724137931035,
+   "P3": 0.5793103448275863,
+   "P5": 0.6689655172413793,
+   "base3": 0.2651162790697674
+  },
+  {
+   "id": "early_life_sampaloc",
+   "caught": 87,
+   "P1": 0.1839080459770115,
+   "P3": 0.5862068965517241,
+   "P5": 0.7816091954022989,
+   "base3": 0.09844961240310078
+  },
+  {
+   "id": "economic_governance_and_business_law",
+   "caught": 43,
+   "P1": 0.20930232558139536,
+   "P3": 0.4186046511627907,
+   "P5": 0.5116279069767442,
+   "base3": 0.05736434108527132
+  },
+  {
+   "id": "eez_resource_sovereignty",
+   "caught": 29,
+   "P1": 0.3448275862068966,
+   "P3": 0.6551724137931034,
+   "P5": 0.6896551724137931,
+   "base3": 0.11395348837209303
+  },
+  {
+   "id": "eulogies_and_passing",
+   "caught": 109,
+   "P1": 0.009174311926605505,
+   "P3": 0.24770642201834864,
+   "P5": 0.48623853211009177,
+   "base3": 0.053488372093023255
+  },
+  {
+   "id": "faith_journey",
+   "caught": 298,
+   "P1": 0.2214765100671141,
+   "P3": 0.3825503355704698,
+   "P5": 0.4463087248322148,
+   "base3": 0.11085271317829458
+  },
+  {
+   "id": "family_and_marriage",
+   "caught": 272,
+   "P1": 0.14338235294117646,
+   "P3": 0.3860294117647059,
+   "P5": 0.5036764705882353,
+   "base3": 0.1387596899224806
+  },
+  {
+   "id": "flp_donors_and_partners",
+   "caught": 143,
+   "P1": 0.09090909090909091,
+   "P3": 0.3146853146853147,
+   "P5": 0.4405594405594406,
+   "base3": 0.05736434108527132
+  },
+  {
+   "id": "flp_scholarship_programs",
+   "caught": 109,
+   "P1": 0.1559633027522936,
+   "P3": 0.27522935779816515,
+   "P5": 0.4954128440366973,
+   "base3": 0.030232558139534883
+  },
+  {
+   "id": "foundation_for_liberty_and_prosperity",
+   "caught": 136,
+   "P1": 0.051470588235294115,
+   "P3": 0.35294117647058826,
+   "P5": 0.5955882352941176,
+   "base3": 0.044186046511627906
+  },
+  {
+   "id": "friendships_and_civic_circles",
+   "caught": 76,
+   "P1": 0.2894736842105263,
+   "P3": 0.5263157894736842,
+   "P5": 0.6842105263157895,
+   "base3": 0.09767441860465116
+  },
+  {
+   "id": "global_geopolitics",
+   "caught": 83,
+   "P1": 0.3493975903614458,
+   "P3": 0.5903614457831325,
+   "P5": 0.6867469879518072,
+   "base3": 0.06434108527131784
+  },
+  {
+   "id": "honors_received",
+   "caught": 24,
+   "P1": 0.0,
+   "P3": 0.16666666666666666,
+   "P5": 0.20833333333333334,
+   "base3": 0.06744186046511629
+  },
+  {
+   "id": "icc_and_duterte",
+   "caught": 156,
+   "P1": 0.1346153846153846,
+   "P3": 0.47435897435897434,
+   "P5": 0.6346153846153846,
+   "base3": 0.13023255813953488
+  },
+  {
+   "id": "impeachment_accountability",
+   "caught": 171,
+   "P1": 0.2807017543859649,
+   "P3": 0.5321637426900585,
+   "P5": 0.695906432748538,
+   "base3": 0.14883720930232558
+  },
+  {
+   "id": "international_law_disputes",
+   "caught": 78,
+   "P1": 0.5769230769230769,
+   "P3": 0.6923076923076923,
+   "P5": 0.7307692307692307,
+   "base3": 0.09069767441860466
+  },
+  {
+   "id": "jbc_discernment_and_appointment",
+   "caught": 110,
+   "P1": 0.37272727272727274,
+   "P3": 0.5636363636363636,
+   "P5": 0.6636363636363637,
+   "base3": 0.09844961240310078
+  },
+  {
+   "id": "judicial_activism_and_political_question",
+   "caught": 78,
+   "P1": 0.10256410256410256,
+   "P3": 0.23076923076923078,
+   "P5": 0.3333333333333333,
+   "base3": 0.05271317829457364
+  },
+  {
+   "id": "judicial_reform",
+   "caught": 106,
+   "P1": 0.4811320754716981,
+   "P3": 0.6320754716981132,
+   "P5": 0.6509433962264151,
+   "base3": 0.09224806201550388
+  },
+  {
+   "id": "lawyer_ethics_initiative",
+   "caught": 47,
+   "P1": 0.19148936170212766,
+   "P3": 0.23404255319148937,
+   "P5": 0.2978723404255319,
+   "base3": 0.027131782945736434
+  },
+  {
+   "id": "mentors_and_legal_lineage",
+   "caught": 156,
+   "P1": 0.1346153846153846,
+   "P3": 0.2692307692307692,
+   "P5": 0.358974358974359,
+   "base3": 0.06046511627906977
+  },
+  {
+   "id": "msme_and_entrepreneurship+prosperity_fund_msme",
+   "caught": 47,
+   "P1": 0.0,
+   "P3": 0.2765957446808511,
+   "P5": 0.5106382978723404,
+   "base3": 0.03178294573643411
+  },
+  {
+   "id": "museum_for_liberty_and_prosperity",
+   "caught": 20,
+   "P1": 0.5,
+   "P3": 0.65,
+   "P5": 0.95,
+   "base3": 0.027906976744186046
+  },
+  {
+   "id": "philippine_political_landscape",
+   "caught": 238,
+   "P1": 0.24789915966386555,
+   "P3": 0.4327731092436975,
+   "P5": 0.5546218487394958,
+   "base3": 0.15503875968992248
+  },
+  {
+   "id": "rule_of_law",
+   "caught": 211,
+   "P1": 0.023696682464454975,
+   "P3": 0.15639810426540285,
+   "P5": 0.24644549763033174,
+   "base3": 0.037209302325581395
+  },
+  {
+   "id": "supreme_court_history",
+   "caught": 406,
+   "P1": 0.0960591133004926,
+   "P3": 0.39655172413793105,
+   "P5": 0.5443349753694581,
+   "base3": 0.2054263565891473
+  },
+  {
+   "id": "twin_beacons_doctrine",
+   "caught": 213,
+   "P1": 0.07981220657276995,
+   "P3": 0.2347417840375587,
+   "P5": 0.38967136150234744,
+   "base3": 0.044186046511627906
+  },
+  {
+   "id": "with_due_respect_persona",
+   "caught": 197,
+   "P1": 0.1319796954314721,
+   "P3": 0.3147208121827411,
+   "P5": 0.49746192893401014,
+   "base3": 0.10852713178294573
+  }
+ ],
+ "separability": [
+  {
+   "cluster": 1,
+   "max_cos": 0.6935210847848534,
+   "nearest": 23,
+   "fidelity_to_derived_cluster": 0.9336435807234349
+  },
+  {
+   "cluster": 2,
+   "max_cos": 0.47919420256284384,
+   "nearest": 16,
+   "fidelity_to_derived_cluster": 0.8949971034327582
+  },
+  {
+   "cluster": 3,
+   "max_cos": 0.48038154603193023,
+   "nearest": 21,
+   "fidelity_to_derived_cluster": 0.9655157338289879
+  },
+  {
+   "cluster": 4,
+   "max_cos": 0.42269655500556025,
+   "nearest": 27,
+   "fidelity_to_derived_cluster": 0.9371374555629479
+  },
+  {
+   "cluster": 5,
+   "max_cos": 0.5187806505609387,
+   "nearest": 14,
+   "fidelity_to_derived_cluster": 0.8132406924420905
+  },
+  {
+   "cluster": 6,
+   "max_cos": 0.42548670355042617,
+   "nearest": "x:death_penalty",
+   "fidelity_to_derived_cluster": 0.6103268559284667
+  },
+  {
+   "cluster": 7,
+   "max_cos": 0.4399267811402054,
+   "nearest": 14,
+   "fidelity_to_derived_cluster": 0.8986732570997036
+  },
+  {
+   "cluster": 8,
+   "max_cos": 0.49543768173440095,
+   "nearest": 11,
+   "fidelity_to_derived_cluster": 0.9666610188819413
+  },
+  {
+   "cluster": 9,
+   "max_cos": 0.5655108459372725,
+   "nearest": 10,
+   "fidelity_to_derived_cluster": 0.8910834593754602
+  },
+  {
+   "cluster": 10,
+   "max_cos": 0.5773106170598427,
+   "nearest": 30,
+   "fidelity_to_derived_cluster": 0.9363288281708464
+  },
+  {
+   "cluster": 11,
+   "max_cos": 0.49543768173440095,
+   "nearest": 8,
+   "fidelity_to_derived_cluster": 0.969564480063399
+  },
+  {
+   "cluster": 12,
+   "max_cos": 0.4213014796210351,
+   "nearest": "x:death_penalty",
+   "fidelity_to_derived_cluster": 0.8405412441264674
+  },
+  {
+   "cluster": 13,
+   "max_cos": 0.5677009956213794,
+   "nearest": 19,
+   "fidelity_to_derived_cluster": 0.8980438941293902
+  },
+  {
+   "cluster": 14,
+   "max_cos": 0.5187806505609387,
+   "nearest": 5,
+   "fidelity_to_derived_cluster": 0.9380267506242309
+  },
+  {
+   "cluster": 15,
+   "max_cos": 0.6811278497396555,
+   "nearest": 1,
+   "fidelity_to_derived_cluster": 0.9647070765336171
+  },
+  {
+   "cluster": 16,
+   "max_cos": 0.47919420256284384,
+   "nearest": 2,
+   "fidelity_to_derived_cluster": 0.9297176798732781
+  },
+  {
+   "cluster": 17,
+   "max_cos": 0.3254734230382675,
+   "nearest": 14,
+   "fidelity_to_derived_cluster": 0.9498245314592485
+  },
+  {
+   "cluster": 18,
+   "max_cos": 0.4112239290723019,
+   "nearest": 14,
+   "fidelity_to_derived_cluster": 0.8685032390756093
+  },
+  {
+   "cluster": 19,
+   "max_cos": 0.6402136053830654,
+   "nearest": 15,
+   "fidelity_to_derived_cluster": 0.933566325963791
+  },
+  {
+   "cluster": 20,
+   "max_cos": 0.4220949008026024,
+   "nearest": 8,
+   "fidelity_to_derived_cluster": 0.8649129500271933
+  },
+  {
+   "cluster": 21,
+   "max_cos": 0.48038154603193023,
+   "nearest": 3,
+   "fidelity_to_derived_cluster": 0.88348893334976
+  },
+  {
+   "cluster": 22,
+   "max_cos": 0.6879943360743472,
+   "nearest": 33,
+   "fidelity_to_derived_cluster": 0.9307512888300857
+  },
+  {
+   "cluster": 23,
+   "max_cos": 0.6935210847848534,
+   "nearest": 1,
+   "fidelity_to_derived_cluster": 0.9448202890892979
+  },
+  {
+   "cluster": 25,
+   "max_cos": 0.496313655655339,
+   "nearest": 15,
+   "fidelity_to_derived_cluster": 0.8534355209233492
+  },
+  {
+   "cluster": 27,
+   "max_cos": 0.42269655500556025,
+   "nearest": 4,
+   "fidelity_to_derived_cluster": 0.8689366139563727
+  },
+  {
+   "cluster": 28,
+   "max_cos": 0.32264864538946,
+   "nearest": 8,
+   "fidelity_to_derived_cluster": 0.9755714549658623
+  },
+  {
+   "cluster": 29,
+   "max_cos": 0.413820177251728,
+   "nearest": "x:death_penalty",
+   "fidelity_to_derived_cluster": 0.9146566078663253
+  },
+  {
+   "cluster": 30,
+   "max_cos": 0.5773106170598427,
+   "nearest": 10,
+   "fidelity_to_derived_cluster": 0.8019823090325309
+  },
+  {
+   "cluster": 33,
+   "max_cos": 0.6879943360743472,
+   "nearest": 22,
+   "fidelity_to_derived_cluster": 0.8839586350034561
+  },
+  {
+   "cluster": "x:death_penalty",
+   "max_cos": 0.42955876562006157,
+   "nearest": 2,
+   "fidelity_to_derived_cluster": null
+  }
+ ],
+ "pair_distribution": {
+  "n_pairs": 435,
+  "median": -0.02933118213002751,
+  "p90": 0.33493172361689805,
+  "p95": 0.4235335995690199,
+  "max": 0.6935210847848534,
+  "ge_0.5": 11,
+  "ge_0.6": 4,
+  "ge_0.65": 3,
+  "ge_0.68": 3,
+  "ge_0.7": 0,
+  "ge_0.75": 0,
+  "ge_0.8": 0
+ },
+ "top_pairs": [
+  {
+   "a": 1,
+   "b": 23,
+   "cos": 0.6935210847848534
+  },
+  {
+   "a": 22,
+   "b": 33,
+   "cos": 0.6879943360743472
+  },
+  {
+   "a": 1,
+   "b": 15,
+   "cos": 0.6811278497396555
+  },
+  {
+   "a": 15,
+   "b": 19,
+   "cos": 0.6402136053830654
+  },
+  {
+   "a": 10,
+   "b": 30,
+   "cos": 0.5773106170598427
+  },
+  {
+   "a": 13,
+   "b": 19,
+   "cos": 0.5677009956213794
+  },
+  {
+   "a": 9,
+   "b": 10,
+   "cos": 0.5655108459372725
+  },
+  {
+   "a": 1,
+   "b": 9,
+   "cos": 0.5372961435298129
+  },
+  {
+   "a": 5,
+   "b": 14,
+   "cos": 0.5187806505609387
+  },
+  {
+   "a": 13,
+   "b": 15,
+   "cos": 0.5162590520922805
+  },
+  {
+   "a": 10,
+   "b": 33,
+   "cos": 0.5144529025920233
+  },
+  {
+   "a": 15,
+   "b": 25,
+   "cos": 0.496313655655339
+  }
+ ],
+ "dup_evidence": {
+  "same_dim_split_half": {
+   "median": 0.7974703347484436,
+   "p25": 0.7045189255332467,
+   "p10": 0.6138458360717901,
+   "p05": 0.5588618285477552,
+   "min": 0.3600877212512975,
+   "n": 900,
+   "frac_ge_0.60": 0.91,
+   "frac_ge_0.70": 0.7566666666666667,
+   "frac_ge_0.75": 0.6477777777777778
+  },
+  "random_groups": {
+   "mean": -0.03553085182251573,
+   "p95": 0.2413849162083081,
+   "p99": 0.33700609039673307,
+   "max": 0.5385975222193033,
+   "n": 4000
+  }
+ },
+ "floor": {
+  "best_chunk": {
+   "observed_LOO_pct": {
+    "1": 0.2684720626473427,
+    "2": 0.2903770744800568,
+    "5": 0.3243237897753716,
+    "10": 0.349616938829422,
+    "25": 0.40763337910175323,
+    "50": 0.4799773246049881,
+    "75": 0.5558812469244003
+   },
+   "null_pct": {
+    "5": 0.2182973325252533,
+    "25": 0.2663552016019821,
+    "50": 0.3056694120168686,
+    "75": 0.351355642080307,
+    "90": 0.39962404370307925,
+    "95": 0.434104973077774,
+    "99": 0.5009001314640044
+   },
+   "auc_observed_vs_null": 0.9179205977204895,
+   "by_format_null_p50": {
+    "columns": 0.29254190623760223,
+    "books": 0.3269033133983612,
+    "speeches": 0.3313736617565155,
+    "biography": 0.32202112674713135
+   },
+   "by_format_null_p25": {
+    "columns": 0.2567457780241966,
+    "books": 0.28836674243211746,
+    "speeches": 0.2884950488805771,
+    "biography": 0.28512220829725266
+   },
+   "by_format_auc": {
+    "columns": 0.930738663180363,
+    "books": 0.9093634299392624,
+    "speeches": 0.9259757643071753,
+    "biography": 0.8640816326530613
+   },
+   "by_format_observed_LOO_median": {
+    "columns": 0.4658827781677246,
+    "books": 0.49551263451576233,
+    "speeches": 0.5329014658927917,
+    "biography": 0.48019492626190186
+   },
+   "by_format_null_p95": {
+    "columns": 0.4064896091818809,
+    "books": 0.47086087167263024,
+    "speeches": 0.4584889099001884,
+    "biography": 0.42903257906436915
+   },
+   "by_format_null_p99": {
+    "columns": 0.46387140542268746,
+    "books": 0.5529945516586303,
+    "speeches": 0.5137305748462678,
+    "biography": 0.46966293871402737
+   },
+   "by_format_observed_LOO_p05": {
+    "columns": 0.3181220442056656,
+    "books": 0.33794250190258024,
+    "speeches": 0.3563095450401306,
+    "biography": 0.2887926697731018
+   },
+   "grid": {
+    "0.1": {
+     "all_LOO": 0.0,
+     "all_in_sample": 0.0,
+     "columns": 0.0,
+     "books": 0.0,
+     "speeches": 0.0,
+     "biography": 0.0,
+     "null_all": 0.0
+    },
+    "0.12": {
+     "all_LOO": 0.0,
+     "all_in_sample": 0.0,
+     "columns": 0.0,
+     "books": 0.0,
+     "speeches": 0.0,
+     "biography": 0.0,
+     "null_all": 0.0
+    },
+    "0.14": {
+     "all_LOO": 0.0,
+     "all_in_sample": 0.0,
+     "columns": 0.0,
+     "books": 0.0,
+     "speeches": 0.0,
+     "biography": 0.0,
+     "null_all": 0.00012919896640826872
+    },
+    "0.16": {
+     "all_LOO": 0.0,
+     "all_in_sample": 0.0,
+     "columns": 0.0,
+     "books": 0.0,
+     "speeches": 0.0,
+     "biography": 0.0,
+     "null_all": 0.0012919896640826874
+    },
+    "0.18": {
+     "all_LOO": 0.0,
+     "all_in_sample": 0.0,
+     "columns": 0.0,
+     "books": 0.0,
+     "speeches": 0.0,
+     "biography": 0.0,
+     "null_all": 0.005555555555555556
+    },
+    "0.2": {
+     "all_LOO": 0.0,
+     "all_in_sample": 0.0,
+     "columns": 0.0,
+     "books": 0.0,
+     "speeches": 0.0,
+     "biography": 0.0,
+     "null_all": 0.019767441860465116
+    },
+    "0.22": {
+     "all_LOO": 0.0007751937984496124,
+     "all_in_sample": 0.0007751937984496124,
+     "columns": 0.0012453300124533001,
+     "books": 0.0,
+     "speeches": 0.0,
+     "biography": 0.0,
+     "null_all": 0.05426356589147287
+    },
+    "0.24": {
+     "all_LOO": 0.0031007751937984496,
+     "all_in_sample": 0.0031007751937984496,
+     "columns": 0.0037359900373599006,
+     "books": 0.0033444816053511705,
+     "speeches": 0.0,
+     "biography": 0.0,
+     "null_all": 0.11847545219638243
+    },
+    "0.26": {
+     "all_LOO": 0.007751937984496124,
+     "all_in_sample": 0.006201550387596899,
+     "columns": 0.008717310087173101,
+     "books": 0.0033444816053511705,
+     "speeches": 0.0,
+     "biography": 0.05714285714285714,
+     "null_all": 0.21291989664082686
+    },
+    "0.28": {
+     "all_LOO": 0.017054263565891473,
+     "all_in_sample": 0.015503875968992248,
+     "columns": 0.0161892901618929,
+     "books": 0.016722408026755852,
+     "speeches": 0.013071895424836602,
+     "biography": 0.05714285714285714,
+     "null_all": 0.33178294573643413
+    },
+    "0.3": {
+     "all_LOO": 0.027906976744186046,
+     "all_in_sample": 0.023255813953488372,
+     "columns": 0.031133250311332503,
+     "books": 0.016722408026755852,
+     "speeches": 0.026143790849673203,
+     "biography": 0.05714285714285714,
+     "null_all": 0.4627906976744186
+    },
+    "0.32": {
+     "all_LOO": 0.047286821705426356,
+     "all_in_sample": 0.03953488372093023,
+     "columns": 0.0547945205479452,
+     "books": 0.030100334448160536,
+     "speeches": 0.026143790849673203,
+     "biography": 0.11428571428571428,
+     "null_all": 0.5894056847545219
+    },
+    "0.34": {
+     "all_LOO": 0.08294573643410853,
+     "all_in_sample": 0.07519379844961241,
+     "columns": 0.09838107098381071,
+     "books": 0.05351170568561873,
+     "speeches": 0.0457516339869281,
+     "biography": 0.14285714285714285,
+     "null_all": 0.7005167958656331
+    },
+    "0.36": {
+     "all_LOO": 0.12868217054263567,
+     "all_in_sample": 0.11317829457364341,
+     "columns": 0.16064757160647572,
+     "books": 0.07357859531772576,
+     "speeches": 0.058823529411764705,
+     "biography": 0.17142857142857143,
+     "null_all": 0.7837209302325582
+    },
+    "0.38": {
+     "all_LOO": 0.175968992248062,
+     "all_in_sample": 0.16046511627906976,
+     "columns": 0.21419676214196762,
+     "books": 0.11036789297658862,
+     "speeches": 0.09803921568627451,
+     "biography": 0.2,
+     "null_all": 0.8527131782945736
+    },
+    "0.4": {
+     "all_LOO": 0.22015503875968992,
+     "all_in_sample": 0.2007751937984496,
+     "columns": 0.261519302615193,
+     "books": 0.14715719063545152,
+     "speeches": 0.13725490196078433,
+     "biography": 0.2571428571428571,
+     "null_all": 0.9009043927648579
+    },
+    "0.42": {
+     "all_LOO": 0.2875968992248062,
+     "all_in_sample": 0.2596899224806202,
+     "columns": 0.33250311332503113,
+     "books": 0.2140468227424749,
+     "speeches": 0.1895424836601307,
+     "biography": 0.3142857142857143,
+     "null_all": 0.9335917312661499
+    },
+    "0.44": {
+     "all_LOO": 0.35271317829457366,
+     "all_in_sample": 0.3201550387596899,
+     "columns": 0.40846824408468246,
+     "books": 0.26421404682274247,
+     "speeches": 0.23529411764705882,
+     "biography": 0.34285714285714286,
+     "null_all": 0.9549095607235142
+    },
+    "0.46": {
+     "all_LOO": 0.4317829457364341,
+     "all_in_sample": 0.3922480620155039,
+     "columns": 0.48443337484433374,
+     "books": 0.35451505016722407,
+     "speeches": 0.30718954248366015,
+     "biography": 0.42857142857142855,
+     "null_all": 0.9719638242894056
+    },
+    "0.48": {
+     "all_LOO": 0.5007751937984496,
+     "all_in_sample": 0.4542635658914729,
+     "columns": 0.5516811955168119,
+     "books": 0.431438127090301,
+     "speeches": 0.37254901960784315,
+     "biography": 0.4857142857142857,
+     "null_all": 0.984108527131783
+    },
+    "0.5": {
+     "all_LOO": 0.568217054263566,
+     "all_in_sample": 0.5186046511627908,
+     "columns": 0.6176836861768369,
+     "books": 0.5117056856187291,
+     "speeches": 0.4117647058823529,
+     "biography": 0.6,
+     "null_all": 0.9895348837209302
+    },
+    "0.52": {
+     "all_LOO": 0.6232558139534884,
+     "all_in_sample": 0.5837209302325581,
+     "columns": 0.6774595267745953,
+     "books": 0.568561872909699,
+     "speeches": 0.4444444444444444,
+     "biography": 0.6285714285714286,
+     "null_all": 0.9928940568475452
+    },
+    "0.54": {
+     "all_LOO": 0.6937984496124031,
+     "all_in_sample": 0.6403100775193798,
+     "columns": 0.7384806973848069,
+     "books": 0.6454849498327759,
+     "speeches": 0.5294117647058824,
+     "biography": 0.8,
+     "null_all": 0.9954780361757106
+    },
+    "0.56": {
+     "all_LOO": 0.7635658914728682,
+     "all_in_sample": 0.7155038759689922,
+     "columns": 0.8032378580323786,
+     "books": 0.7190635451505016,
+     "speeches": 0.6209150326797386,
+     "biography": 0.8571428571428571,
+     "null_all": 0.9979328165374677
+    },
+    "0.58": {
+     "all_LOO": 0.8224806201550388,
+     "all_in_sample": 0.7806201550387597,
+     "columns": 0.8518057285180572,
+     "books": 0.7792642140468228,
+     "speeches": 0.7189542483660131,
+     "biography": 0.9714285714285714,
+     "null_all": 0.9987080103359173
+    },
+    "0.6": {
+     "all_LOO": 0.8697674418604651,
+     "all_in_sample": 0.8356589147286821,
+     "columns": 0.887920298879203,
+     "books": 0.8494983277591973,
+     "speeches": 0.7908496732026143,
+     "biography": 0.9714285714285714,
+     "null_all": 0.9990956072351421
+    },
+    "0.62": {
+     "all_LOO": 0.9217054263565891,
+     "all_in_sample": 0.8852713178294573,
+     "columns": 0.9290161892901619,
+     "books": 0.9063545150501672,
+     "speeches": 0.9019607843137255,
+     "biography": 0.9714285714285714,
+     "null_all": 0.9996124031007751
+    },
+    "0.64": {
+     "all_LOO": 0.9542635658914729,
+     "all_in_sample": 0.9310077519379845,
+     "columns": 0.962640099626401,
+     "books": 0.939799331103679,
+     "speeches": 0.934640522875817,
+     "biography": 0.9714285714285714,
+     "null_all": 0.9996124031007751
+    },
+    "0.66": {
+     "all_LOO": 0.9720930232558139,
+     "all_in_sample": 0.9604651162790697,
+     "columns": 0.9775840597758406,
+     "books": 0.9665551839464883,
+     "speeches": 0.9477124183006536,
+     "biography": 1.0,
+     "null_all": 0.9997416020671834
+    },
+    "0.68": {
+     "all_LOO": 0.982170542635659,
+     "all_in_sample": 0.9736434108527132,
+     "columns": 0.987546699875467,
+     "books": 0.9765886287625418,
+     "speeches": 0.9607843137254902,
+     "biography": 1.0,
+     "null_all": 0.9997416020671834
+    },
+    "0.7": {
+     "all_LOO": 0.9852713178294573,
+     "all_in_sample": 0.9844961240310077,
+     "columns": 0.9912826899128269,
+     "books": 0.979933110367893,
+     "speeches": 0.9607843137254902,
+     "biography": 1.0,
+     "null_all": 0.9998708010335917
+    },
+    "0.72": {
+     "all_LOO": 0.9891472868217054,
+     "all_in_sample": 0.9868217054263566,
+     "columns": 0.9925280199252802,
+     "books": 0.9866220735785953,
+     "speeches": 0.9738562091503268,
+     "biography": 1.0,
+     "null_all": 1.0
+    },
+    "0.74": {
+     "all_LOO": 0.9953488372093023,
+     "all_in_sample": 0.9914728682170543,
+     "columns": 0.9987546699875467,
+     "books": 0.9899665551839465,
+     "speeches": 0.9869281045751634,
+     "biography": 1.0,
+     "null_all": 1.0
+    },
+    "0.76": {
+     "all_LOO": 0.9976744186046511,
+     "all_in_sample": 0.9953488372093023,
+     "columns": 1.0,
+     "books": 0.9899665551839465,
+     "speeches": 1.0,
+     "biography": 1.0,
+     "null_all": 1.0
+    },
+    "0.78": {
+     "all_LOO": 0.9976744186046511,
+     "all_in_sample": 0.9976744186046511,
+     "columns": 1.0,
+     "books": 0.9899665551839465,
+     "speeches": 1.0,
+     "biography": 1.0,
+     "null_all": 1.0
+    }
+   }
+  },
+  "doc_mean": {
+   "observed_LOO_pct": {
+    "1": 0.20806982909514868,
+    "2": 0.22782363184606969,
+    "5": 0.2689924538441498,
+    "10": 0.30954030247842373,
+    "25": 0.3851337042389633,
+    "50": 0.4828098444657567,
+    "75": 0.5757221201718142
+   },
+   "null_pct": {
+    "5": 0.1649488104208664,
+    "25": 0.2255196430118924,
+    "50": 0.2771121448447861,
+    "75": 0.33753444485928996,
+    "90": 0.40076409292985327,
+    "95": 0.4445537760841408,
+    "99": 0.5294628117734784
+   },
+   "auc_observed_vs_null": 0.8889929491416781,
+   "by_format_null_p50": {
+    "columns": 0.2623593283782035,
+    "books": 0.3041385571531973,
+    "speeches": 0.31540705577170947,
+    "biography": 0.30835568555159776
+   },
+   "by_format_null_p25": {
+    "columns": 0.21397775630528215,
+    "books": 0.24951584943858138,
+    "speeches": 0.25362496309363236,
+    "biography": 0.2505964056355078
+   },
+   "by_format_auc": {
+    "columns": 0.9010913826161443,
+    "books": 0.8909203103619274,
+    "speeches": 0.8767710424765404,
+    "biography": 0.8772789115646259
+   },
+   "by_format_observed_LOO_median": {
+    "columns": 0.4605058164990277,
+    "books": 0.5132789547711702,
+    "speeches": 0.5236838335524119,
+    "biography": 0.4658967797799101
+   },
+   "by_format_null_p95": {
+    "columns": 0.4097318566684115,
+    "books": 0.48665654738728076,
+    "speeches": 0.48256585949400205,
+    "biography": 0.4413270757352484
+   },
+   "by_format_null_p99": {
+    "columns": 0.4897229432430863,
+    "books": 0.5706884902266223,
+    "speeches": 0.5480237319199172,
+    "biography": 0.4976750702177624
+   },
+   "by_format_observed_LOO_p05": {
+    "columns": 0.26320642517591314,
+    "books": 0.3127848838331849,
+    "speeches": 0.25951407631091394,
+    "biography": 0.3014165864502664
+   },
+   "grid": {
+    "0.1": {
+     "all_LOO": 0.0,
+     "all_in_sample": 0.0,
+     "columns": 0.0,
+     "books": 0.0,
+     "speeches": 0.0,
+     "biography": 0.0,
+     "null_all": 0.0007751937984496124
+    },
+    "0.12": {
+     "all_LOO": 0.0007751937984496124,
+     "all_in_sample": 0.0007751937984496124,
+     "columns": 0.0,
+     "books": 0.0,
+     "speeches": 0.006535947712418301,
+     "biography": 0.0,
+     "null_all": 0.005555555555555556
+    },
+    "0.14": {
+     "all_LOO": 0.0007751937984496124,
+     "all_in_sample": 0.0007751937984496124,
+     "columns": 0.0,
+     "books": 0.0,
+     "speeches": 0.006535947712418301,
+     "biography": 0.0,
+     "null_all": 0.017054263565891473
+    },
+    "0.16": {
+     "all_LOO": 0.0007751937984496124,
+     "all_in_sample": 0.0007751937984496124,
+     "columns": 0.0,
+     "books": 0.0,
+     "speeches": 0.006535947712418301,
+     "biography": 0.0,
+     "null_all": 0.04108527131782946
+    },
+    "0.18": {
+     "all_LOO": 0.003875968992248062,
+     "all_in_sample": 0.0031007751937984496,
+     "columns": 0.0024906600249066002,
+     "books": 0.006688963210702341,
+     "speeches": 0.006535947712418301,
+     "biography": 0.0,
+     "null_all": 0.08656330749354005
+    },
+    "0.2": {
+     "all_LOO": 0.007751937984496124,
+     "all_in_sample": 0.006201550387596899,
+     "columns": 0.0062266500622665,
+     "books": 0.006688963210702341,
+     "speeches": 0.0196078431372549,
+     "biography": 0.0,
+     "null_all": 0.14599483204134367
+    },
+    "0.22": {
+     "all_LOO": 0.017054263565891473,
+     "all_in_sample": 0.01317829457364341,
+     "columns": 0.0186799501867995,
+     "books": 0.006688963210702341,
+     "speeches": 0.026143790849673203,
+     "biography": 0.02857142857142857,
+     "null_all": 0.22661498708010336
+    },
+    "0.24": {
+     "all_LOO": 0.02558139534883721,
+     "all_in_sample": 0.023255813953488372,
+     "columns": 0.029887920298879204,
+     "books": 0.013377926421404682,
+     "speeches": 0.026143790849673203,
+     "biography": 0.02857142857142857,
+     "null_all": 0.32209302325581396
+    },
+    "0.26": {
+     "all_LOO": 0.04186046511627907,
+     "all_in_sample": 0.03875968992248062,
+     "columns": 0.048567870485678705,
+     "books": 0.020066889632107024,
+     "speeches": 0.05228758169934641,
+     "biography": 0.02857142857142857,
+     "null_all": 0.4131782945736434
+    },
+    "0.28": {
+     "all_LOO": 0.06356589147286822,
+     "all_in_sample": 0.05426356589147287,
+     "columns": 0.0784557907845579,
+     "books": 0.026755852842809364,
+     "speeches": 0.058823529411764705,
+     "biography": 0.05714285714285714,
+     "null_all": 0.5130490956072351
+    },
+    "0.3": {
+     "all_LOO": 0.08914728682170543,
+     "all_in_sample": 0.07674418604651163,
+     "columns": 0.11457036114570361,
+     "books": 0.04013377926421405,
+     "speeches": 0.058823529411764705,
+     "biography": 0.05714285714285714,
+     "null_all": 0.6020671834625323
+    },
+    "0.32": {
+     "all_LOO": 0.11937984496124031,
+     "all_in_sample": 0.10387596899224806,
+     "columns": 0.14196762141967623,
+     "books": 0.07692307692307693,
+     "speeches": 0.08496732026143791,
+     "biography": 0.11428571428571428,
+     "null_all": 0.6878552971576227
+    },
+    "0.34": {
+     "all_LOO": 0.15658914728682172,
+     "all_in_sample": 0.13953488372093023,
+     "columns": 0.1843088418430884,
+     "books": 0.11036789297658862,
+     "speeches": 0.1111111111111111,
+     "biography": 0.11428571428571428,
+     "null_all": 0.7564599483204134
+    },
+    "0.36": {
+     "all_LOO": 0.19689922480620156,
+     "all_in_sample": 0.17364341085271318,
+     "columns": 0.2328767123287671,
+     "books": 0.13712374581939799,
+     "speeches": 0.13071895424836602,
+     "biography": 0.17142857142857143,
+     "null_all": 0.814470284237726
+    },
+    "0.38": {
+     "all_LOO": 0.2364341085271318,
+     "all_in_sample": 0.21085271317829457,
+     "columns": 0.2764632627646326,
+     "books": 0.17725752508361203,
+     "speeches": 0.1503267973856209,
+     "biography": 0.2,
+     "null_all": 0.8631782945736434
+    },
+    "0.4": {
+     "all_LOO": 0.2837209302325581,
+     "all_in_sample": 0.2565891472868217,
+     "columns": 0.3312577833125778,
+     "books": 0.21070234113712374,
+     "speeches": 0.1895424836601307,
+     "biography": 0.22857142857142856,
+     "null_all": 0.8988372093023256
+    },
+    "0.42": {
+     "all_LOO": 0.3387596899224806,
+     "all_in_sample": 0.29689922480620157,
+     "columns": 0.3972602739726027,
+     "books": 0.23745819397993312,
+     "speeches": 0.22875816993464052,
+     "biography": 0.34285714285714286,
+     "null_all": 0.9254521963824289
+    },
+    "0.44": {
+     "all_LOO": 0.3953488372093023,
+     "all_in_sample": 0.3395348837209302,
+     "columns": 0.4520547945205479,
+     "books": 0.2909698996655518,
+     "speeches": 0.3006535947712418,
+     "biography": 0.4,
+     "null_all": 0.9459948320413437
+    },
+    "0.46": {
+     "all_LOO": 0.4434108527131783,
+     "all_in_sample": 0.3953488372093023,
+     "columns": 0.49688667496886674,
+     "books": 0.35451505016722407,
+     "speeches": 0.33986928104575165,
+     "biography": 0.42857142857142855,
+     "null_all": 0.9604651162790697
+    },
+    "0.48": {
+     "all_LOO": 0.4930232558139535,
+     "all_in_sample": 0.4449612403100775,
+     "columns": 0.5554171855541719,
+     "books": 0.3879598662207358,
+     "speeches": 0.35947712418300654,
+     "biography": 0.5428571428571428,
+     "null_all": 0.9727390180878553
+    },
+    "0.5": {
+     "all_LOO": 0.5496124031007752,
+     "all_in_sample": 0.49612403100775193,
+     "columns": 0.6089663760896638,
+     "books": 0.46153846153846156,
+     "speeches": 0.4117647058823529,
+     "biography": 0.5428571428571428,
+     "null_all": 0.9798449612403101
+    },
+    "0.52": {
+     "all_LOO": 0.610077519379845,
+     "all_in_sample": 0.5527131782945737,
+     "columns": 0.6650062266500623,
+     "books": 0.5183946488294314,
+     "speeches": 0.49673202614379086,
+     "biography": 0.6285714285714286,
+     "null_all": 0.9866925064599483
+    },
+    "0.54": {
+     "all_LOO": 0.6604651162790698,
+     "all_in_sample": 0.5984496124031008,
+     "columns": 0.7110834371108343,
+     "books": 0.5919732441471572,
+     "speeches": 0.5294117647058824,
+     "biography": 0.6571428571428571,
+     "null_all": 0.9919896640826873
+    },
+    "0.56": {
+     "all_LOO": 0.7162790697674418,
+     "all_in_sample": 0.6643410852713179,
+     "columns": 0.7584059775840598,
+     "books": 0.6521739130434783,
+     "speeches": 0.6013071895424836,
+     "biography": 0.8,
+     "null_all": 0.9957364341085271
+    },
+    "0.58": {
+     "all_LOO": 0.7589147286821706,
+     "all_in_sample": 0.7093023255813954,
+     "columns": 0.7957658779576587,
+     "books": 0.7023411371237458,
+     "speeches": 0.6470588235294118,
+     "biography": 0.8857142857142857,
+     "null_all": 0.9971576227390181
+    },
+    "0.6": {
+     "all_LOO": 0.8038759689922481,
+     "all_in_sample": 0.7441860465116279,
+     "columns": 0.8430884184308842,
+     "books": 0.725752508361204,
+     "speeches": 0.7254901960784313,
+     "biography": 0.9142857142857143,
+     "null_all": 0.9984496124031008
+    },
+    "0.62": {
+     "all_LOO": 0.8372093023255814,
+     "all_in_sample": 0.7945736434108527,
+     "columns": 0.8704856787048568,
+     "books": 0.7658862876254181,
+     "speeches": 0.7777777777777778,
+     "biography": 0.9428571428571428,
+     "null_all": 0.9993540051679587
+    },
+    "0.64": {
+     "all_LOO": 0.8689922480620155,
+     "all_in_sample": 0.827906976744186,
+     "columns": 0.9041095890410958,
+     "books": 0.7859531772575251,
+     "speeches": 0.8235294117647058,
+     "biography": 0.9714285714285714,
+     "null_all": 0.9996124031007751
+    },
+    "0.66": {
+     "all_LOO": 0.9038759689922481,
+     "all_in_sample": 0.8589147286821706,
+     "columns": 0.9327521793275217,
+     "books": 0.8327759197324415,
+     "speeches": 0.869281045751634,
+     "biography": 1.0,
+     "null_all": 0.9996124031007751
+    },
+    "0.68": {
+     "all_LOO": 0.9248062015503876,
+     "all_in_sample": 0.8922480620155039,
+     "columns": 0.9526774595267746,
+     "books": 0.8528428093645485,
+     "speeches": 0.9019607843137255,
+     "biography": 1.0,
+     "null_all": 0.9998708010335917
+    },
+    "0.7": {
+     "all_LOO": 0.9503875968992248,
+     "all_in_sample": 0.913953488372093,
+     "columns": 0.9676214196762142,
+     "books": 0.903010033444816,
+     "speeches": 0.9411764705882353,
+     "biography": 1.0,
+     "null_all": 1.0
+    },
+    "0.72": {
+     "all_LOO": 0.9666666666666667,
+     "all_in_sample": 0.9372093023255814,
+     "columns": 0.9825653798256538,
+     "books": 0.9264214046822743,
+     "speeches": 0.954248366013072,
+     "biography": 1.0,
+     "null_all": 1.0
+    },
+    "0.74": {
+     "all_LOO": 0.9767441860465116,
+     "all_in_sample": 0.9627906976744186,
+     "columns": 0.9900373599003736,
+     "books": 0.9431438127090301,
+     "speeches": 0.9673202614379085,
+     "biography": 1.0,
+     "null_all": 1.0
+    },
+    "0.76": {
+     "all_LOO": 0.9837209302325581,
+     "all_in_sample": 0.9720930232558139,
+     "columns": 0.9925280199252802,
+     "books": 0.9565217391304348,
+     "speeches": 0.9869281045751634,
+     "biography": 1.0,
+     "null_all": 1.0
+    },
+    "0.78": {
+     "all_LOO": 0.9891472868217054,
+     "all_in_sample": 0.975968992248062,
+     "columns": 0.9950186799501868,
+     "books": 0.9698996655518395,
+     "speeches": 0.9934640522875817,
+     "biography": 1.0,
+     "null_all": 1.0
+    }
+   }
+  }
+ }
+}
