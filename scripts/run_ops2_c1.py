@@ -1,24 +1,19 @@
 """
-OPS-2 C2 — identical to run_ops2_c1.py except for ONE line.
+OPS-2 C1 — $0 retrieval-only drift check vs the canonical v4 anchor.
 
-run_ops2_c1.py pins the pilot matrix at exactly 827 rows:
-    assert mat.shape == (827, config.EMBED_DIM) and cen.shape[0] == 34
-That is the PRE-correction chunk count. Batch-03 re-chunked 18 of the 95 pilot
-documents, so the post-correction pilot slice is 826 rows and the assert fires
-before any measurement happens. The number was a pin on a state the correction
-legitimately changed, not a measurement.
+Report-mode adaptation of verify_v4_transition.py: instead of hard-asserting
+the ratified v4 numbers, it grades the live pipeline on the frozen 40-query
+set vs v4 gold and RECORDS the recall deltas, so drift from (a) the batch-02
+BM25/IDF rebuild, (b) the full-corpus re-embed pilot slice, and (c) the
+full-corpus centroid rebuild can be measured and attributed.
 
-This copy asserts the matrix matches its own meta instead:
-    assert mat.shape == (len(chunk_ids), config.EMBED_DIM) and cen.shape[0] == 34
-which preserves the check's real intent (rows agree with chunk_ids) without
-pinning a count. Nothing else differs: same gold set, same v4 allowlist, same
-grading, same output file and label scheme. Created 2026-09-26 for CE-12 so
-run_ops2_c1.py itself stays untouched and auditable.
+Run once BEFORE Phase A/B on current artifacts (label C0_current_artifacts:
+same dense+centroids as v4, post-batch-02 sparse -> isolates BM25-IDF drift)
+and once AFTER (label C1_post_ops2 -> total drift). Results merge into
+eval/results/ops2_c1_drift.json keyed by label.
 
-Verify with:  diff scripts/run_ops2_c1.py scripts/run_ops2_c2.py
-Usage:        python scripts/run_ops2_c2.py <label>
+Usage:  python scripts/run_ops2_c1.py <label>
 """
-
 from __future__ import annotations
 import csv, hashlib, json, subprocess, sys
 from datetime import datetime, timezone
@@ -58,7 +53,7 @@ def main(label: str) -> int:
     row_of = {c: i for i, c in enumerate(chunk_ids)}
     mat = np.load(ROOT / "data/index/pilot_dense.npy").astype(np.float32)
     cen = np.load(ROOT / "data/index/topic_centroids.npy").astype(np.float32)
-    assert mat.shape == (len(chunk_ids), config.EMBED_DIM) and cen.shape[0] == 34
+    assert mat.shape == (827, config.EMBED_DIM) and cen.shape[0] == 34
     ksent = {r.get("qid") or r["query_id"]: r["chunks_sent"] for r in json.loads(
         (RES / "w3_2_PARTIAL_BC_v3_c1637cd.json").read_text(encoding="utf-8"))["per_query"]}
     chunk_cen = mat @ cen.T

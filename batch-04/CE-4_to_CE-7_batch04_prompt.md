@@ -224,8 +224,33 @@ BOUNDARIES
     documents — 64 columns and 15 speeches, and no books at all. Say plainly whether the new material
     is finding a home in a taxonomy that never saw it.
 
+
+----- HOUSEKEEPING · CE-15 flavour — do this LAST, after CE-7 reports -----
+
+The repo was tidied on 26 Sep before this batch started: 13 superseded prompt documents and 2 dead
+scripts deleted from docs/p3 and scripts (all tracked, so recoverable from git history), and 32
+archive/bake-off files MOVED into data/index/_archive/ rather than deleted, because data/index is not
+tracked and a delete there is permanent. docs/p3/README.md records all of it.
+
+This batch will generate its own artifacts. Keep them tidy as you go, and at the end:
+
+23. Everything this batch writes goes under batch-04/ — the report, the backups
+    (backup_pre-CE4_2026-09-26/, backup_pre-CE5_2026-09-26/), the CE-7 tagging table, orphan list,
+    orphan clustering and independence report. Do NOT scatter new files into docs/, the repo root, or
+    data/index/ top level.
+24. Any index file this batch displaces goes into data/index/_archive/ with a dated prefix — MOVED,
+    never deleted. That includes the _prebatch04_2026-09-26_pilot_dense* pair from CE-6 step 11 and
+    whatever make_runtime_dense_index.py backs up in step 14. After CE-6, data/index/ top level should
+    hold only the live set: corpus_dense*, pilot_dense*, pilot_sparse*, sparse_phrase_dict.json,
+    date_index*, topic_centroids*, topic_centroids_premerge.npy, and _archive/.
+25. Do NOT delete anything under data/index/_archive/. It holds the only rollback for the ratified
+    encoder and the promoted arch-baseline-v4.2 artifacts (sha16 50600bdd34836db7 / 0ec7d6f64d3c5b14 /
+    df5ca465c954e218). P3.1's own Done-when bullet is "archive the alternatives with a rollback".
+26. Report a one-line inventory at the end: how many files this batch added, where they live, and what
+    was moved into _archive/. If anything ended up outside batch-04/ or data/index/, name it and say why.
+
 REPORT — batch-04/CE-4_to_CE-7_report_2026-09-26.md
-22. Every count before/after at each step; the content-aware diff results with the number of hashes
+27. Every count before/after at each step; the content-aware diff results with the number of hashes
     compared; the chunk stability proof; the embed provenance and timing; and CE-7's four outputs plus
     the independence sweep. End with the decision input for CE-8 stated in one paragraph — scattered
     orphans, a coherent cluster, or independence violations — WITHOUT choosing a branch.
