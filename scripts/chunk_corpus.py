@@ -230,7 +230,8 @@ def main() -> int:
     }
     (INDEX_DIR / "chunk_index.json").write_text(
         json.dumps(index, ensure_ascii=config.JSON_ENSURE_ASCII, indent=2) + "\n",
-        encoding=config.OUTPUT_ENCODING)
+        encoding=config.OUTPUT_ENCODING,
+        newline="\n")
 
     print(f"[chunk] docs={stats['n_docs']} chunks={stats['n_chunks']} "
           f"avg_tok={stats['avg_tokens']} (min {stats['min_tokens']}, max {stats['max_tokens']})")
