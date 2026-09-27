@@ -24,11 +24,17 @@ _ISO_YR = re.compile(r"^\d{4}$")
 _YEAR = re.compile(r"(1[89]\d\d|20\d\d)")     # a real 4-digit year present in the string
 
 
-def parse_date(raw, title=""):
+def parse_date(raw, title="", doc_id=""):
     """Deterministic. Extracts a present date signal; never fabricates one.
-    Returns (date_iso|null, precision in {day,month,year,none}, source_of_date)."""
+    Returns (date_iso|null, precision in {day,month,year,none}, source_of_date).
+
+    Phase 6: a BOOK ('B') or BIOGRAPHY ('G') document whose date is 1 January and whose source gives no finer evidence
+    (the workbook cell IS 'YYYY-01-01') carries a placeholder, not a day: it is labelled 'year' precision so a temporal
+    filter does not treat it as an exact day. The date itself is NEVER changed - only its precision label."""
     s = (raw or "").strip()
     if _ISO_DAY.match(s):
+        if doc_id[:1] in ("B", "G") and s.endswith("-01-01"):
+            return s, "year", "metadata_iso_jan1_year_precision"
         return s, "day", "metadata_iso_day"
     if _ISO_MON.match(s):
         return s, "month", "metadata_iso_month"
@@ -69,7 +75,7 @@ def build():
     table = {}
     for doc_id in sorted(store_docs):                      # sorted -> deterministic
         m = meta.get(doc_id, {})
-        date_iso, precision, src = parse_date(m.get("date"), m.get("title", ""))
+        date_iso, precision, src = parse_date(m.get("date"), m.get("title", ""), doc_id)
         table[doc_id] = {"date_iso": date_iso, "precision": precision, "source_of_date": src}
 
     canonical = json.dumps(table, ensure_ascii=False, sort_keys=True, separators=(",", ":"))
@@ -86,7 +92,8 @@ def build():
         "dated": sum(1 for v in table.values() if v["date_iso"]),
         "undated": len(undated), "undated_doc_ids": undated,
         "by_source_class_precision": {f"{c}:{p}": n for (c, p), n in sorted(by_class_prec.items())},
-        "parser": "metadata 'date' -> ISO day/month/year | year-extract from range/decade | title fallback | null",
+        "jan1_year_precision_docs": sorted(d for d in table if table[d]["source_of_date"] == "metadata_iso_jan1_year_precision"),
+        "parser": "metadata 'date' -> ISO day/month/year (Jan-1 on a book/biography doc -> year precision, date unchanged) | year-extract from range/decade | title fallback | null",
         "idempotent": "deterministic: sorted doc_ids + canonical json; re-run hash stable",
     }
     TABLE.write_text(json.dumps(table, ensure_ascii=False, sort_keys=True, indent=2) + "\n", encoding="utf-8")
