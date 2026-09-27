@@ -224,11 +224,12 @@ function renderMode(s){
   $('modechip').textContent=(s.mode||'?')+' mode';$('profchip').textContent=(s.profile||'?')+' profile';
 }
 function srcClass(src){return src==='console override'?'src override':'src';}
+const HIDDEN_SETTINGS=['host_intro'];   // two-robot settings the single-robot page does not show (server still honours them)
 function renderSettings(s){
   const st=s.settings,eff=st.effective||{},src=st.sources||{};SCHEMA=st.schema||{};
   const box=$('settings');
   if(box.dataset.built!=='1'){
-    box.innerHTML=(st.tunable||[]).map(k=>{const sc=SCHEMA[k]||{};
+    box.innerHTML=(st.tunable||[]).filter(k=>!HIDDEN_SETTINGS.includes(k)).map(k=>{const sc=SCHEMA[k]||{};
       const ctl=sc.type==='bool'
         ?'<button role="switch" aria-checked="false" id="in-'+k+'" onclick="flip(\''+k+'\')" aria-labelledby="lb-'+k+'"><i></i></button>'
         :'<input type="number" id="in-'+k+'" min="'+sc.min+'" max="'+sc.max+'" step="'+sc.step+'" oninput="EDITED[\''+k+'\']=1" aria-labelledby="lb-'+k+'">';

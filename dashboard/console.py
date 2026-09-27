@@ -84,7 +84,7 @@ JOURNAL_PATH = os.path.join(HOME, ".cj_console_journal.jsonl")
 # dim room — no jargon.
 SETTINGS = {
     "wake_word":            {"type": "bool",  "env": "CJ_WAKE_LISTEN", "ui": True,
-                             "label": "Answer to “Hi Cee-Jap”",
+                             "label": "Answer to “Hi CJAP”",
                              "help": "On: a question starts with the wake phrase (kiosk). Off: any speech on the open mic starts a question — the visitor's handheld transmitter (event)."},
     "wake_threshold":       {"type": "float", "env": "CJ_WAKE_OWW_THRESHOLD", "ui": True,
                              "min": 0.0005, "max": 0.9, "step": 0.001,
@@ -104,7 +104,7 @@ SETTINGS = {
                              "min": 0, "max": 120, "step": 1,
                              "label": "Keep listening after an answer (seconds)",
                              "help": "0: back to sleep right after each answer."},
-    "host_intro":           {"type": "bool",  "env": "CJ_HOST_INTRO", "ui": True,
+    "host_intro":           {"type": "bool",  "env": "CJ_HOST_INTRO", "ui": True,   # row hidden client-side (single robot)
                              "label": "Host says the intro line",
                              "help": "Spoken once by the Host robot when direct mode starts."},
     "premise_gate":         {"type": "bool",  "env": "CJ_PREMISE_GATE", "ui": True,
@@ -716,11 +716,11 @@ class Console:
         if target == "none":
             self.transition = None
             if prev != "none":
-                self._journal("floor", "floor is now none — both mics closing", who=who, floor="none")
+                self._journal("floor", "floor is now none — mic closing", who=who, floor="none")
         else:
             self.transition = {"target": target, "started": now,
                                "deadline": now + self.ttl_s + SETTLE_MARGIN_S, "who": who}
-            self._journal("floor", f"floor moving to {target} — closing both mics first"
+            self._journal("floor", f"floor moving to {target} — closing the mic first"
                                    + (f" (was {prev})" if prev != "none" else ""),
                           who=who, floor="none", target=target)
         self._persist()
