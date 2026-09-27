@@ -144,7 +144,12 @@
   "one_paragraph_summary": "Chapter 26 of 'Liberty and Prosperity' digests Abacus v. Ampil, in which the Court divided the loss between a stock market investor and his broker. The petitioner, a broker and dealer of securities at the Philippine Stock Exchange Center, opened a cash account for the respondent on April 8, 1997; he began trading on April 10 and by the end of the month owed P6,617,036.22. After he failed to settle within the required period and an extension, the broker sold his securities on May 6, 1997, leaving him still owing P3,364,313.56. The trial court and the Court of Appeals held both parties in pari delicto and without recourse against each other, because the broker had violated Sections 23 and 25 of the Revised Securities Act and Rule 25-1 by failing to require payment within three or four days of trading and to seek an extension. The Court agreed that the so-called mandatory close-out rule imposed an obligation and not merely a right -- to cancel or liquidate an unpaid order and thereafter to require cash deposits before executing further purchases, so that no undue credit would be extended to a cash customer -- but held that those margin requirements bore only on the trades made after the initial purchases of April 10 and 11, 1997. Those first transactions were valid when made, so the broker could still collect on them under the general law on obligations and contracts; the margin rules existed to protect the general economy, not to give the customer a free ride at the broker's expense. For the later trades the broker had unclean hands, having effectively converted a cash account into a credit account, but the investor was equally guilty: the Court rejected his claim to be an innocent victim, found that he had knowingly speculated by asking for extensions and withholding sell orders, and denied his counterclaim. His remaining obligation was to be computed from the closing prices at T+14. On the second issue the Court held that the suit was an ordinary civil case to enforce the parties' Agreement, and that deciding it did not deprive the SEC of its authority to punish willful violations.",
   "source_xlsx": "cjp_books_curated_normalized.xlsx",
   "topic_paths": {
-    "primary": [],
-    "secondary": []
+    "primary": [
+      "property_contracts_and_economic_rights"
+    ],
+    "secondary": [
+      "ill_gotten_wealth_and_the_pcgg"
+    ],
+    "route_source": "affinity"
   }
 }

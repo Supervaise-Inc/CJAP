@@ -140,6 +140,7 @@
     ],
     "secondary": [
       "twin_beacons_doctrine"
-    ]
+    ],
+    "route_source": "matcher"
   }
 }

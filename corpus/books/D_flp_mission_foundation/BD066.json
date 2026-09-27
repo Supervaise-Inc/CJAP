@@ -143,7 +143,12 @@
   "one_paragraph_summary": "Chapter 12 of 'Liberty and Prosperity' reproduces the closing address Chief Justice Panganiban delivered at a two-day Conference on Arbitration for the Judiciary, which he said he would not miss despite a hectic schedule because of his special affinity with the cause of arbitration. He restated the four acute problems he wanted to focus on as Chief Justice -- limited access to justice by the poor, corruption, incompetence, and delay in the delivery of quality judgments -- which he called the ACID problems that corrode justice, and located alternative dispute resolution as one of the ways of avoiding delay: an out-of-court settlement usually works well for the parties and the courts, is fast and efficient, decongests dockets, and allows judges to concentrate on the bigger issues of national interest. He thanked Justice Ameurfina A. Melencio Herrera for her tireless work through the Philippine Judicial Academy and acknowledged the conference co-sponsors -- the Chartered Institute of Arbitrators, the Kuala Lumpur Regional Centre for Arbitration, the Philippine Dispute Resolution Center, USAID and The Asia Foundation. He reported the Court's concrete steps to institutionalize ADR: court-annexed mediation integrated as a mandatory component of pretrial at the trial level, mediation recently approved at the appellate level, deference to contractual provisions referring disputes to arbitral bodies, and judge-to-judge dialogues stressing arbitration's role in de-clogging dockets. He surveyed the conference papers on national arbitration laws, the Uncitral Model Law, the arbitration agreement and party autonomy, arbitrability and the enforceability of awards, and acknowledged the conflicts that arise from the diversity of arbitration laws across jurisdictions. Quoting PhilJA's ADR Department, he described ADR as restoring the judiciary as the forum of last recourse. He listed five ways courts may support arbitration -- settling jurisdiction, granting interim relief, taking evidence, enforcing or repudiating awards, and keeping courts out through anti-suit injunctions or stays -- citing Professor Mario B. Valderrama and PDRCI President Eduardo Ceniza and Sections 28 and 29 of the Philippine ADR Law, conceded the difficulty of balancing the roles of courts and arbitrators, praised international forums for solving such problems, and promised to act on the conference report within his competence.",
   "source_xlsx": "cjp_books_curated_normalized.xlsx",
   "topic_paths": {
-    "primary": [],
-    "secondary": []
+    "primary": [
+      "judicial_reform"
+    ],
+    "secondary": [
+      "twin_beacons_doctrine"
+    ],
+    "route_source": "affinity"
   }
 }

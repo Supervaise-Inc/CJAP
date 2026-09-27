@@ -105,7 +105,10 @@
   "one_paragraph_summary": "Following the big-business Integrity Initiative (Makati Business Club, MAP, ECCI, AmCham, AIM Hills Program), Panganiban argues that the culture of integrity must reach the grassroots: SMEs (micro/small/medium enterprises) constitute 99.6% of all businesses, employ 63.2% of the labor force, and account for 35.7% of total sales -- yet are the favorite victims of petty grafters. The column catalogs normalized petty-corruption examples: bribes for sari-sari permits, health clearances, customs releases, tax assessment reductions, fire-extinguisher rackets from 'pre-cleared' suppliers, and traffic violations. The AIM Hills Program on Governance recommends seven practices: (1) prohibit bribery in any form, communicated to all stakeholders; (2) gifts/entertainment policy with nominal-value limits and a central register; (3) conflict-of-interest disclosure form; (4) Code of Conduct with incentives and penalties; (5) periodic anti-corruption training from hire; (6) transparent systems, accurate books, official receipts; and (7) correct tax declarations, using verbal scripts to resist bribe demands ('My company has a very strict policy' / 'It is against my religion to pay bribes'). The column closes with a direct challenge to PCCI president Francis Chua -- who accepted in response to last Sunday's column -- to launch an SME anti-corruption drive at the PCCI national conference.",
   "source_xlsx": "cjp_columns_curated_normalized.xlsx",
   "topic_paths": {
-    "primary": [],
-    "secondary": []
+    "primary": [
+      "economy_taxes_and_prosperity"
+    ],
+    "secondary": [],
+    "route_source": "affinity"
   }
 }

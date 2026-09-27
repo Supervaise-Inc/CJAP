@@ -122,7 +122,10 @@
   "one_paragraph_summary": "Panganiban recounts two forums held on a single Wednesday. At the University of San Carlos School of Law and Governance in Cebu, he seconded Dean Joan Largo's lecture on enforcing economic rights via the judiciary. Largo -- one of the 13 holders of the 'Chief Justice Panganiban Professorial Chairs on Liberty and Prosperity' and newly installed PALS president -- contrasted the 1987 Constitution's repeated pro-poor declarations with the grinding poverty that still afflicts Filipinos more than three decades later, attributing the gap to Congress's failure to pass enabling legislation. She cited the higher courts of South Africa, Colombia, and Argentina as models of judicial boldness and argued that a writ of prosperity is 'truly feasible if the Philippine judiciary wants it.' CJ asked Largo and her PALS colleagues to identify which economic rights can be judicially enforced sans legislation, and urged use of the rule of law to foster education over mendicancy, free competition over suffocating regulations, and merit over sycophancy. At the San Beda Law Alumni Association testimonial dinner for newly promoted Bedans -- including SC Justices Reyes and Hernando, Ombudsman Martires, and Sandiganbayan Justices Manalac and Vivero -- CJ challenged them to outperform graduates of the university that previously cornered these posts, and reminded them amid roars and cheers that fellow Red Lions Sen. de Lima and former Sen. Saguisag are ready to pounce on their lapses.",
   "source_xlsx": "cjp_columns_curated_normalized.xlsx",
   "topic_paths": {
-    "primary": [],
-    "secondary": []
+    "primary": [
+      "twin_beacons_doctrine"
+    ],
+    "secondary": [],
+    "route_source": "affinity"
   }
 }

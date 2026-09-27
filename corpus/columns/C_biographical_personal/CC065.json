@@ -135,7 +135,13 @@
   "one_paragraph_summary": "Marking CJ Claudio Teehankee's 100th-birthday year, Panganiban delivers excerpts from his July 10, 2019 speech launching the Ateneo Law Journal's hardcover special edition. He praises journal editors and writers as the analytical engine of the legal profession -- distinct from bar-exam toppers, whose mastery is memorizational ('read and reread and reread... till the words are erased from the pages'). The best practicing lawyers, he writes, are not the 'obnoxious charlatans who try to impress with highfalutin irrelevancies' but the 'tireless writers of term sheets, memoranda, contracts, treaties, complaints, answers, motions, briefs and memorials,' and the best jurists are 'rippling authors of decisions and orders.' He sets out his organizing typology: the 'legal technician' interprets law literally to serve commercial causes, while the 'social engineer' interprets law liberally, treating it as 'an instrument in the building of a just society' -- a brick in the social edifice rather than an end in itself. Teehankee, summa cum laude and bar topnotcher, was both -- 'a social engineer who reached out to the stars to render justice via the all-encompassing rule of law.' He closes with an announcement of FLP's programs: 20 annual law scholarships at ₱200,000 each, honor-grad rewards of ₱25,000-₱100,000, and 25 dissertation-writing contest prizes ranging ₱20,000-₱300,000 -- funding 'elegant masterpieces composed mostly by law journal editors and writers' to grow the next generation of social engineers for the nation.",
   "source_xlsx": "cjp_columns_curated_normalized.xlsx",
   "topic_paths": {
-    "primary": [],
-    "secondary": []
+    "primary": [
+      "judiciary_milestones_and_tributes"
+    ],
+    "secondary": [
+      "bar_exam_and_legal_education",
+      "foundation_for_liberty_and_prosperity"
+    ],
+    "route_source": "affinity"
   }
 }

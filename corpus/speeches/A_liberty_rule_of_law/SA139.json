@@ -96,7 +96,12 @@
   "one_paragraph_summary": "Delivered November 27, 2006 at the National Conference on Court-Annexed/Referred ADR Mechanisms -- invited by PhilJA Chancellor Justice Ameurfina A. Melencio-Herrera ('Justice Amor'); nine days before CJP's mandatory retirement -- this address by CJP opens with the Hukom Juan Suplado (CID) joke: a fictional judge is offered a Mercedes Benz S560 for sale at 1,000 pesos and says 'In that case, I will buy two!' -- illustrating the three complaints against the judiciary: corruption (accepting a bribe), incompetence (failing to see the problem), and delay (managing a case ex-parte). He identifies ACID (access, corruption, incompetence, delay) as 'the special focus of my chief justiceship' and focuses on the 'D': the problem of delay is caused by both systemic factors (the adversarial system's inherent slowness) and man-made factors (litigants and lawyers who misuse and abuse the Rules of Court). The solution: court-annexed mediation as a mandatory component of pretrial at the trial court level; recently approved also at the Court of Appeals level; PhilJA is studying the feasibility of court-annexed arbitration ('less time-consuming, less tedious, less confrontational, and more productive of goodwill and lasting relationships'). Tribute to the mediators: 'Ayusin ang Gusot, Habaan ang Pasensiya; to be successful peacemakers, you must exude professionalism and practice patience. Accept the difficulty of your work and have the persistence to reach for an amicable settlement... it is the knowledge of promoting peace that will bring self-worth and true happiness.' Closing: 'I am convinced that all of you have helped my chief justiceship in addressing the problems plaguing the judiciary, particularly the D in ACID, or the fight against delay in the delivery of quality judgments.'",
   "source_xlsx": "cjp_speeches_curated_normalized.xlsx",
   "topic_paths": {
-    "primary": [],
-    "secondary": []
+    "primary": [
+      "judicial_reform"
+    ],
+    "secondary": [
+      "judiciary_milestones_and_tributes"
+    ],
+    "route_source": "affinity"
   }
 }

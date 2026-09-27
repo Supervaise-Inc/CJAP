@@ -116,7 +116,13 @@
   "one_paragraph_summary": "Panganiban shares edited closing remarks from his December 20 'Ageless Passion' 80th birthday musicale (produced by Donna May Lina, directed by Bart Guingona, featuring 18 original Ryan Cayabyab songs with lyrics by Jeff Agustin) as his Christmas Day column, thanking two presidents. He thanks President Ramos, who 'plucked me from anonymity' and recently sent his book '2030 One World, One Community, One Family' with the salutation 'Dear Tiger Chief Justice Art' -- which CJ joyfully receives, adding self-deprecatingly that Ramos probably meant 'a harmless and toothless tiger.' He quotes Ramos's letter ('life begins at 40, so at 80 one is born again'), adapts Reinhold Niebuhr's Serenity Prayer for age 80 with comic effect, and shares Dr. Frank Laubach's essay 'Life Begins at 80' -- concluding: 'So, please, folks, try to make it to 80. It's the best time of life.' He thanks President Arroyo, who appointed him Chief Justice without prior interview -- the vacancy occurring December 20, 2005, and CJ learning of it the next day from a paper slip while delivering a speech in a five-star hotel ballroom. He froze at the rostrum, descended the stage, went to his car with Leni, drove to their parish church, and 'on bended knees, fervently thanked the Lord for His bountiful blessings.' Despite the Panganiban Court's defeat of some Arroyo initiatives, she remained cordial and occasionally invited CJ to Malacañang after retirement -- and her presence at the December 20 celebration affirmed that they remain 'friends and firm believers in the vitality of our democracy, the supremacy of the rule of law, and the wisdom of checks and balances.'",
   "source_xlsx": "cjp_columns_curated_normalized.xlsx",
   "topic_paths": {
-    "primary": [],
-    "secondary": []
+    "primary": [
+      "judiciary_milestones_and_tributes"
+    ],
+    "secondary": [
+      "faith_journey",
+      "life_story_family_school_and_church"
+    ],
+    "route_source": "affinity"
   }
 }

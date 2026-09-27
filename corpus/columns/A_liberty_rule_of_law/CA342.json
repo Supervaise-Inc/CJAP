@@ -175,6 +175,7 @@
     "secondary": [
       "bangsamoro_peace_process",
       "jbc_discernment_and_appointment"
-    ]
+    ],
+    "route_source": "matcher"
   }
 }

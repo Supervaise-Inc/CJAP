@@ -160,7 +160,13 @@
   "one_paragraph_summary": "Chapter 14 of 'Leadership by Example: The Davide Standard' used CJP's own ponencia in Santiago v. Guingona to explain when the Supreme Court may look into the internal acts of Congress. He began with the Court's role as guardian of the Constitution and conscience of society, and with the limit on that role: it will strike down acts of the political departments only for unconstitutionality or grave abuse of discretion, never for want of wisdom or propriety. The case arose when the Senate elected Marcelo B. Fernan its President on July 27, 1998 by a vote of 20 to 2, Senator Francisco S. Tatad, the losing nominee supported only by Senator Miriam Defensor Santiago, claimed the minority leadership, and Fernan instead recognized Teofisto T. Guingona Jr. on the strength of a letter from seven Lakas-NUCD-UMDP senators. Santiago and Tatad sued in quo warranto, arguing that Article VI, Section 16 (1) required the Court to define 'majority' and 'minority' and that Guingona, having voted for Fernan, could not lead the minority. The Court unanimously denied the petition, holding that absent any showing of a constitutional violation or grave abuse, constitutional respect for a coequal branch forbade prying into the Senate's internal workings, and that Fernan and Guingona had acted within their competence. Three Justices led by Vicente V. Mendoza would have dismissed for lack of jurisdiction, calling the composition of the Senate minority a political question and invoking Marbury v. Madison for the proposition that such a court has no jurisdiction except to declare itself without jurisdiction. CJP answered that jurisdiction is determined by the allegations of the petition, is not lost when the petition proves meritless, and extends to Congress because the Constitution's grave abuse clause covers 'any branch or instrumentality of the government.' He conceded that where a petition shows only a breach of internal rules the Court may indeed dismiss for want of jurisdiction, and he reproduced the Separate Opinions of Justice Jose C. Vitug, who urged judicial statesmanship rather than judicial tyranny and said only a clear disregard of a specific constitutional precept can unbolt the door to intervention, and of Justice Flerida Ruth P. Romero, who reaffirmed her position in Arroyo v. De Venecia. Neither, he noted, addressed jurisdiction -- and had the majority followed Mendoza, the Court would have announced that it will never review internal legislative acts, however grave the allegations.",
   "source_xlsx": "cjp_books_curated_normalized.xlsx",
   "topic_paths": {
-    "primary": [],
-    "secondary": []
+    "primary": [
+      "how_the_supreme_court_decides"
+    ],
+    "secondary": [
+      "impeachment_accountability",
+      "party_list_charter_change_and_dynasties"
+    ],
+    "route_source": "affinity"
   }
 }

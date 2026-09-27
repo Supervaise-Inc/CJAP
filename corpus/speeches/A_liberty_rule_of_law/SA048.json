@@ -120,7 +120,13 @@
   "one_paragraph_summary": "Published March 9, 2019 as interview responses by CJP about the Manila Cathedral coffee table book ('Restoring a Monument to Faith, Architecture and History'), this document covers two questions. On how the idea started: the restoration of the Manila Cathedral began in 2010 when Cardinal Rosales summoned the Manila Metropolitan Cathedral-Basilica Foundation (CJP as President) to address the swaying belfry; structural engineers found not just the belfry but the entire edifice needed strengthening; and to CJP's dismay, no as-built plans were found anywhere (not in Archdiocese archives, the National Library, or the Manila City Engineer's Office), with the additional alarm that the Cathedral was built on reclaimed land that 'could liquefy and cause the Cathedral to collapse.' When Cardinal Tagle succeeded Rosales, CJP advised him (with others) that closing the Cathedral was legally necessary to avoid liability should it collapse -- making it Tagle's first major decision as Archbishop. After the four Rs were completed with the Lord's guidance, CJP proposed a coffee table book to document the restoration with structural and architectural plans -- 'so that 50 years or 100 years from now, future generations who may wish to re-strengthen, retrofit and re-beautify the Cathedral will no longer meet the same baffling problems we faced.' The Board (chaired by Cardinal Tagle, vice-chaired by Ambassador Tita de Villa) welcomed the proposal; Metrobank Foundation had exhausted its budget; referred it to the GT Foundation; Alfred Ty 'gallantly and kindly agreed at short notice' and personally delivered the check on the day of the interview. Under Dr. Gerald Lico's design and editing, the book 'metamorphosed into a world-class, grand coffee table book' distributed worldwide. On the book's legacy: 'More than brick and mortar, the Manila Cathedral is a symbol of our deep faith and a monument of our religious heritage as a people... the coffee table book is a testament not just to the herculean effort to restore... but a witness to the architectural and historical genius of our faithful in their adoration of our Lord and in their veneration of our Lady.'",
   "source_xlsx": "cjp_speeches_curated_normalized.xlsx",
   "topic_paths": {
-    "primary": [],
-    "secondary": []
+    "primary": [
+      "life_story_family_school_and_church"
+    ],
+    "secondary": [
+      "faith_journey",
+      "foundation_for_liberty_and_prosperity"
+    ],
+    "route_source": "affinity"
   }
 }

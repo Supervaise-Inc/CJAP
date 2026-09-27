@@ -168,7 +168,10 @@
   "one_paragraph_summary": "Art's Elder Statesman chapter, opening with the titular reframe that 'Age did not soften Art into ceremonial irrelevance -- it sharpened him.' He becomes a sought-after independent director, adviser, trustee, and chairman 'not because of prestige, but because of trust' -- 'corporations and institutions did not ask him to decorate their boards, they asked him to steady them.' His engagement spans a nine-sector cascade (power grids + energy policy + banking stability + telecommunications + mass media + ports + hospitals + food systems + national investment), chairing audit, risk-oversight, and governance committees with twin-insistence on 'process' and 'independence.' Asked why he continued accepting such roles long after he could have rested, his consistent answer was 'Institutions matter. And institutions require guardians.' Beyond corporate governance, he returned again and again to 'the quieter arenas of nation-building' -- leading and advising foundations on liberty, prosperity, judicial education, dispute resolution, the Church, and civic formation. In 2017 he was appointed Chairman of the Philippine National Group to the Permanent Court of Arbitration in The Hague -- 'fitting: the former Chief Justice, once denied Yale for lack of fare, now represented his country in one of the world's most venerable legal institutions.' Recognition followed but he never chased it -- the chapter closes with a three-award reception-triad: the 2023 'Journalist of the Year - Law' award from the Manila Overseas Press Club (first-ever) accepted 'not as validation, but as responsibility'; being named Haligi ng Bantayog by Bantayog ng mga Bayani, standing 'among figures associated with resistance, integrity, and moral courage,' where he 'understood the symbolism -- and the burden'; and the papal award Pro Ecclesia et Pontifice, received 'not as culmination, but as confirmation: that a faith discovered late could still be lived fully.'",
   "source_xlsx": "cjp_biography_curated_normalized.xlsx",
   "topic_paths": {
-    "primary": [],
-    "secondary": []
+    "primary": [
+      "life_story_family_school_and_church"
+    ],
+    "secondary": [],
+    "route_source": "affinity"
   }
 }

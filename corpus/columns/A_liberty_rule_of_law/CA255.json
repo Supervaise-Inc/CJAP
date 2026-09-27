@@ -142,7 +142,13 @@
   "one_paragraph_summary": "Panganiban hails the Inquirer's Filipinos of the Year 2018 -- RTC Judges Rodolfo Azucena Jr., Arlene Lirag Palabrica, Andres Soriano, and Alexander Tamayo -- for giving 'breath to the faltering idea that even those with neither wealth nor power can receive fair treatment in a court of law,' and uses the citation as a springboard to defend trial judges generally as the judicial frontliners closest to the masses. He cites 2017 statistics -- 160,000 cases pending in 1,200 first-level courts and 640,000 in 1,100 RTCs with uneven distributions (some salas carrying 5,000 cases, others 50) -- and notes that 80% of cases are criminal (half drug-related and thus non-mediable), producing structural delay beyond judicial diligence. He observes that the vast majority of litigations end in trial courts (less than 10% of ~400,000 yearly resolutions are appealed, confirmed by appellate pending counts: CA 18,500, Sandiganbayan 5,500, CTA 1,200, SC 8,500). The four Inquirer awardees are deserving exemplars, he argues, but NOT exceptions: the great majority of trial judges are equally courageous, competent, and upright; the public's negative generalization from scalawags is statistically unwarranted, since fewer than 200 of the 2,000+ judges have pending complaints and fewer than 20% of those are meritorious. He stresses the contrast between trial judges -- dispersed to remote, often dangerous areas where many have been shot, injured, and killed, facing parties and witnesses directly in open court -- and appellate justices 'unreachable, secluded and faceless' in 'the sanitized confines of their chambers,' and explains that trial judges' unique prerogatives (acquittals immediately final, factual findings unreviewable in normal circumstances) follow from their proximity burden. He closes by hailing the unsung but equally courageous, competent, and upright trial judges who continue dispensing unheralded justice for the great masses.",
   "source_xlsx": "cjp_columns_curated_normalized.xlsx",
   "topic_paths": {
-    "primary": [],
-    "secondary": []
+    "primary": [
+      "judicial_reform"
+    ],
+    "secondary": [
+      "how_the_supreme_court_decides",
+      "judiciary_milestones_and_tributes"
+    ],
+    "route_source": "affinity"
   }
 }

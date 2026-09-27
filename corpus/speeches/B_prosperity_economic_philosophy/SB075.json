@@ -171,6 +171,7 @@
     "secondary": [
       "twin_beacons_doctrine",
       "bangsamoro_peace_process"
-    ]
+    ],
+    "route_source": "matcher"
   }
 }

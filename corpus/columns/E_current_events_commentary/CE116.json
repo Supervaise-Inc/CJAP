@@ -122,7 +122,12 @@
   "one_paragraph_summary": "Panganiban reports that 8.5 million OFWs across 194 countries remitted $18.7 billion in 2010 (BSP data), keeping the Philippine economy afloat more than anyone else. Yet despite four decades of overseas employment experience and two landmark laws (RA 8042 and RA 10022), OFWs remain 'almost always shabbily treated' -- good laws with bad results. While he can understand the government's difficulty responding to crises caused by wars in Egypt, Tunisia, Libya, and Japan's earthquake/tsunami, he cannot fathom its neglect of problems arising from Philippine shores: as illustrated by the Stella Gonzales exit-permit ordeal (former Inquirer staffer and current Financial Times of London editor subjected to useless forms and desk-to-desk shuttling for a dubious exit permit that immigration officers at the airport did not even look at -- of doubtful constitutionality). There is no systematic coordinated mechanism for dispatch response before issues become crises; labor attaches are not selected by qualification and lack proper orientation for rigorous 24/7 OFW welfare work. By contrast, Migrante International -- operating a website with an online complaint form -- is typically the first to know and publicly raise OFW problems (e.g., Saudization/Nitaqat work restrictions in Saudi Arabia), responding without diplomatic red tape. CJ noted he wrote extensively on OFW laments in early 2008 -- but to this day, the problems remain. DOLE must reinvent itself and implement permanent solutions rather than repeat skin-deep Bagong Bayani acclamations.",
   "source_xlsx": "cjp_columns_curated_normalized.xlsx",
   "topic_paths": {
-    "primary": [],
-    "secondary": []
+    "primary": [
+      "economy_taxes_and_prosperity"
+    ],
+    "secondary": [
+      "international_law_disputes"
+    ],
+    "route_source": "affinity"
   }
 }

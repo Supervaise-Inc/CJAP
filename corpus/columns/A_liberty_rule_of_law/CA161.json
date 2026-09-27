@@ -133,7 +133,13 @@
   "one_paragraph_summary": "Panganiban turns to the petitioners' motion for partial reconsideration of the Comelec Second Division's refusal to cancel BBM's Certificate of Candidacy, presenting and largely endorsing the arguments of counsel Theodore O. Te. Item 11 of BBM's COC ('I am eligible') and Item 22 ('No' to having been found liable for an offense carrying perpetual disqualification) are, the petitioners say, false material representations. Te counters the Second Division by arguing that the CA need not have expressly imposed the perpetual-disqualification penalty because it is 'deemed written into the conviction' by operation of law; that BBM remained a public officer on March 18, 1986 (the 1985 ITR filing deadline) under the Provisional Constitution, since Castor Raval was sworn in only as 'acting governor' of Ilocos Norte; and that abandonment of office is itself a felony -- 'exceedingly ludicrous' to invoke on the offender's behalf. Te further argues that COC Item 22 asks only whether the offense 'carries with it' the accessory penalty (it does) and that BBM, having appealed his conviction to the CA and SC (later withdrawn) and served as Vice Governor, Governor, Member of Congress, and Senator, is presumed to know the consequences -- 'Ignorantia juris neminem excusat.' Jalosjos v. Comelec (Oct. 9, 2012) authorizes cancellation even when past eligibility had been upheld. Panganiban records his own conviction with the petitioners' core claims, while noting one point ('This is debatable') where reasonable minds may diverge -- leaving the doctrinal-strategic posture pointed sharply at the Comelec en banc and ultimately the Supreme Court.",
   "source_xlsx": "cjp_columns_curated_normalized.xlsx",
   "topic_paths": {
-    "primary": [],
-    "secondary": []
+    "primary": [
+      "ill_gotten_wealth_and_the_pcgg"
+    ],
+    "secondary": [
+      "criminal_trials_and_prosecutions",
+      "elections_and_automated_voting"
+    ],
+    "route_source": "affinity"
   }
 }

@@ -129,7 +129,13 @@
   "one_paragraph_summary": "As preface to the forthcoming impeachment of Ombudsman Conchita Carpio Morales, Panganiban surveys the 1987 Constitution's accountability architecture. The 1987 framers improved the 1935 tripartite system -- using lessons from the Marcos regime -- by limiting presidential powers, strengthening Congress and the SC, and adding three independent commissions (Comelec, COA, CSC). The new accountability clause commands public officers to serve with 'utmost responsibility, integrity, loyalty, and efficiency... act with patriotism and justice, and lead modest lives.' Two accountability mechanisms operate in parallel. Congress can impeach and oust the president, VP, SC justices, three commission members, and the ombudsman -- the House initiates by 1/3 vote, the Senate convicts by 2/3 vote (16 senators); this asymmetry is a deliberate design feature, checked only by reason, equity, and the people's will. The OMB, through RA 6770's Sec. 15, has authority to investigate even impeachable officials for three purposes: (1) filing a verified impeachment complaint in the House, if warranted; (2) filing civil cases for ill-gotten wealth recovery; and (3) filing criminal indictments after the official has served. The OMB is checked by the Sandiganbayan and SC, and is itself subject to impeachment and subsequent criminal and civil suits -- which is why every ombudsman faces fire from the high officials it investigates. The closing call: readers should evaluate whether the Morales impeachment is 'a sincere effort to uphold accountability or a mere ploy to extract political vendetta.'",
   "source_xlsx": "cjp_columns_curated_normalized.xlsx",
   "topic_paths": {
-    "primary": [],
-    "secondary": []
+    "primary": [
+      "impeachment_accountability"
+    ],
+    "secondary": [
+      "public_funds_budget_and_bank_evidence",
+      "independent_commissions_and_appointments"
+    ],
+    "route_source": "affinity"
   }
 }

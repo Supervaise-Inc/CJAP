@@ -109,7 +109,13 @@
   "one_paragraph_summary": "Delivered September 19, 2012 as the closing remarks at the inaugural lecture of the FLP Chief Justice Panganiban Professorial Chair Series -- the first lecture delivered by Dean Sedfrey M. Candelaria at Ateneo de Manila Professional Schools -- this brief address by CJP opens with the sharpest honorarium presentation in the corpus: 'The Bible says man does not live by bread alone. And I add, neither can he live without it. So here is the check for one hundred thousand pesos for your professorial chair.' He notes that Dean Candelaria 'set a very high standard' and 'immediately lifted the issue of liberty and prosperity to the international plane.' He reflects on his lifelong Ateneo aspiration ('too poor; had to peddle newspapers and shine shoes; both parents died in college'), noting he finally got to speak at the 2006 Ateneo graduation where he predicted a bar topnotcher -- Joan de Venecia became number 1 and three Ateneo graduates made the top ten. CJ Hilario Davide Jr. is present; CJP credits him with the APJR ('so successful the World Bank placed it in its website as a model for all developing countries') and notes with regret that 'our successors in the Court did not find it good enough to be continued'; he expresses hope that incumbent CJ Sereno ('holds an economics degree from Ateneo and a law degree from UP') will continue and update it. He briefly restates his judicial philosophy (strict scrutiny for civil liberties; deferential interpretation for economic matters) and describes the Global Forum (October 2006) where CJ Beverley McLachlin suggested adding 'Under the Rule of Law' -- then 'fell in love with the Philippines, especially with Ateneo de Manila, that she stayed four more days; Ateneo gave her a Doctoral Degree in Law, Honoris Causa. So you have a co-alumnus, the Chief Justice of Canada by the name of Beverley McLachlin.'",
   "source_xlsx": "cjp_speeches_curated_normalized.xlsx",
   "topic_paths": {
-    "primary": [],
-    "secondary": []
+    "primary": [
+      "twin_beacons_doctrine"
+    ],
+    "secondary": [
+      "life_story_family_school_and_church",
+      "foundation_for_liberty_and_prosperity"
+    ],
+    "route_source": "affinity"
   }
 }

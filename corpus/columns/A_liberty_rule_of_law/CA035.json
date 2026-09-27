@@ -127,7 +127,13 @@
   "one_paragraph_summary": "Following up his previous column on how the Supreme Court defends its members, Panganiban presents three samples of how the Court disciplines them. In In Re: 1990 Bar Examinations (Resolution, March 22, 2000), a retiring justice who chaired the 1999 Bar Examination Committee was unanimously censured and stripped of 50% of his Bar Committee fees for failing to disclose that his nephew was an examinee, with the Court noting his apology and admission of an 'error in judgment.' In In Re: Undated Letter of Mr. Louis C. Biraogo (per curiam, February 24, 2009), a retired justice was found liable for GRAVE MISCONDUCT for leaking, while incumbent, an unpromulgated ponencia to a party-litigant -- fined P500,000 against his retirement benefits, disqualified from any government office, and directed to show cause as a member of the Bar. Most controversially, in Republic v. Sereno (May 11, 2018, 8-6 vote, ponente J. Noel G. Tijam), the Court adjudged then CJ Maria Lourdes Sereno guilty of unlawfully holding the office of Chief Justice and ousted her -- by quo warranto rather than impeachment -- for failing to file substantial SALNs as a UP professor; the decision was immediately executory, costing her not just the post but the retirement honors and lifetime benefits her 28 years of combined UP and SC service would have earned. The column closes with the doctrinal clarification that pre-incumbency wrongs are properly remedied by quo warranto while in-office wrongs require impeachment (reversing Cuenco v. Fernan and In Re: Gonzalez), and the reassurance that all of Sereno's acts as CJ remain valid under the de facto officer doctrine.",
   "source_xlsx": "cjp_columns_curated_normalized.xlsx",
   "topic_paths": {
-    "primary": [],
-    "secondary": []
+    "primary": [
+      "impeachment_accountability"
+    ],
+    "secondary": [
+      "property_contracts_and_economic_rights",
+      "how_the_supreme_court_decides"
+    ],
+    "route_source": "affinity"
   }
 }

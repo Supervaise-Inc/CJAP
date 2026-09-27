@@ -129,7 +129,12 @@
   "one_paragraph_summary": "Panganiban explains the Revised Guidelines for Continuous Trial of Criminal Cases (RGs), prompted by the Sandiganbayan's Second Division (JJ Herrera Jr., Musngi, and Pahimna) citing them to reject Sen. Gringo Honasan's bid to quash his P29.1 million pork barrel case. The RGs, effective September 1, 2017 as a supplement to the Rules of Court, were drafted by Justice Diosdado M. Peralta's Special Committee to address 600,000+ pending criminal cases (77% of all trial court/SBN/CTA dockets). At 56 pages with annexes, the nine key provisions are: (1) continuous morning-and-afternoon hearings Monday through Thursday, with Fridays reserved for motions, arraignment, and promulgation; (2) prohibited motions denied outright before arraignment without comment or opposition; (3) postponements allowed only for force majeure or physical inability of a witness; (4) IBP local chapters provide counsels de officio to remove lack-of-counsel as a postponement ground; (5) multiple accused may adopt prior evidence rather than re-presenting it (Maguindanao massacre as example); (6) rereading of the information may be waived with the accused's consent; (7) plea bargaining proceeds immediately with proper consents, followed by immediate judgment; (8) a flow chart sets 180 days for evidence presentation (60 in drug cases) and 90 days for decision (15 in drug cases); and (9) fill-in-the-blanks templates preempt the excuse of not having prepared pleadings and orders on time. The author endorses the RGs as an effective tool for hastening criminal trials but notes their limit: they cover only criminal cases, and a comprehensive series of reforms is still needed for civil and administrative proceedings.",
   "source_xlsx": "cjp_columns_curated_normalized.xlsx",
   "topic_paths": {
-    "primary": [],
-    "secondary": []
+    "primary": [
+      "criminal_trials_and_prosecutions"
+    ],
+    "secondary": [
+      "death_penalty_and_echegaray"
+    ],
+    "route_source": "affinity"
   }
 }

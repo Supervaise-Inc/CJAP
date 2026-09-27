@@ -187,7 +187,10 @@
   "one_paragraph_summary": "Opening with the observation that the Gesmundo Court is 'continuing the activist and libertarian streaks of its predecessors,' CJ Panganiban catalogs four signature decisions -- Vhong Navarro v. Deniece Cornejo (Feb. 8, 2023) striking down PI weaponization, Ditiangkin v. Lazada (Sept. 21, 2022) on gig-economy classification, Reyes v. Director (Jan. 17, 2023) freeing Gigi Reyes for constitutional-rights violations, and PCGG v. Ombudsman (Jan. 17, 2023) acquitting the late Roberto Ongpin -- alongside the 'historic Strategic Plan for Judicial Innovation 2022-2027' (SPJI) being pursued 'with unprecedented passion.' The column then drills into Navarro v. Cornejo (Third Division, ponente J Henri Jean Paul B. Inting, with J Caguioa as chairperson and JJ Gaerlan, Dimaampao, and Singh concurring), reconstructing the escalating chronology: Deniece Cornejo filed three increasingly inconsistent complaints against Navarro (Jan. 29, 2014; Feb. 27, 2014; Oct. 16, 2015) covering the same Jan. 17 and Jan. 22, 2014 incidents; Navarro countersued multiple coconspirators (Cedric Lee, Bernice Cua Lee, Ferdinand Guerrero, Raz, Calma, Fernandez) for serious illegal detention, grave coercion, perjury, and extortion; the OCP and DOJ dismissed Cornejo's complaints; the MeTC and RTC of Taguig convicted Cornejo, Cedric Lee, and Fernandez of grave coercion (with Fernandez later acquitted on appeal); but the CA detoured by reversing the DOJ -- without Cornejo's required appeal to the Office of the President -- and ordering Navarro's arrest for rape. The SC's three teachings: (1) PI is executive in nature, judicial intrusion justified only on grave abuse of discretion; (2) PI is a 'crucial sieve' that 'spells the difference between months if not years of agonizing trial... and peace of mind and liberty'; (3) most important, 'the powerful, the rich, and the rogue should never weaponize the law to terrorize the innocent because the long arm of the law will eventually circle back and catch them' -- a thesis CJ shows is already vindicated by the Taguig grave-coercion convictions of Cornejo and Lee.",
   "source_xlsx": "cjp_columns_curated_normalized.xlsx",
   "topic_paths": {
-    "primary": [],
-    "secondary": []
+    "primary": [
+      "criminal_trials_and_prosecutions"
+    ],
+    "secondary": [],
+    "route_source": "affinity"
   }
 }

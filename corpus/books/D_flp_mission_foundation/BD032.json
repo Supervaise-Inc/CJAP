@@ -111,7 +111,12 @@
   "one_paragraph_summary": "Chapter 2 of 'Leadership by Example: The Davide Standard' is Panganiban's brief welcome at the ceremonies honoring the retiring Chief Justice, and it turns on a single contrast. Court watchers, he observes, have compared the Supreme Court to an unsolvable puzzle contained in a riddle shrouded in mystery and imbedded in an enigma: they may appreciate its role as protector of the Constitution and defender of the people's liberties, but they find its mystic ways impenetrable and often picture its members as a collection of grumpy old men with failing eyesights, so low-profile that they cannot be picked out in a tapestry of common mortals. Yet ordinary mortals they are not, he says, because their decisions speak of precedence and continuity bordering on eternity, as though their authors had been with the Court since its birth almost a century earlier. Even to lawyers the Court is distant, impregnable and impersonal, an abstraction on Mt. Olympus that receives petitions, supplications and prayers and, after an unpredictable lapse, issues promulgations and commandments; in the one percent of the time it emerges from its hidden fortress for oral arguments, it mystifies counsel with hostile and perplexing questions before their valued clients. Retirement ceremonies are the exception. The justices exchange their dull all-black working robes for scarlet-lined ceremonial togas, discard their impatient frowns, nod and wave in recognition of friendly faces, and come down from their Olympian thrones to speak at microphones normally reserved for mere lawyers. The day's proceedings, he adds, are unusual because they honor the Chief himself but traditional because they follow familiar numbered sequences culled from a century of usage, and the Court has every reason to be friendly because it is proclaiming both its leader's virtues and the collective achievements of the seven years he headed it. He welcomes the guests in Tagalog and closes by inviting them to sit easy, relax, smile, and for once even applaud.",
   "source_xlsx": "cjp_books_curated_normalized.xlsx",
   "topic_paths": {
-    "primary": [],
-    "secondary": []
+    "primary": [
+      "how_the_supreme_court_decides"
+    ],
+    "secondary": [
+      "judiciary_milestones_and_tributes"
+    ],
+    "route_source": "affinity"
   }
 }

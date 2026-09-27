@@ -170,7 +170,12 @@
   "one_paragraph_summary": "At Chief Justice Gesmundo's request, Panganiban represented the Philippines at the ASEAN Law Association's Inaugural Lecture Series on Gender Justice in Kuala Lumpur, keynoted by former Malaysian Chief Justice Tun Tengku Maimun. He surveys Philippine legal pluralism -- civil law, common law, IPRA-recognized indigenous customary law, and PD 1083's Code of Muslim Personal Law (expanded by Marcos's 2024 creation of three new Shari'a Judicial Districts and 12 Circuit Courts) -- and shows how constitutional equality should prevail when plural systems collide with fundamental rights. He cites Bondagjy on inter-religious custody, his own authorship of People v. Genosa (2004) adopting battered woman syndrome, the Philippines' first-in-ASEAN 1981 Cedaw ratification, and the Magna Carta for Women, alongside the Malaysian ruling that pregnancy cannot ground gender discrimination. Endorsing CJ Maimun's intelligible-differentia framework, he reframes gender justice as fairness and dignity ensuring no plural system leaves more than half the population marginalized.",
   "source_xlsx": "cjp_columns_curated_normalized.xlsx",
   "topic_paths": {
-    "primary": [],
-    "secondary": []
+    "primary": [
+      "asean_law_association"
+    ],
+    "secondary": [
+      "marriage_annulment_and_the_family_code"
+    ],
+    "route_source": "affinity"
   }
 }

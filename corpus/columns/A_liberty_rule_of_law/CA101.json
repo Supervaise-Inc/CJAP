@@ -158,7 +158,12 @@
   "one_paragraph_summary": "Continuing from A102 the prior Monday, Panganiban turns to the second half of statutory construction: how courts read punctuation marks, words, phrases, and qualifiers. The 14 punctuation marks are catalogued in one sentence (period, question mark, exclamation point, comma, semicolon, colon, dash, hyphen, parentheses, brackets, braces, apostrophe, quotation marks, ellipses), with the calibrated rule that they 'are not reliable indicators of intent, but they can buttress interpretations,' illustrated by Agcaoili v. Suguitan (Feb. 13, 1926) -- cited via Prof. Ricardo M. Pilares III's 'Statutory Construction: Concept and Cases' -- which 'in elegant language' distinguished the semicolon (greater separation in thought) from the comma. He then walks through SC constructions of key words: in Romulo v. HDMF (June 19, 2000), 'and/or' takes its ordinary signification 'either and or' with 'and' and 'or' used interchangeably ('butter and/or eggs means butter and eggs, or butter or eggs'); 'shall' is generally mandatory and 'may' is permissive, but Marcelino v. Cruz (March 18, 1983) construed the 18-month (1973 Const.) / 24-month (1987 Const.) case-resolution 'shall' as merely permissive because procedural, invoking the SC's Article VIII Section 5 rule-making power; La Bugal-B'laan v. Ramos (Dec. 14, 2004) held that 'involving' in Article XII Section 2 of the 1987 Constitution should be understood as 'including,' meaning FTAAs with foreign-owned corporations are not limited to mere financial or technical assistance. The restrict-or-modify rule holds that qualifying words apply only to immediately associated words -- 'under two tons' in 'motorbikes, cars, vans, and trucks under two tons' modifies only trucks. And Fortich v. Corona (Aug. 19, 1999) distinguished 'cases' (decided by at least three members of a division) from 'matters' (resolved by a majority): when a division 2-2 vote occurs on an MR, the MR is deemed lost and not referred to en banc. CJ closes with a pedagogical-recruiting invitation: 'To know the many more rules of construction, readers may want to take up law and join the fascinating world of lawyers. Who knows, they may reach the Supreme Court and help frame new rules of interpretation or modify existing ones.'",
   "source_xlsx": "cjp_columns_curated_normalized.xlsx",
   "topic_paths": {
-    "primary": [],
-    "secondary": []
+    "primary": [
+      "property_contracts_and_economic_rights"
+    ],
+    "secondary": [
+      "how_the_supreme_court_decides"
+    ],
+    "route_source": "affinity"
   }
 }

@@ -113,7 +113,12 @@
   "one_paragraph_summary": "Chapter 6 of 'With Due Respect' (Vol. 7), CJP's April 12, 2009 Easter Sunday Inquirer column, is 'a story of faith' about his 1996 heart scare and what he believes was a miraculous healing. Accompanying his wife Leni to cardiologist Dr. Dante Morales that March, he consulted about 'dizzy spells, cold sweat, and chest pains'; an ECG and a treadmill test came back 'positive for myocardial ischemia,' and Morales -- after a 2-d echo -- advised an angiogram, quipping that the tests were like courts: 'the ECG... the Municipal Trial Court; the treadmill... the Regional Trial Court; the 2-d echo... the Court of Appeals; and the angiogram... the Supreme Court,' so 'since we lost in the three lower courts of medicine, we should appeal to the highest.' With the angiogram postponed, his friend Pat Garcia arranged a second opinion from US-based surgeon Dr. Jorge Garcia, who suspected coronary ischemia. Meanwhile his ailing colleague Justice Ricardo Francisco asked Fr. Pascual Adorable to say a private 'Healing Mass' on March 22, during which CJP 'prayed ardently for Justice Francisco' and forgot his own looming procedure, before Fr. Adorable 'prayed over' each justice and spouse. Anticipating bypass surgery, he entered Makati Medical Center reading the Yale 'Heart Book' -- but during the April 13 angiogram, as the dye spread, 'Dr. Morales exclaimed, \"Your coronary arteries are all clear!\"', a complete clearance later confirmed by Dr. Garcia ('when you die, it will not be due to any heart problem'). Medical 'buffs' and 'agnostics' might call it coincidence, but 'as a believer' CJP holds that 'the praying over and the healing Mass made all the difference' -- and that, having prayed only for Francisco, 'the Lord remembered' him too, proof that 'for man it may not be possible but for God nothing is impossible.'",
   "source_xlsx": "cjp_books_curated_normalized.xlsx",
   "topic_paths": {
-    "primary": [],
-    "secondary": []
+    "primary": [
+      "faith_journey"
+    ],
+    "secondary": [
+      "life_story_family_school_and_church"
+    ],
+    "route_source": "affinity"
   }
 }

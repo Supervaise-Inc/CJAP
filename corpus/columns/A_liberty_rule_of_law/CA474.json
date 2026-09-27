@@ -121,7 +121,12 @@
   "one_paragraph_summary": "Panganiban identifies the core structural mismatch haunting PH criminal justice: the Penal Code was copied from Spain's inquisitorial system while the procedure for enforcing it was borrowed from the United States' adversarial system, which was designed for juries of nonlawyers who can be influenced by media and leading questions. But the Philippines has no juries -- Filipino judges are seasoned lawyers who personally decide both facts and law, making many protective rules unnecessary and counterproductive. The 1987 Constitution's extra-protective provisions were crafted in partial reaction to Marcos-era persecution of activists -- but the same rights are now being 'used, sometimes abused, by the powerful and privileged to hinder, baffle and frustrate justice.' The SC's newly issued Judicial Affidavit Rule (effective January 1, 2013) is a useful reform but excludes criminal cases with maximum penalties exceeding six years (like Maguindanao, with life imprisonment) unless the accused agrees. CJ also flags certiorari abuse -- defense lawyers contesting interlocutory orders in appellate courts, suspending trials for years -- as a systemic delay mechanism. He closes emphasizing that criminal justice overhaul is a joint responsibility: the executive (police, DOJ), the judiciary (procedural reform), and the legislature (precise definition and penalization of crimes).",
   "source_xlsx": "cjp_columns_curated_normalized.xlsx",
   "topic_paths": {
-    "primary": [],
-    "secondary": []
+    "primary": [
+      "judicial_reform"
+    ],
+    "secondary": [
+      "death_penalty_and_echegaray"
+    ],
+    "route_source": "affinity"
   }
 }

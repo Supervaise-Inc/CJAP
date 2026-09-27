@@ -145,7 +145,13 @@
   "one_paragraph_summary": "Chapter 19 of 'Leveling the Playing Field' explained Velarde v. Social Justice Party, the Decision CJP himself wrote, which arose from the Social Justice Society's Petition for Declaratory Relief asking whether religious leaders violate the separation of Church and State by endorsing candidates or urging their flock to vote for particular ones. The Regional Trial Court of Manila had ruled for SJS on June 12, 2003, and the Supreme Court, thinking the question transcendental and novel, gave the appeal priority and held Oral Argument on April 13, 2004 -- only to conclude that no decision on the merits was possible. The Petition, he recounted, alleged no existing controversy between the parties, no specific violated right and no ultimate facts; it rested on the speculation that Brother Mike Velarde and his co-respondents had endorsed or threatened to endorse candidates, and so sought only an advisory opinion, which courts are proscribed from rendering. It likewise stated no cause of action, since no breach was impending or threatened and no direct injury was shown, and SJS lacked legal standing, its claimed 'keen interest' being impersonal, vague and highly speculative -- though the Court observed that standing could be waived for an issue of paramount public interest. The proceedings below were tainted as well: the trial court did not hear the Motions to Dismiss, gave no reason for denying them, left the Motions for Reconsideration unresolved, and decided before answers were filed, acting with inexplicable haste and grave abuse of discretion. Because the assailed Decision contained no statement of facts and no final disposition, it violated the constitutional command that decisions express clearly and distinctly the facts and the law on which they rest, and was void and legally inexistent, leaving nothing to review. For the guidance of the bench and the bar, CJP then reproduced the Court's primer on the five essential parts of a good decision, closing with the standard that a decision be clear, concise, complete and correct.",
   "source_xlsx": "cjp_books_curated_normalized.xlsx",
   "topic_paths": {
-    "primary": [],
-    "secondary": []
+    "primary": [
+      "how_the_supreme_court_decides"
+    ],
+    "secondary": [
+      "death_penalty_and_echegaray",
+      "criminal_trials_and_prosecutions"
+    ],
+    "route_source": "affinity"
   }
 }

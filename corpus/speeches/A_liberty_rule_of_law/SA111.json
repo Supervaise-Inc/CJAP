@@ -116,7 +116,10 @@
   "one_paragraph_summary": "Delivered March 23, 2009 at a Leadership Conference Series alongside former British PM Tony Blair -- invited by Mrs. Ma. Yolanda V. Ong of Campaigns & Grey -- this address by CJP opens with the Rotary fame joke (fame is when Tony Blair, answering the phone at 10 Downing Street, hands it to you and says 'Here, it is for you!'). He then frames the governance crisis: the Pulse Asia survey (GMA 42%, Marcos 35%, Estrada 16% as most corrupt presidents; 71% of business managers blatantly asked for bribes); CHR Chair Leila de Lima on the 'dismal' human rights record with AFP as primary suspect for extra-judicial killings; and Obama's inaugural warning: 'To those who cling to power through corruption and deceit, know that you are on the wrong side of history.' His own CJ vision-mission-values framework: vision (a judiciary safeguarding liberty and nurturing prosperity under the rule of law); missions for three constituencies -- 2,000 judges (four Ins: independence, integrity, industry, intelligence); 26,000 employees (DHL: Dedication, Honesty, Loyalty); 45,000 lawyers (EC: Ethics and Competence). He explains strict scrutiny (scales weigh against government for civil liberties) and deferential interpretation (defer to President and Congress for economic matters) as the dual judicial standard. He closes with MVP's three silent days at PLDT: Day 1 (retained one of 60 cars); Day 2 (deposited advertising commission cash into company account); Day 3 (arrived before 8 AM without comment when executives were coming in at 10). 'Without giving a pep talk and without criticizing anyone, Manuel V. Pangilinan led his subordinates in practicing the prudent use of corporate assets, integrity in money matters and on-time office arrival. Leading by example is the best, if not the only, way to long-term, effective leadership during these challenging times.'",
   "source_xlsx": "cjp_speeches_curated_normalized.xlsx",
   "topic_paths": {
-    "primary": [],
-    "secondary": []
+    "primary": [
+      "twin_beacons_doctrine"
+    ],
+    "secondary": [],
+    "route_source": "affinity"
   }
 }

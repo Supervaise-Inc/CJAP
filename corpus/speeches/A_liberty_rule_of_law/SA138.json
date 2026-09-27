@@ -98,6 +98,7 @@
     "primary": [
       "twin_beacons_doctrine"
     ],
-    "secondary": []
+    "secondary": [],
+    "route_source": "matcher"
   }
 }

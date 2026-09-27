@@ -176,7 +176,13 @@
   "one_paragraph_summary": "Opening with personal congratulations to newly appointed Justice Japar B. Dimaampao -- whom he praises 'as trustworthy as his uncle, retired CJ Hilario G. Davide Jr.' and whose Muslim devotion he equates in dignity with Christian faith -- CJ Panganiban then pivots to a public-explainer on Philippine Airlines' Chapter 11 filing in the SDNY. The thesis, stated in the title, is that PAL is reinventing, not liquidating: the filing was voluntary, came after a pre-packaged consensual agreement with substantially all lenders/lessors/shareholders, and was backed by firm commitments of up to $655 million in fresh capital including $505 million Debtor-in-Possession financing from Lucio Tan-controlled Buona Sorte Holdings, PAL Holdings, and local banks. He walks readers through the SDNY's Sept. 9 grant of all 'First-Day' motions allowing PAL to operate undisturbed, honor Mabuhay Miles and tickets, pay wages, and access the first $20M of DIP -- and identifies the recovery engine as a 'permanent haircut' of over $2 billion ($100 billion pesos) in liabilities. The column lists named secured and unsecured creditors with concrete dollar figures, notes that PAL remains in the Safe Travel Barometer's top 10 safest airlines at 4.2/5 (behind Lufthansa's 4.5, ahead of Alaska's 4.1), and explains the operational reinvention plan: trim the fleet by 25 percent, return 22 aircraft, drop long-haul NYC and London, focus on Philippines/China/Australia routes. Citing Delta and General Motors as Chapter 11 alumni that emerged 'leaner and sprightlier,' he endorses PAL president Gilbert Santa Maria's year-end exit target as realistic given the prepackaged structure.",
   "source_xlsx": "cjp_columns_curated_normalized.xlsx",
   "topic_paths": {
-    "primary": [],
-    "secondary": []
+    "primary": [
+      "foundation_for_liberty_and_prosperity"
+    ],
+    "secondary": [
+      "economy_taxes_and_prosperity",
+      "asean_law_association"
+    ],
+    "route_source": "affinity"
   }
 }

@@ -116,7 +116,12 @@
   "one_paragraph_summary": "Chapter 7 of 'With Due Respect' (Vol. 7), CJP's December 21, 2008 Inquirer column, is an essay on 'understanding China,' framed by President Arroyo's eight China visits in seven years -- against predecessors who each 'went to China only once' (Marcos in 1975, who 'reestablished diplomatic relations,' Cory in 1988, Ramos in 1993, Estrada in 2000) -- which CJP ties to 'the growing importance of China.' He surveys its 'phenomenal economic boom': by 2007 'the world's best performing economy,' and, amid the global meltdown, set to slow to about 9 percent yet, 'unlike the other economic superpowers,' avoid recession while spending '$586 billion to stimulate' activity. Recounting his own travels, he describes an Olympics-transformed 'space-age' Beijing -- the 'Bird's Nest' National Stadium, the 'Egg' National Theater, and the 'Water Cube' designed on 'traditional Chinese yin and yang' (earth and heaven, feminine and masculine) -- alongside the gravity-defying CCTV towers and Shanghai skyscrapers 'said to outnumber those in New York,' plus Peking duck at DaDong and dinners hosted by Xiao Yang, retired chief justice of China's Supreme People's Court. Beyond economics, China is the 'overall Olympic champion,' the third nation able to 'orbit its citizens in space,' and runner of 'the fastest trains in the world, the Maglev' (501 kph). 'Politically stable, economically dynamic, and technologically advanced,' modern China 'has regained its national greatness' and 'healed the scars of humiliation' from the Opium Wars and the 'unequal treaties' -- its 1961 'National Humiliation Day' explaining its restiveness at criticism -- taking 'its secure place among the greatest global powers of the 21st century.'",
   "source_xlsx": "cjp_books_curated_normalized.xlsx",
   "topic_paths": {
-    "primary": [],
-    "secondary": []
+    "primary": [
+      "economy_taxes_and_prosperity"
+    ],
+    "secondary": [
+      "international_law_disputes"
+    ],
+    "route_source": "affinity"
   }
 }

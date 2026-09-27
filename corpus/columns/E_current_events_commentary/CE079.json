@@ -120,7 +120,13 @@
   "one_paragraph_summary": "Panganiban uses the Bautista marital scandal -- Patricia 'Tish' Bautista's August 1, 2017 affidavit alleging her husband Comelec Chair Andy Bautista's violations of the Anti-Graft Law, Anti-Money Laundering Act, SALN obligations, and professional ethics -- to analyze three distinct legal conundrums while deliberately sidestepping the tabloid dimensions. First, he establishes that Andy is virtually immune from criminal prosecution and disbarment while in office: because the Constitution requires the Comelec chair to be a bar member, any criminal penalty or disbarment order would automatically oust him from a constitutionally-defined position, and such ouster can only be accomplished through impeachment -- meaning indictments must wait until he leaves office. Second, he examines whether Tish can testify against Andy in impeachment proceedings under Rule 130 Sec. 22's spousal disqualification rule, arguing that since impeachment is sui generis (neither civil nor criminal) and is not a case by one spouse against the other, the rule's exceptions do not apply and she faces a testimonial bar. Third, he raises -- but does not resolve -- whether Andy's filing of criminal cases (robbery, extortion) against Tish constitutes an implied waiver of his spousal privilege and consent to her adverse testimony, promising further analysis in a follow-up column.",
   "source_xlsx": "cjp_columns_curated_normalized.xlsx",
   "topic_paths": {
-    "primary": [],
-    "secondary": []
+    "primary": [
+      "impeachment_accountability"
+    ],
+    "secondary": [
+      "independent_commissions_and_appointments",
+      "public_funds_budget_and_bank_evidence"
+    ],
+    "route_source": "affinity"
   }
 }

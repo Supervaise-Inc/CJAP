@@ -141,7 +141,13 @@
   "one_paragraph_summary": "Chapter 33 of 'Liberty and Prosperity' digests Hernandez v. Napocor, decided unanimously through Justice Minita V. Chico-Nazario. From 1996 the National Power Corporation erected 29 steel poles, each 53.4 meters high, to carry the overhead cables of its 230-kilovolt Sucat-Araneta-Balintawak Power Transmission Project through Dasmarinas Village in Makati, where the petitioners lived. Trouble followed when residents found scientific studies linking the electromagnetic fields of high-voltage lines to illnesses ranging from cancer to leukemia; Representative Francis Joseph G. Escudero denounced Napocor's cavalier treatment of safety and consultation requirements in a privileged speech, Representative Arnulfo Fuentebella demanded an explanation, and Napocor's four options -- transferring the line, keeping a 12-meter distance, going underground, or rerouting along C-5 and the South Luzon Expressway -- ended in impasse. Petitioners sued for damages with a prayer for a restraining order in March 2000, Judge Francisco B. Ibay restrained the energizing of the line, and the Court of Appeals reversed, holding that Section 1 of Presidential Decree 1818 stripped courts of jurisdiction to enjoin government infrastructure projects. The Supreme Court granted the petition. It held that PD 1818 aimed only to avert the untimely frustration of government infrastructure projects and was never meant to be a blanket prohibition that would disregard the fundamental right to the health, safety and well-being of a community; the bar covered administrative acts involving facts or technical discretion, not questions of law, and this case raised questions of law -- the constitutional right to health and Napocor's compliance with the Local Government Code's prior-consultation requirement. The injunction also found support in Section 3 of Rule 58, which requires only a probable violation of rights, and the record -- the studies, Napocor's own brochure requiring safe distances from residences, and its documented relocation negotiations -- placed the risk within the realm of a scientific scale of probability, which was enough for a provisional remedy. The Court added that its circulars enjoined utmost caution, prudence and judiciousness rather than an unbridled prohibition, and closed by asking of what use modernization would be if it proved a scourge to an individual's fundamental right to life in all of its desired quality.",
   "source_xlsx": "cjp_books_curated_normalized.xlsx",
   "topic_paths": {
-    "primary": [],
-    "secondary": []
+    "primary": [
+      "property_contracts_and_economic_rights"
+    ],
+    "secondary": [
+      "how_the_supreme_court_decides",
+      "death_penalty_and_echegaray"
+    ],
+    "route_source": "affinity"
   }
 }

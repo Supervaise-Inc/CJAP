@@ -137,7 +137,12 @@
   "one_paragraph_summary": "Panganiban answers friends' indignant questions about why Imelda Marcos was acquitted in the Swiss-funds case upheld by the Supreme Court in Chavez v. Marcos (June 27, 2018, J. Leonen). After the 1986 EDSA revolution, Swiss magistrate Cosenday froze Marcos Swiss accounts and the Swiss Federal SC gave the PH government one year to file cases. SolGen Chavez filed criminal cases in the RTC for violation of the foreign currency account ban, presenting PCGG Commissioner Del Rosario and Chavez himself as witnesses on Swiss bank papers. Chavez missed nearly all of 14 intransferable hearing dates; on April 11 he attended but could not identify vital documents because prosecutor Yarte was at a Boracay convention; a PCGG lawyer then appeared with a DOJ letter causing contentious authority disputes. Imelda's lawyer Sison stipulated on the 'existence' but not the 'truth' of the documents -- what CJ calls a 'worthless' concession 'like agreeing to the existence of a witness but not to the truth of his/her testimony.' Judge Pampilo acquitted Imelda on March 10, 2008: testimonies were hearsay since witnesses could not authenticate Swiss officials' signatures. The CA and SC affirmed; Justice Leonen lamented the 'apathetic prosecution.' CJ agrees: the duo should simply have taken depositions of the Swiss officials they regularly visited, since 'one thing is knowing a fact, quite another to prove it in court using the stringent rules of evidence.'",
   "source_xlsx": "cjp_columns_curated_normalized.xlsx",
   "topic_paths": {
-    "primary": [],
-    "secondary": []
+    "primary": [
+      "ill_gotten_wealth_and_the_pcgg"
+    ],
+    "secondary": [
+      "criminal_trials_and_prosecutions"
+    ],
+    "route_source": "affinity"
   }
 }

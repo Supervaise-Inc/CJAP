@@ -120,7 +120,12 @@
   "one_paragraph_summary": "Chapter 5 of 'A Centenary of Justice' reproduces CJP's speech at the 'Advocates' Forum for Media' (March 16, 2001, Linden Suites, Ortigas), explaining the Supreme Court's centenary push for mediation as a remedy for clogged dockets and delayed justice -- a problem he had earlier addressed in 'Transparency, Unanimity & Diversity' (2000). He opens with a civilizational arc: ancient disputes were settled by 'superior muscles, swords or guns' where 'Might dictated right,' until gentility taught that 'right is better than might; the pen, more powerful than the sword; and reason, more reliable than aggression,' giving rise to constitutions, codes and courts. But litigation, he notes, is 'tedious, time-consuming, stressful, expensive,' and often ends in 'broken relationships and permanent animosities,' sometimes inflicting 'deeper wounds' and 'new cycles of violence.' The e-age alternative is Alternative Dispute Resolution (negotiation, conciliation, mediation and arbitration) -- 'old methods with a new twist,' some older than litigation, now refined into an integral part of judicial reform. He cites their institutional anchoring (Rule 18 of the Rules of Court at pretrial, the Interim Rules on Corporate Rehabilitation, the E-Commerce Act and the Retail Trade Liberalization Law) and the cautionary case of Purefoods Corporation v. CA, where a dispute over generators bought to ease the 1992 power crisis was decided only in 2000, 'when the crisis was already over.' Focusing on mediation, he describes Asia Foundation-funded PhilJA training directed by Boston- and Harvard-trained Filipino mediator Annabelle T. Abaya, and argues mediation's distinctive value: it resolves disputes 'speedily, conveniently and peacefully,' conforms to 'the Asian and Filipino ways of solving problems without loss of face,' and is especially apt for continuing relationships (family, labor, tenancy, commercial, consumer and barangay-level). He announces 'Settlement Week' (March 26-April 6), when over 300 regional trial courts in Metro Manila, Cebu and Davao would simultaneously refer actual cases to 300 trained mediators, and closes by asking media to help PhilJA and the Court popularize 'this old method with a new Philja twist.'",
   "source_xlsx": "cjp_books_curated_normalized.xlsx",
   "topic_paths": {
-    "primary": [],
-    "secondary": []
+    "primary": [
+      "judiciary_milestones_and_tributes"
+    ],
+    "secondary": [
+      "judicial_reform"
+    ],
+    "route_source": "affinity"
   }
 }

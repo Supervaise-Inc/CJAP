@@ -116,7 +116,13 @@
   "one_paragraph_summary": "Responding to Senate President Enrile's call to speed up the Corona impeachment trial, Panganiban offers practical suggestions: stipulate on authenticity of public records; the prosecution could waive most articles and focus on three or four (one finding of guilt is enough to oust); and the Senate itself can stop evidence presentation once it has enough to decide. He addresses the standard-of-proof question: impeachment is not a judicial case, so beyond-reasonable-doubt, preponderance, and substantial evidence do not bind the Senate -- even non-lawyers serve as senator-judges, and Enrile confirmed senators have their own standard. Using the Clinton impeachment (December 19, 1998 to February 12, 1999 -- five weeks) as the efficiency model: only three witnesses (Lewinsky, Jordan, Blumenthal) deposed off-floor in video clips; Starr's 36 evidence boxes not re-authenticated; senators wrote questions to 'managers' (not prosecutors) that Rehnquist read aloud; senators refused the title 'jurors.' The Senate voted to retain Clinton because the articles did not amount to treason/bribery/high crimes and Clinton's public approval remained robust. Three propositions: (1) the Senate has wide latitude to control and shorten the proceeding; (2) no judicial proof standard applies; (3) senators as the people's alter egos have wide discretion in deciding the respondent's fitness.",
   "source_xlsx": "cjp_columns_curated_normalized.xlsx",
   "topic_paths": {
-    "primary": [],
-    "secondary": []
+    "primary": [
+      "impeachment_accountability"
+    ],
+    "secondary": [
+      "public_funds_budget_and_bank_evidence",
+      "criminal_trials_and_prosecutions"
+    ],
+    "route_source": "affinity"
   }
 }

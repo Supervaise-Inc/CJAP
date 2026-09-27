@@ -123,7 +123,13 @@
   "one_paragraph_summary": "Chapter 1 of 'With Due Respect' (Vol. 2), CJP's December 28, 2008 Inquirer column, explains why the Philippine Supreme Court is 'extraordinary' -- wielding, he argues, more powers and duties than any comparable tribunal, even the United States'. He opens with the diplomats' amazement at the Court's recent feats: halting the 1997 and 2006 people's-initiative Charter revisions, defrocking Estrada and validating Arroyo's ascent in 2001, annulling PP 1017, and voiding acts of Congress and government contracts. The 1987 Constitution armed the judiciary this way, he says, because of the martial-law experience, imposing two judicial DUTIES: to settle actual controversies and to determine 'grave abuse of discretion amounting to lack or excess of jurisdiction' by any branch. He stresses that these are duties, not mere powers -- 'a power can be relinquished but a duty cannot... be evaded' -- so the Court 'cannot shirk, waver or equivocate,' and is in this sense mandated to be 'activist' and 'interventionist'; its 'democratic constituency is the Constitution,' so its loyalty runs to the Charter, not the President or Congress. The first duty (reviewing lower courts) is the 'ordinary' one most supreme courts share; the second (striking down grave abuse) is extraordinary and, he notes, unknown to foreign courts that split such work among constitutional (Thailand) and administrative (Russia) tribunals. Beyond judging, the Court holds 'quasi-legislative' power (promulgating court rules, running the bar, regulating lawyers, the IBP and triennial MCLE, and issuing the writs of amparo and habeas data) and 'quasi-executive' power ('administrative supervision over all courts,' overseeing 2,000-plus judges and 26,000 personnel through a court administrator). Endowed with more than any comparable tribunal, he concludes, the Court is expected to use these powers solely for the people, as 'the last bulwark of democracy and the impregnable citadel of liberty' -- 'to whom much is given, much is expected.'",
   "source_xlsx": "cjp_books_curated_normalized.xlsx",
   "topic_paths": {
-    "primary": [],
-    "secondary": []
+    "primary": [
+      "how_the_supreme_court_decides"
+    ],
+    "secondary": [
+      "impeachment_accountability",
+      "judicial_reform"
+    ],
+    "route_source": "affinity"
   }
 }

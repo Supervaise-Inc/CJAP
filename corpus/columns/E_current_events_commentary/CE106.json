@@ -135,7 +135,12 @@
   "one_paragraph_summary": "Panganiban uses the three Fil-Hispanic milestones celebrated in Baler, Aurora -- the 10th Philippines-Spain Friendship Day, the 113th anniversary of the Siege of Baler, and the 200th anniversary of the Cadiz Constitution -- to trace his personal intellectual journey from childhood anti-Spanish revulsion (shaped by history books and Rizal's Noli Me Tangere and El Filibusterismo) to an adult appreciation of the transformative bilateral relationship. The Siege of Baler -- where 3 officers and 50 Spanish calzadores held a church for 337 days after Manila's fall, finally surrendering June 2, 1899 when shown a newspaper confirming the war's end -- became the symbol of 'bravery in battle, honor in capitulation, friendship in victory and progress in peace,' formalized by Aguinaldo's June 30, 1899 decree lauding the soldiers' 'valor, constancy and heroism' and institutionalized by RA 9187 (sponsored by Sen. Angara) declaring June 30 as Philippine-Spanish Friendship Day. The Cadiz Constitution of 1812 -- signed for the Philippines by Ventura de los Reyes of Vigan -- spread constitutional liberalism across all Spanish colonies, limiting the monarchy, vesting sovereignty in the people, instituting universal male suffrage, and recognizing private property and a rudimentary bill of rights. CJ closes with the Palmerston doctrine -- 'no permanent friends or permanent enemies, only permanent interests' -- as the explanatory framework for Spain's transformation from four-century colonizer to bilateral partner, paralleled by the British-American, Soviet, and Chinese alliance shifts of the 20th century.",
   "source_xlsx": "cjp_columns_curated_normalized.xlsx",
   "topic_paths": {
-    "primary": [],
-    "secondary": []
+    "primary": [
+      "international_law_disputes"
+    ],
+    "secondary": [
+      "bangsamoro_peace_process"
+    ],
+    "route_source": "affinity"
   }
 }

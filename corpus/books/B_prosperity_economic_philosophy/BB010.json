@@ -110,7 +110,13 @@
   "one_paragraph_summary": "Chapter 13 of 'Love God, Serve Man' is the short acceptance speech CJP delivered on November 15, 1985 at the closing session of the 55th ASTA World Travel Congress in Rome, after his election as chairman of the International Council of Governors of the American Society of Travel Agents. He thanked the international members and his fellow governors for giving him 'the highest position within their authority,' confessed that he felt inadequate and overwhelmed by the responsibility, and insisted that the honor was 'not only for me personally but is, in fact, a tribute to my country and to my people.' He read his election as 'a triumph of the American dream' in which even the lowliest may aspire to lead, serve and succeed -- the dream he attributed to Thomas Jefferson writing that all men are equal, to Abraham Lincoln telling the lowliest 'Chin up, for you are free forever,' and to Lee Iacocca, who had invoked 'the American religion of fairness' in his keynote earlier that week. Granting that ASTA had served its American members well, whether through political action in the US Congress or educational seminars at the World Travel Congress, he defined his own mission as pleading that same religion of fairness so that international members would receive equal benefits, modified to their specific objectives -- beginning with seminars retooled for the 14th International Conference in Athens that February, to which he invited all delegates. He closed by pledging the international members' cooperation and support under his incumbency, arguing that this mixture of the American dream of equality, freedom and fairness with international solidarity would build the greatest international society of travel professionals in the world, and saluted the congress from the Philippines and from Baron Travel Corporation: 'Mabuhay ASTA!'",
   "source_xlsx": "cjp_books_curated_normalized.xlsx",
   "topic_paths": {
-    "primary": [],
-    "secondary": []
+    "primary": [
+      "faith_journey"
+    ],
+    "secondary": [
+      "life_story_family_school_and_church",
+      "asean_law_association"
+    ],
+    "route_source": "affinity"
   }
 }

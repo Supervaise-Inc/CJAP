@@ -130,7 +130,13 @@
   "one_paragraph_summary": "Panganiban recounts his self-funded second trip to the Supreme Court of Japan to personally report the completion and full operation of the Philippine Judicial Academy Training Center in Tagaytay -- built with a P300 million no-conditions Japanese grant handed to him on his verbal assurance alone in January 2006, during his last year as Chief Justice. He stresses that neither the Philippine SC nor the Japanese government requested the trips (his first being in May 2007 to deliver architectural plans), framing both as a personal moral obligation arising from the absolute trust Japan placed in him. He situates the visit within the larger context of Japan's continued role as the Philippines' largest aid donor (~$700 million annually) despite a decade-long sluggish economy, and the Abe-led revival through a $220-billion stimulus, 15% yen depreciation, and the appointment of longtime Philippine resident Haruhiko Kuroda as Bank of Japan governor. He notes that 216,284 Filipinos in Japan remitted over $1 billion in 2012, and that 25 nurses and 43 caregivers have passed JPEPA qualification exams. The column closes with a personal travelogue of the sakura season, Japanese cultural values of wa (harmony), ryokan stays, the Shinkansen, and a private Forbes Park farewell dinner hosted by Ambassador Urabe -- described as offering 'the best Japanese cuisine in the Philippines, available strictly by invitation only.'",
   "source_xlsx": "cjp_columns_curated_normalized.xlsx",
   "topic_paths": {
-    "primary": [],
-    "secondary": []
+    "primary": [
+      "economy_taxes_and_prosperity"
+    ],
+    "secondary": [
+      "judicial_reform",
+      "asean_law_association"
+    ],
+    "route_source": "affinity"
   }
 }

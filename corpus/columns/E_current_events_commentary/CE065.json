@@ -171,6 +171,7 @@
     ],
     "secondary": [
       "us_supreme_court_and_american_politics"
-    ]
+    ],
+    "route_source": "matcher"
   }
 }

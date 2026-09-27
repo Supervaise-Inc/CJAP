@@ -176,7 +176,13 @@
   "one_paragraph_summary": "Chapter 1 of 'Battles in the Supreme Court' opened what CJP called a little window on how the Court works, written to mark his third anniversary as a justice on October 10, 1998. He began with Chief Justice Andres R. Narvasa's March 1998 farewell to the Manila Overseas Press Club, where Narvasa said he was proudest of the Court's independence in deciding cases affecting the President, and answered the charge that appointees of President Fidel V. Ramos had lined up their votes for him: in three years, CJP wrote, he had perceived no improper political, ideological or partisan alignment, no power blocs, cliques, coteries or factions, and no justice, not even the primus inter pares, had asked him to vote a particular way. Promising not to violate the confidentiality of deliberations, he described instead the Court's unwritten practices. The Court is basically a review court, passive until a petition is filed, deciding whether a lower court or any branch of government committed reversible error or grave abuse of discretion. Its work is collegial: no justice can bind the Court alone, agendas run to 150 to 250 items, discussion is brief and argument is written rather than spoken, and oral arguments with amici curiae are rare. He set out the seniority protocol, the divisions, robes and sessions, then traced the three rounds a case passes through, listing twenty-one grounds for dismissal by minute resolution in the first, the comment-and-reply exchange in the second, and memoranda, deliberation, a ponencia and nominal voting from the most junior justice upward in the third. Turning to delay, he used three years of Annual Reports to show output matching input and blamed an inherited backlog of about 2,000 cases, welcoming the transfer of NLRC review to the Court of Appeals. He closed with how cases are raffled and assigned, his reservation about per curiam anonymity, and the observation that the real battles occur in the banc.",
   "source_xlsx": "cjp_books_curated_normalized.xlsx",
   "topic_paths": {
-    "primary": [],
-    "secondary": []
+    "primary": [
+      "judicial_reform"
+    ],
+    "secondary": [
+      "how_the_supreme_court_decides",
+      "elections_and_automated_voting"
+    ],
+    "route_source": "affinity"
   }
 }

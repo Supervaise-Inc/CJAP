@@ -119,7 +119,13 @@
   "one_paragraph_summary": "Chapter 4 of 'With Due Respect' (Vol. 2), CJP's December 20, 2009 Inquirer column, opens with a newly appointed magistrate's question that 'nags the conscience of every new jurist': how to reconcile gratitude to the President who appointed him with opinions overturning her actions, gratitude being a cherished Filipino value. CJP answers in two moves. First, he hands the magistrate his own David v. Arroyo (2006) concurrence -- which nullified the 'extraneous' provisions of PP 1017 that echoed Marcos's PP 1081 -- and points to its warning that the country might have been spared dictatorship had the Court of that era reminded the president of 'the inevitable historical damnation of despots and tyrants.' Second, he explains that the best gratitude is to choose a 'lasting legacy' over 'shortsighted gains': justices swear to uphold the Constitution and, entering the inner sanctum, become 'a god of the law, beholden only to blindfolded justice,' so that, paraphrasing Quezon, 'gratitude to the President ends where duty to the Constitution and the people begins.' He then turns to a live worry -- 'hesitation and vacillation' in how the Court was treating the petitions against PP 1959 (Maguindanao martial law). The Constitution gave it only 30 days from the Dec. 7 filing, yet it merely asked for comment without oral argument and, after GMA lifted the proclamation, ordered 20 days of comment on whether the lifting mooted the case -- a schedule that could no longer meet the deadline -- while a Dec. 15 resolution raised five further issues, some 'never raised by the parties,' that 'can be cleverly turned to mangle the... safeguards against creeping authoritarianism.' The Court, he concludes, 'faces a historic moment' and must not 'cower or cop-out or hide behind legalisms' or invent excuses from 'a false sense of gratitude': 'Rare is the opportunity for greatness. Let the Court not squander the moment.'",
   "source_xlsx": "cjp_books_curated_normalized.xlsx",
   "topic_paths": {
-    "primary": [],
-    "secondary": []
+    "primary": [
+      "presidential_power_martial_law_people_power"
+    ],
+    "secondary": [
+      "how_the_supreme_court_decides",
+      "impeachment_accountability"
+    ],
+    "route_source": "affinity"
   }
 }

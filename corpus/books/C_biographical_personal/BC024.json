@@ -160,6 +160,7 @@
     ],
     "secondary": [
       "faith_journey"
-    ]
+    ],
+    "route_source": "matcher"
   }
 }

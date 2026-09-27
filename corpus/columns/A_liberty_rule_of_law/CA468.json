@@ -124,7 +124,12 @@
   "one_paragraph_summary": "Panganiban reports on the SC's January 8, 2013 en banc resolution noting that 80% of the backlog in first- and second-level courts involves criminal cases, caused mainly by lack of prosecutors, absent prosecution witnesses, and insufficient PAO lawyers. He explains the Judicial Affidavit Rule (adopted Sept. 4, 2012; effective Jan. 1, 2013) -- requiring affidavits in lieu of the cumbersome question-and-answer direct testimony method -- and the SC's rejection of the Prosecutors' League's deferment request, instead granting a one-year modified compliance period for public prosecutors to file their existing sworn statements. He cites the SC's own diagnosis: 40% of criminal cases are dismissed annually because complainants give up after repeated postponements, and 'few foreign businessmen make long-term investments because courts are unable to provide ample and speedy protection,' giving the JAR economic urgency beyond access-to-justice. He calls directly on Justice Secretary De Lima -- 'feisty and reform-minded' boss of all prosecutors -- to champion JAR implementation consistent with the 'daang matuwid.' Appended as separate items: Matling Industrial vs Coros (defining the NLRC vs RTC jurisdiction line between regular employees and corporate officers expressly mentioned in the Corporation Code or bylaws), and Sen. Angara's unanimous election as Gopac chair.",
   "source_xlsx": "cjp_columns_curated_normalized.xlsx",
   "topic_paths": {
-    "primary": [],
-    "secondary": []
+    "primary": [
+      "criminal_trials_and_prosecutions"
+    ],
+    "secondary": [
+      "property_contracts_and_economic_rights"
+    ],
+    "route_source": "affinity"
   }
 }

@@ -107,7 +107,13 @@
   "one_paragraph_summary": "Panganiban surveys proof standards across disciplines -- beyond reasonable doubt (criminal), preponderance of evidence (civil), substantial evidence (administrative), laboratory reproducibility (scientific), sensory perception, faith, and hearsay rules of history -- to argue that none of them binds the Senate in an impeachment. Since the Constitution lodged impeachment in the Senate (not a judicial tribunal), and since even non-lawyers serve as senator-judges, insisting on judicial proof standards would be constitutionally inappropriate and disadvantageous. The Senate's sole power to try and decide necessarily includes the ancillary authority to set its own standard of proof -- a point even Corona's own answer concedes by calling impeachment 'admittedly political in character.' The author identifies the ultimate impeachment standard as the national interest: whether the nation will be better served by ousting or retaining the official. This is a policy question driven by political wisdom, not strict legality -- and senators, not lawyers, are its experts.",
   "source_xlsx": "cjp_columns_curated_normalized.xlsx",
   "topic_paths": {
-    "primary": [],
-    "secondary": []
+    "primary": [
+      "impeachment_accountability"
+    ],
+    "secondary": [
+      "how_the_supreme_court_decides",
+      "public_funds_budget_and_bank_evidence"
+    ],
+    "route_source": "affinity"
   }
 }

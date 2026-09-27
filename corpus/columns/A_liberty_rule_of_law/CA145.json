@@ -151,7 +151,13 @@
   "one_paragraph_summary": "Why do all Philippine candidates -- winners and losers -- have to file with the Commission on Elections their Statements of Contributions and Expenses (Soce) within 30 days of Election Day (June 8, 2022 for the May 9 vote)? Panganiban's 'obvious IMHO' four-reason answer: for good governance, to find out whether expenses fell within statutory limits, what they specifically funded, who the donors were and their motives, and whether donors and candidates could truly afford the alleged amounts. RA 7166 Section 13 (passed 1991) sets aggregate expenditure limits at P10 per registered voter for president and VP (about P675 million given 67.5 million 2022 voters), P3 for senators and party-list reps, and P5 for candidates without party support. Three decades later, those limits remain unchanged though expenses 'may have ballooned 10 times,' producing 'faithful (even if sometimes incredible) compliance with the archaic law.' Beyond aggregate caps, OEC (BP Blg. 881) Section 102 itemizes the permissible expense categories -- travel, compensation of campaigners, telegraph/telephone tolls, stationery and printing, watchers, headquarters rent and maintenance, rallies, ads in mainstream media, counsel, voter-list copying, sample-ballot printing -- and creates a trackable-vs-untrackable asymmetry that candidates exploit: 'they simply ignore expenses that could not be easily tracked like cash given to local candidates and to their grassroots leaders, or for political rallies and contributions in kind.' Donors and suppliers (under OEC Section 99) must also file under-oath reports with Comelec -- designed to enable double-checking -- though 'many times, the large donors of the winners use their huge donations as badges to access government largesse.' The Corporation Code, 'unknown to many,' bars ALL corporations from political donations or partisan activity. OEC Section 95 then bars contributions from eight specific categories: (a) financial institutions, (b) public-utility/natural-resource operators, (c) government suppliers/contractors, (d) franchise/incentive holders, (e) borrowers of more than P100,000, (f) educational institutions with public-fund grants, (g) Civil Service and AFP officials/employees, and (h) foreigners. While 'laudable,' these transparency and accountability requirements have 'sadly become useless mountains of paperwork that have not reined in political expenses and corruption of voters.' CJ closes with reform proposals: revise the antiquated laws 'to keep up with the Internet Age,' move backward the 90-day (national) and 45-day (local) reporting windows to capture spending that begins 'a year or two ahead of Election Day,' and impose US-style per-donor caps of around P10,000 'to avoid huge political debts.'",
   "source_xlsx": "cjp_columns_curated_normalized.xlsx",
   "topic_paths": {
-    "primary": [],
-    "secondary": []
+    "primary": [
+      "elections_and_automated_voting"
+    ],
+    "secondary": [
+      "marcos_robredo_election_contest",
+      "public_funds_budget_and_bank_evidence"
+    ],
+    "route_source": "affinity"
   }
 }

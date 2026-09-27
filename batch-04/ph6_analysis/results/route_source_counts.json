@@ -1,0 +1,84 @@
+{
+ "route_source_counts": {
+  "matcher": 1045,
+  "affinity": 227,
+  "orphan": 18
+ },
+ "total": 1290,
+ "by_format": {
+  "biography": {
+   "matcher": 29,
+   "affinity": 4,
+   "orphan": 2
+  },
+  "books": {
+   "matcher": 238,
+   "affinity": 59,
+   "orphan": 2
+  },
+  "columns": {
+   "matcher": 656,
+   "affinity": 136,
+   "orphan": 11
+  },
+  "speeches": {
+   "matcher": 122,
+   "affinity": 28,
+   "orphan": 3
+  }
+ },
+ "orphan_ids": [
+  "BA052",
+  "BA099",
+  "CA071",
+  "CA234",
+  "CA471",
+  "CA520",
+  "CA521",
+  "CC025",
+  "CC026",
+  "CC082",
+  "CC092",
+  "CE009",
+  "CE075",
+  "GC015",
+  "GC018",
+  "SA123",
+  "SB065",
+  "SE092"
+ ],
+ "orphans_by_format": {
+  "C": 11,
+  "B": 2,
+  "S": 3,
+  "G": 2
+ },
+ "docs_below_floor_in_sample": 40,
+ "below_floor_and_orphan_label": 18,
+ "below_floor_but_matcher_route": [
+  "BA012",
+  "BA026",
+  "BA101",
+  "BE004",
+  "CA055",
+  "CA196",
+  "CA201",
+  "CA208",
+  "CA220",
+  "CA283",
+  "CA287",
+  "CA334",
+  "CA441",
+  "CA497",
+  "CC095",
+  "CE004",
+  "CE016",
+  "CE020",
+  "CE053",
+  "CE077",
+  "GC012",
+  "SD143"
+ ],
+ "phase5_held_out_orphans": 46,
+ "stop_threshold": 46
+}

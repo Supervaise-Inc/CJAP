@@ -120,7 +120,12 @@
   "one_paragraph_summary": "Chapter 8 of 'Leveling the Playing Field' gathers CJP's short remarks to a gathering of journalists convened by Dr. Florangel Rosario-Braid of the Asian Institute of Journalism and Communication. He began by observing that in an age of information and transparency it had become increasingly common for magistrates to join such seminars, and contrasted that with the distant past, when the Supreme Court was a fortress, high-walled, forbidding and impenetrable, likened to a Mount Olympus where the gods of Padre Faura resided in lofty perches far above the valley dwellers, mysterious and untouchable, speaking only in guarded legalese that nonetheless determined the freedom, fame and fortune of the multitude below. That fortress, he said, had since been unlocked and slightly opened, punctured by the transparency requirements of the Constitution, the Ethical Standards Law and the Canons of Judicial Ethics, and by media practitioners who persistently knocked at its ramparts until their invasive power penetrated its thick walls. In response the Court had created a Public Information Office under its Committee on Public Information, opened a web page, issued more reader-friendly decisions, allowed its members to commune with media, published the bulletins Benchmark and Court News, and authorized an interactive radio program. He added a caveat: unlike the political departments, whose actions face endless debate and periodic popular judgment, the Court issues decisions not reversible by elections or referendums, and its job is to decide legal disputes with finality, so while it is not averse to fair criticism it will not join debates meant to overturn its judgments. He closed by naming the commonalities between judges and journalists -- the search for truth, the protection of basic rights, the defense of society's fundamental norms, and dependence on public confidence -- and asked the seminar to foster informed appreciation of the Court as the last bulwark of democracy and the final recourse of the damned.",
   "source_xlsx": "cjp_books_curated_normalized.xlsx",
   "topic_paths": {
-    "primary": [],
-    "secondary": []
+    "primary": [
+      "how_the_supreme_court_decides"
+    ],
+    "secondary": [
+      "impeachment_accountability"
+    ],
+    "route_source": "affinity"
   }
 }

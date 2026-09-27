@@ -113,7 +113,13 @@
   "one_paragraph_summary": "Panganiban uses the Palmerston doctrine -- 'no permanent friends or enemies, only permanent interests' -- to analyze Duterte's independent foreign policy pivot from the 'American eagle' toward the 'Chinese dragon and Russian bear,' situating it in a historical pattern from WWII's reversal of alliances (Germany and Japan now US allies; China and Russia now rivals) to today's PH reorientation of trade, investment, tourism, and aid. He notes that while the President's foreign-policy discretion is wide -- justified by access to classified information -- it is constitutionally bounded by SC review, Senate treaty ratification, congressional appropriations, and Commission on Appointments confirmation of ambassadors. He then embeds the geopolitical analysis in a macro-historical progression (Egypt → Greece → Rome → France → Britain → US → possibly China by 2030) and tests whether the PH should trade libertarian ideals for Chinese prosperity. Drawing on his ASEAN Law Association speech, he argues that while nations may legitimately prioritize economic development or political liberty in different sequences, 'eventually and inevitably, all the peoples of the world need and deserve liberty and prosperity in equal measure' -- a convergence thesis that implicitly cautions against a permanent liberty sacrifice for economic alignment, balanced by a religious-philosophical counterpoint on Christian and Buddhist selflessness as the moral alternative to pure national-interest pragmatism.",
   "source_xlsx": "cjp_columns_curated_normalized.xlsx",
   "topic_paths": {
-    "primary": [],
-    "secondary": []
+    "primary": [
+      "twin_beacons_doctrine"
+    ],
+    "secondary": [
+      "international_law_disputes",
+      "economy_taxes_and_prosperity"
+    ],
+    "route_source": "affinity"
   }
 }

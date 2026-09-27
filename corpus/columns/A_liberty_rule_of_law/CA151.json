@@ -178,6 +178,7 @@
     "primary": [
       "supreme_court_vacancies_and_chief_justiceship"
     ],
-    "secondary": []
+    "secondary": [],
+    "route_source": "matcher"
   }
 }

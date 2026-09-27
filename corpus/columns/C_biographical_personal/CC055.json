@@ -138,7 +138,12 @@
   "one_paragraph_summary": "Panganiban argues that the COVID-19 enhanced community quarantine, far from halting institutional life, is normalizing work-from-home arrangements that the Philippines should embrace and extend -- including, importantly, into the judiciary. He cites the March 23, 2020 House Special Session held with only a handful of solons physically present while the rest joined by video and audio teleconferencing, and his own experience as an independent director of First Philippine Holdings (using Zoom) and Meralco (using Microsoft Teams), where board and committee meetings ran smoothly with materials circulated by email in advance and even directors' per diems credited directly to bank accounts. He also recounts a family 'kumustahan' over free Zoom that reunited his five children and ten grandchildren spread across Makati, Alabang, New York City, Greenwich, and Chicago. He flags Judith Duavit Vazquez's warning that the free version of Zoom does not guarantee privacy because the platform owns user data, and contrasts this with paid platforms like Adobe Connect, used by US publicly listed companies, where the subscriber owns the data. He then argues that the judiciary must keep up with the digital age: while full trials require in-person observation of witness credibility and body language, many proceedings -- pretrial conferences, exhibit marking, ordinary motion arguments, and especially appellate oral arguments in the Supreme Court, Court of Appeals, and Sandiganbayan, which seldom involve face-to-face party encounters -- can readily be done by teleconferencing without violating any constitutional right.",
   "source_xlsx": "cjp_columns_curated_normalized.xlsx",
   "topic_paths": {
-    "primary": [],
-    "secondary": []
+    "primary": [
+      "libel_and_cybercrime"
+    ],
+    "secondary": [
+      "science_technology_and_the_law"
+    ],
+    "route_source": "affinity"
   }
 }

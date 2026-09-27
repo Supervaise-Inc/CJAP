@@ -173,7 +173,12 @@
   "one_paragraph_summary": "Chapter 20 of 'Reforming the Judiciary' sets out Panganiban's dissent in City Government of Makati v. Civil Service Commission and Eugenia Galzote, which asked whether a civil servant detained on a non-bailable charge must still file a leave application and may be dropped from the rolls if she does not. Galzote, a Makati clerk charged with kidnapping for ransom with physical injuries, was suspended from September 9, 1991, dropped from the rolls effective January 21, 1993, acquitted in September 1994, and ordered reinstated with back wages by the CSC, which the Court of Appeals sustained. Writing for a divided Court, Justice Bellosillo held that the employer's own suspension order was the equivalent of prior approval of leave, that notice sent to her house was insufficient, and that the CSC could reasonably read an 'automatic leave of absence' into its rules for events of force majeure akin to illness; Justices Kapunan and Vitug concurred. Panganiban dissented. He argued that neither the Civil Service Law (EO 292) nor the CSC Rules provides for automatic leave; Section 35 makes thirty days' absence without approved leave AWOL regardless of reason, and Section 20 makes approval contingent on the needs of the service, so it 'cannot be presumed.' Detention was no excuse, since 'there was nothing to stop her from writing' to her employer, and 'the government cannot be left in the lurch.' An application, he insisted, 'is not a mere formality; it is not a useless ceremony,' else public efficiency would 'depend on the whim of the individual employee.' Her acquittal was beside the point: 'she was dropped from the rolls because she was AWOL.' He distinguished Gonzales and his own UP v. CSC, held her void suspension excused nothing beyond ninety days, and closed on public service and the rule of law: 'No work, no pay. No application, no approval. No leave, no benefits.'",
   "source_xlsx": "cjp_books_curated_normalized.xlsx",
   "topic_paths": {
-    "primary": [],
-    "secondary": []
+    "primary": [
+      "criminal_trials_and_prosecutions"
+    ],
+    "secondary": [
+      "property_contracts_and_economic_rights"
+    ],
+    "route_source": "affinity"
   }
 }

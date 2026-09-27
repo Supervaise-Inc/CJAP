@@ -135,7 +135,13 @@
   "one_paragraph_summary": "Chapter 7 of 'Transparency, Unanimity & Diversity' paired CJP's recollection of joining the Supreme Court with a digest of Ty v. Trampe, the decision he chose as his first ponencia. He explained that new appointees are greeted with a mixture of genuine welcome and cautious evaluation, unobtrusively scrutinized in how they converse, write and conduct themselves, with their first ponencias, dissents and questions at oral argument watched most closely; he himself was briefed on the Court's processes by Justice Jose A.R. Melo. Knowing this, he prepared his first decision carefully, choosing a case that would be jurisprudentially significant yet written well enough to win concurrence, and regarded the enthusiastic unanimous concurrence of the full Court as proof that he had passed his first major test. The case arose from a January 6, 1994 Notice of Assessment issued by the municipal assessor of Pasig on a new Schedule of Market Values, which raised real estate taxes by 418 to 570 percent; the petitioners argued the assessor had ignored Presidential Decree 921, and Judge Aurelio C. Trampe dismissed their petition on the ground that the Local Government Code of 1991 had repealed the Decree. The Court held that it had not. Section 534 of RA 7160 enumerated the statutes it revoked without naming PD 921, leaving only a general repealing clause, and it is a basic rule of construction that repeals by implication are not favored unless two laws are so clearly repugnant that they cannot coexist, since a court's function is to harmonize conflicts rather than take the place of Congress. Comparing the statutes, the Court found PD 921 limited to financial services in Metropolitan Manila while RA 7160 covered nearly all local government functions nationwide, so that harmony between Section 9 and Section 212 was not only possible but desirable. Its Epilogue chided the trial judge for consigning a statute and three unanimous decisions to the statutes' graveyard and admonished him to be more judicious in setting aside established laws, doctrines and precedents.",
   "source_xlsx": "cjp_books_curated_normalized.xlsx",
   "topic_paths": {
-    "primary": [],
-    "secondary": []
+    "primary": [
+      "how_the_supreme_court_decides"
+    ],
+    "secondary": [
+      "property_contracts_and_economic_rights",
+      "judiciary_milestones_and_tributes"
+    ],
+    "route_source": "affinity"
   }
 }

@@ -108,7 +108,13 @@
   "one_paragraph_summary": "Delivered May 13, 2014 at the dinner of the Asian Conference on the Family -- at the invitation of CBCP President Archbishop Socrates B. Villegas and overall coordinator Ambassador Tita de Villa -- this address by CJP speaks to the Charter of Rights of the Family tenet that the family is 'a community of love and solidarity, uniquely suited to teach and transmit cultural, ethical, social, spiritual and religious values.' He acknowledges that his personal story is already known to many in the audience but condenses his four-arc testimony: from newsboy to Inquirer president; from Catholic ignoramus to Vatican lay councillor; from failed Yale applicant to father of five children each finishing graduate degrees at Harvard, Stanford, UC, Chicago and Michigan; from aspiring chemical engineer to Chief Justice. He adds a fifth arc not often told: 'just when I thought my professional career was over... I began a new journey when I was invited to be an independent director of some of the biggest and finest listed corporations in the country. Retirement really meant getting new tires for a new journey.' The tapestry argument is then expanded: 'God has woven my many pains and gains, my frustrations and liberations, my sorrows and joys into a magnificent tapestry... but the values and blessings brought by the Lord cannot be for me only. Not even for my wife and my children only. Indeed, they must extend to my grandchildren and great grandchildren-to-be.' Applying the Charter's test: 'unless this success... is imbibed by and transmitted to the young of my family, then I may have journeyed in vain.' He invites his eldest grandchild, Jose Miguel Panganiban Sandejas -- 'now 24 years old... orphaned by his father when he was barely two years old' -- to share his own testimony of how 'our Lord turned his pains into gains, and his frustrations into liberation.' CJP reports that Miguel's sharing 'about faith, family and the grace of God moved all of us this evening.'",
   "source_xlsx": "cjp_speeches_curated_normalized.xlsx",
   "topic_paths": {
-    "primary": [],
-    "secondary": []
+    "primary": [
+      "faith_journey"
+    ],
+    "secondary": [
+      "life_story_family_school_and_church",
+      "asean_law_association"
+    ],
+    "route_source": "affinity"
   }
 }

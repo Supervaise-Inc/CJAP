@@ -182,6 +182,7 @@
     "secondary": [
       "marcos_robredo_election_contest",
       "jbc_discernment_and_appointment"
-    ]
+    ],
+    "route_source": "matcher"
   }
 }

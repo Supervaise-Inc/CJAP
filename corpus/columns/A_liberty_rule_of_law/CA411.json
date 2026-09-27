@@ -149,6 +149,7 @@
     ],
     "secondary": [
       "bangsamoro_peace_process"
-    ]
+    ],
+    "route_source": "matcher"
   }
 }

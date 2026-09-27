@@ -133,7 +133,13 @@
   "one_paragraph_summary": "Following up the December 24 column on judicial qualities, Panganiban addresses the systemic side of docket unclogging. Given 980,000 pending cases across 2,400 trial courts, hard work alone is insufficient -- the following should be encouraged: arbitration and mediation (especially in commercial and civil cases) and plea bargaining in criminal cases. On the inflow side, courts must curtail litigants who invoke 'overdue process' for unfair advantage, making more aggressive use of the Rules of Court's underused shortcuts -- judgment on the pleadings and summary judgments. He turns the lens on the SC itself: it prolongs cases by requesting comments on clearly unmeritorious petitions rather than dismissing them outright, and since more than 80% of full decisions merely affirm lower courts or reiterate settled jurisprudence, the Court should resort far more extensively to minute resolutions and unsigned decisions. He also proposes periodic progress reports on the SC website for transparency. The most transformational prescription is full E-court digitization -- long overdue since he began his judicial career -- from the preparation and filing of pleadings through live proceedings to the service of judgments, for all courts from the SC to the lowest trial courts; current websites show only decisions and resolutions, not case progression. He closes by recommending the SC import J. Andres B. Reyes Jr.'s proven CA backlog-reduction model: 'the wheel need not be reinvented.'",
   "source_xlsx": "cjp_columns_curated_normalized.xlsx",
   "topic_paths": {
-    "primary": [],
-    "secondary": []
+    "primary": [
+      "judicial_reform"
+    ],
+    "secondary": [
+      "jbc_discernment_and_appointment",
+      "judiciary_milestones_and_tributes"
+    ],
+    "route_source": "affinity"
   }
 }

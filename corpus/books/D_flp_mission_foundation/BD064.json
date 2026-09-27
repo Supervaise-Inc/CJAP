@@ -208,6 +208,7 @@
     "secondary": [
       "twin_beacons_doctrine",
       "jbc_discernment_and_appointment"
-    ]
+    ],
+    "route_source": "matcher"
   }
 }

@@ -231,6 +231,7 @@
     "secondary": [
       "us_supreme_court_and_american_politics",
       "how_the_supreme_court_decides"
-    ]
+    ],
+    "route_source": "matcher"
   }
 }

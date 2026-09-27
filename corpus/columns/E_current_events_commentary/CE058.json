@@ -139,7 +139,10 @@
   "one_paragraph_summary": "Panganiban summarizes a December 21 note from the Congregation for the Doctrine of the Faith (CDF) -- signed by Cardinal Luis Ladaria and Archbishop Giacomo Morandi, approved by Pope Francis -- that averted a brewing dispute over Catholic acceptance of COVID-19 vaccines developed from cell lines derived from aborted human fetal tissue. Five vaccines use either the HEK-293 line (from a ~1972 kidney abortion) or Janssen's PER.C6 line (from a 1985 retinal abortion of an 18-week-old fetus): CanSino/Beijing Institute, Oxford/AstraZeneca, Janssen R&D USA, University of Pittsburgh, and ImmunityBio/NantKwest. AstraZeneca matters specially to the Philippines because the Concepcion-Sy Coson public-private partnership has ordered 2.6 million doses at $5/dose, the most affordable on offer. The CDF resolves the moral problem by classifying the recipient's cooperation as 'remote' rather than 'formal,' permissible 'in good conscience' given 'a grave danger, in the form of an uncontainable spread of a serious pathological agent' -- and notes that the cell lines are 'immortal,' continuing to divide indefinitely, which minimizes (if not eliminates) demand for new fetal tissues. CJ extends the reasoning by parity: just as later generations have not refused chloroquine (developed from Nazi concentration-camp experiments), slavery-built US railroads, or residence in California (acquired through Polk's unjust Mexican-American war), descendants 'who had nothing to do with' such injustices should not be required to forgo life-saving drugs derived from them. He provocatively localizes the principle: if, fifty years from now, funds plundered from today's poor were used to develop wonder drugs, should the descendants of the plundered refuse them on the same logic? He closes with personal-civic synthesis: 'As for me and my family, we will follow the CDF in full faith. However, as a law-abiding citizen, I will remain vigilant to make sure our government procures only safe, efficacious, and reasonably-priced vaccines for our people.'",
   "source_xlsx": "cjp_columns_curated_normalized.xlsx",
   "topic_paths": {
-    "primary": [],
-    "secondary": []
+    "primary": [
+      "science_technology_and_the_law"
+    ],
+    "secondary": [],
+    "route_source": "affinity"
   }
 }

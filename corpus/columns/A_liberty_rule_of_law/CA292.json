@@ -137,7 +137,12 @@
   "one_paragraph_summary": "Panganiban explains why the Supreme Court is so protective of its deliberations, beginning with the constitutional anchor: Senate v. Ermita (April 20, 2006, unanimous) held that SC members are exempt from congressional inquiry based on separation of powers, fiscal autonomy, and judicial independence -- even Senate counsel Sen. Joker Arroyo conceded this during oral arguments before CJ Panganiban. He notes analogous confidentiality protections for executive privilege (presidential conversations, cabinet meetings) and congressional executive sessions. The rule is transparency; the exception is deliberation confidentiality. Against the backdrop of the House impeachment proceedings against CJ Sereno, the SC's November 28 en banc resolution permitted administrative officials to testify only on administrative matters, and specifically limited JJ Del Castillo, Jardeleza, Tijam, Reyes Jr., and CA Justice Salazar-Fernando to administrative/non-adjudicatory testimony, with J. Leonardo-De Castro restricted to narrow case-specific subjects (TRO issuance, ponencia merits) but never the deliberations. He describes the deliberation protocol: only the 15 justices (5 in Divisions) are allowed inside the sanctum during deliberations -- no secretaries, clerks, or stenographers -- with sanctity beginning from receipt of the petition to promulgation. In 2009, a justice was fined P500,000 and disqualified from office for leaking an unpromulgated ponencia while it was being routed for signature. Sessions run about three hours covering ~50-page agendas with ~250 items; verbal skirmishes are rare, written arguments preferred. The justification for confidentiality is consequentialist: without it, justices would hesitate to give full vent to their arguments, and leakages would tempt parties to pressure justices through bribery, family appeals, pastoral persuasion, or ugly rumors designed to demonize or inhibit them.",
   "source_xlsx": "cjp_columns_curated_normalized.xlsx",
   "topic_paths": {
-    "primary": [],
-    "secondary": []
+    "primary": [
+      "impeachment_accountability"
+    ],
+    "secondary": [
+      "public_funds_budget_and_bank_evidence"
+    ],
+    "route_source": "affinity"
   }
 }

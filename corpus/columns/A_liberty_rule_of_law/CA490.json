@@ -136,7 +136,13 @@
   "one_paragraph_summary": "Panganiban surveys the 111-year history of the insider tradition in Philippine Supreme Court chief justice appointments -- every chief since Cayetano Arellano (1901-1920) was an incumbent SC justice at the time of appointment, with a single asterisked exception: Jose Yulo, named by the Japanese occupation military command, not a duly elected Philippine president. The JBC, since its 1987 institutionalization, has also never nominated an outsider in its 25-year history. He details the American-era succession (Mapa, Araullo, Avanceña -- all insiders), the Marcos-era six chiefs (all insiders), and the remarkable Marcos-temptation anecdote: at the height of martial law, Marcos considered UP president Edgardo Angara for CJ but Angara gracefully declined, 'subtly reminding the martial law ruler of the insider tradition.' Even Cory Aquino -- who reorganized the SC after the 1986 EDSA revolution -- preserved the tradition by naming insiders (Teehankee, then Yap, Fernan, Narvasa). Sen. Miriam Santiago failed twice to be included in the JBC short list: the JBC refused to extend the deadline for the Davide vacancy, and she failed to obtain the necessary JBC votes when the author retired in 2006. The tradition's rational basis: career judiciary requires the maturing and seasoning only actual SC experience provides, and limits partisan politicians from using vacancies as bargaining chips. But for the first time, 14 of 20 JBC finalists are outsiders -- and the council is poised to confront whether times have changed enough to break the age-old tradition.",
   "source_xlsx": "cjp_columns_curated_normalized.xlsx",
   "topic_paths": {
-    "primary": [],
-    "secondary": []
+    "primary": [
+      "supreme_court_vacancies_and_chief_justiceship"
+    ],
+    "secondary": [
+      "jbc_discernment_and_appointment",
+      "presidential_power_martial_law_people_power"
+    ],
+    "route_source": "affinity"
   }
 }

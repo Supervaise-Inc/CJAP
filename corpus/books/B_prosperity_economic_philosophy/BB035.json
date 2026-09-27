@@ -190,7 +190,13 @@
   "one_paragraph_summary": "Chapter 17 of 'Judicial Renaissance' reports Southern Cross Cement Corporation v. Philippine Cement Manufacturers Corporation, which clarified Republic Act 8800, the Safeguard Measures Act. Justice Panganiban traced the dispute from Philcemcor's 2001 application for a definitive safeguard measure on gray Portland cement, through the DTI's provisional P20.60 duty, to the Tariff Commission's March 2002 report finding no serious injury; DTI Secretary Manuel Roxas II disagreed with that finding but, relying on a DOJ Opinion that Section 13 barred his review, denied the application, whereupon Philcemcor obtained a Court of Appeals decision setting aside his ruling, the secretary imposed the duty anyway in June 2003, and Southern Cross pursued parallel remedies before the Supreme Court and the Court of Tax Appeals. The Second Division found no proven forum shopping and held that the CTA, not the CA, had jurisdiction, because certiorari lies only absent a plain, speedy and adequate remedy, Section 29 of the SMA supplies one, split jurisdiction is abhorred, and the phrase 'in connection with the imposition of a safeguard measure' reaches a negative ruling as well; the CA Decision was therefore an absolute nullity and the DTI Decision drawn from it void, since the spring cannot rise higher than its source. On the merits the Court held that a positive final determination by the Tariff Commission is a condition precedent to imposition, though the secretary may still decline in the public interest and is never bound to adopt the Commission's recommendations, and it described the scheme as a check and balance between agencies of disparate specializations. The en banc upheld the Decision in toto on August 2, 2005 by an 8-5-2 vote. Panganiban concurred on jurisdiction but dissented on the merits, arguing that the taxing power may be delegated only to the President, that the alter ego principle is the sole constitutional basis for the secretary's power, that the President's control over the Executive Department cannot be curtailed by Congress, that the Commission's determination is not among the Section 5 conditions, that public interest is indubitably a political question for an official answerable to the people, and that the implementing rules, the Commission's own order and its chairman's statements confirm that its role is merely fact-finding and recommendatory. He added that binding the secretary to a negative determination while letting him reject a positive one was apparently illogical, that his decision should be appealable to the President, and that courts should adopt a hands-off approach to policy, intervening only for blatant illegality or grave abuse of discretion.",
   "source_xlsx": "cjp_books_curated_normalized.xlsx",
   "topic_paths": {
-    "primary": [],
-    "secondary": []
+    "primary": [
+      "property_contracts_and_economic_rights"
+    ],
+    "secondary": [
+      "how_the_supreme_court_decides",
+      "impeachment_accountability"
+    ],
+    "route_source": "affinity"
   }
 }

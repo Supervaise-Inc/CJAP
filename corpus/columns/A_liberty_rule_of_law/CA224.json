@@ -159,7 +159,13 @@
   "one_paragraph_summary": "In this Part 2 column, Panganiban delivers his 'modest answers' to the questions he posed last Sunday on Solicitor General Jose C. Calida's quo warranto petitions against ABS-CBN and ABS-CBN Convergence. Opening with a pedagogical aside that he has never believed in spoon-feeding, he turns to doctrine: under Republic v. Sereno (May 11, 2018), quo warranto applies only when the act or omission was 'prior to or at the time of the appointment or election' rendering the holding invalid from the outset -- acts during incumbency cannot be QW subjects. Sereno was ousted precisely because her pre-appointment failure to file some SALNs negated the constitutional integrity qualification, which is how Teresita J. Leonardo-De Castro became the de jure 'First Female and 24th Chief Justice.' CJ maintains his prior view that impeachment, not QW, is the proper remedy for impeachable officials, but agrees with the pre-existing-invalidity premise. The same logic applies to franchises: the defects must pre-exist the grant. ABS-CBN's alleged KBO operations, PDR issuances, corporate layering, and alleged PSE non-listing all post-date the validly enacted franchises, so under the Sereno dictum, they cannot be QW subjects. He invokes Gio-Samar v. DOTC (March 12, 2019), where the SC held that when factual issues are indispensable to legal issues, the Court will refuse to resolve them regardless of allegations of compelling reasons -- meaning at minimum the petitions should be remanded to the Court of Appeals for factual determination before the SC can act. On the merits of the PDR question, he argues the instruments did not violate the constitutional 100% Filipino ownership/management requirement for mass media: PDRs grant only the right to receive dividends (less administrative expenses) and the right to convert into shares of stock if the converter is Filipino, while a 100% Filipino-owned company unqualifiedly controls and votes the underlying shares. Complaints about alleged violations belong with the NTC and SEC (appealable to the CA and SC), and the penalties under existing law are fines, refunds of fees paid, or halts of the service complained of -- not franchise forfeiture. He closes by allocating institutional responsibility: at bottom, the fate of ABS-CBN and ABS-CBN Convergence rests with Congress (which may approve, veto, or allow the franchise bill to lapse) and the President -- not with the Supreme Court.",
   "source_xlsx": "cjp_columns_curated_normalized.xlsx",
   "topic_paths": {
-    "primary": [],
-    "secondary": []
+    "primary": [
+      "ill_gotten_wealth_and_the_pcgg"
+    ],
+    "secondary": [
+      "impeachment_accountability",
+      "property_contracts_and_economic_rights"
+    ],
+    "route_source": "affinity"
   }
 }

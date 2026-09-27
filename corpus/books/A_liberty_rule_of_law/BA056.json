@@ -172,7 +172,12 @@
   "one_paragraph_summary": "Chapter 7 of 'Battles in the Supreme Court' gathers three further constitutional controversies in which Justice Panganiban wrote separately. In Manila Prince Hotel v. GSIS, written by Justice Bellosillo, the Court unanimously held that the 'Filipino First' clause of Article XII, Section 10 is a mandatory, positive command needing no implementing law, that national patrimony embraces cultural heritage, and that the Manila Hotel -- 'a living testimonial of Philippine heritage' -- was covered, making the sale of the government's 51 percent a state action. The division came over the degree of preference: the majority and Justice Padilla would let a losing qualified Filipino match the highest foreign bid and win, while Justice Puno dissented that the clause is 'pro-Filipino and not anti-alien' and gives preference only on a tie. CJP joined Puno and added his own dissent, arguing that with no statute empowering a losing bidder to raise his bid, the majority's reading was 'unadulterated judicial legislation' that 'makes bidding a ridiculous sham,' invited reverse comity and retaliation abroad, and should be confined to equal bids -- 'a victory for the qualified Filipino only when the scores are tied.' In Iglesia ni Cristo v. Court of Appeals, the majority through Justice Puno upheld the MTRCB's power to screen religious programs while still allowing the banned series to air; Justices Melo, Padilla, Kapunan and Mendoza attacked administrative censorship as prior restraint, invoking Chief Justice Teehankee's standard in American Bible Society. CJP concurred in granting the petition but insisted the Board act 'according to a standard and/or a limit,' urging that the martial-law-vintage 'dangerous tendency' test be struck down in favor of 'clear and present danger,' and that the statute's own 'contemporary Philippine cultural values' govern questions of immorality and indecency -- illustrating the point with Filipino core values and with the 'Children of God' free-sex example. Finally, in Ople v. Torres, the Court voided President Ramos' AO 308 creating a national identification system; CJP voted to grant the petition only because the subject was 'beyond the powers of the President to regulate without a legislative enactment,' leaving the privacy and freedom-of-thought questions to ripen if and when Congress legislates.",
   "source_xlsx": "cjp_books_curated_normalized.xlsx",
   "topic_paths": {
-    "primary": [],
-    "secondary": []
+    "primary": [
+      "how_the_supreme_court_decides"
+    ],
+    "secondary": [
+      "property_contracts_and_economic_rights"
+    ],
+    "route_source": "affinity"
   }
 }

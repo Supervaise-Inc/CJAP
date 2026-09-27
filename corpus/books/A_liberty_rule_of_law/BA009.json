@@ -119,7 +119,10 @@
   "one_paragraph_summary": "Chapter 10 of 'With Due Respect' (Vol. 2), CJP's November 7, 2010 Inquirer column, explains how the Supreme Court could, 'even without a complaint from anyone,' pursue contempt and disciplinary action against 37 University of the Philippines law professors for a public statement on a pending case. The 'Statement' had called 'for the resignation of Justice Mariano C. Del Castillo' over plagiarism allegations, leading the Court to order the faculty to show cause under Canons 10, 11 and 13 of the Code of Professional Responsibility -- which bar lawyers from impropriety 'which tends to influence... the court' -- with Dean Marvic Leonen separately cited under Canon 10 for submitting 'a dummy which is not a true and faithful reproduction' of the statement. The Court felt aggrieved that the professors branded its Vinuya v. Executive Secretary ruling (April 28, 2010, dismissing several comfort women's petition) 'a reprehensible act of dishonesty and misrepresentation,' and, because the Vinuya reconsideration was 'still pending,' deemed the condemnation 'a rash act of misplaced vigilance,' warning that publication 'tending to influence the decision... is contempt of court and is punishable.' CJP then demystifies the proceeding: docketed as a 'regular administrative matter' titled 'Re: Letter of the UP Law Faculty,' it has 'no plaintiff or petitioner, only respondents,' because such contempt and disciplinary cases are 'inquisitorial' rather than 'adversarial' -- the Court itself initiating, investigating and deciding (while still granting due-process chance to explain), unlike ordinary litigation where courts stay 'passive' and Burke's 'cold neutrality of an impartial judge' is plain. The tension, he stresses, is that in inquisitorial contempt 'the judge is the offended party, plaintiff, and prosecutor at the same time,' so the Court must balance 'its dignity and honor' against 'the professors' right to free expression' with 'great humility' -- ready to 'reverse or modify' its strong show-cause resolution, for though no higher court can review it, it remains 'answerable to history,' and 'the greatest in the kingdom... are also the humblest.'",
   "source_xlsx": "cjp_books_curated_normalized.xlsx",
   "topic_paths": {
-    "primary": [],
-    "secondary": []
+    "primary": [
+      "how_the_supreme_court_decides"
+    ],
+    "secondary": [],
+    "route_source": "affinity"
   }
 }

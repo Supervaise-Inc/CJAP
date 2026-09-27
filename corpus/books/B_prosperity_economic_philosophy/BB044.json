@@ -160,7 +160,10 @@
   "one_paragraph_summary": "Chapter 35 of 'Liberty and Prosperity' digests Nasecore v. Energy Regulatory Commission, decided unanimously by the Supreme Court en banc through Justice Romeo S. Callejo Sr. on February 2, 2006. Under the EPIRA of 2001 the ERC had approved Meralco's unbundled rates and ordered it to recover changes in purchased-power cost through a new Generation Rate Adjustment Mechanism, adopted with the ICERA in a February 2003 Order, in place of the old Purchased Power Adjustment. When Meralco applied under the GRAM to raise its generation charge and the ERC approved an increase from P3.1886 to P3.3213 per kWh effective immediately, consumer groups led by Nasecore sought certiorari, arguing that the amended application had never been published as Section 4(e), Rule 3 of the IRR of the EPIRA required. Meralco and the ERC answered that the GRAM rules radically differed from the IRR and required no publication, the GRAM being an adjustment mechanism rather than an independent rate application. The Court held that the ERC had gravely abused its discretion. The IRR spoke of any application or petition for rate adjustment or for any relief affecting the consumers without distinction, so it reached anything that would raise the retail rate; recalling the six requirements outlined in Freedom from Debt Coalition v. ERC, the Court stressed that the application itself, not merely the notice of hearing, had to be published, and that consumer and LGU comments had to be considered -- requirements aimed at protecting the consumers and diminishing the disparity or imbalance between them and the utility. The failure to publish was fatal, depriving consumers of the right to comment. A second ground was independent: the GRAM rules had themselves never been published under Executive Order No. 200 nor filed with the ONAR, and under Tanada v. Tuvera were ineffective. Justice Tinga concurred separately, calling publication both jurisdictional and a due-process component. On August 16, 2006 the en banc denied reconsideration with finality, rejecting American authorities on escalator clauses and holding that the Constitution recognized higher values than administrative economy, efficiency and efficacy.",
   "source_xlsx": "cjp_books_curated_normalized.xlsx",
   "topic_paths": {
-    "primary": [],
-    "secondary": []
+    "primary": [
+      "property_contracts_and_economic_rights"
+    ],
+    "secondary": [],
+    "route_source": "affinity"
   }
 }

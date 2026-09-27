@@ -122,7 +122,10 @@
   "one_paragraph_summary": "Chapter 2 of 'With Due Respect' (Vol. 1) is CJP's September 30, 2007 Inquirer column responding to readers who, after his 'GMA's Legacy' piece, demanded to know whether he was for or against the President -- one sarcastically suggesting he had joined the anti-GMA movement. He answers that, as a jurist trained to rule for or against petitions rather than parties, he writes 'for or against causes, actions and principles, not pro or contra persons,' is 'interested in what wins, not in who wins,' and impugns the crime without detesting the criminal ('we hate sin but not the sinner'). GMA's worst failing, he says, is the collapse of transparent and accountable governance, which has wrecked her credibility -- a 'dismal minus 11' SWS trust rating and the country's fall from 121st to 131st of 180 on Transparency International's corruption index -- and his standing remedies are to hold her circle to the anti-graft and ethics laws and to fortify the Supreme Court and Comelec. He then credits the economy as the 'bright-lined' area: the deficit arrested, interest and inflation low, the peso stronger, with both the OFWs' record '$14 billion' in remittances ('the real heroes') and GMA's reforms -- the expanded VAT, privatization, mining, tourism and a resurgent stock market -- driving a record 7.5% second-quarter growth, even as consumers pillory her for EVAT (blamed for the senatorial defeats of Recto and Defensor). To critics who call the recovery a myth the poor cannot feel, he replies with 'the first of a thousand steps' (Korea, Singapore and China needed years), and closes with his cancer-patient analogy: a people who trust their leader will bear 'transitory torment' as a patient trusts a physician through chemotherapy, while a distrusted leader is mocked even for the pain of the cure -- as India's reformers found when they were voted out and their opponents reaped the prosperity. The moral: 'aspire for credibility, first and foremost.'",
   "source_xlsx": "cjp_books_curated_normalized.xlsx",
   "topic_paths": {
-    "primary": [],
-    "secondary": []
+    "primary": [
+      "economy_taxes_and_prosperity"
+    ],
+    "secondary": [],
+    "route_source": "affinity"
   }
 }

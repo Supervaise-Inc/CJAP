@@ -156,7 +156,10 @@
   "one_paragraph_summary": "Panganiban recounts joining President Marcos, First Lady Liza Araneta-Marcos, Energy Secretary Sharon Garin and Meralco chair Manuel V. Pangilinan (MVP) at the July 14 inauguration of Meralco Terra Solar (MTerra) in Gapan City, Nueva Ecija, which MVP called the world's largest integrated solar and battery storage facility in a single site; MVP turned 80 that day. Electricity, CJP stresses, must be generated instantly to meet fluctuating demand, and dependence on imported fuels leaves the economy exposed to global volatility. In the first half of 2026, the Middle East war and supply bottlenecks pushed oil and LNG prices up 70 percent and coal 32 percent, yet Meralco, per executive vice president Ronnie Aperocho, contained the generation cost increase at 16 percent through coal, renewables, Malampaya gas and staggered billing; the ERC also extended the suspension of disconnections. To protect people more permanently, CJP urges a faster shift to 'sun power,' the cheapest, most reliable and most accessible energy source. First, solar has the cheapest baseline cost per kWh, and the point of the P200-billion plant is to reduce electricity bills. Second, it is reliable and locally sourced, while hydro depends on seasons, small modular nuclear is experimental and risky, and geothermal faces environmental limits. Third, it is scalable: MTerra, due for completion in March 2027, will deliver 3,500 MW and a 4,500-MWh battery system for 2.4 million households, with Huawei panels that would stretch from Manila to London. Batteries last hours after sunset but not until morning, so coal provides baseload for now, but CJP expects batteries to improve as phones did. He calls MTerra MVP's lasting legacy and, as Meralco's board adviser, sees his role as helping the transition toward economic independence and prosperity.",
   "source_xlsx": "cjp_columns_curated_normalized.xlsx",
   "topic_paths": {
-    "primary": [],
-    "secondary": []
+    "primary": [
+      "economy_taxes_and_prosperity"
+    ],
+    "secondary": [],
+    "route_source": "affinity"
   }
 }

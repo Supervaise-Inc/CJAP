@@ -109,7 +109,12 @@
   "one_paragraph_summary": "Chapter 10 of 'With Due Respect' (Vol. 3), CJP's December 12, 2010 Inquirer column, hails the Supreme Court's small-claims reform as a remedy for the poor, 'to [whom] justice is elusive, distant, and expensive' -- deterred by 'intimidating technicalities,' 'bottomless lawyers' fees' and 'inexplicable delays,' so that they 'simply bear the injustice' and risk becoming 'prey to the importuning of extremists and rebels' who promise 'instant vindication without... due process.' The Court, he writes, 'turned a page in judicial reform' with a system that needs 'no lawyers, no formal pleadings, and no strict legal rules of evidence,' with the judge encouraged to decide 'after just one hearing' -- 'the dream of the legally illiterate.' No new courts or judges were created: 'The Rule on Small Claims Cases' lets the first-level courts (MeTC, MTCC, MTC, MCTC) sit concurrently as Small Claims Courts -- 'the Poor Man's Courts' -- for money claims not exceeding P100,000 (purely civil cases, the civil aspect of criminal actions, or the enforcement of barangay settlements and arbitration awards), begun by a ready-made 'Statement of Claim' and answered within 10 days by a verified 'Response,' with court-staff help. To keep things summary and final, the Rule bars most motions and 'even petitions for certiorari, mandamus, and prohibition,' and forbids lawyers from appearing at the hearing (though parties may consult counsel before or after). The hearing has two phases: the judge first conducts 'Judicial Dispute Resolution' (mediation, conciliation, neutral evaluation) and, failing settlement, a 'Judicial Decision Phase' in which -- unlike a passive ordinary-case judge -- he takes an 'interventionist role,' 'actively eliciting evidence' while staying 'strictly neutral,' ensuring 'a level playing field while protecting the weak.' The hearing must end in one day, with a same-day, 'final and unappealable' judgment immediately furnished to the parties -- a reform meant to 'substantially declog court dockets' and, 'more important, dispense swifter justice to the poor and powerless.'",
   "source_xlsx": "cjp_books_curated_normalized.xlsx",
   "topic_paths": {
-    "primary": [],
-    "secondary": []
+    "primary": [
+      "judicial_reform"
+    ],
+    "secondary": [
+      "how_the_supreme_court_decides"
+    ],
+    "route_source": "affinity"
   }
 }

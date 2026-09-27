@@ -107,7 +107,13 @@
   "one_paragraph_summary": "Delivered February 13, 2013 as the keynote address at the Joint 18th Annual Convention of the Philippine Society of Hypertension and the Philippine Lipid and Atherosclerosis Society, this address by CJP is structured around three 'orders' from his family physician Dr. Dante Morales -- who, CJP notes, has issued a subpoena equivalent that neither he nor even Leni can appeal: 'Supreme Court Justices are all members of the Takusa Club, meaning Takot sa Asawa. They are afraid of only two sets of people: their doctors and their wives.' Order 1 (crack a joke): a drunkard at the Luneta asks a priest what causes arthritis; the priest lectures about 'loose living, cheap wicked women, too much alcohol'; the drunkard: 'I just read here in the Inquirer that the Pope has arthritis.' Moral: 'When sick, consult only doctors of medicine, not doctors of theology.' Order 2 (recent SC decision involving physicians): Dr. Genevieve L. Huang v. Philippine Hoteliers (Dec 5, 2012) -- a heavy folding wooden counter top fell on Dr. Huang's head at the Dusit Thani Hotel pool after it closed; despite experiencing headaches and dizziness and being diagnosed with head injuries, the SC upheld the dismissal in a 41-page decision because she and her lawyers 'failed to prove the cause and effect connection between the fault or negligence of the hotel and the damages incurred by her.' CJP's pedagogical lesson: 'an event may have happened in truth and in reality. But if it cannot be proven in court according to the rules of evidence, it cannot be given credence in a judicial proceeding' -- the gap between actual fact and legal fact. Order 3 (something inspirational): the full good-news-bad-news parable (farmer with horse, ten wild horses, lame son, spared from war) applied to CJP's life -- the Yale denial becoming Baron Travel, whose revenues funded five children's graduate degrees at Harvard, Stanford, UC, Chicago, Michigan and Boston University.",
   "source_xlsx": "cjp_speeches_curated_normalized.xlsx",
   "topic_paths": {
-    "primary": [],
-    "secondary": []
+    "primary": [
+      "life_story_family_school_and_church"
+    ],
+    "secondary": [
+      "faith_journey",
+      "foundation_for_liberty_and_prosperity"
+    ],
+    "route_source": "affinity"
   }
 }

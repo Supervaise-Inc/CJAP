@@ -114,7 +114,12 @@
   "one_paragraph_summary": "Panganiban reports the record-breaking 2016 bar examinations -- 3,747 new lawyers (the most since 1901) signing the Roll of Attorneys over nine working days -- while defending the 59.05% passing rate (highest in history) against 'giveaway' allegations. He validates the exam by examining the roster of examiners: Retired SC Justice Nachura (political law), new SC Justice Tijam (remedial law), CA Justices De Leon, Dimaampao, Hernando, Paredes, and Garcia-Fernandez (covering labor, civil, mercantile, criminal law, and legal ethics), and CTA Justice Bautista (taxation) -- all 'formidable and brilliant in their respective fields.' He quotes Justice Velasco's explanation that questions were designed to test facility of expression, logic, and problem-solving rather than formulaic recall, and that logically defensible answers merited points regardless of whether they echoed prevailing jurisprudence. He then quotes at length CJ Sereno's twin messages: a geographic access challenge (Mindanao, Visayas, and Luzon hinterland lawyers each tasked to inform and improve their regional justice systems), and a philosophical exhortation -- 'Great lawyers, like brilliant diamonds, form under the most crushing of pressures ... in the valleys of the shadow of death, in the grit and dirt of the battle trenches' -- framing the new lawyers' professional mission as service to the marginalized 'cash-challenged, distance-disadvantaged and information-deprived.'",
   "source_xlsx": "cjp_columns_curated_normalized.xlsx",
   "topic_paths": {
-    "primary": [],
-    "secondary": []
+    "primary": [
+      "bar_exam_and_legal_education"
+    ],
+    "secondary": [
+      "judiciary_milestones_and_tributes"
+    ],
+    "route_source": "affinity"
   }
 }

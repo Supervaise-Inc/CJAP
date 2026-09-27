@@ -132,7 +132,12 @@
   "one_paragraph_summary": "Art's quiet civic-ascent chapter in the years after the 1991 Rotary valedictory: he did not announce ambition but returned quietly to law, business, writing, and Catholic lay movements -- yet invitations began arriving, 'first sporadically, then persistently,' to chair awards committees, mediate disputes, and speak on governance, ethics, and the rule of law. He became Chief Legal Counsel of the Parish Pastoral Council for Responsible Voting (PPCRV), 'a role that placed him near the moral fault lines of Philippine democracy.' He 'advised without theatrics' and 'guarded credibility as fiercely as outcomes.' During elections, when passions flared and accusations multiplied, he insisted on process; when activists demanded instant righteousness, he cautioned patience; when institutions faltered, he argued 'not for replacement -- but for reform.' The chapter's titular maxim: 'This was not the language of partisanship. It was the language of institutional preservation.' The two-word closing cliffhanger -- 'Presidents noticed.' -- sets up the Malacañang call of the next section.",
   "source_xlsx": "cjp_biography_curated_normalized.xlsx",
   "topic_paths": {
-    "primary": [],
-    "secondary": []
+    "primary": [
+      "marcos_robredo_election_contest"
+    ],
+    "secondary": [
+      "life_story_family_school_and_church"
+    ],
+    "route_source": "affinity"
   }
 }

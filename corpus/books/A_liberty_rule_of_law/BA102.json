@@ -128,7 +128,13 @@
   "one_paragraph_summary": "Chapter 23 of 'Liberty and Prosperity' digests Lumanlaw v. Peralta, a unanimous ruling penned by the Chief Justice. Lumanlaw was charged with illegal possession of a dangerous drug in November 2002 and held in the Manila City Jail under a Commitment Order, yet his arraignment was postponed fourteen times between his arrest and the filing of his Petition in 2004 -- because his counsel de parte was absent, because the judge was unavailable, and above all because the jail wardens repeatedly failed to bring him to court -- leaving him detained almost two years without ever being arraigned, his two Motions to Dismiss both denied. He sought mandamus under Rule 65. The Court held his right to speedy trial violated, explaining that the 30-day period of the Speedy Trial Act is not absolute and that judicial proceedings must contend with the realities of everyday life, so the question is not a mathematical calculation of elapsed periods but whether the delays were vexatious, capricious, oppressive or unjustified. Reviewing the reasons for each postponement, it found the violation manifest and saw a lack of earnest effort to arraign the accused as soon as the calendar allowed. It observed that an arraignment takes at most ten minutes and entails no legal gymnastics, that the absence of private counsel was no reason to postpone when the accused himself had asked for a counsel de oficio, and that the wardens' failures could have been averted by efficient court management and proper supervision of the clerk of court. The judge had instead let the listlessness of the parties, his staff and the wardens dictate the pace, doing nothing even after two urgent Motions to Dismiss. On the remedy, the Court held that mandamus may issue to control discretion where undue delay amounts to grave abuse producing manifest injustice, and that the want of a prior motion for reconsideration and the hierarchy of courts would not bar the writ, since procedural rules are not strictly enforced when enforcement would cause a miscarriage of justice and the protection of the people's civil liberties overwhelms all rules of procedure.",
   "source_xlsx": "cjp_books_curated_normalized.xlsx",
   "topic_paths": {
-    "primary": [],
-    "secondary": []
+    "primary": [
+      "criminal_trials_and_prosecutions"
+    ],
+    "secondary": [
+      "death_penalty_and_echegaray",
+      "how_the_supreme_court_decides"
+    ],
+    "route_source": "affinity"
   }
 }

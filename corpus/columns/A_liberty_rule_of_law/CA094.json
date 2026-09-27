@@ -138,7 +138,12 @@
   "one_paragraph_summary": "Panganiban analyzes People v. XXX (Supreme Court, promulgated July 25, 2023, released recently), in which the Court -- reviewing a Court of Appeals (Cagayan de Oro) decision affirming the Regional Trial Court (Cagayan de Oro) -- upheld the conviction for simple rape only, not qualified rape, because of the prosecutors' use of the word 'or' in the information. The accused was named 'XXX' to comply with anonymization laws. Simple rape (under settled jurisprudence) is committed by carnal knowledge through force or intimidation, or when the victim is deprived of reason or unconscious, or under 12 years of age. Under RPC Article 266-B-1, simple rape becomes qualified -- a more serious offense -- when committed by a relative by consanguinity or affinity within the third civil degree of a victim below 18, and both qualifying circumstances of minority and relationship must be alleged in the information. The information here alleged that the 'accused, knowing fully well the minority of his first cousin OR relative within the third civil degree of consanguinity through force and intimidation and through grave abuse of authority... feloniously insert[ed] his penis into the vagina of' the victim. The victim's minority (15 years old) was proven by certified birth certificate; the relationship rested on a pre-trial stipulation that the accused was 'a relative within the third civil degree of consanguinity.' The Court held that 'as a general rule, when the terms that come before and after the disjunctive word",
   "source_xlsx": "cjp_columns_curated_normalized.xlsx",
   "topic_paths": {
-    "primary": [],
-    "secondary": []
+    "primary": [
+      "death_penalty_and_echegaray"
+    ],
+    "secondary": [
+      "marriage_annulment_and_the_family_code"
+    ],
+    "route_source": "affinity"
   }
 }

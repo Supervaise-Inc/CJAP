@@ -119,7 +119,10 @@
   "one_paragraph_summary": "Chapter 2 of 'With Due Respect' (Vol. 3), CJP's July 29, 2007 Inquirer column, argues that the rule of law alone cannot rescue the poorest, who also need 'legal empowerment' and 'social justice.' He opens with 'Jose Cruz' (a pseudonym), a boy 'barely in his teens' who wakes at 4 a.m. to sell newspapers at a Makati intersection, lives in 'an all-purpose shanty along the riles' on the South Super Highway, and helps his 'partly paralyzed mother' mind a makeshift store, with no time for school or skill. Having migrated from Sorsogon, Jose and his two sisters are 'informal settlers' with no birth certificates, no legal residence, no title to their shack-stall and no medical care -- legally invisible, their hut once demolished so they could be 'banished from the view' of visiting foreign VIPs. For such a family, CJP writes, the Bill of Rights is 'empty rhetoric,' because poverty denies 'access to effective legal protection, to the social security system, and to integration into the economy,' leaving Jose 'a hairline away from a life of crime and violence.' Drawing on a July 25-26 conference convened by ESCR-Asia with the UNDP and the UN-affiliated Commission on Legal Empowerment for the Poor on 'the legal exclusion of the poor,' he explains why 'orthodox' rule of law fails them: its courts, lawyers, fees and complex laws are 'alien to the day-to-day existence of the very poor,' who are not consulted when laws are made and cannot afford to invoke them. Jose's disadvantages are concrete -- no legal status (he is a minor), an unregistered store, and no lawyer willing to help. Because society has 'a big stake' in keeping such families from sliding 'from the legally excluded poor to socially condemned criminals,' they need 'legal empowerment, not just the rule of law' and 'social justice, not just empty legalisms.' The conference, he says, produced an 'awakening': a jurist who long thought the rule of law sufficient for his 'twin vision of safeguarding liberty and nurturing prosperity' now believes 'liberty and prosperity for all requires not just the rule of law but also the legal empowerment of the poor' -- thanking organizers Glenda Litong, Resurreccion Lao and Dr. Naresh Singh, and noting the Commission's co-chairs, Madeleine Albright and Hernando de Soto.",
   "source_xlsx": "cjp_books_curated_normalized.xlsx",
   "topic_paths": {
-    "primary": [],
-    "secondary": []
+    "primary": [
+      "twin_beacons_doctrine"
+    ],
+    "secondary": [],
+    "route_source": "affinity"
   }
 }

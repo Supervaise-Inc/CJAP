@@ -107,7 +107,10 @@
   "one_paragraph_summary": "Chapter 5 of 'With Due Respect' (Vol. 3), CJP's April 20, 2008 Inquirer column, is a practical guide on how to pass -- 'nay, top' -- the bar exams, following up his earlier piece on the 'dismal' 2007 results and the need for the Supreme Court, the President and law schools to 'collaborate to produce better lawyers.' Feeling 'inadequate' because he 'placed only sixth' long ago, he hands the advice to three recent topnotchers -- Joan de Venecia (2005, UP), Arlene Maneja (2002, UST) and Mercedita Ona (2007, Ateneo) -- and relays their common tips. On mindset: believe you deserve to be there, forget past failures, cultivate composure, and do not compare yourself with others, since 'preparation is an individual task' and understanding beats rote memorization. On planning: make time for 'serious self-evaluation,' budget days by subject, keep a realistic plan, and organize materials (even 'eight separate boxes' by subject) so no time is lost. On self-care: be 'kind to yourself,' allow rest, and stay physically fit -- exercise, sleep, nourishing meals, vitamins and stress management -- lest the body give out. On time: attend review classes for subjects you know but read up first on those you do not, and save 'bar tips' for the pre-week, while abandoning emotional baggage and distractions. On craft: 'perfect your handwriting and grammar,' since examiners are 'only human' and reward readable, logical answers (a point all three topnotchers credit), and write out notes if you learn visually. On substance: 'study smartly' from streamlined materials (codal provisions, a good reviewer, jurisprudence updates), master the basics and their application (even via 'audio codals' on the road), ask for updates since doctrines change and questions are facts-based, and 'Pray. Pray. Pray.' His final reminder: 'there is no shortcut to passing the bar' -- put in the hours, ignore what you cannot control like 'examiners' or 'kinds of questions,' and devote your energy to studying and 'positive thinking.'",
   "source_xlsx": "cjp_books_curated_normalized.xlsx",
   "topic_paths": {
-    "primary": [],
-    "secondary": []
+    "primary": [
+      "bar_exam_and_legal_education"
+    ],
+    "secondary": [],
+    "route_source": "affinity"
   }
 }

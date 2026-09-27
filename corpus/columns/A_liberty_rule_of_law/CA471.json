@@ -115,7 +115,8 @@
   "one_paragraph_summary": "Panganiban critiques the 'Ban! Ban! Ban!' mentality triggered by the Sandy Hook and Ronald Bae Cavite shootings, typhoon-related flooding blamed on logging, and mine tailings spills. He applies a reductio ad absurdum -- if the ban logic is consistent, we must also ban electricity (fire risk), petroleum (explosion risk), chicharon (artery blockage), swimming pools (drowning), and automobiles (crashes) -- before arguing that the real solution is 'careful regulation and strict enforcement of enlightened rules,' not total prohibition. On guns: criminals will retain firearms regardless of a ban, making the law-abiding gunless against armed outlaws; Sen. Lacson's home-use-only, low-caliber licensing is the superior alternative. On logging: selective logging with mandatory replanting (10 trees for every one cut) is the answer, not a blanket ban; the Lopez Group voluntarily reforests even without logging operations as a corporate-responsibility model. On mining: metals are essential to all of civilization -- 'Without metals, the Inquirer cannot be produced because its printing machines are made of iron and steel' -- and countries like Chile, Australia, and Canada prove responsible mining expands economies; illegal miners and those violating Environmental Clearance Certificates are the proper targets, not the industry. He closes: 'Difficult? Well, nothing good is ever easy.'",
   "source_xlsx": "cjp_columns_curated_normalized.xlsx",
   "topic_paths": {
-    "primary": [],
-    "secondary": []
+    "primary": null,
+    "secondary": [],
+    "route_source": "orphan"
   }
 }

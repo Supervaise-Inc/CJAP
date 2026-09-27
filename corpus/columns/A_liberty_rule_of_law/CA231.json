@@ -168,7 +168,12 @@
   "one_paragraph_summary": "Panganiban opens with an apparent oxymoron -- 'Honest official convicted by honest judge' -- and spends the column resolving it. Grace Padaca, the Isabela governor (2004-2010), former broadcast journalist, 'Symbol of People Power' and 2008 Ramon Magsaysay Award for Public Service laureate, was convicted by the Sandiganbayan on Nov 15, 2019 of malversation under the Revised Penal Code and of violating Section 3(e) of the Anti-Graft Law (RA 3019). The 57-page ponencia by Presiding Justice Amparo M. Cabotaje-Tang (joined unanimously by Justices Bernelito R. Fernandez and Ronald B. Moreno -- 'who are no pushovers either') traces the chronology: Padaca signed the MOA with the Economic Development for Western Isabela and Northern Luzon Foundation Inc. on Jan 8, 2006 without authority. The Provincial Board's Jan 31, 2006 resolution authorized her prospectively but conditioned the MOA on PB review and ratification -- which she did not seek before the Feb 23, 2006 release of P25 million, of which only P7 million was returned, leaving P18 million unaccounted. By the time the PB ratified the MOA on Jan 31, 2007, malversation had already been consummated; Art. 89 of the Revised Penal Code excludes ratification as a ground for extinguishment of criminal liability. The Anti-Graft Law Section 3(e) conviction stands separately because that provision punishes undue injury 'in addition to acts or omissions... already penalized by existing law' -- and Padaca improperly relied on the legal opinion of Provincial Legal Officer Johnas Lamonera, who was ethically conflicted as a 'registered incorporator' of the Foundation. CJ is careful to clarify: Padaca was neither charged with nor convicted of stealing public money; the SBN found her guilty of allowing others, through her negligence, to malverse public funds. He defers further commentary pending her announced MR -- and closes with symmetric tribute: will the reputedly honest public servant be able to convince the equally honest judge to change her mind on reconsideration?",
   "source_xlsx": "cjp_columns_curated_normalized.xlsx",
   "topic_paths": {
-    "primary": [],
-    "secondary": []
+    "primary": [
+      "criminal_trials_and_prosecutions"
+    ],
+    "secondary": [
+      "ill_gotten_wealth_and_the_pcgg"
+    ],
+    "route_source": "affinity"
   }
 }

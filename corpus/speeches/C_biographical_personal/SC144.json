@@ -102,7 +102,13 @@
   "one_paragraph_summary": "Delivered November 6, 2006 at the retirement celebration of Court of Appeals Justice Santiago 'Jun' Javier Ranada -- CJP three weeks before his own mandatory retirement -- this address by CJP opens with a personal parallel: 'I am also a junior because my father's name is also Artemio. But I have refrained from using Jr. after my name so that every good thing that I do may be credited to my late father, who had practically commanded me, contrary to my wishes to become a chemical engineer, to pursue a career in law.' Justice Ranada's career similarly began with a deathbed wish: his father, Santiago Ranada Sr. (a Pasay City judge), whispered at his deathbed that he wanted his junior to become a judge; despite an established law practice, Ranada eventually honored the wish, becoming a CFI judge in 1978 and climbing to the Court of Appeals. CJP presents five character portraits: obedient son (honored the deathbed wish); faithful husband ('Evelyn relates that for the past 42 years, he has had only two barbers, and most important, he has had only his one and only love for the past four decades'); loving father (five children, three married, seven grandchildren); gentleman boss (soft-spoken, patient, discreet; 'found the greatest enjoyment holding trials in his court'); and illustrious Laoagueño. CJP notes: 'Justice Jun looks forward to retirement with mixed feelings of hope and fear -- 80 percent hope and 20 percent fear. Now that my own retirement is just weeks away, I can understand his jitters.' He closes: 'On top of that to-thank-for list would be a salutary life, a decent job, the rare opportunity to serve the judiciary and to be remembered patriotically beyond this life. Mabuhay ka, Justice Jun!'",
   "source_xlsx": "cjp_speeches_curated_normalized.xlsx",
   "topic_paths": {
-    "primary": [],
-    "secondary": []
+    "primary": [
+      "judiciary_milestones_and_tributes"
+    ],
+    "secondary": [
+      "life_story_family_school_and_church",
+      "supreme_court_vacancies_and_chief_justiceship"
+    ],
+    "route_source": "affinity"
   }
 }

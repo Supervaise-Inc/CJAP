@@ -191,6 +191,7 @@
     "secondary": [
       "twin_beacons_doctrine",
       "life_story_family_school_and_church"
-    ]
+    ],
+    "route_source": "matcher"
   }
 }

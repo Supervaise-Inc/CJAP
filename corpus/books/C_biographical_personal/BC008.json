@@ -109,7 +109,13 @@
   "one_paragraph_summary": "Appendix B of 'A Centenary of Justice' reproduces CJP's closing address 'Justice Is God's Work,' delivered March 9, 2001 to the graduates of the Philippine Judicial Academy's Second Pre-Judicature Program. After warmly describing a Philja invitation from the 'respected and loved' Chancellor Ameurfina Melencio Herrera as 'a summons... which cannot be refused,' CJP recalls his own 1995 entry 'direct to the Supreme Court' and the 'spiritual soul-searching' it prompted. He discloses that from 1986 to 1995 he and his wife underwent a spiritual rebirth in the 'Bukas Loob sa Diyos' charismatic community -- through a marriage encounter, a 'Life in the Spirit' seminar and retreats -- becoming servant-leaders and learning to depend on God, anchored in Isaiah 55 ('My thoughts are not your thoughts') and Romans 8:28. Against the Lord's core teaching of love (love God, neighbor and even one's enemies), he poses a hard question: if God is love, why does He punish, and why is a judge called to impose penalties? He answers with a parable -- a traffic-court judge fines a repentant young woman, then removes his robe and pays the fine himself, because she is his daughter, so that 'justice was served, and so was love.' The judge, CJP says, is Christ, who, because justice is in God's nature, could not waive the sanction of His own law, yet, being love personified, sent His Son to atone for and 'own the punishment meant for us' -- fulfilling both justice and love. He closes by charging the new judges that the rendition of justice is 'not only a human necessity; it is a divine essentiality': when they give people their due 'fairly and speedily, without fear or favor,' they do the work of the Lord, for 'to dispense quality justice is to do God's work.'",
   "source_xlsx": "cjp_books_curated_normalized.xlsx",
   "topic_paths": {
-    "primary": [],
-    "secondary": []
+    "primary": [
+      "faith_journey"
+    ],
+    "secondary": [
+      "judiciary_milestones_and_tributes",
+      "life_story_family_school_and_church"
+    ],
+    "route_source": "affinity"
   }
 }

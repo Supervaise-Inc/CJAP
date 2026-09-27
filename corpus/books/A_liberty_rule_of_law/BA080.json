@@ -245,6 +245,7 @@
     "secondary": [
       "life_story_family_school_and_church",
       "criminal_trials_and_prosecutions"
-    ]
+    ],
+    "route_source": "matcher"
   }
 }

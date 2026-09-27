@@ -155,7 +155,13 @@
   "one_paragraph_summary": "Delivered November 29, 2012 at Manila Golf Club for ACCRA Law's 40th Anniversary BusinessLaw Forum jointly with the Management Association of the Philippines, Panganiban uses three of his own landmark ponencias to lay out his settled jurisprudential philosophy of 'liberty and prosperity under the rule of law' -- a phrase he credits to Canada's CJ Beverley McLachlin after the 2006 Global Forum. His two-track theory: in political/civil-liberty cases the scales weigh heavily against the government via strict scrutiny; in economic/policy cases courts must defer to the Executive and Congress unless there is grave abuse of discretion or blatant constitutional violation. He demonstrates this with (1) Tanada vs Angara (1997), the unanimous decision he authored upholding the Senate's WTO Treaty ratification by holding that the Constitution balances bias-for-Filipino-goods against business reciprocity, and that the 'wisdom or viability' of globalization is outside judicial review; (2) La Bugal-B'laan vs Ramos (Dec 1, 2004 MR 10-4 reversing the Jan 27, 2004 original 8-5 ruling), where he authored the reconsideration upholding the Mining Law, the IRR, and the FTAA on the principle that the Constitution must be read 'in broad, life-giving strokes' rather than to 'strangulate economic growth'; and (3) Gamboa vs Teves (June 28, 2011), where he diplomatically critiques the SC majority for departing from deferential interpretation by reading 'capital' in Art XII Sec 11 to mean only voting common shares -- siding implicitly with the dissenters who argued the 1935 framers' intent covered all shares. He notes that 2012 Philippine GDP growth (6.3%/5.9%/7.1% across Q1/Q2/Q3, best in ASEAN, second in Asia after China) shows the country's economic momentum is real and worth protecting -- and closes by reiterating that the recognized engine of growth in a free enterprise regime is the private sector, to which the judiciary should defer.",
   "source_xlsx": "cjp_speeches_curated_normalized.xlsx",
   "topic_paths": {
-    "primary": [],
-    "secondary": []
+    "primary": [
+      "twin_beacons_doctrine"
+    ],
+    "secondary": [
+      "property_contracts_and_economic_rights",
+      "economy_taxes_and_prosperity"
+    ],
+    "route_source": "affinity"
   }
 }

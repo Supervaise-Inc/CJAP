@@ -122,7 +122,12 @@
   "one_paragraph_summary": "Chapter 9 of 'With Due Respect' (Vol. 1), CJP's December 13, 2009 Inquirer column, argues that Presidential Proclamation 1959 -- declaring 'a state of martial law' and suspending the writ of habeas corpus in Maguindanao -- was 'so inane and so baseless that even a law student will readily disown it,' and that the Supreme Court should strike it down even though GMA had just 'lifted' it. It was patently unconstitutional, he writes, because the 1987 Charter permits martial law only for 'invasion or rebellion' -- actual, not 'looming' or 'brewing' -- when 'public safety requires' it, and the Ampatuan-clan massacre of 57 people, however unpardonable, was not 'rebellion' under RA 6968, which requires 'rising publicly and taking arms against the Government... to deprive' it of its powers. The 'rebellion' theory collapses on common sense, he says: the Ampatuans controlled the entire province (the governorship, most mayoralties, both congressmen) and were GMA's 'close political ally and generous patron,' so they had nothing to rise against -- the killings were 'plain murder' solvable by 'normal police powers.' In CJP's reading, the belated edict was an attempt to 'test her hold on Congress, and more important, on the Supreme Court,' and lifting it before the Court could act was a bid to dodge a 'judicial dressing down' by having the petitions dismissed as 'moot and academic.' But, he argues, the petitions should not be dismissed: three years earlier, in David v. Arroyo, the Court refused to let the lifting of PP 1017 evade review because the violation was grave and 'capable of repetition yet evading review,' striking it down 'to prevent future constitutional aberrations.' Warning that an emboldened President could mask 'feigned or real' attacks or 'automated election glitches' as excuses for 'iron rule again and again,' he reprises his David v. Arroyo opinion ('playing with fire... burn down the country'; the condemnation of 'legal hocus pocus' like the moot-and-academic theory) and urges that the Court 'should not tire of firmly striking down the trifling of civil liberties.'",
   "source_xlsx": "cjp_books_curated_normalized.xlsx",
   "topic_paths": {
-    "primary": [],
-    "secondary": []
+    "primary": [
+      "presidential_power_martial_law_people_power"
+    ],
+    "secondary": [
+      "impeachment_accountability"
+    ],
+    "route_source": "affinity"
   }
 }

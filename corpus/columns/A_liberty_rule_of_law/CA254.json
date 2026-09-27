@@ -140,7 +140,12 @@
   "one_paragraph_summary": "Panganiban explains the analytical-school jurisprudence formula 'Facts x Law = Decision' and why both factors are harder to establish than the formula suggests: facts must be filtered through stringent rules of evidence (no outside-source information, no uncross-examined affidavits even from high officials), and 'law' encompasses not just statutes but Constitution, SC decisions, treaties, international law, and executive opinions bounded by their branch. These layered difficulties -- combined with the subjective weighing of evidence under standards like 'proof beyond reasonable doubt' -- partly explain why Judge Soriano differed from Judge Alameda on Trillanes amnesty, why the Sandiganbayan split 3-2 on Bong Revilla's acquittal, and why the Supreme Court divided 8-6 on the Sereno ouster. He addresses readers asking why he rarely comments quickly on high-profile cases: the Sereno decision alone is 153 single-spaced pages with 334 footnotes, and as a retired CJ he would be 'thoroughly irresponsible' to comment without fully comprehending such treatises -- his preferred role is 'to educate, to edify and to help people study before commenting, to research before committing and to think before shouting.' Nonetheless, to satisfy persistent inquiries, he discloses brief positions 'at the risk of being simplistic': he agrees with Justice Carpio that sufficient grounds existed to indict Sereno in the Senate and that quo warranto was an improper remedy against impeachable officials, would have voted with the minority on Revilla's acquittal, and would have upheld Judge Alameda's Trillanes ruling with some modifications.",
   "source_xlsx": "cjp_columns_curated_normalized.xlsx",
   "topic_paths": {
-    "primary": [],
-    "secondary": []
+    "primary": [
+      "how_the_supreme_court_decides"
+    ],
+    "secondary": [
+      "death_penalty_and_echegaray"
+    ],
+    "route_source": "affinity"
   }
 }

@@ -145,7 +145,13 @@
   "one_paragraph_summary": "Panganiban analyzes the remedies available to former senator, congresswoman-elect Leila de Lima after the Court of Appeals Eighth Division -- composed of JJ Nina G. Antonio-Valenzuela (chair), Eleuterio L. Bathan (ponente), and Florencio M. Mamauag Jr. -- declared 'NULL AND VOID' on April 30, 2025 the May 12, 2023 RTC Muntinlupa decision of Judge Abraham Joseph B. Alcantara acquitting her of illegal drug trading. He stresses at the outset that De Lima is not at risk of detention because the CA decision has not yet attained finality. He outlines three remedies. First, a timely motion for reconsideration in the CA -- announced by her counsel Atty. Dino de Leon -- would preserve her liberty during pendency, though the author thinks the chances of reversal are slim. Second, a return to the RTC so Judge Alcantara can rewrite his decision following the form prescribed by the CA carries two risks: prosecution may ask the RTC to detain her as 'reverted to the original status' of one facing a nonbailable charge, and any rewritten acquittal would again be subject to certiorari for lack of due process or grave abuse of discretion. Third, she may appeal to the Supreme Court arguing that the Alcantara decision was compliant with constitutional and jurisprudential requirements. Drawing on his own ponencia in Velarde v. Social Justice Party (April 28, 2004), he restates the constitutional rule that no decision shall be rendered without expressing clearly and distinctly the facts and the law on which it is based, and the five ideal parts of a decision: Statement of the Case, Statement of Facts (both prosecution and defense versions in criminal cases), Issues or Assignment of Errors, the Court's Ruling, and the Disposition or Dispositive Portion. He believes the Alcantara decision, though it could have been better written, conforms to those requirements -- closing with the apology that he cannot explain further because of space limits.",
   "source_xlsx": "cjp_columns_curated_normalized.xlsx",
   "topic_paths": {
-    "primary": [],
-    "secondary": []
+    "primary": [
+      "how_the_supreme_court_decides"
+    ],
+    "secondary": [
+      "marriage_annulment_and_the_family_code",
+      "bar_exam_and_legal_education"
+    ],
+    "route_source": "affinity"
   }
 }

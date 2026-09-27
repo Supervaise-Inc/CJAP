@@ -115,7 +115,13 @@
   "one_paragraph_summary": "Chapter 10 of 'With Due Respect' (Vol. 7), CJP's December 23, 2007 Inquirer column, draws on the World Bank's 'Wealth of Nations' study, framed by the parable of his cousin 'Kadyo,' a Manila taxi driver who ran red lights with impunity, escaping every fine through the 'three Is' -- 'lusot' (bluster), 'lagay' (bribery) and 'lakas' (influence). Years later CJP was 'startled' to find Kadyo driving a Las Vegas cab 'so carefully,' obeying every rule lest he 'lose [his] license,' because 'in America, one only needs to be industrious to live comfortably.' Kadyo is 'typical' of Filipinos who flout rules at home but 'obey all laws' abroad -- which poses the puzzle of why the Filipino worker 'mightily succeed[s]' overseas (even out-earning Americans) but not at home. The World Bank's answer is the gulf in per-capita capital: '$512,612' in the US against '$19,351 in the Philippines.' Wealth, the WB says, has three kinds -- 'natural capital' (resources), 'produced capital' (infrastructure), and 'intangible capital' (human skills, social trust, and 'the quality of institutions essential to good governance,' like 'an independent judiciary... credible elections, and stable rule of law') -- and worldwide 'intangible capital [accounts] for 77 percent' of total wealth, which is why resource-poor Singapore ($252,607) and Japan ($493,241) far outstrip the resource-rich Philippines. CJP's conclusion: since 'the most significant elements of intangible wealth are education and the rule of law,' the 'much more important focus' than natural resources or infrastructure is 'the primacy of education, the promotion of the rule of law, and the strengthening of our democratic institutions' -- 'the truly lasting legacies.'",
   "source_xlsx": "cjp_books_curated_normalized.xlsx",
   "topic_paths": {
-    "primary": [],
-    "secondary": []
+    "primary": [
+      "economy_taxes_and_prosperity"
+    ],
+    "secondary": [
+      "twin_beacons_doctrine",
+      "foundation_for_liberty_and_prosperity"
+    ],
+    "route_source": "affinity"
   }
 }
