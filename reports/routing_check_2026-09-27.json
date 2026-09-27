@@ -1,0 +1,1607 @@
+{
+ "n_questions": 60,
+ "top1_accuracy": 0.8666666666666667,
+ "top3_accuracy": 1.0,
+ "chance": {
+  "top1": 0.03333333333333333,
+  "top3": 0.1
+ },
+ "shuffle_control": {
+  "top1_mean": 0.033,
+  "top3_mean": 0.09977000000000001,
+  "top1_max": 0.16666666666666666,
+  "top3_max": 0.26666666666666666
+ },
+ "never_win_top1": [],
+ "never_in_top3": [],
+ "per_dimension": {
+  "life_story_family_school_and_church": {
+   "n": 2,
+   "top1": 2,
+   "top3": 2
+  },
+  "criminal_trials_and_prosecutions": {
+   "n": 2,
+   "top1": 2,
+   "top3": 2
+  },
+  "international_law_disputes": {
+   "n": 2,
+   "top1": 2,
+   "top3": 2
+  },
+  "property_contracts_and_economic_rights": {
+   "n": 2,
+   "top1": 2,
+   "top3": 2
+  },
+  "how_the_supreme_court_decides": {
+   "n": 2,
+   "top1": 1,
+   "top3": 2
+  },
+  "libel_and_cybercrime": {
+   "n": 2,
+   "top1": 2,
+   "top3": 2
+  },
+  "presidential_power_martial_law_people_power": {
+   "n": 2,
+   "top1": 2,
+   "top3": 2
+  },
+  "elections_and_automated_voting": {
+   "n": 2,
+   "top1": 2,
+   "top3": 2
+  },
+  "judiciary_milestones_and_tributes": {
+   "n": 2,
+   "top1": 2,
+   "top3": 2
+  },
+  "judicial_reform": {
+   "n": 2,
+   "top1": 2,
+   "top3": 2
+  },
+  "party_list_charter_change_and_dynasties": {
+   "n": 2,
+   "top1": 2,
+   "top3": 2
+  },
+  "science_technology_and_the_law": {
+   "n": 2,
+   "top1": 2,
+   "top3": 2
+  },
+  "economy_taxes_and_prosperity": {
+   "n": 2,
+   "top1": 1,
+   "top3": 2
+  },
+  "impeachment_accountability": {
+   "n": 2,
+   "top1": 2,
+   "top3": 2
+  },
+  "foundation_for_liberty_and_prosperity": {
+   "n": 2,
+   "top1": 1,
+   "top3": 2
+  },
+  "public_funds_budget_and_bank_evidence": {
+   "n": 2,
+   "top1": 1,
+   "top3": 2
+  },
+  "us_supreme_court_and_american_politics": {
+   "n": 2,
+   "top1": 1,
+   "top3": 2
+  },
+  "independent_commissions_and_appointments": {
+   "n": 2,
+   "top1": 1,
+   "top3": 2
+  },
+  "twin_beacons_doctrine": {
+   "n": 2,
+   "top1": 2,
+   "top3": 2
+  },
+  "marcos_robredo_election_contest": {
+   "n": 2,
+   "top1": 1,
+   "top3": 2
+  },
+  "bangsamoro_peace_process": {
+   "n": 2,
+   "top1": 2,
+   "top3": 2
+  },
+  "supreme_court_vacancies_and_chief_justiceship": {
+   "n": 2,
+   "top1": 1,
+   "top3": 2
+  },
+  "faith_journey": {
+   "n": 2,
+   "top1": 2,
+   "top3": 2
+  },
+  "asean_law_association": {
+   "n": 2,
+   "top1": 2,
+   "top3": 2
+  },
+  "ill_gotten_wealth_and_the_pcgg": {
+   "n": 2,
+   "top1": 2,
+   "top3": 2
+  },
+  "citizenship_and_residency_grace_poe": {
+   "n": 2,
+   "top1": 2,
+   "top3": 2
+  },
+  "marriage_annulment_and_the_family_code": {
+   "n": 2,
+   "top1": 2,
+   "top3": 2
+  },
+  "bar_exam_and_legal_education": {
+   "n": 2,
+   "top1": 2,
+   "top3": 2
+  },
+  "jbc_discernment_and_appointment": {
+   "n": 2,
+   "top1": 2,
+   "top3": 2
+  },
+  "death_penalty_and_echegaray": {
+   "n": 2,
+   "top1": 2,
+   "top3": 2
+  }
+ },
+ "wins_total": {
+  "life_story_family_school_and_church": 2,
+  "criminal_trials_and_prosecutions": 2,
+  "international_law_disputes": 3,
+  "property_contracts_and_economic_rights": 3,
+  "how_the_supreme_court_decides": 1,
+  "judicial_reform": 3,
+  "libel_and_cybercrime": 2,
+  "presidential_power_martial_law_people_power": 2,
+  "elections_and_automated_voting": 2,
+  "judiciary_milestones_and_tributes": 2,
+  "party_list_charter_change_and_dynasties": 2,
+  "science_technology_and_the_law": 2,
+  "twin_beacons_doctrine": 4,
+  "economy_taxes_and_prosperity": 1,
+  "impeachment_accountability": 2,
+  "foundation_for_liberty_and_prosperity": 1,
+  "public_funds_budget_and_bank_evidence": 1,
+  "us_supreme_court_and_american_politics": 2,
+  "independent_commissions_and_appointments": 1,
+  "jbc_discernment_and_appointment": 4,
+  "marcos_robredo_election_contest": 1,
+  "bangsamoro_peace_process": 2,
+  "supreme_court_vacancies_and_chief_justiceship": 1,
+  "faith_journey": 2,
+  "asean_law_association": 2,
+  "ill_gotten_wealth_and_the_pcgg": 2,
+  "citizenship_and_residency_grace_poe": 2,
+  "marriage_annulment_and_the_family_code": 2,
+  "bar_exam_and_legal_education": 2,
+  "death_penalty_and_echegaray": 2
+ },
+ "wrong_winners": {
+  "how_the_supreme_court_decides->judicial_reform": 1,
+  "economy_taxes_and_prosperity->twin_beacons_doctrine": 1,
+  "foundation_for_liberty_and_prosperity->twin_beacons_doctrine": 1,
+  "public_funds_budget_and_bank_evidence->property_contracts_and_economic_rights": 1,
+  "us_supreme_court_and_american_politics->international_law_disputes": 1,
+  "independent_commissions_and_appointments->jbc_discernment_and_appointment": 1,
+  "marcos_robredo_election_contest->us_supreme_court_and_american_politics": 1,
+  "supreme_court_vacancies_and_chief_justiceship->jbc_discernment_and_appointment": 1
+ },
+ "rows": [
+  {
+   "dimension": "life_story_family_school_and_church",
+   "q": 1,
+   "question": "What was your family life like growing up, and what did your parents teach you?",
+   "top1": "life_story_family_school_and_church",
+   "top3": [
+    "life_story_family_school_and_church",
+    "faith_journey",
+    "foundation_for_liberty_and_prosperity"
+   ],
+   "top1_cos": 0.2367,
+   "rank_of_intended": 1,
+   "in_scope": true,
+   "hit1": true,
+   "hit3": true
+  },
+  {
+   "dimension": "life_story_family_school_and_church",
+   "q": 2,
+   "question": "Tell me about your years at Far Eastern University and the people who mentored you.",
+   "top1": "life_story_family_school_and_church",
+   "top3": [
+    "life_story_family_school_and_church",
+    "foundation_for_liberty_and_prosperity",
+    "bar_exam_and_legal_education"
+   ],
+   "top1_cos": 0.3836,
+   "rank_of_intended": 1,
+   "in_scope": true,
+   "hit1": true,
+   "hit3": true
+  },
+  {
+   "dimension": "criminal_trials_and_prosecutions",
+   "q": 1,
+   "question": "How does a criminal case actually move from arrest to bail to trial in the Philippines?",
+   "top1": "criminal_trials_and_prosecutions",
+   "top3": [
+    "criminal_trials_and_prosecutions",
+    "death_penalty_and_echegaray",
+    "public_funds_budget_and_bank_evidence"
+   ],
+   "top1_cos": 0.3708,
+   "rank_of_intended": 1,
+   "in_scope": true,
+   "hit1": true,
+   "hit3": true
+  },
+  {
+   "dimension": "criminal_trials_and_prosecutions",
+   "q": 2,
+   "question": "What happened in the plunder trials at the Sandiganbayan?",
+   "top1": "criminal_trials_and_prosecutions",
+   "top3": [
+    "criminal_trials_and_prosecutions",
+    "ill_gotten_wealth_and_the_pcgg",
+    "presidential_power_martial_law_people_power"
+   ],
+   "top1_cos": 0.2072,
+   "rank_of_intended": 1,
+   "in_scope": true,
+   "hit1": true,
+   "hit3": true
+  },
+  {
+   "dimension": "international_law_disputes",
+   "q": 1,
+   "question": "What did the 2016 arbitral award say about the West Philippine Sea?",
+   "top1": "international_law_disputes",
+   "top3": [
+    "international_law_disputes",
+    "asean_law_association",
+    "economy_taxes_and_prosperity"
+   ],
+   "top1_cos": 0.4215,
+   "rank_of_intended": 1,
+   "in_scope": true,
+   "hit1": true,
+   "hit3": true
+  },
+  {
+   "dimension": "international_law_disputes",
+   "q": 2,
+   "question": "What is the nine-dash line and why does UNCLOS matter?",
+   "top1": "international_law_disputes",
+   "top3": [
+    "international_law_disputes",
+    "us_supreme_court_and_american_politics",
+    "property_contracts_and_economic_rights"
+   ],
+   "top1_cos": 0.1962,
+   "rank_of_intended": 1,
+   "in_scope": true,
+   "hit1": true,
+   "hit3": true
+  },
+  {
+   "dimension": "property_contracts_and_economic_rights",
+   "q": 1,
+   "question": "How do Supreme Court decisions protect the property and contract rights of investors?",
+   "top1": "property_contracts_and_economic_rights",
+   "top3": [
+    "property_contracts_and_economic_rights",
+    "marriage_annulment_and_the_family_code",
+    "how_the_supreme_court_decides"
+   ],
+   "top1_cos": 0.4514,
+   "rank_of_intended": 1,
+   "in_scope": true,
+   "hit1": true,
+   "hit3": true
+  },
+  {
+   "dimension": "property_contracts_and_economic_rights",
+   "q": 2,
+   "question": "What are the rights of workers under the labor code when they are dismissed?",
+   "top1": "property_contracts_and_economic_rights",
+   "top3": [
+    "property_contracts_and_economic_rights",
+    "criminal_trials_and_prosecutions",
+    "marriage_annulment_and_the_family_code"
+   ],
+   "top1_cos": 0.3398,
+   "rank_of_intended": 1,
+   "in_scope": true,
+   "hit1": true,
+   "hit3": true
+  },
+  {
+   "dimension": "how_the_supreme_court_decides",
+   "q": 1,
+   "question": "How does the Supreme Court reason and write its decisions?",
+   "top1": "how_the_supreme_court_decides",
+   "top3": [
+    "how_the_supreme_court_decides",
+    "death_penalty_and_echegaray",
+    "marriage_annulment_and_the_family_code"
+   ],
+   "top1_cos": 0.4439,
+   "rank_of_intended": 1,
+   "in_scope": true,
+   "hit1": true,
+   "hit3": true
+  },
+  {
+   "dimension": "how_the_supreme_court_decides",
+   "q": 2,
+   "question": "Why is the independence of the judiciary from the other branches important?",
+   "top1": "judicial_reform",
+   "top3": [
+    "judicial_reform",
+    "how_the_supreme_court_decides",
+    "jbc_discernment_and_appointment"
+   ],
+   "top1_cos": 0.2577,
+   "rank_of_intended": 2,
+   "in_scope": true,
+   "hit1": false,
+   "hit3": true
+  },
+  {
+   "dimension": "libel_and_cybercrime",
+   "q": 1,
+   "question": "What is criminal libel and how does the cybercrime law apply to online posts?",
+   "top1": "libel_and_cybercrime",
+   "top3": [
+    "libel_and_cybercrime",
+    "death_penalty_and_echegaray",
+    "criminal_trials_and_prosecutions"
+   ],
+   "top1_cos": 0.5699,
+   "rank_of_intended": 1,
+   "in_scope": true,
+   "hit1": true,
+   "hit3": true
+  },
+  {
+   "dimension": "libel_and_cybercrime",
+   "q": 2,
+   "question": "What do you think of the cyberlibel case against Maria Ressa?",
+   "top1": "libel_and_cybercrime",
+   "top3": [
+    "libel_and_cybercrime",
+    "us_supreme_court_and_american_politics",
+    "elections_and_automated_voting"
+   ],
+   "top1_cos": 0.405,
+   "rank_of_intended": 1,
+   "in_scope": true,
+   "hit1": true,
+   "hit3": true
+  },
+  {
+   "dimension": "presidential_power_martial_law_people_power",
+   "q": 1,
+   "question": "What are the limits of presidential power when martial law is declared?",
+   "top1": "presidential_power_martial_law_people_power",
+   "top3": [
+    "presidential_power_martial_law_people_power",
+    "impeachment_accountability",
+    "bangsamoro_peace_process"
+   ],
+   "top1_cos": 0.4003,
+   "rank_of_intended": 1,
+   "in_scope": true,
+   "hit1": true,
+   "hit3": true
+  },
+  {
+   "dimension": "presidential_power_martial_law_people_power",
+   "q": 2,
+   "question": "Was the removal of a president at EDSA constitutional?",
+   "top1": "presidential_power_martial_law_people_power",
+   "top3": [
+    "presidential_power_martial_law_people_power",
+    "impeachment_accountability",
+    "independent_commissions_and_appointments"
+   ],
+   "top1_cos": 0.4682,
+   "rank_of_intended": 1,
+   "in_scope": true,
+   "hit1": true,
+   "hit3": true
+  },
+  {
+   "dimension": "elections_and_automated_voting",
+   "q": 1,
+   "question": "How does the Commission on Elections run automated elections?",
+   "top1": "elections_and_automated_voting",
+   "top3": [
+    "elections_and_automated_voting",
+    "marcos_robredo_election_contest",
+    "independent_commissions_and_appointments"
+   ],
+   "top1_cos": 0.4614,
+   "rank_of_intended": 1,
+   "in_scope": true,
+   "hit1": true,
+   "hit3": true
+  },
+  {
+   "dimension": "elections_and_automated_voting",
+   "q": 2,
+   "question": "What are the problems with precinct count optical scanners?",
+   "top1": "elections_and_automated_voting",
+   "top3": [
+    "elections_and_automated_voting",
+    "public_funds_budget_and_bank_evidence",
+    "marcos_robredo_election_contest"
+   ],
+   "top1_cos": 0.3946,
+   "rank_of_intended": 1,
+   "in_scope": true,
+   "hit1": true,
+   "hit3": true
+  },
+  {
+   "dimension": "judiciary_milestones_and_tributes",
+   "q": 1,
+   "question": "What did the Supreme Court's centenary celebration mean?",
+   "top1": "judiciary_milestones_and_tributes",
+   "top3": [
+    "judiciary_milestones_and_tributes",
+    "us_supreme_court_and_american_politics",
+    "how_the_supreme_court_decides"
+   ],
+   "top1_cos": 0.2792,
+   "rank_of_intended": 1,
+   "in_scope": true,
+   "hit1": true,
+   "hit3": true
+  },
+  {
+   "dimension": "judiciary_milestones_and_tributes",
+   "q": 2,
+   "question": "What did you say when you retired from the Court and were honored?",
+   "top1": "judiciary_milestones_and_tributes",
+   "top3": [
+    "judiciary_milestones_and_tributes",
+    "supreme_court_vacancies_and_chief_justiceship",
+    "life_story_family_school_and_church"
+   ],
+   "top1_cos": 0.2846,
+   "rank_of_intended": 1,
+   "in_scope": true,
+   "hit1": true,
+   "hit3": true
+  },
+  {
+   "dimension": "judicial_reform",
+   "q": 1,
+   "question": "How can we reduce court delay and case backlogs?",
+   "top1": "judicial_reform",
+   "top3": [
+    "judicial_reform",
+    "science_technology_and_the_law",
+    "jbc_discernment_and_appointment"
+   ],
+   "top1_cos": 0.3118,
+   "rank_of_intended": 1,
+   "in_scope": true,
+   "hit1": true,
+   "hit3": true
+  },
+  {
+   "dimension": "judicial_reform",
+   "q": 2,
+   "question": "What is the Action Program for Judicial Reform?",
+   "top1": "judicial_reform",
+   "top3": [
+    "judicial_reform",
+    "bar_exam_and_legal_education",
+    "jbc_discernment_and_appointment"
+   ],
+   "top1_cos": 0.4208,
+   "rank_of_intended": 1,
+   "in_scope": true,
+   "hit1": true,
+   "hit3": true
+  },
+  {
+   "dimension": "party_list_charter_change_and_dynasties",
+   "q": 1,
+   "question": "How does the party-list system work and should it be reformed?",
+   "top1": "party_list_charter_change_and_dynasties",
+   "top3": [
+    "party_list_charter_change_and_dynasties",
+    "elections_and_automated_voting",
+    "us_supreme_court_and_american_politics"
+   ],
+   "top1_cos": 0.4689,
+   "rank_of_intended": 1,
+   "in_scope": true,
+   "hit1": true,
+   "hit3": true
+  },
+  {
+   "dimension": "party_list_charter_change_and_dynasties",
+   "q": 2,
+   "question": "Should we amend the Constitution through Charter change, and what about political dynasties?",
+   "top1": "party_list_charter_change_and_dynasties",
+   "top3": [
+    "party_list_charter_change_and_dynasties",
+    "us_supreme_court_and_american_politics",
+    "bangsamoro_peace_process"
+   ],
+   "top1_cos": 0.373,
+   "rank_of_intended": 1,
+   "in_scope": true,
+   "hit1": true,
+   "hit3": true
+  },
+  {
+   "dimension": "science_technology_and_the_law",
+   "q": 1,
+   "question": "How should courts handle DNA evidence and genetic technology?",
+   "top1": "science_technology_and_the_law",
+   "top3": [
+    "science_technology_and_the_law",
+    "death_penalty_and_echegaray",
+    "libel_and_cybercrime"
+   ],
+   "top1_cos": 0.5299,
+   "rank_of_intended": 1,
+   "in_scope": true,
+   "hit1": true,
+   "hit3": true
+  },
+  {
+   "dimension": "science_technology_and_the_law",
+   "q": 2,
+   "question": "What is the impact of artificial intelligence and the internet on the law?",
+   "top1": "science_technology_and_the_law",
+   "top3": [
+    "science_technology_and_the_law",
+    "libel_and_cybercrime",
+    "bar_exam_and_legal_education"
+   ],
+   "top1_cos": 0.3709,
+   "rank_of_intended": 1,
+   "in_scope": true,
+   "hit1": true,
+   "hit3": true
+  },
+  {
+   "dimension": "economy_taxes_and_prosperity",
+   "q": 1,
+   "question": "What makes a nation prosper economically?",
+   "top1": "twin_beacons_doctrine",
+   "top3": [
+    "twin_beacons_doctrine",
+    "economy_taxes_and_prosperity",
+    "foundation_for_liberty_and_prosperity"
+   ],
+   "top1_cos": 0.3931,
+   "rank_of_intended": 2,
+   "in_scope": true,
+   "hit1": false,
+   "hit3": true
+  },
+  {
+   "dimension": "economy_taxes_and_prosperity",
+   "q": 2,
+   "question": "How do taxes and minimum wages affect jobs and growth?",
+   "top1": "economy_taxes_and_prosperity",
+   "top3": [
+    "economy_taxes_and_prosperity",
+    "property_contracts_and_economic_rights",
+    "twin_beacons_doctrine"
+   ],
+   "top1_cos": 0.314,
+   "rank_of_intended": 1,
+   "in_scope": true,
+   "hit1": true,
+   "hit3": true
+  },
+  {
+   "dimension": "impeachment_accountability",
+   "q": 1,
+   "question": "How does impeachment work, from the House to the Senate?",
+   "top1": "impeachment_accountability",
+   "top3": [
+    "impeachment_accountability",
+    "public_funds_budget_and_bank_evidence",
+    "party_list_charter_change_and_dynasties"
+   ],
+   "top1_cos": 0.4319,
+   "rank_of_intended": 1,
+   "in_scope": true,
+   "hit1": true,
+   "hit3": true
+  },
+  {
+   "dimension": "impeachment_accountability",
+   "q": 2,
+   "question": "What was the impeachment trial of Chief Justice Corona about?",
+   "top1": "impeachment_accountability",
+   "top3": [
+    "impeachment_accountability",
+    "us_supreme_court_and_american_politics",
+    "public_funds_budget_and_bank_evidence"
+   ],
+   "top1_cos": 0.2981,
+   "rank_of_intended": 1,
+   "in_scope": true,
+   "hit1": true,
+   "hit3": true
+  },
+  {
+   "dimension": "foundation_for_liberty_and_prosperity",
+   "q": 1,
+   "question": "What does the Foundation for Liberty and Prosperity do?",
+   "top1": "twin_beacons_doctrine",
+   "top3": [
+    "twin_beacons_doctrine",
+    "foundation_for_liberty_and_prosperity",
+    "economy_taxes_and_prosperity"
+   ],
+   "top1_cos": 0.5268,
+   "rank_of_intended": 2,
+   "in_scope": true,
+   "hit1": false,
+   "hit3": true
+  },
+  {
+   "dimension": "foundation_for_liberty_and_prosperity",
+   "q": 2,
+   "question": "How do the Foundation's scholarships and dissertation contest work, and who supports it?",
+   "top1": "foundation_for_liberty_and_prosperity",
+   "top3": [
+    "foundation_for_liberty_and_prosperity",
+    "bar_exam_and_legal_education",
+    "life_story_family_school_and_church"
+   ],
+   "top1_cos": 0.2707,
+   "rank_of_intended": 1,
+   "in_scope": true,
+   "hit1": true,
+   "hit3": true
+  },
+  {
+   "dimension": "public_funds_budget_and_bank_evidence",
+   "q": 1,
+   "question": "What did the Supreme Court rule about the DAP and the pork barrel?",
+   "top1": "property_contracts_and_economic_rights",
+   "top3": [
+    "property_contracts_and_economic_rights",
+    "public_funds_budget_and_bank_evidence",
+    "marriage_annulment_and_the_family_code"
+   ],
+   "top1_cos": 0.2299,
+   "rank_of_intended": 2,
+   "in_scope": true,
+   "hit1": false,
+   "hit3": true
+  },
+  {
+   "dimension": "public_funds_budget_and_bank_evidence",
+   "q": 2,
+   "question": "Can bank deposits be used as evidence of corruption?",
+   "top1": "public_funds_budget_and_bank_evidence",
+   "top3": [
+    "public_funds_budget_and_bank_evidence",
+    "criminal_trials_and_prosecutions",
+    "ill_gotten_wealth_and_the_pcgg"
+   ],
+   "top1_cos": 0.3749,
+   "rank_of_intended": 1,
+   "in_scope": true,
+   "hit1": true,
+   "hit3": true
+  },
+  {
+   "dimension": "us_supreme_court_and_american_politics",
+   "q": 1,
+   "question": "What can the Philippines learn from the United States Supreme Court?",
+   "top1": "international_law_disputes",
+   "top3": [
+    "international_law_disputes",
+    "us_supreme_court_and_american_politics",
+    "judicial_reform"
+   ],
+   "top1_cos": 0.1739,
+   "rank_of_intended": 2,
+   "in_scope": true,
+   "hit1": false,
+   "hit3": true
+  },
+  {
+   "dimension": "us_supreme_court_and_american_politics",
+   "q": 2,
+   "question": "What do you make of Donald Trump and the American electoral college?",
+   "top1": "us_supreme_court_and_american_politics",
+   "top3": [
+    "us_supreme_court_and_american_politics",
+    "elections_and_automated_voting",
+    "party_list_charter_change_and_dynasties"
+   ],
+   "top1_cos": 0.5824,
+   "rank_of_intended": 1,
+   "in_scope": true,
+   "hit1": true,
+   "hit3": true
+  },
+  {
+   "dimension": "independent_commissions_and_appointments",
+   "q": 1,
+   "question": "How independent are the constitutional commissions like the Ombudsman and the Commission on Audit?",
+   "top1": "independent_commissions_and_appointments",
+   "top3": [
+    "independent_commissions_and_appointments",
+    "impeachment_accountability",
+    "jbc_discernment_and_appointment"
+   ],
+   "top1_cos": 0.3148,
+   "rank_of_intended": 1,
+   "in_scope": true,
+   "hit1": true,
+   "hit3": true
+  },
+  {
+   "dimension": "independent_commissions_and_appointments",
+   "q": 2,
+   "question": "How are commissioners appointed and how long do they serve?",
+   "top1": "jbc_discernment_and_appointment",
+   "top3": [
+    "jbc_discernment_and_appointment",
+    "independent_commissions_and_appointments",
+    "supreme_court_vacancies_and_chief_justiceship"
+   ],
+   "top1_cos": 0.2917,
+   "rank_of_intended": 2,
+   "in_scope": true,
+   "hit1": false,
+   "hit3": true
+  },
+  {
+   "dimension": "twin_beacons_doctrine",
+   "q": 1,
+   "question": "What is the twin-beacons doctrine of liberty and prosperity?",
+   "top1": "twin_beacons_doctrine",
+   "top3": [
+    "twin_beacons_doctrine",
+    "foundation_for_liberty_and_prosperity",
+    "economy_taxes_and_prosperity"
+   ],
+   "top1_cos": 0.4505,
+   "rank_of_intended": 1,
+   "in_scope": true,
+   "hit1": true,
+   "hit3": true
+  },
+  {
+   "dimension": "twin_beacons_doctrine",
+   "q": 2,
+   "question": "Why do liberty and prosperity depend on each other?",
+   "top1": "twin_beacons_doctrine",
+   "top3": [
+    "twin_beacons_doctrine",
+    "foundation_for_liberty_and_prosperity",
+    "economy_taxes_and_prosperity"
+   ],
+   "top1_cos": 0.5215,
+   "rank_of_intended": 1,
+   "in_scope": true,
+   "hit1": true,
+   "hit3": true
+  },
+  {
+   "dimension": "marcos_robredo_election_contest",
+   "q": 1,
+   "question": "What was the vice-presidential election protest between Marcos and Robredo?",
+   "top1": "marcos_robredo_election_contest",
+   "top3": [
+    "marcos_robredo_election_contest",
+    "presidential_power_martial_law_people_power",
+    "elections_and_automated_voting"
+   ],
+   "top1_cos": 0.3637,
+   "rank_of_intended": 1,
+   "in_scope": true,
+   "hit1": true,
+   "hit3": true
+  },
+  {
+   "dimension": "marcos_robredo_election_contest",
+   "q": 2,
+   "question": "What happened in the 2022 campaign and the canvassing of votes?",
+   "top1": "us_supreme_court_and_american_politics",
+   "top3": [
+    "us_supreme_court_and_american_politics",
+    "marcos_robredo_election_contest",
+    "elections_and_automated_voting"
+   ],
+   "top1_cos": 0.3617,
+   "rank_of_intended": 2,
+   "in_scope": true,
+   "hit1": false,
+   "hit3": true
+  },
+  {
+   "dimension": "bangsamoro_peace_process",
+   "q": 1,
+   "question": "What is the Bangsamoro Basic Law and the peace agreement with the MILF?",
+   "top1": "bangsamoro_peace_process",
+   "top3": [
+    "bangsamoro_peace_process",
+    "international_law_disputes",
+    "asean_law_association"
+   ],
+   "top1_cos": 0.3719,
+   "rank_of_intended": 1,
+   "in_scope": true,
+   "hit1": true,
+   "hit3": true
+  },
+  {
+   "dimension": "bangsamoro_peace_process",
+   "q": 2,
+   "question": "Is the Bangsamoro peace deal constitutional?",
+   "top1": "bangsamoro_peace_process",
+   "top3": [
+    "bangsamoro_peace_process",
+    "international_law_disputes",
+    "presidential_power_martial_law_people_power"
+   ],
+   "top1_cos": 0.4309,
+   "rank_of_intended": 1,
+   "in_scope": true,
+   "hit1": true,
+   "hit3": true
+  },
+  {
+   "dimension": "supreme_court_vacancies_and_chief_justiceship",
+   "q": 1,
+   "question": "Who will succeed the retiring justices and lead the Supreme Court?",
+   "top1": "supreme_court_vacancies_and_chief_justiceship",
+   "top3": [
+    "supreme_court_vacancies_and_chief_justiceship",
+    "us_supreme_court_and_american_politics",
+    "jbc_discernment_and_appointment"
+   ],
+   "top1_cos": 0.4247,
+   "rank_of_intended": 1,
+   "in_scope": true,
+   "hit1": true,
+   "hit3": true
+  },
+  {
+   "dimension": "supreme_court_vacancies_and_chief_justiceship",
+   "q": 2,
+   "question": "What do you think about the appointment of new justices by the president?",
+   "top1": "jbc_discernment_and_appointment",
+   "top3": [
+    "jbc_discernment_and_appointment",
+    "supreme_court_vacancies_and_chief_justiceship",
+    "us_supreme_court_and_american_politics"
+   ],
+   "top1_cos": 0.4432,
+   "rank_of_intended": 2,
+   "in_scope": true,
+   "hit1": false,
+   "hit3": true
+  },
+  {
+   "dimension": "faith_journey",
+   "q": 1,
+   "question": "What role do prayer and scripture play in your life?",
+   "top1": "faith_journey",
+   "top3": [
+    "faith_journey",
+    "life_story_family_school_and_church",
+    "twin_beacons_doctrine"
+   ],
+   "top1_cos": 0.4259,
+   "rank_of_intended": 1,
+   "in_scope": true,
+   "hit1": true,
+   "hit3": true
+  },
+  {
+   "dimension": "faith_journey",
+   "q": 2,
+   "question": "Tell me about Jesus and the Gospel and what they mean to you.",
+   "top1": "faith_journey",
+   "top3": [
+    "faith_journey",
+    "life_story_family_school_and_church",
+    "marcos_robredo_election_contest"
+   ],
+   "top1_cos": 0.4843,
+   "rank_of_intended": 1,
+   "in_scope": true,
+   "hit1": true,
+   "hit3": true
+  },
+  {
+   "dimension": "asean_law_association",
+   "q": 1,
+   "question": "What is the ASEAN Law Association and what does it do?",
+   "top1": "asean_law_association",
+   "top3": [
+    "asean_law_association",
+    "international_law_disputes",
+    "bangsamoro_peace_process"
+   ],
+   "top1_cos": 0.3963,
+   "rank_of_intended": 1,
+   "in_scope": true,
+   "hit1": true,
+   "hit3": true
+  },
+  {
+   "dimension": "asean_law_association",
+   "q": 2,
+   "question": "How can lawyers and judges in Southeast Asia promote the rule of law?",
+   "top1": "asean_law_association",
+   "top3": [
+    "asean_law_association",
+    "judicial_reform",
+    "twin_beacons_doctrine"
+   ],
+   "top1_cos": 0.2883,
+   "rank_of_intended": 1,
+   "in_scope": true,
+   "hit1": true,
+   "hit3": true
+  },
+  {
+   "dimension": "ill_gotten_wealth_and_the_pcgg",
+   "q": 1,
+   "question": "What is the PCGG and how are Marcos ill-gotten assets recovered?",
+   "top1": "ill_gotten_wealth_and_the_pcgg",
+   "top3": [
+    "ill_gotten_wealth_and_the_pcgg",
+    "property_contracts_and_economic_rights",
+    "economy_taxes_and_prosperity"
+   ],
+   "top1_cos": 0.5266,
+   "rank_of_intended": 1,
+   "in_scope": true,
+   "hit1": true,
+   "hit3": true
+  },
+  {
+   "dimension": "ill_gotten_wealth_and_the_pcgg",
+   "q": 2,
+   "question": "What did the courts decide about sequestration and forfeiture of Marcos wealth?",
+   "top1": "ill_gotten_wealth_and_the_pcgg",
+   "top3": [
+    "ill_gotten_wealth_and_the_pcgg",
+    "property_contracts_and_economic_rights",
+    "public_funds_budget_and_bank_evidence"
+   ],
+   "top1_cos": 0.4939,
+   "rank_of_intended": 1,
+   "in_scope": true,
+   "hit1": true,
+   "hit3": true
+  },
+  {
+   "dimension": "citizenship_and_residency_grace_poe",
+   "q": 1,
+   "question": "Is a foundling a natural-born Filipino citizen?",
+   "top1": "citizenship_and_residency_grace_poe",
+   "top3": [
+    "citizenship_and_residency_grace_poe",
+    "asean_law_association",
+    "foundation_for_liberty_and_prosperity"
+   ],
+   "top1_cos": 0.5347,
+   "rank_of_intended": 1,
+   "in_scope": true,
+   "hit1": true,
+   "hit3": true
+  },
+  {
+   "dimension": "citizenship_and_residency_grace_poe",
+   "q": 2,
+   "question": "What did the Court decide in the Grace Poe residency case?",
+   "top1": "citizenship_and_residency_grace_poe",
+   "top3": [
+    "citizenship_and_residency_grace_poe",
+    "marriage_annulment_and_the_family_code",
+    "libel_and_cybercrime"
+   ],
+   "top1_cos": 0.4547,
+   "rank_of_intended": 1,
+   "in_scope": true,
+   "hit1": true,
+   "hit3": true
+  },
+  {
+   "dimension": "marriage_annulment_and_the_family_code",
+   "q": 1,
+   "question": "What is psychological incapacity in marriage annulment cases?",
+   "top1": "marriage_annulment_and_the_family_code",
+   "top3": [
+    "marriage_annulment_and_the_family_code",
+    "death_penalty_and_echegaray",
+    "science_technology_and_the_law"
+   ],
+   "top1_cos": 0.464,
+   "rank_of_intended": 1,
+   "in_scope": true,
+   "hit1": true,
+   "hit3": true
+  },
+  {
+   "dimension": "marriage_annulment_and_the_family_code",
+   "q": 2,
+   "question": "Should the Philippines allow divorce under the Family Code?",
+   "top1": "marriage_annulment_and_the_family_code",
+   "top3": [
+    "marriage_annulment_and_the_family_code",
+    "bangsamoro_peace_process",
+    "international_law_disputes"
+   ],
+   "top1_cos": 0.3447,
+   "rank_of_intended": 1,
+   "in_scope": true,
+   "hit1": true,
+   "hit3": true
+  },
+  {
+   "dimension": "bar_exam_and_legal_education",
+   "q": 1,
+   "question": "How should the bar examinations and law schools prepare lawyers?",
+   "top1": "bar_exam_and_legal_education",
+   "top3": [
+    "bar_exam_and_legal_education",
+    "judicial_reform",
+    "jbc_discernment_and_appointment"
+   ],
+   "top1_cos": 0.5697,
+   "rank_of_intended": 1,
+   "in_scope": true,
+   "hit1": true,
+   "hit3": true
+  },
+  {
+   "dimension": "bar_exam_and_legal_education",
+   "q": 2,
+   "question": "What advice do you have for bar topnotchers and new lawyers?",
+   "top1": "bar_exam_and_legal_education",
+   "top3": [
+    "bar_exam_and_legal_education",
+    "life_story_family_school_and_church",
+    "foundation_for_liberty_and_prosperity"
+   ],
+   "top1_cos": 0.3658,
+   "rank_of_intended": 1,
+   "in_scope": true,
+   "hit1": true,
+   "hit3": true
+  },
+  {
+   "dimension": "jbc_discernment_and_appointment",
+   "q": 1,
+   "question": "How does the Judicial and Bar Council select nominees for the judiciary?",
+   "top1": "jbc_discernment_and_appointment",
+   "top3": [
+    "jbc_discernment_and_appointment",
+    "judicial_reform",
+    "supreme_court_vacancies_and_chief_justiceship"
+   ],
+   "top1_cos": 0.4614,
+   "rank_of_intended": 1,
+   "in_scope": true,
+   "hit1": true,
+   "hit3": true
+  },
+  {
+   "dimension": "jbc_discernment_and_appointment",
+   "q": 2,
+   "question": "What are the JBC's rules for drawing up the shortlist for a vacancy?",
+   "top1": "jbc_discernment_and_appointment",
+   "top3": [
+    "jbc_discernment_and_appointment",
+    "supreme_court_vacancies_and_chief_justiceship",
+    "bar_exam_and_legal_education"
+   ],
+   "top1_cos": 0.3813,
+   "rank_of_intended": 1,
+   "in_scope": true,
+   "hit1": true,
+   "hit3": true
+  },
+  {
+   "dimension": "death_penalty_and_echegaray",
+   "q": 1,
+   "question": "What do you think about the death penalty?",
+   "top1": "death_penalty_and_echegaray",
+   "top3": [
+    "death_penalty_and_echegaray",
+    "science_technology_and_the_law",
+    "libel_and_cybercrime"
+   ],
+   "top1_cos": 0.3694,
+   "rank_of_intended": 1,
+   "in_scope": true,
+   "hit1": true,
+   "hit3": true
+  },
+  {
+   "dimension": "death_penalty_and_echegaray",
+   "q": 2,
+   "question": "What was the Echegaray case and what was your reflection on it?",
+   "top1": "death_penalty_and_echegaray",
+   "top3": [
+    "death_penalty_and_echegaray",
+    "libel_and_cybercrime",
+    "science_technology_and_the_law"
+   ],
+   "top1_cos": 0.1502,
+   "rank_of_intended": 1,
+   "in_scope": true,
+   "hit1": true,
+   "hit3": true
+  }
+ ],
+ "short_form": {
+  "n": 30,
+  "top1_accuracy": 0.8666666666666667,
+  "top3_accuracy": 0.8666666666666667,
+  "rows": [
+   {
+    "dimension": "life_story_family_school_and_church",
+    "question": "Tell me about your childhood.",
+    "top1": "life_story_family_school_and_church",
+    "top3": [
+     "life_story_family_school_and_church",
+     "faith_journey",
+     "science_technology_and_the_law"
+    ],
+    "top1_cos": 0.2167,
+    "in_scope": true,
+    "hit1": true,
+    "hit3": true
+   },
+   {
+    "dimension": "criminal_trials_and_prosecutions",
+    "question": "How does bail work?",
+    "top1": "criminal_trials_and_prosecutions",
+    "top3": [
+     "criminal_trials_and_prosecutions",
+     "death_penalty_and_echegaray",
+     "public_funds_budget_and_bank_evidence"
+    ],
+    "top1_cos": 0.2056,
+    "in_scope": true,
+    "hit1": true,
+    "hit3": true
+   },
+   {
+    "dimension": "international_law_disputes",
+    "question": "What is the arbitral award?",
+    "top1": "international_law_disputes",
+    "top3": [
+     "international_law_disputes",
+     "bar_exam_and_legal_education",
+     "property_contracts_and_economic_rights"
+    ],
+    "top1_cos": 0.1696,
+    "in_scope": true,
+    "hit1": true,
+    "hit3": true
+   },
+   {
+    "dimension": "property_contracts_and_economic_rights",
+    "question": "What are contract rights?",
+    "top1": "property_contracts_and_economic_rights",
+    "top3": [
+     "property_contracts_and_economic_rights",
+     "marriage_annulment_and_the_family_code",
+     "economy_taxes_and_prosperity"
+    ],
+    "top1_cos": 0.3111,
+    "in_scope": true,
+    "hit1": true,
+    "hit3": true
+   },
+   {
+    "dimension": "how_the_supreme_court_decides",
+    "question": "How does the Court decide cases?",
+    "top1": "how_the_supreme_court_decides",
+    "top3": [
+     "how_the_supreme_court_decides",
+     "death_penalty_and_echegaray",
+     "judicial_reform"
+    ],
+    "top1_cos": 0.3261,
+    "in_scope": true,
+    "hit1": true,
+    "hit3": true
+   },
+   {
+    "dimension": "libel_and_cybercrime",
+    "question": "What is cyberlibel?",
+    "top1": "libel_and_cybercrime",
+    "top3": [
+     "libel_and_cybercrime",
+     "science_technology_and_the_law",
+     "foundation_for_liberty_and_prosperity"
+    ],
+    "top1_cos": 0.2471,
+    "in_scope": true,
+    "hit1": true,
+    "hit3": true
+   },
+   {
+    "dimension": "presidential_power_martial_law_people_power",
+    "question": "What is martial law?",
+    "top1": "presidential_power_martial_law_people_power",
+    "top3": [
+     "presidential_power_martial_law_people_power",
+     "bangsamoro_peace_process",
+     "international_law_disputes"
+    ],
+    "top1_cos": 0.2624,
+    "in_scope": true,
+    "hit1": true,
+    "hit3": true
+   },
+   {
+    "dimension": "elections_and_automated_voting",
+    "question": "What is wrong with automated elections?",
+    "top1": "elections_and_automated_voting",
+    "top3": [
+     "elections_and_automated_voting",
+     "us_supreme_court_and_american_politics",
+     "marcos_robredo_election_contest"
+    ],
+    "top1_cos": 0.5108,
+    "in_scope": true,
+    "hit1": true,
+    "hit3": true
+   },
+   {
+    "dimension": "judiciary_milestones_and_tributes",
+    "question": "Tell me about the centenary.",
+    "top1": "foundation_for_liberty_and_prosperity",
+    "top3": [
+     "foundation_for_liberty_and_prosperity",
+     "life_story_family_school_and_church",
+     "faith_journey"
+    ],
+    "top1_cos": 0.2297,
+    "in_scope": true,
+    "hit1": false,
+    "hit3": false
+   },
+   {
+    "dimension": "judicial_reform",
+    "question": "Why are court cases delayed?",
+    "top1": "judicial_reform",
+    "top3": [
+     "judicial_reform",
+     "how_the_supreme_court_decides",
+     "death_penalty_and_echegaray"
+    ],
+    "top1_cos": 0.2377,
+    "in_scope": true,
+    "hit1": true,
+    "hit3": true
+   },
+   {
+    "dimension": "party_list_charter_change_and_dynasties",
+    "question": "What is the party-list system?",
+    "top1": "party_list_charter_change_and_dynasties",
+    "top3": [
+     "party_list_charter_change_and_dynasties",
+     "us_supreme_court_and_american_politics",
+     "marcos_robredo_election_contest"
+    ],
+    "top1_cos": 0.4263,
+    "in_scope": true,
+    "hit1": true,
+    "hit3": true
+   },
+   {
+    "dimension": "science_technology_and_the_law",
+    "question": "What about artificial intelligence?",
+    "top1": "science_technology_and_the_law",
+    "top3": [
+     "science_technology_and_the_law",
+     "libel_and_cybercrime",
+     "us_supreme_court_and_american_politics"
+    ],
+    "top1_cos": 0.3707,
+    "in_scope": true,
+    "hit1": true,
+    "hit3": true
+   },
+   {
+    "dimension": "economy_taxes_and_prosperity",
+    "question": "How do taxes affect the economy?",
+    "top1": "economy_taxes_and_prosperity",
+    "top3": [
+     "economy_taxes_and_prosperity",
+     "property_contracts_and_economic_rights",
+     "twin_beacons_doctrine"
+    ],
+    "top1_cos": 0.3394,
+    "in_scope": true,
+    "hit1": true,
+    "hit3": true
+   },
+   {
+    "dimension": "impeachment_accountability",
+    "question": "What is impeachment?",
+    "top1": "impeachment_accountability",
+    "top3": [
+     "impeachment_accountability",
+     "us_supreme_court_and_american_politics",
+     "public_funds_budget_and_bank_evidence"
+    ],
+    "top1_cos": 0.4367,
+    "in_scope": true,
+    "hit1": true,
+    "hit3": true
+   },
+   {
+    "dimension": "foundation_for_liberty_and_prosperity",
+    "question": "What is the Foundation?",
+    "top1": "foundation_for_liberty_and_prosperity",
+    "top3": [
+     "foundation_for_liberty_and_prosperity",
+     "twin_beacons_doctrine",
+     "faith_journey"
+    ],
+    "top1_cos": 0.1496,
+    "in_scope": true,
+    "hit1": true,
+    "hit3": true
+   },
+   {
+    "dimension": "public_funds_budget_and_bank_evidence",
+    "question": "What is the pork barrel?",
+    "top1": "economy_taxes_and_prosperity",
+    "top3": [
+     "economy_taxes_and_prosperity",
+     "faith_journey",
+     "foundation_for_liberty_and_prosperity"
+    ],
+    "top1_cos": 0.0938,
+    "in_scope": false,
+    "hit1": false,
+    "hit3": false
+   },
+   {
+    "dimension": "us_supreme_court_and_american_politics",
+    "question": "Tell me about Donald Trump.",
+    "top1": "us_supreme_court_and_american_politics",
+    "top3": [
+     "us_supreme_court_and_american_politics",
+     "life_story_family_school_and_church",
+     "marcos_robredo_election_contest"
+    ],
+    "top1_cos": 0.4427,
+    "in_scope": true,
+    "hit1": true,
+    "hit3": true
+   },
+   {
+    "dimension": "independent_commissions_and_appointments",
+    "question": "What is the Ombudsman?",
+    "top1": "independent_commissions_and_appointments",
+    "top3": [
+     "independent_commissions_and_appointments",
+     "libel_and_cybercrime",
+     "public_funds_budget_and_bank_evidence"
+    ],
+    "top1_cos": 0.1508,
+    "in_scope": true,
+    "hit1": true,
+    "hit3": true
+   },
+   {
+    "dimension": "twin_beacons_doctrine",
+    "question": "What is the twin-beacons doctrine?",
+    "top1": "international_law_disputes",
+    "top3": [
+     "international_law_disputes",
+     "marriage_annulment_and_the_family_code",
+     "science_technology_and_the_law"
+    ],
+    "top1_cos": 0.1657,
+    "in_scope": true,
+    "hit1": false,
+    "hit3": false
+   },
+   {
+    "dimension": "marcos_robredo_election_contest",
+    "question": "Tell me about Leni Robredo's protest.",
+    "top1": "marcos_robredo_election_contest",
+    "top3": [
+     "marcos_robredo_election_contest",
+     "presidential_power_martial_law_people_power",
+     "elections_and_automated_voting"
+    ],
+    "top1_cos": 0.2091,
+    "in_scope": true,
+    "hit1": true,
+    "hit3": true
+   },
+   {
+    "dimension": "bangsamoro_peace_process",
+    "question": "What is the Bangsamoro?",
+    "top1": "bangsamoro_peace_process",
+    "top3": [
+     "bangsamoro_peace_process",
+     "marcos_robredo_election_contest",
+     "economy_taxes_and_prosperity"
+    ],
+    "top1_cos": 0.1598,
+    "in_scope": true,
+    "hit1": true,
+    "hit3": true
+   },
+   {
+    "dimension": "supreme_court_vacancies_and_chief_justiceship",
+    "question": "Who will be the next Chief Justice?",
+    "top1": "supreme_court_vacancies_and_chief_justiceship",
+    "top3": [
+     "supreme_court_vacancies_and_chief_justiceship",
+     "jbc_discernment_and_appointment",
+     "us_supreme_court_and_american_politics"
+    ],
+    "top1_cos": 0.4205,
+    "in_scope": true,
+    "hit1": true,
+    "hit3": true
+   },
+   {
+    "dimension": "faith_journey",
+    "question": "Tell me about your faith.",
+    "top1": "faith_journey",
+    "top3": [
+     "faith_journey",
+     "life_story_family_school_and_church",
+     "marcos_robredo_election_contest"
+    ],
+    "top1_cos": 0.4469,
+    "in_scope": true,
+    "hit1": true,
+    "hit3": true
+   },
+   {
+    "dimension": "asean_law_association",
+    "question": "What is the ASEAN Law Association?",
+    "top1": "asean_law_association",
+    "top3": [
+     "asean_law_association",
+     "international_law_disputes",
+     "bangsamoro_peace_process"
+    ],
+    "top1_cos": 0.4558,
+    "in_scope": true,
+    "hit1": true,
+    "hit3": true
+   },
+   {
+    "dimension": "ill_gotten_wealth_and_the_pcgg",
+    "question": "What is ill-gotten wealth?",
+    "top1": "economy_taxes_and_prosperity",
+    "top3": [
+     "economy_taxes_and_prosperity",
+     "twin_beacons_doctrine",
+     "foundation_for_liberty_and_prosperity"
+    ],
+    "top1_cos": 0.2651,
+    "in_scope": true,
+    "hit1": false,
+    "hit3": false
+   },
+   {
+    "dimension": "citizenship_and_residency_grace_poe",
+    "question": "Who is a natural-born citizen?",
+    "top1": "citizenship_and_residency_grace_poe",
+    "top3": [
+     "citizenship_and_residency_grace_poe",
+     "us_supreme_court_and_american_politics",
+     "science_technology_and_the_law"
+    ],
+    "top1_cos": 0.4679,
+    "in_scope": true,
+    "hit1": true,
+    "hit3": true
+   },
+   {
+    "dimension": "marriage_annulment_and_the_family_code",
+    "question": "What is annulment?",
+    "top1": "marriage_annulment_and_the_family_code",
+    "top3": [
+     "marriage_annulment_and_the_family_code",
+     "death_penalty_and_echegaray",
+     "us_supreme_court_and_american_politics"
+    ],
+    "top1_cos": 0.268,
+    "in_scope": true,
+    "hit1": true,
+    "hit3": true
+   },
+   {
+    "dimension": "bar_exam_and_legal_education",
+    "question": "Tell me about the bar exam.",
+    "top1": "bar_exam_and_legal_education",
+    "top3": [
+     "bar_exam_and_legal_education",
+     "jbc_discernment_and_appointment",
+     "judicial_reform"
+    ],
+    "top1_cos": 0.4623,
+    "in_scope": true,
+    "hit1": true,
+    "hit3": true
+   },
+   {
+    "dimension": "jbc_discernment_and_appointment",
+    "question": "What is the JBC?",
+    "top1": "jbc_discernment_and_appointment",
+    "top3": [
+     "jbc_discernment_and_appointment",
+     "bar_exam_and_legal_education",
+     "faith_journey"
+    ],
+    "top1_cos": 0.284,
+    "in_scope": true,
+    "hit1": true,
+    "hit3": true
+   },
+   {
+    "dimension": "death_penalty_and_echegaray",
+    "question": "Tell me about the death penalty.",
+    "top1": "death_penalty_and_echegaray",
+    "top3": [
+     "death_penalty_and_echegaray",
+     "libel_and_cybercrime",
+     "science_technology_and_the_law"
+    ],
+    "top1_cos": 0.3825,
+    "in_scope": true,
+    "hit1": true,
+    "hit3": true
+   }
+  ],
+  "never_win_top1": [
+   "judiciary_milestones_and_tributes",
+   "public_funds_budget_and_bank_evidence",
+   "twin_beacons_doctrine",
+   "ill_gotten_wealth_and_the_pcgg"
+  ]
+ },
+ "router_measured": "retrieval.route() centroid router; NOT the live robot's Haiku router (no ANTHROPIC_API_KEY in this environment)"
+}
