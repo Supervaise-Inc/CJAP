@@ -46,6 +46,26 @@ rebuild centroids. CE-8 is marked *(human decision — no CC prompt)*.
 The `phaseN_*` evidence files keep their names so the commit messages and reports that cite them stay
 valid. Read them as run records, not as plan phases.
 
+## CE-11 → CE-14: the gate before the robot is demonstrated
+
+**P6 VALIDITY AND SAFETY GATE has a concrete meaning now.** batch-04 (CE-4 → CE-10) rebuilt the corpus
+and the taxonomy; Phase 8 (post-batch-04) wired the robot to be *able* to run the retrieval stack behind
+`config.CJ_PIPELINE`, default `legacy`. **CE-11 → CE-14 is what has to pass before `CJ_PIPELINE=retrieval`
+becomes that default** — validating the retrieval stack against a gold set on the full 1,290-document
+corpus, not the 95-document `pilot_subset_frozen_v4` universe several `eval/` scripts still assume. Three
+open numbers it has to beat or explain, carried forward from `batch-04/BATCH-04_REPORT.md`:
+
+- **Routing top-1 86.7%** on the 30-dimension taxonomy, with `twin_beacons_doctrine` — the project's
+  flagship concept — among the four dimensions that never win their own question.
+- **The frozen-40 drift**: 14 of 40 selected result sets changed after the move to the 30-dimension map,
+  gold hit@10 down 2.9 points (hit@1/3/5 unchanged).
+- **`arch_baseline_v2` is not the comparator** — it carries `universe: 827` and predates bge-base
+  entirely. CE-11 needs a fresh baseline taken on the current 1,290-document universe before any
+  before/after comparison means anything.
+
+See `docs/architecture/PIPELINES.md` and `docs/architecture/PARITY_MATRIX.md` for what `CJ_PIPELINE=retrieval`
+does and does not yet do relative to the pipeline the robot has run for months.
+
 ## Deleted (recoverable from git history — all were tracked and committed)
 
 ```

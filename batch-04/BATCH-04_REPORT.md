@@ -20,11 +20,15 @@ Phase 7's.
 | taxonomy dimensions | 35 | 30 |
 
 The taxonomy figure needed a direct check: batch-04's own prompts cite 34; the committed v1 file
-(`corpus/voice/topic_map_v1_2026-05-25.json`) has 35. 35 → 30 is what is actually on disk. Of the 30,
-**10 ids survive from v1** unchanged (`asean_law_association`, `bar_exam_and_legal_education`,
-`death_penalty_and_echegaray`, `faith_journey`, `foundation_for_liberty_and_prosperity`,
-`impeachment_accountability`, `international_law_disputes`, `jbc_discernment_and_appointment`,
-`judicial_reform`, `twin_beacons_doctrine`) and **20 are newly derived** from the full corpus.
+(`corpus/voice/topic_map_v1_2026-05-25.json`) has 35. **Both are right about a different thing (found
+in Phase 8):** v1 *defined* 35 topics but only ever *deployed* 34 centroids
+(`topic_centroids_meta.n_topics` was 34 in the v1 build — `robot_identity_meta` was already excluded
+from the centroid matrix, it just hadn't yet been formally moved to an `intents` block). v2 defines 30
+and deploys 30. Of the 30, **10 ids survive from v1** unchanged (`asean_law_association`,
+`bar_exam_and_legal_education`, `death_penalty_and_echegaray`, `faith_journey`,
+`foundation_for_liberty_and_prosperity`, `impeachment_accountability`, `international_law_disputes`,
+`jbc_discernment_and_appointment`, `judicial_reform`, `twin_beacons_doctrine`) and **20 are newly
+derived** from the full corpus.
 
 ## The raw-to-centred cosine change
 

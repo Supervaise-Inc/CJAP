@@ -7,8 +7,12 @@ retired ids in `data/csv/retired_doc_ids.csv`).
 
 **This bundle is data only.** Application code (`app/`, `config.py`, `requirements-pi.txt`) reaches the
 Pi through the existing `deploy/pi/install.sh` git-clone path, not this folder - see
-`batch-04/BATCH-04_REPORT.md` for why that split does not fully match how `install.sh` works today
-(`app/service.py`, the pipeline this bundle's file list was traced against, is not yet committed to git).
+`deploy/pi/TRANSFER.md` §7-8 and `docs/architecture/PIPELINES.md` for why that split does not fully
+match how `install.sh` works today: `app/service.py` (the pipeline this bundle's file list was traced
+against) is committed on `deliverable/2026-09` as of Phase 8, but neither it nor `app/retrieval.py`,
+`app/embeddings.py`, `app/sparse.py` or `app/centering.py` exist yet on `pi/deployment-snapshots`, the
+branch `install.sh` actually clones - so `install.sh` alone still does not deliver the code this data
+serves.
 
 Totals: **1,314 files** (1,313 listed below plus this manifest),
 **540,696,636 bytes**.

@@ -1,0 +1,86 @@
+{
+  "n_queries": 22,
+  "n_non_identity_mismatches": 0,
+  "non_identity_mismatches": [],
+  "identity_results": [
+    {
+      "query": "Are you really Chief Justice Panganiban, or is this an AI?",
+      "gate_scope": "identity_probe",
+      "node_id": "robot_identity_meta",
+      "node_kind": "intent",
+      "directives": {
+        "register": "transparent, self-aware",
+        "theme": "META",
+        "disclaimer": "",
+        "date_note": ""
+      },
+      "payload_len": 804,
+      "token_budget": 120
+    },
+    {
+      "query": "How were you built? Are you a robot?",
+      "gate_scope": "identity_probe",
+      "node_id": "robot_identity_meta",
+      "node_kind": "intent",
+      "directives": {
+        "register": "transparent, self-aware",
+        "theme": "META",
+        "disclaimer": "",
+        "date_note": ""
+      },
+      "payload_len": 782,
+      "token_budget": 120
+    }
+  ],
+  "end_to_end_no_api_key": {
+    "answer": "With due respect, I am unable to give that the considered answer it deserves just now. Let me reflect on it and get back to you.",
+    "envelope": {
+      "service_version": "1.0",
+      "retrieval_arch": "w1.8-rrf-softprior",
+      "query": "How were you built? Are you a robot?",
+      "route": {
+        "top_topic": "robot_identity_meta",
+        "top_cosine": null,
+        "in_scope": true,
+        "routed_topics": [
+          [
+            "robot_identity_meta",
+            null
+          ]
+        ],
+        "fallback_global": false
+      },
+      "retrieval": {
+        "universe_size": 0,
+        "dense_n": 0,
+        "sparse_n": 0,
+        "aligned": true,
+        "selected_chunk_ids": [],
+        "scores": []
+      },
+      "directives": {
+        "register": "transparent, self-aware",
+        "theme": "META",
+        "disclaimer": "",
+        "date_note": ""
+      },
+      "timing_ms": {
+        "embed_query_ms": 0.0,
+        "route_centroids_ms": 0.0,
+        "retrieve_rrf_cutoff_ms": 0.0,
+        "compose_ms": 10648.5,
+        "total_ms": 10648.5
+      },
+      "llm_calls_before_composition": 0,
+      "composer_model": "claude-sonnet-4-6",
+      "composer_transport": "native_sdk",
+      "composer_envelope": {},
+      "composer_stop_reason": "error_fallback",
+      "composer_ttft_ms": null,
+      "composer_degraded": true,
+      "composer_max_tokens": 120
+    },
+    "structurally_correct": true
+  },
+  "verdict": "PASS — 0 non-identity regressions, both identity queries route to robot_identity_meta at a 120-token budget, end-to-end run degrades gracefully at the network boundary as expected with no API key"
+}

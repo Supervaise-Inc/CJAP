@@ -1,0 +1,23 @@
+{
+  "app/answer_pipeline.py": {
+    "diff_bytes": 0,
+    "untouched": true
+  },
+  "app/speech_streaming.py": {
+    "diff_bytes": 0,
+    "untouched": true
+  },
+  "app/stream_speak.py": {
+    "diff_bytes": 0,
+    "untouched": true
+  },
+  "app/main_voice_robot.py": {
+    "n_removed_lines": 1,
+    "removed_lines": [
+      "-    bail-out, offline, history, and stop-word semantics as the whole-answer speak() path.\"\"\""
+    ]
+  },
+  "config.py": {
+    "n_removed_lines": 0
+  }
+}

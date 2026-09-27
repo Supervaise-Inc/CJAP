@@ -1865,7 +1865,18 @@ def _handle_turn_streaming(client, artifacts, gestures, history, stop,
                            question, raw_asr, stt_s):
     """Streaming variant of the compose+speak half of handle_turn: speech
     starts at the FIRST composed sentence (speech_streaming.py). Same filler,
-    bail-out, offline, history, and stop-word semantics as the whole-answer speak() path."""
+    bail-out, offline, history, and stop-word semantics as the whole-answer speak() path.
+
+    [Phase 8] This is the CJ_PIPELINE="legacy" path (the default). Every line below this docstring is
+    UNCHANGED by Phase 8 - the only new code is the guard immediately below, which is a no-op whenever
+    config.CJ_PIPELINE == "legacy": the condition is False, so nothing after it runs and control falls
+    straight through to the code that has been here for months. See docs/architecture/PIPELINES.md and
+    docs/architecture/PARITY_MATRIX.md for what the "retrieval" branch this guard reaches does and does
+    not yet do."""
+    import config
+    if config.CJ_PIPELINE == "retrieval":
+        return _handle_turn_retrieval(client, artifacts, gestures, history, stop,
+                                      question, raw_asr, stt_s)
     t0 = time.monotonic()
     cost0 = _api_cost_snapshot()
     filler = play_filler()
@@ -2006,6 +2017,96 @@ def _handle_turn_streaming(client, artifacts, gestures, history, stop,
         if listener is not None:
             listener.close()
         _SENT_OUT.close()   # drain the last sentence's tail, free the device
+
+
+def _handle_turn_retrieval(client, artifacts, gestures, history, stop,
+                           question, raw_asr, stt_s):
+    """[Phase 8] CJ_PIPELINE="retrieval" turn handler. Reached only from the guard at the top of
+    _handle_turn_streaming, which this function's presence must not make byte-different for "legacy".
+
+    Deliberately NOT a per-sentence streaming integration — docs/architecture/PARITY_MATRIX.md row 8
+    names that as future work, since it means rebuilding speech_streaming.SentenceSpeaker's gesture/
+    caption/interrupt machinery against service.py's on_text callback, a project on its own. Instead:
+    service.answer() composes the WHOLE reply, then the existing whole-answer speak() primitive (used
+    today for offline notices, farewells and non-streaming replies) voices it — no new audio code, and
+    stop-word interruption during playback keeps working because speak() already implements it.
+
+    `client` and `artifacts` (CorpusArtifacts, the legacy Haiku-router config) are accepted only for
+    call-site parity with _handle_turn_streaming's signature; this function never imports
+    answer_pipeline and never touches either argument — "neither path imports the other" (Phase 8 step 3).
+    """
+    import service
+    cost0 = _api_cost_snapshot()   # answer_pipeline's global counter; this pipeline's own spend is not
+                                    # tracked by it (docs/architecture/PARITY_MATRIX.md row 11) — best-effort.
+    filler = play_filler()
+    result, done = {}, threading.Event()
+
+    def _worker():
+        try:
+            result["out"] = service.answer(question)
+        except Exception as e:
+            result["err"] = e
+        finally:
+            done.set()
+
+    threading.Thread(target=_worker, daemon=True).start()
+    while not done.wait(0.25):
+        if filler.exhausted.is_set():
+            print(f"[filler] {filler.max_clips} fillers played, no answer yet — bailing out")
+            _publish_transcript("note", "(no answer in time — asked for a more specific question)")
+            filler.stop()
+            gestures.start("talk")
+            if os.path.exists(BAIL_WAV):
+                subprocess.run(["aplay", "-q", BAIL_WAV], stderr=subprocess.DEVNULL)
+            return True
+
+    if "err" in result:
+        if not internet_up():
+            print(f"[net] offline during compose ({type(result['err']).__name__}) "
+                  "— voicing the offline notice")
+            _publish_transcript("note", "(offline during compose — spoke the no-internet notice)")
+            filler.stop()
+            gestures.start("talk")
+            say_offline()
+            return True
+        filler.stop()
+        gestures.start("talk")
+        _say_apology(result["err"])
+        return True
+
+    out = result.get("out") or {}
+    response = out.get("answer")
+    if not response:
+        filler.stop()
+        return True
+    env = out["envelope"]
+    _publish_transcript("cj", response)
+    try:  # P2.5 maintenance feed — field names reflect this pipeline, not answer_pipeline's
+        _publish_turn_meta({
+            "phase": "composed", "raw_asr": raw_asr, "question": question, "answer": response,
+            "topic": env["route"]["top_topic"], "theme": env["directives"].get("theme", ""),
+            "confidence": None, "token_budget": env.get("composer_max_tokens"),
+            "dynamic_tokens": False, "stt_s": stt_s,
+            "compose_s": (env.get("timing_ms", {}).get("compose_ms") or 0) / 1000.0,
+            "docs": env["retrieval"]["selected_chunk_ids"],
+            "streamed": False, "pipeline": "retrieval",
+            **_cost_meta(cost0),
+        })
+    except Exception as e:
+        print(f"[meta] publish skipped: {e}")
+    gestures.start("talk")
+    interrupted = speak(response, filler=filler, stop=stop)
+    history += [{"role": "user", "content": question},
+                {"role": "assistant", "content": response}]
+    del history[:-20]
+    _trace_turn(path="retrieval", stt_s=stt_s,
+                compose_s=(env.get("timing_ms", {}).get("compose_ms") or 0) / 1000.0,
+                first_audio_s=None, audio_s=None, words=len(response.split()),
+                topic=env["route"]["top_topic"], interrupted=bool(interrupted))
+    if interrupted:
+        _publish_transcript("note", "(answer interrupted by wake phrase — listening)")
+        return "interrupted"
+    return True
 
 
 _ACK_DIR = os.path.expanduser("~/fillers_ack")
@@ -2583,6 +2684,10 @@ def main():
     print("Loading artifacts...")
     artifacts = CorpusArtifacts()
     print(f"  ok: {len(artifacts.topics)} topics loaded")
+    import config
+    print(f"[pipeline] CJ_PIPELINE={config.CJ_PIPELINE!r} "
+          f"({'Haiku router + Sonnet composer, live for months' if config.CJ_PIPELINE == 'legacy' else 'local dense+BM25+centroid retrieval, zero LLM calls before composition — see docs/architecture/PIPELINES.md'})"
+          " — read once at startup, not re-read mid-run")
     client = make_client()
     gestures = Gestures()
     gestures.neutral()

@@ -92,12 +92,15 @@ new deterministic retrieval pipeline (`app/service.py` + `app/retrieval.py`) rea
 `scripts/build_robot_bundle.py` on `deliverable/2026-09`; see its MANIFEST.md for exactly what is in it
 and why, and `batch-04/BATCH-04_REPORT.md` for the full reasoning.
 
-**Read this before using it.** As of this writing `app/service.py` — the only pipeline this bundle
-serves — is not yet committed to git, and the robot's systemd unit still runs the older
-`answer_pipeline.py` (Haiku-router) pipeline, which does not read this bundle at all. Copying
-`deploy/pi/bundle/` to a robot today changes nothing it does until that code lands on
-`pi/deployment-snapshots` and the unit is pointed at it. Treat this section as ready for that day, not
-as something to run against a robot in its current state.
+**Read this before using it (updated, Phase 8).** `app/service.py` is now committed — but on
+`deliverable/2026-09`, not on `pi/deployment-snapshots`, the branch `install.sh`'s `git clone` actually
+uses. As of this writing **none** of `app/service.py`, `app/retrieval.py`, `app/embeddings.py`,
+`app/sparse.py` or `app/centering.py` exist on `pi/deployment-snapshots` at all (checked directly,
+`git cat-file -e pi/deployment-snapshots:app/retrieval.py` fails) — a normal `install.sh` run on a fresh
+Pi delivers none of the code this bundle's data serves. Phase 8 added `config.CJ_PIPELINE`
+(`legacy` | `retrieval`, default **`legacy`**) so the new path is reachable and testable without
+flipping what's live; see §8 below for how to get the five files above onto a Pi today, as a deliberate
+stopgap, not a release process. `legacy` remains what a normal `install.sh` clone runs.
 
 Size: **516 MB, 1,315 files** (1,290 corpus document cards, the chunk store, the topic map and voice
 files, the dense/sparse/centroid indexes, and a 419 MB sentence encoder). The Pi needs **at least 1.1 GB
@@ -127,3 +130,51 @@ the `rsync` (plain `rsync -a` is resumable — it only re-sends the files that f
 partial); if it fails again, delete `~/data_bundle_incoming` and re-transfer from scratch rather than
 patching individual files, and check `df -h` first — a `FAILED open or read` line usually means the
 transfer ran out of disk space partway through.
+
+**Free space: not measured here.** This document was prepared from a development checkout with no
+network path to the robot (`ping`/`ssh reachy-mini.local` both returned nothing — no route from this
+environment), and nothing in the repo records the Pi's actual storage capacity or how much of it is
+free. The "1.1 GB free" above is what the bundle needs, not a confirmation the robot has it — **run
+`df -h /home/pollen` on the actual Pi before transferring**, and if free space is under that figure, say
+so and stop rather than starting a transfer that will fail partway through.
+
+## 8. `CJ_PIPELINE` — testing the retrieval stack on a robot without making it live
+
+Phase 8 (batch-04) wired `main_voice_robot.py` to pick its turn-handling pipeline from
+`config.CJ_PIPELINE`. **`legacy` is the default and stays the default** until CE-11 → CE-14 validate
+the retrieval stack (see `docs/architecture/PIPELINES.md` and `batch-04/BATCH-04_REPORT.md`). Setting
+`retrieval` makes the robot route, retrieve and compose entirely locally except for the one composer
+call — but do not do this on a robot people are relying on until that gate clears.
+
+**Getting the code there at all (the stopgap).** Because none of the five files above are on
+`pi/deployment-snapshots` (see §7), `install.sh` cannot deliver them. Until they are merged onto that
+branch through whatever release process this project settles on — not invented here — the only way to
+test `CJ_PIPELINE=retrieval` on a robot is to copy the files directly, on top of an existing
+`install.sh`-provisioned checkout, leaving its git state on `pi/deployment-snapshots` untouched:
+
+```bash
+# from a deliverable/2026-09 checkout — the five retrieval-stack modules plus the entry point
+# and config.py that reference them (main_voice_robot.py, config.py); app/ files go to app/,
+# config.py goes one level up, to the repo root
+R="pollen@<hostname>.local:~/Supervaise-Reachy-Mini-Project-main"
+rsync -a app/service.py app/retrieval.py app/embeddings.py app/sparse.py app/centering.py app/main_voice_robot.py "$R/app/"
+rsync -a config.py "$R/"
+```
+
+This is a manual file patch over a git checkout — `git status` on the Pi afterward will show these six
+files as locally modified against `pi/deployment-snapshots`. That is expected and reversible
+(`git checkout -- <path>` restores the deployed version for any file); it is not how this should reach
+production, only how it can be tried.
+
+**Setting the flag.** Add one line to `app/.env` (created by `install.sh`, never overwritten by it) or
+export it in the systemd unit's environment:
+
+```bash
+echo 'CJ_PIPELINE=retrieval' >> ~/Supervaise-Reachy-Mini-Project-main/app/.env
+sudo systemctl restart supervaise
+journalctl -u supervaise -n 20 --no-pager | grep '\[pipeline\]'   # confirms which one actually started
+```
+
+**Switching back:** delete that line (or set `CJ_PIPELINE=legacy`) and restart the service. `legacy` is
+also what running with no `CJ_PIPELINE` set at all gives you — the flag fails safe to `legacy` on a typo
+too (`config.py` logs a warning and falls back rather than starting in an unrecognised mode).

@@ -122,6 +122,89 @@ def _theme_of(topic_id: str) -> str:
     return _THEME_OF.get(topic_id.split("+")[0], "")
 
 
+# ===========================================================================
+# [Phase 8] Identity shortcut. Closes the gap Phase 7 found: retrieval.input_gate() already detects an
+# identity probe ("are you an AI?"), but nothing in this file used to act on it — the question fell
+# through to the normal centroid router, which cannot route to robot_identity_meta at all (it is an
+# INTENT with no centroid, doc_count 0, not a taxonomy topic), and scored whatever weakly-related topic
+# happened to be closest. app/answer_pipeline.py has always had this path (force_meta_routing() +
+# TOKEN_BUDGET_BY_DIM["robot_identity_meta"] = 120); this mirrors it for the retrieval pipeline: no
+# chunk retrieval (there is nothing to retrieve), answer from the intent's own definition text, at the
+# same 120-token cap.
+# ===========================================================================
+IDENTITY_TOKEN_BUDGET = 120   # mirrors app/answer_pipeline.py's TOKEN_BUDGET_BY_DIM["robot_identity_meta"]
+
+_TOPIC_MAP = None
+
+
+def _topic_map() -> dict:
+    global _TOPIC_MAP
+    if _TOPIC_MAP is None:
+        _TOPIC_MAP = json.loads((_REPO_ROOT / "corpus" / "voice" / "topic_map.json")
+                                .read_text(encoding=config.FILE_ENCODING))
+    return _TOPIC_MAP
+
+
+def _identity_node() -> dict:
+    """topic_map.json's intents.robot_identity_meta node — its persona/definition text, present in the
+    bundle whether or not this shortcut exists; see batch-04/BATCH-04_REPORT.md."""
+    return (_topic_map().get("intents") or {}).get("robot_identity_meta") or {}
+
+
+def _identity_directives() -> dict:
+    return {"register": _REGISTER.get("META", ""), "theme": "META", "disclaimer": "", "date_note": ""}
+
+
+def _identity_payload(query: str) -> str:
+    definition = _identity_node().get("definition", "")
+    return (
+        f"<identity_context>\n{definition}\n</identity_context>\n\n"
+        "<directives>\n"
+        f"- register: {_REGISTER.get('META', '')}\n"
+        "- Speak fully in persona as Chief Justice Artemio V. Panganiban himself. Never describe "
+        "yourself as an AI, robot, machine, or rendering (the voice card's Identity rule).\n"
+        "- Be brief, gracious and a little self-deprecating; this is a short aside, not a lecture.\n"
+        "</directives>\n\n"
+        "Answer in your own voice, grounded in the identity context above. Do not invent specifics.\n\n"
+        f"<question>\n{query}\n</question>"
+    )
+
+
+def _answer_identity(query_text: str, on_text=None) -> dict:
+    """Same envelope shape answer() returns for a normal turn (see the SERVICE CONTRACT at the top of
+    this file), so a caller never has to special-case which branch ran."""
+    t0 = time.perf_counter()
+    directives = _identity_directives()
+    system = _composer_system()
+    payload = _identity_payload(query_text)
+    comp = _compose_payload(system, payload, on_text=on_text, max_tokens=IDENTITY_TOKEN_BUDGET)
+    compose_ms = round((time.perf_counter() - t0) * 1000, 1)
+    timing = {"embed_query_ms": 0.0, "route_centroids_ms": 0.0, "retrieve_rrf_cutoff_ms": 0.0,
+              "compose_ms": compose_ms, "total_ms": compose_ms}
+    return {
+        "answer": comp["answer"],
+        "envelope": {
+            "service_version": config.SERVICE_VERSION,
+            "retrieval_arch": config.RETRIEVAL_ARCH_VERSION,
+            "query": query_text,
+            "route": {"top_topic": "robot_identity_meta", "top_cosine": None, "in_scope": True,
+                      "routed_topics": [("robot_identity_meta", None)], "fallback_global": False},
+            "retrieval": {"universe_size": 0, "dense_n": 0, "sparse_n": 0, "aligned": True,
+                          "selected_chunk_ids": [], "scores": []},
+            "directives": directives,
+            "timing_ms": timing,
+            "llm_calls_before_composition": 0,
+            "composer_model": config.COMPOSER_MODEL_ID,
+            "composer_transport": _resolve_transport(),
+            "composer_envelope": comp["envelope"],
+            "composer_stop_reason": comp["stop_reason"],
+            "composer_ttft_ms": comp["ttft_ms"],
+            "composer_degraded": comp["degraded"],
+            "composer_max_tokens": IDENTITY_TOKEN_BUDGET,
+        },
+    }
+
+
 def _allowlist(version: str) -> set:
     return set(l.split(",")[0].strip() for l in
                (_REPO_ROOT / "reports" / "pilot-eval subset" / f"pilot_subset_frozen_{version}.csv")
@@ -353,17 +436,19 @@ def _client():
     return _CLIENT
 
 
-def _stream_native(client, system: str, payload: str, on_text) -> dict:
+def _stream_native(client, system: str, payload: str, on_text, max_tokens: int | None = None) -> dict:
     """One streamed composition. PROSE chunks go to on_text as they arrive (a
     partial-sentinel tail is held back so the sentinel never leaks to the user);
-    the ENVELOPE after the sentinel is parsed, not spoken."""
+    the ENVELOPE after the sentinel is parsed, not spoken.
+    max_tokens overrides config.COMPOSER_MAX_TOKENS (used by the identity shortcut's 120-token cap;
+    None [Phase 8] preserves the original behaviour byte-for-byte)."""
     s = config.COMPOSER_ENVELOPE_SENTINEL
     buf = []
     emitted = 0
     ttft = None
     t0 = time.perf_counter()
     with client.messages.stream(
-            model=config.COMPOSER_MODEL_ID, max_tokens=config.COMPOSER_MAX_TOKENS,
+            model=config.COMPOSER_MODEL_ID, max_tokens=max_tokens or config.COMPOSER_MAX_TOKENS,
             system=[{"type": "text", "text": system, "cache_control": {"type": "ephemeral"}}],
             messages=[{"role": "user", "content": payload}]) as st:
         for piece in st.text_stream:
@@ -389,22 +474,19 @@ def _stream_native(client, system: str, payload: str, on_text) -> dict:
             "stop_reason": final.stop_reason, "degraded": False, "usage": final.usage}
 
 
-def compose_streamed(query: str, selected, directives: dict, client=None, on_text=None,
-                     top_k=None) -> dict:
-    """Production composer with bounded retries + backoff + graceful in-voice
-    degradation. Returns {answer, envelope, raw, ttft_ms, stop_reason, degraded,
-    usage}. KEEPS Sonnet; the router stays zero-LLM (this is the only round-trip).
-    top_k overrides the payload chunk cap (used by the W2.6 expand retry)."""
-    system = _composer_system()
-    payload = build_payload(query, selected, directives, top_k=top_k)
+def _compose_payload(system: str, payload: str, client=None, on_text=None, max_tokens=None) -> dict:
+    """[Phase 8] The retry/backoff/graceful-degradation wrapper factored out of compose_streamed so the
+    identity shortcut (_answer_identity) can reuse it with a different payload and a lower max_tokens,
+    instead of duplicating this loop. Byte-identical to compose_streamed's old inline body when
+    max_tokens=None (the only way the pre-Phase-8 caller ever invoked it)."""
     native = _resolve_transport() == "native_sdk"
     last = None
     for attempt in range(config.COMPOSER_MAX_RETRIES + 1):
         try:
             if native:
-                return _stream_native(client or _client(), system, payload, on_text)
+                return _stream_native(client or _client(), system, payload, on_text, max_tokens=max_tokens)
             # curl fallback (no true streaming): one-shot, then split the envelope
-            raw = _messages(system, payload, max_tokens=config.COMPOSER_MAX_TOKENS)
+            raw = _messages(system, payload, max_tokens=max_tokens or config.COMPOSER_MAX_TOKENS)
             prose, env = _split_envelope(raw)
             return {"answer": prose, "envelope": env, "raw": raw, "ttft_ms": None,
                     "stop_reason": None, "degraded": False, "usage": None}
@@ -415,6 +497,17 @@ def compose_streamed(query: str, selected, directives: dict, client=None, on_tex
     return {"answer": config.COMPOSER_FALLBACK_MESSAGE, "envelope": {}, "raw": "",
             "ttft_ms": None, "stop_reason": "error_fallback", "degraded": True,
             "usage": None, "error": f"{type(last).__name__}: {last}"}
+
+
+def compose_streamed(query: str, selected, directives: dict, client=None, on_text=None,
+                     top_k=None) -> dict:
+    """Production composer with bounded retries + backoff + graceful in-voice
+    degradation. Returns {answer, envelope, raw, ttft_ms, stop_reason, degraded,
+    usage}. KEEPS Sonnet; the router stays zero-LLM (this is the only round-trip).
+    top_k overrides the payload chunk cap (used by the W2.6 expand retry)."""
+    system = _composer_system()
+    payload = build_payload(query, selected, directives, top_k=top_k)
+    return _compose_payload(system, payload, client=client, on_text=on_text)
 
 
 # ===========================================================================
@@ -489,7 +582,14 @@ def compose_with_expand(query: str, selected, directives: dict, client=None, on_
 def answer(query_text: str, allowlist_version: str = "v4", on_text=None) -> dict:
     """Service entry point. Returns {answer, envelope} per the v1.0 contract,
     now with the W2.1 streamed composer + trailing composer_envelope. Pass
-    on_text to consume the PROSE as it streams (TTFT preserved)."""
+    on_text to consume the PROSE as it streams (TTFT preserved).
+
+    [Phase 8] An identity probe is answered by _answer_identity() instead of the normal route below —
+    retrieval.input_gate() already detected these; nothing used to act on it (see the module note above
+    _answer_identity). Every other query below is completely unchanged from before Phase 8."""
+    if retrieval.input_gate(query_text)["scope"] == "identity_probe":
+        return _answer_identity(query_text, on_text=on_text)
+
     allow = _allowlist(allowlist_version)
     r = retrieval.run(query_text, allow)
     ri, rr, timing = r["route"], r["retrieval"], r["timing"]

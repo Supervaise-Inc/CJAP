@@ -92,6 +92,32 @@ def _env_path(name: str, default: Path) -> Path:
 
 
 # ===========================================================================
+# 0. PIPELINE SELECTION                                    [Phase 8, CE-11 gate]
+#    main_voice_robot.py's ONE fork between the two turn-handling architectures
+#    this repo carries (see docs/architecture/PIPELINES.md for the full record):
+#      legacy    - app/answer_pipeline.py: Haiku router + Sonnet composer, one
+#                  network round-trip before composition, does not read
+#                  data/index/ or models/. The pipeline the robot has run for
+#                  months and the systemd unit still starts today.
+#      retrieval - app/service.py + app/retrieval.py: local dense+BM25+centroid
+#                  routing, ZERO LLM calls before composition. The pipeline
+#                  batch-04 built the corpus and the deploy/pi/bundle/ data for.
+#    Read once at process start (main_voice_robot.py logs it in main()) and
+#    never re-read mid-run - env vars do not change under a running process,
+#    so a module-level read here already IS a "read once at startup".
+#    DEFAULT STAYS "legacy" until CE-11 -> CE-14 validate the retrieval stack
+#    against a gold set on the full 1,290-document corpus (see
+#    docs/p3/README.md and batch-04/BATCH-04_REPORT.md). Do not flip this
+#    default as part of routine config tuning.
+_PIPELINE_RAW = _env_str("CJ_PIPELINE", "legacy").strip().lower()
+if _PIPELINE_RAW not in ("legacy", "retrieval"):
+    print(f"[config] CJ_PIPELINE={_PIPELINE_RAW!r} is not 'legacy' or 'retrieval' - "
+          f"falling back to 'legacy' rather than starting in an unknown mode.")
+    _PIPELINE_RAW = "legacy"
+CJ_PIPELINE: str = _PIPELINE_RAW
+
+
+# ===========================================================================
 # 1. RETRIEVAL CUTOFF                                            [NEW-ARCH]
 #    How many passages survive to the composer. Higher recall ⇄ more tokens.
 # ===========================================================================

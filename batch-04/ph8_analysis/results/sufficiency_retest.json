@@ -1,0 +1,20 @@
+{
+  "n_queries": 22,
+  "pipeline": "retrieval",
+  "model_load_count_isolated": 1,
+  "n_mismatches": 0,
+  "mismatches": [],
+  "identity_queries_both_sides_agree_it_is_an_identity_probe": [
+    {
+      "query": "Are you really Chief Justice Panganiban, or is this an AI?",
+      "full_repo_node": "robot_identity_meta",
+      "full_repo_budget": 120
+    },
+    {
+      "query": "How were you built? Are you a robot?",
+      "full_repo_node": "robot_identity_meta",
+      "full_repo_budget": 120
+    }
+  ],
+  "verdict": "SUFFICIENT — all fields match between the isolated bundle and a fresh full-repo run of the SAME (identity-fixed) code"
+}
