@@ -232,8 +232,9 @@ if __name__ == "__main__":
 
 
 def test_maintain_role_switch(tmp_path, monkeypatch):
-    """/maintain carries the Panganiban/Host switch (2026-09-12) and its
-    POST /api/role reaches the console the same way /console does."""
+    """/maintain no longer carries the Panganiban/Host switch (single-robot
+    page since 2026-09-28), but POST /api/role — which /console's one-click
+    fix-up still uses — reaches the console exactly as before (2026-09-12)."""
     import console as cs
     _fixture_files()
     _point_at_fixtures()
@@ -248,7 +249,9 @@ def test_maintain_role_switch(tmp_path, monkeypatch):
     srv, base = _serve()
     try:
         page = urlopen(base + "/maintain?key=" + ui.DASH_KEY).read()
-        assert b'id="role-alpha"' in page and b'id="role-beta"' in page and b"function setRole" in page
+        assert b'id="roles-card"' not in page and b'id="role-alpha"' not in page and b'id="role-beta"' not in page
+        assert b"function setRole" not in page and b"setDuet" not in page
+        assert b'id="hostask-card"' in page and b'id="ha-text"' in page and b'id="ha-clip"' not in page
         s = json.loads(urlopen(base + "/api/state").read())
         assert s["cjap_is"] == "alpha" and s["roles"]["beta"]["role"] == "host"
         req = Request(base + "/api/role", data=json.dumps(
@@ -270,6 +273,41 @@ def test_maintain_role_switch(tmp_path, monkeypatch):
         srv.shutdown()
 
 
+def test_console_page_is_single_robot(tmp_path, monkeypatch):
+    """/console (2026-09-28): one robot. No Robots card, no second slot, no
+    role switch, no Duet, no Host intro line — while /api/state still carries
+    the two-slot model (config/robots.json and the lease are unchanged)."""
+    import console as cs
+    _fixture_files()
+    _point_at_fixtures()
+    src = cs.ConfigSources(modes_dir=os.path.join(os.path.dirname(cs.__file__), "..", "config", "modes"),
+                           dropin_path=str(tmp_path / "absent.conf"),
+                           dotenv_path=str(tmp_path / "absent.env"),
+                           robots_path=os.path.join(os.path.dirname(cs.__file__), "..", "config", "robots.json"))
+    con = cs.Console(src, state_path=str(tmp_path / "state.json"),
+                     journal_path=str(tmp_path / "journal.jsonl"), log=lambda *a, **k: None, restore=False)
+    monkeypatch.setattr(ui._console, "get_console", lambda: con)
+    monkeypatch.setattr(ui._console, "is_authority", lambda *a, **k: True)
+    srv, base = _serve()
+    try:
+        assert b"access key" in urlopen(base + "/console").read()          # still key-gated
+        page = urlopen(base + "/console?key=" + ui.DASH_KEY).read().decode()
+        assert "Who has the floor" in page
+        for present in ('id="f-alpha"', 'id="f-none"', 'id="m-direct"', 'id="mt-alpha"', 'id="authline"'):
+            assert present in page, present
+        for gone in ("<h2>Robots</h2>", "Who is Panganiban", "Duet", 'id="f-beta"', 'id="rb-alpha"',
+                     'id="rb-beta"', 'id="c-alpha"', 'id="c-beta"', 'id="rolesel"', 'id="m-duet"',
+                     'id="introline"', 'id="mt-beta"', "renderRobots", "Host intro line",
+                     "both robots", "both microphones", "for both to confirm"):
+            assert gone not in page, gone
+        assert "Closing the microphone" in page and "a safety settle of up to" in page
+        s = json.loads(urlopen(base + "/api/state").read())
+        assert set(s["roles"]) == {"alpha", "beta"} and s["cjap_is"] == "alpha"   # the model is unchanged
+        assert "beta" in s["observed"] and s["mode"] in ("direct", "duet")
+    finally:
+        srv.shutdown()
+
+
 def test_env_set_keeps_comments_and_appends(tmp_path):
     env = tmp_path / "app.env"
     env.write_text("# secrets\nANTHROPIC_API_KEY=a\nELEVEN_API_KEY=k1\n# ELEVEN_HOST_VOICE_ID=commented\n")
@@ -285,9 +323,11 @@ def test_env_set_keeps_comments_and_appends(tmp_path):
 
 
 def test_guest_voice_card_api(tmp_path, monkeypatch):
-    """/maintain Guest voice card (2026-09-12): list voices, store a key,
-    assign GUEST / CJAP voices — all validated against (a fake) ElevenLabs,
-    the key never echoed, restarts only when the app needs one."""
+    """/api/voices, the API behind the old /maintain Guest voice card
+    (2026-09-12; the card itself left the single-robot page on 2026-09-28):
+    list voices, store a key, assign GUEST / CJAP voices — all validated
+    against (a fake) ElevenLabs, the key never echoed, restarts only when the
+    app needs one."""
     _fixture_files()
     _point_at_fixtures()
     env = tmp_path / "app.env"
@@ -318,7 +358,7 @@ def test_guest_voice_card_api(tmp_path, monkeypatch):
     srv, base = _serve()
     try:
         page = urlopen(base + "/maintain?key=" + ui.DASH_KEY).read()
-        assert b'id="voices-card"' in page and b"function evRender" in page
+        assert b'id="voices-card"' not in page and b"function evRender" not in page   # card gone, API below stays
         try:
             urlopen(base + "/api/voices")
             assert False, "expected 403"

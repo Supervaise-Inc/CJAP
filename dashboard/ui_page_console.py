@@ -1,4 +1,12 @@
-"""/console — operator console for the two-robot installation (2026-09-10).
+"""/console — operator console (2026-09-10; single-robot page since 2026-09-28).
+
+The installation has ONE robot (slot alpha, reachy-cjap, Panganiban). The
+page shows only that robot: no Robots card, no second slot, no role switch,
+no Duet, no Host intro line. The server-side model (console.py, the floor
+lease, config/robots.json, every /api/* endpoint) is unchanged and still
+carries the beta/duet fields; the page ignores them, except that it warns
+(with a one-click fix) if the saved state left alpha as the Host or the
+console in duet mode, because either one keeps the microphone from answering.
 
 One page, one poll (/api/state every second). The floor selector is the
 primary element; everything else is secondary. Copy is written for a
@@ -28,7 +36,7 @@ button:hover{background:#243040}
 button:disabled{opacity:.45;cursor:default}
 button:focus-visible,input:focus-visible,[role=switch]:focus-visible,select:focus-visible{outline:3px solid var(--focus);outline-offset:3px}
 /* floor selector — the primary element */
-#floor{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+#floor{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}
 .fbtn{display:flex;flex-direction:column;align-items:flex-start;gap:6px;padding:16px;min-height:132px;
  border-width:2px;text-align:left;background:#161d27}
 .fbtn .who{font-size:22px;font-weight:700}
@@ -91,39 +99,27 @@ button:focus-visible,input:focus-visible,[role=switch]:focus-visible,select:focu
 #journal .k{color:var(--amber);display:inline-block;min-width:110px}
 #journal .t{color:var(--dim);margin-right:8px}
 #journal .unlock-request .k{color:var(--red)}
-/* robots strip */
-.robots{display:grid;grid-template-columns:1fr 1fr;gap:10px}
-.robot{background:#0f141b;border:1px solid var(--line);border-radius:10px;padding:10px 12px;font-size:14px}
-.robot b{display:block;font-size:15px;margin-bottom:4px}
-.kv{display:grid;grid-template-columns:auto 1fr;gap:2px 10px;color:var(--dim)}
-.kv span:nth-child(even){color:var(--text)}
 #status{font-size:13px;color:var(--dim);margin-left:auto}
 #status.bad{color:var(--red);font-weight:700}
 .toast{position:fixed;left:50%;bottom:18px;transform:translateX(-50%);background:#1d2530;border:1px solid var(--line);
  border-radius:10px;padding:10px 16px;font-size:14px;display:none;max-width:90vw}
 .toast.show{display:block}
 @media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
-@media (max-width:720px){#floor{grid-template-columns:1fr}.robots{grid-template-columns:1fr}}
+@media (max-width:720px){#floor{grid-template-columns:1fr}}
 </style></head><body>
 <h1>CJAP Operator Console
  <span class="pill" id="modechip">…</span><span class="pill" id="profchip">…</span>
  <span id="status">connecting…</span></h1>
 <p class="sub" id="authline"></p>
-<p class="sub">Only one microphone can be open at a time. Pick who has the floor; the robots follow within a second and close on their own if this page's server goes away.</p>
+<p class="sub">The robot's microphone opens only while it has the floor. Give it the floor or take it away; the robot follows within a second and closes its microphone on its own if this page's server goes away.</p>
 
 <div class="card wide">
  <h2>Who has the floor</h2>
  <div id="floor" role="group" aria-label="Who has the floor">
   <button class="fbtn" id="f-alpha" onclick="setFloor('alpha')"><span class="who" id="w-alpha">…</span><span class="role" id="rl-alpha"></span><span class="obs"><span class="pill" id="o-alpha">no report</span><span id="r-alpha"></span></span></button>
-  <button class="fbtn" id="f-beta" onclick="setFloor('beta')"><span class="who" id="w-beta">…</span><span class="role" id="rl-beta"></span><span class="obs"><span class="pill" id="o-beta">no report</span><span id="r-beta"></span></span></button>
-  <button class="fbtn" id="f-none" onclick="setFloor('none')"><span class="who">No one</span><span class="role">both microphones closed</span><span class="obs"><span class="pill" id="o-none">closed</span></span></button>
+  <button class="fbtn" id="f-none" onclick="setFloor('none')"><span class="who">No one</span><span class="role">microphone closed</span><span class="obs"><span class="pill" id="o-none">closed</span></span></button>
  </div>
- <h2 style="margin-top:16px">Who is Panganiban</h2>
- <div class="seg" role="group" aria-label="Who is Panganiban" id="rolesel">
-  <button id="c-alpha" onclick="setRole('alpha')">…</button>
-  <button id="c-beta" onclick="setRole('beta')">…</button>
- </div>
- <div class="hint">The other robot is the Host. One choice, never two: two Panganibans cannot be set. In direct mode the floor moves with the role, so the visitor's mic keeps feeding the right robot.</div>
+ <div id="single"></div>
  <div id="transition"></div>
  <div id="pending"></div>
  <div id="warnings" aria-live="polite"></div>
@@ -133,17 +129,14 @@ button:focus-visible,input:focus-visible,[role=switch]:focus-visible,select:focu
  <div class="card">
   <h2>Mode</h2>
   <div class="seg" role="group" aria-label="Mode">
-   <button id="m-duet" onclick="setMode('duet')">Duet<br><small>pre-recorded exchange · no mic anywhere</small></button>
    <button id="m-direct" onclick="setMode('direct')">Direct<br><small>a visitor talks to Panganiban</small></button>
   </div>
-  <div class="hint">Choosing Duet closes every microphone and keeps them closed.</div>
   <h2 style="margin-top:16px">Profile</h2>
   <div class="seg" role="group" aria-label="Profile">
    <button id="p-kiosk" onclick="setProfile('kiosk')">Kiosk<br><small>museum floor, self-service</small></button>
    <button id="p-event" onclick="setProfile('event')">Event<br><small>emcee-driven hall · no wake word · louder room · no follow-up window</small></button>
   </div>
   <div class="hint">Profiles come from <code>config/modes/*.json</code>. Your changes below sit on top of the profile and are marked as such.</div>
-  <div class="hint" id="introline"></div>
  </div>
 
  <div class="card">
@@ -154,7 +147,7 @@ button:focus-visible,input:focus-visible,[role=switch]:focus-visible,select:focu
 
  <div class="card">
   <h2>Calibrate the room</h2>
-  <p class="sub">Run this at the venue during setup with the crowd noise as it will be. It samples the room through the robot that has the floor and proposes a “loudness that counts as talking” with headroom. Nothing changes until you accept.</p>
+  <p class="sub">Run this at the venue during setup with the crowd noise as it will be. It samples the room through the robot's microphone (the robot needs the floor) and proposes a “loudness that counts as talking” with headroom. Nothing changes until you accept.</p>
   <div id="calib"></div>
  </div>
 
@@ -163,12 +156,6 @@ button:focus-visible,input:focus-visible,[role=switch]:focus-visible,select:focu
   <p class="sub">These keep him truthful. Their state is shown; a change can only be requested and the request is logged.</p>
   <div id="locked"></div>
   <div id="unlockbox"><span id="unlockfor"></span><input id="unlockreason" placeholder="Why? (logged, nothing changes)" aria-label="Reason for the unlock request"><button onclick="sendUnlock()">Log request</button><button onclick="hideUnlock()">Cancel</button></div>
- </div>
-
- <div class="card">
-  <h2>Robots</h2>
-  <div class="robots"><div class="robot" id="rb-alpha"></div><div class="robot" id="rb-beta"></div></div>
-  <div class="hint">“Reports” is what the robot says its own microphone is doing, read from the robot every second — not what this page last asked for.</div>
  </div>
 
  <div class="card wide">
@@ -192,12 +179,18 @@ async function post(path,body){
 }
 function setFloor(f){post('/api/floor',{floor:f});}
 function setRole(slot){post('/api/role',{cjap_is:slot});}
-function rname(s,r){const x=(s.roles||{})[r]||{};return (x.machine||r)+' · '+(x.role==='cjap'?'Panganiban':'Host');}
+function rname(s,r){const x=(s.roles||{})[r]||{};return (x.machine||r)+' · '+(x.role==='cjap'?'Panganiban':'not Panganiban');}
 function renderRoles(s){
-  for(const r of['alpha','beta']){const x=(s.roles||{})[r]||{};
-    $('w-'+r).textContent=(x.machine||r)+' · '+(x.role==='cjap'?'Panganiban':'Host');
-    $('rl-'+r).textContent=(x.role==='cjap'?'composes answers live from his writings':'intro line + pre-recorded exchange, then silent')+' · slot '+r;
-    const b=$('c-'+r);b.textContent=(x.machine||r)+(x.role==='cjap'?' — is Panganiban':' — make Panganiban');b.className=x.role==='cjap'?'sel':'';b.setAttribute('aria-pressed',x.role==='cjap');}
+  // One robot (slot alpha). The state still carries a beta slot; it is not shown.
+  const x=(s.roles||{}).alpha||{},is=x.role==='cjap';
+  $('w-alpha').textContent=rname(s,'alpha');
+  $('rl-alpha').textContent=(is?'composes answers live from his writings':'not set as Panganiban — it will not answer')+' · slot alpha';
+  // Left over from the two-robot setup: a saved state that makes alpha the Host,
+  // or keeps duet mode on, silences the microphone. Say so, and offer the fix.
+  const w=[];
+  if(s.roles&&!is)w.push('<div class="banner warn"><b>'+esc(x.machine||'alpha')+' is not set as Panganiban</b>, so it will not answer. <button class="primary" onclick="setRole(\'alpha\')">Make it Panganiban</button></div>');
+  if(s.mode==='duet')w.push('<div class="banner warn"><b>The console is in duet mode</b>: no microphone opens. <button class="primary" onclick="setMode(\'direct\')">Switch to Direct</button></div>');
+  $('single').innerHTML=w.join('');
 }
 function setMode(m){post('/api/config',{mode:m});}
 function setProfile(p){post('/api/config',{profile:p});}
@@ -211,12 +204,12 @@ function pillFor(o){
 }
 function renderFloor(s){
   const target=s.floorTarget||s.floor;
-  for(const f of['alpha','beta','none']){const b=$('f-'+f);b.className='fbtn'+(target===f?' sel':'')+(s.transition&&s.transition.target===f?' moving':'');b.setAttribute('aria-pressed',target===f);
+  for(const f of['alpha','none']){const b=$('f-'+f);b.className='fbtn'+(target===f?' sel':'')+(s.transition&&s.transition.target===f?' moving':'');b.setAttribute('aria-pressed',target===f);
     b.disabled=(s.mode==='duet'&&f!=='none');}
-  for(const r of['alpha','beta']){const o=s.observed[r]||{};const[c,t]=pillFor(o);const p=$('o-'+r);p.className='pill '+c;p.textContent=t;
+  for(const r of['alpha']){const o=s.observed[r]||{};const[c,t]=pillFor(o);const p=$('o-'+r);p.className='pill '+c;p.textContent=t;
     const rms=s.rms&&s.rms[r];$('r-'+r).textContent=rms!=null?'room '+Math.round(rms):'';}
   const tr=$('transition');
-  if(s.transition){const t=s.transition;tr.innerHTML='<div class="banner info"><b>Closing both microphones…</b> then opening '+esc(rname(s,t.target))+' (waits up to '+t.settle_s+' s for both to confirm; '+t.elapsed_s+' s so far)</div>';}
+  if(s.transition){const t=s.transition;tr.innerHTML='<div class="banner info"><b>Closing the microphone…</b> then giving the floor to '+esc(rname(s,t.target))+' (a safety settle of up to '+t.settle_s+' s; '+t.elapsed_s+' s so far)</div>';}
   else tr.innerHTML='';
   const pd=$('pending');
   if(s.pending){const w=(s.pending.waiting_on||[]).map(r=>rname(s,r)).join(' and ')||'the answer';
@@ -225,11 +218,10 @@ function renderFloor(s){
   const wl=$('warnings');wl.innerHTML=(s.warnings||[]).filter(w=>w.level!=='info').map(w=>'<div class="banner '+(w.level==='bad'?'bad':'warn')+'">'+esc(w.msg)+'</div>').join('');
 }
 function renderMode(s){
-  for(const m of['duet','direct']){const b=$('m-'+m);b.className=s.mode===m?'sel':'';b.setAttribute('aria-pressed',s.mode===m);}
+  for(const m of['direct']){const b=$('m-'+m);b.className=s.mode===m?'sel':'';b.setAttribute('aria-pressed',s.mode===m);}
   for(const p of['kiosk','event']){const b=$('p-'+p);b.className=s.profile===p?'sel':'';b.setAttribute('aria-pressed',s.profile===p);}
-  $('authline').textContent='Console on '+((s.authority||{}).host||'?')+' (this page holds the floor and the roles; both robots poll it — they never talk to each other).';
+  $('authline').textContent='Console on '+((s.authority||{}).host||'?')+' (this page holds the floor; the robot polls it every second and closes its microphone within '+(s.leaseTtl||3)+' s if it stops hearing it).';
   $('modechip').textContent=(s.mode||'?')+' mode';$('profchip').textContent=(s.profile||'?')+' profile';
-  $('introline').textContent=s.hostIntroText?'Host intro line: “'+s.hostIntroText+'”':'';
 }
 function srcClass(src){return src==='console override'?'src override':'src';}
 function renderSettings(s){
@@ -240,14 +232,14 @@ function renderSettings(s){
       const ctl=sc.type==='bool'
         ?'<button role="switch" aria-checked="false" id="in-'+k+'" onclick="flip(\''+k+'\')" aria-labelledby="lb-'+k+'"><i></i></button>'
         :'<input type="number" id="in-'+k+'" min="'+sc.min+'" max="'+sc.max+'" step="'+sc.step+'" oninput="EDITED[\''+k+'\']=1" aria-labelledby="lb-'+k+'">';
-      const extra=k==='speech_threshold'?'<div class="meter" id="mt-alpha"><i></i><b></b></div><div class="rmsline" id="ml-alpha"></div><div class="meter" id="mt-beta"><i></i><b></b></div><div class="rmsline" id="ml-beta"></div>':'';
+      const extra=k==='speech_threshold'?'<div class="meter" id="mt-alpha"><i></i><b></b></div><div class="rmsline" id="ml-alpha"></div>':'';
       return '<div class="row"><div><div class="lbl" id="lb-'+k+'">'+esc(sc.label||k)+'</div><div class="help">'+esc(sc.help||'')+'</div><div class="'+srcClass('')+'" id="src-'+k+'"></div>'+extra+'</div><div>'+ctl+'</div></div>';}).join('');
     box.dataset.built='1';
   }
   for(const k of st.tunable||[]){const sc=SCHEMA[k]||{},el=$('in-'+k);if(!el)continue;
     if(!EDITED[k]){if(sc.type==='bool')el.setAttribute('aria-checked',eff[k]?'true':'false');else if(document.activeElement!==el)el.value=eff[k];}
     const sp=$('src-'+k);sp.className=srcClass(src[k]);sp.textContent='now '+(sc.type==='bool'?(eff[k]?'on':'off'):eff[k])+' · from '+(src[k]||'?');}
-  for(const r of['alpha','beta']){const m=$('mt-'+r),l=$('ml-'+r);if(!m)continue;const rms=s.rms&&s.rms[r],o=s.observed[r]||{};
+  for(const r of['alpha']){const m=$('mt-'+r),l=$('ml-'+r);if(!m)continue;const rms=s.rms&&s.rms[r],o=s.observed[r]||{};
     const thr=o.speech_threshold||Math.min(Math.max(Math.round((rms||0)*(eff.speech_threshold_mult||1)),eff.speech_threshold||0),eff.speech_threshold_cap||1e9);
     const max=Math.max(2000,thr*1.3,(rms||0)*1.3);m.querySelector('i').style.width=(rms!=null?Math.min(100,100*rms/max):0)+'%';m.querySelector('b').style.left=Math.min(100,100*thr/max)+'%';
     const gap=rms!=null?thr-rms:null;l.className='rmsline'+(gap!=null&&gap<400?' warn':'');
@@ -260,7 +252,7 @@ function resetOverrides(){const out={};for(const k of Object.keys(SCHEMA||{}))if
 function calib(action,extra){post('/api/calibrate',Object.assign({action},extra||{}));}
 function renderCalib(s){
   const c=s.calibration,box=$('calib');
-  if(!c){const opts=['alpha','beta'].map(r=>'<button onclick="calib(\'start\',{robot:\''+r+'\',seconds:Number($(\'calsecs\').value)||120})">'+esc(rname(s,r))+(s.floor===r?'':' (give it the floor first)')+'</button>').join('');
+  if(!c){const opts=['alpha'].map(r=>'<button onclick="calib(\'start\',{robot:\''+r+'\',seconds:Number($(\'calsecs\').value)||120})">'+esc(rname(s,r))+(s.floor===r?'':' (give it the floor first)')+'</button>').join('');
     box.innerHTML='<div class="actions"><label>Seconds <input type="number" id="calsecs" value="120" min="10" max="600" style="width:90px;font:inherit;padding:8px;border-radius:8px;border:1px solid var(--line);background:#0f141b;color:var(--text)"></label>'+opts+'</div>';return;}
   if(c.status==='running'){const pct=Math.min(100,100*c.elapsed_s/c.seconds);const lv=c.live||{};
     box.innerHTML='<div><b>Sampling '+esc(c.label)+'</b> — '+Math.round(c.elapsed_s)+' / '+c.seconds+' s, '+c.n+' samples</div><div class="meter"><i style="width:'+pct+'%"></i></div><div class="hint">last second: peak '+(lv.peak_last??'—')+', typical '+(lv.p50_last??'—')+' · loudest so far '+(lv.peak_max??'—')+'</div><div class="actions"><button onclick="calib(\'cancel\')">Cancel</button></div>';return;}
@@ -272,26 +264,14 @@ function renderLocked(s){const L=s.locked||{};$('locked').innerHTML=Object.keys(
 function askUnlock(g,label){unlockGate=g;$('unlockfor').textContent='Unlock “'+label+'”:';$('unlockbox').className='show';$('unlockreason').focus();}
 function hideUnlock(){unlockGate=null;$('unlockbox').className='';$('unlockreason').value='';}
 async function sendUnlock(){const r=$('unlockreason').value.trim();if(!unlockGate)return;const d=await post('/api/unlock-request',{gate:unlockGate,reason:r});if(d.ok)hideUnlock();}
-function renderRobots(s){for(const r of['alpha','beta']){const o=s.observed[r]||{};const box=$('rb-'+r);
-  const rows=[['reports',o.fresh?'yes ('+o.age_s+' s ago)':'NO'+(o.age_s!=null?' — last '+Math.round(o.age_s)+' s ago':' — never')],
-    ['role',(o.role==='cjap'?'Panganiban':'Host')+(o.reported_persona&&o.reported_persona!==o.role?' (robot still says '+(o.reported_persona==='cjap'?'Panganiban':'Host')+')':'')],
-    ['should be',o.intended],['mic is',o.mic==null?'unknown':(o.mic?'open':'closed')],['holds lease',o.has_floor==null?'?':(o.has_floor?'yes':'no')],
-    ['answering',o.turn_active==null?'?':(o.turn_active?'yes':'no')],['speaking',o.speaking==null?'?':(o.speaking?'yes':'no')],
-    // Only the Panganiban robot needs the internet, but show it for both: the
-    // role is swappable, and a visitor should never be the one who discovers
-    // that the API calls are failing (2026-09-14).
-    ['internet',o.online==null?'unknown (older build)':(o.online?'reachable':'NOT REACHABLE — answers will be the apology line')],
-    ['room level',s.rms&&s.rms[r]!=null?Math.round(s.rms[r])+(o.rms_1s?' · last second peak '+o.rms_1s.max:''):'—'],
-    ['talking counts from',o.speech_threshold!=null?o.speech_threshold+' ('+(o.threshold_binding||'?')+' binding)':'—'],['boot',(o.boot_id||'').slice(-14)||'—']];
-  box.innerHTML='<b>'+esc(rname(s,r))+' <small style="color:var(--dim)">slot '+r+'</small></b><div class="kv">'+rows.map(([k,v])=>'<span>'+k+'</span><span>'+esc(v)+'</span>').join('')+'</div>';}}
 async function loadJournal(){try{const r=await fetch('/api/journal?n=40&key='+encodeURIComponent(KEY));const d=await r.json();const rows=(d.rows||[]).filter(x=>['floor','role','mode','profile','settings','unlock-request','queued','drain','interrupt','intro','restore','config-warning','turn','calibrate'].includes(x.kind));
   $('journal').innerHTML=rows.slice().reverse().map(x=>'<div class="'+x.kind+'"><span class="t">'+new Date(x.ts*1000).toLocaleTimeString()+'</span><span class="k">'+esc(x.kind)+'</span>'+esc(x.msg)+(x.who?' <span class="t">— '+esc(x.who)+'</span>':'')+'</div>').join('')||'<div class="t">nothing yet</div>';}catch(e){}}
 async function poll(){try{const r=await fetch('/api/state');const s=await r.json();failures=0;S=s;
   if(s.console_error){$('status').className='bad';$('status').textContent='console error: '+s.console_error;return;}
   $('status').className='';$('status').textContent='live · lease '+s.leaseTtl+' s · '+new Date().toLocaleTimeString();
-  renderRoles(s);renderFloor(s);renderMode(s);renderSettings(s);renderLocked(s);renderRobots(s);renderCalib(s);
+  renderRoles(s);renderFloor(s);renderMode(s);renderSettings(s);renderLocked(s);renderCalib(s);
   const n=((s.seq&&(s.seq.config+s.seq.intro+(s.seq.interrupt.alpha||0)+(s.seq.interrupt.beta||0)))||0)+(s.cjap_is==='beta'?1000:0)+(s.floor==='none'?0:s.floor==='alpha'?1:2);if(n!==lastJournalN){lastJournalN=n;loadJournal();}
- }catch(e){failures++;$('status').className='bad';$('status').textContent='NOT REACHABLE ('+failures+') — robots close their mics 3 s after they stop hearing this server';}}
+ }catch(e){failures++;$('status').className='bad';$('status').textContent='NOT REACHABLE ('+failures+') — the robot closes its microphone 3 s after it stops hearing this server';}}
 poll();setInterval(poll,1000);loadJournal();setInterval(loadJournal,5000);
 </script></body></html>
 """

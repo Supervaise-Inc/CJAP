@@ -241,10 +241,10 @@ details.help[open] summary{margin-bottom:4px}
     <input type="text" id="say-text" maxlength="500" placeholder="Type what CJ should say, then press Enter or Speak" autocomplete="off">
     <button id="say-btn" class="primary" onclick="sayText()">&#128483; Speak</button></div>
   <div class="btns saybox"><span class="lbl">Question</span>
-    <input type="text" id="ctl-q" maxlength="400" placeholder="Audience question the mic missed — type it, Enter = Panganiban answers now" autocomplete="off"
-      onkeydown="if(event.key==='Enter')hostAsk(true,'ctl-q')">
-    <button class="primary" onclick="hostAsk(true,'ctl-q')" title="Panganiban answers this typed question now (router, corpus, his voice); the Host stays quiet. Same as the Guest tab's 'Audience asked this'.">&#9998; Answer now</button>
-    <button class="sm" onclick="hostAsk(false,'ctl-q')" title="the Host puts the question to the room first, then Panganiban answers it (Guest tab: Host asks)">&#127908; Host asks it</button></div>
+    <input type="text" id="ctl-q" maxlength="400" placeholder="A question for Panganiban — type it, then Enter or Ask" autocomplete="off"
+      onkeydown="if(event.key==='Enter')hostAsk(false,'ctl-q')">
+    <button class="primary" onclick="hostAsk(false,'ctl-q')" title="Panganiban answers this typed question (router, corpus, his voice). Same as Ask on the Guest tab's Host asks card.">&#127908; Ask</button>
+    <button class="sm" id="ctl-direct" onclick="hostAsk(true,'ctl-q')" title="The audience's own question, typed because the microphone missed it: answered the same way, and the transcript notes it as the audience's. Same as the Guest tab's 'Audience asked this'.">&#9998; Audience asked this</button></div>
   <div class="btns"><span class="lbl">App</span>
     <button onclick="act('restart-app')" title="Restart the voice app (~25 s, mic off meanwhile)">&#8635; Restart app</button>
     <button onclick="act('test-sound')">&#128266; Test sound</button>
@@ -335,50 +335,19 @@ details.help[open] summary{margin-bottom:4px}
 </div>
 
 <!-- ═══ GUEST ═══ -->
-<div class="sec" data-tab="guest">Guest &mdash; the second robot: roles and voice</div>
-<div class="card c12" id="roles-card" data-tab="guest"><h2>Roles <span class="dim">(who is CJAP, who is GUEST)</span></h2>
-  <p class="hint">Two robots, one Panganiban. The gold button is CJAP today; tap the GUEST one to swap. The other robot becomes the Host.</p>
-  <div class="cols">
-    <div>
-      <div class="btns" id="role-row">
-        <button id="role-alpha" onclick="setRole('alpha')">reachy &hellip;</button>
-        <button id="role-beta" onclick="setRole('beta')">reachy &hellip;</button></div>
-      <span class="dim" id="role-hint">loading&hellip;</span>
-      <div class="btns" style="margin-top:12px"><span class="lbl">Duet</span>
-        <button id="duet-on" class="primary" onclick="setDuet(true)" title="The two robots introduce themselves and trade their scripted lines, looping — the attract loop. No microphone opens.">&#127917; Start intro &amp; interaction</button>
-        <button id="duet-off" onclick="setDuet(false)" title="Back to direct: a visitor talks to Panganiban">&#9632; Stop</button></div>
-      <span class="dim" id="duet-hint"></span>
-    </div>
-    <div class="kv">
-      <b>mode</b><span id="g-mode">&hellip;</span>
-      <b>mic floor</b><span id="g-floor">&hellip;</span>
-      <b>host intro</b><span id="g-intro">&hellip;</span>
-      <b>console</b><span><a href="/console" id="g-console" target="_blank" style="color:var(--gold)">open the operator console &#8599;</a> <span class="dim">(floor, mode, listening profile)</span></span>
-    </div>
-  </div>
-  <details class="help"><summary>What a swap does</summary>
-    The role is held by the lease authority (config/robots.json), never by this page. A swap is queued until the current answer finishes and journaled on the console.
-    In direct mode the mic floor moves with the role, so the visitor keeps talking to Panganiban. The Host robot never composes: it plays its intro line and pre-rendered duet audio only.</details>
-</div>
-<div class="card c12" id="hostask-card" data-tab="guest"><h2>Host asks <span class="dim">(you type it, the Host says it, Panganiban answers live)</span></h2>
-  <p class="hint">The Host puts the question to the room and Panganiban answers it for real &mdash; router, corpus, his voice. No microphone is involved, so a noisy hall cannot mishear it.</p>
+<div class="sec" data-tab="guest">Guest &mdash; a typed question for Panganiban</div>
+<div class="card c12" id="hostask-card" data-tab="guest"><h2>Host asks <span class="dim">(you type it, Panganiban answers live)</span></h2>
+  <p class="hint">Type a question and Panganiban answers it for real &mdash; router, corpus, his voice. No microphone is involved, so a noisy hall cannot mishear it. Nobody reads the question out first: the room hears only his answer.</p>
   <div class="btns"><span class="lbl">Presets</span><span id="ha-presets" class="dim">loading&hellip;</span></div>
   <div class="btns"><span class="lbl">Question</span>
-    <input id="ha-text" maxlength="400" placeholder="What should the Host ask him? (or tap a preset above)" autocomplete="off"
+    <input id="ha-text" maxlength="400" placeholder="The question for Panganiban (or tap a preset above)" autocomplete="off"
       style="flex:1;min-width:260px" onkeydown="if(event.key==='Enter')hostAsk()">
     <button id="ha-go" class="primary" onclick="hostAsk()">&#127908; Ask</button>
-    <button id="ha-direct" onclick="hostAsk(true)" title="The audience's own question, typed because the microphone missed it: Panganiban answers it now, the Host stays quiet">&#9998; Audience asked this &rarr; answer now</button></div>
-  <div class="btns"><span class="lbl">Recording</span>
-    <input id="ha-clip" list="ha-clips" placeholder="optional &mdash; a file the Host plays instead of speaking" autocomplete="off" style="flex:1;min-width:240px">
-    <datalist id="ha-clips"></datalist>
-    <button class="sm" onclick="haClips(true)" title="re-read data/host_questions/">&#8635;</button>
-    <span class="dim" id="ha-clipinfo"></span></div>
+    <button id="ha-direct" onclick="hostAsk(true)" title="The audience's own question, typed because the microphone missed it: Panganiban answers it now, and the transcript notes it as the audience's">&#9998; Audience asked this &rarr; answer now</button></div>
   <div class="btns"><span class="lbl">Status</span><span class="dim" id="ha-state">&hellip;</span></div>
-  <details class="help"><summary>How it is sequenced, and what the recording is for</summary>
-    The console bumps the question to the Host, waits for the Host to report that it has finished speaking, and only then releases the text to Panganiban. The two never talk over each other.
-    With no Host reporting &mdash; one machine on the network, or the other one down &mdash; the question goes straight to Panganiban instead of stalling.
-    A <b>recording</b> is preferred over synthesis: the Host&rsquo;s voice is cloned by hand, so a real take sounds better and costs nothing per ask. Drop <span class="mono">.wav</span> files in <span class="mono">data/host_questions/</span>.
-    The audio and the text are deliberately separate: the recording can be a warm, conversational reading while the text stays the precise question you want routed.</details>
+  <details class="help"><summary>How it is sequenced</summary>
+    The console hands the text to the robot through the floor lease and it answers like a question it heard, once the current answer (if any) has finished.
+    <b>Ask</b> sends it as a typed question; <b>Audience asked this</b> marks it in the transcript as the visitor&rsquo;s own question. Both are answered the same way.</details>
   <span id="msg6"></span>
 </div>
 <div class="card c12" id="engine-card" data-tab="guest"><h2>Panganiban&rsquo;s voice <span class="dim">(which clone speaks)</span></h2>
@@ -389,28 +358,6 @@ details.help[open] summary{margin-bottom:4px}
     <button class="sm" onclick="engLoad(true)" title="re-check credit and quota">&#8635;</button></div>
   <div class="engrow"><div class="engnow" id="eng-now" style="flex:1">&hellip;</div></div>
   <span id="eng-msg"></span>
-</div>
-<div class="card c12" id="voices-card" data-tab="guest"><h2>Guest voice <span class="dim">(ElevenLabs &mdash; API key, voices, switching)</span></h2>
-  <p class="hint">Store the ElevenLabs key once, then pick a voice for the Guest (or swap CJAP&rsquo;s). Listen before you choose.</p>
-  <div class="btns"><span class="lbl">API key</span>
-    <span id="ev-keystate" class="dim">&hellip;</span>
-    <input id="ev-key" type="password" autocomplete="off" spellcheck="false" style="flex:1;min-width:210px"
-      placeholder="paste an ElevenLabs API key (profile &rarr; API Keys; needs text_to_speech + voices_read)">
-    <button id="ev-keysave" class="primary" onclick="evSaveKey()">Save key</button></div>
-  <div class="btns"><span class="lbl">Now</span><span id="ev-now" class="dim">&hellip;</span>
-    <button class="sm" onclick="evLoad(true)" title="re-ask ElevenLabs for the voice list">&#8635;</button></div>
-  <div class="btns saybox"><span class="lbl">Test</span>
-    <input type="text" id="ev-say" maxlength="500" placeholder="Type words for the Guest to say, then Enter or Speak" autocomplete="off">
-    <button id="ev-saybtn" class="primary" onclick="guestSay()">&#128483; Speak as Guest</button></div>
-  <div class="btns"><span class="lbl">Find</span>
-    <input id="ev-filter" placeholder="filter by name, label or category" oninput="evRender()" style="flex:1;min-width:160px" autocomplete="off">
-    <span class="dim" id="ev-count"></span></div>
-  <div id="ev-list" style="max-height:360px;overflow:auto;margin:6px 0"></div>
-  <details class="help"><summary>What the buttons do</summary>
-    &#9654; plays the ElevenLabs preview here in the browser; &#128266; plays it on the robot&rsquo;s speaker (free preview, no credits).
-    <b>GUEST</b> stores the voice as ELEVEN_HOST_VOICE_ID in app/.env for the Host robot&rsquo;s rendered lines (no restart).
-    <b>CJAP</b> swaps Panganiban&rsquo;s cloned voice and restarts the voice app (~25 s). A new key also restarts the app.</details>
-  <span id="msg5"></span>
 </div>
 
 <!-- ═══ AUDIO ═══ -->
@@ -791,43 +738,12 @@ async function micTick(){if(!MIC_ON||MIC_BUSY)return;MIC_BUSY=true;
         +' &nbsp;L='+JSON.stringify(c.op_l||[])+' R='+JSON.stringify(c.op_r||[])+(r.chip_age_s!=null?' ('+r.chip_age_s+' s ago)':'');}
   }catch(e){$('micstate').innerText='error '+e.message}finally{MIC_BUSY=false}}
 setInterval(()=>{if(!document.hidden&&vis('mic-l-wave'))micTick()},250);
-// Who is Panganiban (2026-09-12): the same role swap the /console page
-// offers, from here. The lease authority (config/robots.json) decides; on
-// the other machine the buttons are disabled and link to the authority.
-async function setDuet(on){note(on?'starting the duet\u2026':'stopping the duet\u2026');
-  try{const r=await(await fetch('/api/config',{method:'POST',headers:{'Content-Type':'application/json'},
-    body:JSON.stringify({key:KEY,mode:on?'duet':'direct',who:'maintain'})})).json();
-    note(r.output||(r.ok?'done':'failed'));poll();}
-  catch(e){note('duet: '+e);}}
-async function setRole(slot){note('Panganiban \u2192 '+slot+'\u2026');
-  try{const r=await(await fetch('/api/role',{method:'POST',headers:{'Content-Type':'application/json'},
-    body:JSON.stringify({key:KEY,cjap_is:slot,who:'maintain'})})).json();
-    note(r.output||(r.ok?'done':'role swap failed'));poll();}
-  catch(e){note('role swap failed: '+e);}}
-function renderRoles(s){const rs=s.roles;
-  try{const txt=(id,v)=>{const el=$(id);if(el)el.innerText=v;};
-    const duetOn=s.mode==='duet';
-    const db=$('duet-on'),dbo=$('duet-off');
-    if(db){db.style.borderColor=duetOn?'var(--gold)':'';db.disabled=duetOn;}
-    if(dbo){dbo.disabled=!duetOn;}
-    const du=s.duet||{};
-    $('duet-hint').innerHTML=duetOn?('playing line <b>'+esc(du.line||'?')+'</b> \u2014 '+esc(du.who==='cjap'?'Panganiban':'Host')+' speaking; loops until you stop')
-      :'the two robots introduce themselves and talk to each other; no visitor, no mic';
-    txt('g-mode',s.mode?s.mode+(s.profile?' \u00b7 '+s.profile+' profile':''):'\u2014');
-    txt('g-floor',s.floor?(s.floor==='none'?'no one (both mics closed)':s.floor+(s.floorRole?' \u00b7 '+(s.floorRole==='cjap'?'CJAP':'GUEST'):'')+(s.transition?' \u2014 moving to '+s.transition.target:'')):'\u2014');
-    txt('g-intro',s.hostIntroText?'\u201c'+s.hostIntroText+'\u201d':'none in this mode profile');
-    const cl=$('g-console'),href=(s.console_authority||'')+'/console?key='+encodeURIComponent(KEY);if(cl)cl.href=href;const hl=$('consolelink');if(hl)hl.href=href;}catch(e){}
-  if(rs){for(const r of ['alpha','beta']){const x=rs[r]||{},b=$('role-'+r),is=x.role==='cjap';b.disabled=is;
-      b.innerHTML=is?'\u2696 reachy CJAP':'reachy GUEST';
-      b.title=(x.machine||r)+' ('+r+') is '+(is?'CJAP \u2014 Panganiban, answers from the corpus':'GUEST \u2014 the Host; click to make it CJAP and swap');
-      b.style.borderColor=is?'var(--gold)':'';b.style.color=is?'var(--gold)':'';b.setAttribute('aria-pressed',is);}
-    const p=s.pending;
-    $('role-hint').innerText=p&&/Panganiban/.test(p.what||'')?'swap queued '+fmtAge(p.queued_s)+(p.waiting_on?' \u2014 waits for the current turn to finish':''):
-      'click reachy GUEST to swap the roles'+(s.mode==='direct'?' (direct mode: the floor follows CJAP)':'');}
-  else{for(const r of ['alpha','beta'])$('role-'+r).disabled=true;
-    $('role-hint').innerHTML=s.console_authority?'set on the lease authority: <a href="'+esc(s.console_authority)+'/maintain?key='+encodeURIComponent(KEY)+'">'+esc(s.console_authority)+'</a>':
-      (s.console_error?'console unavailable: '+esc(s.console_error):'no console state');}}
-// Host asks (2026-09-12): type a question, the Host says it, Panganiban answers live.
+function renderRoles(s){
+  // Single-robot page (2026-09-28): the Roles card is gone; this only keeps the
+  // header's /console link pointing at the lease authority.
+  try{const href=(s.console_authority||'')+'/console?key='+encodeURIComponent(KEY);
+    const hl=$('consolelink');if(hl)hl.href=href;}catch(e){}}
+// Host asks (2026-09-12; single robot since 2026-09-28): type a question, Panganiban answers live.
 async function haPresets(){try{const r=await(await fetch('/api/event-questions?key='+encodeURIComponent(KEY))).json();
     const qs=r.questions||[];
     $('ha-presets').innerHTML=qs.length?qs.map((q,i)=>'<button class="sm" data-i="'+i+'" title="'+esc(q.q)+'">'+esc(q.q.length>34?q.q.slice(0,32)+'\u2026':q.q)+'</button>').join(' '):'no event questions in canned_answers.json';
@@ -854,16 +770,12 @@ async function motionLoad(){try{const r=await(await fetch('/api/motion?key='+enc
 function motionSet(k,v){clearTimeout(MOTION_T);MOTION_T=setTimeout(async function(){
   try{const b={key:KEY};b[k]=+v;const r=await(await fetch('/api/motion',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(b)})).json();
     $('motion-msg').textContent=r.output||'';}catch(e){$('motion-msg').textContent='motion: '+e;}},250);}
-async function haClips(force){try{const r=await(await fetch('/api/host-clips?key='+encodeURIComponent(KEY)+(force?'&_='+Date.now():''),{cache:force?'no-store':'default'})).json();
-    const cl=r.clips||[];$('ha-clips').innerHTML=cl.map(c=>'<option value="'+esc(c.name)+'">').join('');
-    $('ha-clipinfo').textContent=cl.length?cl.length+' recording'+(cl.length>1?'s':'')+' on disk':'no recordings yet in data/host_questions/';
-  }catch(e){$('ha-clipinfo').textContent='clip list: '+e;}}
 // src: which input holds the question - 'ha-text' (Guest tab) or 'ctl-q' (Controls card, 2026-09-16
-// "add in the controls the manual question just in case"; no recording is attached from there)
+// "add in the controls the manual question just in case")
 async function hostAsk(direct,src){const box=$(src||'ha-text'),t=box.value.trim();if(!t){note('type a question first');return;}
-  $('ha-go').disabled=true;$('ha-direct').disabled=true;note(direct?'handing it to Panganiban\u2026':'handing it to the Host\u2026');
+  $('ha-go').disabled=true;$('ha-direct').disabled=true;note('handing it to Panganiban…');
   try{const r=await(await fetch('/api/host-ask',{method:'POST',headers:{'Content-Type':'application/json'},
-      body:JSON.stringify({key:KEY,text:t,clip:(direct||src==='ctl-q')?'':$('ha-clip').value.trim(),who:'maintain',direct:!!direct})})).json();
+      body:JSON.stringify({key:KEY,text:t,clip:'',who:'maintain',direct:!!direct})})).json();
     note(r.output||(r.ok?'asked':'refused'));if(r.ok)box.value='';poll();}
   catch(e){note('ask failed: '+e);}finally{$('ha-go').disabled=false;$('ha-direct').disabled=false;}}
 function renderAsk(s){const a=s.ask,el=$('ha-state');if(!el)return;
@@ -872,7 +784,7 @@ function renderAsk(s){const a=s.ask,el=$('ha-state');if(!el)return;
   el.innerHTML=(a.stage==='host'?'<b style="color:var(--gold)">the Host is asking it</b>'
     :a.stage==='cjap'?'<b style="color:var(--ok)">handed to Panganiban</b>':'sent')
     +' \u2014 \u201c'+esc(a.text)+'\u201d'+(a.clip?' <span class="mono">['+esc(a.clip)+']</span>':'')+age;}
-haClips(false);haPresets();motionLoad();
+haPresets();motionLoad();
 // Voice-engine card (2026-09-16, user: "add it in the UI the selection, making
 // sure that it is fish audio"). The engine NAMED in the config and the engine
 // actually SPEAKING can differ for a whole session — when the first clone is
@@ -939,51 +851,6 @@ async function keyRemove(i){const k=KEYS[i];
   try{const r=await keyPost({env:k.env,remove:true});$('keys-msg').innerText=r.output||'';keysRender();}
   catch(e){$('keys-msg').innerText='remove failed: '+e;}}
 keysLoad();
-// Guest voice card (2026-09-12): ElevenLabs key + voice list + role switch.
-let EV={voices:[],cjap_voice_id:'',host_voice_id:''},EV_AUDIO=null;
-async function evLoad(refresh){try{const r=await(await fetch('/api/voices?key='+encodeURIComponent(KEY)+(refresh?'&refresh=1&_='+Date.now():''),{cache:'no-store'})).json();
-    if(r.ok===false){$('ev-now').innerText=r.output||'voices: refused';return;}EV=r;evRender();}
-  catch(e){$('ev-now').innerText='voices: '+e;}}
-function evName(id){if(!id)return'';const v=(EV.voices||[]).find(x=>x.voice_id===id);return v?v.name:'(id not on this account)';}
-function evRender(){const d=EV,q=($('ev-filter').value||'').toLowerCase().trim();
-  $('ev-keystate').innerText=d.has_key?'stored '+d.key_hint:'no key stored';
-  $('ev-now').innerHTML='GUEST: <b style="color:var(--ink)">'+esc(d.host_voice_id?evName(d.host_voice_id):'not set')+'</b>'
-    +(d.host_voice_id?' <span style="font-family:monospace;font-size:12px">'+esc(d.host_voice_id)+'</span>':'')
-    +' &nbsp;&middot;&nbsp; CJAP: <b style="color:var(--ink)">'+esc(d.cjap_voice_id?evName(d.cjap_voice_id):'not set')+'</b>'
-    +(d.cjap_voice_id?' <span style="font-family:monospace;font-size:12px">'+esc(d.cjap_voice_id)+'</span>':'')
-    +(d.error?' <span class="bad" style="color:#e5484d">'+esc(d.error)+'</span>':'');
-  const all=d.voices||[],rows=all.filter(v=>!q||(v.name+' '+v.labels+' '+v.category+' '+v.description).toLowerCase().includes(q));
-  $('ev-count').innerText=all.length?rows.length+' of '+all.length+' voices':'';
-  if(!rows.length){$('ev-list').innerHTML='<span class="dim">'+(d.has_key?(all.length?'no voice matches the filter':'no voices listed yet'):'paste an API key to list the account\u2019s voices')+'</span>';return;}
-  $('ev-list').innerHTML='<table><tr><th>voice</th><th>category &middot; labels</th><th style="white-space:nowrap">listen</th><th style="white-space:nowrap">use as</th></tr>'+rows.map(v=>{const i=all.indexOf(v),isH=v.voice_id===d.host_voice_id,isC=v.voice_id===d.cjap_voice_id;
-    return '<tr><td><b'+(isH||isC?' style="color:var(--gold)"':'')+'>'+esc(v.name)+'</b>'+(isH?' <span class="chip ok">GUEST</span>':'')+(isC?' <span class="chip ok">CJAP</span>':'')
-      +(v.description?'<br><span class="dim">'+esc(v.description)+'</span>':'')+'<br><span style="font-family:monospace;font-size:11px" class="dim">'+esc(v.voice_id)+'</span></td>'
-      +'<td class="dim">'+esc(v.category)+(v.labels?' &middot; '+esc(v.labels):'')+'</td>'
-      +'<td style="white-space:nowrap"><button class="sm" onclick="evPlay('+i+')" title="play the preview in this browser"'+(v.preview_url?'':' disabled')+'>&#9654;</button> '
-      +'<button class="sm" onclick="evRobot('+i+')" title="play the preview on the robot speaker"'+(v.preview_url?'':' disabled')+'>&#128266;</button></td>'
-      +'<td style="white-space:nowrap"><button class="sm" onclick="evUse('+i+',&#39;host&#39;)"'+(isH?' disabled':'')+' title="Host robot voice (ELEVEN_HOST_VOICE_ID)">GUEST</button> '
-      +'<button class="sm" onclick="evUse('+i+',&#39;cjap&#39;)"'+(isC?' disabled':'')+' title="Panganiban voice (ELEVEN_VOICE_ID) \u2014 restarts the app">CJAP</button></td></tr>';}).join('')+'</table>';}
-function evPlay(i){const v=EV.voices[i];if(!v||!v.preview_url){note('no preview clip for this voice');return;}
-  if(EV_AUDIO){EV_AUDIO.pause();EV_AUDIO=null;}EV_AUDIO=new Audio(v.preview_url);note('preview: '+v.name);EV_AUDIO.play().catch(e=>note('preview failed: '+e));}
-async function evRobot(i){const v=EV.voices[i];if(!v)return;note('playing '+v.name+' on the robot\u2026');
-  try{const r=await(await fetch('/api/voice-audition',{method:'POST',body:JSON.stringify({key:KEY,voice_id:v.voice_id})})).json();
-    note(r.ok?'played '+v.name+' on the robot':'robot preview: '+(r.output||'failed'));}catch(e){note('robot preview: '+e);}}
-async function evPost(b){b.key=KEY;try{const r=await(await fetch('/api/voices',{method:'POST',body:JSON.stringify(b)})).json();
-    note(r.output||(r.ok?'done':'refused'));if(r.ok)evLoad(true);return r;}catch(e){note('voices: '+e);return null;}}
-async function evUse(i,role){const v=EV.voices[i];if(!v)return;
-  if(role==='cjap'&&!confirm('Make \u201c'+v.name+'\u201d the CJAP (Panganiban) voice? The voice app restarts (~25 s) and the mic is off meanwhile.'))return;
-  note((role==='host'?'GUEST':'CJAP')+' voice \u2192 '+v.name+'\u2026');await evPost({role:role,voice_id:v.voice_id});}
-async function guestSay(){const t=$('ev-say').value.trim();if(!t){note('type something for the Guest to say');return;}
-  $('ev-saybtn').disabled=true;note('Guest speaking\u2026');
-  try{const r=await(await fetch('/api/say-text?key='+encodeURIComponent(KEY),{method:'POST',headers:{'Content-Type':'application/json'},
-      body:JSON.stringify({key:KEY,text:t,voice:'host'})})).json();
-    note(r.output||(r.ok?'spoke as Guest':'failed'));if(r.ok)$('ev-say').value='';}
-  catch(e){note('Guest say failed: '+e);}finally{$('ev-saybtn').disabled=false;}}
-document.addEventListener('keydown',function(e){if(e.key==='Enter'&&document.activeElement&&document.activeElement.id==='ev-say')guestSay();});
-async function evSaveKey(){const k=$('ev-key').value.trim();if(!k){note('paste a key first');return;}
-  if(!confirm('Store this ElevenLabs key in app/.env? The voice app restarts (~25 s).'))return;
-  note('checking the key with ElevenLabs\u2026');const r=await evPost({api_key:k});if(r&&r.ok)$('ev-key').value='';}
-evLoad(false);
 async function sayText(){const t=$('say-text').value.trim();if(!t)return;
   const b=$('say-btn');b.disabled=true;$('msg').innerText='speaking\\u2026';
   try{const r=await(await fetch('/api/say-text',{method:'POST',headers:{'Content-Type':'application/json'},
