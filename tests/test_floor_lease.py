@@ -1124,7 +1124,7 @@ def test_a_typed_audience_question_skips_the_host_even_when_it_reports(tmp_path)
     _reporting(con, host, clock)
     _reporting(con, cjap, clock)
     ok, out, st = con.host_ask("What did the death penalty case cost you?", now=clock(), direct=True)
-    assert ok and st == 200 and "directly" in out and "Host stays quiet" in out
+    assert ok and st == 200 and "directly" in out and "Host" not in out
     assert con.ask["stage"] == "cjap"
     lc = con.lease_for(cjap, clock())
     assert lc["question_text"] == "What did the death penalty case cost you?" and lc["question_by"] == "audience"
