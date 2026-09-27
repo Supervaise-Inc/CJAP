@@ -499,7 +499,7 @@ class Console:
                 self.ask["stage"] = ""
                 self._release_question(now, who=who, by="audience",
                                        note=f"audience question typed — asked {self.name(cjap)} directly")
-                out = f"asked {self.name(cjap)} directly — the Host stays quiet"
+                out = f"asked {self.name(cjap)} directly"
             elif self._obs_fresh(host, now):
                 self.ask["stage"] = "host"
                 self._journal("ask", f"{self.name(host)} asks: \u201c{text}\u201d"
@@ -509,8 +509,8 @@ class Console:
             else:
                 self.ask["stage"] = ""
                 self._release_question(now, who=who,
-                                       note=f"no report from {self.name(host)} — asked {self.name(cjap)} directly")
-                out = f"no Host reporting — asked {self.name(cjap)} directly"
+                                       note=f"typed question — asked {self.name(cjap)} directly")
+                out = f"asked {self.name(cjap)} directly"
             self._persist()
             return True, out, 200
 
