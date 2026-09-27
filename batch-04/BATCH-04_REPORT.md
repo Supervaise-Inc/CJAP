@@ -112,3 +112,53 @@ committed corpus).
   batch, not lost by it.
 - **`CE-11 → CE-14` are the gate before the robot is demonstrated** — this batch measured routing, it
   did not validate it end to end, and did not touch the router.
+
+## The release (Phase 10, post-batch)
+
+Phase 8 found the gap this closes: `deploy/pi/install.sh` cloned `pi/deployment-snapshots`, a branch
+carrying the May-era 79-document corpus and none of the five retrieval-stack modules — everything above
+was invisible to a fresh install. Phase 9 proposed the fix and stopped for a decision; that decision was
+made and executed here.
+
+- **The safety tag**, `pi-snapshot-pre-kbv2-2026-09-27`, was cut from the untouched `pi/deployment-snapshots`
+  tip and pushed to `origin` first, before anything else — confirmed on the remote at
+  `2545882` (`pi snapshot 2026-08-31-0135`).
+- **`deliverable/2026-09` was pushed for the first time.** It had no upstream; every commit existed on
+  one laptop only — `git rev-list --count` gives **45**, not the 44 the phase brief estimated (checked
+  directly, not taken on faith, per this batch's own habit). The push was rejected once — GitHub's 100 MB
+  file-size limit, on the 417.67 MB encoder weights — and per the phase's own stop rule that failure was
+  reported rather than worked around. **Git LFS** was adopted for `*.safetensors` on the user's explicit
+  decision; migrating the existing history rewrote all 45 commits to new hashes (the branch root gained
+  a `.gitattributes` entry, and every descendant's hash cascades from its parent's), but the count stayed
+  45 and every tree is identical to its predecessor except for that one file and the LFS-pointerised
+  encoder. The encoder weights themselves are untouched — same sha256 (`c7c1988a…`) before and after,
+  verified byte-for-byte after LFS smudge. Confirmed from the remote: `origin/deliverable/2026-09`
+  matches local exactly, 0 commits ahead or behind.
+- **The release tag**, `release/kb-v2-2026-09-27`, is an annotated tag cut from the pushed branch tip and
+  pushed to `origin`; confirmed from the remote to dereference to the same commit as
+  `origin/deliverable/2026-09`.
+- **`deploy/pi/install.sh`** (and `TRANSFER.md`, `README.md`) now clone that tag, not the branch — one
+  line changed at the actual clone site, with a comment recording that a new release is a new tag, never
+  the existing one moved. `pi/deployment-snapshots` keeps its own job unchanged: `snapshot-push.sh` still
+  writes to it from live robots. One branch now records what a robot **is**; one tag defines what it
+  **installs**.
+- **The release was tested, not just tagged**: `release/kb-v2-2026-09-27` was cloned fresh into an empty
+  directory, exactly as `install.sh` would. From that clone alone: all five retrieval modules and
+  `config.py` present; corpus at 1,290 documents; `verify_pin` PASS at 1,295; the encoder's sha256
+  matches the ratified weights exactly; and the same 22-query sufficiency check as Phases 7–9 — 0
+  mismatches against this repository's own copy, chunk-for-chunk, ranking-for-ranking, citation-for-citation.
+  Details: [`batch-04/ph10_analysis/results/clone_sufficiency_check.json`](ph10_analysis/results/clone_sufficiency_check.json).
+- **Team handover**: [`docs/HANDOVER_2026-09-27.md`](../docs/HANDOVER_2026-09-27.md).
+
+## Final position
+
+**Shipped and pushed:** the 1,290-document corpus, the 30-dimension taxonomy, the retrieval stack
+(reachable, not live), `knowledge-base/` for the Foundation, and `Bundle Folder/` for the robot — all on
+`origin/deliverable/2026-09`, and all reproducible from the immutable tag `release/kb-v2-2026-09-27`.
+**Unchanged:** the robot's live behaviour (`CJ_PIPELINE=legacy` remains the default) and
+`pi/deployment-snapshots` (still the field-state record, still what a `git pull` on an existing robot
+follows). **The single open gate**: `CE-11 → CE-14` must validate the retrieval stack against a gold set
+on the full 1,290-document universe (not `arch_baseline_v2`, which carries `universe: 827` and predates
+bge-base) before `CJ_PIPELINE=retrieval` can become the default — carrying forward routing top-1 86.7%
+with `twin_beacons_doctrine` never winning its own question, the frozen-40 drift of −2.9 at hit@10, and
+the 18 orphan documents. That is batch-05.

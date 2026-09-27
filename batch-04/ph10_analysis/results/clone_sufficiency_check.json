@@ -1,0 +1,29 @@
+{
+  "reused_existing_clone": true,
+  "clone_dir": "C:\\Users\\ASUS\\AppData\\Local\\Temp\\claude\\ph10t2",
+  "clone_head": "1e265acf4b627be75d082ea735ab1bbc1ec9a462",
+  "modules_present": {
+    "app/service.py": true,
+    "app/retrieval.py": true,
+    "app/embeddings.py": true,
+    "app/sparse.py": true,
+    "app/centering.py": true,
+    "config.py": true
+  },
+  "corpus_doc_count": 1290,
+  "verify_pin_returncode": 0,
+  "verify_pin_stdout": "[verify_pin] PASS — 1295 docs across 4 source files match corpus_snapshot.json.",
+  "encoder_bytes": 437955512,
+  "encoder_sha256": "c7c1988aae201f80cf91a5dbbd5866409503b89dcaba877ca6dba7dd0a5167d7",
+  "encoder_sha256_expected": "c7c1988aae201f80cf91a5dbbd5866409503b89dcaba877ca6dba7dd0a5167d7",
+  "clone_run_returncode": 0,
+  "sufficiency": {
+    "n_queries": 22,
+    "clone_error": null,
+    "baseline_error": null,
+    "n_mismatches": 0,
+    "mismatches": [],
+    "verdict": "SUFFICIENT"
+  },
+  "overall_verdict": "RELEASE VERIFIED — a clone that has been tested"
+}

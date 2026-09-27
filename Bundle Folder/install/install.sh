@@ -2,7 +2,13 @@
 # install.sh — bring a FRESH Reachy Mini (Pi CM4, Debian 13, user "pollen")
 # up to the same deployed state as the reference robot, from this repo alone.
 #
-#   git clone -b pi/deployment-snapshots https://github.com/Supervaise-Inc/CJAP.git \
+#   Phase 10 (2026-09-27): a fresh install clones an IMMUTABLE RELEASE TAG, not a branch.
+#   Tags do not move under a robot already running from them; a new release is a new tag
+#   plus this line changing, never the existing tag being moved. pi/deployment-snapshots
+#   keeps its own, separate job: snapshot-push.sh still records live-robot field state
+#   there. One ref records what the robot IS; the other defines what it INSTALLS.
+#
+#   git clone -b release/kb-v2-2026-09-27 https://github.com/Supervaise-Inc/CJAP.git \
 #       ~/Supervaise-Reachy-Mini-Project-main
 #   cd ~/Supervaise-Reachy-Mini-Project-main && bash deploy/pi/install.sh
 #   nano app/.env            # paste the three API keys (see app/.env.example)

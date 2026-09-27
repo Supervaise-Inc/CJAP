@@ -31,8 +31,12 @@ scp "$(ls -t ~/backups/private-*.tar.gz.enc | head -1)" pollen@<new-robot>.local
 
 ## 2. On the NEW robot — install
 
+Clone the current release TAG, not the `pi/deployment-snapshots` branch — tags are immutable, so a
+robot installed from one never moves under it (`deploy/pi/install.sh`'s own top comment names the
+current tag; check there if a newer release has since shipped).
+
 ```bash
-git clone -b pi/deployment-snapshots https://github.com/Supervaise-Inc/CJAP.git \
+git clone -b release/kb-v2-2026-09-27 https://github.com/Supervaise-Inc/CJAP.git \
     ~/Supervaise-Reachy-Mini-Project-main
 cd ~/Supervaise-Reachy-Mini-Project-main
 bash deploy/pi/install.sh              # apt, venv (exact pins), models, clips, dotfiles,
@@ -92,15 +96,18 @@ new deterministic retrieval pipeline (`app/service.py` + `app/retrieval.py`) rea
 `scripts/build_robot_bundle.py` on `deliverable/2026-09`; see its MANIFEST.md for exactly what is in it
 and why, and `batch-04/BATCH-04_REPORT.md` for the full reasoning.
 
-**Read this before using it (updated, Phase 8).** `app/service.py` is now committed — but on
-`deliverable/2026-09`, not on `pi/deployment-snapshots`, the branch `install.sh`'s `git clone` actually
-uses. As of this writing **none** of `app/service.py`, `app/retrieval.py`, `app/embeddings.py`,
-`app/sparse.py` or `app/centering.py` exist on `pi/deployment-snapshots` at all (checked directly,
-`git cat-file -e pi/deployment-snapshots:app/retrieval.py` fails) — a normal `install.sh` run on a fresh
-Pi delivers none of the code this bundle's data serves. Phase 8 added `config.CJ_PIPELINE`
-(`legacy` | `retrieval`, default **`legacy`**) so the new path is reachable and testable without
-flipping what's live; see §8 below for how to get the five files above onto a Pi today, as a deliberate
-stopgap, not a release process. `legacy` remains what a normal `install.sh` clone runs.
+**Read this before using it (Phase 8 finding; closed by Phase 10 — kept for the record).**
+`app/service.py` was committed on `deliverable/2026-09` but, at the time, existed on neither that branch
+nor `pi/deployment-snapshots` in a place `install.sh` could reach: `install.sh` cloned
+`pi/deployment-snapshots`, which had none of the five retrieval modules at all. Phase 8 added
+`config.CJ_PIPELINE` (`legacy` | `retrieval`, default **`legacy`**) so the new path was reachable and
+testable without flipping what's live, and §8 below documents the stopgap that existed in the meantime.
+**Phase 10 closed the actual gap**: `install.sh` now clones the immutable tag `release/kb-v2-2026-09-27`
+(see its top comment for the current one), cut from `deliverable/2026-09`, which carries all five
+modules — a normal `install.sh` run today delivers them. §8's manual-`rsync` stopgap is no longer
+needed for a *fresh* install; it may still help temporarily patching an *already-provisioned* robot
+between releases. `legacy` still remains what a normal `install.sh` clone runs — Phase 10 shipped the
+code, not a default-behaviour change.
 
 Size: **516 MB, 1,315 files** (1,290 corpus document cards, the chunk store, the topic map and voice
 files, the dense/sparse/centroid indexes, and a 419 MB sentence encoder). The Pi needs **at least 1.1 GB

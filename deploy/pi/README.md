@@ -2,15 +2,18 @@
 
 **Moving from an existing robot? Follow [TRANSFER.md](TRANSFER.md)** (push +
 encrypted secrets bundle + install + verify). Everything the deployed robot
-needs, minus secrets. Branch
-`pi/deployment-snapshots` is always the newest state; every
-`snapshot/YYYY-MM-DD-HHMM` branch is a frozen restore point.
+needs, minus secrets. A fresh install clones an immutable release TAG (currently
+`release/kb-v2-2026-09-27`), not a branch — tags do not move under a robot already
+running from them. Branch `pi/deployment-snapshots` keeps a separate job: it is what
+`snapshot-push.sh` writes to from a live robot, so it always reflects field state, not
+what a fresh install should get; every `snapshot/YYYY-MM-DD-HHMM` branch under it is a
+frozen restore point.
 
 ## New robot in 5 steps
 
 ```bash
 # 1. get the code (user "pollen" on the Reachy Mini image; path is assumed by the units)
-git clone -b pi/deployment-snapshots https://github.com/Supervaise-Inc/CJAP.git \
+git clone -b release/kb-v2-2026-09-27 https://github.com/Supervaise-Inc/CJAP.git \
     ~/Supervaise-Reachy-Mini-Project-main
 cd ~/Supervaise-Reachy-Mini-Project-main
 

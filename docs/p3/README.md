@@ -66,6 +66,10 @@ open numbers it has to beat or explain, carried forward from `batch-04/BATCH-04_
 See `docs/architecture/PIPELINES.md` and `docs/architecture/PARITY_MATRIX.md` for what `CJ_PIPELINE=retrieval`
 does and does not yet do relative to the pipeline the robot has run for months.
 
+**The batch shipped**: Phase 10 (post-batch-04) pushed `deliverable/2026-09` and cut the immutable
+release tag `release/kb-v2-2026-09-27` — see `docs/HANDOVER_2026-09-27.md` for how to get it and what to
+copy to a robot, and `batch-04/BATCH-04_REPORT.md`'s "The release" section for the push/tag record.
+
 ## Deleted (recoverable from git history — all were tracked and committed)
 
 ```
