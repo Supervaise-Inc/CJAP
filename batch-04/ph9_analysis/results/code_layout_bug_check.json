@@ -1,0 +1,25 @@
+{
+  "synthetic_probe": {
+    "flat_code_folder_the_literal_phase_spec": {
+      "config_py_placement": "flat",
+      "expected_repo_root": "C:\\Users\\ASUS\\AppData\\Local\\Temp\\cjp_layout_probe_khl276zl",
+      "actual_repo_root": "C:\\Users\\ASUS\\AppData\\Local\\Temp\\cjp_layout_probe_khl276zl\\code",
+      "finds_the_real_data_dir": "False",
+      "stderr": null
+    },
+    "config_at_payload_root_what_is_shipped": {
+      "config_py_placement": "root",
+      "expected_repo_root": "C:\\Users\\ASUS\\AppData\\Local\\Temp\\cjp_layout_probe_enlsrz63",
+      "actual_repo_root": "C:\\Users\\ASUS\\AppData\\Local\\Temp\\cjp_layout_probe_enlsrz63",
+      "finds_the_real_data_dir": "True",
+      "stderr": null
+    }
+  },
+  "real_bundle_cross_check": {
+    "config_repo_root": "C:\\Users\\ASUS\\Projects\\Supervaise-Reachy-Mini-Project\\Final Project Folder\\Bundle Folder\\cjap-bundle",
+    "retrieval_repo_root": "C:\\Users\\ASUS\\Projects\\Supervaise-Reachy-Mini-Project\\Final Project Folder\\Bundle Folder\\cjap-bundle",
+    "roots_agree": "True",
+    "config_finds_real_centroids_meta": "True"
+  },
+  "conclusion": "CONFIRMED broken: flat placement finds the real data dir = False. CONFIRMED correct: root placement finds it = True. Real built Bundle Folder/cjap-bundle/: roots_agree=True, config finds its real centroids meta=True."
+}

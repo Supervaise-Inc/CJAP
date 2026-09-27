@@ -1,0 +1,168 @@
+{
+  "id": "CA537",
+  "format": "C",
+  "type": "column",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 537,
+  "title": "Four truths on Sara's trial",
+  "date": "2026-07-27",
+  "link": "https://opinion.inquirer.net/193356/four-truths-on-saras-trial",
+  "keywords": [
+    "impeachment",
+    "Sara Duterte",
+    "judicial truth",
+    "evidence",
+    "subpoena",
+    "admissibility",
+    "relevance",
+    "truth"
+  ],
+  "primary_topics": [
+    "The impeachment trial's debates on truth distilled into one question -- what is the truth in the impeachment trial? -- answered through four truths: judicial, political or convenient, public, and absolute or Christian",
+    "Judicial truth -- judges decide only on evidence properly marked, identified, offered, admitted and believed under the Rules of Court, never on media or even their own perception",
+    "Political truth -- the impeachment court is not purely judicial; senator-judges need not be lawyers and may follow political instincts, so judicial and political truths intersect in this sui generis tribunal",
+    "Diokno-Poa exchange over subpoenas for the BIR 'Green Box' tax records and AMLC financial records -- subpoena vs search warrant, and admissibility vs relevancy; Escudero issued the subpoenas as prima facie relevant, credibility to be decided later",
+    "Public truth -- what people believe when judicial and political truths lose credibility, as when the Second People Power Revolution erupted over the unopened second envelope",
+    "Absolute or Christian truth -- Jesus' trial and Pilate's 'What is truth?' (John 18:37-38); every court must strive to approximate it, not rest on speculation, political convenience or public clamor"
+  ],
+  "sub_topics": [
+    "Legalese unfamiliar to the viewing public",
+    "Rules of Court on marking, identification, offer and admission of evidence",
+    "Judges cannot use personal perception, e.g., of a traffic accident",
+    "Senator-judges in crimson robes vs justices in black gowns",
+    "Senator-judges need not be lawyers",
+    "Sui generis impeachment tribunal",
+    "Subpoena ad testificandum and subpoena duces tecum",
+    "Search and seizure warrant and constitutional safeguards",
+    "Relevance and competence of evidence",
+    "BIR 'Green Box' tax records",
+    "AMLC financial records of the VP and her husband",
+    "Prima facie relevance to unexplained wealth and betrayal of public trust",
+    "Second People Power Revolution and the second envelope",
+    "Pilate's question 'What is truth?'"
+  ],
+  "signature_phrases": [
+    "Let us, therefore, cut through the legal brouhaha",
+    "What is the truth in the impeachment trial?",
+    "THE ANSWER, I BELIEVE, lies in understanding four truths",
+    "judicial truth, political or convenient truth, public truth, and absolute or Christian truth",
+    "They never rely on what they hear on the radio or see on television or on TikTok",
+    "an impeachment court is not purely judicial",
+    "In this sui generis tribunal, judicial and political truths inevitably intersect",
+    "a subpoena opens the door to inquiry but does not decide the controversy itself",
+    "Evidence must be both relevant and competent",
+    "Relevance, however, does not by itself ensure admissibility or credibility",
+    "Indeed, these distinctions are not mere technicalities",
+    "Pilate's question continues to hound all tribunals in Christian countries today",
+    "Justice, after all, cannot rest on speculation, political convenience, or public clamor",
+    "It must satisfy the human longing for the absolute truth, however elusive it may be"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban",
+      "Sara Duterte",
+      "Chel Diokno",
+      "Michael Poa",
+      "Francis \"Chiz\" Escudero",
+      "Jesus",
+      "Pontius Pilate"
+    ],
+    "institutions": [
+      "Senate sitting as Impeachment Court",
+      "Supreme Court of the Philippines",
+      "Bureau of Internal Revenue (BIR)",
+      "Anti-Money Laundering Council (AMLC)",
+      "Akbayan party list"
+    ],
+    "cases": [
+      "Impeachment trial of Vice President Sara Duterte"
+    ],
+    "laws_treaties": [
+      "Rules of Court",
+      "Constitution (safeguards on search and seizure)",
+      "John 18:37-38"
+    ],
+    "events": [
+      "Diokno-Poa exchange over subpoenas for the 'Green Box' and AMLC records",
+      "Escudero's issuance of the subpoenas",
+      "Second People Power Revolution over the unopened second envelope",
+      "Trial of Jesus before Pontius Pilate"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "The truth in the impeachment trial can be understood through four truths: judicial, political or convenient, public, and absolute or Christian.",
+      "rhetorical_move": "organizing framework to cut through legalese",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Judges decide only on evidence properly presented and admitted under the Rules, and must acquit if guilt is not proven, even against their personal perception.",
+      "rhetorical_move": "explains judicial truth with an example",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "The impeachment court is not purely judicial: senator-judges need not be lawyers and may follow political truths, so judicial and political truths intersect.",
+      "rhetorical_move": "contrast between courts and the impeachment tribunal",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "A subpoena opens the door to inquiry but does not decide the controversy; produced documents are not automatically admissible and must be relevant and competent -- distinctions that are constitutional safeguards, not technicalities.",
+      "rhetorical_move": "clarifies evidentiary distinctions from the trial exchange",
+      "confidence": "asserted with evidence"
+    },
+    {
+      "claim": "When judicial and political truths lose credibility, the people's truth takes over, as in the Second People Power Revolution over the second envelope.",
+      "rhetorical_move": "historical illustration",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Every court must strive to approximate the absolute truth; justice cannot rest on speculation, political convenience or public clamor.",
+      "rhetorical_move": "biblical closing (Pilate's question)",
+      "confidence": "asserted"
+    }
+  ],
+  "notable_anecdotes": [
+    "Senator-judges in striking crimson robes 'ape' Supreme Court justices in conservative black gowns.",
+    "A judge who personally witnessed a traffic accident still cannot use that perception in deciding the case.",
+    "The Diokno-Poa exchange over subpoenas for the BIR 'Green Box' and AMLC records.",
+    "Diokno conceding that the court may 'not get to see the entire truth.'",
+    "The Second People Power Revolution sparked by the refusal to open the second envelope.",
+    "Pontius Pilate asking Jesus, 'What is truth?'"
+  ],
+  "target_audience": [
+    "Inquirer general readership",
+    "Senator-judges and trial lawyers",
+    "Viewing public following the impeachment trial",
+    "Law students (evidence)",
+    "Christian readers"
+  ],
+  "register_markers": [
+    "cut through the legal brouhaha plain-speaking register",
+    "THE ANSWER, I BELIEVE all-caps thesis",
+    "crème de la crème French idiom",
+    "garbed in striking crimson robes ... ape Supreme Court justices vivid contrast",
+    "THIS INTERSECTION OF THE TWO TRUTHS all-caps opener",
+    "Au contraire French pivot",
+    "EVEN IF PRODUCED ... Certainly not. all-caps rhetorical question and answer",
+    "Latin legal terms glossed (subpoena duces tecum, prima facie)",
+    "the greatest trial in history biblical register",
+    "Ultimately closing formula"
+  ],
+  "decision_framework_signals": [
+    "builds a four-part taxonomy of truth",
+    "separates judicial from political functions in impeachment",
+    "explains evidentiary distinctions through a live trial exchange",
+    "treats procedural distinctions as constitutional safeguards",
+    "invokes history (People Power) and faith (Pilate) to frame higher ideals of truth"
+  ],
+  "one_paragraph_summary": "Panganiban cuts through the legalese of VP Sara Duterte's impeachment trial by asking: what is the truth in the trial? He answers with four truths: judicial, political or convenient, public, and absolute or Christian. Judicial truth rests only on evidence properly marked, identified, offered, admitted and believed under the Rules of Court; judges never rely on radio, television or TikTok, and cannot use even what they personally saw -- absent proof, they must acquit. The impeachment court, however, is not purely judicial: senator-judges in crimson robes may resemble justices, but they need not be lawyers and may follow political truths, so the two intersect in this sui generis tribunal. This was seen when prosecutor Rep. Chel Diokno and defense counsel Michael Poa clashed over subpoenas for the VP's BIR tax records in the 'Green Box' and AMLC financial records of the VP and her husband. CJP explains that a subpoena merely directs a person to testify or bring documents and opens the door to inquiry, unlike a search warrant; produced documents are not automatically admissible, since evidence must be both relevant and competent. Presiding officer Sen. Francis 'Chiz' Escudero issued the subpoenas because the records appeared prima facie relevant to unexplained wealth and betrayal of public trust, leaving credibility for later. These distinctions are constitutional safeguards, not technicalities, though no tribunal can fully attain the truth, as Diokno admitted. Public truth is what people believe when judicial and political truths lose credibility, as when the Second People Power Revolution erupted over the unopened second envelope. The absolute truth recalls Jesus' trial and Pilate's question, 'What is truth?' Every court must strive to approximate it; justice cannot rest on speculation, political convenience or public clamor.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "impeachment_accountability"
+    ],
+    "secondary": [],
+    "route_source": "matcher"
+  }
+}

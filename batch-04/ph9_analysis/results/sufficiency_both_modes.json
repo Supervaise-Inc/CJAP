@@ -1,0 +1,186 @@
+{
+  "leak_check": {
+    "ok": true,
+    "extra_top_level": [],
+    "stray_md": [],
+    "chunk_index_leaked": false,
+    "app_contents": [
+      "centering.py",
+      "embeddings.py",
+      "retrieval.py",
+      "service.py",
+      "sparse.py"
+    ]
+  },
+  "retrieval_mode": {
+    "n_queries": 22,
+    "model_load_count_isolated": 1,
+    "n_mismatches": 0,
+    "mismatches": [],
+    "verdict": "SUFFICIENT"
+  },
+  "legacy_mode": {
+    "what_this_checks": "cjap-bundle/ ships no legacy pipeline code (unchanged, already on the Pi via install.sh) - this proves the bundle's DATA does not break the real, unbundled app/answer_pipeline.py: CorpusArtifacts loads, build_context() resolves citations for every query topic, and the identity intent's persona text is present.",
+    "ok": true,
+    "n_queries": 22,
+    "identity_node_present": true,
+    "identity_definition_len": 266,
+    "rows": [
+      {
+        "query": "What do you think of the cyberlibel case against Maria Ressa?",
+        "kind": "column",
+        "topic": "libel_and_cybercrime",
+        "context_assembled": true,
+        "context_chars": 3637
+      },
+      {
+        "query": "Should online libel be treated the same as libel in print?",
+        "kind": "column",
+        "topic": "libel_and_cybercrime",
+        "context_assembled": true,
+        "context_chars": 3637
+      },
+      {
+        "query": "What is your view on the West Philippine Sea arbitration award?",
+        "kind": "column",
+        "topic": "international_law_disputes",
+        "context_assembled": true,
+        "context_chars": 4520
+      },
+      {
+        "query": "How should the Ombudsman handle the pork barrel scam cases?",
+        "kind": "column",
+        "topic": "public_funds_budget_and_bank_evidence",
+        "context_assembled": true,
+        "context_chars": 3968
+      },
+      {
+        "query": "What is the twin-beacons doctrine?",
+        "kind": "book",
+        "topic": "international_law_disputes",
+        "context_assembled": true,
+        "context_chars": 4520
+      },
+      {
+        "query": "Why do liberty and prosperity depend on each other?",
+        "kind": "book",
+        "topic": "twin_beacons_doctrine",
+        "context_assembled": true,
+        "context_chars": 4179
+      },
+      {
+        "query": "Can the President extend her term through Charter change?",
+        "kind": "book",
+        "topic": "us_supreme_court_and_american_politics",
+        "context_assembled": true,
+        "context_chars": 22831
+      },
+      {
+        "query": "What is the difference between a constitutional amendment and a revision?",
+        "kind": "book",
+        "topic": "party_list_charter_change_and_dynasties",
+        "context_assembled": true,
+        "context_chars": 4169
+      },
+      {
+        "query": "What did you tell the ASEAN Law Association about the rule of law?",
+        "kind": "speech",
+        "topic": "asean_law_association",
+        "context_assembled": true,
+        "context_chars": 24878
+      },
+      {
+        "query": "What advice do you give law graduates taking the bar exam?",
+        "kind": "speech",
+        "topic": "bar_exam_and_legal_education",
+        "context_assembled": true,
+        "context_chars": 3536
+      },
+      {
+        "query": "What did you say at the Supreme Court centenary?",
+        "kind": "speech",
+        "topic": "judiciary_milestones_and_tributes",
+        "context_assembled": true,
+        "context_chars": 3768
+      },
+      {
+        "query": "Tell me about your childhood and your family.",
+        "kind": "biography",
+        "topic": "life_story_family_school_and_church",
+        "context_assembled": true,
+        "context_chars": 6518
+      },
+      {
+        "query": "What was Far Eastern University like for you?",
+        "kind": "biography",
+        "topic": "life_story_family_school_and_church",
+        "context_assembled": true,
+        "context_chars": 6518
+      },
+      {
+        "query": "How did your Bukas Loob sa Diyos faith shape your life?",
+        "kind": "biography",
+        "topic": "faith_journey",
+        "context_assembled": true,
+        "context_chars": 4279
+      },
+      {
+        "query": "Tell me about the day you got the call from Malacanang asking you to be Chief Justice.",
+        "kind": "biography",
+        "topic": "judiciary_milestones_and_tributes",
+        "context_assembled": true,
+        "context_chars": 3768
+      },
+      {
+        "query": "What does the epilogue of your biography say about how you want to be remembered?",
+        "kind": "biography",
+        "topic": "life_story_family_school_and_church",
+        "context_assembled": true,
+        "context_chars": 6518
+      },
+      {
+        "query": "What have you written recently about the ICC case against Duterte?",
+        "kind": "date",
+        "topic": "criminal_trials_and_prosecutions",
+        "context_assembled": true,
+        "context_chars": 6219
+      },
+      {
+        "query": "What did you say about the Marcos-Robredo election contest in 2016?",
+        "kind": "date",
+        "topic": "marcos_robredo_election_contest",
+        "context_assembled": true,
+        "context_chars": 3560
+      },
+      {
+        "query": "What's the weather like in Manila today?",
+        "kind": "out_of_scope",
+        "topic": "asean_law_association",
+        "context_assembled": true,
+        "context_chars": 24878
+      },
+      {
+        "query": "Can you give me a recipe for adobo?",
+        "kind": "out_of_scope",
+        "topic": "faith_journey",
+        "context_assembled": true,
+        "context_chars": 4279
+      },
+      {
+        "query": "Are you really Chief Justice Panganiban, or is this an AI?",
+        "kind": "identity",
+        "topic": "robot_identity_meta",
+        "context_assembled": true,
+        "context_chars": 1251
+      },
+      {
+        "query": "How were you built? Are you a robot?",
+        "kind": "identity",
+        "topic": "robot_identity_meta",
+        "context_assembled": true,
+        "context_chars": 1251
+      }
+    ],
+    "verdict": "SUFFICIENT (data compatible with the unchanged legacy pipeline)"
+  }
+}

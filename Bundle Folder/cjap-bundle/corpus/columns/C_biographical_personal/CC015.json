@@ -1,0 +1,133 @@
+{
+  "id": "CC015",
+  "format": "C",
+  "type": "column",
+  "theme": "C",
+  "theme_label": "Biographical and Personal",
+  "number": 15,
+  "title": "Manila Cathedral: sad news, good news",
+  "date": "2012-04-07",
+  "link": "https://opinion.inquirer.net/26335/manila-cathedral-sad-news-good-news",
+  "keywords": [
+    "Manila Cathedral",
+    "Archbishop Tagle",
+    "Ramon S. Ang",
+    "Manila Cathedral-Basilica Foundation",
+    "structural deficiency",
+    "P50 million donation",
+    "pipe organ",
+    "soil liquefaction"
+  ],
+  "primary_topics": [
+    "The sad news: Manila Cathedral closure due to newly discovered structural deficiencies -- soil liquefaction risk in earthquakes",
+    "The good news: Ramon S. Ang of San Miguel Corp. agreeing to contribute P50 million to lead in saving the cathedral",
+    "History, significance, and governance of the Manila Cathedral-Basilica and its Foundation"
+  ],
+  "sub_topics": [
+    "Archbishop Tagle directed closure upon recommendation of MCBF; 200 couples scheduled to marry affected",
+    "Structural engineering team led by Dr. Angel Lazaro III: tested slabs, beams, columns, walls, footings, piles, trusses, domes, parapets; 30-meter bore holes; determined soil liquefaction could occur in earthquake",
+    "Annual pipe organ concerts for Feast of the Immaculate Conception especially missed",
+    "Cathedral pipe organ described by George Miller in 1912 as most modern in the Philippines; improved several times, latest in 2006",
+    "Cardinal Rosales already suspected deterioration: had 17-ton bells (seven big bells) brought down from tower belfry; computerized Holland carillon bells (donated by Alberto and Sylvia Lina) installed; now those must also come down",
+    "Cathedral history: original construction 1581; survived typhoons, earthquakes, fire, and World War II; present structure: neo-Romanesque Byzantine by architect Fernando Ocampo; reconstructed after WWII by Archbishop Rufino J. Santos (first Filipino cardinal); consecrated Dec. 7, 1958",
+    "Elevated to basilica by Pope John Paul II 30 years ago",
+    "Private dinner: Archbishop Tagle, Amb. de Villa, CJ, Ramon Ang -- Ang agreed to contribute P50M to lead in saving the cathedral",
+    "MCBF governance: Tagle (ex-officio chair); de Villa (vice chair); CJ Panganiban (president); Marixi Prieto (vice president); Msgr. Cerbo (treasurer/executive director)",
+    "Confidence that church can reopen within a year; more countrymen will come forward with contributions"
+  ],
+  "signature_phrases": [
+    "The sad news, reminiscent of Black Friday's woes",
+    "the good news on this happy Easter Sunday",
+    "San Miguel Corp. president Ramon S. Ang graciously agreed to contribute P50 million to lead in saving this veritable center of Catholic worship",
+    "the humble shepherd very little choice",
+    "More than mortar and brick, the Manila Cathedral is a symbol of our faith and a monument of our religious heritage",
+    "the bulwark of Filipino Catholicism and an enduring witness to the strength and depth of our people's fidelity to our Lord Jesus Christ",
+    "soil liquefaction could occur in an earthquake and endanger the church",
+    "we know in faith that more of our countrymen would come forward",
+    "the center of worship in the only Catholic country in Asia"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban (MCBF president)",
+      "Archbishop Luis Antonio G. Tagle (directed closure; ex-officio MCBF chair)",
+      "Amb. Henrietta T. de Villa (MCBF vice chair)",
+      "Ramon S. Ang (San Miguel Corp. president; agreed to contribute P50M)",
+      "Cardinal Gaudencio Rosales (predecessor; had bells removed)",
+      "Dr. Angel Lazaro III (structural engineering team head)",
+      "Marixi R. Prieto (MCBF vice president)",
+      "Archbishop Rufino J. Santos (first Filipino cardinal; reconstructed cathedral after WWII)",
+      "Alberto and Sylvia Lina (donated Holland carillon bells)",
+      "Fernando Ocampo (architect of present structure)",
+      "Pope John Paul II (elevated cathedral to basilica 30 years ago)"
+    ],
+    "institutions": [
+      "Manila Cathedral-Basilica",
+      "Manila Metropolitan Cathedral Basilica Foundation (MCBF)",
+      "San Miguel Corporation (SMC)"
+    ],
+    "cases": [],
+    "laws_treaties": [],
+    "events": [
+      "Cathedral closure (approximately March 2012)",
+      "Private dinner: Tagle, de Villa, CJ, Ang -- P50M commitment",
+      "Removal of 17-ton bells under Cardinal Rosales",
+      "Structural engineering tests with 30-meter bore holes",
+      "Cathedral consecration (Dec. 7, 1958)"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "The closure of the Manila Cathedral was the prudent and necessary decision given the structural deficiencies and soil liquefaction risk -- Archbishop Tagle prioritized the well-being, health, and lives of the faithful over continuity of services.",
+      "rhetorical_move": "prudent-closure-affirmation framing the archbishop's decision as responsible leadership",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Ramon Ang's P50M commitment to lead the cathedral's rehabilitation is the turning-point good news -- with it, the foundation is confident the church can reopen within a year, and more countrymen will follow.",
+      "rhetorical_move": "transformative-donation-as-restoration-catalyst framing",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "The Manila Cathedral is more than mortar and brick -- it is the bulwark of Filipino Catholicism and the center of worship in the only Catholic country in Asia, making its rehabilitation a matter of national spiritual patrimony.",
+      "rhetorical_move": "spiritual-patrimony framing elevating the restoration to a national faith mission",
+      "confidence": "asserted"
+    }
+  ],
+  "notable_anecdotes": [
+    "The private Easter dinner where Ramon Ang graciously agreed to contribute P50M -- a small group of four (Tagle, de Villa, CJ, Ang) securing the restoration catalytic lead gift.",
+    "The 17-ton weight of the seven bells being lowered from the tower belfry under Cardinal Rosales -- physicalizing the structural concern before it became official engineering consensus.",
+    "George Miller 1912 description of the cathedral pipe organ as the most modern in the Philippines -- preserved 100 years later as the cultural-heritage marker making the closure especially poignant."
+  ],
+  "target_audience": [
+    "Catholic faithful and Manila Cathedral devotees",
+    "Business community and philanthropic donors considering contributions",
+    "Historical and heritage preservation advocates",
+    "CJ Inquirer readers who appreciate his personal institutional role as MCBF president"
+  ],
+  "register_markers": [
+    "Easter Sunday timing (sad news/good news framing mirrors Good Friday/Easter Sunday contrast)",
+    "institutional-role disclosure (yours truly, president of MCBF)",
+    "historical-narrative arc (1581 original construction to 2012 closure and planned restoration)",
+    "spiritual-patrimony language (bulwark of Filipino Catholicism, center of worship in only Catholic country in Asia)",
+    "engineering-specificity register (soil liquefaction, 30-meter bore holes, tested structural components)",
+    "private-dinner-as-catalytic-moment register",
+    "in-faith-more-will-come-forward as the hopeful closing"
+  ],
+  "decision_framework_signals": [
+    "applies prudent-closure-as-responsible-leadership standard to affirm Archbishop Tagle decision",
+    "uses transformative-donation-as-restoration-catalyst framing to frame Ang contribution as the turning point",
+    "deploys spiritual-patrimony argument to elevate the restoration to national religious mission",
+    "treats structural-engineering-evidence (soil liquefaction, bore hole tests) as the objective basis for the closure decision",
+    "frames foundation leadership team composition as the institutional accountability structure for the restoration"
+  ],
+  "one_paragraph_summary": "Panganiban writes on Easter Sunday with sad and good news about the Manila Cathedral. The sad news: Archbishop Tagle directed its closure upon the Manila Cathedral-Basilica Foundation's recommendation after a structural engineering team led by Dr. Angel Lazaro III, conducting extensive tests including 30-meter bore holes, determined that soil liquefaction could occur in a major earthquake and endanger the church -- affecting 200 couples scheduled to marry there and ending the annual December pipe organ concerts. Cardinal Rosales had already suspected deterioration, arranging the removal of the cathedral's seven big bells (17 tons) from the belfry and installing computerized Holland carillon bells donated by Alberto and Sylvia Lina -- which also now must be brought down. The good news: at a recent private dinner among Archbishop Tagle, Amb. de Villa, CJ, and San Miguel Corp. president Ramon Ang, Ang 'graciously agreed to contribute P50 million to lead in saving this veritable center of Catholic worship.' The MCBF -- with the Archbishop as ex-officio chair, Amb. de Villa as vice chair, CJ Panganiban as president, and Marixi Prieto as vice president -- is now confident the cathedral can reopen within a year. CJ traces the cathedral's history from its 1581 original construction through World War II devastation and the 1958 reconstruction by Archbishop Rufino J. Santos (the first Filipino cardinal) to its elevation as a basilica by Pope John Paul II, describing it as 'the bulwark of Filipino Catholicism and an enduring witness to the strength and depth of our people's fidelity to our Lord Jesus Christ.'",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "life_story_family_school_and_church"
+    ],
+    "secondary": [
+      "jbc_discernment_and_appointment"
+    ],
+    "route_source": "matcher"
+  }
+}

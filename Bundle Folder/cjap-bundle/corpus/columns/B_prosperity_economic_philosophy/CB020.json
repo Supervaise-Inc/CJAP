@@ -1,0 +1,173 @@
+{
+  "id": "CB020",
+  "format": "C",
+  "type": "column",
+  "theme": "B",
+  "theme_label": "Prosperity and Economic Philosophy",
+  "number": 20,
+  "title": "Independence for the SC and BSP",
+  "date": "2026-07-13",
+  "link": "https://opinion.inquirer.net/193059/independence-for-the-sc-and-bsp",
+  "keywords": [
+    "central bank independence",
+    "Bangko Sentral ng Pilipinas",
+    "Federal Reserve",
+    "Trump v. Cook",
+    "monetary policy",
+    "financial crises",
+    "judicial independence",
+    "rule of law"
+  ],
+  "primary_topics": [
+    "BSP 33rd anniversary and book launch 'Risk and Resilience in the Philippine Financial System' -- Governor Remolona's 'buffers must be built before a crisis' prompts the question of the most reliable buffer against financial crises",
+    "History's answer: central bank independence -- the US Fed insulated from political control so monetary policy follows economic realities, not partisan expediency",
+    "Trump v. Cook (US Supreme Court, 5-4, per CJ John Roberts Jr.) -- Fed governors removable only 'for cause' with notice and opportunity to contest, not 'at will'; limits on the highest political office",
+    "Parallel evolution of the Fed (1913) and the Central Bank of the Philippines (1948); 1987 Constitution Art. XII, Sec. 20 and RA 7653 creating the BSP in 1993 with operational independence that steadied the 1997 crisis; BSP independence is statutory, unlike the SC's constitutional independence",
+    "Risks of lost independence -- return to structural weaknesses, eroded monetary policy, heavy short-term borrowing, diminished buffers, destabilized economy",
+    "Link to the SC -- Remolona's remark that the SC's independence is a sine qua non of other institutions' independence; independence must be continually earned, protected and reaffirmed",
+    "Closing -- the SC protecting liberty and the BSP safeguarding prosperity as anchors of democracy under the rule of law"
+  ],
+  "sub_topics": [
+    "BSP 33rd anniversary (July 3)",
+    "Book 'Risk and Resilience in the Philippine Financial System: How Much Has Changed?'",
+    "Buffers built before a crisis",
+    "US Federal Reserve's tradition of independent central banking",
+    "Political manipulation of monetary policy",
+    "Trump's attempt to remove Fed Governor Lisa Cook (2025)",
+    "'For cause' vs 'at will' removal",
+    "Federal Reserve System (1913) and Central Bank of the Philippines (1948)",
+    "Joint Philippine-American Finance Commission",
+    "Article XII, Section 20 of the 1987 Constitution",
+    "RA 7653 (New Central Bank Act) and the BSP's creation in 1993",
+    "1997 world financial crisis",
+    "Statutory vs constitutional independence",
+    "Judicial independence as a model for defending the BSP"
+  ],
+  "signature_phrases": [
+    "the world's most reliable defensive \"buffer\" against decades of relentless waves of financial crises",
+    "HISTORY'S ANSWER, I BELIEVE, points to the institutional independence of central banks",
+    "calamities could arise from even the suspicion of political manipulation of monetary policy",
+    "monetary policy would be guided by economic realities rather than by partisan expediencies",
+    "even the nation's highest political office has constitutional limits when dealing with independent institutions",
+    "the Fed and the BSP share a remarkably similar evolution",
+    "the BSP's independence is derived from, and its powers defined, by statutes",
+    "armed with operational independence",
+    "our country would return to the structural weaknesses that once made it vulnerable to recurring crises",
+    "VERILY, WITHOUT AN INDEPENDENT MONETARY AUTHORITY, our long-term economic stability would inevitably yield to short-term political convenience",
+    "institutional independence is never permanently secured. It must continually be earned, protected, and reaffirmed",
+    "I would defend the BSP's independence in the same pugnacious way in which the Supreme Court safeguards its judicial independence",
+    "independent institutions remain the bedrock of our democracy",
+    "nations are fortified by the buffers of independent institutions"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban",
+      "Eli M. Remolona Jr.",
+      "Donald Trump",
+      "Lisa Cook",
+      "John Roberts, Jr."
+    ],
+    "institutions": [
+      "Bangko Sentral ng Pilipinas (BSP)",
+      "United States Federal Reserve (Fed) and its Board of Governors",
+      "Supreme Court of the United States",
+      "Central Bank of the Philippines (CBP)",
+      "Joint Philippine-American Finance Commission",
+      "Supreme Court of the Philippines",
+      "Congress"
+    ],
+    "cases": [
+      "Trump v. Cook (June 29, 2026, US Supreme Court, 5-4, per CJ John Roberts, Jr.)"
+    ],
+    "laws_treaties": [
+      "1987 Constitution, Article XII, Section 20",
+      "Republic Act No. 7653 (New Central Bank Act)"
+    ],
+    "events": [
+      "BSP 33rd anniversary and book launch on July 3",
+      "Trump's attempt to remove Fed Governor Lisa Cook in 2025",
+      "Creation of the Federal Reserve System in 1913",
+      "Recommendation to establish the Central Bank of the Philippines in 1948",
+      "Creation of the BSP in 1993",
+      "1997 world financial crisis",
+      "Supreme Court 125th anniversary celebration (Remolona's remarks)"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "History shows that the most reliable buffer against financial crises is the institutional independence of central banks.",
+      "rhetorical_move": "answers a question prompted by the BSP governor's remark",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "In Trump v. Cook the US Supreme Court ruled 5-4 that Fed governors may be removed only for cause, after notice and an opportunity to contest, showing that even the highest political office has limits with independent institutions.",
+      "rhetorical_move": "foreign precedent as a test case",
+      "confidence": "reported (not his view)"
+    },
+    {
+      "claim": "The Fed and the BSP share a similar evolution, but unlike the SC, whose independence comes directly from the Constitution, the BSP's independence rests on statute (RA 7653 under Art. XII, Sec. 20).",
+      "rhetorical_move": "comparative institutional history with a key distinction",
+      "confidence": "asserted with evidence"
+    },
+    {
+      "claim": "If the BSP bowed to partisan interference, the country would return to structural weaknesses: eroded monetary policy, heavy short-term borrowing, diminished buffers and a destabilized economy.",
+      "rhetorical_move": "hypothetical consequence analysis",
+      "confidence": "hedged"
+    },
+    {
+      "claim": "Institutional independence is never permanently secured; he would defend the BSP's independence as pugnaciously as the Supreme Court defends its own, through fidelity to the rule of law, integrity and courage.",
+      "rhetorical_move": "personal counsel from a former chief justice",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Independent institutions -- the SC protecting liberty, the BSP safeguarding prosperity -- are the bedrock of democracy under the rule of law.",
+      "rhetorical_move": "synthesizing close linking liberty and prosperity",
+      "confidence": "asserted"
+    }
+  ],
+  "notable_anecdotes": [
+    "CJP invited to the BSP's 33rd anniversary and the launch of 'Risk and Resilience in the Philippine Financial System,' whose cover shows crashing waves.",
+    "Governor Remolona's line that '[b]uffers must be built before a crisis.'",
+    "President Trump's attempt in 2025 to remove Fed Governor Lisa Cook, and the 5-4 ruling in Trump v. Cook.",
+    "The BSP, created in 1993, 'armed with operational independence' that steadied the 1997 crisis.",
+    "CJP describing himself as 'a once-upon-a-time chief justice.'"
+  ],
+  "target_audience": [
+    "Inquirer general readership",
+    "BSP officials, economists and bankers",
+    "Legislators and policymakers on monetary governance",
+    "Lawyers and students of constitutional and economic law",
+    "Business and financial community"
+  ],
+  "register_markers": [
+    "the brilliant economists and seasoned bankers admiring epithet",
+    "This kept me wondering reflective question",
+    "HISTORY'S ANSWER, I BELIEVE all-caps thesis",
+    "mercurial US President Donald Trump characterizing adjective",
+    "AT THIS POINT, let me explain all-caps signpost",
+    "First ... Second enumerated implications",
+    "In my humble opinion humility marker",
+    "VERILY, WITHOUT AN INDEPENDENT MONETARY AUTHORITY all-caps warning",
+    "crashing waves of future crises recurring wave metaphor",
+    "As a once-upon-a-time chief justice self-deprecating persona",
+    "pugnacious way combative adjective",
+    "To close ... Ultimately closing formulas"
+  ],
+  "decision_framework_signals": [
+    "frames economic stability through institutional design",
+    "uses a foreign precedent (Trump v. Cook) to draw local lessons",
+    "traces institutional history to show a shared evolution",
+    "distinguishes constitutional from statutory sources of independence",
+    "reasons from the consequences of losing independence",
+    "links judicial independence (liberty) and monetary independence (prosperity) under the rule of law"
+  ],
+  "one_paragraph_summary": "Panganiban recounts attending the BSP's 33rd anniversary on July 3 and the launch of 'Risk and Resilience in the Philippine Financial System: How Much Has Changed?', where Governor Eli M. Remolona Jr. stressed that buffers must be built before a crisis. Asking what the most reliable buffer against financial crises has been, he answers: the institutional independence of central banks. The US Federal Reserve was insulated from political control because calamities could arise even from the suspicion of political manipulation of monetary policy. That independence was tested when President Donald Trump tried to remove Fed Governor Lisa Cook in 2025; in Trump v. Cook, the US Supreme Court, through Chief Justice John Roberts, Jr., ruled 5-4 that Fed governors may be removed only for cause, after notice and an opportunity to contest, not at will. For the Philippines, CJP draws two lessons. First, the Fed and the BSP evolved similarly: repeated crises led to the Fed in 1913, and the joint Philippine-American Finance Commission recommended the Central Bank of the Philippines in 1948. The 1987 Constitution directs Congress to create an independent central monetary authority, and RA 7653 created the BSP in 1993, 'armed with operational independence' that steadied the 1997 crisis; unlike the SC, whose independence comes from the Constitution, the BSP's rests on statute. Second, the BSP's independence can also be tested; if it bowed to partisan interference, the country could return to structural weaknesses, eroded monetary policy, heavy short-term borrowing and a destabilized economy. Recalling Remolona's remark at the SC's 125th anniversary, CJP says institutional independence must be continually earned and defended, as the Court defends its own. The SC protecting liberty and the BSP safeguarding prosperity are anchors of democracy under the rule of law.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "us_supreme_court_and_american_politics"
+    ],
+    "secondary": [],
+    "route_source": "matcher"
+  }
+}

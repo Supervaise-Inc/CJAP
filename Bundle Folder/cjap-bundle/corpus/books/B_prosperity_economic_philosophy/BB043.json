@@ -1,0 +1,164 @@
+{
+  "id": "BB043",
+  "format": "B",
+  "type": "book",
+  "theme": "B",
+  "theme_label": "Prosperity and Economic Philosophy",
+  "number": 43,
+  "title": "Liberty and Prosperity -- Ch. 34: Coastal Pacific Trading v. Southern Rolling Mills: Directors' Duty of Loyalty and Fidelity to Creditors",
+  "date": "2006-07-01",
+  "link": "https://cjpanganiban.com/books-authored-by-chief-justice-artemio-v-panganiban/",
+  "keywords": [
+    "Coastal Pacific Trading v. Southern Rolling Mills",
+    "Visayan Integrated Steel Corporation (VISCO)",
+    "Development Bank of the Philippines",
+    "consortium of banks",
+    "Far East Bank and Trust Company",
+    "National Steel Corporation",
+    "Southern Industrial Projects, Inc.",
+    "processing agreement",
+    "3,000 metric tons of steel coils",
+    "unrecorded second mortgage",
+    "equity conversion",
+    "generator sets",
+    "assignment of the DBP mortgage",
+    "extrajudicial foreclosure",
+    "res judicata",
+    "identity of parties",
+    "privity",
+    "causes of action",
+    "rescission",
+    "fraud of creditors",
+    "duty of loyalty and fidelity",
+    "directors as trustees",
+    "Article 1385 of the Civil Code",
+    "exemplary damages",
+    "buyer in good faith",
+    "Vicente Garcia",
+    "Arturo Samonte",
+    "Board of Trustees Consortium of Banks"
+  ],
+  "primary_topics": [
+    "Chapter 34 of 'Liberty and Prosperity' -- a digest of Coastal Pacific Trading v. Southern Rolling Mills, in which a unanimous Supreme Court granted the petition, held the case not barred by res judicata, and found that the consortium of banks controlling the debtor steel corporation had disposed of its assets in fraud of the other creditors.",
+    "The doctrine of res judicata correctly applied: creditors of a single debtor are not identical parties and do not become privies merely by assailing the same transactions on the same grounds, and a single act violating separate rights gives rise to separate causes of action that may be litigated independently.",
+    "The duty of loyalty and fidelity owed by directors who are also creditors: with nine of ten VISCO directors drawn from the consortium, those officials stood in a position of trust and should have managed the corporation's assets with strict regard for all the creditors' interests, a duty that becomes more stringent once the corporation is insolvent.",
+    "The remedy when restitution is impossible: because the foreclosed properties had passed to National Steel Corporation, a buyer in good faith, the rescissible assignment could not be undone, so under Article 1385 of the Civil Code the Court awarded actual damages measured by petitioner's unsatisfied judgment credit, plus P250,000 in exemplary damages as a warning to other creditors."
+  ],
+  "sub_topics": [
+    "The facts: VISCO, organized in 1959 for steel processing, borrowed from the Development Bank of the Philippines in 1961 against a recorded real estate mortgage over three parcels with all machineries and equipment, then borrowed from respondent banks in 1963 against an unrecorded second mortgage over the same assets.",
+    "The petitioner's claim: under a 1964-1965 processing agreement Coastal Pacific delivered 3,000 metric tons of steel coils to VISCO, which returned only 1,600 metric tons of block iron sheets, leaving 1,400 metric tons unaccounted for.",
+    "The takeover: after VISCO defaulted, the banks converted the unpaid loan into equity, grouped themselves into a consortium and by 1966 held more than 90 percent of the equity and the management of VISCO, which still owed them P16 million.",
+    "The renamed account: on the suggestion of Vicente Garcia, vice-president of both corporations, the FEBTC account of 'Board of Trustees VISCO Consortium of Banks' was renamed without the word VISCO, adopted as a precautionary measure to protect the interest of the consortium.",
+    "The generator sets: in 1974, fearing DBP foreclosure, VISCO's board sold its generator sets and deposited the proceeds with FEBTC in trust for the consortium, intended to pay the DBP loan and free the mortgage.",
+    "The garnishment that failed: after Coastal sued VISCO in 1975 for converting the steel sheets, the sheriff tried to garnish its FEBTC account, which the bank denied holding while admitting a deposit in the name of the Board of Trustees-Consortium of Banks.",
+    "The subrogation: VISCO's officers obtained a P1.3 million cash advance from FEBTC payable to DBP for VISCO's account, and in consideration DBP assigned its mortgage rights to the consortium, which thereby obtained a recorded primary lien.",
+    "The foreclosure chain: the consortium foreclosed in 1980 over the objection of another creditor, Southern Industrial Projects; the 1985 foreclosure sale saw the consortium emerge as highest bidder; and the properties were sold to National Steel Corporation, to which VISCO also assigned its right of redemption.",
+    "The two suits: Coastal won P851,316.19 with interest, fees and costs in Civil Case No. 21272 in 1986, a judgment that remains unsatisfied, while its rescission suit, Civil Case No. 3929, was dismissed in 1992 and affirmed by the Court of Appeals as barred by res judicata from the earlier Southern Industrial Projects case.",
+    "First issue resolved: there was neither identity of parties nor of causes of action, since Coastal sued as a creditor under a processing agreement and SIP under a management contract, and binding a non-party to that earlier Decision would violate its right to due process.",
+    "The correction of a palpable misconception: persons do not become privies merely because they are interested in the same question or in proving the same facts, and the failure of one creditor to recover should not preclude the others from pursuing their remedies.",
+    "Second issue framed: by focusing on the innate validity of the assailed contracts the Court of Appeals overlooked fraud as a ground for rescission, since the validity of a contract does not preclude its rescission -- rescission presupposes a valid contract producing lesion.",
+    "The finding of fraud: more than a preponderance of evidence showed a deliberate plan to defraud, the consortium's directors having known of VISCO's liability to Coastal, taken no measure to protect that credit, and hidden the unexpended funds by dropping the VISCO name to avoid a government takeover.",
+    "The payment detour: rather than pay DBP directly from the generator-set proceeds, which would have freed VISCO's properties for all creditors, the consortium routed the money through itself so as to be subrogated to DBP's primary lien and foreclose despite its own unrecorded and non-binding mortgage.",
+    "The measure of relief: the assignment was rescissible as made in fraud of creditors, but with NSC a buyer in good faith and restitution impossible, indemnity for damages operated as restitution, the unsatisfied judgment credit defining the actual damage, with P250,000 exemplary damages added."
+  ],
+  "signature_phrases": [
+    "Several creditors of one debtor cannot be considered as identical parties",
+    "the validity of a contract does not preclude its rescission",
+    "As trustees, they should have managed its assets with strict regard for all the creditors' interests",
+    "the consortium miserably failed to observe its duty of fidelity towards the debtor corporation",
+    "the assignment of the DBP mortgage in favor of the consortium bore the earmarks of fraud",
+    "Fraud is present when the debtor knows that its actions would cause injury",
+    "to serve as a warning to other creditors not to abuse their rights"
+  ],
+  "entities": {
+    "people": [
+      "Vicente Garcia (vice-president of both VISCO and the consortium bank; suggested renaming the account)",
+      "Arturo Samonte (representative of FEBTC and director of VISCO; recipient of the 1972 letter)"
+    ],
+    "institutions": [
+      "Visayan Integrated Steel Corporation (VISCO), the debtor corporation",
+      "Coastal Pacific Trading, Inc. (petitioner-creditor)",
+      "Development Bank of the Philippines (first mortgagee)",
+      "the respondent banks, grouped as the consortium",
+      "Far East Bank and Trust Company (FEBTC)",
+      "Southern Industrial Projects, Inc. (SIP), another creditor",
+      "National Steel Corporation (NSC), buyer of the foreclosed properties",
+      "Supreme Court; Court of Appeals; the trial court"
+    ],
+    "cases": [
+      "Coastal Pacific Trading v. Southern Rolling Mills (the case digested)",
+      "Southern Industrial Projects v. United Coconut Planters Bank (the earlier case wrongly treated as a res judicata bar)",
+      "Civil Case No. 21272 (Coastal's conversion suit, decided 1986, judgment unsatisfied)",
+      "Civil Case No. 3383 (SIP's suit to enjoin the foreclosure)",
+      "Civil Case No. 3929 (Coastal's action for rescission, damages and injunction)"
+    ],
+    "laws_treaties": [
+      "Article 1385 of the Civil Code (rescission and restitution; indemnity for damages where restitution is impossible)",
+      "the doctrine of res judicata (identity of parties, privity and causes of action)"
+    ],
+    "events": [
+      "The 1966 conversion of debt into more than 90 percent equity and the consortium's takeover of VISCO",
+      "The 1974 sale of the generator sets and the routing of the proceeds through the consortium to DBP",
+      "The 1980 extrajudicial foreclosure proceedings and the 1985 foreclosure sale to the consortium, then to NSC"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "The action was not barred by res judicata, because several creditors of one debtor are not identical parties and do not become privies merely by assailing the same transactions on the same grounds; their distinct credits give rise to distinct causes of action that may be litigated separately.",
+      "rhetorical_move": "doctrinal correction of a common but palpable misconception, reinforced by a due-process objection to binding a non-party",
+      "confidence": "asserted with evidence"
+    },
+    {
+      "claim": "Directors who are also representatives of creditor-banks occupy a position of trust and must manage the debtor corporation's assets with strict regard for all the creditors' interests, a duty that becomes more stringent once the corporation is insolvent -- a duty the consortium miserably failed to observe.",
+      "rhetorical_move": "fiduciary framing: recasting controlling creditors as trustees and measuring their conduct against that standard",
+      "confidence": "asserted with evidence"
+    },
+    {
+      "claim": "The assignment of the DBP mortgage bore the earmarks of fraud: routing the generator-set proceeds through the consortium served no purpose but to buy it a primary lien it could not otherwise claim on an unrecorded mortgage, a clever ruse deployed against the very creditors the directors were bound to protect.",
+      "rhetorical_move": "motive analysis framed as a question -- why did the money have to pass through the consortium? -- answered from the nature of its unrecorded mortgage",
+      "confidence": "asserted with evidence"
+    },
+    {
+      "claim": "Where mutual restitution is no longer possible because the assets have passed to a buyer in good faith, indemnity for damages operates as restitution, and exemplary damages are properly added to serve as a warning to other creditors not to abuse their rights.",
+      "rhetorical_move": "remedial substitution: converting an unenforceable rescission into a measurable damage award decided on the available records",
+      "confidence": "asserted"
+    }
+  ],
+  "notable_anecdotes": [
+    "The vanishing name: on Vicente Garcia's suggestion the FEBTC account 'Board of Trustees VISCO Consortium of Banks' quietly lost the word VISCO, a precautionary measure to protect the interest of the consortium -- and, as a 1972 letter to Arturo Samonte revealed, to avoid a takeover by the government, itself a creditor.",
+    "The garnishment that found nothing: when the sheriff came to garnish VISCO's FEBTC account, the bank denied holding one, admitting only a deposit under the renamed Board of Trustees-Consortium of Banks.",
+    "The detour of the money: the Court asked why, if the intention was to pay DBP from the sale of the generator sets, the proceeds had to pass through the consortium first -- the answer being that the detour bought it DBP's primary lien through assignment without additional expense.",
+    "The unsatisfied judgment: Coastal's 1986 award of P851,316.19 with interest, fees and costs in Civil Case No. 21272 remained unpaid, and it was that figure the Court took as the measure of the actual damage caused by the fraudulent disposition."
+  ],
+  "target_audience": [
+    "Corporate directors and bank officers who sit on the boards of debtor companies",
+    "Creditors, insolvency practitioners and commercial litigators",
+    "Students of corporation law and civil law on fiduciary duty, rescission and res judicata"
+  ],
+  "register_markers": [
+    "case-digest exposition organized as The Facts, The Issues and The Court's Ruling",
+    "chronological ledger of loans, mortgages, sales and suits by year",
+    "issue-by-issue adjudication under numbered headings",
+    "occasional first-person plural of the deciding Court ('We noted that confusion occurred')",
+    "rhetorical question used to expose the motive behind a transaction"
+  ],
+  "decision_framework_signals": [
+    "res judicata requires identity of parties and causes of action; interest in the same question does not create privity",
+    "a single act violating separate legal obligations gives rise to separate causes of action",
+    "binding a non-party to an earlier judgment violates due process",
+    "the validity of a contract does not preclude its rescission for fraud of creditors",
+    "controlling directors are trustees whose duty tightens as the corporation approaches insolvency",
+    "fraud is present when the debtor knows its actions would cause injury",
+    "a purchaser is deemed in good faith absent competent proof of bad faith, and his interest must not be disturbed",
+    "where restitution is impossible, indemnity for damages operates as restitution under Article 1385"
+  ],
+  "one_paragraph_summary": "Chapter 34 of 'Liberty and Prosperity' digests Coastal Pacific Trading v. Southern Rolling Mills, a unanimous decision granting the petition of a defrauded creditor. VISCO, a steel processor, had mortgaged its land, machinery and equipment to the Development Bank of the Philippines in 1961 and again, by an unrecorded second mortgage, to respondent banks in 1963; under a processing agreement it received 3,000 metric tons of steel coils from Coastal Pacific and returned only 1,600. After VISCO defaulted, the banks converted their loan into more than 90 percent of its equity, formed a consortium and took over management, filling nine of the ten board seats. The chapter then traces the transactions the Court found fraudulent: the quiet renaming of the FEBTC account to drop the word VISCO as a precautionary measure and to avoid a government takeover; the 1974 sale of the generator sets whose proceeds, instead of going directly to DBP, were routed through the consortium so that it could be subrogated to DBP's recorded primary lien; and the 1980 foreclosure and 1985 sale that ended with the properties in the hands of National Steel Corporation. The Court first held that the Court of Appeals erred in treating the earlier Southern Industrial Projects case as a bar, since several creditors of one debtor cannot be considered as identical parties, do not become privies by assailing the same transactions, and hold distinct rights giving rise to distinct causes of action. On the merits it found more than a preponderance of evidence of a deliberate plan to defraud: as trustees, the consortium's directors should have managed VISCO's assets with strict regard for all the creditors' interests, yet miserably failed in their duty of fidelity, and the assignment of the DBP mortgage bore the earmarks of fraud. Because NSC was a buyer in good faith and restitution was impossible, the Court awarded Coastal actual damages measured by its unsatisfied judgment credit, plus P250,000 in exemplary damages as a warning to other creditors not to abuse their rights.",
+  "source_xlsx": "cjp_books_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "property_contracts_and_economic_rights"
+    ],
+    "secondary": [],
+    "route_source": "matcher"
+  }
+}

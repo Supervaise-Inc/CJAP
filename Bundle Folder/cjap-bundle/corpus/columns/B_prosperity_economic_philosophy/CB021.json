@@ -1,0 +1,165 @@
+{
+  "id": "CB021",
+  "format": "C",
+  "type": "column",
+  "theme": "B",
+  "theme_label": "Prosperity and Economic Philosophy",
+  "number": 21,
+  "title": "Cheapest, most reliable, accessible power",
+  "date": "2026-07-20",
+  "link": "https://opinion.inquirer.net/193194/cheapest-most-reliable-accessible-power",
+  "keywords": [
+    "solar power",
+    "Meralco",
+    "MTerra",
+    "energy independence",
+    "electricity bills",
+    "battery energy storage",
+    "imported fuels",
+    "prosperity"
+  ],
+  "primary_topics": [
+    "Inauguration of Meralco Terra Solar (MTerra) in Gapan City, Nueva Ecija on July 14 with President Marcos -- MVP's 'world's largest integrated solar and battery storage facility located in a single site'; MVP's 80th birthday the same day",
+    "Electricity must be generated instantly to match fluctuating demand; heavy reliance on imported fuels leaves the economy vulnerable to global volatility",
+    "First-half 2026 price shocks (Middle East war, supply bottlenecks: oil and LNG up 70%, coal 32%) -- Meralco contained generation cost increase at 16% via coal, renewables, Malampaya gas and staggered billing; ERC extended the disconnection suspension",
+    "CJP's thesis -- accelerate the transition to 'sun power', the cheapest, most reliable and most accessible energy source: (1) cheapest per kWh, reducing household bills; (2) reliable and locally sourced, unlike hydro, small modular nuclear or geothermal; (3) accessible and scalable",
+    "MTerra scale -- 3,500 MW and 4,500 MWh BESS by March 2027 for 2.4 million households; Huawei-supplied panels that would stretch from Manila to London; BESS lasts hours after sunset, not until morning",
+    "Coal baseload as temporary and transitional -- batteries will advance like 1990s Motorola phones became sleek devices; MVP's 'lasting legacy'",
+    "Closing -- as Meralco board adviser, CJP's role is to help the transition; sun power lights the path to economic independence and prosperity"
+  ],
+  "sub_topics": [
+    "MTerra inauguration in Gapan City, Nueva Ecija",
+    "MVP's 80th birthday",
+    "Instantaneous generation to match real-time demand",
+    "Dependence on imported fuels and shipping costs",
+    "First-half 2026 fuel price spikes",
+    "Generation cost contained at 16 percent",
+    "Malampaya gas as indigenous fuel",
+    "Staggered customer billing",
+    "ERC suspension of power disconnections",
+    "Solar's cheapest baseline cost per kWh",
+    "P200-billion cost of MTerra",
+    "Limits of hydro, small modular nuclear reactors and geothermal",
+    "Battery energy storage system (BESS)",
+    "Huawei partnership"
+  ],
+  "signature_phrases": [
+    "world's largest integrated solar and battery storage facility located in a single site",
+    "TO BEGIN WITH, LET ME STRESS AN OFTEN-OVERLOOKED REALITY: Electricity is unlike most commodities and services",
+    "leaving our economy vulnerable to global volatilities",
+    "contain the generation cost at only 16 percent to protect customers",
+    "TO SAFEGUARD THE PEOPLE'S WELFARE MORE PERMANENTLY",
+    "or what I simply call \"sun power\"",
+    "because it is the cheapest, most reliable, and most accessible energy source",
+    "My simple answer: To reduce your electricity bill",
+    "sun power offers reliable, locally sourced energy that is easy to maintain, even during world crises",
+    "sunlight is an accessible and scalable resource",
+    "would stretch from Manila to London",
+    "this dependability is temporary and transitional",
+    "It won't require auxiliary coal plants anymore",
+    "Meralco will illuminate the path toward our nation's economic independence and our people's prosperity"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban",
+      "President Marcos",
+      "Liza Araneta-Marcos",
+      "Sharon Garin",
+      "Manuel V. Pangilinan (MVP)",
+      "Ronnie Aperocho"
+    ],
+    "institutions": [
+      "Meralco",
+      "Meralco Terra Solar (MTerra)",
+      "Department of Energy",
+      "Energy Regulatory Commission",
+      "Huawei"
+    ],
+    "cases": [],
+    "laws_treaties": [],
+    "events": [
+      "MTerra inauguration on July 14 (2026)",
+      "MVP's 80th birthday",
+      "War in the Middle East and first-half 2026 fuel price spikes",
+      "ERC extension of the suspension of power disconnections",
+      "MTerra full completion expected March 2027"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "Electricity is unlike most commodities: it must be generated instantly to meet fluctuating demand, and reliance on imported fuels leaves the economy vulnerable to global volatility.",
+      "rhetorical_move": "stresses an overlooked reality",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Despite oil and LNG prices up 70% and coal 32% in the first half of 2026, Meralco contained the generation cost increase at 16% through its fuel mix and staggered billing.",
+      "rhetorical_move": "reports company data via its executive",
+      "confidence": "reported (not his view)"
+    },
+    {
+      "claim": "The country should accelerate its transition to solar power because it is the cheapest, most reliable and most accessible energy source -- above all, to reduce electricity bills.",
+      "rhetorical_move": "thesis with three enumerated reasons",
+      "confidence": "asserted with evidence"
+    },
+    {
+      "claim": "Other local options are limited: hydro by dry seasons and irrigation needs, small modular nuclear reactors are experimental and risky, and geothermal faces environmental concerns.",
+      "rhetorical_move": "comparative dismissal of alternatives",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Reliance on coal for baseload is temporary; battery storage will advance and miniaturize as mobile phones did, removing the need for auxiliary coal plants.",
+      "rhetorical_move": "technology-progress analogy from personal experience",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "As Meralco's board adviser, his role is to help the distributor transition to solar power, which will light the path to economic independence and prosperity.",
+      "rhetorical_move": "closing with disclosure of his own role",
+      "confidence": "asserted"
+    }
+  ],
+  "notable_anecdotes": [
+    "CJP joining President Marcos, the First Lady, Secretary Garin and MVP at the MTerra inauguration amid solar panels across the hills of Gapan City.",
+    "MVP celebrating his 80th birthday the same day, with a greeting and cake from the President and First Lady.",
+    "The solar panels, if connected end-to-end, would stretch from Manila to London.",
+    "CJP's bulky 1990s Motorola phone with extra-heavy batteries as an analogy for battery progress.",
+    "CJP disclosing that he is Meralco's board adviser and former independent director."
+  ],
+  "target_audience": [
+    "Inquirer general readership",
+    "Electricity consumers and households",
+    "Energy policymakers and regulators",
+    "Power industry and investors",
+    "Advocates of renewable energy"
+  ],
+  "register_markers": [
+    "I was humbly invited humility opener",
+    "awesome immensity awe register",
+    "Apropos to this milestone connective",
+    "TO BEGIN WITH, LET ME STRESS AN OFTEN-OVERLOOKED REALITY all-caps opener",
+    "And how did Meralco do this? rhetorical question",
+    "TO SAFEGUARD THE PEOPLE'S WELFARE MORE PERMANENTLY all-caps thesis",
+    "what I simply call \"sun power\" coinage",
+    "Why? ... First ... Second ... Third enumerated reasons",
+    "My simple answer: To reduce your electricity bill plain-language punch",
+    "TO AUGMENT THIS LIMITATION all-caps opener",
+    "bulky Motorola mobile phones personal analogy",
+    "In sum ... as I humbly see it closing with disclosure"
+  ],
+  "decision_framework_signals": [
+    "judges energy policy by its effect on household bills",
+    "weighs energy sources by cost, reliability and accessibility",
+    "treats import dependence as economic vulnerability",
+    "accepts coal as transitional while expecting technology to replace it",
+    "links energy independence to national prosperity",
+    "discloses his own institutional role when advocating"
+  ],
+  "one_paragraph_summary": "Panganiban recounts joining President Marcos, First Lady Liza Araneta-Marcos, Energy Secretary Sharon Garin and Meralco chair Manuel V. Pangilinan (MVP) at the July 14 inauguration of Meralco Terra Solar (MTerra) in Gapan City, Nueva Ecija, which MVP called the world's largest integrated solar and battery storage facility in a single site; MVP turned 80 that day. Electricity, CJP stresses, must be generated instantly to meet fluctuating demand, and dependence on imported fuels leaves the economy exposed to global volatility. In the first half of 2026, the Middle East war and supply bottlenecks pushed oil and LNG prices up 70 percent and coal 32 percent, yet Meralco, per executive vice president Ronnie Aperocho, contained the generation cost increase at 16 percent through coal, renewables, Malampaya gas and staggered billing; the ERC also extended the suspension of disconnections. To protect people more permanently, CJP urges a faster shift to 'sun power,' the cheapest, most reliable and most accessible energy source. First, solar has the cheapest baseline cost per kWh, and the point of the P200-billion plant is to reduce electricity bills. Second, it is reliable and locally sourced, while hydro depends on seasons, small modular nuclear is experimental and risky, and geothermal faces environmental limits. Third, it is scalable: MTerra, due for completion in March 2027, will deliver 3,500 MW and a 4,500-MWh battery system for 2.4 million households, with Huawei panels that would stretch from Manila to London. Batteries last hours after sunset but not until morning, so coal provides baseload for now, but CJP expects batteries to improve as phones did. He calls MTerra MVP's lasting legacy and, as Meralco's board adviser, sees his role as helping the transition toward economic independence and prosperity.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "economy_taxes_and_prosperity"
+    ],
+    "secondary": [],
+    "route_source": "affinity"
+  }
+}
