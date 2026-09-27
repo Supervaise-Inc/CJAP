@@ -1,0 +1,166 @@
+{
+  "id": "BA095",
+  "format": "B",
+  "type": "book",
+  "theme": "A",
+  "theme_label": "Liberty and Rule of Law",
+  "number": 95,
+  "title": "Judicial Renaissance -- Ch. 21: Information Technology Foundation of the Philippines v. Comelec: The Use of ACMs in the ARMM Elections: A Reprise",
+  "date": "2005-11-01",
+  "link": "https://cjpanganiban.com/books-authored-by-chief-justice-artemio-v-panganiban/",
+  "keywords": [
+    "Information Technology Foundation of the Philippines v. Comelec",
+    "automated counting machines (ACMs)",
+    "Mega Pacific eSolutions, Inc.",
+    "ARMM elections of August 8, 2005",
+    "Republic Act No. 9333",
+    "Book of Entries of Judgment",
+    "finality of judgment",
+    "immutability of a final judgment",
+    "grave abuse of discretion",
+    "reckless disregard of its own bidding rules and procedures",
+    "public bidding",
+    "recovery of improvidently disbursed funds",
+    "Office of the Solicitor General",
+    "Office of the Ombudsman",
+    "impeachment proceedings",
+    "ISO/IEC 12207",
+    "information technology experts",
+    "eight critical requirements",
+    "manual counting and canvassing",
+    "justiciable case or controversy",
+    "advisory opinion",
+    "Resolution of June 16, 2005",
+    "1,991 ACMs",
+    "cost of storage",
+    "Autonomous Region for Muslim Mindanao"
+  ],
+  "primary_topics": [
+    "Chapter 21 of 'Judicial Renaissance' -- CJP's account of the unanimous Resolution of June 16, 2005 that he himself wrote, denying the Comelec's Motion for leave to use in the August 8, 2005 ARMM elections the automated counting machines whose procurement contract the Court had already voided.",
+    "The primordial rule invoked as the first ground: a final judgment recorded in the Book of Entries of Judgment on March 30, 2004 can no longer undergo any modification, much less any reversal, and granting the Motion would have subverted or rendered nugatory the Court's January 13, 2004 Decision.",
+    "The Court's dismantling of the Comelec's supporting claims -- a recycled letter from four self-proclaimed 'information technology experts,' an unsubstantiated invocation of ISO/IEC 12207, a Motion too vague to say how many machines were needed, and the false premise that without the ACMs the ARMM elections could not be held.",
+    "The wider institutional argument: granting the Motion would have jeopardized the recovery of over a billion pesos improvidently paid, given those who benefited from the void contract a defense, possibly abated criminal and impeachment proceedings, and reduced the Court to issuing an advisory opinion in the absence of any actual case or controversy."
+  ],
+  "sub_topics": [
+    "The starting point: on January 13, 2004 the Court nullified the Comelec's contract with Mega Pacific eSolutions for the supply of ACMs, for 'clear violation of law and jurisprudence' and 'reckless disregard of [the Comelec's] own bidding rules and procedure,' so the illegally procured machines went unused in the 2004 national elections.",
+    "The Decision became final and was recorded in the Book of Entries of Judgment on March 30, 2004.",
+    "Despite that finality the Comelec moved for leave to use the 1,991 idle ACMs for the ARMM elections, citing RA 9333's automation mandate, the absence of funds, the unlikelihood of a special appropriation, the machines' deterioration, and storage costs of P329,355.26 a month or P3,979,460.24 a year.",
+    "The Motion also invoked 'information technology experts' who had purportedly certified the software as conforming to the internationally accepted ISO/IEC 12207 standards, and claimed to be without prejudice to a pending P200-million collection case and respectful of the Decision's finality.",
+    "First ground for denial: a final and executory judgment can no longer be modified or reversed, and granting the Motion would have been precisely a subversion of the Decision or a modification rendering it totally ineffective and nugatory.",
+    "The recycled evidence: a check of the records showed that the experts' letter of January 22, 2004 had already been appended to the private respondents' January 26, 2004 Omnibus Motion for reconsideration, missing only the page bearing four other signatures -- an earlier exhibit merely re-served.",
+    "The hornbook doctrine reiterated: courts are presumed to have passed upon all points raised in the parties' pleadings and will not reopen what has been decided or let the same parties relitigate a question settled with finality.",
+    "CJP's verdict on the letter: laden as it was with technical jargon and impressive concepts, it did not alter by even the minutest degree the finding of grave abuse of discretion, nor show that the situation of January 2004 had changed by August 2005.",
+    "Second ground: granting the Motion would have barred or jeopardized the recovery of government funds -- estimated at over one billion pesos -- and was antagonistic to the directive that the OSG recover the illegal disbursements, while letting beneficiaries argue the contract, bidding, machines and software were sound, possibly even abating the Ombudsman prosecutions and impeachment proceedings.",
+    "Third ground: using unreliable ACMs and nonexistent software would expose the ARMM elections to the same electoral ills, since the hardware and software had failed eight critical requirements safeguarding electoral integrity and the Motion never showed those requirements had since been met.",
+    "Fourth ground: the Motion was vague -- it never determined how many of the 1,991 machines the ARMM would need, and said nothing about steps to minimize mishandling and damage so the machines could be returned and the payments fully recovered.",
+    "Fifth ground: the ARMM elections could be held without the ACMs, since the Comelec had at least ten months after RA 9333 took effect to lobby Congress, bid, award, deliver and test new machines, or simply to prepare for manual counting, as it had done in three months for the May 10, 2004 national elections.",
+    "The rebuke on storage costs: since the Decision ordered the machines returned to Mega Pacific, the Comelec should have sent the bill to Mega Pacific for collection instead of further wasting the taxpayers' money.",
+    "Final ground: the Motion presented no actual case or controversy involving a conflict of legal rights, and was at best a request for an advisory opinion the Court had no jurisdiction to grant.",
+    "The closing directive that the Comelec must follow and not skirt the Decision, return the ACMs, recover the disbursed funds, and devise a legally and technically sound plan to computerize elections instead of blaming the Court."
+  ],
+  "signature_phrases": [
+    "clear violation of law and jurisprudence",
+    "reckless disregard of [the Comelec's] own bidding rules and procedure",
+    "laden as it was with technical jargon and impressive concepts",
+    "much like a witch doctor muttering unintelligible incantations to revive a corpse",
+    "instead of wasting the Court's time on its unmeritorious Motion",
+    "the Court found it ridiculous to regard the grant of permission to use the subject ACMs as the conditio sine qua non",
+    "Equally reprehensible was the attempt of the Commission to pass the onus of its mismanagement problems on to the Court",
+    "Comelec must follow and not skirt our Decision. Neither may it short-circuit our laws and jurisprudence."
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban (author; writer of the unanimous June 16, 2005 Resolution)"
+    ],
+    "institutions": [
+      "Commission on Elections (movant)",
+      "Supreme Court of the Philippines",
+      "Mega Pacific eSolutions, Inc. / MPC-MPEI (private respondents)",
+      "Information Technology Foundation of the Philippines (petitioner in the original case)",
+      "Office of the Solicitor General (directed to recover the illegal disbursements)",
+      "Office of the Ombudsman (pending criminal prosecutions)",
+      "Congress (source of the automation mandate and of any special appropriation)",
+      "Regional Trial Court of Makati City, Branch 59 (Civil Case No. 04-346)"
+    ],
+    "cases": [
+      "Information Technology Foundation of the Philippines v. Comelec (Decision of January 13, 2004; Resolution of June 16, 2005)",
+      "Civil Case No. 04-346 (collection of a purported P200-million balance)"
+    ],
+    "laws_treaties": [
+      "Republic Act No. 9333 (mandating automation of the ARMM elections)",
+      "ISO/IEC 12207 (international standards for software life cycle processes)"
+    ],
+    "events": [
+      "Nullification of the Mega Pacific contract -- January 13, 2004",
+      "Entry of the Decision in the Book of Entries of Judgment -- March 30, 2004",
+      "The May 10, 2004 national elections, held manually",
+      "The ARMM elections of August 8, 2005",
+      "Promulgation of the unanimous Resolution denying the Motion -- June 16, 2005"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "The finality of the January 13, 2004 Decision barred the Motion outright, because a final judgment that has become executory can no longer undergo any modification, much less any reversal, and granting leave would have subverted the Decision or rendered it totally ineffective and nugatory.",
+      "rhetorical_move": "primordial-rule framing -- placing the immutability of final judgments first and treating everything the Comelec offered as an attempt to reopen a closed case",
+      "confidence": "asserted with evidence"
+    },
+    {
+      "claim": "The Comelec's supporting evidence was worthless: the letter of four self-proclaimed 'information technology experts' was merely a recycled exhibit from an earlier motion for reconsideration and, for all its technical jargon, did not alter by even the minutest degree the finding of grave abuse of discretion.",
+      "rhetorical_move": "record-checking exposure followed by ridicule -- the witch-doctor image of unintelligible incantations muttered over a corpse",
+      "confidence": "asserted with evidence"
+    },
+    {
+      "claim": "Granting the Motion would have jeopardized the recovery of over a billion pesos of improvidently disbursed public funds and could even have been stretched to abate the criminal prosecutions before the Ombudsman and the impeachment proceedings then under consideration.",
+      "rhetorical_move": "consequence-tracing -- following the concession forward to show whom it would exonerate and what accountability it would dissolve",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "There was no basis for the claim that the ARMM elections could not be held without the machines, since the Comelec had about ten months to lobby Congress, bid anew or simply prepare for manual counting, as it had managed in barely three months for the May 10, 2004 national elections.",
+      "rhetorical_move": "argument from the movant's own track record, using the Comelec's earlier manualization to refute its claim of impossibility",
+      "confidence": "asserted with evidence"
+    },
+    {
+      "claim": "The Motion presented no actual justiciable case or controversy and was at best a request for an advisory opinion, which the Court had no jurisdiction to grant.",
+      "rhetorical_move": "jurisdictional closure -- ending on the limits of the judicial power rather than on the merits of the request",
+      "confidence": "asserted"
+    }
+  ],
+  "notable_anecdotes": [
+    "CJP notes, with evident satisfaction, that he had the honor of writing the unanimous Resolution of June 16, 2005 that closed the door on the Comelec's Motion.",
+    "He describes the quick check of the case records that caught the Comelec recycling its evidence: the same expert letter of January 22, 2004 had already been filed as an annex to the private respondents' Omnibus Motion for reconsideration, minus only the page carrying four other signatures.",
+    "He likens the Commission's attempt to revive the dead case by waving a jargon-filled letter to a witch doctor muttering unintelligible incantations over a corpse.",
+    "He turns the Comelec's own storage-cost figures against it, asking why the poll body should pick up a monthly tab of P329,355.26 when the Decision had ordered the machines returned and the bill could simply have been sent to Mega Pacific."
+  ],
+  "target_audience": [
+    "Election administrators and the Comelec itself, addressed directly in the closing directive",
+    "Lawyers and litigants tempted to reopen matters settled with finality",
+    "Anti-corruption bodies and public-funds watchdogs following the recovery of the improvident disbursements",
+    "General readers of the book following the fate of the aborted 2004 poll automation"
+  ],
+  "register_markers": [
+    "numbered-ground exposition ('First,' 'Second,' 'Third,' 'Fourth,' 'Fifth,' 'Finally')",
+    "judicial resolution recast as narrative, with the author identifying himself as its writer",
+    "sardonic imagery deployed against an institutional litigant (witch doctor, incantations, a dead case)",
+    "moral vocabulary of rebuke -- 'most odious,' 'equally reprehensible,' 'ridiculous'",
+    "record-based refutation, checking the movant's annexes against the case file",
+    "closing exhortation addressed to the losing party rather than to the reader"
+  ],
+  "decision_framework_signals": [
+    "immutability of final judgments -- a decision entered in the Book of Entries of Judgment is beyond modification or reversal",
+    "the presumption that courts have passed upon all points raised in the pleadings, barring relitigation of settled questions",
+    "changed circumstances must be demonstrated, not asserted: technical jargon is no substitute for showing the defects were cured",
+    "protection of public funds as an independent reason to refuse a concession that would defeat recovery",
+    "vagueness as a ground for denial -- a motion must contain enough detail for the court to act appropriately",
+    "availability of viable alternative courses of action defeats a claim of necessity",
+    "the requirement of an actual case or controversy, and the bar on advisory opinions"
+  ],
+  "one_paragraph_summary": "Chapter 21 of 'Judicial Renaissance' recounts the sequel to the Court's January 13, 2004 Decision nullifying the Comelec's contract with Mega Pacific eSolutions for automated counting machines, a contract voided for clear violation of law and jurisprudence and reckless disregard of the poll body's own bidding rules, with the result that the machines went unused in the 2004 national elections. Although the Decision became final and was entered in the Book of Entries of Judgment on March 30, 2004, the Comelec moved for leave to use the 1,991 idle ACMs in the August 8, 2005 ARMM elections, pleading RA 9333's automation mandate, the absence of funds, the machines' deterioration, storage costs of P329,355.26 a month, and a certification by 'information technology experts' that the software met ISO/IEC 12207 standards. Panganiban, who wrote the unanimous Resolution of June 16, 2005, sets out the grounds for denial in order. First, a final and executory judgment can no longer be modified or reversed, and granting leave would have subverted the Decision; moreover, a check of the records showed that the experts' letter had already been filed as an annex to an earlier motion for reconsideration, and for all its technical jargon it did not alter the finding of grave abuse of discretion -- the Commission, he writes, seemed to think it could resurrect a dead case like a witch doctor muttering incantations over a corpse. Second, the concession would have jeopardized recovery of over a billion pesos improvidently paid and might even have abated the Ombudsman prosecutions and impeachment proceedings. Third, the machines and their nonexistent software had failed eight critical integrity requirements. Fourth, the Motion was too vague to say how many units the ARMM needed or how the machines would be protected for return. Fifth, the Comelec had ample time to bid anew or to manualize, as it had for the May 2004 elections. Finally, no justiciable controversy existed, making the request at best one for an advisory opinion; the Court closed by directing the Comelec to follow the Decision, return the machines, recover the funds, and devise a sound computerization plan.",
+  "source_xlsx": "cjp_books_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "elections_and_automated_voting"
+    ],
+    "secondary": [],
+    "route_source": "matcher"
+  }
+}

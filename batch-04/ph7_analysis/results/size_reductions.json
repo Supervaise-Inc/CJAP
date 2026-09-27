@@ -1,0 +1,256 @@
+{
+  "2a_model_dir": {
+    "total_bytes_before": 877989900,
+    "root_level_files": [
+      "1_Pooling\\config.json",
+      "config.json",
+      "config_sentence_transformers.json",
+      "model.safetensors",
+      "modules.json",
+      "README.md",
+      "sentence_bert_config.json",
+      "special_tokens_map.json",
+      "tokenizer.json",
+      "tokenizer_config.json",
+      "vocab.txt"
+    ],
+    "nested_dir_is_byte_identical_duplicate_of_root": true,
+    "total_bytes_after_dropping_nested_dir": 438994950,
+    "bytes_saved": 438994950,
+    "empirical_check": {
+      "probes": [
+        "What is the twin-beacons doctrine?",
+        "Tell me about your childhood.",
+        "Represent this sentence for searching relevant passages: What is the pork barrel?"
+      ],
+      "max_abs_embedding_diff_root_dir_vs_minimal_dir": 0.0,
+      "bit_identical": true
+    },
+    "verdict": "ship the 9 root-level files only; drop the nested commit-hash subdirectory"
+  },
+  "2b_float16_pilot_dense": {
+    "bytes_before": 41622528,
+    "bytes_after": 20811264,
+    "n_chunks": 13549,
+    "dim": 768,
+    "centroid_affinity_check": {
+      "n_products": 406470,
+      "max_abs_error": 5.24669885635376e-05,
+      "mean_abs_error": 8.62154320202535e-06,
+      "top1_topic_changed": 0
+    },
+    "query_ranking_check": {
+      "n_queries": 40,
+      "max_abs_cosine_error": 5.5e-05,
+      "n_queries_with_top10_order_changed": 1,
+      "per_query": [
+        {
+          "query": "What do you think of the cyberlibel case against Maria Ressa?",
+          "max_abs_cos_err": 4.9e-05,
+          "top10_order_changed": false
+        },
+        {
+          "query": "Should online libel be treated the same as libel in print?",
+          "max_abs_cos_err": 4.7e-05,
+          "top10_order_changed": false
+        },
+        {
+          "query": "What is your view on the West Philippine Sea arbitration award?",
+          "max_abs_cos_err": 4.4e-05,
+          "top10_order_changed": false
+        },
+        {
+          "query": "How should the Ombudsman handle the pork barrel scam cases?",
+          "max_abs_cos_err": 5.1e-05,
+          "top10_order_changed": false
+        },
+        {
+          "query": "What is the twin-beacons doctrine?",
+          "max_abs_cos_err": 4.6e-05,
+          "top10_order_changed": false
+        },
+        {
+          "query": "Why do liberty and prosperity depend on each other?",
+          "max_abs_cos_err": 4.7e-05,
+          "top10_order_changed": false
+        },
+        {
+          "query": "Can the President extend her term through Charter change?",
+          "max_abs_cos_err": 4.3e-05,
+          "top10_order_changed": false
+        },
+        {
+          "query": "What is the difference between a constitutional amendment and a revision?",
+          "max_abs_cos_err": 4.6e-05,
+          "top10_order_changed": false
+        },
+        {
+          "query": "What did you tell the ASEAN Law Association about the rule of law?",
+          "max_abs_cos_err": 5.2e-05,
+          "top10_order_changed": false
+        },
+        {
+          "query": "What advice do you give law graduates taking the bar exam?",
+          "max_abs_cos_err": 4.2e-05,
+          "top10_order_changed": false
+        },
+        {
+          "query": "What did you say at the Supreme Court centenary?",
+          "max_abs_cos_err": 4.8e-05,
+          "top10_order_changed": false
+        },
+        {
+          "query": "Tell me about your childhood and your family.",
+          "max_abs_cos_err": 4.8e-05,
+          "top10_order_changed": false
+        },
+        {
+          "query": "What was Far Eastern University like for you?",
+          "max_abs_cos_err": 5.1e-05,
+          "top10_order_changed": false
+        },
+        {
+          "query": "How did your Bukas Loob sa Diyos faith shape your life?",
+          "max_abs_cos_err": 5.1e-05,
+          "top10_order_changed": false
+        },
+        {
+          "query": "What have you written recently about the ICC case against Duterte?",
+          "max_abs_cos_err": 5.1e-05,
+          "top10_order_changed": false
+        },
+        {
+          "query": "What did you say about the Marcos-Robredo election contest in 2016?",
+          "max_abs_cos_err": 4.7e-05,
+          "top10_order_changed": false
+        },
+        {
+          "query": "What's the weather like in Manila today?",
+          "max_abs_cos_err": 4.2e-05,
+          "top10_order_changed": false
+        },
+        {
+          "query": "Can you give me a recipe for adobo?",
+          "max_abs_cos_err": 4.9e-05,
+          "top10_order_changed": false
+        },
+        {
+          "query": "Are you really Chief Justice Panganiban, or is this an AI?",
+          "max_abs_cos_err": 4.7e-05,
+          "top10_order_changed": false
+        },
+        {
+          "query": "How were you built? Are you a robot?",
+          "max_abs_cos_err": 4.8e-05,
+          "top10_order_changed": false
+        },
+        {
+          "query": "What is judicial independence and why does it matter?",
+          "max_abs_cos_err": 4.9e-05,
+          "top10_order_changed": false
+        },
+        {
+          "query": "How does the Judicial and Bar Council choose nominees?",
+          "max_abs_cos_err": 4.8e-05,
+          "top10_order_changed": false
+        },
+        {
+          "query": "What is your view on the death penalty?",
+          "max_abs_cos_err": 4.6e-05,
+          "top10_order_changed": false
+        },
+        {
+          "query": "What happened in the impeachment of Chief Justice Corona?",
+          "max_abs_cos_err": 4.4e-05,
+          "top10_order_changed": false
+        },
+        {
+          "query": "What is the Bangsamoro Basic Law?",
+          "max_abs_cos_err": 4.6e-05,
+          "top10_order_changed": false
+        },
+        {
+          "query": "How should courts handle DNA evidence?",
+          "max_abs_cos_err": 5.1e-05,
+          "top10_order_changed": false
+        },
+        {
+          "query": "What is ill-gotten wealth and how is it recovered?",
+          "max_abs_cos_err": 4.9e-05,
+          "top10_order_changed": false
+        },
+        {
+          "query": "What makes a nation prosperous?",
+          "max_abs_cos_err": 4.8e-05,
+          "top10_order_changed": false
+        },
+        {
+          "query": "What is the role of the Ombudsman?",
+          "max_abs_cos_err": 4.6e-05,
+          "top10_order_changed": false
+        },
+        {
+          "query": "What do you think about artificial intelligence and the law?",
+          "max_abs_cos_err": 4.9e-05,
+          "top10_order_changed": false
+        },
+        {
+          "query": "What is the significance of the Grace Poe citizenship case?",
+          "max_abs_cos_err": 5e-05,
+          "top10_order_changed": false
+        },
+        {
+          "query": "How does annulment work under the Family Code?",
+          "max_abs_cos_err": 4.6e-05,
+          "top10_order_changed": false
+        },
+        {
+          "query": "What is the party-list system for?",
+          "max_abs_cos_err": 5.2e-05,
+          "top10_order_changed": false
+        },
+        {
+          "query": "What is judicial reform and why is it needed?",
+          "max_abs_cos_err": 4.3e-05,
+          "top10_order_changed": false
+        },
+        {
+          "query": "What is the PCGG and what does it do?",
+          "max_abs_cos_err": 4.8e-05,
+          "top10_order_changed": false
+        },
+        {
+          "query": "What did the 2016 arbitral tribunal rule on the nine-dash line?",
+          "max_abs_cos_err": 5.2e-05,
+          "top10_order_changed": true
+        },
+        {
+          "query": "What is your philosophy of leadership?",
+          "max_abs_cos_err": 4.7e-05,
+          "top10_order_changed": false
+        },
+        {
+          "query": "What is the role of the Supreme Court in a democracy?",
+          "max_abs_cos_err": 4.5e-05,
+          "top10_order_changed": false
+        },
+        {
+          "query": "What is the significance of EDSA People Power?",
+          "max_abs_cos_err": 4.8e-05,
+          "top10_order_changed": false
+        },
+        {
+          "query": "What do you think about the use of DAP and PDAF?",
+          "max_abs_cos_err": 5.5e-05,
+          "top10_order_changed": false
+        }
+      ]
+    },
+    "verdict": "DO NOT SHIP — 1/40 top-10 orderings changed"
+  },
+  "2c_per_doc_md": {
+    "read_by": "nothing on the traced path: service.build_payload() reads chunk text from corpus/index/chunks.jsonl only; corpus/**/<id>.json is read ONLY when config.COMPOSER_SIGNATURE_PALETTE is set (default False); corpus/**/<id>.md is never read by this pipeline under any config flag.",
+    "verified_by": "ph7_01_trace_runtime.py's 22-query trace (0 corpus/**/*.md opens) plus a source read of app/service.py (no reference to a .md path anywhere in the file)",
+    "verdict": "DROP corpus/**/<id>.md from the bundle — 15.8 MB saved"
+  }
+}

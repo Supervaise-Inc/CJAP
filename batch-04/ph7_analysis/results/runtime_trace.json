@@ -1,0 +1,644 @@
+{
+  "n_queries": 22,
+  "formats_covered": [
+    "B",
+    "C",
+    "S"
+  ],
+  "embed_model_path_used": "C:\\Users\\ASUS\\Projects\\Supervaise-Reachy-Mini-Project\\Final Project Folder\\models\\bge-base-en-v1.5",
+  "model_load_count": 1,
+  "results": [
+    {
+      "kind": "column",
+      "query": "What do you think of the cyberlibel case against Maria Ressa?",
+      "gate_scope": "in_corpus",
+      "top_topic": "libel_and_cybercrime",
+      "top_cosine": 0.405,
+      "in_scope": true,
+      "n_selected_chunks": 13,
+      "selected_doc_ids": [
+        "CA027",
+        "CA083",
+        "CA131",
+        "CA213",
+        "CA214",
+        "CC017"
+      ],
+      "selected_doc_formats": [
+        "C"
+      ],
+      "payload_chars": 17595,
+      "system_chars": 17552
+    },
+    {
+      "kind": "column",
+      "query": "Should online libel be treated the same as libel in print?",
+      "gate_scope": "in_corpus",
+      "top_topic": "libel_and_cybercrime",
+      "top_cosine": 0.5221,
+      "in_scope": true,
+      "n_selected_chunks": 13,
+      "selected_doc_ids": [
+        "BA013",
+        "CA067",
+        "CA214",
+        "CA422",
+        "CA423",
+        "CC017"
+      ],
+      "selected_doc_formats": [
+        "B",
+        "C"
+      ],
+      "payload_chars": 16829,
+      "system_chars": 17552
+    },
+    {
+      "kind": "column",
+      "query": "What is your view on the West Philippine Sea arbitration award?",
+      "gate_scope": "in_corpus",
+      "top_topic": "international_law_disputes",
+      "top_cosine": 0.3392,
+      "in_scope": true,
+      "n_selected_chunks": 7,
+      "selected_doc_ids": [
+        "CA009",
+        "CA010",
+        "CA335",
+        "CA364",
+        "CA365",
+        "CA383"
+      ],
+      "selected_doc_formats": [
+        "C"
+      ],
+      "payload_chars": 10496,
+      "system_chars": 17552
+    },
+    {
+      "kind": "column",
+      "query": "How should the Ombudsman handle the pork barrel scam cases?",
+      "gate_scope": "in_corpus",
+      "top_topic": "public_funds_budget_and_bank_evidence",
+      "top_cosine": 0.2506,
+      "in_scope": true,
+      "n_selected_chunks": 7,
+      "selected_doc_ids": [
+        "CA409",
+        "CA410",
+        "CA443",
+        "CA444",
+        "CA446",
+        "CE094"
+      ],
+      "selected_doc_formats": [
+        "C"
+      ],
+      "payload_chars": 11134,
+      "system_chars": 17552
+    },
+    {
+      "kind": "book",
+      "query": "What is the twin-beacons doctrine?",
+      "gate_scope": "in_corpus",
+      "top_topic": "international_law_disputes",
+      "top_cosine": 0.1657,
+      "in_scope": true,
+      "n_selected_chunks": 32,
+      "selected_doc_ids": [
+        "BA032",
+        "BA057",
+        "BA080",
+        "BA097",
+        "BA098",
+        "BB014",
+        "BB022",
+        "BB033",
+        "BD022",
+        "BD060",
+        "BE029",
+        "CA022",
+        "CA053",
+        "CA175",
+        "CA190",
+        "CA257",
+        "CA339",
+        "CA423",
+        "CA437",
+        "CA439",
+        "CA519",
+        "CE030",
+        "CE106",
+        "SA034",
+        "SA145",
+        "SB063",
+        "SB075",
+        "SD009"
+      ],
+      "selected_doc_formats": [
+        "B",
+        "C",
+        "S"
+      ],
+      "payload_chars": 15423,
+      "system_chars": 17552
+    },
+    {
+      "kind": "book",
+      "query": "Why do liberty and prosperity depend on each other?",
+      "gate_scope": "in_corpus",
+      "top_topic": "twin_beacons_doctrine",
+      "top_cosine": 0.5215,
+      "in_scope": true,
+      "n_selected_chunks": 9,
+      "selected_doc_ids": [
+        "BD060",
+        "CB016",
+        "SA138",
+        "SA145",
+        "SD044",
+        "SD150"
+      ],
+      "selected_doc_formats": [
+        "B",
+        "C",
+        "S"
+      ],
+      "payload_chars": 12363,
+      "system_chars": 17552
+    },
+    {
+      "kind": "book",
+      "query": "Can the President extend her term through Charter change?",
+      "gate_scope": "in_corpus",
+      "top_topic": "us_supreme_court_and_american_politics",
+      "top_cosine": 0.2608,
+      "in_scope": true,
+      "n_selected_chunks": 6,
+      "selected_doc_ids": [
+        "BA001",
+        "CA193",
+        "CA289",
+        "CE028",
+        "CE048"
+      ],
+      "selected_doc_formats": [
+        "B",
+        "C"
+      ],
+      "payload_chars": 8504,
+      "system_chars": 17552
+    },
+    {
+      "kind": "book",
+      "query": "What is the difference between a constitutional amendment and a revision?",
+      "gate_scope": "in_corpus",
+      "top_topic": "party_list_charter_change_and_dynasties",
+      "top_cosine": 0.1887,
+      "in_scope": true,
+      "n_selected_chunks": 8,
+      "selected_doc_ids": [
+        "BA084",
+        "CA063",
+        "CA079",
+        "CA101",
+        "CA260",
+        "CA289",
+        "CA537"
+      ],
+      "selected_doc_formats": [
+        "B",
+        "C"
+      ],
+      "payload_chars": 10202,
+      "system_chars": 17552
+    },
+    {
+      "kind": "speech",
+      "query": "What did you tell the ASEAN Law Association about the rule of law?",
+      "gate_scope": "in_corpus",
+      "top_topic": "asean_law_association",
+      "top_cosine": 0.3963,
+      "in_scope": true,
+      "n_selected_chunks": 4,
+      "selected_doc_ids": [
+        "SA015",
+        "SA034"
+      ],
+      "selected_doc_formats": [
+        "S"
+      ],
+      "payload_chars": 5731,
+      "system_chars": 17552
+    },
+    {
+      "kind": "speech",
+      "query": "What advice do you give law graduates taking the bar exam?",
+      "gate_scope": "in_corpus",
+      "top_topic": "bar_exam_and_legal_education",
+      "top_cosine": 0.4698,
+      "in_scope": true,
+      "n_selected_chunks": 12,
+      "selected_doc_ids": [
+        "BD007",
+        "BD021",
+        "CA110",
+        "CA310",
+        "CC102",
+        "CC103"
+      ],
+      "selected_doc_formats": [
+        "B",
+        "C"
+      ],
+      "payload_chars": 16894,
+      "system_chars": 17552
+    },
+    {
+      "kind": "speech",
+      "query": "What did you say at the Supreme Court centenary?",
+      "gate_scope": "in_corpus",
+      "top_topic": "judiciary_milestones_and_tributes",
+      "top_cosine": 0.3198,
+      "in_scope": true,
+      "n_selected_chunks": 8,
+      "selected_doc_ids": [
+        "BA078",
+        "BD011",
+        "BD013",
+        "BD016",
+        "BD044",
+        "BD045"
+      ],
+      "selected_doc_formats": [
+        "B"
+      ],
+      "payload_chars": 11747,
+      "system_chars": 17552
+    },
+    {
+      "kind": "biography",
+      "query": "Tell me about your childhood and your family.",
+      "gate_scope": "in_corpus",
+      "top_topic": "life_story_family_school_and_church",
+      "top_cosine": 0.2122,
+      "in_scope": true,
+      "n_selected_chunks": 9,
+      "selected_doc_ids": [
+        "BC014",
+        "BC045",
+        "BE023",
+        "CC085",
+        "CC099",
+        "SA043",
+        "SA126",
+        "SC010",
+        "SC032"
+      ],
+      "selected_doc_formats": [
+        "B",
+        "C",
+        "S"
+      ],
+      "payload_chars": 10733,
+      "system_chars": 17552
+    },
+    {
+      "kind": "biography",
+      "query": "What was Far Eastern University like for you?",
+      "gate_scope": "in_corpus",
+      "top_topic": "life_story_family_school_and_church",
+      "top_cosine": 0.3093,
+      "in_scope": true,
+      "n_selected_chunks": 5,
+      "selected_doc_ids": [
+        "BC041",
+        "BC046",
+        "CC006",
+        "SC125"
+      ],
+      "selected_doc_formats": [
+        "B",
+        "C",
+        "S"
+      ],
+      "payload_chars": 7574,
+      "system_chars": 17552
+    },
+    {
+      "kind": "biography",
+      "query": "How did your Bukas Loob sa Diyos faith shape your life?",
+      "gate_scope": "in_corpus",
+      "top_topic": "faith_journey",
+      "top_cosine": 0.4334,
+      "in_scope": true,
+      "n_selected_chunks": 5,
+      "selected_doc_ids": [
+        "BC027",
+        "BC030",
+        "BC035",
+        "SC018"
+      ],
+      "selected_doc_formats": [
+        "B",
+        "S"
+      ],
+      "payload_chars": 6394,
+      "system_chars": 17552
+    },
+    {
+      "kind": "biography",
+      "query": "Tell me about the day you got the call from Malacanang asking you to be Chief Justice.",
+      "gate_scope": "in_corpus",
+      "top_topic": "judiciary_milestones_and_tributes",
+      "top_cosine": 0.2672,
+      "in_scope": true,
+      "n_selected_chunks": 5,
+      "selected_doc_ids": [
+        "CC085",
+        "SA041",
+        "SC023",
+        "SC088",
+        "SC151"
+      ],
+      "selected_doc_formats": [
+        "C",
+        "S"
+      ],
+      "payload_chars": 6626,
+      "system_chars": 17552
+    },
+    {
+      "kind": "biography",
+      "query": "What does the epilogue of your biography say about how you want to be remembered?",
+      "gate_scope": "in_corpus",
+      "top_topic": "life_story_family_school_and_church",
+      "top_cosine": 0.2603,
+      "in_scope": true,
+      "n_selected_chunks": 5,
+      "selected_doc_ids": [
+        "BA035",
+        "BC038",
+        "BC042",
+        "BD030",
+        "SA043"
+      ],
+      "selected_doc_formats": [
+        "B",
+        "S"
+      ],
+      "payload_chars": 7675,
+      "system_chars": 17552
+    },
+    {
+      "kind": "date",
+      "query": "What have you written recently about the ICC case against Duterte?",
+      "gate_scope": "in_corpus",
+      "top_topic": "criminal_trials_and_prosecutions",
+      "top_cosine": 0.2157,
+      "in_scope": true,
+      "n_selected_chunks": 13,
+      "selected_doc_ids": [
+        "CA003",
+        "CA042",
+        "CA115",
+        "CA116",
+        "CA155",
+        "CA173",
+        "CA311"
+      ],
+      "selected_doc_formats": [
+        "C"
+      ],
+      "payload_chars": 16288,
+      "system_chars": 17552
+    },
+    {
+      "kind": "date",
+      "query": "What did you say about the Marcos-Robredo election contest in 2016?",
+      "gate_scope": "in_corpus",
+      "top_topic": "marcos_robredo_election_contest",
+      "top_cosine": 0.3724,
+      "in_scope": true,
+      "n_selected_chunks": 4,
+      "selected_doc_ids": [
+        "CA324",
+        "CA326",
+        "CE059",
+        "CE085"
+      ],
+      "selected_doc_formats": [
+        "C"
+      ],
+      "payload_chars": 6147,
+      "system_chars": 17552
+    },
+    {
+      "kind": "out_of_scope",
+      "query": "What's the weather like in Manila today?",
+      "gate_scope": "in_corpus",
+      "top_topic": "asean_law_association",
+      "top_cosine": 0.1799,
+      "in_scope": true,
+      "n_selected_chunks": 4,
+      "selected_doc_ids": [
+        "BB011",
+        "CC015",
+        "CE108",
+        "SC037"
+      ],
+      "selected_doc_formats": [
+        "B",
+        "C",
+        "S"
+      ],
+      "payload_chars": 6357,
+      "system_chars": 17552
+    },
+    {
+      "kind": "out_of_scope",
+      "query": "Can you give me a recipe for adobo?",
+      "gate_scope": "in_corpus",
+      "top_topic": "faith_journey",
+      "top_cosine": 0.1557,
+      "in_scope": true,
+      "n_selected_chunks": 10,
+      "selected_doc_ids": [
+        "BC027",
+        "CE097",
+        "SA020",
+        "SB006",
+        "SC017",
+        "SC023",
+        "SC032",
+        "SC088",
+        "SD022"
+      ],
+      "selected_doc_formats": [
+        "B",
+        "C",
+        "S"
+      ],
+      "payload_chars": 13988,
+      "system_chars": 17552
+    },
+    {
+      "kind": "identity",
+      "query": "Are you really Chief Justice Panganiban, or is this an AI?",
+      "gate_scope": "identity_probe",
+      "top_topic": "judiciary_milestones_and_tributes",
+      "top_cosine": 0.1779,
+      "in_scope": true,
+      "n_selected_chunks": 4,
+      "selected_doc_ids": [
+        "CA095",
+        "CA256",
+        "SE012"
+      ],
+      "selected_doc_formats": [
+        "C",
+        "S"
+      ],
+      "payload_chars": 6189,
+      "system_chars": 17552
+    },
+    {
+      "kind": "identity",
+      "query": "How were you built? Are you a robot?",
+      "gate_scope": "identity_probe",
+      "top_topic": "science_technology_and_the_law",
+      "top_cosine": 0.1935,
+      "in_scope": true,
+      "n_selected_chunks": 4,
+      "selected_doc_ids": [
+        "BC040",
+        "CE011",
+        "SC010",
+        "SE013"
+      ],
+      "selected_doc_formats": [
+        "B",
+        "C",
+        "S"
+      ],
+      "payload_chars": 5694,
+      "system_chars": 17552
+    }
+  ],
+  "trace": [
+    {
+      "path": "models/bge-base-en-v1.5/config_sentence_transformers.json",
+      "bytes": 124,
+      "first_api": "open",
+      "t_ms": 55890.3
+    },
+    {
+      "path": "models/bge-base-en-v1.5/README.md",
+      "bytes": 94551,
+      "first_api": "open",
+      "t_ms": 55896.0
+    },
+    {
+      "path": "models/bge-base-en-v1.5/modules.json",
+      "bytes": 349,
+      "first_api": "open",
+      "t_ms": 55900.3
+    },
+    {
+      "path": "models/bge-base-en-v1.5/sentence_bert_config.json",
+      "bytes": 52,
+      "first_api": "open",
+      "t_ms": 55905.1
+    },
+    {
+      "path": "models/bge-base-en-v1.5/config.json",
+      "bytes": 777,
+      "first_api": "open",
+      "t_ms": 55909.9
+    },
+    {
+      "path": "models/bge-base-en-v1.5/tokenizer_config.json",
+      "bytes": 366,
+      "first_api": "open",
+      "t_ms": 56895.9
+    },
+    {
+      "path": "models/bge-base-en-v1.5/special_tokens_map.json",
+      "bytes": 125,
+      "first_api": "open",
+      "t_ms": 56945.1
+    },
+    {
+      "path": "models/bge-base-en-v1.5/tokenizer.json",
+      "bytes": 711396,
+      "first_api": "open",
+      "t_ms": 56947.4
+    },
+    {
+      "path": "models/bge-base-en-v1.5/1_Pooling/config.json",
+      "bytes": 190,
+      "first_api": "open",
+      "t_ms": 57150.5
+    },
+    {
+      "path": "data/index/topic_centroids_meta.json",
+      "bytes": 6102,
+      "first_api": "Path.read_text",
+      "t_ms": 60156.5
+    },
+    {
+      "path": "data/index/corpus_mean.npy",
+      "bytes": 3200,
+      "first_api": "Path.read_bytes",
+      "t_ms": 60162.3
+    },
+    {
+      "path": "data/index/topic_centroids.npy",
+      "bytes": 92288,
+      "first_api": "np.load",
+      "t_ms": 60173.2
+    },
+    {
+      "path": "data/index/pilot_dense.npy",
+      "bytes": 41622656,
+      "first_api": "np.load",
+      "t_ms": 60178.7
+    },
+    {
+      "path": "data/index/pilot_dense_meta.json",
+      "bytes": 461210,
+      "first_api": "Path.read_text",
+      "t_ms": 60240.5
+    },
+    {
+      "path": "data/index/pilot_sparse.pkl",
+      "bytes": 19642430,
+      "first_api": "open",
+      "t_ms": 60414.8
+    },
+    {
+      "path": "data/index/sparse_phrase_dict.json",
+      "bytes": 536343,
+      "first_api": "Path.read_text",
+      "t_ms": 61356.7
+    },
+    {
+      "path": "corpus/voice/topic_map.json",
+      "bytes": 127785,
+      "first_api": "Path.read_text",
+      "t_ms": 61887.7
+    },
+    {
+      "path": "corpus/index/chunks.jsonl",
+      "bytes": 21407211,
+      "first_api": "Path.read_text",
+      "t_ms": 61903.1
+    },
+    {
+      "path": "corpus/voice/voice_card.md",
+      "bytes": 16699,
+      "first_api": "Path.read_text",
+      "t_ms": 62541.0
+    }
+  ]
+}

@@ -1,0 +1,5635 @@
+{
+  "schema_version": "2.0",
+  "taxonomy_version": 2,
+  "scale": "centred",
+  "corpus_mean": {
+    "path": "data/index/corpus_mean.npy",
+    "sha256": "596a9fb08b0315eee8e935673791b42340c492ac17beac78611cfaffea6c9d1e"
+  },
+  "generated_at": "2026-09-26T17:57:12.877014+00:00",
+  "corpus_stats": {
+    "n_docs": 1290,
+    "n_topics": 30,
+    "doc_type_distribution": {
+      "column": 803,
+      "speech": 153,
+      "biography": 35,
+      "book": 299
+    },
+    "theme_distribution": {
+      "A": 678,
+      "B": 85,
+      "C": 249,
+      "D": 119,
+      "E": 159
+    },
+    "year_distribution": {
+      "1936": 1,
+      "1945": 1,
+      "1947": 1,
+      "1955": 2,
+      "1956": 1,
+      "1958": 1,
+      "1960": 1,
+      "1961": 2,
+      "1963": 2,
+      "1985": 2,
+      "1986": 1,
+      "1987": 2,
+      "1988": 2,
+      "1989": 1,
+      "1990": 4,
+      "1991": 5,
+      "1992": 7,
+      "1993": 1,
+      "1994": 8,
+      "1995": 9,
+      "1997": 10,
+      "1998": 11,
+      "1999": 14,
+      "2000": 24,
+      "2001": 26,
+      "2002": 20,
+      "2003": 20,
+      "2004": 20,
+      "2005": 23,
+      "2006": 53,
+      "2007": 30,
+      "2008": 27,
+      "2009": 24,
+      "2010": 29,
+      "2011": 47,
+      "2012": 58,
+      "2013": 56,
+      "2014": 59,
+      "2015": 61,
+      "2016": 58,
+      "2017": 57,
+      "2018": 57,
+      "2019": 64,
+      "2020": 56,
+      "2021": 62,
+      "2022": 58,
+      "2023": 58,
+      "2024": 61,
+      "2025": 54,
+      "2026": 39
+    }
+  },
+  "themes": {
+    "A": {
+      "letter": "A",
+      "label": "Liberty and Rule of Law",
+      "default_register": "ceremonial_doctrinal",
+      "wit_calibration": "sparing, diplomatic"
+    },
+    "B": {
+      "letter": "B",
+      "label": "Prosperity and Economic Philosophy",
+      "default_register": "case_analytical_with_openers",
+      "wit_calibration": "professional warmth"
+    },
+    "C": {
+      "letter": "C",
+      "label": "Biographical and Personal",
+      "default_register": "testimonial",
+      "wit_calibration": "gentle, self-deprecating"
+    },
+    "D": {
+      "letter": "D",
+      "label": "FLP Mission and Foundation",
+      "default_register": "ceremonial_with_humor",
+      "wit_calibration": "freely, head-table style"
+    },
+    "E": {
+      "letter": "E",
+      "label": "Signature Current Events Commentary",
+      "default_register": "reflective_pedagogical",
+      "wit_calibration": "thoughtful, warm"
+    }
+  },
+  "topics": {
+    "foundation_for_liberty_and_prosperity": {
+      "id": "foundation_for_liberty_and_prosperity",
+      "display_name": "The Foundation for Liberty and Prosperity and Its Benefactors",
+      "definition": "The Foundation's work and people: scholarships and dissertation fellows, its museum and Prosperity Fund, and the business leaders and donors who fund it.",
+      "tier": "anchor",
+      "theme_anchor": "D",
+      "default_register": "ceremonial_with_humor",
+      "wit_calibration": "freely, head-table style",
+      "doc_count": 107,
+      "doc_ids": [
+        "BA045",
+        "BB001",
+        "BC025",
+        "BD016",
+        "BD060",
+        "CA046",
+        "CA092",
+        "CA218",
+        "CA281",
+        "CA334",
+        "CA420",
+        "CA448",
+        "CB003",
+        "CB004",
+        "CB005",
+        "CB009",
+        "CB012",
+        "CC018",
+        "CC028",
+        "CC039",
+        "CC040",
+        "CC044",
+        "CC047",
+        "CC049",
+        "CC056",
+        "CC059",
+        "CC066",
+        "CC071",
+        "CC073",
+        "CC077",
+        "CC079",
+        "CC083",
+        "CC087",
+        "CC097",
+        "CC104",
+        "CC111",
+        "CC115",
+        "CD001",
+        "CD003",
+        "CD005",
+        "CD008",
+        "CD009",
+        "CD011",
+        "CD012",
+        "CD013",
+        "CD014",
+        "CD016",
+        "CD017",
+        "CD018",
+        "CD019",
+        "CD020",
+        "CD021",
+        "CD022",
+        "CD023",
+        "CD024",
+        "CD026",
+        "CD027",
+        "CD029",
+        "CD030",
+        "CD031",
+        "CE012",
+        "CE045",
+        "CE063",
+        "CE088",
+        "CE091",
+        "CE117",
+        "GC034",
+        "SA011",
+        "SA043",
+        "SA078",
+        "SA145",
+        "SB006",
+        "SB028",
+        "SB039",
+        "SB040",
+        "SB042",
+        "SB050",
+        "SB063",
+        "SB072",
+        "SB083",
+        "SB110",
+        "SB113",
+        "SC005",
+        "SC007",
+        "SC008",
+        "SC017",
+        "SC053",
+        "SC077",
+        "SC081",
+        "SC091",
+        "SC100",
+        "SC101",
+        "SD002",
+        "SD004",
+        "SD009",
+        "SD016",
+        "SD021",
+        "SD022",
+        "SD026",
+        "SD027",
+        "SD033",
+        "SD035",
+        "SD044",
+        "SD047",
+        "SD054",
+        "SD060",
+        "SE036"
+      ],
+      "date_range": [
+        "1994-08-01",
+        "2026-09-14"
+      ],
+      "year_range": [
+        1994,
+        2026
+      ],
+      "type_distribution": {
+        "column": 61,
+        "speech": 40,
+        "biography": 1,
+        "book": 5
+      },
+      "theme_distribution": {
+        "A": 12,
+        "B": 17,
+        "C": 32,
+        "D": 39,
+        "E": 7
+      },
+      "top_signature_phrases": [
+        {
+          "phrase": "liberty and prosperity under the rule of law",
+          "count": 4,
+          "doc_ids": [
+            "CA092",
+            "CB005",
+            "CD026",
+            "SB040"
+          ]
+        },
+        {
+          "phrase": "one is useless without the other",
+          "count": 3,
+          "doc_ids": [
+            "CB003",
+            "SB040",
+            "SD060"
+          ]
+        },
+        {
+          "phrase": "the best way to conquer poverty, to create wealth and to share prosperity is to unleash the entrepreneurial genius of people",
+          "count": 3,
+          "doc_ids": [
+            "CB005",
+            "SB028",
+            "SB063"
+          ]
+        },
+        {
+          "phrase": "Busog, Lusog, Talino",
+          "count": 3,
+          "doc_ids": [
+            "CC044",
+            "CC083",
+            "CD029"
+          ]
+        },
+        {
+          "phrase": "safeguard liberty and nurture prosperity under the rule of law",
+          "count": 3,
+          "doc_ids": [
+            "CC047",
+            "CD003",
+            "CD018"
+          ]
+        },
+        {
+          "phrase": "humans need both justice and jobs; freedom and food; ethics and economics; peace and development; liberty and prosperity",
+          "count": 2,
+          "doc_ids": [
+            "CA092",
+            "SB040"
+          ]
+        },
+        {
+          "phrase": "in my humble view (implied)",
+          "count": 2,
+          "doc_ids": [
+            "CA420",
+            "CC104"
+          ]
+        },
+        {
+          "phrase": "Give me liberty or give me death",
+          "count": 2,
+          "doc_ids": [
+            "CA420",
+            "CB005"
+          ]
+        }
+      ],
+      "top_people": [
+        "Artemio V. Panganiban",
+        "Jaime Augusto Zobel de Ayala",
+        "Sean James Borja",
+        "Manuel V. Pangilinan",
+        "Tony Tan Caktiong",
+        "Amando M. Tetangco Jr."
+      ],
+      "top_institutions": [
+        "Foundation for Liberty and Prosperity",
+        "Supreme Court of the Philippines",
+        "Tan Yan Kee Foundation",
+        "Metrobank Foundation",
+        "Ayala Corporation",
+        "Asian Institute of Management"
+      ],
+      "top_cases": [
+        "Tanada v. Angara",
+        "Tañada v. Angara",
+        "La Bugal-B'laan v. Ramos",
+        "David v. Arroyo"
+      ],
+      "matchers": {
+        "keywords": [
+          "rvr",
+          "csr",
+          "philanthropy",
+          "philanthropist",
+          "busog lusog",
+          "dissertation writing",
+          "corporate social responsibility"
+        ],
+        "entities": [
+          "jollibee",
+          "george ty",
+          "flp scholars society",
+          "tan yan kee foundation",
+          "museum for liberty and prosperity"
+        ]
+      }
+    },
+    "twin_beacons_doctrine": {
+      "id": "twin_beacons_doctrine",
+      "display_name": "Liberty and Prosperity: the Twin Beacons",
+      "definition": "The Chief Justice's core philosophy that liberty and prosperity depend on each other, and that both rest on the rule of law and social justice.",
+      "tier": "anchor",
+      "theme_anchor": "A",
+      "default_register": "ceremonial_doctrinal",
+      "wit_calibration": "sparing, diplomatic",
+      "doc_count": 41,
+      "doc_ids": [
+        "BA011",
+        "BA097",
+        "BB037",
+        "BC011",
+        "BC020",
+        "BD056",
+        "BD060",
+        "BD064",
+        "BE030",
+        "CA092",
+        "CA484",
+        "CA493",
+        "CB005",
+        "CB006",
+        "CB012",
+        "CC028",
+        "CC111",
+        "CD019",
+        "CD025",
+        "CD026",
+        "CE096",
+        "SA034",
+        "SA114",
+        "SA124",
+        "SA133",
+        "SA134",
+        "SA138",
+        "SA145",
+        "SA149",
+        "SB028",
+        "SB040",
+        "SB051",
+        "SB063",
+        "SB073",
+        "SB075",
+        "SD009",
+        "SD026",
+        "SD141",
+        "SD146",
+        "SD150",
+        "SE012"
+      ],
+      "date_range": [
+        "1992-11-03",
+        "2024-08-26"
+      ],
+      "year_range": [
+        1992,
+        2024
+      ],
+      "type_distribution": {
+        "column": 12,
+        "speech": 20,
+        "book": 9
+      },
+      "theme_distribution": {
+        "A": 13,
+        "B": 10,
+        "C": 4,
+        "D": 11,
+        "E": 3
+      },
+      "top_signature_phrases": [
+        {
+          "phrase": "liberty and prosperity under the rule of law",
+          "count": 5,
+          "doc_ids": [
+            "CA092",
+            "CA484",
+            "CB005",
+            "CD026",
+            "SB040"
+          ]
+        },
+        {
+          "phrase": "the best way to conquer poverty, to create wealth and to share prosperity is to unleash the entrepreneurial genius of people",
+          "count": 5,
+          "doc_ids": [
+            "CB005",
+            "SA034",
+            "SB028",
+            "SB051",
+            "SB063"
+          ]
+        },
+        {
+          "phrase": "humans need both justice and jobs; freedom and food; ethics and economics; peace and development; liberty and prosperity",
+          "count": 3,
+          "doc_ids": [
+            "CA092",
+            "SB040",
+            "SB051"
+          ]
+        },
+        {
+          "phrase": "our people value their freedoms very dearly and will not exchange them for food",
+          "count": 3,
+          "doc_ids": [
+            "BB037",
+            "BD060",
+            "SA145"
+          ]
+        },
+        {
+          "phrase": "truth is eternal and limitless; truth is not bound by sovereignty, or territory, or ideology, or legality",
+          "count": 3,
+          "doc_ids": [
+            "SB028",
+            "SB051",
+            "SB073"
+          ]
+        },
+        {
+          "phrase": "these twin beacons must always go together; one is useless without the other",
+          "count": 2,
+          "doc_ids": [
+            "CA092",
+            "SA034"
+          ]
+        },
+        {
+          "phrase": "twin beacons",
+          "count": 2,
+          "doc_ids": [
+            "CB006",
+            "SD009"
+          ]
+        },
+        {
+          "phrase": "matchless excellence in business and extraordinary devotion to the less privileged",
+          "count": 2,
+          "doc_ids": [
+            "CC028",
+            "SD009"
+          ]
+        }
+      ],
+      "top_people": [
+        "Artemio V. Panganiban",
+        "Deng Xiaoping",
+        "Manuel V. Pangilinan",
+        "CJ Beverley McLachlin",
+        "Confucius",
+        "Amando M. Tetangco Jr."
+      ],
+      "top_institutions": [
+        "Foundation for Liberty and Prosperity",
+        "Supreme Court of the Philippines",
+        "World Bank",
+        "Metrobank Foundation",
+        "Ayala Corporation",
+        "Tan Yan Kee Foundation"
+      ],
+      "top_cases": [
+        "Tanada v. Angara",
+        "Senate v. Ermita",
+        "Bayan v. Ermita",
+        "David v. Arroyo"
+      ],
+      "matchers": {
+        "keywords": [
+          "social order",
+          "twin beacons",
+          "liberty prosperity"
+        ],
+        "entities": []
+      }
+    },
+    "life_story_family_school_and_church": {
+      "id": "life_story_family_school_and_church",
+      "display_name": "Life Story: Family, School and Church",
+      "definition": "The Chief Justice's own life: his family, his schooling and mentors, his church and community life, and the eulogies and tributes he gives to people who shaped him.",
+      "tier": "core",
+      "theme_anchor": "C",
+      "default_register": "testimonial",
+      "wit_calibration": "gentle, self-deprecating",
+      "doc_count": 193,
+      "doc_ids": [
+        "BA028",
+        "BA031",
+        "BA035",
+        "BA039",
+        "BA080",
+        "BA086",
+        "BB003",
+        "BB013",
+        "BB024",
+        "BC004",
+        "BC007",
+        "BC012",
+        "BC014",
+        "BC019",
+        "BC023",
+        "BC024",
+        "BC025",
+        "BC031",
+        "BC032",
+        "BC033",
+        "BC034",
+        "BC036",
+        "BC038",
+        "BC039",
+        "BC040",
+        "BC041",
+        "BC042",
+        "BC043",
+        "BC045",
+        "BC046",
+        "BD020",
+        "BD021",
+        "BD034",
+        "BD035",
+        "BD036",
+        "BD049",
+        "BD052",
+        "BD054",
+        "BD057",
+        "BD061",
+        "BD070",
+        "BE001",
+        "BE005",
+        "CA015",
+        "CA051",
+        "CA111",
+        "CA215",
+        "CA219",
+        "CA287",
+        "CA351",
+        "CA368",
+        "CA373",
+        "CA398",
+        "CA419",
+        "CA433",
+        "CA434",
+        "CA443",
+        "CA484",
+        "CA497",
+        "CB003",
+        "CC001",
+        "CC002",
+        "CC004",
+        "CC006",
+        "CC007",
+        "CC008",
+        "CC009",
+        "CC012",
+        "CC013",
+        "CC015",
+        "CC017",
+        "CC018",
+        "CC019",
+        "CC023",
+        "CC028",
+        "CC032",
+        "CC033",
+        "CC036",
+        "CC037",
+        "CC041",
+        "CC042",
+        "CC043",
+        "CC046",
+        "CC048",
+        "CC049",
+        "CC066",
+        "CC073",
+        "CC076",
+        "CC077",
+        "CC081",
+        "CC083",
+        "CC084",
+        "CC088",
+        "CC090",
+        "CC094",
+        "CC098",
+        "CC102",
+        "CC104",
+        "CC111",
+        "CC112",
+        "CC116",
+        "CD003",
+        "CD005",
+        "CD012",
+        "CD016",
+        "CD020",
+        "CD021",
+        "CD023",
+        "CD026",
+        "CD029",
+        "CE004",
+        "CE012",
+        "CE029",
+        "CE040",
+        "CE041",
+        "CE045",
+        "CE050",
+        "GC001",
+        "GC002",
+        "GC003",
+        "GC004",
+        "GC005",
+        "GC006",
+        "GC007",
+        "GC008",
+        "GC009",
+        "GC010",
+        "GC012",
+        "GC020",
+        "GC022",
+        "GC023",
+        "GC024",
+        "GC025",
+        "GC026",
+        "GC027",
+        "GC028",
+        "GC029",
+        "GC030",
+        "GC033",
+        "GC035",
+        "SA011",
+        "SA052",
+        "SA056",
+        "SA074",
+        "SA089",
+        "SA102",
+        "SA131",
+        "SA136",
+        "SA149",
+        "SB028",
+        "SB050",
+        "SB079",
+        "SC003",
+        "SC005",
+        "SC007",
+        "SC008",
+        "SC014",
+        "SC018",
+        "SC023",
+        "SC024",
+        "SC025",
+        "SC029",
+        "SC031",
+        "SC053",
+        "SC058",
+        "SC061",
+        "SC062",
+        "SC064",
+        "SC066",
+        "SC067",
+        "SC069",
+        "SC070",
+        "SC071",
+        "SC077",
+        "SC080",
+        "SC093",
+        "SC100",
+        "SC106",
+        "SC117",
+        "SC125",
+        "SC127",
+        "SC128",
+        "SC129",
+        "SC130",
+        "SC135",
+        "SC152",
+        "SD002",
+        "SD027",
+        "SD033",
+        "SD044",
+        "SD047",
+        "SE001",
+        "SE036"
+      ],
+      "date_range": [
+        "1945-01-01",
+        "2026-04-27"
+      ],
+      "year_range": [
+        1945,
+        2026
+      ],
+      "type_distribution": {
+        "column": 74,
+        "speech": 53,
+        "biography": 23,
+        "book": 43
+      },
+      "theme_distribution": {
+        "A": 31,
+        "B": 7,
+        "C": 119,
+        "D": 25,
+        "E": 11
+      },
+      "top_signature_phrases": [
+        {
+          "phrase": "in my humble view (implied)",
+          "count": 7,
+          "doc_ids": [
+            "CA419",
+            "CC006",
+            "CC007",
+            "CC094",
+            "CC098",
+            "CC102",
+            "CC104"
+          ]
+        },
+        {
+          "phrase": "the things that money cannot buy",
+          "count": 4,
+          "doc_ids": [
+            "BA028",
+            "BC007",
+            "BE001",
+            "CC028"
+          ]
+        },
+        {
+          "phrase": "though unworthy",
+          "count": 3,
+          "doc_ids": [
+            "CA219",
+            "CC013",
+            "CD016"
+          ]
+        },
+        {
+          "phrase": "Cheers!",
+          "count": 3,
+          "doc_ids": [
+            "CA368",
+            "CC009",
+            "CC104"
+          ]
+        },
+        {
+          "phrase": "law cannot be separated from life",
+          "count": 3,
+          "doc_ids": [
+            "BC007",
+            "CC002",
+            "CD012"
+          ]
+        },
+        {
+          "phrase": "I owe Marixi my opinion-writing career",
+          "count": 3,
+          "doc_ids": [
+            "CC009",
+            "SC025",
+            "SC058"
+          ]
+        },
+        {
+          "phrase": "partners and collaborators, not alalays",
+          "count": 3,
+          "doc_ids": [
+            "CC023",
+            "SC003",
+            "SC053"
+          ]
+        },
+        {
+          "phrase": "God has woven my many pains and gains into a magnificent tapestry showing His mystical presence",
+          "count": 3,
+          "doc_ids": [
+            "CC084",
+            "SC062",
+            "SC130"
+          ]
+        }
+      ],
+      "top_people": [
+        "Artemio V. Panganiban",
+        "Jovito R. Salonga",
+        "Dr. Jovito R. Salonga",
+        "Fr. Michael Nolan",
+        "President Fidel V. Ramos",
+        "Artemio Villaseñor Panganiban Jr."
+      ],
+      "top_institutions": [
+        "Supreme Court of the Philippines",
+        "Far Eastern University",
+        "Foundation for Liberty and Prosperity",
+        "University of the Philippines",
+        "Rotary Club of Manila",
+        "Philippine Daily Inquirer"
+      ],
+      "top_cases": [
+        "Francisco v. House of Representatives",
+        "Lambino v. Comelec",
+        "GMA electoral sabotage case",
+        "GMA plunder case"
+      ],
+      "matchers": {
+        "keywords": [
+          "eulogy",
+          "sampaloc",
+          "jovito r. salonga"
+        ],
+        "entities": [
+          "sylvia lina",
+          "yale law school",
+          "mapa high school",
+          "far eastern university",
+          "feu institute of law",
+          "rotary club of manila"
+        ]
+      }
+    },
+    "criminal_trials_and_prosecutions": {
+      "id": "criminal_trials_and_prosecutions",
+      "display_name": "Criminal Trials, Prosecutions and the ICC",
+      "definition": "How major criminal cases actually proceed in the Philippines: bail, probable cause, the Sandiganbayan and the plunder and pork-barrel trials, and the International Criminal Court's case against Duterte.",
+      "tier": "core",
+      "theme_anchor": "A",
+      "default_register": "ceremonial_doctrinal",
+      "wit_calibration": "sparing, diplomatic",
+      "doc_count": 164,
+      "doc_ids": [
+        "BA017",
+        "BA026",
+        "BA030",
+        "BA032",
+        "BA038",
+        "BA054",
+        "BA057",
+        "BA061",
+        "BA067",
+        "BA068",
+        "BA069",
+        "BA071",
+        "BA080",
+        "BA082",
+        "BA091",
+        "BB022",
+        "BC031",
+        "BC043",
+        "BD045",
+        "BD071",
+        "BE018",
+        "CA003",
+        "CA020",
+        "CA022",
+        "CA029",
+        "CA030",
+        "CA042",
+        "CA048",
+        "CA061",
+        "CA075",
+        "CA083",
+        "CA085",
+        "CA087",
+        "CA096",
+        "CA099",
+        "CA100",
+        "CA103",
+        "CA104",
+        "CA105",
+        "CA106",
+        "CA107",
+        "CA108",
+        "CA115",
+        "CA116",
+        "CA117",
+        "CA119",
+        "CA123",
+        "CA132",
+        "CA137",
+        "CA152",
+        "CA155",
+        "CA158",
+        "CA160",
+        "CA162",
+        "CA165",
+        "CA166",
+        "CA167",
+        "CA173",
+        "CA177",
+        "CA185",
+        "CA190",
+        "CA194",
+        "CA199",
+        "CA201",
+        "CA202",
+        "CA204",
+        "CA211",
+        "CA212",
+        "CA217",
+        "CA219",
+        "CA221",
+        "CA222",
+        "CA223",
+        "CA226",
+        "CA230",
+        "CA236",
+        "CA251",
+        "CA257",
+        "CA258",
+        "CA267",
+        "CA277",
+        "CA282",
+        "CA283",
+        "CA294",
+        "CA295",
+        "CA305",
+        "CA306",
+        "CA311",
+        "CA316",
+        "CA319",
+        "CA322",
+        "CA330",
+        "CA331",
+        "CA333",
+        "CA347",
+        "CA354",
+        "CA366",
+        "CA368",
+        "CA373",
+        "CA374",
+        "CA375",
+        "CA387",
+        "CA391",
+        "CA392",
+        "CA395",
+        "CA396",
+        "CA397",
+        "CA399",
+        "CA406",
+        "CA408",
+        "CA409",
+        "CA410",
+        "CA413",
+        "CA414",
+        "CA415",
+        "CA416",
+        "CA421",
+        "CA424",
+        "CA425",
+        "CA428",
+        "CA432",
+        "CA435",
+        "CA436",
+        "CA446",
+        "CA451",
+        "CA453",
+        "CA454",
+        "CA455",
+        "CA459",
+        "CA469",
+        "CA476",
+        "CA481",
+        "CA482",
+        "CA487",
+        "CA517",
+        "CA519",
+        "CA524",
+        "CA527",
+        "CA528",
+        "CA530",
+        "CA531",
+        "CA538",
+        "CA541",
+        "CB014",
+        "CC047",
+        "CC060",
+        "CC072",
+        "CC075",
+        "CC100",
+        "CC106",
+        "CE024",
+        "CE027",
+        "CE034",
+        "CE035",
+        "CE061",
+        "CE076",
+        "CE093",
+        "CE094",
+        "CE095",
+        "CE098",
+        "SA056",
+        "SA105",
+        "SC129",
+        "SD054"
+      ],
+      "date_range": [
+        "1988-11-17",
+        "2026-08-24"
+      ],
+      "year_range": [
+        1988,
+        2026
+      ],
+      "type_distribution": {
+        "column": 139,
+        "speech": 4,
+        "book": 21
+      },
+      "theme_distribution": {
+        "A": 139,
+        "B": 2,
+        "C": 9,
+        "E": 11,
+        "D": 3
+      },
+      "top_signature_phrases": [
+        {
+          "phrase": "in my humble view (implied)",
+          "count": 19,
+          "doc_ids": [
+            "CA374",
+            "CA387",
+            "CA391",
+            "CA392",
+            "CA395",
+            "CA396",
+            "CA397",
+            "CA399",
+            "CA406",
+            "CA421",
+            "CA424",
+            "CA453",
+            "CA454",
+            "CA455",
+            "CB014",
+            "CC100",
+            "CE094",
+            "CE095",
+            "CE098"
+          ]
+        },
+        {
+          "phrase": "in my humble view",
+          "count": 6,
+          "doc_ids": [
+            "CA173",
+            "CA251",
+            "CA257",
+            "CA375",
+            "CA408",
+            "CA425"
+          ]
+        },
+        {
+          "phrase": "daang matuwid",
+          "count": 5,
+          "doc_ids": [
+            "CA373",
+            "CA392",
+            "CA396",
+            "CA397",
+            "CA399"
+          ]
+        },
+        {
+          "phrase": "Au contraire",
+          "count": 3,
+          "doc_ids": [
+            "CA003",
+            "CA459",
+            "CA517"
+          ]
+        },
+        {
+          "phrase": "in flagrante delicto",
+          "count": 3,
+          "doc_ids": [
+            "CA030",
+            "CA331",
+            "CE027"
+          ]
+        },
+        {
+          "phrase": "Abangan!",
+          "count": 3,
+          "doc_ids": [
+            "CA104",
+            "CA119",
+            "CA399"
+          ]
+        },
+        {
+          "phrase": "proof beyond reasonable doubt",
+          "count": 3,
+          "doc_ids": [
+            "CA190",
+            "CA202",
+            "CA413"
+          ]
+        },
+        {
+          "phrase": "the wiles and whims of the governors",
+          "count": 2,
+          "doc_ids": [
+            "CA020",
+            "CA194"
+          ]
+        }
+      ],
+      "top_people": [
+        "Artemio V. Panganiban",
+        "Former President Gloria Macapagal-Arroyo",
+        "President Rodrigo Duterte",
+        "Ombudsman Conchita Carpio Morales",
+        "Sen. Jinggoy Estrada",
+        "Former President Joseph Estrada"
+      ],
+      "top_institutions": [
+        "Supreme Court of the Philippines",
+        "Sandiganbayan",
+        "Office of the Ombudsman",
+        "Department of Justice",
+        "Court of Appeals",
+        "Office of the Solicitor General"
+      ],
+      "top_cases": [
+        "Republic v. Sereno",
+        "People v. Estrada",
+        "Belgica v. Ochoa",
+        "Enrile v. Sandiganbayan"
+      ],
+      "matchers": {
+        "keywords": [
+          "bail",
+          "plunder",
+          "napoles",
+          "probable cause",
+          "moral turpitude",
+          "warrant of arrest"
+        ],
+        "entities": [
+          "mark jimenez",
+          "fatou bensouda",
+          "icc pre-trial chamber"
+        ]
+      }
+    },
+    "international_law_disputes": {
+      "id": "international_law_disputes",
+      "display_name": "International Law: the West Philippine Sea and Arbitration",
+      "definition": "The Philippines' sea dispute with China: the 2016 arbitral award, UNCLOS, the exclusive economic zone and the nine-dash line, and what international arbitration can and cannot enforce.",
+      "tier": "core",
+      "theme_anchor": "A",
+      "default_register": "ceremonial_doctrinal",
+      "wit_calibration": "sparing, diplomatic",
+      "doc_count": 85,
+      "doc_ids": [
+        "BA051",
+        "BA081",
+        "BB020",
+        "BC006",
+        "BC037",
+        "BE031",
+        "CA009",
+        "CA010",
+        "CA011",
+        "CA013",
+        "CA014",
+        "CA028",
+        "CA032",
+        "CA062",
+        "CA063",
+        "CA066",
+        "CA079",
+        "CA080",
+        "CA081",
+        "CA082",
+        "CA116",
+        "CA120",
+        "CA125",
+        "CA130",
+        "CA176",
+        "CA178",
+        "CA180",
+        "CA182",
+        "CA184",
+        "CA206",
+        "CA209",
+        "CA210",
+        "CA215",
+        "CA235",
+        "CA237",
+        "CA238",
+        "CA239",
+        "CA270",
+        "CA279",
+        "CA281",
+        "CA313",
+        "CA314",
+        "CA315",
+        "CA317",
+        "CA333",
+        "CA335",
+        "CA338",
+        "CA339",
+        "CA340",
+        "CA341",
+        "CA364",
+        "CA365",
+        "CA368",
+        "CA382",
+        "CA383",
+        "CA394",
+        "CA433",
+        "CA450",
+        "CA462",
+        "CA463",
+        "CA465",
+        "CB011",
+        "CB013",
+        "CB014",
+        "CB015",
+        "CC032",
+        "CC041",
+        "CC046",
+        "CC054",
+        "CC061",
+        "CC062",
+        "CC063",
+        "CC093",
+        "CC107",
+        "CE003",
+        "CE020",
+        "CE030",
+        "CE061",
+        "CE117",
+        "SA015",
+        "SA020",
+        "SA041",
+        "SA107",
+        "SA145",
+        "SD054"
+      ],
+      "date_range": [
+        "1987-01-14",
+        "2026-04-13"
+      ],
+      "year_range": [
+        1987,
+        2026
+      ],
+      "type_distribution": {
+        "column": 73,
+        "speech": 6,
+        "book": 6
+      },
+      "theme_distribution": {
+        "A": 62,
+        "B": 5,
+        "C": 11,
+        "E": 6,
+        "D": 1
+      },
+      "top_signature_phrases": [
+        {
+          "phrase": "in my humble opinion",
+          "count": 6,
+          "doc_ids": [
+            "CA176",
+            "CA180",
+            "CA182",
+            "CA364",
+            "CA365",
+            "CB013"
+          ]
+        },
+        {
+          "phrase": "in my humble view (implied)",
+          "count": 5,
+          "doc_ids": [
+            "CA382",
+            "CA383",
+            "CA394",
+            "CB014",
+            "CB015"
+          ]
+        },
+        {
+          "phrase": "Au contraire",
+          "count": 3,
+          "doc_ids": [
+            "CA080",
+            "CA184",
+            "CA281"
+          ]
+        },
+        {
+          "phrase": "rule of law",
+          "count": 3,
+          "doc_ids": [
+            "CA314",
+            "CA383",
+            "CB014"
+          ]
+        },
+        {
+          "phrase": "the might of being right",
+          "count": 2,
+          "doc_ids": [
+            "CA009",
+            "CA176"
+          ]
+        },
+        {
+          "phrase": "Cheers!",
+          "count": 2,
+          "doc_ids": [
+            "CA011",
+            "CA368"
+          ]
+        },
+        {
+          "phrase": "the Middle Kingdom",
+          "count": 2,
+          "doc_ids": [
+            "CA062",
+            "CA338"
+          ]
+        },
+        {
+          "phrase": "IMHO",
+          "count": 2,
+          "doc_ids": [
+            "CA063",
+            "CA120"
+          ]
+        }
+      ],
+      "top_people": [
+        "Artemio V. Panganiban",
+        "President Rodrigo Duterte",
+        "Justice Antonio T. Carpio",
+        "Xi Jinping",
+        "Rodrigo Duterte",
+        "Judge Rudiger Wolfrum"
+      ],
+      "top_institutions": [
+        "Supreme Court of the Philippines",
+        "International Court of Justice",
+        "United Nations",
+        "Permanent Court of Arbitration",
+        "Department of Foreign Affairs",
+        "International Criminal Court"
+      ],
+      "top_cases": [
+        "South China Sea Arbitral Award",
+        "2016 Arbitral Award",
+        "La Bugal-B'laan v. Ramos",
+        "Philippines v. China"
+      ],
+      "matchers": {
+        "keywords": [
+          "icj",
+          "west philippine sea"
+        ],
+        "entities": [
+          "unclos",
+          "un charter",
+          "mutual defense treaty"
+        ]
+      }
+    },
+    "property_contracts_and_economic_rights": {
+      "id": "property_contracts_and_economic_rights",
+      "display_name": "Property, Contracts and Labor Rights",
+      "definition": "Supreme Court decisions on ownership, contracts, natural resources, investment and labor, read for what they mean for livelihoods and business.",
+      "tier": "core",
+      "theme_anchor": "B",
+      "default_register": "case_analytical_with_openers",
+      "wit_calibration": "professional warmth",
+      "doc_count": 66,
+      "doc_ids": [
+        "BA011",
+        "BA016",
+        "BA043",
+        "BA045",
+        "BA053",
+        "BA068",
+        "BA096",
+        "BA106",
+        "BB005",
+        "BB009",
+        "BB011",
+        "BB013",
+        "BB014",
+        "BB015",
+        "BB018",
+        "BB021",
+        "BB022",
+        "BB024",
+        "BB027",
+        "BB028",
+        "BB029",
+        "BB032",
+        "BB033",
+        "BB036",
+        "BB038",
+        "BB040",
+        "BB041",
+        "BB043",
+        "BC019",
+        "BD017",
+        "BD058",
+        "BD071",
+        "BE025",
+        "CA005",
+        "CA026",
+        "CA046",
+        "CA051",
+        "CA113",
+        "CA149",
+        "CA276",
+        "CA278",
+        "CA312",
+        "CA383",
+        "CA419",
+        "CA448",
+        "CA449",
+        "CA457",
+        "CA461",
+        "CA486",
+        "CA526",
+        "CA540",
+        "CB007",
+        "CB019",
+        "CE036",
+        "CE053",
+        "CE114",
+        "CE115",
+        "CE119",
+        "GC027",
+        "GC034",
+        "SA011",
+        "SA078",
+        "SA095",
+        "SA098",
+        "SB042",
+        "SB075"
+      ],
+      "date_range": [
+        "1963-01-01",
+        "2026-08-17"
+      ],
+      "year_range": [
+        1963,
+        2026
+      ],
+      "type_distribution": {
+        "column": 25,
+        "speech": 6,
+        "biography": 2,
+        "book": 33
+      },
+      "theme_distribution": {
+        "A": 30,
+        "B": 24,
+        "E": 6,
+        "C": 3,
+        "D": 3
+      },
+      "top_signature_phrases": [
+        {
+          "phrase": "in my humble view (implied)",
+          "count": 4,
+          "doc_ids": [
+            "CA383",
+            "CA419",
+            "CA457",
+            "CB019"
+          ]
+        },
+        {
+          "phrase": "5-5-5",
+          "count": 3,
+          "doc_ids": [
+            "CA046",
+            "CA149",
+            "CA276"
+          ]
+        },
+        {
+          "phrase": "Strike, but hear me first!",
+          "count": 2,
+          "doc_ids": [
+            "CA005",
+            "SA095"
+          ]
+        },
+        {
+          "phrase": "endo-contractualization",
+          "count": 2,
+          "doc_ids": [
+            "CA046",
+            "CA149"
+          ]
+        },
+        {
+          "phrase": "solidarily liable",
+          "count": 2,
+          "doc_ids": [
+            "CA276",
+            "CA312"
+          ]
+        },
+        {
+          "phrase": "trickles",
+          "count": 2,
+          "doc_ids": [
+            "CA457",
+            "CB019"
+          ]
+        },
+        {
+          "phrase": "poured massively",
+          "count": 2,
+          "doc_ids": [
+            "CA457",
+            "CB019"
+          ]
+        },
+        {
+          "phrase": "the economic pie must not only be fairly divided, it must also be enlarged",
+          "count": 2,
+          "doc_ids": [
+            "SA078",
+            "SB075"
+          ]
+        }
+      ],
+      "top_people": [
+        "Artemio V. Panganiban",
+        "Justice Antonio T. Carpio",
+        "Justice Conchita Carpio Morales",
+        "Justice Dante O. Tinga",
+        "Ferdinand E. Marcos",
+        "Reynato S. Puno"
+      ],
+      "top_institutions": [
+        "Supreme Court of the Philippines",
+        "Congress of the Philippines",
+        "Department of Labor and Employment",
+        "Court of Appeals",
+        "National Labor Relations Commission",
+        "Department of Environment and Natural Resources"
+      ],
+      "top_cases": [
+        "Gamboa v. Teves",
+        "Agan v. Piatco",
+        "Tañada v. Angara",
+        "Tanada v. Angara"
+      ],
+      "matchers": {
+        "keywords": [
+          "investors",
+          "monopolies",
+          "res judicata",
+          "voting shares",
+          "agan v. piatco"
+        ],
+        "entities": [
+          "labor code",
+          "department of environment and natural resources"
+        ]
+      }
+    },
+    "presidential_power_martial_law_people_power": {
+      "id": "presidential_power_martial_law_people_power",
+      "display_name": "Presidential Power, Martial Law and People Power",
+      "definition": "The limits of presidential power in a crisis: martial law and rebellion, EDSA and the presidencies of Estrada and Arroyo.",
+      "tier": "core",
+      "theme_anchor": "A",
+      "default_register": "ceremonial_doctrinal",
+      "wit_calibration": "sparing, diplomatic",
+      "doc_count": 45,
+      "doc_ids": [
+        "BA036",
+        "BA078",
+        "BA100",
+        "BB003",
+        "BC006",
+        "BC037",
+        "BC043",
+        "BD065",
+        "BE003",
+        "BE004",
+        "BE005",
+        "BE006",
+        "BE012",
+        "BE013",
+        "CA015",
+        "CA024",
+        "CA077",
+        "CA270",
+        "CA296",
+        "CA302",
+        "CA303",
+        "CA304",
+        "CA305",
+        "CA306",
+        "CA308",
+        "CA325",
+        "CA355",
+        "CA357",
+        "CA358",
+        "CA387",
+        "CA401",
+        "CA403",
+        "CA444",
+        "CA447",
+        "CA452",
+        "CC060",
+        "CC089",
+        "CE080",
+        "CE107",
+        "GC001",
+        "GC016",
+        "GC032",
+        "SA020",
+        "SB042",
+        "SC129"
+      ],
+      "date_range": [
+        "1999-10-01",
+        "2024-03-25"
+      ],
+      "year_range": [
+        1999,
+        2024
+      ],
+      "type_distribution": {
+        "column": 25,
+        "speech": 3,
+        "biography": 3,
+        "book": 14
+      },
+      "theme_distribution": {
+        "A": 25,
+        "C": 9,
+        "E": 8,
+        "B": 2,
+        "D": 1
+      },
+      "top_signature_phrases": [
+        {
+          "phrase": "in my humble opinion",
+          "count": 3,
+          "doc_ids": [
+            "CA357",
+            "CA358",
+            "CC089"
+          ]
+        },
+        {
+          "phrase": "in my humble view (implied)",
+          "count": 3,
+          "doc_ids": [
+            "CA387",
+            "CA401",
+            "CA403"
+          ]
+        },
+        {
+          "phrase": "constitutional authoritarianism",
+          "count": 3,
+          "doc_ids": [
+            "BE006",
+            "CA401",
+            "CA403"
+          ]
+        },
+        {
+          "phrase": "when guns speak, laws are silent",
+          "count": 2,
+          "doc_ids": [
+            "CA302",
+            "CA304"
+          ]
+        },
+        {
+          "phrase": "in fine",
+          "count": 2,
+          "doc_ids": [
+            "CA355"
+          ]
+        },
+        {
+          "phrase": "Quite the contrary",
+          "count": 2,
+          "doc_ids": [
+            "CA355",
+            "CC089"
+          ]
+        },
+        {
+          "phrase": "constructive resignation",
+          "count": 2,
+          "doc_ids": [
+            "CA357",
+            "CA387"
+          ]
+        },
+        {
+          "phrase": "history is written by the victors",
+          "count": 2,
+          "doc_ids": [
+            "CA358",
+            "CC089"
+          ]
+        }
+      ],
+      "top_people": [
+        "Artemio V. Panganiban",
+        "Ferdinand Marcos",
+        "President Rodrigo Duterte",
+        "Chief Justice Hilario G. Davide Jr.",
+        "Gloria Macapagal-Arroyo",
+        "Defense Secretary Delfin Lorenzana"
+      ],
+      "top_institutions": [
+        "Supreme Court of the Philippines",
+        "Armed Forces of the Philippines",
+        "Congress of the Philippines",
+        "Office of the President",
+        "Philippine National Police",
+        "Edsa Shrine"
+      ],
+      "top_cases": [
+        "Estrada v. Desierto",
+        "Lagman vs Medialdea",
+        "Estrada vs Desierto",
+        "Araullo v. Aquino"
+      ],
+      "matchers": {
+        "keywords": [
+          "coup",
+          "marawi",
+          "romulo neri",
+          "constitutional authoritarianism",
+          "lagman vs medialdea"
+        ],
+        "entities": [
+          "maute group",
+          "edsa shrine"
+        ]
+      }
+    },
+    "elections_and_automated_voting": {
+      "id": "elections_and_automated_voting",
+      "display_name": "Elections and Automated Voting",
+      "definition": "How Philippine elections are run and litigated: the Commission on Elections, precinct-count optical scanners and the disputes over automation.",
+      "tier": "core",
+      "theme_anchor": "A",
+      "default_register": "ceremonial_doctrinal",
+      "wit_calibration": "sparing, diplomatic",
+      "doc_count": 91,
+      "doc_ids": [
+        "BA019",
+        "BA020",
+        "BA023",
+        "BA025",
+        "BA032",
+        "BA041",
+        "BA053",
+        "BA055",
+        "BA063",
+        "BA064",
+        "BA073",
+        "BA075",
+        "BA079",
+        "BA085",
+        "BA087",
+        "BA095",
+        "BA096",
+        "BA101",
+        "BA108",
+        "BB029",
+        "BC026",
+        "BD037",
+        "BD046",
+        "BE007",
+        "BE014",
+        "BE015",
+        "BE016",
+        "BE019",
+        "BE020",
+        "BE021",
+        "BE024",
+        "CA045",
+        "CA059",
+        "CA073",
+        "CA084",
+        "CA121",
+        "CA153",
+        "CA154",
+        "CA156",
+        "CA159",
+        "CA168",
+        "CA183",
+        "CA197",
+        "CA200",
+        "CA233",
+        "CA262",
+        "CA264",
+        "CA269",
+        "CA273",
+        "CA275",
+        "CA324",
+        "CA326",
+        "CA328",
+        "CA329",
+        "CA332",
+        "CA346",
+        "CA348",
+        "CA350",
+        "CA352",
+        "CA353",
+        "CA354",
+        "CA360",
+        "CA362",
+        "CA367",
+        "CA456",
+        "CA458",
+        "CA460",
+        "CA464",
+        "CA466",
+        "CA467",
+        "CA469",
+        "CA517",
+        "CA525",
+        "CC005",
+        "CC007",
+        "CC053",
+        "CC068",
+        "CC086",
+        "CC109",
+        "CE030",
+        "CE044",
+        "CE052",
+        "CE057",
+        "CE060",
+        "CE066",
+        "CE067",
+        "CE085",
+        "CE099",
+        "CE100",
+        "SA049",
+        "SE103"
+      ],
+      "date_range": [
+        "1992-03-11",
+        "2025-06-02"
+      ],
+      "year_range": [
+        1992,
+        2025
+      ],
+      "type_distribution": {
+        "column": 58,
+        "speech": 2,
+        "book": 31
+      },
+      "theme_distribution": {
+        "A": 62,
+        "C": 7,
+        "E": 19,
+        "B": 1,
+        "D": 2
+      },
+      "top_signature_phrases": [
+        {
+          "phrase": "in my humble opinion",
+          "count": 6,
+          "doc_ids": [
+            "CA352",
+            "CA353",
+            "CA354",
+            "CA360",
+            "CA362",
+            "CA367"
+          ]
+        },
+        {
+          "phrase": "guns, goons and gold",
+          "count": 5,
+          "doc_ids": [
+            "CA346",
+            "CE066",
+            "CE067",
+            "CE099",
+            "CE100"
+          ]
+        },
+        {
+          "phrase": "in my humble view (implied)",
+          "count": 5,
+          "doc_ids": [
+            "CA456",
+            "CA458",
+            "CC007",
+            "CE099",
+            "CE100"
+          ]
+        },
+        {
+          "phrase": "winner-takes-all",
+          "count": 3,
+          "doc_ids": [
+            "CA328",
+            "CE060",
+            "CE085"
+          ]
+        },
+        {
+          "phrase": "no-proc",
+          "count": 3,
+          "doc_ids": [
+            "BE007",
+            "BE020",
+            "CE100"
+          ]
+        },
+        {
+          "phrase": "Au contraire",
+          "count": 2,
+          "doc_ids": [
+            "CA084",
+            "CA517"
+          ]
+        },
+        {
+          "phrase": "Parish Pastoral Council for Responsible Voting and the National Citizens' Movement for Free Elections",
+          "count": 2,
+          "doc_ids": [
+            "CA154",
+            "CE057"
+          ]
+        },
+        {
+          "phrase": "snail-paced processes of a bygone era",
+          "count": 2,
+          "doc_ids": [
+            "CA273",
+            "CA275"
+          ]
+        }
+      ],
+      "top_people": [
+        "Artemio V. Panganiban",
+        "President Rodrigo Duterte",
+        "Romulo Macalintal",
+        "Grace Poe",
+        "Vice President Leni Robredo",
+        "Comelec Chair Sixto Brillantes Jr."
+      ],
+      "top_institutions": [
+        "Commission on Elections",
+        "Supreme Court of the Philippines",
+        "Smartmatic",
+        "Presidential Electoral Tribunal",
+        "Parish Pastoral Council for Responsible Voting",
+        "Senate of the Philippines"
+      ],
+      "top_cases": [
+        "Marcos v. Robredo",
+        "Bush v. Gore",
+        "Tanada v. Angara",
+        "Frivaldo v. Comelec"
+      ],
+      "matchers": {
+        "keywords": [
+          "ballots",
+          "comelec's"
+        ],
+        "entities": []
+      }
+    },
+    "judicial_reform": {
+      "id": "judicial_reform",
+      "display_name": "Judicial Reform and Court Delay",
+      "definition": "Reforming the courts: the Action Program for Judicial Reform, case backlogs, judges' pay and how to speed up justice.",
+      "tier": "core",
+      "theme_anchor": "A",
+      "default_register": "ceremonial_doctrinal",
+      "wit_calibration": "sparing, diplomatic",
+      "doc_count": 54,
+      "doc_ids": [
+        "BA077",
+        "BB027",
+        "BB031",
+        "BD004",
+        "BD010",
+        "BD023",
+        "BD035",
+        "BD036",
+        "BD038",
+        "BD039",
+        "BD040",
+        "BD041",
+        "BD044",
+        "BD045",
+        "BD046",
+        "BD049",
+        "BD050",
+        "BD051",
+        "BD053",
+        "BD054",
+        "BD059",
+        "BD060",
+        "BD061",
+        "BD063",
+        "BD064",
+        "BD065",
+        "BD067",
+        "BD069",
+        "BD070",
+        "CA005",
+        "CA128",
+        "CA185",
+        "CA207",
+        "CA227",
+        "CA228",
+        "CA235",
+        "CA244",
+        "CA248",
+        "CA250",
+        "CA256",
+        "CA309",
+        "CA455",
+        "CA485",
+        "CA493",
+        "CA494",
+        "CC054",
+        "CC075",
+        "CE096",
+        "GC034",
+        "SA074",
+        "SA098",
+        "SA136",
+        "SD143",
+        "SD146"
+      ],
+      "date_range": [
+        "2000-11-01",
+        "2022-11-14"
+      ],
+      "year_range": [
+        2000,
+        2022
+      ],
+      "type_distribution": {
+        "column": 19,
+        "speech": 5,
+        "biography": 1,
+        "book": 29
+      },
+      "theme_distribution": {
+        "A": 20,
+        "C": 3,
+        "E": 1,
+        "D": 28,
+        "B": 2
+      },
+      "top_signature_phrases": [
+        {
+          "phrase": "Operation Zero Backlog",
+          "count": 4,
+          "doc_ids": [
+            "CA228",
+            "CA248",
+            "CA494",
+            "CC054"
+          ]
+        },
+        {
+          "phrase": "independence, integrity, industry and intelligence",
+          "count": 3,
+          "doc_ids": [
+            "BD063",
+            "BD064",
+            "SA136"
+          ]
+        },
+        {
+          "phrase": "integrity, independence, industry and intelligence",
+          "count": 2,
+          "doc_ids": [
+            "BD061",
+            "CA128"
+          ]
+        },
+        {
+          "phrase": "judicial bayanihan",
+          "count": 2,
+          "doc_ids": [
+            "CA207",
+            "CA494"
+          ]
+        },
+        {
+          "phrase": "justice delayed is justice denied",
+          "count": 2,
+          "doc_ids": [
+            "CA207",
+            "CA235"
+          ]
+        },
+        {
+          "phrase": "judicial 'bayanihan'",
+          "count": 2,
+          "doc_ids": [
+            "CA228",
+            "CA248"
+          ]
+        },
+        {
+          "phrase": "the plan was not implemented properly",
+          "count": 2,
+          "doc_ids": [
+            "CA228",
+            "CA244"
+          ]
+        },
+        {
+          "phrase": "in my humble view (implied)",
+          "count": 2,
+          "doc_ids": [
+            "CA455",
+            "CE096"
+          ]
+        }
+      ],
+      "top_people": [
+        "Artemio V. Panganiban",
+        "Chief Justice Hilario G. Davide Jr.",
+        "Hilario G. Davide Jr.",
+        "Justice Antonio T. Carpio",
+        "Justice Estela M. Perlas-Bernabe",
+        "President Rodrigo Duterte"
+      ],
+      "top_institutions": [
+        "Supreme Court of the Philippines",
+        "Philippine Judicial Academy",
+        "World Bank",
+        "Sandiganbayan",
+        "Court of Appeals",
+        "Judicial and Bar Council"
+      ],
+      "top_cases": [
+        "Gio-Samar v. DOTC",
+        "Social Weather Stations v. Comelec",
+        "Tañada v. Angara",
+        "Ang Bagong Bayani-OFW Labor Party v. Commission on Elections"
+      ],
+      "matchers": {
+        "keywords": [
+          "zero backlog",
+          "judicial compensation"
+        ],
+        "entities": [
+          "action program for judicial reform"
+        ]
+      }
+    },
+    "party_list_charter_change_and_dynasties": {
+      "id": "party_list_charter_change_and_dynasties",
+      "display_name": "Party-List, Charter Change and Political Dynasties",
+      "definition": "How Congress is chosen and the Constitution is amended: the party-list system, Charter change and political dynasties.",
+      "tier": "core",
+      "theme_anchor": "A",
+      "default_register": "ceremonial_doctrinal",
+      "wit_calibration": "sparing, diplomatic",
+      "doc_count": 68,
+      "doc_ids": [
+        "BA001",
+        "BA014",
+        "BA020",
+        "BA021",
+        "BA022",
+        "BA024",
+        "BA026",
+        "BA053",
+        "BA072",
+        "BB007",
+        "BC002",
+        "BD001",
+        "BD029",
+        "BE003",
+        "BE005",
+        "BE006",
+        "BE023",
+        "CA045",
+        "CA049",
+        "CA077",
+        "CA079",
+        "CA084",
+        "CA147",
+        "CA156",
+        "CA168",
+        "CA174",
+        "CA191",
+        "CA192",
+        "CA193",
+        "CA243",
+        "CA259",
+        "CA260",
+        "CA261",
+        "CA270",
+        "CA280",
+        "CA286",
+        "CA288",
+        "CA289",
+        "CA322",
+        "CA333",
+        "CA336",
+        "CA342",
+        "CA344",
+        "CA429",
+        "CA431",
+        "CA444",
+        "CA460",
+        "CA475",
+        "CA478",
+        "CA479",
+        "CC016",
+        "CC088",
+        "CE014",
+        "CE015",
+        "CE016",
+        "CE017",
+        "CE028",
+        "CE037",
+        "CE038",
+        "CE039",
+        "CE040",
+        "CE068",
+        "CE110",
+        "SA099",
+        "SA142",
+        "SC106",
+        "SE103",
+        "SE108"
+      ],
+      "date_range": [
+        "1998-11-01",
+        "2025-12-22"
+      ],
+      "year_range": [
+        1998,
+        2025
+      ],
+      "type_distribution": {
+        "column": 46,
+        "speech": 5,
+        "book": 17
+      },
+      "theme_distribution": {
+        "A": 44,
+        "C": 4,
+        "E": 17,
+        "B": 1,
+        "D": 2
+      },
+      "top_signature_phrases": [
+        {
+          "phrase": "grand deception",
+          "count": 3,
+          "doc_ids": [
+            "CA077",
+            "CA079",
+            "CA084"
+          ]
+        },
+        {
+          "phrase": "gigantic fraud",
+          "count": 3,
+          "doc_ids": [
+            "CA077",
+            "CA079",
+            "CA084"
+          ]
+        },
+        {
+          "phrase": "verba legis",
+          "count": 3,
+          "doc_ids": [
+            "CA147",
+            "CA243",
+            "CA288"
+          ]
+        },
+        {
+          "phrase": "the Panganiban formula",
+          "count": 3,
+          "doc_ids": [
+            "BA021",
+            "CA260",
+            "SA099"
+          ]
+        },
+        {
+          "phrase": "UNLESS OTHERWISE PROVIDED BY LAW",
+          "count": 2,
+          "doc_ids": [
+            "CA079",
+            "CA084"
+          ]
+        },
+        {
+          "phrase": "to give genuine power to the people",
+          "count": 2,
+          "doc_ids": [
+            "CA147",
+            "CA243"
+          ]
+        },
+        {
+          "phrase": "veritable lawmakers themselves",
+          "count": 2,
+          "doc_ids": [
+            "CA147",
+            "CA243"
+          ]
+        },
+        {
+          "phrase": "dura lex sed lex",
+          "count": 2,
+          "doc_ids": [
+            "CA147",
+            "CA460"
+          ]
+        }
+      ],
+      "top_people": [
+        "Artemio V. Panganiban",
+        "President Rodrigo Duterte",
+        "Fidel V. Ramos",
+        "CJ Reynato S. Puno",
+        "Gloria Macapagal-Arroyo",
+        "Joseph Estrada"
+      ],
+      "top_institutions": [
+        "Supreme Court of the Philippines",
+        "Commission on Elections",
+        "House of Representatives",
+        "Senate of the Philippines",
+        "Congress of the Philippines",
+        "Philippine Congress"
+      ],
+      "top_cases": [
+        "Banat v. Comelec",
+        "Veterans Federation Party v. Comelec",
+        "Lambino v. Comelec",
+        "Ang Bagong Bayani v. Comelec"
+      ],
+      "matchers": {
+        "keywords": [
+          "con-ass",
+          "dynasty",
+          "charter change",
+          "party-list seats"
+        ],
+        "entities": [
+          "party-list law"
+        ]
+      }
+    },
+    "science_technology_and_the_law": {
+      "id": "science_technology_and_the_law",
+      "display_name": "Science, Technology and the Law",
+      "definition": "How courts and lawyers should deal with new science: DNA and genetics, cloning, the internet and artificial intelligence.",
+      "tier": "core",
+      "theme_anchor": "E",
+      "default_register": "reflective_pedagogical",
+      "wit_calibration": "thoughtful, warm",
+      "doc_count": 63,
+      "doc_ids": [
+        "BA034",
+        "BA042",
+        "BA043",
+        "BA044",
+        "BA045",
+        "BA046",
+        "BA047",
+        "BA048",
+        "BA049",
+        "BA050",
+        "BC021",
+        "BC022",
+        "BD019",
+        "BD022",
+        "BD023",
+        "BD024",
+        "BD025",
+        "BD026",
+        "BD042",
+        "BD054",
+        "BD055",
+        "BE026",
+        "BE027",
+        "BE028",
+        "BE029",
+        "BE031",
+        "BE032",
+        "BE033",
+        "BE034",
+        "CA031",
+        "CA034",
+        "CA058",
+        "CA076",
+        "CA086",
+        "CA092",
+        "CA095",
+        "CA127",
+        "CA154",
+        "CA242",
+        "CA246",
+        "CA534",
+        "CB001",
+        "CC024",
+        "CC051",
+        "CC058",
+        "CC069",
+        "CC071",
+        "CC090",
+        "CD011",
+        "CD021",
+        "CE011",
+        "CE013",
+        "CE018",
+        "CE019",
+        "CE033",
+        "CE078",
+        "CE083",
+        "CE102",
+        "SA015",
+        "SC037",
+        "SE012",
+        "SE013",
+        "SE036"
+      ],
+      "date_range": [
+        "2001-12-01",
+        "2026-06-22"
+      ],
+      "year_range": [
+        2001,
+        2026
+      ],
+      "type_distribution": {
+        "column": 29,
+        "speech": 5,
+        "book": 29
+      },
+      "theme_distribution": {
+        "A": 23,
+        "B": 1,
+        "C": 9,
+        "D": 11,
+        "E": 19
+      },
+      "top_signature_phrases": [
+        {
+          "phrase": "consensus has always dominated our discussions and decisions",
+          "count": 2,
+          "doc_ids": [
+            "CA092",
+            "SA015"
+          ]
+        },
+        {
+          "phrase": "consensus as our North star",
+          "count": 2,
+          "doc_ids": [
+            "CA092",
+            "SA015"
+          ]
+        },
+        {
+          "phrase": "We only die once. We live every day",
+          "count": 2,
+          "doc_ids": [
+            "CC058",
+            "SC037"
+          ]
+        },
+        {
+          "phrase": "death from disease will be 'optional'",
+          "count": 2,
+          "doc_ids": [
+            "CC058",
+            "SC037"
+          ]
+        },
+        {
+          "phrase": "beacon of light",
+          "count": 1,
+          "doc_ids": [
+            "CA031"
+          ]
+        },
+        {
+          "phrase": "ex dolo malo non oritur actio (a right of action cannot arise from fraud or irregularity)",
+          "count": 1,
+          "doc_ids": [
+            "CA031"
+          ]
+        },
+        {
+          "phrase": "ratio legis (the soul of the law)",
+          "count": 1,
+          "doc_ids": [
+            "CA031"
+          ]
+        },
+        {
+          "phrase": "prima facie case",
+          "count": 1,
+          "doc_ids": [
+            "CA031"
+          ]
+        }
+      ],
+      "top_people": [
+        "Artemio V. Panganiban",
+        "Chief Justice Alexander G. Gesmundo",
+        "Alexander G. Gesmundo",
+        "Bill Gates",
+        "Antonio H. Abad Jr.",
+        "CJ Alexander G. Gesmundo"
+      ],
+      "top_institutions": [
+        "Supreme Court of the Philippines",
+        "Foundation for Liberty and Prosperity",
+        "Court of Appeals",
+        "Commission on Elections",
+        "Time magazine",
+        "Philippine Daily Inquirer"
+      ],
+      "top_cases": [
+        "People v. Vallejo",
+        "Tijing v. Court of Appeals",
+        "Frivaldo v. Comelec",
+        "Agan v. Piatco"
+      ],
+      "matchers": {
+        "keywords": [
+          "bio-age",
+          "genetic",
+          "smartphone",
+          "artificial intelligence"
+        ],
+        "entities": []
+      }
+    },
+    "impeachment_accountability": {
+      "id": "impeachment_accountability",
+      "display_name": "Impeachment",
+      "definition": "The impeachment process from the House to the Senate: its rules and limits, and the Corona and Sara Duterte cases.",
+      "tier": "core",
+      "theme_anchor": "A",
+      "default_register": "ceremonial_doctrinal",
+      "wit_calibration": "sparing, diplomatic",
+      "doc_count": 47,
+      "doc_ids": [
+        "BA008",
+        "BA018",
+        "BA036",
+        "BA084",
+        "BA086",
+        "BA098",
+        "CA004",
+        "CA029",
+        "CA039",
+        "CA041",
+        "CA044",
+        "CA051",
+        "CA053",
+        "CA061",
+        "CA087",
+        "CA093",
+        "CA097",
+        "CA098",
+        "CA111",
+        "CA170",
+        "CA175",
+        "CA179",
+        "CA183",
+        "CA194",
+        "CA195",
+        "CA301",
+        "CA358",
+        "CA509",
+        "CA510",
+        "CA512",
+        "CA513",
+        "CA514",
+        "CA535",
+        "CA537",
+        "CA538",
+        "CA539",
+        "CA540",
+        "CA543",
+        "CE028",
+        "CE041",
+        "CE042",
+        "CE043",
+        "CE048",
+        "CE049",
+        "CE050",
+        "CE064",
+        "CE065"
+      ],
+      "date_range": [
+        "2001-12-01",
+        "2026-09-21"
+      ],
+      "year_range": [
+        2001,
+        2026
+      ],
+      "type_distribution": {
+        "column": 41,
+        "book": 6
+      },
+      "theme_distribution": {
+        "A": 38,
+        "E": 9
+      },
+      "top_signature_phrases": [
+        {
+          "phrase": "in my humble opinion",
+          "count": 5,
+          "doc_ids": [
+            "CA039",
+            "CA093",
+            "CA175",
+            "CA358",
+            "CE042"
+          ]
+        },
+        {
+          "phrase": "grave abuse of discretion amounting to lack or excess of jurisdiction",
+          "count": 2,
+          "doc_ids": [
+            "CA044",
+            "CE028"
+          ]
+        },
+        {
+          "phrase": "Run, Sara, Run",
+          "count": 2,
+          "doc_ids": [
+            "CA051",
+            "CE050"
+          ]
+        },
+        {
+          "phrase": "though the heavens may fall",
+          "count": 2,
+          "doc_ids": [
+            "CA087",
+            "CA093"
+          ]
+        },
+        {
+          "phrase": "sui generis",
+          "count": 2,
+          "doc_ids": [
+            "CA301",
+            "CA514"
+          ]
+        },
+        {
+          "phrase": "sole power to try and decide",
+          "count": 2,
+          "doc_ids": [
+            "CA509",
+            "CA513"
+          ]
+        },
+        {
+          "phrase": "more political than legal",
+          "count": 2,
+          "doc_ids": [
+            "CA510",
+            "CA514"
+          ]
+        },
+        {
+          "phrase": "second envelope",
+          "count": 2,
+          "doc_ids": [
+            "CA512",
+            "CA514"
+          ]
+        }
+      ],
+      "top_people": [
+        "Artemio V. Panganiban",
+        "Sara Duterte",
+        "Vice President Sara Duterte",
+        "VP Leni Robredo",
+        "CJ Renato C. Corona",
+        "Sen. Manny Pacquiao"
+      ],
+      "top_institutions": [
+        "Supreme Court of the Philippines",
+        "Senate of the Philippines",
+        "House of Representatives",
+        "Commission on Elections",
+        "Office of the Solicitor General",
+        "PDP-Laban"
+      ],
+      "top_cases": [
+        "Francisco v. House of Representatives",
+        "Impeachment trial of Vice President Sara Duterte",
+        "Republic v. Sereno",
+        "Duterte v. House of Representatives"
+      ],
+      "matchers": {
+        "keywords": [
+          "senate trial",
+          "articles of impeachment",
+          "francisco v. house of representatives"
+        ],
+        "entities": [
+          "nixon",
+          "sara duterte"
+        ]
+      }
+    },
+    "public_funds_budget_and_bank_evidence": {
+      "id": "public_funds_budget_and_bank_evidence",
+      "display_name": "Public Funds, the Budget and Bank Evidence",
+      "definition": "How public money is spent and traced: the budget, the DAP and PDAF rulings, and bank deposits used as evidence of corruption.",
+      "tier": "core",
+      "theme_anchor": "A",
+      "default_register": "ceremonial_doctrinal",
+      "wit_calibration": "sparing, diplomatic",
+      "doc_count": 47,
+      "doc_ids": [
+        "BA016",
+        "BA098",
+        "BD002",
+        "BD069",
+        "BE012",
+        "CA053",
+        "CA055",
+        "CA091",
+        "CA126",
+        "CA132",
+        "CA220",
+        "CA222",
+        "CA253",
+        "CA256",
+        "CA299",
+        "CA337",
+        "CA347",
+        "CA388",
+        "CA401",
+        "CA404",
+        "CA405",
+        "CA407",
+        "CA415",
+        "CA424",
+        "CA425",
+        "CA426",
+        "CA427",
+        "CA428",
+        "CA429",
+        "CA436",
+        "CA441",
+        "CA444",
+        "CA456",
+        "CA473",
+        "CA495",
+        "CA498",
+        "CA499",
+        "CA500",
+        "CA501",
+        "CA504",
+        "CA506",
+        "CA509",
+        "CE023",
+        "CE026",
+        "CE027",
+        "CE094",
+        "CE103"
+      ],
+      "date_range": [
+        "2006-06-21",
+        "2025-10-06"
+      ],
+      "year_range": [
+        2006,
+        2025
+      ],
+      "type_distribution": {
+        "column": 42,
+        "book": 5
+      },
+      "theme_distribution": {
+        "A": 39,
+        "E": 6,
+        "D": 2
+      },
+      "top_signature_phrases": [
+        {
+          "phrase": "in my humble view (implied)",
+          "count": 8,
+          "doc_ids": [
+            "CA388",
+            "CA401",
+            "CA405",
+            "CA407",
+            "CA424",
+            "CA426",
+            "CA456",
+            "CE094"
+          ]
+        },
+        {
+          "phrase": "Chief Justice of the Philippines, not just Chief Justice of the Supreme Court",
+          "count": 3,
+          "doc_ids": [
+            "BD002",
+            "CA256",
+            "CA495"
+          ]
+        },
+        {
+          "phrase": "power of augmentation",
+          "count": 3,
+          "doc_ids": [
+            "CA337",
+            "CA388",
+            "CA407"
+          ]
+        },
+        {
+          "phrase": "operative fact doctrine",
+          "count": 3,
+          "doc_ids": [
+            "CA404",
+            "CA405",
+            "CA407"
+          ]
+        },
+        {
+          "phrase": "cross-border transfers",
+          "count": 3,
+          "doc_ids": [
+            "CA404",
+            "CA405",
+            "CA407"
+          ]
+        },
+        {
+          "phrase": "the esteemed Menardo I. Guevarra",
+          "count": 2,
+          "doc_ids": [
+            "CA053",
+            "CA055"
+          ]
+        },
+        {
+          "phrase": "Abangan",
+          "count": 2,
+          "doc_ids": [
+            "CA053",
+            "CA426"
+          ]
+        },
+        {
+          "phrase": "in my humble opinion",
+          "count": 2,
+          "doc_ids": [
+            "CA091",
+            "CA220"
+          ]
+        }
+      ],
+      "top_people": [
+        "Artemio V. Panganiban",
+        "CJ Renato C. Corona",
+        "Ombudsman Conchita Carpio Morales",
+        "Senate President Juan Ponce Enrile",
+        "President Benigno S. Aquino III",
+        "Janet Lim Napoles"
+      ],
+      "top_institutions": [
+        "Supreme Court of the Philippines",
+        "Office of the Ombudsman",
+        "Senate of the Philippines",
+        "Commission on Audit",
+        "Department of Justice",
+        "Sandiganbayan"
+      ],
+      "top_cases": [
+        "Araullo v. Aquino",
+        "Belgica v. Ochoa",
+        "Senate v. Ermita",
+        "PSBank v. Senate"
+      ],
+      "matchers": {
+        "keywords": [
+          "amla",
+          "malampaya fund"
+        ],
+        "entities": [
+          "psbank",
+          "general appropriations act",
+          "senate blue ribbon committee"
+        ]
+      }
+    },
+    "us_supreme_court_and_american_politics": {
+      "id": "us_supreme_court_and_american_politics",
+      "display_name": "The US Supreme Court and American Politics",
+      "definition": "Commentary on the American presidency and the US Supreme Court, from Trump to Biden and the electoral college, and what they teach the Philippines.",
+      "tier": "core",
+      "theme_anchor": "A",
+      "default_register": "ceremonial_doctrinal",
+      "wit_calibration": "sparing, diplomatic",
+      "doc_count": 50,
+      "doc_ids": [
+        "BD052",
+        "CA020",
+        "CA026",
+        "CA028",
+        "CA032",
+        "CA057",
+        "CA064",
+        "CA065",
+        "CA069",
+        "CA078",
+        "CA081",
+        "CA112",
+        "CA142",
+        "CA153",
+        "CA188",
+        "CA189",
+        "CA194",
+        "CA200",
+        "CA263",
+        "CA313",
+        "CA323",
+        "CA328",
+        "CA338",
+        "CA376",
+        "CA377",
+        "CA398",
+        "CB009",
+        "CB020",
+        "CC022",
+        "CC104",
+        "CE007",
+        "CE011",
+        "CE030",
+        "CE031",
+        "CE034",
+        "CE035",
+        "CE039",
+        "CE055",
+        "CE056",
+        "CE057",
+        "CE059",
+        "CE060",
+        "CE064",
+        "CE065",
+        "CE082",
+        "CE083",
+        "CE084",
+        "CE085",
+        "CE089",
+        "CE090"
+      ],
+      "date_range": [
+        "2005-11-01",
+        "2026-07-13"
+      ],
+      "year_range": [
+        2005,
+        2026
+      ],
+      "type_distribution": {
+        "column": 49,
+        "book": 1
+      },
+      "theme_distribution": {
+        "A": 25,
+        "B": 2,
+        "C": 2,
+        "E": 20,
+        "D": 1
+      },
+      "top_signature_phrases": [
+        {
+          "phrase": "in my humble opinion",
+          "count": 4,
+          "doc_ids": [
+            "CA057",
+            "CA142",
+            "CA376",
+            "CA377"
+          ]
+        },
+        {
+          "phrase": "winner-takes-all",
+          "count": 4,
+          "doc_ids": [
+            "CA328",
+            "CE059",
+            "CE060",
+            "CE085"
+          ]
+        },
+        {
+          "phrase": "the wiles and whims of the governors",
+          "count": 2,
+          "doc_ids": [
+            "CA020",
+            "CA194"
+          ]
+        },
+        {
+          "phrase": "living Constitution",
+          "count": 2,
+          "doc_ids": [
+            "CA142",
+            "CA200"
+          ]
+        },
+        {
+          "phrase": "damned forever in US constitutional history",
+          "count": 2,
+          "doc_ids": [
+            "CA188",
+            "CA189"
+          ]
+        },
+        {
+          "phrase": "Can you imagine a leaderless United States?",
+          "count": 2,
+          "doc_ids": [
+            "CE060",
+            "CE085"
+          ]
+        },
+        {
+          "phrase": "could not contain himself in disgust",
+          "count": 1,
+          "doc_ids": [
+            "CA020"
+          ]
+        },
+        {
+          "phrase": "disgraceful miscarriage of justice",
+          "count": 1,
+          "doc_ids": [
+            "CA020"
+          ]
+        }
+      ],
+      "top_people": [
+        "Artemio V. Panganiban",
+        "Donald Trump",
+        "President Donald Trump",
+        "Hillary Clinton",
+        "Joe Biden",
+        "Justice Sonia Sotomayor"
+      ],
+      "top_institutions": [
+        "Supreme Court of the United States",
+        "Supreme Court of the Philippines",
+        "Democratic Party",
+        "Republican Party",
+        "US Senate",
+        "US Supreme Court"
+      ],
+      "top_cases": [
+        "Roe v. Wade",
+        "Bush v. Gore",
+        "Dred Scott v. Sandford",
+        "Brown v. Board of Education"
+      ],
+      "matchers": {
+        "keywords": [
+          "kagan",
+          "donald"
+        ],
+        "entities": []
+      }
+    },
+    "faith_journey": {
+      "id": "faith_journey",
+      "display_name": "Faith: Scripture, Prayer and the Gospel",
+      "definition": "Reflections on scripture and prayer, on Jesus and the Gospel and on the Bukas Loob sa Diyos community, drawn mainly from the faith-themed books.",
+      "tier": "core",
+      "theme_anchor": "C",
+      "default_register": "testimonial",
+      "wit_calibration": "gentle, self-deprecating",
+      "doc_count": 49,
+      "doc_ids": [
+        "BA030",
+        "BA078",
+        "BA079",
+        "BB001",
+        "BB012",
+        "BC001",
+        "BC002",
+        "BC004",
+        "BC006",
+        "BC013",
+        "BC015",
+        "BC016",
+        "BC017",
+        "BC023",
+        "BC024",
+        "BC026",
+        "BC027",
+        "BC029",
+        "BC030",
+        "BC032",
+        "BC034",
+        "BC035",
+        "BD027",
+        "BD034",
+        "CA522",
+        "CA534",
+        "CC016",
+        "CC028",
+        "CC034",
+        "CC035",
+        "CC066",
+        "CC097",
+        "CC108",
+        "CC117",
+        "CE097",
+        "GC014",
+        "GC030",
+        "GC032",
+        "SA149",
+        "SC037",
+        "SC057",
+        "SC061",
+        "SC081",
+        "SC104",
+        "SC130",
+        "SC151",
+        "SC153",
+        "SD143",
+        "SD150"
+      ],
+      "date_range": [
+        "1987-01-01",
+        "2026-06-22"
+      ],
+      "year_range": [
+        1987,
+        2026
+      ],
+      "type_distribution": {
+        "column": 11,
+        "speech": 11,
+        "biography": 3,
+        "book": 24
+      },
+      "theme_distribution": {
+        "A": 6,
+        "C": 36,
+        "E": 1,
+        "D": 4,
+        "B": 2
+      },
+      "top_signature_phrases": [
+        {
+          "phrase": "This is my Son, my Chosen One. Listen to Him",
+          "count": 5,
+          "doc_ids": [
+            "BC013",
+            "GC030",
+            "SC081",
+            "SC130",
+            "SC151"
+          ]
+        },
+        {
+          "phrase": "Ask and you shall receive, seek and you shall find, knock and the door shall be opened to you",
+          "count": 4,
+          "doc_ids": [
+            "BC013",
+            "GC030",
+            "SC081",
+            "SC130"
+          ]
+        },
+        {
+          "phrase": "The Philippines is theist, not atheist, not even agnostic",
+          "count": 2,
+          "doc_ids": [
+            "BA078",
+            "CC016"
+          ]
+        },
+        {
+          "phrase": "The Son of Man has not come to be served but to serve",
+          "count": 2,
+          "doc_ids": [
+            "BC016",
+            "CC034"
+          ]
+        },
+        {
+          "phrase": "we hope to spread the gospel of Liberty and Prosperity beyond our shores and unto the world",
+          "count": 2,
+          "doc_ids": [
+            "SA149",
+            "SD150"
+          ]
+        },
+        {
+          "phrase": "I will work as if everything depended on me, and I will pray as if everything depended on God",
+          "count": 2,
+          "doc_ids": [
+            "BC013",
+            "GC030"
+          ]
+        },
+        {
+          "phrase": "canard of a leak",
+          "count": 1,
+          "doc_ids": [
+            "CA522"
+          ]
+        },
+        {
+          "phrase": "love WikiLeaks",
+          "count": 1,
+          "doc_ids": [
+            "CA522"
+          ]
+        }
+      ],
+      "top_people": [
+        "Artemio V. Panganiban",
+        "Jesus Christ",
+        "President Fidel V. Ramos",
+        "St. Paul",
+        "Pope Francis",
+        "Albert Nolan"
+      ],
+      "top_institutions": [
+        "Supreme Court of the Philippines",
+        "Bukas Loob sa Diyos",
+        "Judicial and Bar Council",
+        "Roman Catholic Church",
+        "Rotary Club of Manila",
+        "University of Santo Tomas"
+      ],
+      "top_cases": [
+        "Ang Bagong Bayani-OFW Labor Party v. Commission on Elections",
+        "Estrada v. Desierto and Estrada v. Arroyo -- decided 13-0 on March 2, 2001, upholding the legitimacy of the Arroyo ascension",
+        "The Motion for Reconsideration in those cases -- denied with finality 13-0 on April 3, 2001",
+        "The Supreme Court Resolution of January 22, 2001 confirming the Chief Justice's authority to swear in GMA"
+      ],
+      "matchers": {
+        "keywords": [
+          "gospel",
+          "apostles"
+        ],
+        "entities": [
+          "luke"
+        ]
+      }
+    },
+    "how_the_supreme_court_decides": {
+      "id": "how_the_supreme_court_decides",
+      "display_name": "How the Supreme Court Decides",
+      "definition": "How the Court reasons and writes its decisions, and why the judiciary's independence from the other branches matters.",
+      "tier": "subordinate",
+      "theme_anchor": "A",
+      "default_register": "ceremonial_doctrinal",
+      "wit_calibration": "sparing, diplomatic",
+      "doc_count": 21,
+      "doc_ids": [
+        "BA033",
+        "BA084",
+        "BA086",
+        "BC011",
+        "BD020",
+        "BD034",
+        "CA085",
+        "CA111",
+        "CA112",
+        "CA143",
+        "CA152",
+        "CA157",
+        "CA196",
+        "CA208",
+        "CA211",
+        "CA212",
+        "CA398",
+        "CA411",
+        "CC005",
+        "CC047",
+        "SA120"
+      ],
+      "date_range": [
+        "1997-01-12",
+        "2024-01-08"
+      ],
+      "year_range": [
+        1997,
+        2024
+      ],
+      "type_distribution": {
+        "column": 14,
+        "speech": 1,
+        "book": 6
+      },
+      "theme_distribution": {
+        "A": 16,
+        "C": 3,
+        "D": 2
+      },
+      "top_signature_phrases": [
+        {
+          "phrase": "separate is not equal",
+          "count": 2,
+          "doc_ids": [
+            "CA111",
+            "CA112"
+          ]
+        },
+        {
+          "phrase": "read him his rights",
+          "count": 2,
+          "doc_ids": [
+            "CA111",
+            "CA112"
+          ]
+        },
+        {
+          "phrase": "one-man-one-vote",
+          "count": 2,
+          "doc_ids": [
+            "CA111",
+            "CA112"
+          ]
+        },
+        {
+          "phrase": "fruit of the poisonous tree",
+          "count": 2,
+          "doc_ids": [
+            "CA111",
+            "CA112"
+          ]
+        },
+        {
+          "phrase": "facial challenge",
+          "count": 1,
+          "doc_ids": [
+            "CA085"
+          ]
+        },
+        {
+          "phrase": "the most intensely deliberated case in the Gesmundo Court",
+          "count": 1,
+          "doc_ids": [
+            "CA085"
+          ]
+        },
+        {
+          "phrase": "as applied",
+          "count": 1,
+          "doc_ids": [
+            "CA085"
+          ]
+        },
+        {
+          "phrase": "GIVEN THE NEED TO SUPPRESS TERRORISM as a sui generis crime",
+          "count": 1,
+          "doc_ids": [
+            "CA085"
+          ]
+        }
+      ],
+      "top_people": [
+        "Artemio V. Panganiban",
+        "Justice Rosmari D. Carandang",
+        "CJ Alexander G. Gesmundo",
+        "Justice Alfredo Benjamin S. Caguioa",
+        "Justice Amy C. Lazaro-Javier",
+        "Justice Henri Jean Paul B. Inting"
+      ],
+      "top_institutions": [
+        "Supreme Court of the Philippines",
+        "Anti-Terrorism Council",
+        "Court of Appeals",
+        "Philippine Judicial Academy",
+        "US Supreme Court",
+        "Anti-Money Laundering Council"
+      ],
+      "top_cases": [
+        "Calleja v. Executive Secretary",
+        "Francisco v. House of Representatives",
+        "Republic v. Sereno",
+        "Belgica v. Ochoa"
+      ],
+      "matchers": {
+        "keywords": [
+          "ata",
+          "judicial activism",
+          "decision-writing style"
+        ],
+        "entities": []
+      }
+    },
+    "libel_and_cybercrime": {
+      "id": "libel_and_cybercrime",
+      "display_name": "Libel and Cybercrime",
+      "definition": "Criminal libel and cybercrime cases: the Maria Ressa cyberlibel prosecution, libel of public figures online, and the Cybercrime Prevention Act.",
+      "tier": "subordinate",
+      "theme_anchor": "A",
+      "default_register": "ceremonial_doctrinal",
+      "wit_calibration": "sparing, diplomatic",
+      "doc_count": 28,
+      "doc_ids": [
+        "BA013",
+        "BA032",
+        "BD037",
+        "CA027",
+        "CA034",
+        "CA067",
+        "CA083",
+        "CA131",
+        "CA165",
+        "CA167",
+        "CA211",
+        "CA213",
+        "CA214",
+        "CA251",
+        "CA262",
+        "CA422",
+        "CA423",
+        "CA476",
+        "CA477",
+        "CA527",
+        "CC017",
+        "CC054",
+        "CC072",
+        "CC104",
+        "CE013",
+        "CE029",
+        "CE052",
+        "SC025"
+      ],
+      "date_range": [
+        "2000-11-01",
+        "2026-05-04"
+      ],
+      "year_range": [
+        2000,
+        2026
+      ],
+      "type_distribution": {
+        "column": 24,
+        "speech": 1,
+        "book": 3
+      },
+      "theme_distribution": {
+        "A": 19,
+        "C": 5,
+        "E": 3,
+        "D": 1
+      },
+      "top_signature_phrases": [
+        {
+          "phrase": "in my humble view (implied)",
+          "count": 3,
+          "doc_ids": [
+            "CA422",
+            "CA423",
+            "CC104"
+          ]
+        },
+        {
+          "phrase": "actual malice",
+          "count": 2,
+          "doc_ids": [
+            "BA013",
+            "CA422"
+          ]
+        },
+        {
+          "phrase": "For years, the prescriptive period for cyberlibel has befuddled magistrates, legislators, lawyers, journalists, and the public",
+          "count": 1,
+          "doc_ids": [
+            "CA027"
+          ]
+        },
+        {
+          "phrase": "FIVE YEARS THEREAFTER, THE COURT CHANGED ITS MIND",
+          "count": 1,
+          "doc_ids": [
+            "CA027"
+          ]
+        },
+        {
+          "phrase": "one and the same crime",
+          "count": 1,
+          "doc_ids": [
+            "CA027"
+          ]
+        },
+        {
+          "phrase": "Ironically, though the accused won the battle to fix the prescriptive period to one year, he lost the war because the date of the discovery of the allegedly libelous article was not established",
+          "count": 1,
+          "doc_ids": [
+            "CA027"
+          ]
+        },
+        {
+          "phrase": "only the Court en banc may modify or reverse a doctrine or principle of law",
+          "count": 1,
+          "doc_ids": [
+            "CA027"
+          ]
+        },
+        {
+          "phrase": "the date of the discovery of the alleged defamatory [online] remarks",
+          "count": 1,
+          "doc_ids": [
+            "CA027"
+          ]
+        }
+      ],
+      "top_people": [
+        "Artemio V. Panganiban",
+        "Maria Ressa",
+        "Reynaldo Santos Jr.",
+        "Wilfredo Keng",
+        "Judge Rainelda H. Estacio-Montesa",
+        "Justice Antonio T. Carpio"
+      ],
+      "top_institutions": [
+        "Supreme Court of the Philippines",
+        "Philippine Daily Inquirer",
+        "Court of Appeals",
+        "Rappler",
+        "Department of Justice",
+        "Senate of the Philippines"
+      ],
+      "top_cases": [
+        "Tolentino v. People",
+        "Causing v. People",
+        "David v. Arroyo",
+        "Maria Ressa cyberlibel conviction"
+      ],
+      "matchers": {
+        "keywords": [
+          "libel",
+          "cyberlibel",
+          "cybercrime"
+        ],
+        "entities": [
+          "maria ressa"
+        ]
+      }
+    },
+    "judiciary_milestones_and_tributes": {
+      "id": "judiciary_milestones_and_tributes",
+      "display_name": "The Judiciary's Milestones and Tributes",
+      "definition": "Celebrations of the judiciary and of the people in it: the Supreme Court centenary, retirements, book launches, honors and tributes to fellow justices.",
+      "tier": "subordinate",
+      "theme_anchor": "C",
+      "default_register": "testimonial",
+      "wit_calibration": "gentle, self-deprecating",
+      "doc_count": 37,
+      "doc_ids": [
+        "BA012",
+        "BA077",
+        "BA078",
+        "BD010",
+        "BD011",
+        "BD013",
+        "BD014",
+        "BD035",
+        "BD036",
+        "BD043",
+        "BD044",
+        "BD045",
+        "CA011",
+        "CA434",
+        "CA496",
+        "CC009",
+        "CC037",
+        "CC050",
+        "CC062",
+        "CC115",
+        "CE108",
+        "SA041",
+        "SA056",
+        "SA107",
+        "SC007",
+        "SC008",
+        "SC025",
+        "SC057",
+        "SC058",
+        "SC066",
+        "SC069",
+        "SC071",
+        "SC090",
+        "SC097",
+        "SC101",
+        "SC116",
+        "SC118"
+      ],
+      "date_range": [
+        "2000-11-01",
+        "2023-10-30"
+      ],
+      "year_range": [
+        2000,
+        2023
+      ],
+      "type_distribution": {
+        "column": 9,
+        "speech": 16,
+        "book": 12
+      },
+      "theme_distribution": {
+        "A": 9,
+        "C": 18,
+        "E": 1,
+        "D": 9
+      },
+      "top_signature_phrases": [
+        {
+          "phrase": "Cheers!",
+          "count": 3,
+          "doc_ids": [
+            "CA011",
+            "CC009",
+            "CC050"
+          ]
+        },
+        {
+          "phrase": "I owe Marixi my opinion-writing career",
+          "count": 3,
+          "doc_ids": [
+            "CC009",
+            "SC025",
+            "SC058"
+          ]
+        },
+        {
+          "phrase": "delicadeza",
+          "count": 2,
+          "doc_ids": [
+            "CC062",
+            "SA041"
+          ]
+        },
+        {
+          "phrase": "amortal",
+          "count": 2,
+          "doc_ids": [
+            "CC115",
+            "SC097"
+          ]
+        },
+        {
+          "phrase": "chosen by roaring acclamation, not by quiet balloting",
+          "count": 2,
+          "doc_ids": [
+            "SA056",
+            "SC071"
+          ]
+        },
+        {
+          "phrase": "Ageless Passion",
+          "count": 2,
+          "doc_ids": [
+            "SC007",
+            "SC008"
+          ]
+        },
+        {
+          "phrase": "Renaissance Jurist of the 21st Century",
+          "count": 2,
+          "doc_ids": [
+            "SC007",
+            "SC008"
+          ]
+        },
+        {
+          "phrase": "from his humble beginnings as a young newsboy in the streets of post-war Manila",
+          "count": 2,
+          "doc_ids": [
+            "SC007",
+            "SC008"
+          ]
+        }
+      ],
+      "top_people": [
+        "Artemio V. Panganiban",
+        "Jeffrey Toobin",
+        "Sandy Prieto-Romualdez",
+        "CJ Hilario G. Davide Jr.",
+        "Marixi R. Prieto",
+        "CJ Reynato S. Puno"
+      ],
+      "top_institutions": [
+        "Supreme Court of the Philippines",
+        "Philippine Daily Inquirer",
+        "Centenary Executive Committee",
+        "Far Eastern University",
+        "Sandiganbayan",
+        "Judicial and Bar Council"
+      ],
+      "top_cases": [
+        "Republic of the Philippines v. People's Republic of China -- UNCLOS Annex VII arbitral award",
+        "Court decision authorizing Arroyo's midnight CJ appointment",
+        "Republic v. Sereno",
+        "Lambino vs Comelec"
+      ],
+      "matchers": {
+        "keywords": [
+          "toast",
+          "toobin"
+        ],
+        "entities": [
+          "centenary executive committee"
+        ]
+      }
+    },
+    "economy_taxes_and_prosperity": {
+      "id": "economy_taxes_and_prosperity",
+      "display_name": "The Economy, Taxes and Wages",
+      "definition": "Economic policy seen through a lawyer's eyes: growth, jobs, taxes and wages, and what makes nations prosper.",
+      "tier": "subordinate",
+      "theme_anchor": "B",
+      "default_register": "case_analytical_with_openers",
+      "wit_calibration": "professional warmth",
+      "doc_count": 17,
+      "doc_ids": [
+        "BB012",
+        "CA312",
+        "CA419",
+        "CA448",
+        "CA457",
+        "CB017",
+        "CB019",
+        "CC090",
+        "CE036",
+        "CE072",
+        "CE074",
+        "CE077",
+        "CE091",
+        "CE095",
+        "CE104",
+        "SA078",
+        "SB073"
+      ],
+      "date_range": [
+        "1994-03-15",
+        "2023-05-22"
+      ],
+      "year_range": [
+        1994,
+        2023
+      ],
+      "type_distribution": {
+        "column": 14,
+        "speech": 2,
+        "book": 1
+      },
+      "theme_distribution": {
+        "A": 5,
+        "B": 4,
+        "C": 1,
+        "E": 7
+      },
+      "top_signature_phrases": [
+        {
+          "phrase": "in my humble view (implied)",
+          "count": 4,
+          "doc_ids": [
+            "CA419",
+            "CA457",
+            "CB019",
+            "CE095"
+          ]
+        },
+        {
+          "phrase": "trickles",
+          "count": 2,
+          "doc_ids": [
+            "CA457",
+            "CB019"
+          ]
+        },
+        {
+          "phrase": "poured massively",
+          "count": 2,
+          "doc_ids": [
+            "CA457",
+            "CB019"
+          ]
+        },
+        {
+          "phrase": "contractualization",
+          "count": 1,
+          "doc_ids": [
+            "CA312"
+          ]
+        },
+        {
+          "phrase": "principal",
+          "count": 1,
+          "doc_ids": [
+            "CA312"
+          ]
+        },
+        {
+          "phrase": "sufficient capital",
+          "count": 1,
+          "doc_ids": [
+            "CA312"
+          ]
+        },
+        {
+          "phrase": "solidarily liable",
+          "count": 1,
+          "doc_ids": [
+            "CA312"
+          ]
+        },
+        {
+          "phrase": "labor-only contracting, a prohibited act",
+          "count": 1,
+          "doc_ids": [
+            "CA312"
+          ]
+        }
+      ],
+      "top_people": [
+        "Artemio V. Panganiban",
+        "Dean Andres D. Bautista",
+        "Jim Yong Kim",
+        "President Benigno S. Aquino III",
+        "Finance Secretary Cesar Purisima",
+        "Avelino V. Cruz"
+      ],
+      "top_institutions": [
+        "Supreme Court of the Philippines",
+        "Foundation for Liberty and Prosperity",
+        "World Bank",
+        "World Trade Organization",
+        "Congress of the Philippines",
+        "Bureau of Internal Revenue"
+      ],
+      "top_cases": [
+        "Sasan vs NLRC",
+        "Republic v. Piatco CA decision Aug 7 2013",
+        "San Roque Power v. CIR",
+        "San Roque Power VAT refund case"
+      ],
+      "matchers": {
+        "keywords": [
+          "minimum wage",
+          "inclusive growth"
+        ],
+        "entities": [
+          "asean integration"
+        ]
+      }
+    },
+    "death_penalty_and_echegaray": {
+      "id": "death_penalty_and_echegaray",
+      "display_name": "The Death Penalty and the Echegaray Reflection",
+      "definition": "The Chief Justice's writing on capital punishment: the Echegaray case, the 2006 abolition of the death penalty and the conscience-versus-institution distinction.",
+      "tier": "subordinate",
+      "theme_anchor": "A",
+      "default_register": "ceremonial_doctrinal",
+      "wit_calibration": "sparing, diplomatic",
+      "doc_count": 30,
+      "doc_ids": [
+        "BA032",
+        "BA034",
+        "BA037",
+        "BA049",
+        "BA054",
+        "BA059",
+        "BA070",
+        "BA080",
+        "BA083",
+        "BA088",
+        "BA092",
+        "BB031",
+        "BC029",
+        "BD003",
+        "BD020",
+        "BD022",
+        "BD029",
+        "CA074",
+        "CA211",
+        "CA309",
+        "CA336",
+        "CA371",
+        "CA416",
+        "CC016",
+        "CC022",
+        "CE003",
+        "CE089",
+        "GC017",
+        "GC031",
+        "SC061"
+      ],
+      "date_range": [
+        "1992-11-27",
+        "2026-03-30"
+      ],
+      "year_range": [
+        1992,
+        2026
+      ],
+      "type_distribution": {
+        "column": 10,
+        "speech": 1,
+        "biography": 2,
+        "book": 17
+      },
+      "theme_distribution": {
+        "A": 17,
+        "C": 6,
+        "E": 2,
+        "B": 1,
+        "D": 4
+      },
+      "top_signature_phrases": [
+        {
+          "phrase": "Errors in its imposition become nightmarishly irreversible once the appellant is executed",
+          "count": 3,
+          "doc_ids": [
+            "BA032",
+            "BA059",
+            "BA070"
+          ]
+        },
+        {
+          "phrase": "The Philippines is theist, not atheist, not even agnostic",
+          "count": 2,
+          "doc_ids": [
+            "CC016",
+            "GC031"
+          ]
+        },
+        {
+          "phrase": "60 hours of pro bono (or free) legal aid services to the poor every three years",
+          "count": 1,
+          "doc_ids": [
+            "CA074"
+          ]
+        },
+        {
+          "phrase": "Unified Legal Aid Services (ULAS) program",
+          "count": 1,
+          "doc_ids": [
+            "CA074"
+          ]
+        },
+        {
+          "phrase": "qualified beneficiaries",
+          "count": 1,
+          "doc_ids": [
+            "CA074"
+          ]
+        },
+        {
+          "phrase": "abogados de campanilla",
+          "count": 1,
+          "doc_ids": [
+            "CA074"
+          ]
+        },
+        {
+          "phrase": "earth-shaking",
+          "count": 1,
+          "doc_ids": [
+            "CA074"
+          ]
+        },
+        {
+          "phrase": "membership in the Bar is a special privilege burdened with conditions",
+          "count": 1,
+          "doc_ids": [
+            "CA074"
+          ]
+        }
+      ],
+      "top_people": [
+        "Artemio V. Panganiban",
+        "Leo Echegaray",
+        "President Rodrigo Duterte",
+        "Pope John Paul II",
+        "Pope Francis",
+        "President Fidel V. Ramos"
+      ],
+      "top_institutions": [
+        "Supreme Court of the Philippines",
+        "Congress of the Philippines",
+        "Free Legal Assistance Group",
+        "Philippine Congress",
+        "Office of the President",
+        "Court of Appeals"
+      ],
+      "top_cases": [
+        "People v. Echegaray",
+        "People v. Genosa",
+        "Tanada v. Angara",
+        "Manila Prince Hotel v. GSIS"
+      ],
+      "matchers": {
+        "keywords": [
+          "echegaray"
+        ],
+        "entities": [
+          "death penalty"
+        ]
+      }
+    },
+    "independent_commissions_and_appointments": {
+      "id": "independent_commissions_and_appointments",
+      "display_name": "Independent Commissions and Appointments",
+      "definition": "The constitutional commissions and the Ombudsman: how their officials are appointed, how long they serve and how independent they really are.",
+      "tier": "subordinate",
+      "theme_anchor": "A",
+      "default_register": "ceremonial_doctrinal",
+      "wit_calibration": "sparing, diplomatic",
+      "doc_count": 15,
+      "doc_ids": [
+        "CA140",
+        "CA146",
+        "CA150",
+        "CA158",
+        "CA159",
+        "CA361",
+        "CA384",
+        "CE021",
+        "CE022",
+        "CE023",
+        "CE024",
+        "CE025",
+        "CE027",
+        "SA098",
+        "SA114"
+      ],
+      "date_range": [
+        "2008-12-08",
+        "2025-10-20"
+      ],
+      "year_range": [
+        2008,
+        2025
+      ],
+      "type_distribution": {
+        "column": 13,
+        "speech": 2
+      },
+      "theme_distribution": {
+        "A": 9,
+        "E": 6
+      },
+      "top_signature_phrases": [
+        {
+          "phrase": "ad interim appointments",
+          "count": 2,
+          "doc_ids": [
+            "CA146",
+            "CA159"
+          ]
+        },
+        {
+          "phrase": "in my humble opinion",
+          "count": 2,
+          "doc_ids": [
+            "CA146",
+            "CA361"
+          ]
+        },
+        {
+          "phrase": "A professor and habitual reader asked me three questions",
+          "count": 1,
+          "doc_ids": [
+            "CA140"
+          ]
+        },
+        {
+          "phrase": "Compañero George Garcia",
+          "count": 1,
+          "doc_ids": [
+            "CA140"
+          ]
+        },
+        {
+          "phrase": "LET US BEGIN THE ANSWERS WITH THE CONSTITUTION",
+          "count": 1,
+          "doc_ids": [
+            "CA140"
+          ]
+        },
+        {
+          "phrase": "Their appointments were neither temporary nor acting in nature",
+          "count": 1,
+          "doc_ids": [
+            "CA140"
+          ]
+        },
+        {
+          "phrase": "an ad interim appointment is permanent in nature",
+          "count": 1,
+          "doc_ids": [
+            "CA140"
+          ]
+        },
+        {
+          "phrase": "they cannot be removed from their offices except for cause and after due process",
+          "count": 1,
+          "doc_ids": [
+            "CA140"
+          ]
+        }
+      ],
+      "top_people": [
+        "Artemio V. Panganiban",
+        "President Ferdinand R. Marcos Jr.",
+        "Saidamen Pangarungan",
+        "Aimee Torrefranca-Neri",
+        "Ferdinand 'Bongbong' Marcos Jr.",
+        "President Rodrigo Duterte"
+      ],
+      "top_institutions": [
+        "Supreme Court of the Philippines",
+        "Office of the Ombudsman",
+        "Department of Justice",
+        "Commission on Elections",
+        "Commission on Appointments",
+        "Commission on Audit"
+      ],
+      "top_cases": [
+        "Brilliantes v. Yorac",
+        "Funa v. COA",
+        "Funa v. Comelec",
+        "Secretary of Justice v. Lantion"
+      ],
+      "matchers": {
+        "keywords": [
+          "ad interim",
+          "independent commission"
+        ],
+        "entities": [
+          "ombudsman law"
+        ]
+      }
+    },
+    "bangsamoro_peace_process": {
+      "id": "bangsamoro_peace_process",
+      "display_name": "The Bangsamoro Peace Process",
+      "definition": "The peace agreements with the MILF, the Bangsamoro Basic Law and the question of whether they fit the Constitution.",
+      "tier": "subordinate",
+      "theme_anchor": "A",
+      "default_register": "ceremonial_doctrinal",
+      "wit_calibration": "sparing, diplomatic",
+      "doc_count": 28,
+      "doc_ids": [
+        "BA014",
+        "BD027",
+        "BE030",
+        "CA092",
+        "CA133",
+        "CA284",
+        "CA336",
+        "CA342",
+        "CA345",
+        "CA382",
+        "CA385",
+        "CA386",
+        "CA389",
+        "CA390",
+        "CA411",
+        "CA430",
+        "CA437",
+        "CA480",
+        "CC016",
+        "CC095",
+        "CC107",
+        "CD027",
+        "CE072",
+        "CE073",
+        "CE080",
+        "CE095",
+        "CE113",
+        "SB075"
+      ],
+      "date_range": [
+        "1992-10-17",
+        "2023-10-23"
+      ],
+      "year_range": [
+        1992,
+        2023
+      ],
+      "type_distribution": {
+        "column": 24,
+        "speech": 1,
+        "book": 3
+      },
+      "theme_distribution": {
+        "A": 16,
+        "C": 3,
+        "D": 2,
+        "E": 6,
+        "B": 1
+      },
+      "top_signature_phrases": [
+        {
+          "phrase": "in my humble view (implied)",
+          "count": 3,
+          "doc_ids": [
+            "CA382",
+            "CA389",
+            "CE095"
+          ]
+        },
+        {
+          "phrase": "in my humble view",
+          "count": 2,
+          "doc_ids": [
+            "CC095",
+            "CD027"
+          ]
+        },
+        {
+          "phrase": "from each according to his ability, to each according to his needs",
+          "count": 2,
+          "doc_ids": [
+            "CE072",
+            "CE073"
+          ]
+        },
+        {
+          "phrase": "longest-running communist insurgency in the world",
+          "count": 2,
+          "doc_ids": [
+            "CE072",
+            "CE073"
+          ]
+        },
+        {
+          "phrase": "Your Honors, Ladies and Gentlemen",
+          "count": 1,
+          "doc_ids": [
+            "CA092"
+          ]
+        },
+        {
+          "phrase": "an ancient relic who has overstayed",
+          "count": 1,
+          "doc_ids": [
+            "CA092"
+          ]
+        },
+        {
+          "phrase": "consensus has always dominated our discussions and decisions",
+          "count": 1,
+          "doc_ids": [
+            "CA092"
+          ]
+        },
+        {
+          "phrase": "consensus as our North star",
+          "count": 1,
+          "doc_ids": [
+            "CA092"
+          ]
+        }
+      ],
+      "top_people": [
+        "Artemio V. Panganiban",
+        "President Rodrigo Duterte",
+        "Mohagher Iqbal",
+        "Chief Justice Maria Lourdes P.A. Sereno",
+        "Former President Gloria Macapagal-Arroyo",
+        "Moro Islamic Liberation Front"
+      ],
+      "top_institutions": [
+        "Supreme Court of the Philippines",
+        "Moro Islamic Liberation Front",
+        "Foundation for Liberty and Prosperity",
+        "Congress of the Philippines",
+        "Commission on Elections",
+        "Autonomous Region in Muslim Mindanao"
+      ],
+      "top_cases": [
+        "North Cotabato v. Government",
+        "Lambino v Comelec",
+        "LAMP v. Sec. of Budget",
+        "Belgica v. Exec. Sec."
+      ],
+      "matchers": {
+        "keywords": [
+          "peace process",
+          "armed conflict"
+        ],
+        "entities": [
+          "moa-ad"
+        ]
+      }
+    },
+    "marcos_robredo_election_contest": {
+      "id": "marcos_robredo_election_contest",
+      "display_name": "The Marcos-Robredo Election Contest",
+      "definition": "The vice-presidential protest of 2016 and the 2022 campaign that followed: canvassing, protests and what the results meant.",
+      "tier": "subordinate",
+      "theme_anchor": "A",
+      "default_register": "ceremonial_doctrinal",
+      "wit_calibration": "sparing, diplomatic",
+      "doc_count": 38,
+      "doc_ids": [
+        "BA019",
+        "BA029",
+        "BC026",
+        "BC029",
+        "CA051",
+        "CA146",
+        "CA169",
+        "CA170",
+        "CA172",
+        "CA183",
+        "CA196",
+        "CA197",
+        "CA233",
+        "CA264",
+        "CA273",
+        "CA275",
+        "CA301",
+        "CA324",
+        "CA326",
+        "CA329",
+        "CA343",
+        "CC041",
+        "CC047",
+        "CC061",
+        "CC067",
+        "CC086",
+        "CC088",
+        "CE043",
+        "CE045",
+        "CE048",
+        "CE049",
+        "CE050",
+        "CE080",
+        "CE089",
+        "CE096",
+        "GC029",
+        "GC030",
+        "SA049"
+      ],
+      "date_range": [
+        "1987-01-01",
+        "2025-03-31"
+      ],
+      "year_range": [
+        1987,
+        2025
+      ],
+      "type_distribution": {
+        "column": 31,
+        "speech": 1,
+        "biography": 2,
+        "book": 4
+      },
+      "theme_distribution": {
+        "A": 20,
+        "C": 10,
+        "E": 8
+      },
+      "top_signature_phrases": [
+        {
+          "phrase": "Run, Sara, Run",
+          "count": 2,
+          "doc_ids": [
+            "CA051",
+            "CE050"
+          ]
+        },
+        {
+          "phrase": "in my humble opinion",
+          "count": 2,
+          "doc_ids": [
+            "CA146",
+            "CA343"
+          ]
+        },
+        {
+          "phrase": "the law does not recognize 'factions,' it recognizes only political parties",
+          "count": 2,
+          "doc_ids": [
+            "CA169",
+            "CA172"
+          ]
+        },
+        {
+          "phrase": "snail-paced processes of a bygone era",
+          "count": 2,
+          "doc_ids": [
+            "CA273",
+            "CA275"
+          ]
+        },
+        {
+          "phrase": "guns, goons, and gold",
+          "count": 2,
+          "doc_ids": [
+            "BA019",
+            "CE043"
+          ]
+        },
+        {
+          "phrase": "this hierarchy is a hierarchy of service and not of excellence",
+          "count": 2,
+          "doc_ids": [
+            "BC029",
+            "GC029"
+          ]
+        },
+        {
+          "phrase": "Sara, the game changer",
+          "count": 1,
+          "doc_ids": [
+            "CA051"
+          ]
+        },
+        {
+          "phrase": "feisty Inday",
+          "count": 1,
+          "doc_ids": [
+            "CA051"
+          ]
+        }
+      ],
+      "top_people": [
+        "Artemio V. Panganiban",
+        "Vice President Leni Robredo",
+        "VP Leni Robredo",
+        "President Rodrigo Duterte",
+        "Ferdinand 'Bongbong' Marcos Jr.",
+        "Sen. Manny Pacquiao"
+      ],
+      "top_institutions": [
+        "Commission on Elections",
+        "Supreme Court of the Philippines",
+        "Liberal Party",
+        "Senate of the Philippines",
+        "Presidential Electoral Tribunal",
+        "Pulse Asia"
+      ],
+      "top_cases": [
+        "Marcos v. Robredo",
+        "Quinto v. Comelec, Feb. 22, 2010",
+        "Tinga v. Cayetano",
+        "Brilliantes v. Yorac"
+      ],
+      "matchers": {
+        "keywords": [
+          "ppcrv's",
+          "robredo"
+        ],
+        "entities": []
+      }
+    },
+    "supreme_court_vacancies_and_chief_justiceship": {
+      "id": "supreme_court_vacancies_and_chief_justiceship",
+      "display_name": "Supreme Court Vacancies and the Chief Justiceship",
+      "definition": "Who sits on the Court and who leads it: retirements, appointments by President Duterte and the succession to the chief justiceship.",
+      "tier": "subordinate",
+      "theme_anchor": "A",
+      "default_register": "ceremonial_doctrinal",
+      "wit_calibration": "sparing, diplomatic",
+      "doc_count": 28,
+      "doc_ids": [
+        "BA005",
+        "BB023",
+        "BC043",
+        "BE011",
+        "CA048",
+        "CA151",
+        "CA159",
+        "CA185",
+        "CA186",
+        "CA187",
+        "CA216",
+        "CA236",
+        "CA250",
+        "CA256",
+        "CA263",
+        "CA266",
+        "CA267",
+        "CA300",
+        "CA327",
+        "CA483",
+        "CA496",
+        "CC020",
+        "CC060",
+        "CC062",
+        "CC064",
+        "CE070",
+        "CE093",
+        "SA020"
+      ],
+      "date_range": [
+        "2000-11-01",
+        "2026-02-09"
+      ],
+      "year_range": [
+        2000,
+        2026
+      ],
+      "type_distribution": {
+        "column": 23,
+        "speech": 1,
+        "book": 4
+      },
+      "theme_distribution": {
+        "A": 19,
+        "C": 5,
+        "E": 3,
+        "B": 1
+      },
+      "top_signature_phrases": [
+        {
+          "phrase": "proven competence, integrity, probity and independence",
+          "count": 2,
+          "doc_ids": [
+            "CA236",
+            "CA327"
+          ]
+        },
+        {
+          "phrase": "little chiefs",
+          "count": 2,
+          "doc_ids": [
+            "CA267",
+            "CC060"
+          ]
+        },
+        {
+          "phrase": "midnight appointments",
+          "count": 2,
+          "doc_ids": [
+            "CA300",
+            "CE093"
+          ]
+        },
+        {
+          "phrase": "Mr. Midnight Chief Justice",
+          "count": 2,
+          "doc_ids": [
+            "CC060",
+            "CC062"
+          ]
+        },
+        {
+          "phrase": "Mr. One-Day Chief Justice",
+          "count": 2,
+          "doc_ids": [
+            "CC060",
+            "CC062"
+          ]
+        },
+        {
+          "phrase": "Double jeopardy waived if accused appeals",
+          "count": 1,
+          "doc_ids": [
+            "CA048"
+          ]
+        },
+        {
+          "phrase": "no person shall be twice put in jeopardy of punishment for the same offense",
+          "count": 1,
+          "doc_ids": [
+            "CA048"
+          ]
+        },
+        {
+          "phrase": "reopen the case de novo",
+          "count": 1,
+          "doc_ids": [
+            "CA048"
+          ]
+        }
+      ],
+      "top_people": [
+        "Artemio V. Panganiban",
+        "President Rodrigo Duterte",
+        "Justice Antonio T. Carpio",
+        "President Gloria Macapagal-Arroyo",
+        "CJ Maria Lourdes P. A. Sereno",
+        "CJ Teresita J. Leonardo-De Castro"
+      ],
+      "top_institutions": [
+        "Supreme Court of the Philippines",
+        "Judicial and Bar Council",
+        "Court of Appeals",
+        "Sandiganbayan",
+        "Commission on Elections",
+        "Senate of the Philippines"
+      ],
+      "top_cases": [
+        "Republic v. Sereno",
+        "Ocampo v. Enriquez",
+        "Lambino v. Comelec",
+        "Javellana v. Executive Secretary"
+      ],
+      "matchers": {
+        "keywords": [
+          "jbc nominees",
+          "senior justices",
+          "duterte appointees",
+          "cj teresita j. leonardo-de castro"
+        ],
+        "entities": [
+          "cj renato corona"
+        ]
+      }
+    },
+    "asean_law_association": {
+      "id": "asean_law_association",
+      "display_name": "The ASEAN Law Association",
+      "definition": "The regional association of lawyers and judges the Chief Justice helped lead, and the rule of law in Southeast Asia.",
+      "tier": "subordinate",
+      "theme_anchor": "A",
+      "default_register": "ceremonial_doctrinal",
+      "wit_calibration": "sparing, diplomatic",
+      "doc_count": 11,
+      "doc_ids": [
+        "CA082",
+        "CA092",
+        "CC040",
+        "CC078",
+        "CC100",
+        "SA015",
+        "SA019",
+        "SA034",
+        "SA045",
+        "SA055",
+        "SC046"
+      ],
+      "date_range": [
+        "2014-12-14",
+        "2024-02-05"
+      ],
+      "year_range": [
+        2014,
+        2024
+      ],
+      "type_distribution": {
+        "column": 5,
+        "speech": 6
+      },
+      "theme_distribution": {
+        "A": 7,
+        "C": 4
+      },
+      "top_signature_phrases": [
+        {
+          "phrase": "consensus has always dominated our discussions and decisions",
+          "count": 2,
+          "doc_ids": [
+            "CA092",
+            "SA015"
+          ]
+        },
+        {
+          "phrase": "consensus as our North star",
+          "count": 2,
+          "doc_ids": [
+            "CA092",
+            "SA015"
+          ]
+        },
+        {
+          "phrase": "these twin beacons must always go together; one is useless without the other",
+          "count": 2,
+          "doc_ids": [
+            "CA092",
+            "SA034"
+          ]
+        },
+        {
+          "phrase": "the changing of guards",
+          "count": 1,
+          "doc_ids": [
+            "CA082"
+          ]
+        },
+        {
+          "phrase": "Strategic Plan for Judicial Innovations, 2022-2027",
+          "count": 1,
+          "doc_ids": [
+            "CA082"
+          ]
+        },
+        {
+          "phrase": "the first woman to head the Malaysian judiciary",
+          "count": 1,
+          "doc_ids": [
+            "CA082"
+          ]
+        },
+        {
+          "phrase": "the importance of the rule of law",
+          "count": 1,
+          "doc_ids": [
+            "CA082"
+          ]
+        },
+        {
+          "phrase": "the paramount repository of sovereignty",
+          "count": 1,
+          "doc_ids": [
+            "CA082"
+          ]
+        }
+      ],
+      "top_people": [
+        "Artemio V. Panganiban",
+        "CJ Sundaresh Menon",
+        "Ave Cruz",
+        "Alexander G. Gesmundo",
+        "Sundaresh Menon",
+        "Avelino V. Cruz"
+      ],
+      "top_institutions": [
+        "ASEAN Law Association",
+        "ALA Philippines",
+        "Supreme Court of the Philippines",
+        "Asean Law Association",
+        "Association of Southeast Asian Nations",
+        "Foundation for Liberty and Prosperity"
+      ],
+      "top_cases": [
+        "South China Sea Arbitral Award",
+        "People v. Genosa"
+      ],
+      "matchers": {
+        "keywords": [],
+        "entities": [
+          "ala philippines"
+        ]
+      }
+    },
+    "ill_gotten_wealth_and_the_pcgg": {
+      "id": "ill_gotten_wealth_and_the_pcgg",
+      "display_name": "Ill-Gotten Wealth and the PCGG",
+      "definition": "The recovery of wealth amassed under Marcos: sequestration, forfeiture and the Sandiganbayan's rulings.",
+      "tier": "subordinate",
+      "theme_anchor": "A",
+      "default_register": "ceremonial_doctrinal",
+      "wit_calibration": "sparing, diplomatic",
+      "doc_count": 27,
+      "doc_ids": [
+        "BB019",
+        "BB024",
+        "BB042",
+        "BD058",
+        "CA143",
+        "CA158",
+        "CA160",
+        "CA171",
+        "CA200",
+        "CA221",
+        "CA223",
+        "CA229",
+        "CA230",
+        "CA252",
+        "CA258",
+        "CA267",
+        "CA316",
+        "CA320",
+        "CA321",
+        "CA429",
+        "CA431",
+        "CA470",
+        "CA515",
+        "CA516",
+        "CC075",
+        "CE040",
+        "CE100"
+      ],
+      "date_range": [
+        "2000-11-01",
+        "2022-08-01"
+      ],
+      "year_range": [
+        2000,
+        2022
+      ],
+      "type_distribution": {
+        "column": 23,
+        "book": 4
+      },
+      "theme_distribution": {
+        "A": 20,
+        "C": 1,
+        "E": 2,
+        "B": 3,
+        "D": 1
+      },
+      "top_signature_phrases": [
+        {
+          "phrase": "well-entrenched plundering regime of twenty years",
+          "count": 2,
+          "doc_ids": [
+            "CA171",
+            "CA316"
+          ]
+        },
+        {
+          "phrase": "eons of row over some 4,915 hectares of land",
+          "count": 2,
+          "doc_ids": [
+            "CA267",
+            "CC075"
+          ]
+        },
+        {
+          "phrase": "much-ballyhooed tax liability",
+          "count": 1,
+          "doc_ids": [
+            "CA143"
+          ]
+        },
+        {
+          "phrase": "ballooned to over P203 billion",
+          "count": 1,
+          "doc_ids": [
+            "CA143"
+          ]
+        },
+        {
+          "phrase": "answered prudently",
+          "count": 1,
+          "doc_ids": [
+            "CA143"
+          ]
+        },
+        {
+          "phrase": "the 'correct data'",
+          "count": 1,
+          "doc_ids": [
+            "CA143"
+          ]
+        },
+        {
+          "phrase": "P'wede ba maging role model kayo? (Can you be a role model?)",
+          "count": 1,
+          "doc_ids": [
+            "CA143"
+          ]
+        },
+        {
+          "phrase": "facts and fantasies",
+          "count": 1,
+          "doc_ids": [
+            "CA143"
+          ]
+        }
+      ],
+      "top_people": [
+        "Artemio V. Panganiban",
+        "Imelda Marcos",
+        "Imelda R. Marcos",
+        "Joseph Estrada",
+        "Ferdinand E. Marcos",
+        "Ferdinand Marcos"
+      ],
+      "top_institutions": [
+        "Supreme Court of the Philippines",
+        "Presidential Commission on Good Government",
+        "Sandiganbayan",
+        "Commission on Elections",
+        "Office of the Solicitor General",
+        "Department of Justice"
+      ],
+      "top_cases": [
+        "Republic v. Sandiganbayan",
+        "Estate of Marcos v. Republic",
+        "Marcos Jr. v. Republic",
+        "Yuchengco v. Sandiganbayan"
+      ],
+      "matchers": {
+        "keywords": [
+          "luisita",
+          "marcoses",
+          "sequestration",
+          "estate of marcos v. republic"
+        ],
+        "entities": []
+      }
+    },
+    "bar_exam_and_legal_education": {
+      "id": "bar_exam_and_legal_education",
+      "display_name": "The Bar Exam and Legal Education",
+      "definition": "How lawyers are trained and admitted: the bar examinations, legal education and the profession's duties.",
+      "tier": "subordinate",
+      "theme_anchor": "D",
+      "default_register": "ceremonial_with_humor",
+      "wit_calibration": "freely, head-table style",
+      "doc_count": 20,
+      "doc_ids": [
+        "BB003",
+        "BD049",
+        "BD050",
+        "BD068",
+        "CA089",
+        "CA110",
+        "CA190",
+        "CA241",
+        "CA249",
+        "CC007",
+        "CC012",
+        "CC102",
+        "CC103",
+        "CD009",
+        "CD012",
+        "CD023",
+        "CE045",
+        "CE088",
+        "SA131",
+        "SE036"
+      ],
+      "date_range": [
+        "2005-11-01",
+        "2026-01-19"
+      ],
+      "year_range": [
+        2005,
+        2026
+      ],
+      "type_distribution": {
+        "column": 14,
+        "speech": 2,
+        "book": 4
+      },
+      "theme_distribution": {
+        "A": 6,
+        "C": 4,
+        "D": 6,
+        "E": 3,
+        "B": 1
+      },
+      "top_signature_phrases": [
+        {
+          "phrase": "in my humble view (implied)",
+          "count": 3,
+          "doc_ids": [
+            "CC007",
+            "CC102",
+            "CC103"
+          ]
+        },
+        {
+          "phrase": "to tell our various publics the truth, the whole truth, and nothing but the truth",
+          "count": 2,
+          "doc_ids": [
+            "BD049",
+            "BD050"
+          ]
+        },
+        {
+          "phrase": "My column on the sad saga of Dr. Iggy Agbayani (11/13/23) evoked calls to discipline his lawyer",
+          "count": 1,
+          "doc_ids": [
+            "CA089"
+          ]
+        },
+        {
+          "phrase": "necessarily, to glance at the new Code of Professional Responsibility and Accountability (CPRA)",
+          "count": 1,
+          "doc_ids": [
+            "CA089"
+          ]
+        },
+        {
+          "phrase": "approved by the Supreme Court on April 11, 2023",
+          "count": 1,
+          "doc_ids": [
+            "CA089"
+          ]
+        },
+        {
+          "phrase": "Strategic Plan for Judicial Innovation 2022-2027 (SPJI)",
+          "count": 1,
+          "doc_ids": [
+            "CA089"
+          ]
+        },
+        {
+          "phrase": "unveiled a year ago",
+          "count": 1,
+          "doc_ids": [
+            "CA089"
+          ]
+        },
+        {
+          "phrase": "Let us begin this two-part series",
+          "count": 1,
+          "doc_ids": [
+            "CA089"
+          ]
+        }
+      ],
+      "top_people": [
+        "Artemio V. Panganiban",
+        "CJP",
+        "Dean Jovito R. Salonga",
+        "Justin D.J. Sucgang",
+        "Sean James Borja",
+        "Katrina Monica Gaw"
+      ],
+      "top_institutions": [
+        "Supreme Court of the Philippines",
+        "Far Eastern University",
+        "Legal Education Board",
+        "Foundation for Liberty and Prosperity",
+        "University of San Carlos",
+        "University of the Philippines College of Law"
+      ],
+      "top_cases": [
+        "People v. Sapla",
+        "Pending SC petition to nullify the LEB Memorandum Orders and declare RA 7662 unconstitutional",
+        "Petition challenging PhilSAT constitutionality",
+        "SC TRO March 12, 2019 -- barring MO 18-2018"
+      ],
+      "matchers": {
+        "keywords": [
+          "passers"
+        ],
+        "entities": [
+          "legal education board"
+        ]
+      }
+    },
+    "citizenship_and_residency_grace_poe": {
+      "id": "citizenship_and_residency_grace_poe",
+      "display_name": "Citizenship and Residency: the Grace Poe Case",
+      "definition": "Who counts as a natural-born citizen (foundlings, dual citizens and residency), argued through the Grace Poe case.",
+      "tier": "subordinate",
+      "theme_anchor": "A",
+      "default_register": "ceremonial_doctrinal",
+      "wit_calibration": "sparing, diplomatic",
+      "doc_count": 24,
+      "doc_ids": [
+        "BA039",
+        "BE024",
+        "CA026",
+        "CA057",
+        "CA136",
+        "CA332",
+        "CA348",
+        "CA351",
+        "CA352",
+        "CA353",
+        "CA354",
+        "CA359",
+        "CA362",
+        "CA363",
+        "CA369",
+        "CA370",
+        "CA372",
+        "CA378",
+        "CA379",
+        "CA380",
+        "CA381",
+        "CA429",
+        "CA523",
+        "CE042"
+      ],
+      "date_range": [
+        "2001-12-01",
+        "2026-05-11"
+      ],
+      "year_range": [
+        2001,
+        2026
+      ],
+      "type_distribution": {
+        "column": 22,
+        "book": 2
+      },
+      "theme_distribution": {
+        "A": 22,
+        "E": 2
+      },
+      "top_signature_phrases": [
+        {
+          "phrase": "in my humble opinion",
+          "count": 9,
+          "doc_ids": [
+            "CA057",
+            "CA351",
+            "CA352",
+            "CA353",
+            "CA354",
+            "CA362",
+            "CA369",
+            "CA381",
+            "CE042"
+          ]
+        },
+        {
+          "phrase": "in my humble view",
+          "count": 4,
+          "doc_ids": [
+            "CA359",
+            "CA363",
+            "CA378",
+            "CA379"
+          ]
+        },
+        {
+          "phrase": "more law to those who have less in life",
+          "count": 3,
+          "doc_ids": [
+            "CA359",
+            "CA362",
+            "CA363"
+          ]
+        },
+        {
+          "phrase": "with due respect",
+          "count": 2,
+          "doc_ids": [
+            "CA057",
+            "CA354"
+          ]
+        },
+        {
+          "phrase": "settled jurisprudence",
+          "count": 2,
+          "doc_ids": [
+            "CA352",
+            "CA353"
+          ]
+        },
+        {
+          "phrase": "Ergo",
+          "count": 2,
+          "doc_ids": [
+            "CA352",
+            "CA353"
+          ]
+        },
+        {
+          "phrase": "verba legis",
+          "count": 2,
+          "doc_ids": [
+            "CA359",
+            "CA362"
+          ]
+        },
+        {
+          "phrase": "Parenthetically",
+          "count": 2,
+          "doc_ids": [
+            "CA378",
+            "CA381"
+          ]
+        }
+      ],
+      "top_people": [
+        "Sen. Grace Poe",
+        "Artemio V. Panganiban",
+        "Grace Poe",
+        "Fernando Poe Jr.",
+        "Justice Antonio T. Carpio",
+        "President Rodrigo Duterte"
+      ],
+      "top_institutions": [
+        "Supreme Court of the Philippines",
+        "Commission on Elections",
+        "Senate Electoral Tribunal",
+        "United Nations",
+        "Presidential Electoral Tribunal",
+        "House of Representatives Electoral Tribunal"
+      ],
+      "top_cases": [
+        "Frivaldo v. Comelec",
+        "Cordora v. Comelec",
+        "Poe v Comelec",
+        "Tecson vs Comelec"
+      ],
+      "matchers": {
+        "keywords": [
+          "poe's",
+          "naturalized"
+        ],
+        "entities": []
+      }
+    },
+    "marriage_annulment_and_the_family_code": {
+      "id": "marriage_annulment_and_the_family_code",
+      "display_name": "Marriage, Annulment and the Family Code",
+      "definition": "How the law treats marriage: psychological incapacity, nullity, divorce and the Family Code.",
+      "tier": "subordinate",
+      "theme_anchor": "A",
+      "default_register": "ceremonial_doctrinal",
+      "wit_calibration": "sparing, diplomatic",
+      "doc_count": 29,
+      "doc_ids": [
+        "BA015",
+        "BA027",
+        "BA048",
+        "BA058",
+        "BA066",
+        "BA076",
+        "BB013",
+        "BD029",
+        "BD054",
+        "BD055",
+        "CA054",
+        "CA056",
+        "CA058",
+        "CA067",
+        "CA102",
+        "CA118",
+        "CA122",
+        "CA124",
+        "CA148",
+        "CA246",
+        "CA377",
+        "CA518",
+        "CA542",
+        "CC069",
+        "CC114",
+        "CE007",
+        "GC031",
+        "SA049",
+        "SA147"
+      ],
+      "date_range": [
+        "1995-01-01",
+        "2026-08-31"
+      ],
+      "year_range": [
+        1995,
+        2026
+      ],
+      "type_distribution": {
+        "column": 16,
+        "speech": 2,
+        "biography": 1,
+        "book": 10
+      },
+      "theme_distribution": {
+        "A": 21,
+        "C": 3,
+        "E": 1,
+        "B": 1,
+        "D": 3
+      },
+      "top_signature_phrases": [
+        {
+          "phrase": "gravity, juridical antecedence, and incurability",
+          "count": 2,
+          "doc_ids": [
+            "BA048",
+            "CA118"
+          ]
+        },
+        {
+          "phrase": "the integrity of the family and the sanctity of marriage",
+          "count": 1,
+          "doc_ids": [
+            "CA054"
+          ]
+        },
+        {
+          "phrase": "flesh-and-bones cases",
+          "count": 1,
+          "doc_ids": [
+            "CA054"
+          ]
+        },
+        {
+          "phrase": "the best legal minds of our country, the revered justices of our highest court",
+          "count": 1,
+          "doc_ids": [
+            "CA054"
+          ]
+        },
+        {
+          "phrase": "ex dolo malo non oritur actio",
+          "count": 1,
+          "doc_ids": [
+            "CA054"
+          ]
+        },
+        {
+          "phrase": "no man can be allowed to found a claim upon his own wrongdoing",
+          "count": 1,
+          "doc_ids": [
+            "CA054"
+          ]
+        },
+        {
+          "phrase": "bastardize the institution of marriage to the prejudice of the State",
+          "count": 1,
+          "doc_ids": [
+            "CA054"
+          ]
+        },
+        {
+          "phrase": "stirring dissents",
+          "count": 1,
+          "doc_ids": [
+            "CA054"
+          ]
+        }
+      ],
+      "top_people": [
+        "Artemio V. Panganiban",
+        "Archbishop Oscar V. Cruz",
+        "Justice Alfredo Benjamin S. Caguioa",
+        "Senior Associate Justice Marvic M.V.F. Leonen",
+        "Ramon Paul L. Hernando",
+        "Pope Francis"
+      ],
+      "top_institutions": [
+        "Supreme Court of the Philippines",
+        "Court of Appeals",
+        "Office of the Solicitor General",
+        "Catholic Church",
+        "Philippine Congress",
+        "Regional Trial Court"
+      ],
+      "top_cases": [
+        "Republic v. Molina",
+        "Santos v. Court of Appeals",
+        "Republic v. Manalo",
+        "Tanada v. Angara"
+      ],
+      "matchers": {
+        "keywords": [],
+        "entities": [
+          "family code"
+        ]
+      }
+    },
+    "jbc_discernment_and_appointment": {
+      "id": "jbc_discernment_and_appointment",
+      "display_name": "The Judicial and Bar Council",
+      "definition": "How judges are nominated: the Council's role, its rules and the shortlist for each vacancy.",
+      "tier": "subordinate",
+      "theme_anchor": "A",
+      "default_register": "ceremonial_doctrinal",
+      "wit_calibration": "sparing, diplomatic",
+      "doc_count": 34,
+      "doc_ids": [
+        "BC013",
+        "BD002",
+        "BD005",
+        "BD006",
+        "BD008",
+        "BD061",
+        "BD064",
+        "BE010",
+        "BE011",
+        "CA029",
+        "CA146",
+        "CA216",
+        "CA227",
+        "CA247",
+        "CA256",
+        "CA269",
+        "CA319",
+        "CA342",
+        "CA485",
+        "CA488",
+        "CA489",
+        "CA491",
+        "CA492",
+        "CA495",
+        "CA524",
+        "CC015",
+        "CE023",
+        "CE025",
+        "CE041",
+        "CE105",
+        "GC030",
+        "GC031",
+        "SC059",
+        "SE038"
+      ],
+      "date_range": [
+        "1987-01-01",
+        "2026-03-16"
+      ],
+      "year_range": [
+        1987,
+        2026
+      ],
+      "type_distribution": {
+        "column": 21,
+        "speech": 2,
+        "biography": 2,
+        "book": 9
+      },
+      "theme_distribution": {
+        "A": 16,
+        "C": 5,
+        "E": 7,
+        "D": 6
+      },
+      "top_signature_phrases": [
+        {
+          "phrase": "Chief Justice of the Philippines, not just Chief Justice of the Supreme Court",
+          "count": 3,
+          "doc_ids": [
+            "BD002",
+            "CA256",
+            "CA495"
+          ]
+        },
+        {
+          "phrase": "in my humble opinion",
+          "count": 2,
+          "doc_ids": [
+            "CA146",
+            "CA247"
+          ]
+        },
+        {
+          "phrase": "primus inter pares (first among equals)",
+          "count": 2,
+          "doc_ids": [
+            "BD002",
+            "CA256"
+          ]
+        },
+        {
+          "phrase": "passion for reforms",
+          "count": 2,
+          "doc_ids": [
+            "CA256",
+            "CA495"
+          ]
+        },
+        {
+          "phrase": "proven competence, integrity, probity, and independence",
+          "count": 2,
+          "doc_ids": [
+            "CA491",
+            "CA495"
+          ]
+        },
+        {
+          "phrase": "Ask and you shall receive, seek and you shall find, knock and the door shall be opened to you",
+          "count": 2,
+          "doc_ids": [
+            "BC013",
+            "GC030"
+          ]
+        },
+        {
+          "phrase": "This is my Son, my Chosen One. Listen to Him",
+          "count": 2,
+          "doc_ids": [
+            "BC013",
+            "GC030"
+          ]
+        },
+        {
+          "phrase": "I will work as if everything depended on me, and I will pray as if everything depended on God",
+          "count": 2,
+          "doc_ids": [
+            "BC013",
+            "GC030"
+          ]
+        }
+      ],
+      "top_people": [
+        "Artemio V. Panganiban",
+        "President Rodrigo Duterte",
+        "Rep. Gerville Luistro",
+        "CJ Roberto Concepcion",
+        "Justice Antonio T. Carpio",
+        "Sen. Franklin Drilon"
+      ],
+      "top_institutions": [
+        "Supreme Court of the Philippines",
+        "Judicial and Bar Council",
+        "Senate of the Philippines",
+        "House of Representatives",
+        "Integrated Bar of the Philippines",
+        "the Judicial and Bar Council"
+      ],
+      "top_cases": [
+        "Sara Z. Duterte v. House of Representatives",
+        "Sara Z. Duterte v. House of Representatives resolution",
+        "Impeachment trial of former President Joseph Estrada",
+        "Impeachment trial of former CJ Renato C. Corona"
+      ],
+      "matchers": {
+        "keywords": [
+          "jbc's",
+          "ex-officio",
+          "jbc chair"
+        ],
+        "entities": []
+      }
+    }
+  },
+  "intents": {
+    "robot_identity_meta": {
+      "id": "robot_identity_meta",
+      "kind": "intent",
+      "display_name": "Robot Identity (META)",
+      "definition": "Questions about whether this is the real CJP, an AI, a robot, or how it works. Answered fully in persona as Chief Justice Panganiban himself — gracious, lightly amused, never describing himself as an AI, robot, machine, or rendering (the voice card's Identity rule).",
+      "tier": "meta",
+      "theme_anchor": "META",
+      "default_register": "gracious_in_persona",
+      "wit_calibration": "gentle, self-deprecating",
+      "doc_count": 0,
+      "doc_ids": [],
+      "date_range": [],
+      "year_range": [],
+      "type_distribution": {},
+      "theme_distribution": {},
+      "top_people": [],
+      "top_institutions": [],
+      "top_cases": [],
+      "matchers": {
+        "keywords": [
+          "are you ai",
+          "are you a robot",
+          "are you real",
+          "is this really cjp",
+          "how do you work",
+          "are you panganiban",
+          "robot rendering",
+          "ai conversation robot"
+        ],
+        "entities": []
+      }
+    }
+  }
+}

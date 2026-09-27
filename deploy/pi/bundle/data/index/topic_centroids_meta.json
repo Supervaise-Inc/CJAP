@@ -1,0 +1,220 @@
+{
+  "model_id": "BAAI/bge-base-en-v1.5",
+  "dim": 768,
+  "backend": "cuda_fp32",
+  "n_topics": 30,
+  "taxonomy_version": 2,
+  "scale": "centred",
+  "corpus_mean": {
+    "path": "data/index/corpus_mean.npy",
+    "sha256": "596a9fb08b0315eee8e935673791b42340c492ac17beac78611cfaffea6c9d1e",
+    "n_chunks": 13549,
+    "corpus_dense_build_date": "2026-09-26",
+    "chunk_index_sha256": "e672757b9dbce883bdd499acec7a6c69df0d8e12145df368337cd3791e3c03af",
+    "normalisation": "after centring: centred(x) = (x - mu) / ||x - mu||"
+  },
+  "centroid_recipe": "unit(mean of ALL chunks of the member docs - corpus_mean); chunk-weighted; built from scratch (no incremental growth, no zero-member fallback); members = topic_map.json doc_ids",
+  "n_corpus_chunks": 13549,
+  "build_date": "2026-09-27",
+  "corpus_dense_build_date": "2026-09-26",
+  "separation_centred_pair_cosine": {
+    "n_pairs": 435,
+    "median": -0.0293,
+    "p95": 0.4235,
+    "max": 0.6935
+  },
+  "topic_ids": [
+    "foundation_for_liberty_and_prosperity",
+    "twin_beacons_doctrine",
+    "life_story_family_school_and_church",
+    "criminal_trials_and_prosecutions",
+    "international_law_disputes",
+    "property_contracts_and_economic_rights",
+    "presidential_power_martial_law_people_power",
+    "elections_and_automated_voting",
+    "judicial_reform",
+    "party_list_charter_change_and_dynasties",
+    "science_technology_and_the_law",
+    "impeachment_accountability",
+    "public_funds_budget_and_bank_evidence",
+    "us_supreme_court_and_american_politics",
+    "faith_journey",
+    "how_the_supreme_court_decides",
+    "libel_and_cybercrime",
+    "judiciary_milestones_and_tributes",
+    "economy_taxes_and_prosperity",
+    "death_penalty_and_echegaray",
+    "independent_commissions_and_appointments",
+    "bangsamoro_peace_process",
+    "marcos_robredo_election_contest",
+    "supreme_court_vacancies_and_chief_justiceship",
+    "asean_law_association",
+    "ill_gotten_wealth_and_the_pcgg",
+    "bar_exam_and_legal_education",
+    "citizenship_and_residency_grace_poe",
+    "marriage_annulment_and_the_family_code",
+    "jbc_discernment_and_appointment"
+  ],
+  "topics": [
+    {
+      "topic_id": "foundation_for_liberty_and_prosperity",
+      "n_member_docs": 107,
+      "n_member_chunks": 1075
+    },
+    {
+      "topic_id": "twin_beacons_doctrine",
+      "n_member_docs": 41,
+      "n_member_chunks": 457
+    },
+    {
+      "topic_id": "life_story_family_school_and_church",
+      "n_member_docs": 193,
+      "n_member_chunks": 2293
+    },
+    {
+      "topic_id": "criminal_trials_and_prosecutions",
+      "n_member_docs": 164,
+      "n_member_chunks": 1701
+    },
+    {
+      "topic_id": "international_law_disputes",
+      "n_member_docs": 85,
+      "n_member_chunks": 749
+    },
+    {
+      "topic_id": "property_contracts_and_economic_rights",
+      "n_member_docs": 66,
+      "n_member_chunks": 1088
+    },
+    {
+      "topic_id": "presidential_power_martial_law_people_power",
+      "n_member_docs": 45,
+      "n_member_chunks": 484
+    },
+    {
+      "topic_id": "elections_and_automated_voting",
+      "n_member_docs": 91,
+      "n_member_chunks": 1130
+    },
+    {
+      "topic_id": "judicial_reform",
+      "n_member_docs": 54,
+      "n_member_chunks": 741
+    },
+    {
+      "topic_id": "party_list_charter_change_and_dynasties",
+      "n_member_docs": 68,
+      "n_member_chunks": 564
+    },
+    {
+      "topic_id": "science_technology_and_the_law",
+      "n_member_docs": 63,
+      "n_member_chunks": 978
+    },
+    {
+      "topic_id": "impeachment_accountability",
+      "n_member_docs": 47,
+      "n_member_chunks": 496
+    },
+    {
+      "topic_id": "public_funds_budget_and_bank_evidence",
+      "n_member_docs": 47,
+      "n_member_chunks": 399
+    },
+    {
+      "topic_id": "us_supreme_court_and_american_politics",
+      "n_member_docs": 50,
+      "n_member_chunks": 398
+    },
+    {
+      "topic_id": "faith_journey",
+      "n_member_docs": 49,
+      "n_member_chunks": 625
+    },
+    {
+      "topic_id": "how_the_supreme_court_decides",
+      "n_member_docs": 21,
+      "n_member_chunks": 327
+    },
+    {
+      "topic_id": "libel_and_cybercrime",
+      "n_member_docs": 28,
+      "n_member_chunks": 325
+    },
+    {
+      "topic_id": "judiciary_milestones_and_tributes",
+      "n_member_docs": 37,
+      "n_member_chunks": 375
+    },
+    {
+      "topic_id": "economy_taxes_and_prosperity",
+      "n_member_docs": 17,
+      "n_member_chunks": 176
+    },
+    {
+      "topic_id": "death_penalty_and_echegaray",
+      "n_member_docs": 30,
+      "n_member_chunks": 821
+    },
+    {
+      "topic_id": "independent_commissions_and_appointments",
+      "n_member_docs": 15,
+      "n_member_chunks": 108
+    },
+    {
+      "topic_id": "bangsamoro_peace_process",
+      "n_member_docs": 28,
+      "n_member_chunks": 256
+    },
+    {
+      "topic_id": "marcos_robredo_election_contest",
+      "n_member_docs": 38,
+      "n_member_chunks": 337
+    },
+    {
+      "topic_id": "supreme_court_vacancies_and_chief_justiceship",
+      "n_member_docs": 28,
+      "n_member_chunks": 215
+    },
+    {
+      "topic_id": "asean_law_association",
+      "n_member_docs": 11,
+      "n_member_chunks": 91
+    },
+    {
+      "topic_id": "ill_gotten_wealth_and_the_pcgg",
+      "n_member_docs": 27,
+      "n_member_chunks": 277
+    },
+    {
+      "topic_id": "bar_exam_and_legal_education",
+      "n_member_docs": 20,
+      "n_member_chunks": 210
+    },
+    {
+      "topic_id": "citizenship_and_residency_grace_poe",
+      "n_member_docs": 24,
+      "n_member_chunks": 224
+    },
+    {
+      "topic_id": "marriage_annulment_and_the_family_code",
+      "n_member_docs": 29,
+      "n_member_chunks": 333
+    },
+    {
+      "topic_id": "jbc_discernment_and_appointment",
+      "n_member_docs": 34,
+      "n_member_chunks": 312
+    }
+  ],
+  "merge_cosine": 0.75,
+  "assign_floor": 0.31,
+  "merged_pairs": [],
+  "independence_check_max_pair": 0.6935,
+  "n_docs_tagged": 1250,
+  "n_docs": 1290,
+  "orphans_in_sample": 40,
+  "orphans_held_out": 46,
+  "tags_report": "topic_tags_full_2026-09-27.json",
+  "tagged_date": "2026-09-27"
+}

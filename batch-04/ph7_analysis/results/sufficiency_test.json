@@ -1,0 +1,7 @@
+{
+  "n_queries": 22,
+  "model_load_count_isolated": 1,
+  "n_mismatches": 0,
+  "mismatches": [],
+  "verdict": "SUFFICIENT — all fields match the full-repo run"
+}

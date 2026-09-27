@@ -82,3 +82,48 @@ sudo systemctl restart supervaise pi-dashboard
 ```
 `install.sh` never overwrites `.env`, `voice/config.py`, `.asoundrc.route`,
 certs or clips already present.
+
+## 7. Refreshing the corpus/model data only (`deploy/pi/bundle/`)
+
+Everything above moves a *whole robot* (code, models, clips, units — a fresh `git clone` of
+`pi/deployment-snapshots`). Phase 7 (batch-04) added a second, smaller thing that moves on its own: the
+**data bundle**, `deploy/pi/bundle/` — the corpus, the search indexes and the sentence encoder that the
+new deterministic retrieval pipeline (`app/service.py` + `app/retrieval.py`) reads. Built by
+`scripts/build_robot_bundle.py` on `deliverable/2026-09`; see its MANIFEST.md for exactly what is in it
+and why, and `batch-04/BATCH-04_REPORT.md` for the full reasoning.
+
+**Read this before using it.** As of this writing `app/service.py` — the only pipeline this bundle
+serves — is not yet committed to git, and the robot's systemd unit still runs the older
+`answer_pipeline.py` (Haiku-router) pipeline, which does not read this bundle at all. Copying
+`deploy/pi/bundle/` to a robot today changes nothing it does until that code lands on
+`pi/deployment-snapshots` and the unit is pointed at it. Treat this section as ready for that day, not
+as something to run against a robot in its current state.
+
+Size: **516 MB, 1,315 files** (1,290 corpus document cards, the chunk store, the topic map and voice
+files, the dense/sparse/centroid indexes, and a 419 MB sentence encoder). The Pi needs **at least 1.1 GB
+free** (the bundle plus headroom for the transfer itself and the old copy it replaces) — check with
+`df -h /home/pollen` before starting.
+
+```bash
+# from a machine with the deliverable/2026-09 checkout, after scripts/build_robot_bundle.py has run
+rsync -a --info=progress2 deploy/pi/bundle/ pollen@<hostname>.local:~/data_bundle_incoming/
+```
+
+It lands at `~/data_bundle_incoming/` first, not directly over the live path, so a failed or partial
+transfer never leaves the robot with a half-written bundle:
+
+```bash
+# on the Pi, after the rsync finishes
+cd ~/data_bundle_incoming
+sha256sum -c checksums.sha256                      # every line must say OK
+# all OK:
+rm -rf ~/Supervaise-Reachy-Mini-Project-main/deploy/pi/bundle
+mv ~/data_bundle_incoming ~/Supervaise-Reachy-Mini-Project-main/deploy/pi/bundle
+sudo systemctl restart supervaise
+```
+
+**If `sha256sum -c` reports anything but OK for every line:** do not move the bundle into place. Re-run
+the `rsync` (plain `rsync -a` is resumable — it only re-sends the files that failed or are still
+partial); if it fails again, delete `~/data_bundle_incoming` and re-transfer from scratch rather than
+patching individual files, and check `df -h` first — a `FAILED open or read` line usually means the
+transfer ran out of disk space partway through.
