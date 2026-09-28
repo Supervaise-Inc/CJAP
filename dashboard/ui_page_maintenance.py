@@ -191,22 +191,21 @@ details.help[open] summary{margin-bottom:4px}
   writes anything, so opening them cannot disturb a turn or another screen.</p>
   <div class="btns" style="flex-wrap:wrap;gap:8px">
     <a class="btn" href="/stage" target="_blank">&#127917; /stage &mdash; for the visitor</a>
-    <a class="btn" href="/monitor" target="_blank">&#128065; /monitor &mdash; for you</a>
-    <a class="btn" href="/monitor?public_display=1" target="_blank">/monitor &mdash; public screen</a>
+    <a class="btn" href="/display" target="_blank">&#128065; /display &mdash; for you</a>
+    <a class="btn" href="/display?public_display=1" target="_blank">/display &mdash; public screen</a>
     <a class="btn" href="/tune" id="tunelink" target="_blank">&#127899; /tune &mdash; motion sliders</a>
   </div>
   <details class="hint"><summary>which one goes where</summary>
     <b>/stage</b> is the face alone, full bleed, no text and no controls &mdash; for a monitor
     beside the robot or a tablet a visitor can see. It shows nothing a visitor should not read,
     and never shows an error.<br>
-    <b>/monitor</b> adds the camera, the question and the answer, the latency and a mark whenever
-    a guardrail fired &mdash; for your laptop. It shows the raw transcript, which is exactly what
-    must not appear on a screen the public can photograph.<br>
-    <b>/monitor?public_display=1</b> is the same page with the raw transcript, the debug and the
-    error states removed, and a question shown only after the gates have passed.<br>
-    Mouth timing: open /monitor, set <i>mouth offset</i> while the robot speaks, then put the
-    <code>/stage?offset=&hellip;</code> it prints into the display&rsquo;s URL. The internal
-    speaker and an external one need different values.
+    <b>/display</b> adds the camera and the question and answer plaques, and shows the question
+    while it is being answered &mdash; for your laptop or a screen you control.<br>
+    <b>/display?public_display=1</b> is the same page for a screen the public can photograph:
+    a question appears only after it has been answered, and never if a safety gate fired.<br>
+    Mouth timing: set the <i>response delay</i> slider on /tune while the robot speaks; /stage
+    and /display follow it by themselves. The internal speaker and an external one need
+    different values.
   </details></div>
 <div class="statuslinks" title="Provider status pages (open in new tab)">
   <a href="https://status.claude.com" target="_blank" rel="noopener"><i></i>Claude status</a>
