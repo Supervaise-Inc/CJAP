@@ -438,6 +438,13 @@ class SentenceSpeaker:
     def add(self, sentence):
         if self._abort.is_set():
             return
+        try:   # no "asterisk" spoken or captioned; "*chuckles*" dropped (2026-09-28)
+            import speech_engines
+            sentence = speech_engines.speakable(sentence)
+        except Exception:
+            pass
+        if not sentence:
+            return
         self.n_sentences += 1
         with self._lock:
             idx = len(self._futures)

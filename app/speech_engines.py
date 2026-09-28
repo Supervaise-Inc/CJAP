@@ -853,6 +853,24 @@ def _synth_with(engine: str, text: str, out_dir: str, speed, eleven_kw):
     return tts_elevenlabs_wav(text, out_dir=out_dir, speed=speed, **eleven_kw)
 
 
+# Markdown the composer sometimes writes (*emphasis*, **bold**, *pauses*) was
+# reaching the voice and being read aloud as "asterisk" (2026-09-28). The old
+# Piper path stripped it (answer_pipeline._prepare_tts_text); the cloned-voice
+# path never did.
+_STAGE_DIRECTION = re.compile(r"^\s*\*+[^*]+\*+\s*[.!?]?\s*$")
+
+
+def speakable(text: str) -> str:
+    """Text as it should be SPOKEN: a sentence that is wholly *italic* is a
+    stage direction ("*chuckles warmly*") and is dropped; any other asterisk
+    is removed and the words it wrapped are kept."""
+    if not text:
+        return text
+    if _STAGE_DIRECTION.match(text):
+        return ""
+    return " ".join(text.replace("*", " ").split())
+
+
 def tts_cloned_wav(text: str, where: str = "", out_dir: str = "/dev/shm",
                    speed: float | None = None, **eleven_kw):
     """Panganiban's voice: every configured clone, in engine_order(), until one
@@ -869,6 +887,9 @@ def tts_cloned_wav(text: str, where: str = "", out_dir: str = "/dev/shm",
     CJ_ALLOW_VOICE_SUBSTITUTION override is on — the caller may then use its own
     OpenAI path, exactly as it did before this guard existed."""
     import voice_guard
+    # Backstop for every caller (fillers, curated lines, Say): never voice an
+    # asterisk. Stage-direction sentences are dropped earlier, in the stream.
+    text = " ".join(text.replace("*", " ").split()) or text
     order = engine_order()
     # Cool-off is an optimisation, never a gate: if it would skip EVERY clone,
     # ignore it and try them all — silence must never be caused by bookkeeping.
