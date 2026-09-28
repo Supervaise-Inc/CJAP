@@ -163,6 +163,11 @@ def handle_get(h, path, params):
             h._send(403, json.dumps({"ok": False, "output": "bad key"}))
         else:
             h._send(200, json.dumps(eleven_voices(refresh=params.get("refresh") in ("1", "true"))))
+    elif path == "/api/voice-engines":   # which clone speaks (2026-09-16)
+        if not _authed(params):
+            h._send(403, json.dumps({"ok": False, "output": "bad key"}))
+        else:
+            h._send(200, json.dumps(voice_engines()))
     elif path in _console.CONSOLE_PATHS_GET:
         code, out = _console.api(_console.get_console(), "GET", path, params,
                                  authed=_authed(params))
@@ -350,6 +355,15 @@ def handle_post(h, path, body):
                   f"{'key' if body.get('api_key') else ''} {body.get('role', '')} {body.get('voice_id', '')} -> "
                   f"{out if ok else 'REFUSED: ' + str(out)}", flush=True)
             h._send(200, json.dumps({"ok": ok, "output": out}))
+    elif path == "/api/voice-engines":
+        # Engine card: pick which clone of Panganiban speaks first.
+        if not _authed({}, body):
+            h._send(403, json.dumps({"ok": False, "output": "bad key"}))
+        else:
+            ok, out = voice_engine_set(body)
+            print(f"[ctl] {h.client_address[0]} voice-engines {body.get('order', '')} -> "
+                  f"{out if ok else 'REFUSED: ' + str(out)}", flush=True)
+            h._send(200, json.dumps({"ok": ok, "output": out, "engines": voice_engines()}))
     elif path == "/api/avatar-conf":
         # /maintain "Avatar" row: switch the LiveAvatar avatar (and, if the new
         # one lives on another account, its API key). Never logged - the body

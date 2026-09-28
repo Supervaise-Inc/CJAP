@@ -1518,19 +1518,37 @@ function clipUrl(local, slot, name){
 function cameraUrl(e){
   return e.local ? '/api/camera.mjpg' : (location.protocol==='http:' ? (e.camera_url||null) : null);
 }
+// Per-word timings for a sentence that arrived WITHOUT any (openai fallback,
+// a pre-2026-08-22 clip, a typed Say line): spread the words over the clip by
+// length, with a beat after punctuation, so each still appears as it is said
+// rather than the whole sentence at once (2026-09-16, user: "the word will
+// appear only when said"). Real timings always win when present.
+function estWords(text,dur){
+  const toks=String(text||'').split(/\s+/).filter(Boolean);
+  if(!toks.length||!(dur>0))return null;
+  const LEAD=0.1,TAIL=0.3,span=Math.max(0.2,dur-LEAD-TAIL);
+  const wt=toks.map(t=>Math.max(1,t.replace(/[^\p{L}\p{N}]/gu,'').length)
+    +(/[.!?]["')\]]*$/.test(t)?5:(/[,;:—]["')\]]*$/.test(t)?3:0)));
+  const tot=wt.reduce((a,b)=>a+b,0);
+  let c=0;
+  return toks.map((t,i)=>{const s=LEAD+c/tot*span;c+=wt[i];return [t,+s.toFixed(3),+(LEAD+c/tot*span).toFixed(3)];});
+}
 // Word-by-word reveal, as /audience: each word hidden until the audio reaches
 // it. Anchored to play_ts (the moment audio truly began, robot clock), carried
-// forward locally between polls. show() -> false when the sentence has no word
-// timings, and the caller shows the whole sentence instead.
-function WordReveal(box){
+// forward locally between polls, and shifted by the same offset as the mouth
+// (offsetMs) so word and lips land together. Timings are the clip's real ones,
+// else estWords(); show() -> false only when there is neither, and the caller
+// shows the whole sentence instead.
+function WordReveal(box, offsetMs){
   let ww={key:''};
   return {
     show:function(sp, docTs){
-      if(!(sp&&sp.current&&sp.words&&sp.words.length)){ ww={key:''}; return false; }
-      const key=sp.wav||sp.current;
+      const tw=(sp&&sp.current)?((sp.words&&sp.words.length)?sp.words:estWords(sp.current,sp.dur)):null;
+      if(!tw){ ww={key:''}; return false; }
+      const key=(sp.wav||sp.current)+(sp.words&&sp.words.length?'':'~');
       if(key!==ww.key){
-        ww={key:key, words:sp.words, play:0, perf:0, robot:0, last:-1};
-        box.innerHTML=sp.words.map(w=>'<span class="w">'+esc(w[0])+'</span>').join(' ');
+        ww={key:key, words:tw, play:0, perf:0, robot:0, last:-1};
+        box.innerHTML=tw.map(w=>'<span class="w">'+esc(w[0])+'</span>').join(' ');
       }
       if(sp.play_ts){ if(!ww.play) ww.play=sp.play_ts; ww.robot=docTs; ww.perf=performance.now(); }
       return true;
@@ -1539,7 +1557,8 @@ function WordReveal(box){
     tick:function(){
       if(!ww.key||!ww.play) return;
       const spans=box.getElementsByClassName('w');
-      const elapsed=Math.max(0,(performance.now()-ww.perf)/1000+(ww.robot-ww.play));
+      const elapsed=(performance.now()-ww.perf)/1000+(ww.robot-ww.play)
+        -((offsetMs&&offsetMs())||0)/1000;
       let last=-1;
       for(let i=0;i<spans.length;i++){
         const on=elapsed>=(ww.words[i]?ww.words[i][1]:0);
@@ -1647,7 +1666,7 @@ MONITOR_PAGE = r"""<!DOCTYPE html><html><head><meta charset="utf-8">
     const layer=StateLayer(q('canvas.orb'),{scale:0.30});
     let local=false;
     const env=Envelope(()=>OFFSET, (name)=>clipUrl(local, slot, name));
-    const words=WordReveal(q('.ans'));
+    const words=WordReveal(q('.ans'), ()=>OFFSET);
     let lastWav=null, logKey=null, cam=null, camRetry=0;
     const shown={};
     function put(sel,h){ if(shown[sel]!==h){ shown[sel]=h; q(sel).innerHTML=h; } }
@@ -1865,7 +1884,7 @@ DISPLAY_PAGE = r"""<!DOCTYPE html><html><head><meta charset="utf-8">
 
   const layer=StateLayer($('orb'),{scale:0.32});
   const env=Envelope(()=>OFFSET, (name)=>clipUrl(local, slot, name));
-  const words=WordReveal($('ans'));
+  const words=WordReveal($('ans'), ()=>OFFSET);
   keepAwake(); selfHeal(layer);
 
   // a screen has no pointer: hide it after 3 s without movement, as /stage

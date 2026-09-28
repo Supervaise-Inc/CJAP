@@ -101,9 +101,17 @@ def _work(client, question, filler, note):
                 spd = speech_engines.emotion_speed("neutral")
                 if speech_engines.pinned_name_in(text):     # 2026-09-12 name pin
                     spd = speech_engines.name_pin_settings()[0]
-                wav = speech_engines.tts_elevenlabs_wav(text, speed=spd)
+                wav, _eng = speech_engines.tts_cloned_wav(text, where="filler", speed=spd)
+                if wav is None:
+                    print("[dynfiller] no clone could speak — openai fallback "
+                          "(CJ_ALLOW_VOICE_SUBSTITUTION is on)")
+            except speech_engines.VoiceUnavailable as e:
+                # A filler is garnish: dropping it costs nothing, and the static
+                # filler clips (already on disk) still cover the wait.
+                print(f"[dynfiller] {e} — filler DROPPED, no substitute voice")
+                return
             except Exception as e:
-                print(f"[dynfiller] elevenlabs failed ({type(e).__name__}) "
+                print(f"[dynfiller] unexpected synth failure ({type(e).__name__}) "
                       f"— openai fallback")
         if wav is None:
             from speech_engines import (_sync_client, tts_create_kwargs,

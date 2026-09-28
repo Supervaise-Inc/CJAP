@@ -59,6 +59,9 @@ PROFILES = ("kiosk", "event")
 TTL_S = 3.0             # lease TTL handed to the robots (they cap at 3 s too)
 SETTLE_MARGIN_S = 0.5   # extra wait after TTL before a new holder is named
 OBS_FRESH_S = 3.0       # a robot report older than this is "unknown"
+# Vendor names for the voice banner. Mirrors app/voice_guard.ENGINE_LABEL —
+# the console cannot import it (separate service, system python3).
+VOICE_ENGINE_LABEL = {"fish": "Fish Audio", "elevenlabs": "ElevenLabs"}
 TURN_FRESH_S = 5.0      # turn_active older than this no longer blocks a change
 RMS_WARN_MARGIN = 400   # speech threshold this close to the room floor = warn
 CALIB_DEFAULT_S = 120   # room calibration sample length
@@ -909,6 +912,9 @@ class Console:
                # None = this robot's build predates the field (2026-09-14), which
                # must read as "unknown", never as "offline"
                "online": obs.get("online") if isinstance(obs.get("online"), bool) else None,
+               # the cloned voice's health (2026-09-16). None = this robot's
+               # build predates the field: "unknown", never "bad".
+               "voice": obs.get("voice") if isinstance(obs.get("voice"), dict) else None,
                "role_ok": obs.get("robot") == robot}
         with self._lock:
             prev = self.observed.get(robot)
@@ -1122,6 +1128,7 @@ class Console:
                         "boot_id": (o or {}).get("boot_id"),
                         "has_floor": bool(o and o["has_floor"]) if fresh else None,
                         "online": (o or {}).get("online") if fresh else None,
+                        "voice": (o or {}).get("voice") if fresh else None,
                         "diverges": False}
                 if not fresh:
                     view["diverges"] = intended
@@ -1152,6 +1159,37 @@ class Console:
                                          "msg": f"{self.name(r)} cannot reach the internet — every "
                                                 "question will get the apology line. Check WiFi on "
                                                 "/maintain, or switch to DUET, which needs no network"})
+                    # Panganiban's voice failing used to be invisible: the
+                    # answer simply came out in the OpenAI voice, switching back
+                    # and forth with the cached lines inside one answer, and
+                    # nothing on the robot or in the room said why (2026-09-16).
+                    v = o.get("voice")
+                    if isinstance(v, dict) and v.get("ok") is False:
+                        who = VOICE_ENGINE_LABEL.get(v.get("engine"), "the voice service")
+                        why = {"quota": "its quota or credit is used up",
+                               "network": "the robot cannot reach it"}.get(
+                                   v.get("reason"), "it rejected the request")
+                        if v.get("standby"):
+                            # The OTHER clone of the same person is speaking, so
+                            # the room still hears Panganiban: amber, not red.
+                            other = VOICE_ENGINE_LABEL.get(v["standby"], v["standby"])
+                            warnings.append({"level": "warn", "robot": r, "kind": "voice",
+                                             "msg": f"{self.name(r)}: the primary voice ({who}) is failing — {why}. "
+                                                    f"The {other} clone of the same voice is speaking instead "
+                                                    f"({int(v.get('standby_lines') or 0)} line(s)); the room still hears him, "
+                                                    "but the clones are not identical. Fix the primary when you can"})
+                        elif v.get("substitution_allowed"):
+                            warnings.append({"level": "bad", "robot": r, "kind": "voice",
+                                             "msg": f"{self.name(r)} is speaking in a DIFFERENT VOICE — {who} {why} and no "
+                                                    "clone could stand in, and CJ_ALLOW_VOICE_SUBSTITUTION is on. Turn it "
+                                                    "off, or fix the voice, before anyone else hears it"})
+                        else:
+                            warnings.append({"level": "bad", "robot": r, "kind": "voice",
+                                             "msg": f"{self.name(r)}: Panganiban's voice is unavailable ({who} — {why}) and "
+                                                    f"no clone could stand in. {int(v.get('suppressed') or 0)} line(s) kept "
+                                                    "SILENT rather than spoken in another voice. Top up the voice service, "
+                                                    "or switch to DUET, which plays pre-rendered audio and needs neither "
+                                                    "quota nor network"})
                     # live speech-threshold warning against the room floor
                     room = o["rms"]
                     if room is not None:

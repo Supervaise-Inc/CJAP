@@ -73,7 +73,7 @@ def publish_speaking(spoken, current, done, interrupted=False, emotion=None,
     """Atomically publish what is being spoken right now (fails open).
 
     words: real per-word timings [[word, start_s, end_s], ...] from the
-    ElevenLabs alignment sidecar, relative to this sentence's audio start —
+    alignment sidecar (ElevenLabs or Fish), relative to this sentence's audio start —
     the /face page lip-syncs from them (estimates when absent).
     wav: basename of the sentence's audio copy in /dev/shm (see
     publish_sentence_wav) — the /face-avatar page fetches it."""
@@ -300,6 +300,7 @@ class SentenceSpeaker:
         self.curated = False         # True for canned prose (out-of-topic): base speed/delivery, so the clip cache hits
         self._skip = set()           # idx replaced by a merged re-synthesis (tail merge)
         self._pinned = set()         # idx rendered at the fixed name-pin settings (no tempo stretch)
+        self.voice_suppressed = 0    # sentences silenced by voice_guard (wrong voice refused)
         try:
             from speech_tempo import TempoSmoother
             self._tempo = TempoSmoother()   # per-answer tempo normaliser
@@ -375,26 +376,47 @@ class SentenceSpeaker:
                 if vs is not None:
                     print(f"[delivery] {emo or 'neutral'}: stability {vs['stability']:.2f} style {vs['style']:.2f} "
                           f"speed {vs.get('speed', 1.0):.2f}")
-                wav = speech_engines.tts_elevenlabs_wav(text, speed=speed,
-                                                  previous_text=previous_text,
-                                                  previous_request_ids=rids or None,
-                                                  meta_out=meta, voice_settings=vs,
-                                                  seed=speech_engines.name_pin_seed() if idx in self._pinned else None)
-                if meta.get("request_id"):
-                    with self._lock:
-                        self._rids.append(meta["request_id"])
-                if self._tempo is not None and idx not in self._pinned:   # smooth the tempo across sentences
-                    try:
-                        res = self._tempo.process(wav, idx=idx, speed=speed)
-                        if res and abs(res[0] - 1.0) >= 0.01:
-                            print(f"[tempo] {res[1]:.1f} -> {res[2]:.1f} chars/s "
-                                  f"(x{res[0]:.3f}) '{text[:40]}'")
-                    except Exception as e:
-                        print(f"[tempo] skipped ({type(e).__name__})")
-                return wav
+                _seed = speech_engines.name_pin_seed() if idx in self._pinned else None
+                # ElevenLabs, then the Fish standby clone of the SAME voice.
+                # wav None = both clones failed AND the operator's override
+                # allows a substitute: fall through to the openai path below.
+                wav, engine = speech_engines.tts_cloned_wav(
+                    text, where="answer", speed=speed,
+                    previous_text=previous_text,
+                    previous_request_ids=rids or None,
+                    meta_out=meta, voice_settings=vs, seed=_seed)
+                if wav is not None:
+                    if meta.get("request_id"):
+                        with self._lock:
+                            self._rids.append(meta["request_id"])
+                    # Tempo smoothing is calibrated on the ElevenLabs clone's
+                    # pace; leave a standby sentence at its own.
+                    if (engine == "elevenlabs" and self._tempo is not None
+                            and idx not in self._pinned):   # smooth the tempo across sentences
+                        try:
+                            res = self._tempo.process(wav, idx=idx, speed=speed)
+                            if res and abs(res[0] - 1.0) >= 0.01:
+                                print(f"[tempo] {res[1]:.1f} -> {res[2]:.1f} chars/s "
+                                      f"(x{res[0]:.3f}) '{text[:40]}'")
+                        except Exception as e:
+                            print(f"[tempo] skipped ({type(e).__name__})")
+                    if engine != "elevenlabs":
+                        print(f"[stream-speak] sentence spoken by the {engine} clone")
+                    return wav
+                print("[stream-speak] both clones failed — openai fallback for this "
+                      "sentence (CJ_ALLOW_VOICE_SUBSTITUTION is on)")
+            except speech_engines.VoiceUnavailable as e:
+                # Neither clone could speak and no substitute is permitted.
+                # Raising leaves this sentence unspoken — _play_loop skips a
+                # failed future and the rest of the answer carries on — rather
+                # than putting a stranger's voice in front of the room.
+                with self._lock:
+                    self.voice_suppressed += 1
+                print(f"[stream-speak] {e} — sentence SILENCED, no substitute voice")
+                raise
             except Exception as e:
-                print(f"[stream-speak] elevenlabs synth failed "
-                      f"({type(e).__name__}) — openai fallback for this sentence")
+                print(f"[stream-speak] unexpected synth failure "
+                      f"({type(e).__name__}: {str(e)[:120]}) — openai fallback")
         mp3 = self._client().audio.speech.create(
             **speech_engines.tts_create_kwargs(
                 getattr(speech_engines, "TTS_MODEL_DEFAULT", "tts-1"),
@@ -589,7 +611,7 @@ class SentenceSpeaker:
                 except Exception:
                     pass
             words = None
-            try:  # alignment sidecar written by speech_engines.tts_elevenlabs_wav
+            try:  # alignment sidecar written by speech_engines.tts_elevenlabs_wav or tts_fish_wav
                 with open(wav + ".align.json") as af:
                     words = json.load(af)
             except (OSError, ValueError):
@@ -998,6 +1020,7 @@ def stream_turn(client, artifacts, question, history, *, play_fn,
         "n_sentences": speaker.n_sentences,
         "audio_s": round(speaker.audio_s, 2),
         "spoken_words": speaker.spoken_words,
+        "voice_suppressed": speaker.voice_suppressed,
         "gate_blocked_sentences": gate_blocked,
         "gate_full": gate_full,
         "fidelity": fid_box or None,

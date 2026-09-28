@@ -661,6 +661,11 @@ def _uptime_s():
 UI_REV = str(int(max(os.path.getmtime(f) for f in __import__("glob").glob(
     os.path.join(os.path.dirname(os.path.abspath(__file__)), "ui_*.py")))))   # any page file change → open pages reload
 USAGE_PATH = os.path.expanduser("~/cj_usage.json")   # written by app/usage_meter.py
+# Written by app/voice_guard.py in the ROBOT process; read here because the
+# dashboard is a separate service under the system python3 and imports nothing
+# from app/. tmpfs, so it is empty after a reboot — which is correct: nothing
+# has failed yet (2026-09-16).
+VOICE_GUARD_PATH = os.environ.get("CJ_VOICE_GUARD_PATH", "/dev/shm/cj_voice_guard.json")
 _eleven_cache = {"ts": 0.0, "data": None}
 ERROR_RE = re.compile(
     r"Traceback|Error|error|FAILED|failed|refused|offline|exception|timed out|"
@@ -963,9 +968,16 @@ def _provider_status_locked():
     return out
 
 
+def voice_guard():
+    """This machine's cloned-voice guard state, or None when the app has never
+    tripped it. `ok: false` means answers are being kept silent (or, with the
+    operator's override on, spoken in a substitute voice) — see app/voice_guard.py."""
+    return _read_json(VOICE_GUARD_PATH)
+
+
 def usage():
     return {"ts": time.time(), "usage": _read_json(USAGE_PATH) or {},
-            "eleven": _eleven_quota()}
+            "eleven": _eleven_quota(), "voice": voice_guard()}
 
 
 _err_cache = {"ts": 0.0, "rows": None}
@@ -2135,6 +2147,133 @@ def eleven_conf_set(body):
         _restart_app()
         notes.append("voice app restarting (~25 s) so it picks up the change")
     return True, "; ".join(notes)
+
+
+# ── which clone speaks (2026-09-16) ────────────────────────────────────────
+# Two cloned voices of the same person now: Fish Audio (model "CJAP") and
+# ElevenLabs. CJ_TTS_ORDER picks the order; the user asked to see and set it
+# here — "making sure that it is fish audio" — because the engine NAMED in the
+# config and the engine actually SPEAKING can differ for a whole session when
+# the first one is out of credit.
+TTS_ORDERS = {
+    "fish,elevenlabs": "Fish Audio, then ElevenLabs",
+    "elevenlabs,fish": "ElevenLabs, then Fish Audio",
+    "fish": "Fish Audio only",
+    "elevenlabs": "ElevenLabs only",
+}
+ENGINE_LABEL = {"fish": "Fish Audio", "elevenlabs": "ElevenLabs"}
+_fish_cache = {"ts": 0.0, "data": None}
+
+
+def _fish_status():
+    """Fish key/model/credit, cached 5 min. The credit that matters is API
+    credit, which Fish bills SEPARATELY from platform credit — an account with
+    plenty of the latter still 402s on every synthesis."""
+    if time.time() - _fish_cache["ts"] < 300 and _fish_cache["data"] is not None:
+        return _fish_cache["data"]
+    key = _env_value("FISH_API_KEY") or ""
+    model = _env_value("FISH_MODEL_ID") or ""
+    out = {"configured": bool(key and model), "model_id": model,
+           "key_hint": ("\u2026" + key[-4:]) if key else "",
+           "credit": None, "model_name": None, "state": None, "error": None}
+    if not out["configured"]:
+        out["error"] = "no FISH_API_KEY / FISH_MODEL_ID in app/.env"
+        _fish_cache.update(ts=time.time(), data=out)
+        return out
+    import urllib.request
+    def _get(path):
+        req = urllib.request.Request("https://api.fish.audio" + path,
+                                     headers={"Authorization": f"Bearer {key}"})
+        with urllib.request.urlopen(req, timeout=8) as r:
+            return json.load(r)
+    try:
+        d = _get("/wallet/self/api-credit")
+        try:
+            out["credit"] = float(d.get("credit"))
+        except (TypeError, ValueError):
+            out["credit"] = 0.0
+    except Exception as e:
+        out["error"] = f"{type(e).__name__}: {e}"[:120]
+    if out["error"] is None:
+        try:
+            m = _get(f"/model/{model}")
+            out["model_name"], out["state"] = m.get("title"), m.get("state")
+        except Exception as e:
+            out["error"] = f"model lookup failed: {type(e).__name__}"[:120]
+    _fish_cache.update(ts=time.time(), data=out)
+    return out
+
+
+def voice_engines():
+    """The engine card: the configured order, each engine's health, and which
+    clone ACTUALLY spoke last (from the robot's voice guard)."""
+    order_raw = (_env_value("CJ_TTS_ORDER") or "fish,elevenlabs").strip()
+    order = [n.strip().lower() for n in order_raw.split(",") if n.strip()]
+    eleven = _eleven_quota() or {}
+    fish = _fish_status()
+    guard = voice_guard() or {}
+    eleven_left = None
+    if not eleven.get("error") and eleven.get("character_limit") is not None:
+        eleven_left = int(eleven["character_limit"]) - int(eleven.get("character_count") or 0)
+    return {
+        "order": order, "order_raw": ",".join(order),
+        "choices": [{"value": v, "label": l} for v, l in TTS_ORDERS.items()],
+        "primary": order[0] if order else None,
+        "last_engine": guard.get("last_engine"),
+        "last_engine_ts": guard.get("last_engine_ts"),
+        "guard_ok": guard.get("ok"),
+        "standby": guard.get("standby"),
+        "engines": {
+            "fish": {"label": "Fish Audio", "configured": fish["configured"],
+                     "ready": bool(fish["configured"] and (fish.get("credit") or 0) > 0
+                                   and fish.get("state") == "trained"),
+                     "detail": (fish["error"] if fish.get("error") else
+                                f"{fish.get('model_name') or fish['model_id']} "
+                                f"\u00b7 ${fish.get('credit'):.2f} API credit"
+                                if fish.get("credit") is not None else "unknown"),
+                     "credit": fish.get("credit"), "key_hint": fish.get("key_hint")},
+            "elevenlabs": {"label": "ElevenLabs",
+                           "configured": bool(_env_value("ELEVEN_API_KEY")),
+                           "ready": bool(eleven_left and eleven_left > 0),
+                           "detail": (eleven["error"] if eleven.get("error") else
+                                      f"{eleven.get('tier')} \u00b7 {eleven_left:,} chars left"
+                                      if eleven_left is not None else "unknown"),
+                           "chars_left": eleven_left},
+        },
+    }
+
+
+def voice_engine_set(body):
+    """Operator picked the engine order on /maintain. Writes CJ_TTS_ORDER to
+    app/.env and restarts the voice app, which reads the order at synthesis
+    time but caches module state at import."""
+    order = str(body.get("order") or "").strip().lower().replace(" ", "")
+    if order not in TTS_ORDERS:
+        return False, f"pick one of: {', '.join(TTS_ORDERS)}"
+    names = order.split(",")
+    st = voice_engines()
+    for n in names:
+        if not st["engines"][n]["configured"]:
+            return False, f"{ENGINE_LABEL[n]} has no credentials in app/.env"
+    primary = st["engines"][names[0]]
+    note = ""
+    if not primary["ready"]:
+        # Not refused: an operator may well be setting this up BEFORE topping
+        # up. But it must not look like it worked.
+        consequence = (f"every line will fall through to {ENGINE_LABEL[names[1]]}"
+                       if len(names) > 1 else
+                       "nothing will be spoken until you fix it")
+        note = (f" \u26a0 {ENGINE_LABEL[names[0]]} is not ready "
+                f"({primary['detail']}) \u2014 {consequence}")
+    try:
+        changed = _env_set({"CJ_TTS_ORDER": order})
+    except OSError as e:
+        return False, f"cannot write app/.env: {e}"
+    if not changed:
+        return True, f"no change \u2014 already {TTS_ORDERS[order]}"
+    _fish_cache["ts"] = 0.0
+    _restart_app()
+    return True, f"voice engine \u2192 {TTS_ORDERS[order]}; app restarting (~25 s){note}"
 
 
 def eleven_voice_sample(voice_id):

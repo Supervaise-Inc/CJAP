@@ -199,6 +199,21 @@ function render(html,idle,showQ){
   if(cur)cur.scrollIntoView({block:'center',behavior:'smooth'});
   else a.scrollTop=a.scrollHeight;
 }
+// Per-word timings for a sentence that arrived WITHOUT any (openai fallback,
+// a pre-2026-08-22 clip, a typed Say line): spread the words over the clip by
+// length, with a beat after punctuation, so each still appears as it is said
+// rather than the whole sentence at once (2026-09-16, user: "the word will
+// appear only when said"). Real timings always win when present.
+function estWords(text,dur){
+  const toks=String(text||'').split(/\\s+/).filter(Boolean);
+  if(!toks.length||!(dur>0))return null;
+  const LEAD=0.1,TAIL=0.3,span=Math.max(0.2,dur-LEAD-TAIL);
+  const wt=toks.map(t=>Math.max(1,t.replace(/[^\\p{L}\\p{N}]/gu,'').length)
+    +(/[.!?]["')\\]]*$/.test(t)?5:(/[,;:—]["')\\]]*$/.test(t)?3:0)));
+  const tot=wt.reduce((a,b)=>a+b,0);
+  let c=0;
+  return toks.map((t,i)=>{const s=LEAD+c/tot*span;c+=wt[i];return [t,+s.toFixed(3),+(LEAD+c/tot*span).toFixed(3)];});
+}
 // word-by-word reveal state + ticker (2026-09-12)
 let wwKey='', wwWords=null, wwPlay=0, wwPerf=0, wwRobot=0;
 function wordTick(){
@@ -245,16 +260,19 @@ function renderExhibit(s){
     if(sp&&!sp.done&&((sp.current&&sp.current.length)||(sp.spoken||[]).length)){
       setState('speaking');
       const line=(sp.current&&sp.current.length)?sp.current:sp.spoken[sp.spoken.length-1];
-      // word-by-word when the sentence carries ElevenLabs word timings; the
-      // plaque reveals each word as the audio reaches it (see wordTick). No
-      // timings (openai fallback, or an old clip) -> show the whole sentence.
-      if(sp.words&&sp.words.length&&sp.current&&sp.current.length){
+      // word-by-word: real timings (ElevenLabs or Fish) when the sentence
+      // carries them, else estimated from the clip length (estWords); the
+      // plaque reveals each word as the audio reaches it (see wordTick). Only
+      // a sentence with neither timings nor a duration shows whole.
+      const tw=(sp.current&&sp.current.length)?
+        ((sp.words&&sp.words.length)?sp.words:estWords(sp.current,sp.dur)):null;
+      if(tw){
         // identity is the clip, not the time: play_ts arrives a beat AFTER the
         // sentence text, so keying on it would rebuild the moment audio starts
-        const key=(sp.wav||sp.current);
+        const key=(sp.wav||sp.current)+(sp.words&&sp.words.length?'':'~');
         if(key!==wwKey){                       // new sentence: lay out hidden words, wait for audio
-          wwKey=key; wwWords=sp.words; wwPlay=0; wwLastScroll=-1;
-          render(sp.words.map((w,i)=>'<span class="w" data-i="'+i+'">'+esc(w[0])+'</span>').join(' '),false,true);
+          wwKey=key; wwWords=tw; wwPlay=0; wwLastScroll=-1;
+          render(tw.map((w,i)=>'<span class="w" data-i="'+i+'">'+esc(w[0])+'</span>').join(' '),false,true);
         }
         if(sp.play_ts){                        // audio truly started -> anchor to it (robot clock)
           if(!wwPlay)wwPlay=sp.play_ts;

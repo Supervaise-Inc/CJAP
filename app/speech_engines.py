@@ -18,6 +18,7 @@ import io
 import json
 import os
 import re
+import time
 import shutil
 import warnings
 from pathlib import Path
@@ -683,6 +684,12 @@ def tts_elevenlabs_wav(text: str, out_dir: str = "/dev/shm",
             usage_meter.elevenlabs(len(norm), cached=False)
         except Exception:
             pass
+        try:  # a REAL synthesis is the only proof this clone works; a cache
+            # hit needs no network and must never clear the guard
+            import voice_guard
+            voice_guard.synth_ok("elevenlabs")
+        except Exception:
+            pass
         words = _align_to_words(align)
         if words:
             try:
@@ -699,6 +706,205 @@ def tts_elevenlabs_wav(text: str, out_dir: str = "/dev/shm",
         except OSError:
             pass
     return f.name
+
+
+class VoiceUnavailable(Exception):
+    """Neither clone of Panganiban's voice could speak this text, and the voice
+    guard refuses a substitute. The caller must stay SILENT — see
+    app/voice_guard.py for why that beats the alternative."""
+
+    def __init__(self, primary, detail=""):
+        super().__init__(detail or str(primary))
+        self.primary = primary
+
+
+def tts_fish_wav(text: str, out_dir: str = "/dev/shm",
+                 speed: float | None = None) -> str:
+    """The STANDBY clone (voice/fish.py, Fish Audio model "CJAP") → the same
+    24 kHz mono PCM_16 wav contract as tts_elevenlabs_wav.
+
+    Own clip-cache namespace, so a Fish rendering never collides with the
+    ElevenLabs rendering of the same sentence and a later ElevenLabs recovery
+    does not serve Fish audio from cache. Word timings come from Fish's
+    timestamp stream and are written as the same ``.align.json`` sidecar, so
+    the captions reveal a Fish sentence word by word too (2026-09-16). A Fish
+    clip cached before that has no sidecar and is re-synthesized once."""
+    import sys as _sys
+    import tempfile as _tempfile
+    root = str(Path(__file__).resolve().parent.parent)
+    if root not in _sys.path:
+        _sys.path.insert(0, root)
+    import soundfile as sf
+    from voice import cache as v_cache
+    from voice import fish as v_fish
+
+    norm = v_cache.normalize_text(text)
+    key = v_cache.cache_key(norm, {"_engine": "fish", "_model": v_fish.model_id(),
+                                   "speed": speed})
+    align_path = v_cache.cache_dir() / f"{key}.align.json"
+    words = None
+    hit = v_cache.get(key)
+    if hit is not None:
+        try:
+            words = json.loads(align_path.read_text())
+        except (OSError, ValueError):
+            if v_fish.WORD_TIMINGS:   # pre-timestamp clip: render it again, once
+                hit = None
+    if hit is not None:
+        pcm, sr = hit
+    else:
+        words = []
+        pcm = v_fish.synthesize(norm, speed=speed, words_out=words)
+        sr = v_fish.audio.SYNTH_SAMPLE_RATE
+        v_cache.put(key, pcm, sr)
+        if words:
+            try:
+                align_path.write_text(json.dumps(words))
+            except OSError:
+                pass
+        try:  # a REAL synthesis is the only proof this clone works
+            import voice_guard
+            voice_guard.synth_ok("fish")
+        except Exception:
+            pass
+    f = _tempfile.NamedTemporaryFile(suffix=".wav", delete=False, dir=out_dir)
+    f.close()
+    sf.write(f.name, pcm, sr, subtype="PCM_16")
+    if words:
+        try:  # sidecar rides beside the temp wav for the speaking feed
+            with open(f.name + ".align.json", "w") as af:
+                json.dump(words, af)
+        except OSError:
+            pass
+    return f.name
+
+
+# Which clones of Panganiban to try, in order. Fish Audio first since
+# 2026-09-16 (user: "prioritize fish.audio voice"); ElevenLabs is the fallback.
+# Set CJ_TTS_ORDER to reorder or to drop one, e.g. "elevenlabs" or
+# "elevenlabs,fish". Unconfigured engines are skipped silently: an engine with
+# no credentials is "not installed", not "broken".
+TTS_ORDER_DEFAULT = "fish,elevenlabs"
+
+# A clone that answered "quota" will not answer differently for a while: that
+# is a billing state, not a blip. Skip it for a cool-off rather than paying a
+# dead round-trip on every sentence — measured 2026-09-16 with Fish at zero
+# API credit: 0.09 s warm, but 1.15 s for the first call of a process, which
+# lands squarely on time-to-first-audio. ONLY "quota" is cooled off; "network"
+# and "error" really do self-heal, and the guard's "not a circuit breaker"
+# promise is about those. 0 disables it.
+ENGINE_COOLOFF_S = float(os.environ.get("CJ_TTS_ENGINE_COOLOFF_S", "300"))
+_engine_cooloff: dict = {}   # engine -> monotonic deadline
+_engine_reason: dict = {}    # engine -> why it was cooled off, kept for the banner
+
+
+class _CooledOff(Exception):
+    """Stands in for the error a cooled-off engine WOULD have raised, carrying
+    the same .reason. Without it the banner would read "it rejected the
+    request" for every sentence after the first, because a skipped engine
+    raises nothing (2026-09-16)."""
+
+    def __init__(self, engine: str, reason: str):
+        super().__init__(f"{engine} skipped: out of credit")
+        self.reason = reason
+
+
+def engine_cooloff_left(engine: str) -> float:
+    """Seconds until `engine` is worth trying again (0 = try it now)."""
+    return max(0.0, _engine_cooloff.get(engine, 0.0) - time.monotonic())
+
+
+def _note_engine_result(engine: str, exc=None) -> None:
+    if exc is None:
+        _engine_cooloff.pop(engine, None)
+        _engine_reason.pop(engine, None)
+        return
+    if ENGINE_COOLOFF_S > 0 and getattr(exc, "reason", None) == "quota":
+        _engine_cooloff[engine] = time.monotonic() + ENGINE_COOLOFF_S
+        _engine_reason[engine] = "quota"
+        print(f"[tts] {engine} is out of credit — skipping it for "
+              f"{ENGINE_COOLOFF_S:g}s rather than paying a dead round-trip "
+              f"per sentence", flush=True)
+
+
+def engine_order() -> list:
+    """The configured clones, in the order they are tried. Empty is possible
+    (no credentials at all) and the caller must cope."""
+    names = [n.strip().lower() for n in
+             os.environ.get("CJ_TTS_ORDER", TTS_ORDER_DEFAULT).split(",") if n.strip()]
+    out = []
+    for n in names:
+        if n == "elevenlabs":
+            if os.environ.get("ELEVEN_API_KEY", "").strip():
+                out.append(n)
+        elif n == "fish":
+            try:
+                from voice import fish as v_fish
+                if v_fish.configured():
+                    out.append(n)
+            except Exception:
+                pass
+    return out
+
+
+def _synth_with(engine: str, text: str, out_dir: str, speed, eleven_kw):
+    if engine == "fish":
+        return tts_fish_wav(text, out_dir=out_dir, speed=speed)
+    return tts_elevenlabs_wav(text, out_dir=out_dir, speed=speed, **eleven_kw)
+
+
+def tts_cloned_wav(text: str, where: str = "", out_dir: str = "/dev/shm",
+                   speed: float | None = None, **eleven_kw):
+    """Panganiban's voice: every configured clone, in engine_order(), until one
+    speaks (2026-09-16).
+
+    Both clones are the same person, so falling from one to the other keeps ONE
+    voice in the room — which is the whole point: the OpenAI voice is a
+    stranger and may not stand in at all (see app/voice_guard.py).
+
+    Returns (wav_path, engine) on success.
+    Raises VoiceUnavailable when NO clone could speak and the guard refuses a
+    substitute: the caller must stay silent.
+    Returns (None, None) when no clone could speak but the operator's
+    CJ_ALLOW_VOICE_SUBSTITUTION override is on — the caller may then use its own
+    OpenAI path, exactly as it did before this guard existed."""
+    import voice_guard
+    order = engine_order()
+    # Cool-off is an optimisation, never a gate: if it would skip EVERY clone,
+    # ignore it and try them all — silence must never be caused by bookkeeping.
+    hot = [e for e in order if not engine_cooloff_left(e)]
+    if hot:
+        order = hot
+    if not order:
+        err = RuntimeError("no cloned voice is configured (CJ_TTS_ORDER matched nothing)")
+        if voice_guard.blocked(err, where=where):
+            raise VoiceUnavailable(err, str(err))
+        return None, None
+
+    first_err = None
+    for i, engine in enumerate(order):
+        try:
+            wav = _synth_with(engine, text, out_dir, speed, eleven_kw)
+        except Exception as e:
+            print(f"[tts] {engine} failed ({type(e).__name__}: {str(e)[:120]})", flush=True)
+            _note_engine_result(engine, e)
+            if first_err is None:
+                first_err = e
+            continue
+        _note_engine_result(engine)
+        voice_guard.spoke(engine)
+        primary = engine_order()[0] if engine_order() else engine
+        if engine != primary:
+            # a NON-primary clone spoke: the primary is down but the room is fine
+            voice_guard.degraded(
+                first_err or _CooledOff(primary, _engine_reason.get(primary, "quota")),
+                engine, where=where, failed=primary)
+        return wav, engine
+
+    if voice_guard.blocked(first_err, where=where, engine=order[0]):
+        raise VoiceUnavailable(first_err,
+                               f"{type(first_err).__name__}: {str(first_err)[:120]}")
+    return None, None
 
 
 def _align_to_words(align: dict) -> list | None:
@@ -1047,6 +1253,11 @@ PRICE_PER_MIN_WHISPER = 0.006
 
 __all__ = [
     "transcribe_openai",
+    "tts_fish_wav",
+    "tts_cloned_wav",
+    "engine_order",
+    "engine_cooloff_left",
+    "VoiceUnavailable",
     "add_reflective_pauses",
     "sentence_chunks",
     "tts_chunks_parallel_async",

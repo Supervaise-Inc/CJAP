@@ -59,6 +59,30 @@ h1 small{display:block;font-size:12px;font-weight:500;color:var(--dim);margin-to
 .mtags{flex-basis:100%;display:flex;gap:4px 14px;flex-wrap:wrap;font-size:13px;color:var(--dim)}
 .mtags .on{color:var(--ok)}.mtags .warn{color:var(--warn)}.mtags .bad{color:var(--bad)}
 @keyframes mpulse{50%{transform:scale(.78);opacity:.65}}
+/* voice-engine card: which clone of Panganiban is speaking (2026-09-16) */
+.engrow{display:flex;flex-wrap:wrap;align-items:center;gap:8px 12px;margin:8px 0}
+.engpick{display:flex;flex-wrap:wrap;gap:8px}
+.engpick label{display:inline-flex;align-items:center;gap:7px;padding:8px 13px;border-radius:999px;
+  border:1px solid var(--line2);background:var(--panel);cursor:pointer;font-size:13.5px;transition:border-color .2s,background .2s}
+.engpick label:hover{border-color:var(--gold)}
+.engpick input{accent-color:var(--gold);margin:0}
+.engpick label.on{border-color:var(--gold);background:rgba(212,168,53,.13);color:var(--gold2);font-weight:600}
+.engstat{display:flex;flex-wrap:wrap;gap:6px 10px;font-size:13px}
+.engstat span{display:inline-flex;align-items:center;gap:6px;padding:5px 11px;border-radius:999px;
+  background:var(--panel);border:1px solid var(--line)}
+.engstat .dot{width:9px;height:9px;border-radius:50%;background:var(--bad);flex:none}
+.engstat .up .dot{background:var(--ok)}
+.engnow{font-size:14px;padding:9px 13px;border-radius:var(--r);background:var(--panel2);border:1px solid var(--line)}
+.engnow b{color:var(--ink)}
+.engnow.mismatch{border-color:rgba(212,168,53,.6);background:rgba(212,168,53,.12)}
+/* voice-guard banner: Panganiban's voice is failing (2026-09-16) */
+#voicewarn:empty{display:none}
+#voicewarn{margin:12px 0 0;padding:13px 15px;border-radius:var(--r);background:rgba(240,85,77,.13);
+  border:1px solid rgba(240,85,77,.55);font-size:14px;line-height:1.5}
+#voicewarn b{display:block;font-size:15.5px;margin-bottom:3px;color:var(--bad)}
+#voicewarn.degraded{background:rgba(212,168,53,.13);border-color:rgba(212,168,53,.55)}
+#voicewarn.degraded b{color:var(--gold2)}
+#voicewarn .vsub{color:var(--dim);font-size:12.5px;margin-top:5px}
 /* quick-status strip: one pill per fact */
 .strip{display:flex;flex-wrap:wrap;gap:6px 8px;margin:12px 0 18px;font-size:13px}
 .strip>span{display:inline-flex;align-items:center;gap:6px;padding:6px 11px;border-radius:999px;background:var(--panel);border:1px solid var(--line)}
@@ -194,6 +218,7 @@ details.help[open] summary{margin-bottom:4px}
 <div class="main">
 <div id="mode" class="mode"><span class="dot"></span><b class="lbl" id="mlbl">&hellip;</b><span class="mdet" id="mdet"></span><span class="mage" id="mage"></span>
   <div class="msteps" id="msteps"></div><div class="mtags" id="mtags"></div></div>
+<div id="voicewarn" aria-live="polite"></div>
 <div id="strip" class="strip">loading&hellip;</div>
 <div class="grid">
 
@@ -355,6 +380,15 @@ details.help[open] summary{margin-bottom:4px}
     A <b>recording</b> is preferred over synthesis: the Host&rsquo;s voice is cloned by hand, so a real take sounds better and costs nothing per ask. Drop <span class="mono">.wav</span> files in <span class="mono">data/host_questions/</span>.
     The audio and the text are deliberately separate: the recording can be a warm, conversational reading while the text stays the precise question you want routed.</details>
   <span id="msg6"></span>
+</div>
+<div class="card c12" id="engine-card" data-tab="guest"><h2>Panganiban&rsquo;s voice <span class="dim">(which clone speaks)</span></h2>
+  <p class="hint">Two clones of the same person. The first one that answers speaks; if none can, the line is
+    kept <b>silent</b> rather than spoken in another voice. Changing this restarts the voice app (~25&nbsp;s).</p>
+  <div class="engrow"><span class="lbl">Order</span><div class="engpick" id="eng-pick"></div></div>
+  <div class="engrow"><span class="lbl">Health</span><div class="engstat" id="eng-stat"></div>
+    <button class="sm" onclick="engLoad(true)" title="re-check credit and quota">&#8635;</button></div>
+  <div class="engrow"><div class="engnow" id="eng-now" style="flex:1">&hellip;</div></div>
+  <span id="eng-msg"></span>
 </div>
 <div class="card c12" id="voices-card" data-tab="guest"><h2>Guest voice <span class="dim">(ElevenLabs &mdash; API key, voices, switching)</span></h2>
   <p class="hint">Store the ElevenLabs key once, then pick a voice for the Guest (or swap CJAP&rsquo;s). Listen before you choose.</p>
@@ -834,6 +868,41 @@ function renderAsk(s){const a=s.ask,el=$('ha-state');if(!el)return;
     :a.stage==='cjap'?'<b style="color:var(--ok)">handed to Panganiban</b>':'sent')
     +' \u2014 \u201c'+esc(a.text)+'\u201d'+(a.clip?' <span class="mono">['+esc(a.clip)+']</span>':'')+age;}
 haClips(false);haPresets();motionLoad();
+// Voice-engine card (2026-09-16, user: "add it in the UI the selection, making
+// sure that it is fish audio"). The engine NAMED in the config and the engine
+// actually SPEAKING can differ for a whole session — when the first clone is
+// out of credit every line quietly falls through to the second — so this shows
+// both, and says so loudly when they disagree.
+let ENG=null;
+async function engLoad(refresh){try{
+  const r=await(await fetch('/api/voice-engines?key='+encodeURIComponent(KEY)+(refresh?'&_='+Date.now():''),
+    {cache:'no-store'})).json();
+  if(r.ok===false){$('eng-now').innerText=r.output||'refused';return;}
+  ENG=r;engRender();}catch(e){$('eng-now').innerText='voice engines: '+e;}}
+function engRender(){const d=ENG;if(!d)return;
+  $('eng-pick').innerHTML=(d.choices||[]).map(c=>{
+    const on=c.value===d.order_raw;
+    return '<label class="'+(on?'on':'')+'"><input type="radio" name="engorder" value="'+esc(c.value)+'"'
+      +(on?' checked':'')+' onchange="engSet(this.value)">'+esc(c.label)+'</label>';}).join('');
+  $('eng-stat').innerHTML=Object.entries(d.engines||{}).map(([k,e])=>
+    '<span class="'+(e.ready?'up':'')+'" title="'+esc(e.detail)+'"><i class="dot"></i>'
+    +esc(e.label)+' <span class="dim">'+esc(e.configured?e.detail:'not configured')+'</span></span>').join('');
+  const prim=d.primary,last=d.last_engine;
+  const L=k=>((d.engines||{})[k]||{}).label||k;
+  let h,mis=false;
+  if(!last){h='Configured to speak as <b>'+esc(L(prim))+'</b>. '
+      +'<span class="dim">Nothing spoken yet this run \u2014 ask it something to confirm.</span>';}
+  else if(last===prim){h='Speaking as <b>'+esc(L(last))+'</b> \u2714 \u2014 the engine you chose.';}
+  else{mis=true;h='\u26a0 Configured as <b>'+esc(L(prim))+'</b> but actually speaking as <b>'
+      +esc(L(last))+'</b>. '+esc(((d.engines||{})[prim]||{}).detail||'')
+      +' \u2014 every line is falling through.';}
+  if(d.last_engine_ts)h+=' <span class="dim">(last spoke '+new Date(d.last_engine_ts*1000).toLocaleTimeString()+')</span>';
+  const n=$('eng-now');n.className='engnow'+(mis?' mismatch':'');n.innerHTML=h;}
+async function engSet(order){$('eng-msg').innerText='saving\u2026';
+  const r=await(await fetch('/api/voice-engines',{method:'POST',
+    body:JSON.stringify({order:order,key:KEY})})).json();
+  $('eng-msg').innerText=r.output||'';if(r.engines){ENG=r.engines;engRender();}}
+engLoad();setInterval(()=>{if(!document.hidden&&vis('eng-now'))engLoad()},15000);
 // Guest voice card (2026-09-12): ElevenLabs key + voice list + role switch.
 let EV={voices:[],cjap_voice_id:'',host_voice_id:''},EV_AUDIO=null;
 async function evLoad(refresh){try{const r=await(await fetch('/api/voices?key='+encodeURIComponent(KEY)+(refresh?'&refresh=1&_='+Date.now():''),{cache:'no-store'})).json();
@@ -953,7 +1022,37 @@ async function loadUsage(){try{
   const os_=S.openai||{},ol=L.openai||{};
   $('u-openai').innerHTML='<span class="dim">session</span>: '+(os_.stt_calls||0)+' transcriptions · '+Math.round(os_.stt_seconds||0)+' s audio<br><span class="dim">lifetime</span>: '+(ol.stt_calls||0)+' · '+Math.round((ol.stt_seconds||0)/60)+' min';
   $('usagets').innerText='updated '+new Date(u.ts*1000).toLocaleTimeString();
+  renderVoiceWarn(u.voice,e);
 }catch(err){for(const id of ['u-claude','u-eleven','u-openai'])$(id).innerText='usage fetch failed';}}
+// The cloned voice failing is otherwise silent: before 2026-09-16 the answer
+// just came out in the OpenAI voice, alternating with the cached lines inside
+// one answer. Two triggers, because either alone can be true first: the guard
+// (what actually happened when the robot last tried to speak) and the quota
+// reading (what will happen on the next uncached sentence).
+const ENGLBL={fish:'Fish Audio',elevenlabs:'ElevenLabs'};
+function renderVoiceWarn(v,e){const w=$('voicewarn');if(!w)return;
+  const tripped=v&&v.ok===false;
+  const spent=e&&!e.error&&e.character_limit&&e.character_count>=e.character_limit;
+  if(!tripped&&!spent){w.innerHTML='';w.className='';return}
+  let head,body,degraded=false;
+  if(tripped&&v.standby){degraded=true;
+    head='Speaking with the '+esc(ENGLBL[v.standby]||v.standby)+' clone';
+    body=esc(v.message||'');}
+  else if(tripped&&v.substitution_allowed){head='Answers are being spoken in a DIFFERENT VOICE';
+    body=esc(v.message||'');}
+  else if(tripped){head='Panganiban\u2019s voice is unavailable';
+    body=esc(v.message||'');}
+  else{head='ElevenLabs quota is used up';
+    body='Cached lines still play in his voice; a NEW sentence falls to the next clone in '
+        +'CJ_TTS_ORDER, and is kept silent if none can speak \u2014 never spoken by a stranger. '
+        +'Top up, or switch to DUET, which plays pre-rendered audio and needs neither quota nor network.';}
+  let sub='';
+  if(e&&!e.error&&e.character_limit)sub='ElevenLabs '+fmtTok(e.character_count)+' / '+fmtTok(e.character_limit)
+    +' chars'+(e.next_character_count_reset_unix?' \u00b7 resets '+new Date(e.next_character_count_reset_unix*1000).toLocaleString():'');
+  if(tripped&&v.since){sub+=(sub?' \u00b7 ':'')+'failing since '+new Date(v.since*1000).toLocaleTimeString();
+    sub+=' \u00b7 '+(v.standby?(v.standby_lines||0)+' line(s) by the standby':(v.suppressed||0)+' line(s) kept silent');}
+  w.className=degraded?'degraded':'';
+  w.innerHTML='<b>'+head+'</b>'+body+(sub?'<div class="vsub">'+esc(sub)+'</div>':'');}
 async function loadErrors(){try{const r=await(await fetch('/api/errors')).json();
   const rows=r.rows||[];$('errs').textContent=rows.length?rows.map(x=>x.t+'  '+x.unit.padEnd(5)+' '+x.msg).join('\\n'):'no errors this boot';
   $('errs').scrollTop=$('errs').scrollHeight;}catch(e){$('errs').textContent='error fetch failed';}}

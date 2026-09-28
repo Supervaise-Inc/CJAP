@@ -576,13 +576,20 @@ def say_text(text, voice=None):
             if busy:
                 return False, f"robot is {busy} — try again when it is idle"
             name = _publish_sentence_copy(wav)
+            words = None
+            try:  # clone timing sidecar (say_text_helper moves it beside the wav)
+                with open(wav + ".align.json") as af:
+                    words = json.load(af)
+            except (OSError, ValueError):
+                pass
             _publish_say_speaking(text, done=False, wav=name,
-                                  dur=_wav_duration(wav))
+                                  dur=_wav_duration(wav), words=words)
             mode = _avatar_mode()
             if mode:   # /face-avatar page is live: give it its head start
                 time.sleep(_avatar_lag())
             _publish_say_speaking(text, done=False, wav=name,
-                                  dur=_wav_duration(wav), play_ts=time.time())
+                                  dur=_wav_duration(wav), play_ts=time.time(),
+                                  words=words)
             if mode == "solo":   # avatar is the only voice
                 time.sleep(_wav_duration(wav) or 2.0)
                 code, out = 0, ""
@@ -601,7 +608,8 @@ def say_text(text, voice=None):
                 os.unlink(p)
 
 
-def _publish_say_speaking(text, done, wav=None, dur=None, play_ts=None):
+def _publish_say_speaking(text, done, wav=None, dur=None, play_ts=None,
+                          words=None):
     """Mirror the app's /dev/shm/cj_speaking.json feed for typed say-text
     lines so the /face-avatar and /audience pages speak/animate them too
     (fails open). wav = basename of the /dev/shm sentence copy."""
@@ -610,7 +618,8 @@ def _publish_say_speaking(text, done, wav=None, dur=None, play_ts=None):
         doc = {"ts": time.time(), "spoken": [text],
                "current": None if done else text, "done": done,
                "interrupted": False, "emotion": None,
-               "wav": None if done else wav, "dur": dur}
+               "wav": None if done else wav, "dur": dur,
+               "words": None if done else words}
         if play_ts is not None:
             doc["play_ts"] = play_ts
         with open(tmp, "w") as f:
@@ -1791,6 +1800,7 @@ class Handler(BaseHTTPRequestHandler):
                 "/api/ctl", "/api/entities", "/api/avatar-session",
                 "/api/avatar-stop", "/api/avatar-lag", "/api/avatar-status",
                 "/api/avatar-conf", "/api/voices", "/api/motion",
+                "/api/voice-engines",   # which clone of Panganiban speaks (2026-09-16)
                 "/api/ask", "/api/tuning", "/api/volume", "/api/mic",
                 # operator console (2026-09-10): floor lease + mode/profile
                 "/api/lease", "/api/floor", "/api/role", "/api/config", "/api/pending",

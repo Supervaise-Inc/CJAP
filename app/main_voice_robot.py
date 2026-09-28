@@ -125,6 +125,14 @@ def _online_cached(max_age_s=20.0):
     return bool(_ONLINE["up"])
 
 
+def _voice_ok() -> bool:
+    """Did the LAST speak() actually put audio in the room? Deliberately not
+    voice_guard.state()["ok"]: with the quota gone the guard stays tripped even
+    while the apology plays happily from the clip cache, and reading it here
+    would play the bail wav on top of a line the visitor already heard."""
+    return not _speak_timing.get("suppressed")
+
+
 def say_offline():
     if os.path.exists(NO_NET_WAV):
         subprocess.run(_aplay_cmd(NO_NET_WAV), stderr=subprocess.DEVNULL)
@@ -181,9 +189,17 @@ def _say_apology(err):
     # for a day; the full stack is what makes the next one diagnosable.
     print(traceback.format_exc().rstrip())
     _publish_transcript("note", f"(API error during compose — {type(err).__name__}: {short})")
+    # Three tiers, in the cloned voice or not at all (2026-09-16): the apology
+    # is fixed text at base settings, so it is a CLIP-CACHE hit and speaks even
+    # with the quota gone; if it is not cached, speak() now stays silent rather
+    # than substituting a voice, and the pre-rendered bail wav covers the room.
+    spoke = False
     try:
         speak(APOLOGY_TEXT, None)
+        spoke = _voice_ok()
     except Exception:
+        spoke = False
+    if not spoke:
         try:
             subprocess.run(_aplay_cmd(NO_NET_WAV), stderr=subprocess.DEVNULL)
         except Exception:
@@ -3078,6 +3094,7 @@ def speak(text, filler=None, stop=None, voice_settings=None):
     voice_settings: ElevenLabs voice_settings override for expressive
     deliveries (speech_engines.farewell_settings()); None = default voice."""
     interrupted = False
+    _speak_timing["suppressed"] = False   # set when the voice guard silences this line
     try:  # P0 entity pass on the spoken text (citation exactness); fails open
         from text_entities import process_tts_sentence
         text = process_tts_sentence(text)
@@ -3092,10 +3109,24 @@ def speak(text, filler=None, stop=None, voice_settings=None):
                 # 2026-09-12 name pin: canned lines say the name exactly like composed ones
                 voice_settings, _seed = speech_engines.name_pin_voice_settings(), speech_engines.name_pin_seed()
                 print(f"[namepin] curated line: speed {voice_settings.get('speed')} stability {voice_settings.get('stability')} seed {_seed}")
-            wav_from_eleven = speech_engines.tts_elevenlabs_wav(
-                text, voice_settings=voice_settings, seed=_seed)
+            wav_from_eleven, _eng = speech_engines.tts_cloned_wav(
+                text, where="line", voice_settings=voice_settings, seed=_seed)
+            if wav_from_eleven is None:
+                print("[tts] no clone could speak — openai fallback "
+                      "(CJ_ALLOW_VOICE_SUBSTITUTION is on)")
+        except speech_engines.VoiceUnavailable as e:
+            # Panganiban's voice or nothing (2026-09-16). Callers that need a
+            # voiced fallback degrade further themselves — see _say_apology.
+            print(f"[tts] {e} — line NOT spoken, no substitute voice: "
+                  f"{text[:60]!r}", flush=True)
+            _speak_timing["suppressed"] = True
+            if filler is not None:
+                filler.stop()   # nothing is coming; do not loop for ever
+            _publish_transcript("note", "(line not spoken — Panganiban's voice is "
+                                        "unavailable and no other voice may stand in)")
+            return False
         except Exception as e:
-            print(f"[tts] elevenlabs failed ({type(e).__name__}) — openai fallback")
+            print(f"[tts] unexpected synth failure ({type(e).__name__}) — openai fallback")
             wav_from_eleven = None
     if wav_from_eleven is None:
         mp3 = tts_concatenate_parallel(text)
@@ -3136,7 +3167,13 @@ def speak(text, filler=None, stop=None, voice_settings=None):
         except Exception:
             publish_speaking = None
         if publish_speaking:
-            publish_speaking([text], text, done=False,
+            _words = None
+            try:  # clone timing sidecar: captions reveal each word as it is said
+                with open(wav_path + ".align.json") as _af:
+                    _words = json.load(_af)
+            except (OSError, ValueError):
+                pass
+            publish_speaking([text], text, done=False, words=_words,
                              wav=publish_sentence_wav(wav_path),
                              dur=wav_duration(wav_path))
         _amode = _avatar_mode()
@@ -3281,6 +3318,18 @@ def _handle_turn_streaming(client, artifacts, gestures, history, stop,
             return True
         out = result.get("out")
         if not out or not out.get("response"):
+            return True
+        # Every sentence silenced by the voice guard: the composer succeeded but
+        # the room heard NOTHING. Say so in the cloned voice (cached) rather than
+        # leaving the visitor in front of a robot that looks switched off.
+        if out.get("voice_suppressed") and not out.get("audio_s"):
+            print(f"[voice-guard] whole answer silenced "
+                  f"({out['voice_suppressed']} sentence(s)) — voicing the apology", flush=True)
+            _publish_transcript("note", "(answer not spoken — the cloned voice is unavailable; "
+                                        "switch to DUET, which needs no quota)")
+            filler.stop()
+            gestures.start("talk")
+            _say_apology(RuntimeError("cloned voice unavailable — answer silenced"))
             return True
         response, routing = out["response"], out["routing"]
         _publish_transcript("cj", response)
@@ -4157,7 +4206,18 @@ def _floor_observe():
             "ask_done": int(_ASK["done"]),
             "duet_done": int(_DUET["done"]),
             "online": _online_cached(),
+            # the cloned voice's health, so the authority can raise the banner
+            # for the machine the operator is NOT looking at (2026-09-16)
+            "voice": _voice_report(),
             "muted": _muted()}
+
+
+def _voice_report():
+    try:
+        import voice_guard
+        return voice_guard.report()
+    except Exception:
+        return None
 
 
 def _floor_settings(settings, mode, profile, env):
@@ -4441,6 +4501,11 @@ def main():
     client = make_client()
     gestures = Gestures()
     gestures.neutral()
+    try:  # tmpfs outlives a service restart: drop any banner from the last run
+        import voice_guard
+        voice_guard.boot()
+    except Exception as e:
+        print(f"[voice-guard] boot reset skipped ({type(e).__name__}: {e})")
     print("Ready.\n")
     prewarm_boot()   # heavy imports + entity dictionary off the first turn
 
