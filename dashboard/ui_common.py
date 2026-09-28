@@ -24,6 +24,7 @@ import json
 import os
 import re
 import socket
+import shutil
 import subprocess
 import threading
 import time
@@ -2092,6 +2093,144 @@ def _restart_app():
     threading.Thread(target=lambda: subprocess.run(
         ["sudo", "-n", "systemctl", "restart", "supervaise.service"], timeout=60),
         daemon=True).start()
+
+
+# ---------------------------------------------------------------------------
+# API keys card (2026-09-28, user: "a column in maintain that we can add/remove
+# or edit the API that are in the codes"). The keys the code reads from
+# app/.env, one row each. The browser only ever gets a hint (the last 4
+# characters) — a value goes in, never comes out. A new key is tried against
+# its vendor before app/.env is touched; the previous file is kept as
+# app/.env.bak-keys (git-ignored) so a bad edit can be undone by hand.
+# ---------------------------------------------------------------------------
+API_KEYS = [
+    {"env": "ANTHROPIC_API_KEY", "label": "Anthropic (Claude)",
+     "used_for": "routing, composing every answer, fillers, audits",
+     "without": "no answers at all — only DUET mode works"},
+    {"env": "OPENAI_API_KEY", "label": "OpenAI",
+     "used_for": "speech-to-text: hearing the visitor’s question",
+     "without": "the robot cannot hear questions"},
+    {"env": "ELEVEN_API_KEY", "label": "ElevenLabs",
+     "used_for": "the Host voice, the ElevenLabs clone, pre-rendered clips",
+     "without": "the Host is silent; nothing new can be rendered"},
+    {"env": "FISH_API_KEY", "label": "Fish Audio",
+     "used_for": "Panganiban’s live voice (when Fish is in the engine order)",
+     "without": "Panganiban is silent if the order is Fish only"},
+]
+API_KEY_RE = re.compile(r"^[A-Za-z0-9_\-.]{16,300}$")   # also bars newlines / '=' injection
+
+
+def _probe_key(env, key, timeout=10):
+    """Ask the vendor whether `key` works -> ("ok" | "rejected" | "unverified", detail).
+    "unverified" = the vendor could not be asked (network, rate limit, 5xx)."""
+    import urllib.request, urllib.error
+    if env == "ELEVEN_API_KEY":
+        ok, d = _eleven_get("/v1/user/subscription", key, timeout=timeout)
+        if ok:
+            return "ok", f"tier {d.get('tier')}"
+        return ("rejected" if str(d).startswith(("HTTP 401", "HTTP 403")) else "unverified"), str(d)
+    url, headers = {
+        "ANTHROPIC_API_KEY": ("https://api.anthropic.com/v1/models",
+                              {"x-api-key": key, "anthropic-version": "2023-06-01"}),
+        "OPENAI_API_KEY": ("https://api.openai.com/v1/models",
+                           {"Authorization": f"Bearer {key}"}),
+        "FISH_API_KEY": ("https://api.fish.audio/wallet/self/api-credit",
+                         {"Authorization": f"Bearer {key}"}),
+    }[env]
+    try:
+        with urllib.request.urlopen(urllib.request.Request(url, headers=headers),
+                                    timeout=timeout) as r:
+            detail = ""
+            if env == "FISH_API_KEY":
+                try:
+                    detail = f"API credit {float(json.load(r).get('credit')):.2f}"
+                except Exception:
+                    pass
+            return "ok", detail or "accepted"
+    except urllib.error.HTTPError as e:
+        if e.code in (401, 403):
+            return "rejected", f"HTTP {e.code}"
+        return "unverified", f"HTTP {e.code}"
+    except Exception as e:
+        return "unverified", type(e).__name__
+
+
+def api_keys():
+    """The API keys card: one row per key, never the value."""
+    rows = []
+    for k in API_KEYS:
+        v = _env_value(k["env"]) or ""
+        rows.append(dict(k, set=bool(v), hint=("…" + v[-4:]) if len(v) >= 8 else ""))
+    return {"ok": True, "keys": rows}
+
+
+def _env_unset(names):
+    """Drop KEY=value lines from app/.env. Returns the keys actually removed."""
+    try:
+        with open(APP_ENV, encoding="utf-8") as f:
+            lines = f.read().splitlines()
+    except FileNotFoundError:
+        return []
+    keep, gone = [], []
+    for line in lines:
+        k = line.split("=", 1)[0].strip() if "=" in line and not line.lstrip().startswith("#") else None
+        if k in names:
+            gone.append(k)
+        else:
+            keep.append(line)
+    if gone:
+        tmp = APP_ENV + ".tmp"
+        with open(tmp, "w", encoding="utf-8") as f:
+            f.write("\n".join(keep) + "\n")
+        try:
+            os.chmod(tmp, os.stat(APP_ENV).st_mode & 0o777)
+        except OSError:
+            pass
+        os.replace(tmp, APP_ENV)
+    return gone
+
+
+def api_key_set(body):
+    """Store, replace or remove one key. body: {env, value} | {env, remove: true};
+    `force` stores a key the vendor could not be asked about. Restarts the app."""
+    env = str(body.get("env") or "").strip()
+    row = next((k for k in API_KEYS if k["env"] == env), None)
+    if row is None:
+        return False, "unknown key"
+    try:
+        shutil.copy2(APP_ENV, APP_ENV + ".bak-keys")
+        os.chmod(APP_ENV + ".bak-keys", 0o600)
+    except OSError:
+        pass
+    if body.get("remove"):
+        try:
+            gone = _env_unset({env})
+        except OSError as e:
+            return False, f"cannot write app/.env: {e}"
+        if not gone:
+            return True, f"no change — {row['label']} had no key"
+        _eleven_cache["ts"] = _fish_cache["ts"] = 0.0
+        _restart_app()
+        return True, f"{row['label']} key removed ({row['without']}); app restarting (~25 s)"
+    value = str(body.get("value") or "").strip()
+    if not API_KEY_RE.match(value):
+        return False, f"that does not look like an API key"
+    verdict, detail = _probe_key(env, value)
+    if verdict == "rejected":
+        return False, f"{row['label']} refused this key ({detail}) — not saved"
+    if verdict == "unverified" and not body.get("force"):
+        return False, {"need_force": True,
+                       "msg": f"could not check the key with {row['label']} ({detail})"}
+    try:
+        changed = _env_set({env: value})
+    except OSError as e:
+        return False, f"cannot write app/.env: {e}"
+    if not changed:
+        return True, f"no change — that {row['label']} key is already stored"
+    _eleven_cache["ts"] = _fish_cache["ts"] = 0.0
+    _restart_app()
+    note = f"checked: {detail}" if verdict == "ok" else "NOT checked — saved anyway"
+    return True, f"{row['label']} key saved …{value[-4:]} ({note}); app restarting (~25 s)"
 
 
 def eleven_conf_set(body):

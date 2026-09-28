@@ -599,6 +599,11 @@ details.help[open] summary{margin-bottom:4px}
     <button onclick="btScan(true)">&#128270; Scan (~10 s)</button><span id="btmsg" class="dim"></span></div>
   <div class="dim" style="font-size:13px">Tap a device to connect / disconnect / pair. Choose which speaker plays on <b>Live &rarr; Sound</b>; the speaker watchdog re-routes to a connected Bluetooth speaker within 15 s.</div>
 </div>
+<div class="card c12" id="keys-card" data-tab="system"><h2>API keys <span class="dim">(this robot&rsquo;s app/.env &mdash; add, replace, remove)</span></h2>
+  <p class="hint">A key is checked with its vendor before it is saved, then the voice app restarts (~25 s, any answer in progress is cut). Stored keys are never shown &mdash; only their last 4 characters. The other robot keeps its own keys.</p>
+  <div id="keys-list" class="dim">loading&hellip;</div>
+  <span id="keys-msg" class="dim"></span>
+</div>
 <div class="card c12" data-tab="system"><h2>Usage &amp; errors <span class="dim" id="usagets"></span></h2>
   <div id="prov" class="dim" style="margin-bottom:10px">checking providers&hellip;</div>
   <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:14px">
@@ -903,6 +908,37 @@ async function engSet(order){$('eng-msg').innerText='saving\u2026';
     body:JSON.stringify({order:order,key:KEY})})).json();
   $('eng-msg').innerText=r.output||'';if(r.engines){ENG=r.engines;engRender();}}
 engLoad();setInterval(()=>{if(!document.hidden&&vis('eng-now'))engLoad()},15000);
+// API keys card (2026-09-28): add / replace / remove the keys in app/.env.
+// The server sends a 4-character hint per key, never the key itself.
+let KEYS=[];
+async function keysLoad(){try{
+  const r=await(await fetch('/api/keys?key='+encodeURIComponent(KEY),{cache:'no-store'})).json();
+  if(r.ok===false){$('keys-list').innerText=r.output||'refused';return;}
+  KEYS=r.keys||[];keysRender();}catch(e){$('keys-list').innerText='keys: '+e;}}
+function keysRender(){
+  $('keys-list').innerHTML='<table><tr><th>service</th><th>stored</th><th>used for</th><th>new key</th><th></th></tr>'
+    +KEYS.map((k,i)=>'<tr><td><b>'+esc(k.label)+'</b><br><span class="mono dim" style="font-size:11px">'+esc(k.env)+'</span></td>'
+      +'<td>'+(k.set?'<span class="chip ok">'+esc(k.hint||'set')+'</span>':'<span class="chip bad">none</span>')+'</td>'
+      +'<td class="dim">'+esc(k.used_for)+'</td>'
+      +'<td><input id="key-in-'+i+'" type="password" autocomplete="off" spellcheck="false" style="min-width:180px;width:100%"'
+      +' placeholder="'+(k.set?'paste to replace':'paste to add')+'"></td>'
+      +'<td style="white-space:nowrap"><button class="sm primary" onclick="keySave('+i+',false)">'+(k.set?'Replace':'Add')+'</button>'
+      +(k.set?' <button class="sm danger" onclick="keyRemove('+i+')">Remove</button>':'')+'</td></tr>').join('')+'</table>';}
+async function keyPost(body){$('keys-msg').innerText='checking with the vendor…';
+  const r=await(await fetch('/api/keys',{method:'POST',body:JSON.stringify(Object.assign({key:KEY},body))})).json();
+  if(r.keys)KEYS=r.keys;return r;}
+async function keySave(i,force){const k=KEYS[i],v=($('key-in-'+i).value||'').trim();
+  if(!v){$('keys-msg').innerText='paste a key first';return;}
+  try{const r=await keyPost({env:k.env,value:v,force:!!force});
+    if(r.need_force){if(confirm(r.output+'.\\n\\nSave it anyway, unchecked?'))return keySave(i,true);
+      $('keys-msg').innerText='not saved';return;}
+    $('keys-msg').innerText=r.output||'';if(r.ok)keysRender();}   // a refused key stays in its box
+  catch(e){$('keys-msg').innerText='save failed: '+e;}}
+async function keyRemove(i){const k=KEYS[i];
+  if(!confirm('Remove the '+k.label+' key ('+k.hint+')?\\n\\nWithout it: '+k.without+'.\\nThe voice app restarts.'))return;
+  try{const r=await keyPost({env:k.env,remove:true});$('keys-msg').innerText=r.output||'';keysRender();}
+  catch(e){$('keys-msg').innerText='remove failed: '+e;}}
+keysLoad();
 // Guest voice card (2026-09-12): ElevenLabs key + voice list + role switch.
 let EV={voices:[],cjap_voice_id:'',host_voice_id:''},EV_AUDIO=null;
 async function evLoad(refresh){try{const r=await(await fetch('/api/voices?key='+encodeURIComponent(KEY)+(refresh?'&refresh=1&_='+Date.now():''),{cache:'no-store'})).json();

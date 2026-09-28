@@ -168,6 +168,11 @@ def handle_get(h, path, params):
             h._send(403, json.dumps({"ok": False, "output": "bad key"}))
         else:
             h._send(200, json.dumps(voice_engines()))
+    elif path == "/api/keys":   # API keys card (2026-09-28): a hint per key, never a value
+        if not _authed(params):
+            h._send(403, json.dumps({"ok": False, "output": "bad key"}))
+        else:
+            h._send(200, json.dumps(api_keys()))
     elif path in _console.CONSOLE_PATHS_GET:
         code, out = _console.api(_console.get_console(), "GET", path, params,
                                  authed=_authed(params))
@@ -364,6 +369,20 @@ def handle_post(h, path, body):
             print(f"[ctl] {h.client_address[0]} voice-engines {body.get('order', '')} -> "
                   f"{out if ok else 'REFUSED: ' + str(out)}", flush=True)
             h._send(200, json.dumps({"ok": ok, "output": out, "engines": voice_engines()}))
+    elif path == "/api/keys":
+        # API keys card: add / replace / remove one key in app/.env. The body
+        # carries a secret — log the key's NAME and last 4 characters only.
+        if not _authed({}, body):
+            h._send(403, json.dumps({"ok": False, "output": "bad key"}))
+        else:
+            ok, out = api_key_set(body)
+            what = "remove" if body.get("remove") else "set …" + str(body.get("value") or "")[-4:]
+            print(f"[ctl] {h.client_address[0]} api-key {body.get('env', '')} {what} -> "
+                  f"{'ok' if ok else 'REFUSED'}", flush=True)
+            force = isinstance(out, dict) and out.get("need_force")
+            h._send(200, json.dumps({**api_keys(), "ok": ok,
+                                     "output": out["msg"] if force else out,
+                                     "need_force": bool(force)}))
     elif path == "/api/avatar-conf":
         # /maintain "Avatar" row: switch the LiveAvatar avatar (and, if the new
         # one lives on another account, its API key). Never logged - the body
