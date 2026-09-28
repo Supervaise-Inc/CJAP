@@ -1070,7 +1070,7 @@ function render(s){try{LAST_S=s;LAST_AT=Date.now();
   $('cam-hint').innerText=s.camera_off?'OFF \u2014 /audience shows its idle plaque instead of the portrait':'on \u2014 always running until Camera off';
   $('btn-ev-on').style.display=s.event_mode?'none':'';
   $('btn-ev-off').style.display=s.event_mode?'':'none';
-  $('ev-hint').innerText=s.event_mode?'ON \u2014 spoken event questions (and paraphrases) get the scripted answers':'off \u2014 normal conversation; the /event buttons still work';
+  $('ev-hint').innerText=s.event_mode?'ON \u2014 spoken event questions (and paraphrases) get the scripted answers':'off \u2014 normal conversation';
   try{renderRoles(s);}catch(e){}
   try{renderAsk(s);}catch(e){}
   const av=s.avatar_page||{},avAge=av.ts?(s.ts-av.ts):1e9,avOn=avAge<10;
