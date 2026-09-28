@@ -860,15 +860,29 @@ def _synth_with(engine: str, text: str, out_dir: str, speed, eleven_kw):
 _STAGE_DIRECTION = re.compile(r"^\s*\*+[^*]+\*+\s*[.!?]?\s*$")
 
 
+# Quote marks are read aloud too (2026-09-28, user: "make it not read \" '").
+# Double quotes always go; a single quote only where it is not an apostrophe
+# inside a word, so "don't" and "Panganiban's" keep theirs.
+_QUOTE_MARKS = re.compile(r'["\u201c\u201d\u201e\u00ab\u00bb]'
+                          r"|(?<![A-Za-z0-9])['\u2018\u2019]|['\u2018\u2019](?![A-Za-z0-9])")
+
+
+def strip_marks(text: str) -> str:
+    """Remove the characters a voice must not read: asterisks and quote marks.
+    The words they wrapped are kept."""
+    text = _QUOTE_MARKS.sub("", text.replace("*", ""))
+    return re.sub(r"\s+([,.!?;:])", r"\1", " ".join(text.split()))
+
+
 def speakable(text: str) -> str:
     """Text as it should be SPOKEN: a sentence that is wholly *italic* is a
-    stage direction ("*chuckles warmly*") and is dropped; any other asterisk
-    is removed and the words it wrapped are kept."""
+    stage direction ("*chuckles warmly*") and is dropped; otherwise asterisks
+    and quote marks are removed and the words they wrapped are kept."""
     if not text:
         return text
     if _STAGE_DIRECTION.match(text):
         return ""
-    return " ".join(text.replace("*", " ").split())
+    return strip_marks(text)
 
 
 def tts_cloned_wav(text: str, where: str = "", out_dir: str = "/dev/shm",
@@ -888,8 +902,8 @@ def tts_cloned_wav(text: str, where: str = "", out_dir: str = "/dev/shm",
     OpenAI path, exactly as it did before this guard existed."""
     import voice_guard
     # Backstop for every caller (fillers, curated lines, Say): never voice an
-    # asterisk. Stage-direction sentences are dropped earlier, in the stream.
-    text = " ".join(text.replace("*", " ").split()) or text
+    # asterisk or a quote mark. Stage directions are dropped earlier, in the stream.
+    text = strip_marks(text) or text
     order = engine_order()
     # Cool-off is an optimisation, never a gate: if it would skip EVERY clone,
     # ignore it and try them all — silence must never be caused by bookkeeping.

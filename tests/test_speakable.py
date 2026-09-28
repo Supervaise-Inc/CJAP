@@ -33,3 +33,18 @@ def test_tts_backstop_strips_asterisks(monkeypatch):
     monkeypatch.setattr(voice_guard, "spoke", lambda *a, **k: None)
     se.tts_cloned_wav("I say *au contraire* to that.", where="test")
     assert seen == ["I say au contraire to that."]
+
+
+def test_double_quotes_removed():
+    assert se.speakable('I wrote "With Due Respect" for years.') == \
+        "I wrote With Due Respect for years."
+    assert se.speakable("He said “justice”, not mercy.") == "He said justice, not mercy."
+    assert se.speakable('My motto is "liberty and prosperity".') == \
+        "My motto is liberty and prosperity."
+
+
+def test_single_quotes_removed_apostrophes_kept():
+    assert se.speakable("The word 'justice' matters.") == "The word justice matters."
+    assert se.speakable("Don't forget Panganiban's column.") == \
+        "Don't forget Panganiban's column."
+    assert se.speakable("It’s the ‘rule of law’.") == "It’s the rule of law."
