@@ -118,6 +118,8 @@ button.primary{background:linear-gradient(180deg,var(--gold2),var(--gold));color
 button.danger{background:rgba(240,85,77,.12);border-color:rgba(240,85,77,.45);color:#ffb4ae}button.danger:hover{background:rgba(240,85,77,.22)}
 button[disabled]{opacity:.5;cursor:default;transform:none}
 .btns{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin-bottom:10px}
+a.btn{display:inline-flex;align-items:center;gap:6px;height:42px;padding:0 15px;border-radius:10px;background:var(--btn);border:1px solid var(--line2);color:var(--ink);text-decoration:none;font-weight:600;font-size:14px;white-space:nowrap}
+a.btn:hover{border-color:var(--gold);color:var(--gold)}
 .btns .lbl{color:var(--faint);font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.12em;min-width:64px}
 /* toggles */
 .sw{position:relative;display:inline-flex;align-items:center;gap:10px;cursor:pointer;user-select:none;font-weight:600;font-size:13.5px}
@@ -184,29 +186,6 @@ details.help[open] summary{margin-bottom:4px}
 </style></head><body>
 <div class="hdr">
 <h1><b>CJAP</b> Maintenance<small>audience: <a href="/audience" target="_blank">/audience</a> &middot; console: <a href="/console" id="consolelink" target="_blank">/console</a> &middot; ops: <a href="/" target="_blank">/</a></small></h1>
-<!-- the two display views (2026-09-14). Labelled for what they are FOR, because
-     putting the operator one on a visitor-facing monitor is the mistake to avoid. -->
-<div class="card c6" data-tab="system"><h2>Display screens</h2>
-  <p class="hint">Two read-only views. Neither starts an avatar session, sends a command or
-  writes anything, so opening them cannot disturb a turn or another screen.</p>
-  <div class="btns" style="flex-wrap:wrap;gap:8px">
-    <a class="btn" href="/stage" target="_blank">&#127917; /stage &mdash; for the visitor</a>
-    <a class="btn" href="/display" target="_blank">&#128065; /display &mdash; for you</a>
-    <a class="btn" href="/display?public_display=1" target="_blank">/display &mdash; public screen</a>
-    <a class="btn" href="/tune" id="tunelink" target="_blank">&#127899; /tune &mdash; motion sliders</a>
-  </div>
-  <details class="hint"><summary>which one goes where</summary>
-    <b>/stage</b> is the face alone, full bleed, no text and no controls &mdash; for a monitor
-    beside the robot or a tablet a visitor can see. It shows nothing a visitor should not read,
-    and never shows an error.<br>
-    <b>/display</b> adds the camera and the question and answer plaques, and shows the question
-    while it is being answered &mdash; for your laptop or a screen you control.<br>
-    <b>/display?public_display=1</b> is the same page for a screen the public can photograph:
-    a question appears only after it has been answered, and never if a safety gate fired.<br>
-    Mouth timing: set the <i>response delay</i> slider on /tune while the robot speaks; /stage
-    and /display follow it by themselves. The internal speaker and an external one need
-    different values.
-  </details></div>
 <div class="statuslinks" title="Provider status pages (open in new tab)">
   <a href="https://status.claude.com" target="_blank" rel="noopener"><i></i>Claude status</a>
   <a href="https://status.elevenlabs.io" target="_blank" rel="noopener"><i></i>ElevenLabs status</a>
@@ -521,6 +500,29 @@ details.help[open] summary{margin-bottom:4px}
 
 <!-- ═══ SYSTEM ═══ -->
 <div class="sec" data-tab="system">System &mdash; health, network, providers</div>
+<!-- the two display views (2026-09-14). Labelled for what they are FOR, because
+     putting the operator one on a visitor-facing monitor is the mistake to avoid. -->
+<div class="card c6" data-tab="system"><h2>Display screens</h2>
+  <p class="hint">Two read-only views. Neither starts an avatar session, sends a command or
+  writes anything, so opening them cannot disturb a turn or another screen.</p>
+  <div class="btns" style="flex-wrap:wrap;gap:8px">
+    <a class="btn" href="/stage" target="_blank">&#127917; /stage &mdash; for the visitor</a>
+    <a class="btn" href="/display" target="_blank">&#128065; /display &mdash; for you</a>
+    <a class="btn" href="/display?public_display=1" target="_blank">/display &mdash; public screen</a>
+    <a class="btn" href="/tune" id="tunelink" target="_blank">&#127899; /tune &mdash; motion sliders</a>
+  </div>
+  <details class="hint"><summary>which one goes where</summary>
+    <b>/stage</b> is the face alone, full bleed, no text and no controls &mdash; for a monitor
+    beside the robot or a tablet a visitor can see. It shows nothing a visitor should not read,
+    and never shows an error.<br>
+    <b>/display</b> adds the camera and the question and answer plaques, and shows the question
+    while it is being answered &mdash; for your laptop or a screen you control.<br>
+    <b>/display?public_display=1</b> is the same page for a screen the public can photograph:
+    a question appears only after it has been answered, and never if a safety gate fired.<br>
+    Mouth timing: set the <i>response delay</i> slider on /tune while the robot speaks; /stage
+    and /display follow it by themselves. The internal speaker and an external one need
+    different values.
+  </details></div>
 <div class="card c6" data-tab="system"><h2>Health</h2><div id="health"></div><div id="flags"></div></div>
 <div class="card c6" data-tab="system"><h2>System</h2><div id="services"></div><div id="sys" class="dim">loading&hellip;</div>
   <div class="btns" style="margin-top:10px"><span class="lbl">Restart</span>
@@ -1131,8 +1133,11 @@ function render(s){try{LAST_S=s;LAST_AT=Date.now();
         :'<span class="dim">no doc data (turn predates this feature)</span>');
     let lat='STT '+m.stt_s+'s'+bar(m.stt_s,10)+'Compose '+m.compose_s+'s'+bar(m.compose_s,20);
     if(sp&&sp.question===m.question)
-      lat+=(sp.streamed?'First audio '+(sp.first_audio_s!=null?sp.first_audio_s:'?')+'s'+bar(sp.first_audio_s||0,15)
-        :'TTS synth '+sp.synth_s+'s'+bar(sp.synth_s,10)+'Playback '+sp.play_s+'s'+bar(sp.play_s,40))
+      // a streamed answer publishes its time to first audio (as first_audio_s, or as synth_s with no
+      // play_s); only a clip played whole has separate synth and playback times
+      lat+=((sp.streamed||sp.play_s==null)&&(sp.first_audio_s!=null||sp.synth_s!=null)
+        ?'First audio '+(sp.first_audio_s!=null?sp.first_audio_s:sp.synth_s)+'s'+bar(sp.first_audio_s!=null?sp.first_audio_s:sp.synth_s,15)
+        :(sp.synth_s!=null?'TTS synth '+sp.synth_s+'s'+bar(sp.synth_s,10):'')+(sp.play_s!=null?'Playback '+sp.play_s+'s'+bar(sp.play_s,40):''))
         +(sp.wpm?'Speech '+sp.wpm+' wpm <span class="dim">('+sp.words+' words / '+sp.audio_s+'s audio)</span>'+bar(sp.wpm,200):'')
         +(sp.interrupted?'<span class="raw">interrupted</span>':'');
     $('lat').innerHTML=lat;}
@@ -1142,7 +1147,7 @@ function render(s){try{LAST_S=s;LAST_AT=Date.now();
     '<th>cost</th><th>STT s</th><th>compose s</th><th>speech</th><th>wpm</th><th>flags</th></tr>'+
     Object.values(byQ).sort((a,b)=>(b.ts||0)-(a.ts||0)).slice(0,12).map(x=>{
       const sp2=x.streamed?('first audio '+(x.first_audio_s!=null?x.first_audio_s+'s':'?'))
-        :(x.synth_s!=null?('synth '+x.synth_s+'s / play '+x.play_s+'s'):'');
+        :(x.synth_s!=null?('synth '+x.synth_s+'s'+(x.play_s!=null?' / play '+x.play_s+'s':'')):'');
       const fl=[x.streamed?'stream':'',x.dynamic_tokens?'dyn-tok':'',x.interrupted?'CUT':'',
         (x.fidelity_flags&&x.fidelity_flags.length)?('FID:'+x.fidelity_flags.join(',')):''].filter(Boolean).join(' ');
       const dks=(x.docs||[]).filter(d=>!d.dropped_for_budget).map(d=>d.doc_id).join(', ');
