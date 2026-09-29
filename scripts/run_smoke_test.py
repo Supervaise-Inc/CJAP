@@ -127,7 +127,7 @@ def main() -> int:
                 routing = force_meta_routing(gate["reasoning"])
             else:
                 routing = route_question(client, q["question"], artifacts)
-            context = build_context(routing, artifacts)
+            context = build_context(routing, artifacts, question=q["question"])
             response, fidelity = generate_response_with_fidelity(
                 client, q["question"], routing, artifacts,
                 conversation_history=None,

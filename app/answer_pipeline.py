@@ -106,7 +106,7 @@ COMPOSER_MAX_TOKENS = int(os.environ.get("CJ_COMPOSER_MAX_TOKENS", "220"))
 # Router output cap (2026-08-21): the router emits ~100 tokens of compact JSON
 # (reasoning is prompt-capped to one short clause); a tight cap just bounds
 # runaway output. Do NOT set below ~140 — a truncated JSON parse falls back to
-# rule_of_law/low-confidence routing.
+# FALLBACK_TOPIC/low-confidence routing.
 ROUTER_MAX_TOKENS = int(os.environ.get("CJ_ROUTER_MAX_TOKENS", "300"))
 COMPOSER_EFFORT = os.environ.get("CJ_COMPOSER_EFFORT", "low").strip()
 SKIP_FIDELITY = os.environ.get("CJ_SKIP_FIDELITY", "").strip().lower() in {"1", "true", "yes", "on"}
@@ -122,43 +122,40 @@ DYNAMIC_TOKENS_ENABLED = (
 # rollup was removed 2026-08-20, user-directed — matches develop's P1
 # refactor). Seeded from the retired per-theme values via each topic's
 # theme_anchor; every value is now independently tunable. Env override merges
-# topic keys: CJ_TOKEN_BUDGET_BY_DIM='{"rule_of_law": 300}'. A topic missing
+# topic keys: CJ_TOKEN_BUDGET_BY_DIM='{"judicial_reform": 300}'. A topic missing
 # from the table (e.g. after a taxonomy regen) gets TOKEN_BUDGET_DIM_DEFAULT.
+# Re-seeded onto taxonomy v2 (2026-09-27) by the same theme_anchor rule.
 _TOKEN_BUDGET_DEFAULT = {
-    "rule_of_law": 260,
-    "twin_beacons_doctrine": 240,
     "foundation_for_liberty_and_prosperity": 220,
-    "with_due_respect_persona": 240,
-    "constitutional_doctrine": 260,
-    "due_process": 260,
-    "judicial_reform": 260,
-    "supreme_court_history": 260,
-    "impeachment_accountability": 260,
+    "twin_beacons_doctrine": 260,
+    "life_story_family_school_and_church": 200,
+    "criminal_trials_and_prosecutions": 260,
     "international_law_disputes": 260,
-    "icc_and_duterte": 260,
-    "judicial_activism_and_political_question": 260,
-    "asean_law_association": 260,
-    "death_penalty_and_echegaray": 260,
-    "bar_exam_and_legal_education": 260,
-    "economic_governance_and_business_law": 240,
-    "eez_resource_sovereignty": 240,
-    "msme_and_entrepreneurship": 240,
-    "family_and_marriage": 200,
-    "mentors_and_legal_lineage": 200,
+    "property_contracts_and_economic_rights": 240,
+    "presidential_power_martial_law_people_power": 260,
+    "elections_and_automated_voting": 260,
+    "judicial_reform": 260,
+    "party_list_charter_change_and_dynasties": 260,
+    "science_technology_and_the_law": 240,
+    "impeachment_accountability": 260,
+    "public_funds_budget_and_bank_evidence": 260,
+    "us_supreme_court_and_american_politics": 260,
     "faith_journey": 200,
-    "early_life_sampaloc": 200,
-    "jbc_discernment_and_appointment": 200,
-    "eulogies_and_passing": 200,
-    "friendships_and_civic_circles": 200,
-    "honors_received": 200,
-    "flp_scholarship_programs": 220,
-    "museum_for_liberty_and_prosperity": 220,
-    "prosperity_fund_msme": 220,
-    "flp_donors_and_partners": 220,
-    "lawyer_ethics_initiative": 220,
-    "ai_and_technology": 240,
-    "global_geopolitics": 240,
-    "philippine_political_landscape": 240,
+    "how_the_supreme_court_decides": 260,
+    "libel_and_cybercrime": 260,
+    "judiciary_milestones_and_tributes": 200,
+    "economy_taxes_and_prosperity": 240,
+    "death_penalty_and_echegaray": 260,
+    "independent_commissions_and_appointments": 260,
+    "bangsamoro_peace_process": 260,
+    "marcos_robredo_election_contest": 260,
+    "supreme_court_vacancies_and_chief_justiceship": 260,
+    "asean_law_association": 260,
+    "ill_gotten_wealth_and_the_pcgg": 260,
+    "bar_exam_and_legal_education": 220,
+    "citizenship_and_residency_grace_poe": 260,
+    "marriage_annulment_and_the_family_code": 260,
+    "jbc_discernment_and_appointment": 260,
     "robot_identity_meta": 120,
 }
 TOKEN_BUDGET_DIM_DEFAULT = int(os.environ.get("CJ_TOKEN_BUDGET_DIM_DEFAULT", "220"))
@@ -271,9 +268,10 @@ def _composer_speed_kwargs() -> dict:
             "output_config": {"effort": COMPOSER_EFFORT}}
 
 
-# Per ADR-0011: doc IDs follow ^[SCG][A-E]\d+$. The first letter selects the
+# Per ADR-0011: doc IDs follow ^[SCGB][A-E]\d+$. The first letter selects the
 # corpus subdirectory; the second letter selects the theme subdirectory.
-_TYPE_DIRS = {"S": "speeches", "C": "columns", "G": "biography"}
+# B (book chapters) arrived with knowledge base v2 (2026-09-27).
+_TYPE_DIRS = {"S": "speeches", "C": "columns", "G": "biography", "B": "books"}
 _THEME_DIRS = {
     "A": "A_liberty_rule_of_law",
     "B": "B_prosperity_economic_philosophy",
@@ -281,7 +279,22 @@ _THEME_DIRS = {
     "D": "D_flp_mission_foundation",
     "E": "E_current_events_commentary",
 }
-_DOC_ID_RE = re.compile(r"^([SCG])([A-E])(\d+)$")
+_DOC_ID_RE = re.compile(r"^([SCGB])([A-E])(\d+)$")
+
+# Where an invalid or unparseable routing lands. Was rule_of_law until
+# taxonomy v2 folded it into the twin beacons ("both rest on the rule of law").
+FALLBACK_TOPIC = "twin_beacons_doctrine"
+META_TOPIC = "robot_identity_meta"
+_META_TOPIC_NODE = {
+    "id": META_TOPIC, "display_name": "Robot Identity (META)",
+    "definition": ("Questions about whether this is the real CJP, an AI, a robot, "
+                   "or how it works. Answered fully in persona as Chief Justice "
+                   "Panganiban himself (the voice card's Identity rule)."),
+    "tier": "meta", "theme_anchor": "META",
+    "default_register": "gracious_in_persona",
+    "wit_calibration": "gentle, self-deprecating",
+    "doc_count": 0, "doc_ids": [],
+}
 
 
 @dataclass
@@ -482,7 +495,7 @@ def cache_savings_summary() -> str:
 def _doc_paths(config: Config, doc_id: str) -> tuple[Path, Path] | None:
     """Resolve (md_path, json_path) for a doc id under the Phase 1 layout.
 
-    Returns None if the id doesn't match ^[SCG][A-E]\\d+$ or the files
+    Returns None if the id doesn't match ^[SCGB][A-E]\\d+$ or the files
     aren't present.
     """
     m = _DOC_ID_RE.match(doc_id)
@@ -549,7 +562,25 @@ class CorpusArtifacts:
             self.router_system = match.group(1) if match else raw
 
         self.topics = self.topic_map["topics"]
+        # Taxonomy v2 (2026-09-27) carries robot_identity_meta as a router
+        # intent, not a corpus topic. The router prompt still returns it and
+        # force_meta_routing() still sets it, so it must stay a valid id.
+        self.topics.setdefault(META_TOPIC, dict(_META_TOPIC_NODE))
         self.valid_topic_ids = set(self.topics.keys())
+        if FALLBACK_TOPIC not in self.topics:
+            raise ValueError(f"topic_map has no fallback topic {FALLBACK_TOPIC!r}")
+
+        # doc id -> (title+keyword terms, own primary topics), for the
+        # question-relevance tiebreak in _select_source_doc_ids. Built once.
+        self.doc_index: dict[str, tuple[frozenset, tuple]] = {}
+        for tid in self.topics:
+            for did in self.topics[tid].get("doc_ids", []):
+                if did in self.doc_index:
+                    continue
+                raw = self.load_raw_doc(did)
+                if raw:
+                    own = (raw.get("topic_paths") or {}).get("primary") or ()
+                    self.doc_index[did] = (_doc_terms(raw), tuple(own))
 
     # ----- per-doc loaders --------------------------------------------------
 
@@ -617,7 +648,7 @@ def route_question(client: Anthropic, question: str, artifacts: CorpusArtifacts)
 
     Validator (PLAN-0001 §B):
       - primary_topic must be in `valid_topic_ids`; otherwise falls back to
-        `rule_of_law` with confidence `"low"`.
+        FALLBACK_TOPIC (`twin_beacons_doctrine`) with confidence `"low"`.
       - secondary_topics: filtered to known ids, distinct from primary;
         capped at 3.
       - confidence: normalised to one of {high, medium, low}; missing → low.
@@ -644,7 +675,7 @@ def route_question(client: Anthropic, question: str, artifacts: CorpusArtifacts)
     except json.JSONDecodeError:
         # Fallback to safe default — anchor route, low confidence.
         return {
-            "primary_topic": "rule_of_law",
+            "primary_topic": FALLBACK_TOPIC,
             "secondary_topics": [],
             "confidence": "low",
             "reasoning": "Router output unparseable; falling back to anchor topic.",
@@ -653,7 +684,7 @@ def route_question(client: Anthropic, question: str, artifacts: CorpusArtifacts)
     # Validate primary
     primary = parsed.get("primary_topic")
     if primary not in artifacts.valid_topic_ids:
-        primary = "rule_of_law"
+        primary = FALLBACK_TOPIC
         parsed["confidence"] = "low"
     parsed["primary_topic"] = primary
 
@@ -838,8 +869,34 @@ def _approx_tokens(text: str) -> int:
     return max(1, len(text) // _CHARS_PER_TOKEN_APPROX)
 
 
+_TERM_RE = re.compile(r"[a-z0-9]+")
+_STOP = frozenset("""
+about after also been before being between both could does done each from have
+having here into just more most much must only other over same should some such
+than that their them then there these they this those through under very were
+what when where which while whom whose will with would your yours what's
+chief justice panganiban artemio sir judge philippines philippine""".split())
+
+
+def _terms(text: str) -> set[str]:
+    """Content words of a string, crudely de-pluralised, for the tiebreak."""
+    out = set()
+    for w in _TERM_RE.findall((text or "").lower()):
+        if len(w) < 4 or w in _STOP:
+            continue
+        out.add(w[:-1] if w.endswith("s") and len(w) > 4 else w)
+    return out
+
+
+def _doc_terms(raw: dict) -> frozenset[str]:
+    parts = [raw.get("title") or ""]
+    parts += [k for k in (raw.get("keywords") or []) if isinstance(k, str)]
+    return frozenset(_terms(" ".join(parts)))
+
+
 def _select_source_doc_ids(
-    routing: dict, artifacts: CorpusArtifacts, max_docs: int = 3
+    routing: dict, artifacts: CorpusArtifacts, max_docs: int = 3,
+    question: str = "",
 ) -> list[str]:
     """Pick source doc ids using topic_paths intersection with router output.
 
@@ -847,12 +904,15 @@ def _select_source_doc_ids(
     routed topics' `doc_ids`. We score each candidate by:
       score = 2 * (appearances in primary topic's doc_ids)
             + 1 * (appearances in any secondary topic's doc_ids)
-    and pick the top N by score, breaking ties by alphabetical id.
-
-    Note: at this stage we use the topic_map's `doc_ids` (the docs that
-    matched a topic's matchers). When the runtime later cross-references
-    each doc's `topic_paths.primary`, that's a richer signal — added in
-    a follow-up if needed.
+    Knowledge base v2 (2026-09-29): a v2 topic holds up to ~190 docs and
+    the topics overlap heavily, so that score alone hands every question on
+    a topic the same few docs that merely sit in two routed topics (the
+    Lambino question got three GMA-era chapters, not the chapter that names
+    Lambino v. Comelec). Candidates are now ranked by (1) the most question
+    words shared with the doc's title + keywords, then (2) the topic score
+    above, (3) docs whose own topic_paths.primary is the routed primary,
+    (4) id. With no word in common this is the old ranking. Lexical overlap
+    only: still no embeddings, no similarity search.
     """
     primary = routing["primary_topic"]
     secondary = routing.get("secondary_topics", []) or []
@@ -863,7 +923,15 @@ def _select_source_doc_ids(
         for did in artifacts.topics.get(tid, {}).get("doc_ids", []):
             score[did] = score.get(did, 0) + 1
 
-    ranked = sorted(score.items(), key=lambda kv: (-kv[1], kv[0]))
+    q = _terms(question)
+    index = getattr(artifacts, "doc_index", None) or {}
+
+    def key(kv):
+        did, s = kv
+        terms, own_primary = index.get(did, (frozenset(), ()))
+        return (-len(q & terms), -s, primary not in own_primary, did)
+
+    ranked = sorted(score.items(), key=key)
     return [did for did, _ in ranked[:max_docs]]
 
 
@@ -957,6 +1025,7 @@ def build_context(
     routing: dict,
     artifacts: CorpusArtifacts,
     token_budget: int = CONTEXT_TOKEN_BUDGET,
+    question: str = "",
 ) -> str:
     """Assemble the structured context block per the voice card's convention.
 
@@ -973,7 +1042,8 @@ def build_context(
                   for tid in all_topic_ids if tid in artifacts.topics}
 
     # 2. Pick + load source docs in priority order
-    doc_ids = _select_source_doc_ids(routing, artifacts, max_docs=3)
+    doc_ids = _select_source_doc_ids(routing, artifacts, max_docs=3,
+                                     question=question)
     source_docs: list[dict] = []
     raws: list[dict] = []
     for did in doc_ids:
@@ -1056,7 +1126,7 @@ def generate_response(
     artifacts: CorpusArtifacts,
     conversation_history: list = None,
 ) -> str:
-    context = build_context(routing, artifacts)
+    context = build_context(routing, artifacts, question=question)
 
     # Adjust grounding instructions based on confidence
     confidence_note = {
@@ -1126,7 +1196,7 @@ def generate_response_stream(
     look-behind). The caller should apply `_strip_stage_directions()`
     to the final accumulated string before TTS / fidelity check.
     """
-    context = build_context(routing, artifacts)
+    context = build_context(routing, artifacts, question=question)
     confidence_note = {
         "high":   "The routed topics map directly to the user's question. Answer in voice, citing topic data and source documents where it strengthens the response.",
         "medium": "The routed topics are adjacent to the user's question. Reason from the available material; mark out-of-corpus extensions softly.",
@@ -1365,7 +1435,7 @@ def generate_response_with_fidelity(
             "guardrail_violation": False,
             "reasoning": "fidelity check skipped (CJ_SKIP_FIDELITY)",
         }
-    context = build_context(routing, artifacts)
+    context = build_context(routing, artifacts, question=question)
     check = fidelity_check(client, context, draft)
 
     if not any([check["hallucination"], check["voice_drift"], check["guardrail_violation"]]):

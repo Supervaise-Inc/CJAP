@@ -954,7 +954,7 @@ def stream_turn(client, artifacts, question, history, *, play_fn,
         def _audit():
             try:
                 from answer_pipeline import fidelity_check, build_context
-                ctx = build_context(routing, artifacts)
+                ctx = build_context(routing, artifacts, question=question)
                 fid_box.update(fidelity_check(client, ctx, audit_text))
                 fl = [k for k in ("hallucination", "voice_drift",
                                   "guardrail_violation") if fid_box.get(k)]

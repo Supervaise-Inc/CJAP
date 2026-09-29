@@ -155,9 +155,13 @@ def corpus_horizon() -> int:
     try:
         for js in REPO_ROOT.glob("corpus/*/*/*.json"):
             try:
-                y = json.loads(js.read_text(encoding="utf-8")).get("year")
+                d = json.loads(js.read_text(encoding="utf-8"))
             except (OSError, json.JSONDecodeError):
                 continue
+            # knowledge base v2 docs carry only `date` (YYYY-MM-DD), no `year`
+            y = d.get("year") if isinstance(d, dict) else None
+            if y is None and isinstance(d, dict) and str(d.get("date", ""))[:4].isdigit():
+                y = int(str(d["date"])[:4])
             if isinstance(y, int) and y > newest:
                 newest = y
     except OSError:

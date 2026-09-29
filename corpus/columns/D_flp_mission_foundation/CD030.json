@@ -1,0 +1,177 @@
+{
+  "id": "CD030",
+  "format": "C",
+  "type": "column",
+  "theme": "D",
+  "theme_label": "FLP Mission and Foundation",
+  "number": 30,
+  "title": "FLP's futuristic museum finds a home",
+  "date": "2026-09-07",
+  "link": "https://opinion.inquirer.net/194257/flps-futuristic-museum-finds-a-home",
+  "keywords": [
+    "Foundation for Liberty and Prosperity",
+    "Museum for Liberty and Prosperity",
+    "time capsule",
+    "liberty and prosperity",
+    "rule of law",
+    "Supreme Court",
+    "Bangko Sentral ng Pilipinas",
+    "institutional continuity"
+  ],
+  "primary_topics": [
+    "Time capsule laid for the 'Museum for Liberty and Prosperity' on a 3,350-sqm lot at Alabang Global City donated by State Properties Corp. -- a futuristic, AI-powered, tech-driven museum, 'not a memorial of the past, but a forebearer of the future'",
+    "Special guests -- CJ Alexander G. Gesmundo, Monetary Board member Benjamin E. Diokno for BSP Governor Remolona, SPC chair Allen Roxas, and FLP officers",
+    "Origins of CJP's mantra -- from founding the National Union of Students of the Philippines: justice and jobs, freedom and food, ethics and economics, liberty and prosperity must go together; 'under the rule of law' made express on Chief Justice Beverley McLachlin's advice (2006 Global Forum)",
+    "Partner institutions -- the Supreme Court to safeguard liberty (guardian of emerging rights against tech-amplified state power) and the BSP to nurture prosperity through financial stability; cooperation of the presidency and Congress also needed",
+    "Institutional continuity of the Court and BSP mirrored by FLP's three generations of leaders since 2011 -- founding board (Davide, SyCip, De Jesus, Sandoval-Gutierrez, Elenita Panganiban), second generation (Tetangco, Perlas-Bernabe, Yaptangco, Mañalac, Gavino), third generation (Gregorio, Cortez, Sandejas, Barbosa, Gella)",
+    "The capsule's contents (blueprints, AGC masterplan, newspapers, BSP 125th-anniversary banknote and coin) as a seed that will grow into a 'giant Narra rooted firmly in the rule of law'"
+  ],
+  "sub_topics": [
+    "3,350-square-meter lot at Alabang Global City",
+    "Donation by State Properties Corp.",
+    "Immersive, interactive, AI-powered museum",
+    "National Union of Students of the Philippines",
+    "Mantra: justice and jobs, freedom and food, ethics and economics",
+    "Global Forum on Liberty and Prosperity (October 2006)",
+    "Beverley McLachlin's advice to make 'under the rule of law' express",
+    "Supreme Court as guardian of emerging rights",
+    "BSP's stewardship of financial stability",
+    "Cooperation of the presidency and Congress",
+    "Institutional continuity of nonpolitical institutions",
+    "Three generations of FLP leadership",
+    "FLP Scholars Society and dissertation writing contest",
+    "Time capsule contents"
+  ],
+  "signature_phrases": [
+    "This museum is not a memorial of the past, but a forebearer of the future",
+    "Justice and jobs, freedom and food, ethics and economics, liberty and prosperity must always go together",
+    "the phrase must be expressed, not implied",
+    "These ideals and dreams remain abstractions unless they mature into actions and multidimensional paradigms",
+    "Philosophies grow and take root when institutions give them life and vigor",
+    "the Supreme Court to safeguard liberty, and the BSP to nurture prosperity",
+    "FLP's sanctuary shall be the sacred halls of justice",
+    "the Court remains the most vigilant guardian of emerging rights against the state powers amplified by technology",
+    "NOTABLY, BOTH THE COURT AND THE BSP HAVE INSTITUTIONAL CONTINUITY",
+    "a rare breed of justices may also pass in time, but their thoughts and decisions live on",
+    "THIS GENERATIONAL RELAY IS CARRIED IN THE CAPSULE WE LAID",
+    "we practice the very continuity we preach and the ideals we cherish",
+    "it would grow into a giant Narra rooted firmly in the rule of law",
+    "a living monument for generations yet unborn"
+  ],
+  "entities": {
+    "people": [
+      "Artemio V. Panganiban",
+      "Alexander G. Gesmundo",
+      "Benjamin E. Diokno",
+      "Eli M. Remolona",
+      "Allen Roxas",
+      "Beverley McLachlin",
+      "Hilario G. Davide Jr.",
+      "Washington SyCip",
+      "Edilberto C. de Jesus",
+      "Angelina Sandoval-Gutierrez",
+      "Elenita C. Panganiban",
+      "Amando M. Tetangco Jr.",
+      "Estela M. Perlas-Bernabe",
+      "Maria Elena P. S. Yaptangco",
+      "Maria Theresa P. Mañalac",
+      "Susan Gavino",
+      "Joel Emerson Gregorio",
+      "Arvin Paolo Cortez",
+      "Miguel P. Sandejas",
+      "Jacob Barbosa",
+      "Rachel Lois Gella"
+    ],
+    "institutions": [
+      "Foundation for Liberty and Prosperity (FLP)",
+      "Supreme Court of the Philippines",
+      "Bangko Sentral ng Pilipinas (BSP) and Monetary Board",
+      "State Properties Corp. (SPC)",
+      "Alabang Global City (AGC)",
+      "National Union of Students of the Philippines",
+      "Asian Institute of Management (AIM)",
+      "Baron Travel Corp.",
+      "FLP Scholars Society",
+      "Babson College",
+      "Northwestern University"
+    ],
+    "cases": [],
+    "laws_treaties": [],
+    "events": [
+      "Laying of the Museum for Liberty and Prosperity time capsule at AGC",
+      "Global Forum on Liberty and Prosperity, October 2006",
+      "FLP's founding in 2011",
+      "2024 FLP dissertation writing contest",
+      "SC's 125th anniversary (commemorative banknote and coin)"
+    ]
+  },
+  "stances": [
+    {
+      "claim": "The Museum for Liberty and Prosperity, whose time capsule was just laid, fulfils CJP's long-held dream of a futuristic, tech-driven museum embodying liberty and prosperity under the rule of law.",
+      "rhetorical_move": "milestone announcement",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "Justice and jobs, freedom and food, ethics and economics, liberty and prosperity must always go together, and 'under the rule of law' must be expressed, not implied.",
+      "rhetorical_move": "restates his lifelong mantra with its origin",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "The Supreme Court (safeguarding liberty) and the BSP (nurturing prosperity) are FLP's steadfast partners and the bedrocks of its philosophy, with the Court guarding emerging rights against tech-amplified state power.",
+      "rhetorical_move": "links FLP's philosophy to two institutions",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "The Court and the BSP have institutional continuity beyond changing political leaders, and FLP likewise has been sustained by three generations of leaders.",
+      "rhetorical_move": "parallel between institutions and FLP",
+      "confidence": "asserted"
+    },
+    {
+      "claim": "The capsule is a seed that will grow into a living monument rooted in the rule of law for generations yet unborn.",
+      "rhetorical_move": "closing metaphor",
+      "confidence": "asserted"
+    }
+  ],
+  "notable_anecdotes": [
+    "The time capsule laid at a lot in Alabang Global City donated by State Properties Corp.",
+    "CJP founding and heading the National Union of Students of the Philippines in his school days.",
+    "Canadian Chief Justice Beverley McLachlin advising at the 2006 Global Forum that 'under the rule of law' be expressed.",
+    "Only Dr. De Jesus and CJP remaining from FLP's founding board.",
+    "The capsule filled with museum blueprints, the AGC masterplan, newspapers and the BSP banknote and coin for the Court's 125th anniversary."
+  ],
+  "target_audience": [
+    "Inquirer general readership",
+    "FLP trustees, officers, scholars and partners",
+    "Supreme Court and BSP officials",
+    "Donors and institutional partners",
+    "Young professionals and future generations"
+  ],
+  "register_markers": [
+    "my long-held dream personal register",
+    "not a memorial of the past, but a forebearer of the future antithesis",
+    "THE SPECIAL GUESTS WERE all-caps roster opener",
+    "yours truly self-reference",
+    "Justice and jobs, freedom and food, ethics and economics alliterative mantra",
+    "NOTABLY, BOTH THE COURT AND THE BSP HAVE INSTITUTIONAL CONTINUITY all-caps thesis",
+    "ad infinitum Latin flourish",
+    "Comes now the third-generation leaders legal-style formula",
+    "THIS GENERATIONAL RELAY IS CARRIED IN THE CAPSULE WE LAID all-caps opener",
+    "giant Narra rooted firmly in the rule of law native-tree metaphor"
+  ],
+  "decision_framework_signals": [
+    "ties the FLP project to its founding philosophy",
+    "relies on independent, nonpolitical institutions as partners",
+    "values institutional continuity and generational succession",
+    "acknowledges the need for political branches' cooperation",
+    "uses symbolic acts (time capsule) to express enduring ideals"
+  ],
+  "one_paragraph_summary": "Panganiban reports that the time capsule for the Foundation for Liberty and Prosperity's 'Museum for Liberty and Prosperity' was laid on a 3,350-square-meter lot at Alabang Global City donated by State Properties Corp. The museum, his long-held dream, is to be futuristic, immersive, interactive and AI-powered, embodying the philosophy of safeguarding liberty and nurturing prosperity under the rule of law -- 'not a memorial of the past, but a forebearer of the future.' Guests included Chief Justice Alexander G. Gesmundo, Monetary Board member Benjamin E. Diokno for BSP Governor Eli M. Remolona, SPC chair Allen Roxas and FLP officers. Since founding the National Union of Students of the Philippines, CJP has held that justice and jobs, freedom and food, ethics and economics, liberty and prosperity must go together; Canadian Chief Justice Beverley McLachlin advised at the 2006 Global Forum that 'under the rule of law' be made express. Ideals take root when institutions give them life, and FLP's partners are the Supreme Court, which safeguards liberty and guards emerging rights against state power amplified by technology, and the BSP, which nurtures prosperity through financial stability; FLP also needs the presidency and Congress. Both the Court and the BSP have institutional continuity beyond changing political leaders. So does FLP: since 2011 it has been led by three generations -- a founding board of Hilario G. Davide Jr., Washington SyCip, Edilberto C. de Jesus, Angelina Sandoval-Gutierrez, Elenita C. Panganiban and CJP; a second generation led by Amando M. Tetangco Jr.; and a third including young lawyers and scholars. The capsule, holding the museum's blueprints, the AGC masterplan, newspapers and the BSP's 125th-anniversary banknote and coin, is a seed that will grow into a giant Narra rooted in the rule of law.",
+  "source_xlsx": "cjp_columns_curated_normalized.xlsx",
+  "topic_paths": {
+    "primary": [
+      "foundation_for_liberty_and_prosperity"
+    ],
+    "secondary": [],
+    "route_source": "matcher"
+  }
+}

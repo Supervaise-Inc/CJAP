@@ -1,20 +1,44 @@
 # corpus/ — MANIFEST
 
-The runtime corpus, generated and curated by the Phase 1-3 pipeline
-(see [docs/implementation-plans/](../docs/implementation-plans/)). The
-runtime app loads from `voice/` for routing + composition, and from
-`columns/` + `speeches/` for per-doc bodies and JSON.
+The runtime corpus. **Since 2026-09-29 this is knowledge base v2**: 1,290
+documents imported from the `release/kb-v2-2026-09-27` deliverable
+(branch `deliverable/2026-09`, commit `febb007`, `corpus/`). The runtime app
+loads from `voice/` for routing + composition, and from the four document
+directories for per-doc bodies and JSON. Doc ids follow `^[SCGB][A-E]\d+$`
+(`app/answer_pipeline.py::_TYPE_DIRS`).
 
 ## Subdirectories
 
 | ID | Path | Description |
 |---|---|---|
-| S0001 | [voice/](voice/) | Three Phase 2-3 artifacts loaded by the dashboard at startup: `topic_map.json` (35 curated topics), `voice_card.md` (Sonnet composition system prompt), `router_prompt.md` (Haiku router system prompt). Regenerate via `scripts/build_topic_map.py` for the map; voice card and router prompt are hand-curated. |
-| S0002 | [columns/](columns/) | 64 paired `.md` + `.json` files (Phase 1 output), one per *With Due Respect* column. Subdirectories partition by theme letter: `A_liberty_rule_of_law`, `B_prosperity_economic_philosophy`, `C_biographical_personal`, `D_flp_mission_foundation`, `E_current_events_commentary`. |
-| S0003 | [speeches/](speeches/) | 15 paired `.md` + `.json` files (Phase 1 output), one per speech, partitioned by theme letter (3 per theme). |
-| S0004 | biography/ | Reserved for the biography document `GC001` once a publication date is decided — see [PLAN-0004](../docs/implementation-plans/PLAN-0004-biography-gc001-ingestion.md). Currently empty (the biography is skipped on every generator run). |
+| S0001 | [voice/](voice/) | `topic_map.json` (**v2: 30 topics**, from the release), `router_prompt.md` (v2, from the release, CRLF stripped), `voice_card.md` (**ours, not the release's** — the release copy reintroduces the "Marisita" error fixed 2026-08-31), plus our installation-only files `host_card.md`, `duet_script.json`, `intro_variants.json`. `robot_identity_meta` is not in the v2 map; the app injects it at load. |
+| S0002 | [columns/](columns/) | 803 *With Due Respect* columns, paired `.md` + `.json`, partitioned by theme letter (`A_liberty_rule_of_law` … `E_current_events_commentary`). |
+| S0003 | [speeches/](speeches/) | 153 speeches, same layout. |
+| S0004 | [books/](books/) | 299 book chapters from 12 works, ids `B[A-E]nnn`. |
+| S0005 | [biography/](biography/) | 35 biography chapters, ids `GCnnn`. |
+
+**Renumbered.** v2 re-assigned ids: 22 of the 79 documents we carried before
+now live under new ids (e.g. `CA001` → `CA092`, `CD002` → `CD016`), and an id
+such as `CA011` now names a *different* column. `CA016` "Rule of, or by, law"
+(2018-02-02) is not in v2 at all. Old ids in historical docs, audits and
+reports refer to the v1 corpus.
+
+**Reachability.** The v2 topic map lists 1,045 of the 1,290 documents in some
+topic's `doc_ids`. The router only reaches documents through those lists, so
+the other 245 are on disk (and count toward the answer gate's whole-corpus
+check) but are never handed to the composer.
+
+**Not imported:** `corpus/index/` (21 MB of chunks), `data/index/` and the
+438 MB `models/` encoder. They serve the release's `CJ_PIPELINE=retrieval`
+stack, which this app does not have; the Haiku-router path needs none of them.
 
 ## Regenerating the corpus
+
+> **Do not run these scripts against v2.** `build_topic_map.py` still encodes
+> the v1 35-topic taxonomy and `generate_corpus_files.py` the v1 inputs; either
+> would overwrite the imported knowledge base. v2 is regenerated upstream (the
+> deliverable repo) and re-imported here. The commands below are kept for the
+> v1 history.
 
 ```
 # Phase 1: paired .md + .json from CSVs in data/csv/ + .txt in data/text/
