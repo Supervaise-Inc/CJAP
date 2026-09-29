@@ -2111,7 +2111,7 @@ API_KEYS = [
      "used_for": "speech-to-text: hearing the visitor’s question",
      "without": "the robot cannot hear questions"},
     {"env": "ELEVEN_API_KEY", "label": "ElevenLabs",
-     "used_for": "the Host voice, the ElevenLabs clone, pre-rendered clips",
+     "used_for": "the ElevenLabs clone of his voice, pre-rendered clips",
      "without": "the Host is silent; nothing new can be rendered"},
     {"env": "FISH_API_KEY", "label": "Fish Audio",
      "used_for": "Panganiban’s live voice (when Fish is in the engine order)",
