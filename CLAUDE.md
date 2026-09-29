@@ -11,7 +11,7 @@ that is what the current work is tuned for.
 
 This file is the navigational entry point for any Claude Code or LLM
 agent opening this repo. It points to where things live — not what
-they do. Last reconciled against the running machines **2026-09-13**.
+they do. Last reconciled against the running machines **2026-09-29** (alpha handover).
 
 ## Read first
 
@@ -20,7 +20,8 @@ making changes:
 
 | Doc | What it gives you |
 |---|---|
-| [docs/handover_claude_code_2026-05-26.md](docs/handover_claude_code_2026-05-26.md) | Latest implementation reality — what runs, what's wired, gaps between intent and reality. Supersedes the 05-16 handover. |
+| [docs/handover_claude_code_2026-09-29.md](docs/handover_claude_code_2026-09-29.md) | **Start here.** State at the alpha handover: knowledge base v2 (1,290 docs), `deploy/alpha/`, the do-nots, operational facts and open items. Supersedes the May handovers for what runs. |
+| [docs/handover_claude_code_2026-05-26.md](docs/handover_claude_code_2026-05-26.md) | Earlier implementation reality — what runs, what's wired, gaps between intent and reality. Supersedes the 05-16 handover. |
 | [docs/handover_claude_code_2026-05-16.md](docs/handover_claude_code_2026-05-16.md) | Prior implementation snapshot — kept for diff context. |
 | [PROJECT.md](PROJECT.md) | Runtime tuning detail — pipeline architecture, cost model, performance numbers, troubleshooting, config. |
 
