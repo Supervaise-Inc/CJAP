@@ -156,7 +156,8 @@ the new data would have been loaded but silently unused:
   - **"Deaf" robot.** If the robot seems deaf, check `/console` first: the
     floor must be `alpha` and the mode `direct`.
   - **Wake threshold.** At handover the console override is
-    `wake_threshold 0.5`, with `dry_run` off.
+    `wake_threshold 0.5`, with `dry_run` off. That is probably too high; see
+    open item 1.
 - **Audio.**
   - **Internal speaker.** The internal ~5 W speaker is inaudible in a hall.
   - **USB DAC.** `~/bin/audio-out dac` routes to a USB DAC. Echo cancellation
@@ -180,33 +181,35 @@ the new data would have been loaded but silently unused:
 
 ## 5. Open items, in rough priority
 
-1. **Default branch.** Set GitHub's default branch to `master` (repo settings).
+1. **Wake threshold looks too high.** The console override at handover is
+   `wake_threshold 0.5`, but genuine "Hi Cee-Jap" calls scored 0.066-0.46 when
+   measured on 2026-09-15 (`config/modes/direct.json` note). On 2026-09-29 alpha
+   logged two calls at 0.188 and 0.169 as "below threshold". The config default
+   is 0.02. Check `/console` before an event; it is an operator setting and was
+   left as found.
+2. **Default branch.** Set GitHub's default branch to `master` (repo settings).
    Only the owner can do this.
-2. **Unroutable documents.** 245 of the 1,290 documents appear in no topic's
+3. **Unroutable documents.** 245 of the 1,290 documents appear in no topic's
    `doc_ids`, so the router can never reach them. This is a gap in the
    release's topic map, not in this code. It needs fixing upstream.
-3. **Retrieval quality.** Word matching misses paraphrase. "Growing up poor in
+4. **Retrieval quality.** Word matching misses paraphrase. "Growing up poor in
    Sampaloc" does not find GC002 "The Boy Who Slept on Pavement", and "your
    wife Leni" gets a papal-award chapter. The real fix is retrieval with
    meaning (embeddings), which the Pi cannot host. A cheaper fix is richer
    keywords upstream.
-4. **Latency.** It is up about 0.6 s median, from longer book chapters. The
+5. **Latency.** It is up about 0.6 s median, from longer book chapters. The
    lever is `CJ_CONTEXT_BODY_DOCS` (full text for the top 2 docs today; 1 is
    the fallback).
-5. **Beta.** Deploy `d7a7eec` to beta if it is ever used again (it needs about
+6. **Beta.** Deploy `d7a7eec` to beta if it is ever used again (it needs about
    40 MB for the corpus). Beta also lacks alpha's DAC-era audio scripts and the
    AEC feed settings.
-6. **Release-side gaps, known upstream:**
+7. **Release-side gaps, known upstream:**
    - topic routing is 86.7% top-1, and `twin_beacons_doctrine` never wins its
      own question;
    - 18 docs have no topic above the floor;
    - about 222 Inquirer columns from Feb 2007 to Apr 2011 were never sourced.
-7. **Answer-gate rule.** The `lambino-case` rule should accept a correct answer
+8. **Answer-gate rule.** The `lambino-case` rule should accept a correct answer
    that omits the word "Comelec".
-8. **Stale text in `CLAUDE.md`.** A few statements are out of date: beta's IP,
-   `hey_cj.onnx` / threshold 0.40 in the `app/wake/` row, and "35 topics" in
-   older docs.
-
 ## 6. Where to look
 
 | Need | File |
