@@ -107,6 +107,9 @@ h3{font-size:14px;font-weight:700;margin:0 0 6px}
 .ck input{width:20px;height:20px;flex:none;margin-top:2px;accent-color:var(--ok)}
 .ck b{display:block;font-weight:600}.ck small{display:block;color:var(--dim);font-size:12.5px;margin-top:2px;word-break:break-word}
 .ck:has(input:checked) b{color:var(--dim);text-decoration:line-through}
+.ck.step{align-items:center}.ck.step>span:not(.stat){flex:1;min-width:0}.ck .go{flex:none}
+.ck .stat{flex:none;width:92px}.ck .stat .chip{margin:0}
+.card{scroll-margin-top:calc(var(--hdr) + 64px)}.card.flash{border-color:var(--gold);box-shadow:0 0 0 2px rgba(212,168,53,.35),var(--shadow)}
 table.apis td{vertical-align:top}table.apis td.mono{font-size:12px;word-break:break-all}table.apis a{color:var(--gold2)}
 .apilogo{display:inline-flex;align-items:center;gap:10px;text-decoration:none;color:var(--ink)!important;white-space:nowrap}
 .apilogo:hover b{color:var(--gold2)}.apilogo .lg{width:32px;height:32px;flex:none;border-radius:8px;background:#fff;display:inline-flex;align-items:center;justify-content:center;font-weight:700;font-size:15px;color:#131a23;overflow:hidden}.apilogo .lg img{width:22px;height:22px}
@@ -201,7 +204,8 @@ details.help[open] summary{margin-bottom:4px}
   table.apis td:nth-child(2)::before{content:'used for'}
   table.apis td:nth-child(3)::before{content:'endpoints called'}
   table.apis td:nth-child(4)::before{content:'links'}
-  table.apis td:nth-child(4){line-height:2}}
+  table.apis td:nth-child(4){line-height:2}
+  .ck .stat{width:auto;min-width:64px}.ck.step{gap:10px}}
 @media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}html{scroll-behavior:auto}}
 </style></head><body>
 <div class="hdr">
@@ -250,7 +254,7 @@ details.help[open] summary{margin-bottom:4px}
     <button onclick="rebootPi()" class="danger">&#9211; Reboot Pi</button></div>
   <span id="msg"></span>
 </div>
-<div class="card c6" data-tab="live"><h2>Sound <span class="dim">(which speaker, how loud)</span></h2>
+<div class="card c6" id="sound-card" data-tab="live"><h2>Sound <span class="dim">(which speaker, how loud)</span></h2>
   <p class="hint">Pick where answers play, then set the level. The strip at the top shows the current route.</p>
   <div class="btns"><span class="lbl">Speaker</span>
     <button onclick="act('audio-internal')" title="the robot's own speaker (echo cancellation works here)">&#129302; Internal</button>
@@ -287,7 +291,7 @@ details.help[open] summary{margin-bottom:4px}
     Volume applies to the internal speaker and to any connected Bluetooth speaker (it scales the stream below the speaker&rsquo;s own button level, so 100 = the speaker&rsquo;s setting) and is remembered per route.</details>
   <span id="msg4" class="dim"></span>
 </div>
-<div class="card c6" data-tab="live"><h2>Camera <span class="dim" id="camstate"></span></h2>
+<div class="card c6" id="cam-card" data-tab="live"><h2>Camera <span class="dim" id="camstate"></span></h2>
   <p class="hint">What the audience page shows. Fixed focus distances hold steady on stage.</p>
   <div class="btns"><span class="lbl">Camera</span>
     <button id="btn-cam-off" onclick="ctl('camera-off')">&#9210; Camera off</button>
@@ -577,7 +581,7 @@ details.help[open] summary{margin-bottom:4px}
      putting the operator one on a visitor-facing monitor is the mistake to avoid.
      2026-09-29 (user: "remove the floating text then fix it in a tab"): moved out of the sticky
      header, where it floated over every tab, into the System tab grid. -->
-<div class="card c6" data-tab="system"><h2>Display screens</h2>
+<div class="card c6" id="display-card" data-tab="system"><h2>Display screens</h2>
   <p class="hint">Two read-only views. Neither starts an avatar session, sends a command or
   writes anything, so opening them cannot disturb a turn or another screen.</p>
   <div class="btns" style="flex-wrap:wrap;gap:8px">
@@ -600,13 +604,13 @@ details.help[open] summary{margin-bottom:4px}
     speaker and an external one need different values.
   </details></div>
 <div class="card c6" data-tab="system"><h2>Health</h2><div id="health"></div><div id="flags"></div></div>
-<div class="card c6" data-tab="system"><h2>System</h2><div id="services"></div><div id="sys" class="dim">loading&hellip;</div>
+<div class="card c6" id="sys-card" data-tab="system"><h2>System</h2><div id="services"></div><div id="sys" class="dim">loading&hellip;</div>
   <div class="btns" style="margin-top:10px"><span class="lbl">Restart</span>
     <button class="sm" onclick="ctl('restart-keepalive')">&#8635; bt-keepalive</button>
     <button class="sm" onclick="ctl('restart-watchdog')">&#8635; speaker-watchdog</button>
     <button class="sm" onclick="ctl('restart-audio-hub')">&#8635; audio-hub</button>
     <button class="sm" onclick="ctl('restart-dashboard')">&#8635; dashboard</button></div></div>
-<div class="card c6" data-tab="system"><h2>WiFi <span class="dim" id="wifinow"></span></h2>
+<div class="card c6" id="wifi-card" data-tab="system"><h2>WiFi <span class="dim" id="wifinow"></span></h2>
   <div id="wifi-list" class="dim" style="margin-bottom:10px">tap Scan to list networks (tap a network to switch)</div>
   <div class="btns"><button onclick="wifiScan()">&#128246; Scan networks</button><span id="netmsg" class="dim"></span></div>
   <div class="btns" style="margin-top:4px">
@@ -617,7 +621,7 @@ details.help[open] summary{margin-bottom:4px}
   <div class="dim" style="font-size:13px">Tap a scanned network to switch (saved ones need no password; a new password for a saved one replaces the stored one). Manual entry is for hidden networks and setup-hotspot mode.
     &#9888; Switching networks drops this page &mdash; rejoin the same WiFi on your phone. If the join fails the robot goes back to the network it was on.</div>
 </div>
-<div class="card c6" data-tab="system"><h2>Bluetooth <span class="dim" id="btnow"></span></h2>
+<div class="card c6" id="bt-card" data-tab="system"><h2>Bluetooth <span class="dim" id="btnow"></span></h2>
   <div id="bt-list" class="dim" style="margin-bottom:10px">loading&hellip;</div>
   <div class="btns"><button onclick="btScan(false)">&#8635; Refresh</button>
     <button onclick="btScan(true)">&#128270; Scan (~10 s)</button><span id="btmsg" class="dim"></span></div>
@@ -644,8 +648,27 @@ details.help[open] summary{margin-bottom:4px}
      docs/PRE_EVENT_CHECKLIST.md, shortened; keep the two in step. Ticks are remembered in
      this browser only (localStorage), not shared between operators or machines. -->
 <div class="sec" data-tab="check">Checklist &mdash; before the doors open, on BOTH machines</div>
+<!-- 2026-09-29 (user: "add the checklist like what to do next like the wifi, etc"): the
+     setup order on arrival. Steps with a live status (WiFi, keys, services) tick themselves from
+     /api/status and /api/keys; the rest are ticked by hand. Go jumps to the tab and card. -->
+<div class="card c12" id="setup-card" data-tab="check"><h2>Setup &mdash; what to do next <span class="dim" id="sk-count"></span>
+  <button class="sm" onclick="ckReset('setup-card')" title="Untick the hand-ticked steps (this browser only)">Reset</button></h2>
+  <p class="hint">In order, on arrival at the venue. Green steps are read live from this robot; tick the others yourself. <b>Go</b> opens the tab where the step is done.</p>
+  <div class="ck step"><span class="stat" id="sk-wifi"><span class="chip">checking&hellip;</span></span><span><b>Connect to the venue WiFi</b><small>network with working internet (a captive portal needs signing in first); the travel router if you brought it</small></span><button class="sm go" onclick="goCard(&#39;system&#39;,&#39;wifi-card&#39;)">Go &rarr;</button></div>
+  <div class="ck step"><span class="stat" id="sk-keys"><span class="chip">checking&hellip;</span></span><span><b>API keys stored</b><small>Anthropic, OpenAI, ElevenLabs; Fish Audio too on a robot that speaks with Fish</small></span><button class="sm go" onclick="goCard(&#39;system&#39;,&#39;keys-card&#39;)">Go &rarr;</button></div>
+  <label class="ck step"><input type="checkbox" data-ck="s3"><span><b>Providers up</b><small>open the status links; a red provider means switch to duet before the doors open</small></span><button type="button" class="sm go" onclick="event.preventDefault();goCard(&#39;apis&#39;,&#39;apis-card&#39;)">Go &rarr;</button></label>
+  <div class="ck step"><span class="stat" id="sk-app"><span class="chip">checking&hellip;</span></span><span><b>Voice app running</b><small><code>supervaise</code> active</small></span><button class="sm go" onclick="goCard(&#39;system&#39;,&#39;sys-card&#39;)">Go &rarr;</button></div>
+  <div class="ck step"><span class="stat" id="sk-bt"><span class="chip">checking&hellip;</span></span><span><b>Bluetooth hijack off</b><small><code>speaker-watchdog</code> not running, so no paired speaker can steal the route</small></span><button class="sm go" onclick="goCard(&#39;system&#39;,&#39;bt-card&#39;)">Go &rarr;</button></div>
+  <label class="ck step"><input type="checkbox" data-ck="s6"><span><b>Pick the speaker and set the level</b><small>where answers play; the route is shown on the right</small></span><button type="button" class="sm go" onclick="event.preventDefault();goCard(&#39;live&#39;,&#39;sound-card&#39;)">Go &rarr;</button></label>
+  <label class="ck step"><input type="checkbox" data-ck="s7"><span><b>Microphone heard</b><small>turn the meter on, talk from where visitors will stand, watch it move</small></span><button type="button" class="sm go" onclick="event.preventDefault();goCard(&#39;audio&#39;,&#39;mic-card&#39;)">Go &rarr;</button></label>
+  <label class="ck step"><input type="checkbox" data-ck="s8"><span><b>Camera focused on faces</b><small>refocus, or pick a fixed distance for the stage</small></span><button type="button" class="sm go" onclick="event.preventDefault();goCard(&#39;live&#39;,&#39;cam-card&#39;)">Go &rarr;</button></label>
+  <label class="ck step"><input type="checkbox" data-ck="s9"><span><b>Roles set, console open</b><small>who is Panganiban, who is the Host; open /console for floor, mode and profile</small></span><button type="button" class="sm go" onclick="event.preventDefault();goCard(&#39;guest&#39;,&#39;roles-card&#39;)">Go &rarr;</button></label>
+  <label class="ck step"><input type="checkbox" data-ck="s10"><span><b>Display screens up</b><small>/stage on the visitor screen, /monitor on your laptop</small></span><button type="button" class="sm go" onclick="event.preventDefault();goCard(&#39;system&#39;,&#39;display-card&#39;)">Go &rarr;</button></label>
+  <label class="ck step"><input type="checkbox" data-ck="s11"><span><b>One test question</b><small>type a question in Controls and press Answer now; listen to the whole answer</small></span><button type="button" class="sm go" onclick="event.preventDefault();goCard(&#39;live&#39;,&#39;controls-card&#39;)">Go &rarr;</button></label>
+  <label class="ck step"><input type="checkbox" data-ck="s12"><span><b>Work through the pre-event checklist</b><small>the full list below, on both machines</small></span><button type="button" class="sm go" onclick="event.preventDefault();goCard(&#39;check&#39;,&#39;check-card&#39;)">Go &rarr;</button></label>
+</div>
 <div class="card c12" id="check-card" data-tab="check"><h2>Pre-event checklist <span class="dim" id="ck-count"></span>
-  <button class="sm" onclick="ckReset()" title="Untick everything (this browser only)">Reset</button></h2>
+  <button class="sm" onclick="ckReset('check-card')" title="Untick everything (this browser only)">Reset</button></h2>
   <p class="hint">Tick in order. Ticks are saved in this browser only; another laptop or phone keeps its own. Full detail: <code>docs/PRE_EVENT_CHECKLIST.md</code>.</p>
   <h3 class="ckh">The night before</h3>
   <label class="ck"><input type="checkbox" data-ck="n1"><span><b>Voice app enabled on both machines</b><small><code>systemctl is-enabled supervaise.service</code> says <code>enabled</code></small></span></label>
@@ -1016,7 +1039,7 @@ let KEYS=[];
 async function keysLoad(){try{
   const r=await(await fetch('/api/keys?key='+encodeURIComponent(KEY),{cache:'no-store'})).json();
   if(r.ok===false){$('keys-list').innerText=r.output||'refused';return;}
-  KEYS=r.keys||[];keysRender();}catch(e){$('keys-list').innerText='keys: '+e;}}
+  KEYS=r.keys||[];keysRender();try{setupFromKeys(KEYS)}catch(e){}}catch(e){$('keys-list').innerText='keys: '+e;}}
 function keysRender(){
   $('keys-list').innerHTML='<table><tr><th>service</th><th>stored</th><th>used for</th><th>new key</th><th></th></tr>'
     +KEYS.map((k,i)=>'<tr><td><b>'+esc(k.label)+'</b><br><span class="mono dim" style="font-size:11px">'+esc(k.env)+'</span></td>'
@@ -1464,6 +1487,7 @@ function renderStatus(st){try{
     ' &nbsp;<b>Internet</b> '+esc(wf.connectivity||'?')+
     '<br><b>Audio</b> '+esc((st.audio||{}).route||'?');
   try{netFromStatus(st)}catch(e){}
+  try{setupFromStatus(st)}catch(e){}
   const env=((st.wake||{}).env)||{};
   $('flags').innerHTML=[['stream','CJ_STREAM_SPEECH'],['dyn-filler','CJ_DYNAMIC_FILLER'],
     ['dyn-tokens','CJ_DYNAMIC_TOKENS_ENABLED'],['postproc','CJ_POSTPROC_ENABLED'],
@@ -1482,15 +1506,32 @@ function fitMeters(){const c=$('controls-card'),st=document.querySelector('.stac
   st.style.maxHeight=window.innerWidth<=760?'':c.offsetHeight+'px';}
 try{new ResizeObserver(fitMeters).observe($('controls-card'));}catch(e){}
 window.addEventListener('resize',fitMeters);fitMeters();
-// Pre-event checklist ticks (2026-09-29): per browser, keyed by item id; see the card comment.
+// Checklist ticks (2026-09-29): per browser, keyed by item id; see the card comments.
+// Setup steps with a live status are not ticked by hand: SK holds their last reading.
+const SK={};
 function ckLoad(){let v={};try{v=JSON.parse(localStorage.getItem('cjcheck')||'{}')||{}}catch(e){}return v}
-function ckCount(){const all=document.querySelectorAll('[data-ck]'),n=[...all].filter(b=>b.checked).length;
-  $('ck-count').textContent='('+n+' / '+all.length+' done)';}
+function ckCount(){const all=document.querySelectorAll('#check-card [data-ck]'),n=[...all].filter(b=>b.checked).length;
+  $('ck-count').textContent='('+n+' / '+all.length+' done)';
+  const man=[...document.querySelectorAll('#setup-card [data-ck]')],ks=Object.keys(SK);
+  const done=man.filter(b=>b.checked).length+ks.filter(k=>SK[k]).length;
+  $('sk-count').textContent='('+done+' / '+(man.length+document.querySelectorAll('#setup-card .stat').length)+' done)';}
+function skSet(k,ok,txt){SK[k]=!!ok;const el=$('sk-'+k);if(el)el.innerHTML=chip('',ok,txt);ckCount();}
+function setupFromStatus(st){const wf=st.wifi||{},sv=st.services||{};
+  skSet('wifi',!!wf.online,wf.online?esc(wf.essid||'online'):(wf.essid?(wf.connectivity==='portal'?'sign in':'no internet'):'no wifi'));
+  skSet('app',(sv.supervaise||{}).active==='active',(sv.supervaise||{}).active==='active'?'running':'stopped');
+  const wd=(sv['speaker-watchdog']||{}).active==='active';skSet('bt',!wd,wd?'RUNNING':'off');}
+function setupFromKeys(keys){const need=['ANTHROPIC_API_KEY','OPENAI_API_KEY','ELEVEN_API_KEY'];
+  const miss=need.filter(e=>!(keys.find(k=>k.env===e)||{}).set);
+  const fish=(keys.find(k=>k.env==='FISH_API_KEY')||{}).set;
+  skSet('keys',!miss.length,miss.length?miss.length+' missing':(fish?'all 4':'no Fish'));}
+function goCard(tab,id){showTab(tab);const el=$(id);if(!el)return;
+  el.scrollIntoView({behavior:'smooth',block:'start'});el.classList.add('flash');setTimeout(()=>el.classList.remove('flash'),1600);}
 (function(){const v=ckLoad();document.querySelectorAll('[data-ck]').forEach(b=>{b.checked=!!v[b.dataset.ck];
   b.onchange=()=>{const w=ckLoad();if(b.checked)w[b.dataset.ck]=1;else delete w[b.dataset.ck];
     try{localStorage.setItem('cjcheck',JSON.stringify(w))}catch(e){}ckCount();}});ckCount();})();
-function ckReset(){if(!confirm('Untick every item on this browser?'))return;try{localStorage.removeItem('cjcheck')}catch(e){}
-  document.querySelectorAll('[data-ck]').forEach(b=>b.checked=false);ckCount();}
+function ckReset(card){if(!confirm('Untick every item in this list on this browser?'))return;const w=ckLoad();
+  document.querySelectorAll('#'+card+' [data-ck]').forEach(b=>{b.checked=false;delete w[b.dataset.ck]});
+  try{localStorage.setItem('cjcheck',JSON.stringify(w))}catch(e){}ckCount();}
 // 2026-09-01 tabs (user: "desktop friendly" too): Live / Audio / Robot / Conversation / System / Logs / All.
 // Phones open on Live, desktops on All; the choice is remembered per browser. Section dividers show only in All.
 // 2026-09-12 (user: "organized well", "add a Guest setting in the tab"): Guest tab; a card may
