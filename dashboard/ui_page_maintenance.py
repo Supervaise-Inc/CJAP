@@ -102,6 +102,14 @@ h2{font-size:12.5px;font-weight:700;color:var(--gold2);text-transform:uppercase;
 h2 .dim,h2 select,h2 button{text-transform:none;letter-spacing:0;font-weight:500;font-size:12.5px}
 h3{font-size:14px;font-weight:700;margin:0 0 6px}
 .hint{color:var(--dim);font-size:13px;margin:-6px 0 12px}
+.ckh{font-size:12px;font-weight:700;color:var(--gold2);text-transform:uppercase;letter-spacing:.12em;margin:16px 0 6px}
+.ck{display:flex;gap:12px;align-items:flex-start;padding:10px 4px;border-bottom:1px solid var(--line);cursor:pointer}
+.ck input{width:20px;height:20px;flex:none;margin-top:2px;accent-color:var(--ok)}
+.ck b{display:block;font-weight:600}.ck small{display:block;color:var(--dim);font-size:12.5px;margin-top:2px;word-break:break-word}
+.ck:has(input:checked) b{color:var(--dim);text-decoration:line-through}
+table.apis td{vertical-align:top}table.apis td.mono{font-size:12px;word-break:break-all}table.apis a{color:var(--gold2)}
+.apilogo{display:inline-flex;align-items:center;gap:10px;text-decoration:none;color:var(--ink)!important;white-space:nowrap}
+.apilogo:hover b{color:var(--gold2)}.apilogo .lg{width:32px;height:32px;flex:none;border-radius:8px;background:#fff;display:inline-flex;align-items:center;justify-content:center;font-weight:700;font-size:15px;color:#131a23;overflow:hidden}.apilogo .lg img{width:22px;height:22px}
 /* chips */
 .chip{display:inline-flex;align-items:center;gap:6px;padding:4px 10px;border-radius:999px;font-size:12.5px;font-weight:600;margin:0 6px 6px 0;background:var(--btn);border:1px solid var(--line)}
 .chip::before{content:'';width:7px;height:7px;border-radius:50%;background:currentColor;opacity:.9;flex:none}
@@ -179,35 +187,25 @@ details.help[open] summary{margin-bottom:4px}
   .tabs button svg{width:21px;height:21px}
   .tabs button .long{display:none}.tabs button .short{display:inline}
   .mode{padding:12px 14px}.mode b.lbl{font-size:17px}
-  .saybox{flex-wrap:wrap}.saybox input{flex-basis:100%}}
+  .saybox{flex-wrap:wrap}.saybox input{flex-basis:100%}
+  /* 2026-09-29: ten tabs no longer fit a phone's width; the bar scrolls sideways instead of
+     squeezing each button below its label (showTab scrolls the chosen one into view) */
+  .tabs{overflow-x:auto;justify-content:flex-start;scrollbar-width:none}
+  .tabs button{flex:1 0 58px}
+  /* APIs table becomes one card per service: header row hidden, each cell labelled */
+  table.apis,table.apis tbody,table.apis tr,table.apis td{display:block;width:100%}
+  table.apis tr:first-child{display:none}
+  table.apis tr{border:1px solid var(--line2);border-radius:10px;padding:10px 12px;margin-bottom:10px;background:var(--panel2)}
+  table.apis td{border:0;padding:4px 0}
+  table.apis td:nth-child(n+2)::before{display:block;color:var(--faint);font-size:10.5px;font-weight:700;text-transform:uppercase;letter-spacing:.12em;margin:4px 0 2px}
+  table.apis td:nth-child(2)::before{content:'used for'}
+  table.apis td:nth-child(3)::before{content:'endpoints called'}
+  table.apis td:nth-child(4)::before{content:'links'}
+  table.apis td:nth-child(4){line-height:2}}
 @media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}html{scroll-behavior:auto}}
 </style></head><body>
 <div class="hdr">
 <h1><b>CJAP</b> Maintenance<small>audience: <a href="/audience" target="_blank">/audience</a> &middot; console: <a href="/console" id="consolelink" target="_blank">/console</a> &middot; ops: <a href="/" target="_blank">/</a></small></h1>
-<!-- the two display views (2026-09-14). Labelled for what they are FOR, because
-     putting the operator one on a visitor-facing monitor is the mistake to avoid. -->
-<div class="card c6" data-tab="system"><h2>Display screens</h2>
-  <p class="hint">Two read-only views. Neither starts an avatar session, sends a command or
-  writes anything, so opening them cannot disturb a turn or another screen.</p>
-  <div class="btns" style="flex-wrap:wrap;gap:8px">
-    <a class="btn" href="/stage" target="_blank">&#127917; /stage &mdash; for the visitor</a>
-    <a class="btn" href="/monitor" target="_blank">&#128065; /monitor &mdash; for you</a>
-    <a class="btn" href="/monitor?public_display=1" target="_blank">/monitor &mdash; public screen</a>
-    <a class="btn" href="/tune" id="tunelink" target="_blank">&#127899; /tune &mdash; motion sliders</a>
-  </div>
-  <details class="hint"><summary>which one goes where</summary>
-    <b>/stage</b> is the face alone, full bleed, no text and no controls &mdash; for a monitor
-    beside the robot or a tablet a visitor can see. It shows nothing a visitor should not read,
-    and never shows an error.<br>
-    <b>/monitor</b> adds the camera, the question and the answer, the latency and a mark whenever
-    a guardrail fired &mdash; for your laptop. It shows the raw transcript, which is exactly what
-    must not appear on a screen the public can photograph.<br>
-    <b>/monitor?public_display=1</b> is the same page with the raw transcript, the debug and the
-    error states removed, and a question shown only after the gates have passed.<br>
-    Mouth timing: open /monitor, set <i>mouth offset</i> while the robot speaks, then put the
-    <code>/stage?offset=&hellip;</code> it prints into the display&rsquo;s URL. The internal
-    speaker and an external one need different values.
-  </details></div>
 <div class="statuslinks" title="Provider status pages (open in new tab)">
   <a href="https://status.claude.com" target="_blank" rel="noopener"><i></i>Claude status</a>
   <a href="https://status.elevenlabs.io" target="_blank" rel="noopener"><i></i>ElevenLabs status</a>
@@ -575,6 +573,32 @@ details.help[open] summary{margin-bottom:4px}
 
 <!-- ═══ SYSTEM ═══ -->
 <div class="sec" data-tab="system">System &mdash; health, network, providers</div>
+<!-- the two display views (2026-09-14). Labelled for what they are FOR, because
+     putting the operator one on a visitor-facing monitor is the mistake to avoid.
+     2026-09-29 (user: "remove the floating text then fix it in a tab"): moved out of the sticky
+     header, where it floated over every tab, into the System tab grid. -->
+<div class="card c6" data-tab="system"><h2>Display screens</h2>
+  <p class="hint">Two read-only views. Neither starts an avatar session, sends a command or
+  writes anything, so opening them cannot disturb a turn or another screen.</p>
+  <div class="btns" style="flex-wrap:wrap;gap:8px">
+    <a class="btn" href="/stage" target="_blank">&#127917; /stage &mdash; for the visitor</a>
+    <a class="btn" href="/monitor" target="_blank">&#128065; /monitor &mdash; for you</a>
+    <a class="btn" href="/monitor?public_display=1" target="_blank">/monitor &mdash; public screen</a>
+    <a class="btn" href="/tune" id="tunelink" target="_blank">&#127899; /tune &mdash; motion sliders</a>
+  </div>
+  <details class="hint"><summary>which one goes where</summary>
+    <b>/stage</b> is the face alone, full bleed, no text and no controls &mdash; for a monitor
+    beside the robot or a tablet a visitor can see. It shows nothing a visitor should not read,
+    and never shows an error.<br>
+    <b>/monitor</b> adds the camera, the question and the answer, the latency and a mark whenever
+    a guardrail fired &mdash; for your laptop. It shows the raw transcript, which is exactly what
+    must not appear on a screen the public can photograph.<br>
+    <b>/monitor?public_display=1</b> is the same page with the raw transcript, the debug and the
+    error states removed, and a question shown only after the gates have passed.<br>
+    Mouth timing: open /monitor, set <i>mouth offset</i> while the robot speaks, then put the
+    <code>/stage?offset=&hellip;</code> it prints into the display&rsquo;s URL. The internal
+    speaker and an external one need different values.
+  </details></div>
 <div class="card c6" data-tab="system"><h2>Health</h2><div id="health"></div><div id="flags"></div></div>
 <div class="card c6" data-tab="system"><h2>System</h2><div id="services"></div><div id="sys" class="dim">loading&hellip;</div>
   <div class="btns" style="margin-top:10px"><span class="lbl">Restart</span>
@@ -614,6 +638,84 @@ details.help[open] summary{margin-bottom:4px}
   <h3 style="margin:14px 0 6px">Recent errors &amp; operator actions <span class="dim">(this boot, newest last)</span></h3>
   <pre id="errs" class="mono">loading&hellip;</pre>
 </div>
+
+<!-- ═══ CHECKLIST ═══ -->
+<!-- 2026-09-29 (user: "add a checklist in the UI ... another tab"). The items of
+     docs/PRE_EVENT_CHECKLIST.md, shortened; keep the two in step. Ticks are remembered in
+     this browser only (localStorage), not shared between operators or machines. -->
+<div class="sec" data-tab="check">Checklist &mdash; before the doors open, on BOTH machines</div>
+<div class="card c12" id="check-card" data-tab="check"><h2>Pre-event checklist <span class="dim" id="ck-count"></span>
+  <button class="sm" onclick="ckReset()" title="Untick everything (this browser only)">Reset</button></h2>
+  <p class="hint">Tick in order. Ticks are saved in this browser only; another laptop or phone keeps its own. Full detail: <code>docs/PRE_EVENT_CHECKLIST.md</code>.</p>
+  <h3 class="ckh">The night before</h3>
+  <label class="ck"><input type="checkbox" data-ck="n1"><span><b>Voice app enabled on both machines</b><small><code>systemctl is-enabled supervaise.service</code> says <code>enabled</code></small></span></label>
+  <label class="ck"><input type="checkbox" data-ck="n2"><span><b>Same commit, clean tree on both</b><small><code>git status</code> clean, <code>git log -1 --oneline</code> matches</small></span></label>
+  <label class="ck"><input type="checkbox" data-ck="n3"><span><b>config/robots.json correct</b><small>both machine names, <code>authority.host</code> serves the console, <code>bind</code> is 0.0.0.0</small></span></label>
+  <label class="ck"><input type="checkbox" data-ck="n4"><span><b>Drop-in holds identity only</b><small><code>wakeword.conf</code> carries <code>CJ_ROBOT_SLOT</code>; secrets in <code>app/.env</code>; listening knobs in <code>config/modes/*.json</code></small></span></label>
+  <label class="ck"><input type="checkbox" data-ck="n5"><span><b>Pre-rendered audio present</b><small><code>render_duet.py --dry-run</code> and <code>render_intro.py --dry-run</code> say every line &ldquo;up to date&rdquo;</small></span></label>
+  <label class="ck"><input type="checkbox" data-ck="n6"><span><b>Canned answers warm</b><small><code>scripts/prerender_canned.py</code></small></span></label>
+  <label class="ck"><input type="checkbox" data-ck="n7"><span><b>Wireless mic heard by the floor holder</b><small>give each robot the floor in /console, talk, watch the room level move</small></span></label>
+  <h3 class="ckh">One hour before</h3>
+  <label class="ck"><input type="checkbox" data-ck="h1"><span><b>Console open, both robots report</b><small><code>/console?key=cjap</code> &mdash; no &ldquo;no report&rdquo; pills</small></span></label>
+  <label class="ck"><input type="checkbox" data-ck="h2"><span><b>Roles, mode and profile set</b><small><code>cjap_is</code>; <code>direct</code> + <code>event</code> for Q&amp;A, <code>duet</code> for the loop</small></span></label>
+  <label class="ck"><input type="checkbox" data-ck="h3"><span><b>No loudness warning with the crowd in</b><small>no amber warning on either robot; raise the threshold if it fires</small></span></label>
+  <label class="ck"><input type="checkbox" data-ck="h4"><span><b>Locked gates all ON</b><small>specifics rule, fact audit, year gate, AI-self-description gate, corpus grounding</small></span></label>
+  <label class="ck"><input type="checkbox" data-ck="h5"><span><b>Bluetooth hijack off on both</b><small><code>systemctl is-enabled speaker-watchdog.service</code> &rarr; <code>disabled</code></small></span></label>
+  <label class="ck"><input type="checkbox" data-ck="h6"><span><b>Speaker route correct on both</b><small><code>~/bin/audio-out status</code></small></span></label>
+  <label class="ck"><input type="checkbox" data-ck="h7"><span><b>External PA plays the test tone</b><small><code>audio-out dac-present</code>, <code>audio-out dac</code>, <code>audio-out test</code> &mdash; tone from the PA, not the robot</small></span></label>
+  <label class="ck"><input type="checkbox" data-ck="h8"><span><b>Echo cancellation calibrated for the PA</b><small><code>~/tools/aec_ref_calib.py</code> &rarr; <code>CJ_AEC_REF_DELAY_DAC_MS</code> in the drop-in</small></span></label>
+  <label class="ck"><input type="checkbox" data-ck="h9"><span><b>Barge-in checked at show volume</b><small>journal <code>[stop] answer played out &mdash; peak</code>; <code>CJ_STOP_OWW_THRESHOLD</code> ~3&times; the highest non-stop peak</small></span></label>
+  <label class="ck"><input type="checkbox" data-ck="h10"><span><b>PA not behind the robot</b><small>in front of or beside it, firing at the audience</small></span></label>
+  <label class="ck"><input type="checkbox" data-ck="h11"><span><b>Silent dry-run turn on each robot</b><small>console &ldquo;Rehearse silently&rdquo; on, ask, watch the journal, turn it off</small></span></label>
+  <h3 class="ckh">If the console goes away mid-event</h3>
+  <p class="dim">Both robots close their microphones within 3 s and keep their last role. Duet keeps playing (no network needed). Direct mode needs the console back: restart <code>pi-dashboard.service</code> on the authority machine.</p>
+</div>
+
+<!-- ═══ APIS ═══ -->
+<!-- 2026-09-29 (user: "add the Links of the API that are used ... in another tab"). A static
+     reference list: every external endpoint the app, the render scripts and these pages call,
+     grouped by vendor, with that vendor's account, docs and status pages. Update it when a
+     call site is added (grep for https:// in app/, voice/, dashboard/, scripts/).
+     Logos (same day, user: "logos with hyperlink"): each vendor's favicon via Google's favicon
+     service, fetched by the browser; offline or blocked it falls back to the initial letter. -->
+<div class="sec" data-tab="apis">APIs &mdash; external services this installation calls</div>
+<div class="card c12" id="apis-card" data-tab="apis"><h2>API links <span class="dim">(endpoints in use, and where to manage each account)</span></h2>
+  <p class="hint">Keys live in this robot&rsquo;s <code>app/.env</code> (System tab &rarr; API keys); the LiveAvatar key in <code>dashboard/assets/liveavatar.json</code>. Duet mode needs none of these &mdash; it plays pre-rendered audio with no internet.</p>
+  <div style="overflow-x:auto"><table class="apis">
+  <tr><th>service</th><th>used for</th><th>endpoints called</th><th>links</th></tr>
+  <tr><td><a class="apilogo" href="https://console.anthropic.com" target="_blank" rel="noopener" title="open Anthropic"><span class="lg" data-l="A"><img src="https://www.google.com/s2/favicons?domain=anthropic.com&amp;sz=64" alt="" onerror="this.parentNode.textContent=this.parentNode.dataset.l"></span><b>Anthropic</b></a></td><td>router (Haiku, <code>ROUTER_MODEL</code>), composer (<code>INFERENCE_MODEL</code>), answer audit, fillers</td>
+    <td class="mono">https://api.anthropic.com/v1/messages<br>https://api.anthropic.com/v1/models <span class="dim">(key check)</span></td>
+    <td><a href="https://console.anthropic.com/settings/usage" target="_blank" rel="noopener">usage</a> &middot;
+      <a href="https://console.anthropic.com/settings/keys" target="_blank" rel="noopener">keys</a> &middot;
+      <a href="https://docs.anthropic.com/en/api/messages" target="_blank" rel="noopener">docs</a> &middot;
+      <a href="https://status.claude.com" target="_blank" rel="noopener">status</a></td></tr>
+  <tr><td><a class="apilogo" href="https://platform.openai.com" target="_blank" rel="noopener" title="open OpenAI"><span class="lg" data-l="O"><img src="https://www.google.com/s2/favicons?domain=openai.com&amp;sz=64" alt="" onerror="this.parentNode.textContent=this.parentNode.dataset.l"></span><b>OpenAI</b></a></td><td>speech-to-text (<code>OPENAI_STT_MODEL</code>)</td>
+    <td class="mono">https://api.openai.com/v1/audio/transcriptions<br>https://api.openai.com/v1/models <span class="dim">(key check)</span></td>
+    <td><a href="https://platform.openai.com/usage" target="_blank" rel="noopener">usage</a> &middot;
+      <a href="https://platform.openai.com/api-keys" target="_blank" rel="noopener">keys</a> &middot;
+      <a href="https://platform.openai.com/docs/api-reference/audio" target="_blank" rel="noopener">docs</a> &middot;
+      <a href="https://status.openai.com" target="_blank" rel="noopener">status</a></td></tr>
+  <tr><td><a class="apilogo" href="https://fish.audio/app/developers" target="_blank" rel="noopener" title="open Fish Audio"><span class="lg" data-l="F"><img src="https://www.google.com/s2/favicons?domain=fish.audio&amp;sz=64" alt="" onerror="this.parentNode.textContent=this.parentNode.dataset.l"></span><b>Fish Audio</b></a></td><td>Panganiban&rsquo;s voice (alpha: the only engine, <code>CJ_TTS_ORDER=fish</code>)</td>
+    <td class="mono">https://api.fish.audio/v1/tts<br>https://api.fish.audio/v1/tts/stream/with-timestamp<br>https://api.fish.audio/wallet/self/api-credit <span class="dim">(credit)</span></td>
+    <td><a href="https://fish.audio/app/developers" target="_blank" rel="noopener">keys &amp; credit</a> &middot;
+      <a href="https://docs.fish.audio" target="_blank" rel="noopener">docs</a></td></tr>
+  <tr><td><a class="apilogo" href="https://elevenlabs.io/app" target="_blank" rel="noopener" title="open ElevenLabs"><span class="lg" data-l="E"><img src="https://www.google.com/s2/favicons?domain=elevenlabs.io&amp;sz=64" alt="" onerror="this.parentNode.textContent=this.parentNode.dataset.l"></span><b>ElevenLabs</b></a></td><td>Host voice, Panganiban on beta, pre-rendered duet / intros / fillers, audio isolation</td>
+    <td class="mono">https://api.elevenlabs.io/v1/text-to-speech/{voice_id}[/with-timestamps]<br>https://api.elevenlabs.io/v1/audio-isolation<br>https://api.elevenlabs.io/v1/voices<br>https://api.elevenlabs.io/v1/user/subscription <span class="dim">(quota)</span><br>https://api.elevenlabs.io/v1/forced-alignment <span class="dim">(scripts only)</span></td>
+    <td><a href="https://elevenlabs.io/app/subscription" target="_blank" rel="noopener">usage</a> &middot;
+      <a href="https://elevenlabs.io/app/settings/api-keys" target="_blank" rel="noopener">keys</a> &middot;
+      <a href="https://elevenlabs.io/app/voice-lab" target="_blank" rel="noopener">voices</a> &middot;
+      <a href="https://elevenlabs.io/docs/api-reference" target="_blank" rel="noopener">docs</a> &middot;
+      <a href="https://status.elevenlabs.io" target="_blank" rel="noopener">status</a></td></tr>
+  <tr><td><a class="apilogo" href="https://www.liveavatar.com" target="_blank" rel="noopener" title="open LiveAvatar"><span class="lg" data-l="L"><img src="https://www.google.com/s2/favicons?domain=liveavatar.com&amp;sz=64" alt="" onerror="this.parentNode.textContent=this.parentNode.dataset.l"></span><b>LiveAvatar</b></a></td><td>browser avatar on /face-avatar (paid session)</td>
+    <td class="mono">https://api.liveavatar.com/v1/sessions/token<br>https://api.liveavatar.com/v1/sessions/start<br>https://api.liveavatar.com/v1/sessions/stop<br>https://api.liveavatar.com/v1/avatars/{id}</td>
+    <td><a href="https://www.liveavatar.com" target="_blank" rel="noopener">site</a></td></tr>
+  <tr><td><b>Page assets</b></td><td>loaded by the browser, not the robot: LiveKit client, face tracking, fonts</td>
+    <td class="mono">https://cdn.jsdelivr.net/npm/livekit-client@2<br>https://cdn.jsdelivr.net/npm/@mediapipe/tasks-vision@1.0.1<br>https://storage.googleapis.com/mediapipe-models/&hellip;/face_landmarker.task<br>https://fonts.googleapis.com</td>
+    <td class="dim">&mdash;</td></tr>
+  <tr><td><b>Status feeds</b></td><td>the provider chips in the header and Usage &amp; errors card</td>
+    <td class="mono">https://status.claude.com/api/v2/status.json<br>https://status.anthropic.com/api/v2/status.json<br>https://status.openai.com/api/v2/status.json<br>https://status.elevenlabs.io/api/v2/status.json</td>
+    <td class="dim">&mdash;</td></tr>
+  </table></div></div>
 
 <!-- ═══ LOGS ═══ -->
 <div class="sec" data-tab="logs">Logs</div>
@@ -1380,6 +1482,15 @@ function fitMeters(){const c=$('controls-card'),st=document.querySelector('.stac
   st.style.maxHeight=window.innerWidth<=760?'':c.offsetHeight+'px';}
 try{new ResizeObserver(fitMeters).observe($('controls-card'));}catch(e){}
 window.addEventListener('resize',fitMeters);fitMeters();
+// Pre-event checklist ticks (2026-09-29): per browser, keyed by item id; see the card comment.
+function ckLoad(){let v={};try{v=JSON.parse(localStorage.getItem('cjcheck')||'{}')||{}}catch(e){}return v}
+function ckCount(){const all=document.querySelectorAll('[data-ck]'),n=[...all].filter(b=>b.checked).length;
+  $('ck-count').textContent='('+n+' / '+all.length+' done)';}
+(function(){const v=ckLoad();document.querySelectorAll('[data-ck]').forEach(b=>{b.checked=!!v[b.dataset.ck];
+  b.onchange=()=>{const w=ckLoad();if(b.checked)w[b.dataset.ck]=1;else delete w[b.dataset.ck];
+    try{localStorage.setItem('cjcheck',JSON.stringify(w))}catch(e){}ckCount();}});ckCount();})();
+function ckReset(){if(!confirm('Untick every item on this browser?'))return;try{localStorage.removeItem('cjcheck')}catch(e){}
+  document.querySelectorAll('[data-ck]').forEach(b=>b.checked=false);ckCount();}
 // 2026-09-01 tabs (user: "desktop friendly" too): Live / Audio / Robot / Conversation / System / Logs / All.
 // Phones open on Live, desktops on All; the choice is remembered per browser. Section dividers show only in All.
 // 2026-09-12 (user: "organized well", "add a Guest setting in the tab"): Guest tab; a card may
@@ -1390,11 +1501,14 @@ const ICON={live:'<path d="M6 4l14 8-14 8z"/>',guest:'<circle cx="12" cy="8" r="
   conv:'<path d="M21 12a8 8 0 0 1-11.6 7.1L4 21l1.9-5.4A8 8 0 1 1 21 12z"/>',
   system:'<path d="M4 6h8M16 6h4M4 12h2M10 12h10M4 18h10M18 18h2"/><circle cx="14" cy="6" r="2"/><circle cx="8" cy="12" r="2"/><circle cx="16" cy="18" r="2"/>',
   logs:'<path d="M14 3H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"/><path d="M14 3v6h6M8 13h8M8 17h8"/>',
+  check:'<rect x="4" y="4" width="16" height="16" rx="3"/><path d="M8 12l3 3 5-6"/>',
+  apis:'<path d="M10 14a4 4 0 0 0 5.7 0l3-3a4 4 0 0 0-5.7-5.7l-1 1"/><path d="M14 10a4 4 0 0 0-5.7 0l-3 3a4 4 0 0 0 5.7 5.7l1-1"/>',
   avatar:'<circle cx="12" cy="11" r="7"/><path d="M9 10h.01M15 10h.01M9 14c.8 .8 2 1.2 3 1.2s2.2-.4 3-1.2"/>',
   all:'<rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/>'};
-const TABS=[['live','Live','Live'],['guest','Guest','Guest'],['audio','Audio','Audio'],['robot','Robot','Robot'],['avatar','Avatar','Avatar'],['conv','Conversation','Chat'],['system','System','System'],['logs','Logs','Logs'],['all','All','All']];
+const TABS=[['live','Live','Live'],['check','Checklist','Check'],['guest','Guest','Guest'],['audio','Audio','Audio'],['robot','Robot','Robot'],['avatar','Avatar','Avatar'],['conv','Conversation','Chat'],['system','System','System'],['apis','APIs','APIs'],['logs','Logs','Logs'],['all','All','All']];
 function showTab(t){try{localStorage.setItem('cjtab',t)}catch(e){}
   document.querySelectorAll('#tabs button').forEach(b=>{b.classList.toggle('on',b.dataset.t===t);b.setAttribute('aria-selected',b.dataset.t===t)});
+  try{const on=document.querySelector('#tabs button.on');if(on)on.scrollIntoView({block:'nearest',inline:'nearest'})}catch(e){}
   document.querySelectorAll('.grid > [data-tab]').forEach(el=>{el.hidden=(t!=='all'&&!el.dataset.tab.split(' ').includes(t))});
   try{fitMeters()}catch(e){}
   try{if(window.__booted){poll();wakeTick();camTick();}}catch(e){}}
