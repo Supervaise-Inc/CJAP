@@ -1,0 +1,70 @@
+#!/home/pollen/Supervaise-Reachy-Mini-Project-main/app/.venv/bin/python
+"""xvf-ctl — read/write XVF3800 (Reachy Mini Audio) control parameters.
+
+    xvf-ctl read NAME [NAME ...]        -> JSON {NAME: [values...]}
+    xvf-ctl write NAME v1 [v2 ...]      -> JSON {"ok": true, NAME: [readback]}
+
+Loads reachy_mini/media/audio_control_utils.py straight from its file so the
+package __init__ (onnxruntime etc.) is not imported: ~0.3 s per call.
+Reads are a single USB control transfer, so this is safe to run while the
+voice app polls DoA on the same endpoint. 2026-09-01 (mic meter on /maintain).
+"""
+import importlib.util, json, sys, os
+
+MOD = ("/home/pollen/Supervaise-Reachy-Mini-Project-main/app/.venv/lib/python3.13/"
+       "site-packages/reachy_mini/media/audio_control_utils.py")
+
+
+def _load():
+    spec = importlib.util.spec_from_file_location("audio_control_utils", MOD)
+    m = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(m)
+    return m
+
+
+def _vals(m, name, raw):
+    """Strip the status byte for uint8/char lists; floats come back as tuples."""
+    if raw is None:
+        return None
+    if isinstance(raw, (list, tuple)):
+        typ = m.PARAMETERS[name][4]
+        if typ in ("uint8", "char") and len(raw) and raw[0] == 0:
+            return list(raw[1:])
+        cnt = m.PARAMETERS[name][2]
+        if typ in ("int32", "uint32") and len(raw) == cnt * 4 + 1 and raw[0] == 0:
+            import struct   # library hands back status + little-endian bytes
+            return list(struct.unpack("<%d%s" % (cnt, "i" if typ == "int32" else "I"), bytes(raw[1:])))
+        return [None if isinstance(v, float) and v != v else v for v in raw]   # NaN -> null
+    return raw
+
+
+def main():
+    if len(sys.argv) < 3 or sys.argv[1] not in ("read", "write"):
+        print(__doc__); sys.exit(2)
+    m = _load()
+    dev = m.init_respeaker_usb()
+    if dev is None:
+        print(json.dumps({"ok": False, "error": "no XVF3800 USB device"})); sys.exit(1)
+    out = {"ok": True}
+    try:
+        if sys.argv[1] == "read":
+            for name in sys.argv[2:]:
+                try:
+                    out[name] = _vals(m, name, dev.read(name))
+                except Exception as e:
+                    out[name] = None; out["ok"] = False; out.setdefault("errors", []).append(f"{name}: {e}")
+        else:
+            name = sys.argv[2]
+            typ = m.PARAMETERS[name][4]
+            conv = float if typ in ("float", "radians") else int
+            vals = [conv(v) for v in sys.argv[3:]]
+            dev.write(name, vals)
+            out[name] = _vals(m, name, dev.read(name)) if m.PARAMETERS[name][3] != "wo" else vals
+    finally:
+        try: dev.close()
+        except Exception: pass
+    print(json.dumps(out)); sys.exit(0 if out["ok"] else 1)
+
+
+if __name__ == "__main__":
+    main()

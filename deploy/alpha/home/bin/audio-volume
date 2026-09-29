@@ -1,0 +1,115 @@
+#!/bin/bash
+# audio-volume - one master output level (0-100) for the Reachy Mini, applied
+#                to BOTH playback paths so the /maintain slider replaces the
+#                buttons on the Bluetooth speaker (2026-09-01).
+#
+#   internal speaker : PipeWire sink "Reachy Mini Audio" (pactl set-sink-volume)
+#   Bluetooth speaker: BlueALSA A2DP PCM soft-volume (bluealsa-cli volume, 0-127)
+#                      -> the speaker's own hardware level is untouched; we scale
+#                         the stream below it, so 100 = whatever the speaker is set to.
+#
+# The level persists in ~/.cj_volume and is re-applied by ~/bin/audio-out on
+# every route switch and by speaker-watchdog when a speaker (re)connects
+# (BlueALSA forgets the PCM volume when the device drops).
+#
+#   audio-volume            show level + what it is applied to
+#   audio-volume get        same, as JSON  {"level":N,"applied":[...]}
+#   audio-volume set N      store N (0-100) and apply
+#   audio-volume apply      re-apply the stored level (idempotent)
+#   audio-volume up|down    step by 10
+#   audio-volume feed-on|feed-off   AEC reference feed flag (see below)
+set -u
+export XDG_RUNTIME_DIR="${XDG_RUNTIME_DIR:-/run/user/1000}"
+LEVEL_FILE="$HOME/.cj_volume"
+DEFAULT=100
+
+read_level() {
+    local v
+    v=$(cat "$LEVEL_FILE" 2>/dev/null | tr -dc '0-9')
+    [ -z "$v" ] && v=$DEFAULT
+    [ "$v" -gt 100 ] && v=100
+    echo "$v"
+}
+
+# 2026-09-01 AEC reference feed: while the voice app feeds the XVF3800 a copy of
+# what plays on a Bluetooth speaker (flag file below, route = bluealsa), the XMOS
+# sink must stay at FEED_PCT (12 % = hardware step 5 = -55 dB, inaudible) so the
+# copy is a reference for the chip, not a second speaker. apply/get run every 10 s
+# from the dashboard, so the guard lives here rather than in the app.
+FEED_FLAG="$HOME/.cj_ref_feed_on"
+FEED_PCT=12
+ROUTE_FILE="$HOME/.asoundrc.route"
+# 2026-09-02: not when the internal speaker is itself an output of a dual route
+# 2026-09-05: a USB DAC route ("# Primary: dac") bypasses the XMOS the same way
+feed_active() {
+    [ -f "$FEED_FLAG" ] \
+        && { grep -q "type bluealsa" "$ROUTE_FILE" 2>/dev/null || grep -qE "^# (Primary|Secondary): dac" "$ROUTE_FILE" 2>/dev/null; } \
+        && ! grep -qE "^# (Primary|Secondary): internal" "$ROUTE_FILE" 2>/dev/null
+}
+
+apply_level() {   # $1 = 0-100 ; prints a comma list of what took the level
+    local lvl="$1" applied="" name path bt xmos="$1"
+    # 1) internal speaker (PipeWire)
+    name=$(pactl list sinks short 2>/dev/null | awk '/Reachy_Mini_Audio/ {print $2; exit}')
+    if feed_active; then xmos=$FEED_PCT; fi
+    if [ -n "$name" ] && pactl set-sink-volume "$name" "${xmos}%" 2>/dev/null; then
+        applied="internal"; [ "$xmos" != "$lvl" ] && applied="internal(feed ${FEED_PCT}%)"
+    fi
+    # 1b) USB DAC (2026-09-05): any non-XMOS USB sink PipeWire exposes
+    name=$(pactl list sinks short 2>/dev/null | awk '$2 ~ /^alsa_output\.usb-/ && $2 !~ /Reachy_Mini_Audio/ {print $2; exit}')
+    if [ -n "$name" ] && pactl set-sink-volume "$name" "${lvl}%" 2>/dev/null; then
+        applied="${applied:+$applied,}dac"
+    fi
+    # 2) every BlueALSA A2DP sink PCM that exists right now (connected speakers)
+    bt=$(( lvl * 127 / 100 ))
+    while read -r path; do
+        [ -z "$path" ] && continue
+        case "$path" in */a2dpsrc/sink) ;; *) continue ;; esac
+        if bluealsa-cli -q volume "$path" "$bt" 2>/dev/null; then
+            local mac
+            mac=$(echo "$path" | sed -n 's|.*/dev_\([0-9A-F_]*\)/.*|\1|p' | tr '_' ':')
+            applied="${applied:+$applied,}bt:$mac"
+        fi
+    done < <(bluealsa-cli -q list-pcms 2>/dev/null)
+    echo "${applied:-none}"
+}
+
+case "${1:-show}" in
+  set)
+      v=$(echo "${2:-}" | tr -dc '0-9')
+      if [ -z "$v" ]; then echo "usage: audio-volume set 0-100" >&2; exit 2; fi
+      [ "$v" -gt 100 ] && v=100
+      echo "$v" > "$LEVEL_FILE"
+      echo "volume $v% -> $(apply_level "$v")"
+      ;;
+  up|down)
+      v=$(read_level)
+      if [ "$1" = up ]; then v=$(( v + 10 )); else v=$(( v - 10 )); fi
+      [ "$v" -gt 100 ] && v=100; [ "$v" -lt 0 ] && v=0
+      echo "$v" > "$LEVEL_FILE"
+      echo "volume $v% -> $(apply_level "$v")"
+      ;;
+  apply)
+      v=$(read_level)
+      echo "volume $v% -> $(apply_level "$v")"
+      ;;
+  feed-on)    # voice app: Bluetooth route, AEC reference feed starting
+      touch "$FEED_FLAG"
+      v=$(read_level)
+      echo "feed on -> $(apply_level "$v")"
+      ;;
+  feed-off)
+      rm -f "$FEED_FLAG"
+      v=$(read_level)
+      echo "feed off -> volume $v% -> $(apply_level "$v")"
+      ;;
+  get)
+      v=$(read_level)
+      a=$(apply_level "$v")   # applying is idempotent; also tells us what is live
+      printf '{"level":%s,"applied":"%s"}\n' "$v" "$a"
+      ;;
+  show|status|*)
+      v=$(read_level)
+      echo "volume $v% (stored in $LEVEL_FILE) -> $(apply_level "$v")"
+      ;;
+esac

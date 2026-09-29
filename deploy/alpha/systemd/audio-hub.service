@@ -1,0 +1,16 @@
+# Prefer the microphone and speaker on a USB hub while one is plugged in
+# (2026-09-15). Installed by scripts/install_audio_hub.sh.
+[Unit]
+Description=Prefer USB-hub microphone and speaker (scripts/audio_hub.py)
+After=sound.target
+
+[Service]
+User=pollen
+Environment=XDG_RUNTIME_DIR=/run/user/1000
+Environment=PYTHONUNBUFFERED=1
+ExecStart=/usr/bin/python3 /home/pollen/Supervaise-Reachy-Mini-Project-main/scripts/audio_hub.py
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target

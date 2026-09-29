@@ -1,0 +1,89 @@
+pcm.!default {
+    type asym
+    playback.pcm "reachymini_audio_sink"
+    capture.pcm "reachymini_audio_src_plug"
+}
+ctl.!default {
+    type hw
+    card Audio
+}
+# 2026-08-26: the Reachy Mini USB card is addressed BY NAME (CARD=Audio) because
+# its ALSA index moved 0 -> 2 after a boot where the vc4 HDMI cards enumerated
+# first. The reachy-mini-daemon boot check (reachy_mini/media/audio_utils.py
+# check_reachymini_asoundrc) regex-scans this file for "card <N>" and
+# overwrites it with a raw-hw config (breaks playback + shared mic) if the
+# detected index is missing, so the line below lists the indices it may see:
+# card 0 card 1 card 2 card 3 card 4
+#
+# Playback goes through pcm.audio_out_route, whose real definition lives in
+# ~/.asoundrc.route and is rewritten by ~/bin/audio-out (internal speaker via
+# PipeWire, or a Bluetooth speaker via BlueALSA). The pulse definition below
+# is only a fallback in case the route file is missing.
+# Daemon-written stock file from this boot: ~/.asoundrc.bak-daemon-stock-20260826
+# Pre-route original backed up at ~/.asoundrc.bak-pre-route-20260804.
+pcm.reachymini_audio_sink {
+    type plug
+    slave.pcm "audio_out_route"
+}
+pcm.audio_out_route {
+    type pulse
+}
+# 2026-09-02 dual output: ~/.asoundrc.route also defines pcm.!audio_out_route2
+# (second device when 'audio-out both/dual' is set, else type null). This
+# fallback keeps the name resolvable - the voice app's PortAudio device list
+# is built once at start-up, so the pcm must exist even when unused.
+pcm.audio_out_route2 {
+    type null
+}
+# 2026-09-15 capture route (scripts/audio_hub.py): the voice app records from
+# pcm.audio_in_route. This fallback is the robot's own XMOS beam; while a USB
+# microphone is plugged in, ~/.asoundrc.inroute (included below) overrides it.
+pcm.audio_in_route {
+    type plug
+    slave.pcm "reachymini_audio_src_left"
+}
+@hooks [
+    {
+        func load
+        files [
+            "/home/pollen/.asoundrc.route"
+            "/home/pollen/.asoundrc.inroute"
+        ]
+        errors false
+    }
+]
+# 2026-09-01: the voice app (and anything using the default capture device)
+# reads USB channel L only. The XVF3800 puts the same processed beam on both
+# USB channels by default (AUDIO_MGR_OP_L/R = 8,0), so this changes nothing
+# audible — but it frees USB channel R for the /maintain mic meter, which
+# points it at a raw mic (3,k) or the AEC reference (12,0) via ~/bin/xvf-ctl
+# without the app ever hearing the switch. Backup: ~/.asoundrc.bak-micleft-20260901
+pcm.reachymini_audio_src_plug {
+    type plug
+    slave.pcm "audio_in_route"
+}
+pcm.reachymini_audio_src_left {
+    type route
+    slave.pcm "reachymini_audio_src"
+    slave.channels 2
+    ttable.0.0 1
+}
+pcm.reachymini_audio_src {
+    type dsnoop
+    ipc_key 4242
+    slave {
+        pcm "hw:CARD=Audio,DEV=0"
+        channels 2
+        rate 16000
+        period_size 256
+        buffer_size 1024
+    }
+}
+
+# 2026-09-01 AEC reference feed (Bluetooth self-hearing fix): the voice app
+# writes a delayed copy of what it plays on a Bluetooth speaker to the XMOS
+# via PipeWire (default sink is always the XMOS; BlueALSA is outside PipeWire)
+# so the XVF3800 has a reference to cancel. Mixer sits at -55 dB meanwhile.
+pcm.cj_ref_feed {
+    type pulse
+}

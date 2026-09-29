@@ -1,0 +1,348 @@
+#!/bin/bash
+# audio-out - switch Reachy Mini audio output between the internal speaker,
+#             the paired Bluetooth speakers, the laptop (as a Bluetooth A2DP
+#             sink) - or TWO of those at once (2026-09-02, user: "play the
+#             tts through the laptop and the bluetooth speaker").
+#
+# Lives outside /venvs on purpose: anything under /venvs is erased by a
+# daemon update.
+#
+# How this works: ~/.asoundrc routes playback through pcm.audio_out_route,
+# whose definition lives in ~/.asoundrc.route (loaded via an @hooks include).
+# This script rewrites that route file. Since 2026-09-02 it always defines
+# TWO pcms there:
+#   pcm.!audio_out_route    primary output - aplay's default device and the
+#                           voice app's stream player
+#   pcm.!audio_out_route2   second output  - 'type null' unless a dual route
+#                           is set; the voice app mirrors every clip and
+#                           streamed sentence to it (~/bin/aplay-dual,
+#                           _SentenceOut in main_voice_robot.py) when real
+#   internal   -> type pulse   (PipeWire default sink = internal XMOS)
+#   bluetooth  -> type plug over type bluealsa, device <MAC>, profile a2dp,
+#                 slave channels 2 (the fixed channel count matters: without
+#                 it PortAudio cannot grope the pcm and the voice app's stream
+#                 player never finds "audio_out_route" - journal 2026-09-02)
+# Header lines are machine-readable: "# Route: <label>." (dashboard),
+# "# Primary: internal|MAC", "# Secondary: none|internal|MAC" (voice app,
+# speaker-watchdog).
+#
+# Bluetooth audio on this Pi goes through BlueALSA (vendor-enabled
+# bluealsa.service), NOT PipeWire: BlueALSA owns the A2DP endpoints, so
+# WirePlumber never creates a 'bluez' sink. Do not wait for one.
+#
+# ALSA reads the route at PCM open time, so only NEWLY opened playback
+# streams follow a switch. The robot app plays each utterance via a
+# short-lived aplay, so its next utterance picks up the new route.
+#
+# WARNING: Bluetooth output bypasses the XMOS speaker, which breaks its
+# echo cancellation -> end-of-speech detection degrades in the
+# conversation app. Use the internal speaker for demos.
+#
+# Two Bluetooth sinks at once (speaker + laptop) share the Pi's one radio:
+# two SBC streams (~330 kb/s each) next to Wi-Fi is workable but drop-outs
+# are more likely than with one device; keep both within a few metres.
+
+set -u
+export XDG_RUNTIME_DIR="${XDG_RUNTIME_DIR:-/run/user/1000}"
+
+ROUTE_FILE="$HOME/.asoundrc.route"
+TEST_WAV="/usr/share/sounds/alsa/Front_Center.wav"
+
+SONY_MAC="50:1B:6A:8B:16:F2"       # Sony ULT FIELD 1
+MARSHALL_MAC="04:21:44:84:1F:C1"   # Marshall EMBERTON
+C41_MAC="66:EA:C5:C3:E5:6B"        # C41 speaker (2026-09-02, user: "pair it with the C41 Speaker")
+LAPTOP_MAC="24:EE:9A:B2:13:D9"     # DESKTOP-B9F1GQ2 (2026-09-02 evening, user: "connect with this laptop"; Stealth D4:3B:04:1F:4B:D0 forgotten)
+# Robot-specific overrides (other speakers' MACs): ~/bin/audio-out.local is
+# sourced here and never touched by deploy/pi/install.sh (2026-08-25).
+[ -f "$HOME/bin/audio-out.local" ] && . "$HOME/bin/audio-out.local"
+
+bt_connected() { bluetoothctl info "$1" 2>/dev/null | grep -q "Connected: yes"; }
+
+# USB DAC (2026-09-05, user: "add the dac route"): any USB audio sink PipeWire
+# exposes that is NOT the Reachy Mini's own XMOS card (today: Synaptics
+# JM6PRO_2 on the hub). Routed as `type pulse` with an explicit device, so
+# aplay and the voice app's stream player both land on it while PipeWire's
+# default sink stays the XMOS (the AEC reference feed still needs that path).
+# Like Bluetooth, the XMOS then hears the DAC's speaker as a stranger: the voice
+# app turns its AEC reference feed on for a DAC route too (CJ_AEC_REF_DELAY_DAC_MS).
+dac_sink() {   # PipeWire sink name of the first non-XMOS USB output; rc 1 when none
+    # 2026-09-15: CJ_DAC_SINK (set by scripts/audio_hub.py) names the sink outright;
+    # CJ_DAC_DENY (default BOYA) keeps a wireless-mic receiver's headphone jack out.
+    local s deny="${CJ_DAC_DENY:-BOYA}"
+    if [ -n "${CJ_DAC_SINK:-}" ]; then
+        pactl list sinks short 2>/dev/null | awk -v n="$CJ_DAC_SINK" '$2 == n {f=1} END {exit !f}' || return 1
+        echo "$CJ_DAC_SINK"; return 0
+    fi
+    s=$(pactl list sinks short 2>/dev/null | awk -v d="$deny" 'tolower($2) ~ /^alsa_output\.usb-/ && $2 !~ /Reachy_Mini_Audio/ && (d == "" || index(tolower($2), tolower(d)) == 0) {print $2; exit}')
+    [ -n "$s" ] || return 1
+    echo "$s"
+}
+dac_label() {  # "Synaptics JM6PRO_2" from the sink's card name
+    local s d
+    s=$(dac_sink) || { echo "none plugged in"; return; }
+    d=$(echo "$s" | sed -e 's/^alsa_output\.usb-//' -e 's/-[0-9][0-9]\..*$//' -e 's/_/ /g')
+    echo "${d:-USB audio}"
+}
+
+bt_ensure_connected() {  # $1=mac  $2=label   (progress goes to stderr)
+    if bt_connected "$1"; then return 0; fi
+    echo "connecting to $2 ..." >&2
+    if [ "$1" = "$LAPTOP_MAC" ]; then
+        # 2026-09-02: a plain 'connect' lets Windows open the link as an audio
+        # SOURCE (laptop -> robot), which gives BlueALSA no sink PCM to play
+        # into. Ask for the laptop's A2DP Sink profile explicitly instead.
+        timeout 20 busctl call org.bluez "/org/bluez/hci0/dev_$(echo "$1" | tr ':' '_')" \
+            org.bluez.Device1 ConnectProfile s 0000110b-0000-1000-8000-00805f9b34fb >/dev/null 2>&1 || true
+    else
+        bluetoothctl connect "$1" >/dev/null 2>&1
+    fi
+    for _ in $(seq 1 10); do
+        bt_connected "$1" && return 0
+        sleep 1
+    done
+    echo "error: could not connect to $2 ($1) - is it powered on?" >&2
+    [ "$1" = "$LAPTOP_MAC" ] && echo "       (laptop: Bluetooth on, and Windows 'Bluetooth audio receive' / 'connect' from the laptop side may be needed)" >&2
+    return 1
+}
+
+dev_name() {  # $1=mac -> friendly name
+    case "$1" in
+        "$SONY_MAC")     echo "Sony ULT FIELD 1" ;;
+        "$MARSHALL_MAC") echo "Marshall EMBERTON" ;;
+        "$C41_MAC")      echo "C41" ;;
+        "$LAPTOP_MAC")   echo "Laptop" ;;
+        internal)        echo "internal speaker" ;;
+        dac)             echo "USB DAC ($(dac_label))" ;;
+        *) local nm; nm=$(bluetoothctl info "$1" 2>/dev/null | sed -n 's/^\s*Name: //p'); echo "${nm:-$1}" ;;
+    esac
+}
+
+# paired devices that are real audio sinks (speakers/headphones), excluding
+# the two named ones and the laptop (2026-08-31: "any bluetooth speaker")
+other_speakers() {
+    local mac info
+    while read -r _ mac _; do
+        [ "$mac" = "$SONY_MAC" ] || [ "$mac" = "$MARSHALL_MAC" ] || [ "$mac" = "$C41_MAC" ] || [ "$mac" = "$LAPTOP_MAC" ] && continue
+        info=$(bluetoothctl info "$mac" 2>/dev/null)
+        echo "$info" | grep -q "Audio Sink" || continue
+        # laptops/phones also advertise Audio Sink - only real audio devices
+        echo "$info" | grep -qE "Icon: audio-(card|headset|headphones)" || continue
+        echo "$mac"
+    done < <(bluetoothctl devices Paired 2>/dev/null)
+}
+
+# MAC of a usable Bluetooth SPEAKER: prefer one already connected, else try
+# Sony, Marshall, then any other paired audio device.
+pick_bt() {
+    local m
+    for m in "$C41_MAC" "$SONY_MAC" "$MARSHALL_MAC" $(other_speakers); do
+        bt_connected "$m" && { echo "$m"; return 0; }
+    done
+    for m in "$C41_MAC" "$SONY_MAC" "$MARSHALL_MAC" $(other_speakers); do
+        bt_ensure_connected "$m" "$(dev_name "$m")" && { echo "$m"; return 0; }
+    done
+    return 1
+}
+
+# name -> internal | MAC  (empty + rc 1 when unknown)
+resolve() {
+    case "$1" in
+        internal|speaker|xmos)   echo internal ;;
+        sony|ult|field)          echo "$SONY_MAC" ;;
+        marshall|emberton)       echo "$MARSHALL_MAC" ;;
+        c41)                     echo "$C41_MAC" ;;
+        laptop|pc)               echo "$LAPTOP_MAC" ;;
+        dac|usb|usb-dac)         dac_sink >/dev/null || { echo "error: no USB DAC sink in PipeWire (is it plugged in?)" >&2; return 1; }; echo dac ;;
+        bt|bluetooth)            pick_bt ;;
+        ??:??:??:??:??:??)       echo "$1" ;;
+        *) return 1 ;;
+    esac
+}
+
+pcm_def() {  # $1=pcm name  $2=internal|dac|MAC
+    if [ "$2" = internal ]; then
+        printf 'pcm.!%s {\n    type pulse\n}\n' "$1"
+    elif [ "$2" = dac ]; then
+        printf 'pcm.!%s {\n    type pulse\n    device "%s"\n}\n' "$1" "$(dac_sink)"
+    else
+        printf 'pcm.!%s {\n    type plug\n    slave {\n        pcm {\n            type bluealsa\n            device "%s"\n            profile "a2dp"\n        }\n        channels 2\n    }\n}\n' "$1" "$2"
+    fi
+}
+target_label() {
+    if [ "$1" = internal ]; then echo "internal speaker (XMOS)"
+    elif [ "$1" = dac ]; then echo "$(dev_name dac) via PipeWire"
+    else echo "$(dev_name "$1") ($1) via BlueALSA"; fi
+}
+write_route() {  # $1=primary(internal|MAC)  $2=secondary(none|internal|MAC)
+    local p="$1" s="${2:-none}" label
+    label="$(target_label "$p")"
+    [ "$s" != none ] && label="$label + $(target_label "$s")"
+    {
+        echo "# Written by ~/bin/audio-out - do not edit by hand."
+        echo "# Route: $label."
+        echo "# Primary: $p"
+        echo "# Secondary: $s"
+        pcm_def audio_out_route "$p"
+        if [ "$s" = none ]; then printf 'pcm.!audio_out_route2 {\n    type null\n}\n'
+        else pcm_def audio_out_route2 "$s"; fi
+    } > "$ROUTE_FILE"
+}
+
+route_primary() {   # internal | MAC   (legacy files without the header still parse)
+    local p; p=$(sed -n 's/^# Primary: //p' "$ROUTE_FILE" 2>/dev/null)
+    if [ -z "$p" ]; then
+        if grep -q "type bluealsa" "$ROUTE_FILE" 2>/dev/null; then
+            p=$(awk -F'"' '/device/ {print $2; exit}' "$ROUTE_FILE")
+        else p=internal; fi
+    fi
+    echo "$p"
+}
+route_secondary() { local s; s=$(sed -n 's/^# Secondary: //p' "$ROUTE_FILE" 2>/dev/null); echo "${s:-none}"; }
+route_label() {
+    local l; l=$(sed -n 's/^# Route: //p' "$ROUTE_FILE" 2>/dev/null | sed 's/\.$//')
+    if [ -n "$l" ]; then echo "$l"; else target_label "$(route_primary)"; fi
+}
+
+# A2DP PCM present right now? (a device can be "connected" with no endpoint)
+pcm_usable() {
+    [ "$1" = internal ] && return 0
+    [ "$1" = none ] && return 1
+    [ "$1" = dac ] && { dac_sink >/dev/null; return; }   # unplugged DAC = no sink
+    bluealsa-cli -q list-pcms 2>/dev/null | grep -q "dev_$(echo "$1" | tr ':' '_')/a2dpsrc/sink"
+}
+
+pull_streams_internal() {
+    # keep PipeWire's default on the XMOS sink and pull live PipeWire
+    # streams back to it
+    local name si
+    name=$(pactl list sinks short 2>/dev/null | awk '/Reachy_Mini_Audio/ {print $2; exit}')
+    if [ -n "$name" ]; then
+        pactl set-default-sink "$name" 2>/dev/null
+        # 2026-09-01: level comes from ~/bin/audio-volume (the /maintain slider),
+        # not a hard 100% - see that script.
+        for si in $(pactl list sink-inputs short 2>/dev/null | awk '{print $1}'); do
+            pactl move-sink-input "$si" "$name" 2>/dev/null
+        done
+    fi
+}
+
+use_route() {  # $1=internal|MAC  [$2=internal|MAC|none]
+    local p="$1" s="${2:-none}" t
+    [ "$s" = "$p" ] && s=none
+    for t in "$p" "$s"; do
+        [ "$t" = internal ] || [ "$t" = none ] && continue
+        if [ "$t" = dac ]; then dac_sink >/dev/null || { echo "error: USB DAC not present" >&2; return 1; }; continue; fi
+        bt_ensure_connected "$t" "$(dev_name "$t")" || return 1
+    done
+    write_route "$p" "$s"
+    if [ "$p" = internal ] || [ "$s" = internal ]; then pull_streams_internal; fi
+    "$HOME/bin/audio-volume" apply >/dev/null 2>&1   # re-apply the stored level (BT PCMs forget it)
+    echo "output -> $(route_label)"
+    if [ "$p" = dac ]; then
+        echo "note: the DAC bypasses the XMOS speaker; the voice app feeds the chip an AEC"
+        echo "      reference copy (CJ_AEC_REF_DELAY_DAC_MS). 'audio-out internal' switches back."
+    elif [ "$p" != internal ]; then
+        echo "note: BT bypasses XMOS echo-cancel; end-of-speech detection degrades"
+        echo "      in the conversation app. 'audio-out internal' switches back."
+    fi
+    [ "$s" != none ] && echo "note: dual output - the voice app mirrors every clip to the second device."
+    return 0
+}
+
+usage() {
+    echo "usage: audio-out {internal|dac|c41|sony|marshall|laptop|bluetooth|<MAC>}   one output"
+    echo "       audio-out both                 Bluetooth speaker + laptop at once"
+    echo "       audio-out dual <a> <b>         any two outputs (names as above)"
+    echo "       audio-out {ensure|disconnect|test|status}"
+}
+
+case "${1:-status}" in
+  internal|speaker|xmos|sony|ult|field|marshall|emberton|c41|laptop|pc|??:??:??:??:??:??)
+      use_route "$(resolve "$1")"
+      ;;
+  dac|usb|usb-dac)
+      t=$(resolve dac) || exit 1
+      use_route "$t"
+      ;;
+  dac-present)   # exit 0 + sink name when a USB DAC is plugged in (dashboard, watchdog)
+      dac_sink
+      ;;
+  bt|bluetooth)
+      m=$(pick_bt) || { echo "error: no usable Bluetooth speaker" >&2; exit 1; }
+      use_route "$m"
+      ;;
+  both|laptop+bt|bt+laptop|speaker+laptop|laptop+speaker)
+      # 2026-09-02: Bluetooth speaker (Sony preferred, as 'bluetooth') + laptop
+      m=$(pick_bt) || { echo "error: no usable Bluetooth speaker" >&2; exit 1; }
+      use_route "$m" "$LAPTOP_MAC"
+      ;;
+  dual)
+      a=$(resolve "${2:-}") || { usage; exit 1; }
+      b=$(resolve "${3:-}") || { usage; exit 1; }
+      use_route "$a" "$b"
+      ;;
+  ensure)
+      # 2026-09-01: called right before/after a failed playback. If the route
+      # names a Bluetooth device whose A2DP PCM is gone (link dropped - e.g.
+      # Sony answered "Host is down" 4 s after connecting), rewrite the route
+      # NOW instead of waiting for the watchdog: a dead primary falls to the
+      # second output when that one works, else to the internal speaker; a
+      # dead second output is simply dropped (2026-09-02).
+      # exit 0 = route usable as is, exit 10 = route changed.
+      p=$(route_primary); s=$(route_secondary); changed=0
+      if ! pcm_usable "$p"; then
+          echo "$(dev_name "$p") ($p) has no A2DP PCM (device gone)"
+          if pcm_usable "$s"; then p="$s"; else p=internal; fi
+          s=none; changed=1
+      elif [ "$s" != none ] && ! pcm_usable "$s"; then
+          echo "second output $(dev_name "$s") ($s) has no A2DP PCM (device gone) -> dropped"
+          s=none; changed=1
+      fi
+      if [ "$changed" = 1 ]; then
+          write_route "$p" "$s"
+          [ "$p" = internal ] && pull_streams_internal
+          "$HOME/bin/audio-volume" apply >/dev/null 2>&1
+          echo "-> $(route_label)"
+          exit 10
+      fi
+      echo "ok: $(route_label)"
+      ;;
+  disconnect)
+      bluetoothctl disconnect "$SONY_MAC" >/dev/null 2>&1
+      bluetoothctl disconnect "$MARSHALL_MAC" >/dev/null 2>&1
+      bluetoothctl disconnect "$LAPTOP_MAC" >/dev/null 2>&1
+      echo "Bluetooth disconnected; falling back to internal"
+      use_route internal
+      ;;
+  test)
+      echo "playing test sound via current route: $(route_label)"
+      if [ "$(route_secondary)" != none ] && [ -x "$HOME/bin/aplay-dual" ]; then
+          "$HOME/bin/aplay-dual" "$TEST_WAV"
+      else
+          aplay -q -D reachymini_audio_sink "$TEST_WAV"
+      fi
+      ;;
+  status|list)
+      echo "=== route (new playback streams) ==="
+      echo "  $(route_label)"
+      echo
+      echo "=== usb dac ==="
+      if s=$(dac_sink); then echo "  $(dev_name dac): $s"; else echo "  none plugged in"; fi
+      echo
+      echo "=== bluetooth devices ==="
+      for mac in "$SONY_MAC" "$MARSHALL_MAC" "$LAPTOP_MAC"; do
+          if bt_connected "$mac"; then st="connected"; pcm_usable "$mac" && st="connected, A2DP ready" || st="connected, no A2DP PCM"; else st="not connected"; fi
+          echo "  $(dev_name "$mac") ($mac): $st"
+      done
+      echo
+      echo "=== active PipeWire playback streams ==="
+      pactl list sink-inputs 2>/dev/null | grep -E "Sink Input #|Sink:" || echo "  (none playing)"
+      ;;
+  -h|--help|help)
+      usage
+      ;;
+  *)
+      usage
+      exit 1
+      ;;
+esac

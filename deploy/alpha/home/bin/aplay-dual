@@ -1,0 +1,24 @@
+#!/bin/bash
+# aplay-dual FILE - play FILE on the primary route (aplay's default device)
+# and on pcm audio_out_route2 at the same time (2026-09-02, dual output:
+# Bluetooth speaker + laptop). The voice app's _aplay_cmd() returns this
+# instead of plain aplay while ~/.asoundrc.route says "# Secondary:" is real.
+#
+# Exit code = the primary's, so a dropped second device never silences the
+# main speaker; a failed second output is reported to stderr and hands the
+# route to `audio-out ensure` in the background (drops the dead device so
+# later clips stop waiting on it). SIGTERM/SIGINT (stop word, mute) are
+# forwarded to both players.
+set -u
+export XDG_RUNTIME_DIR="${XDG_RUNTIME_DIR:-/run/user/1000}"
+f="${1:?usage: aplay-dual FILE}"
+aplay -q "$f" & p1=$!
+aplay -q -D audio_out_route2 "$f" & p2=$!
+trap 'kill -TERM $p1 $p2 2>/dev/null' TERM INT
+wait $p1; rc=$?
+wait $p2; rc2=$?
+if [ "$rc2" -ne 0 ] && [ "$rc" -eq 0 ]; then
+    echo "aplay-dual: second output failed (rc $rc2) - running audio-out ensure" >&2
+    "$HOME/bin/audio-out" ensure >/dev/null 2>&1 &
+fi
+exit $rc

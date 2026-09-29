@@ -1,0 +1,1 @@
+{"floor": "alpha", "floor_role": "cjap", "cjap_is": "alpha", "handoff_seq": 10, "mode": "direct", "profile": "kiosk", "overrides": {"dry_run": false, "wake_threshold": 0.5}, "interrupt_seq": {"alpha": 2, "beta": 2}, "intro_seq": 10, "config_seq": 138, "ask": {"seq": 67}, "question": {"seq": 67}, "duet": {"seq": 836}, "saved": 1790640972.1070776}

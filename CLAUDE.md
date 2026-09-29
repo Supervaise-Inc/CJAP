@@ -88,8 +88,14 @@ Two machines. Neither talks to the other; both talk to the authority.
   `app/.env` **on the authority** → console override. The robot applies the
   result into `os.environ` on every lease reply. A machine's own drop-in and
   `.env` only matter when the console is unreachable.
-- **Not in git**: `/etc/systemd/system/supervaise.service.d/wakeword.conf`
-  (per-machine tuning, root-owned), `app/.env` (keys), the rendered `.wav`s.
+- **Captured for handover (2026-09-29)**: everything alpha runs outside the
+  app code (systemd units and the `wakeword.conf` tuning drop-in, `~/bin`,
+  `~/tools`, `.asoundrc`, filler clips, videos, the speaker model) is
+  snapshotted in [`deploy/alpha/`](deploy/alpha/README.md) with a restore
+  guide. The live copies stay at their machine paths. **Still not in git:**
+  `app/.env` (keys; template `app/.env.example`), the LiveAvatar key, TLS
+  certs, the rendered `.wav`s, and people's voice recordings and voiceprints.
+  Alpha's working notes (`.docx`) are in `docs/handover-notes/`.
 
 Run the tests before anything else: `app/.venv/bin/python -m pytest tests/`.
 Operator procedure for a venue is [docs/EVENT_RUNBOOK.md](docs/EVENT_RUNBOOK.md)
