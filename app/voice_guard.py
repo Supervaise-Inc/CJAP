@@ -255,8 +255,8 @@ def message(s: dict | None = None) -> str:
                 f"before anyone hears this.")
     return (f"Panganiban's voice is unavailable ({who} — {why}) and no clone could stand in. "
             f"{s['suppressed']} utterance(s) have been kept SILENT rather than spoken in "
-            f"another voice. Top up the voice service, or switch to DUET, which plays "
-            f"pre-rendered audio and needs neither quota nor network.")
+            f"another voice. Top up the voice service, or fix its key on /maintain "
+            f"(System tab, API keys).")
 
 
 def _machine() -> str:

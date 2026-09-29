@@ -156,9 +156,10 @@ def test_the_detail_never_carries_more_than_a_short_summary():
     assert len(vg.state()["detail"]) <= 140
 
 
-def test_the_operator_is_told_duet_still_works():
+def test_the_operator_is_told_where_to_fix_the_voice():
     vg.blocked(SynthError("quota"), where="answer")
-    assert "DUET" in vg.state()["message"]
+    m = vg.state()["message"]
+    assert "Top up" in m and "API keys" in m and "DUET" not in m
 
 
 # ────────────────────────────────────────────────────────────────────────────
@@ -243,7 +244,7 @@ def test_state_file_is_written_for_the_dashboard():
     assert d["ok"] is False and d["reason"] == "quota"
     assert d["suppressed"] == 1
     assert d["substitution_allowed"] is False
-    assert "DUET" in d["message"]
+    assert "API keys" in d["message"] and "DUET" not in d["message"]
 
 
 def test_state_file_leaves_no_temp_file_behind():
@@ -322,7 +323,7 @@ def test_a_failing_voice_raises_a_bad_console_banner(tmp_path):
     w = voice_warnings(c, clock())
     assert len(w) == 1 and w[0]["level"] == "bad" and w[0]["robot"] == "alpha"
     assert "4 line(s) kept SILENT" in w[0]["msg"]
-    assert "DUET" in w[0]["msg"]
+    assert "API keys" in w[0]["msg"] and "DUET" not in w[0]["msg"]
 
 
 def test_the_override_gets_its_own_louder_wording(tmp_path):

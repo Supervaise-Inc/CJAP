@@ -2106,7 +2106,7 @@ def _restart_app():
 API_KEYS = [
     {"env": "ANTHROPIC_API_KEY", "label": "Anthropic (Claude)",
      "used_for": "routing, composing every answer, fillers, audits",
-     "without": "no answers at all — only DUET mode works"},
+     "without": "no answers at all"},
     {"env": "OPENAI_API_KEY", "label": "OpenAI",
      "used_for": "speech-to-text: hearing the visitor’s question",
      "without": "the robot cannot hear questions"},

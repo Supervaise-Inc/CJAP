@@ -1051,7 +1051,7 @@ def test_console_warns_when_the_panganiban_robot_has_no_internet(tmp_path):
     doc = cs.api(c, "GET", "/api/state", now=clock())[1]
     warn = [w for w in doc["warnings"] if w.get("kind") == "internet"]
     assert len(warn) == 1 and warn[0]["robot"] == "alpha" and warn[0]["level"] == "bad"
-    assert "apology" in warn[0]["msg"] and "DUET" in warn[0]["msg"]
+    assert "apology" in warn[0]["msg"] and "/maintain" in warn[0]["msg"] and "DUET" not in warn[0]["msg"]
 
 
 def test_internet_field_is_unknown_not_offline_for_an_older_build(tmp_path):

@@ -3326,7 +3326,7 @@ def _handle_turn_streaming(client, artifacts, gestures, history, stop,
             print(f"[voice-guard] whole answer silenced "
                   f"({out['voice_suppressed']} sentence(s)) — voicing the apology", flush=True)
             _publish_transcript("note", "(answer not spoken — the cloned voice is unavailable; "
-                                        "switch to DUET, which needs no quota)")
+                                        "top up the voice service or fix its key)")
             filler.stop()
             gestures.start("talk")
             _say_apology(RuntimeError("cloned voice unavailable — answer silenced"))

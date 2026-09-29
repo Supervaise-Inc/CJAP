@@ -949,7 +949,7 @@ function renderVoiceWarn(v,e){const w=$('voicewarn');if(!w)return;
   else{head='ElevenLabs quota is used up';
     body='Cached lines still play in his voice; a NEW sentence falls to the next clone in '
         +'CJ_TTS_ORDER, and is kept silent if none can speak \u2014 never spoken by a stranger. '
-        +'Top up, or switch to DUET, which plays pre-rendered audio and needs neither quota nor network.';}
+        +'Top up the quota on the ElevenLabs account.';}
   let sub='';
   if(e&&!e.error&&e.character_limit)sub='ElevenLabs '+fmtTok(e.character_count)+' / '+fmtTok(e.character_limit)
     +' chars'+(e.next_character_count_reset_unix?' \u00b7 resets '+new Date(e.next_character_count_reset_unix*1000).toLocaleString():'');

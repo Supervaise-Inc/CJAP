@@ -1158,7 +1158,7 @@ class Console:
                         warnings.append({"level": "bad", "robot": r, "kind": "internet",
                                          "msg": f"{self.name(r)} cannot reach the internet — every "
                                                 "question will get the apology line. Check WiFi on "
-                                                "/maintain, or switch to DUET, which needs no network"})
+                                                "/maintain"})
                     # Panganiban's voice failing used to be invisible: the
                     # answer simply came out in the OpenAI voice, switching back
                     # and forth with the cached lines inside one answer, and
@@ -1188,8 +1188,7 @@ class Console:
                                              "msg": f"{self.name(r)}: Panganiban's voice is unavailable ({who} — {why}) and "
                                                     f"no clone could stand in. {int(v.get('suppressed') or 0)} line(s) kept "
                                                     "SILENT rather than spoken in another voice. Top up the voice service, "
-                                                    "or switch to DUET, which plays pre-rendered audio and needs neither "
-                                                    "quota nor network"})
+                                                    "or fix its key on /maintain (System tab, API keys)"})
                     # live speech-threshold warning against the room floor
                     room = o["rms"]
                     if room is not None:
