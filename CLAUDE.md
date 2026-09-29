@@ -7,7 +7,8 @@ Artemio V. Panganiban, grounded in his published corpus.
 Panganiban and one playing a Host, coordinated by a one-microphone
 floor lease. The original **May 30, 2026** laptop demo has passed; the
 live target is a public hall of roughly 200 people for four hours, and
-that is what the current work is tuned for.
+that is what the current work is tuned for. **Alpha was handed in on
+2026-09-29**; its state at that point is recorded in the 09-29 handover below.
 
 This file is the navigational entry point for any Claude Code or LLM
 agent opening this repo. It points to where things live — not what
@@ -15,7 +16,7 @@ they do. Last reconciled against the running machines **2026-09-29** (alpha hand
 
 ## Read first
 
-Three documents are the source of truth. Read them in this order before
+Four documents are the source of truth. Read them in this order before
 making changes:
 
 | Doc | What it gives you |
@@ -45,13 +46,13 @@ appear later, they take precedence over implementation docs for
 
 | Path | Purpose | MANIFEST |
 |---|---|---|
-| [`app/`](app/) | The runtime. **`main_voice_robot.py` is what `supervaise.service` actually runs** (mic, wake word, turn loop, gestures, floor-lease client, playback). `answer_pipeline.py` is the router/context/composer; `speech_engines.py` STT+TTS; `speech_streaming.py` per-sentence synthesis and captions; `answer_gate.py` the deterministic output gates and `premise_gate.py` the input one (an unanswerable premise is declined before the composer runs); `personas.py` the cjap/host split; `voice_vad.py` and `voice_identity.py` the post-capture gates. Reads corpus from `../corpus/`. | [app/MANIFEST.md](app/MANIFEST.md) |
-| [`dashboard/`](dashboard/) | The port-8080 maintenance dashboard (stdlib, system python3; `pi-dashboard.service`). `/maintain`, `/audience`, `/event`, `/face-avatar` and, since 2026-09-10, the **operator console** `/console` — `console.py` holds the one-mic floor lease, mode/profile config resolution and the journal; `ui_page_console.py` is the page. `assets/` (LiveAvatar key) and `certs/` are git-ignored. `~/pi_dashboard` is a symlink here. | — |
+| [`app/`](app/) | The runtime. **`main_voice_robot.py` is what `supervaise.service` actually runs** (mic, wake word, turn loop, gestures, floor-lease client, playback). `answer_pipeline.py` is the router/context/composer (it also picks the source documents, `_select_source_doc_ids`); `speech_engines.py` STT (OpenAI) + TTS (the Fish Audio and ElevenLabs clones of Panganiban's voice) and `voice_guard.py`, which refuses any non-clone voice; `speech_streaming.py` per-sentence synthesis and captions; `answer_gate.py` the deterministic output gates and `premise_gate.py` the input one (an unanswerable premise is declined before the composer runs); `personas.py` the cjap/host split; `voice_vad.py` and `voice_identity.py` the post-capture gates. Reads corpus from `../corpus/`. | [app/MANIFEST.md](app/MANIFEST.md) |
+| [`dashboard/`](dashboard/) | The port-8080 maintenance dashboard (stdlib, system python3; `pi-dashboard.service`). `/maintain`, `/audience`, `/event`, `/face-avatar` and, since 2026-09-10, the **operator console** `/console` — `console.py` holds the one-mic floor lease, mode/profile config resolution and the journal; `ui_page_console.py` is the page. `assets/` (LiveAvatar key) and `certs/` are git-ignored; a key-less template is in `deploy/alpha/dashboard-assets/`. `~/pi_dashboard` is a symlink here. | — |
 | [`config/modes/`](config/modes/) | Mode profiles `duet.json` / `direct.json` with `kiosk` / `event` threshold sets — the base of the listening-settings resolution (profile → systemd drop-in → `app/.env` → console override). | — |
-| [`tests/`](tests/) | pytest suite, **395 tests**: `test_floor_lease.py` (one-mic invariant, duet sequencing, authored pauses), `test_answer_gate.py`, `test_canned.py`, `test_dashboard_ui.py`, `test_context_grounding.py`, `test_breath_motion.py` (continuous motion + envelope emphasis), `test_intro_rotation.py`, `test_name_pin.py`, `test_duet_script.py`, `test_wifi_control.py`, `test_premise_gate.py` (the premise gate + its decline pools). | — |
-| [`app/wake/`](app/wake/) | Wake-word stack (PLAN-0008). `engine.py` is the openWakeWord runtime wrapper; `wake_test.py` is the dev dashboard. `models/hey_cj.onnx` is the committed v2 classifier (locked threshold **0.40**); `models/hey_cj.v1.onnx` is the rollback. Training pipeline lives under `training/` (gN gates + Phase 1/2 retrain scripts); `data/` and `training/oww_*` trees are git-ignored — regenerated locally. | — |
+| [`tests/`](tests/) | pytest suite, **396 tests in 20 files**: `test_floor_lease.py` (one-mic invariant, duet sequencing, authored pauses), `test_answer_gate.py`, `test_premise_gate.py` (the premise gate + its decline pools), `test_kb_v2.py` (knowledge base v2 is reachable: book ids, identity intent, fallback, question-led doc pick), `test_context_grounding.py`, `test_canned_answers.py`, `test_voice_guard.py` (no non-clone voice), `test_fish_words.py`, `test_speakable.py`, `test_name_pin.py`, `test_interrupt.py`, `test_breath_motion.py` (continuous motion + envelope emphasis), `test_intro_rotation.py`, `test_duet_script.py`, `test_audio_hub.py`, `test_wifi_control.py`, `test_api_keys.py`, `test_avatar_session.py`, `test_monitor_display.py`, `test_dashboard_ui.py`. | — |
+| [`app/wake/`](app/wake/) | Wake-word stack (PLAN-0008). `engine.py` is the openWakeWord runtime wrapper (`app/wake_word.py` is what the robot calls). **The live model is `models/hi_see_jap.onnx`** ("Hi Cee-Jap" / "Cee-Jap"); `hey_cee_jap.onnx` and `hey_cee_jap_recent.onnx` are earlier models kept for rollback. The threshold is not fixed in the model: it comes from `config/modes/direct.json` (0.02) or the console override (0.5 at handover). Training pipeline lives under `training/`; `data/` and `training/oww_*` trees are git-ignored — regenerated locally. | — |
 | [`corpus/`](corpus/) | The runtime corpus: `voice/` (topic map, voice card, router prompt, `host_card.md`, **`duet_script.json`** — 33 pre-rendered lines, **`intro_variants.json`** — 6 Host intros), and **knowledge base v2 since 2026-09-29: 1,290 documents** — `columns/` (803), `speeches/` (153), `books/` (299, ids `B…`), `biography/` (35), with the v2 30-topic map and router prompt. Our voice card is kept over the release's. | [corpus/MANIFEST.md](corpus/MANIFEST.md) |
-| [`scripts/`](scripts/) | Corpus pipeline (`generate_corpus_files.py`, `build_topic_map.py`, `apply_topic_paths.py`, `run_smoke_test.py`, `check_paths.py`) **plus the installation scripts: `render_duet.py` and `render_intro.py` (pre-render spoken audio, offline), `deploy_second_robot.sh`, `provision_kit_wifi.sh`, `wake_model_eval.py`.** Idempotent. | — |
+| [`scripts/`](scripts/) | v1 corpus pipeline (`generate_corpus_files.py`, `build_topic_map.py`, `apply_topic_paths.py`, `check_paths.py`). **Do not run these against knowledge base v2: they would overwrite it with the old 35-topic set.** Evaluation: `run_smoke_test.py`, `gate_audit.py` (premise gate), `wake_model_eval.py`, `fish_check.py`. Installation: `render_duet.py`, `render_intro.py` and `prerender_canned.py` (pre-render spoken audio, offline), `audio_hub.py` + `install_audio_hub.sh`, `aec_feed_ctl.sh`, `deploy_second_robot.sh`, `provision_kit_wifi.sh`, `export_canned_qa.py`. | — |
 | [`data/`](data/) | Phase 1 inputs (`data/csv/`, `data/text/`) **and the pre-rendered audio the installation plays with no network: `data/prerendered/duet/` (33 clips) and `data/prerendered/intro/` (6 variants x 2 modes). The `.wav` files are gitignored and re-renderable; the `manifest.json` beside them is tracked.** | — |
 | [`docs/`](docs/) | Handover docs, ADRs (`docs/decisions/`), lessons (`docs/lessons/`), implementation plans (`docs/implementation-plans/`), test specs (`docs/test-specs/`), persona guides (`docs/guides/`). | [docs/MANIFEST.md](docs/MANIFEST.md) |
 | [`reports/`](reports/) | Output reports from each pipeline run — `generation_report.json`, `validation_errors.log`, `topic_map_report.json`, `smoke_test_run.json`, `smoke_test_summary.json`. Regenerated on every run. | — |
@@ -60,23 +61,30 @@ appear later, they take precedence over implementation docs for
 > `corpus/prompts/`, `corpus/synthesis_scripts/`, `corpus/analysis/`,
 > `corpus/manifest.json`) and `source_materials/` tree were removed
 > when PLAN-0001 §A migrated the runtime to consume the Phase 1-3
-> outputs directly. Book sections will return under `corpus/books/`
-> per [PLAN-0005](docs/implementation-plans/PLAN-0005-book-corpus-addition.md).
+> outputs directly. Book chapters are now in `corpus/books/` (299, imported
+> with knowledge base v2 on 2026-09-29, not through the
+> [PLAN-0005](docs/implementation-plans/PLAN-0005-book-corpus-addition.md) pipeline).
 
-## The installation, as it actually runs (2026-09-13)
+## The installation, as it actually runs (2026-09-29)
 
 Two machines. Neither talks to the other; both talk to the authority.
 
 | | alpha | beta |
 |---|---|---|
-| hostname | `reachy-cjap` | `reachy-2` (192.168.88.10) |
+| hostname | `reachy-cjap` | `reachy-2` (DHCP; last seen 192.168.112.47 on 2026-09-15 — the 192.168.88.10 in older docs is stale) |
 | plays | Panganiban (default) | Host (default) |
 | also runs | **the lease authority + console** | nothing extra |
-| services | `supervaise.service`, `pi-dashboard.service` | the same two |
+| services | `supervaise`, `pi-dashboard`, `audio-hub`, `bt-keepalive`, `wifi-fallback` (`speaker-watchdog` disabled) | `supervaise`, `pi-dashboard`, `audio-hub` (last checked 2026-09-15) |
+| at 2026-09-29 | `d7a7eec`+, knowledge base v2, **handed in** | **not updated**: v1 corpus, no Fish key |
 
 - **Who plays whom is `cjap_is`**, held by the authority and swappable from
   `/console` **with no restart and no corpus reload** — both machines load
-  both voice cards and both ElevenLabs voice ids at boot.
+  both voice cards and both voice ids at boot.
+- **Voices.** Panganiban on alpha is **Fish Audio only** (`CJ_TTS_ORDER=fish`
+  in `app/.env`, a user decision on 2026-09-28: silence over a second,
+  different-sounding clone). `CJ_TTS_ORDER` is not a console setting, so it
+  never reaches beta, which has no Fish key and speaks ElevenLabs. The Host is
+  ElevenLabs only. The pre-rendered duet, intros and fillers are ElevenLabs.
 - **The microphone opens only while a robot holds the floor**, granted by the
   authority on a 3 s lease. If the authority goes away the lease expires and
   **both robots go silent and still** — fail-closed, deliberately. A visitor
@@ -100,7 +108,7 @@ Two machines. Neither talks to the other; both talk to the authority.
 
 Run the tests before anything else: `app/.venv/bin/python -m pytest tests/`.
 Operator procedure for a venue is [docs/EVENT_RUNBOOK.md](docs/EVENT_RUNBOOK.md)
-(illustrated version: `~/event_runbook.docx` on alpha) and
+(illustrated version: [`docs/handover-notes/event_runbook.docx`](docs/handover-notes/)) and
 [docs/PRE_EVENT_CHECKLIST.md](docs/PRE_EVENT_CHECKLIST.md).
 
 ## Known open items — read before trusting the safety story
@@ -137,8 +145,10 @@ mislead someone reading the code and assuming it is handled.
 - **Only the top 2 routed documents contribute full prose**; the other 3-6
   contribute a JSON sidecar, and some sidecar summary fields are empty.
   `CJ_CONTEXT_BODY_DOCS` controls it, and raising it trades against latency.
-- **Audio is the internal ~5 W speaker**, which is inaudible in a hall. No USB
-  DAC is attached. `~/bin/audio-out dac` switches the route without a restart,
+- **Audio is the internal ~5 W speaker**, which is inaudible in a hall. Since
+  2026-09-15 `audio-hub.service` switches to a USB-hub speaker or mic
+  automatically when one is plugged in (tested with a BOYA wireless mic; no
+  USB speaker has been heard on a real answer). `~/bin/audio-out dac` switches the route without a restart,
   but the host-side echo-cancellation delay for that route has never been
   calibrated, so the app deliberately refuses to arm it until
   `CJ_AEC_REF_DELAY_DAC_MS` is set. Calibrate at the venue with
@@ -159,7 +169,7 @@ mislead someone reading the code and assuming it is handled.
 
 When documents disagree:
 
-- **Implementation facts** (what code exists, file:line, what runs) → the latest Claude Code handover wins ([docs/handover_claude_code_2026-05-16.md](docs/handover_claude_code_2026-05-16.md)).
+- **Implementation facts** (what code exists, file:line, what runs) → the latest Claude Code handover wins ([docs/handover_claude_code_2026-09-29.md](docs/handover_claude_code_2026-09-29.md)), then this file.
 - **Design intent** (why a choice was made, scope, audience, the May 30 target) → the strategic handover wins when present; otherwise [PROJECT.md](PROJECT.md) and the relevant ADR in [docs/decisions/](docs/decisions/).
 - **Runtime pipeline mechanics** → [PLAN-0001](docs/implementation-plans/PLAN-0001-runtime-app-haiku-router-sonnet-composer.md) and [`corpus/voice/voice_card.md`](corpus/voice/voice_card.md).
 
@@ -167,6 +177,6 @@ When documents disagree:
 
 - **Not RAG / no embeddings.** Routing is a Haiku call against a curated taxonomy (**30 topics in v2, 2026-09-29**; 35 before, 37 before that); there is no vector store and no similarity search. Within a routed topic, ties between documents are broken by word overlap between the question and each doc's title + keywords (`_select_source_doc_ids`). The release's embedding stack (`CJ_PIPELINE=retrieval`, encoder, `data/index/`) was deliberately not imported.
 - **(SUPERSEDED 2026-09-13) ~~Not a robot embodiment for May 30.~~** [ADR-0005](docs/decisions/0005-defer-robot-embodiment-for-may-30.md) deferred Reachy Mini integration for the laptop demo. That deferral is over. The app runs on **two Reachy Mini units** as `supervaise.service`, with continuous head motion, a cloned voice, and a two-robot floor lease. Read this bullet as history, not as current scope.
-- **Not a multi-trigger wake word.** One trigger only. **The live model is `app/wake/models/hi_see_jap.onnx` ("Hi Cee-Jap" / "Cee-Jap"), swapped in 2026-08-25** — not the `hey_cj.onnx` the older text describes, and not at threshold 0.40. The threshold is set per mode by the console (`config/modes/*.json`): 0.003 in direct-kiosk. In **direct-event the wake word is OFF entirely** and a loudness threshold sustained over 240 ms is the only gate on starting a turn. See [PLAN-0008 progress](docs/implementation-plans/PLAN-0008-progress.md) for the training history.
-- **Tests exist and are the first thing to run.** `app/.venv/bin/python -m pytest tests/` — **395 passing as of 2026-09-29**. The earlier statement below is kept for history.
+- **Not a multi-trigger wake word.** One trigger only. **The live model is `app/wake/models/hi_see_jap.onnx` ("Hi Cee-Jap" / "Cee-Jap"), swapped in 2026-08-25** — not the `hey_cj.onnx` the older text describes, and not at threshold 0.40. The threshold is set per mode by the console (`config/modes/*.json`): **0.02** in direct-kiosk since 2026-09-15 (at 0.003 background chatter fired it; genuine calls scored 0.066-0.46), and the console override at handover was **0.5**. In **direct-event the wake word is OFF entirely** and a loudness threshold sustained over 240 ms is the only gate on starting a turn. See [PLAN-0008 progress](docs/implementation-plans/PLAN-0008-progress.md) for the training history.
+- **Tests exist and are the first thing to run.** `app/.venv/bin/python -m pytest tests/` — **396 passing as of 2026-09-29**. The earlier statement below is kept for history.
 - **(historical) No automated tests yet.** Verification is currently manual via the six build-kit sanity questions plus interactive dashboard runs. Test *specifications* exist in [docs/test-specs/](docs/test-specs/); converting them into a runnable suite is part of the runtime work in [PLAN-0001](docs/implementation-plans/PLAN-0001-runtime-app-haiku-router-sonnet-composer.md).
