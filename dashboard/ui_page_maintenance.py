@@ -548,7 +548,7 @@ details.help[open] summary{margin-bottom:4px}
   <div class="dim" style="font-size:13px">Tap a device to connect / disconnect / pair. Choose which speaker plays on <b>Live &rarr; Sound</b>; the speaker watchdog re-routes to a connected Bluetooth speaker within 15 s.</div>
 </div>
 <div class="card c12" id="keys-card" data-tab="system"><h2>API keys <span class="dim">(this robot&rsquo;s app/.env &mdash; add, replace, remove)</span></h2>
-  <p class="hint">A key is checked with its vendor before it is saved, then the voice app restarts (~25 s, any answer in progress is cut). Stored keys are never shown &mdash; only their last 4 characters. The other robot keeps its own keys.</p>
+  <p class="hint">A key is checked with its vendor before it is saved, then the voice app restarts (~25 s, any answer in progress is cut). Stored keys are never shown &mdash; only their last 4 characters.</p>
   <div id="keys-list" class="dim">loading&hellip;</div>
   <span id="keys-msg" class="dim"></span>
 </div>
