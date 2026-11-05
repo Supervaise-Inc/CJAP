@@ -15,7 +15,7 @@ Lite** on the Spark's USB-C. Speech moves onto the Spark:
 | Machine map | `config/robots.json` | `deploy/spark/robots.json` via `CJ_ROBOTS_JSON` (this host is alpha and the authority) |
 
 The full plan and the step-by-step runbook are in the DGX Spark docs
-(`CJAP_SPARK_ARCHITECTURE.md`, `CJAP_SPARK_RUNBOOK.md`, also under `docs/spark/`).
+(`docs/spark/ARCHITECTURE.md` and `docs/spark/RUNBOOK.md` (published as `CJAP_SPARK_*.md/.html` with the DGX Spark docs)).
 
 ## Code changes on this branch (all default-off for alpha)
 

@@ -1,0 +1,26 @@
+# CJAP's app/.venv on the DGX Spark (Python 3.12, aarch64), 2026-11-05.
+# app/requirements.txt plus what alpha's venv carried, minus openwakeword:
+# install openwakeword FIRST with --no-deps (its Linux dependency
+# tflite-runtime has no Python 3.12 aarch64 wheel; CJAP only uses the ONNX
+# path), then this file, which lists openwakeword's real dependencies.
+anthropic>=0.40.0
+openai>=1.40.0
+python-dotenv>=1.0.0
+pydub>=0.25.1
+imageio-ffmpeg>=0.4.9
+sounddevice>=0.4.6
+numpy>=1.24.0
+scipy>=1.10.0
+pytest>=8
+requests
+soundfile
+sherpa-onnx
+audiotsm
+langdetect
+# openwakeword 0.6.0's dependencies, without tflite-runtime
+onnxruntime
+tqdm
+scikit-learn
+# the Reachy Mini SDK + daemon for the Lite (v1.14.0 fixes the DGX "ready: false" status, #1278).
+# Needs PyGObject, built from source: the runbook's apt step installs its build deps.
+reachy-mini==1.14.0
