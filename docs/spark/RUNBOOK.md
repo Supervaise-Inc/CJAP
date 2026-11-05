@@ -5,7 +5,7 @@
 > **What you get:** CJAP (branch **`spark/local-speech`**) running on the Spark as `supervaise`, its dashboard on **:8180**, the Reachy Mini Lite on USB-C, speech-to-text on the Spark's whisper-api, Panganiban's voice from a **Qwen3-TTS clone** on the GPU, and `sv-robot on|off` to switch between robot mode and the office LLM API.
 > **How to use:** run the blocks of **steps 0–9 in order**, top to bottom, each block as a whole, and compare with **✅ Expect**. A block that is only `sudo -v` asks for your password **before** the next block, so the prompt can't swallow pasted lines; type the password, then paste the next block. When the output doesn't match, stop and look up the named row in **step 11**. The fixes are there and nowhere else. Steps 10–12 are tables.
 > **Outages:** step 8 (`sv-robot on`) stops Qwen: teammates' `qwen38` calls fail until step 9 (`sv-robot off`). Nothing else touches the chat engines.
-> **The code** is on the CJAP branch `spark/local-speech`, three commits on top of `merge/master-single-robot` @ `1d986be`. Until someone with push rights publishes it, it travels as a git bundle (`cjap-spark/cjap-spark-local-speech.bundle` next to this runbook).
+> **The code** is on the CJAP branch `spark/local-speech`, four commits on top of `merge/master-single-robot` @ `1d986be`. Until someone with push rights publishes it, it travels as a git bundle (`cjap-spark/cjap-spark-local-speech.bundle` next to this runbook).
 
 | Step | What | Where | Time |
 |---|---|---|---|
@@ -16,7 +16,7 @@
 | 4 | Plug in the Lite, audio files, Gate A (speaker + mic) | sv + robot | 15 min |
 | 5 | Reachy daemon, Gate R (motion) | sv + robot | 5 min |
 | 6 | Keys, Gate W (Whisper) | sv | 10 min |
-| 7 | The voice: image, model, reference clip, Gate T (speed), Gate V (listen) | sv + laptop | 40–60 min |
+| 7 | The voice: image, model, reference clip from the real recording, Gate T (speed), Gate V (listen) | sv + laptop | 45–70 min |
 | 8 | Robot mode, the console, Gate E (live turns), Gate L (latency) | sv + robot + laptop | 30 min |
 | 9 | Back to office mode, Gate O | sv | 5 min |
 | 10 | Daily use | | |
@@ -362,17 +362,39 @@ du -sh ~/models/$N
 ```
 ✅ Expect: the download completes; `4.3G` to `4.6G`.
 
-### 7.3 The reference clip
+### 7.3 The reference clip, from the real recording
 
-Three ElevenLabs filler clips (already the Panganiban clone voice) joined to about 14 s, with their exact text:
+The clone is made from 10–15 s of **Justice Panganiban's own voice**: a stretch of `Recording_four.aac`, the 3 min 16 s recording the Fish Audio "CJAP" model was trained on. Get the file from whoever made that model (Fish account `dev0`) and put it in `~/Downloads` on the laptop.
+
+On the **laptop** (PowerShell):
+```powershell
+scp ~/Downloads/Recording_four.aac isl.spark:robot/voices/
+```
+✅ Expect: one line, `Recording_four.aac 100% …`.
+
+On the **Spark**: the script transcribes the recording with the Spark's own Whisper (it never leaves the box), picks the cleanest continuous 10–15 s, cuts it to 24 kHz mono and transcribes the cut again:
 ```bash
 cd ~/Supervaise-Reachy-Mini-Project-main
-F=$PWD/deploy/alpha/home/fillers
-V=$HOME/robot/voices/panganiban
-docker run --rm --user 1001:1001 -v $F:/f:ro -v $V:/out sv/cjap-tts:1 python make_ref.py /f /out
-cat $V/ref.txt
+P=app/.venv/bin/python
+V=$HOME/robot/voices
+$P deploy/spark/tts/ref_from_recording.py $V/Recording_four.aac $V/panganiban
 ```
-✅ Expect: `ref.wav 1x.x s from clips 01 03 07` (10–16 s), and the three sentences of clips 01, 03, 07 as one line.
+✅ Expect:
+- `transcribing the whole recording …` (a minute or two);
+- up to five numbered candidates, `start-end s (duration, confidence): text`;
+- `ref.wav: …` and `ref.txt: …` with the chosen stretch and its text.
+
+**Listen and check the text.** Through the robot's speaker, then on the laptop's headphones:
+```bash
+aplay -D audio_out_route ~/robot/voices/panganiban/ref.wav
+cat ~/robot/voices/panganiban/ref.txt
+```
+```powershell
+scp isl.spark:robot/voices/panganiban/ref.wav ~/Downloads/ref_panganiban.wav
+```
+✅ Expect: one speaker, clear, no music or noise, no cough or laugh, a calm delivery; and `ref.txt` says **exactly** what you hear. Correct any misheard word with `nano ~/robot/voices/panganiban/ref.txt` (the clone copies the audio by aligning it to this text). If the stretch itself is poor, run the same `$P …` line again with `--pick 2` (or 3, 4, 5) at the end, or choose one by ear with `--start S --end E` in seconds.
+
+No recording available → step 11, *No real recording*.
 
 ### 7.4 Start it, Gate T
 ```bash
@@ -386,7 +408,7 @@ docker stats --no-stream --format '{{.Name}} {{.MemUsage}}' sv-robot-cjap-tts-1
 ```
 The `for` line waits up to 6 min for the model to load and warm up (2–5 min the first time).
 ✅ Expect:
-- `/health`: `"ok": true`, `"model": "Qwen3-TTS-12Hz-1.7B-Base"`, a 12-character `ref`, `warm_s` under ~120;
+- `/health`: `"ok": true`, `"model": "Qwen3-TTS-12Hz-1.7B-Base"`, a 12-character `ref` (the reference's hash), `warm_s` under ~120;
 - ten bench lines, then **`median speed ≥ 1.25x`** and the **first (opener) line `synth ≤ 1.8 s`**;
 - memory under ~10 GiB.
 
@@ -405,7 +427,7 @@ And on the **laptop** (PowerShell), to listen on headphones:
 scp isl.spark:/dev/shm/cj_tts_longest.wav ~/Downloads/
 ```
 ✅ Expect (your judgement, ideally with a teammate):
-- it sounds like the **same voice** as the filler you hear third;
+- it sounds like **Justice Panganiban** in the reference clip (the filler you hear third is the ElevenLabs clone; close is fine, the clips will still play between answers);
 - "Panganiban" and "Salonga" are acceptable;
 - the longest sentence keeps the same voice from start to end (no drift).
 
@@ -560,7 +582,8 @@ Look up the row named by the step. These are the only fixes; don't improvise on 
 | **TTS build: torch conflict** | pip wants another torch | `constraints.txt` empty or wrong: re-run its line in 7.1 and check its three lines; rebuild with `docker compose build --no-cache cjap-tts` |
 | **cjap-tts never ready** | `/health` not ok after 6 min | `docker logs sv-robot-cjap-tts-1 --tail 50`. `No such file …/ref.wav` → step 7.3. `local_files_only` / missing files → step 7.2 not complete. CUDA / out of memory → `free -g` (is Qwen still running? `sv-split`) |
 | **TTS too slow** | Median speed < 1.25× or opener > 1.8 s | Check nothing else uses the GPU (`nvidia-smi`). Then switch to the 0.6B model (step 10) and re-run the bench |
-| **Voice doesn't match** | Wrong timbre or accent | Try other clips: `make_ref.py` accepts clip numbers, e.g. `… python make_ref.py /f /out 06 11 26` (allowed: 01 03 06 07 11 15 20 26), then restart cjap-tts. Or `TTS_XVEC_ONLY: "1"` in the compose file (speaker embedding only). The real fix is a real recording of Justice Panganiban (architecture §8) |
+| **Voice doesn't match** | Wrong timbre or accent | First check `ref.txt` against `ref.wav` word for word (step 7.3). Then another stretch: the 7.3 line with `--pick 2` … `--pick 5`, then `docker compose restart cjap-tts` in `deploy/spark/compose` and the bench again. Last resort: `TTS_XVEC_ONLY: "1"` in the compose file (speaker embedding only, no transcript) |
+| **No real recording** | `Recording_four.aac` can't be found | Use the ElevenLabs filler clips (already the clone voice, but with CJAP's speaker EQ and a "thinking" delivery): `F=$PWD/deploy/alpha/home/fillers`, `V=$HOME/robot/voices/panganiban`, then `docker run --rm --user 1001:1001 -v $F:/f:ro -v $V:/out sv/cjap-tts:1 python make_ref.py /f /out` from the checkout (clips 01 03 07; others: 06 11 15 20 26). Swap in the real recording later (step 10, *Swap the reference voice*) |
 | **Robot deaf** | No reaction to "Hi Cee-Jap" | `journalctl -u supervaise -n 200 \| grep -i -E 'lease\|403'`: a 403 or "bad key" means the robot sends another key than the console expects; both read `/etc/cjap/dashboard.env`, so check it exists (`sudo ls -l /etc/cjap`) and restart both (`sudo systemctl restart pi-dashboard supervaise`). Then `/console`: floor `alpha`, mode `direct`? (the mic only opens while the floor is granted). `/maintain` wake meter: scores below the threshold → lower it. Mic muted on `/maintain`? |
 | **Slow first answer** | `on_air_s` well above 5 s | Read the trace columns: `stt_s` high → Whisper cold (keepalive); `first_audio_s` high → TTS (0.6B model) or composer (`CJ_CONTEXT_BODY_DOCS=1` in `app/.env`) |
 | **Dashboard won't start** | `pi-dashboard` fails, `Address already in use` | Something took 8180/8543: `ss -tln \| grep -E '8180\|8543'`. Pick free ports in `/etc/systemd/system/pi-dashboard.service` and `deploy/spark/robots.json` (`authority.port`) and `CJ_CONSOLE_URL` in the drop-in, then `daemon-reload` |
@@ -587,4 +610,4 @@ sudo rm -r /etc/cjap
 sudo systemctl daemon-reload
 sv-keys --revoke cjap-whisper
 ```
-Optional, to also remove the data: `~/Supervaise-Reachy-Mini-Project-main`, `~/robot`, `~/models/Qwen3-TTS-12Hz-1.7B-Base`, `~/fillers*`, `~/speaker_id`, `~/tools`, the copied `~/bin` scripts, `~/.asoundrc*` (restore `~/.asoundrc~` if `cp -b` made one), `~/.voice_cache`, `~/pi_dashboard`. Groups and linger can stay.
+Optional, to also remove the data (`~/robot/voices` holds Justice Panganiban's recording): `~/Supervaise-Reachy-Mini-Project-main`, `~/robot`, `~/models/Qwen3-TTS-12Hz-1.7B-Base`, `~/fillers*`, `~/speaker_id`, `~/tools`, the copied `~/bin` scripts, `~/.asoundrc*` (restore `~/.asoundrc~` if `cp -b` made one), `~/.voice_cache`, `~/pi_dashboard`. Groups and linger can stay.

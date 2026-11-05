@@ -39,7 +39,7 @@ The full plan and the step-by-step runbook are in the DGX Spark docs
 | `home/.asoundrc`, `home/.asoundrc.route` | `~/` | alpha's ALSA names over the Lite's USB card, PipeWire playback |
 | `bin/sv-robot` | `~/bin/` | `on` / `off` / `status`: robot mode vs the office LLM split |
 | `bin/whisper-keepalive`, `bin/cjap-env-set` | `~/bin/` | Keep whisper loaded; set `app/.env` lines without echoing secrets |
-| `tts/` | built in place | `Dockerfile.tts` (`FROM sv/whisper:1`), `tts_server.py`, `make_ref.py` (reference clip from the filler clips). `constraints.txt` is written by the runbook from the base image |
+| `tts/` | built in place | `Dockerfile.tts` (`FROM sv/whisper:1`), `tts_server.py`, `ref_from_recording.py` (the voice reference from a real recording), `make_ref.py` (fallback: from the filler clips). `constraints.txt` is written by the runbook from the base image |
 | `compose/docker-compose.yml` | run in place | Project `sv-robot`, service `cjap-tts` on 127.0.0.1:8091 |
 | `robots.json` | read in place | `CJ_ROBOTS_JSON` points here |
 

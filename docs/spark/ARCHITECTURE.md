@@ -61,7 +61,7 @@ The goal is to run your four-stage pipeline on the Spark: speech to text, reason
 | ASR | **Reuse the Spark's whisper-api** (through LiteLLM) |
 | LLM / retrieval | **CJAP's pipeline as it is**: Haiku 4.5 + Sonnet 4.6 over the curated topic map |
 | TTS | **Local clone only**, no cloud fallback (`CJ_TTS_ORDER=spark`) |
-| Clone source | **Now:** the ElevenLabs filler clips already in the clone voice. **Later:** a real recording of Justice Panganiban, if you can get one |
+| Clone source | **The real recording** `Recording_four.aac` (what the Fish "CJAP" model was trained on); the ElevenLabs filler clips only as a fallback |
 | Video avatar | **Dropped.** The robot body is the avatar |
 | Qwen and the LLM stack | **Stop Qwen in robot mode**; keep LiteLLM and whisper-api running |
 | Venue uplink, if the Spark travels | **Wired first, Wi-Fi or hotspot as fallback** |
@@ -266,15 +266,17 @@ The changes are small and sit at CJAP's existing seams: the OpenAI client for ST
 
 ## 8. The voice clone
 
-| | Now | Later |
+| | Reference | Notes |
 |---|---|---|
-| Source | 2–3 of the ElevenLabs filler clips in `deploy/alpha/home/fillers/` (already the Panganiban clone voice), joined to 10–15 s, with their exact text | A clean 10–15 s recording of Justice Panganiban and its transcript |
-| Fidelity | A clone of a clone: it will sound like the ElevenLabs voice, not exactly like him. It **matches the filler clips**, which removes today's seam between Fish answers and ElevenLabs fillers | Closer to the real voice; fillers would then be re-rendered with the new engine |
-| Swap | Replace two files in `~/robot/voices/panganiban/` and restart `cjap-tts`. The cache namespace includes the reference hash, so old clips are never served |
+| **Primary** | 10–15 s cut from **`Recording_four.aac`**, the 3 min 16 s recording of Justice Panganiban the Fish Audio "CJAP" model was trained on (`fish.audio/m/587a21e9…`, made 2026-09-16 by Supervaise's `dev0` account). `deploy/spark/tts/ref_from_recording.py` transcribes it with the Spark's Whisper, picks the cleanest continuous stretch, cuts it to 24 kHz mono and writes the transcript, which you check by ear | His own voice, so closer than either cloud clone. The recording stays on the Spark (`~/robot/voices`, mode 700). The pre-rendered fillers stay the ElevenLabs clone, so there will be a small seam between a filler and the answer, as on alpha today |
+| Fallback | Three ElevenLabs filler clips (01, 03, 07) joined to 14 s with their exact text (`make_ref.py`) | A clone of a clone, with CJAP's speaker EQ in it. Only if the recording can't be found |
+| Swap | Replace `ref.wav` + `ref.txt` in `~/robot/voices/panganiban/` and restart `cjap-tts` | The cache key includes the reference hash, so sentences cached in an older voice are never played |
 
 **Model:** Qwen3-TTS **1.7B Base** (the cloning variant) through `faster-qwen3-tts`, the only voice-cloning TTS with published Spark numbers (1.87× real time, 400 ms to first audio; the 0.6B: 2.56× and 280 ms). The 0.6B is the latency fallback, one setting away.
 
-**Consent and use.** The project already operates two commercial clones of Panganiban's voice under its agreement with FLP. A local clone is a third copy of the same voice. Confirm the agreement covers a locally hosted clone. The weights and clips stay on the Spark.
+**Consent and use.** The project already operates two commercial clones of Panganiban's voice under its agreement with FLP. A local clone is a third copy of the same voice. Confirm the agreement covers a locally hosted clone. The weights, the recording and the clips stay on the Spark.
+
+**The Fish model is public.** Its page reports `visibility: public` and `licensed: false`: anyone with a Fish account can make Justice Panganiban say anything with it. Unless that is intended, set the model to private in the `dev0` account (alpha's own API calls keep working with the owner's key).
 
 **What CJAP features change with the voice:**
 - **Name pin** (`CJ_NAME_PIN_*`, the pinned pronunciation of "Panganiban") is ElevenLabs-only, as it was for Fish. The lexicon respellings (`CJ_ELEVEN_RESPELL`, `apply_forced_respellings`) still apply to the text.
@@ -345,7 +347,7 @@ The robot is meant for venues (a hall of about 200 people, four hours). A Lite h
 | # | Risk | Impact | Mitigation |
 |---|---|---|---|
 | R1 | `faster-qwen3-tts` or its dependencies don't run on torch 2.11 / CUDA 13 / aarch64 | 🔴 no voice | Gate T before anything else; pins in the Dockerfile; the NVIDIA forum guide is the reference build |
-| R2 | The clone from ElevenLabs clips sounds wrong (timbre, accent, "Panganiban") | 🟠 | Gate V: the opener and the longest bench sentence against a filler clip, on the robot and on headphones; other clips (8 have known text) or speaker-embedding mode; the real recording later |
+| R2 | The clone sounds wrong (timbre, accent, "Panganiban") | 🟠 | A real recording as the reference; the transcript checked by ear; Gate V on the robot and on headphones; other stretches (`--pick`), or speaker-embedding mode |
 | R3 | First-sentence synthesis is slower than Fish | 🟠 | Gate L; 0.6B model; shorter openers |
 | R4 | Streaming timbre drift reported in faster-qwen3-tts | 🟡 | CJAP synthesizes whole sentences (no streaming), which avoids it |
 | R5 | The daemon can't take port 8000 | 🟠 no motion (CJAP degrades to no gestures, still talks) | Daemon on 8010, `CJ_REACHY_PORT`; Gate R |
@@ -367,7 +369,7 @@ The robot is meant for venues (a hall of about 200 people, four hours). A Lite h
 | # | Item | Owner |
 |---|---|---|
 | 1 | Does the Spark travel? (section 11) | You |
-| 2 | Which filler clips (and their exact text) become the reference; later the real recording | You |
+| 2 | Get `Recording_four.aac` (the Fish model's training recording) from whoever made the Fish "CJAP" model, for runbook step 7.3; and decide whether that Fish model should stay public | You |
 | 3 | Confirm the FLP agreement covers a locally hosted clone | You |
 | 4 | Rotate the vLLM API key exposed in the probe | You |
 | 5 | Wake threshold: the handover left the console override at 0.5, likely too high (CJAP open item 1) | You, at Gate E |
