@@ -97,7 +97,8 @@ def bench(m, which, wav, n, secs, repeats):
             player = gst_audio.GstSentenceOut(
                 load_wav=m._load_wav_mono_int16, trim_edges=m._trim_edges,
                 ref_feed=m._REF_FEED, dry_run=m._dry_run,
-                dual_route=m._dual_route, bt_route=m._bt_route)
+                dual_route=m._dual_route, bt_route=m._bt_route,
+                alsa_refresh=m._alsa_config_refresh)
             first, wall = run_player(player, wav, n)
         ideal = n * secs
         rows.append({"first_s": first, "wall_s": wall, "excess_s": wall - ideal})

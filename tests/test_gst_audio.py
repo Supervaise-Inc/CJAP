@@ -33,17 +33,33 @@ class _Enum:
 class FakeSrc:
     def __init__(self):
         self.pushed, self.events = [], []
+        self.level = 0                     # appsrc current-level-bytes
+        self.flow = _Enum.OK               # what push-buffer returns
 
     def emit(self, name, arg=None):
         if name == "push-buffer":
-            self.pushed.append(arg)
-            return _Enum.OK
+            if self.flow == _Enum.OK:
+                self.pushed.append(arg)
+            return self.flow
         self.events.append(name)
+
+    def get_property(self, name):
+        assert name == "current-level-bytes"
+        return self.level
 
 
 class FakeBus:
-    def timed_pop_filtered(self, *_a):
+    def __init__(self):
+        self.errors = []                   # queued ERROR messages
+
+    def timed_pop_filtered(self, timeout, mask):
+        if self.errors and mask & 2:
+            return self.errors.pop(0)
         return None
+
+
+class FakeMsg:
+    type = 2
 
 
 class FakeQuery:
@@ -54,6 +70,7 @@ class FakeQuery:
 class FakePipe:
     def __init__(self, desc):
         self.desc, self.src, self.states = desc, FakeSrc(), []
+        self.bus = FakeBus()
 
     def get_by_name(self, n):
         return self.src
@@ -63,7 +80,7 @@ class FakePipe:
         return "OK"
 
     def get_bus(self):
-        return FakeBus()
+        return self.bus
 
     def query(self, _q):
         return True
@@ -138,6 +155,7 @@ def _reset(monkeypatch):
 
 def _player(rate=24000, secs=0.2, **kw):
     a = (np.ones(int(rate * secs)) * 1000).astype(np.int16)
+    kw.setdefault("alsa_refresh", lambda: None)
     p = gst_audio.GstSentenceOut(load_wav=lambda _p: (rate, a), trim_edges=lambda x, r: x,
                                  gst=FakeGst, **kw)
     return p
@@ -146,7 +164,8 @@ def _player(rate=24000, secs=0.2, **kw):
 def test_pipeline_description_names_route_and_window():
     d = gst_audio.pipeline_description(24000)
     assert "appsrc name=src" in d and "rate=24000" in d and "channels=1" in d
-    assert "max-bytes=14400" in d                       # 0.3 s of S16 mono at 24 kHz
+    assert "max-bytes=4800" in d                        # 0.1 s of S16 mono at 24 kHz
+    assert "block=false" in d                           # B1: push never waits
     assert "alsasink device=audio_out_route name=sink sync=false" in d
     assert "buffer-time=150000" in d
 
@@ -248,3 +267,110 @@ def test_enabled_follows_cj_sentence_player(monkeypatch):
     assert gst_audio.GstSentenceOut.enabled() is True
     monkeypatch.setenv("CJ_SENTENCE_PLAYER", "aplay")
     assert gst_audio.GstSentenceOut.enabled() is False
+
+
+# ── review fixes B1-B4 ──────────────────────────────────────────────────────
+
+def _wait(cond, secs=2.0):
+    end = time.monotonic() + secs
+    while time.monotonic() < end:
+        if cond():
+            return True
+        time.sleep(0.01)
+    return False
+
+
+def test_b1_abort_is_not_stuck_behind_a_full_queue():
+    """A device that never drains used to hold the lock inside a blocking push,
+    so a stop word's abort() waited for it. Now the writer sleeps lock-free."""
+    p = _player(secs=1.0)
+    p._open(24000)
+    FakeGst.pipes[0].src.level = 10 ** 6            # queue full, never drains
+    result = {}
+    t = threading.Thread(target=lambda: result.update(r=p.play("a.wav", Listener())))
+    t.start()
+    time.sleep(0.15)
+    t0 = time.monotonic()
+    p.abort()
+    assert time.monotonic() - t0 < 0.1              # not waiting on the stuck push
+    t.join(2.0)
+    assert not t.is_alive() and result["r"] is True  # the writer notices and returns
+    assert "NULL" in FakeGst.pipes[0].states
+
+
+def test_b1_a_stalled_device_is_detected_and_released(monkeypatch):
+    monkeypatch.setenv("CJ_GST_STALL_S", "0.1")
+    p = _player(secs=1.0)
+    p._open(24000)
+    FakeGst.pipes[0].src.level = 10 ** 6
+    with pytest.raises(RuntimeError, match="stalled"):
+        p.play("a.wav", Listener())
+    assert p.pipeline is None and "NULL" in FakeGst.pipes[0].states
+    assert p.stats["errors"] == 1
+
+
+def test_b2_keepalive_only_fills_an_empty_queue():
+    p = _player()
+    p._open(24000)
+    src = FakeGst.pipes[0].src
+    src.level = 10 ** 6                              # queue not empty
+    time.sleep(0.25)
+    assert src.pushed == []                          # no silence queued ahead of speech
+    src.level = 0
+    assert _wait(lambda: len(src.pushed) >= 1)       # empty queue: one chunk of silence
+    assert len(src.pushed[0]) == 1200 * 2 and not any(src.pushed[0])
+    p.close()
+
+
+def test_b2_keepalive_can_be_switched_off(monkeypatch):
+    monkeypatch.setenv("CJ_GST_KEEPALIVE", "0")
+    p = _player()
+    p._open(24000)
+    time.sleep(0.25)
+    assert FakeGst.pipes[0].src.pushed == []
+    p.close()
+
+
+def test_b3_a_bus_error_releases_the_device():
+    p = _player()
+    p._open(24000)
+    FakeGst.pipes[0].bus.errors.append(FakeMsg())
+    assert _wait(lambda: p.pipeline is None)
+    assert "NULL" in FakeGst.pipes[0].states and p.stats["errors"] == 1
+    p.play("b.wav", Listener())                      # the next sentence reopens cleanly
+    assert len(FakeGst.pipes) == 2
+    p.close()
+
+
+def test_b3_a_failed_push_releases_the_device_and_raises():
+    p = _player()
+    p._open(24000)
+    FakeGst.pipes[0].src.flow = _Enum.ERROR
+    with pytest.raises(RuntimeError, match="push failed"):
+        p.play("a.wav", Listener())
+    assert p.pipeline is None and "NULL" in FakeGst.pipes[0].states
+
+
+def test_b4_alsa_config_is_refreshed_before_each_open_only():
+    calls = []
+    p = _player(alsa_refresh=lambda: calls.append(1))
+    p.play("a.wav", Listener())
+    p.play("b.wav", Listener())                      # same pipeline: no refresh while open
+    assert calls == [1]
+    p._load_wav = lambda _p: (16000, np.ones(1600, dtype=np.int16))
+    p.play("c.wav", Listener())                      # new rate: reopened, refreshed again
+    assert calls == [1, 1]
+    p.close()
+
+
+def test_b4_refresh_happens_before_the_pipeline_is_built():
+    order = []
+    orig = FakeGst.parse_launch.__func__
+    FakeGst.parse_launch = classmethod(lambda cls, d: (order.append("launch"), orig(cls, d))[1])
+    try:
+        p = _player(alsa_refresh=lambda: order.append("refresh"))
+        p.play("a.wav", Listener())
+        p.close()
+    finally:
+        FakeGst.parse_launch = classmethod(orig)
+    assert order[:2] == ["refresh", "launch"]

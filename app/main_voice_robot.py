@@ -3040,7 +3040,8 @@ def _make_sentence_out():
                 return gst_audio.GstSentenceOut(
                     load_wav=_load_wav_mono_int16, trim_edges=_trim_edges,
                     ref_feed=_REF_FEED, dry_run=_dry_run,
-                    dual_route=_dual_route, bt_route=_bt_route)
+                    dual_route=_dual_route, bt_route=_bt_route,
+                    alsa_refresh=_alsa_config_refresh)
             print("[audio] CJ_SENTENCE_PLAYER=gst but GStreamer (appsrc, alsasink) is "
                   "missing — PortAudio stream player")
         except Exception as e:
