@@ -3029,7 +3029,27 @@ class _SentenceOut:
                 pass
 
 
-_SENT_OUT = _SentenceOut()
+def _make_sentence_out():
+    """CJ_SENTENCE_PLAYER=gst (2026-11-05) plays streamed sentences through one
+    GStreamer pipeline (app/gst_audio.py); anything else, or GStreamer missing,
+    keeps the PortAudio player. aplay stays the per-sentence fallback."""
+    if os.environ.get("CJ_SENTENCE_PLAYER", "stream").strip().lower() == "gst":
+        try:
+            import gst_audio
+            if gst_audio.available():
+                return gst_audio.GstSentenceOut(
+                    load_wav=_load_wav_mono_int16, trim_edges=_trim_edges,
+                    ref_feed=_REF_FEED, dry_run=_dry_run,
+                    dual_route=_dual_route, bt_route=_bt_route)
+            print("[audio] CJ_SENTENCE_PLAYER=gst but GStreamer (appsrc, alsasink) is "
+                  "missing — PortAudio stream player")
+        except Exception as e:
+            print(f"[audio] GStreamer player unavailable ({type(e).__name__}: {e}) "
+                  "— PortAudio stream player")
+    return _SentenceOut()
+
+
+_SENT_OUT = _make_sentence_out()
 
 
 def _play_wav_listener(wav_path, listener, prefed_age=None):
