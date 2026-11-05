@@ -2384,7 +2384,8 @@ class FillerLoop:
         # off while fillers are disabled.
         disabled = os.environ.get("CJ_FILLERS_ENABLED", "1").strip().lower() in {
             "0", "false", "no", "off"}
-        self._clips = [] if disabled else glob.glob(FILLER_DIR + "/*.wav")
+        import filler_policy   # short clips first, no new clip once the answer is coming (2026-11-05)
+        self._clips = [] if disabled else filler_policy.load_clips(FILLER_DIR)
         self._gap_range = gap_range
         self._stop = threading.Event()
         self.max_clips = (max_clips if max_clips is not None
@@ -2397,6 +2398,7 @@ class FillerLoop:
         # first token is in; None once the hold is over (a clip is on air)
         self._hold_start = None
         self._deadline = None
+        self._token_ts = None    # first composer token seen (filler_policy.stay_quiet)
         self._thread = threading.Thread(target=self._run, daemon=True)
         if self._clips:
             self._thread.start()
@@ -2428,7 +2430,13 @@ class FillerLoop:
         at 2.4-3.1 s, ON AIR at 5.1-5.6 s — the filler was the whole gap).
         The total hold never exceeds CJ_FILLER_HOLD_MAX_S (default 3.6 s;
         the 4 s v1 hold read as a "big pause"). No-op once a clip is playing
-        or when fillers are off. Returns the extra seconds granted."""
+        or when fillers are off. Returns the extra seconds granted.
+
+        2026-11-05: the first token is also recorded here, whatever state the
+        loop is in, so no NEW clip starts while the answer is coming — the
+        answer sat 1.5-3 s behind a clip it could not cut (latency study C1)."""
+        if self._token_ts is None:
+            self._token_ts = time.monotonic()
         if self._deadline is None or self._stop.is_set():
             return 0.0
         if grace_s is None:
@@ -2447,6 +2455,11 @@ class FillerLoop:
         print(f"[filler] first token in at {now - self._hold_start:.1f}s — "
               f"holding {new_deadline - now:.1f}s more for the answer, no clip")
         return extra
+
+    def _quiet(self):
+        """True while the answer is expected shortly: start no new clip."""
+        import filler_policy
+        return filler_policy.stay_quiet(self._token_ts, time.monotonic())
 
     def _run(self):
         pool, played = [], 0
@@ -2471,15 +2484,17 @@ class FillerLoop:
             return
         first = True
         while not self._stop.is_set():
+            while self._quiet() and not self._stop.is_set():
+                time.sleep(0.05)   # first token is in: the answer is seconds away, no new clip
+            if self._stop.is_set():
+                break
             nxt, self._next = self._next, None
             if nxt is None and not pool:
-                # skip clips heard in the last few questions; if that empties
-                # the pool (small clip set), fall back to the full set
-                pool = ([c for c in self._clips if c not in _RECENT_FILLERS]
-                        or self._clips[:])
-                random.shuffle(pool)
-                if first:   # pop() takes the LAST element -> shortest clip first
-                    pool.sort(key=self._duration, reverse=True)
+                import filler_policy
+                # skips clips heard in the last few questions, shuffles, and the
+                # shortest clip comes first (pop() takes the LAST element)
+                pool = filler_policy.build_pool(self._clips, _RECENT_FILLERS,
+                                                self._duration, first)
             clip = nxt or pool.pop()
             if not nxt:
                 _RECENT_FILLERS.append(clip)
