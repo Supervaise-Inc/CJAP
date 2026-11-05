@@ -10,7 +10,7 @@ app/voice_guard.py reads it without caring which engine failed.
 Why (2026-11-05): CJAP moved from the robot's Pi onto a DGX Spark with a
 Reachy Mini Lite on USB-C, and the voice moved from Fish Audio / ElevenLabs to
 a Qwen3-TTS clone served on the Spark's GPU by the ``cjap-tts`` container
-(``~/robot/compose`` on the Spark, see CJAP_SPARK_RUNBOOK.md). It is a clone of
+(``deploy/spark/compose``, see docs/spark/RUNBOOK.md). It is a clone of
 the SAME person, so voice_guard accepts it; ``CJ_TTS_ORDER=spark`` makes it the
 only voice, which keeps "silence rather than a different voice" true.
 
@@ -46,9 +46,9 @@ log = logging.getLogger("voice.qwen")
 
 REQUEST_TIMEOUT_S = float(os.environ.get("CJ_QWEN_TTS_TIMEOUT_S", "20"))
 MAX_RETRIES = int(os.environ.get("CJ_QWEN_TTS_RETRIES", "1"))
-# The server already EQs nothing: the same robot-driver chain as the cloud
-# clones (high-pass, presence, -16 LUFS) runs here, so a Spark sentence matches
-# the pre-rendered ElevenLabs fillers around it in level and tone.
+# The server returns the raw model output; the same robot-driver chain as the
+# cloud clones (high-pass, presence, -16 LUFS) runs here, so a Spark sentence
+# matches the pre-rendered ElevenLabs fillers around it in level and tone.
 POSTPROCESS = os.environ.get("CJ_QWEN_TTS_POSTPROCESS", "1") != "0"
 
 

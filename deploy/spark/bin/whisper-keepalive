@@ -21,8 +21,9 @@ EOF
 
 while true; do
   t0=$(date +%s.%N)
-  code=$(curl -s -o /dev/null -w '%{http_code}' -m 120 \
-    -H "Authorization: Bearer $KEY" -F model=whisper -F file=@"$WAV" \
+  # The header comes from stdin, so the key never shows in ps / /proc/*/cmdline.
+  code=$(printf 'Authorization: Bearer %s\n' "$KEY" | curl -s -o /dev/null \
+    -w '%{http_code}' -m 120 -H @- -F model=whisper -F file=@"$WAV" \
     "$URL/audio/transcriptions")
   t1=$(date +%s.%N)
   echo "[keepalive] whisper HTTP $code in $(python3 -c "print(round($t1-$t0,2))") s"

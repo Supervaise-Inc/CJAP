@@ -28,7 +28,7 @@ The full plan and the step-by-step runbook are in the DGX Spark docs
 | `app/main_voice_robot.py` | `CJ_REACHY_PORT` (unset = SDK default, as before) |
 | `app/floor_lease.py`, `dashboard/console.py` | `CJ_ROBOTS_JSON` (unset = `config/robots.json`) |
 | `dashboard/ui_server.py` | `CJ_DASH_PORT`, `CJ_DASH_HTTPS_PORT` (unset = 8080 / 8443) |
-| `tests/test_spark_voice.py` | Tests for all of the above |
+| `tests/test_spark_voice.py` | 12 tests for all of the above |
 
 ## What is here and where it goes on the Spark
 

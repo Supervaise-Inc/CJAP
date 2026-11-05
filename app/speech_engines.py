@@ -799,8 +799,9 @@ def tts_spark_wav(text: str, out_dir: str = "/dev/shm",
     from voice import qwen as v_qwen
 
     norm = v_cache.normalize_text(text)
-    key = v_cache.cache_key(norm, {"_engine": "spark", "_model": v_qwen.model_id(),
-                                   "speed": speed})
+    # speed is not in the key: cjap-tts ignores it (CJAP's tempo smoothing
+    # paces the clip afterwards), so it would only store the same audio twice.
+    key = v_cache.cache_key(norm, {"_engine": "spark", "_model": v_qwen.model_id()})
     align_path = v_cache.cache_dir() / f"{key}.align.json"
     words = None
     hit = v_cache.get(key)

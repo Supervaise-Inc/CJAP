@@ -17,6 +17,6 @@ RUN pip install --no-cache-dir -c /opt/cjap-tts/constraints.txt \
 
 COPY tts_server.py make_ref.py /opt/cjap-tts/
 WORKDIR /opt/cjap-tts
-ENV HF_HUB_OFFLINE=1 HOME=/tmp PYTHONUNBUFFERED=1
+ENV HF_HUB_OFFLINE=1 HOME=/tmp USER=cjap PYTHONUNBUFFERED=1
 EXPOSE 8091
 CMD ["uvicorn", "tts_server:app", "--host", "0.0.0.0", "--port", "8091", "--workers", "1"]

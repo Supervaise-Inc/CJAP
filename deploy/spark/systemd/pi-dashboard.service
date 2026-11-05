@@ -11,8 +11,10 @@ Environment=XDG_RUNTIME_DIR=/run/user/1001
 Environment=CJ_DASH_PORT=8180
 Environment=CJ_DASH_HTTPS_PORT=8543
 Environment=CJ_ROBOTS_JSON=/home/sv/Supervaise-Reachy-Mini-Project-main/deploy/spark/robots.json
-# Access key for /maintain and /console: set your own in a drop-in, e.g.
-#   /etc/systemd/system/pi-dashboard.service.d/key.conf  ->  Environment=CJ_DASH_KEY=...
+# Access key for /maintain and /console (CJ_DASH_KEY=...), mode 600, root-owned.
+# supervaise reads the SAME file: the robot's lease requests carry this key, and
+# the console answers a wrong one with 403, i.e. a deaf robot.
+EnvironmentFile=-/etc/cjap/dashboard.env
 ExecStart=/usr/bin/python3 /home/sv/Supervaise-Reachy-Mini-Project-main/dashboard/ui_server.py
 Restart=always
 RestartSec=5

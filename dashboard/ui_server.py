@@ -1967,6 +1967,10 @@ def _mirror_motion_config():
         print(f"[dashboard] motion mirror skipped: {type(e).__name__}: {e}", flush=True)
 
 
+# The phone-mic hint names the HTTPS port; follow CJ_DASH_HTTPS_PORT (2026-11-05).
+PAGE = PAGE.replace("${location.hostname}:8443", "${location.hostname}:" + str(HTTPS_PORT))
+
+
 if __name__ == "__main__":
     if ui is not None:
         _mirror_motion_config()

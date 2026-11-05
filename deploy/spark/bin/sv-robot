@@ -7,7 +7,8 @@
 #   sv-robot off      stop all of that and restore the saved split
 #   sv-robot status   what is running now
 #
-# Needs your sudo password for the systemd units. Safe to run twice.
+# Needs your sudo password for the systemd units. on/off are safe to repeat:
+# the split is saved once on "on" and restored once on "off".
 set -u
 RUN=~/robot/run
 SAVED=$RUN/split-before.json
@@ -51,18 +52,29 @@ case "${1:-status}" in
     sudo systemctl start $UNITS || exit 1
     sleep 2
     systemctl --no-pager --lines=0 status $UNITS | grep -E '^●|Active:'
-    echo "robot mode ON. Console: http://192.168.1.201:8180/console?key=<your key>"
+    echo "robot mode ON. Console: laptop tunnel, then http://localhost:8180/console?key=<key>"
     ;;
   off)
     sudo systemctl stop supervaise cjap-whisper-keepalive pi-dashboard reachy-daemon
     ( cd ~/Supervaise-Reachy-Mini-Project-main/deploy/spark/compose && docker compose stop cjap-tts )
-    if [ -f "$SAVED" ]; then
-      ARGS=$(restore_args) && echo "restoring split: $ARGS" && ~/bin/sv-split $ARGS
-    else
-      echo "no saved split in $SAVED — run 'sv-split apply' or set it by hand"
+    if [ "$(cat $RUN/MODE 2>/dev/null)" != robot ]; then
+      echo "not in robot mode: services stopped, LLM split left as it is"
+      exit 0
     fi
-    echo office > $RUN/MODE
-    echo "robot mode OFF."
+    if [ ! -f "$SAVED" ]; then
+      echo "no saved split in $SAVED: set it by hand (sv-split qwen=50 lfm=0 embed=0)"
+      exit 1
+    fi
+    ARGS=$(restore_args) || { echo "cannot read $SAVED"; exit 1; }
+    echo "restoring split: $ARGS"
+    if ~/bin/sv-split $ARGS; then
+      echo office > $RUN/MODE
+      mv "$SAVED" "$SAVED.restored"
+      echo "robot mode OFF."
+    else
+      echo "sv-split failed: still in robot mode, saved split kept in $SAVED"
+      exit 1
+    fi
     ;;
   status)
     echo "mode: $(cat $RUN/MODE 2>/dev/null || echo office)"

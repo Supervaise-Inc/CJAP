@@ -3,9 +3,9 @@
 > **For:** you, as `sv`, over `ssh isl.spark` from your Windows laptop, plus a few **owner steps** that need your sudo password (marked 🔑). **Design:** [`CJAP_SPARK_ARCHITECTURE.md`](ARCHITECTURE.md).
 > **Starts from** the box as probed on **2026-11-05**: Qwen on vLLM (split `qwen=50`), nginx/LiteLLM/whisper-api up, no CJAP, no Reachy, no sound card.
 > **What you get:** CJAP (branch **`spark/local-speech`**) running on the Spark as `supervaise`, its dashboard on **:8180**, the Reachy Mini Lite on USB-C, speech-to-text on the Spark's whisper-api, Panganiban's voice from a **Qwen3-TTS clone** on the GPU, and `sv-robot on|off` to switch between robot mode and the office LLM API.
-> **How to use:** run the blocks of **steps 0–9 in order**, top to bottom, each block as a whole, and compare with **✅ Expect**. When the output doesn't match, stop and look up the named row in **step 11**. The fixes are there and nowhere else. Steps 10–12 are tables.
+> **How to use:** run the blocks of **steps 0–9 in order**, top to bottom, each block as a whole, and compare with **✅ Expect**. A block that is only `sudo -v` asks for your password **before** the next block, so the prompt can't swallow pasted lines; type the password, then paste the next block. When the output doesn't match, stop and look up the named row in **step 11**. The fixes are there and nowhere else. Steps 10–12 are tables.
 > **Outages:** step 8 (`sv-robot on`) stops Qwen: teammates' `qwen38` calls fail until step 9 (`sv-robot off`). Nothing else touches the chat engines.
-> **The code** is on the CJAP branch `spark/local-speech`, one commit on top of `merge/master-single-robot` @ `1d986be`. Until someone with push rights publishes it, it travels as a git bundle (`cjap-spark/cjap-spark-local-speech.bundle` next to this runbook).
+> **The code** is on the CJAP branch `spark/local-speech`, three commits on top of `merge/master-single-robot` @ `1d986be`. Until someone with push rights publishes it, it travels as a git bundle (`cjap-spark/cjap-spark-local-speech.bundle` next to this runbook).
 
 | Step | What | Where | Time |
 |---|---|---|---|
@@ -27,9 +27,9 @@
 
 ## 0. Check the box
 
-On the **laptop** (PowerShell), open a tmux session on the Spark:
+On the **laptop** (PowerShell), open a tmux session on the Spark. `-L cjap` gives this runbook its own tmux server, so it can be restarted in step 2 without touching anyone else's sessions:
 ```powershell
-ssh isl.spark -t "tmux new -As cjap"
+ssh isl.spark -t "tmux -L cjap new -As cjap"
 ```
 On the **Spark** (read only):
 ```bash
@@ -95,27 +95,35 @@ If the branch has already been pushed to GitHub: instead of the bundle lines, `g
 **Owner step: needs your sudo password.** All of it runs once.
 
 ```bash
+sudo -v
+```
+
+```bash
 cd ~/Supervaise-Reachy-Mini-Project-main
 sudo apt-get update
 sudo apt-get install -y libportaudio2 pulseaudio-utils alsa-utils ffmpeg
+sudo apt-get install -y libasound2-plugins
 sudo apt-get install -y build-essential pkg-config python3-dev
-sudo apt-get install -y libgirepository1.0-dev libcairo2-dev
+sudo apt-get install -y libgirepository1.0-dev libgirepository-2.0-dev
+sudo apt-get install -y libcairo2-dev
 sudo apt-get install -y gir1.2-glib-2.0 gir1.2-gstreamer-1.0
 sudo apt-get install -y gir1.2-gst-plugins-base-1.0 gstreamer1.0-alsa
 ```
-What they are for: PortAudio (CJAP's `sounddevice`), `pactl` (audio routing), `ffmpeg` (the dashboard); a compiler and the GObject headers so `pip` can build **PyGObject**, which the Reachy SDK imports even with media off; the GStreamer typelibs the SDK, the daemon and CJAP's GStreamer player load.
+What they are for: PortAudio (CJAP's `sounddevice`), `pactl` (audio routing), `ffmpeg` (the dashboard), the ALSA `pulse` plugin (`~/.asoundrc` plays through PipeWire); a compiler and the GObject headers so `pip` can build **PyGObject**, which the Reachy SDK imports even with media off; the GStreamer typelibs the SDK, the daemon and CJAP's GStreamer player load.
 
 ```bash
 cd ~/Supervaise-Reachy-Mini-Project-main
 S=deploy/spark
 sudo install -m 644 $S/udev/99-reachy-mini.rules /etc/udev/rules.d/
 sudo udevadm control --reload-rules
-sudo udevadm trigger
+sudo udevadm trigger --subsystem-match=usb --subsystem-match=tty
 sudo usermod -aG dialout,plugdev,audio sv
 sudo loginctl enable-linger sv
+sudo systemctl restart user@1001.service
 sudo install -m 644 $S/systemd/*.service /etc/systemd/system/
-sudo mkdir -p /etc/systemd/system/supervaise.service.d
-sudo install -m 644 $S/systemd/supervaise.service.d/wakeword.conf /etc/systemd/system/supervaise.service.d/
+W=/etc/systemd/system/supervaise.service.d
+sudo mkdir -p $W
+sudo install -m 644 $S/systemd/supervaise.service.d/wakeword.conf $W/
 sudo systemctl daemon-reload
 systemctl list-unit-files 'supervaise*' 'reachy-daemon*' 'pi-dashboard*' 'cjap-*'
 ```
@@ -123,16 +131,22 @@ systemctl list-unit-files 'supervaise*' 'reachy-daemon*' 'pi-dashboard*' 'cjap-*
 - `apt-get` ends without `E:` lines;
 - four units listed, each `disabled` or `static` (none starts at boot: `sv-robot on` starts them).
 
-Now **log out and back in** so the new groups apply. In tmux: detach with `Ctrl-b d`, then type `exit`, and on the laptop:
-```powershell
-ssh isl.spark -t "tmux new -As cjap"
-```
-Then on the Spark (in a **new** tmux window, `Ctrl-b c`, so the shell has the new groups):
+The `user@1001` restart gives sv's PipeWire the new `audio` group (it runs under that user manager, not under your SSH session). It doesn't end tmux or SSH sessions.
+
+Now **start a fresh shell** so the new groups apply. A tmux server keeps the groups it started with, so end this runbook's own server (only `-L cjap`, nobody else's):
 ```bash
-id | tr ',' '\n' | grep -E 'dialout|plugdev|audio'
+tmux -L cjap kill-server
+```
+That closes this window and drops you back to the laptop. Reconnect (PowerShell):
+```powershell
+ssh isl.spark -t "tmux -L cjap new -As cjap"
+```
+Then on the Spark:
+```bash
+id
 loginctl show-user sv -p Linger
 ```
-✅ Expect: `dialout`, `plugdev`, `audio`; `Linger=yes`. Only the groups line missing → step 11, *Groups not applied*.
+✅ Expect: `id` lists `dialout`, `plugdev` and `audio`; `Linger=yes`. Groups missing → step 11, *Groups not applied*.
 
 ---
 
@@ -155,7 +169,7 @@ uv pip install --python $P --no-deps openwakeword==0.6.0
 uv pip install --python $P -r deploy/spark/requirements-spark.txt
 $P -c "import openwakeword.utils as u; u.download_models([])"
 $P -c "import reachy_mini, gi, sounddevice, sherpa_onnx; print('imports ok')"
-$P -m pip show reachy-mini 2>/dev/null | head -2 || uv pip show --python $P reachy-mini | head -2
+uv pip show --python $P reachy-mini | head -2
 ```
 ✅ Expect:
 - `Creating virtual environment at: app/.venv`;
@@ -171,7 +185,7 @@ Install fails on **PyGObject** → step 11, *PyGObject build*. On **openwakeword
 cd ~/Supervaise-Reachy-Mini-Project-main
 CJ_TTS_ORDER=spark app/.venv/bin/python -m pytest tests/ -q 2>&1 | tail -4
 ```
-✅ Expect: `… passed` and **no** `failed` (alpha had 396 at the 09-29 handover; this branch adds 15 in `test_spark_voice.py`). Any failure → step 11, *Tests fail*.
+✅ Expect: `… passed` and **no** `failed` (alpha had 396 at the 09-29 handover; this branch adds 12 in `test_spark_voice.py`). Any failure → step 11, *Tests fail*.
 
 ---
 
@@ -182,7 +196,7 @@ Connect the Reachy Mini Lite: its **power supply** to the wall and its **USB-C**
 ```bash
 lsusb | grep -i -E '38fb|1a86'
 ls -l /dev/ttyACM0
-grep -A1 -i 'reachy\|Audio' /proc/asound/cards
+grep -iE 'reachy|audio' /proc/asound/cards
 ```
 ✅ Expect:
 - two lines: `ID 38fb:1001 Pollen Robotics Reachy Mini Audio` and `ID 1a86:55d3 …` (the motor bus);
@@ -197,25 +211,23 @@ cd ~/Supervaise-Reachy-Mini-Project-main
 A=deploy/alpha/home
 S=deploy/spark
 mkdir -p ~/bin ~/tools ~/speaker_id ~/robot/voices/panganiban ~/robot/run
-[ -f ~/.asoundrc ] && cp ~/.asoundrc ~/.asoundrc.bak-pre-cjap
-cp $S/home/.asoundrc $S/home/.asoundrc.route ~/
+cp -b $S/home/.asoundrc $S/home/.asoundrc.route ~/
+chmod 700 ~/robot/voices
 cp -r $A/fillers $A/fillers_ack $A/fillers_bail ~/
 cp $A/speaker_id/*.onnx ~/speaker_id/
 cp -r $A/tools/. ~/tools/
 for f in xvf-ctl audio-out audio-volume aplay-dual verify-mic.sh; do cp $A/bin/$f ~/bin/; done
-cd ~/bin
-sed -i 's#/home/pollen#/home/sv#g' xvf-ctl audio-out audio-volume aplay-dual verify-mic.sh
-sed -i 's#python3\.13#python3.12#g; s#/run/user/1000#/run/user/1001#g' xvf-ctl audio-out audio-volume aplay-dual verify-mic.sh
-cd ~/Supervaise-Reachy-Mini-Project-main
+E='s#/home/pollen#/home/sv#g; s#python3.13#python3.12#g; s#/run/user/1000#/run/user/1001#g'
+for f in xvf-ctl audio-out audio-volume aplay-dual verify-mic.sh; do sed -i "$E" ~/bin/$f; done
 install -m 755 $S/bin/sv-robot $S/bin/whisper-keepalive $S/bin/cjap-env-set ~/bin/
-chmod 755 ~/bin/xvf-ctl ~/bin/audio-out ~/bin/audio-volume ~/bin/aplay-dual ~/bin/verify-mic.sh
+for f in xvf-ctl audio-out audio-volume aplay-dual verify-mic.sh; do chmod 755 ~/bin/$f; done
 ln -sfn ~/Supervaise-Reachy-Mini-Project-main/dashboard ~/pi_dashboard
 grep -l pollen ~/bin/* ~/.asoundrc || echo no-pollen-paths
 ls ~/fillers | wc -l
 ```
-✅ Expect: `no-pollen-paths`; `40`.
+✅ Expect: `no-pollen-paths`; `40`. (`cp -b` kept any earlier `~/.asoundrc` as `~/.asoundrc~`.)
 
-**Gate A: the robot's speaker and microphone.** Route playback to the robot's card, play a filler, record 4 s from the robot's microphone, play it back:
+**Gate A: the robot's speaker and microphone.** Route playback to the robot's card, play a filler, record 4 s from the robot's microphone, play it back. **When the filler has played, speak a sentence near the robot** (the next 4 s are recorded):
 ```bash
 export XDG_RUNTIME_DIR=/run/user/1001
 ~/bin/audio-out internal
@@ -225,12 +237,11 @@ arecord -D reachymini_audio_src_plug -f S16_LE -r 16000 -c 1 -d 4 /dev/shm/cj_mi
 aplay -D audio_out_route /dev/shm/cj_mic_test.wav
 ~/bin/xvf-ctl read AUDIO_MGR_OP_L
 ```
-While `arecord` runs (4 s), speak a sentence near the robot.
 ✅ Expect:
 - `pactl get-default-sink` names an `alsa_output.usb-Pollen_Robotics_Reachy_Mini_Audio…` sink;
 - you **hear** the filler ("Ah — a fine question…") **from the robot**;
 - you hear your own sentence back, clearly;
-- `xvf-ctl` prints JSON like `{"AUDIO_MGR_OP_L": [8, 0]}`.
+- `xvf-ctl` prints one JSON line containing `AUDIO_MGR_OP_L` and two numbers (alpha: `[8, 0]`).
 
 No sound → step 11, *No sound from the robot*. `Device or resource busy` → *Card busy*. Silent recording → *Silent microphone*. `xvf-ctl` permission error → *XVF access denied*.
 
@@ -240,12 +251,17 @@ No sound → step 11, *No sound from the robot*. `Device or resource busy` → *
 
 The daemon runs as `reachy-daemon.service` (motors only, `--no-media`, **127.0.0.1:8010**; 8000 is taken on this host).
 ```bash
+sudo -v
+```
+
+```bash
 sudo systemctl start reachy-daemon
 sleep 15
+ss -tln | grep 8010
 curl -s http://127.0.0.1:8010/api/daemon/status; echo
 journalctl -u reachy-daemon --since "-2 min" --no-pager | tail -5
 ```
-✅ Expect: a JSON status that includes `"ready": true` (and the backend running); the journal ends without `Error`/`Traceback`. The robot's head may move to its "awake" pose.
+✅ Expect: `127.0.0.1:8010` listening; a JSON status that includes `"ready": true` (and the backend running); the journal ends without `Error`/`Traceback`. The robot's head may move to its "awake" pose.
 
 **Gate R: motion through the SDK, the way CJAP connects.**
 ```bash
@@ -324,7 +340,8 @@ docker run --rm sv/whisper:1 pip freeze | grep -E '^(torch|torchaudio|triton)=='
 cat constraints.txt
 cd ../compose
 docker compose build cjap-tts 2>&1 | tail -5
-docker run --rm sv/cjap-tts:1 grep -E '^(torch|faster-qwen3-tts|transformers)==' /opt/cjap-tts/versions.txt
+docker run --rm sv/cjap-tts:1 cat /opt/cjap-tts/versions.txt > /dev/shm/tts_versions.txt
+grep -E '^(torch|faster-qwen3-tts|transformers)==' /dev/shm/tts_versions.txt
 ```
 ✅ Expect:
 - `constraints.txt`: three lines, `torch==2.11.0+cu130`, `torchaudio==2.11.0…`, `triton==3.6.0`;
@@ -335,10 +352,13 @@ A pip error about torch → step 11, *TTS build: torch conflict*.
 
 ### 7.2 The model (4.5 GB)
 ```bash
+cd ~/models
 M=Qwen/Qwen3-TTS-12Hz-1.7B-Base
-O="--rm --user 1001:1001 -e HF_HUB_OFFLINE=0 -v $HOME/models:/models"
-docker run $O sv/cjap-tts:1 hf download $M --local-dir /models/${M#*/}
-du -sh ~/models/Qwen3-TTS-12Hz-1.7B-Base
+N=${M#*/}
+I=sv/cjap-tts:1
+R="--rm -u 1001:1001 -e HF_HUB_OFFLINE=0"
+docker run $R -v $PWD:/models $I hf download $M --local-dir /models/$N
+du -sh ~/models/$N
 ```
 ✅ Expect: the download completes; `4.3G` to `4.6G`.
 
@@ -358,12 +378,13 @@ cat $V/ref.txt
 ```bash
 cd ~/Supervaise-Reachy-Mini-Project-main/deploy/spark/compose
 docker compose up -d cjap-tts
-until curl -s 127.0.0.1:8091/health | grep -q '"ok":true'; do sleep 10; done
+H=127.0.0.1:8091/health
+for i in $(seq 36); do curl -s $H | grep -q '"ok":true' && break; sleep 10; done
 curl -s 127.0.0.1:8091/health; echo
 python3 ../tts/tts_bench.py
 docker stats --no-stream --format '{{.Name}} {{.MemUsage}}' sv-robot-cjap-tts-1
 ```
-The `until` line waits for the model to load and warm up (2–5 min the first time).
+The `for` line waits up to 6 min for the model to load and warm up (2–5 min the first time).
 ✅ Expect:
 - `/health`: `"ok": true`, `"model": "Qwen3-TTS-12Hz-1.7B-Base"`, a 12-character `ref`, `warm_s` under ~120;
 - ten bench lines, then **`median speed ≥ 1.25x`** and the **first (opener) line `synth ≤ 1.8 s`**;
@@ -394,17 +415,29 @@ Wrong voice or accent → step 11, *Voice doesn't match*.
 
 ## 8. Robot mode, the console, Gate E, Gate L
 
-**🔑 Owner step, once: the dashboard access key** (replaces the default `cjap`):
+**🔑 Owner step, once: the dashboard access key** (replaces the default `cjap`). Both the dashboard and the robot read it from one root-only file: the robot's lease requests must carry the same key, or the console refuses them and the microphone never opens. Choose a key of letters and digits only.
+```bash
+sudo -v
+```
+Then the key, alone in its own block (type it at the prompt; it isn't shown):
 ```bash
 read -rsp "new dashboard key: " K; echo
-sudo mkdir -p /etc/systemd/system/pi-dashboard.service.d
-printf '[Service]\nEnvironment=CJ_DASH_KEY=%s\n' "$K" | sudo tee /etc/systemd/system/pi-dashboard.service.d/key.conf >/dev/null
-unset K
-sudo systemctl daemon-reload
 ```
-✅ Expect: no output.
+```bash
+sudo mkdir -p /etc/cjap
+sudo install -m 600 /dev/null /etc/cjap/dashboard.env
+echo "CJ_DASH_KEY=$K" | sudo tee /etc/cjap/dashboard.env >/dev/null
+unset K
+sudo cut -c1-12 /etc/cjap/dashboard.env
+sudo stat -c '%a %U' /etc/cjap/dashboard.env
+```
+✅ Expect: `CJ_DASH_KEY=`; `600 root`.
 
 **Switch to robot mode.** This stops Qwen (teammates' `qwen38` calls fail until step 9).
+```bash
+sudo -v
+```
+
 ```bash
 sv-robot on
 ```
@@ -425,26 +458,41 @@ Leave it open. In the laptop's browser: `http://localhost:8180/console?key=<your
 
 Check the robot's journal:
 ```bash
-journalctl -u supervaise --since "-3 min" --no-pager | grep -E '\[(gestures|mic|wake|tts|voice)' | tail -12
+journalctl -u supervaise -n 400 --no-pager | grep -E '[[](gestures|mic|wake|tts|voice)' | tail -12
 ```
 ✅ Expect: `[mic] using ReSpeaker array (reachymini_audio_src_plug)`, `[gestures] connected, motors on`, `[gestures] breathing …`, `[wake] armed …`; no `[gestures] disabled`, no `[tts] spark failed`.
+
+Expected noise, not faults: a `[prewarm]` line about the OpenAI model check (it now goes to LiteLLM with a whisper-only key), `/maintain` showing the OpenAI key as invalid (it tests against api.openai.com), and `/maintain` buttons that restart services failing (they use `sudo -n`; use `sv-robot` instead).
 
 **Gate E: live turns** (in the room with the robot):
 1. Say **"Hi Cee-Jap"**. ✅ The head perks toward you.
 2. Ask **"What is the rule of law?"** ✅ A filler or ack plays, then an answer in the **clone voice**, the head moving while it speaks.
 3. Ask a follow-up within ~10 s (voice lock), e.g. **"Tell me about your mentor."** ✅ Answered without the wake word (it mentions Jovito Salonga).
 4. While it answers, say **"Cee-Jap"** (the stop phrase). ✅ It stops within about a second.
-5. **Voice guard:** `cd ~/Supervaise-Reachy-Mini-Project-main/deploy/spark/compose && docker compose stop cjap-tts`, then ask a question. ✅ The robot stays **silent** (no other voice) and `/maintain` shows the voice warning. Then `docker compose start cjap-tts` and wait for `/health` ok.
+5. **Voice guard.** Stop the voice server:
+   ```bash
+   cd ~/Supervaise-Reachy-Mini-Project-main/deploy/spark/compose
+   docker compose stop cjap-tts
+   ```
+   Ask a new question. ✅ The pre-recorded acknowledgement or filler may still play, but **no answer sentence is spoken in any other voice** (only sentences already in the cache can play), and `/maintain` shows the voice warning. Start it again and wait for it:
+   ```bash
+   cd ~/Supervaise-Reachy-Mini-Project-main/deploy/spark/compose
+   docker compose start cjap-tts
+   H=127.0.0.1:8091/health
+   for i in $(seq 36); do curl -s $H | grep -q '"ok":true' && break; sleep 10; done
+   curl -s 127.0.0.1:8091/health; echo
+   ```
 
 ```bash
-journalctl -u supervaise --since "-10 min" --no-pager | grep -E '\[(stt|trace)\]' | tail -8
+journalctl -u supervaise --since "-10 min" --no-pager | grep -E '[[](stt|trace)[]]' | tail -8
 ```
 ✅ Expect: `[stt] heard: …` lines with your questions, and one `[trace] path=streamed | stt_s=… | first_audio_s=… | on_air_s=…` per answer.
 
 **Gate L: latency over 20 turns.** Ask 20 varied questions (the six build-kit questions plus your own), then:
 ```bash
 cd ~/Supervaise-Reachy-Mini-Project-main
-journalctl -u supervaise -o short-iso --no-pager -g '\[trace\]' --since today > ~/robot/spark_trace.txt
+J="journalctl -u supervaise -o short-iso --no-pager"
+$J -g '[[]trace[]]' --since today > ~/robot/spark_trace.txt
 app/.venv/bin/python scripts/turn_timing.py ~/robot/spark_trace.txt --label spark --endpoint-s 1.2
 ```
 ✅ Expect: the per-stage table; **median `stt_s` ≤ 1.5 s**, **median `on_air_s` ≤ 5 s**. Compare with alpha's numbers if you have an alpha trace. Over → step 11, *Slow first answer*.
@@ -453,9 +501,13 @@ app/.venv/bin/python scripts/turn_timing.py ~/robot/spark_trace.txt --label spar
 
 ## 9. Back to office mode, Gate O
 ```bash
+sudo -v
+```
+
+```bash
 sv-robot off
 sleep 120
-docker ps --format '{{.Names}} {{.Status}}' | grep -E 'vllm|cjap'
+docker ps -a --format '{{.Names}} {{.Status}}' | grep -E 'vllm|cjap'
 sv-split | head -6
 ```
 ✅ Expect:
@@ -475,10 +527,10 @@ Unplugging the robot is fine in office mode.
 |---|---|
 | Robot on / off / state | `sv-robot on` · `sv-robot off` · `sv-robot status` |
 | Console and maintenance | laptop: `ssh -N -L 8180:127.0.0.1:8180 isl.spark`, then `http://localhost:8180/console?key=…` and `/maintain?key=…` |
-| Follow one turn | `journalctl -u supervaise -f \| grep -E '\[(wake\|stt\|stream\|tts\|trace)\]'` |
+| Follow one turn | `journalctl -u supervaise -f \| grep -E '[[](wake\|stt\|stream\|tts\|trace)'` |
 | Voice server state | `curl -s 127.0.0.1:8091/health` · `docker logs sv-robot-cjap-tts-1 --tail 30` |
 | Restart CJAP only (not mid-answer) | `sudo systemctl restart supervaise` |
-| Update the code | `cd ~/Supervaise-Reachy-Mini-Project-main && git pull` (once the branch is on GitHub), then the tests (step 3) and `sudo systemctl restart supervaise pi-dashboard` |
+| Update the code | once the branch is on GitHub: `cd ~/Supervaise-Reachy-Mini-Project-main && git pull origin spark/local-speech`, then the tests (step 3), re-install the units if `deploy/spark/systemd` changed (step 2), and `sudo systemctl restart supervaise pi-dashboard` |
 | Swap the reference voice | put `ref.wav` + `ref.txt` in `~/robot/voices/panganiban/`, then `docker compose restart cjap-tts` in `deploy/spark/compose`. The cache key includes the reference hash, so old clips are not reused |
 | Use the 0.6B model | download `Qwen/Qwen3-TTS-12Hz-0.6B-Base` as in 7.2, set `TTS_MODEL: /models/Qwen3-TTS-12Hz-0.6B-Base` in `deploy/spark/compose/docker-compose.yml`, `docker compose up -d cjap-tts` |
 | Visitor audio kept by Whisper | `ls ~/whisper/api/_sync \| wc -l`; after an event: `find ~/whisper/api/_sync -mindepth 1 -maxdepth 1 -mtime +0 -exec rm -rf {} +` |
@@ -492,12 +544,12 @@ Look up the row named by the step. These are the only fixes; don't improvise on 
 | Row | Symptom | Cause and fix |
 |---|---|---|
 | **Branch on GitHub** | The branch was pushed | Skip the bundle: `git fetch origin spark/local-speech:spark/local-speech` then `git checkout spark/local-speech` |
-| **Groups not applied** | `id` lacks `dialout` after re-login | The tmux server kept the old groups. `tmux kill-server`, log out, log in, open tmux again |
+| **Groups not applied** | `id` lacks `dialout` after reconnecting | You reattached a tmux server started before step 2. Run `tmux -L cjap kill-server` (this runbook's server only; never a bare `tmux kill-server`, which ends everyone's sessions on the box), reconnect with `ssh isl.spark -t "tmux -L cjap new -As cjap"`. Still missing: `grep -E 'dialout|plugdev|audio' /etc/group` should list `sv`; if not, step 2's `usermod` line didn't run |
 | **PyGObject build** | `uv pip install` fails on `PyGObject` / `pycairo` with a meson or pkg-config error | Step 2's apt lines didn't all run. Re-run them, then the install line. Still failing: send the last 30 lines of the error |
 | **openwakeword** | `ModuleNotFoundError: tflite_runtime` at import | It was installed with its dependencies. `uv pip uninstall --python app/.venv/bin/python openwakeword`, then the `--no-deps` line again |
 | **Tests fail** | `pytest` reports failures | Run the same command with `-x -q --tb=short` and read the first failure. `test_spark_voice.py` failing = the branch didn't check out cleanly (`git status`). Others: compare with the base, `git stash; git checkout 1d986be`, run the same test, `git checkout spark/local-speech; git stash pop`. A failure on both is not caused by this branch |
 | **Lite not seen** | `lsusb` shows neither id | Power supply connected? Try another USB port and cable (a data cable, not charge-only). `journalctl -k --since "-5 min" \| tail -20` |
-| **No sound from the robot** | `aplay` runs, silence | `pactl list sinks short`: if no `Reachy_Mini_Audio` sink, PipeWire isn't running for sv: `systemctl --user status pipewire wireplumber`. If the sink exists: `pactl set-default-sink <its name>`, `~/bin/audio-volume` (or `amixer -c Audio set PCM 100%`) |
+| **No sound from the robot** | `aplay` runs, silence | `pactl list sinks short`: if no `Reachy_Mini_Audio` sink, PipeWire can't open the card or isn't running for sv: `systemctl --user status pipewire wireplumber`; if it started before step 2, `sudo systemctl restart user@1001.service` (gives it the `audio` group). If the sink exists: `pactl set-default-sink <its name>`, `~/bin/audio-volume` (or `amixer -c Audio set PCM 100%`) |
 | **Card busy** | `aplay`/`arecord`: `Device or resource busy` | Something else opened the card raw. `fuser -v /dev/snd/*`. If it is PipeWire holding capture, the `dsnoop` in `~/.asoundrc` can't open: `systemctl --user restart wireplumber` and retry; persisting → report it (a WirePlumber rule to leave the capture side alone is the fix) |
 | **Silent microphone** | The recording is silence | XVF3800 firmware older than 2.1.3 records zeros on some Lites (Pollen issue #845): `~/bin/xvf-ctl read VERSION`. Update with Pollen's `dfu-util` procedure (owner step) |
 | **XVF access denied** | `xvf-ctl`: `Access denied` / Errno 13 | udev rule not applied: unplug and replug the robot; check `ls -l /dev/bus/usb/*/*` shows `plugdev` for the device; re-login for the group |
@@ -509,7 +561,7 @@ Look up the row named by the step. These are the only fixes; don't improvise on 
 | **cjap-tts never ready** | `/health` not ok after 6 min | `docker logs sv-robot-cjap-tts-1 --tail 50`. `No such file …/ref.wav` → step 7.3. `local_files_only` / missing files → step 7.2 not complete. CUDA / out of memory → `free -g` (is Qwen still running? `sv-split`) |
 | **TTS too slow** | Median speed < 1.25× or opener > 1.8 s | Check nothing else uses the GPU (`nvidia-smi`). Then switch to the 0.6B model (step 10) and re-run the bench |
 | **Voice doesn't match** | Wrong timbre or accent | Try other clips: `make_ref.py` accepts clip numbers, e.g. `… python make_ref.py /f /out 06 11 26` (allowed: 01 03 06 07 11 15 20 26), then restart cjap-tts. Or `TTS_XVEC_ONLY: "1"` in the compose file (speaker embedding only). The real fix is a real recording of Justice Panganiban (architecture §8) |
-| **Robot deaf** | No reaction to "Hi Cee-Jap" | `/console`: floor `alpha`, mode `direct`? (the mic only opens while the floor is granted). `/maintain` wake meter: scores below the threshold → lower it. Mic muted on `/maintain`? |
+| **Robot deaf** | No reaction to "Hi Cee-Jap" | `journalctl -u supervaise -n 200 \| grep -i -E 'lease\|403'`: a 403 or "bad key" means the robot sends another key than the console expects; both read `/etc/cjap/dashboard.env`, so check it exists (`sudo ls -l /etc/cjap`) and restart both (`sudo systemctl restart pi-dashboard supervaise`). Then `/console`: floor `alpha`, mode `direct`? (the mic only opens while the floor is granted). `/maintain` wake meter: scores below the threshold → lower it. Mic muted on `/maintain`? |
 | **Slow first answer** | `on_air_s` well above 5 s | Read the trace columns: `stt_s` high → Whisper cold (keepalive); `first_audio_s` high → TTS (0.6B model) or composer (`CJ_CONTEXT_BODY_DOCS=1` in `app/.env`) |
 | **Dashboard won't start** | `pi-dashboard` fails, `Address already in use` | Something took 8180/8543: `ss -tln \| grep -E '8180\|8543'`. Pick free ports in `/etc/systemd/system/pi-dashboard.service` and `deploy/spark/robots.json` (`authority.port`) and `CJ_CONSOLE_URL` in the drop-in, then `daemon-reload` |
 | **sv-split restore fails** | `sv-robot off` can't restore | `cat ~/robot/run/split-before.json`, then set it by hand: `sv-split qwen=50 lfm=0 embed=0` |
@@ -520,13 +572,19 @@ Look up the row named by the step. These are the only fixes; don't improvise on 
 
 Back to the box as it was before this runbook (the Whisper and LLM stacks are untouched):
 ```bash
+sudo -v
+```
+
+```bash
 sv-robot off
 cd ~/Supervaise-Reachy-Mini-Project-main/deploy/spark/compose && docker compose down
 docker image rm sv/cjap-tts:1
 sudo rm /etc/systemd/system/{supervaise,reachy-daemon,pi-dashboard,cjap-whisper-keepalive}.service
 sudo rm -r /etc/systemd/system/supervaise.service.d /etc/systemd/system/pi-dashboard.service.d
 sudo rm /etc/udev/rules.d/99-reachy-mini.rules
+sudo udevadm control --reload-rules
+sudo rm -r /etc/cjap
 sudo systemctl daemon-reload
 sv-keys --revoke cjap-whisper
 ```
-Optional, to also remove the data: `~/Supervaise-Reachy-Mini-Project-main`, `~/robot`, `~/models/Qwen3-TTS-12Hz-1.7B-Base`, `~/fillers*`, `~/speaker_id`, `~/tools`, the copied `~/bin` scripts, `~/.asoundrc*` (restore `~/.asoundrc.bak-pre-cjap` if it exists), `~/.voice_cache`, `~/pi_dashboard`. Groups and linger can stay.
+Optional, to also remove the data: `~/Supervaise-Reachy-Mini-Project-main`, `~/robot`, `~/models/Qwen3-TTS-12Hz-1.7B-Base`, `~/fillers*`, `~/speaker_id`, `~/tools`, the copied `~/bin` scripts, `~/.asoundrc*` (restore `~/.asoundrc~` if `cp -b` made one), `~/.voice_cache`, `~/pi_dashboard`. Groups and linger can stay.

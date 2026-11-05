@@ -2,7 +2,7 @@
 
 > **Status:** Planned, not deployed. Written **2026-11-05** from the CJAP repository and a read-only probe of the Spark. Nothing here has run on the GB10 yet. Runbook: [`CJAP_SPARK_RUNBOOK.md`](RUNBOOK.md).
 > **Basis:** [`Supervaise-Inc/CJAP`](https://github.com/Supervaise-Inc/CJAP), branch **`merge/master-single-robot`** at `1d986be` (2026-11-05, "Filler: no new clip once the answer is coming"). That branch is `master` (the 2026-09-29 alpha handover, knowledge base v2) plus the single-robot console and today's GStreamer sentence player.
-> **Code:** branch **`spark/local-speech`** (on `1d986be`: 8 small code changes, all off unless set, plus `deploy/spark/` and 15 tests). Built locally; `mabayawa` has read-only access to the repo, so it travels as a git bundle (`cjap-spark/`) until someone with push rights publishes it.
+> **Code:** branch **`spark/local-speech`** (three commits on `1d986be`: 8 small code changes, all off unless set, plus `deploy/spark/` and 12 tests). Built locally; `mabayawa` has read-only access to the repo, so it travels as a git bundle (`cjap-spark/`) until someone with push rights publishes it.
 > **What it adds:** CJAP moves from the robot's Raspberry Pi onto the Spark, with a **Reachy Mini Lite on the Spark's USB-C**. Speech-to-text moves from OpenAI to the Spark's **Whisper API**, and Panganiban's voice moves from Fish Audio / ElevenLabs to a **Qwen3-TTS clone on the Spark's GPU**. Claude (Haiku gate/router/fillers, Sonnet composer) stays exactly as CJAP has it.
 
 ---
@@ -92,7 +92,7 @@ The goal is to run your four-stage pipeline on the Spark: speech to text, reason
 | Memory | 121 GiB, ~50 GiB available; vLLM Qwen holds ~60 GiB (split qwen=50) | Robot mode frees the Qwen share |
 | LLM stack `~/llm` | nginx (:58 public, **127.0.0.1:18080** admin), LiteLLM, postgres, vLLM, **whisper-api** (healthy, worker on demand) | STT reaches whisper-api through the admin port, like the load test did |
 | Tools | Python 3.12.3, git, gstreamer, tmux, docker (sv in `docker` + `sudo`) | CJAP needs a 3.11–3.13 venv; 3.12 is fine |
-| Audio | **No sound card, no `/dev/video`** | The Lite brings both (USB audio "Reachy Mini Audio", camera) |
+| Audio | Only the NVIDIA HDMI audio output: **no capture device, no `/dev/video`** | The Lite brings both (USB audio "Reachy Mini Audio", camera) |
 | Ports | **127.0.0.1:8000** and **192.168.1.201:8080 / :8443** are already in use (owners hidden without root) | The Reachy daemon's and CJAP dashboard's default ports: the daemon moves to 8010, the dashboard to 8180 / 8543 |
 | Groups, sessions | sv not in `dialout` / `plugdev` / `audio`; PipeWire running in sv's session; linger off; no `uv`, no PortAudio | Owner step: groups, udev, linger, apt packages |
 | Whisper | Never used for a real transcription yet | Runbook gate W proves it before CJAP depends on it |
@@ -218,7 +218,7 @@ The changes are small and sit at CJAP's existing seams: the OpenAI client for ST
 | `app/floor_lease.py`, `dashboard/console.py` | `CJ_ROBOTS_JSON`: another machine map | The lease authority is found by hostname; the Spark's map (`deploy/spark/robots.json`) names `gx10-c1f6` as alpha and authority without editing alpha's |
 | `dashboard/ui_server.py` | `CJ_DASH_PORT`, `CJ_DASH_HTTPS_PORT` | 8080/8443 are taken on the Spark |
 | `deploy/spark/` | systemd units, the Spark `wakeword.conf` (alpha's 48 settings with Spark paths, STT on Whisper, plus a Spark block), `.asoundrc`, `robots.json`, udev rules, `requirements-spark.txt`, `sv-robot`, the Whisper keepalive, the `cjap-tts` image and compose file, `tts_bench.py` | Everything the machine needs outside the app code, as `deploy/alpha/` is for alpha |
-| `tests/test_spark_voice.py` | 15 tests for all of the above | Run with CJAP's suite |
+| `tests/test_spark_voice.py` | 12 tests for all of the above | Run with CJAP's suite |
 | `app/.env` (not in git) | `ANTHROPIC_API_KEY`, a whisper-only LiteLLM key as `OPENAI_API_KEY`, `OPENAI_BASE_URL`, `OPENAI_STT_MODEL=whisper`, `CJ_TTS_ORDER=spark`, `CJ_QWEN_TTS_URL`; no Fish or ElevenLabs keys | STT and voice go local |
 
 **Every switch is off unless set**, so the same branch still runs alpha unchanged. On the laptop, with the branch, the new tests plus `test_voice_guard`, `test_fish_words`, `test_speakable`, `test_gst_audio`, `test_filler_policy` and `test_api_keys` pass (130). The failures seen there (`test_name_pin`, one `test_dashboard_ui`, 7 timing tests in `test_floor_lease`) fail the same way on the unchanged base under Windows. Gate P runs the whole suite on the Spark.
@@ -332,10 +332,10 @@ The robot is meant for venues (a hall of about 200 people, four hours). A Lite h
 
 ## 12. Security
 
-- **Keys as files, never in a unit or compose file.** `app/.env` (mode 600) holds `ANTHROPIC_API_KEY` and the whisper-only LiteLLM key. `docker inspect` printed the vLLM `--api-key` during this plan's probe: **rotate the vLLM key**, and don't put new keys in container arguments.
+- **Keys as files, never in a unit or compose file.** `app/.env` (mode 600) holds `ANTHROPIC_API_KEY` and the whisper-only LiteLLM key. The dashboard key is in `/etc/cjap/dashboard.env` (root, 600), read by both the dashboard and the robot. The Whisper keepalive passes its key on stdin, never on a command line other users can see. `docker inspect` printed the vLLM `--api-key` during this plan's probe: **rotate the vLLM key**, and don't put new keys in container arguments.
 - **A whisper-only key** for CJAP (`sv-keys --one cjap-whisper --models whisper`), so the robot's key can't use the chat models.
 - **cjap-tts and the daemon listen on 127.0.0.1 only.** The dashboard (:8180, self-signed TLS on :8543) listens on the LAN, protected by CJAP's access key (`CJ_DASH_KEY`), which the runbook sets instead of the default `cjap`; use it through an SSH tunnel.
-- **Voice data** (the reference clip, rendered sentences in `~/.voice_cache`) is a person's voice: keep it on the Spark, `chmod 700`.
+- **Voice data** (the reference clip, rendered sentences in `~/.voice_cache`) is a person's voice: it stays on the Spark; the runbook makes `~/robot/voices` mode 700.
 - **Recordings of visitors.** CJAP keeps the last answer's mic trace only when `CJ_STOP_DEBUG_WAV=1` (off on alpha). whisper-api keeps every sync request under `~/whisper/api/_sync/`. In robot mode those are visitors' voices: the runbook adds a cleanup command.
 
 ---
@@ -345,7 +345,7 @@ The robot is meant for venues (a hall of about 200 people, four hours). A Lite h
 | # | Risk | Impact | Mitigation |
 |---|---|---|---|
 | R1 | `faster-qwen3-tts` or its dependencies don't run on torch 2.11 / CUDA 13 / aarch64 | 🔴 no voice | Gate T before anything else; pins in the Dockerfile; the NVIDIA forum guide is the reference build |
-| R2 | The clone from ElevenLabs clips sounds wrong (timbre, accent, "Panganiban") | 🟠 | Gate V: 20 sentences A/B against the Fish clone, judged by the team; try more or different reference clips; the real recording later |
+| R2 | The clone from ElevenLabs clips sounds wrong (timbre, accent, "Panganiban") | 🟠 | Gate V: the opener and the longest bench sentence against a filler clip, on the robot and on headphones; other clips (8 have known text) or speaker-embedding mode; the real recording later |
 | R3 | First-sentence synthesis is slower than Fish | 🟠 | Gate L; 0.6B model; shorter openers |
 | R4 | Streaming timbre drift reported in faster-qwen3-tts | 🟡 | CJAP synthesizes whole sentences (no streaming), which avoids it |
 | R5 | The daemon can't take port 8000 | 🟠 no motion (CJAP degrades to no gestures, still talks) | Daemon on 8010, `CJ_REACHY_PORT`; Gate R |
@@ -355,7 +355,8 @@ The robot is meant for venues (a hall of about 200 people, four hours). A Lite h
 | R7 | PipeWire on the Spark grabs the robot's card, or the Bluetooth/AEC-feed paths misbehave | 🟡 | Same PipeWire setup as alpha (linger, default sink); `CJ_AEC_REF_FEED=0`; no Bluetooth; Gate A |
 | R8 | whisper-api answers slowly or 503s while busy | 🟠 | Robot mode keeps it warm; nobody else uses it at events; Gate W measures |
 | R9 | Teammates lose the Qwen API while robot mode is on | 🟡 | `sv-robot on/off` is explicit; announce it |
-| R10 | Whisper large-v3-turbo transcribes Taglish worse than `gpt-4o-mini-transcribe` | 🟠 wrong answers | Gate W replays alpha's recordings (if any are kept) or 20 test questions through both; CJAP's steering prompt and entity correction still apply |
+| R10 | Whisper large-v3-turbo transcribes Taglish worse than `gpt-4o-mini-transcribe` | 🟠 wrong answers | Gate W proves the path; Taglish quality is judged on the `[stt] heard:` lines during Gate E and Gate L. CJAP's steering prompt and entity correction still apply |
+| R15 | Leftover OpenAI checks: the wake-time prewarm asks LiteLLM for `whisper-1`, and `/maintain`'s key check calls api.openai.com | 🟡 noisy log lines, a false "invalid key" on `/maintain` | Documented in the runbook as expected; harmless |
 | R11 | Venue plan undecided | 🟠 | Section 11 |
 | R12 | The dashboard on the office LAN | 🟡 | Own access key (not `cjap`), used through an SSH tunnel, no port forward for :8180 |
 
