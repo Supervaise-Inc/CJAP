@@ -41,7 +41,9 @@ except Exception as _e:
     ui = None
     print(f"[dashboard] ui unavailable: {_e}")
 
-PORT = 8080
+# Ports (2026-11-05, DGX Spark): 8080/8443 are taken on that host, so both
+# can be moved with CJ_DASH_PORT / CJ_DASH_HTTPS_PORT. Defaults unchanged.
+PORT = int(os.environ.get("CJ_DASH_PORT", "").strip() or 8080)
 # Bind address (2026-09-10): config/robots.json authority.bind, env CJ_DASH_BIND wins.
 def _bind_host():
     try:
@@ -122,7 +124,7 @@ SPEAKER_LAST = "/dev/shm/cj_speaker_last.json"
 SPEAKER_ENROLLED = os.path.join(HOME, "speaker_id", "enrolled.npz")
 SPEAKER_ENABLED = os.path.join(HOME, "speaker_id", "enabled")
 CERT_DIR = os.path.join(HOME, "pi_dashboard", "certs")
-HTTPS_PORT = 8443
+HTTPS_PORT = int(os.environ.get("CJ_DASH_HTTPS_PORT", "").strip() or 8443)
 
 _play_lock = threading.Lock()   # serialize phone-mic playback
 

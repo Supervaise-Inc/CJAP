@@ -1,0 +1,10 @@
+# Written by ~/bin/audio-out - do not edit by hand.
+# Route: internal speaker (XMOS).
+# Primary: internal
+# Secondary: none
+pcm.!audio_out_route {
+    type pulse
+}
+pcm.!audio_out_route2 {
+    type null
+}

@@ -1,0 +1,19 @@
+[Unit]
+Description=CJAP dashboard and /console lease authority on the DGX Spark (ports 8180 / 8543)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=sv
+Environment=XDG_RUNTIME_DIR=/run/user/1001
+# 8080/8443 are taken on this host.
+Environment=CJ_DASH_PORT=8180
+Environment=CJ_DASH_HTTPS_PORT=8543
+Environment=CJ_ROBOTS_JSON=/home/sv/Supervaise-Reachy-Mini-Project-main/deploy/spark/robots.json
+# Access key for /maintain and /console: set your own in a drop-in, e.g.
+#   /etc/systemd/system/pi-dashboard.service.d/key.conf  ->  Environment=CJ_DASH_KEY=...
+ExecStart=/usr/bin/python3 /home/sv/Supervaise-Reachy-Mini-Project-main/dashboard/ui_server.py
+Restart=always
+RestartSec=5
+# Started by ~/bin/sv-robot on, not at boot.

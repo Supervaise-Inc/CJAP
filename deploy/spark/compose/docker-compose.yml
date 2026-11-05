@@ -1,0 +1,43 @@
+# sv-robot: GPU services for the CJAP robot on the DGX Spark.
+# Started and stopped by ~/bin/sv-robot (robot mode), not at boot.
+#   cd ~/Supervaise-Reachy-Mini-Project-main/deploy/spark/compose && docker compose up -d --build cjap-tts
+name: sv-robot
+
+services:
+  cjap-tts:
+    image: sv/cjap-tts:1
+    build:
+      context: ../tts
+      dockerfile: Dockerfile.tts
+    user: "1001:1001"
+    ports:
+      - "127.0.0.1:8091:8091"        # localhost only: CJAP on the host is the only caller
+    environment:
+      TTS_MODEL: /models/Qwen3-TTS-12Hz-1.7B-Base
+      TTS_REF_WAV: /voices/ref.wav
+      TTS_REF_TXT: /voices/ref.txt
+      TTS_LANGUAGE: English
+      TTS_XVEC_ONLY: "0"
+      TTS_TEMPERATURE: "0.7"
+      TTS_TOP_K: "50"
+      TTS_TOP_P: "0.85"
+      TTS_SEED: "4242"
+      HF_HUB_OFFLINE: "1"
+    volumes:
+      - /home/sv/models:/models:ro
+      - /home/sv/robot/voices/panganiban:/voices:ro
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [gpu]
+    mem_limit: 16g
+    restart: "no"
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request,sys; sys.exit(0 if urllib.request.urlopen('http://127.0.0.1:8091/health', timeout=3).status == 200 else 1)"]
+      interval: 15s
+      timeout: 5s
+      retries: 3
+      start_period: 240s

@@ -12,14 +12,23 @@ import os as _os  # noqa: E402 — credentials stay at the very top by design
 ELEVEN_API_KEY = _os.environ.get("ELEVEN_API_KEY", "") or ELEVEN_API_KEY
 ELEVEN_VOICE_ID = _os.environ.get("ELEVEN_VOICE_ID", "") or ELEVEN_VOICE_ID
 
-if not ELEVEN_API_KEY:
+# 2026-11-05 (DGX Spark): the ElevenLabs credentials are required only while
+# CJ_TTS_ORDER lists "elevenlabs" (default "fish,elevenlabs", so alpha is
+# unchanged). With CJ_TTS_ORDER=spark the Spark has no ElevenLabs key, and
+# raising here would make every `from voice import ...` fail, the local
+# clone included. Set CJ_TTS_ORDER in the systemd drop-in so it is in the
+# environment before this module is first imported.
+_NEED_ELEVEN = "elevenlabs" in [n.strip().lower() for n in
+    _os.environ.get("CJ_TTS_ORDER", "fish,elevenlabs").split(",") if n.strip()]
+
+if _NEED_ELEVEN and not ELEVEN_API_KEY:
     raise RuntimeError(
         "voice/config.py: ELEVEN_API_KEY is empty. Set ELEVEN_API_KEY in "
         "app/.env (preferred on the robot) or paste it at the top of "
         "voice/config.py. Get one at https://elevenlabs.io → profile icon → "
         "'API Keys' (needs the text_to_speech scope)."
     )
-if not ELEVEN_VOICE_ID:
+if _NEED_ELEVEN and not ELEVEN_VOICE_ID:
     raise RuntimeError(
         "voice/config.py: ELEVEN_VOICE_ID is empty. Set ELEVEN_VOICE_ID in "
         "app/.env or paste it at the top of voice/config.py. Find it at "

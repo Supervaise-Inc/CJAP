@@ -1,0 +1,22 @@
+# cjap-tts: Qwen3-TTS (faster-qwen3-tts) for the CJAP robot on the DGX Spark.
+# Built FROM the box's Whisper image so torch 2.11.0+cu130 / torchaudio 2.11.0 /
+# triton 3.6.0 (already proven on the GB10, sm_121) are reused, not reinstalled.
+# constraints.txt pins exactly those three; the runbook writes it from the image.
+FROM sv/whisper:1
+
+USER root
+RUN apt-get update \
+ && apt-get install -y --no-install-recommends sox libsox-fmt-all \
+ && rm -rf /var/lib/apt/lists/*
+
+COPY constraints.txt /opt/cjap-tts/constraints.txt
+RUN pip install --no-cache-dir -c /opt/cjap-tts/constraints.txt \
+      "faster-qwen3-tts==0.5.4" \
+      "fastapi==0.115.12" "uvicorn==0.34.2" \
+ && pip freeze > /opt/cjap-tts/versions.txt
+
+COPY tts_server.py make_ref.py /opt/cjap-tts/
+WORKDIR /opt/cjap-tts
+ENV HF_HUB_OFFLINE=1 HOME=/tmp PYTHONUNBUFFERED=1
+EXPOSE 8091
+CMD ["uvicorn", "tts_server:app", "--host", "0.0.0.0", "--port", "8091", "--workers", "1"]

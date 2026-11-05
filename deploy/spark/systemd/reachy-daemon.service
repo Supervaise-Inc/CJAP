@@ -1,0 +1,15 @@
+[Unit]
+Description=Reachy Mini daemon for the Lite on USB-C (motors only, no media; 127.0.0.1:8010)
+After=network-online.target
+
+[Service]
+Type=simple
+User=sv
+Group=sv
+SupplementaryGroups=dialout plugdev
+WorkingDirectory=/home/sv/Supervaise-Reachy-Mini-Project-main
+# --no-media: CJAP does its own audio through ALSA; :8000 is taken on this host.
+ExecStart=/home/sv/Supervaise-Reachy-Mini-Project-main/app/.venv/bin/reachy-mini-daemon --no-media --fastapi-port 8010 --serialport /dev/ttyACM0 --log-level INFO
+Restart=on-failure
+RestartSec=5
+# Started by ~/bin/sv-robot on, not at boot.
