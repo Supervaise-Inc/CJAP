@@ -4,7 +4,7 @@ No model, no GPU. Proves LiveKit, the page, agent.speak_started and the voice
 modes before a talking-head model is involved (runbook Gate X1)."""
 import time
 
-from .base import SPF, Engine, env_path, load_rgb
+from .base import SPF, Engine, env_path, frame_size, load_rgb
 
 
 class StillEngine(Engine):
@@ -12,8 +12,8 @@ class StillEngine(Engine):
 
     def __init__(self):
         super().__init__()
-        self.width = self.height = int(env_path("AVATAR_SIZE", "512"))
-        self.img = load_rgb(env_path("AVATAR_PHOTO", "/avatar/portrait.jpg"), self.width)
+        self.width, self.height = frame_size()
+        self.img = load_rgb(env_path("AVATAR_PHOTO", "/avatar/portrait.png"), self.width, self.height)
         self._next = time.monotonic()
 
     def next_frame(self):

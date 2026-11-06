@@ -7,6 +7,11 @@ CJ_LIVEAVATAR_URL. What is asserted:
   * ui_page_face's LiveAvatar base URL follows CJ_LIVEAVATAR_URL (default unchanged);
   * ClipAudio slices clips into 960-sample frames, flags each clip's first slice,
     pads a clip's tail, and clears on interrupt;
+  * the AVTR-1 engine (with a stub pipeline in place of AVTR-1) feeds 6480-sample
+    windows, pairs frame k with clip slice k, flags the clip's first frame, keeps
+    the microphone out of the listen track while the face speaks, and mutes
+    rendered frames on interrupt;
+  * I420 frames convert for the bench's video writer; prepare_photo writes W x H;
   * the server answers the page's contract end to end, with LiveKit stubbed and
     the "still" engine: token (key and avatar checked) -> start (livekit_url,
     client token, ws_url) -> the control socket says "connected", answers
@@ -62,6 +67,83 @@ def test_clip_audio_frames_clips():
     a.push(np.ones(10, np.int16).tobytes())
     a.clear()
     assert a.take() == (None, False) and a.available() == 0
+
+
+# ---- the AVTR-1 engine, with a stub pipeline -------------------------------------
+class _Frame:
+    def __init__(self, data):
+        self.data = data
+
+
+class _StubPipeline:
+    """Records each window; returns 5 frames whose pixels carry their frame index."""
+    def __init__(self):
+        self.calls = []
+
+    def process_chunk(self, avatar, chunk, state, options):
+        n = state or 0
+        self.calls.append((len(chunk.audio_speech), len(chunk.audio_listen),
+                           float(np.abs(chunk.audio_listen).max())))
+        return n + 1, iter([_Frame(np.full((6, 4), 5 * n + j, np.uint8)) for j in range(5)])
+
+
+class _Mic:
+    def read(self, n):
+        return np.full(n, 0.5, np.float32)
+
+
+def _avtr1(monkeypatch, quiet_s=1.5):
+    pytest.importorskip("soxr")
+    from engines import avtr1
+    monkeypatch.setattr(avtr1, "QUIET_AFTER_SPEECH_S", quiet_s)
+    pipe = _StubPipeline()
+    return avtr1.Avtr1Engine(pipeline=pipe, avatar=object(), options=None, listen=_Mic()), pipe
+
+
+def _clip(n_frames):
+    """A clip whose frame i slice is all (i + 1)."""
+    return np.concatenate([np.full(960, i + 1, np.int16) for i in range(n_frames)]).tobytes()
+
+
+def test_avtr1_engine_pairs_frames_with_their_audio(monkeypatch):
+    eng, pipe = _avtr1(monkeypatch, quiet_s=0.0)
+    eng.push_audio(_clip(12))
+    eng.end_clip()
+    got = [eng.next_frame() for _ in range(25)]
+    assert [int(img[0, 0]) for img, _, _ in got] == list(range(25))      # frames in order
+    assert [None if p is None else int(p[0]) for _, p, _ in got] == list(range(1, 13)) + [None] * 13
+    assert [f for _, _, f in got] == [True] + [False] * 24                # clip start flagged once
+    assert all(c[:2] == (6480, 6480) for c in pipe.calls)
+    assert pipe.calls[0][2] == 0.0                     # speaking: the mic is not in the listen track
+    assert pipe.calls[-1][2] == 0.5                    # silent again: the visitor is
+
+
+def test_avtr1_engine_interrupt_mutes_rendered_frames(monkeypatch):
+    eng, _ = _avtr1(monkeypatch)
+    eng.push_audio(_clip(40))
+    eng.end_clip()
+    _, pcm, first = eng.next_frame()
+    assert pcm is not None and first
+    eng.interrupt()
+    rest = [eng.next_frame() for _ in range(15)]
+    assert all(p is None and not f for _, p, f in rest)
+
+
+def test_frame_to_bgr_handles_i420():
+    pytest.importorskip("cv2")
+    from engines.base import frame_to_bgr
+    eng = types.SimpleNamespace(pixfmt="i420", width=4, height=2)
+    assert frame_to_bgr(eng, np.zeros((3, 4), np.uint8)).shape == (2, 4, 3)
+
+
+def test_prepare_photo_makes_the_stream_size(tmp_path, monkeypatch):
+    cv2 = pytest.importorskip("cv2")
+    import prepare_photo
+    src, dst = tmp_path / "s.jpg", tmp_path / "p.png"
+    cv2.imwrite(str(src), np.full((300, 200, 3), 90, np.uint8))
+    monkeypatch.setattr(sys, "argv", ["prepare_photo.py", str(src), str(dst), "128", "72"])
+    assert prepare_photo.main() == 0
+    assert cv2.imread(str(dst)).shape == (72, 128, 3)
 
 
 # ---- the server, with LiveKit stubbed ------------------------------------------
@@ -146,7 +228,7 @@ def client(tmp_path, monkeypatch):
     for k, v in {"AVATAR_API_KEY": "k" * 32, "AVATAR_ID": "c0ffee00-0000-4000-8000-000000000001",
                  "AVATAR_PUBLIC_HOST": "192.168.1.201", "LIVEKIT_API_KEY": "avatarkey",
                  "LIVEKIT_API_SECRET": "s" * 32, "AVATAR_ENGINE": "still",
-                 "AVATAR_PHOTO": str(photo), "AVATAR_SIZE": "64"}.items():
+                 "AVATAR_PHOTO": str(photo), "AVATAR_W": "64", "AVATAR_H": "48"}.items():
         monkeypatch.setenv(k, v)
     sys.modules.pop("avatar_server", None)
     import avatar_server

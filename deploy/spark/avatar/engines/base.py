@@ -87,10 +87,11 @@ class ClipAudio:
 
 
 class Engine:
-    """Subclasses set name/width/height and implement next_frame()."""
+    """Subclasses set name/width/height (and pixfmt if not RGB24) and implement next_frame()."""
     name = "base"
-    width = 512
-    height = 512
+    pixfmt = "rgb24"          # or "i420": (3H/2, W) uint8, planar YUV 4:2:0
+    width = 1280
+    height = 720
 
     def __init__(self):
         self.audio = ClipAudio()
@@ -114,7 +115,8 @@ class Engine:
     def healthy(self) -> bool:
         return True
 
-    # frame contract: (rgb uint8 HxWx3, pcm int16[960] | None, first_of_clip: bool)
+    # frame contract: (frame, pcm int16[960] | None, first_of_clip: bool);
+    # frame is RGB uint8 HxWx3, or I420 uint8 (3H/2)xW when pixfmt == "i420"
     def next_frame(self):
         raise NotImplementedError
 
@@ -126,17 +128,34 @@ class Engine:
         self._t_last = now
 
 
-def load_rgb(path: str, size: int) -> np.ndarray:
-    """A square RGB portrait at size x size (center crop)."""
+def frame_size() -> tuple[int, int]:
+    """(width, height) of the stream: AVATAR_W x AVATAR_H, default 1280 x 720."""
+    return int(os.environ.get("AVATAR_W", "1280")), int(os.environ.get("AVATAR_H", "720"))
+
+
+def load_rgb(path: str, width: int, height: int) -> np.ndarray:
+    """An RGB image at width x height (centre crop to that aspect, then resize)."""
     import cv2
     img = cv2.imread(path, cv2.IMREAD_COLOR)
     if img is None:
         raise FileNotFoundError(path)
     h, w = img.shape[:2]
-    s = min(h, w)
-    y0, x0 = (h - s) // 2, (w - s) // 2
-    img = cv2.resize(img[y0:y0 + s, x0:x0 + s], (size, size), interpolation=cv2.INTER_AREA)
+    if w * height > h * width:                 # too wide: crop the sides
+        cw, ch = h * width // height, h
+    else:                                      # too tall: crop top and bottom
+        cw, ch = w, w * height // width
+    y0, x0 = (h - ch) // 2, (w - cw) // 2
+    img = cv2.resize(img[y0:y0 + ch, x0:x0 + cw], (width, height), interpolation=cv2.INTER_AREA)
     return cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
+
+
+def frame_to_bgr(engine, frame) -> np.ndarray:
+    """An engine frame as BGR HxWx3 (for cv2 writers), whatever the engine's pixfmt."""
+    import cv2
+    if getattr(engine, "pixfmt", "rgb24") == "i420":
+        yuv = np.asarray(frame, np.uint8).reshape(engine.height * 3 // 2, engine.width)
+        return cv2.cvtColor(yuv, cv2.COLOR_YUV2BGR_I420)
+    return cv2.cvtColor(np.asarray(frame, np.uint8), cv2.COLOR_RGB2BGR)
 
 
 def env_path(name: str, default: str) -> str:

@@ -1,13 +1,15 @@
 """Gate X2: can an engine keep up? Runs the engine alone (no LiveKit, no browser).
 
-    python avatar_bench.py ENGINE WAV [SECONDS]      e.g. avatar_bench.py ditto /bench/sentence.wav 30
+    python avatar_bench.py ENGINE WAV [SECONDS]      e.g. avatar_bench.py avtr1 /avatar/bench.wav 30
 
 Feeds WAV (24 kHz mono PCM16, e.g. a Qwen3-TTS sentence) as one clip every few
 seconds, with silence between, and pulls frames as fast as the engine makes them
 for SECONDS. Prints:
   * engine fps (must be >= 25 for live use; aim for >= 28 with TTS running);
   * start lag: from pushing a clip to its first speaking frame;
-  * worst frame gap.
+  * worst frame gap;
+  * for AVTR-1, the time per 5-frame chunk (median and 95th percentile): under
+    200 ms keeps up with 25 fps (AVTR-1's own real-time measure).
 Writes $AVATAR_BENCH_OUT/bench_<engine>.mp4 (video only) and .wav (default /avatar/bench) (the audio the
 frames carried), to check lip-sync by eye: mux them on the laptop or play side by side.
 """
@@ -19,6 +21,7 @@ import wave
 import numpy as np
 
 from engines import load_engine
+from engines.base import frame_to_bgr
 
 
 def main() -> int:
@@ -54,7 +57,7 @@ def main() -> int:
             pushed_at.append(now)
             next_push = now + clip_s + 2.0
         t_call = time.monotonic()
-        rgb, pcm, first = eng.next_frame()
+        img, pcm, first = eng.next_frame()
         t = time.monotonic()
         if pcm is not None:
             speak_t.append(t - t_call)
@@ -63,7 +66,7 @@ def main() -> int:
         frames += 1
         if first and pushed_at:
             starts.append(t - pushed_at[len(starts)] if len(starts) < len(pushed_at) else float("nan"))
-        vw.write(cv2.cvtColor(rgb, cv2.COLOR_RGB2BGR))
+        vw.write(frame_to_bgr(eng, img))
         audio_out.append(pcm if pcm is not None else np.zeros(960, np.int16))
     vw.release()
     with wave.open(f"{out}/bench_{name}.wav", "wb") as w:
@@ -78,6 +81,11 @@ def main() -> int:
         print(f"speaking frames: {len(speak_t)}, mean {1000 * sum(speak_t) / len(speak_t):.1f} ms each "
               f"(must stay under 40 ms on average)")
     print(f"worst frame gap {max(gaps[25:] or gaps):.3f} s")
+    cms = sorted(getattr(eng, "chunk_ms", []))
+    if cms:
+        p50, p95 = cms[len(cms) // 2], cms[min(len(cms) - 1, int(len(cms) * 0.95))]
+        print(f"chunk time: median {p50:.0f} ms, p95 {p95:.0f} ms over {len(cms)} chunks "
+              f"(must stay under 200 ms)")
     print(f"wrote {out}/bench_{name}.mp4 and {out}/bench_{name}.wav")
     rc = 0 if fps >= 25 else 1
     getattr(eng, "shutdown", lambda: None)()
@@ -86,4 +94,4 @@ def main() -> int:
 
 if __name__ == "__main__":
     sys.stdout.flush()
-    os._exit(main())          # Ditto's worker threads are not daemons
+    os._exit(main())          # don't wait for engine threads (the mic tap, CUDA)

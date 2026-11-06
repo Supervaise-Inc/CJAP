@@ -32,7 +32,7 @@ Settings (environment):
     AVATAR_API_KEY      the key CJAP's assets/liveavatar.json carries (required)
     AVATAR_ID           the avatar id it carries (hex UUID, required)
     AVATAR_NAME         shown on /maintain (default "Panganiban (Spark)")
-    AVATAR_ENGINE       ditto | wav2lip | still (default ditto)
+    AVATAR_ENGINE       avtr1 | wav2lip | still (default avtr1)
     AVATAR_PUBLIC_HOST  host the BROWSER uses for ws_url / livekit_url (e.g. 192.168.1.201)
     AVATAR_PORT         this server's port (default 8092)
     LIVEKIT_URL         default ws://<AVATAR_PUBLIC_HOST>:7880
@@ -94,14 +94,14 @@ def _mint(identity: str, room: str, publish: bool) -> str:
             .to_jwt())
 
 
-# ── engine thread: produce one (rgb, pcm|None, first) item per frame ─────────────
+# ── engine thread: produce one (frame, pcm|None, first) item per frame ───────────
 def _engine_loop():
     while True:
         try:
             epoch = STATE["epoch"]
-            rgb, pcm, first = ENGINE.next_frame()
+            img, pcm, first = ENGINE.next_frame()
             STATE["error"] = None
-            _frames.put((epoch, rgb, pcm, first))        # blocks when the publisher is behind
+            _frames.put((epoch, img, pcm, first))        # blocks when the publisher is behind
         except Exception as e:                            # keep the face alive, report it
             STATE["error"] = f"{type(e).__name__}: {str(e)[:200]}"
             time.sleep(0.04)
@@ -126,15 +126,17 @@ async def _publish(room_name: str, connected: asyncio.Event):
     av = rtc.AVSynchronizer(audio_source=asrc, video_source=vsrc, video_fps=FPS,
                             video_queue_size_ms=100)
     STATE["room"], STATE["av"] = room, av
+    btype = (rtc.VideoBufferType.I420 if getattr(ENGINE, "pixfmt", "rgb24") == "i420"
+             else rtc.VideoBufferType.RGB24)
     connected.set()
     loop = asyncio.get_running_loop()
     try:
         while STATE["room"] is room:
-            epoch, rgb, pcm, first = await loop.run_in_executor(None, _frames.get)
+            epoch, img, pcm, first = await loop.run_in_executor(None, _frames.get)
             if epoch != STATE["epoch"]:
                 continue                                   # rendered before an interrupt
-            frame = rtc.VideoFrame(ENGINE.width, ENGINE.height, rtc.VideoBufferType.RGB24,
-                                   np.ascontiguousarray(rgb, dtype=np.uint8).tobytes())
+            frame = rtc.VideoFrame(ENGINE.width, ENGINE.height, btype,
+                                   np.ascontiguousarray(img, dtype=np.uint8).tobytes())
             await av.push(frame)
             if pcm is not None:
                 await av.push(rtc.AudioFrame(np.ascontiguousarray(pcm, dtype=np.int16).tobytes(),
@@ -202,7 +204,7 @@ async def _end_session():
 def _startup():
     global ENGINE
     t0 = time.monotonic()
-    ENGINE = load_engine(os.environ.get("AVATAR_ENGINE", "ditto"))
+    ENGINE = load_engine(os.environ.get("AVATAR_ENGINE", "avtr1"))
     STATE["loaded_s"] = round(time.monotonic() - t0, 1)
     threading.Thread(target=_engine_loop, daemon=True, name="engine").start()
     print(f"[cjap-avatar] engine {ENGINE.name} {ENGINE.width}x{ENGINE.height} ready "
