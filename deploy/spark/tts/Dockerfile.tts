@@ -10,8 +10,11 @@ RUN apt-get update \
  && rm -rf /var/lib/apt/lists/*
 
 COPY constraints.txt /opt/cjap-tts/constraints.txt
+# transformers is pinned: qwen_tts (inside faster-qwen3-tts 0.5.4) loads its speech
+# tokenizer only on 5.16.1. 5.17-5.20: "MimiConfig has no attribute rope_theta";
+# 5.21+: "property 'upsample' ... has no setter". Tested on the Spark 2026-11-06.
 RUN pip install --no-cache-dir -c /opt/cjap-tts/constraints.txt \
-      "faster-qwen3-tts==0.5.4" \
+      "faster-qwen3-tts==0.5.4" "transformers==5.16.1" \
       "fastapi==0.115.12" "uvicorn==0.34.2" \
  && pip freeze > /opt/cjap-tts/versions.txt
 
