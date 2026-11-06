@@ -1,0 +1,18 @@
+{
+  "_readme": "DGX Spark machine map (2026-11-05), selected with CJ_ROBOTS_JSON. One robot: a Reachy Mini Lite on the Spark's USB-C, so this host is both alpha and the lease authority. The dashboard listens on 8180/8543 (CJ_DASH_PORT / CJ_DASH_HTTPS_PORT) because 8080/8443 are taken on this host. alpha's own map is config/robots.json, unchanged.",
+  "slots": {
+    "alpha": "gx10-c1f6",
+    "beta": "reachy-2"
+  },
+  "labels": {
+    "cjap": "Panganiban",
+    "host": "Host"
+  },
+  "authority": {
+    "host": "gx10-c1f6",
+    "port": 8180,
+    "bind": "0.0.0.0",
+    "ip": "192.168.1.201",
+    "url_template": "http://{host}.local:{port}"
+  }
+}

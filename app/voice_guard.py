@@ -69,7 +69,8 @@ REASON_TEXT = {
     "network": "the robot cannot reach it",
     "error": "it rejected the request",
 }
-ENGINE_LABEL = {"fish": "Fish Audio", "elevenlabs": "ElevenLabs"}
+ENGINE_LABEL = {"fish": "Fish Audio", "elevenlabs": "ElevenLabs",
+                "spark": "Spark (Qwen3-TTS)"}
 
 _lock = threading.Lock()
 _state = {

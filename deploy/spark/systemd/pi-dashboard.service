@@ -1,0 +1,24 @@
+[Unit]
+Description=CJAP dashboard and /console lease authority on the DGX Spark (ports 8180 / 8543)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=sv
+Environment=XDG_RUNTIME_DIR=/run/user/1001
+# 8080/8443 are taken on this host.
+Environment=CJ_DASH_PORT=8180
+Environment=CJ_DASH_HTTPS_PORT=8543
+Environment=CJ_ROBOTS_JSON=/home/sv/Supervaise-Reachy-Mini-Project-main/deploy/spark/robots.json
+# The /face-avatar page's LiveAvatar calls go to the local cjap-avatar server
+# (deploy/spark/avatar) instead of api.liveavatar.com.
+Environment=CJ_LIVEAVATAR_URL=http://127.0.0.1:8092
+# Access key for /maintain and /console (CJ_DASH_KEY=...), mode 600, root-owned.
+# supervaise reads the SAME file: the robot's lease requests carry this key, and
+# the console answers a wrong one with 403, i.e. a deaf robot.
+EnvironmentFile=-/etc/cjap/dashboard.env
+ExecStart=/usr/bin/python3 /home/sv/Supervaise-Reachy-Mini-Project-main/dashboard/ui_server.py
+Restart=always
+RestartSec=5
+# Started by ~/bin/sv-robot on, not at boot.

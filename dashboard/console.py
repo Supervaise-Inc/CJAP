@@ -73,7 +73,8 @@ MAIN = os.path.join(HOME, "Supervaise-Reachy-Mini-Project-main")
 MODES_DIR = os.path.join(MAIN, "config", "modes")
 DROPIN_PATH = "/etc/systemd/system/supervaise.service.d/wakeword.conf"
 DOTENV_PATH = os.path.join(MAIN, "app", ".env")
-ROBOTS_PATH = os.path.join(MAIN, "config", "robots.json")
+# CJ_ROBOTS_JSON (2026-11-05): see app/floor_lease.py; both must read the same file.
+ROBOTS_PATH = os.environ.get("CJ_ROBOTS_JSON", "").strip() or os.path.join(MAIN, "config", "robots.json")
 DUET_SCRIPT_PATH = os.path.join(MAIN, "corpus", "voice", "duet_script.json")
 DUET_LOOP_GAP_S = 6.0      # silence between the end of the exchange and its restart
 STATE_PATH = os.path.join(HOME, ".cj_console_state.json")

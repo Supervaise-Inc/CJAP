@@ -779,6 +779,65 @@ def tts_fish_wav(text: str, out_dir: str = "/dev/shm",
     return f.name
 
 
+def tts_spark_wav(text: str, out_dir: str = "/dev/shm",
+                  speed: float | None = None) -> str:
+    """The LOCAL clone (voice/qwen.py: Qwen3-TTS served by cjap-tts on the DGX
+    Spark, 2026-11-05) → the same 24 kHz mono PCM_16 wav contract as
+    tts_fish_wav / tts_elevenlabs_wav.
+
+    Own clip-cache namespace ("spark" + the server's model and reference-clip
+    hash), so swapping the reference recording never serves the old voice from
+    cache. Qwen3-TTS returns no word timings; voice.qwen spreads the words over
+    the clip by length so the captions still advance word by word."""
+    import sys as _sys
+    import tempfile as _tempfile
+    root = str(Path(__file__).resolve().parent.parent)
+    if root not in _sys.path:
+        _sys.path.insert(0, root)
+    import soundfile as sf
+    from voice import cache as v_cache
+    from voice import qwen as v_qwen
+
+    norm = v_cache.normalize_text(text)
+    # speed is not in the key: cjap-tts ignores it (CJAP's tempo smoothing
+    # paces the clip afterwards), so it would only store the same audio twice.
+    key = v_cache.cache_key(norm, {"_engine": "spark", "_model": v_qwen.model_id()})
+    align_path = v_cache.cache_dir() / f"{key}.align.json"
+    words = None
+    hit = v_cache.get(key)
+    if hit is not None:
+        try:
+            words = json.loads(align_path.read_text())
+        except (OSError, ValueError):
+            words = None
+        pcm, sr = hit
+    else:
+        words = []
+        pcm = v_qwen.synthesize(norm, speed=speed, words_out=words)
+        sr = v_qwen.audio.SYNTH_SAMPLE_RATE
+        v_cache.put(key, pcm, sr)
+        if words:
+            try:
+                align_path.write_text(json.dumps(words))
+            except OSError:
+                pass
+        try:  # a REAL synthesis is the only proof this clone works
+            import voice_guard
+            voice_guard.synth_ok("spark")
+        except Exception:
+            pass
+    f = _tempfile.NamedTemporaryFile(suffix=".wav", delete=False, dir=out_dir)
+    f.close()
+    sf.write(f.name, pcm, sr, subtype="PCM_16")
+    if words:
+        try:  # sidecar rides beside the temp wav for the speaking feed
+            with open(f.name + ".align.json", "w") as af:
+                json.dump(words, af)
+        except OSError:
+            pass
+    return f.name
+
+
 # Which clones of Panganiban to try, in order. Fish Audio first since
 # 2026-09-16 (user: "prioritize fish.audio voice"); ElevenLabs is the fallback.
 # Set CJ_TTS_ORDER to reorder or to drop one, e.g. "elevenlabs" or
@@ -844,12 +903,21 @@ def engine_order() -> list:
                     out.append(n)
             except Exception:
                 pass
+        elif n == "spark":   # Qwen3-TTS clone on the DGX Spark (voice/qwen.py, 2026-11-05)
+            try:
+                from voice import qwen as v_qwen
+                if v_qwen.configured():
+                    out.append(n)
+            except Exception:
+                pass
     return out
 
 
 def _synth_with(engine: str, text: str, out_dir: str, speed, eleven_kw):
     if engine == "fish":
         return tts_fish_wav(text, out_dir=out_dir, speed=speed)
+    if engine == "spark":
+        return tts_spark_wav(text, out_dir=out_dir, speed=speed)
     return tts_elevenlabs_wav(text, out_dir=out_dir, speed=speed, **eleven_kw)
 
 
@@ -1017,6 +1085,15 @@ def transcribe_openai(
     # response_format="text" returns a plain string; defensively
     # handle the structured-response shape too.
     text = resp.strip() if isinstance(resp, str) else str(getattr(resp, "text", "")).strip()
+    # 2026-11-05 (DGX Spark): through LiteLLM to the local whisper-api, a
+    # response_format="text" answer can come back as a JSON body {"text": ...};
+    # the client then hands that body over as the "text". Unwrap it so the
+    # braces never reach the router as the visitor's question.
+    if text.startswith("{") and '"text"' in text:
+        try:
+            text = str(json.loads(text).get("text", "")).strip()
+        except (ValueError, AttributeError):
+            pass
     # Echo guard (2026-08-25 review): on noisy/short captures the model
     # returns the steering prompt itself (journal 15:45-15:48: "Sige po. Ano
     # po ang..." x5, the full prompt once) — treat that as silence.

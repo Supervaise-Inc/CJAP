@@ -847,11 +847,18 @@ def _sentence_pcm24k(path):
     return open(out, "rb").read()
 
 
+# Where the LiveAvatar-compatible API lives (2026-11-06). Default: HeyGen's
+# LiveAvatar. On the DGX Spark, CJ_LIVEAVATAR_URL points at cjap-avatar, a local
+# server that answers the same calls and streams a self-hosted talking head.
+LIVEAVATAR_URL = (os.environ.get("CJ_LIVEAVATAR_URL", "").strip()
+                  or "https://api.liveavatar.com").rstrip("/")
+
+
 def _liveavatar_request(path, payload, auth_header):
     """POST to api.liveavatar.com (stdlib urllib; 15s timeout)."""
     import urllib.request
     req = urllib.request.Request(
-        "https://api.liveavatar.com" + path,
+        LIVEAVATAR_URL + path,
         json.dumps(payload).encode(),
         {"Content-Type": "application/json",
          # their edge 403s python-urllib's default UA
@@ -864,7 +871,7 @@ def _liveavatar_get(path, api_key):
     """GET from api.liveavatar.com (stdlib urllib; 15s timeout)."""
     import urllib.request
     req = urllib.request.Request(
-        "https://api.liveavatar.com" + path,
+        LIVEAVATAR_URL + path,
         headers={"X-API-KEY": api_key,
                  # their edge 403s python-urllib's default UA
                  "User-Agent": "supervaise-cjap/1.0"})

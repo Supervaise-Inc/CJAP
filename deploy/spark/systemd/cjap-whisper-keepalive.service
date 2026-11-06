@@ -1,0 +1,11 @@
+[Unit]
+Description=Keep the Spark's whisper-api GPU worker loaded while the CJAP robot is on
+After=network-online.target
+
+[Service]
+Type=simple
+User=sv
+Environment=CJ_KEEPALIVE_S=300
+ExecStart=/home/sv/bin/whisper-keepalive
+Restart=on-failure
+RestartSec=30

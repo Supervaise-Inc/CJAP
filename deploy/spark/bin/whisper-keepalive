@@ -1,0 +1,31 @@
+#!/usr/bin/env bash
+# whisper-keepalive — keep the Spark's whisper-api GPU worker loaded while the
+# robot is on (it exits after 10 idle minutes and takes 30-60 s to load again).
+# Sends a 1 s silent clip every CJ_KEEPALIVE_S seconds (default 300) through
+# LiteLLM on nginx's admin port, with CJAP's whisper-only key from app/.env.
+# Run by cjap-whisper-keepalive.service.
+set -u
+ENV=/home/sv/Supervaise-Reachy-Mini-Project-main/app/.env
+WAV=/dev/shm/cj_keepalive_silence.wav
+EVERY=${CJ_KEEPALIVE_S:-300}
+URL=$(grep -E '^OPENAI_BASE_URL=' "$ENV" | tail -1 | cut -d= -f2-)
+KEY=$(grep -E '^OPENAI_API_KEY=' "$ENV" | tail -1 | cut -d= -f2-)
+[ -n "$URL" ] && [ -n "$KEY" ] || { echo "OPENAI_BASE_URL / OPENAI_API_KEY missing in $ENV"; exit 1; }
+
+python3 - "$WAV" <<'EOF'
+import sys, wave
+with wave.open(sys.argv[1], "wb") as w:
+    w.setnchannels(1); w.setsampwidth(2); w.setframerate(16000)
+    w.writeframes(b"\x00\x00" * 16000)
+EOF
+
+while true; do
+  t0=$(date +%s.%N)
+  # The header comes from stdin, so the key never shows in ps / /proc/*/cmdline.
+  code=$(printf 'Authorization: Bearer %s\n' "$KEY" | curl -s -o /dev/null \
+    -w '%{http_code}' -m 120 -H @- -F model=whisper -F file=@"$WAV" \
+    "$URL/audio/transcriptions")
+  t1=$(date +%s.%N)
+  echo "[keepalive] whisper HTTP $code in $(python3 -c "print(round($t1-$t0,2))") s"
+  sleep "$EVERY"
+done

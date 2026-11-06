@@ -1,0 +1,34 @@
+# cjap-avatar image (Python 3.12, aarch64, CUDA 13.0), 2026-11-06.
+# AVTR-1 pins torch < 2.8 (cu128), tensorrt <= 10.12 and numpy 2.0 for x86 (pixi.toml);
+# on the GB10 we use torch 2.11 cu130 (installed first, in the Dockerfile) and
+# TensorRT 10.14.1, the version the DGX Spark port of Ditto (same LivePortrait
+# renderer and GridSample3D plugin) built with.
+--extra-index-url https://pypi.nvidia.com
+tensorrt-cu13==10.14.1.48.post1
+onnx>=1.17,<2
+onnx-graphsurgeon>=0.5
+# CUDA 13 build with an aarch64 wheel; AVTR-1 registers the photo with it (IOBinding on CUDA)
+onnxruntime-gpu[cuda,cudnn]==1.31.1
+numpy>=2,<3
+opencv-python-headless>=4.11,<5
+scikit-image>=0.25,<0.26
+kornia>=0.8.1,<0.9
+roma>=1.5.4,<2
+einops>=0.8.1,<0.9
+safetensors>=0.5,<1
+soundfile>=0.13.1,<0.14
+soxr>=0.5
+attrs>=25.3
+tenacity>=9.1.2,<10
+tqdm
+imageio
+imageio-ffmpeg
+huggingface-hub>=0.34,<1
+# the Wav2Lip fallback (LiveTalking's audio code)
+scipy
+librosa<1
+# server + LiveKit (aarch64 wheel for livekit 1.2.1)
+livekit==1.2.1
+livekit-api==1.2.2
+fastapi==0.115.12
+uvicorn[standard]==0.34.2

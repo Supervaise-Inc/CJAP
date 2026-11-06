@@ -981,7 +981,15 @@ class Gestures:
             from reachy_mini import ReachyMini
             from reachy_mini.utils import create_head_pose
             self._pose = create_head_pose
-            self.mini = ReachyMini(media_backend="no_media")
+            # 2026-11-05 (DGX Spark + Reachy Mini Lite): the daemon runs on the
+            # host with --fastapi-port because :8000 is taken there.
+            # CJ_REACHY_PORT unset = the SDK default, exactly as before.
+            _rport = os.environ.get("CJ_REACHY_PORT", "").strip()
+            if _rport:
+                self.mini = ReachyMini(port=int(_rport), connection_mode="localhost_only",
+                                       media_backend="no_media")
+            else:
+                self.mini = ReachyMini(media_backend="no_media")
             self.mini.enable_motors(); print("[gestures] connected, motors on")
         except Exception as e:
             print(f"[gestures] disabled ({e})")

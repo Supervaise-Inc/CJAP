@@ -1,0 +1,6 @@
+# Reachy Mini Lite on the DGX Spark (2026-11-05). From Pollen's install docs and
+# NVIDIA's spark-reachy-photo-booth: the motor bus (1a86:55d3, /dev/ttyACM0) and
+# the audio board (38fb:1001, XVF3800 control over libusb) for group members.
+SUBSYSTEM=="tty", ATTRS{idVendor}=="1a86", ATTRS{idProduct}=="55d3", MODE="0660", GROUP="dialout"
+SUBSYSTEM=="usb", ATTRS{idVendor}=="1a86", ATTRS{idProduct}=="55d3", MODE="0660", GROUP="dialout"
+SUBSYSTEM=="usb", ATTR{idVendor}=="38fb", ATTR{idProduct}=="1001", MODE="0660", GROUP="plugdev"

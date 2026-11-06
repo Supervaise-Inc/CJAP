@@ -47,7 +47,10 @@ DEFAULT_URL = "http://127.0.0.1:8080"
 TTL_CAP_S = 3.0        # never trust a longer lease than this
 POLL_S = 1.0
 HTTP_TIMEOUT_S = 0.8   # < POLL_S so a hung server still yields one tick per second
-ROBOTS_PATH = Path(__file__).resolve().parent.parent / "config" / "robots.json"
+# CJ_ROBOTS_JSON (2026-11-05): another machine map, e.g. the DGX Spark's
+# deploy/spark/robots.json, without editing alpha's config/robots.json.
+ROBOTS_PATH = Path(os.environ.get("CJ_ROBOTS_JSON", "").strip()
+                   or Path(__file__).resolve().parent.parent / "config" / "robots.json")
 
 _robots_cache: dict = {}
 

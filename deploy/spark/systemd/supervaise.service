@@ -1,0 +1,22 @@
+[Unit]
+Description=Supervaise CJ Panganiban voice robot on the DGX Spark (Reachy Mini Lite, wake word "Cee-Jap")
+After=network-online.target reachy-daemon.service
+Wants=network-online.target reachy-daemon.service
+
+[Service]
+Type=simple
+User=sv
+Group=sv
+WorkingDirectory=/home/sv/Supervaise-Reachy-Mini-Project-main/app
+Environment=CJ_WAKE_WORD_ENABLED=1
+# Playback: ALSA pulse plugin -> PipeWire in sv's user session (linger on).
+Environment=XDG_RUNTIME_DIR=/run/user/1001
+# The dashboard key (CJ_DASH_KEY): the lease requests must carry the console's key.
+EnvironmentFile=-/etc/cjap/dashboard.env
+# Give the daemon a beat to expose the SDK before Gestures connects
+# (Gestures degrades to no-op for the whole process life if it can't connect).
+ExecStartPre=/bin/sleep 8
+ExecStart=/home/sv/Supervaise-Reachy-Mini-Project-main/app/.venv/bin/python -u main_voice_robot.py --wake
+Restart=on-failure
+RestartSec=5
+# Started by ~/bin/sv-robot on (robot mode), not at boot: no [Install] section.
