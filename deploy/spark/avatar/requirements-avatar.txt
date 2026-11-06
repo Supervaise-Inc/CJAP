@@ -1,0 +1,28 @@
+# cjap-avatar image (Python 3.12, aarch64, CUDA 13.0), 2026-11-06.
+# TensorRT 10.14.1: the version the DGX Spark port of Ditto used; listed for DGX Spark in its notes.
+--extra-index-url https://pypi.nvidia.com
+tensorrt-cu13==10.14.1.48.post1
+polygraphy
+onnx
+cuda-python>=13,<14
+# Ditto (antgroup/ditto-talkinghead @ c3e47ee); its cfg pickles need numpy >= 2
+numpy>=2,<3
+scipy
+opencv-python-headless<5
+scikit-image
+librosa<1
+soxr
+filetype
+imageio
+imageio-ffmpeg
+tqdm
+einops
+cython
+setuptools
+colored
+# server + LiveKit (aarch64 wheel for livekit 1.2.1)
+livekit==1.2.1
+livekit-api==1.2.2
+fastapi==0.115.12
+uvicorn[standard]==0.34.2
+huggingface-hub>=1.5,<2

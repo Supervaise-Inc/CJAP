@@ -13,9 +13,22 @@ set -u
 RUN=~/robot/run
 SAVED=$RUN/split-before.json
 UNITS="reachy-daemon supervaise pi-dashboard cjap-whisper-keepalive"
+AV=~/Supervaise-Reachy-Mini-Project-main/deploy/spark/avatar
+AVATAR_ON=~/robot/avatar/enabled          # touch it to include the video avatar
 mkdir -p "$RUN"
 
 health() { curl -s -m 3 http://127.0.0.1:8091/health 2>/dev/null; }
+avhealth() { curl -s -m 3 http://127.0.0.1:8092/health 2>/dev/null; }
+
+wait_avatar() {
+  echo "waiting for cjap-avatar (engines load, up to 5 min)..."
+  for _ in $(seq 1 60); do
+    if avhealth | grep -q '"ok":true'; then echo "cjap-avatar ready: $(avhealth)"; return 0; fi
+    sleep 5
+  done
+  echo "cjap-avatar not ready after 5 min — see: docker logs sv-avatar-cjap-avatar-1 --tail 50"
+  return 1
+}
 
 wait_tts() {
   echo "waiting for cjap-tts (model load + warmup, up to 5 min)..."
@@ -49,6 +62,11 @@ case "${1:-status}" in
     fi
     ( cd ~/Supervaise-Reachy-Mini-Project-main/deploy/spark/compose && docker compose up -d cjap-tts ) || exit 1
     wait_tts || exit 1
+    if [ -f $AVATAR_ON ]; then           # a face problem must not stop the robot
+      if ( cd $AV && docker compose up -d ) && wait_avatar; then :; else
+        echo "WARNING: the video avatar did not start; the robot runs without it"
+      fi
+    fi
     sudo systemctl start $UNITS || exit 1
     sleep 2
     systemctl --no-pager --lines=0 status $UNITS | grep -E '^●|Active:'
@@ -57,6 +75,7 @@ case "${1:-status}" in
   off)
     sudo systemctl stop supervaise cjap-whisper-keepalive pi-dashboard reachy-daemon
     ( cd ~/Supervaise-Reachy-Mini-Project-main/deploy/spark/compose && docker compose stop cjap-tts )
+    ( cd $AV && docker compose stop ) 2>/dev/null
     if [ "$(cat $RUN/MODE 2>/dev/null)" != robot ]; then
       echo "not in robot mode: services stopped, LLM split left as it is"
       exit 0
@@ -80,6 +99,7 @@ case "${1:-status}" in
     echo "mode: $(cat $RUN/MODE 2>/dev/null || echo office)"
     systemctl --no-pager --lines=0 status $UNITS 2>/dev/null | grep -E '^●|Active:'
     echo "cjap-tts: $(health || echo down)"
+    echo "cjap-avatar: $(avhealth || echo down) (enabled: $([ -f $AVATAR_ON ] && echo yes || echo no))"
     ~/bin/sv-split 2>/dev/null | head -8
     ;;
   *)

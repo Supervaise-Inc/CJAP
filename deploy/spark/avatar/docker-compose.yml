@@ -1,0 +1,53 @@
+# sv-avatar: the local video avatar for CJAP on the DGX Spark.
+#   cd ~/Supervaise-Reachy-Mini-Project-main/deploy/spark/avatar && docker compose up -d
+# Host networking: the browser on the LAN reaches LiveKit (7880 tcp, 7881 tcp, 7882 udp)
+# and the control socket (8092) at 192.168.1.201 directly; no Docker UDP proxying.
+name: sv-avatar
+
+services:
+  livekit:
+    image: livekit/livekit-server:v1.13.11
+    network_mode: host
+    user: "1001:1001"                          # reads the mode-600 livekit.yaml owned by sv
+    command: ["--config", "/etc/livekit.yaml"]
+    volumes:
+      - /home/sv/robot/avatar/livekit.yaml:/etc/livekit.yaml:ro
+    restart: "no"
+
+  cjap-avatar:
+    image: sv/cjap-avatar:1
+    build:
+      context: .
+      dockerfile: Dockerfile.avatar
+    network_mode: host
+    user: "1001:1001"
+    env_file:
+      - /home/sv/robot/avatar/avatar.env        # keys: AVATAR_API_KEY, AVATAR_ID, LIVEKIT_API_KEY/SECRET (mode 600)
+    environment:
+      AVATAR_ENGINE: ${AVATAR_ENGINE:-ditto}    # ditto | wav2lip | still; override from the shell
+      AVATAR_PUBLIC_HOST: 192.168.1.201
+      AVATAR_PORT: "8092"
+      AVATAR_PHOTO: /avatar/portrait.jpg
+      AVATAR_SIZE: "720"                        # the still engine; Ditto uses the photo's size
+      TQDM_DISABLE: "1"                         # no progress bars in the log
+      AVATAR_DITTO_DATA: /models/ditto/ditto_trt_spark
+      AVATAR_DITTO_CFG: /models/ditto/ditto_cfg/v0.4_hubert_cfg_trt_online.pkl
+      AVATAR_DITTO_PLUGIN: /opt/libgrid_sample_3d_plugin.so
+      AVATAR_DITTO_STEPS: "10"
+      AVATAR_DITTO_OVERLAP: "70"
+      AVATAR_DITTO_AHEAD: "28"
+      AVATAR_W2L_CKPT: /models/wav2lip/wav2lip256.pth
+      AVATAR_W2L_DIR: /avatar/wav2lip
+    volumes:
+      - /home/sv/models:/models
+      - /home/sv/robot/avatar:/avatar
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [gpu]
+    mem_limit: 24g
+    depends_on: [livekit]
+    restart: "no"

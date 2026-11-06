@@ -1,0 +1,53 @@
+# cjap-avatar: the local LiveAvatar stand-in for CJAP on the DGX Spark.
+# Ditto (TensorRT 10.14, sm_121) live from one photo; Wav2Lip as a research-only fallback;
+# LiveKit publisher; FastAPI server. One image for building the engines and running.
+FROM nvidia/cuda:13.0.2-devel-ubuntu24.04
+
+ARG DEBIAN_FRONTEND=noninteractive
+# TensorRT C++ headers + libs for the GridSample3D plugin (NVIDIA's CUDA apt repo).
+# `apt-cache madison libnvinfer-dev` inside the image lists the exact strings.
+ARG TRT_DEB=10.14.1.48-1+cuda13.0
+ARG DITTO_REF=c3e47ee
+ARG GS3D_REF=f964750b8ce8d5453251a4036572d471a4c395e1
+ARG LIVETALKING_REF=c7269433a2b6ecebcd9342445d2ecc882c98b0da
+
+RUN apt-get update && apt-get install -y --no-install-recommends \
+      python3 python3-venv python3-dev build-essential cmake git ca-certificates \
+      ffmpeg libgl1 libglib2.0-0 \
+      libnvinfer10=${TRT_DEB} libnvinfer-dev=${TRT_DEB} libnvinfer-headers-dev=${TRT_DEB} \
+ && rm -rf /var/lib/apt/lists/*
+
+RUN python3 -m venv /opt/venv
+ENV PATH=/opt/venv/bin:$PATH PIP_NO_CACHE_DIR=1
+RUN pip install torch==2.11.0 --index-url https://download.pytorch.org/whl/cu130
+COPY requirements-avatar.txt /opt/cjap-avatar/requirements-avatar.txt
+RUN pip install -r /opt/cjap-avatar/requirements-avatar.txt
+
+# GridSample3D TensorRT plugin, built for sm_121 (the shipped .so is x86-64)
+COPY gs3d/CMakeLists.txt /tmp/gs3d-CMakeLists.txt
+RUN git clone https://github.com/SeanWangJS/grid-sample3d-trt-plugin /opt/gs3d \
+ && cd /opt/gs3d && git checkout ${GS3D_REF} \
+ && cp /tmp/gs3d-CMakeLists.txt CMakeLists.txt \
+ && cmake -S . -B build -DCMAKE_BUILD_TYPE=Release && cmake --build build -j"$(nproc)" \
+ && cp build/libgrid_sample_3d_plugin.so /opt/libgrid_sample_3d_plugin.so
+
+# Ditto, pinned; two patches for this box:
+#  - cuda-python 13 moved the bindings: from cuda.bindings import driver/runtime/nvrtc
+#  - no Ampere_Plus "hardware compatibility" engines (slower; only with DITTO_TRT_COMPAT=1)
+RUN git clone https://github.com/antgroup/ditto-talkinghead /opt/ditto \
+ && cd /opt/ditto && git checkout ${DITTO_REF} \
+ && sed -i 's/^from cuda import cuda, cudart, nvrtc$/from cuda.bindings import driver as cuda, runtime as cudart, nvrtc/' core/utils/tensorrt_utils.py \
+ && grep -q '^from cuda.bindings import driver as cuda' core/utils/tensorrt_utils.py \
+ && sed -i 's/if cap\[0\] >= 8:/if os.environ.get("DITTO_TRT_COMPAT") == "1" and cap[0] >= 8:/' scripts/cvt_onnx_to_trt.py \
+ && test "$(grep -c 'DITTO_TRT_COMPAT' scripts/cvt_onnx_to_trt.py)" = 2
+
+# LiveTalking (only for the research-only Wav2Lip fallback); the commit is recorded below
+RUN git clone https://github.com/lipku/LiveTalking /opt/livetalking \
+ && git -C /opt/livetalking checkout ${LIVETALKING_REF}
+
+COPY . /opt/cjap-avatar
+WORKDIR /opt/cjap-avatar
+RUN pip freeze > /opt/cjap-avatar/versions.txt
+ENV HOME=/tmp USER=cjap PYTHONUNBUFFERED=1 HF_HUB_OFFLINE=1
+EXPOSE 8092
+CMD ["python", "avatar_server.py"]
